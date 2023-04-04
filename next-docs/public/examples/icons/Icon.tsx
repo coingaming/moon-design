@@ -1,4 +1,4 @@
-import { mergeClassnames } from '@heathmont/moon-core-tw';
+import { Tooltip, mergeClassnames } from '@heathmont/moon-core-tw';
 
 export type IconProps = {
   name: string;
@@ -15,14 +15,21 @@ const Icon: React.FC<IconProps> = ({
 }) => {
   const isShown = selectedIcons.includes(name);
   return (
-    <div
-      onClick={() => onClick(name)}
-      className={mergeClassnames(
-        'relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active transition-colors',
-        isShown ? 'text-active bg-active-80' : 'text-gray-400'
-      )}
-    >
-      {children}
+    <div onClick={() => onClick(name)}>
+      <Tooltip>
+        <Tooltip.Trigger
+          className={mergeClassnames(
+            'relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active transition-colors',
+            isShown ? 'text-active bg-active-80' : 'text-gray-400'
+          )}
+        >
+          {children}
+        </Tooltip.Trigger>
+        <Tooltip.Content>
+          {name}
+          <Tooltip.Arrow />
+        </Tooltip.Content>
+      </Tooltip>
     </div>
   );
 };
