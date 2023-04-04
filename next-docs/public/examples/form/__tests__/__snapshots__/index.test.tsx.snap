@@ -72,37 +72,35 @@ Object {
                   data-headlessui-state=""
                   id="headlessui-listbox-button-:ra:"
                 >
-                  <div>
-                    <div
-                      class="relative"
+                  <div
+                    class="relative"
+                  >
+                    <button
+                      class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                     >
-                      <button
-                        class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                      <span
+                        class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
                       >
                         <span
-                          class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-                        >
-                          <span
-                            class="text-moon-16 text-trunks"
-                          />
-                        </span>
-                        <svg
-                          class="text-trunks flex-shrink-0 transition-transform text-moon-24"
-                          fill="none"
-                          height="1em"
-                          viewBox="0 0 32 32"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M22 13l-6 6-6-6"
-                            stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          />
-                        </svg>
-                      </button>
-                    </div>
+                          class="text-moon-16 text-trunks"
+                        />
+                      </span>
+                      <svg
+                        class="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                        fill="none"
+                        height="1em"
+                        viewBox="0 0 32 32"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M22 13l-6 6-6-6"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </button>
                   </div>
                 </div>
               </div>
@@ -127,37 +125,35 @@ Object {
                   data-headlessui-state=""
                   id="headlessui-listbox-button-:rd:"
                 >
-                  <div>
-                    <div
-                      class="relative"
+                  <div
+                    class="relative"
+                  >
+                    <button
+                      class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                     >
-                      <button
-                        class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                      <span
+                        class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
                       >
                         <span
-                          class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-                        >
-                          <span
-                            class="text-moon-16 text-trunks"
-                          />
-                        </span>
-                        <svg
-                          class="text-trunks flex-shrink-0 transition-transform text-moon-24"
-                          fill="none"
-                          height="1em"
-                          viewBox="0 0 32 32"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M22 13l-6 6-6-6"
-                            stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          />
-                        </svg>
-                      </button>
-                    </div>
+                          class="text-moon-16 text-trunks"
+                        />
+                      </span>
+                      <svg
+                        class="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                        fill="none"
+                        height="1em"
+                        viewBox="0 0 32 32"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M22 13l-6 6-6-6"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </button>
                   </div>
                 </div>
               </div>
@@ -182,37 +178,35 @@ Object {
                   data-headlessui-state=""
                   id="headlessui-listbox-button-:rg:"
                 >
-                  <div>
-                    <div
-                      class="relative"
+                  <div
+                    class="relative"
+                  >
+                    <button
+                      class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                     >
-                      <button
-                        class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                      <span
+                        class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
                       >
                         <span
-                          class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-                        >
-                          <span
-                            class="text-moon-16 text-trunks"
-                          />
-                        </span>
-                        <svg
-                          class="text-trunks flex-shrink-0 transition-transform text-moon-24"
-                          fill="none"
-                          height="1em"
-                          viewBox="0 0 32 32"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M22 13l-6 6-6-6"
-                            stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          />
-                        </svg>
-                      </button>
-                    </div>
+                          class="text-moon-16 text-trunks"
+                        />
+                      </span>
+                      <svg
+                        class="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                        fill="none"
+                        height="1em"
+                        viewBox="0 0 32 32"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M22 13l-6 6-6-6"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </button>
                   </div>
                 </div>
               </div>
@@ -331,37 +325,35 @@ Object {
                 data-headlessui-state=""
                 id="headlessui-listbox-button-:ra:"
               >
-                <div>
-                  <div
-                    class="relative"
+                <div
+                  class="relative"
+                >
+                  <button
+                    class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                   >
-                    <button
-                      class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                    <span
+                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
                     >
                       <span
-                        class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-                      >
-                        <span
-                          class="text-moon-16 text-trunks"
-                        />
-                      </span>
-                      <svg
-                        class="text-trunks flex-shrink-0 transition-transform text-moon-24"
-                        fill="none"
-                        height="1em"
-                        viewBox="0 0 32 32"
-                        width="1em"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M22 13l-6 6-6-6"
-                          stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                      </svg>
-                    </button>
-                  </div>
+                        class="text-moon-16 text-trunks"
+                      />
+                    </span>
+                    <svg
+                      class="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                      fill="none"
+                      height="1em"
+                      viewBox="0 0 32 32"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M22 13l-6 6-6-6"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
                 </div>
               </div>
             </div>
@@ -386,37 +378,35 @@ Object {
                 data-headlessui-state=""
                 id="headlessui-listbox-button-:rd:"
               >
-                <div>
-                  <div
-                    class="relative"
+                <div
+                  class="relative"
+                >
+                  <button
+                    class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                   >
-                    <button
-                      class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                    <span
+                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
                     >
                       <span
-                        class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-                      >
-                        <span
-                          class="text-moon-16 text-trunks"
-                        />
-                      </span>
-                      <svg
-                        class="text-trunks flex-shrink-0 transition-transform text-moon-24"
-                        fill="none"
-                        height="1em"
-                        viewBox="0 0 32 32"
-                        width="1em"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M22 13l-6 6-6-6"
-                          stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                      </svg>
-                    </button>
-                  </div>
+                        class="text-moon-16 text-trunks"
+                      />
+                    </span>
+                    <svg
+                      class="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                      fill="none"
+                      height="1em"
+                      viewBox="0 0 32 32"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M22 13l-6 6-6-6"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
                 </div>
               </div>
             </div>
@@ -441,37 +431,35 @@ Object {
                 data-headlessui-state=""
                 id="headlessui-listbox-button-:rg:"
               >
-                <div>
-                  <div
-                    class="relative"
+                <div
+                  class="relative"
+                >
+                  <button
+                    class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                   >
-                    <button
-                      class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                    <span
+                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
                     >
                       <span
-                        class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-                      >
-                        <span
-                          class="text-moon-16 text-trunks"
-                        />
-                      </span>
-                      <svg
-                        class="text-trunks flex-shrink-0 transition-transform text-moon-24"
-                        fill="none"
-                        height="1em"
-                        viewBox="0 0 32 32"
-                        width="1em"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M22 13l-6 6-6-6"
-                          stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                      </svg>
-                    </button>
-                  </div>
+                        class="text-moon-16 text-trunks"
+                      />
+                    </span>
+                    <svg
+                      class="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                      fill="none"
+                      height="1em"
+                      viewBox="0 0 32 32"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M22 13l-6 6-6-6"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
                 </div>
               </div>
             </div>
@@ -915,37 +903,35 @@ Object {
                 data-headlessui-state=""
                 id="headlessui-listbox-button-:r1:"
               >
-                <div>
-                  <div
-                    class="relative"
+                <div
+                  class="relative"
+                >
+                  <button
+                    class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                   >
-                    <button
-                      class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                    <span
+                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
                     >
                       <span
-                        class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-                      >
-                        <span
-                          class="text-moon-16 text-trunks"
-                        />
-                      </span>
-                      <svg
-                        class="text-trunks flex-shrink-0 transition-transform text-moon-24"
-                        fill="none"
-                        height="1em"
-                        viewBox="0 0 32 32"
-                        width="1em"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M22 13l-6 6-6-6"
-                          stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                      </svg>
-                    </button>
-                  </div>
+                        class="text-moon-16 text-trunks"
+                      />
+                    </span>
+                    <svg
+                      class="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                      fill="none"
+                      height="1em"
+                      viewBox="0 0 32 32"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M22 13l-6 6-6-6"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
                 </div>
               </div>
             </div>
@@ -970,37 +956,35 @@ Object {
                 data-headlessui-state=""
                 id="headlessui-listbox-button-:r4:"
               >
-                <div>
-                  <div
-                    class="relative"
+                <div
+                  class="relative"
+                >
+                  <button
+                    class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                   >
-                    <button
-                      class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                    <span
+                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
                     >
                       <span
-                        class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-                      >
-                        <span
-                          class="text-moon-16 text-trunks"
-                        />
-                      </span>
-                      <svg
-                        class="text-trunks flex-shrink-0 transition-transform text-moon-24"
-                        fill="none"
-                        height="1em"
-                        viewBox="0 0 32 32"
-                        width="1em"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M22 13l-6 6-6-6"
-                          stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                      </svg>
-                    </button>
-                  </div>
+                        class="text-moon-16 text-trunks"
+                      />
+                    </span>
+                    <svg
+                      class="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                      fill="none"
+                      height="1em"
+                      viewBox="0 0 32 32"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M22 13l-6 6-6-6"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
                 </div>
               </div>
             </div>
@@ -1025,37 +1009,35 @@ Object {
                 data-headlessui-state=""
                 id="headlessui-listbox-button-:r7:"
               >
-                <div>
-                  <div
-                    class="relative"
+                <div
+                  class="relative"
+                >
+                  <button
+                    class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                   >
-                    <button
-                      class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                    <span
+                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
                     >
                       <span
-                        class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-                      >
-                        <span
-                          class="text-moon-16 text-trunks"
-                        />
-                      </span>
-                      <svg
-                        class="text-trunks flex-shrink-0 transition-transform text-moon-24"
-                        fill="none"
-                        height="1em"
-                        viewBox="0 0 32 32"
-                        width="1em"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M22 13l-6 6-6-6"
-                          stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                      </svg>
-                    </button>
-                  </div>
+                        class="text-moon-16 text-trunks"
+                      />
+                    </span>
+                    <svg
+                      class="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                      fill="none"
+                      height="1em"
+                      viewBox="0 0 32 32"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M22 13l-6 6-6-6"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
                 </div>
               </div>
             </div>
@@ -1170,37 +1152,35 @@ Object {
               data-headlessui-state=""
               id="headlessui-listbox-button-:r1:"
             >
-              <div>
-                <div
-                  class="relative"
+              <div
+                class="relative"
+              >
+                <button
+                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                 >
-                  <button
-                    class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                  <span
+                    class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-                    >
-                      <span
-                        class="text-moon-16 text-trunks"
-                      />
-                    </span>
-                    <svg
-                      class="text-trunks flex-shrink-0 transition-transform text-moon-24"
-                      fill="none"
-                      height="1em"
-                      viewBox="0 0 32 32"
-                      width="1em"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M22 13l-6 6-6-6"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </button>
-                </div>
+                      class="text-moon-16 text-trunks"
+                    />
+                  </span>
+                  <svg
+                    class="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 32 32"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M22 13l-6 6-6-6"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </button>
               </div>
             </div>
           </div>
@@ -1225,37 +1205,35 @@ Object {
               data-headlessui-state=""
               id="headlessui-listbox-button-:r4:"
             >
-              <div>
-                <div
-                  class="relative"
+              <div
+                class="relative"
+              >
+                <button
+                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                 >
-                  <button
-                    class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                  <span
+                    class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-                    >
-                      <span
-                        class="text-moon-16 text-trunks"
-                      />
-                    </span>
-                    <svg
-                      class="text-trunks flex-shrink-0 transition-transform text-moon-24"
-                      fill="none"
-                      height="1em"
-                      viewBox="0 0 32 32"
-                      width="1em"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M22 13l-6 6-6-6"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </button>
-                </div>
+                      class="text-moon-16 text-trunks"
+                    />
+                  </span>
+                  <svg
+                    class="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 32 32"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M22 13l-6 6-6-6"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </button>
               </div>
             </div>
           </div>
@@ -1280,37 +1258,35 @@ Object {
               data-headlessui-state=""
               id="headlessui-listbox-button-:r7:"
             >
-              <div>
-                <div
-                  class="relative"
+              <div
+                class="relative"
+              >
+                <button
+                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                 >
-                  <button
-                    class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                  <span
+                    class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-                    >
-                      <span
-                        class="text-moon-16 text-trunks"
-                      />
-                    </span>
-                    <svg
-                      class="text-trunks flex-shrink-0 transition-transform text-moon-24"
-                      fill="none"
-                      height="1em"
-                      viewBox="0 0 32 32"
-                      width="1em"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M22 13l-6 6-6-6"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                      />
-                    </svg>
-                  </button>
-                </div>
+                      class="text-moon-16 text-trunks"
+                    />
+                  </span>
+                  <svg
+                    class="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 32 32"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M22 13l-6 6-6-6"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </button>
               </div>
             </div>
           </div>
