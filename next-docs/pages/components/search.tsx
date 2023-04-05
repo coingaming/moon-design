@@ -4,6 +4,7 @@ import ComponentPageDescription from '../../components/ComponentPageDescription'
 import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/search/Default';
+import CommandMenu from '../../public/examples/search/CommandMenu';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
@@ -17,6 +18,12 @@ const Example = () => {
       <Preview
         title="Default"
         preview={<Default />}
+        code={examples ? examples.Default : 'Loading'}
+      />
+
+      <Preview
+        title="CommandMenu"
+        preview={<CommandMenu />}
         code={examples ? examples.Default : 'Loading'}
       />
 
