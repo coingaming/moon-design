@@ -126,25 +126,21 @@ const Select = ({
         </SelectButton.Label>
       )}
       <Listbox.Button as={'div'} ref={pooper?.setAnchor}>
-        <div>
-          <SelectButton
-            size={size}
-            open={open}
-            isError={isError}
-            idDisabled={disabled}
-            {...rest}
-          >
-            <SelectButton.Input className={className}>
-              {children ? (
-                <SelectButton.Value>{children}</SelectButton.Value>
-              ) : (
-                <SelectButton.Placeholder>
-                  {placeholder}
-                </SelectButton.Placeholder>
-              )}
-            </SelectButton.Input>
-          </SelectButton>
-        </div>
+        <SelectButton
+          size={size}
+          open={open}
+          isError={isError}
+          idDisabled={disabled}
+          {...rest}
+        >
+          <SelectButton.Input className={className}>
+            {children ? (
+              <SelectButton.Value>{children}</SelectButton.Value>
+            ) : (
+              <SelectButton.Placeholder>{placeholder}</SelectButton.Placeholder>
+            )}
+          </SelectButton.Input>
+        </SelectButton>
       </Listbox.Button>
     </>
   );
@@ -165,28 +161,24 @@ const InsetSelect = ({
   );
   return (
     <Listbox.Button as={'div'} ref={pooper?.setAnchor}>
-      <div>
-        <SelectButton
-          size={size}
-          open={open}
-          isError={isError}
-          idDisabled={disabled}
-          {...rest}
-        >
-          <SelectButton.InsetInput className={className}>
-            <span className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap">
-              <SelectButton.FloatingLabel>{label}</SelectButton.FloatingLabel>
-              {children ? (
-                <SelectButton.Value>{children}</SelectButton.Value>
-              ) : (
-                <SelectButton.Placeholder>
-                  {placeholder}
-                </SelectButton.Placeholder>
-              )}
-            </span>
-          </SelectButton.InsetInput>
-        </SelectButton>
-      </div>
+      <SelectButton
+        size={size}
+        open={open}
+        isError={isError}
+        idDisabled={disabled}
+        {...rest}
+      >
+        <SelectButton.InsetInput className={className}>
+          <span className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap">
+            <SelectButton.FloatingLabel>{label}</SelectButton.FloatingLabel>
+            {children ? (
+              <SelectButton.Value>{children}</SelectButton.Value>
+            ) : (
+              <SelectButton.Placeholder>{placeholder}</SelectButton.Placeholder>
+            )}
+          </span>
+        </SelectButton.InsetInput>
+      </SelectButton>
     </Listbox.Button>
   );
 };
@@ -213,30 +205,26 @@ const MultiSelect = ({
         </SelectButton.Label>
       )}
       <Listbox.Button as={'div'} ref={pooper?.setAnchor}>
-        <div>
-          <SelectButton
-            size={size}
-            open={open}
-            isError={isError}
-            idDisabled={disabled}
-            {...rest}
-          >
-            <SelectButton.Input className={mergeClassnames(className)}>
-              <span className="flex gap-2 items-center">
-                {counter > 0 && (
-                  <SelectButton.Value>
-                    <SelectButton.Chip onClear={onClear}>
-                      {counter}
-                    </SelectButton.Chip>
-                  </SelectButton.Value>
-                )}
-                <SelectButton.Placeholder>
-                  {placeholder}
-                </SelectButton.Placeholder>
-              </span>
-            </SelectButton.Input>
-          </SelectButton>
-        </div>
+        <SelectButton
+          size={size}
+          open={open}
+          isError={isError}
+          idDisabled={disabled}
+          {...rest}
+        >
+          <SelectButton.Input className={mergeClassnames(className)}>
+            <span className="flex gap-2 items-center">
+              {counter > 0 && (
+                <SelectButton.Value>
+                  <SelectButton.Chip onClear={onClear}>
+                    {counter}
+                  </SelectButton.Chip>
+                </SelectButton.Value>
+              )}
+              <SelectButton.Placeholder>{placeholder}</SelectButton.Placeholder>
+            </span>
+          </SelectButton.Input>
+        </SelectButton>
       </Listbox.Button>
     </>
   );
@@ -258,31 +246,27 @@ const InsetMultiSelect = ({
   );
   return (
     <Listbox.Button as={'div'} ref={pooper?.setAnchor}>
-      <div>
-        <SelectButton
-          size={size}
-          open={open}
-          isError={isError}
-          idDisabled={disabled}
-          {...rest}
+      <SelectButton
+        size={size}
+        open={open}
+        isError={isError}
+        idDisabled={disabled}
+        {...rest}
+      >
+        <SelectButton.InsetInput
+          className={mergeClassnames(className, '[&_>_span]:gap-4')}
         >
-          <SelectButton.InsetInput
-            className={mergeClassnames(className, '[&_>_span]:gap-4')}
-          >
-            {counter > 0 && (
-              <SelectButton.Value>
-                <SelectButton.Chip onClear={onClear}>
-                  {counter}
-                </SelectButton.Chip>
-              </SelectButton.Value>
-            )}
-            <span className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap">
-              <SelectButton.FloatingLabel>{label}</SelectButton.FloatingLabel>
-              <SelectButton.Placeholder>{placeholder}</SelectButton.Placeholder>
-            </span>
-          </SelectButton.InsetInput>
-        </SelectButton>
-      </div>
+          {counter > 0 && (
+            <SelectButton.Value>
+              <SelectButton.Chip onClear={onClear}>{counter}</SelectButton.Chip>
+            </SelectButton.Value>
+          )}
+          <span className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap">
+            <SelectButton.FloatingLabel>{label}</SelectButton.FloatingLabel>
+            <SelectButton.Placeholder>{placeholder}</SelectButton.Placeholder>
+          </span>
+        </SelectButton.InsetInput>
+      </SelectButton>
     </Listbox.Button>
   );
 };
