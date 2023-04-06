@@ -135,6 +135,11 @@ const components = [
     text: 'Search enables users to specify a word or a phrase to find relevant pieces of content without the use of navigation.',
   },
   {
+    name: 'SearchCmdk',
+    href: '/components/searchCmdk',
+    text: 'Command menu search can be used as an accessible combobox. You render items, it filters and sorts them automatically.',
+  },
+  {
     name: 'NativeSelect',
     href: '/components/nativeSelect',
     text: 'A form input used for selecting a value: when collapsed it shows the currently selected option and when expanded, it shows a scrollable list of predefined options for the user to choose from.',

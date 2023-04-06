@@ -28,6 +28,12 @@ function CommandMenu() {
 
   return (
     <>
+      <SearchCmdk.Trigger onClick={() => { setOpen(true) }}>
+        <SearchCmdk.TriggerIcon />
+        <span className="text-moon-16">Search...</span>
+        <SearchCmdk.TriggerKbd>⌘K</SearchCmdk.TriggerKbd>
+      </SearchCmdk.Trigger>
+
       {open && <SearchCmdk.Overlay />}
 
       <SearchCmdk

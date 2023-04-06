@@ -3,7 +3,7 @@ import { Command } from "cmdk";
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import GenericSearch from '../private/icons/GenericSearch';
 
-const SearchCmdk = (
+const SearchCmdkRoot = (
   {
     children,
     className,
@@ -149,15 +149,85 @@ const ResultItem = ({ children, className, onSelect, ...props }: React.Component
   </Command.Item>
 }
 
-SearchCmdk.InputWrapper = InputWrapper;
-SearchCmdk.Input = Input;
-SearchCmdk.Icon = Icon;
-SearchCmdk.Separator = Separator;
-SearchCmdk.Result = Result;
-SearchCmdk.ResultItem = ResultItem;
-SearchCmdk.NoResults = NoResults;
-SearchCmdk.Kbd = Kbd;
-SearchCmdk.Overlay = Overlay;
+const OldTrigger = ({ className, ...props }: React.HTMLAttributes<HTMLButtonElement>) => {
+  return <button
+    aria-label="Search"
+    className={
+      mergeClassnames(
+        "flex h-10 cursor-text items-center justify-between",
+        "rounded-moon-i-sm border border-beerus bg-gohan px-2 text-sm",
+        "hover:border-trunks w-full"
+      )}
+    {...props}
+  >
+    <span className="flex gap-2 items-center text-moon-16 text-trunks">
+      <GenericSearch className="text-moon-24" />
+      <span>Search...</span>
+    </span>
+    <kbd
+      className="inline-block whitespace-nowrap rounded px-1.5 align-middle font-medium leading-4 tracking-wide text-moon-14 border border-beerus text-trunks"
+    >
+      ⌘K
+    </kbd>
+  </button>
+}
+
+const Trigger = ({ className, children, ...props }: React.HTMLAttributes<HTMLButtonElement>) => {
+  return <button
+    aria-label="Search"
+    className={
+      mergeClassnames(
+        "flex gap-2 h-10 cursor-text items-center text-trunks",
+        "rounded-moon-i-sm border border-beerus bg-gohan px-2 text-sm",
+        "hover:border-trunks w-full"
+      )}
+    {...props}
+  >
+    {children}
+  </button>
+}
+
+const TriggerIcon = ({ className, ...props }: React.ComponentProps<typeof GenericSearch>) => {
+  return <GenericSearch
+    className={
+      mergeClassnames("text-moon-24 text-trunks", className)
+    }
+    {...props}
+  />
+}
+
+const TriggerKbd = ({ className, children, ...props }: React.HTMLAttributes<HTMLDivElement>) => {
+  return <kbd
+    className={
+      mergeClassnames(
+        "inline-block whitespace-nowrap rounded px-1.5 align-middle",
+        "font-medium leading-4 tracking-wide text-moon-14 border",
+        "border-beerus text-trunks",
+        "ml-auto",
+        className
+      )}
+    {...props}
+  >
+    {children}
+  </kbd>
+}
+
+const SearchCmdk = Object.assign(
+  SearchCmdkRoot,
+  {
+    InputWrapper,
+    Input,
+    Icon,
+    Separator,
+    Result,
+    ResultItem,
+    NoResults,
+    Kbd,
+    Overlay,
+    Trigger,
+    TriggerIcon,
+    TriggerKbd
+  })
 
 export default SearchCmdk;
 
