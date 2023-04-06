@@ -5,6 +5,7 @@ import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import CommandMenu from '../../public/examples/searchCmdk/CommandMenu';
 import useExamples from '../../utils/useExamples';
+import ComponentAnatomy from '../../components/ComponentAnatomy';
 
 const Example = () => {
   const examples = useExamples('searchCmdk');
@@ -20,6 +21,32 @@ const Example = () => {
         preview={<CommandMenu />}
         code={examples ? examples.CommandMenu : 'Loading'}
       />
+
+      <ComponentAnatomy>
+        {`<SearchCmdk.Trigger>
+  <SearchCmdk.TriggerIcon />
+  ...
+  <SearchCmdk.TriggerKbd />
+</SearchCmdk.Trigger>
+
+<SearchCmdk>
+  <SearchCmdk.InputWrapper>
+    <SearchCmdk.Icon />
+    <SearchCmdk.Input />
+    <SearchCmdk.Kbd />
+  </SearchCmdk.InputWrapper>
+
+  <SearchCmdk.Separator />
+
+  <SearchCmdk.Result>
+    <SearchCmdk.NoResults />
+    <SearchCmdk.ResultItem>
+      ...
+    </SearchCmdk.ResultItem>
+  </SearchCmdk.Result>
+</SearchCmdk>
+`}
+      </ComponentAnatomy>
 
       <PropsTable
         title="SearchCmdk props"
