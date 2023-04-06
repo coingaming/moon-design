@@ -1,7 +1,7 @@
 import React from "react";
 import { Command } from "cmdk";
-import mergeClassnames from '../../mergeClassnames/mergeClassnames';
-import GenericSearch from '../../private/icons/GenericSearch';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
+import GenericSearch from '../private/icons/GenericSearch';
 
 const SearchCmdk = (
   {
