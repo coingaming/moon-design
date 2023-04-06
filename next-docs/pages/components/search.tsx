@@ -4,7 +4,6 @@ import ComponentPageDescription from '../../components/ComponentPageDescription'
 import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/search/Default';
-import CommandMenu from '../../public/examples/searchCmdk/CommandMenu';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
@@ -18,12 +17,6 @@ const Example = () => {
       <Preview
         title="Default"
         preview={<Default />}
-        code={examples ? examples.Default : 'Loading'}
-      />
-
-      <Preview
-        title="SearchCmdk"
-        preview={<CommandMenu />}
         code={examples ? examples.Default : 'Loading'}
       />
 
@@ -93,171 +86,6 @@ const Example = () => {
             required: false,
             default: '_',
             description: 'Function for setting selected item index',
-          },
-        ]}
-      />
-
-      <PropsTable
-        title="SearchCmdk props"
-        data={[
-          {
-            name: 'open',
-            type: 'boolean',
-            required: true,
-            default: '-',
-            description: 'Whether the SearchCmdk is open or not.',
-          },
-          {
-            name: 'onOpenChange',
-            type: '(open: boolean) => void',
-            required: true,
-            default: '-',
-            description: 'The function to call when SearchCmdk is open or closed.',
-          },
-          {
-            name: 'label',
-            type: 'string',
-            required: false,
-            default: '',
-            description: 'Label title',
-          },
-          {
-            name: 'className',
-            type: 'string',
-            required: false,
-            default: '',
-            description: 'Tailwind classes for customization',
-          },
-        ]}
-      />
-
-      <PropsTable
-        title="SearchCmdk.InputWrapper props"
-        data={[
-          {
-            name: 'className',
-            type: 'string',
-            required: false,
-            default: '',
-            description: 'Tailwind classes for customization',
-          },
-        ]}
-      />
-
-      <PropsTable
-        title="SearchCmdk.Input props"
-        data={[
-          {
-            name: 'className',
-            type: 'string',
-            required: false,
-            default: '',
-            description: 'Tailwind classes for customization',
-          },
-          {
-            name: 'placeholder',
-            type: 'string',
-            required: false,
-            default: '',
-            description: 'Placeholder for input',
-          },
-        ]}
-      />
-
-      <PropsTable
-        title="SearchCmdk.Icon props"
-        data={[
-          {
-            name: 'className',
-            type: 'string',
-            required: false,
-            default: '',
-            description: 'Tailwind classes for customization',
-          },
-        ]}
-      />
-
-      <PropsTable
-        title="SearchCmdk.Separator props"
-        data={[
-          {
-            name: 'className',
-            type: 'string',
-            required: false,
-            default: '',
-            description: 'Tailwind classes for customization',
-          },
-        ]}
-      />
-
-      <PropsTable
-        title="SearchCmdk.Result props"
-        data={[
-          {
-            name: 'className',
-            type: 'string',
-            required: false,
-            default: '',
-            description: 'Tailwind classes for customization',
-          },
-        ]}
-      />
-
-      <PropsTable
-        title="SearchCmdk.NoResults props"
-        data={[
-          {
-            name: 'className',
-            type: 'string',
-            required: false,
-            default: '',
-            description: 'Tailwind classes for customization',
-          },
-        ]}
-      />
-
-      <PropsTable
-        title="SearchCmdk.ResultItem props"
-        data={[
-          {
-            name: 'className',
-            type: 'string',
-            required: false,
-            default: '',
-            description: 'Tailwind classes for customization',
-          },
-          {
-            name: 'onSelect',
-            type: '(value: string) => void',
-            required: false,
-            default: '',
-            description: 'The function to call when ResultItem is selected.',
-          },
-        ]}
-      />
-
-      <PropsTable
-        title="SearchCmdk.Kbd props"
-        data={[
-          {
-            name: 'className',
-            type: 'string',
-            required: false,
-            default: '',
-            description: 'Tailwind classes for customization',
-          },
-        ]}
-      />
-
-      <PropsTable
-        title="SearchCmdk.Overlay props"
-        data={[
-          {
-            name: 'className',
-            type: 'string',
-            required: false,
-            default: '',
-            description: 'Tailwind classes for customization',
           },
         ]}
       />
