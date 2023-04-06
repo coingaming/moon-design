@@ -35,7 +35,7 @@ function CommandMenu() {
         onOpenChange={setOpen}
         label="Command Menu"
       >
-        <SearchCmdk.Wrapper>
+        <SearchCmdk.InputWrapper>
           <SearchCmdk.Icon />
           <SearchCmdk.Input
             placeholder="Search for a component"
@@ -43,14 +43,14 @@ function CommandMenu() {
           <SearchCmdk.Kbd onClick={() => setOpen(false)}>
             Esc
           </SearchCmdk.Kbd>
-        </SearchCmdk.Wrapper>
+        </SearchCmdk.InputWrapper>
         <SearchCmdk.Separator />
-        <SearchCmdk.List>
+        <SearchCmdk.Result>
           <SearchCmdk.NoResults>
             No Results
           </SearchCmdk.NoResults>
           {items.map((item) => (
-            <SearchCmdk.ListItem
+            <SearchCmdk.ResultItem
               key={item.label}
               onSelect={() => {
                 setOpen(false);
@@ -60,9 +60,9 @@ function CommandMenu() {
                 <MenuItem.Title>{item.label}</MenuItem.Title>
                 <span className="text-moon-14 text-piccolo">Action</span>
               </MenuItem>
-            </SearchCmdk.ListItem>
+            </SearchCmdk.ResultItem>
           ))}
-        </SearchCmdk.List>
+        </SearchCmdk.Result>
       </SearchCmdk>
     </>
   );

@@ -1,12 +1,18 @@
 import React from "react";
-import type { ReactNode } from "react";
 import { Command } from "cmdk";
 import mergeClassnames from '../../mergeClassnames/mergeClassnames';
 import GenericSearch from '../../private/icons/GenericSearch';
 
 const SearchCmdk = (
-  { children, className, open, onOpenChange, label, ...props }:
-    { children: ReactNode, className?: string, open: boolean, onOpenChange: any, label: string }) => {
+  {
+    children,
+    className,
+    open,
+    onOpenChange,
+    label,
+    ...props
+  }: React.ComponentProps<typeof Command.Dialog>
+) => {
   return <Command.Dialog
     className={mergeClassnames(
       "z-50",
@@ -24,7 +30,9 @@ const SearchCmdk = (
   </Command.Dialog>
 }
 
-function Wrapper({ children, className, ...props }: { children: ReactNode, className?: string }) {
+const InputWrapper = (
+  { children, className, ...props }: React.HTMLAttributes<HTMLDivElement>
+) => {
   return <div
     className={
       mergeClassnames(
@@ -37,7 +45,9 @@ function Wrapper({ children, className, ...props }: { children: ReactNode, class
   </div>
 }
 
-const Input = ({ className, placeholder = "Search", ...props }: { className?: string, placeholder?: string }) => {
+const Input = (
+  { className, placeholder = "Search", ...props }: React.ComponentProps<typeof Command.Input>
+) => {
   return <Command.Input
     placeholder={placeholder}
     className={mergeClassnames(
@@ -48,7 +58,7 @@ const Input = ({ className, placeholder = "Search", ...props }: { className?: st
   />
 }
 
-const Icon = ({ className, ...props }: { className?: string }) => {
+const Icon = ({ className, ...props }: React.ComponentProps<typeof GenericSearch>) => {
   return <GenericSearch
     className={
       mergeClassnames(
@@ -60,7 +70,9 @@ const Icon = ({ className, ...props }: { className?: string }) => {
   />
 }
 
-const Kbd = ({ className, children, ...props }: any) => {
+const Kbd = (
+  { className, children, ...props }: React.HTMLAttributes<HTMLDivElement>
+) => {
   return <kbd
     className={
       mergeClassnames(
@@ -74,7 +86,9 @@ const Kbd = ({ className, children, ...props }: any) => {
   </kbd>
 }
 
-const Overlay = ({ className }: { className?: string }) => {
+const Overlay = (
+  { className, ...props }: React.HTMLAttributes<HTMLDivElement>
+) => {
   return <div
     className={
       mergeClassnames(
@@ -82,17 +96,18 @@ const Overlay = ({ className }: { className?: string }) => {
         className
       )
     }
+    {...props}
   />
 }
 
-const Separator = ({ className }: { className?: string }) => {
+const Separator = ({ className }: React.ComponentProps<typeof Command.Separator>) => {
   return <Command.Separator
     alwaysRender
     className={mergeClassnames("h-px bg-beerus", className)}
   />
 }
 
-const List = ({ children, className, ...props }: { children: ReactNode, className?: string }) => {
+const Result = ({ children, className, ...props }: React.ComponentProps<typeof Command.List>) => {
   return <Command.List
     style={{
       // Should be equal p-2 below
@@ -109,7 +124,7 @@ const List = ({ children, className, ...props }: { children: ReactNode, classNam
   </Command.List>
 }
 
-const NoResults = ({ children, className }: { children: ReactNode, className?: string }) => {
+const NoResults = ({ children, className }: React.ComponentProps<typeof Command.Empty>) => {
   return <Command.Empty
     className={
       mergeClassnames(
@@ -121,7 +136,7 @@ const NoResults = ({ children, className }: { children: ReactNode, className?: s
   </Command.Empty>
 }
 
-const ListItem = ({ children, className, onSelect, ...props }: { children: ReactNode, className?: string, onSelect: any }) => {
+const ResultItem = ({ children, className, onSelect, ...props }: React.ComponentProps<typeof Command.Item>) => {
   return <Command.Item
     className={mergeClassnames(
       "p-2 cursor-pointer focus:outline-none select-none",
@@ -134,12 +149,12 @@ const ListItem = ({ children, className, onSelect, ...props }: { children: React
   </Command.Item>
 }
 
-SearchCmdk.Wrapper = Wrapper;
+SearchCmdk.InputWrapper = InputWrapper;
 SearchCmdk.Input = Input;
 SearchCmdk.Icon = Icon;
 SearchCmdk.Separator = Separator;
-SearchCmdk.List = List;
-SearchCmdk.ListItem = ListItem;
+SearchCmdk.Result = Result;
+SearchCmdk.ResultItem = ResultItem;
 SearchCmdk.NoResults = NoResults;
 SearchCmdk.Kbd = Kbd;
 SearchCmdk.Overlay = Overlay;
