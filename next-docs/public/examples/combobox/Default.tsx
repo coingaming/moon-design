@@ -12,30 +12,56 @@ const people = [
 
 const Example = () => {
   const [selected, setSelected] = useState(
-    people[0]
+    people[4]
   );
 
   const [query, setQuery] = useState<string>('');
 
+  const resetAfterSelect = (value: React.SetStateAction<{ id: number; label: string; value: string; }>) => {
+    setSelected(value);
+    setQuery('');
+  }
+
+  const filteredPeople =
+    query === ''
+      ? people
+      : people.filter((person) =>
+          person.value
+            .toLowerCase()
+            .replace(/\s+/g, '')
+            .includes(query.toLowerCase().replace(/\s+/g, ''))
+        )
+
   return (
     <div className="w-56 h-80">
-      <Combobox value={selected} onChange={setSelected} onQueryChange={setQuery}>
+      <Combobox value={selected} onChange={resetAfterSelect} onQueryChange={setQuery}>
         <Combobox.Trigger>
-          <span className="p-2 cursor-pointer hover:text-piccolo">
-            {selected?.label}
-          </span>
+          <Combobox.Input
+            displayValue={({ label }) => label}
+            onChange={setSelected}
+            onQueryChange={setQuery}
+            placeholder={'Choose a name...'}
+          />
+          <Combobox.Button></Combobox.Button>
         </Combobox.Trigger>
 
         <Combobox.Options>
-          {people.map((person, index) => (
-            <Combobox.Option value={person} key={index}>
-              {({ selected, active }) => (
-                <MenuItem isActive={active} isSelected={selected}>
-                  {person.label}
-                </MenuItem>
-              )}
-            </Combobox.Option>
-          ))}
+          { filteredPeople.length === 0 && query !== '' ? (
+            <div className="relative cursor-default select-none py-2 px-4 text-gray-700">
+              Nothing found.
+            </div>
+          ) : (
+            filteredPeople.map((person, index) => (
+              <Combobox.Option value={person} key={index}>
+                {({ selected, active }) => (
+                  <div>
+                    <MenuItem isActive={active} isSelected={selected}>
+                      {person.label}
+                    </MenuItem>
+                  </div>
+                )}
+              </Combobox.Option>
+          ))) }
         </Combobox.Options>
       </Combobox>
     </div>

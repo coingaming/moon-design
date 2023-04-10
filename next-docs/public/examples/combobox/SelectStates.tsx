@@ -26,7 +26,7 @@ const Example = () => {
       <Combobox value={selected0} onChange={setSelected0} onQueryChange={setQuery0} isError={true}>
         {({ open }) => (
           <>
-            <Combobox.Select open={open} label="Error">
+            {/*<Combobox.Select open={open} label="Error">
               {selected0?.label}
             </Combobox.Select>
 
@@ -40,7 +40,7 @@ const Example = () => {
                   )}
                 </Combobox.Option>
               ))}
-            </Combobox.Options>
+                  </Combobox.Options>*/}
             <Combobox.Hint>Informative message holder</Combobox.Hint>
           </>
         )}
@@ -49,7 +49,7 @@ const Example = () => {
       <Combobox value={selected1} onChange={setSelected1} onQueryChange={setQuery1} disabled={true}>
         {({ open }) => (
           <>
-            <Combobox.Select open={open} label="Disabled">
+            {/*<Combobox.Select open={open} label="Disabled">
               {selected1?.label}
             </Combobox.Select>
             <Combobox.Options>
@@ -62,7 +62,7 @@ const Example = () => {
                   )}
                 </Combobox.Option>
               ))}
-            </Combobox.Options>
+                  </Combobox.Options>*/}
             <Combobox.Hint>Informative message holder</Combobox.Hint>
           </>
         )}
@@ -71,7 +71,7 @@ const Example = () => {
       <Combobox value={selected2} onChange={setSelected2} onQueryChange={setQuery2}>
         {({ open }) => (
           <>
-            <Combobox.Select
+            {/*<Combobox.Select
               open={open}
               placeholder="Without Label and Hint message"
             >
@@ -87,7 +87,7 @@ const Example = () => {
                   )}
                 </Combobox.Option>
               ))}
-            </Combobox.Options>
+                  </Combobox.Options>*/}
           </>
         )}
       </Combobox>
@@ -95,7 +95,7 @@ const Example = () => {
       <Combobox value={selected3} onChange={setSelected3} onQueryChange={setQuery3}>
         {({ open }) => (
           <>
-            <Combobox.Select
+            {/*<Combobox.Select
               open={open}
               label="List options width"
               placeholder="Choose an option"
@@ -113,7 +113,7 @@ const Example = () => {
                   )}
                 </Combobox.Option>
               ))}
-            </Combobox.Options>
+                  </Combobox.Options>*/}
             <Combobox.Hint>Informative message holder</Combobox.Hint>
           </>
         )}

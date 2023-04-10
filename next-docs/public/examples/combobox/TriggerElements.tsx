@@ -24,7 +24,7 @@ const Example = () => {
     <div className="flex flex-col lg:flex-row align-middle justify-around items-center w-full gap-2">
       {/** ***** Custom trigger element ***** */}
       <Combobox value={selected0} onChange={setSelected0} onQueryChange={setQuery0}>
-        <Combobox.Trigger>
+        {/*<Combobox.Trigger>
           <div className="w-10 h-10 bg-gohan rounded-moon-i-md flex align-middle justify-center items-center cursor-pointer transition-colors hover:bg-piccolo/20 ">
             <ControlsChevronDown className="text-moon-24 text-trunks" />
           </div>
@@ -40,12 +40,12 @@ const Example = () => {
               )}
             </Combobox.Option>
           ))}
-        </Combobox.Options>
+              </Combobox.Options>*/}
       </Combobox>
 
       {/** ***** Button ***** */}
       <Combobox value={selected1} onChange={setSelected1} onQueryChange={setQuery1}>
-        <Combobox.Trigger>
+        {/*<Combobox.Trigger>
           <Button>Select name</Button>
         </Combobox.Trigger>
         <Combobox.Options>
@@ -58,12 +58,12 @@ const Example = () => {
               )}
             </Combobox.Option>
           ))}
-        </Combobox.Options>
+              </Combobox.Options>*/}
       </Combobox>
 
       {/** ***** Chip ***** */}
       <Combobox value={selected2} onChange={setSelected2} onQueryChange={setQuery2}>
-        {({ open }) => (
+        {/*({ open }) => (
           <>
             <Combobox.Trigger>
               <Chip
@@ -90,7 +90,7 @@ const Example = () => {
               ))}
             </Combobox.Options>
           </>
-        )}
+                  )*/}
       </Combobox>
     </div>
   );

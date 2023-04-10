@@ -24,7 +24,7 @@ const Example = () => {
       <Combobox value={selected0} onChange={setSelected0} onQueryChange={setQuery0} size="sm">
         {({ open }) => (
           <>
-            <Combobox.Select
+            {/*<Combobox.Select
               open={open}
               label="Small"
               placeholder="Choose an option"
@@ -43,7 +43,7 @@ const Example = () => {
                   )}
                 </Combobox.Option>
               ))}
-            </Combobox.Options>
+                  </Combobox.Options>*/}
             <Combobox.Hint>Informative message holder</Combobox.Hint>
           </>
         )}
@@ -52,7 +52,7 @@ const Example = () => {
       <Combobox value={selected1} onChange={setSelected1} onQueryChange={setQuery1}>
         {({ open }) => (
           <>
-            <Combobox.Select
+            {/*<Combobox.Select
               open={open}
               label="Medium"
               placeholder="Choose an option"
@@ -70,7 +70,7 @@ const Example = () => {
                   )}
                 </Combobox.Option>
               ))}
-            </Combobox.Options>
+                  </Combobox.Options>*/}
             <Combobox.Hint>Informative message holder</Combobox.Hint>
           </>
         )}
@@ -79,7 +79,7 @@ const Example = () => {
       <Combobox value={selected2} onChange={setSelected2} onQueryChange={setQuery2} size="lg">
         {({ open }) => (
           <>
-            <Combobox.Select
+            {/*<Combobox.Select
               open={open}
               label="Large"
               placeholder="Choose an option"
@@ -97,7 +97,7 @@ const Example = () => {
                   )}
                 </Combobox.Option>
               ))}
-            </Combobox.Options>
+                  </Combobox.Options>*/}
             <Combobox.Hint>Informative message holder</Combobox.Hint>
           </>
         )}

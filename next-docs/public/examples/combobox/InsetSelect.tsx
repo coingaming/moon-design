@@ -20,7 +20,7 @@ const Example = () => {
       <Combobox value={option} onChange={setOption} onQueryChange={setQuery}>
         {({ open }) => (
           <>
-            <Combobox.InsetSelect
+            ({/*<Combobox.InsetSelect
               open={open}
               label="Select label"
               placeholder="Choose an option"
@@ -39,7 +39,7 @@ const Example = () => {
                   )}
                 </Combobox.Option>
               ))}
-            </Combobox.Options>
+                  </Combobox.Options>*/})
             <Combobox.Hint>Informative message holder</Combobox.Hint>
           </>
         )}

@@ -42,7 +42,7 @@ const Example = () => {
   return(
     <div className="flex flex-col lg:flex-row align-middle justify-around items-center w-full gap-2">
       <Combobox value={option} onChange={setOption} onQueryChange={setQuery0}>
-        <Combobox.Trigger>
+        {/*<Combobox.Trigger>
           <Chip>Sort by</Chip>
         </Combobox.Trigger>
         <Combobox.Options>
@@ -56,11 +56,11 @@ const Example = () => {
               )}
             </Combobox.Option>
           ))}
-        </Combobox.Options>
+              </Combobox.Options>*/}
       </Combobox>
 
       <Combobox value={language} onChange={setLanguage} onQueryChange={setQuery1}>
-        <Combobox.Trigger>
+        {/*<Combobox.Trigger>
           <Chip>Select language</Chip>
         </Combobox.Trigger>
         <Combobox.Options>
@@ -74,11 +74,11 @@ const Example = () => {
               )}
             </Combobox.Option>
           ))}
-        </Combobox.Options>
+              </Combobox.Options>*/}
       </Combobox>
 
       <Combobox value={selectedCountry} onChange={setSelectedCountry} onQueryChange={setQuery2} multiple>
-        <Combobox.Trigger>
+        {/*<Combobox.Trigger>
           <Chip>Select countries</Chip>
         </Combobox.Trigger>
         <Combobox.Options>
@@ -93,7 +93,7 @@ const Example = () => {
               )}
             </Combobox.Option>
           ))}
-        </Combobox.Options>
+              </Combobox.Options>*/}
       </Combobox>
     </div>
   );

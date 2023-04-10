@@ -6,6 +6,8 @@ type ComboboxState = {
   isError?: boolean;
   disabled?: boolean;
   onClear?: () => void;
+  displayValue?: (value: InputValue) => string;
+  open?: boolean;
   popper?: {
     styles?: { [key: string]: React.CSSProperties };
     attributes?: { [key: string]: { [key: string]: string } | undefined };

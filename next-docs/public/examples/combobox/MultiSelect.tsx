@@ -31,7 +31,7 @@ const Example = () => {
       >
         {({ open }) => (
           <>
-            <Combobox.MultiSelect
+            {/*<Combobox.MultiSelect
               open={open}
               label="Small"
               placeholder="Choose an option"
@@ -48,7 +48,7 @@ const Example = () => {
                   )}
                 </Combobox.Option>
               ))}
-            </Combobox.Options>
+                  </Combobox.Options>*/}
             <Combobox.Hint>Informative message holder</Combobox.Hint>
           </>
         )}
@@ -63,7 +63,7 @@ const Example = () => {
       >
         {({ open }) => (
           <>
-            <Combobox.MultiSelect
+            {/*<Combobox.MultiSelect
               open={open}
               label="Medium"
               placeholder="Choose an option"
@@ -81,7 +81,7 @@ const Example = () => {
                   )}
                 </Combobox.Option>
               ))}
-            </Combobox.Options>
+                  </Combobox.Options>*/}
             <Combobox.Hint>Informative message holder</Combobox.Hint>
           </>
         )}
@@ -97,7 +97,7 @@ const Example = () => {
       >
         {({ open }) => (
           <>
-            <Combobox.MultiSelect
+            {/*<Combobox.MultiSelect
               open={open}
               label="Large"
               placeholder="Choose an option"
@@ -114,7 +114,7 @@ const Example = () => {
                   )}
                 </Combobox.Option>
               ))}
-            </Combobox.Options>
+                  </Combobox.Options>*/}
             <Combobox.Hint>Informative message holder</Combobox.Hint>
           </>
         )}

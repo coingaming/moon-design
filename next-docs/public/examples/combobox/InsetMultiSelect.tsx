@@ -26,7 +26,7 @@ const Example = () => {
       >
         {({ open }) => (
           <>
-            <Combobox.InsetMultiSelect
+            ({/*<Combobox.InsetMultiSelect
               open={open}
               label="Select label"
               placeholder="Choose an option"
@@ -43,7 +43,7 @@ const Example = () => {
                   )}
                 </Combobox.Option>
               ))}
-            </Combobox.Options>
+                  </Combobox.Options>*/})
             <Combobox.Hint>Informative message holder</Combobox.Hint>
           </>
         )}
