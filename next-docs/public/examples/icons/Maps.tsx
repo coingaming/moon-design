@@ -1,5 +1,5 @@
 import {
-  MapsCompas,
+  MapsCompass,
   MapsLocation,
   MapsMap,
   MapsMarker,
@@ -24,7 +24,7 @@ interface Props {
 const Example = ({ wrapperProps, props }: Props) => (
   <>
     <Icon {...wrapperProps} name="MapsCompas">
-      <MapsCompas {...props} />
+      <MapsCompass {...props} />
     </Icon>
     <Icon {...wrapperProps} name="MapsLocation">
       <MapsLocation {...props} />
