@@ -149,29 +149,6 @@ const ResultItem = ({ children, className, onSelect, ...props }: React.Component
   </Command.Item>
 }
 
-const OldTrigger = ({ className, ...props }: React.HTMLAttributes<HTMLButtonElement>) => {
-  return <button
-    aria-label="Search"
-    className={
-      mergeClassnames(
-        "flex h-10 cursor-text items-center justify-between",
-        "rounded-moon-i-sm border border-beerus bg-gohan px-2 text-sm",
-        "hover:border-trunks w-full"
-      )}
-    {...props}
-  >
-    <span className="flex gap-2 items-center text-moon-16 text-trunks">
-      <GenericSearch className="text-moon-24" />
-      <span>Search...</span>
-    </span>
-    <kbd
-      className="inline-block whitespace-nowrap rounded px-1.5 align-middle font-medium leading-4 tracking-wide text-moon-14 border border-beerus text-trunks"
-    >
-      ⌘K
-    </kbd>
-  </button>
-}
-
 const Trigger = ({ className, children, ...props }: React.HTMLAttributes<HTMLButtonElement>) => {
   return <button
     aria-label="Search"
