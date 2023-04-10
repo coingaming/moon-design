@@ -4,7 +4,7 @@ import GenericSearch from '../../../private/icons/GenericSearch';
 import { SearchContext } from '../utils/context';
 
 const Wrapper = ({ children }: { children: ReactNode }) => {
-  return <div className="flex items-center space-x-1.5 pl-3 moon-search-input">
+  return <div className="flex items-center space-x-1.5 pl-3 moon-search-input z-0">
     {children}
   </div>
 }
@@ -55,6 +55,7 @@ const InnerInput = forwardRef(({
     value={search}
     type="text"
     autoFocus={autoFocus}
+    autoComplete="off"
   />
 })
 

@@ -5,7 +5,6 @@ import {
   searchFilterItems,
   searchGetItemIndex,
 } from '@heathmont/moon-core-tw';
-import { JsonStructureItem } from '@heathmont/moon-core-tw/lib/search/private/types';
 
 const Example = () => {
   const [open, setOpen] = useState<boolean>(false);
@@ -79,8 +78,7 @@ const Example = () => {
             Clear
           </Search.Input.ButtonClear>
         </Search.Input>
-
-        <Search.Result isOpen={open}>
+        <Search.ResultNoTransition isOpen={open}>
           {filteredItems.length ? (
             filteredItems.map((list: any) => (
               <ul className='space-y-1'>
@@ -93,7 +91,7 @@ const Example = () => {
                       closeOnSelect={true}
                       {...rest}
                     >
-                      {(selected) =>
+                      {(selected: boolean) =>
                         href ? (
                           <a href={href}>
                             <MenuItem isActive={selected}>
@@ -111,7 +109,6 @@ const Example = () => {
                         )
                       }
                     </Search.ResultItem>
-
                   ))}
                 </li>
               </ul>
@@ -119,7 +116,7 @@ const Example = () => {
           ) : (
             <Search.NoResults />
           )}
-        </Search.Result>
+        </Search.ResultNoTransition>
       </Search>
     </div>
   );

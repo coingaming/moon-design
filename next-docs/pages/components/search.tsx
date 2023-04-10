@@ -4,6 +4,8 @@ import ComponentPageDescription from '../../components/ComponentPageDescription'
 import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/search/Default';
+import NoTransition from '../../public/examples/search/NoTransition';
+
 import useExamples from '../../utils/useExamples';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 
@@ -18,6 +20,12 @@ const Example = () => {
       <Preview
         title="Default"
         preview={<Default />}
+        code={examples ? examples.Default : 'Loading'}
+      />
+
+      <Preview
+        title="No Transition"
+        preview={<NoTransition />}
         code={examples ? examples.Default : 'Loading'}
       />
 
