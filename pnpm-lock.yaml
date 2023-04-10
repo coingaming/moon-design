@@ -107,7 +107,7 @@ importers:
       '@heathmont/moon-datepicker': workspace:^9.28.1
       '@heathmont/moon-draggabletable': workspace:^9.28.1
       '@heathmont/moon-icons': workspace:^9.28.1
-      '@heathmont/moon-icons-tw': workspace:^9.28.1
+      '@heathmont/moon-icons-tw': 9.28.2
       '@heathmont/moon-pagination': workspace:^9.28.1
       '@heathmont/moon-popover': workspace:^9.28.1
       '@heathmont/moon-select': workspace:^9.28.1
@@ -166,7 +166,7 @@ importers:
       '@heathmont/moon-datepicker': link:../packages/datepicker
       '@heathmont/moon-draggabletable': link:../packages/draggabletable
       '@heathmont/moon-icons': link:../packages/icons
-      '@heathmont/moon-icons-tw': link:../workspaces/icons
+      '@heathmont/moon-icons-tw': 9.28.2_biqbaboplfbrettd7655fr4n2y
       '@heathmont/moon-pagination': link:../packages/pagination
       '@heathmont/moon-popover': link:../packages/popover
       '@heathmont/moon-select': link:../packages/select
@@ -557,32 +557,6 @@ importers:
       smooth-scroll-into-view-if-needed: 1.1.27
       tailwind-merge: 1.8.0
       tailwindcss-radix: 2.7.0
-
-  workspaces/icons:
-    specifiers:
-      '@types/node': 13.13.52
-      '@types/ramda': 0.26.44
-      '@types/rimraf': 2.0.5
-      argparse: 2.0.1
-      axios: 0.21.4
-      figma-js: 1.14.0
-      figma-transformer: 2.1.0
-      fs: 0.0.1-security
-      ramda: 0.27.1
-      rimraf: 3.0.2
-      ts-node-dev: 1.1.8
-    devDependencies:
-      '@types/node': 13.13.52
-      '@types/ramda': 0.26.44
-      '@types/rimraf': 2.0.5
-      argparse: 2.0.1
-      axios: 0.21.4
-      figma-js: 1.14.0
-      figma-transformer: 2.1.0
-      fs: 0.0.1-security
-      ramda: 0.27.1
-      rimraf: 3.0.2
-      ts-node-dev: 1.1.8_typescript@4.9.5
 
   workspaces/tables:
     specifiers:
@@ -2436,6 +2410,16 @@ packages:
       react-dom: ^16 || ^17 || ^18
     dependencies:
       client-only: 0.0.1
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    dev: false
+
+  /@heathmont/moon-icons-tw/9.28.2_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-Djibg/Kadggop2xKEGH0MttCqvVO++1HuXh4KKeV4I7nufjnZfJFSvuoDeVOzU5o1cGkU0CE0JBNr6yaIY1ylg==}
+    peerDependencies:
+      react: '>= 18.2.0'
+      react-dom: '>= 18.2.0'
+    dependencies:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     dev: false

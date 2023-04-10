@@ -7,7 +7,7 @@ import {
   TextCenter,
   TextClearFormatting,
   TextCut,
-  TextDescreaseIndent,
+  TextDecreaseIndent,
   TextHashtag,
   TextIncreaseIndent,
   TextInsertLine,
@@ -63,8 +63,8 @@ const Example = ({ wrapperProps, props }: Props) => (
     <Icon {...wrapperProps} name="TextCut">
       <TextCut {...props} />
     </Icon>
-    <Icon {...wrapperProps} name="TextDescreaseIndent">
-      <TextDescreaseIndent {...props} />
+    <Icon {...wrapperProps} name="TextDecreaseIndent">
+      <TextDecreaseIndent {...props} />
     </Icon>
     <Icon {...wrapperProps} name="TextHashtag">
       <TextHashtag {...props} />
