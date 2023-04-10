@@ -5,6 +5,7 @@ import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/search/Default';
 import useExamples from '../../utils/useExamples';
+import ComponentAnatomy from '../../components/ComponentAnatomy';
 
 const Example = () => {
   const examples = useExamples('search');
