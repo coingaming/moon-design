@@ -33,7 +33,7 @@
     "@heathmont/moon-themes": "workspace:^9.28.1",
     "@heathmont/moon-themes-tw": "workspace:^9.28.1",
     "@heathmont/moon-utils": "workspace:^9.28.1",
-    "@heathmont/moon-icons-tw": "9.28.2",
+    "@heathmont/moon-icons-tw": "9.28.3",
     "@jest/globals": "27.4.6",
     "@next/bundle-analyzer": "^13.0.1",
     "@octokit/core": "3.5.1",
