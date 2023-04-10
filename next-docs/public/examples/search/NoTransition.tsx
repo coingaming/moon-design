@@ -78,7 +78,7 @@ const Example = () => {
             Clear
           </Search.Input.ButtonClear>
         </Search.Input>
-        <Search.ResultNoTransition isOpen={open}>
+        <Search.Result isOpen={open}>
           {filteredItems.length ? (
             filteredItems.map((list: any) => (
               <ul className='space-y-1'>
@@ -116,7 +116,7 @@ const Example = () => {
           ) : (
             <Search.NoResults />
           )}
-        </Search.ResultNoTransition>
+        </Search.Result>
       </Search>
     </div>
   );

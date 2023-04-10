@@ -3,8 +3,12 @@ import mergeClassnames from '../../../mergeClassnames/mergeClassnames';
 import GenericSearch from '../../../private/icons/GenericSearch';
 import { SearchContext } from '../utils/context';
 
-const Wrapper = ({ children }: { children: ReactNode }) => {
-  return <div className="flex items-center space-x-1.5 pl-3 moon-search-input z-0">
+const Wrapper = ({ children, className }: { children: ReactNode, className?: string }) => {
+  return <div className={
+    mergeClassnames(
+      "flex items-center space-x-1.5 pl-3 moon-search-input",
+      className
+    )}>
     {children}
   </div>
 }
@@ -13,7 +17,8 @@ const Icon = ({ className }: { className?: string }) => {
   return <GenericSearch
     className={
       mergeClassnames("w-6 h-6 pointer-events-none text-bulma", className)
-    } />
+    }
+  />
 }
 
 const InnerInput = forwardRef(({
@@ -78,5 +83,5 @@ export const ButtonClear = ({ children }: { children: ReactNode }) => {
 }
 
 export const Input = Object.assign(Wrapper, {
-  Icon, Input: InnerInput,ButtonClear
+  Icon, Input: InnerInput, ButtonClear
 })

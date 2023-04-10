@@ -153,9 +153,9 @@ const SearchRoot = ({
     <div ref={ref} onKeyDown={onKeyDown}>
       <div
         className={mergeClassnames(
-          'relative w-full h-full bg-gohan flex flex-col divide-y dark:divide-beerus',
-          'z-0',
+          'relative w-full h-full bg-gohan flex flex-col',
           isOpen ? 'rounded-t-moon-s-sm' : 'rounded-moon-s-sm',
+          '[&_.moon-search-list]:top-10',
           className
         )}
       >
@@ -169,7 +169,7 @@ const SearchRoot = ({
   );
 }
 
-const Result = ({ isOpen, children }: { isOpen: boolean, children: ReactNode }) => {
+const Transition = ({ isOpen, children, className }: { isOpen: boolean, children: ReactNode, className?: string }) => {
   return <HeadlessTransition
     show={isOpen}
     as="div"
@@ -179,29 +179,21 @@ const Result = ({ isOpen, children }: { isOpen: boolean, children: ReactNode }) 
     leave="ease-in duration-200"
     leaveFrom="opacity-100 scale-100"
     leaveTo="opacity-0 scale-95"
+    className={mergeClassnames("[&_.moon-search-list]:top-0 z-5", className)}
   >
-    <div
-      className={mergeClassnames(
-        'absolute w-full flex-1 focus:outline-none p-2 space-y-4 bg-gohan shadow-moon-md moon-search-list',
-        'z-1',
-        isOpen ? 'rounded-b-moon-s-sm' : 'rounded-moon-s-sm'
-      )}
-      tabIndex={-1}
-    >
-      {children}
-    </div>
+    {children}
   </HeadlessTransition>
 }
 
-const ResultNoTransition = ({ isOpen, children }: { isOpen: boolean, children: ReactNode }) => {
+const Result = ({ isOpen, children, className }: { isOpen: boolean, children: ReactNode, className?: string }) => {
   if (!isOpen) {
     return null
   }
   return <div
     className={mergeClassnames(
-      'absolute top-10 w-full flex-1 focus:outline-none p-2 space-y-4 bg-gohan shadow-moon-md moon-search-list',
-      'z-1',
-      isOpen ? 'rounded-b-moon-s-sm' : 'rounded-moon-s-sm'
+      'absolute w-full flex-1 focus:outline-none p-2 space-y-4 bg-gohan shadow-moon-md moon-search-list',
+      isOpen ? 'rounded-b-moon-s-sm' : 'rounded-moon-s-sm',
+      className
     )}
     tabIndex={-1}
   >
@@ -223,33 +215,15 @@ const ResultHeading: React.FC<{
   </h5>
 );
 
-const List = ({
-  children,
-  className,
-}: {
-  children: ReactNode;
-  className?: string;
-}) => {
-  return (
-    <ul
-      className={mergeClassnames('min-w-full space-y-1', className)}
-      tabIndex={-1}
-    >
-      <li>{children}</li>
-    </ul>
-  );
-}
-
 const Search = Object.assign(
   SearchRoot,
   {
     Input,
     NoResults,
+    Transition,
     Result,
-    ResultNoTransition,
     ResultItem,
     ResultHeading,
-    // List
   }
 )
 

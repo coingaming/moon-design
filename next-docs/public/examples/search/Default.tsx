@@ -5,7 +5,6 @@ import {
   searchFilterItems,
   searchGetItemIndex,
 } from '@heathmont/moon-core-tw';
-import { JsonStructureItem } from '@heathmont/moon-core-tw/lib/search/private/types';
 
 const Example = () => {
   const [open, setOpen] = useState<boolean>(false);
@@ -80,46 +79,48 @@ const Example = () => {
           </Search.Input.ButtonClear>
         </Search.Input>
 
-        <Search.Result isOpen={open}>
-          {filteredItems.length ? (
-            filteredItems.map((list: any) => (
-              <ul className='space-y-1'>
-                <li>
-                  <Search.ResultHeading>{list.heading}</Search.ResultHeading>
-                  {list.items.map(({ id, children, href, ...rest }: any) => (
-                    <Search.ResultItem
-                      key={id}
-                      index={searchGetItemIndex(filteredItems, id)}
-                      closeOnSelect={true}
-                      {...rest}
-                    >
-                      {(selected) =>
-                        href ? (
-                          <a href={href}>
+        <Search.Transition isOpen={open}>
+          <Search.Result isOpen={open}>
+            {filteredItems.length ? (
+              filteredItems.map((list: any) => (
+                <ul className='space-y-1'>
+                  <li>
+                    <Search.ResultHeading>{list.heading}</Search.ResultHeading>
+                    {list.items.map(({ id, children, href, ...rest }: any) => (
+                      <Search.ResultItem
+                        key={id}
+                        index={searchGetItemIndex(filteredItems, id)}
+                        closeOnSelect={true}
+                        {...rest}
+                      >
+                        {(selected) =>
+                          href ? (
+                            <a href={href}>
+                              <MenuItem isActive={selected}>
+                                <MenuItem.Title>{children}</MenuItem.Title>
+                                <span className="text-moon-12 text-trunks">
+                                  {href}
+                                </span>
+                              </MenuItem>
+                            </a>
+                          ) : (
                             <MenuItem isActive={selected}>
                               <MenuItem.Title>{children}</MenuItem.Title>
-                              <span className="text-moon-12 text-trunks">
-                                {href}
-                              </span>
+                              <span className="text-moon-12 text-trunks">Action</span>
                             </MenuItem>
-                          </a>
-                        ) : (
-                          <MenuItem isActive={selected}>
-                            <MenuItem.Title>{children}</MenuItem.Title>
-                            <span className="text-moon-12 text-trunks">Action</span>
-                          </MenuItem>
-                        )
-                      }
-                    </Search.ResultItem>
+                          )
+                        }
+                      </Search.ResultItem>
 
-                  ))}
-                </li>
-              </ul>
-            ))
-          ) : (
-            <Search.NoResults />
-          )}
-        </Search.Result>
+                    ))}
+                  </li>
+                </ul>
+              ))
+            ) : (
+              <Search.NoResults />
+            )}
+          </Search.Result>
+        </Search.Transition>
       </Search>
     </div>
   );
