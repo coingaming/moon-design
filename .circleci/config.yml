@@ -5,10 +5,10 @@ aliases:
 
   enable_pnpm: &enable_pnpm
     run:
-      name: 'Using Corepack to install pnpm@latest'
+      name: 'Using Corepack to install pnpm@8.2.0'
       command: |
         corepack enable
-        corepack prepare pnpm@latest --activate
+        corepack prepare pnpm@8.2.0 --activate
 
   install_deps: &install_deps
     run:
