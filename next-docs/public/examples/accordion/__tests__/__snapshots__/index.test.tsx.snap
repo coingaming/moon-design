@@ -45,7 +45,7 @@ Object {
                 >
                   <path
                     d="M25 11.5L16 20.5L7 11.5"
-                    stroke="black"
+                    stroke="currentColor"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />
@@ -96,7 +96,7 @@ Object {
                 >
                   <path
                     d="M25 11.5L16 20.5L7 11.5"
-                    stroke="black"
+                    stroke="currentColor"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />
@@ -159,7 +159,7 @@ Object {
               >
                 <path
                   d="M25 11.5L16 20.5L7 11.5"
-                  stroke="black"
+                  stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
@@ -210,7 +210,7 @@ Object {
               >
                 <path
                   d="M25 11.5L16 20.5L7 11.5"
-                  stroke="black"
+                  stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
@@ -334,7 +334,7 @@ Object {
                   >
                     <path
                       d="M12.8334 13.8889H19.1667M12.8334 18.1111H16M15.9696 25.5C10.7229 25.5 6.5 21.1722 6.5 15.952C6.5 10.7318 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7318 25.5 15.952C25.5 17.8845 24.9171 19.6815 23.9167 21.1786L25.5 25.5H15.9696Z"
-                      stroke="black"
+                      stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
                     />
@@ -348,7 +348,7 @@ Object {
                   >
                     <path
                       d="M7 23.5382L7 10.5C7 8.29087 8.79086 6.5 11 6.50001L21 6.50003C23.2091 6.50003 25 8.29089 25 10.5L25 17.9815C25 20.1906 23.2091 21.9815 21 21.9815L11.8462 21.9815L8.58752 24.3474C7.92646 24.8273 7 24.3551 7 23.5382Z"
-                      stroke="black"
+                      stroke="currentColor"
                     />
                   </svg>
                   <svg
@@ -360,7 +360,7 @@ Object {
                   >
                     <path
                       d="M13 14.5H19M16 11.5L16 17.5M7 10.5L7 23.5382C7 24.3551 7.92646 24.8273 8.58752 24.3474L11.8462 21.9815L21 21.9815C23.2091 21.9815 25 20.1906 25 17.9815V10.5C25 8.29088 23.2091 6.50003 21 6.50002L11 6.5C8.79087 6.5 7 8.29086 7 10.5Z"
-                      stroke="black"
+                      stroke="currentColor"
                       stroke-linecap="round"
                     />
                   </svg>
@@ -373,11 +373,11 @@ Object {
                   >
                     <path
                       d="M6.5 13.6342L6.5 10.5C6.5 8.29086 8.29087 6.49999 10.5 6.5L18.3936 6.50002C19.9586 6.50002 21.2272 7.76868 21.2272 9.33365C21.2272 10.8986 19.9586 12.1673 18.3936 12.1673L10.0065 12.1673L8.27139 14.2705C7.67463 14.9939 6.5 14.5719 6.5 13.6342Z"
-                      stroke="black"
+                      stroke="currentColor"
                     />
                     <path
                       d="M24.5 23.0684V20.2906C24.5 18.0815 22.7091 16.2906 20.4999 16.2906L12.6063 16.2907C11.0414 16.2907 9.77271 17.5593 9.77271 19.1243C9.77271 20.6893 11.0414 21.9579 12.6063 21.9579L20.9935 21.9579L22.7893 23.772C23.4178 24.4068 24.5 23.9618 24.5 23.0684Z"
-                      stroke="black"
+                      stroke="currentColor"
                     />
                   </svg>
                 </div>
@@ -394,7 +394,7 @@ Object {
                   >
                     <path
                       d="M25 11.5L16 20.5L7 11.5"
-                      stroke="black"
+                      stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
                     />
@@ -462,7 +462,7 @@ Object {
                 >
                   <path
                     d="M12.8334 13.8889H19.1667M12.8334 18.1111H16M15.9696 25.5C10.7229 25.5 6.5 21.1722 6.5 15.952C6.5 10.7318 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7318 25.5 15.952C25.5 17.8845 24.9171 19.6815 23.9167 21.1786L25.5 25.5H15.9696Z"
-                    stroke="black"
+                    stroke="currentColor"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />
@@ -476,7 +476,7 @@ Object {
                 >
                   <path
                     d="M7 23.5382L7 10.5C7 8.29087 8.79086 6.5 11 6.50001L21 6.50003C23.2091 6.50003 25 8.29089 25 10.5L25 17.9815C25 20.1906 23.2091 21.9815 21 21.9815L11.8462 21.9815L8.58752 24.3474C7.92646 24.8273 7 24.3551 7 23.5382Z"
-                    stroke="black"
+                    stroke="currentColor"
                   />
                 </svg>
                 <svg
@@ -488,7 +488,7 @@ Object {
                 >
                   <path
                     d="M13 14.5H19M16 11.5L16 17.5M7 10.5L7 23.5382C7 24.3551 7.92646 24.8273 8.58752 24.3474L11.8462 21.9815L21 21.9815C23.2091 21.9815 25 20.1906 25 17.9815V10.5C25 8.29088 23.2091 6.50003 21 6.50002L11 6.5C8.79087 6.5 7 8.29086 7 10.5Z"
-                    stroke="black"
+                    stroke="currentColor"
                     stroke-linecap="round"
                   />
                 </svg>
@@ -501,11 +501,11 @@ Object {
                 >
                   <path
                     d="M6.5 13.6342L6.5 10.5C6.5 8.29086 8.29087 6.49999 10.5 6.5L18.3936 6.50002C19.9586 6.50002 21.2272 7.76868 21.2272 9.33365C21.2272 10.8986 19.9586 12.1673 18.3936 12.1673L10.0065 12.1673L8.27139 14.2705C7.67463 14.9939 6.5 14.5719 6.5 13.6342Z"
-                    stroke="black"
+                    stroke="currentColor"
                   />
                   <path
                     d="M24.5 23.0684V20.2906C24.5 18.0815 22.7091 16.2906 20.4999 16.2906L12.6063 16.2907C11.0414 16.2907 9.77271 17.5593 9.77271 19.1243C9.77271 20.6893 11.0414 21.9579 12.6063 21.9579L20.9935 21.9579L22.7893 23.772C23.4178 24.4068 24.5 23.9618 24.5 23.0684Z"
-                    stroke="black"
+                    stroke="currentColor"
                   />
                 </svg>
               </div>
@@ -522,7 +522,7 @@ Object {
                 >
                   <path
                     d="M25 11.5L16 20.5L7 11.5"
-                    stroke="black"
+                    stroke="currentColor"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />
@@ -643,7 +643,7 @@ Object {
                 >
                   <path
                     d="M25 11.5L16 20.5L7 11.5"
-                    stroke="black"
+                    stroke="currentColor"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />
@@ -706,7 +706,7 @@ Object {
               >
                 <path
                   d="M25 11.5L16 20.5L7 11.5"
-                  stroke="black"
+                  stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
@@ -826,7 +826,7 @@ Object {
                 >
                   <path
                     d="M25 11.5L16 20.5L7 11.5"
-                    stroke="black"
+                    stroke="currentColor"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />
@@ -882,7 +882,7 @@ Object {
                 >
                   <path
                     d="M25 11.5L16 20.5L7 11.5"
-                    stroke="black"
+                    stroke="currentColor"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />
@@ -938,7 +938,7 @@ Object {
                 >
                   <path
                     d="M25 11.5L16 20.5L7 11.5"
-                    stroke="black"
+                    stroke="currentColor"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />
@@ -994,7 +994,7 @@ Object {
                 >
                   <path
                     d="M25 11.5L16 20.5L7 11.5"
-                    stroke="black"
+                    stroke="currentColor"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />
@@ -1057,7 +1057,7 @@ Object {
               >
                 <path
                   d="M25 11.5L16 20.5L7 11.5"
-                  stroke="black"
+                  stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
@@ -1113,7 +1113,7 @@ Object {
               >
                 <path
                   d="M25 11.5L16 20.5L7 11.5"
-                  stroke="black"
+                  stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
@@ -1169,7 +1169,7 @@ Object {
               >
                 <path
                   d="M25 11.5L16 20.5L7 11.5"
-                  stroke="black"
+                  stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
@@ -1225,7 +1225,7 @@ Object {
               >
                 <path
                   d="M25 11.5L16 20.5L7 11.5"
-                  stroke="black"
+                  stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
@@ -1345,7 +1345,7 @@ Object {
                 >
                   <path
                     d="M25 11.5L16 20.5L7 11.5"
-                    stroke="black"
+                    stroke="currentColor"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />
@@ -1396,7 +1396,7 @@ Object {
                 >
                   <path
                     d="M25 11.5L16 20.5L7 11.5"
-                    stroke="black"
+                    stroke="currentColor"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />
@@ -1459,7 +1459,7 @@ Object {
               >
                 <path
                   d="M25 11.5L16 20.5L7 11.5"
-                  stroke="black"
+                  stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
@@ -1510,7 +1510,7 @@ Object {
               >
                 <path
                   d="M25 11.5L16 20.5L7 11.5"
-                  stroke="black"
+                  stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
@@ -1634,7 +1634,7 @@ Object {
                 >
                   <path
                     d="M25 11.5L16 20.5L7 11.5"
-                    stroke="black"
+                    stroke="currentColor"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />
@@ -1702,7 +1702,7 @@ Object {
               >
                 <path
                   d="M25 11.5L16 20.5L7 11.5"
-                  stroke="black"
+                  stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
@@ -1823,7 +1823,7 @@ Object {
                 >
                   <path
                     d="M25 11.5L16 20.5L7 11.5"
-                    stroke="black"
+                    stroke="currentColor"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />
@@ -1886,7 +1886,7 @@ Object {
               >
                 <path
                   d="M25 11.5L16 20.5L7 11.5"
-                  stroke="black"
+                  stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
@@ -2006,7 +2006,7 @@ Object {
                 >
                   <path
                     d="M25 11.5L16 20.5L7 11.5"
-                    stroke="black"
+                    stroke="currentColor"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />
@@ -2070,7 +2070,7 @@ Object {
               >
                 <path
                   d="M25 11.5L16 20.5L7 11.5"
-                  stroke="black"
+                  stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
@@ -2191,7 +2191,7 @@ Object {
                 >
                   <path
                     d="M25 11.5L16 20.5L7 11.5"
-                    stroke="black"
+                    stroke="currentColor"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />
@@ -2242,7 +2242,7 @@ Object {
                 >
                   <path
                     d="M25 11.5L16 20.5L7 11.5"
-                    stroke="black"
+                    stroke="currentColor"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />
@@ -2305,7 +2305,7 @@ Object {
               >
                 <path
                   d="M25 11.5L16 20.5L7 11.5"
-                  stroke="black"
+                  stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
@@ -2356,7 +2356,7 @@ Object {
               >
                 <path
                   d="M25 11.5L16 20.5L7 11.5"
-                  stroke="black"
+                  stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
@@ -2476,7 +2476,7 @@ Object {
                 >
                   <path
                     d="M25 11.5L16 20.5L7 11.5"
-                    stroke="black"
+                    stroke="currentColor"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />
@@ -2532,7 +2532,7 @@ Object {
                 >
                   <path
                     d="M25 11.5L16 20.5L7 11.5"
-                    stroke="black"
+                    stroke="currentColor"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />
@@ -2588,7 +2588,7 @@ Object {
                 >
                   <path
                     d="M25 11.5L16 20.5L7 11.5"
-                    stroke="black"
+                    stroke="currentColor"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />
@@ -2644,7 +2644,7 @@ Object {
                 >
                   <path
                     d="M25 11.5L16 20.5L7 11.5"
-                    stroke="black"
+                    stroke="currentColor"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />
@@ -2707,7 +2707,7 @@ Object {
               >
                 <path
                   d="M25 11.5L16 20.5L7 11.5"
-                  stroke="black"
+                  stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
@@ -2763,7 +2763,7 @@ Object {
               >
                 <path
                   d="M25 11.5L16 20.5L7 11.5"
-                  stroke="black"
+                  stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
@@ -2819,7 +2819,7 @@ Object {
               >
                 <path
                   d="M25 11.5L16 20.5L7 11.5"
-                  stroke="black"
+                  stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
@@ -2875,7 +2875,7 @@ Object {
               >
                 <path
                   d="M25 11.5L16 20.5L7 11.5"
-                  stroke="black"
+                  stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
@@ -2992,7 +2992,7 @@ Object {
               >
                 <path
                   d="M25 11.5L16 20.5L7 11.5"
-                  stroke="black"
+                  stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
@@ -3043,7 +3043,7 @@ Object {
               >
                 <path
                   d="M25 11.5L16 20.5L7 11.5"
-                  stroke="black"
+                  stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
@@ -3102,7 +3102,7 @@ Object {
             >
               <path
                 d="M25 11.5L16 20.5L7 11.5"
-                stroke="black"
+                stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
@@ -3153,7 +3153,7 @@ Object {
             >
               <path
                 d="M25 11.5L16 20.5L7 11.5"
-                stroke="black"
+                stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
@@ -3273,7 +3273,7 @@ Object {
                 >
                   <path
                     d="M12.8334 13.8889H19.1667M12.8334 18.1111H16M15.9696 25.5C10.7229 25.5 6.5 21.1722 6.5 15.952C6.5 10.7318 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7318 25.5 15.952C25.5 17.8845 24.9171 19.6815 23.9167 21.1786L25.5 25.5H15.9696Z"
-                    stroke="black"
+                    stroke="currentColor"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />
@@ -3287,7 +3287,7 @@ Object {
                 >
                   <path
                     d="M7 23.5382L7 10.5C7 8.29087 8.79086 6.5 11 6.50001L21 6.50003C23.2091 6.50003 25 8.29089 25 10.5L25 17.9815C25 20.1906 23.2091 21.9815 21 21.9815L11.8462 21.9815L8.58752 24.3474C7.92646 24.8273 7 24.3551 7 23.5382Z"
-                    stroke="black"
+                    stroke="currentColor"
                   />
                 </svg>
                 <svg
@@ -3299,7 +3299,7 @@ Object {
                 >
                   <path
                     d="M13 14.5H19M16 11.5L16 17.5M7 10.5L7 23.5382C7 24.3551 7.92646 24.8273 8.58752 24.3474L11.8462 21.9815L21 21.9815C23.2091 21.9815 25 20.1906 25 17.9815V10.5C25 8.29088 23.2091 6.50003 21 6.50002L11 6.5C8.79087 6.5 7 8.29086 7 10.5Z"
-                    stroke="black"
+                    stroke="currentColor"
                     stroke-linecap="round"
                   />
                 </svg>
@@ -3312,11 +3312,11 @@ Object {
                 >
                   <path
                     d="M6.5 13.6342L6.5 10.5C6.5 8.29086 8.29087 6.49999 10.5 6.5L18.3936 6.50002C19.9586 6.50002 21.2272 7.76868 21.2272 9.33365C21.2272 10.8986 19.9586 12.1673 18.3936 12.1673L10.0065 12.1673L8.27139 14.2705C7.67463 14.9939 6.5 14.5719 6.5 13.6342Z"
-                    stroke="black"
+                    stroke="currentColor"
                   />
                   <path
                     d="M24.5 23.0684V20.2906C24.5 18.0815 22.7091 16.2906 20.4999 16.2906L12.6063 16.2907C11.0414 16.2907 9.77271 17.5593 9.77271 19.1243C9.77271 20.6893 11.0414 21.9579 12.6063 21.9579L20.9935 21.9579L22.7893 23.772C23.4178 24.4068 24.5 23.9618 24.5 23.0684Z"
-                    stroke="black"
+                    stroke="currentColor"
                   />
                 </svg>
               </div>
@@ -3333,7 +3333,7 @@ Object {
                 >
                   <path
                     d="M25 11.5L16 20.5L7 11.5"
-                    stroke="black"
+                    stroke="currentColor"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   />
@@ -3397,7 +3397,7 @@ Object {
               >
                 <path
                   d="M12.8334 13.8889H19.1667M12.8334 18.1111H16M15.9696 25.5C10.7229 25.5 6.5 21.1722 6.5 15.952C6.5 10.7318 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7318 25.5 15.952C25.5 17.8845 24.9171 19.6815 23.9167 21.1786L25.5 25.5H15.9696Z"
-                  stroke="black"
+                  stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
@@ -3411,7 +3411,7 @@ Object {
               >
                 <path
                   d="M7 23.5382L7 10.5C7 8.29087 8.79086 6.5 11 6.50001L21 6.50003C23.2091 6.50003 25 8.29089 25 10.5L25 17.9815C25 20.1906 23.2091 21.9815 21 21.9815L11.8462 21.9815L8.58752 24.3474C7.92646 24.8273 7 24.3551 7 23.5382Z"
-                  stroke="black"
+                  stroke="currentColor"
                 />
               </svg>
               <svg
@@ -3423,7 +3423,7 @@ Object {
               >
                 <path
                   d="M13 14.5H19M16 11.5L16 17.5M7 10.5L7 23.5382C7 24.3551 7.92646 24.8273 8.58752 24.3474L11.8462 21.9815L21 21.9815C23.2091 21.9815 25 20.1906 25 17.9815V10.5C25 8.29088 23.2091 6.50003 21 6.50002L11 6.5C8.79087 6.5 7 8.29086 7 10.5Z"
-                  stroke="black"
+                  stroke="currentColor"
                   stroke-linecap="round"
                 />
               </svg>
@@ -3436,11 +3436,11 @@ Object {
               >
                 <path
                   d="M6.5 13.6342L6.5 10.5C6.5 8.29086 8.29087 6.49999 10.5 6.5L18.3936 6.50002C19.9586 6.50002 21.2272 7.76868 21.2272 9.33365C21.2272 10.8986 19.9586 12.1673 18.3936 12.1673L10.0065 12.1673L8.27139 14.2705C7.67463 14.9939 6.5 14.5719 6.5 13.6342Z"
-                  stroke="black"
+                  stroke="currentColor"
                 />
                 <path
                   d="M24.5 23.0684V20.2906C24.5 18.0815 22.7091 16.2906 20.4999 16.2906L12.6063 16.2907C11.0414 16.2907 9.77271 17.5593 9.77271 19.1243C9.77271 20.6893 11.0414 21.9579 12.6063 21.9579L20.9935 21.9579L22.7893 23.772C23.4178 24.4068 24.5 23.9618 24.5 23.0684Z"
-                  stroke="black"
+                  stroke="currentColor"
                 />
               </svg>
             </div>
@@ -3457,7 +3457,7 @@ Object {
               >
                 <path
                   d="M25 11.5L16 20.5L7 11.5"
-                  stroke="black"
+                  stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
@@ -3574,7 +3574,7 @@ Object {
               >
                 <path
                   d="M25 11.5L16 20.5L7 11.5"
-                  stroke="black"
+                  stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
@@ -3633,7 +3633,7 @@ Object {
             >
               <path
                 d="M25 11.5L16 20.5L7 11.5"
-                stroke="black"
+                stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
@@ -3749,7 +3749,7 @@ Object {
               >
                 <path
                   d="M25 11.5L16 20.5L7 11.5"
-                  stroke="black"
+                  stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
@@ -3805,7 +3805,7 @@ Object {
               >
                 <path
                   d="M25 11.5L16 20.5L7 11.5"
-                  stroke="black"
+                  stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
@@ -3861,7 +3861,7 @@ Object {
               >
                 <path
                   d="M25 11.5L16 20.5L7 11.5"
-                  stroke="black"
+                  stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
@@ -3917,7 +3917,7 @@ Object {
               >
                 <path
                   d="M25 11.5L16 20.5L7 11.5"
-                  stroke="black"
+                  stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
@@ -3976,7 +3976,7 @@ Object {
             >
               <path
                 d="M25 11.5L16 20.5L7 11.5"
-                stroke="black"
+                stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
@@ -4032,7 +4032,7 @@ Object {
             >
               <path
                 d="M25 11.5L16 20.5L7 11.5"
-                stroke="black"
+                stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
@@ -4088,7 +4088,7 @@ Object {
             >
               <path
                 d="M25 11.5L16 20.5L7 11.5"
-                stroke="black"
+                stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
@@ -4144,7 +4144,7 @@ Object {
             >
               <path
                 d="M25 11.5L16 20.5L7 11.5"
-                stroke="black"
+                stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
@@ -4260,7 +4260,7 @@ Object {
               >
                 <path
                   d="M25 11.5L16 20.5L7 11.5"
-                  stroke="black"
+                  stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
@@ -4311,7 +4311,7 @@ Object {
               >
                 <path
                   d="M25 11.5L16 20.5L7 11.5"
-                  stroke="black"
+                  stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
@@ -4370,7 +4370,7 @@ Object {
             >
               <path
                 d="M25 11.5L16 20.5L7 11.5"
-                stroke="black"
+                stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
@@ -4421,7 +4421,7 @@ Object {
             >
               <path
                 d="M25 11.5L16 20.5L7 11.5"
-                stroke="black"
+                stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
@@ -4541,7 +4541,7 @@ Object {
               >
                 <path
                   d="M25 11.5L16 20.5L7 11.5"
-                  stroke="black"
+                  stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
@@ -4605,7 +4605,7 @@ Object {
             >
               <path
                 d="M25 11.5L16 20.5L7 11.5"
-                stroke="black"
+                stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
@@ -4722,7 +4722,7 @@ Object {
               >
                 <path
                   d="M25 11.5L16 20.5L7 11.5"
-                  stroke="black"
+                  stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
@@ -4781,7 +4781,7 @@ Object {
             >
               <path
                 d="M25 11.5L16 20.5L7 11.5"
-                stroke="black"
+                stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
@@ -4897,7 +4897,7 @@ Object {
               >
                 <path
                   d="M25 11.5L16 20.5L7 11.5"
-                  stroke="black"
+                  stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
@@ -4957,7 +4957,7 @@ Object {
             >
               <path
                 d="M25 11.5L16 20.5L7 11.5"
-                stroke="black"
+                stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
@@ -5074,7 +5074,7 @@ Object {
               >
                 <path
                   d="M25 11.5L16 20.5L7 11.5"
-                  stroke="black"
+                  stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
@@ -5125,7 +5125,7 @@ Object {
               >
                 <path
                   d="M25 11.5L16 20.5L7 11.5"
-                  stroke="black"
+                  stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
@@ -5184,7 +5184,7 @@ Object {
             >
               <path
                 d="M25 11.5L16 20.5L7 11.5"
-                stroke="black"
+                stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
@@ -5235,7 +5235,7 @@ Object {
             >
               <path
                 d="M25 11.5L16 20.5L7 11.5"
-                stroke="black"
+                stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
@@ -5351,7 +5351,7 @@ Object {
               >
                 <path
                   d="M25 11.5L16 20.5L7 11.5"
-                  stroke="black"
+                  stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
@@ -5407,7 +5407,7 @@ Object {
               >
                 <path
                   d="M25 11.5L16 20.5L7 11.5"
-                  stroke="black"
+                  stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
@@ -5463,7 +5463,7 @@ Object {
               >
                 <path
                   d="M25 11.5L16 20.5L7 11.5"
-                  stroke="black"
+                  stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
@@ -5519,7 +5519,7 @@ Object {
               >
                 <path
                   d="M25 11.5L16 20.5L7 11.5"
-                  stroke="black"
+                  stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
@@ -5578,7 +5578,7 @@ Object {
             >
               <path
                 d="M25 11.5L16 20.5L7 11.5"
-                stroke="black"
+                stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
@@ -5634,7 +5634,7 @@ Object {
             >
               <path
                 d="M25 11.5L16 20.5L7 11.5"
-                stroke="black"
+                stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
@@ -5690,7 +5690,7 @@ Object {
             >
               <path
                 d="M25 11.5L16 20.5L7 11.5"
-                stroke="black"
+                stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
@@ -5746,7 +5746,7 @@ Object {
             >
               <path
                 d="M25 11.5L16 20.5L7 11.5"
-                stroke="black"
+                stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />

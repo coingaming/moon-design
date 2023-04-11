@@ -718,7 +718,7 @@ Object {
             >
               <path
                 d="M20.5 25L11.5 16L20.5 7"
-                stroke="black"
+                stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
@@ -866,7 +866,7 @@ Object {
             >
               <path
                 d="M11.5 7L20.5 16L11.5 25"
-                stroke="black"
+                stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
@@ -896,7 +896,7 @@ Object {
           >
             <path
               d="M20.5 25L11.5 16L20.5 7"
-              stroke="black"
+              stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
             />
@@ -1044,7 +1044,7 @@ Object {
           >
             <path
               d="M11.5 7L20.5 16L11.5 25"
-              stroke="black"
+              stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
             />
@@ -1131,7 +1131,7 @@ Object {
             >
               <path
                 d="M20.5 25L11.5 16L20.5 7"
-                stroke="black"
+                stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
@@ -1179,7 +1179,7 @@ Object {
             >
               <path
                 d="M11.5 7L20.5 16L11.5 25"
-                stroke="black"
+                stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
@@ -1228,7 +1228,7 @@ Object {
           >
             <path
               d="M20.5 25L11.5 16L20.5 7"
-              stroke="black"
+              stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
             />
@@ -1276,7 +1276,7 @@ Object {
           >
             <path
               d="M11.5 7L20.5 16L11.5 25"
-              stroke="black"
+              stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
             />
@@ -1595,7 +1595,7 @@ Object {
             >
               <path
                 d="M20.5 25L11.5 16L20.5 7"
-                stroke="black"
+                stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
@@ -1643,7 +1643,7 @@ Object {
             >
               <path
                 d="M11.5 7L20.5 16L11.5 25"
-                stroke="black"
+                stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
@@ -1673,7 +1673,7 @@ Object {
           >
             <path
               d="M20.5 25L11.5 16L20.5 7"
-              stroke="black"
+              stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
             />
@@ -1721,7 +1721,7 @@ Object {
           >
             <path
               d="M11.5 7L20.5 16L11.5 25"
-              stroke="black"
+              stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
             />
@@ -1808,7 +1808,7 @@ Object {
             >
               <path
                 d="M20.5 25L11.5 16L20.5 7"
-                stroke="black"
+                stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
@@ -1956,7 +1956,7 @@ Object {
             >
               <path
                 d="M11.5 7L20.5 16L11.5 25"
-                stroke="black"
+                stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
@@ -1986,7 +1986,7 @@ Object {
           >
             <path
               d="M20.5 25L11.5 16L20.5 7"
-              stroke="black"
+              stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
             />
@@ -2134,7 +2134,7 @@ Object {
           >
             <path
               d="M11.5 7L20.5 16L11.5 25"
-              stroke="black"
+              stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
             />
@@ -2896,7 +2896,7 @@ Object {
           >
             <path
               d="M20.5 25L11.5 16L20.5 7"
-              stroke="black"
+              stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
             />
@@ -3044,7 +3044,7 @@ Object {
           >
             <path
               d="M11.5 7L20.5 16L11.5 25"
-              stroke="black"
+              stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
             />
@@ -3070,7 +3070,7 @@ Object {
         >
           <path
             d="M20.5 25L11.5 16L20.5 7"
-            stroke="black"
+            stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
           />
@@ -3218,7 +3218,7 @@ Object {
         >
           <path
             d="M11.5 7L20.5 16L11.5 25"
-            stroke="black"
+            stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
           />
@@ -3301,7 +3301,7 @@ Object {
           >
             <path
               d="M20.5 25L11.5 16L20.5 7"
-              stroke="black"
+              stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
             />
@@ -3349,7 +3349,7 @@ Object {
           >
             <path
               d="M11.5 7L20.5 16L11.5 25"
-              stroke="black"
+              stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
             />
@@ -3394,7 +3394,7 @@ Object {
         >
           <path
             d="M20.5 25L11.5 16L20.5 7"
-            stroke="black"
+            stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
           />
@@ -3442,7 +3442,7 @@ Object {
         >
           <path
             d="M11.5 7L20.5 16L11.5 25"
-            stroke="black"
+            stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
           />
@@ -3749,7 +3749,7 @@ Object {
           >
             <path
               d="M20.5 25L11.5 16L20.5 7"
-              stroke="black"
+              stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
             />
@@ -3797,7 +3797,7 @@ Object {
           >
             <path
               d="M11.5 7L20.5 16L11.5 25"
-              stroke="black"
+              stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
             />
@@ -3823,7 +3823,7 @@ Object {
         >
           <path
             d="M20.5 25L11.5 16L20.5 7"
-            stroke="black"
+            stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
           />
@@ -3871,7 +3871,7 @@ Object {
         >
           <path
             d="M11.5 7L20.5 16L11.5 25"
-            stroke="black"
+            stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
           />
@@ -3954,7 +3954,7 @@ Object {
           >
             <path
               d="M20.5 25L11.5 16L20.5 7"
-              stroke="black"
+              stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
             />
@@ -4102,7 +4102,7 @@ Object {
           >
             <path
               d="M11.5 7L20.5 16L11.5 25"
-              stroke="black"
+              stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
             />
@@ -4128,7 +4128,7 @@ Object {
         >
           <path
             d="M20.5 25L11.5 16L20.5 7"
-            stroke="black"
+            stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
           />
@@ -4276,7 +4276,7 @@ Object {
         >
           <path
             d="M11.5 7L20.5 16L11.5 25"
-            stroke="black"
+            stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
           />

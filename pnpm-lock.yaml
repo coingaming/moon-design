@@ -107,7 +107,7 @@ importers:
       '@heathmont/moon-datepicker': workspace:^9.28.1
       '@heathmont/moon-draggabletable': workspace:^9.28.1
       '@heathmont/moon-icons': workspace:^9.28.1
-      '@heathmont/moon-icons-tw': 9.28.2
+      '@heathmont/moon-icons-tw': 9.28.3
       '@heathmont/moon-pagination': workspace:^9.28.1
       '@heathmont/moon-popover': workspace:^9.28.1
       '@heathmont/moon-select': workspace:^9.28.1
@@ -166,7 +166,7 @@ importers:
       '@heathmont/moon-datepicker': link:../packages/datepicker
       '@heathmont/moon-draggabletable': link:../packages/draggabletable
       '@heathmont/moon-icons': link:../packages/icons
-      '@heathmont/moon-icons-tw': 9.28.2_biqbaboplfbrettd7655fr4n2y
+      '@heathmont/moon-icons-tw': 9.28.3_biqbaboplfbrettd7655fr4n2y
       '@heathmont/moon-pagination': link:../packages/pagination
       '@heathmont/moon-popover': link:../packages/popover
       '@heathmont/moon-select': link:../packages/select
@@ -2414,8 +2414,8 @@ packages:
       react-dom: 18.2.0_react@18.2.0
     dev: false
 
-  /@heathmont/moon-icons-tw/9.28.2_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-Djibg/Kadggop2xKEGH0MttCqvVO++1HuXh4KKeV4I7nufjnZfJFSvuoDeVOzU5o1cGkU0CE0JBNr6yaIY1ylg==}
+  /@heathmont/moon-icons-tw/9.28.3_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-1JnENSkGLhjOfotOqDA62NdKCrJGg0blGddpGH/7nt4PKwsCVNEm8PJyfjOhqgUBzhCI9iE+zslQrwmjIkaxZw==}
     peerDependencies:
       react: '>= 18.2.0'
       react-dom: '>= 18.2.0'
@@ -10724,7 +10724,7 @@ packages:
     dependencies:
       react: 18.2.0
       react-style-singleton: 2.2.1_react@18.2.0
-      tslib: 2.5.0
+      tslib: 2.3.1
     dev: false
 
   /react-remove-scroll/2.5.4_react@18.2.0:
@@ -10866,7 +10866,7 @@ packages:
       get-nonce: 1.0.1
       invariant: 2.2.4
       react: 18.2.0
-      tslib: 2.5.0
+      tslib: 2.3.1
     dev: false
 
   /react-syntax-highlighter/15.5.0_react@18.2.0:
@@ -12670,7 +12670,7 @@ packages:
         optional: true
     dependencies:
       react: 18.2.0
-      tslib: 2.5.0
+      tslib: 2.3.1
     dev: false
 
   /use-isomorphic-layout-effect/1.1.2_react@18.2.0:
@@ -12712,7 +12712,7 @@ packages:
     dependencies:
       detect-node-es: 1.1.0
       react: 18.2.0
-      tslib: 2.5.0
+      tslib: 2.3.1
     dev: false
 
   /util-deprecate/1.0.2:
