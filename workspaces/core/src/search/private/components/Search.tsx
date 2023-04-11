@@ -1,5 +1,4 @@
 import React, {
-  Fragment,
   MutableRefObject,
   ReactNode,
   useCallback,
@@ -188,7 +187,7 @@ const Transition = ({ children, className }: { children: ReactNode, className?: 
   </HeadlessTransition>
 }
 
-const Result = ({ children, className }: { children: ReactNode, className?: string }) => {
+const Result = ({ children, className, ...props }: React.HTMLAttributes<HTMLDivElement>) => {
   const { isOpen } = useContext(SearchContext);
 
   if (!isOpen) {
@@ -202,20 +201,19 @@ const Result = ({ children, className }: { children: ReactNode, className?: stri
       className
     )}
     tabIndex={-1}
+    {...props}
   >
     {children}
   </div>
 }
 
-const ResultHeading: React.FC<{
-  children: ReactNode;
-  className?: string;
-}> = ({ children, className }) => (
+const ResultHeading = ({ children, className, ...props }: React.HTMLAttributes<HTMLHeadingElement>) => (
   <h5
     className={mergeClassnames(
       'text-bulma text-sm font-medium px-2 py-1',
       className
     )}
+    {...props}
   >
     {children}
   </h5>
