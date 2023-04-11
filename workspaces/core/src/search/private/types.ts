@@ -1,6 +1,6 @@
-import { ButtonProps, LinkProps } from "./components/ListItem";
+import { ButtonProps, LinkProps } from "./components/ResultItem";
 
-export type { ButtonProps, LinkProps } from "./components/ListItem";
+export type { ButtonProps, LinkProps } from "./components/ResultItem";
 
 export type JsonStructure = Array<{
   items: Array<JsonStructureItem>;

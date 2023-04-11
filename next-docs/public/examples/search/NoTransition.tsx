@@ -78,7 +78,7 @@ const Example = () => {
             Clear
           </Search.Input.ButtonClear>
         </Search.Input>
-        <Search.Result isOpen={open}>
+        <Search.Result>
           {filteredItems.length ? (
             filteredItems.map((list: any) => (
               <ul className='space-y-1'>

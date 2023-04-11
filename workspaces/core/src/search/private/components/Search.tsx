@@ -3,6 +3,7 @@ import React, {
   MutableRefObject,
   ReactNode,
   useCallback,
+  useContext,
   useEffect,
   useRef,
   useState,
@@ -16,7 +17,7 @@ import {
 } from '../utils/context';
 
 import NoResults from './NoResults';
-import ResultItem from './ListItem';
+import ResultItem from './ResultItem';
 import { Input } from './Input';
 
 interface SearchProps {
@@ -153,13 +154,13 @@ const SearchRoot = ({
     <div ref={ref} onKeyDown={onKeyDown}>
       <div
         className={mergeClassnames(
-          'relative w-full h-full bg-gohan flex flex-col',
+          'relative w-full h-full bg-gohan flex flex-col border border-beerus',
           isOpen ? 'rounded-t-moon-s-sm' : 'rounded-moon-s-sm',
           '[&_.moon-search-list]:top-10',
           className
         )}
       >
-        <SearchContext.Provider value={{ search, onChangeOpen, onChangeSearch, inputRef }}>
+        <SearchContext.Provider value={{ search, onChangeOpen, onChangeSearch, inputRef, isOpen }}>
           <SelectContext.Provider value={{ selected }}>
             {children}
           </SelectContext.Provider>
@@ -169,7 +170,9 @@ const SearchRoot = ({
   );
 }
 
-const Transition = ({ isOpen, children, className }: { isOpen: boolean, children: ReactNode, className?: string }) => {
+const Transition = ({ children, className }: { children: ReactNode, className?: string }) => {
+  const { isOpen } = useContext(SearchContext);
+
   return <HeadlessTransition
     show={isOpen}
     as="div"
@@ -185,10 +188,13 @@ const Transition = ({ isOpen, children, className }: { isOpen: boolean, children
   </HeadlessTransition>
 }
 
-const Result = ({ isOpen, children, className }: { isOpen: boolean, children: ReactNode, className?: string }) => {
+const Result = ({ children, className }: { children: ReactNode, className?: string }) => {
+  const { isOpen } = useContext(SearchContext);
+
   if (!isOpen) {
     return null
   }
+
   return <div
     className={mergeClassnames(
       'absolute w-full flex-1 focus:outline-none p-2 space-y-4 bg-gohan shadow-moon-md moon-search-list',

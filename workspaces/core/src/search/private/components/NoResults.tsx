@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { SearchContext } from '../utils/context';
-import ListItem, { ButtonProps, LinkProps } from './ListItem';
+import ListItem, { ButtonProps, LinkProps } from './ResultItem';
 
 interface FreeSearchActionProps extends Omit<ButtonProps & LinkProps, 'index'> {
   index?: number;

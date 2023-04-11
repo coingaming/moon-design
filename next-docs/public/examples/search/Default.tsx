@@ -79,8 +79,8 @@ const Example = () => {
           </Search.Input.ButtonClear>
         </Search.Input>
 
-        <Search.Transition isOpen={open}>
-          <Search.Result isOpen={open}>
+        <Search.Transition>
+          <Search.Result>
             {filteredItems.length ? (
               filteredItems.map((list: any) => (
                 <ul className='space-y-1'>
@@ -93,7 +93,7 @@ const Example = () => {
                         closeOnSelect={true}
                         {...rest}
                       >
-                        {(selected) =>
+                        {(selected: boolean) =>
                           href ? (
                             <a href={href}>
                               <MenuItem isActive={selected}>
@@ -111,7 +111,6 @@ const Example = () => {
                           )
                         }
                       </Search.ResultItem>
-
                     ))}
                   </li>
                 </ul>
