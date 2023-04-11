@@ -91,47 +91,45 @@ const Example = () => {
           </Search.Input.ButtonClear>
         </Search.Input>
 
-        <Search.Transition>
-          <Search.Result>
-            {filteredItems.length ? (
-              filteredItems.map((list: Items) => (
-                <ul className='space-y-1'>
-                  <li>
-                    <Search.ResultHeading>{list.heading}</Search.ResultHeading>
-                    {list.items.map(({ id, children, href, ...rest }: Item) => (
-                      <Search.ResultItem
-                        key={id}
-                        index={searchGetItemIndex(filteredItems, id)}
-                        closeOnSelect={true}
-                        {...rest}
-                      >
-                        {
-                          href ? (
-                            <a href={href}>
-                              <MenuItem>
-                                <MenuItem.Title>{children}</MenuItem.Title>
-                                <span className="text-moon-12 text-trunks">
-                                  {href}
-                                </span>
-                              </MenuItem>
-                            </a>
-                          ) : (
+        <Search.Result>
+          {filteredItems.length ? (
+            filteredItems.map((list: Items) => (
+              <ul className='space-y-1'>
+                <li>
+                  <Search.ResultHeading>{list.heading}</Search.ResultHeading>
+                  {list.items.map(({ id, children, href, ...rest }: Item) => (
+                    <Search.ResultItem
+                      key={id}
+                      index={searchGetItemIndex(filteredItems, id)}
+                      closeOnSelect={true}
+                      {...rest}
+                    >
+                      {
+                        href ? (
+                          <a href={href}>
                             <MenuItem>
                               <MenuItem.Title>{children}</MenuItem.Title>
-                              <span className="text-moon-12 text-trunks">Action</span>
+                              <span className="text-moon-12 text-trunks">
+                                {href}
+                              </span>
                             </MenuItem>
-                          )
-                        }
-                      </Search.ResultItem>
-                    ))}
-                  </li>
-                </ul>
-              ))
-            ) : (
-              <Search.NoResults />
-            )}
-          </Search.Result>
-        </Search.Transition>
+                          </a>
+                        ) : (
+                          <MenuItem>
+                            <MenuItem.Title>{children}</MenuItem.Title>
+                            <span className="text-moon-12 text-trunks">Action</span>
+                          </MenuItem>
+                        )
+                      }
+                    </Search.ResultItem>
+                  ))}
+                </li>
+              </ul>
+            ))
+          ) : (
+            <Search.NoResults />
+          )}
+        </Search.Result>
       </Search>
     </div>
   );

@@ -15,7 +15,7 @@ export type ListItemType = 'Link' | 'Action';
 
 const commonClasses = 'moon-search-list-item w-full';
 
-type ListItemBaseProps = {
+interface ListItemBaseProps {
   closeOnSelect?: boolean;
   showType?: boolean;
   disabled?: boolean;
@@ -120,7 +120,7 @@ export function Button({
   );
 }
 
-export default function ListItem(props: ButtonProps & LinkProps) {
+export default function ResultItem(props: ButtonProps & LinkProps) {
   const Wrapper = props.href ? Link : Button;
 
   return <Wrapper {...props} />;

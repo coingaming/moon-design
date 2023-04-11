@@ -1,22 +1,11 @@
 import {
   createContext,
-  Dispatch,
   MutableRefObject,
   RefObject,
-  SetStateAction,
 } from 'react';
 
 export const SelectContext = createContext<{ selected: number }>({
   selected: 0,
-});
-
-export const PageContext = createContext<{
-  setSearchPrefix?: Dispatch<SetStateAction<string[] | undefined>>;
-  searchPrefix?: string[];
-  page?: string;
-}>({
-  searchPrefix: undefined,
-  page: undefined,
 });
 
 export const SearchContext = createContext<{
@@ -24,11 +13,13 @@ export const SearchContext = createContext<{
   onChangeSearch: (search: string) => void;
   onChangeOpen: (isOpen: boolean) => void;
   inputRef: RefObject<MutableRefObject<HTMLInputElement>> | null;
+  isOpen: boolean;
 }>({
   search: '',
   onChangeOpen: () => {},
   onChangeSearch: () => {},
   inputRef: null,
+  isOpen: false,
 });
 
 export const OpenContext = createContext<{

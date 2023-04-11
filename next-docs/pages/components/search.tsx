@@ -4,6 +4,8 @@ import ComponentPageDescription from '../../components/ComponentPageDescription'
 import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/search/Default';
+import NoTransition from '../../public/examples/search/NoTransition';
+
 import useExamples from '../../utils/useExamples';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 
@@ -15,9 +17,37 @@ const Example = () => {
       <ComponentPageDescription title={name} image={image} isInProgress>
         <p>{text}</p>
       </ComponentPageDescription>
+
+      <ComponentAnatomy>
+        {`<Search>
+  <Search.Input>
+    <Search.Input.Icon />
+    <Search.Input.Input />
+    <Search.Input.ButtonClear />
+  </Search.Input>
+
+  <Search.Transition>
+    <Search.Result>
+      <Search.ResultHeading />
+
+      <Search.ResultItem>
+        ...
+      </Search.ResultItem>
+    <Search.Result>
+  </Search.Transition>
+</Search>
+`}
+      </ComponentAnatomy>
+
       <Preview
         title="Default"
         preview={<Default />}
+        code={examples ? examples.Default : 'Loading'}
+      />
+
+      <Preview
+        title="No Transition"
+        preview={<NoTransition />}
         code={examples ? examples.Default : 'Loading'}
       />
 
@@ -39,11 +69,11 @@ const Example = () => {
             description: 'Function for setting open state',
           },
           {
-            name: 'children',
-            type: 'React.ReactNode',
+            name: 'search',
+            type: 'string',
             required: true,
             default: '_',
-            description: 'Children of command palette',
+            description: 'Search query data',
           },
           {
             name: 'isOpen',
@@ -53,11 +83,64 @@ const Example = () => {
             description: 'Open state',
           },
           {
-            name: 'search',
-            type: 'string',
-            required: true,
+            name: 'onChangeSelected',
+            type: '(value: number) => void',
+            required: false,
             default: '_',
-            description: 'Search state',
+            description: 'Function for setting selected item index',
+          },
+          {
+            name: 'onChangeOpen',
+            type: '(isOpen: boolean) => void',
+            required: false,
+            default: '-',
+            description: 'The function to call when Search is open or closed',
+          },
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '',
+            description: 'Tailwind classes for customization',
+          },
+        ]}
+      />
+
+      <PropsTable
+        title="Search.Input"
+        data={[
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '',
+            description: 'Tailwind classes for customization',
+          },
+        ]}
+      />
+
+      <PropsTable
+        title="Search.Input.Icon"
+        data={[
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '',
+            description: 'Tailwind classes for customization',
+          },
+        ]}
+      />
+
+      <PropsTable
+        title="Search.Input.Input"
+        data={[
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '',
+            description: 'Tailwind classes for customization',
           },
           {
             name: 'placeholder',
@@ -74,19 +157,90 @@ const Example = () => {
             description:
               'Specifies that an search should automatically get focus when the page loads',
           },
+        ]}
+      />
+
+      <PropsTable
+        title="Search.Input.ButtonClear"
+        data={[
           {
-            name: 'selected',
-            type: 'number',
+            name: 'className',
+            type: 'string',
             required: false,
-            default: '_',
-            description: 'The current selected item index',
+            default: '',
+            description: 'Tailwind classes for customization',
+          },
+        ]}
+      />
+
+      <PropsTable
+        title="Search.Transition"
+        data={[
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '',
+            description: 'Tailwind classes for customization',
+          },
+        ]}
+      />
+
+      <PropsTable
+        title="Search.NoResults"
+        data={[
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '',
+            description: 'Tailwind classes for customization',
           },
           {
-            name: 'onChangeSelected',
-            type: '(value: number) => void',
+            name: 'label',
+            type: 'string | React.ReactNode',
+            required: true,
+            default: 'Search for',
+            description: 'Label for no results',
+          },
+        ]}
+      />
+
+      <PropsTable
+        title="Search.Result"
+        data={[
+          {
+            name: 'className',
+            type: 'string',
             required: false,
-            default: '_',
-            description: 'Function for setting selected item index',
+            default: '',
+            description: 'Tailwind classes for customization',
+          },
+        ]}
+      />
+
+      <PropsTable
+        title="Search.ResultItem"
+        data={[
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '',
+            description: 'Tailwind classes for customization',
+          },
+        ]}
+      />
+
+      <PropsTable
+        title="Search.ResultHeading"
+        data={[
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '',
+            description: 'Tailwind classes for customization',
           },
         ]}
       />
