@@ -4,7 +4,8 @@ FROM node:16.5-alpine AS deps
 RUN apk add --no-cache libc6-compat
 WORKDIR /app
 COPY ./ ./
-RUN npm install -g pnpm@8.2.0
+RUN corepack enable
+RUN corepack prepare pnpm@8.2.0 --activate
 RUN pnpm i --ignore-scripts
 
 # Rebuild the source code only when needed
@@ -12,7 +13,8 @@ FROM node:16.5-alpine AS builder
 WORKDIR /app
 COPY --from=deps /app/ .
 ENV NODE_ENV production
-RUN npm install -g pnpm@8.2.0
+RUN corepack enable
+RUN corepack prepare pnpm@8.2.0 --activate
 
 RUN pnpm run build
 RUN pnpm run next build
