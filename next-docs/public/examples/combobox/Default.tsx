@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { Children, useState } from 'react';
 import { Combobox, MenuItem } from '@heathmont/moon-core-tw';
+import { ControlsChevronDownSmall } from '@heathmont/moon-icons-tw';
 
 const people = [
   { id: 1, label: 'Wade Cooper', value: 'Wade Cooper' },
@@ -35,14 +36,16 @@ const Example = () => {
   return (
     <div className="w-56 h-80">
       <Combobox value={selected} onChange={resetAfterSelect} onQueryChange={setQuery}>
-        <Combobox.Trigger>
-          <Combobox.Input
-            displayValue={({ label }) => label}
-            onChange={setSelected}
-            onQueryChange={setQuery}
-            placeholder={'Choose a name...'}
-          />
-          <Combobox.Button></Combobox.Button>
+        <Combobox.Trigger
+          placeholder={'Choose a name...'}
+          onChange={setSelected}
+          onQueryChange={setQuery}
+          displayValue={({ label }) => label }
+        >
+          {/*<>
+          {"Button"}
+          </>*/}
+          <ControlsChevronDownSmall />
         </Combobox.Trigger>
 
         <Combobox.Options>
