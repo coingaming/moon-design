@@ -12,7 +12,7 @@
 
 
    ```sh
-   npm install -g pnpm@7.3.0
+   npm install -g pnpm@latest
    ```
 
 
