@@ -6,6 +6,18 @@ import {
   searchGetItemIndex,
 } from '@heathmont/moon-core-tw';
 
+interface Item {
+  children?: React.ReactNode;
+  href?: string;
+  id: string
+};
+
+interface Items {
+  items: Item[];
+  heading?: string;
+  id: string;
+}
+
 const Example = () => {
   const [open, setOpen] = useState<boolean>(false);
   const [search, setSearch] = useState('');
@@ -78,23 +90,24 @@ const Example = () => {
             Clear
           </Search.Input.ButtonClear>
         </Search.Input>
+
         <Search.Result>
           {filteredItems.length ? (
-            filteredItems.map((list: any) => (
+            filteredItems.map((list: Items) => (
               <ul className='space-y-1'>
                 <li>
                   <Search.ResultHeading>{list.heading}</Search.ResultHeading>
-                  {list.items.map(({ id, children, href, ...rest }: any) => (
+                  {list.items.map(({ id, children, href, ...rest }: Item) => (
                     <Search.ResultItem
                       key={id}
                       index={searchGetItemIndex(filteredItems, id)}
                       closeOnSelect={true}
                       {...rest}
                     >
-                      {(selected: boolean) =>
+                      {
                         href ? (
                           <a href={href}>
-                            <MenuItem isActive={selected}>
+                            <MenuItem>
                               <MenuItem.Title>{children}</MenuItem.Title>
                               <span className="text-moon-12 text-trunks">
                                 {href}
@@ -102,7 +115,7 @@ const Example = () => {
                             </MenuItem>
                           </a>
                         ) : (
-                          <MenuItem isActive={selected}>
+                          <MenuItem>
                             <MenuItem.Title>{children}</MenuItem.Title>
                             <span className="text-moon-12 text-trunks">Action</span>
                           </MenuItem>
