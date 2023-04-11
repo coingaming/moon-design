@@ -2,11 +2,9 @@ import NextLink from 'next/link';
 import Logo from './Logo';
 
 const LogoLink = () => (
-  (<NextLink href="/">
-
+  <NextLink href="/">
     <Logo />
-
-  </NextLink>)
+  </NextLink>
 );
 
 export default LogoLink;

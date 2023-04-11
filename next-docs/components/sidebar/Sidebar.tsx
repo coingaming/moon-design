@@ -4,21 +4,20 @@ import SearchButton from '../search/SearchButton';
 import Link from './Link';
 import LogoLink from './LogoLink';
 import navigation from './navigation';
-import Version from './Version';
 
 type Props = {
   closeSidebar?: () => void;
 };
 
 const Sidebar: React.FC<Props> = ({ closeSidebar }) => (
-  <div className="z-10 fixed top-0 h-screen w-80 flex flex-col flex-grow gap-6 pt-12 pb-[72px] px-5 lg:px-8 bg-goku overflow-y-scroll">
+  <div className="z-10 fixed top-0 h-screen w-80 flex flex-col flex-grow gap-6 pt-12 pb-20 px-5 lg:px-8 bg-goku overflow-y-scroll">
     <div className="flex items-center flex-shrink-0 ps-3 text-bulma">
       <LogoLink />
     </div>
     <div>
       <SearchButton />
     </div>
-    <nav className="relative flex flex-col gap-6" aria-label="Sidebar">
+    <nav className="flex flex-col gap-6" aria-label="Sidebar">
       <div className="flex flex-col gap-1">
         {navigation.map((item) => (
           <Link
@@ -47,7 +46,6 @@ const Sidebar: React.FC<Props> = ({ closeSidebar }) => (
           ))}
         </div>
       </div>
-      <Version />
     </nav>
   </div>
 );

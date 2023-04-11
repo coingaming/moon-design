@@ -1,6 +1,6 @@
 :root.theme-bitcasino-light,
 .theme-bitcasino-light {
-  --piccolo: 15 15 15; /* #0F0F0F */
+  --piccolo: 214 55 65; /* #D63741 */
   --hit: 255 255 255; /* #FFFFFF */
   --beerus: 232 232 232; /* #E8E8E8 */
   --gohan: 242, 242, 242; /* #F2F2F2 */
@@ -81,7 +81,7 @@
 
 :root.theme-bitcasino-dark,
 .theme-bitcasino-dark {
-  --piccolo: 255 255 255; /* #FFFFFF */
+  --piccolo: 214 55 65; /* #D63741 */
   --hit: 0 0 0; /* #000000 */
   --beerus: 52 52 52; /* #343434 */
   --gohan: 30 30 30; /* #1E1E1E */
