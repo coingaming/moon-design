@@ -33,7 +33,7 @@ const color = {
 };
 
 const colorNew = {
-  piccolo: '#0F0F0F',
+  piccolo: '#D63741',
   hit: '#FFFFFF',
   beerus: '#E8E8E8',
   goku: '#FFFFFF',
@@ -53,9 +53,9 @@ const newBitcasinoLight: Theme = {
     text: color.bulma[100],
     background: color.goku[100],
     piccolo: {
-      120: '#0F0F0F',
-      100: '#0F0F0F',
-      80: '#0F0F0F',
+      120: '#D63741',
+      100: '#D63741',
+      80: '#D63741',
     },
     ...color,
   },
