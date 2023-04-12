@@ -1,5 +1,33 @@
 # Change Log
 
+## 9.30.0
+
+### Minor Changes
+
+- pnpm 8
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-accordion@9.30.0
+  - @heathmont/moon-assets@9.30.0
+  - @heathmont/moon-charts@9.30.0
+  - @heathmont/moon-components@9.30.0
+  - @heathmont/moon-core@9.30.0
+  - @heathmont/moon-datepicker@9.30.0
+  - @heathmont/moon-draggabletable@9.30.0
+  - @heathmont/moon-icons@9.30.0
+  - @heathmont/moon-pagination@9.30.0
+  - @heathmont/moon-popover@9.30.0
+  - @heathmont/moon-select@9.30.0
+  - @heathmont/moon-sidebar@9.30.0
+  - @heathmont/moon-table@9.30.0
+  - @heathmont/moon-themes@9.30.0
+  - @heathmont/moon-utils@9.30.0
+  - @heathmont/moon-core-tw@9.30.0
+  - @heathmont/moon-table-tw@9.30.0
+  - @heathmont/moon-themes-tw@9.30.0
+
 ## 9.29.0
 
 ### Minor Changes
