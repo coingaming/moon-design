@@ -15,9 +15,9 @@ import {
   SelectContext,
 } from '../utils/context';
 
+import { Input } from './Input';
 import NoResults from './NoResults';
 import ResultItem from './ResultItem';
-import { Input } from './Input';
 
 interface SearchProps {
   onChangeSelected?: (value: number) => void;
@@ -155,7 +155,8 @@ const SearchRoot = ({
         className={mergeClassnames(
           'relative w-full h-full bg-gohan flex flex-col border border-beerus',
           isOpen ? 'rounded-t-moon-s-sm' : 'rounded-moon-s-sm',
-          '[&_.moon-search-list]:top-10',
+          '[&_.moon-search-result]:top-10',
+          '[&_.moon-search-transition>.moon-search-result]:top-0',
           className
         )}
       >
@@ -181,7 +182,7 @@ const Transition = ({ children, className }: { children: ReactNode, className?: 
     leave="ease-in duration-200"
     leaveFrom="opacity-100 scale-100"
     leaveTo="opacity-0 scale-95"
-    className={mergeClassnames("[&_.moon-search-list]:top-0 z-5", className)}
+    className={mergeClassnames("moon-search-transition z-5", className)}
   >
     {children}
   </HeadlessTransition>
@@ -196,7 +197,8 @@ const Result = ({ children, className, ...props }: React.HTMLAttributes<HTMLDivE
 
   return <div
     className={mergeClassnames(
-      'absolute w-full flex-1 focus:outline-none p-2 space-y-4 bg-gohan shadow-moon-md moon-search-list',
+      'moon-search-result',
+      'absolute w-full flex-1 focus:outline-none p-2 space-y-4 bg-gohan shadow-moon-md ',
       isOpen ? 'rounded-b-moon-s-sm' : 'rounded-moon-s-sm',
       className
     )}

@@ -1,5 +1,24 @@
 # @heathmont/moon-table-tw
 
+## 9.30.1
+
+### Patch Changes
+
+- fix search top position
+- Updated dependencies [undefined]
+  - @heathmont/moon-core-tw@9.30.1
+
+## 9.30.0
+
+### Minor Changes
+
+- pnpm 8
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-core-tw@9.30.0
+
 ## 9.29.0
 
 ### Minor Changes
