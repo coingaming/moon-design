@@ -1,4 +1,4 @@
-import React, { Children, useState } from 'react';
+import React, { useState } from 'react';
 import { Combobox, MenuItem } from '@heathmont/moon-core-tw';
 import { ControlsChevronDownSmall } from '@heathmont/moon-icons-tw';
 
@@ -18,11 +18,6 @@ const Example = () => {
 
   const [query, setQuery] = useState<string>('');
 
-  const resetAfterSelect = (value: React.SetStateAction<{ id: number; label: string; value: string; }>) => {
-    setSelected(value);
-    setQuery('');
-  }
-
   const filteredPeople =
     query === ''
       ? people
@@ -39,7 +34,7 @@ const Example = () => {
 
   return (
     <div className="w-56 h-80">
-      <Combobox value={selected} onChange={resetAfterSelect} onQueryChange={setQuery}>
+      <Combobox value={selected} onChange={setSelected} onQueryChange={setQuery}>
         <Combobox.Trigger
           placeholder={'Choose a name...'}
           onChange={setSelected}
