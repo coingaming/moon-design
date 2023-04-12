@@ -19,7 +19,7 @@ const Settings = () => {
   } = useSettings();
   return (
     <Popover
-      className="fixed z-50 bottom-20 ltr:right-4 rtl:left-4"
+      className="fixed z-50 bottom-4 lg:bottom-20 ltr:right-4 rtl:left-4"
       position={rtlEnabled ? 'top-end' : 'top-start'}
     >
       <Popover.Trigger>

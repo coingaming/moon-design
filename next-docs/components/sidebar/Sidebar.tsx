@@ -10,9 +10,9 @@ type Props = {
 };
 
 const Sidebar: React.FC<Props> = ({ closeSidebar }) => (
-  <div className="z-10 fixed top-0 h-screen w-80 flex flex-col flex-grow gap-6 pt-12 pb-20 px-5 lg:px-8 bg-goku overflow-y-scroll">
+  <div className="z-10 fixed top-0 h-screen w-80 flex flex-col flex-grow gap-6 pt-12 pb-28 lg:pb-20 px-5 lg:px-8 bg-goku overflow-y-scroll">
     <div className="flex items-center flex-shrink-0 ps-3 text-bulma">
-      <LogoLink />
+      <LogoLink onClick={() => closeSidebar && closeSidebar()} />
     </div>
     <div>
       <SearchButton />
