@@ -8,11 +8,13 @@
 
 ## Installing Moon Design
 
-0. Install pnpm:
+0. [Install pnpm](https://pnpm.io/installation):
 
 
    ```sh
-   npm install -g pnpm@7.3.0
+   corepack enable
+
+   corepack prepare pnpm@8.2.0 --activate
    ```
 
 

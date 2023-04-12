@@ -1,5 +1,11 @@
 # Change Log
 
+## 9.30.0
+
+### Minor Changes
+
+- pnpm 8
+
 ## 9.29.0
 
 ### Minor Changes

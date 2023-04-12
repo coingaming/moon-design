@@ -1,5 +1,16 @@
 # Change Log
 
+## 9.30.0
+
+### Minor Changes
+
+- pnpm 8
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@9.30.0
+
 ## 9.29.0
 
 ### Minor Changes

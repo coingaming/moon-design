@@ -96,7 +96,7 @@ const DevGettingStarted = () => (
         file:
       </p>
       <CodeSnippet>{`// tailwind.config
-{ 
+{
 ...
   content: [
     './node_modules/@heathmont/moon-core-tw/**/*.{js,ts,jsx,tsx}',
@@ -155,11 +155,11 @@ const DevGettingStarted = () => (
         file:{' '}
       </p>
       <CodeSnippet>{`// tailwind.config
-{ 
+{
 ...
-  plugins: [    
-    require('tailwindcss-rtl'),   
-  ], 
+  plugins: [
+    require('tailwindcss-rtl'),
+  ],
 ...
 }
 `}</CodeSnippet>
