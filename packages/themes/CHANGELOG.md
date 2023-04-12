@@ -1,5 +1,11 @@
 # Change Log
 
+## 9.30.1
+
+### Patch Changes
+
+- fix search top position
+
 ## 9.30.0
 
 ### Minor Changes
