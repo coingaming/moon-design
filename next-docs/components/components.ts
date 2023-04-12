@@ -9,11 +9,11 @@ const components = [
     href: '/components/alert',
     text: 'A way of informing the user of important changes in a prominent way.',
   },
-  {
-    name: 'AuthCode',
-    href: '/components/authCode',
-    text: 'A one-time password (OTP) is an automatically generated numeric or alphanumeric string of characters that authenticates a user for a single transaction or login session.',
-  },
+  // {
+  //   name: 'AuthCode',
+  //   href: '/components/authCode',
+  //   text: 'A one-time password (OTP) is an automatically generated numeric or alphanumeric string of characters that authenticates a user for a single transaction or login session.',
+  // },
   {
     name: 'Avatar',
     href: '/components/avatar',
@@ -54,6 +54,11 @@ const components = [
     href: '/components/chip',
     text: 'Chips help filter content, or trigger actions.',
   },
+  // {
+  //   name: 'Combobox',
+  //   href: '/components/combobox',
+  //   text: 'An input that behaves similarly to a select, with the addition of a free text input to filter options.',
+  // },
   {
     name: 'Drawer',
     href: '/components/drawer',
