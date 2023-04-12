@@ -1,5 +1,17 @@
 # Change Log
 
+## 9.30.1
+
+### Patch Changes
+
+- fix search top position
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@9.30.1
+  - @heathmont/moon-components@9.30.1
+  - @heathmont/moon-icons@9.30.1
+  - @heathmont/moon-themes@9.30.1
+  - @heathmont/moon-utils@9.30.1
+
 ## 9.30.0
 
 ### Minor Changes
