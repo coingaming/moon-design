@@ -8,18 +8,16 @@ import imageMoon from '../public/moon.png';
 
 const Manifest = () => (
   <>
-    <div className="relative">
-      <div className="absolute z-10 ltr:left-0 rtl:right-0 top-0 text-bulma">
+    <div className="relative text-bulma">
+      <div className="absolute z-10 ltr:left-0 rtl:right-0 top-0">
         <Logo />
       </div>
       <div className="relative z-10 max-w-md">
         <SameDifferentSignature />
       </div>
     </div>
-    <div className="relative z-10 grow flex flex-row gap-12">
-      <div className="self-end hidden md:block">
-        <h2 className="text-moon-72 font-medium text-bulma">Why?</h2>
-      </div>
+    <div className="relative z-10 grow flex flex-col xl:flex-row gap-12">
+      <h2 className="xl:self-end text-moon-72 font-medium text-bulma">Why?</h2>
       <div className="grid 2xl:grid-cols-3 xl:grid-cols-2 gap-6 relative">
         <div className="flex flex-col justify-start gap-6">
           <ManifestCard
@@ -70,7 +68,7 @@ const Manifest = () => (
         </div>
       </div>
     </div>
-    <div className="fixed top-0 ltr:right-0 rtl:left-0 w-[650px] 2xl:w-[892px] ltr:translate-x-1/3 rtl:-translate-x-1/3 -translate-y-1/3">
+    <div className="hidden xl:block fixed top-0 ltr:right-0 rtl:left-0 w-[650px] 2xl:w-[892px] ltr:translate-x-1/3 rtl:-translate-x-1/3 -translate-y-1/3">
       <Image src={imageMoon} alt="Moon" />
     </div>
   </>
