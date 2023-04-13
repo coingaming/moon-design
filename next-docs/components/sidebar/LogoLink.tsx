@@ -1,8 +1,8 @@
 import NextLink from 'next/link';
 import Logo from './Logo';
 
-const LogoLink = () => (
-  <NextLink href="/">
+const LogoLink = ({ onClick }: { onClick: () => void }) => (
+  <NextLink href="/" onClick={onClick} className="outline-none">
     <Logo />
   </NextLink>
 );

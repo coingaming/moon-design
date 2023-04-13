@@ -1,6 +1,7 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import Disabled from '../../public/examples/combobox/Disabled';
 import Error from '../../public/examples/combobox/Error';
@@ -11,17 +12,16 @@ import useExamples from '../../utils/useExamples';
 
 const Example = () => {
   const examples = useExamples('combobox');
+  const { name, text, image } = getComponent('Combobox');
   return (
     <>
-      <ComponentPageDescription title="Combobox" isRtlSupport isInDevelopment>
-        <p>
-          Comboboxes are the foundation of accessible autocompletes and command
-          palettes for your app, complete with robust support for keyboard
-          navigation. You are completely in charge of how you filter the
-          results, whether it be with a fuzzy search library client-side or by
-          making server-side requests to an API. In these examples we will keep
-          the logic simple for demo purposes.
-        </p>
+      <ComponentPageDescription
+        title={name}
+        image={image}
+        isRtlSupport
+        isInProgress
+      >
+        <p>{text}</p>
       </ComponentPageDescription>
       <Preview
         title="With Label"
