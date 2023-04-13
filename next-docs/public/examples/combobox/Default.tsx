@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Combobox, MenuItem } from '@heathmont/moon-core-tw';
-import { ControlsChevronDownSmall } from '@heathmont/moon-icons-tw';
+import { ControlsChevronDownSmall } from '@heathmont/moon-icons';
 
 const people = [
   { id: 1, label: 'Wade Cooper', value: 'Wade Cooper' },
@@ -29,7 +29,7 @@ const Example = () => {
         )
 
     const triggerCSS = 'flex flex-nowrap align-middle';
-    const inputCSS = 'flex flex-grow !pr-8'; // '!pr-24';
+    const inputCSS = 'flex flex-grow pr-8';
     const buttonCSS = 'absolute text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center';
 
   return (
@@ -42,9 +42,6 @@ const Example = () => {
           displayValue={({ label }) => label }
           className={`${triggerCSS}, ${inputCSS}, ${buttonCSS}`}
         >
-          {/*<>
-          {"Button"}
-          </>*/}
           <ControlsChevronDownSmall />
         </Combobox.Trigger>
 
