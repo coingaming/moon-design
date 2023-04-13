@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Combobox, MenuItem } from '@heathmont/moon-core-tw';
 import { ControlsChevronDownSmall } from '@heathmont/moon-icons';
+import { IComboboxFilterProps } from '@heathmont/moon-core-tw/lib/combobox/private/types/FilterProps';
 
 const people = [
   { id: 1, label: 'Wade Cooper', value: 'Wade Cooper' },
@@ -9,7 +10,7 @@ const people = [
   { id: 4, label: 'Tom Cook', value: 'Tom Cook' },
   { id: 5, label: 'Tanya Fox', value: 'Tanya Fox' },
   { id: 6, label: 'Hellen Schmidt', value: 'Hellen Schmidt' },
-];
+] as IComboboxFilterProps[];
 
 const Example = () => {
   const [selected, setSelected] = useState(
@@ -18,19 +19,11 @@ const Example = () => {
 
   const [query, setQuery] = useState<string>('');
 
-  const filteredPeople =
-    query === ''
-      ? people
-      : people.filter((person) =>
-          person.value
-            .toLowerCase()
-            .replace(/\s+/g, '')
-            .includes(query.toLowerCase().replace(/\s+/g, ''))
-        )
+  const filteredPeople = Combobox.Filter({ query, data: people });
 
-    const triggerCSS = 'flex flex-nowrap align-middle';
-    const inputCSS = 'flex flex-grow pr-8';
-    const buttonCSS = 'absolute text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center';
+  const triggerCSS = 'flex flex-nowrap align-middle';
+  const inputCSS = 'flex flex-grow pr-8';
+  const buttonCSS = 'absolute text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center';
 
   return (
     <div className='w-56 h-80'>
