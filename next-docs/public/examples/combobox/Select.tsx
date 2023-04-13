@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Combobox, MenuItem } from '@heathmont/moon-core-tw';
+import { IComboboxFilterProps } from '@heathmont/moon-core-tw/lib/combobox/private/types/FilterProps';
+import { ControlsChevronDownSmall } from '@heathmont/moon-icons';
 
 const people = [
   { id: 1, label: 'Wade Cooper', value: 'Wade Cooper' },
@@ -8,7 +10,7 @@ const people = [
   { id: 4, label: 'Tom Cook', value: 'Tom Cook' },
   { id: 5, label: 'Tanya Fox', value: 'Tanya Fox' },
   { id: 6, label: 'Hellen Schmidt', value: 'Hellen Schmidt' },
-];
+] as IComboboxFilterProps[];
 
 const Example = () => {
   const [selected0, setSelected0] = useState();
@@ -19,34 +21,31 @@ const Example = () => {
   const [query1, setQuery1] = useState<string>('');
   const [query2, setQuery2] = useState<string>('');
 
+  const filteredPeople0 = Combobox.Filter({ query: query0, data: people });
+
   return (
     <div className="flex flex-col lg:flex-row justify-around items-end w-full gap-2">
       <Combobox value={selected0} onChange={setSelected0} onQueryChange={setQuery0} size="sm">
-        {({ open }) => (
-          <>
-            {/*<Combobox.Select
-              open={open}
-              label="Small"
-              placeholder="Choose an option"
-            >
-              {selected0 ? selected0['label'] : selected0}
-            </Combobox.Select>
+        <Combobox.Select
+          label="Small"
+          placeholder="Choose an option"
+        >
+          {selected0 ? selected0['label'] : selected0}
+        </Combobox.Select>
 
-            <Combobox.Options>
-              {people.map((person, index) => (
-                <Combobox.Option value={person} key={index}>
-                  {({ selected, active }) => (
-                    <MenuItem isActive={active} isSelected={selected}>
-                      <MenuItem.Title>{person.label}</MenuItem.Title>
-                      <MenuItem.Radio isSelected={selected} />
-                    </MenuItem>
-                  )}
-                </Combobox.Option>
-              ))}
-                  </Combobox.Options>*/}
-            <Combobox.Hint>Informative message holder</Combobox.Hint>
-          </>
-        )}
+        <Combobox.Options>
+          {filteredPeople0.map((person, index) => (
+            <Combobox.Option value={person} key={index}>
+              {({ selected, active }) => (
+                <MenuItem isActive={active} isSelected={selected}>
+                  <MenuItem.Title>{person.label}</MenuItem.Title>
+                  <MenuItem.Radio isSelected={selected} />
+                </MenuItem>
+              )}
+            </Combobox.Option>
+          ))}
+        </Combobox.Options>
+        <Combobox.Hint>Informative message holder</Combobox.Hint>
       </Combobox>
 
       <Combobox value={selected1} onChange={setSelected1} onQueryChange={setQuery1}>
