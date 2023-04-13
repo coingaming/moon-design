@@ -1,7 +1,6 @@
 import React, { ReactNode } from 'react';
 import '../styles/globals.css';
 import '../styles/themes.css';
-import '../styles/custom.css';
 import 'prismjs/themes/prism-okaidia.css';
 import { NextPage } from 'next';
 import Head from 'next/head';
