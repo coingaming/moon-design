@@ -1,5 +1,11 @@
 # @heathmont/moon-themes-tw
 
+## 9.30.2
+
+### Patch Changes
+
+- Update site
+
 ## 9.30.1
 
 ### Patch Changes
