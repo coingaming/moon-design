@@ -21,7 +21,7 @@ const Example = () => {
 
   const filteredPeople = Combobox.Filter({ query, data: people });
 
-  const triggerCSS = 'flex flex-nowrap align-middle';
+  const triggerCSS = 'flex flex-nowrap min-w-[18.75rem] align-middle';
   const inputCSS = 'flex flex-grow pr-8';
   const buttonCSS = 'absolute text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center';
 

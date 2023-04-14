@@ -2,6 +2,7 @@ import { BaseOptionType } from "../../../select/Select";
 import InputValue from "./InputValue";
 
 type InputProps = {
+  value?: string;
   displayValue?: (value: InputValue & { label: string }) => string;
   label?: string;
   placeholder?: string;
