@@ -1,6 +1,6 @@
 :root.theme-bombay-club,
 .theme-bombay-club {
-  --piccolo: 255 79 15; /* #ff4f0f */
+  /* there is no piccolo colour for bombay because it uses brand piccolo colour */
   --hit: 32 32 32; /* #202020 */
   --beerus: 255 255 255 / 0.08; /* #ffffff */
   --gohan: 12 12 12; /* #0c0c0c */

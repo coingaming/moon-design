@@ -1,5 +1,11 @@
 # Change Log
 
+## 9.30.3
+
+### Patch Changes
+
+- fix themes
+
 ## 9.30.2
 
 ### Patch Changes

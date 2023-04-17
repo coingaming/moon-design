@@ -1,5 +1,13 @@
 # @heathmont/moon-table-tw
 
+## 9.30.3
+
+### Patch Changes
+
+- fix themes
+- Updated dependencies [undefined]
+  - @heathmont/moon-core-tw@9.30.3
+
 ## 9.30.2
 
 ### Patch Changes
