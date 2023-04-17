@@ -38,7 +38,7 @@ const Example = () => {
           <ControlsChevronDownSmall />
         </Combobox.Trigger>
 
-        <Combobox.Options>
+        <Combobox.Options className={'min-w-[18.75rem]'}>
           { filteredPeople.length === 0 && query !== '' ? (
             <div className='relative cursor-default select-none py-2 px-4 text-gray-700'>
               Nothing found.

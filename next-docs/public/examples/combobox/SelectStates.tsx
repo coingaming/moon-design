@@ -116,7 +116,7 @@ const Example = () => {
           onQueryChange={setQuery3}
           displayValue={({ label }) => label }
         />
-        <Combobox.Options menuWidth='w-40' className='z-10000'>
+        <Combobox.Options menuWidth='w-40' className='z-10000 rounded-moon-s-md box-border bg-gohan shadow-moon-lg py-2 px-1 my-2'>
           {filteredPeople3.length === 0 && query3 !== '' ? (
             <div className='relative cursor-default select-none py-2 px-4 text-gray-700'>
               Nothing found.
