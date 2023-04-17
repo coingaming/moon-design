@@ -98,7 +98,6 @@ const ComboboxRoot: React.FC<ComboboxRootProps> = ({
                 placeholder={placeholder}
                 inputSize={size}
                 type="text"
-                disabled={disabled}
                 isError={isError}
               />
               <HeadlessCombobox.Button

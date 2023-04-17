@@ -15,9 +15,9 @@ import {
   SelectContext,
 } from '../utils/context';
 
+import { Input } from './Input';
 import NoResults from './NoResults';
 import ResultItem from './ResultItem';
-import { Input } from './Input';
 
 interface SearchProps {
   onChangeSelected?: (value: number) => void;

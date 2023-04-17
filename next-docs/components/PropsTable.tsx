@@ -15,66 +15,63 @@ const PropsTable = ({ data, title }: TableProps) => (
   <section className="flex flex-col gap-6">
     {title && <h2 className="text-moon-24 font-medium">{title}</h2>}
     <div className="overflow-x-auto">
-      <table className="min-w-full divide-y divide-beerus">
-        <thead className="bg-goku">
+      <table className="min-w-full border-separate border-spacing-y-1">
+        <thead>
           <tr>
             <th
               scope="col"
-              className="px-4 py-3 text-start text-xs font-medium text-trunk uppercase tracking-wider"
+              className="px-3 py-2 text-start text-moon-14 font-medium"
             >
               Name
             </th>
 
             <th
               scope="col"
-              className="px-4 py-3 text-start text-xs font-medium text-bulma uppercase tracking-wider"
+              className="px-3 py-2 text-start text-moon-14 font-medium"
             >
               Type
             </th>
             <th
               scope="col"
-              className="px-4 py-3 text-start text-xs font-medium text-bulma uppercase tracking-wider"
+              className="px-3 py-2 text-start text-moon-14 font-medium"
             >
               Required
             </th>
             <th
               scope="col"
-              className="px-4 py-3 text-start text-xs font-medium text-bulma uppercase tracking-wider"
+              className="px-3 py-2 text-start text-moon-14 font-medium"
             >
               Default
             </th>
             <th
               scope="col"
-              className="px-4 py-3 text-start text-xs font-medium text-bulma uppercase tracking-wider"
+              className="px-3 py-2 text-start text-moon-14 font-medium"
             >
               Description
             </th>
           </tr>
         </thead>
         <tbody>
-          {data.map((prop: Data, propIdx: number) => (
-            <tr
-              key={prop.name}
-              className={propIdx % 2 === 0 ? 'bg-gohan' : 'bg-goku'}
-            >
-              <td className="px-4 py-4 whitespace-nowrap text-sm font-medium text-bulma">
+          {data.map((prop: Data) => (
+            <tr key={prop.name} className="bg-goku">
+              <td className="px-3 py-2 whitespace-nowrap text-moon-14 rounded-s-lg">
                 {prop.name}
               </td>
 
-              <td className="px-4 py-4 whitespace-nowrap text-sm text-bulma">
+              <td className="px-3 py-2 whitespace-nowrap text-moon-14">
                 {prop.type}
               </td>
-              <td className="px-4 py-4 whitespace-nowrap text-sm text-bulma">
+              <td className="px-3 py-2 whitespace-nowrap text-moon-14">
                 {typeof prop.required === 'boolean'
                   ? prop.required
                     ? 'Yes'
                     : 'No'
                   : ''}
               </td>
-              <td className="px-4 py-4 whitespace-nowrap text-sm text-bulma">
+              <td className="px-3 py-2 whitespace-nowrap text-moon-14">
                 {prop.default}
               </td>
-              <td className="px-4 py-4 text-sm text-bulma">
+              <td className="px-3 py-2 whitespace-nowrap text-moon-14 rounded-e-lg">
                 {prop.description}
               </td>
             </tr>
