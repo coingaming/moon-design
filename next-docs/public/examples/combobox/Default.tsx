@@ -26,7 +26,7 @@ const Example = () => {
   const buttonCSS = 'absolute text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center';
 
   return (
-    <div className='w-56 h-80'>
+    <div className='w-56 h-40'>
       <Combobox value={selected} onChange={setSelected} onQueryChange={setQuery}>
         <Combobox.Trigger
           placeholder={'Choose a name...'}
