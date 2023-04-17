@@ -1,11 +1,10 @@
 import React from 'react';
-import { Combobox as ComboboxHUI, Transition, Listbox } from '@headlessui/react';
+import { Combobox as ComboboxHeadlessUI, Transition, Listbox } from '@headlessui/react';
 import { usePopper } from 'react-popper';
 import { SelectButton, TextInput } from '../index';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import ControlsChevronDownSmall from '../private/icons/ControlsChevronDownSmall';
 import ComboboxRootProps from './private/types/ComboboxRootProps';
-import { ComboboxFilterProps } from './private/types/FilterProps';
 import InputProps from './private/types/InputProps';
 import SelectProps from './private/types/SelectProps';
 import WithChildren from './private/types/WithChildren';
@@ -28,7 +27,9 @@ const ComboboxRoot = ({
   position = 'bottom-start',
   placeholder,
   displayValue,
+  defaultValue,
   label,
+  ref,
   ...rest
 }: ComboboxRootProps) => {
   const [anchorEl, setAnchorEl] = React.useState<Element | null>();
@@ -69,12 +70,14 @@ const ComboboxRoot = ({
   return (
     <ComboboxContext.Provider value={states}>
       <div
-        className={mergeClassnames('w-full relative', className && className)}
+        className={mergeClassnames('w-full relative', className)}
       >
-        <ComboboxHUI
-          value={value}
+        <ComboboxHeadlessUI
+          value={value as {}[]}
           onChange={onChange}
           disabled={disabled}
+          multiple={multiple as true}
+          ref={ref as React.Ref<HTMLElement>}
           {...rest}
         >
           {({ open }) => (
@@ -87,7 +90,7 @@ const ComboboxRoot = ({
               }
             </>
           )}
-        </ComboboxHUI>
+        </ComboboxHeadlessUI>
       </div>
     </ComboboxContext.Provider>
   );
@@ -105,21 +108,19 @@ const Input = ({
 
   const { size, popper, disabled, isError } = useComboboxContext('Combobox.Input');
 
-  const useType = type ? type : 'text';
-  let extraClass = (isError) ? ' text-red-600' : '';
-
   return (
-    <ComboboxHUI.Input
+    <ComboboxHeadlessUI.Input
       inputSize={size}
       onChange={({ target: { value } }) => onQueryChange(value)}
       ref={popper?.setAnchor}
       as={TextInput}
       displayValue={displayValue}
       placeholder={placeholder}
-      type={useType}
-      className={mergeClassnames(className, extraClass)}
+      type={type ? type : 'text'}
+      className={mergeClassnames(isError ? 'text-red-600' : '', className)}
       disabled={disabled}
       isError={isError}
+      {...rest}
     />
   );
 };
@@ -133,7 +134,7 @@ const Button = ({
   const { size, open } = useComboboxContext('Combobox.Button');
 
   return (
-      <ComboboxHUI.Button className={mergeClassnames(
+      <ComboboxHeadlessUI.Button className={mergeClassnames(
         size === 'sm' ? 'text-moon-16' : 'text-moon-24',
         size === 'xl' && 'end-4',
 
@@ -148,9 +149,10 @@ const Button = ({
 
         open && 'rotate-[-180deg]',
         className
-      )}>
+      )}
+      >
         {children}
-      </ComboboxHUI.Button>
+      </ComboboxHeadlessUI.Button>
   );
 };
 
@@ -162,31 +164,31 @@ const Options = ({
 }: WithChildren<OptionsProps>) => {
   const { popper } = useComboboxContext('Combobox.Options');
   return (
-      <ComboboxHUI.Options
+      <ComboboxHeadlessUI.Options
         ref={popper?.setPopper}
         style={popper?.styles?.popper}
         {...popper?.attributes?.popper}
         className={mergeClassnames(
           menuWidth ? menuWidth : 'w-full max-h-[18.75rem] py-2 px-1 my-2 rounded-moon-s-md box-border bg-gohan shadow-moon-lg z-10 absolute',
           'overflow-y-auto focus:outline-none',
-          className && className
+          className
         )}
       {...rest}
       >
         {children}
-      </ComboboxHUI.Options>
+      </ComboboxHeadlessUI.Options>
   );
 };
 
 const Option = ({ children, value }: OptionProps) => {
   return (
-    <ComboboxHUI.Option as="span" value={value}>
+    <ComboboxHeadlessUI.Option as="span" value={value}>
       {({ selected, disabled, active }) =>
         typeof children === 'function'
         ? children({ selected, disabled, active })
         : children
       }
-    </ComboboxHUI.Option>
+    </ComboboxHeadlessUI.Option>
   );
 };
 
@@ -200,7 +202,7 @@ const Select = ({
   onQueryChange,
   displayValue,
   ...rest
-}: SelectProps & InputProps) => {
+}: WithChildren<SelectProps & InputProps>) => {
   const { size, popper, isError, disabled } = useComboboxContext('Combobox.Select');
 
   const triggerCSS = 'flex-nowrap align-middle';
@@ -223,6 +225,7 @@ const Select = ({
         type={type}
         ref={popper?.setAnchor}
         className={`${triggerCSS}, ${inputCSS}, ${buttonCSS}`}
+        {...rest}
       >
         <ControlsChevronDownSmall />
       </Listbox.Button>
@@ -393,7 +396,6 @@ const Trigger = ({
         onChange={onChange}
         onQueryChange={onQueryChange}
         placeholder={placeholder}
-        children={children}
         className={`${classNames[1]} ${textSize}`}
         type={type}
       />
@@ -409,6 +411,7 @@ const Trigger = ({
 const Hint = ({
   children,
   className,
+  ...rest
 }: WithChildren<{ className?: string }>) => {
   const { isError, disabled } = useComboboxContext('Combobox.Input');
   return (
@@ -418,28 +421,13 @@ const Hint = ({
         'inline-block mt-2 ps-4 text-moon-12',
         isError ? 'text-chichi' : 'text-trunks',
         disabled && 'opacity-30 cursor-not-allowed',
-        className && className
+        className
       )}
+      {...rest}
     >
       {children}
     </p>
   );
-};
-
-const Filter = ({
-    query,
-    data,
-    callBack = (query, value) => {
-      return `${value}`
-        .toLowerCase()
-        .replace(/\s+/g, '')
-        .includes(query);
-    }
-  }: ComboboxFilterProps) => {
-    const Q = query.toLowerCase().replace(/\s+/g, '');
-    return Q === ''
-      ? data
-      : data.filter(({ value }) => callBack(Q, value))
 };
 
 const Combobox = Object.assign(ComboboxRoot, {
@@ -453,7 +441,6 @@ const Combobox = Object.assign(ComboboxRoot, {
   /*InsetSelect,
   MultiSelect,
   InsetMultiSelect*/
-  Filter
 });
 
 export default Combobox;

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Combobox, MenuItem } from '@heathmont/moon-core-tw';
-import { IComboboxFilterProps } from '@heathmont/moon-core-tw/lib/combobox/private/types/FilterProps';
 import { ControlsChevronDownSmall } from '@heathmont/moon-icons';
 
 const people = [
@@ -10,7 +9,18 @@ const people = [
   { id: 4, label: 'Tom Cook', value: 'Tom Cook' },
   { id: 5, label: 'Tanya Fox', value: 'Tanya Fox' },
   { id: 6, label: 'Hellen Schmidt', value: 'Hellen Schmidt' },
-] as IComboboxFilterProps[];
+];
+
+const filter = (query: string, people: ({} & {label: string, value: string})[]) => {
+  return query === ''
+    ? people
+    : people.filter(({ value }) =>
+      value
+        .toLowerCase()
+        .replace(/\s+/g, '')
+        .includes(query.toLowerCase().replace(/\s+/g, ''))
+    );
+}
 
 const Example = () => {
   const [selected0, setSelected0] = useState({});
@@ -21,9 +31,9 @@ const Example = () => {
   const [query1, setQuery1] = useState<string>('');
   const [query2, setQuery2] = useState<string>('');
 
-  const filteredPeople0 = Combobox.Filter({ query: query0, data: people });
-  const filteredPeople1 = Combobox.Filter({ query: query1, data: people });
-  const filteredPeople2 = Combobox.Filter({ query: query2, data: people });
+  const filteredPeople0 = filter(query0, people);
+  const filteredPeople1 = filter(query1, people);
+  const filteredPeople2 = filter(query2, people);
 
   return (
     <div className={'flex flex-col items-start w-full h-50'}>
