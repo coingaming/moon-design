@@ -26,7 +26,7 @@ const Example = () => {
   const filteredPeople2 = Combobox.Filter({ query: query2, data: people });
 
   return (
-    <div className={'flex flex-col items-start w-full h-40'}>
+    <div className={'flex flex-col items-start w-full h-50'}>
       <div className='flex flex-col lg:flex-row justify-between items-end w-full gap-x-3'>
         <Combobox value={selected0} onChange={setSelected0} onQueryChange={setQuery0} size="sm">
           <Combobox.Select
