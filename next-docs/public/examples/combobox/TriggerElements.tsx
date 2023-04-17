@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Combobox, MenuItem, Button, Chip } from '@heathmont/moon-core-tw';
-import { ControlsChevronDown, ControlsChevronDownSmall } from '@heathmont/moon-icons-tw';
+import { ControlsChevronDown, ControlsChevronDownSmall } from '@heathmont/moon-icons';
 
 const people = [
   { id: 1, label: 'Wade Cooper', value: 'Wade Cooper' },

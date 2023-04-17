@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Combobox, MenuItem, Chip } from '@heathmont/moon-core-tw';
-import { OtherWater, OtherLightning, OtherMoon, OtherSun } from '@heathmont/moon-icons-tw';
+import { OtherWater, OtherLightning, OtherMoon, OtherSun } from '@heathmont/moon-icons';
 
 const options = [
   { id: 1, label: 'Option 1', value: 'Option 1', icon: <OtherLightning className="text-moon-24 text-bulma" /> },
