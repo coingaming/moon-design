@@ -57,11 +57,11 @@ const ComboboxRoot = ({
     },
   };
 
-  const resetQuery = (openState: boolean) => {
-    if ((open !== openState) && open) {
+  useEffect(() => {
+    if (!open) {
       onQueryChange('');
     }
-  }
+  }, [open]);
 
   const childrens =
     typeof children !== 'function' ? React.Children.toArray(children) : [];
@@ -83,7 +83,6 @@ const ComboboxRoot = ({
           {({ open }) => (
             <>
               {setOpen(open)}
-              {resetQuery(open)}
               {typeof children === 'function'
                 ? callableChildren && callableChildren({ open })
                 : childrens?.map((ch) => ch)
