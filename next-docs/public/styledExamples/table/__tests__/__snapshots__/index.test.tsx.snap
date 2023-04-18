@@ -55,7 +55,7 @@ exports[`Table renders 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -83,7 +83,7 @@ exports[`Table renders 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -115,7 +115,7 @@ exports[`Table renders 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -158,7 +158,7 @@ exports[`Table renders 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -190,7 +190,7 @@ exports[`Table renders 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -218,7 +218,7 @@ exports[`Table renders 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -246,7 +246,7 @@ exports[`Table renders 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -274,7 +274,7 @@ exports[`Table renders 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -302,7 +302,7 @@ exports[`Table renders 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -334,7 +334,7 @@ exports[`Table renders 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -5745,7 +5745,7 @@ exports[`Table renders 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -5776,7 +5776,7 @@ exports[`Table renders 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -5803,7 +5803,7 @@ exports[`Table renders 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -5830,7 +5830,7 @@ exports[`Table renders 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -5857,7 +5857,7 @@ exports[`Table renders 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -5884,7 +5884,7 @@ exports[`Table renders 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -5915,7 +5915,7 @@ exports[`Table renders 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -5959,7 +5959,7 @@ exports[`Table renders 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -5987,7 +5987,7 @@ exports[`Table renders 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -6019,7 +6019,7 @@ exports[`Table renders 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -6083,7 +6083,7 @@ exports[`Table renders Calendar 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -6111,7 +6111,7 @@ exports[`Table renders Calendar 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -6139,7 +6139,7 @@ exports[`Table renders Calendar 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -6167,7 +6167,7 @@ exports[`Table renders Calendar 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -6195,7 +6195,7 @@ exports[`Table renders Calendar 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -6223,7 +6223,7 @@ exports[`Table renders Calendar 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -9590,7 +9590,7 @@ exports[`Table renders Deep Table 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -9618,7 +9618,7 @@ exports[`Table renders Deep Table 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -9646,7 +9646,7 @@ exports[`Table renders Deep Table 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -9674,7 +9674,7 @@ exports[`Table renders Deep Table 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -9702,7 +9702,7 @@ exports[`Table renders Deep Table 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -11760,7 +11760,7 @@ exports[`Table renders with Custom Content 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -11788,7 +11788,7 @@ exports[`Table renders with Custom Content 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -11816,7 +11816,7 @@ exports[`Table renders with Custom Content 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -14298,7 +14298,7 @@ exports[`Table renders with Expanded Row 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -14330,7 +14330,7 @@ exports[`Table renders with Expanded Row 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -14358,7 +14358,7 @@ exports[`Table renders with Expanded Row 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -14390,7 +14390,7 @@ exports[`Table renders with Expanded Row 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -14443,7 +14443,7 @@ exports[`Table renders with Expanded Row 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -14475,7 +14475,7 @@ exports[`Table renders with Expanded Row 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -14503,7 +14503,7 @@ exports[`Table renders with Expanded Row 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -14531,7 +14531,7 @@ exports[`Table renders with Expanded Row 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -14559,7 +14559,7 @@ exports[`Table renders with Expanded Row 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -14587,7 +14587,7 @@ exports[`Table renders with Expanded Row 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -14619,7 +14619,7 @@ exports[`Table renders with Expanded Row 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -20492,7 +20492,7 @@ exports[`Table renders with Mini Map 1`] = `
             role="separator"
             style={
               Object {
-                "cursor": "ew-resize",
+                "cursor": "col-resize",
               }
             }
           />
@@ -20520,7 +20520,7 @@ exports[`Table renders with Mini Map 1`] = `
             role="separator"
             style={
               Object {
-                "cursor": "ew-resize",
+                "cursor": "col-resize",
               }
             }
           />
@@ -20552,7 +20552,7 @@ exports[`Table renders with Mini Map 1`] = `
             role="separator"
             style={
               Object {
-                "cursor": "ew-resize",
+                "cursor": "col-resize",
               }
             }
           />
@@ -20595,7 +20595,7 @@ exports[`Table renders with Mini Map 1`] = `
             role="separator"
             style={
               Object {
-                "cursor": "ew-resize",
+                "cursor": "col-resize",
               }
             }
           />
@@ -20627,7 +20627,7 @@ exports[`Table renders with Mini Map 1`] = `
             role="separator"
             style={
               Object {
-                "cursor": "ew-resize",
+                "cursor": "col-resize",
               }
             }
           />
@@ -20655,7 +20655,7 @@ exports[`Table renders with Mini Map 1`] = `
             role="separator"
             style={
               Object {
-                "cursor": "ew-resize",
+                "cursor": "col-resize",
               }
             }
           />
@@ -20683,7 +20683,7 @@ exports[`Table renders with Mini Map 1`] = `
             role="separator"
             style={
               Object {
-                "cursor": "ew-resize",
+                "cursor": "col-resize",
               }
             }
           />
@@ -20711,7 +20711,7 @@ exports[`Table renders with Mini Map 1`] = `
             role="separator"
             style={
               Object {
-                "cursor": "ew-resize",
+                "cursor": "col-resize",
               }
             }
           />
@@ -20739,7 +20739,7 @@ exports[`Table renders with Mini Map 1`] = `
             role="separator"
             style={
               Object {
-                "cursor": "ew-resize",
+                "cursor": "col-resize",
               }
             }
           />
@@ -20771,7 +20771,7 @@ exports[`Table renders with Mini Map 1`] = `
             role="separator"
             style={
               Object {
-                "cursor": "ew-resize",
+                "cursor": "col-resize",
               }
             }
           />
@@ -23613,7 +23613,7 @@ exports[`Table renders with Sorting 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -23642,7 +23642,7 @@ exports[`Table renders with Sorting 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -23671,7 +23671,7 @@ exports[`Table renders with Sorting 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -23714,7 +23714,7 @@ exports[`Table renders with Sorting 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -23745,7 +23745,7 @@ exports[`Table renders with Sorting 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -23776,7 +23776,7 @@ exports[`Table renders with Sorting 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -23807,7 +23807,7 @@ exports[`Table renders with Sorting 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -23838,7 +23838,7 @@ exports[`Table renders with Sorting 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -23869,7 +23869,7 @@ exports[`Table renders with Sorting 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
@@ -23900,7 +23900,7 @@ exports[`Table renders with Sorting 1`] = `
           role="separator"
           style={
             Object {
-              "cursor": "ew-resize",
+              "cursor": "col-resize",
             }
           }
         />
