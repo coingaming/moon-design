@@ -1,5 +1,16 @@
 # Change Log
 
+## 9.30.3
+
+### Patch Changes
+
+- fix themes
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@9.30.3
+  - @heathmont/moon-table@9.30.3
+  - @heathmont/moon-themes@9.30.3
+  - @heathmont/moon-utils@9.30.3
+
 ## 9.30.2
 
 ### Patch Changes
