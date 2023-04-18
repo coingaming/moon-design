@@ -1,15 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Combobox as ComboboxHeadlessUI, Transition, Listbox } from '@headlessui/react';
 import { usePopper } from 'react-popper';
 import { SelectButton, TextInput } from '../index';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import ControlsChevronDownSmall from '../private/icons/ControlsChevronDownSmall';
+import ButtonProps from './private/types/ButtonProps';
 import ComboboxRootProps from './private/types/ComboboxRootProps';
 import InputProps from './private/types/InputProps';
 import SelectProps from './private/types/SelectProps';
 import WithChildren from './private/types/WithChildren';
-import ComboboxContext from './private/utils/ComboboxContext';
-import useComboboxContext from './private/utils/useComboboxContext';
+import { useComboboxContext, ComboboxContext } from './private/utils/useComboboxContext';
 import type OptionProps from './private/types/OptionProps';
 import type OptionsProps from './private/types/OptionsProps';
 
@@ -127,29 +127,32 @@ const Input = ({
 
 const Button = ({
   children,
+  open,
   label,
   className,
   ...rest
-}: WithChildren<SelectProps>) => {
-  const { size, open } = useComboboxContext('Combobox.Button');
+}: WithChildren<ButtonProps>) => {
+  const { size } = useComboboxContext('Combobox.Button');
 
   return (
-      <ComboboxHeadlessUI.Button className={mergeClassnames(
-        size === 'sm' ? 'text-moon-16' : 'text-moon-24',
-        size === 'xl' && 'end-4',
+      <ComboboxHeadlessUI.Button
+        className={mergeClassnames(
+          size === 'sm' ? 'text-moon-16' : 'text-moon-24',
+          size === 'xl' && 'end-4',
 
-        size === 'sm' && label && 'end-2',
-        size == 'md' && label && 'end-2',
-        size === 'lg' && label && 'end-2',
-        size === 'xl' && !label && 'end-4',
+          size === 'sm' && label && 'end-2',
+          size == 'md' && label && 'end-2',
+          size === 'lg' && label && 'end-2',
+          size === 'xl' && !label && 'end-4',
 
-        size === 'sm' && !label && 'end-2',
-        size == 'md' && !label && 'end-2',
-        size === 'lg' && !label && 'end-2',
+          size === 'sm' && !label && 'end-2',
+          size == 'md' && !label && 'end-2',
+          size === 'lg' && !label && 'end-2',
 
-        open && 'rotate-[-180deg]',
-        className
-      )}
+          open && 'rotate-[-180deg]',
+          className
+        )}
+        {...rest}
       >
         {children}
       </ComboboxHeadlessUI.Button>
@@ -232,141 +235,7 @@ const Select = ({
     </Listbox>
   );
 };
-/*
-const InsetSelect = ({
-  open,
-  value,
-  label,
-  placeholder,
-  children,
-  className,
-  ...rest
-}: WithChildren<SelectProps>) => {
-  const { size, popper, isError, disabled } = useComboboxContext(
-    'Combobox.InsetSelect'
-  );
-  return (
-    <Listbox.Button as={'div'} ref={popper?.setAnchor}>
-      <div>
-        <SelectButton
-          size={size}
-          open={open}
-          isError={isError}
-          idDisabled={disabled}
-          {...rest}
-        >
-          <SelectButton.InsetInput className={className}>
-            <span className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap">
-              <SelectButton.FloatingLabel>{label}</SelectButton.FloatingLabel>
-              {children ? (
-                <SelectButton.Value>{children}</SelectButton.Value>
-              ) : (
-                <SelectButton.Placeholder>
-                  {placeholder}
-                </SelectButton.Placeholder>
-              )}
-            </span>
-          </SelectButton.InsetInput>
-        </SelectButton>
-      </div>
-    </Listbox.Button>
-  );
-};
 
-const MultiSelect = ({
-  open,
-  value,
-  label,
-  placeholder,
-  children,
-  className,
-  counter = 0,
-  ...rest
-}: WithChildren<SelectProps & { counter?: number }>) => {
-  const { size, popper, isError, disabled, onClear } = useComboboxContext(
-    'Combobox.MultiSelect'
-  );
-  return (
-    <>
-      {label && (
-        <SelectButton.Label labelSize={size} idDisabled={disabled}>
-          {label}
-        </SelectButton.Label>
-      )}
-      <Listbox.Button as={'div'} ref={popper?.setAnchor}>
-        <div>
-          <SelectButton
-            size={size}
-            open={open}
-            isError={isError}
-            idDisabled={disabled}
-            {...rest}
-          >
-            <SelectButton.Input className={mergeClassnames(className)}>
-              <span className="flex gap-2 items-center">
-                {counter > 0 && (
-                  <SelectButton.Value>
-                    <SelectButton.Chip onClear={onClear}>
-                      {counter}
-                    </SelectButton.Chip>
-                  </SelectButton.Value>
-                )}
-                <SelectButton.Placeholder>
-                  {placeholder}
-                </SelectButton.Placeholder>
-              </span>
-            </SelectButton.Input>
-          </SelectButton>
-        </div>
-      </Listbox.Button>
-    </>
-  );
-};
-
-const InsetMultiSelect = ({
-  open,
-  value,
-  label,
-  placeholder,
-  children,
-  className,
-  counter = 0,
-  ...rest
-}: WithChildren<SelectProps & { counter?: number }>) => {
-  const { size, popper, isError, disabled, onClear } = useComboboxContext(
-    'Combobox.InsetMultiSelect'
-  );
-  return (
-    <Listbox.Button as={'div'} ref={popper?.setAnchor}>
-      <div>
-        <SelectButton
-          size={size}
-          open={open}
-          isError={isError}
-          idDisabled={disabled}
-          {...rest}
-        >
-          <SelectButton.InsetInput
-            className={mergeClassnames(className, '[&_>_span]:gap-4')}
-          >
-            {counter > 0 && (
-              <SelectButton.Value>
-                <SelectButton.Chip onClear={onClear}>
-                  {counter}
-                </SelectButton.Chip>
-              </SelectButton.Value>
-            )}
-            <span className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap">
-              <SelectButton.FloatingLabel>{label}</SelectButton.FloatingLabel>
-              <SelectButton.Placeholder>{placeholder}</SelectButton.Placeholder>
-            </span>
-          </SelectButton.InsetInput>
-        </SelectButton>
-      </div>
-    </Listbox.Button>
-  );
-};
-*/
 const Trigger = ({
   children,
   placeholder,
@@ -438,9 +307,6 @@ const Combobox = Object.assign(ComboboxRoot, {
   Trigger,
   Hint,
   Select,
-  /*InsetSelect,
-  MultiSelect,
-  InsetMultiSelect*/
 });
 
 export default Combobox;

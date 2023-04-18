@@ -1,4 +1,3 @@
-import { BaseOptionType } from "../../../select/Select";
 import InputValue from "./InputValue";
 
 type InputProps = {
@@ -12,11 +11,6 @@ type InputProps = {
   isError?: boolean;
   onChange(value: InputValue): void;
   onQueryChange(value: string): void;
-  /*children?: React.ReactElement | ((data: {
-    selected?: boolean;
-    disabled?: boolean;
-    active?: boolean;
-  }) => React.ReactElement);*/
 };
 
 export default InputProps

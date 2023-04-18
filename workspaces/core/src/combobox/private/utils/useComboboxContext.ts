@@ -1,5 +1,8 @@
-import { useContext } from "react";
-import ComboboxContext from "./ComboboxContext";
+import { createContext, useContext } from "react";
+import type ComboboxState from "../types/ComboboxState";
+
+const ComboboxContext = createContext<ComboboxState>({});
+ComboboxContext.displayName = 'ComboboxContext';
 
 const useComboboxContext = (component: string) => {
   const context = useContext(ComboboxContext);
@@ -12,4 +15,4 @@ const useComboboxContext = (component: string) => {
   return context;
 };
 
-export default useComboboxContext
+export { useComboboxContext, ComboboxContext }
