@@ -1,9 +1,6 @@
 lockfileVersion: '6.0'
 
 overrides:
-  '@emotion/is-prop-valid': 1.2.0
-  '@emotion/memoize': 0.8.0
-  '@emotion/unitless': 0.8.0
   '@headlessui/react': 1.7.13
   '@radix-ui/react-collection': 1.0.2
   '@radix-ui/react-dismissable-layer': 1.0.2
@@ -2489,10 +2486,23 @@ packages:
     resolution: {integrity: sha512-14FtKiHhy2QoPIzdTcvh//8OyBlknNs2nXRwIhG904opCby3l+9Xaf/wuPvICBF0rc1ZCNBd3nKe9cd2mecVkQ==}
     dev: false
 
+  /@emotion/is-prop-valid@0.8.8:
+    resolution: {integrity: sha512-u5WtneEAr5IDG2Wv65yhunPSMLIpuKsbuOktRojfrEiEvRyC85LgPMZI63cr7NUqT8ZIGdSVg8ZKGxIug4lXcA==}
+    requiresBuild: true
+    dependencies:
+      '@emotion/memoize': 0.7.4
+    dev: false
+    optional: true
+
   /@emotion/is-prop-valid@1.2.0:
     resolution: {integrity: sha512-3aDpDprjM0AwaxGE09bOPkNxHpBd+kA6jty3RnaEXdweX1DF1U3VQpPYb0g1IStAuK7SVQ1cy+bNBBKp4W3Fjg==}
     dependencies:
       '@emotion/memoize': 0.8.0
+
+  /@emotion/memoize@0.7.4:
+    resolution: {integrity: sha512-Ja/Vfqe3HpuzRsG1oBtWTHk2PGZ7GR+2Vz5iYGelAw8dx32K0y7PjVuxK6z1nMpZOqAFsRUPCkK1YjJ56qJlgw==}
+    dev: false
+    optional: true
 
   /@emotion/memoize@0.8.0:
     resolution: {integrity: sha512-G/YwXTkv7Den9mXDO7AhLWkE3q+I92B+VqAE+dYG4NGPaHZGvt3G8Q0p9vmE+sq7rTGphUbAvmQ9YpbfMQGGlA==}
@@ -2535,8 +2545,12 @@ packages:
   /@emotion/stylis@0.8.5:
     resolution: {integrity: sha512-h6KtPihKFn3T9fuIrwvXXUOwlx3rfUvfZIcP5a6rh8Y7zjE3O06hT5Ss4S/YI1AYhuZ1kjaE/5EaOOI2NqSylQ==}
 
+  /@emotion/unitless@0.7.5:
+    resolution: {integrity: sha512-OWORNpfjMsSSUBVrRBVGECkhWcULOAJz9ZW8uK9qgxD+87M7jHRcvh/A96XXNhXTLmKcoYSQtBEX7lHMO7YRwg==}
+
   /@emotion/unitless@0.8.0:
     resolution: {integrity: sha512-VINS5vEYAscRl2ZUDiT3uMPlrFQupiKgHz5AA4bCH1miKBg4qtwkim1qPmJj/4WG6TreYMY111rEFsjupcOKHw==}
+    dev: false
 
   /@emotion/use-insertion-effect-with-fallbacks@1.0.0(react@18.2.0):
     resolution: {integrity: sha512-1eEgUGmkaljiBnRMTdksDV1W4kUnmwgp7X9G8B++9GYwl1lUdqSndSriIrTJ0N7LQaoauY9JJ2yhiOYK5+NI4A==}
@@ -7075,7 +7089,7 @@ packages:
       style-value-types: 4.1.4
       tslib: 2.5.0
     optionalDependencies:
-      '@emotion/is-prop-valid': 1.2.0
+      '@emotion/is-prop-valid': 0.8.8
     dev: false
 
   /framesync@5.3.0:
@@ -11708,7 +11722,7 @@ packages:
       '@babel/traverse': 7.21.4(supports-color@5.5.0)
       '@emotion/is-prop-valid': 1.2.0
       '@emotion/stylis': 0.8.5
-      '@emotion/unitless': 0.8.0
+      '@emotion/unitless': 0.7.5
       babel-plugin-styled-components: 2.0.7(styled-components@5.3.5)
       css-to-react-native: 3.2.0
       hoist-non-react-statics: 3.3.2

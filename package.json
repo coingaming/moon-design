@@ -98,9 +98,6 @@
     "typescript-plugin-css-modules": "3.4.0"
   },
   "resolutions": {
-    "@emotion/is-prop-valid": "1.2.0",
-    "@emotion/memoize": "0.8.0",
-    "@emotion/unitless": "0.8.0",
     "@headlessui/react": "1.7.13",
     "@radix-ui/react-collection": "1.0.2",
     "@radix-ui/react-dismissable-layer": "1.0.2",
