@@ -1,5 +1,16 @@
 # @heathmont/moon-table-tw
 
+## 9.31.0
+
+### Minor Changes
+
+- fix deps
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-core-tw@9.31.0
+
 ## 9.30.3
 
 ### Patch Changes
