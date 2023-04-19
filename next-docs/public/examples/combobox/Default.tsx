@@ -27,10 +27,6 @@ const Example = () => {
         .includes(query.toLowerCase().replace(/\s+/g, ''))
     );
 
-  const triggerCSS = 'flex flex-nowrap min-w-[18.75rem] align-middle';
-  const inputCSS = 'flex flex-grow pr-8';
-  const buttonCSS = 'absolute text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center';
-
   return (
     <div className='w-56 h-40'>
       <Combobox value={selected} onChange={setSelected} onQueryChange={setQuery}>
@@ -39,7 +35,9 @@ const Example = () => {
           onChange={setSelected}
           onQueryChange={setQuery}
           displayValue={({ label }) => label }
-          className={`${triggerCSS}, ${inputCSS}, ${buttonCSS}`}
+          className={'flex flex-nowrap min-w-[18.75rem] align-middle'}
+          inputClassName={'flex flex-grow pr-8'}
+          buttonClassName={'absolute text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center'}
         >
           <ControlsChevronDownSmall />
         </Combobox.Trigger>

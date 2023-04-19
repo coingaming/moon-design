@@ -126,12 +126,11 @@ const Input = ({
 
 const Button = ({
   children,
-  open,
   label,
   className,
   ...rest
 }: WithChildren<ButtonProps>) => {
-  const { size } = useComboboxContext('Combobox.Button');
+  const { size, open } = useComboboxContext('Combobox.Button');
 
   return (
       <ComboboxHeadlessUI.Button
@@ -199,17 +198,15 @@ const Select = ({
   placeholder,
   children,
   className,
+  inputClassName,
+  buttonClassName,
   type,
   onChange,
   onQueryChange,
   displayValue,
   ...rest
-}: WithChildren<SelectProps & InputProps>) => {
+}: WithChildren<SelectProps & InputProps & {inputClassName?: string, buttonClassName?: string}>) => {
   const { size, popper, isError, disabled } = useComboboxContext('Combobox.Select');
-
-  const triggerCSS = 'flex-nowrap align-middle';
-  const inputCSS = 'flex-grow pr-8';
-  const buttonCSS = 'absolute text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center';
 
   return (
     <Listbox>
@@ -226,7 +223,9 @@ const Select = ({
         placeholder={placeholder}
         type={type}
         ref={popper?.setAnchor}
-        className={`${triggerCSS}, ${inputCSS}, ${buttonCSS}`}
+        className={className}
+        inputClassName={inputClassName}
+        buttonClassName={buttonClassName}
         {...rest}
       >
         <ControlsChevronDownSmall />
@@ -239,36 +238,30 @@ const Trigger = ({
   children,
   placeholder,
   className,
+  inputClassName,
+  buttonClassName,
   type,
   onChange,
   onQueryChange,
   displayValue,
   ...rest
-}: WithChildren<InputProps>) => {
+}: WithChildren<InputProps & {inputClassName?: string, buttonClassName?: string}>) => {
   const { size, popper } = useComboboxContext('Combobox.Trigger');
 
   const textSize = (size === undefined || size === 'md') ? 'text-base' : `text-${size}`;
 
-  let classNames: string[] = [];
-  if (className) {
-    classNames = className.split(',').map((cName) => {
-      return cName.trim();
-    });
-  }
-  while (classNames.length < 3) classNames.push('');
-
   return (
-    <div className={mergeClassnames('relative', 'flex w-full', classNames[0])} ref={popper?.setAnchor}>
+    <div className={mergeClassnames('relative', 'flex w-full', className)} ref={popper?.setAnchor}>
       <Input
         displayValue={displayValue}
         onChange={onChange}
         onQueryChange={onQueryChange}
         placeholder={placeholder}
-        className={`${classNames[1]} ${textSize}`}
+        className={`${inputClassName} ${textSize}`}
         type={type}
       />
       <Button
-        className={`${classNames[2]} ${textSize}`}
+        className={`${buttonClassName} ${textSize}`}
       >
         {children}
       </Button>

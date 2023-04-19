@@ -37,6 +37,10 @@ const Example = () => {
   const filteredPeople2 = filter(query2, people);
   const filteredPeople3 = filter(query3, people);
 
+  const selectClass = 'flex flex-nowrap min-w-[18.75rem] align-middle';
+  const inputClass = 'flex flex-grow pr-8';
+  const buttonClass = 'absolute text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center';
+
   return (
     <div className="flex flex-col lg:flex-row justify-around items-center w-full gap-2 h-50">
       <Combobox value={selected0} onChange={setSelected0} onQueryChange={setQuery0} isError={true}>
@@ -46,6 +50,9 @@ const Example = () => {
           onChange={setSelected0}
           onQueryChange={setQuery0}
           displayValue={({ label }) => label }
+          className={selectClass}
+          inputClassName={inputClass}
+          buttonClassName={buttonClass}
         />
         <Combobox.Options className='z-10000'>
           {filteredPeople0.length === 0 && query0 !== '' ? (
@@ -73,6 +80,9 @@ const Example = () => {
           onChange={setSelected1}
           onQueryChange={setQuery1}
           displayValue={({ label }) => label }
+          className={selectClass}
+          inputClassName={inputClass}
+          buttonClassName={buttonClass}
         />
         <Combobox.Options>
           {filteredPeople1.length === 0 && query1 !== '' ? (
@@ -99,6 +109,9 @@ const Example = () => {
           onChange={setSelected2}
           onQueryChange={setQuery2}
           displayValue={({ label }) => label }
+          className={selectClass}
+          inputClassName={inputClass}
+          buttonClassName={buttonClass}
         />
         <Combobox.Options>
           {filteredPeople2.length === 0 && query2 !== '' ? (
@@ -125,6 +138,9 @@ const Example = () => {
           onChange={setSelected3}
           onQueryChange={setQuery3}
           displayValue={({ label }) => label }
+          className={selectClass}
+          inputClassName={inputClass}
+          buttonClassName={buttonClass}
         />
         <Combobox.Options menuWidth='w-40' className='z-10000 rounded-moon-s-md box-border bg-gohan shadow-moon-lg py-2 px-1 my-2'>
           {filteredPeople3.length === 0 && query3 !== '' ? (
