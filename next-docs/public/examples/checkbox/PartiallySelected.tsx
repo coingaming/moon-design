@@ -7,30 +7,37 @@ const Example = () => {
   const allChecked = checkedItems.every(Boolean);
   const isIndeterminate = checkedItems.some(Boolean) && !allChecked;
 
-  const [isChecked, setIsChecked] = useState<boolean | 'indeterminate'>(
-    'indeterminate' as 'indeterminate'
-  );
+  // const [isChecked, setIsChecked] = useState<boolean | 'indeterminate'>(
+  //   'indeterminate' as 'indeterminate'
+  // );
+
+  // console.log('allChecked', allChecked);
+  // console.log('isIndeterminate', isIndeterminate);
 
   return (
     <div>
       <Checkbox
-        checked={isChecked}
-        onClick={() => setIsChecked(!isChecked)}
-        onChange={() => {
-          console.log('isChecked:', isChecked);
-        }}
+        checked={checkedItems.every(Boolean)}
+        isIndeterminate={isIndeterminate}
+        // onClick={() => setIsChecked(!isChecked)}
+        onChange={(e) => setCheckedItems([e.target.checked, e.target.checked])}
         label="Checked"
-        id="checked"
+        // id="checked"
       />
-      <div className="flex flex-coll gap-4 pl-4">
+      <div className="flex flex-row gap-4 pl-4">
         <Checkbox
-          checked={isChecked}
-          onClick={() => setIsChecked(!isChecked)}
-          onChange={() => {
-            console.log('isChecked:', isChecked);
-          }}
+          checked={checkedItems[0]}
+          // onClick={() => setIsChecked(!isChecked)}
+          onChange={(e) => setCheckedItems([e.target.checked, checkedItems[1]])}
           label="Checked"
-          id="checked"
+          // id="checked"
+        />
+        <Checkbox
+          checked={checkedItems[1]}
+          // onClick={() => setIsChecked(!isChecked)}
+          onChange={(e) => setCheckedItems([checkedItems[0], e.target.checked])}
+          label="Checked"
+          // id="checked"
         />
       </div>
     </div>

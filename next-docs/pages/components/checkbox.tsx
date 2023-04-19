@@ -35,7 +35,7 @@ const Example = () => {
         preview={<PartiallySelected />}
         code={examples ? examples.PartiallySelected : 'Loading'}
       />
-      <Preview
+      {/* <Preview
         title="Default"
         preview={<Default />}
         code={examples ? examples.Default : 'Loading'}
@@ -64,7 +64,7 @@ const Example = () => {
         title="Customization"
         preview={<Customize />}
         code={examples ? examples.Customize : 'Loading'}
-      />
+      /> */}
       <PropsTable
         title="Checkbox props"
         data={[
