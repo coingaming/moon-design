@@ -37,7 +37,7 @@ const Example = () => {
   const filteredPeople2 = filter(query2, people);
   const filteredPeople3 = filter(query3, people);
 
-  const selectClass = 'flex flex-nowrap min-w-[18.75rem] align-middle';
+  const selectClass = 'flex flex-nowrap align-middle';
   const inputClass = 'flex flex-grow pr-8';
   const buttonClass = 'absolute text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center';
 

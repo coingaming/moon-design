@@ -193,6 +193,75 @@ const Option = ({ children, value }: OptionProps) => {
   );
 };
 
+const Trigger = ({
+  children,
+  placeholder,
+  className,
+  inputClassName,
+  buttonClassName,
+  type,
+  onChange,
+  onQueryChange,
+  displayValue,
+  multiple,
+  counter,
+  ...rest
+}: WithChildren<SelectProps & InputProps & {inputClassName?: string, buttonClassName?: string}>) => {
+  const { size, popper, open, isError, disabled, onClear } = useComboboxContext('Combobox.Trigger');
+
+  const textSize = (size === undefined || size === 'md') ? 'text-base' : `text-${size}`;
+
+  return (
+    <div className={mergeClassnames('relative', 'flex w-full', className)} ref={popper?.setAnchor}>
+      <Input
+        displayValue={displayValue}
+        onChange={onChange}
+        onQueryChange={onQueryChange}
+        placeholder={placeholder}
+        className={`${inputClassName} ${textSize}`}
+        type={type}
+      />
+      <Button
+        className={`${buttonClassName} ${textSize}`}
+      >
+        {children}
+      </Button>
+      {multiple && counter !== undefined && counter > 0 && (
+        <Counter counter={counter} />
+      )}
+    </div>
+  );
+};
+
+const Counter = ({
+  className,
+  counter,
+  ...rest
+}: SelectProps) => {
+  const { size, open, isError, disabled, onClear } = useComboboxContext('Combobox.Counter');
+
+  return (
+    <span className={mergeClassnames(
+      'flex gap-2 items-center absolute left-1 flex-grow-0 flex-shrink-0 self-center',
+      className
+    )}>
+      <SelectButton
+        size={size}
+        open={open}
+        isError={isError}
+        idDisabled={disabled}
+        {...rest}
+      >
+      <SelectButton.Value>
+        <SelectButton.Chip onClear={onClear}>
+          {counter}
+        </SelectButton.Chip>
+      </SelectButton.Value>
+      </SelectButton>
+    </span>
+  );
+};
+
 const Select = ({
   label,
   placeholder,
@@ -204,6 +273,8 @@ const Select = ({
   onChange,
   onQueryChange,
   displayValue,
+  multiple,
+  counter,
   ...rest
 }: WithChildren<SelectProps & InputProps & {inputClassName?: string, buttonClassName?: string}>) => {
   const { size, popper, isError, disabled } = useComboboxContext('Combobox.Select');
@@ -226,6 +297,8 @@ const Select = ({
         className={className}
         inputClassName={inputClassName}
         buttonClassName={buttonClassName}
+        multiple={multiple !== undefined}
+        counter={counter}
         {...rest}
       >
         <ControlsChevronDownSmall />
@@ -234,9 +307,11 @@ const Select = ({
   );
 };
 
-const Trigger = ({
-  children,
+const MultiSelect = ({
+  value,
+  label,
   placeholder,
+  children,
   className,
   inputClassName,
   buttonClassName,
@@ -244,28 +319,29 @@ const Trigger = ({
   onChange,
   onQueryChange,
   displayValue,
+  multiple = true,
+  counter = 0,
   ...rest
-}: WithChildren<InputProps & {inputClassName?: string, buttonClassName?: string}>) => {
-  const { size, popper } = useComboboxContext('Combobox.Trigger');
-
-  const textSize = (size === undefined || size === 'md') ? 'text-base' : `text-${size}`;
-
+}: WithChildren<SelectProps & InputProps & { counter?: number, inputClassName?: string, buttonClassName?: string }>) => {
+  const { size, popper, open, isError, disabled, onClear } = useComboboxContext(
+    'Combobox.MultiSelect'
+  );
   return (
-    <div className={mergeClassnames('relative', 'flex w-full', className)} ref={popper?.setAnchor}>
-      <Input
-        displayValue={displayValue}
-        onChange={onChange}
-        onQueryChange={onQueryChange}
-        placeholder={placeholder}
-        className={`${inputClassName} ${textSize}`}
-        type={type}
-      />
-      <Button
-        className={`${buttonClassName} ${textSize}`}
-      >
-        {children}
-      </Button>
-    </div>
+    <Select
+      label={label}
+      placeholder={placeholder}
+      className={className}
+      inputClassName={inputClassName}
+      buttonClassName={buttonClassName}
+      type={type}
+      onChange={onChange}
+      onQueryChange={onQueryChange}
+      displayValue={displayValue}
+      multiple={true}
+      counter={counter}
+    >
+      {children}
+    </Select>
   );
 };
 
@@ -299,6 +375,7 @@ const Combobox = Object.assign(ComboboxRoot, {
   Trigger,
   Hint,
   Select,
+  MultiSelect
 });
 
 export default Combobox;

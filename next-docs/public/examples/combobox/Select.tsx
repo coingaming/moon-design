@@ -41,7 +41,7 @@ const Example = () => {
 
   return (
     <div className={'flex flex-col items-start w-full h-50'}>
-      <div className='flex flex-col lg:flex-row justify-between items-end w-full gap-x-3'>
+      <div className='flex flex-col lg:flex-row justify-between items-end w-full gap-2'>
         <Combobox value={selected0} onChange={setSelected0} onQueryChange={setQuery0} size="sm">
           <Combobox.Select
             label="Small"

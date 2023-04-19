@@ -5,6 +5,8 @@ type SelectProps = {
   value?: undefined;
   innerLabel?: boolean;
   className?: string;
+  multiple?: boolean;
+  counter?: number;
 };
 
 export default SelectProps

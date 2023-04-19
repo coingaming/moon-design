@@ -117,7 +117,7 @@ const Example = () => {
         preview={<InsetSelectStates />}
         code={examples ? examples.InsetSelectStates : 'Loading'}
       />
-
+*/}
       <ComponentAnatomy>
         {`<Combobox>
   <Combobox.MultiSelect>...</Combobox.MultiSelect>
@@ -133,7 +133,7 @@ const Example = () => {
         preview={<MultiSelect />}
         code={examples ? examples.MultiSelect : 'Loading'}
       />
-
+{/*
       <ComponentAnatomy>
         {`<Combobox>
   <Combobox.InsetMultiSelect>...</Combobox.InsetMultiSelect>
