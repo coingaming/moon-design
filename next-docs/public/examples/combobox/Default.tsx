@@ -30,37 +30,47 @@ const Example = () => {
   return (
     <div className='w-56 h-40'>
       <Combobox value={selected} onChange={setSelected} onQueryChange={setQuery}>
-        <Combobox.Trigger
-          placeholder={'Choose a name...'}
-          onChange={setSelected}
-          onQueryChange={setQuery}
-          displayValue={({ label }) => label }
-          className={'flex flex-nowrap min-w-[18.75rem] align-middle'}
-          inputClassName={'flex flex-grow pr-8'}
-          buttonClassName={'absolute text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center'}
-        >
-          <ControlsChevronDownSmall />
-        </Combobox.Trigger>
-
-        <Combobox.Options className={'min-w-[18.75rem]'}>
-          { filteredPeople.length === 0 && query !== '' ? (
-            <div className='relative cursor-default select-none py-2 px-4 text-gray-700'>
-              Nothing found.
-            </div>
-          ) : (
-            filteredPeople.map((person, index) => (
-              <Combobox.Option value={person} key={index}>
-                {({ selected, active }) => (
-                  <div>
-                    <MenuItem isActive={active} isSelected={selected}>
-                      {person.label}
-                    </MenuItem>
+        {({ open }) => (
+          <>
+            <Combobox.Trigger
+              open={open}
+              placeholder={'Choose a name...'}
+              onChange={setSelected}
+              onQueryChange={setQuery}
+              displayValue={({ label }) => label }
+              className={'flex flex-nowrap min-w-[18.75rem] align-middle'}
+              inputClassName={'flex flex-grow pr-8'}
+              buttonClassName={'absolute text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center'}
+            >
+              <ControlsChevronDownSmall />
+            </Combobox.Trigger>
+            <Combobox.Transition
+              open={open}
+              onChange={setSelected}
+              onQueryChange={setQuery}
+            >
+              <Combobox.Options className={'min-w-[18.75rem]'}>
+                { filteredPeople.length === 0 && query !== '' ? (
+                  <div className='relative cursor-default select-none py-2 px-4 text-gray-700'>
+                    Nothing found.
                   </div>
-                )}
-              </Combobox.Option>
-          ))) }
-        </Combobox.Options>
-        <Combobox.Hint>Informative message holder</Combobox.Hint>
+                ) : (
+                  filteredPeople.map((person, index) => (
+                    <Combobox.Option value={person} key={index}>
+                      {({ selected, active }) => (
+                        <div>
+                          <MenuItem isActive={active} isSelected={selected}>
+                            {person.label}
+                          </MenuItem>
+                        </div>
+                      )}
+                    </Combobox.Option>
+                ))) }
+              </Combobox.Options>
+            </Combobox.Transition>
+            <Combobox.Hint>Informative message holder</Combobox.Hint>
+          </>
+        )}
       </Combobox>
     </div>
   );

@@ -44,121 +44,163 @@ const Example = () => {
   return (
     <div className="flex flex-col lg:flex-row justify-around items-center w-full gap-2 h-50">
       <Combobox value={selected0} onChange={setSelected0} onQueryChange={setQuery0} isError={true}>
-        <Combobox.Select
-          label="Error"
-          placeholder="Choose an option"
-          onChange={setSelected0}
-          onQueryChange={setQuery0}
-          displayValue={({ label }) => label }
-          className={selectClass}
-          inputClassName={inputClass}
-          buttonClassName={buttonClass}
-        />
-        <Combobox.Options className='z-10000'>
-          {filteredPeople0.length === 0 && query0 !== '' ? (
-            <div className='relative cursor-default select-none py-2 px-4 text-gray-700'>
-              Nothing found.
-            </div>
-          ) : (
-          filteredPeople0.map((person, index) => (
-            <Combobox.Option value={person} key={index}>
-              {({ selected, active }) => (
-                <MenuItem isActive={active} isSelected={selected}>
-                  <MenuItem.Title>{person.label}</MenuItem.Title>
-                </MenuItem>
-              )}
-            </Combobox.Option>
-          )))}
-        </Combobox.Options>
-        <Combobox.Hint>Informative message holder</Combobox.Hint>
+        {({ open }) => (
+          <>
+            <Combobox.Select
+              open={open}
+              label="Error"
+              placeholder="Choose an option"
+              onChange={setSelected0}
+              onQueryChange={setQuery0}
+              displayValue={({ label }) => label }
+              className={selectClass}
+              inputClassName={inputClass}
+              buttonClassName={buttonClass}
+            />
+            <Combobox.Transition
+              open={open}
+              onChange={setSelected0}
+              onQueryChange={setQuery0}
+            >
+            <Combobox.Options className='z-10000'>
+                {filteredPeople0.length === 0 && query0 !== '' ? (
+                  <div className='relative cursor-default select-none py-2 px-4 text-gray-700'>
+                    Nothing found.
+                  </div>
+                ) : (
+                filteredPeople0.map((person, index) => (
+                  <Combobox.Option value={person} key={index}>
+                    {({ selected, active }) => (
+                      <MenuItem isActive={active} isSelected={selected}>
+                        <MenuItem.Title>{person.label}</MenuItem.Title>
+                      </MenuItem>
+                    )}
+                  </Combobox.Option>
+                )))}
+              </Combobox.Options>
+            </Combobox.Transition>
+            <Combobox.Hint>Informative message holder</Combobox.Hint>
+          </>
+        )}
       </Combobox>
 
       <Combobox value={selected1} onChange={setSelected1} onQueryChange={setQuery1} disabled={true}>
-        <Combobox.Select
-          label="Disabled"
-          placeholder="Choose an option"
-          onChange={setSelected1}
-          onQueryChange={setQuery1}
-          displayValue={({ label }) => label }
-          className={selectClass}
-          inputClassName={inputClass}
-          buttonClassName={buttonClass}
-        />
-        <Combobox.Options>
-          {filteredPeople1.length === 0 && query1 !== '' ? (
-            <div className='relative cursor-default select-none py-2 px-4 text-gray-700'>
-              Nothing found.
-            </div>
-          ) : (
-          filteredPeople1.map((person, index) => (
-            <Combobox.Option value={person} key={index}>
-              {({ selected, active }) => (
-                <MenuItem isActive={active} isSelected={selected}>
-                  <MenuItem.Title>{person.label}</MenuItem.Title>
-                </MenuItem>
-              )}
-            </Combobox.Option>
-          )))}
-        </Combobox.Options>
-        <Combobox.Hint>Informative message holder</Combobox.Hint>
+        {({ open }) => (
+          <>
+            <Combobox.Select
+              open={open}
+              label="Disabled"
+              placeholder="Choose an option"
+              onChange={setSelected1}
+              onQueryChange={setQuery1}
+              displayValue={({ label }) => label }
+              className={selectClass}
+              inputClassName={inputClass}
+              buttonClassName={buttonClass}
+            />
+            <Combobox.Transition
+              open={open}
+              onChange={setSelected1}
+              onQueryChange={setQuery1}
+            >
+              <Combobox.Options>
+                {filteredPeople1.length === 0 && query1 !== '' ? (
+                  <div className='relative cursor-default select-none py-2 px-4 text-gray-700'>
+                    Nothing found.
+                  </div>
+                ) : (
+                filteredPeople1.map((person, index) => (
+                  <Combobox.Option value={person} key={index}>
+                    {({ selected, active }) => (
+                      <MenuItem isActive={active} isSelected={selected}>
+                        <MenuItem.Title>{person.label}</MenuItem.Title>
+                      </MenuItem>
+                    )}
+                  </Combobox.Option>
+                )))}
+              </Combobox.Options>
+            </Combobox.Transition>
+            <Combobox.Hint>Informative message holder</Combobox.Hint>
+          </>
+        )}
       </Combobox>
 
       <Combobox value={selected2} onChange={setSelected2} onQueryChange={setQuery2}>
-        <Combobox.Select
-          placeholder="Without Label and Hint message"
-          onChange={setSelected2}
-          onQueryChange={setQuery2}
-          displayValue={({ label }) => label }
-          className={selectClass}
-          inputClassName={inputClass}
-          buttonClassName={buttonClass}
-        />
-        <Combobox.Options>
-          {filteredPeople2.length === 0 && query2 !== '' ? (
-            <div className='relative cursor-default select-none py-2 px-4 text-gray-700'>
-              Nothing found.
-            </div>
-          ) : (
-          filteredPeople2.map((person, index) => (
-            <Combobox.Option value={person} key={index}>
-              {({ selected, active }) => (
-                <MenuItem isActive={active} isSelected={selected}>
-                  <MenuItem.Title>{person.label}</MenuItem.Title>
-                </MenuItem>
-              )}
-            </Combobox.Option>
-          )))}
-        </Combobox.Options>
+        {({ open }) => (
+          <>
+            <Combobox.Select
+              placeholder="Without Label and Hint message"
+              onChange={setSelected2}
+              onQueryChange={setQuery2}
+              displayValue={({ label }) => label }
+              className={selectClass}
+              inputClassName={inputClass}
+              buttonClassName={buttonClass}
+            />
+            <Combobox.Transition
+              open={open}
+              onChange={setSelected2}
+              onQueryChange={setQuery2}
+            >
+              <Combobox.Options>
+                {filteredPeople2.length === 0 && query2 !== '' ? (
+                  <div className='relative cursor-default select-none py-2 px-4 text-gray-700'>
+                    Nothing found.
+                  </div>
+                ) : (
+                filteredPeople2.map((person, index) => (
+                  <Combobox.Option value={person} key={index}>
+                    {({ selected, active }) => (
+                      <MenuItem isActive={active} isSelected={selected}>
+                        <MenuItem.Title>{person.label}</MenuItem.Title>
+                      </MenuItem>
+                    )}
+                  </Combobox.Option>
+                )))}
+              </Combobox.Options>
+            </Combobox.Transition>
+          </>
+        )}
       </Combobox>
 
       <Combobox value={selected3} onChange={setSelected3} onQueryChange={setQuery3}>
-        <Combobox.Select
-          label="List options width"
-          placeholder="Choose an option"
-          onChange={setSelected3}
-          onQueryChange={setQuery3}
-          displayValue={({ label }) => label }
-          className={selectClass}
-          inputClassName={inputClass}
-          buttonClassName={buttonClass}
-        />
-        <Combobox.Options menuWidth='w-40' className='z-10000 rounded-moon-s-md box-border bg-gohan shadow-moon-lg py-2 px-1 my-2'>
-          {filteredPeople3.length === 0 && query3 !== '' ? (
-            <div className='relative cursor-default select-none py-2 px-4 text-gray-700'>
-              Nothing found.
-            </div>
-          ) : (
-          filteredPeople3.map((person, index) => (
-            <Combobox.Option value={person} key={index}>
-              {({ selected, active }) => (
-                <MenuItem isActive={active} isSelected={selected}>
-                  <MenuItem.Title>{person.label}</MenuItem.Title>
-                </MenuItem>
-              )}
-            </Combobox.Option>
-          )))}
-        </Combobox.Options>
-        <Combobox.Hint>Informative message holder</Combobox.Hint>
+        {({ open }) => (
+          <>
+            <Combobox.Select
+              label="List options width"
+              placeholder="Choose an option"
+              onChange={setSelected3}
+              onQueryChange={setQuery3}
+              displayValue={({ label }) => label }
+              className={selectClass}
+              inputClassName={inputClass}
+              buttonClassName={buttonClass}
+            />
+            <Combobox.Transition
+              open={open}
+              onChange={setSelected3}
+              onQueryChange={setQuery3}
+            >
+              <Combobox.Options menuWidth='w-40' className='z-10000 rounded-moon-s-md box-border bg-gohan shadow-moon-lg py-2 px-1 my-2'>
+                {filteredPeople3.length === 0 && query3 !== '' ? (
+                  <div className='relative cursor-default select-none py-2 px-4 text-gray-700'>
+                    Nothing found.
+                  </div>
+                ) : (
+                filteredPeople3.map((person, index) => (
+                  <Combobox.Option value={person} key={index}>
+                    {({ selected, active }) => (
+                      <MenuItem isActive={active} isSelected={selected}>
+                        <MenuItem.Title>{person.label}</MenuItem.Title>
+                      </MenuItem>
+                    )}
+                  </Combobox.Option>
+                )))}
+              </Combobox.Options>
+            </Combobox.Transition>
+            <Combobox.Hint>Informative message holder</Combobox.Hint>
+          </>
+        )}
       </Combobox>
     </div>
   );

@@ -61,22 +61,28 @@ const Example = () => {
               inputClassName={`${inputClass} pl-9 pr-7`}
               buttonClassName={buttonClass}
             />
-            <Combobox.Options>
-              {filteredPeople0.length === 0 && query0 !== '' ? (
-                  <div className='relative cursor-default select-none py-2 px-4 text-gray-700'>
-                    Nothing found.
-                  </div>
-                ) : (filteredPeople0.map((person, index) => (
-                <Combobox.Option value={person} key={index}>
-                  {({ selected, active }) => (
-                    <MenuItem isActive={active} isSelected={selected}>
-                      <MenuItem.Title>{person.label}</MenuItem.Title>
-                      <MenuItem.Checkbox isSelected={selected} />
-                    </MenuItem>
-                  )}
-                </Combobox.Option>
-              )))}
-            </Combobox.Options>
+            <Combobox.Transition
+              open={open}
+              onChange={setSelected0}
+              onQueryChange={setQuery0}
+            >
+              <Combobox.Options>
+                {filteredPeople0.length === 0 && query0 !== '' ? (
+                    <div className='relative cursor-default select-none py-2 px-4 text-gray-700'>
+                      Nothing found.
+                    </div>
+                  ) : (filteredPeople0.map((person, index) => (
+                  <Combobox.Option value={person} key={index}>
+                    {({ selected, active }) => (
+                      <MenuItem isActive={active} isSelected={selected}>
+                        <MenuItem.Title>{person.label}</MenuItem.Title>
+                        <MenuItem.Checkbox isSelected={selected} />
+                      </MenuItem>
+                    )}
+                  </Combobox.Option>
+                )))}
+              </Combobox.Options>
+            </Combobox.Transition>
             <Combobox.Hint>Informative message holder</Combobox.Hint>
           </>
         )}
@@ -151,22 +157,28 @@ const Example = () => {
               inputClassName={`${inputClass} pl-11 pr-9`}
               buttonClassName={buttonClass}
             />
-            <Combobox.Options>
-              {filteredPeople2.length === 0 && query2 !== '' ? (
-                <div className='relative cursor-default select-none py-2 px-4 text-gray-700'>
-                  Nothing found.
-                </div>
-                ) : (filteredPeople2.map((person, index) => (
-                  <Combobox.Option value={person} key={index}>
-                    {({ selected, active }) => (
-                      <MenuItem isActive={active} isSelected={selected}>
-                        <MenuItem.Title>{person.label}</MenuItem.Title>
-                        <MenuItem.Checkbox isSelected={selected} />
-                      </MenuItem>
-                    )}
-                  </Combobox.Option>
-               )))}
-            </Combobox.Options>
+            <Combobox.Transition
+              open={open}
+              onChange={setSelected2}
+              onQueryChange={setQuery2}
+            >
+              <Combobox.Options>
+                {filteredPeople2.length === 0 && query2 !== '' ? (
+                  <div className='relative cursor-default select-none py-2 px-4 text-gray-700'>
+                    Nothing found.
+                  </div>
+                  ) : (filteredPeople2.map((person, index) => (
+                    <Combobox.Option value={person} key={index}>
+                      {({ selected, active }) => (
+                        <MenuItem isActive={active} isSelected={selected}>
+                          <MenuItem.Title>{person.label}</MenuItem.Title>
+                          <MenuItem.Checkbox isSelected={selected} />
+                        </MenuItem>
+                      )}
+                    </Combobox.Option>
+                  )))}
+              </Combobox.Options>
+            </Combobox.Transition>
             <Combobox.Hint>Informative message holder</Combobox.Hint>
           </>
         )}

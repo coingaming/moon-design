@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { Combobox as ComboboxHeadlessUI, Transition as TransitionHeadlessUI, Listbox } from '@headlessui/react';
 import { usePopper } from 'react-popper';
 import { SelectButton, TextInput } from '../index';
@@ -267,11 +267,10 @@ const Transition = ({
 
   return (
     <TransitionHeadlessUI
-      ref={popper?.setPopper}
-      as={Fragment}
-      leave="transition ease-in duration-100"
-      leaveFrom="opacity-100"
-      leaveTo="opacity-0"
+      as={'div'}
+      leave='transition ease-in duration-100'
+      leaveFrom='opacity-100'
+      leaveTo='opacity-0'
       afterLeave={() => onQueryChange('')}
       {...rest}
     >
