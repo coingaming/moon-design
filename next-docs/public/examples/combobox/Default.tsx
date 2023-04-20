@@ -34,22 +34,28 @@ const Example = () => {
           <>
             <Combobox.Trigger
               open={open}
-              placeholder={'Choose a name...'}
-              onChange={setSelected}
-              onQueryChange={setQuery}
-              displayValue={({ label }) => label }
               className={'flex flex-nowrap min-w-[18.75rem] align-middle'}
-              inputClassName={'flex flex-grow pr-8'}
-              buttonClassName={'absolute text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center'}
             >
-              <ControlsChevronDownSmall />
+              <Combobox.Input
+                open={open}
+                placeholder={'Choose a name...'}
+                onChange={setSelected}
+                onQueryChange={setQuery}
+                displayValue={({ label }) => label }
+                className={'flex flex-grow pr-8'}
+              />
+              <Combobox.Button
+                className={'absolute text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center'}
+              >
+                <ControlsChevronDownSmall />
+              </Combobox.Button>
             </Combobox.Trigger>
             <Combobox.Transition
               open={open}
               onChange={setSelected}
               onQueryChange={setQuery}
             >
-              <Combobox.Options className={'min-w-[18.75rem]'}>
+              <Combobox.Options className={'min-w-[18.75rem] z-10000'}>
                 { filteredPeople.length === 0 && query !== '' ? (
                   <div className='relative cursor-default select-none py-2 px-4 text-gray-700'>
                     Nothing found.

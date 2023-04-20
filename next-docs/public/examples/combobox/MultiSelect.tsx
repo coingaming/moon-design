@@ -1,5 +1,6 @@
 import React, { useCallback, useState } from 'react';
 import { Combobox, MenuItem } from '@heathmont/moon-core-tw';
+import { ControlsChevronDownSmall } from '@heathmont/moon-icons';
 
 const people = [
   { id: 1, label: 'Wade Cooper', value: 'Wade Cooper' },
@@ -53,14 +54,28 @@ const Example = () => {
             <Combobox.MultiSelect
               open={open}
               label="Small"
-              placeholder="Choose an option"
               counter={selected0.length}
-              onChange={setSelected0}
-              onQueryChange={setQuery0}
               className={selectClass}
-              inputClassName={`${inputClass} pl-9 pr-7`}
-              buttonClassName={buttonClass}
-            />
+            >
+              <Combobox.Input
+                open={open}
+                placeholder="Choose an option"
+                onChange={setSelected0}
+                onQueryChange={setQuery0}
+                displayValue={({ label }) => label }
+                className={`${inputClass} pl-9 pr-7`}
+              />
+              <Combobox.Button
+                className={buttonClass}
+              >
+                <ControlsChevronDownSmall />
+              </Combobox.Button>
+              {selected0.length > 0 && (
+                <Combobox.Counter
+                  counter={selected0.length}
+                />
+              )}
+            </Combobox.MultiSelect>
             <Combobox.Transition
               open={open}
               onChange={setSelected0}
@@ -100,15 +115,28 @@ const Example = () => {
             <Combobox.MultiSelect
               open={open}
               label="Medium"
-              placeholder="Choose an option"
-              data-test="data-test"
               counter={selected1.length}
-              onChange={setSelected1}
-              onQueryChange={setQuery1}
               className={selectClass}
-              inputClassName={`${inputClass} pl-11 pr-8`}
-              buttonClassName={buttonClass}
-            />
+            >
+              <Combobox.Input
+                open={open}
+                placeholder="Choose an option"
+                onChange={setSelected1}
+                onQueryChange={setQuery1}
+                displayValue={({ label }) => label }
+                className={`${inputClass} pl-11 pr-8`}
+              />
+              <Combobox.Button
+                className={buttonClass}
+              >
+                <ControlsChevronDownSmall />
+              </Combobox.Button>
+              {selected1.length > 0 && (
+                <Combobox.Counter
+                  counter={selected1.length}
+                />
+              )}
+            </Combobox.MultiSelect>
             <Combobox.Transition
               open={open}
               onChange={setSelected1}
@@ -149,14 +177,28 @@ const Example = () => {
             <Combobox.MultiSelect
               open={open}
               label="Large"
-              placeholder="Choose an option"
               counter={selected2.length}
-              onChange={setSelected2}
-              onQueryChange={setQuery2}
               className={selectClass}
-              inputClassName={`${inputClass} pl-11 pr-9`}
-              buttonClassName={buttonClass}
-            />
+            >
+              <Combobox.Input
+                open={open}
+                placeholder="Choose an option"
+                onChange={setSelected2}
+                onQueryChange={setQuery2}
+                displayValue={({ label }) => label }
+                className={`${inputClass} pl-11 pr-9`}
+              />
+              <Combobox.Button
+                className={buttonClass}
+              >
+                <ControlsChevronDownSmall />
+              </Combobox.Button>
+              {selected2.length > 0 && (
+                <Combobox.Counter
+                  counter={selected2.length}
+                />
+              )}
+            </Combobox.MultiSelect>
             <Combobox.Transition
               open={open}
               onChange={setSelected2}

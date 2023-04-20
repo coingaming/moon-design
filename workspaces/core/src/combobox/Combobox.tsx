@@ -107,7 +107,10 @@ const Input = ({
       displayValue={displayValue}
       placeholder={placeholder}
       type={type ? type : 'text'}
-      className={mergeClassnames(isError ? 'text-red-600' : '', className)}
+      className={mergeClassnames(
+        size === undefined || size === 'md' ? 'text-base' : `text-${size}`,
+        className
+      )}
       disabled={disabled}
       isError={isError}
       {...rest}
@@ -166,7 +169,7 @@ const Options = ({
           'overflow-y-auto focus:outline-none',
           className
         )}
-      {...rest}
+        {...rest}
       >
         {children}
       </ComboboxHeadlessUI.Options>
@@ -186,44 +189,20 @@ const Option = ({ children, value }: OptionProps) => {
 };
 
 const Trigger = ({
-  open,
   children,
-  placeholder,
   className,
-  inputClassName,
-  buttonClassName,
-  type,
-  onChange,
-  onQueryChange,
-  displayValue,
   multiple,
   counter,
   ...rest
-}: WithChildren<SelectProps & InputProps & {inputClassName?: string, buttonClassName?: string}>) => {
-  const { size, popper, isError, disabled, onClear } = useComboboxContext('Combobox.Trigger');
-
-  const textSize = (size === undefined || size === 'md') ? 'text-base' : `text-${size}`;
+}: WithChildren<SelectProps>) => {
+  const { popper } = useComboboxContext('Combobox.Trigger');
 
   return (
-    <div className={mergeClassnames('relative', 'flex w-full', className)} ref={popper?.setAnchor}>
-      <Input
-        open={open}
-        displayValue={displayValue}
-        onChange={onChange}
-        onQueryChange={onQueryChange}
-        placeholder={placeholder}
-        className={`${inputClassName} ${textSize}`}
-        type={type}
-      />
-      <Button
-        open={open}
-        className={`${buttonClassName} ${textSize}`}
-      >
-        {children}
-      </Button>
-      {multiple && counter !== undefined && counter > 0 && (
-        <Counter counter={counter} />
-      )}
+    <div
+      className={mergeClassnames('relative', 'flex w-full', className)}
+      ref={popper?.setAnchor}
+    >
+      {children}
     </div>
   );
 };
@@ -285,16 +264,10 @@ const Select = ({
   placeholder,
   children,
   className,
-  inputClassName,
-  buttonClassName,
-  type,
-  onChange,
-  onQueryChange,
-  displayValue,
   multiple,
   counter,
   ...rest
-}: WithChildren<SelectProps & InputProps & {inputClassName?: string, buttonClassName?: string}>) => {
+}: WithChildren<SelectProps>) => {
   const { size, popper, disabled } = useComboboxContext('Combobox.Select');
 
   return (
@@ -307,20 +280,13 @@ const Select = ({
       <Listbox.Button
         open={open}
         as={Trigger}
-        onChange={onChange}
-        onQueryChange={onQueryChange}
-        displayValue={displayValue}
-        placeholder={placeholder}
-        type={type}
         ref={popper?.setAnchor}
         className={className}
-        inputClassName={inputClassName}
-        buttonClassName={buttonClassName}
         multiple={multiple !== undefined}
         counter={counter}
         {...rest}
       >
-        <ControlsChevronDownSmall />
+        {children}
       </Listbox.Button>
     </Listbox>
   );
@@ -333,31 +299,19 @@ const MultiSelect = ({
   placeholder,
   children,
   className,
-  inputClassName,
-  buttonClassName,
-  type,
-  onChange,
-  onQueryChange,
-  displayValue,
   multiple = true,
   counter = 0,
   ...rest
-}: WithChildren<SelectProps & InputProps & { counter?: number, inputClassName?: string, buttonClassName?: string }>) => {
-
+}: WithChildren<SelectProps & { counter?: number }>) => {
   return (
     <Select
       open={open}
       label={label}
       placeholder={placeholder}
       className={className}
-      inputClassName={inputClassName}
-      buttonClassName={buttonClassName}
-      type={type}
-      onChange={onChange}
-      onQueryChange={onQueryChange}
-      displayValue={displayValue}
       multiple={true}
       counter={counter}
+      {...rest}
     >
       {children}
     </Select>
@@ -392,6 +346,7 @@ const Combobox = Object.assign(ComboboxRoot, {
   Options,
   Option,
   Trigger,
+  Counter,
   Transition,
   Hint,
   Select,

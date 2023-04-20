@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Combobox, MenuItem } from '@heathmont/moon-core-tw';
+import { ControlsChevronDownSmall } from '@heathmont/moon-icons';
 
 const people = [
   { id: 1, label: 'Wade Cooper', value: 'Wade Cooper' },
@@ -49,14 +50,22 @@ const Example = () => {
             <Combobox.Select
               open={open}
               label="Error"
-              placeholder="Choose an option"
-              onChange={setSelected0}
-              onQueryChange={setQuery0}
-              displayValue={({ label }) => label }
               className={selectClass}
-              inputClassName={inputClass}
-              buttonClassName={buttonClass}
-            />
+            >
+              <Combobox.Input
+                open={open}
+                placeholder="Choose an option"
+                onChange={setSelected0}
+                onQueryChange={setQuery0}
+                displayValue={({ label }) => label }
+                className={inputClass}
+              />
+              <Combobox.Button
+                className={buttonClass}
+              >
+                <ControlsChevronDownSmall />
+              </Combobox.Button>
+            </Combobox.Select>
             <Combobox.Transition
               open={open}
               onChange={setSelected0}
@@ -90,14 +99,22 @@ const Example = () => {
             <Combobox.Select
               open={open}
               label="Disabled"
-              placeholder="Choose an option"
-              onChange={setSelected1}
-              onQueryChange={setQuery1}
-              displayValue={({ label }) => label }
               className={selectClass}
-              inputClassName={inputClass}
-              buttonClassName={buttonClass}
-            />
+            >
+              <Combobox.Input
+                open={open}
+                placeholder="Choose an option"
+                onChange={setSelected1}
+                onQueryChange={setQuery1}
+                displayValue={({ label }) => label }
+                className={inputClass}
+              />
+              <Combobox.Button
+                className={buttonClass}
+              >
+                <ControlsChevronDownSmall />
+              </Combobox.Button>
+            </Combobox.Select>
             <Combobox.Transition
               open={open}
               onChange={setSelected1}
@@ -129,14 +146,23 @@ const Example = () => {
         {({ open }) => (
           <>
             <Combobox.Select
-              placeholder="Without Label and Hint message"
-              onChange={setSelected2}
-              onQueryChange={setQuery2}
-              displayValue={({ label }) => label }
+              open={open}
               className={selectClass}
-              inputClassName={inputClass}
-              buttonClassName={buttonClass}
-            />
+            >
+              <Combobox.Input
+                open={open}
+                placeholder="Without Label and Hint message"
+                onChange={setSelected2}
+                onQueryChange={setQuery2}
+                displayValue={({ label }) => label }
+                className={inputClass}
+              />
+              <Combobox.Button
+                className={buttonClass}
+              >
+                <ControlsChevronDownSmall />
+              </Combobox.Button>
+            </Combobox.Select>
             <Combobox.Transition
               open={open}
               onChange={setSelected2}
@@ -167,15 +193,24 @@ const Example = () => {
         {({ open }) => (
           <>
             <Combobox.Select
+              open={open}
               label="List options width"
-              placeholder="Choose an option"
-              onChange={setSelected3}
-              onQueryChange={setQuery3}
-              displayValue={({ label }) => label }
               className={selectClass}
-              inputClassName={inputClass}
-              buttonClassName={buttonClass}
-            />
+            >
+              <Combobox.Input
+                open={open}
+                placeholder="Choose an option"
+                onChange={setSelected3}
+                onQueryChange={setQuery3}
+                displayValue={({ label }) => label }
+                className={inputClass}
+              />
+              <Combobox.Button
+                className={buttonClass}
+              >
+                <ControlsChevronDownSmall />
+              </Combobox.Button>
+            </Combobox.Select>
             <Combobox.Transition
               open={open}
               onChange={setSelected3}
