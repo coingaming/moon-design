@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react';
-import { Combobox as ComboboxHeadlessUI, Transition, Listbox } from '@headlessui/react';
+import React, { Fragment } from 'react';
+import { Combobox as ComboboxHeadlessUI, Transition as TransitionHeadlessUI, Listbox } from '@headlessui/react';
 import { usePopper } from 'react-popper';
 import { SelectButton, TextInput } from '../index';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
@@ -34,7 +34,6 @@ const ComboboxRoot = ({
 }: ComboboxRootProps) => {
   const [anchorEl, setAnchorEl] = React.useState<Element | null>();
   const [popperEl, setPopperEl] = React.useState<HTMLElement | null>();
-  const [open, setOpen] = React.useState<boolean>(false);
 
   let { styles, attributes } = usePopper(anchorEl, popperEl, {
     placement: position,
@@ -45,7 +44,6 @@ const ComboboxRoot = ({
     displayValue: displayValue,
     isError: isError,
     size: size,
-    open: open,
     disabled: disabled,
     multiple: multiple,
     onClear: onClear,
@@ -56,12 +54,6 @@ const ComboboxRoot = ({
       setPopper: setPopperEl,
     },
   };
-
-  useEffect(() => {
-    if (!open) {
-      onQueryChange('');
-    }
-  }, [open]);
 
   const childrens =
     typeof children !== 'function' ? React.Children.toArray(children) : [];
@@ -82,7 +74,6 @@ const ComboboxRoot = ({
         >
           {({ open }) => (
             <>
-              {setOpen(open)}
               {typeof children === 'function'
                 ? callableChildren && callableChildren({ open })
                 : childrens?.map((ch) => ch)
@@ -125,12 +116,13 @@ const Input = ({
 };
 
 const Button = ({
+  open,
   children,
   label,
   className,
   ...rest
 }: WithChildren<ButtonProps>) => {
-  const { size, open } = useComboboxContext('Combobox.Button');
+  const { size } = useComboboxContext('Combobox.Button');
 
   return (
       <ComboboxHeadlessUI.Button
@@ -194,6 +186,7 @@ const Option = ({ children, value }: OptionProps) => {
 };
 
 const Trigger = ({
+  open,
   children,
   placeholder,
   className,
@@ -207,13 +200,14 @@ const Trigger = ({
   counter,
   ...rest
 }: WithChildren<SelectProps & InputProps & {inputClassName?: string, buttonClassName?: string}>) => {
-  const { size, popper, open, isError, disabled, onClear } = useComboboxContext('Combobox.Trigger');
+  const { size, popper, isError, disabled, onClear } = useComboboxContext('Combobox.Trigger');
 
   const textSize = (size === undefined || size === 'md') ? 'text-base' : `text-${size}`;
 
   return (
     <div className={mergeClassnames('relative', 'flex w-full', className)} ref={popper?.setAnchor}>
       <Input
+        open={open}
         displayValue={displayValue}
         onChange={onChange}
         onQueryChange={onQueryChange}
@@ -222,6 +216,7 @@ const Trigger = ({
         type={type}
       />
       <Button
+        open={open}
         className={`${buttonClassName} ${textSize}`}
       >
         {children}
@@ -234,11 +229,12 @@ const Trigger = ({
 };
 
 const Counter = ({
+  open,
   className,
   counter,
   ...rest
 }: SelectProps) => {
-  const { size, open, isError, disabled, onClear } = useComboboxContext('Combobox.Counter');
+  const { size, isError, disabled, onClear } = useComboboxContext('Combobox.Counter');
 
   return (
     <span className={mergeClassnames(
@@ -262,7 +258,30 @@ const Counter = ({
   );
 };
 
+const Transition = ({
+  children,
+  onQueryChange,
+  ...rest
+}: WithChildren<InputProps>) => {
+  const { popper } = useComboboxContext('Combobox.Transition');
+
+  return (
+    <TransitionHeadlessUI
+      ref={popper?.setPopper}
+      as={Fragment}
+      leave="transition ease-in duration-100"
+      leaveFrom="opacity-100"
+      leaveTo="opacity-0"
+      afterLeave={() => onQueryChange('')}
+      {...rest}
+    >
+      {children}
+    </TransitionHeadlessUI>
+  );
+}
+
 const Select = ({
+  open,
   label,
   placeholder,
   children,
@@ -277,7 +296,7 @@ const Select = ({
   counter,
   ...rest
 }: WithChildren<SelectProps & InputProps & {inputClassName?: string, buttonClassName?: string}>) => {
-  const { size, popper, isError, disabled } = useComboboxContext('Combobox.Select');
+  const { size, popper, disabled } = useComboboxContext('Combobox.Select');
 
   return (
     <Listbox>
@@ -287,6 +306,7 @@ const Select = ({
         </SelectButton.Label>
       )}
       <Listbox.Button
+        open={open}
         as={Trigger}
         onChange={onChange}
         onQueryChange={onQueryChange}
@@ -308,6 +328,7 @@ const Select = ({
 };
 
 const MultiSelect = ({
+  open,
   value,
   label,
   placeholder,
@@ -323,11 +344,10 @@ const MultiSelect = ({
   counter = 0,
   ...rest
 }: WithChildren<SelectProps & InputProps & { counter?: number, inputClassName?: string, buttonClassName?: string }>) => {
-  const { size, popper, open, isError, disabled, onClear } = useComboboxContext(
-    'Combobox.MultiSelect'
-  );
+
   return (
     <Select
+      open={open}
       label={label}
       placeholder={placeholder}
       className={className}
@@ -373,6 +393,7 @@ const Combobox = Object.assign(ComboboxRoot, {
   Options,
   Option,
   Trigger,
+  Transition,
   Hint,
   Select,
   MultiSelect

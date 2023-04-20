@@ -5,6 +5,7 @@ type InputProps = {
   displayValue?: (value: InputValue & { label: string }) => string;
   label?: string;
   placeholder?: string;
+  open?: boolean;
   className?: string;
   type?: string;
   disabled?: boolean;
