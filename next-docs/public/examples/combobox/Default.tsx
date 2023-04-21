@@ -45,6 +45,7 @@ const Example = () => {
                 className={'flex flex-grow pr-8'}
               />
               <Combobox.Button
+                open={open}
                 className={'absolute text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center'}
               >
                 <ControlsChevronDownSmall />

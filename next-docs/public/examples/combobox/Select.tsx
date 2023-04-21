@@ -59,6 +59,7 @@ const Example = () => {
                   className={`${inputClass} pr-7`}
                 />
                 <Combobox.Button
+                  open={open}
                   className={buttonClass}
                 >
                   <ControlsChevronDownSmall />
@@ -109,6 +110,7 @@ const Example = () => {
                   className={`${inputClass} pr-8`}
                 />
                 <Combobox.Button
+                  open={open}
                   className={buttonClass}
                 >
                   <ControlsChevronDownSmall />
@@ -159,6 +161,7 @@ const Example = () => {
                   className={`${inputClass} pr-9`}
                 />
                 <Combobox.Button
+                  open={open}
                   className={buttonClass}
                 >
                   <ControlsChevronDownSmall />

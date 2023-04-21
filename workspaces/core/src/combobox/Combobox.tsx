@@ -1,7 +1,7 @@
 import React from 'react';
 import { Combobox as ComboboxHeadlessUI, Transition as TransitionHeadlessUI, Listbox } from '@headlessui/react';
 import { usePopper } from 'react-popper';
-import { SelectButton, TextInput } from '../index';
+import { InsetInput, SelectButton, TextInput } from '../index';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import ControlsChevronDownSmall from '../private/icons/ControlsChevronDownSmall';
 import ButtonProps from './private/types/ButtonProps';
@@ -93,6 +93,7 @@ const Input = ({
   className,
   onChange,
   onQueryChange,
+  label,
   ...rest
 }: InputProps) => {
 
@@ -115,6 +116,42 @@ const Input = ({
       isError={isError}
       {...rest}
     />
+  );
+};
+
+const InputInset = ({
+  children,
+  displayValue,
+  placeholder,
+  type,
+  className,
+  onChange,
+  onQueryChange,
+  label,
+  ...rest
+}: WithChildren<InputProps>) => {
+
+  const { size, popper, disabled, isError } = useComboboxContext('Combobox.Input');
+
+  return (
+    <ComboboxHeadlessUI.Input
+      onChange={({ target: { value } }) => onQueryChange(value)}
+      ref={popper?.setAnchor}
+      as={InsetInput}
+      displayValue={displayValue}
+      placeholder={placeholder}
+      type={type ? type : 'text'}
+      className={mergeClassnames(
+        size === undefined || size === 'md' ? 'text-base' : `text-${size}`,
+        className
+      )}
+      disabled={disabled}
+      error={isError}
+      {...rest}
+    >
+      <InsetInput.Label>{label}</InsetInput.Label>
+      {children}
+    </ComboboxHeadlessUI.Input>
   );
 };
 
@@ -342,6 +379,7 @@ const Hint = ({
 
 const Combobox = Object.assign(ComboboxRoot, {
   Input,
+  InputInset,
   Button,
   Options,
   Option,

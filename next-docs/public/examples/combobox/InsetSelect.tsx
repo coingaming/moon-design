@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Combobox, MenuItem } from '@heathmont/moon-core-tw';
+import { ControlsChevronDownSmall } from '@heathmont/moon-icons';
 
 const people = [
   { id: 1, label: 'Wade Cooper', value: 'Wade Cooper' },
@@ -10,36 +11,70 @@ const people = [
   { id: 6, label: 'Hellen Schmidt', value: 'Hellen Schmidt' },
 ];
 
-const Example = () => {
-  const [option, setOption] = useState(null);
+const filter = (query: string, people: ({} & {label: string, value: string})[]) => {
+  return query === ''
+    ? people
+    : people.filter(({ value }) =>
+      value
+        .toLowerCase()
+        .replace(/\s+/g, '')
+        .includes(query.toLowerCase().replace(/\s+/g, ''))
+    );
+}
 
+const Example = () => {
+  const [option, setOption] = useState({});
   const [query, setQuery] = useState<string>('');
+
+  const filteredPeople = filter(query, people);
 
   return (
     <div className="flex w-full max-w-sm items-center z-0">
       <Combobox value={option} onChange={setOption} onQueryChange={setQuery}>
         {({ open }) => (
           <>
-            ({/*<Combobox.InsetSelect
+            <Combobox.Select
               open={open}
-              label="Select label"
-              placeholder="Choose an option"
             >
-              {option ? option['label'] : option}
-            </Combobox.InsetSelect>
-
-            <Combobox.Options>
-              {people.map((person, index) => (
-                <Combobox.Option value={person} key={index}>
-                  {({ selected, active }) => (
-                    <MenuItem isActive={active} isSelected={selected}>
-                      <MenuItem.Title>{person.label}</MenuItem.Title>
-                      <MenuItem.Radio isSelected={selected} />
-                    </MenuItem>
-                  )}
-                </Combobox.Option>
-              ))}
-                  </Combobox.Options>*/})
+              <Combobox.InputInset
+                label='Label'
+                open={open}
+                placeholder='Choose an option'
+                onChange={setOption}
+                onQueryChange={setQuery}
+                displayValue={({ label }) => label }
+                className='relative flex flex-grow'
+              />
+              <Combobox.Button
+                open={open}
+                className={'absolute text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center z-50'}
+              >
+                <ControlsChevronDownSmall />
+              </Combobox.Button>
+            </Combobox.Select>
+            <Combobox.Transition
+              open={open}
+              onChange={setOption}
+              onQueryChange={setQuery}
+            >
+              <Combobox.Options>
+                {filteredPeople.length === 0 && query !== '' ? (
+                  <div className='relative cursor-default select-none py-2 px-4 text-gray-700'>
+                    Nothing found.
+                  </div>
+                ) : (
+                  filteredPeople.map((person, index) => (
+                    <Combobox.Option value={person} key={index}>
+                      {({ selected, active }) => (
+                        <MenuItem isActive={active} isSelected={selected}>
+                          <MenuItem.Title>{person.label}</MenuItem.Title>
+                          <MenuItem.Radio isSelected={selected} />
+                        </MenuItem>
+                      )}
+                    </Combobox.Option>
+                )))}
+              </Combobox.Options>
+            </Combobox.Transition>
             <Combobox.Hint>Informative message holder</Combobox.Hint>
           </>
         )}
