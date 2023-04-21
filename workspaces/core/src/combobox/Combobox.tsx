@@ -1,7 +1,7 @@
 import React from 'react';
 import { Combobox as ComboboxHeadlessUI, Transition as TransitionHeadlessUI, Listbox } from '@headlessui/react';
 import { usePopper } from 'react-popper';
-import { InsetInput, SelectButton, TextInput } from '../index';
+import { InsetInput as InputInset, SelectButton, TextInput } from '../index';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import ControlsChevronDownSmall from '../private/icons/ControlsChevronDownSmall';
 import ButtonProps from './private/types/ButtonProps';
@@ -119,7 +119,7 @@ const Input = ({
   );
 };
 
-const InputInset = ({
+const InsetInput = ({
   children,
   displayValue,
   placeholder,
@@ -137,7 +137,7 @@ const InputInset = ({
     <ComboboxHeadlessUI.Input
       onChange={({ target: { value } }) => onQueryChange(value)}
       ref={popper?.setAnchor}
-      as={InsetInput}
+      as={InputInset}
       displayValue={displayValue}
       placeholder={placeholder}
       type={type ? type : 'text'}
@@ -149,7 +149,7 @@ const InputInset = ({
       error={isError}
       {...rest}
     >
-      <InsetInput.Label>{label}</InsetInput.Label>
+      <InputInset.Label>{label}</InputInset.Label>
       {children}
     </ComboboxHeadlessUI.Input>
   );
@@ -379,7 +379,7 @@ const Hint = ({
 
 const Combobox = Object.assign(ComboboxRoot, {
   Input,
-  InputInset,
+  InsetInput,
   Button,
   Options,
   Option,

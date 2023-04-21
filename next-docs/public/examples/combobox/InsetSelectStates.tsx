@@ -46,7 +46,7 @@ const Example = () => {
             <Combobox.Select
               open={open}
             >
-              <Combobox.InputInset
+              <Combobox.InsetInput
                 label='Error'
                 open={open}
                 placeholder='Choose an option'
@@ -96,7 +96,7 @@ const Example = () => {
             <Combobox.Select
               open={open}
             >
-              <Combobox.InputInset
+              <Combobox.InsetInput
                 label='Disabled'
                 open={open}
                 placeholder='Choose an option'
@@ -146,7 +146,7 @@ const Example = () => {
             <Combobox.Select
               open={open}
             >
-              <Combobox.InputInset
+              <Combobox.InsetInput
                 label=''
                 open={open}
                 placeholder='Without Label and Hint message'
@@ -195,7 +195,7 @@ const Example = () => {
             <Combobox.Select
               open={open}
             >
-              <Combobox.InputInset
+              <Combobox.InsetInput
                 label='List options width'
                 open={open}
                 placeholder='Choose an option'

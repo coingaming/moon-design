@@ -36,7 +36,7 @@ const Example = () => {
             <Combobox.Select
               open={open}
             >
-              <Combobox.InputInset
+              <Combobox.InsetInput
                 label='Label'
                 open={open}
                 placeholder='Choose an option'
@@ -57,7 +57,7 @@ const Example = () => {
               onChange={setOption}
               onQueryChange={setQuery}
             >
-              <Combobox.Options>
+              <Combobox.Options className='z-10000'>
                 {filteredPeople.length === 0 && query !== '' ? (
                   <div className='relative cursor-default select-none py-2 px-4 text-gray-700'>
                     Nothing found.
