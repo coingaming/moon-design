@@ -98,22 +98,12 @@ const Example = () => {
 
       <ComponentAnatomy>
         {`<Combobox>
-  <Combobox.Select>
-    <InsetInput />
-    ...
-  </Combobox.Select>
-  <Combobox.Options>
-    <Combobox.Option>...</Combobox.Option>
-  </Combobox.Options>
-  <Combobox.Hint>...</Combobox.Hint>
-</Combobox>`}
-        {/*`<Combobox>
   <Combobox.InsetSelect>...</Combobox.InsetSelect>
   <Combobox.Options>
     <Combobox.Option>...</Combobox.Option>
   </Combobox.Options>
   <Combobox.Hint>...</Combobox.Hint>
-</Combobox>`*/}
+</Combobox>`}
       </ComponentAnatomy>
 
       <Preview
@@ -145,23 +135,13 @@ const Example = () => {
       />
 
       <ComponentAnatomy>
-      {`<Combobox>
-  <Combobox.MultiSelect>
-    <InsetInput />
-    ...
-  </Combobox.MultiSelect>
-  <Combobox.Options>
-    <Combobox.Option>...</Combobox.Option>
-  </Combobox.Options>
-  <Combobox.Hint>...</Combobox.Hint>
-</Combobox>`}
-        {/*`<Combobox>
+        {`<Combobox>
   <Combobox.InsetMultiSelect>...</Combobox.InsetMultiSelect>
   <Combobox.Options>
     <Combobox.Option>...</Combobox.Option>
   </Combobox.Options>
   <Combobox.Hint>...</Combobox.Hint>
-</Combobox>`*/}
+</Combobox>`}
       </ComponentAnatomy>
 
       <Preview

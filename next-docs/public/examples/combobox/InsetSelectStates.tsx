@@ -40,28 +40,19 @@ const Example = () => {
 
   return (
     <div className="flex flex-col lg:flex-row justify-around items-start w-full gap-2">
-      {/*<Combobox value={selected0} onChange={setSelected0} onQueryChange={setQuery0} isError={true}>
+      <Combobox value={selected0} onChange={setSelected0} onQueryChange={setQuery0} isError={true}>
         {({ open }) => (
           <>
-            <Combobox.Select
+            <Combobox.InsetSelect
               open={open}
+              label='Error'
+              placeholder='Choose an option'
+              onChange={setSelected0}
+              onQueryChange={setQuery0}
+              displayValue={({ label }) => label}
             >
-              <Combobox.InsetInput
-                label='Error'
-                open={open}
-                placeholder='Choose an option'
-                onChange={setSelected0}
-                onQueryChange={setQuery0}
-                displayValue={({ label }) => label }
-                className='relative flex flex-grow'
-              />
-              <Combobox.Button
-                open={open}
-                className={'absolute text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center z-50'}
-              >
-                <ControlsChevronDownSmall />
-              </Combobox.Button>
-            </Combobox.Select>
+              <ControlsChevronDownSmall />
+            </Combobox.InsetSelect>
             <Combobox.Transition
               open={open}
               onChange={setSelected0}
@@ -93,25 +84,16 @@ const Example = () => {
       <Combobox value={selected1} onChange={setSelected1} onQueryChange={setQuery1} disabled={true}>
         {({ open }) => (
           <>
-            <Combobox.Select
+            <Combobox.InsetSelect
               open={open}
+              label='Disabled'
+              placeholder='Choose an option'
+              onChange={setSelected1}
+              onQueryChange={setQuery1}
+              displayValue={({ label }) => label}
             >
-              <Combobox.InsetInput
-                label='Disabled'
-                open={open}
-                placeholder='Choose an option'
-                onChange={setSelected1}
-                onQueryChange={setQuery1}
-                displayValue={({ label }) => label }
-                className='relative flex flex-grow'
-              />
-              <Combobox.Button
-                open={open}
-                className={'absolute text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center z-50'}
-              >
-                <ControlsChevronDownSmall />
-              </Combobox.Button>
-            </Combobox.Select>
+              <ControlsChevronDownSmall />
+            </Combobox.InsetSelect>
             <Combobox.Transition
               open={open}
               onChange={setSelected1}
@@ -143,25 +125,16 @@ const Example = () => {
       <Combobox value={selected2} onChange={setSelected2} onQueryChange={setQuery2}>
         {({ open }) => (
           <>
-            <Combobox.Select
+            <Combobox.InsetSelect
               open={open}
+              label=''
+              placeholder='Without Label and Hint message'
+              onChange={setSelected2}
+              onQueryChange={setQuery2}
+              displayValue={({ label }) => label}
             >
-              <Combobox.InsetInput
-                label=''
-                open={open}
-                placeholder='Without Label and Hint message'
-                onChange={setSelected2}
-                onQueryChange={setQuery2}
-                displayValue={({ label }) => label }
-                className='relative flex flex-grow'
-              />
-              <Combobox.Button
-                open={open}
-                className={'absolute text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center z-50'}
-              >
-                <ControlsChevronDownSmall />
-              </Combobox.Button>
-            </Combobox.Select>
+              <ControlsChevronDownSmall />
+            </Combobox.InsetSelect>
             <Combobox.Transition
               open={open}
               onChange={setSelected2}
@@ -192,25 +165,16 @@ const Example = () => {
       <Combobox value={selected3} onChange={setSelected3} onQueryChange={setQuery3}>
         {({ open }) => (
           <>
-            <Combobox.Select
+            <Combobox.InsetSelect
               open={open}
+              label='List options width'
+              placeholder='Choose an option'
+              onChange={setSelected3}
+              onQueryChange={setQuery3}
+              displayValue={({ label }) => label}
             >
-              <Combobox.InsetInput
-                label='List options width'
-                open={open}
-                placeholder='Choose an option'
-                onChange={setSelected3}
-                onQueryChange={setQuery3}
-                displayValue={({ label }) => label }
-                className='relative flex flex-grow'
-              />
-              <Combobox.Button
-                open={open}
-                className={'absolute text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center z-50'}
-              >
-                <ControlsChevronDownSmall />
-              </Combobox.Button>
-            </Combobox.Select>
+              <ControlsChevronDownSmall />
+            </Combobox.InsetSelect>
             <Combobox.Transition
               open={open}
               onChange={setSelected3}
@@ -238,7 +202,6 @@ const Example = () => {
           </>
         )}
       </Combobox>
-                      */}
     </div>
   );
 };

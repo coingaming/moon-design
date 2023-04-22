@@ -33,25 +33,16 @@ const Example = () => {
       <Combobox value={option} onChange={setOption} onQueryChange={setQuery}>
         {({ open }) => (
           <>
-            {/*<Combobox.Select
+            <Combobox.InsetSelect
               open={open}
+              label='Label'
+              placeholder='Choose an option'
+              onChange={setOption}
+              onQueryChange={setQuery}
+              displayValue={({ label }) => label}
             >
-              <Combobox.InsetInput
-                label='Label'
-                open={open}
-                placeholder='Choose an option'
-                onChange={setOption}
-                onQueryChange={setQuery}
-                displayValue={({ label }) => label }
-                className='relative flex flex-grow'
-              />
-              <Combobox.Button
-                open={open}
-                className={'absolute text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center z-50'}
-              >
-                <ControlsChevronDownSmall />
-              </Combobox.Button>
-            </Combobox.Select>
+              <ControlsChevronDownSmall />
+            </Combobox.InsetSelect>
             <Combobox.Transition
               open={open}
               onChange={setOption}
@@ -74,7 +65,7 @@ const Example = () => {
                     </Combobox.Option>
                 )))}
               </Combobox.Options>
-                      </Combobox.Transition>*/ }
+            </Combobox.Transition>
             <Combobox.Hint>Informative message holder</Combobox.Hint>
           </>
         )}

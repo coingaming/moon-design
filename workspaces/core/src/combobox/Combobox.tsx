@@ -156,7 +156,6 @@ const Input = ({
 };
 
 const InsetInput = ({
-  children,
   displayValue,
   placeholder,
   type,
@@ -165,29 +164,37 @@ const InsetInput = ({
   onQueryChange,
   label,
   ...rest
-}: WithChildren<InputProps>) => {
+}: InputProps) => {
 
-  const { size, popper, disabled, isError } = useComboboxContext('Combobox.InsetInput');
+  const { size, popper, disabled, isError, input } = useComboboxContext('Combobox.InsetInput');
 
   return (
-    <ComboboxHeadlessUI.Input
-      onChange={({ target: { value } }) => onQueryChange(value)}
-      ref={popper?.setAnchor}
-      as={InputInset}
-      displayValue={displayValue}
-      placeholder={placeholder}
-      type={type ? type : 'text'}
-      className={mergeClassnames(
-        size === undefined || size === 'md' ? 'text-base' : `text-${size}`,
-        className
-      )}
-      disabled={disabled}
-      error={isError}
-      {...rest}
-    >
-      <InputInset.Label>{label}</InputInset.Label>
-      {children}
-    </ComboboxHeadlessUI.Input>
+    <span className={mergeClassnames(
+      'relative',
+      'flex flex-grow w-full'
+    )}>
+      <ComboboxHeadlessUI.Input
+        onChange={({ target: { value } }) => onQueryChange(value)}
+        ref={popper?.setAnchor}
+        as={NativeInput}
+        displayValue={displayValue}
+        placeholder={placeholder}
+        type={type ? type : 'text'}
+        disabled={disabled}
+        className={mergeClassnames(
+          'flex-grow border-0 pl-3 pr-0.5 ml-0.5 mt-0.5 mb-0.5',
+          'shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none',
+          label !== undefined && label.length > 0 && 'input-xl pt-[1rem] pb-0.5 input-xl-dt-label',
+          size === undefined || size === 'md' ? 'text-base' : `text-${size}`,
+          className
+        )}
+        isError={isError}
+        onFocus={() => input?.setFocused(true)}
+        onBlur={() => input?.setFocused(false)}
+        {...rest}
+      />
+      <InputInset.Label className='z-5 top-1.5'>{label}</InputInset.Label>
+    </span>
   );
 };
 
@@ -198,7 +205,7 @@ const Button = ({
   className,
   ...rest
 }: WithChildren<ButtonProps>) => {
-  const { size } = useComboboxContext('Combobox.Button');
+  const { size, disabled } = useComboboxContext('Combobox.Button');
 
   return (
       <ComboboxHeadlessUI.Button
@@ -217,6 +224,7 @@ const Button = ({
 
           open && 'rotate-[-180deg]',
           'text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center',
+          disabled && 'cursor-not-allowed',
           className
         )}
         {...rest}
@@ -409,6 +417,94 @@ const MultiSelect = ({
   );
 };
 
+const InsetSelect = ({
+  open,
+  label,
+  placeholder,
+  children,
+  className,
+  multiple,
+  counter,
+  onChange,
+  onQueryChange,
+  displayValue,
+  ...rest
+}: WithChildren<SelectProps & InputProps>) => {
+  const { size, popper, disabled } = useComboboxContext('Combobox.Select');
+
+  return (
+    <Listbox>
+      <Listbox.Button
+        open={open}
+        as={Trigger}
+        ref={popper?.setAnchor}
+        className={className}
+        multiple={multiple !== undefined}
+        counter={counter}
+        {...rest}
+      >
+        <InsetInput
+          open={open}
+          label={label}
+          placeholder={placeholder}
+          onChange={onChange}
+          onQueryChange={onQueryChange}
+          displayValue={displayValue}
+        />
+        <Button open={open}>
+          {children}
+        </Button>
+      </Listbox.Button>
+    </Listbox>
+  );
+};
+
+const InsetMultiSelect = ({
+  open,
+  value,
+  label,
+  placeholder,
+  children,
+  className,
+  multiple = true,
+  counter,
+  onChange,
+  onQueryChange,
+  displayValue,
+  ...rest
+}: WithChildren<SelectProps & InputProps>) => {
+  const { size, popper, disabled } = useComboboxContext('Combobox.MultiSelect');
+
+  return (
+    <Listbox>
+      <Listbox.Button
+        open={open}
+        as={Trigger}
+        ref={popper?.setAnchor}
+        className={className}
+        multiple={multiple !== undefined}
+        counter={counter}
+        {...rest}
+      >
+        {counter !== undefined && counter > 0 && (
+          <Counter counter={counter} />
+        )}
+        <InsetInput
+          open={open}
+          label={label}
+          placeholder={placeholder}
+          onChange={onChange}
+          onQueryChange={onQueryChange}
+          displayValue={displayValue}
+        />
+        <Button open={open}>
+          {children}
+        </Button>
+      </Listbox.Button>
+    </Listbox>
+  );
+};
+
 const Hint = ({
   children,
   className,
@@ -433,7 +529,6 @@ const Hint = ({
 
 const Combobox = Object.assign(ComboboxRoot, {
   Input,
-  InsetInput,
   Button,
   Options,
   Option,
@@ -442,7 +537,9 @@ const Combobox = Object.assign(ComboboxRoot, {
   Transition,
   Hint,
   Select,
-  MultiSelect
+  MultiSelect,
+  InsetSelect,
+  InsetMultiSelect
 });
 
 export default Combobox;

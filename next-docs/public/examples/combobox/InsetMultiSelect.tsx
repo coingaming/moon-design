@@ -30,7 +30,7 @@ const Example = () => {
 
   return (
     <div className="flex w-full max-w-sm items-center">
-      {/*<Combobox
+      <Combobox
         value={selected}
         onChange={setSelected}
         onClear={useCallback(() => setSelected([]), [setSelected])}
@@ -39,32 +39,17 @@ const Example = () => {
       >
         {({ open }) => (
           <>
-            <Combobox.MultiSelect
+            <Combobox.InsetMultiSelect
               open={open}
+              label='Select label'
               counter={selected.length}
+              placeholder='Choose an option'
+              onChange={setSelected}
+              onQueryChange={setQuery}
+              displayValue={({ label }) => label}
             >
-              <Combobox.InsetInput
-                label='Select label'
-                open={open}
-                placeholder='Choose an option'
-                onChange={setSelected}
-                onQueryChange={setQuery}
-                displayValue={({ label }) => label }
-                className='relative flex flex-grow'
-              />
-              <Combobox.Button
-                open={open}
-                className={'absolute text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center z-50'}
-              >
-                <ControlsChevronDownSmall />
-              </Combobox.Button>
-              {selected.length > 0 && (
-                <Combobox.Counter
-                  counter={selected.length}
-                  className='z-50'
-                />
-              )}
-            </Combobox.MultiSelect>
+              <ControlsChevronDownSmall />
+            </Combobox.InsetMultiSelect>
             <Combobox.Transition
               open={open}
               onChange={setSelected}
@@ -91,7 +76,7 @@ const Example = () => {
             <Combobox.Hint>Informative message holder</Combobox.Hint>
           </>
         )}
-                      </Combobox> */}
+      </Combobox>
     </div>
   );
 };
