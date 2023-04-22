@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Combobox as ComboboxHeadlessUI, Transition as TransitionHeadlessUI, Listbox } from '@headlessui/react';
 import { usePopper } from 'react-popper';
-import { InsetInput as InputInset, SelectButton, TextInput } from '../index';
+import { InsetInput as InputInset, SelectButton, Input as NativeInput } from '../index';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import ControlsChevronDownSmall from '../private/icons/ControlsChevronDownSmall';
 import ButtonProps from './private/types/ButtonProps';
@@ -34,6 +34,7 @@ const ComboboxRoot = ({
 }: ComboboxRootProps) => {
   const [anchorEl, setAnchorEl] = React.useState<Element | null>();
   const [popperEl, setPopperEl] = React.useState<HTMLElement | null>();
+  const [inputFocused, setInputFocused] = React.useState<boolean>(false);
 
   let { styles, attributes } = usePopper(anchorEl, popperEl, {
     placement: position,
@@ -45,6 +46,10 @@ const ComboboxRoot = ({
     isError: isError,
     size: size,
     disabled: disabled,
+    input: {
+      focused: inputFocused,
+      setFocused: setInputFocused,
+    },
     multiple: multiple,
     onClear: onClear,
     popper: {
@@ -86,6 +91,34 @@ const ComboboxRoot = ({
   );
 };
 
+const Trigger = ({
+  children,
+  className,
+  multiple,
+  counter,
+  ...rest
+}: WithChildren<SelectProps>) => {
+  const { input, popper, disabled, isError } = useComboboxContext('Combobox.Trigger');
+
+  return (
+    <button
+      className={mergeClassnames(
+        'relative',
+        'flex flex-nowrap w-full align-middle pl-0 pr-1 rounded-md bg-gohan',
+        input?.focused ? 'shadow-input-focus hover:shadow-input-focus' : 'shadow-input hover:shadow-input-hov',
+        'focus:shadow-input-focus focus:outline-none',
+        'focus-visible::shadow-input-focus focus-visible::outline-none',
+        isError && 'shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err',
+        disabled && 'opacity-30 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed',
+        className)}
+      ref={popper?.setAnchor}
+    >
+      {children}
+    </button>
+  );
+};
+
+
 const Input = ({
   displayValue,
   placeholder,
@@ -97,23 +130,26 @@ const Input = ({
   ...rest
 }: InputProps) => {
 
-  const { size, popper, disabled, isError } = useComboboxContext('Combobox.Input');
+  const { size, popper, disabled, isError, input } = useComboboxContext('Combobox.Input');
 
   return (
     <ComboboxHeadlessUI.Input
-      inputSize={size}
       onChange={({ target: { value } }) => onQueryChange(value)}
       ref={popper?.setAnchor}
-      as={TextInput}
+      as={NativeInput}
       displayValue={displayValue}
       placeholder={placeholder}
       type={type ? type : 'text'}
       className={mergeClassnames(
+        'flex-grow border-0 pl-3 pr-0.5 ml-0.5 mt-0.5 mb-0.5',
+        'shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none',
         size === undefined || size === 'md' ? 'text-base' : `text-${size}`,
         className
       )}
       disabled={disabled}
       isError={isError}
+      onFocus={() => input?.setFocused(true)}
+      onBlur={() => input?.setFocused(false)}
       {...rest}
     />
   );
@@ -131,7 +167,7 @@ const InsetInput = ({
   ...rest
 }: WithChildren<InputProps>) => {
 
-  const { size, popper, disabled, isError } = useComboboxContext('Combobox.Input');
+  const { size, popper, disabled, isError } = useComboboxContext('Combobox.InsetInput');
 
   return (
     <ComboboxHeadlessUI.Input
@@ -180,6 +216,7 @@ const Button = ({
           size === 'lg' && !label && 'end-2',
 
           open && 'rotate-[-180deg]',
+          'text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center',
           className
         )}
         {...rest}
@@ -225,25 +262,6 @@ const Option = ({ children, value }: OptionProps) => {
   );
 };
 
-const Trigger = ({
-  children,
-  className,
-  multiple,
-  counter,
-  ...rest
-}: WithChildren<SelectProps>) => {
-  const { popper } = useComboboxContext('Combobox.Trigger');
-
-  return (
-    <div
-      className={mergeClassnames('relative', 'flex w-full', className)}
-      ref={popper?.setAnchor}
-    >
-      {children}
-    </div>
-  );
-};
-
 const Counter = ({
   open,
   className,
@@ -254,7 +272,7 @@ const Counter = ({
 
   return (
     <span className={mergeClassnames(
-      'flex gap-2 items-center absolute left-1 flex-grow-0 flex-shrink-0 self-center',
+      'flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center pl-1',
       className
     )}>
       <SelectButton
@@ -303,8 +321,11 @@ const Select = ({
   className,
   multiple,
   counter,
+  onChange,
+  onQueryChange,
+  displayValue,
   ...rest
-}: WithChildren<SelectProps>) => {
+}: WithChildren<SelectProps & InputProps>) => {
   const { size, popper, disabled } = useComboboxContext('Combobox.Select');
 
   return (
@@ -323,7 +344,16 @@ const Select = ({
         counter={counter}
         {...rest}
       >
-        {children}
+        <Input
+          open={open}
+          placeholder={placeholder}
+          onChange={onChange}
+          onQueryChange={onQueryChange}
+          displayValue={displayValue}
+        />
+        <Button open={open}>
+          {children}
+        </Button>
       </Listbox.Button>
     </Listbox>
   );
@@ -337,21 +367,45 @@ const MultiSelect = ({
   children,
   className,
   multiple = true,
-  counter = 0,
+  counter,
+  onChange,
+  onQueryChange,
+  displayValue,
   ...rest
-}: WithChildren<SelectProps & { counter?: number }>) => {
+}: WithChildren<SelectProps & InputProps>) => {
+  const { size, popper, disabled } = useComboboxContext('Combobox.MultiSelect');
+
   return (
-    <Select
-      open={open}
-      label={label}
-      placeholder={placeholder}
-      className={className}
-      multiple={true}
-      counter={counter}
-      {...rest}
-    >
-      {children}
-    </Select>
+    <Listbox>
+      {label && (
+        <SelectButton.Label labelSize={size} idDisabled={disabled}>
+          {label}
+        </SelectButton.Label>
+      )}
+      <Listbox.Button
+        open={open}
+        as={Trigger}
+        ref={popper?.setAnchor}
+        className={className}
+        multiple={multiple !== undefined}
+        counter={counter}
+        {...rest}
+      >
+        {counter !== undefined && counter > 0 && (
+          <Counter counter={counter} />
+        )}
+        <Input
+          open={open}
+          placeholder={placeholder}
+          onChange={onChange}
+          onQueryChange={onQueryChange}
+          displayValue={displayValue}
+        />
+        <Button open={open}>
+          {children}
+        </Button>
+      </Listbox.Button>
+    </Listbox>
   );
 };
 

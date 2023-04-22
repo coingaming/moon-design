@@ -40,7 +40,7 @@ const Example = () => {
 
   return (
     <div className="flex flex-col lg:flex-row justify-around items-start w-full gap-2">
-      <Combobox value={selected0} onChange={setSelected0} onQueryChange={setQuery0} isError={true}>
+      {/*<Combobox value={selected0} onChange={setSelected0} onQueryChange={setQuery0} isError={true}>
         {({ open }) => (
           <>
             <Combobox.Select
@@ -238,6 +238,7 @@ const Example = () => {
           </>
         )}
       </Combobox>
+                      */}
     </div>
   );
 };

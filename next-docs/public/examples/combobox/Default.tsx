@@ -34,7 +34,7 @@ const Example = () => {
           <>
             <Combobox.Trigger
               open={open}
-              className={'flex flex-nowrap min-w-[18.75rem] align-middle'}
+              className='min-w-[18.75rem]'
             >
               <Combobox.Input
                 open={open}
@@ -42,12 +42,8 @@ const Example = () => {
                 onChange={setSelected}
                 onQueryChange={setQuery}
                 displayValue={({ label }) => label }
-                className={'flex flex-grow pr-8'}
               />
-              <Combobox.Button
-                open={open}
-                className={'absolute text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center'}
-              >
+              <Combobox.Button open={open}>
                 <ControlsChevronDownSmall />
               </Combobox.Button>
             </Combobox.Trigger>

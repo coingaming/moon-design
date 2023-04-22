@@ -35,10 +35,6 @@ const Example = () => {
   const filteredPeople1 = filter(query1, people);
   const filteredPeople2 = filter(query2, people);
 
-  const selectClass = 'flex flex-nowrap align-middle';
-  const inputClass = 'flex flex-grow';
-  const buttonClass = 'absolute text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center';
-
   return (
     <div className={'flex flex-col items-start w-full h-50'}>
       <div className='flex flex-col lg:flex-row justify-between items-end w-full gap-2'>
@@ -48,22 +44,12 @@ const Example = () => {
               <Combobox.Select
                 open={open}
                 label="Small"
-                className={selectClass}
+                placeholder="Choose an option"
+                onChange={setSelected0}
+                onQueryChange={setQuery0}
+                displayValue={({ label }) => label }
               >
-                <Combobox.Input
-                  open={open}
-                  placeholder="Choose an option"
-                  onChange={setSelected0}
-                  onQueryChange={setQuery0}
-                  displayValue={({ label }) => label }
-                  className={`${inputClass} pr-7`}
-                />
-                <Combobox.Button
-                  open={open}
-                  className={buttonClass}
-                >
-                  <ControlsChevronDownSmall />
-                </Combobox.Button>
+                <ControlsChevronDownSmall />
               </Combobox.Select>
               <Combobox.Transition
                 open={open}
@@ -99,22 +85,12 @@ const Example = () => {
               <Combobox.Select
                 open={open}
                 label="Medium"
-                className={selectClass}
+                placeholder="Choose an option"
+                onChange={setSelected1}
+                onQueryChange={setQuery1}
+                displayValue={({ label }) => label }
               >
-                <Combobox.Input
-                  open={open}
-                  placeholder="Choose an option"
-                  onChange={setSelected1}
-                  onQueryChange={setQuery1}
-                  displayValue={({ label }) => label }
-                  className={`${inputClass} pr-8`}
-                />
-                <Combobox.Button
-                  open={open}
-                  className={buttonClass}
-                >
-                  <ControlsChevronDownSmall />
-                </Combobox.Button>
+                <ControlsChevronDownSmall />
               </Combobox.Select>
               <Combobox.Transition
                 open={open}
@@ -150,22 +126,12 @@ const Example = () => {
               <Combobox.Select
                 open={open}
                 label="Large"
-                className={selectClass}
+                placeholder="Choose an option"
+                onChange={setSelected2}
+                onQueryChange={setQuery2}
+                displayValue={({ label }) => label }
               >
-                <Combobox.Input
-                  open={open}
-                  placeholder="Choose an option"
-                  onChange={setSelected2}
-                  onQueryChange={setQuery2}
-                  displayValue={({ label }) => label }
-                  className={`${inputClass} pr-9`}
-                />
-                <Combobox.Button
-                  open={open}
-                  className={buttonClass}
-                >
-                  <ControlsChevronDownSmall />
-                </Combobox.Button>
+                <ControlsChevronDownSmall />
               </Combobox.Select>
               <Combobox.Transition
                 open={open}

@@ -30,7 +30,7 @@ const Example = () => {
 
   return (
     <div className="flex w-full max-w-sm items-center">
-      <Combobox
+      {/*<Combobox
         value={selected}
         onChange={setSelected}
         onClear={useCallback(() => setSelected([]), [setSelected])}
@@ -91,7 +91,7 @@ const Example = () => {
             <Combobox.Hint>Informative message holder</Combobox.Hint>
           </>
         )}
-      </Combobox>
+                      </Combobox> */}
     </div>
   );
 };
