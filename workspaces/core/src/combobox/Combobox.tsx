@@ -141,8 +141,8 @@ const Input = ({
       placeholder={placeholder}
       type={type ? type : 'text'}
       className={mergeClassnames(
-        'flex-grow border-0 pl-3 pr-0.5 ml-0.5 mt-0.5 mb-0.5',
-        'shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none',
+        'flex-grow border-0 border-transparent pl-3 pr-0.5 ml-0.5 mt-0.5 mb-0.5 bg-transparent',
+        '!shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none',
         size === undefined || size === 'md' ? 'text-base' : `text-${size}`,
         className
       )}
@@ -170,9 +170,10 @@ const InsetInput = ({
 
   return (
     <span className={mergeClassnames(
-      'relative',
-      'flex flex-grow w-full'
-    )}>
+        'relative',
+        'flex flex-grow w-full'
+      )}
+    >
       <ComboboxHeadlessUI.Input
         onChange={({ target: { value } }) => onQueryChange(value)}
         ref={popper?.setAnchor}
@@ -182,8 +183,8 @@ const InsetInput = ({
         type={type ? type : 'text'}
         disabled={disabled}
         className={mergeClassnames(
-          'flex-grow border-0 pl-3 pr-0.5 ml-0.5 mt-0.5 mb-0.5',
-          'shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none',
+          'flex-grow border-0 border-transparent pl-3 pr-0.5 ml-0.5 mt-0.5 mb-0.5 bg-transparent',
+          '!shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none',
           label !== undefined && label.length > 0 && 'input-xl pt-[1rem] pb-0.5 input-xl-dt-label',
           size === undefined || size === 'md' ? 'text-base' : `text-${size}`,
           className
@@ -193,7 +194,7 @@ const InsetInput = ({
         onBlur={() => input?.setFocused(false)}
         {...rest}
       />
-      <InputInset.Label className='z-5 top-1.5'>{label}</InputInset.Label>
+      <InputInset.Label className='top-1.5'>{label}</InputInset.Label>
     </span>
   );
 };
