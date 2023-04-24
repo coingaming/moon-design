@@ -60,8 +60,6 @@ const Example = () => {
               <ControlsChevronDownSmall />
             </Combobox.Select>
             <Combobox.Transition
-              open={open}
-              onChange={setSelected0}
               onQueryChange={setQuery0}
             >
             <Combobox.Options>
@@ -105,8 +103,6 @@ const Example = () => {
               <ControlsChevronDownSmall />
             </Combobox.Select>
             <Combobox.Transition
-              open={open}
-              onChange={setSelected1}
               onQueryChange={setQuery1}
             >
               <Combobox.Options>
@@ -149,8 +145,6 @@ const Example = () => {
               <ControlsChevronDownSmall />
             </Combobox.Select>
             <Combobox.Transition
-              open={open}
-              onChange={setSelected2}
               onQueryChange={setQuery2}
             >
               <Combobox.Options>
@@ -188,8 +182,6 @@ const Example = () => {
               <ControlsChevronDownSmall />
             </Combobox.Select>
             <Combobox.Transition
-              open={open}
-              onChange={setSelected3}
               onQueryChange={setQuery3}
             >
               <Combobox.Options menuWidth='w-40' className='z-5 rounded-moon-s-md box-border bg-gohan shadow-moon-lg py-2 px-1 my-2'>

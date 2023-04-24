@@ -58,8 +58,6 @@ const Example = () => {
                 <ControlsChevronDownSmall />
               </Combobox.Select>
               <Combobox.Transition
-                open={open}
-                onChange={setSelected0}
                 onQueryChange={setQuery0}
               >
                 <Combobox.Options>
@@ -104,8 +102,6 @@ const Example = () => {
                 <ControlsChevronDownSmall />
               </Combobox.Select>
               <Combobox.Transition
-                open={open}
-                onChange={setSelected1}
                 onQueryChange={setQuery1}
               >
                 <Combobox.Options>
@@ -151,8 +147,6 @@ const Example = () => {
                 <ControlsChevronDownSmall />
               </Combobox.Select>
               <Combobox.Transition
-                open={open}
-                onChange={setSelected2}
                 onQueryChange={setQuery2}
               >
                 <Combobox.Options>

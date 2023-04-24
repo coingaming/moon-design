@@ -48,8 +48,6 @@ const Example = () => {
               <ControlsChevronDownSmall />
             </Combobox.InsetSelect>
             <Combobox.Transition
-              open={open}
-              onChange={setOption}
               onQueryChange={setQuery}
             >
               <Combobox.Options>

@@ -9,10 +9,8 @@ import InsetMultiSelect from '../../public/examples/combobox/InsetMultiSelect';
 import InsetSelect from '../../public/examples/combobox/InsetSelect';
 import InsetSelectStates from '../../public/examples/combobox/InsetSelectStates';
 import MultiSelect from '../../public/examples/combobox/MultiSelect';
-import OptionsVariants from '../../public/examples/combobox/OptionsVariants';
 import Select from '../../public/examples/combobox/Select';
 import SelectStates from '../../public/examples/combobox/SelectStates';
-import TriggerElements from '../../public/examples/combobox/TriggerElements';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
@@ -61,19 +59,7 @@ const Example = () => {
         preview={<Default />}
         code={examples ? examples.Default : 'Loading'}
       />
-{/*
-      <Preview
-        title="Trigger elements"
-        preview={<TriggerElements />}
-        code={examples ? examples.TriggerElements : 'Loading'}
-      />
 
-      <Preview
-        title="Example layouts for options"
-        preview={<OptionsVariants />}
-        code={examples ? examples.OptionsVariants : 'Loading'}
-      />
-  */}
     <ComponentAnatomy>
         {`<Combobox>
   <Combobox.Select>...</Combobox.Select>
@@ -155,7 +141,7 @@ const Example = () => {
         data={[
           {
             name: 'value',
-            type: 'T',
+            type: 'unknown',
             required: true,
             default: '-',
             description: 'The selected value.',

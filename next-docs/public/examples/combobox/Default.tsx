@@ -58,8 +58,6 @@ const Example = () => {
               </Combobox.Button>
             </Combobox.Trigger>
             <Combobox.Transition
-              open={open}
-              onChange={setSelected0}
               onQueryChange={setQuery0}
             >
               <Combobox.Options className={'min-w-[18.75rem] z-10000'}>
@@ -105,8 +103,6 @@ const Example = () => {
               </Combobox.Button>
             </Combobox.Trigger>
             <Combobox.Transition
-              open={open}
-              onChange={setSelected1}
               onQueryChange={setQuery1}
             >
               <Combobox.Options className={'min-w-[18.75rem] z-10000'}>
