@@ -102,7 +102,8 @@ const Trigger = ({
   const { input, popper, disabled, isError } = useComboboxContext('Combobox.Trigger');
 
   return (
-    <button
+    <div
+      tabIndex={-1}
       className={mergeClassnames(
         'relative',
         'flex flex-nowrap w-full align-middle pl-0 pr-1 rounded-md bg-gohan',
@@ -115,7 +116,7 @@ const Trigger = ({
       ref={popper?.setAnchor}
     >
       {children}
-    </button>
+    </div>
   );
 };
 
@@ -142,7 +143,7 @@ const Input = ({
       placeholder={placeholder}
       type={type ? type : 'text'}
       className={mergeClassnames(
-        'flex-grow h-auto py-1 border-0 border-transparent pl-3 pr-0.5 ml-0.5 mt-0.5 mb-0.5 bg-transparent',
+        'flex-grow h-full py-1 border-0 border-transparent pl-3 pr-0.5 ml-0.5 mt-0.5 mb-0.5 bg-transparent',
         '!shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none',
         size === undefined || size === 'md' ? 'text-base' : `text-${size}`,
         className
@@ -184,7 +185,7 @@ const InsetInput = ({
         type={type ? type : 'text'}
         disabled={disabled}
         className={mergeClassnames(
-          'flex-grow h-auto py-1 border-0 border-transparent pl-3 pr-0.5 ml-0.5 mt-0.5 mb-0.5 bg-transparent',
+          'flex-grow h-full py-1 border-0 border-transparent pl-3 pr-0.5 ml-0.5 mt-0.5 mb-0.5 bg-transparent',
           '!shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none',
           label !== undefined && label.length > 0 && 'input-xl pt-[1rem] pb-0.5 input-xl-dt-label',
           size === undefined || size === 'md' ? 'text-base' : `text-${size}`,
