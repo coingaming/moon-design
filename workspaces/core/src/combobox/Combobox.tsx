@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Combobox as ComboboxHeadlessUI, Transition as TransitionHeadlessUI, Listbox } from '@headlessui/react';
 import { usePopper } from 'react-popper';
 import { InsetInput as InputInset, SelectButton, Input as NativeInput } from '../index';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
-import ControlsChevronDownSmall from '../private/icons/ControlsChevronDownSmall';
 import ButtonProps from './private/types/ButtonProps';
 import ComboboxRootProps from './private/types/ComboboxRootProps';
 import InputProps from './private/types/InputProps';
@@ -24,6 +23,7 @@ const ComboboxRoot = ({
   className,
   onClear,
   multiple,
+  nullable,
   position = 'bottom-start',
   placeholder,
   displayValue,
@@ -74,6 +74,7 @@ const ComboboxRoot = ({
           onChange={onChange}
           disabled={disabled}
           multiple={multiple as true}
+          nullable={nullable as true}
           ref={ref as React.Ref<HTMLElement>}
           {...rest}
         >
@@ -141,7 +142,7 @@ const Input = ({
       placeholder={placeholder}
       type={type ? type : 'text'}
       className={mergeClassnames(
-        'flex-grow border-0 border-transparent pl-3 pr-0.5 ml-0.5 mt-0.5 mb-0.5 bg-transparent',
+        'flex-grow h-auto py-1 border-0 border-transparent pl-3 pr-0.5 ml-0.5 mt-0.5 mb-0.5 bg-transparent',
         '!shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none',
         size === undefined || size === 'md' ? 'text-base' : `text-${size}`,
         className
@@ -183,7 +184,7 @@ const InsetInput = ({
         type={type ? type : 'text'}
         disabled={disabled}
         className={mergeClassnames(
-          'flex-grow border-0 border-transparent pl-3 pr-0.5 ml-0.5 mt-0.5 mb-0.5 bg-transparent',
+          'flex-grow h-auto py-1 border-0 border-transparent pl-3 pr-0.5 ml-0.5 mt-0.5 mb-0.5 bg-transparent',
           '!shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none',
           label !== undefined && label.length > 0 && 'input-xl pt-[1rem] pb-0.5 input-xl-dt-label',
           size === undefined || size === 'md' ? 'text-base' : `text-${size}`,
@@ -281,7 +282,7 @@ const Counter = ({
 
   return (
     <span className={mergeClassnames(
-      'flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center pl-1',
+      'flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center pl-3',
       className
     )}>
       <SelectButton
@@ -530,6 +531,7 @@ const Hint = ({
 
 const Combobox = Object.assign(ComboboxRoot, {
   Input,
+  InsetInput,
   Button,
   Options,
   Option,

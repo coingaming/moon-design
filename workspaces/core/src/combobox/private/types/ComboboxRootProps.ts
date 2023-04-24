@@ -18,6 +18,7 @@ interface ComboboxRootProps
   size?: 'sm' | 'md' | 'lg' | 'xl' | string;
   className?: string;
   multiple?: boolean;
+  nullable?: boolean;
   position?: Placement;
   children?: React.ReactNode | ((data: { open?: boolean }) => React.ReactNode);
   placeholder?: string;
