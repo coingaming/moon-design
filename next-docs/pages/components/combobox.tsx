@@ -57,7 +57,7 @@ const Example = () => {
       </ComponentAnatomy>
 
       <Preview
-        title="Default"
+        title="Default / Nullable"
         preview={<Default />}
         code={examples ? examples.Default : 'Loading'}
       />
@@ -149,6 +149,209 @@ const Example = () => {
         preview={<InsetMultiSelect />}
         code={examples ? examples.InsetMultiSelect : 'Loading'}
       />
+
+      <PropsTable
+        title="Combobox"
+        data={[
+          {
+            name: 'value',
+            type: 'T',
+            required: true,
+            default: '-',
+            description: 'The selected value.',
+          },
+          {
+            name: 'onChange',
+            type: '(value: T) => void',
+            required: true,
+            default: '-',
+            description: 'The function to call when a new option is selected.',
+          },
+          {
+            name: 'isError',
+            type: 'boolean',
+            required: false,
+            default: '-',
+            description: 'Set valid/non-valid',
+          },
+          {
+            name: 'disabled',
+            type: 'boolean',
+            required: false,
+            default: '-',
+            description: 'Set disabled/non-disabled',
+          },
+          {
+            name: 'size',
+            type: 'sm | md | lg | xl | string',
+            required: false,
+            default: 'md',
+            description: 'Size',
+          },
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Tailwind classes for custom styles.',
+          },
+          {
+            name: 'position',
+            type: 'top-start | top-end | bottom-start | bottom-end | right-start | right-end | left-start| left-end | top | bottom | right| left',
+            required: false,
+            default: 'bottom',
+            description: 'Set placement for combobox',
+          },
+          {
+            name: 'Render Props: ',
+            type: '',
+            required: undefined,
+            default: '',
+            description: '',
+          },
+          {
+            name: 'open',
+            type: 'boolean',
+            required: false,
+            default: '-',
+            description: 'Whether or not the Listbox is open.',
+          },
+          {
+            name: 'multiple',
+            type: 'boolean',
+            required: false,
+            default: '-',
+            description: 'Whether multiple options can be selected or not.',
+          },
+          {
+            name: 'nullable',
+            type: 'boolean',
+            required: false,
+            default: '-',
+            description: 'Whether the selected option can be cleared or not.',
+          },
+        ]}
+      />
+
+      <PropsTable
+        title="Combobox.Options"
+        data={[
+          {
+            name: 'menuWidth',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Tailwind class for custom options container width.',
+          },
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Tailwind classes for custom styles.',
+          },
+        ]}
+      />
+
+      <PropsTable
+        title="Combobox.Option"
+        data={[
+          {
+            name: 'value',
+            type: 'T',
+            required: false,
+            default: '-',
+            description: 'The option value.',
+          },
+          {
+            name: 'Render Props: ',
+            type: '',
+            required: undefined,
+            default: '',
+            description: '',
+          },
+          {
+            name: 'active',
+            type: 'boolean',
+            required: false,
+            default: '-',
+            description:
+              'Whether or not the option is the active/focused option.',
+          },
+          {
+            name: 'selected',
+            type: 'boolean',
+            required: false,
+            default: '-',
+            description: 'Whether or not the option is the selected option.',
+          },
+        ]}
+      />
+
+      <PropsTable
+        title="Combobox.Select | Combobox.InsetSelect"
+        data={[
+          {
+            name: 'label',
+            type: 'JSX.Element | string',
+            required: false,
+            default: '-',
+            description: 'Label title',
+          },
+          {
+            name: 'placeholder',
+            type: 'JSX.Element | string',
+            required: false,
+            default: '-',
+            description: 'Placeholder',
+          },
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '-',
+            description:
+              'Tailwind classes for custom styles (only for button).',
+          },
+        ]}
+      />
+
+      <PropsTable
+        title="Combobox.MultiSelect | Combobox.InsetMultiSelect"
+        data={[
+          {
+            name: 'label',
+            type: 'JSX.Element | string',
+            required: false,
+            default: '-',
+            description: 'Label title',
+          },
+          {
+            name: 'placeholder',
+            type: 'JSX.Element | string',
+            required: false,
+            default: '-',
+            description: 'Placeholder',
+          },
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '-',
+            description:
+              'Tailwind classes for custom styles (only for button).',
+          },
+          {
+            name: 'counter',
+            type: 'Number',
+            required: false,
+            default: '0',
+            description: 'Number of selected options',
+          },
+        ]}
+      />
+
+
 
     </>
   );

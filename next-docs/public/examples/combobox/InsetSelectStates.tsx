@@ -39,8 +39,8 @@ const Example = () => {
   const filteredPeople3 = filter(query3, people);
 
   return (
-    <div className="flex flex-col lg:flex-row justify-around items-start w-full gap-2">
-      <Combobox value={selected0} onChange={setSelected0} onQueryChange={setQuery0} isError={true}>
+    <div className="flex flex-col items-center lg:flex-row lg:justify-center lg:items-start w-full gap-4">
+      <Combobox value={selected0} onChange={setSelected0} onQueryChange={setQuery0} isError={true} className='w-full max-w-xs'>
         {({ open }) => (
           <>
             <Combobox.InsetSelect
@@ -81,7 +81,7 @@ const Example = () => {
         )}
       </Combobox>
 
-      <Combobox value={selected1} onChange={setSelected1} onQueryChange={setQuery1} disabled={true}>
+      <Combobox value={selected1} onChange={setSelected1} onQueryChange={setQuery1} disabled={true} className='w-full max-w-xs'>
         {({ open }) => (
           <>
             <Combobox.InsetSelect
@@ -122,7 +122,7 @@ const Example = () => {
         )}
       </Combobox>
 
-      <Combobox value={selected2} onChange={setSelected2} onQueryChange={setQuery2}>
+      <Combobox value={selected2} onChange={setSelected2} onQueryChange={setQuery2} className='w-full max-w-xs'>
         {({ open }) => (
           <>
             <Combobox.InsetSelect
@@ -162,7 +162,7 @@ const Example = () => {
         )}
       </Combobox>
 
-      <Combobox value={selected3} onChange={setSelected3} onQueryChange={setQuery3}>
+      <Combobox value={selected3} onChange={setSelected3} onQueryChange={setQuery3} className='w-full max-w-xs'>
         {({ open }) => (
           <>
             <Combobox.InsetSelect

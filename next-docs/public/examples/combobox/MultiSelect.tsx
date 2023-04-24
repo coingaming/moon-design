@@ -36,12 +36,13 @@ const Example = () => {
   const filteredPeople2 = filter(query2, people);
 
   return (
-    <div className="flex flex-col lg:flex-row justify-around items-end w-full gap-2">
+    <div className="flex flex-col items-center lg:flex-row lg:justify-center lg:items-end w-full gap-4">
       <Combobox
         value={selected0}
         onChange={setSelected0}
         onClear={useCallback(() => setSelected0([]), [setSelected0])}
         onQueryChange={setQuery0}
+        className='w-full max-w-xs'
         size="sm"
         multiple
       >
@@ -90,6 +91,7 @@ const Example = () => {
         onChange={setSelected1}
         onClear={useCallback(() => setSelected1([]), [setSelected1])}
         onQueryChange={setQuery1}
+        className='w-full max-w-xs'
         multiple
       >
         {({ open }) => (
@@ -137,6 +139,7 @@ const Example = () => {
         onChange={setSelected2}
         onClear={useCallback(() => setSelected2([]), [setSelected2])}
         onQueryChange={setQuery2}
+        className='w-full max-w-xs'
         size="lg"
         multiple
       >
