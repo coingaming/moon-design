@@ -8,8 +8,8 @@ type ComboboxState = {
   onClear?: () => void;
   displayValue?: (value: InputValue) => string;
   input?: {
-    focused?: boolean;
-    setFocused: React.Dispatch<React.SetStateAction<boolean>>;
+    isFocused?: boolean;
+    setIsFocused: React.Dispatch<React.SetStateAction<boolean>>;
   };
   popper?: {
     styles?: { [key: string]: React.CSSProperties };

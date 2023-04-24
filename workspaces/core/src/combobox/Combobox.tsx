@@ -34,7 +34,7 @@ const ComboboxRoot = ({
 }: ComboboxRootProps) => {
   const [anchorEl, setAnchorEl] = React.useState<Element | null>();
   const [popperEl, setPopperEl] = React.useState<HTMLElement | null>();
-  const [inputFocused, setInputFocused] = React.useState<boolean>(false);
+  const [isInputFocused, setIsInputFocused] = React.useState<boolean>(false);
 
   let { styles, attributes } = usePopper(anchorEl, popperEl, {
     placement: position,
@@ -47,8 +47,8 @@ const ComboboxRoot = ({
     size: size,
     disabled: disabled,
     input: {
-      focused: inputFocused,
-      setFocused: setInputFocused,
+      isFocused: isInputFocused,
+      setIsFocused: setIsInputFocused,
     },
     multiple: multiple,
     onClear: onClear,
@@ -107,7 +107,7 @@ const Trigger = ({
       className={mergeClassnames(
         'relative',
         'flex flex-nowrap w-full align-middle pl-0 pr-1 rounded-md bg-gohan',
-        input?.focused ? 'shadow-input-focus hover:shadow-input-focus' : 'shadow-input hover:shadow-input-hov',
+        input?.isFocused ? 'shadow-input-focus hover:shadow-input-focus' : 'shadow-input hover:shadow-input-hov',
         'focus:shadow-input-focus focus:outline-none',
         'focus-visible::shadow-input-focus focus-visible::outline-none',
         isError && 'shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err',
@@ -150,8 +150,8 @@ const Input = ({
       )}
       disabled={disabled}
       isError={isError}
-      onFocus={() => input?.setFocused(true)}
-      onBlur={() => input?.setFocused(false)}
+      onFocus={() => input?.setIsFocused(true)}
+      onBlur={() => input?.setIsFocused(false)}
       {...rest}
     />
   );
@@ -192,8 +192,8 @@ const InsetInput = ({
           className
         )}
         isError={isError}
-        onFocus={() => input?.setFocused(true)}
-        onBlur={() => input?.setFocused(false)}
+        onFocus={() => input?.setIsFocused(true)}
+        onBlur={() => input?.setIsFocused(false)}
         {...rest}
       />
       <InputInset.Label className='top-1.5'>{label}</InputInset.Label>
@@ -307,7 +307,7 @@ const Transition = ({
   children,
   onQueryChange,
   ...rest
-}: WithChildren<InputProps>) => {
+}: WithChildren<{ onQueryChange: (value: string) => void }>) => {
   const { popper } = useComboboxContext('Combobox.Transition');
 
   return (
