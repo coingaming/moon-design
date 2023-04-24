@@ -8,8 +8,6 @@ interface ComboboxRootProps
   > {
   value?: InputValue;
   displayValue?: (value: InputValue) => string;
-  defaultValue?: string;
-  label?: string;
   onChange(value: unknown): void;
   onQueryChange(value: string): void;
   onClear?: () => void;

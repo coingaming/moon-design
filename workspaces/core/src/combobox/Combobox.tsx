@@ -28,7 +28,6 @@ const ComboboxRoot = ({
   placeholder,
   displayValue,
   defaultValue,
-  label,
   ref,
   ...rest
 }: ComboboxRootProps) => {

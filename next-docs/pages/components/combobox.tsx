@@ -148,10 +148,24 @@ const Example = () => {
           },
           {
             name: 'onChange',
-            type: '(value: T) => void',
+            type: '(value: unknown) => void',
             required: true,
             default: '-',
             description: 'The function to call when a new option is selected.',
+          },
+          {
+            name: 'onQueryChange',
+            type: '(value: string) => void',
+            required: true,
+            default: '-',
+            description: 'The function to call when the filter query is changing.',
+          },
+          {
+            name: 'onClear',
+            type: '() => void',
+            required: false,
+            default: '-',
+            description: 'The function to call when the selected options at MultiSelect Combobox type are being cleared.',
           },
           {
             name: 'isError',
@@ -270,6 +284,19 @@ const Example = () => {
             required: false,
             default: '-',
             description: 'Whether or not the option is the selected option.',
+          },
+        ]}
+      />
+
+      <PropsTable
+        title="Combobox.Transition"
+        data={[
+          {
+            name: 'onQueryChange',
+            type: '(value: string) => void',
+            required: true,
+            default: '-',
+            description: 'The function to call when the filter query is changing.',
           },
         ]}
       />
