@@ -34,7 +34,12 @@ const Example = () => {
 
   return (
     <div className='flex flex-col lg:flex-row lg:justify-center items-center w-full gap-4'>
-      <Combobox value={selected0} onChange={setSelected0} onQueryChange={setQuery0} className='w-full max-w-xs'>
+      <Combobox
+        value={selected0}
+        onChange={setSelected0}
+        onQueryChange={setQuery0}
+        className='w-full max-w-xs'
+      >
         {({ open }) => (
           <>
             <Combobox.Trigger

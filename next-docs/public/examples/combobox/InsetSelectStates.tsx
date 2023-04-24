@@ -132,6 +132,7 @@ const Example = () => {
               onChange={setSelected2}
               onQueryChange={setQuery2}
               displayValue={({ label }) => label}
+              className='min-h-[46px]'
             >
               <ControlsChevronDownSmall />
             </Combobox.InsetSelect>

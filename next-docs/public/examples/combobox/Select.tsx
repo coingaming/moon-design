@@ -38,7 +38,13 @@ const Example = () => {
   return (
     <div className={'flex flex-col items-center w-full h-50'}>
       <div className='flex flex-col items-center lg:flex-row lg:justify-center lg:items-end w-full gap-4'>
-        <Combobox value={selected0} onChange={setSelected0} onQueryChange={setQuery0} className='w-full max-w-xs' size="sm">
+        <Combobox
+          value={selected0}
+          onChange={setSelected0}
+          onQueryChange={setQuery0}
+          className='w-full max-w-xs'
+          size='sm'
+        >
           {({ open }) => (
             <>
               <Combobox.Select
@@ -79,7 +85,12 @@ const Example = () => {
           )}
         </Combobox>
 
-        <Combobox value={selected1} onChange={setSelected1} onQueryChange={setQuery1} className='w-full max-w-xs'>
+        <Combobox
+          value={selected1}
+          onChange={setSelected1}
+          onQueryChange={setQuery1}
+          className='w-full max-w-xs'
+        >
           {({ open }) => (
             <>
               <Combobox.Select
@@ -120,7 +131,13 @@ const Example = () => {
           )}
         </Combobox>
 
-        <Combobox value={selected2} onChange={setSelected2} onQueryChange={setQuery2} className='w-full max-w-xs' size="lg">
+        <Combobox
+          value={selected2}
+          onChange={setSelected2}
+          onQueryChange={setQuery2}
+          className='w-full max-w-xs'
+          size='lg'
+        >
           {({ open }) => (
             <>
               <Combobox.Select

@@ -30,7 +30,11 @@ const Example = () => {
 
   return (
     <div className="flex w-full max-w-xs items-center z-0">
-      <Combobox value={option} onChange={setOption} onQueryChange={setQuery}>
+      <Combobox
+        value={option}
+        onChange={setOption}
+        onQueryChange={setQuery}
+      >
         {({ open }) => (
           <>
             <Combobox.InsetSelect
