@@ -29,7 +29,7 @@ const Example = () => {
   const filteredPeople = filter(query, people);
 
   return (
-    <div className="flex w-full max-w-xs items-center z-0">
+    <div className="flex w-full max-w-xs items-center">
       <Combobox
         value={option}
         onChange={setOption}
@@ -52,7 +52,7 @@ const Example = () => {
               onChange={setOption}
               onQueryChange={setQuery}
             >
-              <Combobox.Options className='z-10000'>
+              <Combobox.Options>
                 {filteredPeople.length === 0 && query !== '' ? (
                   <div className='relative cursor-default select-none py-2 px-4 text-gray-700'>
                     Nothing found.

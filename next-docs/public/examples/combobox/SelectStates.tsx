@@ -64,7 +64,7 @@ const Example = () => {
               onChange={setSelected0}
               onQueryChange={setQuery0}
             >
-            <Combobox.Options className='z-10000'>
+            <Combobox.Options>
                 {filteredPeople0.length === 0 && query0 !== '' ? (
                   <div className='relative cursor-default select-none py-2 px-4 text-gray-700'>
                     Nothing found.
@@ -192,7 +192,7 @@ const Example = () => {
               onChange={setSelected3}
               onQueryChange={setQuery3}
             >
-              <Combobox.Options menuWidth='w-40' className='z-10000 rounded-moon-s-md box-border bg-gohan shadow-moon-lg py-2 px-1 my-2'>
+              <Combobox.Options menuWidth='w-40' className='z-5 rounded-moon-s-md box-border bg-gohan shadow-moon-lg py-2 px-1 my-2'>
                 {filteredPeople3.length === 0 && query3 !== '' ? (
                   <div className='relative cursor-default select-none py-2 px-4 text-gray-700'>
                     Nothing found.
