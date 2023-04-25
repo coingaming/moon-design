@@ -18,14 +18,13 @@ const Example = () => {
   const { name, text, image } = getComponent('Combobox');
   return (
     <>
-      <ComponentPageDescription  title={name} image={image} isRtlSupport isInDevelopment>
+      <ComponentPageDescription  title={name} image={image} isRtlSupport isInProgress>
         <p>
-          Comboboxes are the foundation of accessible autocompletes and command
-          palettes for your app, complete with robust support for keyboard
-          navigation. You are completely in charge of how you filter the
-          results, whether it be with a fuzzy search library client-side or by
-          making server-side requests to an API. In these examples we will keep
-          the logic simple for demo purposes.
+          The Combobox is&nbsp;an&nbsp;editable textbox, allowing the user to&nbsp;either
+          type a&nbsp;value directly or&nbsp;select a&nbsp;value from the list. You are
+          completely in&nbsp;charge of&nbsp;how you filter the results, whether
+          it&nbsp;be&nbsp;with a&nbsp;fuzzy search library client-side or&nbsp;by&nbsp;making
+          server-side requests to&nbsp;an&nbsp;API.
         </p>
         <p>
           {text}
@@ -228,7 +227,102 @@ const Example = () => {
             type: 'boolean',
             required: false,
             default: '-',
-            description: 'Whether the selected option can be cleared or not.',
+            description: 'Whether the selected value can be cleared or not.',
+          },
+        ]}
+      />
+
+      <PropsTable
+        title="Combobox.Trigger"
+        data={[
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Tailwind classes for custom styles.',
+          },
+        ]}
+      />
+
+      <PropsTable
+        title="Combobox.Input | Combobox.InsetInput"
+        data={[
+          {
+            name: 'onChange',
+            type: '(value: unknown) => void',
+            required: true,
+            default: '-',
+            description: 'The function to call when a new option is selected.',
+          },
+          {
+            name: 'onQueryChange',
+            type: '(value: string) => void',
+            required: true,
+            default: '-',
+            description: 'The function to call when the query filter is changing.',
+          },
+          {
+            name: 'displayValue',
+            type: '(value: unknown) => string',
+            required: false,
+            default: '-',
+            description: 'The value of the selected option to display.',
+          },
+          {
+            name: 'label',
+            type: 'string | undefined',
+            required: false,
+            default: '-',
+            description: 'Inset label title (for InsetInput)',
+          },
+          {
+            name: 'placeholder',
+            type: 'string | undefined',
+            required: false,
+            default: '-',
+            description: 'Placeholder',
+          },
+          {
+            name: 'type',
+            type: 'text | string | number | date | time | date-time-local | undefined',
+            required: false,
+            default: 'text',
+            description: 'Type of the input field',
+          },
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Tailwind classes for custom styles.',
+          },
+        ]}
+      />
+
+      <PropsTable
+        title="Combobox.Button"
+        data={[
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Tailwind classes for custom styles.',
+          },
+          {
+            name: 'Render Props: ',
+            type: '',
+            required: undefined,
+            default: '',
+            description: '',
+          },
+          {
+            name: 'open',
+            type: 'boolean',
+            required: false,
+            default: '-',
+            description: 'Whether or not the Listbox is open.',
           },
         ]}
       />
@@ -258,7 +352,7 @@ const Example = () => {
         data={[
           {
             name: 'value',
-            type: 'T',
+            type: 'unknown',
             required: false,
             default: '-',
             description: 'The option value.',
@@ -296,7 +390,7 @@ const Example = () => {
             type: '(value: string) => void',
             required: true,
             default: '-',
-            description: 'The function to call when the filter query is changing.',
+            description: 'The same function that is set in the Combobox component.',
           },
         ]}
       />
@@ -305,11 +399,32 @@ const Example = () => {
         title="Combobox.Select | Combobox.InsetSelect"
         data={[
           {
+            name: 'onChange',
+            type: '(value: unknown) => void',
+            required: true,
+            default: '-',
+            description: 'The function to call when a new option is selected.',
+          },
+          {
+            name: 'onQueryChange',
+            type: '(value: string) => void',
+            required: true,
+            default: '-',
+            description: 'The function to call when the query filter is changing.',
+          },
+          {
+            name: 'displayValue',
+            type: '(value: unknown) => string',
+            required: false,
+            default: '-',
+            description: 'The value of the selected option to display.',
+          },
+          {
             name: 'label',
             type: 'JSX.Element | string',
             required: false,
             default: '-',
-            description: 'Label title',
+            description: 'Label title | Inset label title',
           },
           {
             name: 'placeholder',
@@ -324,7 +439,21 @@ const Example = () => {
             required: false,
             default: '-',
             description:
-              'Tailwind classes for custom styles (only for button).',
+              'Tailwind classes for custom styles.',
+          },
+          {
+            name: 'Render Props: ',
+            type: '',
+            required: undefined,
+            default: '',
+            description: '',
+          },
+          {
+            name: 'open',
+            type: 'boolean',
+            required: false,
+            default: '-',
+            description: 'Whether or not the Listbox is open.',
           },
         ]}
       />
@@ -333,11 +462,32 @@ const Example = () => {
         title="Combobox.MultiSelect | Combobox.InsetMultiSelect"
         data={[
           {
+            name: 'onChange',
+            type: '(value: unknown) => void',
+            required: true,
+            default: '-',
+            description: 'The function to call when a new option is selected.',
+          },
+          {
+            name: 'onQueryChange',
+            type: '(value: string) => void',
+            required: true,
+            default: '-',
+            description: 'The function to call when the query filter is changing.',
+          },
+          {
+            name: 'displayValue',
+            type: '(value: unknown) => string',
+            required: false,
+            default: '-',
+            description: 'The value of the selected option to display.',
+          },
+          {
             name: 'label',
             type: 'JSX.Element | string',
             required: false,
             default: '-',
-            description: 'Label title',
+            description: 'Label title | Inset label title',
           },
           {
             name: 'placeholder',
@@ -352,7 +502,7 @@ const Example = () => {
             required: false,
             default: '-',
             description:
-              'Tailwind classes for custom styles (only for button).',
+              'Tailwind classes for custom styles.',
           },
           {
             name: 'counter',
@@ -361,10 +511,71 @@ const Example = () => {
             default: '0',
             description: 'Number of selected options',
           },
+          {
+            name: 'Render Props: ',
+            type: '',
+            required: undefined,
+            default: '',
+            description: '',
+          },
+          {
+            name: 'open',
+            type: 'boolean',
+            required: false,
+            default: '-',
+            description: 'Whether or not the Listbox is open.',
+          },
         ]}
       />
 
+      <PropsTable
+        title="Combobox.Counter"
+        data={[
+          {
+            name: 'counter',
+            type: 'Number',
+            required: true,
+            default: '-',
+            description: 'Number of selected options',
+          },
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '-',
+            description:
+              'Tailwind classes for custom styles.',
+          },
+          {
+            name: 'Render Props: ',
+            type: '',
+            required: undefined,
+            default: '',
+            description: '',
+          },
+          {
+            name: 'open',
+            type: 'boolean',
+            required: false,
+            default: '-',
+            description: 'Whether or not the Listbox is open.',
+          },
+        ]}
+      />
 
+      <PropsTable
+        title="Combobox.Hint"
+        data={[
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '-',
+            description:
+              'Tailwind classes for custom styles.',
+          },
+        ]}
+      />
 
     </>
   );

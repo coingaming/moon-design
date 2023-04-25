@@ -57,7 +57,7 @@ const components = [
   {
     name: 'Combobox',
     href: '/components/combobox',
-    text: 'The Combobox is an editable textbox, allowing the user to either type a value directly or select a value from the list.',
+    text: 'In these examples we will keep the logic simple for demo purposes.',
   },
   {
     name: 'Drawer',

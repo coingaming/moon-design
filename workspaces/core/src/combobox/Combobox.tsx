@@ -93,10 +93,7 @@ const ComboboxRoot = ({
 
 const Trigger = ({
   children,
-  className,
-  multiple,
-  counter,
-  ...rest
+  className
 }: WithChildren<SelectProps>) => {
   const { input, popper, disabled, isError } = useComboboxContext('Combobox.Trigger');
 
@@ -307,7 +304,6 @@ const Transition = ({
   onQueryChange,
   ...rest
 }: WithChildren<{ onQueryChange: (value: string) => void }>) => {
-  const { popper } = useComboboxContext('Combobox.Transition');
 
   return (
     <TransitionHeadlessUI
@@ -371,7 +367,6 @@ const Select = ({
 
 const MultiSelect = ({
   open,
-  value,
   label,
   placeholder,
   children,
@@ -432,7 +427,7 @@ const InsetSelect = ({
   displayValue,
   ...rest
 }: WithChildren<SelectProps & InputProps>) => {
-  const { size, popper, disabled } = useComboboxContext('Combobox.Select');
+  const { popper } = useComboboxContext('Combobox.Select');
 
   return (
     <Listbox>
@@ -463,7 +458,6 @@ const InsetSelect = ({
 
 const InsetMultiSelect = ({
   open,
-  value,
   label,
   placeholder,
   children,
@@ -475,7 +469,7 @@ const InsetMultiSelect = ({
   displayValue,
   ...rest
 }: WithChildren<SelectProps & InputProps>) => {
-  const { size, popper, disabled } = useComboboxContext('Combobox.MultiSelect');
+  const { popper } = useComboboxContext('Combobox.MultiSelect');
 
   return (
     <Listbox>
