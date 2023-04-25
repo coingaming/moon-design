@@ -93,16 +93,21 @@ const ComboboxRoot = ({
 
 const Trigger = ({
   children,
-  className
-}: WithChildren<SelectProps>) => {
-  const { input, popper, disabled, isError } = useComboboxContext('Combobox.Trigger');
+  className,
+  isInset,
+}: WithChildren<SelectProps> & { isInset?: boolean }) => {
+  const { size, input, popper, disabled, isError } = useComboboxContext('Combobox.Trigger');
 
   return (
     <div
       tabIndex={-1}
       className={mergeClassnames(
         'relative',
-        'flex flex-nowrap w-full align-middle pl-0 pr-1 rounded-md bg-gohan',
+        'flex flex-nowrap w-full align-middle rounded-lg py-2 px-3 bg-gohan gap-x-2',
+        size === 'sm' && 'py-1.5 px-2 rounded',
+        (size === 'sm' || (isInset !== undefined && isInset)) && 'py-2 px-3 rounded-md gap-x-3',
+        size === 'lg' && 'py-3 px-3',
+        (size === 'xl' || (isInset !== undefined && isInset)) && 'py-3 px-4 rounded-xl gap-x-4',
         input?.isFocused ? 'shadow-input-focus hover:shadow-input-focus' : 'shadow-input hover:shadow-input-hov',
         'focus:shadow-input-focus focus:outline-none',
         'focus-visible::shadow-input-focus focus-visible::outline-none',
@@ -139,7 +144,7 @@ const Input = ({
       placeholder={placeholder}
       type={type ? type : 'text'}
       className={mergeClassnames(
-        'flex-grow h-full py-1 border-0 border-transparent pl-3 pr-0.5 ml-0.5 mt-0.5 mb-0.5 bg-transparent',
+        'flex-grow h-full border-0 bg-transparent px-0',
         '!shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none',
         size === undefined || size === 'md' ? 'text-base' : `text-${size}`,
         className
@@ -181,9 +186,9 @@ const InsetInput = ({
         type={type ? type : 'text'}
         disabled={disabled}
         className={mergeClassnames(
-          'flex-grow h-full py-1 border-0 border-transparent pl-3 pr-0.5 ml-0.5 mt-0.5 mb-0.5 bg-transparent',
+          'flex-grow h-full border-0 bg-transparent px-0',
           '!shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none',
-          label !== undefined && label.length > 0 && 'input-xl pt-[1rem] pb-0.5 input-xl-dt-label',
+          label !== undefined && label.length > 0 && 'input-xl pt-[.75rem] input-xl-dt-label',
           size === undefined || size === 'md' ? 'text-base' : `text-${size}`,
           className
         )}
@@ -192,7 +197,7 @@ const InsetInput = ({
         onBlur={() => input?.setIsFocused(false)}
         {...rest}
       />
-      <InputInset.Label className='top-1.5'>{label}</InputInset.Label>
+      <InputInset.Label className='top-[-.125rem] rtl:right-0 ltr:left-0'>{label}</InputInset.Label>
     </span>
   );
 };
@@ -209,18 +214,9 @@ const Button = ({
   return (
       <ComboboxHeadlessUI.Button
         className={mergeClassnames(
+          'w-6 h-6',
           size === 'sm' ? 'text-moon-16' : 'text-moon-24',
-          size === 'xl' && 'end-4',
-
-          size === 'sm' && label && 'end-2',
-          size == 'md' && label && 'end-2',
-          size === 'lg' && label && 'end-2',
-          size === 'xl' && !label && 'end-4',
-
-          size === 'sm' && !label && 'end-2',
-          size == 'md' && !label && 'end-2',
-          size === 'lg' && !label && 'end-2',
-
+          size === 'sm' && 'w-4 h-4',
           open && 'rotate-[-180deg]',
           'text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center',
           disabled && 'cursor-not-allowed',
@@ -279,7 +275,7 @@ const Counter = ({
 
   return (
     <span className={mergeClassnames(
-      'flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center pl-3',
+      'flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center',
       className
     )}>
       <SelectButton
@@ -438,6 +434,7 @@ const InsetSelect = ({
         className={className}
         multiple={multiple !== undefined}
         counter={counter}
+        isInset={true}
         {...rest}
       >
         <InsetInput
@@ -480,6 +477,7 @@ const InsetMultiSelect = ({
         className={className}
         multiple={multiple !== undefined}
         counter={counter}
+        isInset={true}
         {...rest}
       >
         {counter !== undefined && counter > 0 && (
