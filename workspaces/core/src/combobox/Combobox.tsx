@@ -144,7 +144,7 @@ const Input = ({
       placeholder={placeholder}
       type={type ? type : 'text'}
       className={mergeClassnames(
-        'flex-grow h-full border-0 rounded-none bg-transparent px-0',
+        'flex-grow h-full border-0 !rounded-none bg-transparent px-0',
         '!shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none',
         size === undefined || size === 'md' ? 'text-base' : `text-${size}`,
         className
@@ -186,7 +186,7 @@ const InsetInput = ({
         type={type ? type : 'text'}
         disabled={disabled}
         className={mergeClassnames(
-          'flex-grow h-full border-0 bg-transparent px-0',
+          'flex-grow h-full border-0 !rounded-none bg-transparent px-0',
           '!shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none',
           label !== undefined && label.length > 0 && 'input-xl pt-[.75rem] input-xl-dt-label',
           size === undefined || size === 'md' ? 'text-base' : `text-${size}`,
@@ -242,7 +242,7 @@ const Options = ({
         style={popper?.styles?.popper}
         {...popper?.attributes?.popper}
         className={mergeClassnames(
-          menuWidth ? menuWidth : 'w-full max-h-[18.75rem] py-2 px-1 my-2 rounded-moon-s-md box-border bg-gohan shadow-moon-lg z-10 absolute',
+          menuWidth ? menuWidth : 'w-full max-h-[18.75rem] py-2 px-1 my-1 rounded-moon-s-md box-border bg-gohan shadow-moon-lg z-10 absolute',
           'overflow-y-auto focus:outline-none',
           className
         )}
