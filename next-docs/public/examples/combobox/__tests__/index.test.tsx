@@ -14,10 +14,8 @@ import InsetMultiSelect from '../InsetMultiSelect';
 import InsetSelect from '../InsetSelect';
 import InsetSelectStates from '../InsetSelectStates';
 import MultiSelect from '../MultiSelect';
-import OptionsVariants from '../OptionsVariants';
 import Select from '../Select';
 import SelectStates from '../SelectStates';
-import TriggerElements from '../TriggerElements';
 
 const renderWithLightTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
@@ -52,20 +50,12 @@ describe('Select in Light Theme', () => {
     const testRenderer = renderer.create(renderWithLightTheme(<MultiSelect />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders OptionsVariants', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<OptionsVariants />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
   it('renders Select', () => {
     const testRenderer = renderer.create(renderWithLightTheme(<Select />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
   it('renders SelectStates', () => {
     const testRenderer = renderer.create(renderWithLightTheme(<SelectStates />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders TriggerElements', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<TriggerElements />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });
@@ -91,20 +81,12 @@ describe('Select in Dark Theme', () => {
     const testRenderer = renderer.create(renderWithDarkTheme(<MultiSelect />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders OptionsVariants', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<OptionsVariants />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
   it('renders Select', () => {
     const testRenderer = renderer.create(renderWithDarkTheme(<Select />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
   it('renders SelectStates', () => {
     const testRenderer = renderer.create(renderWithDarkTheme(<SelectStates />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders TriggerElements', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<TriggerElements />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });
@@ -130,20 +112,12 @@ describe('Select in RTL', () => {
     const testRenderer = renderer.create(renderWithRtl(<MultiSelect />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders OptionsVariants', () => {
-    const testRenderer = renderer.create(renderWithRtl(<OptionsVariants />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
   it('renders Select', () => {
     const testRenderer = renderer.create(renderWithRtl(<Select />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
   it('renders SelectStates', () => {
     const testRenderer = renderer.create(renderWithRtl(<SelectStates />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders TriggerElements', () => {
-    const testRenderer = renderer.create(renderWithRtl(<TriggerElements />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });

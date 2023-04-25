@@ -103,7 +103,7 @@ const Trigger = ({
       tabIndex={-1}
       className={mergeClassnames(
         'relative',
-        'flex flex-nowrap w-full align-middle rounded-lg py-2 px-3 bg-gohan gap-x-2',
+        'flex flex-nowrap w-full align-middle items-center rounded-lg py-2 px-3 bg-gohan gap-x-2',
         size === 'sm' && 'py-1.5 px-2 rounded',
         (size === 'sm' || (isInset !== undefined && isInset)) && 'py-2 px-3 rounded-md gap-x-3',
         size === 'lg' && 'py-3 px-3',
@@ -144,7 +144,7 @@ const Input = ({
       placeholder={placeholder}
       type={type ? type : 'text'}
       className={mergeClassnames(
-        'flex-grow h-full border-0 bg-transparent px-0',
+        'flex-grow h-full border-0 rounded-none bg-transparent px-0',
         '!shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none',
         size === undefined || size === 'md' ? 'text-base' : `text-${size}`,
         className
