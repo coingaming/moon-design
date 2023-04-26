@@ -94,8 +94,8 @@ const ComboboxRoot = ({
 const Trigger = ({
   children,
   className,
-  isInset,
-}: WithChildren<SelectProps> & { isInset?: boolean }) => {
+  innerLabel,
+}: WithChildren<SelectProps>) => {
   const { size, input, popper, disabled, isError } = useComboboxContext('Combobox.Trigger');
 
   return (
@@ -105,9 +105,9 @@ const Trigger = ({
         'relative',
         'flex flex-nowrap w-full align-middle items-center rounded-lg py-2 px-3 bg-gohan gap-x-2',
         size === 'sm' && 'py-1.5 px-2 rounded',
-        (size === 'sm' || (isInset !== undefined && isInset)) && 'py-2 px-3 rounded-md gap-x-3',
+        (size === 'sm' || (innerLabel !== undefined && innerLabel)) && 'py-2 px-3 rounded-md gap-x-3',
         size === 'lg' && 'py-3 px-3',
-        (size === 'xl' || (isInset !== undefined && isInset)) && 'py-3 px-4 rounded-xl gap-x-4',
+        (size === 'xl' || (innerLabel !== undefined && innerLabel)) && 'py-3 px-4 rounded-xl gap-x-4',
         input?.isFocused ? 'shadow-input-focus hover:shadow-input-focus' : 'shadow-input hover:shadow-input-hov',
         'focus:shadow-input-focus focus:outline-none',
         'focus-visible::shadow-input-focus focus-visible::outline-none',
@@ -182,13 +182,17 @@ const InsetInput = ({
         ref={popper?.setAnchor}
         as={NativeInput}
         displayValue={displayValue}
-        placeholder={placeholder}
+        placeholder={placeholder === undefined ? '' : `${placeholder}`}
         type={type ? type : 'text'}
         disabled={disabled}
         className={mergeClassnames(
           'flex-grow h-full border-0 !rounded-none bg-transparent px-0',
           '!shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none',
-          label !== undefined && label.length > 0 && 'input-xl pt-[.75rem] input-xl-dt-label',
+          (label !== undefined && label.length > 0)
+            && (placeholder === undefined || placeholder.length === 0)
+            && 'input-xl',
+          (label !== undefined && label.length > 0)
+            && 'pt-[.75rem] input-xl-dt-label',
           size === undefined || size === 'md' ? 'text-base' : `text-${size}`,
           className
         )}
@@ -197,7 +201,7 @@ const InsetInput = ({
         onBlur={() => input?.setIsFocused(false)}
         {...rest}
       />
-      <InputInset.Label className='top-[-.125rem] rtl:right-0 ltr:left-0'>{label}</InputInset.Label>
+      <InputInset.Label className='w-auto top-[-.125rem] !right-0 !left-0 whitespace-nowrap overflow-x-hidden'>{label}</InputInset.Label>
     </span>
   );
 };
@@ -434,7 +438,7 @@ const InsetSelect = ({
         className={className}
         multiple={multiple !== undefined}
         counter={counter}
-        isInset={true}
+        innerLabel={true}
         {...rest}
       >
         <InsetInput
@@ -477,7 +481,7 @@ const InsetMultiSelect = ({
         className={className}
         multiple={multiple !== undefined}
         counter={counter}
-        isInset={true}
+        innerLabel={true}
         {...rest}
       >
         {counter !== undefined && counter > 0 && (
