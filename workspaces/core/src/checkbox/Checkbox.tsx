@@ -16,7 +16,7 @@ const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
       onChange,
       bgColor = 'bg-piccolo',
       className,
-      isIndeterminate,
+      indeterminate,
       ...inputProps
     },
     ref
@@ -44,7 +44,7 @@ const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
           className="peer appearance-none h-6 w-6 outline-none align-top select-none"
           {...inputProps}
           type="checkbox"
-          aria-checked={isIndeterminate ? 'mixed' : isChecked}
+          aria-checked={indeterminate ? 'mixed' : isChecked}
           checked={isChecked}
           onClick={(e) => {
             if (disabled || readOnly) {
@@ -60,12 +60,12 @@ const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
         <span
           className={mergeClassnames(
             'absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten',
-            (isChecked || isIndeterminate) && bgColor,
+            (isChecked || indeterminate) && bgColor,
             className && className
           )}
           aria-hidden="true"
         >
-          {isIndeterminate ? (
+          {indeterminate ? (
             <ControlsMinus
               className={mergeClassnames('transition-opacity opacity-100')}
             />

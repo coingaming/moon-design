@@ -9,23 +9,23 @@ const Example = () => {
   const isIndeterminate = checkedItems.some(Boolean) && !allChecked;
 
   return (
-    <div>
+    <div className="flex flex-col gap-2">
       <Checkbox
         checked={allChecked}
-        isIndeterminate={isIndeterminate}
+        indeterminate={isIndeterminate}
         onChange={(e) => setCheckedItems([e.target.checked, e.target.checked])}
         label="Parent "
       />
-      <div className="flex flex-coll gap-4 pl-4">
+      <div className="flex flex-col pl-4">
         <Checkbox
           checked={checkedItems[0]}
           onChange={(e) => setCheckedItems([e.target.checked, checkedItems[1]])}
-          label="Checked"
+          label="Child 1"
         />
         <Checkbox
           checked={checkedItems[1]}
           onChange={(e) => setCheckedItems([checkedItems[0], e.target.checked])}
-          label="Checked"
+          label="Child 2"
         />
       </div>
     </div>

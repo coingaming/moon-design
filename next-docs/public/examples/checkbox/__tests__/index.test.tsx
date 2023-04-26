@@ -9,6 +9,7 @@ import Checked from '../Checked';
 import Customize from '../Customize';
 import Disabled from '../Disabled';
 import ReadOnly from '../ReadOnly';
+import PartiallySelected from '../PartiallySelected';
 
 const withRtl = (component: JSX.Element) => <div dir="rtl">{component}</div>;
 
@@ -38,6 +39,10 @@ describe('Checkbox', () => {
     const tree = render(<Customize />);
     expect(tree).toMatchSnapshot();
   });
+  it('renders PartiallySelected', () => {
+    const tree = render(<PartiallySelected />);
+    expect(tree).toMatchSnapshot();
+  });
 });
 
 describe('Checkbox in RTL', () => {
@@ -64,6 +69,10 @@ describe('Checkbox in RTL', () => {
   });
   it('renders Customize', () => {
     const tree = render(withRtl(<Customize />));
+    expect(tree).toMatchSnapshot();
+  });
+  it('renders PartiallySelected', () => {
+    const tree = render(withRtl(<PartiallySelected />));
     expect(tree).toMatchSnapshot();
   });
 });

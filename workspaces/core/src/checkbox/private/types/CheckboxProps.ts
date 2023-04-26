@@ -8,6 +8,7 @@ interface CheckboxProps {
   checked?: boolean;
   bgColor?: string;
   className?: string;
+  indeterminate?: boolean;
   onClick?: (event?: React.MouseEvent<HTMLInputElement>) => void;
   onChange?: (event: React.ChangeEvent<HTMLInputElement>) => void;
   isIndeterminate?: boolean;
