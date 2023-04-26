@@ -16,7 +16,7 @@ exports[`Select in Dark Theme renders Default 1`] = `
         aria-expanded={false}
         className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-base"
         data-headlessui-state=""
-        id="headlessui-combobox-input-:r1q:"
+        id="headlessui-combobox-input-:r1t:"
         onBlur={[Function]}
         onChange={[Function]}
         onCompositionEnd={[Function]}
@@ -34,7 +34,7 @@ exports[`Select in Dark Theme renders Default 1`] = `
         className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
         data-headlessui-state=""
         disabled={false}
-        id="headlessui-combobox-button-:r1r:"
+        id="headlessui-combobox-button-:r1u:"
         onClick={[Function]}
         onKeyDown={[Function]}
         tabIndex={-1}
@@ -76,7 +76,7 @@ exports[`Select in Dark Theme renders Default 1`] = `
         aria-expanded={false}
         className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-base"
         data-headlessui-state=""
-        id="headlessui-combobox-input-:r1s:"
+        id="headlessui-combobox-input-:r1v:"
         onBlur={[Function]}
         onChange={[Function]}
         onCompositionEnd={[Function]}
@@ -94,7 +94,7 @@ exports[`Select in Dark Theme renders Default 1`] = `
         className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
         data-headlessui-state=""
         disabled={false}
-        id="headlessui-combobox-button-:r1t:"
+        id="headlessui-combobox-button-:r20:"
         onClick={[Function]}
         onKeyDown={[Function]}
         tabIndex={-1}
@@ -144,9 +144,9 @@ exports[`Select in Dark Theme renders InsetMultiSelect 1`] = `
         <input
           aria-autocomplete="list"
           aria-expanded={false}
-          className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none input-xl pt-[.75rem] input-xl-dt-label text-base"
+          className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none pt-[.75rem] input-xl-dt-label text-base"
           data-headlessui-state=""
-          id="headlessui-combobox-input-:r1v:"
+          id="headlessui-combobox-input-:r22:"
           onBlur={[Function]}
           onChange={[Function]}
           onCompositionEnd={[Function]}
@@ -159,7 +159,7 @@ exports[`Select in Dark Theme renders InsetMultiSelect 1`] = `
           type="text"
         />
         <label
-          className="absolute text-[0.75rem] leading-3 text-trunks z-[1] transition-all ease-in-out duration-200 top-[-.125rem] rtl:right-0 ltr:left-0"
+          className="absolute text-[0.75rem] leading-3 text-trunks z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 w-auto top-[-.125rem] !right-0 !left-0 whitespace-nowrap overflow-x-hidden"
         >
           Select label
         </label>
@@ -170,7 +170,7 @@ exports[`Select in Dark Theme renders InsetMultiSelect 1`] = `
         className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
         data-headlessui-state=""
         disabled={false}
-        id="headlessui-combobox-button-:r20:"
+        id="headlessui-combobox-button-:r23:"
         onClick={[Function]}
         onKeyDown={[Function]}
         tabIndex={-1}
@@ -220,9 +220,9 @@ exports[`Select in Dark Theme renders InsetSelect 1`] = `
         <input
           aria-autocomplete="list"
           aria-expanded={false}
-          className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none input-xl pt-[.75rem] input-xl-dt-label text-base"
+          className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none pt-[.75rem] input-xl-dt-label text-base"
           data-headlessui-state=""
-          id="headlessui-combobox-input-:r22:"
+          id="headlessui-combobox-input-:r25:"
           onBlur={[Function]}
           onChange={[Function]}
           onCompositionEnd={[Function]}
@@ -235,7 +235,7 @@ exports[`Select in Dark Theme renders InsetSelect 1`] = `
           type="text"
         />
         <label
-          className="absolute text-[0.75rem] leading-3 text-trunks z-[1] transition-all ease-in-out duration-200 top-[-.125rem] rtl:right-0 ltr:left-0"
+          className="absolute text-[0.75rem] leading-3 text-trunks z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 w-auto top-[-.125rem] !right-0 !left-0 whitespace-nowrap overflow-x-hidden"
         >
           Label
         </label>
@@ -246,7 +246,7 @@ exports[`Select in Dark Theme renders InsetSelect 1`] = `
         className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
         data-headlessui-state=""
         disabled={false}
-        id="headlessui-combobox-button-:r23:"
+        id="headlessui-combobox-button-:r26:"
         onClick={[Function]}
         onKeyDown={[Function]}
         tabIndex={-1}
@@ -296,9 +296,9 @@ exports[`Select in Dark Theme renders InsetSelectStates 1`] = `
         <input
           aria-autocomplete="list"
           aria-expanded={false}
-          className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none input-xl pt-[.75rem] input-xl-dt-label text-base"
+          className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none pt-[.75rem] input-xl-dt-label text-base"
           data-headlessui-state=""
-          id="headlessui-combobox-input-:r25:"
+          id="headlessui-combobox-input-:r28:"
           isError={true}
           onBlur={[Function]}
           onChange={[Function]}
@@ -312,7 +312,7 @@ exports[`Select in Dark Theme renders InsetSelectStates 1`] = `
           type="text"
         />
         <label
-          className="absolute text-[0.75rem] leading-3 text-trunks z-[1] transition-all ease-in-out duration-200 top-[-.125rem] rtl:right-0 ltr:left-0"
+          className="absolute text-[0.75rem] leading-3 text-trunks z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 w-auto top-[-.125rem] !right-0 !left-0 whitespace-nowrap overflow-x-hidden"
         >
           Error
         </label>
@@ -323,7 +323,7 @@ exports[`Select in Dark Theme renders InsetSelectStates 1`] = `
         className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
         data-headlessui-state=""
         disabled={false}
-        id="headlessui-combobox-button-:r26:"
+        id="headlessui-combobox-button-:r29:"
         onClick={[Function]}
         onKeyDown={[Function]}
         tabIndex={-1}
@@ -365,17 +365,17 @@ exports[`Select in Dark Theme renders InsetSelectStates 1`] = `
       >
         <input
           aria-autocomplete="list"
-          className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err opacity-30 cursor-not-allowed flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none input-xl pt-[.75rem] input-xl-dt-label text-base"
+          className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err opacity-30 cursor-not-allowed flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none pt-[.75rem] input-xl-dt-label text-base"
           data-headlessui-state="disabled"
           disabled={true}
-          id="headlessui-combobox-input-:r28:"
+          id="headlessui-combobox-input-:r2b:"
           open={false}
           placeholder="Choose an option"
           role="combobox"
           type="text"
         />
         <label
-          className="absolute text-[0.75rem] leading-3 text-trunks z-[1] transition-all ease-in-out duration-200 top-[-.125rem] rtl:right-0 ltr:left-0"
+          className="absolute text-[0.75rem] leading-3 text-trunks z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 w-auto top-[-.125rem] !right-0 !left-0 whitespace-nowrap overflow-x-hidden"
         >
           Disabled
         </label>
@@ -385,7 +385,7 @@ exports[`Select in Dark Theme renders InsetSelectStates 1`] = `
         className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center cursor-not-allowed"
         data-headlessui-state="disabled"
         disabled={true}
-        id="headlessui-combobox-button-:r29:"
+        id="headlessui-combobox-button-:r2c:"
         tabIndex={-1}
         type="button"
       >
@@ -428,7 +428,76 @@ exports[`Select in Dark Theme renders InsetSelectStates 1`] = `
           aria-expanded={false}
           className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none input-xl pt-[.75rem] input-xl-dt-label text-base"
           data-headlessui-state=""
-          id="headlessui-combobox-input-:r2b:"
+          id="headlessui-combobox-input-:r2e:"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onCompositionEnd={[Function]}
+          onCompositionStart={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          open={false}
+          placeholder=""
+          role="combobox"
+          type="text"
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 text-trunks z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 w-auto top-[-.125rem] !right-0 !left-0 whitespace-nowrap overflow-x-hidden"
+        >
+          Without placeholder (nullable)
+        </label>
+      </span>
+      <button
+        aria-expanded={false}
+        aria-haspopup="listbox"
+        className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
+        data-headlessui-state=""
+        disabled={false}
+        id="headlessui-combobox-button-:r2f:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={-1}
+        type="button"
+      >
+        <svg
+          className="sc-dPyBCJ"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 13l-6 6-6-6"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="relative w-full max-w-xs"
+  >
+    <div
+      className="relative flex flex-nowrap w-full align-middle items-center bg-gohan py-3 px-4 rounded-xl gap-x-4 shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+      tabIndex={-1}
+    >
+      <span
+        className="relative flex flex-grow w-full"
+      >
+        <input
+          aria-autocomplete="list"
+          aria-expanded={false}
+          className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none pt-[.75rem] input-xl-dt-label text-base"
+          data-headlessui-state=""
+          id="headlessui-combobox-input-:r2h:"
           onBlur={[Function]}
           onChange={[Function]}
           onCompositionEnd={[Function]}
@@ -441,7 +510,7 @@ exports[`Select in Dark Theme renders InsetSelectStates 1`] = `
           type="text"
         />
         <label
-          className="absolute text-[0.75rem] leading-3 text-trunks z-[1] transition-all ease-in-out duration-200 top-[-.125rem] rtl:right-0 ltr:left-0"
+          className="absolute text-[0.75rem] leading-3 text-trunks z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 w-auto top-[-.125rem] !right-0 !left-0 whitespace-nowrap overflow-x-hidden"
         >
           List options width
         </label>
@@ -452,7 +521,7 @@ exports[`Select in Dark Theme renders InsetSelectStates 1`] = `
         className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
         data-headlessui-state=""
         disabled={false}
-        id="headlessui-combobox-button-:r2c:"
+        id="headlessui-combobox-button-:r2i:"
         onClick={[Function]}
         onKeyDown={[Function]}
         tabIndex={-1}
@@ -495,7 +564,7 @@ exports[`Select in Dark Theme renders MultiSelect 1`] = `
     <label
       className="block text-bulma pb-2 text-moon-14"
       data-headlessui-state=""
-      id="headlessui-listbox-label-:r2d:"
+      id="headlessui-listbox-label-:r2j:"
       onClick={[Function]}
     >
       Small
@@ -509,7 +578,7 @@ exports[`Select in Dark Theme renders MultiSelect 1`] = `
         aria-expanded={false}
         className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-sm"
         data-headlessui-state=""
-        id="headlessui-combobox-input-:r2f:"
+        id="headlessui-combobox-input-:r2l:"
         onBlur={[Function]}
         onChange={[Function]}
         onCompositionEnd={[Function]}
@@ -527,7 +596,7 @@ exports[`Select in Dark Theme renders MultiSelect 1`] = `
         className="text-moon-16 w-4 h-4 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
         data-headlessui-state=""
         disabled={false}
-        id="headlessui-combobox-button-:r2g:"
+        id="headlessui-combobox-button-:r2m:"
         onClick={[Function]}
         onKeyDown={[Function]}
         tabIndex={-1}
@@ -563,7 +632,7 @@ exports[`Select in Dark Theme renders MultiSelect 1`] = `
     <label
       className="block text-bulma pb-2 text-moon-16"
       data-headlessui-state=""
-      id="headlessui-listbox-label-:r2h:"
+      id="headlessui-listbox-label-:r2n:"
       onClick={[Function]}
     >
       Medium
@@ -577,7 +646,7 @@ exports[`Select in Dark Theme renders MultiSelect 1`] = `
         aria-expanded={false}
         className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-base"
         data-headlessui-state=""
-        id="headlessui-combobox-input-:r2j:"
+        id="headlessui-combobox-input-:r2p:"
         onBlur={[Function]}
         onChange={[Function]}
         onCompositionEnd={[Function]}
@@ -595,7 +664,7 @@ exports[`Select in Dark Theme renders MultiSelect 1`] = `
         className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
         data-headlessui-state=""
         disabled={false}
-        id="headlessui-combobox-button-:r2k:"
+        id="headlessui-combobox-button-:r2q:"
         onClick={[Function]}
         onKeyDown={[Function]}
         tabIndex={-1}
@@ -631,7 +700,7 @@ exports[`Select in Dark Theme renders MultiSelect 1`] = `
     <label
       className="block text-bulma pb-2 text-moon-16"
       data-headlessui-state=""
-      id="headlessui-listbox-label-:r2l:"
+      id="headlessui-listbox-label-:r2r:"
       onClick={[Function]}
     >
       Large
@@ -645,7 +714,7 @@ exports[`Select in Dark Theme renders MultiSelect 1`] = `
         aria-expanded={false}
         className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-lg"
         data-headlessui-state=""
-        id="headlessui-combobox-input-:r2n:"
+        id="headlessui-combobox-input-:r2t:"
         onBlur={[Function]}
         onChange={[Function]}
         onCompositionEnd={[Function]}
@@ -663,7 +732,7 @@ exports[`Select in Dark Theme renders MultiSelect 1`] = `
         className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
         data-headlessui-state=""
         disabled={false}
-        id="headlessui-combobox-button-:r2o:"
+        id="headlessui-combobox-button-:r2u:"
         onClick={[Function]}
         onKeyDown={[Function]}
         tabIndex={-1}
@@ -709,7 +778,7 @@ exports[`Select in Dark Theme renders Select 1`] = `
       <label
         className="block text-bulma pb-2 text-moon-14"
         data-headlessui-state=""
-        id="headlessui-listbox-label-:r2p:"
+        id="headlessui-listbox-label-:r2v:"
         onClick={[Function]}
       >
         Small
@@ -723,7 +792,7 @@ exports[`Select in Dark Theme renders Select 1`] = `
           aria-expanded={false}
           className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-sm"
           data-headlessui-state=""
-          id="headlessui-combobox-input-:r2r:"
+          id="headlessui-combobox-input-:r31:"
           onBlur={[Function]}
           onChange={[Function]}
           onCompositionEnd={[Function]}
@@ -741,7 +810,7 @@ exports[`Select in Dark Theme renders Select 1`] = `
           className="text-moon-16 w-4 h-4 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
           data-headlessui-state=""
           disabled={false}
-          id="headlessui-combobox-button-:r2s:"
+          id="headlessui-combobox-button-:r32:"
           onClick={[Function]}
           onKeyDown={[Function]}
           tabIndex={-1}
@@ -777,7 +846,7 @@ exports[`Select in Dark Theme renders Select 1`] = `
       <label
         className="block text-bulma pb-2 text-moon-16"
         data-headlessui-state=""
-        id="headlessui-listbox-label-:r2t:"
+        id="headlessui-listbox-label-:r33:"
         onClick={[Function]}
       >
         Medium
@@ -791,7 +860,7 @@ exports[`Select in Dark Theme renders Select 1`] = `
           aria-expanded={false}
           className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-base"
           data-headlessui-state=""
-          id="headlessui-combobox-input-:r2v:"
+          id="headlessui-combobox-input-:r35:"
           onBlur={[Function]}
           onChange={[Function]}
           onCompositionEnd={[Function]}
@@ -809,7 +878,7 @@ exports[`Select in Dark Theme renders Select 1`] = `
           className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
           data-headlessui-state=""
           disabled={false}
-          id="headlessui-combobox-button-:r30:"
+          id="headlessui-combobox-button-:r36:"
           onClick={[Function]}
           onKeyDown={[Function]}
           tabIndex={-1}
@@ -845,7 +914,7 @@ exports[`Select in Dark Theme renders Select 1`] = `
       <label
         className="block text-bulma pb-2 text-moon-16"
         data-headlessui-state=""
-        id="headlessui-listbox-label-:r31:"
+        id="headlessui-listbox-label-:r37:"
         onClick={[Function]}
       >
         Large
@@ -859,7 +928,7 @@ exports[`Select in Dark Theme renders Select 1`] = `
           aria-expanded={false}
           className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-lg"
           data-headlessui-state=""
-          id="headlessui-combobox-input-:r33:"
+          id="headlessui-combobox-input-:r39:"
           onBlur={[Function]}
           onChange={[Function]}
           onCompositionEnd={[Function]}
@@ -877,7 +946,7 @@ exports[`Select in Dark Theme renders Select 1`] = `
           className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
           data-headlessui-state=""
           disabled={false}
-          id="headlessui-combobox-button-:r34:"
+          id="headlessui-combobox-button-:r3a:"
           onClick={[Function]}
           onKeyDown={[Function]}
           tabIndex={-1}
@@ -921,7 +990,7 @@ exports[`Select in Dark Theme renders SelectStates 1`] = `
     <label
       className="block text-bulma pb-2 text-moon-16"
       data-headlessui-state=""
-      id="headlessui-listbox-label-:r35:"
+      id="headlessui-listbox-label-:r3b:"
       onClick={[Function]}
     >
       Error
@@ -935,7 +1004,7 @@ exports[`Select in Dark Theme renders SelectStates 1`] = `
         aria-expanded={false}
         className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-base"
         data-headlessui-state=""
-        id="headlessui-combobox-input-:r37:"
+        id="headlessui-combobox-input-:r3d:"
         isError={true}
         onBlur={[Function]}
         onChange={[Function]}
@@ -954,7 +1023,7 @@ exports[`Select in Dark Theme renders SelectStates 1`] = `
         className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
         data-headlessui-state=""
         disabled={false}
-        id="headlessui-combobox-button-:r38:"
+        id="headlessui-combobox-button-:r3e:"
         onClick={[Function]}
         onKeyDown={[Function]}
         tabIndex={-1}
@@ -990,7 +1059,7 @@ exports[`Select in Dark Theme renders SelectStates 1`] = `
     <label
       className="block text-bulma pb-2 text-moon-16 opacity-30 cursor-not-allowed"
       data-headlessui-state=""
-      id="headlessui-listbox-label-:r39:"
+      id="headlessui-listbox-label-:r3f:"
       onClick={[Function]}
     >
       Disabled
@@ -1004,7 +1073,7 @@ exports[`Select in Dark Theme renders SelectStates 1`] = `
         className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err opacity-30 cursor-not-allowed flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-base"
         data-headlessui-state="disabled"
         disabled={true}
-        id="headlessui-combobox-input-:r3b:"
+        id="headlessui-combobox-input-:r3h:"
         open={false}
         placeholder="Choose an option"
         role="combobox"
@@ -1015,7 +1084,7 @@ exports[`Select in Dark Theme renders SelectStates 1`] = `
         className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center cursor-not-allowed"
         data-headlessui-state="disabled"
         disabled={true}
-        id="headlessui-combobox-button-:r3c:"
+        id="headlessui-combobox-button-:r3i:"
         tabIndex={-1}
         type="button"
       >
@@ -1055,7 +1124,7 @@ exports[`Select in Dark Theme renders SelectStates 1`] = `
         aria-expanded={false}
         className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-base"
         data-headlessui-state=""
-        id="headlessui-combobox-input-:r3e:"
+        id="headlessui-combobox-input-:r3k:"
         onBlur={[Function]}
         onChange={[Function]}
         onCompositionEnd={[Function]}
@@ -1073,7 +1142,7 @@ exports[`Select in Dark Theme renders SelectStates 1`] = `
         className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
         data-headlessui-state=""
         disabled={false}
-        id="headlessui-combobox-button-:r3f:"
+        id="headlessui-combobox-button-:r3l:"
         onClick={[Function]}
         onKeyDown={[Function]}
         tabIndex={-1}
@@ -1103,7 +1172,7 @@ exports[`Select in Dark Theme renders SelectStates 1`] = `
     <label
       className="block text-bulma pb-2 text-moon-16"
       data-headlessui-state=""
-      id="headlessui-listbox-label-:r3g:"
+      id="headlessui-listbox-label-:r3m:"
       onClick={[Function]}
     >
       List options width
@@ -1117,7 +1186,7 @@ exports[`Select in Dark Theme renders SelectStates 1`] = `
         aria-expanded={false}
         className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-base"
         data-headlessui-state=""
-        id="headlessui-combobox-input-:r3i:"
+        id="headlessui-combobox-input-:r3o:"
         onBlur={[Function]}
         onChange={[Function]}
         onCompositionEnd={[Function]}
@@ -1135,7 +1204,7 @@ exports[`Select in Dark Theme renders SelectStates 1`] = `
         className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
         data-headlessui-state=""
         disabled={false}
-        id="headlessui-combobox-button-:r3j:"
+        id="headlessui-combobox-button-:r3p:"
         onClick={[Function]}
         onKeyDown={[Function]}
         tabIndex={-1}
@@ -1312,7 +1381,7 @@ exports[`Select in Light Theme renders InsetMultiSelect 1`] = `
         <input
           aria-autocomplete="list"
           aria-expanded={false}
-          className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none input-xl pt-[.75rem] input-xl-dt-label text-base"
+          className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none pt-[.75rem] input-xl-dt-label text-base"
           data-headlessui-state=""
           id="headlessui-combobox-input-:r5:"
           onBlur={[Function]}
@@ -1327,7 +1396,7 @@ exports[`Select in Light Theme renders InsetMultiSelect 1`] = `
           type="text"
         />
         <label
-          className="absolute text-[0.75rem] leading-3 text-trunks z-[1] transition-all ease-in-out duration-200 top-[-.125rem] rtl:right-0 ltr:left-0"
+          className="absolute text-[0.75rem] leading-3 text-trunks z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 w-auto top-[-.125rem] !right-0 !left-0 whitespace-nowrap overflow-x-hidden"
         >
           Select label
         </label>
@@ -1388,7 +1457,7 @@ exports[`Select in Light Theme renders InsetSelect 1`] = `
         <input
           aria-autocomplete="list"
           aria-expanded={false}
-          className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none input-xl pt-[.75rem] input-xl-dt-label text-base"
+          className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none pt-[.75rem] input-xl-dt-label text-base"
           data-headlessui-state=""
           id="headlessui-combobox-input-:r8:"
           onBlur={[Function]}
@@ -1403,7 +1472,7 @@ exports[`Select in Light Theme renders InsetSelect 1`] = `
           type="text"
         />
         <label
-          className="absolute text-[0.75rem] leading-3 text-trunks z-[1] transition-all ease-in-out duration-200 top-[-.125rem] rtl:right-0 ltr:left-0"
+          className="absolute text-[0.75rem] leading-3 text-trunks z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 w-auto top-[-.125rem] !right-0 !left-0 whitespace-nowrap overflow-x-hidden"
         >
           Label
         </label>
@@ -1464,7 +1533,7 @@ exports[`Select in Light Theme renders InsetSelectStates 1`] = `
         <input
           aria-autocomplete="list"
           aria-expanded={false}
-          className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none input-xl pt-[.75rem] input-xl-dt-label text-base"
+          className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none pt-[.75rem] input-xl-dt-label text-base"
           data-headlessui-state=""
           id="headlessui-combobox-input-:rb:"
           isError={true}
@@ -1480,7 +1549,7 @@ exports[`Select in Light Theme renders InsetSelectStates 1`] = `
           type="text"
         />
         <label
-          className="absolute text-[0.75rem] leading-3 text-trunks z-[1] transition-all ease-in-out duration-200 top-[-.125rem] rtl:right-0 ltr:left-0"
+          className="absolute text-[0.75rem] leading-3 text-trunks z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 w-auto top-[-.125rem] !right-0 !left-0 whitespace-nowrap overflow-x-hidden"
         >
           Error
         </label>
@@ -1533,7 +1602,7 @@ exports[`Select in Light Theme renders InsetSelectStates 1`] = `
       >
         <input
           aria-autocomplete="list"
-          className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err opacity-30 cursor-not-allowed flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none input-xl pt-[.75rem] input-xl-dt-label text-base"
+          className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err opacity-30 cursor-not-allowed flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none pt-[.75rem] input-xl-dt-label text-base"
           data-headlessui-state="disabled"
           disabled={true}
           id="headlessui-combobox-input-:re:"
@@ -1543,7 +1612,7 @@ exports[`Select in Light Theme renders InsetSelectStates 1`] = `
           type="text"
         />
         <label
-          className="absolute text-[0.75rem] leading-3 text-trunks z-[1] transition-all ease-in-out duration-200 top-[-.125rem] rtl:right-0 ltr:left-0"
+          className="absolute text-[0.75rem] leading-3 text-trunks z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 w-auto top-[-.125rem] !right-0 !left-0 whitespace-nowrap overflow-x-hidden"
         >
           Disabled
         </label>
@@ -1604,12 +1673,81 @@ exports[`Select in Light Theme renders InsetSelectStates 1`] = `
           onFocus={[Function]}
           onKeyDown={[Function]}
           open={false}
+          placeholder=""
+          role="combobox"
+          type="text"
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 text-trunks z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 w-auto top-[-.125rem] !right-0 !left-0 whitespace-nowrap overflow-x-hidden"
+        >
+          Without placeholder (nullable)
+        </label>
+      </span>
+      <button
+        aria-expanded={false}
+        aria-haspopup="listbox"
+        className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
+        data-headlessui-state=""
+        disabled={false}
+        id="headlessui-combobox-button-:ri:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={-1}
+        type="button"
+      >
+        <svg
+          className="sc-dPyBCJ"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 13l-6 6-6-6"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="relative w-full max-w-xs"
+  >
+    <div
+      className="relative flex flex-nowrap w-full align-middle items-center bg-gohan py-3 px-4 rounded-xl gap-x-4 shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+      tabIndex={-1}
+    >
+      <span
+        className="relative flex flex-grow w-full"
+      >
+        <input
+          aria-autocomplete="list"
+          aria-expanded={false}
+          className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none pt-[.75rem] input-xl-dt-label text-base"
+          data-headlessui-state=""
+          id="headlessui-combobox-input-:rk:"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onCompositionEnd={[Function]}
+          onCompositionStart={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          open={false}
           placeholder="Choose an option"
           role="combobox"
           type="text"
         />
         <label
-          className="absolute text-[0.75rem] leading-3 text-trunks z-[1] transition-all ease-in-out duration-200 top-[-.125rem] rtl:right-0 ltr:left-0"
+          className="absolute text-[0.75rem] leading-3 text-trunks z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 w-auto top-[-.125rem] !right-0 !left-0 whitespace-nowrap overflow-x-hidden"
         >
           List options width
         </label>
@@ -1620,7 +1758,7 @@ exports[`Select in Light Theme renders InsetSelectStates 1`] = `
         className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
         data-headlessui-state=""
         disabled={false}
-        id="headlessui-combobox-button-:ri:"
+        id="headlessui-combobox-button-:rl:"
         onClick={[Function]}
         onKeyDown={[Function]}
         tabIndex={-1}
@@ -1663,7 +1801,7 @@ exports[`Select in Light Theme renders MultiSelect 1`] = `
     <label
       className="block text-bulma pb-2 text-moon-14"
       data-headlessui-state=""
-      id="headlessui-listbox-label-:rj:"
+      id="headlessui-listbox-label-:rm:"
       onClick={[Function]}
     >
       Small
@@ -1677,7 +1815,7 @@ exports[`Select in Light Theme renders MultiSelect 1`] = `
         aria-expanded={false}
         className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-sm"
         data-headlessui-state=""
-        id="headlessui-combobox-input-:rl:"
+        id="headlessui-combobox-input-:ro:"
         onBlur={[Function]}
         onChange={[Function]}
         onCompositionEnd={[Function]}
@@ -1695,7 +1833,7 @@ exports[`Select in Light Theme renders MultiSelect 1`] = `
         className="text-moon-16 w-4 h-4 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
         data-headlessui-state=""
         disabled={false}
-        id="headlessui-combobox-button-:rm:"
+        id="headlessui-combobox-button-:rp:"
         onClick={[Function]}
         onKeyDown={[Function]}
         tabIndex={-1}
@@ -1731,7 +1869,7 @@ exports[`Select in Light Theme renders MultiSelect 1`] = `
     <label
       className="block text-bulma pb-2 text-moon-16"
       data-headlessui-state=""
-      id="headlessui-listbox-label-:rn:"
+      id="headlessui-listbox-label-:rq:"
       onClick={[Function]}
     >
       Medium
@@ -1745,7 +1883,7 @@ exports[`Select in Light Theme renders MultiSelect 1`] = `
         aria-expanded={false}
         className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-base"
         data-headlessui-state=""
-        id="headlessui-combobox-input-:rp:"
+        id="headlessui-combobox-input-:rs:"
         onBlur={[Function]}
         onChange={[Function]}
         onCompositionEnd={[Function]}
@@ -1763,7 +1901,7 @@ exports[`Select in Light Theme renders MultiSelect 1`] = `
         className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
         data-headlessui-state=""
         disabled={false}
-        id="headlessui-combobox-button-:rq:"
+        id="headlessui-combobox-button-:rt:"
         onClick={[Function]}
         onKeyDown={[Function]}
         tabIndex={-1}
@@ -1799,7 +1937,7 @@ exports[`Select in Light Theme renders MultiSelect 1`] = `
     <label
       className="block text-bulma pb-2 text-moon-16"
       data-headlessui-state=""
-      id="headlessui-listbox-label-:rr:"
+      id="headlessui-listbox-label-:ru:"
       onClick={[Function]}
     >
       Large
@@ -1813,7 +1951,7 @@ exports[`Select in Light Theme renders MultiSelect 1`] = `
         aria-expanded={false}
         className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-lg"
         data-headlessui-state=""
-        id="headlessui-combobox-input-:rt:"
+        id="headlessui-combobox-input-:r10:"
         onBlur={[Function]}
         onChange={[Function]}
         onCompositionEnd={[Function]}
@@ -1831,7 +1969,7 @@ exports[`Select in Light Theme renders MultiSelect 1`] = `
         className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
         data-headlessui-state=""
         disabled={false}
-        id="headlessui-combobox-button-:ru:"
+        id="headlessui-combobox-button-:r11:"
         onClick={[Function]}
         onKeyDown={[Function]}
         tabIndex={-1}
@@ -1877,7 +2015,7 @@ exports[`Select in Light Theme renders Select 1`] = `
       <label
         className="block text-bulma pb-2 text-moon-14"
         data-headlessui-state=""
-        id="headlessui-listbox-label-:rv:"
+        id="headlessui-listbox-label-:r12:"
         onClick={[Function]}
       >
         Small
@@ -1891,7 +2029,7 @@ exports[`Select in Light Theme renders Select 1`] = `
           aria-expanded={false}
           className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-sm"
           data-headlessui-state=""
-          id="headlessui-combobox-input-:r11:"
+          id="headlessui-combobox-input-:r14:"
           onBlur={[Function]}
           onChange={[Function]}
           onCompositionEnd={[Function]}
@@ -1909,7 +2047,7 @@ exports[`Select in Light Theme renders Select 1`] = `
           className="text-moon-16 w-4 h-4 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
           data-headlessui-state=""
           disabled={false}
-          id="headlessui-combobox-button-:r12:"
+          id="headlessui-combobox-button-:r15:"
           onClick={[Function]}
           onKeyDown={[Function]}
           tabIndex={-1}
@@ -1945,7 +2083,7 @@ exports[`Select in Light Theme renders Select 1`] = `
       <label
         className="block text-bulma pb-2 text-moon-16"
         data-headlessui-state=""
-        id="headlessui-listbox-label-:r13:"
+        id="headlessui-listbox-label-:r16:"
         onClick={[Function]}
       >
         Medium
@@ -1959,7 +2097,7 @@ exports[`Select in Light Theme renders Select 1`] = `
           aria-expanded={false}
           className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-base"
           data-headlessui-state=""
-          id="headlessui-combobox-input-:r15:"
+          id="headlessui-combobox-input-:r18:"
           onBlur={[Function]}
           onChange={[Function]}
           onCompositionEnd={[Function]}
@@ -1977,7 +2115,7 @@ exports[`Select in Light Theme renders Select 1`] = `
           className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
           data-headlessui-state=""
           disabled={false}
-          id="headlessui-combobox-button-:r16:"
+          id="headlessui-combobox-button-:r19:"
           onClick={[Function]}
           onKeyDown={[Function]}
           tabIndex={-1}
@@ -2013,7 +2151,7 @@ exports[`Select in Light Theme renders Select 1`] = `
       <label
         className="block text-bulma pb-2 text-moon-16"
         data-headlessui-state=""
-        id="headlessui-listbox-label-:r17:"
+        id="headlessui-listbox-label-:r1a:"
         onClick={[Function]}
       >
         Large
@@ -2027,7 +2165,7 @@ exports[`Select in Light Theme renders Select 1`] = `
           aria-expanded={false}
           className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-lg"
           data-headlessui-state=""
-          id="headlessui-combobox-input-:r19:"
+          id="headlessui-combobox-input-:r1c:"
           onBlur={[Function]}
           onChange={[Function]}
           onCompositionEnd={[Function]}
@@ -2045,7 +2183,7 @@ exports[`Select in Light Theme renders Select 1`] = `
           className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
           data-headlessui-state=""
           disabled={false}
-          id="headlessui-combobox-button-:r1a:"
+          id="headlessui-combobox-button-:r1d:"
           onClick={[Function]}
           onKeyDown={[Function]}
           tabIndex={-1}
@@ -2089,7 +2227,7 @@ exports[`Select in Light Theme renders SelectStates 1`] = `
     <label
       className="block text-bulma pb-2 text-moon-16"
       data-headlessui-state=""
-      id="headlessui-listbox-label-:r1b:"
+      id="headlessui-listbox-label-:r1e:"
       onClick={[Function]}
     >
       Error
@@ -2103,7 +2241,7 @@ exports[`Select in Light Theme renders SelectStates 1`] = `
         aria-expanded={false}
         className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-base"
         data-headlessui-state=""
-        id="headlessui-combobox-input-:r1d:"
+        id="headlessui-combobox-input-:r1g:"
         isError={true}
         onBlur={[Function]}
         onChange={[Function]}
@@ -2122,7 +2260,7 @@ exports[`Select in Light Theme renders SelectStates 1`] = `
         className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
         data-headlessui-state=""
         disabled={false}
-        id="headlessui-combobox-button-:r1e:"
+        id="headlessui-combobox-button-:r1h:"
         onClick={[Function]}
         onKeyDown={[Function]}
         tabIndex={-1}
@@ -2158,7 +2296,7 @@ exports[`Select in Light Theme renders SelectStates 1`] = `
     <label
       className="block text-bulma pb-2 text-moon-16 opacity-30 cursor-not-allowed"
       data-headlessui-state=""
-      id="headlessui-listbox-label-:r1f:"
+      id="headlessui-listbox-label-:r1i:"
       onClick={[Function]}
     >
       Disabled
@@ -2172,7 +2310,7 @@ exports[`Select in Light Theme renders SelectStates 1`] = `
         className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err opacity-30 cursor-not-allowed flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-base"
         data-headlessui-state="disabled"
         disabled={true}
-        id="headlessui-combobox-input-:r1h:"
+        id="headlessui-combobox-input-:r1k:"
         open={false}
         placeholder="Choose an option"
         role="combobox"
@@ -2183,7 +2321,7 @@ exports[`Select in Light Theme renders SelectStates 1`] = `
         className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center cursor-not-allowed"
         data-headlessui-state="disabled"
         disabled={true}
-        id="headlessui-combobox-button-:r1i:"
+        id="headlessui-combobox-button-:r1l:"
         tabIndex={-1}
         type="button"
       >
@@ -2223,7 +2361,7 @@ exports[`Select in Light Theme renders SelectStates 1`] = `
         aria-expanded={false}
         className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-base"
         data-headlessui-state=""
-        id="headlessui-combobox-input-:r1k:"
+        id="headlessui-combobox-input-:r1n:"
         onBlur={[Function]}
         onChange={[Function]}
         onCompositionEnd={[Function]}
@@ -2241,7 +2379,7 @@ exports[`Select in Light Theme renders SelectStates 1`] = `
         className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
         data-headlessui-state=""
         disabled={false}
-        id="headlessui-combobox-button-:r1l:"
+        id="headlessui-combobox-button-:r1o:"
         onClick={[Function]}
         onKeyDown={[Function]}
         tabIndex={-1}
@@ -2271,7 +2409,7 @@ exports[`Select in Light Theme renders SelectStates 1`] = `
     <label
       className="block text-bulma pb-2 text-moon-16"
       data-headlessui-state=""
-      id="headlessui-listbox-label-:r1m:"
+      id="headlessui-listbox-label-:r1p:"
       onClick={[Function]}
     >
       List options width
@@ -2285,7 +2423,7 @@ exports[`Select in Light Theme renders SelectStates 1`] = `
         aria-expanded={false}
         className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-base"
         data-headlessui-state=""
-        id="headlessui-combobox-input-:r1o:"
+        id="headlessui-combobox-input-:r1r:"
         onBlur={[Function]}
         onChange={[Function]}
         onCompositionEnd={[Function]}
@@ -2303,7 +2441,7 @@ exports[`Select in Light Theme renders SelectStates 1`] = `
         className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
         data-headlessui-state=""
         disabled={false}
-        id="headlessui-combobox-button-:r1p:"
+        id="headlessui-combobox-button-:r1s:"
         onClick={[Function]}
         onKeyDown={[Function]}
         tabIndex={-1}
@@ -2355,7 +2493,7 @@ exports[`Select in RTL renders Default 1`] = `
           aria-expanded={false}
           className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-base"
           data-headlessui-state=""
-          id="headlessui-combobox-input-:r3k:"
+          id="headlessui-combobox-input-:r3q:"
           onBlur={[Function]}
           onChange={[Function]}
           onCompositionEnd={[Function]}
@@ -2373,7 +2511,7 @@ exports[`Select in RTL renders Default 1`] = `
           className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
           data-headlessui-state=""
           disabled={false}
-          id="headlessui-combobox-button-:r3l:"
+          id="headlessui-combobox-button-:r3r:"
           onClick={[Function]}
           onKeyDown={[Function]}
           tabIndex={-1}
@@ -2415,7 +2553,7 @@ exports[`Select in RTL renders Default 1`] = `
           aria-expanded={false}
           className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-base"
           data-headlessui-state=""
-          id="headlessui-combobox-input-:r3m:"
+          id="headlessui-combobox-input-:r3s:"
           onBlur={[Function]}
           onChange={[Function]}
           onCompositionEnd={[Function]}
@@ -2433,7 +2571,7 @@ exports[`Select in RTL renders Default 1`] = `
           className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
           data-headlessui-state=""
           disabled={false}
-          id="headlessui-combobox-button-:r3n:"
+          id="headlessui-combobox-button-:r3t:"
           onClick={[Function]}
           onKeyDown={[Function]}
           tabIndex={-1}
@@ -2487,9 +2625,9 @@ exports[`Select in RTL renders InsetMultiSelect 1`] = `
           <input
             aria-autocomplete="list"
             aria-expanded={false}
-            className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none input-xl pt-[.75rem] input-xl-dt-label text-base"
+            className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none pt-[.75rem] input-xl-dt-label text-base"
             data-headlessui-state=""
-            id="headlessui-combobox-input-:r3p:"
+            id="headlessui-combobox-input-:r3v:"
             onBlur={[Function]}
             onChange={[Function]}
             onCompositionEnd={[Function]}
@@ -2502,7 +2640,7 @@ exports[`Select in RTL renders InsetMultiSelect 1`] = `
             type="text"
           />
           <label
-            className="absolute text-[0.75rem] leading-3 text-trunks z-[1] transition-all ease-in-out duration-200 top-[-.125rem] rtl:right-0 ltr:left-0"
+            className="absolute text-[0.75rem] leading-3 text-trunks z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 w-auto top-[-.125rem] !right-0 !left-0 whitespace-nowrap overflow-x-hidden"
           >
             Select label
           </label>
@@ -2513,7 +2651,7 @@ exports[`Select in RTL renders InsetMultiSelect 1`] = `
           className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
           data-headlessui-state=""
           disabled={false}
-          id="headlessui-combobox-button-:r3q:"
+          id="headlessui-combobox-button-:r40:"
           onClick={[Function]}
           onKeyDown={[Function]}
           tabIndex={-1}
@@ -2567,9 +2705,9 @@ exports[`Select in RTL renders InsetSelect 1`] = `
           <input
             aria-autocomplete="list"
             aria-expanded={false}
-            className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none input-xl pt-[.75rem] input-xl-dt-label text-base"
+            className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none pt-[.75rem] input-xl-dt-label text-base"
             data-headlessui-state=""
-            id="headlessui-combobox-input-:r3s:"
+            id="headlessui-combobox-input-:r42:"
             onBlur={[Function]}
             onChange={[Function]}
             onCompositionEnd={[Function]}
@@ -2582,7 +2720,7 @@ exports[`Select in RTL renders InsetSelect 1`] = `
             type="text"
           />
           <label
-            className="absolute text-[0.75rem] leading-3 text-trunks z-[1] transition-all ease-in-out duration-200 top-[-.125rem] rtl:right-0 ltr:left-0"
+            className="absolute text-[0.75rem] leading-3 text-trunks z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 w-auto top-[-.125rem] !right-0 !left-0 whitespace-nowrap overflow-x-hidden"
           >
             Label
           </label>
@@ -2593,7 +2731,7 @@ exports[`Select in RTL renders InsetSelect 1`] = `
           className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
           data-headlessui-state=""
           disabled={false}
-          id="headlessui-combobox-button-:r3t:"
+          id="headlessui-combobox-button-:r43:"
           onClick={[Function]}
           onKeyDown={[Function]}
           tabIndex={-1}
@@ -2647,9 +2785,9 @@ exports[`Select in RTL renders InsetSelectStates 1`] = `
           <input
             aria-autocomplete="list"
             aria-expanded={false}
-            className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none input-xl pt-[.75rem] input-xl-dt-label text-base"
+            className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none pt-[.75rem] input-xl-dt-label text-base"
             data-headlessui-state=""
-            id="headlessui-combobox-input-:r3v:"
+            id="headlessui-combobox-input-:r45:"
             isError={true}
             onBlur={[Function]}
             onChange={[Function]}
@@ -2663,7 +2801,7 @@ exports[`Select in RTL renders InsetSelectStates 1`] = `
             type="text"
           />
           <label
-            className="absolute text-[0.75rem] leading-3 text-trunks z-[1] transition-all ease-in-out duration-200 top-[-.125rem] rtl:right-0 ltr:left-0"
+            className="absolute text-[0.75rem] leading-3 text-trunks z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 w-auto top-[-.125rem] !right-0 !left-0 whitespace-nowrap overflow-x-hidden"
           >
             Error
           </label>
@@ -2674,7 +2812,7 @@ exports[`Select in RTL renders InsetSelectStates 1`] = `
           className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
           data-headlessui-state=""
           disabled={false}
-          id="headlessui-combobox-button-:r40:"
+          id="headlessui-combobox-button-:r46:"
           onClick={[Function]}
           onKeyDown={[Function]}
           tabIndex={-1}
@@ -2716,17 +2854,17 @@ exports[`Select in RTL renders InsetSelectStates 1`] = `
         >
           <input
             aria-autocomplete="list"
-            className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err opacity-30 cursor-not-allowed flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none input-xl pt-[.75rem] input-xl-dt-label text-base"
+            className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err opacity-30 cursor-not-allowed flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none pt-[.75rem] input-xl-dt-label text-base"
             data-headlessui-state="disabled"
             disabled={true}
-            id="headlessui-combobox-input-:r42:"
+            id="headlessui-combobox-input-:r48:"
             open={false}
             placeholder="Choose an option"
             role="combobox"
             type="text"
           />
           <label
-            className="absolute text-[0.75rem] leading-3 text-trunks z-[1] transition-all ease-in-out duration-200 top-[-.125rem] rtl:right-0 ltr:left-0"
+            className="absolute text-[0.75rem] leading-3 text-trunks z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 w-auto top-[-.125rem] !right-0 !left-0 whitespace-nowrap overflow-x-hidden"
           >
             Disabled
           </label>
@@ -2736,7 +2874,7 @@ exports[`Select in RTL renders InsetSelectStates 1`] = `
           className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center cursor-not-allowed"
           data-headlessui-state="disabled"
           disabled={true}
-          id="headlessui-combobox-button-:r43:"
+          id="headlessui-combobox-button-:r49:"
           tabIndex={-1}
           type="button"
         >
@@ -2779,7 +2917,76 @@ exports[`Select in RTL renders InsetSelectStates 1`] = `
             aria-expanded={false}
             className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none input-xl pt-[.75rem] input-xl-dt-label text-base"
             data-headlessui-state=""
-            id="headlessui-combobox-input-:r45:"
+            id="headlessui-combobox-input-:r4b:"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onCompositionEnd={[Function]}
+            onCompositionStart={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            open={false}
+            placeholder=""
+            role="combobox"
+            type="text"
+          />
+          <label
+            className="absolute text-[0.75rem] leading-3 text-trunks z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 w-auto top-[-.125rem] !right-0 !left-0 whitespace-nowrap overflow-x-hidden"
+          >
+            Without placeholder (nullable)
+          </label>
+        </span>
+        <button
+          aria-expanded={false}
+          aria-haspopup="listbox"
+          className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
+          data-headlessui-state=""
+          disabled={false}
+          id="headlessui-combobox-button-:r4c:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          tabIndex={-1}
+          type="button"
+        >
+          <svg
+            className="sc-dPyBCJ"
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M22 13l-6 6-6-6"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+    <div
+      className="relative w-full max-w-xs"
+    >
+      <div
+        className="relative flex flex-nowrap w-full align-middle items-center bg-gohan py-3 px-4 rounded-xl gap-x-4 shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+        tabIndex={-1}
+      >
+        <span
+          className="relative flex flex-grow w-full"
+        >
+          <input
+            aria-autocomplete="list"
+            aria-expanded={false}
+            className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none pt-[.75rem] input-xl-dt-label text-base"
+            data-headlessui-state=""
+            id="headlessui-combobox-input-:r4e:"
             onBlur={[Function]}
             onChange={[Function]}
             onCompositionEnd={[Function]}
@@ -2792,7 +2999,7 @@ exports[`Select in RTL renders InsetSelectStates 1`] = `
             type="text"
           />
           <label
-            className="absolute text-[0.75rem] leading-3 text-trunks z-[1] transition-all ease-in-out duration-200 top-[-.125rem] rtl:right-0 ltr:left-0"
+            className="absolute text-[0.75rem] leading-3 text-trunks z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 w-auto top-[-.125rem] !right-0 !left-0 whitespace-nowrap overflow-x-hidden"
           >
             List options width
           </label>
@@ -2803,7 +3010,7 @@ exports[`Select in RTL renders InsetSelectStates 1`] = `
           className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
           data-headlessui-state=""
           disabled={false}
-          id="headlessui-combobox-button-:r46:"
+          id="headlessui-combobox-button-:r4f:"
           onClick={[Function]}
           onKeyDown={[Function]}
           tabIndex={-1}
@@ -2850,7 +3057,7 @@ exports[`Select in RTL renders MultiSelect 1`] = `
       <label
         className="block text-bulma pb-2 text-moon-14"
         data-headlessui-state=""
-        id="headlessui-listbox-label-:r47:"
+        id="headlessui-listbox-label-:r4g:"
         onClick={[Function]}
       >
         Small
@@ -2864,7 +3071,7 @@ exports[`Select in RTL renders MultiSelect 1`] = `
           aria-expanded={false}
           className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-sm"
           data-headlessui-state=""
-          id="headlessui-combobox-input-:r49:"
+          id="headlessui-combobox-input-:r4i:"
           onBlur={[Function]}
           onChange={[Function]}
           onCompositionEnd={[Function]}
@@ -2882,7 +3089,7 @@ exports[`Select in RTL renders MultiSelect 1`] = `
           className="text-moon-16 w-4 h-4 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
           data-headlessui-state=""
           disabled={false}
-          id="headlessui-combobox-button-:r4a:"
+          id="headlessui-combobox-button-:r4j:"
           onClick={[Function]}
           onKeyDown={[Function]}
           tabIndex={-1}
@@ -2918,7 +3125,7 @@ exports[`Select in RTL renders MultiSelect 1`] = `
       <label
         className="block text-bulma pb-2 text-moon-16"
         data-headlessui-state=""
-        id="headlessui-listbox-label-:r4b:"
+        id="headlessui-listbox-label-:r4k:"
         onClick={[Function]}
       >
         Medium
@@ -2932,7 +3139,7 @@ exports[`Select in RTL renders MultiSelect 1`] = `
           aria-expanded={false}
           className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-base"
           data-headlessui-state=""
-          id="headlessui-combobox-input-:r4d:"
+          id="headlessui-combobox-input-:r4m:"
           onBlur={[Function]}
           onChange={[Function]}
           onCompositionEnd={[Function]}
@@ -2950,7 +3157,7 @@ exports[`Select in RTL renders MultiSelect 1`] = `
           className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
           data-headlessui-state=""
           disabled={false}
-          id="headlessui-combobox-button-:r4e:"
+          id="headlessui-combobox-button-:r4n:"
           onClick={[Function]}
           onKeyDown={[Function]}
           tabIndex={-1}
@@ -2986,7 +3193,7 @@ exports[`Select in RTL renders MultiSelect 1`] = `
       <label
         className="block text-bulma pb-2 text-moon-16"
         data-headlessui-state=""
-        id="headlessui-listbox-label-:r4f:"
+        id="headlessui-listbox-label-:r4o:"
         onClick={[Function]}
       >
         Large
@@ -3000,7 +3207,7 @@ exports[`Select in RTL renders MultiSelect 1`] = `
           aria-expanded={false}
           className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-lg"
           data-headlessui-state=""
-          id="headlessui-combobox-input-:r4h:"
+          id="headlessui-combobox-input-:r4q:"
           onBlur={[Function]}
           onChange={[Function]}
           onCompositionEnd={[Function]}
@@ -3018,7 +3225,7 @@ exports[`Select in RTL renders MultiSelect 1`] = `
           className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
           data-headlessui-state=""
           disabled={false}
-          id="headlessui-combobox-button-:r4i:"
+          id="headlessui-combobox-button-:r4r:"
           onClick={[Function]}
           onKeyDown={[Function]}
           tabIndex={-1}
@@ -3068,7 +3275,7 @@ exports[`Select in RTL renders Select 1`] = `
         <label
           className="block text-bulma pb-2 text-moon-14"
           data-headlessui-state=""
-          id="headlessui-listbox-label-:r4j:"
+          id="headlessui-listbox-label-:r4s:"
           onClick={[Function]}
         >
           Small
@@ -3082,7 +3289,7 @@ exports[`Select in RTL renders Select 1`] = `
             aria-expanded={false}
             className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-sm"
             data-headlessui-state=""
-            id="headlessui-combobox-input-:r4l:"
+            id="headlessui-combobox-input-:r4u:"
             onBlur={[Function]}
             onChange={[Function]}
             onCompositionEnd={[Function]}
@@ -3100,7 +3307,7 @@ exports[`Select in RTL renders Select 1`] = `
             className="text-moon-16 w-4 h-4 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
             data-headlessui-state=""
             disabled={false}
-            id="headlessui-combobox-button-:r4m:"
+            id="headlessui-combobox-button-:r4v:"
             onClick={[Function]}
             onKeyDown={[Function]}
             tabIndex={-1}
@@ -3136,7 +3343,7 @@ exports[`Select in RTL renders Select 1`] = `
         <label
           className="block text-bulma pb-2 text-moon-16"
           data-headlessui-state=""
-          id="headlessui-listbox-label-:r4n:"
+          id="headlessui-listbox-label-:r50:"
           onClick={[Function]}
         >
           Medium
@@ -3150,7 +3357,7 @@ exports[`Select in RTL renders Select 1`] = `
             aria-expanded={false}
             className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-base"
             data-headlessui-state=""
-            id="headlessui-combobox-input-:r4p:"
+            id="headlessui-combobox-input-:r52:"
             onBlur={[Function]}
             onChange={[Function]}
             onCompositionEnd={[Function]}
@@ -3168,7 +3375,7 @@ exports[`Select in RTL renders Select 1`] = `
             className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
             data-headlessui-state=""
             disabled={false}
-            id="headlessui-combobox-button-:r4q:"
+            id="headlessui-combobox-button-:r53:"
             onClick={[Function]}
             onKeyDown={[Function]}
             tabIndex={-1}
@@ -3204,7 +3411,7 @@ exports[`Select in RTL renders Select 1`] = `
         <label
           className="block text-bulma pb-2 text-moon-16"
           data-headlessui-state=""
-          id="headlessui-listbox-label-:r4r:"
+          id="headlessui-listbox-label-:r54:"
           onClick={[Function]}
         >
           Large
@@ -3218,7 +3425,7 @@ exports[`Select in RTL renders Select 1`] = `
             aria-expanded={false}
             className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-lg"
             data-headlessui-state=""
-            id="headlessui-combobox-input-:r4t:"
+            id="headlessui-combobox-input-:r56:"
             onBlur={[Function]}
             onChange={[Function]}
             onCompositionEnd={[Function]}
@@ -3236,7 +3443,7 @@ exports[`Select in RTL renders Select 1`] = `
             className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
             data-headlessui-state=""
             disabled={false}
-            id="headlessui-combobox-button-:r4u:"
+            id="headlessui-combobox-button-:r57:"
             onClick={[Function]}
             onKeyDown={[Function]}
             tabIndex={-1}
@@ -3284,7 +3491,7 @@ exports[`Select in RTL renders SelectStates 1`] = `
       <label
         className="block text-bulma pb-2 text-moon-16"
         data-headlessui-state=""
-        id="headlessui-listbox-label-:r4v:"
+        id="headlessui-listbox-label-:r58:"
         onClick={[Function]}
       >
         Error
@@ -3298,7 +3505,7 @@ exports[`Select in RTL renders SelectStates 1`] = `
           aria-expanded={false}
           className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-base"
           data-headlessui-state=""
-          id="headlessui-combobox-input-:r51:"
+          id="headlessui-combobox-input-:r5a:"
           isError={true}
           onBlur={[Function]}
           onChange={[Function]}
@@ -3317,7 +3524,7 @@ exports[`Select in RTL renders SelectStates 1`] = `
           className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
           data-headlessui-state=""
           disabled={false}
-          id="headlessui-combobox-button-:r52:"
+          id="headlessui-combobox-button-:r5b:"
           onClick={[Function]}
           onKeyDown={[Function]}
           tabIndex={-1}
@@ -3353,7 +3560,7 @@ exports[`Select in RTL renders SelectStates 1`] = `
       <label
         className="block text-bulma pb-2 text-moon-16 opacity-30 cursor-not-allowed"
         data-headlessui-state=""
-        id="headlessui-listbox-label-:r53:"
+        id="headlessui-listbox-label-:r5c:"
         onClick={[Function]}
       >
         Disabled
@@ -3367,7 +3574,7 @@ exports[`Select in RTL renders SelectStates 1`] = `
           className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err opacity-30 cursor-not-allowed flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-base"
           data-headlessui-state="disabled"
           disabled={true}
-          id="headlessui-combobox-input-:r55:"
+          id="headlessui-combobox-input-:r5e:"
           open={false}
           placeholder="Choose an option"
           role="combobox"
@@ -3378,7 +3585,7 @@ exports[`Select in RTL renders SelectStates 1`] = `
           className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center cursor-not-allowed"
           data-headlessui-state="disabled"
           disabled={true}
-          id="headlessui-combobox-button-:r56:"
+          id="headlessui-combobox-button-:r5f:"
           tabIndex={-1}
           type="button"
         >
@@ -3418,7 +3625,7 @@ exports[`Select in RTL renders SelectStates 1`] = `
           aria-expanded={false}
           className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-base"
           data-headlessui-state=""
-          id="headlessui-combobox-input-:r58:"
+          id="headlessui-combobox-input-:r5h:"
           onBlur={[Function]}
           onChange={[Function]}
           onCompositionEnd={[Function]}
@@ -3436,7 +3643,7 @@ exports[`Select in RTL renders SelectStates 1`] = `
           className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
           data-headlessui-state=""
           disabled={false}
-          id="headlessui-combobox-button-:r59:"
+          id="headlessui-combobox-button-:r5i:"
           onClick={[Function]}
           onKeyDown={[Function]}
           tabIndex={-1}
@@ -3466,7 +3673,7 @@ exports[`Select in RTL renders SelectStates 1`] = `
       <label
         className="block text-bulma pb-2 text-moon-16"
         data-headlessui-state=""
-        id="headlessui-listbox-label-:r5a:"
+        id="headlessui-listbox-label-:r5j:"
         onClick={[Function]}
       >
         List options width
@@ -3480,7 +3687,7 @@ exports[`Select in RTL renders SelectStates 1`] = `
           aria-expanded={false}
           className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-base"
           data-headlessui-state=""
-          id="headlessui-combobox-input-:r5c:"
+          id="headlessui-combobox-input-:r5l:"
           onBlur={[Function]}
           onChange={[Function]}
           onCompositionEnd={[Function]}
@@ -3498,7 +3705,7 @@ exports[`Select in RTL renders SelectStates 1`] = `
           className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
           data-headlessui-state=""
           disabled={false}
-          id="headlessui-combobox-button-:r5d:"
+          id="headlessui-combobox-button-:r5m:"
           onClick={[Function]}
           onKeyDown={[Function]}
           tabIndex={-1}
