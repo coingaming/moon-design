@@ -1,5 +1,17 @@
 # @heathmont/moon-themes-tw
 
+## 9.31.0
+
+### Minor Changes
+
+- fix deps
+
+## 9.30.3
+
+### Patch Changes
+
+- fix themes
+
 ## 9.30.2
 
 ### Patch Changes

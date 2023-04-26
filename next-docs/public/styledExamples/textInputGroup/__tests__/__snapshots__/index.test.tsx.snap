@@ -218,12 +218,12 @@ exports[`TextInputGroup renders and allows event listeners for the select fields
           className="css-1f43avz-a11yText-A11yText"
         />
         <div
-          className=" css-b5xmou-control"
+          className=" css-18kgzmi-control"
           onMouseDown={[Function]}
           onTouchEnd={[Function]}
         >
           <div
-            className=" css-px9mr7-ValueContainer"
+            className=" css-1f3h6sw-ValueContainer"
           >
             <div
               className="sc-hSGqtg fLCcvx"
@@ -232,7 +232,7 @@ exports[`TextInputGroup renders and allows event listeners for the select fields
               className="sc-fsquOa kXwwYh"
             >
               <div
-                className=" css-1rtvqhl-placeholder"
+                className=" css-wuj7bk-placeholder"
                 id="react-select-10-placeholder"
               >
                 <div
@@ -243,9 +243,11 @@ exports[`TextInputGroup renders and allows event listeners for the select fields
               </div>
               <input
                 aria-autocomplete="list"
+                aria-controls="react-select-10-listbox"
                 aria-describedby="react-select-10-placeholder"
                 aria-expanded={false}
                 aria-haspopup={true}
+                aria-owns="react-select-10-listbox"
                 aria-readonly={true}
                 className="css-mohuvp-dummyInput-DummyInput"
                 disabled={false}
@@ -306,12 +308,12 @@ exports[`TextInputGroup renders and allows event listeners for the select fields
           className="css-1f43avz-a11yText-A11yText"
         />
         <div
-          className=" css-x13ut4-control"
+          className=" css-91yr6k-control"
           onMouseDown={[Function]}
           onTouchEnd={[Function]}
         >
           <div
-            className=" css-px9mr7-ValueContainer"
+            className=" css-1f3h6sw-ValueContainer"
           >
             <div
               className="sc-hSGqtg fLCcvx"
@@ -320,7 +322,7 @@ exports[`TextInputGroup renders and allows event listeners for the select fields
               className="sc-fsquOa kXwwYh"
             >
               <div
-                className=" css-1rtvqhl-placeholder"
+                className=" css-wuj7bk-placeholder"
                 id="react-select-11-placeholder"
               >
                 <div
@@ -331,9 +333,11 @@ exports[`TextInputGroup renders and allows event listeners for the select fields
               </div>
               <input
                 aria-autocomplete="list"
+                aria-controls="react-select-11-listbox"
                 aria-describedby="react-select-11-placeholder"
                 aria-expanded={false}
                 aria-haspopup={true}
+                aria-owns="react-select-11-listbox"
                 aria-readonly={true}
                 className="css-mohuvp-dummyInput-DummyInput"
                 disabled={false}
@@ -463,12 +467,12 @@ exports[`TextInputGroup renders multi select 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-b5xmou-control"
+        className=" css-18kgzmi-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className=" css-13urifb-ValueContainer"
+          className=" css-112g2nh-ValueContainer"
         >
           <div
             className="sc-hSGqtg fLCcvx"
@@ -479,7 +483,7 @@ exports[`TextInputGroup renders multi select 1`] = `
             className="sc-dwOrSJ kYmEql"
           >
             <div
-              className=" css-elkbxv-placeholder"
+              className=" css-jexdti-placeholder"
               id="react-select-4-placeholder"
             >
               <div
@@ -490,9 +494,11 @@ exports[`TextInputGroup renders multi select 1`] = `
             </div>
             <input
               aria-autocomplete="list"
+              aria-controls="react-select-4-listbox"
               aria-describedby="react-select-4-placeholder"
               aria-expanded={false}
               aria-haspopup={true}
+              aria-owns="react-select-4-listbox"
               aria-readonly={true}
               className="css-mohuvp-dummyInput-DummyInput"
               disabled={false}
@@ -553,12 +559,12 @@ exports[`TextInputGroup renders multi select 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-x13ut4-control"
+        className=" css-91yr6k-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className=" css-13urifb-ValueContainer"
+          className=" css-112g2nh-ValueContainer"
         >
           <div
             className="sc-hSGqtg fLCcvx"
@@ -569,7 +575,7 @@ exports[`TextInputGroup renders multi select 1`] = `
             className="sc-dwOrSJ kYmEql"
           >
             <div
-              className=" css-elkbxv-placeholder"
+              className=" css-jexdti-placeholder"
               id="react-select-5-placeholder"
             >
               <div
@@ -580,9 +586,11 @@ exports[`TextInputGroup renders multi select 1`] = `
             </div>
             <input
               aria-autocomplete="list"
+              aria-controls="react-select-5-listbox"
               aria-describedby="react-select-5-placeholder"
               aria-expanded={false}
               aria-haspopup={true}
+              aria-owns="react-select-5-listbox"
               aria-readonly={true}
               className="css-mohuvp-dummyInput-DummyInput"
               disabled={false}
@@ -652,12 +660,12 @@ exports[`TextInputGroup renders single select 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-b5xmou-control"
+        className=" css-18kgzmi-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className=" css-px9mr7-ValueContainer"
+          className=" css-1f3h6sw-ValueContainer"
         >
           <div
             className="sc-hSGqtg fLCcvx"
@@ -666,7 +674,7 @@ exports[`TextInputGroup renders single select 1`] = `
             className="sc-fsquOa kXwwYh"
           >
             <div
-              className=" css-1rtvqhl-placeholder"
+              className=" css-wuj7bk-placeholder"
               id="react-select-2-placeholder"
             >
               <div
@@ -677,9 +685,11 @@ exports[`TextInputGroup renders single select 1`] = `
             </div>
             <input
               aria-autocomplete="list"
+              aria-controls="react-select-2-listbox"
               aria-describedby="react-select-2-placeholder"
               aria-expanded={false}
               aria-haspopup={true}
+              aria-owns="react-select-2-listbox"
               aria-readonly={true}
               className="css-mohuvp-dummyInput-DummyInput"
               disabled={false}
@@ -740,12 +750,12 @@ exports[`TextInputGroup renders single select 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-x13ut4-control"
+        className=" css-91yr6k-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className=" css-px9mr7-ValueContainer"
+          className=" css-1f3h6sw-ValueContainer"
         >
           <div
             className="sc-hSGqtg fLCcvx"
@@ -754,7 +764,7 @@ exports[`TextInputGroup renders single select 1`] = `
             className="sc-fsquOa kXwwYh"
           >
             <div
-              className=" css-1rtvqhl-placeholder"
+              className=" css-wuj7bk-placeholder"
               id="react-select-3-placeholder"
             >
               <div
@@ -765,9 +775,11 @@ exports[`TextInputGroup renders single select 1`] = `
             </div>
             <input
               aria-autocomplete="list"
+              aria-controls="react-select-3-listbox"
               aria-describedby="react-select-3-placeholder"
               aria-expanded={false}
               aria-haspopup={true}
+              aria-owns="react-select-3-listbox"
               aria-readonly={true}
               className="css-mohuvp-dummyInput-DummyInput"
               disabled={false}
@@ -837,12 +849,12 @@ exports[`TextInputGroup renders single select RTL 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-x13ut4-control"
+        className=" css-91yr6k-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className=" css-px9mr7-ValueContainer"
+          className=" css-1f3h6sw-ValueContainer"
         >
           <div
             className="sc-hSGqtg fLCcvx"
@@ -851,7 +863,7 @@ exports[`TextInputGroup renders single select RTL 1`] = `
             className="sc-fsquOa kXwwYh"
           >
             <div
-              className=" css-1rtvqhl-placeholder"
+              className=" css-wuj7bk-placeholder"
               id="react-select-8-placeholder"
             >
               <div
@@ -862,9 +874,11 @@ exports[`TextInputGroup renders single select RTL 1`] = `
             </div>
             <input
               aria-autocomplete="list"
+              aria-controls="react-select-8-listbox"
               aria-describedby="react-select-8-placeholder"
               aria-expanded={false}
               aria-haspopup={true}
+              aria-owns="react-select-8-listbox"
               aria-readonly={true}
               className="css-mohuvp-dummyInput-DummyInput"
               disabled={false}
@@ -925,12 +939,12 @@ exports[`TextInputGroup renders single select RTL 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-b5xmou-control"
+        className=" css-18kgzmi-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className=" css-px9mr7-ValueContainer"
+          className=" css-1f3h6sw-ValueContainer"
         >
           <div
             className="sc-hSGqtg fLCcvx"
@@ -941,7 +955,7 @@ exports[`TextInputGroup renders single select RTL 1`] = `
             className="sc-fsquOa kXwwYh"
           >
             <div
-              className=" css-1rtvqhl-placeholder"
+              className=" css-wuj7bk-placeholder"
               id="react-select-9-placeholder"
             >
               <div
@@ -952,9 +966,11 @@ exports[`TextInputGroup renders single select RTL 1`] = `
             </div>
             <input
               aria-autocomplete="list"
+              aria-controls="react-select-9-listbox"
               aria-describedby="react-select-9-placeholder"
               aria-expanded={false}
               aria-haspopup={true}
+              aria-owns="react-select-9-listbox"
               aria-readonly={true}
               className="css-mohuvp-dummyInput-DummyInput"
               disabled={false}
@@ -1024,12 +1040,12 @@ exports[`TextInputGroup renders single select vertical 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-1rambzq-control"
+        className=" css-1lbmnj-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className=" css-px9mr7-ValueContainer"
+          className=" css-1f3h6sw-ValueContainer"
         >
           <div
             className="sc-hSGqtg fLCcvx"
@@ -1040,7 +1056,7 @@ exports[`TextInputGroup renders single select vertical 1`] = `
             className="sc-fsquOa kXwwYh"
           >
             <div
-              className=" css-1rtvqhl-placeholder"
+              className=" css-wuj7bk-placeholder"
               id="react-select-6-placeholder"
             >
               <div
@@ -1051,9 +1067,11 @@ exports[`TextInputGroup renders single select vertical 1`] = `
             </div>
             <input
               aria-autocomplete="list"
+              aria-controls="react-select-6-listbox"
               aria-describedby="react-select-6-placeholder"
               aria-expanded={false}
               aria-haspopup={true}
+              aria-owns="react-select-6-listbox"
               aria-readonly={true}
               className="css-mohuvp-dummyInput-DummyInput"
               disabled={false}
@@ -1114,12 +1132,12 @@ exports[`TextInputGroup renders single select vertical 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-xt06d1-control"
+        className=" css-ouirde-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className=" css-px9mr7-ValueContainer"
+          className=" css-1f3h6sw-ValueContainer"
         >
           <div
             className="sc-hSGqtg fLCcvx"
@@ -1130,7 +1148,7 @@ exports[`TextInputGroup renders single select vertical 1`] = `
             className="sc-fsquOa kXwwYh"
           >
             <div
-              className=" css-1rtvqhl-placeholder"
+              className=" css-wuj7bk-placeholder"
               id="react-select-7-placeholder"
             >
               <div
@@ -1141,9 +1159,11 @@ exports[`TextInputGroup renders single select vertical 1`] = `
             </div>
             <input
               aria-autocomplete="list"
+              aria-controls="react-select-7-listbox"
               aria-describedby="react-select-7-placeholder"
               aria-expanded={false}
               aria-haspopup={true}
+              aria-owns="react-select-7-listbox"
               aria-readonly={true}
               className="css-mohuvp-dummyInput-DummyInput"
               disabled={false}
