@@ -34,11 +34,15 @@ const AccordionMultiple = ({
   children,
   className,
   defaultValue = '',
+  value,
+  onValueChange,
 }: AccordionRootProps) => (
   <RadixAccordion.Root
     type="multiple"
     className={className}
     defaultValue={[defaultValue]}
+    value={value}
+    onValueChange={onValueChange}
   >
     {children}
   </RadixAccordion.Root>
@@ -50,6 +54,8 @@ const AccordionRoot = ({
   className,
   singleOpen = false,
   defaultValue,
+  value,
+  onValueChange,
 }: AccordionProps) => {
   const RadixAccordionRoot = singleOpen ? AccordionSingle : AccordionMultiple;
 
@@ -57,6 +63,8 @@ const AccordionRoot = ({
     <RadixAccordionRoot
       className={mergeClassnames('flex w-full gap-2 flex-col', className)}
       defaultValue={defaultValue}
+      value={value}
+      onValueChange={onValueChange}
     >
       <AccordionContext.Provider value={{ itemSize }}>
         {children}
@@ -75,7 +83,7 @@ const Item: React.FC<ItemProps> = ({
   const contentElement = useRef<HTMLDivElement>(null);
   return (
     <RadixAccordion.Item
-      value={value}
+      value={value || ''}
       className={mergeClassnames('w-full', className)}
       key={value}
       disabled={disabled}
