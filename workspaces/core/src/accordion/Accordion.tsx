@@ -83,7 +83,7 @@ const Item: React.FC<ItemProps> = ({
   const contentElement = useRef<HTMLDivElement>(null);
   return (
     <RadixAccordion.Item
-      value={value || ''}
+      value={value}
       className={mergeClassnames('w-full', className)}
       key={value}
       disabled={disabled}
