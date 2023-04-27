@@ -31,11 +31,6 @@ const Example = () => {
         </p>
       </ComponentPageDescription>
       <Preview
-        title="Partially selected"
-        preview={<PartiallySelected />}
-        code={examples ? examples.PartiallySelected : 'Loading'}
-      />
-      <Preview
         title="Default"
         preview={<Default />}
         code={examples ? examples.Default : 'Loading'}
@@ -59,6 +54,11 @@ const Example = () => {
         title="ReadOnly"
         preview={<ReadOnly />}
         code={examples ? examples.ReadOnly : 'Loading'}
+      />
+      <Preview
+        title="Partially selected"
+        preview={<PartiallySelected />}
+        code={examples ? examples.PartiallySelected : 'Loading'}
       />
       <Preview
         title="Customization"
@@ -132,11 +132,11 @@ const Example = () => {
             description: "Value of checkbox can't be changed",
           },
           {
-            name: 'isIndeterminate',
+            name: 'indeterminate',
             type: 'boolean',
             required: false,
             default: '-',
-            description: `Set checkbox as indeterminate. This only affects the icon shown inside checkbox and does not modify the checked property`,
+            description: `Set checkbox as indeterminate and does not modify the checked state`,
           },
         ]}
       />
