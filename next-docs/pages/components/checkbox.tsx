@@ -7,6 +7,7 @@ import Checked from '../../public/examples/checkbox/Checked';
 import Customize from '../../public/examples/checkbox/Customize';
 import Default from '../../public/examples/checkbox/Default';
 import Disabled from '../../public/examples/checkbox/Disabled';
+import PartiallySelected from '../../public/examples/checkbox/PartiallySelected';
 import ReadOnly from '../../public/examples/checkbox/ReadOnly';
 import WithLabel from '../../public/examples/checkbox/WithLabel';
 import useExamples from '../../utils/useExamples';
@@ -29,6 +30,11 @@ const Example = () => {
           limited number of choices.
         </p>
       </ComponentPageDescription>
+      <Preview
+        title="Partially selected"
+        preview={<PartiallySelected />}
+        code={examples ? examples.PartiallySelected : 'Loading'}
+      />
       <Preview
         title="Default"
         preview={<Default />}
@@ -124,6 +130,13 @@ const Example = () => {
             required: false,
             default: 'false',
             description: "Value of checkbox can't be changed",
+          },
+          {
+            name: 'isIndeterminate',
+            type: 'boolean',
+            required: false,
+            default: '-',
+            description: `Set checkbox as indeterminate. This only affects the icon shown inside checkbox and does not modify the checked property`,
           },
         ]}
       />
