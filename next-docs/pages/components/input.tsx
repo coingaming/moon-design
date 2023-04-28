@@ -5,10 +5,12 @@ import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import Bg from '../../public/examples/input/Bg';
 import Default from '../../public/examples/input/Default';
+import Editable from '../../public/examples/input/Editable';
 import Sizes from '../../public/examples/input/Sizes';
 import States from '../../public/examples/input/States';
 import Types from '../../public/examples/input/Types';
 import useExamples from '../../utils/useExamples';
+
 
 const Example = () => {
   const examples = useExamples('input');
@@ -22,6 +24,12 @@ const Example = () => {
           with other inputs such as number entry, date picker, etc.
         </p>
       </ComponentPageDescription>
+      <Preview
+        title="Editable"
+        preview={<Editable />}
+        code={examples ? examples.Editable : 'Loading'}
+      />
+
       <Preview
         title="Default"
         preview={<Default />}
