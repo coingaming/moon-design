@@ -64,7 +64,7 @@ const Example = () => {
             >
             <Combobox.Options>
                 {filteredPeople0.length === 0 && query0 !== '' ? (
-                  <div className='relative cursor-default select-none py-2 px-4 text-gray-700'>
+                  <div className='relative cursor-default select-none py-2 px-4 text-trunks'>
                     Nothing found.
                   </div>
                 ) : (
@@ -107,7 +107,7 @@ const Example = () => {
             >
               <Combobox.Options>
                 {filteredPeople1.length === 0 && query1 !== '' ? (
-                  <div className='relative cursor-default select-none py-2 px-4 text-gray-700'>
+                  <div className='relative cursor-default select-none py-2 px-4 text-trunks'>
                     Nothing found.
                   </div>
                 ) : (
@@ -149,7 +149,7 @@ const Example = () => {
             >
               <Combobox.Options>
                 {filteredPeople2.length === 0 && query2 !== '' ? (
-                  <div className='relative cursor-default select-none py-2 px-4 text-gray-700'>
+                  <div className='relative cursor-default select-none py-2 px-4 text-trunks'>
                     Nothing found.
                   </div>
                 ) : (
@@ -186,7 +186,7 @@ const Example = () => {
             >
               <Combobox.Options menuWidth='w-40' className='z-5 rounded-moon-s-md box-border bg-gohan shadow-moon-lg py-2 px-1 my-2'>
                 {filteredPeople3.length === 0 && query3 !== '' ? (
-                  <div className='relative cursor-default select-none py-2 px-4 text-gray-700'>
+                  <div className='relative cursor-default select-none py-2 px-4 text-trunks'>
                     Nothing found.
                   </div>
                 ) : (

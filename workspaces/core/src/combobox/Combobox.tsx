@@ -8,6 +8,7 @@ import ComboboxRootProps from './private/types/ComboboxRootProps';
 import InputProps from './private/types/InputProps';
 import SelectProps from './private/types/SelectProps';
 import WithChildren from './private/types/WithChildren';
+import { getSizeStyles, getTextSizes } from './private/utils/getSizeStyles';
 import { useComboboxContext, ComboboxContext } from './private/utils/useComboboxContext';
 import type OptionProps from './private/types/OptionProps';
 import type OptionsProps from './private/types/OptionsProps';
@@ -104,10 +105,7 @@ const Trigger = ({
       className={mergeClassnames(
         'relative',
         'flex flex-nowrap w-full align-middle items-center rounded-lg py-2 px-3 bg-gohan gap-x-2',
-        size === 'sm' && 'py-1.5 px-2 rounded',
-        (size === 'sm' || (innerLabel !== undefined && innerLabel)) && 'py-2 px-3 rounded-md gap-x-3',
-        size === 'lg' && 'py-3 px-3',
-        (size === 'xl' || (innerLabel !== undefined && innerLabel)) && 'py-3 px-4 rounded-xl gap-x-4',
+        getSizeStyles(size as string, innerLabel as boolean),
         input?.isFocused ? 'shadow-input-focus hover:shadow-input-focus' : 'shadow-input hover:shadow-input-hov',
         'focus:shadow-input-focus focus:outline-none',
         'focus-visible::shadow-input-focus focus-visible::outline-none',
@@ -146,7 +144,7 @@ const Input = ({
       className={mergeClassnames(
         'flex-grow h-full border-0 !rounded-none bg-transparent px-0',
         '!shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none',
-        size === undefined || size === 'md' ? 'text-base' : `text-${size}`,
+        getTextSizes(size),
         className
       )}
       disabled={disabled}
@@ -192,8 +190,8 @@ const InsetInput = ({
             && (placeholder === undefined || placeholder.length === 0)
             && 'input-xl',
           (label !== undefined && label.length > 0)
-            && 'pt-[.75rem] input-xl-dt-label',
-          size === undefined || size === 'md' ? 'text-base' : `text-${size}`,
+            && 'pt-3 input-xl-dt-label',
+          getTextSizes(size),
           className
         )}
         isError={isError}
@@ -201,7 +199,7 @@ const InsetInput = ({
         onBlur={() => input?.setIsFocused(false)}
         {...rest}
       />
-      <InputInset.Label className='w-auto top-[-.125rem] !right-0 !left-0 whitespace-nowrap overflow-x-hidden'>{label}</InputInset.Label>
+      <InputInset.Label className='w-auto -top-0.5 !right-0 !left-0 whitespace-nowrap overflow-x-hidden'>{label}</InputInset.Label>
     </span>
   );
 };
@@ -221,7 +219,7 @@ const Button = ({
           'w-6 h-6',
           size === 'sm' ? 'text-moon-16' : 'text-moon-24',
           size === 'sm' && 'w-4 h-4',
-          open && 'rotate-[-180deg]',
+          open && '-rotate-180',
           'text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center',
           disabled && 'cursor-not-allowed',
           className
@@ -392,7 +390,7 @@ const MultiSelect = ({
         as={Trigger}
         ref={popper?.setAnchor}
         className={className}
-        multiple={multiple !== undefined}
+        multiple={multiple}
         counter={counter}
         {...rest}
       >
@@ -479,7 +477,7 @@ const InsetMultiSelect = ({
         as={Trigger}
         ref={popper?.setAnchor}
         className={className}
-        multiple={multiple !== undefined}
+        multiple={multiple}
         counter={counter}
         innerLabel={true}
         {...rest}

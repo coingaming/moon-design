@@ -64,7 +64,7 @@ const Example = () => {
             >
               <Combobox.Options>
                 {filteredPeople0.length === 0 && query0 !== '' ? (
-                    <div className='relative cursor-default select-none py-2 px-4 text-gray-700'>
+                    <div className='relative cursor-default select-none py-2 px-4 text-trunks'>
                       Nothing found.
                     </div>
                   ) : (filteredPeople0.map((person, index) => (
@@ -110,7 +110,7 @@ const Example = () => {
             >
               <Combobox.Options>
                 {filteredPeople1.length === 0 && query1 !== '' ? (
-                  <div className='relative cursor-default select-none py-2 px-4 text-gray-700'>
+                  <div className='relative cursor-default select-none py-2 px-4 text-trunks'>
                     Nothing found.
                   </div>
                   ) : (filteredPeople1.map((person, index) => (
@@ -157,7 +157,7 @@ const Example = () => {
             >
               <Combobox.Options>
                 {filteredPeople2.length === 0 && query2 !== '' ? (
-                  <div className='relative cursor-default select-none py-2 px-4 text-gray-700'>
+                  <div className='relative cursor-default select-none py-2 px-4 text-trunks'>
                     Nothing found.
                   </div>
                   ) : (filteredPeople2.map((person, index) => (

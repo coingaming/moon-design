@@ -52,7 +52,7 @@ const Example = () => {
             >
               <Combobox.Options>
                 {filteredPeople.length === 0 && query !== '' ? (
-                  <div className='relative cursor-default select-none py-2 px-4 text-gray-700'>
+                  <div className='relative cursor-default select-none py-2 px-4 text-trunks'>
                     Nothing found.
                   </div>
                 ) : (

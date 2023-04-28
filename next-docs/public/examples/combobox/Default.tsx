@@ -60,9 +60,9 @@ const Example = () => {
             <Combobox.Transition
               onQueryChange={setQuery0}
             >
-              <Combobox.Options className={'min-w-[18.75rem] z-10000'}>
+              <Combobox.Options className={'min-w-[18.75rem] z-50'}>
                 { filteredPeople0.length === 0 && query0 !== '' ? (
-                  <div className='relative cursor-default select-none py-2 px-4 text-gray-700'>
+                  <div className='relative cursor-default select-none py-2 px-4 text-trunks'>
                     Nothing found.
                   </div>
                 ) : (
@@ -105,9 +105,9 @@ const Example = () => {
             <Combobox.Transition
               onQueryChange={setQuery1}
             >
-              <Combobox.Options className={'min-w-[18.75rem] z-10000'}>
+              <Combobox.Options className={'min-w-[18.75rem] z-50'}>
                 { filteredPeople1.length === 0 && query1 !== '' ? (
-                  <div className='relative cursor-default select-none py-2 px-4 text-gray-700'>
+                  <div className='relative cursor-default select-none py-2 px-4 text-trunks'>
                     Nothing found.
                   </div>
                 ) : (
