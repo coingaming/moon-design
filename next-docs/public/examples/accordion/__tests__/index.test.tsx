@@ -13,6 +13,7 @@ import OpenDefault from '../OpenDefault';
 import Disabled from '../Disabled';
 import Divider from '../Divider';
 import Single from '../Single';
+import ControlOutside from '../ControlOutside';
 
 const withRtl = (component: JSX.Element) => <div dir="rtl">{component}</div>;
 
@@ -58,6 +59,10 @@ describe('Accordion', () => {
     const tree = render(<Background />);
     expect(tree).toMatchSnapshot();
   });
+  it('renders toggle all outside', () => {
+    const tree = render(<ControlOutside />);
+    expect(tree).toMatchSnapshot();
+  });
 });
 
 describe('Accordion in RTL', () => {
@@ -100,6 +105,10 @@ describe('Accordion in RTL', () => {
   });
   it('renders Background', () => {
     const tree = render(withRtl(<Background />));
+    expect(tree).toMatchSnapshot();
+  });
+  it('renders toggle all outside', () => {
+    const tree = render(withRtl(<ControlOutside />));
     expect(tree).toMatchSnapshot();
   });
 });

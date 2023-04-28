@@ -7,6 +7,7 @@ import Checked from '../../public/examples/checkbox/Checked';
 import Customize from '../../public/examples/checkbox/Customize';
 import Default from '../../public/examples/checkbox/Default';
 import Disabled from '../../public/examples/checkbox/Disabled';
+import PartiallySelected from '../../public/examples/checkbox/PartiallySelected';
 import ReadOnly from '../../public/examples/checkbox/ReadOnly';
 import WithLabel from '../../public/examples/checkbox/WithLabel';
 import useExamples from '../../utils/useExamples';
@@ -53,6 +54,11 @@ const Example = () => {
         title="ReadOnly"
         preview={<ReadOnly />}
         code={examples ? examples.ReadOnly : 'Loading'}
+      />
+      <Preview
+        title="Partially selected"
+        preview={<PartiallySelected />}
+        code={examples ? examples.PartiallySelected : 'Loading'}
       />
       <Preview
         title="Customization"
@@ -124,6 +130,13 @@ const Example = () => {
             required: false,
             default: 'false',
             description: "Value of checkbox can't be changed",
+          },
+          {
+            name: 'indeterminate',
+            type: 'boolean',
+            required: false,
+            default: '-',
+            description: `Set checkbox as indeterminate and does not modify the checked state`,
           },
         ]}
       />

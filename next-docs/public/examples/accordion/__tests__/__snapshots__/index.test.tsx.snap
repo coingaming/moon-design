@@ -23,13 +23,13 @@ Object {
               data-state="closed"
             >
               <button
-                aria-controls="radix-:r29:"
+                aria-controls="radix-:r2d:"
                 aria-expanded="false"
                 class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
                 data-orientation="vertical"
                 data-radix-collection-item=""
                 data-state="closed"
-                id="radix-:r28:"
+                id="radix-:r2c:"
                 type="button"
               >
                 <span>
@@ -53,12 +53,12 @@ Object {
               </button>
             </h3>
             <div
-              aria-labelledby="radix-:r28:"
+              aria-labelledby="radix-:r2c:"
               class="moon-open:flex rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma bg-beerus"
               data-orientation="vertical"
               data-state="closed"
               hidden=""
-              id="radix-:r29:"
+              id="radix-:r2d:"
               role="region"
               style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
             />
@@ -74,13 +74,13 @@ Object {
               data-state="closed"
             >
               <button
-                aria-controls="radix-:r2b:"
+                aria-controls="radix-:r2f:"
                 aria-expanded="false"
                 class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
                 data-orientation="vertical"
                 data-radix-collection-item=""
                 data-state="closed"
-                id="radix-:r2a:"
+                id="radix-:r2e:"
                 type="button"
               >
                 <span>
@@ -104,12 +104,12 @@ Object {
               </button>
             </h3>
             <div
-              aria-labelledby="radix-:r2a:"
+              aria-labelledby="radix-:r2e:"
               class="mt-2 moon-open:flex w-full text-bulma text-moon-14"
               data-orientation="vertical"
               data-state="closed"
               hidden=""
-              id="radix-:r2b:"
+              id="radix-:r2f:"
               role="region"
               style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
             />
@@ -137,13 +137,13 @@ Object {
             data-state="closed"
           >
             <button
-              aria-controls="radix-:r29:"
+              aria-controls="radix-:r2d:"
               aria-expanded="false"
               class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
-              id="radix-:r28:"
+              id="radix-:r2c:"
               type="button"
             >
               <span>
@@ -167,12 +167,12 @@ Object {
             </button>
           </h3>
           <div
-            aria-labelledby="radix-:r28:"
+            aria-labelledby="radix-:r2c:"
             class="moon-open:flex rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma bg-beerus"
             data-orientation="vertical"
             data-state="closed"
             hidden=""
-            id="radix-:r29:"
+            id="radix-:r2d:"
             role="region"
             style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
           />
@@ -188,13 +188,13 @@ Object {
             data-state="closed"
           >
             <button
-              aria-controls="radix-:r2b:"
+              aria-controls="radix-:r2f:"
               aria-expanded="false"
               class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
-              id="radix-:r2a:"
+              id="radix-:r2e:"
               type="button"
             >
               <span>
@@ -218,12 +218,12 @@ Object {
             </button>
           </h3>
           <div
-            aria-labelledby="radix-:r2a:"
+            aria-labelledby="radix-:r2e:"
             class="mt-2 moon-open:flex w-full text-bulma text-moon-14"
             data-orientation="vertical"
             data-state="closed"
             hidden=""
-            id="radix-:r2b:"
+            id="radix-:r2f:"
             role="region"
             style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
           />
@@ -308,13 +308,13 @@ Object {
               data-state="closed"
             >
               <button
-                aria-controls="radix-:r1n:"
+                aria-controls="radix-:r1r:"
                 aria-expanded="false"
                 class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30 moon-open:[&_span_svg]:rotate-180"
                 data-orientation="vertical"
                 data-radix-collection-item=""
                 data-state="closed"
-                id="radix-:r1m:"
+                id="radix-:r1q:"
                 type="button"
               >
                 <span
@@ -403,12 +403,12 @@ Object {
               </button>
             </h3>
             <div
-              aria-labelledby="radix-:r1m:"
+              aria-labelledby="radix-:r1q:"
               class="mt-2 moon-open:flex w-full text-bulma text-moon-14"
               data-orientation="vertical"
               data-state="closed"
               hidden=""
-              id="radix-:r1n:"
+              id="radix-:r1r:"
               role="region"
               style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
             />
@@ -436,13 +436,13 @@ Object {
             data-state="closed"
           >
             <button
-              aria-controls="radix-:r1n:"
+              aria-controls="radix-:r1r:"
               aria-expanded="false"
               class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30 moon-open:[&_span_svg]:rotate-180"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
-              id="radix-:r1m:"
+              id="radix-:r1q:"
               type="button"
             >
               <span
@@ -531,12 +531,12 @@ Object {
             </button>
           </h3>
           <div
-            aria-labelledby="radix-:r1m:"
+            aria-labelledby="radix-:r1q:"
             class="mt-2 moon-open:flex w-full text-bulma text-moon-14"
             data-orientation="vertical"
             data-state="closed"
             hidden=""
-            id="radix-:r1n:"
+            id="radix-:r1r:"
             role="region"
             style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
           />
@@ -621,13 +621,13 @@ Object {
               data-state="closed"
             >
               <button
-                aria-controls="radix-:r1l:"
+                aria-controls="radix-:r1p:"
                 aria-expanded="false"
                 class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
                 data-orientation="vertical"
                 data-radix-collection-item=""
                 data-state="closed"
-                id="radix-:r1k:"
+                id="radix-:r1o:"
                 type="button"
               >
                 <span>
@@ -651,12 +651,12 @@ Object {
               </button>
             </h3>
             <div
-              aria-labelledby="radix-:r1k:"
+              aria-labelledby="radix-:r1o:"
               class="mt-2 moon-open:flex w-full text-bulma text-moon-14"
               data-orientation="vertical"
               data-state="closed"
               hidden=""
-              id="radix-:r1l:"
+              id="radix-:r1p:"
               role="region"
               style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
             />
@@ -684,13 +684,13 @@ Object {
             data-state="closed"
           >
             <button
-              aria-controls="radix-:r1l:"
+              aria-controls="radix-:r1p:"
               aria-expanded="false"
               class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
-              id="radix-:r1k:"
+              id="radix-:r1o:"
               type="button"
             >
               <span>
@@ -714,12 +714,12 @@ Object {
             </button>
           </h3>
           <div
-            aria-labelledby="radix-:r1k:"
+            aria-labelledby="radix-:r1o:"
             class="mt-2 moon-open:flex w-full text-bulma text-moon-14"
             data-orientation="vertical"
             data-state="closed"
             hidden=""
-            id="radix-:r1l:"
+            id="radix-:r1p:"
             role="region"
             style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
           />
@@ -804,13 +804,13 @@ Object {
               data-state="closed"
             >
               <button
-                aria-controls="radix-:r21:"
+                aria-controls="radix-:r25:"
                 aria-expanded="false"
                 class="p-4 text-moon-16 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
                 data-orientation="vertical"
                 data-radix-collection-item=""
                 data-state="closed"
-                id="radix-:r20:"
+                id="radix-:r24:"
                 type="button"
               >
                 <span>
@@ -834,120 +834,8 @@ Object {
               </button>
             </h3>
             <div
-              aria-labelledby="radix-:r20:"
-              class="mt-4 moon-open:flex w-full text-bulma text-moon-14"
-              data-orientation="vertical"
-              data-state="closed"
-              hidden=""
-              id="radix-:r21:"
-              role="region"
-              style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
-            />
-          </div>
-        </div>
-        <div
-          class="flex w-full gap-2 flex-col"
-          data-orientation="vertical"
-        >
-          <div
-            class="w-full"
-            data-orientation="vertical"
-            data-state="closed"
-          >
-            <h3
-              class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
-              data-orientation="vertical"
-              data-state="closed"
-            >
-              <button
-                aria-controls="radix-:r23:"
-                aria-expanded="false"
-                class="p-3 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
-                data-orientation="vertical"
-                data-radix-collection-item=""
-                data-state="closed"
-                id="radix-:r22:"
-                type="button"
-              >
-                <span>
-                  Large (lg)
-                </span>
-                <svg
-                  class="text-trunks text-moon-16 transition-transform duration-200"
-                  fill="none"
-                  height="1em"
-                  viewBox="0 0 32 32"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M25 11.5L16 20.5L7 11.5"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </button>
-            </h3>
-            <div
-              aria-labelledby="radix-:r22:"
-              class="mt-3 moon-open:flex w-full text-bulma text-moon-14"
-              data-orientation="vertical"
-              data-state="closed"
-              hidden=""
-              id="radix-:r23:"
-              role="region"
-              style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
-            />
-          </div>
-        </div>
-        <div
-          class="flex w-full gap-2 flex-col"
-          data-orientation="vertical"
-        >
-          <div
-            class="w-full"
-            data-orientation="vertical"
-            data-state="closed"
-          >
-            <h3
-              class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
-              data-orientation="vertical"
-              data-state="closed"
-            >
-              <button
-                aria-controls="radix-:r25:"
-                aria-expanded="false"
-                class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
-                data-orientation="vertical"
-                data-radix-collection-item=""
-                data-state="closed"
-                id="radix-:r24:"
-                type="button"
-              >
-                <span>
-                  Medium is default (md)
-                </span>
-                <svg
-                  class="text-trunks text-moon-16 transition-transform duration-200"
-                  fill="none"
-                  height="1em"
-                  viewBox="0 0 32 32"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M25 11.5L16 20.5L7 11.5"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </button>
-            </h3>
-            <div
               aria-labelledby="radix-:r24:"
-              class="mt-2 moon-open:flex w-full text-bulma text-moon-14"
+              class="mt-4 moon-open:flex w-full text-bulma text-moon-14"
               data-orientation="vertical"
               data-state="closed"
               hidden=""
@@ -974,11 +862,123 @@ Object {
               <button
                 aria-controls="radix-:r27:"
                 aria-expanded="false"
-                class="py-1 ps-3 pe-1 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+                class="p-3 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
                 data-orientation="vertical"
                 data-radix-collection-item=""
                 data-state="closed"
                 id="radix-:r26:"
+                type="button"
+              >
+                <span>
+                  Large (lg)
+                </span>
+                <svg
+                  class="text-trunks text-moon-16 transition-transform duration-200"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M25 11.5L16 20.5L7 11.5"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </h3>
+            <div
+              aria-labelledby="radix-:r26:"
+              class="mt-3 moon-open:flex w-full text-bulma text-moon-14"
+              data-orientation="vertical"
+              data-state="closed"
+              hidden=""
+              id="radix-:r27:"
+              role="region"
+              style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+            />
+          </div>
+        </div>
+        <div
+          class="flex w-full gap-2 flex-col"
+          data-orientation="vertical"
+        >
+          <div
+            class="w-full"
+            data-orientation="vertical"
+            data-state="closed"
+          >
+            <h3
+              class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+              data-orientation="vertical"
+              data-state="closed"
+            >
+              <button
+                aria-controls="radix-:r29:"
+                aria-expanded="false"
+                class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+                data-orientation="vertical"
+                data-radix-collection-item=""
+                data-state="closed"
+                id="radix-:r28:"
+                type="button"
+              >
+                <span>
+                  Medium is default (md)
+                </span>
+                <svg
+                  class="text-trunks text-moon-16 transition-transform duration-200"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M25 11.5L16 20.5L7 11.5"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </h3>
+            <div
+              aria-labelledby="radix-:r28:"
+              class="mt-2 moon-open:flex w-full text-bulma text-moon-14"
+              data-orientation="vertical"
+              data-state="closed"
+              hidden=""
+              id="radix-:r29:"
+              role="region"
+              style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+            />
+          </div>
+        </div>
+        <div
+          class="flex w-full gap-2 flex-col"
+          data-orientation="vertical"
+        >
+          <div
+            class="w-full"
+            data-orientation="vertical"
+            data-state="closed"
+          >
+            <h3
+              class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+              data-orientation="vertical"
+              data-state="closed"
+            >
+              <button
+                aria-controls="radix-:r2b:"
+                aria-expanded="false"
+                class="py-1 ps-3 pe-1 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+                data-orientation="vertical"
+                data-radix-collection-item=""
+                data-state="closed"
+                id="radix-:r2a:"
                 type="button"
               >
                 <span>
@@ -1002,12 +1002,12 @@ Object {
               </button>
             </h3>
             <div
-              aria-labelledby="radix-:r26:"
+              aria-labelledby="radix-:r2a:"
               class="mt-2 moon-open:flex w-full text-bulma text-moon-14"
               data-orientation="vertical"
               data-state="closed"
               hidden=""
-              id="radix-:r27:"
+              id="radix-:r2b:"
               role="region"
               style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
             />
@@ -1035,13 +1035,13 @@ Object {
             data-state="closed"
           >
             <button
-              aria-controls="radix-:r21:"
+              aria-controls="radix-:r25:"
               aria-expanded="false"
               class="p-4 text-moon-16 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
-              id="radix-:r20:"
+              id="radix-:r24:"
               type="button"
             >
               <span>
@@ -1065,120 +1065,8 @@ Object {
             </button>
           </h3>
           <div
-            aria-labelledby="radix-:r20:"
-            class="mt-4 moon-open:flex w-full text-bulma text-moon-14"
-            data-orientation="vertical"
-            data-state="closed"
-            hidden=""
-            id="radix-:r21:"
-            role="region"
-            style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
-          />
-        </div>
-      </div>
-      <div
-        class="flex w-full gap-2 flex-col"
-        data-orientation="vertical"
-      >
-        <div
-          class="w-full"
-          data-orientation="vertical"
-          data-state="closed"
-        >
-          <h3
-            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
-            data-orientation="vertical"
-            data-state="closed"
-          >
-            <button
-              aria-controls="radix-:r23:"
-              aria-expanded="false"
-              class="p-3 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
-              data-orientation="vertical"
-              data-radix-collection-item=""
-              data-state="closed"
-              id="radix-:r22:"
-              type="button"
-            >
-              <span>
-                Large (lg)
-              </span>
-              <svg
-                class="text-trunks text-moon-16 transition-transform duration-200"
-                fill="none"
-                height="1em"
-                viewBox="0 0 32 32"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M25 11.5L16 20.5L7 11.5"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </button>
-          </h3>
-          <div
-            aria-labelledby="radix-:r22:"
-            class="mt-3 moon-open:flex w-full text-bulma text-moon-14"
-            data-orientation="vertical"
-            data-state="closed"
-            hidden=""
-            id="radix-:r23:"
-            role="region"
-            style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
-          />
-        </div>
-      </div>
-      <div
-        class="flex w-full gap-2 flex-col"
-        data-orientation="vertical"
-      >
-        <div
-          class="w-full"
-          data-orientation="vertical"
-          data-state="closed"
-        >
-          <h3
-            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
-            data-orientation="vertical"
-            data-state="closed"
-          >
-            <button
-              aria-controls="radix-:r25:"
-              aria-expanded="false"
-              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
-              data-orientation="vertical"
-              data-radix-collection-item=""
-              data-state="closed"
-              id="radix-:r24:"
-              type="button"
-            >
-              <span>
-                Medium is default (md)
-              </span>
-              <svg
-                class="text-trunks text-moon-16 transition-transform duration-200"
-                fill="none"
-                height="1em"
-                viewBox="0 0 32 32"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M25 11.5L16 20.5L7 11.5"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </button>
-          </h3>
-          <div
             aria-labelledby="radix-:r24:"
-            class="mt-2 moon-open:flex w-full text-bulma text-moon-14"
+            class="mt-4 moon-open:flex w-full text-bulma text-moon-14"
             data-orientation="vertical"
             data-state="closed"
             hidden=""
@@ -1205,11 +1093,123 @@ Object {
             <button
               aria-controls="radix-:r27:"
               aria-expanded="false"
-              class="py-1 ps-3 pe-1 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              class="p-3 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
               id="radix-:r26:"
+              type="button"
+            >
+              <span>
+                Large (lg)
+              </span>
+              <svg
+                class="text-trunks text-moon-16 transition-transform duration-200"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5L16 20.5L7 11.5"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </h3>
+          <div
+            aria-labelledby="radix-:r26:"
+            class="mt-3 moon-open:flex w-full text-bulma text-moon-14"
+            data-orientation="vertical"
+            data-state="closed"
+            hidden=""
+            id="radix-:r27:"
+            role="region"
+            style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+          />
+        </div>
+      </div>
+      <div
+        class="flex w-full gap-2 flex-col"
+        data-orientation="vertical"
+      >
+        <div
+          class="w-full"
+          data-orientation="vertical"
+          data-state="closed"
+        >
+          <h3
+            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+            data-orientation="vertical"
+            data-state="closed"
+          >
+            <button
+              aria-controls="radix-:r29:"
+              aria-expanded="false"
+              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              data-orientation="vertical"
+              data-radix-collection-item=""
+              data-state="closed"
+              id="radix-:r28:"
+              type="button"
+            >
+              <span>
+                Medium is default (md)
+              </span>
+              <svg
+                class="text-trunks text-moon-16 transition-transform duration-200"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5L16 20.5L7 11.5"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </h3>
+          <div
+            aria-labelledby="radix-:r28:"
+            class="mt-2 moon-open:flex w-full text-bulma text-moon-14"
+            data-orientation="vertical"
+            data-state="closed"
+            hidden=""
+            id="radix-:r29:"
+            role="region"
+            style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+          />
+        </div>
+      </div>
+      <div
+        class="flex w-full gap-2 flex-col"
+        data-orientation="vertical"
+      >
+        <div
+          class="w-full"
+          data-orientation="vertical"
+          data-state="closed"
+        >
+          <h3
+            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+            data-orientation="vertical"
+            data-state="closed"
+          >
+            <button
+              aria-controls="radix-:r2b:"
+              aria-expanded="false"
+              class="py-1 ps-3 pe-1 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              data-orientation="vertical"
+              data-radix-collection-item=""
+              data-state="closed"
+              id="radix-:r2a:"
               type="button"
             >
               <span>
@@ -1233,12 +1233,12 @@ Object {
             </button>
           </h3>
           <div
-            aria-labelledby="radix-:r26:"
+            aria-labelledby="radix-:r2a:"
             class="mt-2 moon-open:flex w-full text-bulma text-moon-14"
             data-orientation="vertical"
             data-state="closed"
             hidden=""
-            id="radix-:r27:"
+            id="radix-:r2b:"
             role="region"
             style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
           />
@@ -1323,13 +1323,13 @@ Object {
               data-state="closed"
             >
               <button
-                aria-controls="radix-:r17:"
+                aria-controls="radix-:r1b:"
                 aria-expanded="false"
                 class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
                 data-orientation="vertical"
                 data-radix-collection-item=""
                 data-state="closed"
-                id="radix-:r16:"
+                id="radix-:r1a:"
                 type="button"
               >
                 <span>
@@ -1353,12 +1353,12 @@ Object {
               </button>
             </h3>
             <div
-              aria-labelledby="radix-:r16:"
+              aria-labelledby="radix-:r1a:"
               class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
               data-orientation="vertical"
               data-state="closed"
               hidden=""
-              id="radix-:r17:"
+              id="radix-:r1b:"
               role="region"
               style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
             />
@@ -1374,13 +1374,13 @@ Object {
               data-state="closed"
             >
               <button
-                aria-controls="radix-:r19:"
+                aria-controls="radix-:r1d:"
                 aria-expanded="false"
                 class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
                 data-orientation="vertical"
                 data-radix-collection-item=""
                 data-state="closed"
-                id="radix-:r18:"
+                id="radix-:r1c:"
                 type="button"
               >
                 <span>
@@ -1404,12 +1404,12 @@ Object {
               </button>
             </h3>
             <div
-              aria-labelledby="radix-:r18:"
+              aria-labelledby="radix-:r1c:"
               class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
               data-orientation="vertical"
               data-state="closed"
               hidden=""
-              id="radix-:r19:"
+              id="radix-:r1d:"
               role="region"
               style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
             />
@@ -1437,13 +1437,13 @@ Object {
             data-state="closed"
           >
             <button
-              aria-controls="radix-:r17:"
+              aria-controls="radix-:r1b:"
               aria-expanded="false"
               class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
-              id="radix-:r16:"
+              id="radix-:r1a:"
               type="button"
             >
               <span>
@@ -1467,12 +1467,12 @@ Object {
             </button>
           </h3>
           <div
-            aria-labelledby="radix-:r16:"
+            aria-labelledby="radix-:r1a:"
             class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
             data-orientation="vertical"
             data-state="closed"
             hidden=""
-            id="radix-:r17:"
+            id="radix-:r1b:"
             role="region"
             style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
           />
@@ -1488,13 +1488,13 @@ Object {
             data-state="closed"
           >
             <button
-              aria-controls="radix-:r19:"
+              aria-controls="radix-:r1d:"
               aria-expanded="false"
               class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
-              id="radix-:r18:"
+              id="radix-:r1c:"
               type="button"
             >
               <span>
@@ -1518,12 +1518,12 @@ Object {
             </button>
           </h3>
           <div
-            aria-labelledby="radix-:r18:"
+            aria-labelledby="radix-:r1c:"
             class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
             data-orientation="vertical"
             data-state="closed"
             hidden=""
-            id="radix-:r19:"
+            id="radix-:r1d:"
             role="region"
             style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
           />
@@ -1610,7 +1610,7 @@ Object {
               data-state="closed"
             >
               <button
-                aria-controls="radix-:r1j:"
+                aria-controls="radix-:r1n:"
                 aria-expanded="false"
                 class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
                 data-disabled=""
@@ -1618,7 +1618,7 @@ Object {
                 data-radix-collection-item=""
                 data-state="closed"
                 disabled=""
-                id="radix-:r1i:"
+                id="radix-:r1m:"
                 type="button"
               >
                 <span>
@@ -1642,13 +1642,13 @@ Object {
               </button>
             </h3>
             <div
-              aria-labelledby="radix-:r1i:"
+              aria-labelledby="radix-:r1m:"
               class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
               data-disabled=""
               data-orientation="vertical"
               data-state="closed"
               hidden=""
-              id="radix-:r1j:"
+              id="radix-:r1n:"
               role="region"
               style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
             />
@@ -1678,7 +1678,7 @@ Object {
             data-state="closed"
           >
             <button
-              aria-controls="radix-:r1j:"
+              aria-controls="radix-:r1n:"
               aria-expanded="false"
               class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
               data-disabled=""
@@ -1686,7 +1686,7 @@ Object {
               data-radix-collection-item=""
               data-state="closed"
               disabled=""
-              id="radix-:r1i:"
+              id="radix-:r1m:"
               type="button"
             >
               <span>
@@ -1710,13 +1710,13 @@ Object {
             </button>
           </h3>
           <div
-            aria-labelledby="radix-:r1i:"
+            aria-labelledby="radix-:r1m:"
             class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
             data-disabled=""
             data-orientation="vertical"
             data-state="closed"
             hidden=""
-            id="radix-:r1j:"
+            id="radix-:r1n:"
             role="region"
             style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
           />
@@ -1801,13 +1801,13 @@ Object {
               data-state="closed"
             >
               <button
-                aria-controls="radix-:r1d:"
+                aria-controls="radix-:r1h:"
                 aria-expanded="false"
                 class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30 moon-open:[&_svg]:rotate-180"
                 data-orientation="vertical"
                 data-radix-collection-item=""
                 data-state="closed"
-                id="radix-:r1c:"
+                id="radix-:r1g:"
                 type="button"
               >
                 <span>
@@ -1831,12 +1831,12 @@ Object {
               </button>
             </h3>
             <div
-              aria-labelledby="radix-:r1c:"
+              aria-labelledby="radix-:r1g:"
               class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 text-moon-14 w-full text-bulma pt-2"
               data-orientation="vertical"
               data-state="closed"
               hidden=""
-              id="radix-:r1d:"
+              id="radix-:r1h:"
               role="region"
               style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
             />
@@ -1864,13 +1864,13 @@ Object {
             data-state="closed"
           >
             <button
-              aria-controls="radix-:r1d:"
+              aria-controls="radix-:r1h:"
               aria-expanded="false"
               class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30 moon-open:[&_svg]:rotate-180"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
-              id="radix-:r1c:"
+              id="radix-:r1g:"
               type="button"
             >
               <span>
@@ -1894,12 +1894,12 @@ Object {
             </button>
           </h3>
           <div
-            aria-labelledby="radix-:r1c:"
+            aria-labelledby="radix-:r1g:"
             class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 text-moon-14 w-full text-bulma pt-2"
             data-orientation="vertical"
             data-state="closed"
             hidden=""
-            id="radix-:r1d:"
+            id="radix-:r1h:"
             role="region"
             style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
           />
@@ -1984,13 +1984,13 @@ Object {
               data-state="open"
             >
               <button
-                aria-controls="radix-:r1b:"
+                aria-controls="radix-:r1f:"
                 aria-expanded="true"
                 class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
                 data-orientation="vertical"
                 data-radix-collection-item=""
                 data-state="open"
-                id="radix-:r1a:"
+                id="radix-:r1e:"
                 type="button"
               >
                 <span>
@@ -2014,11 +2014,11 @@ Object {
               </button>
             </h3>
             <div
-              aria-labelledby="radix-:r1a:"
+              aria-labelledby="radix-:r1e:"
               class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
               data-orientation="vertical"
               data-state="open"
-              id="radix-:r1b:"
+              id="radix-:r1f:"
               role="region"
               style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width); transition-duration: 0s; animation-name: none;"
             >
@@ -2048,13 +2048,13 @@ Object {
             data-state="open"
           >
             <button
-              aria-controls="radix-:r1b:"
+              aria-controls="radix-:r1f:"
               aria-expanded="true"
               class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="open"
-              id="radix-:r1a:"
+              id="radix-:r1e:"
               type="button"
             >
               <span>
@@ -2078,11 +2078,11 @@ Object {
             </button>
           </h3>
           <div
-            aria-labelledby="radix-:r1a:"
+            aria-labelledby="radix-:r1e:"
             class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
             data-orientation="vertical"
             data-state="open"
-            id="radix-:r1b:"
+            id="radix-:r1f:"
             role="region"
             style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width); transition-duration: 0s; animation-name: none;"
           >
@@ -2169,13 +2169,13 @@ Object {
               data-state="closed"
             >
               <button
-                aria-controls="radix-:r1f:"
+                aria-controls="radix-:r1j:"
                 aria-expanded="false"
                 class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
                 data-orientation="vertical"
                 data-radix-collection-item=""
                 data-state="closed"
-                id="radix-:r1e:"
+                id="radix-:r1i:"
                 type="button"
               >
                 <span>
@@ -2199,12 +2199,12 @@ Object {
               </button>
             </h3>
             <div
-              aria-labelledby="radix-:r1e:"
+              aria-labelledby="radix-:r1i:"
               class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
               data-orientation="vertical"
               data-state="closed"
               hidden=""
-              id="radix-:r1f:"
+              id="radix-:r1j:"
               role="region"
               style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
             />
@@ -2220,13 +2220,13 @@ Object {
               data-state="closed"
             >
               <button
-                aria-controls="radix-:r1h:"
+                aria-controls="radix-:r1l:"
                 aria-expanded="false"
                 class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
                 data-orientation="vertical"
                 data-radix-collection-item=""
                 data-state="closed"
-                id="radix-:r1g:"
+                id="radix-:r1k:"
                 type="button"
               >
                 <span>
@@ -2250,12 +2250,12 @@ Object {
               </button>
             </h3>
             <div
-              aria-labelledby="radix-:r1g:"
+              aria-labelledby="radix-:r1k:"
               class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
               data-orientation="vertical"
               data-state="closed"
               hidden=""
-              id="radix-:r1h:"
+              id="radix-:r1l:"
               role="region"
               style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
             />
@@ -2283,13 +2283,13 @@ Object {
             data-state="closed"
           >
             <button
-              aria-controls="radix-:r1f:"
+              aria-controls="radix-:r1j:"
               aria-expanded="false"
               class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
-              id="radix-:r1e:"
+              id="radix-:r1i:"
               type="button"
             >
               <span>
@@ -2313,12 +2313,12 @@ Object {
             </button>
           </h3>
           <div
-            aria-labelledby="radix-:r1e:"
+            aria-labelledby="radix-:r1i:"
             class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
             data-orientation="vertical"
             data-state="closed"
             hidden=""
-            id="radix-:r1f:"
+            id="radix-:r1j:"
             role="region"
             style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
           />
@@ -2334,13 +2334,13 @@ Object {
             data-state="closed"
           >
             <button
-              aria-controls="radix-:r1h:"
+              aria-controls="radix-:r1l:"
               aria-expanded="false"
               class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
-              id="radix-:r1g:"
+              id="radix-:r1k:"
               type="button"
             >
               <span>
@@ -2364,12 +2364,12 @@ Object {
             </button>
           </h3>
           <div
-            aria-labelledby="radix-:r1g:"
+            aria-labelledby="radix-:r1k:"
             class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
             data-orientation="vertical"
             data-state="closed"
             hidden=""
-            id="radix-:r1h:"
+            id="radix-:r1l:"
             role="region"
             style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
           />
@@ -2454,121 +2454,9 @@ Object {
               data-state="closed"
             >
               <button
-                aria-controls="radix-:r1p:"
-                aria-expanded="false"
-                class="p-4 text-moon-16 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
-                data-orientation="vertical"
-                data-radix-collection-item=""
-                data-state="closed"
-                id="radix-:r1o:"
-                type="button"
-              >
-                <span>
-                  X Large (xl)
-                </span>
-                <svg
-                  class="text-trunks text-moon-16 transition-transform duration-200"
-                  fill="none"
-                  height="1em"
-                  viewBox="0 0 32 32"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M25 11.5L16 20.5L7 11.5"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </button>
-            </h3>
-            <div
-              aria-labelledby="radix-:r1o:"
-              class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
-              data-orientation="vertical"
-              data-state="closed"
-              hidden=""
-              id="radix-:r1p:"
-              role="region"
-              style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
-            />
-          </div>
-        </div>
-        <div
-          class="flex w-full gap-2 flex-col"
-          data-orientation="vertical"
-        >
-          <div
-            class="w-full"
-            data-orientation="vertical"
-            data-state="closed"
-          >
-            <h3
-              class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
-              data-orientation="vertical"
-              data-state="closed"
-            >
-              <button
-                aria-controls="radix-:r1r:"
-                aria-expanded="false"
-                class="p-3 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
-                data-orientation="vertical"
-                data-radix-collection-item=""
-                data-state="closed"
-                id="radix-:r1q:"
-                type="button"
-              >
-                <span>
-                  Large (lg)
-                </span>
-                <svg
-                  class="text-trunks text-moon-16 transition-transform duration-200"
-                  fill="none"
-                  height="1em"
-                  viewBox="0 0 32 32"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M25 11.5L16 20.5L7 11.5"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </button>
-            </h3>
-            <div
-              aria-labelledby="radix-:r1q:"
-              class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
-              data-orientation="vertical"
-              data-state="closed"
-              hidden=""
-              id="radix-:r1r:"
-              role="region"
-              style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
-            />
-          </div>
-        </div>
-        <div
-          class="flex w-full gap-2 flex-col"
-          data-orientation="vertical"
-        >
-          <div
-            class="w-full"
-            data-orientation="vertical"
-            data-state="closed"
-          >
-            <h3
-              class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
-              data-orientation="vertical"
-              data-state="closed"
-            >
-              <button
                 aria-controls="radix-:r1t:"
                 aria-expanded="false"
-                class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+                class="p-4 text-moon-16 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
                 data-orientation="vertical"
                 data-radix-collection-item=""
                 data-state="closed"
@@ -2576,7 +2464,7 @@ Object {
                 type="button"
               >
                 <span>
-                  Medium is default (md)
+                  X Large (xl)
                 </span>
                 <svg
                   class="text-trunks text-moon-16 transition-transform duration-200"
@@ -2624,7 +2512,7 @@ Object {
               <button
                 aria-controls="radix-:r1v:"
                 aria-expanded="false"
-                class="py-1 ps-3 pe-1 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+                class="p-3 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
                 data-orientation="vertical"
                 data-radix-collection-item=""
                 data-state="closed"
@@ -2632,7 +2520,7 @@ Object {
                 type="button"
               >
                 <span>
-                  Small (sm)
+                  Large (lg)
                 </span>
                 <svg
                   class="text-trunks text-moon-16 transition-transform duration-200"
@@ -2663,6 +2551,118 @@ Object {
             />
           </div>
         </div>
+        <div
+          class="flex w-full gap-2 flex-col"
+          data-orientation="vertical"
+        >
+          <div
+            class="w-full"
+            data-orientation="vertical"
+            data-state="closed"
+          >
+            <h3
+              class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+              data-orientation="vertical"
+              data-state="closed"
+            >
+              <button
+                aria-controls="radix-:r21:"
+                aria-expanded="false"
+                class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+                data-orientation="vertical"
+                data-radix-collection-item=""
+                data-state="closed"
+                id="radix-:r20:"
+                type="button"
+              >
+                <span>
+                  Medium is default (md)
+                </span>
+                <svg
+                  class="text-trunks text-moon-16 transition-transform duration-200"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M25 11.5L16 20.5L7 11.5"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </h3>
+            <div
+              aria-labelledby="radix-:r20:"
+              class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
+              data-orientation="vertical"
+              data-state="closed"
+              hidden=""
+              id="radix-:r21:"
+              role="region"
+              style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+            />
+          </div>
+        </div>
+        <div
+          class="flex w-full gap-2 flex-col"
+          data-orientation="vertical"
+        >
+          <div
+            class="w-full"
+            data-orientation="vertical"
+            data-state="closed"
+          >
+            <h3
+              class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+              data-orientation="vertical"
+              data-state="closed"
+            >
+              <button
+                aria-controls="radix-:r23:"
+                aria-expanded="false"
+                class="py-1 ps-3 pe-1 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+                data-orientation="vertical"
+                data-radix-collection-item=""
+                data-state="closed"
+                id="radix-:r22:"
+                type="button"
+              >
+                <span>
+                  Small (sm)
+                </span>
+                <svg
+                  class="text-trunks text-moon-16 transition-transform duration-200"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M25 11.5L16 20.5L7 11.5"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </h3>
+            <div
+              aria-labelledby="radix-:r22:"
+              class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
+              data-orientation="vertical"
+              data-state="closed"
+              hidden=""
+              id="radix-:r23:"
+              role="region"
+              style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+            />
+          </div>
+        </div>
       </div>
     </div>
   </body>,
@@ -2685,121 +2685,9 @@ Object {
             data-state="closed"
           >
             <button
-              aria-controls="radix-:r1p:"
-              aria-expanded="false"
-              class="p-4 text-moon-16 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
-              data-orientation="vertical"
-              data-radix-collection-item=""
-              data-state="closed"
-              id="radix-:r1o:"
-              type="button"
-            >
-              <span>
-                X Large (xl)
-              </span>
-              <svg
-                class="text-trunks text-moon-16 transition-transform duration-200"
-                fill="none"
-                height="1em"
-                viewBox="0 0 32 32"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M25 11.5L16 20.5L7 11.5"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </button>
-          </h3>
-          <div
-            aria-labelledby="radix-:r1o:"
-            class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
-            data-orientation="vertical"
-            data-state="closed"
-            hidden=""
-            id="radix-:r1p:"
-            role="region"
-            style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
-          />
-        </div>
-      </div>
-      <div
-        class="flex w-full gap-2 flex-col"
-        data-orientation="vertical"
-      >
-        <div
-          class="w-full"
-          data-orientation="vertical"
-          data-state="closed"
-        >
-          <h3
-            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
-            data-orientation="vertical"
-            data-state="closed"
-          >
-            <button
-              aria-controls="radix-:r1r:"
-              aria-expanded="false"
-              class="p-3 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
-              data-orientation="vertical"
-              data-radix-collection-item=""
-              data-state="closed"
-              id="radix-:r1q:"
-              type="button"
-            >
-              <span>
-                Large (lg)
-              </span>
-              <svg
-                class="text-trunks text-moon-16 transition-transform duration-200"
-                fill="none"
-                height="1em"
-                viewBox="0 0 32 32"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M25 11.5L16 20.5L7 11.5"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </button>
-          </h3>
-          <div
-            aria-labelledby="radix-:r1q:"
-            class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
-            data-orientation="vertical"
-            data-state="closed"
-            hidden=""
-            id="radix-:r1r:"
-            role="region"
-            style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
-          />
-        </div>
-      </div>
-      <div
-        class="flex w-full gap-2 flex-col"
-        data-orientation="vertical"
-      >
-        <div
-          class="w-full"
-          data-orientation="vertical"
-          data-state="closed"
-        >
-          <h3
-            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
-            data-orientation="vertical"
-            data-state="closed"
-          >
-            <button
               aria-controls="radix-:r1t:"
               aria-expanded="false"
-              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              class="p-4 text-moon-16 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
@@ -2807,7 +2695,7 @@ Object {
               type="button"
             >
               <span>
-                Medium is default (md)
+                X Large (xl)
               </span>
               <svg
                 class="text-trunks text-moon-16 transition-transform duration-200"
@@ -2855,7 +2743,7 @@ Object {
             <button
               aria-controls="radix-:r1v:"
               aria-expanded="false"
-              class="py-1 ps-3 pe-1 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              class="p-3 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
@@ -2863,7 +2751,7 @@ Object {
               type="button"
             >
               <span>
-                Small (sm)
+                Large (lg)
               </span>
               <svg
                 class="text-trunks text-moon-16 transition-transform duration-200"
@@ -2892,6 +2780,433 @@ Object {
             role="region"
             style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
           />
+        </div>
+      </div>
+      <div
+        class="flex w-full gap-2 flex-col"
+        data-orientation="vertical"
+      >
+        <div
+          class="w-full"
+          data-orientation="vertical"
+          data-state="closed"
+        >
+          <h3
+            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+            data-orientation="vertical"
+            data-state="closed"
+          >
+            <button
+              aria-controls="radix-:r21:"
+              aria-expanded="false"
+              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              data-orientation="vertical"
+              data-radix-collection-item=""
+              data-state="closed"
+              id="radix-:r20:"
+              type="button"
+            >
+              <span>
+                Medium is default (md)
+              </span>
+              <svg
+                class="text-trunks text-moon-16 transition-transform duration-200"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5L16 20.5L7 11.5"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </h3>
+          <div
+            aria-labelledby="radix-:r20:"
+            class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
+            data-orientation="vertical"
+            data-state="closed"
+            hidden=""
+            id="radix-:r21:"
+            role="region"
+            style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+          />
+        </div>
+      </div>
+      <div
+        class="flex w-full gap-2 flex-col"
+        data-orientation="vertical"
+      >
+        <div
+          class="w-full"
+          data-orientation="vertical"
+          data-state="closed"
+        >
+          <h3
+            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+            data-orientation="vertical"
+            data-state="closed"
+          >
+            <button
+              aria-controls="radix-:r23:"
+              aria-expanded="false"
+              class="py-1 ps-3 pe-1 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              data-orientation="vertical"
+              data-radix-collection-item=""
+              data-state="closed"
+              id="radix-:r22:"
+              type="button"
+            >
+              <span>
+                Small (sm)
+              </span>
+              <svg
+                class="text-trunks text-moon-16 transition-transform duration-200"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5L16 20.5L7 11.5"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </h3>
+          <div
+            aria-labelledby="radix-:r22:"
+            class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
+            data-orientation="vertical"
+            data-state="closed"
+            hidden=""
+            id="radix-:r23:"
+            role="region"
+            style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Accordion in RTL renders toggle all outside 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        dir="rtl"
+      >
+        <div
+          class="flex flex-col gap-4 w-full"
+        >
+          <button
+            class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary w-32"
+            type="button"
+          >
+            Toggle All
+            <span
+              aria-hidden="true"
+              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
+          <div
+            class="flex w-full gap-2 flex-col"
+            data-orientation="vertical"
+          >
+            <div
+              class="w-full"
+              data-orientation="vertical"
+              data-state="open"
+            >
+              <h3
+                class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+                data-orientation="vertical"
+                data-state="open"
+              >
+                <button
+                  aria-controls="radix-:r2h:"
+                  aria-expanded="true"
+                  class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+                  data-orientation="vertical"
+                  data-radix-collection-item=""
+                  data-state="open"
+                  id="radix-:r2g:"
+                  type="button"
+                >
+                  <span>
+                    Default
+                  </span>
+                  <svg
+                    class="text-trunks text-moon-16 transition-transform duration-200"
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 32 32"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M25 11.5L16 20.5L7 11.5"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </button>
+              </h3>
+              <div
+                aria-labelledby="radix-:r2g:"
+                class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
+                data-orientation="vertical"
+                data-state="open"
+                id="radix-:r2h:"
+                role="region"
+                style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width); transition-duration: 0s; animation-name: none;"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </div>
+            </div>
+            <div
+              class="w-full"
+              data-orientation="vertical"
+              data-state="closed"
+            >
+              <h3
+                class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+                data-orientation="vertical"
+                data-state="closed"
+              >
+                <button
+                  aria-controls="radix-:r2j:"
+                  aria-expanded="false"
+                  class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+                  data-orientation="vertical"
+                  data-radix-collection-item=""
+                  data-state="closed"
+                  id="radix-:r2i:"
+                  type="button"
+                >
+                  <span>
+                    Test accordion
+                  </span>
+                  <svg
+                    class="text-trunks text-moon-16 transition-transform duration-200"
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 32 32"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M25 11.5L16 20.5L7 11.5"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </button>
+              </h3>
+              <div
+                aria-labelledby="radix-:r2i:"
+                class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
+                data-orientation="vertical"
+                data-state="closed"
+                hidden=""
+                id="radix-:r2j:"
+                role="region"
+                style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <div
+        class="flex flex-col gap-4 w-full"
+      >
+        <button
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary w-32"
+          type="button"
+        >
+          Toggle All
+          <span
+            aria-hidden="true"
+            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
+        </button>
+        <div
+          class="flex w-full gap-2 flex-col"
+          data-orientation="vertical"
+        >
+          <div
+            class="w-full"
+            data-orientation="vertical"
+            data-state="open"
+          >
+            <h3
+              class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+              data-orientation="vertical"
+              data-state="open"
+            >
+              <button
+                aria-controls="radix-:r2h:"
+                aria-expanded="true"
+                class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+                data-orientation="vertical"
+                data-radix-collection-item=""
+                data-state="open"
+                id="radix-:r2g:"
+                type="button"
+              >
+                <span>
+                  Default
+                </span>
+                <svg
+                  class="text-trunks text-moon-16 transition-transform duration-200"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M25 11.5L16 20.5L7 11.5"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </h3>
+            <div
+              aria-labelledby="radix-:r2g:"
+              class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
+              data-orientation="vertical"
+              data-state="open"
+              id="radix-:r2h:"
+              role="region"
+              style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width); transition-duration: 0s; animation-name: none;"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+          </div>
+          <div
+            class="w-full"
+            data-orientation="vertical"
+            data-state="closed"
+          >
+            <h3
+              class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+              data-orientation="vertical"
+              data-state="closed"
+            >
+              <button
+                aria-controls="radix-:r2j:"
+                aria-expanded="false"
+                class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+                data-orientation="vertical"
+                data-radix-collection-item=""
+                data-state="closed"
+                id="radix-:r2i:"
+                type="button"
+              >
+                <span>
+                  Test accordion
+                </span>
+                <svg
+                  class="text-trunks text-moon-16 transition-transform duration-200"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M25 11.5L16 20.5L7 11.5"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </h3>
+            <div
+              aria-labelledby="radix-:r2i:"
+              class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
+              data-orientation="vertical"
+              data-state="closed"
+              hidden=""
+              id="radix-:r2j:"
+              role="region"
+              style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+            />
+          </div>
         </div>
       </div>
     </div>
@@ -5763,6 +6078,313 @@ Object {
           role="region"
           style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
         />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Accordion renders toggle all outside 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex flex-col gap-4 w-full"
+      >
+        <button
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary w-32"
+          type="button"
+        >
+          Toggle All
+          <span
+            aria-hidden="true"
+            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
+        </button>
+        <div
+          class="flex w-full gap-2 flex-col"
+          data-orientation="vertical"
+        >
+          <div
+            class="w-full"
+            data-orientation="vertical"
+            data-state="open"
+          >
+            <h3
+              class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+              data-orientation="vertical"
+              data-state="open"
+            >
+              <button
+                aria-controls="radix-:r17:"
+                aria-expanded="true"
+                class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+                data-orientation="vertical"
+                data-radix-collection-item=""
+                data-state="open"
+                id="radix-:r16:"
+                type="button"
+              >
+                <span>
+                  Default
+                </span>
+                <svg
+                  class="text-trunks text-moon-16 transition-transform duration-200"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M25 11.5L16 20.5L7 11.5"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </h3>
+            <div
+              aria-labelledby="radix-:r16:"
+              class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
+              data-orientation="vertical"
+              data-state="open"
+              id="radix-:r17:"
+              role="region"
+              style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width); transition-duration: 0s; animation-name: none;"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+          </div>
+          <div
+            class="w-full"
+            data-orientation="vertical"
+            data-state="closed"
+          >
+            <h3
+              class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+              data-orientation="vertical"
+              data-state="closed"
+            >
+              <button
+                aria-controls="radix-:r19:"
+                aria-expanded="false"
+                class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+                data-orientation="vertical"
+                data-radix-collection-item=""
+                data-state="closed"
+                id="radix-:r18:"
+                type="button"
+              >
+                <span>
+                  Test accordion
+                </span>
+                <svg
+                  class="text-trunks text-moon-16 transition-transform duration-200"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M25 11.5L16 20.5L7 11.5"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </h3>
+            <div
+              aria-labelledby="radix-:r18:"
+              class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
+              data-orientation="vertical"
+              data-state="closed"
+              hidden=""
+              id="radix-:r19:"
+              role="region"
+              style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex flex-col gap-4 w-full"
+    >
+      <button
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary w-32"
+        type="button"
+      >
+        Toggle All
+        <span
+          aria-hidden="true"
+          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        />
+      </button>
+      <div
+        class="flex w-full gap-2 flex-col"
+        data-orientation="vertical"
+      >
+        <div
+          class="w-full"
+          data-orientation="vertical"
+          data-state="open"
+        >
+          <h3
+            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+            data-orientation="vertical"
+            data-state="open"
+          >
+            <button
+              aria-controls="radix-:r17:"
+              aria-expanded="true"
+              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              data-orientation="vertical"
+              data-radix-collection-item=""
+              data-state="open"
+              id="radix-:r16:"
+              type="button"
+            >
+              <span>
+                Default
+              </span>
+              <svg
+                class="text-trunks text-moon-16 transition-transform duration-200"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5L16 20.5L7 11.5"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </h3>
+          <div
+            aria-labelledby="radix-:r16:"
+            class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
+            data-orientation="vertical"
+            data-state="open"
+            id="radix-:r17:"
+            role="region"
+            style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width); transition-duration: 0s; animation-name: none;"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </div>
+        </div>
+        <div
+          class="w-full"
+          data-orientation="vertical"
+          data-state="closed"
+        >
+          <h3
+            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+            data-orientation="vertical"
+            data-state="closed"
+          >
+            <button
+              aria-controls="radix-:r19:"
+              aria-expanded="false"
+              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              data-orientation="vertical"
+              data-radix-collection-item=""
+              data-state="closed"
+              id="radix-:r18:"
+              type="button"
+            >
+              <span>
+                Test accordion
+              </span>
+              <svg
+                class="text-trunks text-moon-16 transition-transform duration-200"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5L16 20.5L7 11.5"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </h3>
+          <div
+            aria-labelledby="radix-:r18:"
+            class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
+            data-orientation="vertical"
+            data-state="closed"
+            hidden=""
+            id="radix-:r19:"
+            role="region"
+            style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"
+          />
+        </div>
       </div>
     </div>
   </div>,

@@ -1,4 +1,5 @@
-type CheckboxProps = {
+interface CheckboxProps {
+  // extends Omit<React.InputHTMLAttributes<HTMLInputElement>, 'checked'> {
   id?: string;
   label?: JSX.Element | string;
   ariaLabel?: string;
@@ -7,8 +8,9 @@ type CheckboxProps = {
   checked?: boolean;
   bgColor?: string;
   className?: string;
+  indeterminate?: boolean;
   onClick?: (event?: React.MouseEvent<HTMLInputElement>) => void;
   onChange?: (event: React.ChangeEvent<HTMLInputElement>) => void;
-};
+}
 
 export default CheckboxProps;
