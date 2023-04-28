@@ -7,6 +7,7 @@ import Background from '../../public/examples/accordion/Background';
 import ContentHeader from '../../public/examples/accordion/ContentHeader';
 import ContentOutside from '../../public/examples/accordion/ContentOutside';
 import ContentOutsideSizes from '../../public/examples/accordion/ContentOutsideSizes';
+import ControlOutside from '../../public/examples/accordion/ControlOutside';
 import Default from '../../public/examples/accordion/Default';
 import Disabled from '../../public/examples/accordion/Disabled';
 import Divider from '../../public/examples/accordion/Divider';
@@ -57,6 +58,7 @@ const Example = () => {
   </Accordion.Item>
 </Accordion>`}
       </ComponentAnatomy>
+
       <Preview
         title="Default"
         preview={<Default />}
@@ -107,6 +109,11 @@ const Example = () => {
         preview={<Background />}
         code={examples ? examples.Background : 'Loading'}
       />
+      <Preview
+        title="Open/Close all items programmatically"
+        preview={<ControlOutside />}
+        code={examples ? examples.ControlOutside : 'Loading'}
+      />
       <PropsTable
         title="Accordion props"
         data={[
@@ -130,6 +137,21 @@ const Example = () => {
             required: false,
             default: '-',
             description: 'The value of the item to expand',
+          },
+          {
+            name: 'value',
+            type: 'string[]',
+            required: false,
+            default: '-',
+            description: 'The accordeon items value',
+          },
+          {
+            name: 'onValueChange',
+            type: '(value: string[]) => void',
+            required: false,
+            default: '-',
+            description:
+              'Event handler called when the expanded state of an item changes and prop singleOpen in false state',
           },
         ]}
       />
