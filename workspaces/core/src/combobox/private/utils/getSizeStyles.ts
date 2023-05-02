@@ -1,4 +1,5 @@
 import mergeClassnames from "../../../mergeClassnames/mergeClassnames";
+import { Size } from "../types/size";
 
 const getSizeStyles = (size?: string, innerLabel?: boolean) => {
   const isLabel = innerLabel !== undefined && innerLabel;
@@ -11,14 +12,13 @@ const getSizeStyles = (size?: string, innerLabel?: boolean) => {
   )
 };
 
-const getTextSizes = (size?: string) => {
-  return size === undefined || size === 'md'
-    ? 'text-base'
-      : size === 'sm'
-        ? 'text-sm'
-          : size === 'lg'
-            ? 'text-lg'
-            : 'text-xl';
+const getTextSizes = (size: Size = 'md') => {
+  return {
+    sm: 'text-sm',
+    md: 'text-base',
+    lg: 'text-lg',
+    xl: 'text-xl',
+  }[size] || 'text-base'
 }
 
 export { getSizeStyles, getTextSizes };

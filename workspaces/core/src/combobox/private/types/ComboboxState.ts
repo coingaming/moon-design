@@ -1,5 +1,6 @@
 import React from "react";
 import InputValue from "./InputValue";
+import type { Size } from "./size";
 
 type ComboboxState = {
   value?: InputValue;
@@ -17,7 +18,7 @@ type ComboboxState = {
     setAnchor: React.Dispatch<React.SetStateAction<Element | null | undefined>>;
     setPopper: React.Dispatch<React.SetStateAction<HTMLElement | null | undefined>>;
   };
-  size?: 'sm' | 'md' | 'lg' | string;
+  size?: Size
 };
 
 export default ComboboxState

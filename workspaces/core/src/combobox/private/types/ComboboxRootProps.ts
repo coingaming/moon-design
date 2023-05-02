@@ -1,5 +1,6 @@
 import InputValue from "./InputValue";
 import Placement from "./Placement";
+import type { Size } from "./size";
 
 interface ComboboxRootProps
   extends Omit<
@@ -13,7 +14,7 @@ interface ComboboxRootProps
   onClear?: () => void;
   isError?: boolean;
   disabled?: boolean;
-  size?: 'sm' | 'md' | 'lg' | 'xl' | string;
+  size?: Size;
   className?: string;
   multiple?: boolean;
   nullable?: boolean;
