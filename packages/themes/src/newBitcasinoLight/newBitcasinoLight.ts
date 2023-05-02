@@ -22,7 +22,7 @@ const color = {
     10: '#F2F2F2',
   },
   beerus: {
-    100: '#E8E8E8',
+    100: '#E0E0E0',
   },
   bulma: {
     100: '#1B1414',
@@ -35,7 +35,7 @@ const color = {
 const colorNew = {
   piccolo: '#D63741',
   hit: '#FFFFFF',
-  beerus: '#E8E8E8',
+  beerus: '#E0E0E0',
   goku: '#FFFFFF',
   gohan: '#F2F2F2',
   bulma: '#1B1414',
