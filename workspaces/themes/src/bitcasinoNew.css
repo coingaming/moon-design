@@ -2,7 +2,7 @@
 .theme-bitcasino-light {
   --piccolo: 214 55 65; /* #D63741 */
   --hit: 255 255 255; /* #FFFFFF */
-  --beerus: 232 232 232; /* #E8E8E8 */
+  --beerus: 224 224 224; /* #E0E0E0 */
   --gohan: 242, 242, 242; /* #F2F2F2 */
   --goten: 255 255 255; /* #FFFFFF */
   --goku: 255 255 255; /* #FFFFFF */
@@ -83,7 +83,7 @@
 .theme-bitcasino-dark {
   --piccolo: 214 55 65; /* #D63741 */
   --hit: 82 82 82; /* #525252 */
-  --beerus: 52 52 52; /* #343434 */
+  --beerus: 50 50 50; /* #323232 */
   --gohan: 30 30 30; /* #1E1E1E */
   --goten: 255 255 255; /* #ffffff */
   --goku: 16 16 16; /* #101010 */
