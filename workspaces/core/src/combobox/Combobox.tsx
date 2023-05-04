@@ -1,10 +1,10 @@
 import React from 'react';
-import { Combobox as ComboboxHeadlessUI, Transition as TransitionHeadlessUI, Listbox } from '@headlessui/react';
+import { Combobox as HeadlessCombobox, Transition as HeadlessTransition, Listbox, ComboboxProps } from '@headlessui/react';
 import { usePopper } from 'react-popper';
-import { InsetInput as InputInset, SelectButton, Input as NativeInput } from '../index';
+import { InsetInput as InputInset, SelectButton, Input as NativeInput, BaseOptionType } from '../index';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import ButtonProps from './private/types/ButtonProps';
-import ComboboxRootProps from './private/types/ComboboxRootProps';
+import { ComboboxRootProps } from './private/types/ComboboxRootProps';
 import InputProps from './private/types/InputProps';
 import SelectProps from './private/types/SelectProps';
 import WithChildren from './private/types/WithChildren';
@@ -69,13 +69,17 @@ const ComboboxRoot = ({
       <div
         className={mergeClassnames('w-full relative', className)}
       >
-        <ComboboxHeadlessUI
+        <HeadlessCombobox
+          // type coercion due to following issues in HeadlessUI combobox
+          // https://github.com/tailwindlabs/headlessui/issues/2438
+          // https://github.com/tailwindlabs/headlessui/issues/2434
+          // https://codesandbox.io/s/festive-curran-ic7y9n?file=/src/ComboboxMultiple.tsx:527-565
           value={value as {}[]}
-          onChange={onChange}
-          disabled={disabled}
           multiple={multiple as true}
           nullable={nullable as true}
-          ref={ref as React.Ref<HTMLElement>}
+          onChange={onChange}
+          disabled={disabled}
+          ref={ref}
           {...rest}
         >
           {({ open }) => (
@@ -86,7 +90,7 @@ const ComboboxRoot = ({
               }
             </>
           )}
-        </ComboboxHeadlessUI>
+        </HeadlessCombobox>
       </div>
     </ComboboxContext.Provider>
   );
@@ -134,7 +138,7 @@ const Input = ({
   const { size, popper, disabled, isError, input } = useComboboxContext('Combobox.Input');
 
   return (
-    <ComboboxHeadlessUI.Input
+    <HeadlessCombobox.Input
       onChange={({ target: { value } }) => onQueryChange(value)}
       ref={popper?.setAnchor}
       as={NativeInput}
@@ -171,11 +175,11 @@ const InsetInput = ({
 
   return (
     <span className={mergeClassnames(
-        'relative',
-        'flex flex-grow w-full'
-      )}
+      'relative',
+      'flex flex-grow w-full'
+    )}
     >
-      <ComboboxHeadlessUI.Input
+      <HeadlessCombobox.Input
         onChange={({ target: { value } }) => onQueryChange(value)}
         ref={popper?.setAnchor}
         as={NativeInput}
@@ -187,10 +191,10 @@ const InsetInput = ({
           'flex-grow h-full border-0 !rounded-none bg-transparent px-0',
           '!shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none',
           (label !== undefined && label.length > 0)
-            && (placeholder === undefined || placeholder.length === 0)
-            && 'input-xl',
+          && (placeholder === undefined || placeholder.length === 0)
+          && 'input-xl',
           (label !== undefined && label.length > 0)
-            && 'pt-3 input-xl-dt-label',
+          && 'pt-3 input-xl-dt-label',
           getTextSizes(size),
           className
         )}
@@ -214,20 +218,20 @@ const Button = ({
   const { size, disabled } = useComboboxContext('Combobox.Button');
 
   return (
-      <ComboboxHeadlessUI.Button
-        className={mergeClassnames(
-          'w-6 h-6',
-          size === 'sm' ? 'text-moon-16' : 'text-moon-24',
-          size === 'sm' && 'w-4 h-4',
-          open && '-rotate-180',
-          'text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center',
-          disabled && 'cursor-not-allowed',
-          className
-        )}
-        {...rest}
-      >
-        {children}
-      </ComboboxHeadlessUI.Button>
+    <HeadlessCombobox.Button
+      className={mergeClassnames(
+        'w-6 h-6',
+        size === 'sm' ? 'text-moon-16' : 'text-moon-24',
+        size === 'sm' && 'w-4 h-4',
+        open && '-rotate-180',
+        'text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center',
+        disabled && 'cursor-not-allowed',
+        className
+      )}
+      {...rest}
+    >
+      {children}
+    </HeadlessCombobox.Button>
   );
 };
 
@@ -239,31 +243,31 @@ const Options = ({
 }: WithChildren<OptionsProps>) => {
   const { popper } = useComboboxContext('Combobox.Options');
   return (
-      <ComboboxHeadlessUI.Options
-        ref={popper?.setPopper}
-        style={popper?.styles?.popper}
-        {...popper?.attributes?.popper}
-        className={mergeClassnames(
-          menuWidth ? menuWidth : 'w-full max-h-[18.75rem] py-2 px-1 my-1 rounded-moon-s-md box-border bg-gohan shadow-moon-lg z-10 absolute',
-          'overflow-y-auto focus:outline-none',
-          className
-        )}
-        {...rest}
-      >
-        {children}
-      </ComboboxHeadlessUI.Options>
+    <HeadlessCombobox.Options
+      ref={popper?.setPopper}
+      style={popper?.styles?.popper}
+      {...popper?.attributes?.popper}
+      className={mergeClassnames(
+        menuWidth ? menuWidth : 'w-full max-h-[18.75rem] py-2 px-1 my-1 rounded-moon-s-md box-border bg-gohan shadow-moon-lg z-10 absolute',
+        'overflow-y-auto focus:outline-none',
+        className
+      )}
+      {...rest}
+    >
+      {children}
+    </HeadlessCombobox.Options>
   );
 };
 
 const Option = ({ children, value }: OptionProps) => {
   return (
-    <ComboboxHeadlessUI.Option as="span" value={value}>
+    <HeadlessCombobox.Option as="span" value={value}>
       {({ selected, disabled, active }) =>
         typeof children === 'function'
-        ? children({ selected, disabled, active })
-        : children
+          ? children({ selected, disabled, active })
+          : children
       }
-    </ComboboxHeadlessUI.Option>
+    </HeadlessCombobox.Option>
   );
 };
 
@@ -287,11 +291,11 @@ const Counter = ({
         idDisabled={disabled}
         {...rest}
       >
-      <SelectButton.Value>
-        <SelectButton.Chip onClear={onClear}>
-          {counter}
-        </SelectButton.Chip>
-      </SelectButton.Value>
+        <SelectButton.Value>
+          <SelectButton.Chip onClear={onClear}>
+            {counter}
+          </SelectButton.Chip>
+        </SelectButton.Value>
       </SelectButton>
     </span>
   );
@@ -304,7 +308,7 @@ const Transition = ({
 }: WithChildren<{ onQueryChange: (value: string) => void }>) => {
 
   return (
-    <TransitionHeadlessUI
+    <HeadlessTransition
       as={'div'}
       leave='transition ease-in duration-100'
       leaveFrom='opacity-100'
@@ -313,7 +317,7 @@ const Transition = ({
       {...rest}
     >
       {children}
-    </TransitionHeadlessUI>
+    </HeadlessTransition>
   );
 }
 

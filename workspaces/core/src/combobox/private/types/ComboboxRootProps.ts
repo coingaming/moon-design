@@ -2,7 +2,7 @@ import InputValue from "./InputValue";
 import Placement from "./Placement";
 import type { Size } from "./size";
 
-interface ComboboxRootProps
+export interface ComboboxRootProps
   extends Omit<
     React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>,
     'children' | 'ref'
@@ -21,7 +21,5 @@ interface ComboboxRootProps
   position?: Placement;
   children?: React.ReactNode | ((data: { open?: boolean }) => React.ReactNode);
   placeholder?: string;
-  ref?: React.Ref<React.ElementType>;
+  ref?: React.Ref<HTMLElement>;
 }
-
-export default ComboboxRootProps;

@@ -11,7 +11,7 @@ const people = [
   { id: 6, label: 'Hellen Schmidt', value: 'Hellen Schmidt' },
 ];
 
-const filter = (query: string, people: ({} & {label: string, value: string})[]) => {
+const filter = (query: string, people: ({ id: number, label: string, value: string })[]) => {
   return query === ''
     ? people
     : people.filter(({ value }) =>
