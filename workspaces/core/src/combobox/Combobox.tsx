@@ -221,8 +221,7 @@ const Button = ({
     <HeadlessCombobox.Button
       className={mergeClassnames(
         'w-6 h-6',
-        size === 'sm' ? 'text-moon-16' : 'text-moon-24',
-        size === 'sm' && 'w-4 h-4',
+        size === 'sm' ? 'w-4 h-4 text-moon-16' : 'text-moon-24',
         open && '-rotate-180',
         'text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center',
         disabled && 'cursor-not-allowed',
