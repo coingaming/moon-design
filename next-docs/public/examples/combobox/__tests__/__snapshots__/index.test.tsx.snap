@@ -593,7 +593,7 @@ exports[`Select in Dark Theme renders MultiSelect 1`] = `
       <button
         aria-expanded={false}
         aria-haspopup="listbox"
-        className="text-moon-16 w-4 h-4 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
+        className="w-4 h-4 text-moon-16 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
         data-headlessui-state=""
         disabled={false}
         id="headlessui-combobox-button-:r2m:"
@@ -807,7 +807,7 @@ exports[`Select in Dark Theme renders Select 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup="listbox"
-          className="text-moon-16 w-4 h-4 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
+          className="w-4 h-4 text-moon-16 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
           data-headlessui-state=""
           disabled={false}
           id="headlessui-combobox-button-:r32:"
@@ -1830,7 +1830,7 @@ exports[`Select in Light Theme renders MultiSelect 1`] = `
       <button
         aria-expanded={false}
         aria-haspopup="listbox"
-        className="text-moon-16 w-4 h-4 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
+        className="w-4 h-4 text-moon-16 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
         data-headlessui-state=""
         disabled={false}
         id="headlessui-combobox-button-:rp:"
@@ -2044,7 +2044,7 @@ exports[`Select in Light Theme renders Select 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup="listbox"
-          className="text-moon-16 w-4 h-4 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
+          className="w-4 h-4 text-moon-16 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
           data-headlessui-state=""
           disabled={false}
           id="headlessui-combobox-button-:r15:"
@@ -3086,7 +3086,7 @@ exports[`Select in RTL renders MultiSelect 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup="listbox"
-          className="text-moon-16 w-4 h-4 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
+          className="w-4 h-4 text-moon-16 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
           data-headlessui-state=""
           disabled={false}
           id="headlessui-combobox-button-:r4j:"
@@ -3304,7 +3304,7 @@ exports[`Select in RTL renders Select 1`] = `
           <button
             aria-expanded={false}
             aria-haspopup="listbox"
-            className="text-moon-16 w-4 h-4 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
+            className="w-4 h-4 text-moon-16 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
             data-headlessui-state=""
             disabled={false}
             id="headlessui-combobox-button-:r4v:"
