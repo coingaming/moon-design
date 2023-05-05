@@ -54,11 +54,11 @@ const components = [
     href: '/components/chip',
     text: 'Chips help filter content, or trigger actions.',
   },
-  // {
-  //   name: 'Combobox',
-  //   href: '/components/combobox',
-  //   text: 'An input that behaves similarly to a select, with the addition of a free text input to filter options.',
-  // },
+  {
+    name: 'Combobox',
+    href: '/components/combobox',
+    text: 'In these examples we will keep the logic simple for demo purposes.',
+  },
   {
     name: 'Drawer',
     href: '/components/drawer',

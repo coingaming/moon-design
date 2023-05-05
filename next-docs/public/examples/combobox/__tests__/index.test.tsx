@@ -2,59 +2,122 @@
  * @jest-environment jsdom
  */
 
-import { cleanup, render } from '@testing-library/react';
-import Disabled from '../Disabled';
-import Error from '../Error';
-import Options from '../Options';
-import WithLabel from '../WithLabel';
-import WithoutLabel from '../WithoutLabel';
+import React from 'react';
+import renderer from 'react-test-renderer';
+import {
+  moonDesignDark,
+  moonDesignLight,
+  ThemeProvider,
+} from '@heathmont/moon-themes';
+import Default from '../Default';
+import InsetMultiSelect from '../InsetMultiSelect';
+import InsetSelect from '../InsetSelect';
+import InsetSelectStates from '../InsetSelectStates';
+import MultiSelect from '../MultiSelect';
+import Select from '../Select';
+import SelectStates from '../SelectStates';
 
-const withRtl = (component: JSX.Element) => <div dir="rtl">{component}</div>;
+const renderWithLightTheme = (component: JSX.Element) => (
+  <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
+);
 
-describe('Combobox', () => {
-  afterEach(cleanup);
-  it('renders WithLabel', () => {
-    const tree = render(<WithLabel />);
-    expect(tree).toMatchSnapshot();
+const renderWithDarkTheme = (component: JSX.Element) => (
+  <ThemeProvider theme={moonDesignDark}>{component}</ThemeProvider>
+);
+
+const renderWithRtl = (component: JSX.Element) => (
+  <div dir="rtl">{component}</div>
+);
+
+describe('Select in Light Theme', () => {
+  it('renders Default', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<Default />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders WithoutLabel', () => {
-    const tree = render(<WithoutLabel />);
-    expect(tree).toMatchSnapshot();
+  it('renders InsetMultiSelect', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<InsetMultiSelect />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders Disabled', () => {
-    const tree = render(<Disabled />);
-    expect(tree).toMatchSnapshot();
+  it('renders InsetSelect', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<InsetSelect />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders Error', () => {
-    const tree = render(<Error />);
-    expect(tree).toMatchSnapshot();
+  it('renders InsetSelectStates', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<InsetSelectStates />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders Options', () => {
-    const tree = render(<Options />);
-    expect(tree).toMatchSnapshot();
+  it('renders MultiSelect', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<MultiSelect />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Select', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<Select />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders SelectStates', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<SelectStates />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });
 
-describe('Combobox in RTL', () => {
-  afterEach(cleanup);
-  it('renders WithLabel', () => {
-    const tree = render(withRtl(<WithLabel />));
-    expect(tree).toMatchSnapshot();
+describe('Select in Dark Theme', () => {
+  it('renders Default', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<Default />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders WithoutLabel', () => {
-    const tree = render(withRtl(<WithoutLabel />));
-    expect(tree).toMatchSnapshot();
+  it('renders InsetMultiSelect', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<InsetMultiSelect />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders Disabled', () => {
-    const tree = render(withRtl(<Disabled />));
-    expect(tree).toMatchSnapshot();
+  it('renders InsetSelect', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<InsetSelect />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders Error', () => {
-    const tree = render(withRtl(<Error />));
-    expect(tree).toMatchSnapshot();
+  it('renders InsetSelectStates', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<InsetSelectStates />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders Options', () => {
-    const tree = render(withRtl(<Options />));
-    expect(tree).toMatchSnapshot();
+  it('renders MultiSelect', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<MultiSelect />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Select', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<Select />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders SelectStates', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<SelectStates />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+});
+
+describe('Select in RTL', () => {
+  it('renders Default', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Default />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders InsetMultiSelect', () => {
+    const testRenderer = renderer.create(renderWithRtl(<InsetMultiSelect />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders InsetSelect', () => {
+    const testRenderer = renderer.create(renderWithRtl(<InsetSelect />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders InsetSelectStates', () => {
+    const testRenderer = renderer.create(renderWithRtl(<InsetSelectStates />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders MultiSelect', () => {
+    const testRenderer = renderer.create(renderWithRtl(<MultiSelect />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Select', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Select />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders SelectStates', () => {
+    const testRenderer = renderer.create(renderWithRtl(<SelectStates />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });

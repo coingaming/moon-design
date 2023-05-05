@@ -1,5 +1,11 @@
 # Change Log
 
+## 9.32.0
+
+### Minor Changes
+
+- Add Combobox
+
 ## 9.31.1
 
 ### Patch Changes
