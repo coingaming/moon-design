@@ -25,7 +25,7 @@ const ComponentPageDescription: React.FC<Props> = ({
   const isLabelsVisible =
     isDeprecated || isInProgress || isAriaSupport || isRtlSupport;
   return (
-    <div className="flex flex-col gap-4 lg:flex-row">
+    <div className="flex flex-col gap-4 lg:flex-row items-start">
       <div className="flex flex-col gap-12 lg:basis-1/2">
         <div className="flex flex-col gap-2">
           <h1 className="font-medium text-moon-32">{title}</h1>
