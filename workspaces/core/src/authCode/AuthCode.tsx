@@ -213,7 +213,17 @@ const AuthCode = forwardRef<AuthCodeRef, AuthCodeProps>(
       );
     }
 
-    return <div className={mergeClassnames('flex flex-row gap-4', stretch && 'justify-between' , containerClassName)}>{inputs}</div>;
+    return (
+      <div
+        className={mergeClassnames(
+          'flex flex-row gap-4',
+          stretch && 'justify-between' ,
+          containerClassName
+        )}
+      >
+        {inputs}
+      </div>
+    );
   }
 );
 
