@@ -28,7 +28,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
           <Header openSidebar={openSidebar} />
           <main className="flex flex-col flex-1 relative focus:outline-none">
             <Settings />
-            <div className="flex flex-col gap-12">{children}</div>
+            <div className="flex flex-col gap-12 min-h-full">{children}</div>
           </main>
           <Footer />
         </div>
