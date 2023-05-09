@@ -9,15 +9,15 @@ const Example = () => (
       onChange={(value: string) => {
         console.log('** EXAMPLE - New value - ', value);
       }}
-      onSubmit={(value: string) => {
+      /*onSubmit={(value: string) => {
         console.log('** EXAMPLE - Submit value - ', value);
-      }}
+      }}*/
     />
     <AuthCode
       length={4}
       stretch={true}
       onChange={(value: string) => {}}
-      onSubmit={(value: string) => {}}
+      /*onSubmit={(value: string) => {}}*/
     />
   </div>
 );

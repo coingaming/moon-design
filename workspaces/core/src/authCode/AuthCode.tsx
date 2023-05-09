@@ -1,204 +1,220 @@
-import React, { useCallback, useEffect, useState } from 'react';
-import mergeClassnames from '../mergeClassnames/mergeClassnames';
-import TextInput from '../textInput/TextInput';
-import useDebounce from './private/useDebounce';
+import React, { forwardRef, useEffect, useImperativeHandle, useRef } from "react";
+import mergeClassnames from "../mergeClassnames/mergeClassnames";
 
-type AuthCodeProps = {
-  onSubmit?: (value: string) => unknown;
-  onChange?: (value: string) => unknown;
-  placeholder?: string;
-  errorMessage?: string;
-  onlyDigits?: boolean;
+const allowedCharactersValues = ['alpha', 'numeric', 'alphanumeric'] as const;
+
+export type AuthCodeProps = {
+  allowedCharacters?: typeof allowedCharactersValues[number];
+  ariaLabel?: string;
+  autoFocus?: boolean;
+  containerClassName?: string;
   stretch?: boolean;
+  disabled?: boolean;
+  inputClassName?: string;
+  isPassword?: boolean;
   length?: number;
-  'data-testid'?: string;
-  className?: string;
+  placeholder?: string;
+  onChange: (res: string) => void;
 };
 
-const inputRefs: any = {};
-const refPrefix = `input-ref-${Math.random()}-`;
+type InputMode = 'text' | 'numeric';
 
-const AuthCode: React.FC<AuthCodeProps> = ({
-  onSubmit,
-  onChange,
-  placeholder = '',
-  errorMessage = '',
-  onlyDigits = false,
-  stretch = false,
-  length = 6,
-  'data-testid': testId,
-  className,
-}) => {
-  /*
-   * authCodeParts stores values of all individual inputs as a single array value
-   */
-  const [authCodeParts, setAuthCodeParts] = useState<string[]>([]);
-  const [fastTypingCode, setFastTypingCode] = useState<string[]>([]);
-  const debouncedFastTypingCode = useDebounce(fastTypingCode, 250);
+type InputType = 'text' | 'tel' | 'password';
 
-  const checkKeyPress = useCallback(
-    (e: KeyboardEvent) => {
-      const { code } = e;
-      // When user presses delete or backspace remove the latest value
-      if (code === 'Backspace' || code === 'Delete') {
-        const filledValues = authCodeParts.filter(
-          (filledValue) => !!filledValue
-        );
+type InputProps = {
+  type: InputType;
+  inputMode: InputMode;
+  pattern: string;
+  min?: string;
+  max?: string;
+};
 
-        filledValues.pop();
+export type AuthCodeRef = {
+  focus: () => void;
+  clear: () => void;
+};
 
-        for (let i = filledValues.length; i < length; i++) {
-          filledValues.push('');
-        }
+const propsMap: { [key: string]: InputProps } = {
+  alpha: {
+    type: 'text',
+    inputMode: 'text',
+    pattern: '[a-zA-Z]{1}'
+  },
 
-        setAuthCodeParts(filledValues);
-        setFastTypingCode(filledValues.filter((value: string) => !!value));
-      }
+  alphanumeric: {
+    type: 'text',
+    inputMode: 'text',
+    pattern: '[a-zA-Z0-9]{1}'
+  },
+
+  numeric: {
+    type: 'tel',
+    inputMode: 'numeric',
+    pattern: '[0-9]{1}',
+    min: '0',
+    max: '9'
+  }
+};
+
+const AuthCode = forwardRef<AuthCodeRef, AuthCodeProps>(
+  (
+    {
+      allowedCharacters = 'alphanumeric',
+      ariaLabel,
+      autoFocus = true,
+      containerClassName,
+      stretch = false,
+      disabled,
+      inputClassName,
+      isPassword = false,
+      length = 6,
+      placeholder,
+      onChange
     },
-    [authCodeParts, length]
-  );
-
-  const handleInputChange = (val: string, index: number) => {
-    const numericRegEx = /^\d+$/;
-    const alphaNumericRegEx = /[a-z0-9]*/;
-
-    if (Number(val) < 0) return;
-    // When user pastes full value we want to fill out every input
-    if (
-      val?.length === length &&
-      ((onlyDigits && numericRegEx.test(val)) ||
-        (!onlyDigits && alphaNumericRegEx.test(val)))
-    ) {
-      return setAuthCodeParts(val.split(''));
-    }
-    // When user already typed 1 digit into this input
-    // Then goes back and types another one over the previous
-    // We want to keep only the last value and override the previous
-    if (val?.length > 1) {
-      val = val[val.length - 1];
+    ref
+  ) => {
+    if (isNaN(length) || length < 1) {
+      throw new Error('Length should be a number and greater than 0');
     }
 
-    if (
-      (onlyDigits && numericRegEx.test(val)) ||
-      (!onlyDigits && alphaNumericRegEx.test(val))
-    ) {
-      setAuthCodeParts((oldValue) =>
-        oldValue.map((e, i) => (i !== index ? e : val))
+    if (!allowedCharactersValues.some((value) => value === allowedCharacters)) {
+      throw new Error(
+        'Invalid value for allowedCharacters. Use alpha, numeric, or alphanumeric'
       );
     }
 
-    return true;
-  };
+    const inputsRef = useRef<Array<HTMLInputElement>>([]);
+    const inputProps = propsMap[allowedCharacters];
 
-  const handleFocus = () => {
-    const filledValues = authCodeParts.filter((filledValue) => !!filledValue);
-
-    if (
-      filledValues.length &&
-      inputRefs[`${refPrefix}${filledValues.length}`]
-    ) {
-      inputRefs[`${refPrefix}${filledValues.length}`].current?.focus();
-    } else {
-      inputRefs[`${refPrefix}0`].current?.focus();
-    }
-  };
-
-  useEffect(() => {
-    if (debouncedFastTypingCode?.length) {
-      debouncedFastTypingCode.forEach((prevVal, index) => {
-        if (prevVal?.length > 1) {
-          const newValues = prevVal.split('');
-
-          newValues.forEach((newVal, nwIndex) => {
-            handleInputChange(newVal, index + nwIndex);
-          });
+    useImperativeHandle(ref, () => ({
+      focus: () => {
+        if (inputsRef.current) {
+          inputsRef.current[0].focus();
         }
-      });
-    }
-  }, [debouncedFastTypingCode]);
-
-  useEffect(() => {
-    window.addEventListener('keydown', checkKeyPress);
-
-    return () => {
-      window.removeEventListener('keydown', checkKeyPress);
-    };
-  }, [checkKeyPress]);
-
-  useEffect(() => {
-    const filledValues = authCodeParts.filter((filledValue) => !!filledValue);
-
-    if (onChange) onChange(authCodeParts.join(''));
-    if (onSubmit && filledValues.length === length) {
-      onSubmit(filledValues.join(''));
-    }
-
-    setTimeout(() => {
-      handleFocus();
-    }, 100);
-  }, [authCodeParts]);
-
-  useEffect(() => {
-    const startValue: Array<string> = [];
-
-    // Depending on the length of AuthCode we generate initial empty-string values for every input
-    if (length) {
-      for (let i = 0; i < length; i++) {
-        inputRefs[`${refPrefix}${i}`] = React.createRef();
-        startValue.push('');
+      },
+      clear: () => {
+        if (inputsRef.current) {
+          for (let i = 0; i < inputsRef.current.length; i++) {
+            inputsRef.current[i].value = '';
+          }
+          inputsRef.current[0].focus();
+        }
+        sendResult();
       }
+    }));
 
-      setAuthCodeParts(startValue);
+    useEffect(() => {
+      if (autoFocus) {
+        inputsRef.current[0].focus();
+      }
+    }, []);
+
+    const sendResult = () => {
+      const res = inputsRef.current.map((input) => input.value).join('');
+      onChange && onChange(res);
+    };
+
+    const handleOnChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+      const {
+        target: { value, nextElementSibling }
+      } = e;
+      if (value.length > 1) {
+        e.target.value = value.charAt(0);
+        if (nextElementSibling !== null) {
+          (nextElementSibling as HTMLInputElement).focus();
+        }
+      } else {
+        if (value.match(inputProps.pattern)) {
+          if (nextElementSibling !== null) {
+            (nextElementSibling as HTMLInputElement).focus();
+          }
+        } else {
+          e.target.value = '';
+        }
+      }
+      sendResult();
+    };
+
+    const handleOnKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+      const { key } = e;
+      const target = e.target as HTMLInputElement;
+      if (key === 'Backspace') {
+        if (target.value === '') {
+          if (target.previousElementSibling !== null) {
+            const t = target.previousElementSibling as HTMLInputElement;
+            t.value = '';
+            t.focus();
+            e.preventDefault();
+          }
+        } else {
+          target.value = '';
+        }
+        sendResult();
+      }
+    };
+
+    const handleOnFocus = (e: React.FocusEvent<HTMLInputElement>) => {
+      e.target.select();
+    };
+
+    const handleOnPaste = (e: React.ClipboardEvent<HTMLInputElement>) => {
+      const pastedValue = e.clipboardData.getData('Text');
+
+      let currentInput = 0;
+
+      for (let i = 0; i < pastedValue.length; i++) {
+        const pastedCharacter = pastedValue.charAt(i);
+        const currentValue = inputsRef.current[currentInput].value;
+        if (pastedCharacter.match(inputProps.pattern)) {
+          if (!currentValue) {
+            inputsRef.current[currentInput].value = pastedCharacter;
+            if (inputsRef.current[currentInput].nextElementSibling !== null) {
+              (inputsRef.current[currentInput]
+                .nextElementSibling as HTMLInputElement).focus();
+              currentInput++;
+            }
+          }
+        }
+      }
+      sendResult();
+
+      e.preventDefault();
+    };
+
+    const inputs: JSX.Element[] = [];
+    for (let i = 0; i < length; i++) {
+      inputs.push(
+        <input
+          key={i}
+          onChange={handleOnChange}
+          onKeyDown={handleOnKeyDown}
+          onFocus={handleOnFocus}
+          onPaste={handleOnPaste}
+          {...inputProps}
+          type={isPassword ? 'password' : inputProps.type}
+          ref={(el: HTMLInputElement) => {
+            inputsRef.current[i] = el;
+          }}
+          maxLength={1}
+          className={mergeClassnames(
+            'block max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] w-12 mx-1 text-center text-moon-20',
+            stretch && 'grow',
+            inputClassName
+          )}
+          autoComplete={i === 0 ? 'one-time-code' : 'off'}
+          aria-label={
+            ariaLabel
+              ? `${ariaLabel}. Character ${i + 1}.`
+              : `Character ${i + 1}.`
+          }
+          disabled={disabled}
+          placeholder={placeholder}
+        />
+      );
     }
-  }, []);
 
-  return (
-    // <Container dir={dir} errorState={!!errorMessage} stretch={stretch}>
-    <div className={mergeClassnames('grid gap-4', className)}>
-      <div
-        data-testid={testId}
-        className={`flex flex-row w-full ${
-          stretch ? 'justify-between' : 'justify-center'
-        }`}
-      >
-        {authCodeParts.map((value, i) => (
-          <div
-            key={`auth-code-input-${i}`}
-            className="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-          >
-            <TextInput
-              id={`auth-code-part-${i}`}
-              value={onlyDigits && value ? Number(value) : value}
-              placeholder={placeholder}
-              ref={inputRefs[`${refPrefix}${i}`]}
-              inputSize="xl"
-              onChange={(ev: any) => {
-                const newPrevCodeParts = [...fastTypingCode];
-                newPrevCodeParts[i] = ev.target.value;
-                setFastTypingCode(newPrevCodeParts);
-                handleInputChange(ev.target.value, i);
-              }}
-              // Disabled if the previous input doesn't have value or if the following input has value
-              disabled={
-                (!!i && !authCodeParts[i - 1]) || !!authCodeParts[i + 1]
-              }
-              isError={!!errorMessage}
-              type="text"
-              maxLength={length}
-              inputMode={onlyDigits ? 'numeric' : 'text'}
-              pattern={onlyDigits && authCodeParts[i] ? '[0-9]*' : '[a-z0-9]*'}
-            />
-          </div>
-        ))}
-      </div>
-      {!!errorMessage && (
-        <div className="px-2" data-testid={`${testId}-error`}>
-          <p className="text-moon-12 text-chichi">{errorMessage}</p>
-        </div>
-      )}
-    </div>
-  );
-};
+    return <div className={mergeClassnames('flex flex-row gap-4', stretch && 'justify-between' , containerClassName)}>{inputs}</div>;
+  }
+);
 
-export type { AuthCodeProps };
 export default AuthCode;

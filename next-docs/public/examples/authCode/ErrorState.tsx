@@ -6,10 +6,10 @@ const Example = () => (
     onChange={(value: string) => {
       console.log('New value - ', value);
     }}
-    onSubmit={(value: string) => {
+/*    onSubmit={(value: string) => {
       console.log('Submit value - ', value);
     }}
-    errorMessage="Provided value is not valid!"
+    errorMessage="Provided value is not valid!" */
   />
 );
 
