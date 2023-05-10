@@ -57,7 +57,7 @@ const components = [
   {
     name: 'Combobox',
     href: '/components/combobox',
-    text: 'In these examples we will keep the logic simple for demo purposes.',
+    text: 'An input that behaves similarly to a select, with the addition of a free text input to filter options.',
   },
   {
     name: 'Drawer',
@@ -189,6 +189,6 @@ const components = [
     href: '/components/tooltip',
     text: 'A means of displaying a description or extra information about an element, usually on hover, but can also be on click or tap.',
   },
-];
+] as const;
 
 export default components;

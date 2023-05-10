@@ -13,7 +13,7 @@ const Example = () => {
   const { name, text, image } = getComponent('Form');
   return (
     <>
-      <ComponentPageDescription title={name} image={image} isInProgress>
+      <ComponentPageDescription title={name} image={image}>
         <p>{text}</p>
         <p>
           You can set the size prop for Form and this size will be applied to

@@ -14,12 +14,7 @@ const Example = () => {
 
   return (
     <>
-      <ComponentPageDescription
-        title={name}
-        image={image}
-        isInProgress
-        isRtlSupport
-      >
+      <ComponentPageDescription title={name} image={image} isRtlSupport>
         <p>{text}</p>
         <p>
           Also the name for the interface component used for navigating between

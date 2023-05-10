@@ -21,7 +21,6 @@ const Example = () => {
       <ComponentPageDescription
         title={name}
         image={image}
-        isInProgress
         isRtlSupport
         isAriaSupport
       >
