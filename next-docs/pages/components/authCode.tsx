@@ -54,20 +54,52 @@ const PageAuthCodeGroup = () => {
             description: 'Number of inputs for inserting single values.',
           },
           {
-            name: 'onlyDigits',
-            type: 'boolean',
+            name: 'allowedCharacters',
+            type: 'alphanumeric | numeric | alpha',
             required: false,
             default: 'false',
             description:
-              'If true, inputs would allow only digit values. Default is alphanumeric.',
+              'Specifies the type of input characters. Default is alphanumeric.',
           },
+          /* {
+            name: 'autoFocus',
+            type: 'boolean',
+            required: false,
+            default: 'true',
+            description:
+              'If true, inputs automatically accept the keyboard focus on data input.',
+          }, */
           {
             name: 'stretch',
             type: 'boolean',
             required: false,
             default: 'false',
             description:
-              'If true, inputs would get streched to fill the available width',
+              'If true, inputs would get streched to fill the available width.',
+          },
+          {
+            name: 'expandable',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description:
+              'Defines whether or not the input cells can be stretched to fill the available space between them in the stretchable Auth code component. Matters only with the "stertch" parameter is being set to true.',
+          },
+          {
+            name: 'isPassword',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description:
+              'If true, inputs display entered values as password masking symbols.',
+          },
+          {
+            name: 'disabled',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description:
+              'If true, disables whole Auth code component.',
           },
           {
             name: 'placeholder',
@@ -87,18 +119,42 @@ const PageAuthCodeGroup = () => {
           {
             name: 'onChange',
             type: 'function',
-            required: false,
-            default: '-',
+            required: true,
+            default: '(value: string) => {}',
             description:
               'Callback function that gets triggered on single value change.',
           },
           {
-            name: 'onSubmit',
-            type: 'function',
+            name: 'inputSize',
+            type: 'sm | md | lg | xl',
+            required: false,
+            default: 'lg',
+            description:
+              'Specifies the size of input characters. Default value is "lg".',
+          },
+          {
+            name: 'inputClassName',
+            type: 'string',
             required: false,
             default: '-',
             description:
-              'Callback function that gets triggered when all single values are entered.',
+              'Specifies the extra styles for input elements.',
+          },
+          {
+            name: 'containerClassName',
+            type: 'string',
+            required: false,
+            default: '-',
+            description:
+              'Specifies the extra styles for the container that wraps the set of input elements.',
+          },
+          {
+            name: 'ariaLabel',
+            type: 'string',
+            required: false,
+            default: '-',
+            description:
+              'Specifies the common of the aria phrase for input elements.',
           },
         ]}
       />
