@@ -1,21 +1,8 @@
 import React, { forwardRef, useEffect, useImperativeHandle, useRef } from "react";
 import mergeClassnames from "../mergeClassnames/mergeClassnames";
-
-const allowedCharactersValues = ['alpha', 'numeric', 'alphanumeric'] as const;
-
-export type AuthCodeProps = {
-  allowedCharacters?: typeof allowedCharactersValues[number];
-  ariaLabel?: string;
-  autoFocus?: boolean;
-  containerClassName?: string;
-  stretch?: boolean;
-  disabled?: boolean;
-  inputClassName?: string;
-  isPassword?: boolean;
-  length?: number;
-  placeholder?: string;
-  onChange: (res: string) => void;
-};
+import { AuthCodeProps, allowedCharactersValues } from "./private/types/AuthCodeProps";
+import { AuthCodeRef } from "./private/types/AuthCodeTypes";
+import getInputSizes from "./private/utils/getInputSizes";
 
 type InputMode = 'text' | 'numeric';
 
@@ -29,22 +16,17 @@ type InputProps = {
   max?: string;
 };
 
-export type AuthCodeRef = {
-  focus: () => void;
-  clear: () => void;
-};
-
 const propsMap: { [key: string]: InputProps } = {
   alpha: {
     type: 'text',
     inputMode: 'text',
-    pattern: '[a-zA-Z]{1}'
+    pattern: '[\\w]{1}'
   },
 
   alphanumeric: {
     type: 'text',
     inputMode: 'text',
-    pattern: '[a-zA-Z0-9]{1}'
+    pattern: '[\\w\\d]{1}'
   },
 
   numeric: {
@@ -64,12 +46,15 @@ const AuthCode = forwardRef<AuthCodeRef, AuthCodeProps>(
       autoFocus = true,
       containerClassName,
       stretch = false,
+      expandable = false,
       disabled,
       inputClassName,
+      inputSize = 'lg',
       isPassword = false,
       length = 6,
       placeholder,
-      onChange
+      onChange,
+      errorMessage = '',
     },
     ref
   ) => {
@@ -197,8 +182,13 @@ const AuthCode = forwardRef<AuthCodeRef, AuthCodeProps>(
           }}
           maxLength={1}
           className={mergeClassnames(
-            'block max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] w-12 mx-1 text-center text-moon-20',
-            stretch && 'grow',
+            getInputSizes(inputSize),
+            'm-0 py-3 px-4 appearance-none text-bulma box-border text-center',
+            'shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none',
+            'focus-visible::shadow-input-focus focus-visible::outline-none',
+            !!errorMessage && ' text-chichi shadow-input-err hover:shadow-input-err focus:shadow-input-err',
+            stretch && 'flex',
+            stretch && expandable && 'grow',
             inputClassName
           )}
           autoComplete={i === 0 ? 'one-time-code' : 'off'}
@@ -216,12 +206,24 @@ const AuthCode = forwardRef<AuthCodeRef, AuthCodeProps>(
     return (
       <div
         className={mergeClassnames(
-          'flex flex-row gap-4',
-          stretch && 'justify-between' ,
-          containerClassName
+          'flex flex-col justify-between items-stretch gap-y-2'
         )}
       >
-        {inputs}
+        <div
+          className={mergeClassnames(
+            'flex flex-row justify-center gap-2',
+            stretch && 'justify-between',
+            containerClassName
+          )}
+        >
+          {inputs}
+        </div>
+        { !!errorMessage && (<div className='px-2 text-center'>
+            <p className="text-moon-12 text-chichi">
+              {errorMessage}
+            </p>
+          </div>
+        )}
       </div>
     );
   }
