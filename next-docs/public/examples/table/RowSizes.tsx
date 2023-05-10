@@ -48,7 +48,6 @@ const Example = () => {
 
   return (
     <>
-      <Table columns={columns} data={data} rowSize="2xs" />
       <Table columns={columns} data={data} rowSize="xs" />
       <Table columns={columns} data={data} rowSize="sm" />
       <Table columns={columns} data={data} />

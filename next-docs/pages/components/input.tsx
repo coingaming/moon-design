@@ -22,6 +22,7 @@ const Example = () => {
           with other inputs such as number entry, date picker, etc.
         </p>
       </ComponentPageDescription>
+
       <Preview
         title="Default"
         preview={<Default />}

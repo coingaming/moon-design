@@ -14,6 +14,7 @@ import {
   HeaderGroup,
   UseResizeColumnsColumnProps,
   UseSortByColumnProps,
+  TableOptions,
 } from 'react-table';
 import { useSticky } from 'react-table-sticky';
 import Body from '../components/Body';
@@ -38,6 +39,7 @@ export type RowSubComponentProps<D extends object = {}> = {
   row: Row<D>;
   backgroundColor: string;
 };
+
 export type TableProps<D extends object = {}> = {
   columns: ReadonlyArray<Column<D>>;
   data: readonly D[];
@@ -64,6 +66,7 @@ export type TableProps<D extends object = {}> = {
   renderRowSubComponent?: (props: RowSubComponentProps) => JSX.Element;
   getOnRowClickHandler?: (row: Row<D>) => (row: Row<D>) => void | (() => void);
   getOnRowSelect?: () => (rows: Row<D>[]) => void | (() => void);
+  updateMyData?: <T extends {}>(t: T) => void;
 };
 
 const Table: React.FC<TableProps> = ({
@@ -92,6 +95,7 @@ const Table: React.FC<TableProps> = ({
   renderRowSubComponent,
   getOnRowClickHandler,
   getOnRowSelect,
+  updateMyData,
 }) => {
   const plugins = [
     layout === 'block' ? useBlockLayout : useFlexLayout,
@@ -117,7 +121,8 @@ const Table: React.FC<TableProps> = ({
       columns,
       data,
       defaultColumn,
-    },
+      updateMyData,
+    } as TableOptions<object>,
     ...plugins
   ) as TableInstance<object> & {
     toggleAllRowsExpanded: (isExpanded?: boolean) => void;
