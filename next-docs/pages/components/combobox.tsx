@@ -18,17 +18,8 @@ const Example = () => {
   const { name, text, image } = getComponent('Combobox');
   return (
     <>
-      <ComponentPageDescription  title={name} image={image} isRtlSupport isInProgress>
-        <p>
-          The Combobox is&nbsp;an&nbsp;editable textbox, allowing the user to&nbsp;either
-          type a&nbsp;value directly or&nbsp;select a&nbsp;value from the list. You are
-          completely in&nbsp;charge of&nbsp;how you filter the results, whether
-          it&nbsp;be&nbsp;with a&nbsp;fuzzy search library client-side or&nbsp;by&nbsp;making
-          server-side requests to&nbsp;an&nbsp;API.
-        </p>
-        <p>
-          {text}
-        </p>
+      <ComponentPageDescription title={name} image={image} isRtlSupport>
+        <p>{text}</p>
         <p>
           Based on{' '}
           <a
@@ -59,7 +50,7 @@ const Example = () => {
         code={examples ? examples.Default : 'Loading'}
       />
 
-    <ComponentAnatomy>
+      <ComponentAnatomy>
         {`<Combobox>
   <Combobox.Select>...</Combobox.Select>
   <Combobox.Options>
@@ -157,14 +148,16 @@ const Example = () => {
             type: '(value: string) => void',
             required: true,
             default: '-',
-            description: 'The function to call when the filter query is changing.',
+            description:
+              'The function to call when the filter query is changing.',
           },
           {
             name: 'onClear',
             type: '() => void',
             required: false,
             default: '-',
-            description: 'The function to call when the selected options at MultiSelect Combobox type are being cleared.',
+            description:
+              'The function to call when the selected options at MultiSelect Combobox type are being cleared.',
           },
           {
             name: 'isError',
@@ -260,7 +253,8 @@ const Example = () => {
             type: '(value: string) => void',
             required: true,
             default: '-',
-            description: 'The function to call when the query filter is changing.',
+            description:
+              'The function to call when the query filter is changing.',
           },
           {
             name: 'displayValue',
@@ -390,7 +384,8 @@ const Example = () => {
             type: '(value: string) => void',
             required: true,
             default: '-',
-            description: 'The same function that is set in the Combobox component.',
+            description:
+              'The same function that is set in the Combobox component.',
           },
         ]}
       />
@@ -410,7 +405,8 @@ const Example = () => {
             type: '(value: string) => void',
             required: true,
             default: '-',
-            description: 'The function to call when the query filter is changing.',
+            description:
+              'The function to call when the query filter is changing.',
           },
           {
             name: 'displayValue',
@@ -438,8 +434,7 @@ const Example = () => {
             type: 'string',
             required: false,
             default: '-',
-            description:
-              'Tailwind classes for custom styles.',
+            description: 'Tailwind classes for custom styles.',
           },
           {
             name: 'Render Props: ',
@@ -473,7 +468,8 @@ const Example = () => {
             type: '(value: string) => void',
             required: true,
             default: '-',
-            description: 'The function to call when the query filter is changing.',
+            description:
+              'The function to call when the query filter is changing.',
           },
           {
             name: 'displayValue',
@@ -501,8 +497,7 @@ const Example = () => {
             type: 'string',
             required: false,
             default: '-',
-            description:
-              'Tailwind classes for custom styles.',
+            description: 'Tailwind classes for custom styles.',
           },
           {
             name: 'counter',
@@ -543,8 +538,7 @@ const Example = () => {
             type: 'string',
             required: false,
             default: '-',
-            description:
-              'Tailwind classes for custom styles.',
+            description: 'Tailwind classes for custom styles.',
           },
           {
             name: 'Render Props: ',
@@ -571,12 +565,10 @@ const Example = () => {
             type: 'string',
             required: false,
             default: '-',
-            description:
-              'Tailwind classes for custom styles.',
+            description: 'Tailwind classes for custom styles.',
           },
         ]}
       />
-
     </>
   );
 };

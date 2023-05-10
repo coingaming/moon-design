@@ -20,7 +20,7 @@ const Example = () => {
   const { name, text, image } = getComponent('Dropdown');
   return (
     <>
-      <ComponentPageDescription title={name} image={image} isInProgress>
+      <ComponentPageDescription title={name} image={image}>
         <p>{text}</p>
         <p>
           An option that's been selected can represent a corresponding value in

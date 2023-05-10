@@ -12,7 +12,7 @@ import useExamples from '../../utils/useExamples';
 
 const PageAuthCodeGroup = () => {
   const examples = useExamples('authCode');
-  const { name, text, image } = getComponent('AuthCode');
+  const { name, text, image } = getComponent('AuthCode' as any);
   return (
     <>
       <ComponentPageDescription title={name} image={image} isInProgress>

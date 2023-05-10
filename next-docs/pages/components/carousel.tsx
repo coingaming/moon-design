@@ -18,7 +18,7 @@ export default function PageCarousel() {
   const { name, text, image } = getComponent('Carousel');
   return (
     <>
-      <ComponentPageDescription title={name} image={image} isInProgress>
+      <ComponentPageDescription title={name} image={image}>
         <p>{text}</p>
         <p>
           It not only helps in saving screen space, but also encourages visitors

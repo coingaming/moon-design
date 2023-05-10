@@ -1,11 +1,11 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
+import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import CommandMenu from '../../public/examples/searchCmdk/CommandMenu';
 import useExamples from '../../utils/useExamples';
-import ComponentAnatomy from '../../components/ComponentAnatomy';
 
 const Example = () => {
   const examples = useExamples('searchCmdk');
@@ -63,7 +63,8 @@ const Example = () => {
             type: '(open: boolean) => void',
             required: true,
             default: '-',
-            description: 'The function to call when SearchCmdk is open or closed.',
+            description:
+              'The function to call when SearchCmdk is open or closed.',
           },
           {
             name: 'label',

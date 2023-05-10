@@ -1,8 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import getComponent from '../getComponent';
+import getComponent, { ComponentNames } from '../getComponent';
 
-const ComponentsPageCard = ({ title }: { title: string }) => {
+const ComponentsPageCard = ({ title }: { title: ComponentNames }) => {
   const { href, text, image } = getComponent(title);
   return (
     <Link href={href as string}>
