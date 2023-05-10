@@ -32,8 +32,6 @@ export { default as Drawer } from './drawer/Drawer';
 export * from './drawer/Drawer';
 export { default as Dropdown } from './dropdown/Dropdown';
 export * from './dropdown/Dropdown';
-export { default as Editable } from './editable/Editable';
-export * from './editable/Editable';
 export { default as Form } from './form/Form';
 export * from './form/Form';
 export { default as Group } from './group/Group';
