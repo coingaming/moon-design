@@ -1,4 +1,4 @@
-import { createContext, useContext, useState } from 'react';
+import { createContext, useContext, useEffect, useState } from 'react';
 
 const RtlContext = createContext({
   rtlEnabled: false,
@@ -8,12 +8,14 @@ const RtlContext = createContext({
 const RtlProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [rtlEnabled, setRtlEnabled] = useState(false);
   const toggleRtl = () => {
-    const htmlTag = document && document?.querySelectorAll('html')[0];
     setRtlEnabled(!rtlEnabled);
-    rtlEnabled
-      ? htmlTag.setAttribute('dir', 'ltr')
-      : htmlTag.setAttribute('dir', 'rtl');
   };
+  useEffect(() => {
+    const htmlTag = document && document?.querySelectorAll('html')[0];
+    rtlEnabled
+      ? htmlTag.setAttribute('dir', 'rtl')
+      : htmlTag.setAttribute('dir', 'ltr');
+  }, [rtlEnabled]);
   return (
     <RtlContext.Provider
       value={{

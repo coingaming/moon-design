@@ -1,11 +1,15 @@
 import { Tag } from '@heathmont/moon-core-tw';
+import dynamic from 'next/dynamic';
 import Contributors from '../components/facing/Contributors';
 import ForDesigners from '../components/facing/ForDesigners';
 import ForDevelopers from '../components/facing/ForDevelopers';
 import Future from '../components/facing/Future';
-import MoonAndEarthAnimation from '../components/facing/MoonAndEarth';
 import PageTitle from '../components/facing/PageTitle';
 import Updates from '../components/facing/Updates';
+
+const MoonAndEarthAnimation = dynamic(
+  () => import('../components/facing/MoonAndEarth')
+);
 
 const Home = () => (
   <>
