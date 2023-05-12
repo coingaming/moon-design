@@ -1,4 +1,4 @@
-import React, { forwardRef, useEffect, useImperativeHandle, useRef } from "react";
+import React, { forwardRef, useEffect, useImperativeHandle, useState, useRef } from "react";
 import mergeClassnames from "../mergeClassnames/mergeClassnames";
 import { AuthCodeProps, allowedCharactersValues } from "./private/types/AuthCodeProps";
 import { AuthCodeRef } from "./private/types/AuthCodeTypes";
