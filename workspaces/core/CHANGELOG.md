@@ -1,5 +1,11 @@
 # @heathmont/moon-core-tw
 
+## 9.32.1
+
+### Patch Changes
+
+- Remove in progress from some components
+
 ## 9.32.0
 
 ### Minor Changes
