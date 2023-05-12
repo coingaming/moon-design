@@ -49,7 +49,7 @@ const Example = () => {
   const { name, text, image } = getComponent('Icons');
   return (
     <>
-      <ComponentPageDescription title={name} image={image} isInProgress>
+      <ComponentPageDescription title={name} image={image}>
         <p>{text}</p>
       </ComponentPageDescription>
       <Preview

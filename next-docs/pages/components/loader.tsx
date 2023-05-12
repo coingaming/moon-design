@@ -13,7 +13,7 @@ const Example = () => {
   const { name, text, image } = getComponent('Loader');
   return (
     <>
-      <ComponentPageDescription title={name} image={image} isInProgress>
+      <ComponentPageDescription title={name} image={image}>
         <p>{text}</p>
       </ComponentPageDescription>
       <Preview

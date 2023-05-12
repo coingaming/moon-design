@@ -1,6 +1,8 @@
 import components from './components';
 
-const getComponent = (name: string) => {
+export type ComponentNames = typeof components[number]['name'];
+
+const getComponent = (name: ComponentNames) => {
   const component = components.find((component) => component.name === name);
   const image = `/components/${name.toLowerCase()}.png`;
   return {

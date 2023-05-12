@@ -10,6 +10,7 @@ import CustomColors from '../../public/examples/table/CustomColors';
 import CustomContent from '../../public/examples/table/CustomContent';
 import DeepTable from '../../public/examples/table/DeepTable';
 import Default from '../../public/examples/table/Default';
+import Editable from '../../public/examples/table/Editable';
 import ExpandedRow from '../../public/examples/table/ExpandedRow';
 import MiniMap from '../../public/examples/table/MiniMap';
 import RowGaps from '../../public/examples/table/RowGaps';
@@ -114,6 +115,11 @@ const Example = () => {
         preview={<Calendar />}
         code={examples ? examples.Calendar : 'Loading'}
       />
+      <Preview
+        title="Editable"
+        preview={<Editable />}
+        code={examples ? examples.Editable : 'Loading'}
+      />
       <PropsTable
         title="Table props"
         data={[
@@ -168,7 +174,7 @@ const Example = () => {
           },
           {
             name: 'rowSize',
-            type: '2xs | xs | sm | md | lg | xl | 2xl',
+            type: 'xs | sm | md | lg | xl | 2xl',
             required: false,
             default: 'md',
             description: 'Size of table rows',
@@ -193,6 +199,13 @@ const Example = () => {
             required: false,
             default: '-',
             description: 'Display table footer',
+          },
+          {
+            name: 'updateMyData',
+            type: '() => void;',
+            required: false,
+            default: '-',
+            description: 'When cell renderer calls updateMyData',
           },
         ]}
       />

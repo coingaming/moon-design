@@ -14,7 +14,7 @@ import useExamples from '../../utils/useExamples';
 
 const Example = () => {
   const examples = useExamples('select');
-  const { name, text, image } = getComponent('Select');
+  const { name, text, image } = getComponent('Select' as any);
   return (
     <>
       <ComponentPageDescription title={name} image={image} isDeprecated>

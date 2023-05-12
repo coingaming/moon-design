@@ -20,7 +20,7 @@ const Example = () => {
   const { name, text, image } = getComponent('MenuItem');
   return (
     <>
-      <ComponentPageDescription title={name} image={image} isInProgress>
+      <ComponentPageDescription title={name} image={image}>
         <p>{text}</p>
         <p>
           Menu item row heights can vary based on the amount of content in each

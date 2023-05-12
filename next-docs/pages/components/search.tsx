@@ -1,13 +1,12 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
+import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/search/Default';
 import NoTransition from '../../public/examples/search/NoTransition';
-
 import useExamples from '../../utils/useExamples';
-import ComponentAnatomy from '../../components/ComponentAnatomy';
 
 const Example = () => {
   const examples = useExamples('search');

@@ -15,13 +15,14 @@ const Example = () => {
   const { name, text, image } = getComponent('Input');
   return (
     <>
-      <ComponentPageDescription title={name} image={image} isInProgress>
+      <ComponentPageDescription title={name} image={image}>
         <p>{text}</p>
         <p>
           These types of input fields are used on their own, or in combination
           with other inputs such as number entry, date picker, etc.
         </p>
       </ComponentPageDescription>
+
       <Preview
         title="Default"
         preview={<Default />}

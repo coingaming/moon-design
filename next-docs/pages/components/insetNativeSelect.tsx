@@ -14,18 +14,18 @@ const Example = () => {
   const { name, text, image } = getComponent('InsetNativeSelect');
   return (
     <>
-      <ComponentPageDescription title={name} image={image} isInProgress>
+      <ComponentPageDescription title={name} image={image}>
         <p>{text}</p>
         <p>
           When collapsed it shows the currently selected option and when
           expanded, it shows a scrollable list of predefined options for the
           user to choose from. Moon.io supports two types of selects, one whichs
-          opens browser(s) native styling option list and{' '}
+          opens browser's native styling option list and{' '}
           <Link
             href="/core/dropdown"
             className="text-piccolo font-medium transition-colors duration-200 hover:text-hit visited:text-hit"
           >
-            “Custom Dropdown”
+            Dropdown
           </Link>
           .
         </p>

@@ -138,6 +138,7 @@ module.exports = {
           '0 0 0 var(--border-i-width) rgb(var(--bulma) / 7%) inset, 0 0 0 var(--border-i-width) rgb(var(--beerus)) inset',
         'input-err': '0 0 0 var(--border-i-width) rgb(var(--chichi)) inset',
         'input-focus': '0 0 0 var(--border-i-width) rgb(var(--piccolo)) inset',
+        'input-cell-focus': '0 0 0 var(--border-width) rgb(var(--bulma)) inset',
         'moon-xs': 'var(--shadow-xs)',
         'moon-sm': 'var(--shadow-sm)',
         'moon-md': 'var(--shadow-md)',

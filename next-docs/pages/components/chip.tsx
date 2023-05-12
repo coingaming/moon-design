@@ -17,12 +17,7 @@ const Example = () => {
   const { name, text, image } = getComponent('Chip');
   return (
     <>
-      <ComponentPageDescription
-        title={name}
-        image={image}
-        isInProgress
-        isRtlSupport
-      >
+      <ComponentPageDescription title={name} image={image} isRtlSupport>
         <p>{text}</p>
       </ComponentPageDescription>
       <Preview
