@@ -6,6 +6,7 @@ import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/authCode/Default';
 import ErrorState from '../../public/examples/authCode/ErrorState';
 import FourChars from '../../public/examples/authCode/FourChars';
+import ManualSubmit from '../../public/examples/authCode/ManualSubmit';
 import OnlyDigits from '../../public/examples/authCode/OnlyDigits';
 import Stretch from '../../public/examples/authCode/Stretch';
 import useExamples from '../../utils/useExamples';
@@ -22,6 +23,11 @@ const PageAuthCodeGroup = () => {
         title="Default"
         preview={<Default />}
         code={examples ? examples.Default : 'Loading'}
+      />
+      <Preview
+        title="Manual submit"
+        preview={<ManualSubmit />}
+        code={examples ? examples.ManualSubmit : 'Loading'}
       />
       <Preview
         title="Custom length"

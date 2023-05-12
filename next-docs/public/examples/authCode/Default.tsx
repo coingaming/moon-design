@@ -1,39 +1,31 @@
 import React from 'react';
-import { AuthCode, Button, Form } from '@heathmont/moon-core-tw';
+import { AuthCode, Form } from '@heathmont/moon-core-tw';
 import { Controller, useForm } from 'react-hook-form';
 
 const Example = () => {
-  const { control, handleSubmit, setError, formState: { errors } } = useForm({
+  const { control, handleSubmit, setError, formState: { isValid } } = useForm({
     defaultValues: {
       authCode: '',
     }
   });
 
   const onSubmit = ({ authCode }: { authCode: string }) => {
-    alert(`Code sent: "${authCode}"`)
+    if (isValid)
+      alert(`Code sent: "${authCode}"`);
   };
-/*
-  React.useEffect(() => {
-    setError("authCode", {
-      types: {
-        required: "This is a required field",
-        minLength: "Data length is less than required"
-      }
-    });
-  }, [setError]);
-*/
+
   return (
     <Form onSubmit={handleSubmit(onSubmit)} className='flex flex-col justify-between items-end gap-y-2'>
       <Controller
         name='authCode'
         control={control}
-        rules={{ minLength: 6, required: true }}
+        rules={{ required: true, minLength: 5 }}
         render={({ field }) => <AuthCode
             {...field}
-            errorMessage={errors.authCode?.message}
+            onChange={(value: string) => { onSubmit({ authCode: value }); field.onChange(value) }}
+            disabled={field.value.length === 6}
           />}
-        />
-      <Button as='button' type='submit' size='md'>Send code</Button>
+      />
     </Form>
   );
 }

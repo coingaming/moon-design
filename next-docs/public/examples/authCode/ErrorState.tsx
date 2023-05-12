@@ -1,11 +1,29 @@
 import React from 'react';
-import { AuthCode } from '@heathmont/moon-core-tw';
+import { AuthCode, Form } from '@heathmont/moon-core-tw';
+import { Controller, useForm } from 'react-hook-form';
 
-const Example = () => (
-  <AuthCode
-    onChange={(value: string) => {}}
-    errorMessage="Provided value is not valid!"
-  />
-);
+const Example = () => {
+  const { control, handleSubmit, setError, formState: { isValid } } = useForm({
+    defaultValues: {
+      authCode: '',
+    }
+  });
+
+  const onSubmit = () => {};
+
+  return (
+    <Form onSubmit={handleSubmit(onSubmit)} className='flex flex-col justify-between items-end gap-y-2'>
+      <Controller
+        name='authCode'
+        control={control}
+        rules={{ pattern: /[-]+/ }}
+        render={({ field }) => <AuthCode
+            {...field}
+            errorMessage={(!isValid && "Provided value is not valid!") as string}
+          />}
+      />
+    </Form>
+  );
+};
 
 export default Example;
