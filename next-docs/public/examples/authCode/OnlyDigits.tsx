@@ -12,7 +12,7 @@ const Example = () => {
   const codeLength = 5;
 
   const onSubmit = ({ authCode }: { authCode: string }) => {
-    if (isValid)
+    if (authCode.length === codeLength)
       alert(`Code sent: "${authCode}"`);
   };
 

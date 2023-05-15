@@ -12,7 +12,7 @@ const Example = () => {
   const codeLength = 4;
 
   const onSubmit = ({ authCode }: { authCode: string }) => {
-    if (isValid)
+    if (authCode.length === codeLength)
       alert(`Code sent: "${authCode}"`);
   };
 
@@ -21,7 +21,7 @@ const Example = () => {
       <Controller
         name='authCode'
         control={control}
-        rules={{ required: true, minLength: codeLength - 1 }}
+        /* rules={{ required: true, minLength: codeLength - 1 }} */
         render={({ field }) => <AuthCode
             {...field}
             length={codeLength}

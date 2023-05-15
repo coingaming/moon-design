@@ -19,12 +19,12 @@ const Example = () => {
   const codeLength2 = 4;
 
   const onSubmit1 = ({ authCode1 }: { authCode1: string }) => {
-    if (formReturn1.formState.isValid)
+    if (authCode1.length === codeLength1)
       alert(`Code sent: "${authCode1}"`)
   };
 
   const onSubmit2 = ({ authCode2 }: { authCode2: string }) => {
-    if (formReturn2.formState.isValid)
+    if (authCode2.length === codeLength2)
       alert(`Code sent: "${authCode2}"`)
   };
 
@@ -34,7 +34,7 @@ const Example = () => {
       <Controller
         name='authCode1'
         control={formReturn1.control}
-        rules={{ required: true, minLength: codeLength1 - 1 }}
+        /* rules={{ required: true, minLength: codeLength1 - 1 }} */
         render={({ field }) => <AuthCode
             {...field}
             length={codeLength1}
@@ -49,7 +49,7 @@ const Example = () => {
       <Controller
         name='authCode2'
         control={formReturn2.control}
-        rules={{ required: true, minLength: codeLength2 - 1 }}
+        /* rules={{ required: true, minLength: codeLength2 - 1 }} */
         render={({ field }) => <AuthCode
             {...field}
             length={codeLength2}

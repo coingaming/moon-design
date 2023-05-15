@@ -3,14 +3,14 @@ import { AuthCode, Form } from '@heathmont/moon-core-tw';
 import { Controller, useForm } from 'react-hook-form';
 
 const Example = () => {
-  const { control, handleSubmit, setError, formState: { isValid } } = useForm({
+  const { control, handleSubmit, /* formState: { isValid } */ } = useForm({
     defaultValues: {
       authCode: '',
     }
   });
 
   const onSubmit = ({ authCode }: { authCode: string }) => {
-    if (isValid)
+    if (authCode.length === 6)
       alert(`Code sent: "${authCode}"`);
   };
 
@@ -19,10 +19,10 @@ const Example = () => {
       <Controller
         name='authCode'
         control={control}
-        rules={{ required: true, minLength: 5 }}
+        /* rules={{ required: true, minLength: 5 }} */
         render={({ field }) => <AuthCode
             {...field}
-            onChange={(value: string) => { onSubmit({ authCode: value }); field.onChange(value) }}
+            onChange={(value: string) => { field.onChange(value); onSubmit({ authCode: value }); }}
             disabled={field.value.length === 6}
           />}
       />
