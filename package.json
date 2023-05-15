@@ -118,5 +118,8 @@
     "react-table": "7.8.0",
     "react-transition-group": "4.4.1",
     "scroll-into-view-if-needed": "2.2.31"
+  },
+  "dependencies": {
+    "@tanstack/react-table": "^8.9.1"
   }
 }
