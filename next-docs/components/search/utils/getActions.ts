@@ -34,8 +34,9 @@ const getAction = () => {
     }
   };
 
+  const components = [...component];
   mapNavigation(navigation);
-  mapNavigation(component, 'components');
+  mapNavigation(components, 'components');
 
   return actions;
 };
