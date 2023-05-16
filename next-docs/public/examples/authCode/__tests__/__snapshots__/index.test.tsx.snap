@@ -12,82 +12,6 @@ Object {
           class="flex flex-col justify-between items-end gap-y-2"
         >
           <div
-            class="flex flex-col justify-between items-stretch gap-y-2"
-          >
-            <div
-              class="flex flex-row justify-center gap-2"
-            >
-              <input
-                aria-label="Character 1."
-                autocomplete="one-time-code"
-                class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-                inputmode="text"
-                maxlength="1"
-                pattern="[\\\\w\\\\d]{1}"
-                type="text"
-              />
-              <input
-                aria-label="Character 2."
-                autocomplete="off"
-                class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-                inputmode="text"
-                maxlength="1"
-                pattern="[\\\\w\\\\d]{1}"
-                type="text"
-              />
-              <input
-                aria-label="Character 3."
-                autocomplete="off"
-                class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-                inputmode="text"
-                maxlength="1"
-                pattern="[\\\\w\\\\d]{1}"
-                type="text"
-              />
-              <input
-                aria-label="Character 4."
-                autocomplete="off"
-                class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-                inputmode="text"
-                maxlength="1"
-                pattern="[\\\\w\\\\d]{1}"
-                type="text"
-              />
-              <input
-                aria-label="Character 5."
-                autocomplete="off"
-                class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-                inputmode="text"
-                maxlength="1"
-                pattern="[\\\\w\\\\d]{1}"
-                type="text"
-              />
-              <input
-                aria-label="Character 6."
-                autocomplete="off"
-                class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-                inputmode="text"
-                maxlength="1"
-                pattern="[\\\\w\\\\d]{1}"
-                type="text"
-              />
-            </div>
-          </div>
-        </form>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      dir="rtl"
-    >
-      <form
-        class="flex flex-col justify-between items-end gap-y-2"
-      >
-        <div
-          class="flex flex-col justify-between items-stretch gap-y-2"
-        >
-          <div
             class="flex flex-row justify-center gap-2"
           >
             <input
@@ -145,6 +69,74 @@ Object {
               type="text"
             />
           </div>
+        </form>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <form
+        class="flex flex-col justify-between items-end gap-y-2"
+      >
+        <div
+          class="flex flex-row justify-center gap-2"
+        >
+          <input
+            aria-label="Character 1."
+            autocomplete="one-time-code"
+            class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
+          <input
+            aria-label="Character 2."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
+          <input
+            aria-label="Character 3."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
+          <input
+            aria-label="Character 4."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
+          <input
+            aria-label="Character 5."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
+          <input
+            aria-label="Character 6."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
         </div>
       </form>
     </div>
@@ -212,10 +204,10 @@ Object {
         dir="rtl"
       >
         <form
-          class="flex flex-col justify-between items-end gap-y-2"
+          class="flex flex-col justify-between gap-y-2"
         >
           <div
-            class="flex flex-col justify-between items-stretch gap-y-2"
+            class="flex flex-col gap-2"
           >
             <div
               class="flex flex-row justify-center gap-2"
@@ -275,15 +267,10 @@ Object {
                 type="text"
               />
             </div>
-            <div
-              class="px-2 text-center"
-            >
-              <p
-                class="text-moon-12 text-chichi"
-              >
-                Provided value is not valid!
-              </p>
-            </div>
+            <p
+              class="inline-block mt-2 ps-4 text-moon-12 text-chichi !p-0"
+              role="alert"
+            />
           </div>
         </form>
       </div>
@@ -294,10 +281,10 @@ Object {
       dir="rtl"
     >
       <form
-        class="flex flex-col justify-between items-end gap-y-2"
+        class="flex flex-col justify-between gap-y-2"
       >
         <div
-          class="flex flex-col justify-between items-stretch gap-y-2"
+          class="flex flex-col gap-2"
         >
           <div
             class="flex flex-row justify-center gap-2"
@@ -357,15 +344,10 @@ Object {
               type="text"
             />
           </div>
-          <div
-            class="px-2 text-center"
-          >
-            <p
-              class="text-moon-12 text-chichi"
-            >
-              Provided value is not valid!
-            </p>
-          </div>
+          <p
+            class="inline-block mt-2 ps-4 text-moon-12 text-chichi !p-0"
+            role="alert"
+          />
         </div>
       </form>
     </div>
@@ -436,64 +418,6 @@ Object {
           class="flex flex-col justify-between items-end gap-y-2"
         >
           <div
-            class="flex flex-col justify-between items-stretch gap-y-2"
-          >
-            <div
-              class="flex flex-row justify-center gap-2"
-            >
-              <input
-                aria-label="Character 1."
-                autocomplete="one-time-code"
-                class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-                inputmode="text"
-                maxlength="1"
-                pattern="[\\\\w\\\\d]{1}"
-                type="text"
-              />
-              <input
-                aria-label="Character 2."
-                autocomplete="off"
-                class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-                inputmode="text"
-                maxlength="1"
-                pattern="[\\\\w\\\\d]{1}"
-                type="text"
-              />
-              <input
-                aria-label="Character 3."
-                autocomplete="off"
-                class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-                inputmode="text"
-                maxlength="1"
-                pattern="[\\\\w\\\\d]{1}"
-                type="text"
-              />
-              <input
-                aria-label="Character 4."
-                autocomplete="off"
-                class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-                inputmode="text"
-                maxlength="1"
-                pattern="[\\\\w\\\\d]{1}"
-                type="text"
-              />
-            </div>
-          </div>
-        </form>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      dir="rtl"
-    >
-      <form
-        class="flex flex-col justify-between items-end gap-y-2"
-      >
-        <div
-          class="flex flex-col justify-between items-stretch gap-y-2"
-        >
-          <div
             class="flex flex-row justify-center gap-2"
           >
             <input
@@ -533,6 +457,56 @@ Object {
               type="text"
             />
           </div>
+        </form>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <form
+        class="flex flex-col justify-between items-end gap-y-2"
+      >
+        <div
+          class="flex flex-row justify-center gap-2"
+        >
+          <input
+            aria-label="Character 1."
+            autocomplete="one-time-code"
+            class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
+          <input
+            aria-label="Character 2."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
+          <input
+            aria-label="Character 3."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
+          <input
+            aria-label="Character 4."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
         </div>
       </form>
     </div>
@@ -603,83 +577,6 @@ Object {
           class="flex flex-col justify-between items-end gap-y-2"
         >
           <div
-            class="flex flex-col justify-between items-stretch gap-y-2"
-          >
-            <div
-              class="flex flex-row justify-center gap-2"
-            >
-              <input
-                aria-label="Character 1."
-                autocomplete="one-time-code"
-                class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-                inputmode="numeric"
-                max="9"
-                maxlength="1"
-                min="0"
-                pattern="[0-9]{1}"
-                type="tel"
-              />
-              <input
-                aria-label="Character 2."
-                autocomplete="off"
-                class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-                inputmode="numeric"
-                max="9"
-                maxlength="1"
-                min="0"
-                pattern="[0-9]{1}"
-                type="tel"
-              />
-              <input
-                aria-label="Character 3."
-                autocomplete="off"
-                class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-                inputmode="numeric"
-                max="9"
-                maxlength="1"
-                min="0"
-                pattern="[0-9]{1}"
-                type="tel"
-              />
-              <input
-                aria-label="Character 4."
-                autocomplete="off"
-                class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-                inputmode="numeric"
-                max="9"
-                maxlength="1"
-                min="0"
-                pattern="[0-9]{1}"
-                type="tel"
-              />
-              <input
-                aria-label="Character 5."
-                autocomplete="off"
-                class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-                inputmode="numeric"
-                max="9"
-                maxlength="1"
-                min="0"
-                pattern="[0-9]{1}"
-                type="tel"
-              />
-            </div>
-          </div>
-        </form>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      dir="rtl"
-    >
-      <form
-        class="flex flex-col justify-between items-end gap-y-2"
-      >
-        <div
-          class="flex flex-col justify-between items-stretch gap-y-2"
-        >
-          <div
             class="flex flex-row justify-center gap-2"
           >
             <input
@@ -738,6 +635,75 @@ Object {
               type="tel"
             />
           </div>
+        </form>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <form
+        class="flex flex-col justify-between items-end gap-y-2"
+      >
+        <div
+          class="flex flex-row justify-center gap-2"
+        >
+          <input
+            aria-label="Character 1."
+            autocomplete="one-time-code"
+            class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="numeric"
+            max="9"
+            maxlength="1"
+            min="0"
+            pattern="[0-9]{1}"
+            type="tel"
+          />
+          <input
+            aria-label="Character 2."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="numeric"
+            max="9"
+            maxlength="1"
+            min="0"
+            pattern="[0-9]{1}"
+            type="tel"
+          />
+          <input
+            aria-label="Character 3."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="numeric"
+            max="9"
+            maxlength="1"
+            min="0"
+            pattern="[0-9]{1}"
+            type="tel"
+          />
+          <input
+            aria-label="Character 4."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="numeric"
+            max="9"
+            maxlength="1"
+            min="0"
+            pattern="[0-9]{1}"
+            type="tel"
+          />
+          <input
+            aria-label="Character 5."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="numeric"
+            max="9"
+            maxlength="1"
+            min="0"
+            pattern="[0-9]{1}"
+            type="tel"
+          />
         </div>
       </form>
     </div>
@@ -805,78 +771,6 @@ Object {
         class="flex flex-col justify-between items-end gap-y-2"
       >
         <div
-          class="flex flex-col justify-between items-stretch gap-y-2"
-        >
-          <div
-            class="flex flex-row justify-center gap-2"
-          >
-            <input
-              aria-label="Character 1."
-              autocomplete="one-time-code"
-              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-              inputmode="text"
-              maxlength="1"
-              pattern="[\\\\w\\\\d]{1}"
-              type="text"
-            />
-            <input
-              aria-label="Character 2."
-              autocomplete="off"
-              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-              inputmode="text"
-              maxlength="1"
-              pattern="[\\\\w\\\\d]{1}"
-              type="text"
-            />
-            <input
-              aria-label="Character 3."
-              autocomplete="off"
-              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-              inputmode="text"
-              maxlength="1"
-              pattern="[\\\\w\\\\d]{1}"
-              type="text"
-            />
-            <input
-              aria-label="Character 4."
-              autocomplete="off"
-              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-              inputmode="text"
-              maxlength="1"
-              pattern="[\\\\w\\\\d]{1}"
-              type="text"
-            />
-            <input
-              aria-label="Character 5."
-              autocomplete="off"
-              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-              inputmode="text"
-              maxlength="1"
-              pattern="[\\\\w\\\\d]{1}"
-              type="text"
-            />
-            <input
-              aria-label="Character 6."
-              autocomplete="off"
-              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-              inputmode="text"
-              maxlength="1"
-              pattern="[\\\\w\\\\d]{1}"
-              type="text"
-            />
-          </div>
-        </div>
-      </form>
-    </div>
-  </body>,
-  "container": <div>
-    <form
-      class="flex flex-col justify-between items-end gap-y-2"
-    >
-      <div
-        class="flex flex-col justify-between items-stretch gap-y-2"
-      >
-        <div
           class="flex flex-row justify-center gap-2"
         >
           <input
@@ -934,6 +828,70 @@ Object {
             type="text"
           />
         </div>
+      </form>
+    </div>
+  </body>,
+  "container": <div>
+    <form
+      class="flex flex-col justify-between items-end gap-y-2"
+    >
+      <div
+        class="flex flex-row justify-center gap-2"
+      >
+        <input
+          aria-label="Character 1."
+          autocomplete="one-time-code"
+          class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+          inputmode="text"
+          maxlength="1"
+          pattern="[\\\\w\\\\d]{1}"
+          type="text"
+        />
+        <input
+          aria-label="Character 2."
+          autocomplete="off"
+          class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+          inputmode="text"
+          maxlength="1"
+          pattern="[\\\\w\\\\d]{1}"
+          type="text"
+        />
+        <input
+          aria-label="Character 3."
+          autocomplete="off"
+          class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+          inputmode="text"
+          maxlength="1"
+          pattern="[\\\\w\\\\d]{1}"
+          type="text"
+        />
+        <input
+          aria-label="Character 4."
+          autocomplete="off"
+          class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+          inputmode="text"
+          maxlength="1"
+          pattern="[\\\\w\\\\d]{1}"
+          type="text"
+        />
+        <input
+          aria-label="Character 5."
+          autocomplete="off"
+          class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+          inputmode="text"
+          maxlength="1"
+          pattern="[\\\\w\\\\d]{1}"
+          type="text"
+        />
+        <input
+          aria-label="Character 6."
+          autocomplete="off"
+          class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+          inputmode="text"
+          maxlength="1"
+          pattern="[\\\\w\\\\d]{1}"
+          type="text"
+        />
       </div>
     </form>
   </div>,
@@ -997,10 +955,10 @@ Object {
   "baseElement": <body>
     <div>
       <form
-        class="flex flex-col justify-between items-end gap-y-2"
+        class="flex flex-col justify-between gap-y-2"
       >
         <div
-          class="flex flex-col justify-between items-stretch gap-y-2"
+          class="flex flex-col gap-2"
         >
           <div
             class="flex flex-row justify-center gap-2"
@@ -1060,25 +1018,20 @@ Object {
               type="text"
             />
           </div>
-          <div
-            class="px-2 text-center"
-          >
-            <p
-              class="text-moon-12 text-chichi"
-            >
-              Provided value is not valid!
-            </p>
-          </div>
+          <p
+            class="inline-block mt-2 ps-4 text-moon-12 text-chichi !p-0"
+            role="alert"
+          />
         </div>
       </form>
     </div>
   </body>,
   "container": <div>
     <form
-      class="flex flex-col justify-between items-end gap-y-2"
+      class="flex flex-col justify-between gap-y-2"
     >
       <div
-        class="flex flex-col justify-between items-stretch gap-y-2"
+        class="flex flex-col gap-2"
       >
         <div
           class="flex flex-row justify-center gap-2"
@@ -1138,15 +1091,10 @@ Object {
             type="text"
           />
         </div>
-        <div
-          class="px-2 text-center"
-        >
-          <p
-            class="text-moon-12 text-chichi"
-          >
-            Provided value is not valid!
-          </p>
-        </div>
+        <p
+          class="inline-block mt-2 ps-4 text-moon-12 text-chichi !p-0"
+          role="alert"
+        />
       </div>
     </form>
   </div>,
@@ -1213,60 +1161,6 @@ Object {
         class="flex flex-col justify-between items-end gap-y-2"
       >
         <div
-          class="flex flex-col justify-between items-stretch gap-y-2"
-        >
-          <div
-            class="flex flex-row justify-center gap-2"
-          >
-            <input
-              aria-label="Character 1."
-              autocomplete="one-time-code"
-              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-              inputmode="text"
-              maxlength="1"
-              pattern="[\\\\w\\\\d]{1}"
-              type="text"
-            />
-            <input
-              aria-label="Character 2."
-              autocomplete="off"
-              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-              inputmode="text"
-              maxlength="1"
-              pattern="[\\\\w\\\\d]{1}"
-              type="text"
-            />
-            <input
-              aria-label="Character 3."
-              autocomplete="off"
-              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-              inputmode="text"
-              maxlength="1"
-              pattern="[\\\\w\\\\d]{1}"
-              type="text"
-            />
-            <input
-              aria-label="Character 4."
-              autocomplete="off"
-              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-              inputmode="text"
-              maxlength="1"
-              pattern="[\\\\w\\\\d]{1}"
-              type="text"
-            />
-          </div>
-        </div>
-      </form>
-    </div>
-  </body>,
-  "container": <div>
-    <form
-      class="flex flex-col justify-between items-end gap-y-2"
-    >
-      <div
-        class="flex flex-col justify-between items-stretch gap-y-2"
-      >
-        <div
           class="flex flex-row justify-center gap-2"
         >
           <input
@@ -1306,6 +1200,52 @@ Object {
             type="text"
           />
         </div>
+      </form>
+    </div>
+  </body>,
+  "container": <div>
+    <form
+      class="flex flex-col justify-between items-end gap-y-2"
+    >
+      <div
+        class="flex flex-row justify-center gap-2"
+      >
+        <input
+          aria-label="Character 1."
+          autocomplete="one-time-code"
+          class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+          inputmode="text"
+          maxlength="1"
+          pattern="[\\\\w\\\\d]{1}"
+          type="text"
+        />
+        <input
+          aria-label="Character 2."
+          autocomplete="off"
+          class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+          inputmode="text"
+          maxlength="1"
+          pattern="[\\\\w\\\\d]{1}"
+          type="text"
+        />
+        <input
+          aria-label="Character 3."
+          autocomplete="off"
+          class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+          inputmode="text"
+          maxlength="1"
+          pattern="[\\\\w\\\\d]{1}"
+          type="text"
+        />
+        <input
+          aria-label="Character 4."
+          autocomplete="off"
+          class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+          inputmode="text"
+          maxlength="1"
+          pattern="[\\\\w\\\\d]{1}"
+          type="text"
+        />
       </div>
     </form>
   </div>,
@@ -1372,79 +1312,6 @@ Object {
         class="flex flex-col justify-between items-end gap-y-2"
       >
         <div
-          class="flex flex-col justify-between items-stretch gap-y-2"
-        >
-          <div
-            class="flex flex-row justify-center gap-2"
-          >
-            <input
-              aria-label="Character 1."
-              autocomplete="one-time-code"
-              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-              inputmode="numeric"
-              max="9"
-              maxlength="1"
-              min="0"
-              pattern="[0-9]{1}"
-              type="tel"
-            />
-            <input
-              aria-label="Character 2."
-              autocomplete="off"
-              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-              inputmode="numeric"
-              max="9"
-              maxlength="1"
-              min="0"
-              pattern="[0-9]{1}"
-              type="tel"
-            />
-            <input
-              aria-label="Character 3."
-              autocomplete="off"
-              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-              inputmode="numeric"
-              max="9"
-              maxlength="1"
-              min="0"
-              pattern="[0-9]{1}"
-              type="tel"
-            />
-            <input
-              aria-label="Character 4."
-              autocomplete="off"
-              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-              inputmode="numeric"
-              max="9"
-              maxlength="1"
-              min="0"
-              pattern="[0-9]{1}"
-              type="tel"
-            />
-            <input
-              aria-label="Character 5."
-              autocomplete="off"
-              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-              inputmode="numeric"
-              max="9"
-              maxlength="1"
-              min="0"
-              pattern="[0-9]{1}"
-              type="tel"
-            />
-          </div>
-        </div>
-      </form>
-    </div>
-  </body>,
-  "container": <div>
-    <form
-      class="flex flex-col justify-between items-end gap-y-2"
-    >
-      <div
-        class="flex flex-col justify-between items-stretch gap-y-2"
-      >
-        <div
           class="flex flex-row justify-center gap-2"
         >
           <input
@@ -1503,6 +1370,71 @@ Object {
             type="tel"
           />
         </div>
+      </form>
+    </div>
+  </body>,
+  "container": <div>
+    <form
+      class="flex flex-col justify-between items-end gap-y-2"
+    >
+      <div
+        class="flex flex-row justify-center gap-2"
+      >
+        <input
+          aria-label="Character 1."
+          autocomplete="one-time-code"
+          class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+          inputmode="numeric"
+          max="9"
+          maxlength="1"
+          min="0"
+          pattern="[0-9]{1}"
+          type="tel"
+        />
+        <input
+          aria-label="Character 2."
+          autocomplete="off"
+          class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+          inputmode="numeric"
+          max="9"
+          maxlength="1"
+          min="0"
+          pattern="[0-9]{1}"
+          type="tel"
+        />
+        <input
+          aria-label="Character 3."
+          autocomplete="off"
+          class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+          inputmode="numeric"
+          max="9"
+          maxlength="1"
+          min="0"
+          pattern="[0-9]{1}"
+          type="tel"
+        />
+        <input
+          aria-label="Character 4."
+          autocomplete="off"
+          class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+          inputmode="numeric"
+          max="9"
+          maxlength="1"
+          min="0"
+          pattern="[0-9]{1}"
+          type="tel"
+        />
+        <input
+          aria-label="Character 5."
+          autocomplete="off"
+          class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+          inputmode="numeric"
+          max="9"
+          maxlength="1"
+          min="0"
+          pattern="[0-9]{1}"
+          type="tel"
+        />
       </div>
     </form>
   </div>,
