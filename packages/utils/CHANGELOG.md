@@ -1,5 +1,16 @@
 # Change Log
 
+## 9.33.0
+
+### Minor Changes
+
+- svg tw
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@9.33.0
+
 ## 9.32.1
 
 ### Patch Changes
