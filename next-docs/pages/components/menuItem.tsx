@@ -122,6 +122,14 @@ const Example = () => {
             required: false,
             default: 'false',
             description:
+              'Is MenuItem active. (Not for radio and checkbox variant)',
+          },
+          {
+            name: 'isSelected',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description:
               'Is MenuItem checked/unchecked. For radio and checkbox variant.',
           },
           {
