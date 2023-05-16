@@ -58,11 +58,18 @@ const Example = () => {
         <Controller
           name='authCode1'
           control={formReturn1.control}
-          render={({ field }) => <AuthCode
-            {...field}
-            length={codeLength}
-            errorMessage={formReturn1.formState.errors.authCode1?.message}
-          />}
+          render={({ field }) => 
+            <div className='flex flex-col gap-2'>
+              <AuthCode
+                {...field}
+                length={codeLength}
+                isValid={formReturn1.formState.isValid}
+              />
+              {!formReturn1.formState.isValid && <AuthCode.ErrorMessage>
+                {formReturn1.formState.errors.authCode1?.message}
+              </AuthCode.ErrorMessage>}
+            </div>
+          }
         />
         <Button as='button' type='submit' size='md'>Send code</Button>
       </Form>
@@ -77,12 +84,18 @@ const Example = () => {
               complete: v => v.length === codeLength
             }
           }}
-          render={({ field }) => <AuthCode
-            {...field}
-            length={codeLength}
-            onChange={(value: string) => { field.onChange(value) }}
-            errorMessage={formReturn2.formState.errors.authCode2?.message}
-          />}
+          render={({ field }) => 
+            <div className='flex flex-col gap-2'>
+              <AuthCode
+                {...field}
+                length={codeLength}
+                onChange={(value: string) => { field.onChange(value) }}
+              />
+              {!formReturn2.formState.isValid && <AuthCode.ErrorMessage>
+                {formReturn2.formState.errors.authCode2?.message}
+              </AuthCode.ErrorMessage>}
+            </div>
+          }
         />
         <Button as='button' type='submit' size='md' disabled={!formReturn2.formState.isValid}>Send code</Button>
       </Form>

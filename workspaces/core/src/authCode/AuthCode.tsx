@@ -54,7 +54,7 @@ const AuthCodeRoot = forwardRef<AuthCodeRef, AuthCodeProps>(
       length = 6,
       placeholder,
       onChange,
-      errorMessage = '',
+      isValid = true,
     },
     ref
   ) => {
@@ -187,7 +187,7 @@ const AuthCodeRoot = forwardRef<AuthCodeRef, AuthCodeProps>(
             'm-0 py-3 px-4 appearance-none text-bulma box-border text-center',
             'shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none',
             'focus-visible::shadow-input-focus focus-visible::outline-none',
-            !!errorMessage && 'text-chichi shadow-input-err hover:shadow-input-err focus:shadow-input-err',
+            !isValid && 'text-chichi shadow-input-err hover:shadow-input-err focus:shadow-input-err',
             disabled && 'opacity-30 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed',
             stretch && 'flex',
             stretch && expandable && 'grow',

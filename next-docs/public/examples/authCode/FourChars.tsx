@@ -33,7 +33,8 @@ const Example = () => {
               field.onChange(value);
             }}
             disabled={field.value.length === codeLength}
-          />}
+          />
+        }
       />
     </Form>
   );

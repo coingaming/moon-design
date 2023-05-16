@@ -31,7 +31,8 @@ const Example = () => {
                 onSubmit({ authCode: value });
               }}
             disabled={field.value.length === 6}
-          />}
+          />
+        }
       />
     </Form>
   );

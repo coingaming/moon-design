@@ -14,5 +14,5 @@ export type AuthCodeProps = {
   length?: number;
   placeholder?: string;
   onChange: (res: string) => void;
-  errorMessage?: string;
+  isValid?: boolean;
 };

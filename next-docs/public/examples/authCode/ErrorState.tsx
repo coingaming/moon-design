@@ -38,13 +38,10 @@ const Example = () => {
           <div className='flex flex-col gap-2'>
             <AuthCode
               {...field}
-              errorMessage={
-                // TODO remove errorMessage prop
-                !isValid ? 'error' : undefined
-              }
+              isValid={isValid}
             />
             {!isValid && <AuthCode.ErrorMessage>
-             1 {errors.authCode?.message}
+             {errors.authCode?.message}
             </AuthCode.ErrorMessage>}
           </div>
         }

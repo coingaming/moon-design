@@ -37,16 +37,18 @@ const Example = () => {
         <Controller
           name='authCode1'
           control={formReturn1.control}
-          render={({ field }) => <AuthCode
-            {...field}
-            length={codeLength1}
-            stretch={true}
-            onChange={(value: string) => {
-              onSubmit1({ authCode1: value });
-              field.onChange(value);
-            }}
-            disabled={field.value.length === codeLength1}
-          />}
+          render={({ field }) => 
+            <AuthCode
+              {...field}
+              length={codeLength1}
+              stretch={true}
+              onChange={(value: string) => {
+                onSubmit1({ authCode1: value });
+                field.onChange(value);
+              }}
+              disabled={field.value.length === codeLength1}
+            />
+          }
         />
       </Form>
 
@@ -54,17 +56,19 @@ const Example = () => {
         <Controller
           name='authCode2'
           control={formReturn2.control}
-          render={({ field }) => <AuthCode
-            {...field}
-            length={codeLength2}
-            stretch={true}
-            expandable={true}
-            onChange={(value: string) => {
-              onSubmit2({ authCode2: value });
-              field.onChange(value)
-            }}
-            disabled={field.value.length === codeLength2}
-          />}
+          render={({ field }) => 
+            <AuthCode
+              {...field}
+              length={codeLength2}
+              stretch={true}
+              expandable={true}
+              onChange={(value: string) => {
+                onSubmit2({ authCode2: value });
+                field.onChange(value)
+              }}
+              disabled={field.value.length === codeLength2}
+            />
+          }
         />
       </Form>
     </div>
