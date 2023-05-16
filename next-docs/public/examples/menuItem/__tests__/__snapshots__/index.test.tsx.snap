@@ -1805,6 +1805,7 @@ Object {
         >
           <button
             class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+            role="сheckbox"
             type="button"
           >
             <span
@@ -1853,6 +1854,7 @@ Object {
                 class="flex w-6 h-6 justify-center items-center relative"
               >
                 <span
+                  aria-checked="false"
                   aria-hidden="true"
                   class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                 >
@@ -1939,6 +1941,7 @@ Object {
       >
         <button
           class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+          role="сheckbox"
           type="button"
         >
           <span
@@ -1987,6 +1990,7 @@ Object {
               class="flex w-6 h-6 justify-center items-center relative"
             >
               <span
+                aria-checked="false"
                 aria-hidden="true"
                 class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
               >
@@ -4355,6 +4359,7 @@ Object {
       >
         <button
           class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+          role="сheckbox"
           type="button"
         >
           <span
@@ -4403,6 +4408,7 @@ Object {
               class="flex w-6 h-6 justify-center items-center relative"
             >
               <span
+                aria-checked="false"
                 aria-hidden="true"
                 class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
               >
@@ -4485,6 +4491,7 @@ Object {
     >
       <button
         class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        role="сheckbox"
         type="button"
       >
         <span
@@ -4533,6 +4540,7 @@ Object {
             class="flex w-6 h-6 justify-center items-center relative"
           >
             <span
+              aria-checked="false"
               aria-hidden="true"
               class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
             >

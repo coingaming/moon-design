@@ -1,5 +1,11 @@
 # Change Log
 
+## 9.33.0
+
+### Minor Changes
+
+- svg tw
+
 ## 9.32.1
 
 ### Patch Changes

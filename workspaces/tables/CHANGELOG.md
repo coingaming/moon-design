@@ -1,5 +1,16 @@
 # @heathmont/moon-table-tw
 
+## 9.33.0
+
+### Minor Changes
+
+- svg tw
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-core-tw@9.33.0
+
 ## 9.32.1
 
 ### Patch Changes
