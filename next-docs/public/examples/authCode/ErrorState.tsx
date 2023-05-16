@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { AuthCode, Form } from '@heathmont/moon-core-tw';
+import { AuthCode, Form, Hint } from '@heathmont/moon-core-tw';
 import { Controller, useForm, SubmitHandler } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
@@ -21,6 +21,7 @@ const Example = () => {
   const onSubmit: SubmitHandler<ValidationSchema> =
     (data: ValidationSchema) => console.log('onSubmit: ', data);
 
+  // Trigger validation for this example
   useEffect(() => {
     trigger('authCode')
   }, [])
@@ -40,9 +41,9 @@ const Example = () => {
               {...field}
               isValid={isValid}
             />
-            {!isValid && <AuthCode.ErrorMessage>
+            {!isValid && <Hint error className='!p-0'>
              {errors.authCode?.message}
-            </AuthCode.ErrorMessage>}
+            </Hint>}
           </div>
         }
       />

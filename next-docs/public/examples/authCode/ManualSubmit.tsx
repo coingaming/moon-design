@@ -1,5 +1,5 @@
 import React from 'react';
-import { AuthCode, Button, Form } from '@heathmont/moon-core-tw';
+import { AuthCode, Button, Form, Hint } from '@heathmont/moon-core-tw';
 import { Controller, useForm } from 'react-hook-form';
 
 
@@ -58,16 +58,16 @@ const Example = () => {
         <Controller
           name='authCode1'
           control={formReturn1.control}
-          render={({ field }) => 
+          render={({ field }) =>
             <div className='flex flex-col gap-2'>
               <AuthCode
                 {...field}
                 length={codeLength}
                 isValid={formReturn1.formState.isValid}
               />
-              {!formReturn1.formState.isValid && <AuthCode.ErrorMessage>
+              {!formReturn1.formState.isValid && <Hint error>
                 {formReturn1.formState.errors.authCode1?.message}
-              </AuthCode.ErrorMessage>}
+              </Hint>}
             </div>
           }
         />
@@ -84,16 +84,16 @@ const Example = () => {
               complete: v => v.length === codeLength
             }
           }}
-          render={({ field }) => 
+          render={({ field }) =>
             <div className='flex flex-col gap-2'>
               <AuthCode
                 {...field}
                 length={codeLength}
                 onChange={(value: string) => { field.onChange(value) }}
               />
-              {!formReturn2.formState.isValid && <AuthCode.ErrorMessage>
+              {!formReturn2.formState.isValid && <Hint error>
                 {formReturn2.formState.errors.authCode2?.message}
-              </AuthCode.ErrorMessage>}
+              </Hint>}
             </div>
           }
         />

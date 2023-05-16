@@ -38,12 +38,12 @@ const propsMap: { [key: string]: InputProps } = {
   }
 };
 
-const AuthCodeRoot = forwardRef<AuthCodeRef, AuthCodeProps>(
+const AuthCode = forwardRef<AuthCodeRef, AuthCodeProps>(
   (
     {
       allowedCharacters = 'alphanumeric',
       ariaLabel,
-      autoFocus = true,
+      autoFocus = false,
       containerClassName: className,
       stretch = false,
       expandable = false,
@@ -218,35 +218,5 @@ const AuthCodeRoot = forwardRef<AuthCodeRef, AuthCodeProps>(
     );
   }
 );
-
-const ErrorMessage = (
-  { className, ...rest }: React.HTMLAttributes<HTMLParagraphElement>
-) => {
-  return <p
-    className={
-      mergeClassnames(
-        "px-2 text-center text-moon-12 text-chichi",
-        className
-      )}
-    {...rest}
-  />
-}
-
-const Container = (
-  { className, ...rest }: React.HTMLAttributes<HTMLDivElement>
-) => {
-  return <div
-    className={
-      mergeClassnames(
-        'flex flex-col justify-between items-stretch gap-y-2',
-        className
-      )}
-    {...rest}
-  />
-}
-
-const AuthCode = Object.assign(AuthCodeRoot, {
-  ErrorMessage
-});
 
 export default AuthCode;
