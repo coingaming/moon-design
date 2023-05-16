@@ -30,37 +30,44 @@ const Example = () => {
 
   return (
     <div className='flex flex-col items-stretch justify-between w-full gap-y-8'>
-      <Form onSubmit={formReturn1.handleSubmit(onSubmit1)} className='flex flex-col justify-between items-stretch w-full gap-y-2'>
-      <Controller
-        name='authCode1'
-        control={formReturn1.control}
-        /* rules={{ required: true, minLength: codeLength1 - 1 }} */
-        render={({ field }) => <AuthCode
+      <Form
+        onSubmit={formReturn1.handleSubmit(onSubmit1)}
+        className='flex flex-col justify-between items-stretch w-full gap-y-2'
+      >
+        <Controller
+          name='authCode1'
+          control={formReturn1.control}
+          render={({ field }) => <AuthCode
             {...field}
             length={codeLength1}
             stretch={true}
-            onChange={(value: string) => { onSubmit1({ authCode1: value }); field.onChange(value) }}
+            onChange={(value: string) => {
+              onSubmit1({ authCode1: value });
+              field.onChange(value);
+            }}
             disabled={field.value.length === codeLength1}
           />}
-      />
-    </Form>
+        />
+      </Form>
 
-    <Form onSubmit={formReturn2.handleSubmit(onSubmit2)} className='flex flex-col justify-between items-stretch w-fool gap-y-2'>
-      <Controller
-        name='authCode2'
-        control={formReturn2.control}
-        /* rules={{ required: true, minLength: codeLength2 - 1 }} */
-        render={({ field }) => <AuthCode
+      <Form onSubmit={formReturn2.handleSubmit(onSubmit2)} className='flex flex-col justify-between items-stretch w-fool gap-y-2'>
+        <Controller
+          name='authCode2'
+          control={formReturn2.control}
+          render={({ field }) => <AuthCode
             {...field}
             length={codeLength2}
             stretch={true}
             expandable={true}
-            onChange={(value: string) => { onSubmit2({ authCode2: value }); field.onChange(value) }}
+            onChange={(value: string) => {
+              onSubmit2({ authCode2: value });
+              field.onChange(value)
+            }}
             disabled={field.value.length === codeLength2}
           />}
-      />
-    </Form>
-  </div>
+        />
+      </Form>
+    </div>
   );
 };
 

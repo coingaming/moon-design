@@ -81,7 +81,7 @@ const PageAuthCodeGroup = () => {
             required: false,
             default: 'false',
             description:
-              'If true, inputs would get streched to fill the available width.',
+              'If true, inputs would get stretched to fill the available width.',
           },
           {
             name: 'expandable',

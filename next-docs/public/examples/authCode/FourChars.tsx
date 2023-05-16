@@ -3,7 +3,7 @@ import { AuthCode, Form } from '@heathmont/moon-core-tw';
 import { Controller, useForm } from 'react-hook-form';
 
 const Example = () => {
-  const { control, handleSubmit, formState: { isValid } } = useForm({
+  const { control, handleSubmit } = useForm({
     defaultValues: {
       authCode: '',
     }
@@ -17,15 +17,21 @@ const Example = () => {
   };
 
   return (
-    <Form onSubmit={handleSubmit(onSubmit)} className='flex flex-col justify-between items-end gap-y-2'>
+    <Form
+      onSubmit={handleSubmit(onSubmit)}
+      className='flex flex-col justify-between items-end gap-y-2'
+    >
       <Controller
         name='authCode'
         control={control}
-        /* rules={{ required: true, minLength: codeLength - 1 }} */
-        render={({ field }) => <AuthCode
+        render={({ field }) =>
+          <AuthCode
             {...field}
             length={codeLength}
-            onChange={(value: string) => { onSubmit({ authCode: value }); field.onChange(value) }}
+            onChange={(value: string) => {
+              onSubmit({ authCode: value });
+              field.onChange(value);
+            }}
             disabled={field.value.length === codeLength}
           />}
       />

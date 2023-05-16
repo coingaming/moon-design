@@ -21,12 +21,15 @@ const Example = () => {
       <Controller
         name='authCode'
         control={control}
-        /* rules={{ required: true, minLength: codeLength - 1 }} */
-        render={({ field }) => <AuthCode
+        render={({ field }) =>
+          <AuthCode
             {...field}
             length={codeLength}
             allowedCharacters={'numeric'}
-            onChange={(value: string) => { onSubmit({ authCode: value }); field.onChange(value) }}
+            onChange={(value: string) => {
+              onSubmit({ authCode: value });
+              field.onChange(value);
+            }}
             disabled={field.value.length === codeLength}
           />}
       />

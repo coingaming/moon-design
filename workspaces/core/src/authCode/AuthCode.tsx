@@ -38,13 +38,13 @@ const propsMap: { [key: string]: InputProps } = {
   }
 };
 
-const AuthCode = forwardRef<AuthCodeRef, AuthCodeProps>(
+const AuthCodeRoot = forwardRef<AuthCodeRef, AuthCodeProps>(
   (
     {
       allowedCharacters = 'alphanumeric',
       ariaLabel,
       autoFocus = true,
-      containerClassName,
+      containerClassName: className,
       stretch = false,
       expandable = false,
       disabled,
@@ -167,6 +167,7 @@ const AuthCode = forwardRef<AuthCodeRef, AuthCodeProps>(
     };
 
     const inputs: JSX.Element[] = [];
+
     for (let i = 0; i < length; i++) {
       inputs.push(
         <input
@@ -186,7 +187,7 @@ const AuthCode = forwardRef<AuthCodeRef, AuthCodeProps>(
             'm-0 py-3 px-4 appearance-none text-bulma box-border text-center',
             'shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none',
             'focus-visible::shadow-input-focus focus-visible::outline-none',
-            !!errorMessage && ' text-chichi shadow-input-err hover:shadow-input-err focus:shadow-input-err',
+            !!errorMessage && 'text-chichi shadow-input-err hover:shadow-input-err focus:shadow-input-err',
             disabled && 'opacity-30 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed',
             stretch && 'flex',
             stretch && expandable && 'grow',
@@ -207,27 +208,45 @@ const AuthCode = forwardRef<AuthCodeRef, AuthCodeProps>(
     return (
       <div
         className={mergeClassnames(
-          'flex flex-col justify-between items-stretch gap-y-2'
+          'flex flex-row justify-center gap-2',
+          stretch && 'justify-between',
+          className
         )}
       >
-        <div
-          className={mergeClassnames(
-            'flex flex-row justify-center gap-2',
-            stretch && 'justify-between',
-            containerClassName
-          )}
-        >
-          {inputs}
-        </div>
-        { !!errorMessage && (<div className='px-2 text-center'>
-            <p className="text-moon-12 text-chichi">
-              {errorMessage}
-            </p>
-          </div>
-        )}
+        {inputs}
       </div>
     );
   }
 );
+
+const ErrorMessage = (
+  { className, ...rest }: React.HTMLAttributes<HTMLParagraphElement>
+) => {
+  return <p
+    className={
+      mergeClassnames(
+        "px-2 text-center text-moon-12 text-chichi",
+        className
+      )}
+    {...rest}
+  />
+}
+
+const Container = (
+  { className, ...rest }: React.HTMLAttributes<HTMLDivElement>
+) => {
+  return <div
+    className={
+      mergeClassnames(
+        'flex flex-col justify-between items-stretch gap-y-2',
+        className
+      )}
+    {...rest}
+  />
+}
+
+const AuthCode = Object.assign(AuthCodeRoot, {
+  ErrorMessage
+});
 
 export default AuthCode;

@@ -8,169 +8,72 @@ Object {
       <div
         dir="rtl"
       >
-        <div
-          class="grid gap-4"
+        <form
+          class="flex flex-col justify-between items-end gap-y-2"
         >
           <div
-            class="flex flex-row w-full justify-center"
+            class="flex flex-col justify-between items-stretch gap-y-2"
           >
             <div
-              class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
+              class="flex flex-row justify-center gap-2"
             >
-              <div
-                class="w-full max-w-full relative z-0 rounded-moon-i-sm"
-              >
-                <div
-                  class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-                >
-                  <input
-                    class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                    id="auth-code-part-0"
-                    inputmode="text"
-                    maxlength="6"
-                    pattern="[a-z0-9]*"
-                    placeholder=""
-                    type="text"
-                    value=""
-                  />
-                  <label
-                    class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                  />
-                </div>
-              </div>
-            </div>
-            <div
-              class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-            >
-              <div
-                class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-              >
-                <div
-                  class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-                >
-                  <input
-                    class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                    disabled=""
-                    id="auth-code-part-1"
-                    inputmode="text"
-                    maxlength="6"
-                    pattern="[a-z0-9]*"
-                    placeholder=""
-                    type="text"
-                    value=""
-                  />
-                  <label
-                    class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                  />
-                </div>
-              </div>
-            </div>
-            <div
-              class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-            >
-              <div
-                class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-              >
-                <div
-                  class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-                >
-                  <input
-                    class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                    disabled=""
-                    id="auth-code-part-2"
-                    inputmode="text"
-                    maxlength="6"
-                    pattern="[a-z0-9]*"
-                    placeholder=""
-                    type="text"
-                    value=""
-                  />
-                  <label
-                    class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                  />
-                </div>
-              </div>
-            </div>
-            <div
-              class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-            >
-              <div
-                class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-              >
-                <div
-                  class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-                >
-                  <input
-                    class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                    disabled=""
-                    id="auth-code-part-3"
-                    inputmode="text"
-                    maxlength="6"
-                    pattern="[a-z0-9]*"
-                    placeholder=""
-                    type="text"
-                    value=""
-                  />
-                  <label
-                    class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                  />
-                </div>
-              </div>
-            </div>
-            <div
-              class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-            >
-              <div
-                class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-              >
-                <div
-                  class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-                >
-                  <input
-                    class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                    disabled=""
-                    id="auth-code-part-4"
-                    inputmode="text"
-                    maxlength="6"
-                    pattern="[a-z0-9]*"
-                    placeholder=""
-                    type="text"
-                    value=""
-                  />
-                  <label
-                    class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                  />
-                </div>
-              </div>
-            </div>
-            <div
-              class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-            >
-              <div
-                class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-              >
-                <div
-                  class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-                >
-                  <input
-                    class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                    disabled=""
-                    id="auth-code-part-5"
-                    inputmode="text"
-                    maxlength="6"
-                    pattern="[a-z0-9]*"
-                    placeholder=""
-                    type="text"
-                    value=""
-                  />
-                  <label
-                    class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                  />
-                </div>
-              </div>
+              <input
+                aria-label="Character 1."
+                autocomplete="one-time-code"
+                class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+                inputmode="text"
+                maxlength="1"
+                pattern="[\\\\w\\\\d]{1}"
+                type="text"
+              />
+              <input
+                aria-label="Character 2."
+                autocomplete="off"
+                class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+                inputmode="text"
+                maxlength="1"
+                pattern="[\\\\w\\\\d]{1}"
+                type="text"
+              />
+              <input
+                aria-label="Character 3."
+                autocomplete="off"
+                class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+                inputmode="text"
+                maxlength="1"
+                pattern="[\\\\w\\\\d]{1}"
+                type="text"
+              />
+              <input
+                aria-label="Character 4."
+                autocomplete="off"
+                class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+                inputmode="text"
+                maxlength="1"
+                pattern="[\\\\w\\\\d]{1}"
+                type="text"
+              />
+              <input
+                aria-label="Character 5."
+                autocomplete="off"
+                class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+                inputmode="text"
+                maxlength="1"
+                pattern="[\\\\w\\\\d]{1}"
+                type="text"
+              />
+              <input
+                aria-label="Character 6."
+                autocomplete="off"
+                class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+                inputmode="text"
+                maxlength="1"
+                pattern="[\\\\w\\\\d]{1}"
+                type="text"
+              />
             </div>
           </div>
-        </div>
+        </form>
       </div>
     </div>
   </body>,
@@ -178,169 +81,72 @@ Object {
     <div
       dir="rtl"
     >
-      <div
-        class="grid gap-4"
+      <form
+        class="flex flex-col justify-between items-end gap-y-2"
       >
         <div
-          class="flex flex-row w-full justify-center"
+          class="flex flex-col justify-between items-stretch gap-y-2"
         >
           <div
-            class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
+            class="flex flex-row justify-center gap-2"
           >
-            <div
-              class="w-full max-w-full relative z-0 rounded-moon-i-sm"
-            >
-              <div
-                class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-              >
-                <input
-                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                  id="auth-code-part-0"
-                  inputmode="text"
-                  maxlength="6"
-                  pattern="[a-z0-9]*"
-                  placeholder=""
-                  type="text"
-                  value=""
-                />
-                <label
-                  class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                />
-              </div>
-            </div>
-          </div>
-          <div
-            class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-          >
-            <div
-              class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-            >
-              <div
-                class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-              >
-                <input
-                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                  disabled=""
-                  id="auth-code-part-1"
-                  inputmode="text"
-                  maxlength="6"
-                  pattern="[a-z0-9]*"
-                  placeholder=""
-                  type="text"
-                  value=""
-                />
-                <label
-                  class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                />
-              </div>
-            </div>
-          </div>
-          <div
-            class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-          >
-            <div
-              class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-            >
-              <div
-                class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-              >
-                <input
-                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                  disabled=""
-                  id="auth-code-part-2"
-                  inputmode="text"
-                  maxlength="6"
-                  pattern="[a-z0-9]*"
-                  placeholder=""
-                  type="text"
-                  value=""
-                />
-                <label
-                  class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                />
-              </div>
-            </div>
-          </div>
-          <div
-            class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-          >
-            <div
-              class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-            >
-              <div
-                class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-              >
-                <input
-                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                  disabled=""
-                  id="auth-code-part-3"
-                  inputmode="text"
-                  maxlength="6"
-                  pattern="[a-z0-9]*"
-                  placeholder=""
-                  type="text"
-                  value=""
-                />
-                <label
-                  class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                />
-              </div>
-            </div>
-          </div>
-          <div
-            class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-          >
-            <div
-              class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-            >
-              <div
-                class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-              >
-                <input
-                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                  disabled=""
-                  id="auth-code-part-4"
-                  inputmode="text"
-                  maxlength="6"
-                  pattern="[a-z0-9]*"
-                  placeholder=""
-                  type="text"
-                  value=""
-                />
-                <label
-                  class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                />
-              </div>
-            </div>
-          </div>
-          <div
-            class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-          >
-            <div
-              class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-            >
-              <div
-                class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-              >
-                <input
-                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                  disabled=""
-                  id="auth-code-part-5"
-                  inputmode="text"
-                  maxlength="6"
-                  pattern="[a-z0-9]*"
-                  placeholder=""
-                  type="text"
-                  value=""
-                />
-                <label
-                  class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                />
-              </div>
-            </div>
+            <input
+              aria-label="Character 1."
+              autocomplete="one-time-code"
+              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+              inputmode="text"
+              maxlength="1"
+              pattern="[\\\\w\\\\d]{1}"
+              type="text"
+            />
+            <input
+              aria-label="Character 2."
+              autocomplete="off"
+              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+              inputmode="text"
+              maxlength="1"
+              pattern="[\\\\w\\\\d]{1}"
+              type="text"
+            />
+            <input
+              aria-label="Character 3."
+              autocomplete="off"
+              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+              inputmode="text"
+              maxlength="1"
+              pattern="[\\\\w\\\\d]{1}"
+              type="text"
+            />
+            <input
+              aria-label="Character 4."
+              autocomplete="off"
+              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+              inputmode="text"
+              maxlength="1"
+              pattern="[\\\\w\\\\d]{1}"
+              type="text"
+            />
+            <input
+              aria-label="Character 5."
+              autocomplete="off"
+              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+              inputmode="text"
+              maxlength="1"
+              pattern="[\\\\w\\\\d]{1}"
+              type="text"
+            />
+            <input
+              aria-label="Character 6."
+              autocomplete="off"
+              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+              inputmode="text"
+              maxlength="1"
+              pattern="[\\\\w\\\\d]{1}"
+              type="text"
+            />
           </div>
         </div>
-      </div>
+      </form>
     </div>
   </div>,
   "debug": [Function],
@@ -405,171 +211,154 @@ Object {
       <div
         dir="rtl"
       >
-        <div
-          class="grid gap-4"
+        <form
+          class="flex flex-col justify-between items-end gap-y-2"
         >
           <div
-            class="flex flex-row w-full justify-center"
+            class="flex flex-col justify-between items-stretch gap-y-2"
           >
             <div
-              class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
+              class="flex flex-row justify-center gap-2"
             >
-              <div
-                class="w-full max-w-full relative z-0 rounded-moon-i-sm"
-              >
-                <div
-                  class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-                >
-                  <input
-                    class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                    id="auth-code-part-0"
-                    inputmode="text"
-                    maxlength="6"
-                    pattern="[a-z0-9]*"
-                    placeholder=""
-                    type="text"
-                    value=""
-                  />
-                  <label
-                    class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                  />
-                </div>
-              </div>
+              <input
+                aria-label="Character 1."
+                autocomplete="one-time-code"
+                class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none box-border text-center focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none text-chichi shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+                inputmode="text"
+                maxlength="1"
+                pattern="[\\\\w\\\\d]{1}"
+                type="text"
+              />
+              <input
+                aria-label="Character 2."
+                autocomplete="off"
+                class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none box-border text-center focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none text-chichi shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+                inputmode="text"
+                maxlength="1"
+                pattern="[\\\\w\\\\d]{1}"
+                type="text"
+              />
+              <input
+                aria-label="Character 3."
+                autocomplete="off"
+                class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none box-border text-center focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none text-chichi shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+                inputmode="text"
+                maxlength="1"
+                pattern="[\\\\w\\\\d]{1}"
+                type="text"
+              />
+              <input
+                aria-label="Character 4."
+                autocomplete="off"
+                class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none box-border text-center focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none text-chichi shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+                inputmode="text"
+                maxlength="1"
+                pattern="[\\\\w\\\\d]{1}"
+                type="text"
+              />
+              <input
+                aria-label="Character 5."
+                autocomplete="off"
+                class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none box-border text-center focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none text-chichi shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+                inputmode="text"
+                maxlength="1"
+                pattern="[\\\\w\\\\d]{1}"
+                type="text"
+              />
+              <input
+                aria-label="Character 6."
+                autocomplete="off"
+                class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none box-border text-center focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none text-chichi shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+                inputmode="text"
+                maxlength="1"
+                pattern="[\\\\w\\\\d]{1}"
+                type="text"
+              />
             </div>
             <div
-              class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
+              class="px-2 text-center"
             >
-              <div
-                class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
+              <p
+                class="text-moon-12 text-chichi"
               >
-                <div
-                  class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-                >
-                  <input
-                    class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                    disabled=""
-                    id="auth-code-part-1"
-                    inputmode="text"
-                    maxlength="6"
-                    pattern="[a-z0-9]*"
-                    placeholder=""
-                    type="text"
-                    value=""
-                  />
-                  <label
-                    class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                  />
-                </div>
-              </div>
-            </div>
-            <div
-              class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-            >
-              <div
-                class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-              >
-                <div
-                  class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-                >
-                  <input
-                    class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                    disabled=""
-                    id="auth-code-part-2"
-                    inputmode="text"
-                    maxlength="6"
-                    pattern="[a-z0-9]*"
-                    placeholder=""
-                    type="text"
-                    value=""
-                  />
-                  <label
-                    class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                  />
-                </div>
-              </div>
-            </div>
-            <div
-              class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-            >
-              <div
-                class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-              >
-                <div
-                  class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-                >
-                  <input
-                    class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                    disabled=""
-                    id="auth-code-part-3"
-                    inputmode="text"
-                    maxlength="6"
-                    pattern="[a-z0-9]*"
-                    placeholder=""
-                    type="text"
-                    value=""
-                  />
-                  <label
-                    class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                  />
-                </div>
-              </div>
-            </div>
-            <div
-              class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-            >
-              <div
-                class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-              >
-                <div
-                  class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-                >
-                  <input
-                    class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                    disabled=""
-                    id="auth-code-part-4"
-                    inputmode="text"
-                    maxlength="6"
-                    pattern="[a-z0-9]*"
-                    placeholder=""
-                    type="text"
-                    value=""
-                  />
-                  <label
-                    class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                  />
-                </div>
-              </div>
-            </div>
-            <div
-              class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-            >
-              <div
-                class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-              >
-                <div
-                  class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-                >
-                  <input
-                    class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                    disabled=""
-                    id="auth-code-part-5"
-                    inputmode="text"
-                    maxlength="6"
-                    pattern="[a-z0-9]*"
-                    placeholder=""
-                    type="text"
-                    value=""
-                  />
-                  <label
-                    class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                  />
-                </div>
-              </div>
+                Provided value is not valid!
+              </p>
             </div>
           </div>
+        </form>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <form
+        class="flex flex-col justify-between items-end gap-y-2"
+      >
+        <div
+          class="flex flex-col justify-between items-stretch gap-y-2"
+        >
           <div
-            class="px-2"
-            data-testid="undefined-error"
+            class="flex flex-row justify-center gap-2"
+          >
+            <input
+              aria-label="Character 1."
+              autocomplete="one-time-code"
+              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none box-border text-center focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none text-chichi shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+              inputmode="text"
+              maxlength="1"
+              pattern="[\\\\w\\\\d]{1}"
+              type="text"
+            />
+            <input
+              aria-label="Character 2."
+              autocomplete="off"
+              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none box-border text-center focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none text-chichi shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+              inputmode="text"
+              maxlength="1"
+              pattern="[\\\\w\\\\d]{1}"
+              type="text"
+            />
+            <input
+              aria-label="Character 3."
+              autocomplete="off"
+              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none box-border text-center focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none text-chichi shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+              inputmode="text"
+              maxlength="1"
+              pattern="[\\\\w\\\\d]{1}"
+              type="text"
+            />
+            <input
+              aria-label="Character 4."
+              autocomplete="off"
+              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none box-border text-center focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none text-chichi shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+              inputmode="text"
+              maxlength="1"
+              pattern="[\\\\w\\\\d]{1}"
+              type="text"
+            />
+            <input
+              aria-label="Character 5."
+              autocomplete="off"
+              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none box-border text-center focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none text-chichi shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+              inputmode="text"
+              maxlength="1"
+              pattern="[\\\\w\\\\d]{1}"
+              type="text"
+            />
+            <input
+              aria-label="Character 6."
+              autocomplete="off"
+              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none box-border text-center focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none text-chichi shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+              inputmode="text"
+              maxlength="1"
+              pattern="[\\\\w\\\\d]{1}"
+              type="text"
+            />
+          </div>
+          <div
+            class="px-2 text-center"
           >
             <p
               class="text-moon-12 text-chichi"
@@ -578,186 +367,7 @@ Object {
             </p>
           </div>
         </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      dir="rtl"
-    >
-      <div
-        class="grid gap-4"
-      >
-        <div
-          class="flex flex-row w-full justify-center"
-        >
-          <div
-            class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-          >
-            <div
-              class="w-full max-w-full relative z-0 rounded-moon-i-sm"
-            >
-              <div
-                class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-              >
-                <input
-                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                  id="auth-code-part-0"
-                  inputmode="text"
-                  maxlength="6"
-                  pattern="[a-z0-9]*"
-                  placeholder=""
-                  type="text"
-                  value=""
-                />
-                <label
-                  class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                />
-              </div>
-            </div>
-          </div>
-          <div
-            class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-          >
-            <div
-              class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-            >
-              <div
-                class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-              >
-                <input
-                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                  disabled=""
-                  id="auth-code-part-1"
-                  inputmode="text"
-                  maxlength="6"
-                  pattern="[a-z0-9]*"
-                  placeholder=""
-                  type="text"
-                  value=""
-                />
-                <label
-                  class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                />
-              </div>
-            </div>
-          </div>
-          <div
-            class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-          >
-            <div
-              class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-            >
-              <div
-                class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-              >
-                <input
-                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                  disabled=""
-                  id="auth-code-part-2"
-                  inputmode="text"
-                  maxlength="6"
-                  pattern="[a-z0-9]*"
-                  placeholder=""
-                  type="text"
-                  value=""
-                />
-                <label
-                  class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                />
-              </div>
-            </div>
-          </div>
-          <div
-            class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-          >
-            <div
-              class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-            >
-              <div
-                class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-              >
-                <input
-                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                  disabled=""
-                  id="auth-code-part-3"
-                  inputmode="text"
-                  maxlength="6"
-                  pattern="[a-z0-9]*"
-                  placeholder=""
-                  type="text"
-                  value=""
-                />
-                <label
-                  class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                />
-              </div>
-            </div>
-          </div>
-          <div
-            class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-          >
-            <div
-              class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-            >
-              <div
-                class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-              >
-                <input
-                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                  disabled=""
-                  id="auth-code-part-4"
-                  inputmode="text"
-                  maxlength="6"
-                  pattern="[a-z0-9]*"
-                  placeholder=""
-                  type="text"
-                  value=""
-                />
-                <label
-                  class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                />
-              </div>
-            </div>
-          </div>
-          <div
-            class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-          >
-            <div
-              class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-            >
-              <div
-                class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-              >
-                <input
-                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                  disabled=""
-                  id="auth-code-part-5"
-                  inputmode="text"
-                  maxlength="6"
-                  pattern="[a-z0-9]*"
-                  placeholder=""
-                  type="text"
-                  value=""
-                />
-                <label
-                  class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="px-2"
-          data-testid="undefined-error"
-        >
-          <p
-            class="text-moon-12 text-chichi"
-          >
-            Provided value is not valid!
-          </p>
-        </div>
-      </div>
+      </form>
     </div>
   </div>,
   "debug": [Function],
@@ -822,117 +432,54 @@ Object {
       <div
         dir="rtl"
       >
-        <div
-          class="grid gap-4"
+        <form
+          class="flex flex-col justify-between items-end gap-y-2"
         >
           <div
-            class="flex flex-row w-full justify-center"
+            class="flex flex-col justify-between items-stretch gap-y-2"
           >
             <div
-              class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
+              class="flex flex-row justify-center gap-2"
             >
-              <div
-                class="w-full max-w-full relative z-0 rounded-moon-i-sm"
-              >
-                <div
-                  class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-                >
-                  <input
-                    class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                    id="auth-code-part-0"
-                    inputmode="text"
-                    maxlength="4"
-                    pattern="[a-z0-9]*"
-                    placeholder=""
-                    type="text"
-                    value=""
-                  />
-                  <label
-                    class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                  />
-                </div>
-              </div>
-            </div>
-            <div
-              class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-            >
-              <div
-                class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-              >
-                <div
-                  class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-                >
-                  <input
-                    class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                    disabled=""
-                    id="auth-code-part-1"
-                    inputmode="text"
-                    maxlength="4"
-                    pattern="[a-z0-9]*"
-                    placeholder=""
-                    type="text"
-                    value=""
-                  />
-                  <label
-                    class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                  />
-                </div>
-              </div>
-            </div>
-            <div
-              class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-            >
-              <div
-                class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-              >
-                <div
-                  class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-                >
-                  <input
-                    class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                    disabled=""
-                    id="auth-code-part-2"
-                    inputmode="text"
-                    maxlength="4"
-                    pattern="[a-z0-9]*"
-                    placeholder=""
-                    type="text"
-                    value=""
-                  />
-                  <label
-                    class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                  />
-                </div>
-              </div>
-            </div>
-            <div
-              class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-            >
-              <div
-                class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-              >
-                <div
-                  class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-                >
-                  <input
-                    class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                    disabled=""
-                    id="auth-code-part-3"
-                    inputmode="text"
-                    maxlength="4"
-                    pattern="[a-z0-9]*"
-                    placeholder=""
-                    type="text"
-                    value=""
-                  />
-                  <label
-                    class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                  />
-                </div>
-              </div>
+              <input
+                aria-label="Character 1."
+                autocomplete="one-time-code"
+                class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+                inputmode="text"
+                maxlength="1"
+                pattern="[\\\\w\\\\d]{1}"
+                type="text"
+              />
+              <input
+                aria-label="Character 2."
+                autocomplete="off"
+                class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+                inputmode="text"
+                maxlength="1"
+                pattern="[\\\\w\\\\d]{1}"
+                type="text"
+              />
+              <input
+                aria-label="Character 3."
+                autocomplete="off"
+                class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+                inputmode="text"
+                maxlength="1"
+                pattern="[\\\\w\\\\d]{1}"
+                type="text"
+              />
+              <input
+                aria-label="Character 4."
+                autocomplete="off"
+                class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+                inputmode="text"
+                maxlength="1"
+                pattern="[\\\\w\\\\d]{1}"
+                type="text"
+              />
             </div>
           </div>
-        </div>
+        </form>
       </div>
     </div>
   </body>,
@@ -940,117 +487,54 @@ Object {
     <div
       dir="rtl"
     >
-      <div
-        class="grid gap-4"
+      <form
+        class="flex flex-col justify-between items-end gap-y-2"
       >
         <div
-          class="flex flex-row w-full justify-center"
+          class="flex flex-col justify-between items-stretch gap-y-2"
         >
           <div
-            class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
+            class="flex flex-row justify-center gap-2"
           >
-            <div
-              class="w-full max-w-full relative z-0 rounded-moon-i-sm"
-            >
-              <div
-                class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-              >
-                <input
-                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                  id="auth-code-part-0"
-                  inputmode="text"
-                  maxlength="4"
-                  pattern="[a-z0-9]*"
-                  placeholder=""
-                  type="text"
-                  value=""
-                />
-                <label
-                  class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                />
-              </div>
-            </div>
-          </div>
-          <div
-            class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-          >
-            <div
-              class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-            >
-              <div
-                class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-              >
-                <input
-                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                  disabled=""
-                  id="auth-code-part-1"
-                  inputmode="text"
-                  maxlength="4"
-                  pattern="[a-z0-9]*"
-                  placeholder=""
-                  type="text"
-                  value=""
-                />
-                <label
-                  class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                />
-              </div>
-            </div>
-          </div>
-          <div
-            class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-          >
-            <div
-              class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-            >
-              <div
-                class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-              >
-                <input
-                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                  disabled=""
-                  id="auth-code-part-2"
-                  inputmode="text"
-                  maxlength="4"
-                  pattern="[a-z0-9]*"
-                  placeholder=""
-                  type="text"
-                  value=""
-                />
-                <label
-                  class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                />
-              </div>
-            </div>
-          </div>
-          <div
-            class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-          >
-            <div
-              class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-            >
-              <div
-                class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-              >
-                <input
-                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                  disabled=""
-                  id="auth-code-part-3"
-                  inputmode="text"
-                  maxlength="4"
-                  pattern="[a-z0-9]*"
-                  placeholder=""
-                  type="text"
-                  value=""
-                />
-                <label
-                  class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                />
-              </div>
-            </div>
+            <input
+              aria-label="Character 1."
+              autocomplete="one-time-code"
+              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+              inputmode="text"
+              maxlength="1"
+              pattern="[\\\\w\\\\d]{1}"
+              type="text"
+            />
+            <input
+              aria-label="Character 2."
+              autocomplete="off"
+              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+              inputmode="text"
+              maxlength="1"
+              pattern="[\\\\w\\\\d]{1}"
+              type="text"
+            />
+            <input
+              aria-label="Character 3."
+              autocomplete="off"
+              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+              inputmode="text"
+              maxlength="1"
+              pattern="[\\\\w\\\\d]{1}"
+              type="text"
+            />
+            <input
+              aria-label="Character 4."
+              autocomplete="off"
+              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+              inputmode="text"
+              maxlength="1"
+              pattern="[\\\\w\\\\d]{1}"
+              type="text"
+            />
           </div>
         </div>
-      </div>
+      </form>
     </div>
   </div>,
   "debug": [Function],
@@ -1115,117 +599,73 @@ Object {
       <div
         dir="rtl"
       >
-        <div
-          class="grid gap-4"
+        <form
+          class="flex flex-col justify-between items-end gap-y-2"
         >
           <div
-            class="flex flex-row w-full justify-center"
+            class="flex flex-col justify-between items-stretch gap-y-2"
           >
             <div
-              class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
+              class="flex flex-row justify-center gap-2"
             >
-              <div
-                class="w-full max-w-full relative z-0 rounded-moon-i-sm"
-              >
-                <div
-                  class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-                >
-                  <input
-                    class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                    id="auth-code-part-0"
-                    inputmode="numeric"
-                    maxlength="4"
-                    pattern="[a-z0-9]*"
-                    placeholder=""
-                    type="text"
-                    value=""
-                  />
-                  <label
-                    class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                  />
-                </div>
-              </div>
-            </div>
-            <div
-              class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-            >
-              <div
-                class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-              >
-                <div
-                  class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-                >
-                  <input
-                    class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                    disabled=""
-                    id="auth-code-part-1"
-                    inputmode="numeric"
-                    maxlength="4"
-                    pattern="[a-z0-9]*"
-                    placeholder=""
-                    type="text"
-                    value=""
-                  />
-                  <label
-                    class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                  />
-                </div>
-              </div>
-            </div>
-            <div
-              class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-            >
-              <div
-                class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-              >
-                <div
-                  class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-                >
-                  <input
-                    class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                    disabled=""
-                    id="auth-code-part-2"
-                    inputmode="numeric"
-                    maxlength="4"
-                    pattern="[a-z0-9]*"
-                    placeholder=""
-                    type="text"
-                    value=""
-                  />
-                  <label
-                    class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                  />
-                </div>
-              </div>
-            </div>
-            <div
-              class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-            >
-              <div
-                class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-              >
-                <div
-                  class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-                >
-                  <input
-                    class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                    disabled=""
-                    id="auth-code-part-3"
-                    inputmode="numeric"
-                    maxlength="4"
-                    pattern="[a-z0-9]*"
-                    placeholder=""
-                    type="text"
-                    value=""
-                  />
-                  <label
-                    class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                  />
-                </div>
-              </div>
+              <input
+                aria-label="Character 1."
+                autocomplete="one-time-code"
+                class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+                inputmode="numeric"
+                max="9"
+                maxlength="1"
+                min="0"
+                pattern="[0-9]{1}"
+                type="tel"
+              />
+              <input
+                aria-label="Character 2."
+                autocomplete="off"
+                class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+                inputmode="numeric"
+                max="9"
+                maxlength="1"
+                min="0"
+                pattern="[0-9]{1}"
+                type="tel"
+              />
+              <input
+                aria-label="Character 3."
+                autocomplete="off"
+                class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+                inputmode="numeric"
+                max="9"
+                maxlength="1"
+                min="0"
+                pattern="[0-9]{1}"
+                type="tel"
+              />
+              <input
+                aria-label="Character 4."
+                autocomplete="off"
+                class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+                inputmode="numeric"
+                max="9"
+                maxlength="1"
+                min="0"
+                pattern="[0-9]{1}"
+                type="tel"
+              />
+              <input
+                aria-label="Character 5."
+                autocomplete="off"
+                class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+                inputmode="numeric"
+                max="9"
+                maxlength="1"
+                min="0"
+                pattern="[0-9]{1}"
+                type="tel"
+              />
             </div>
           </div>
-        </div>
+        </form>
       </div>
     </div>
   </body>,
@@ -1233,117 +673,73 @@ Object {
     <div
       dir="rtl"
     >
-      <div
-        class="grid gap-4"
+      <form
+        class="flex flex-col justify-between items-end gap-y-2"
       >
         <div
-          class="flex flex-row w-full justify-center"
+          class="flex flex-col justify-between items-stretch gap-y-2"
         >
           <div
-            class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
+            class="flex flex-row justify-center gap-2"
           >
-            <div
-              class="w-full max-w-full relative z-0 rounded-moon-i-sm"
-            >
-              <div
-                class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-              >
-                <input
-                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                  id="auth-code-part-0"
-                  inputmode="numeric"
-                  maxlength="4"
-                  pattern="[a-z0-9]*"
-                  placeholder=""
-                  type="text"
-                  value=""
-                />
-                <label
-                  class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                />
-              </div>
-            </div>
-          </div>
-          <div
-            class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-          >
-            <div
-              class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-            >
-              <div
-                class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-              >
-                <input
-                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                  disabled=""
-                  id="auth-code-part-1"
-                  inputmode="numeric"
-                  maxlength="4"
-                  pattern="[a-z0-9]*"
-                  placeholder=""
-                  type="text"
-                  value=""
-                />
-                <label
-                  class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                />
-              </div>
-            </div>
-          </div>
-          <div
-            class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-          >
-            <div
-              class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-            >
-              <div
-                class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-              >
-                <input
-                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                  disabled=""
-                  id="auth-code-part-2"
-                  inputmode="numeric"
-                  maxlength="4"
-                  pattern="[a-z0-9]*"
-                  placeholder=""
-                  type="text"
-                  value=""
-                />
-                <label
-                  class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                />
-              </div>
-            </div>
-          </div>
-          <div
-            class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-          >
-            <div
-              class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-            >
-              <div
-                class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-              >
-                <input
-                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                  disabled=""
-                  id="auth-code-part-3"
-                  inputmode="numeric"
-                  maxlength="4"
-                  pattern="[a-z0-9]*"
-                  placeholder=""
-                  type="text"
-                  value=""
-                />
-                <label
-                  class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                />
-              </div>
-            </div>
+            <input
+              aria-label="Character 1."
+              autocomplete="one-time-code"
+              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+              inputmode="numeric"
+              max="9"
+              maxlength="1"
+              min="0"
+              pattern="[0-9]{1}"
+              type="tel"
+            />
+            <input
+              aria-label="Character 2."
+              autocomplete="off"
+              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+              inputmode="numeric"
+              max="9"
+              maxlength="1"
+              min="0"
+              pattern="[0-9]{1}"
+              type="tel"
+            />
+            <input
+              aria-label="Character 3."
+              autocomplete="off"
+              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+              inputmode="numeric"
+              max="9"
+              maxlength="1"
+              min="0"
+              pattern="[0-9]{1}"
+              type="tel"
+            />
+            <input
+              aria-label="Character 4."
+              autocomplete="off"
+              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+              inputmode="numeric"
+              max="9"
+              maxlength="1"
+              min="0"
+              pattern="[0-9]{1}"
+              type="tel"
+            />
+            <input
+              aria-label="Character 5."
+              autocomplete="off"
+              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+              inputmode="numeric"
+              max="9"
+              maxlength="1"
+              min="0"
+              pattern="[0-9]{1}"
+              type="tel"
+            />
           </div>
         </div>
-      </div>
+      </form>
     </div>
   </div>,
   "debug": [Function],
@@ -1405,335 +801,141 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
-        class="grid gap-4"
+      <form
+        class="flex flex-col justify-between items-end gap-y-2"
       >
         <div
-          class="flex flex-row w-full justify-center"
+          class="flex flex-col justify-between items-stretch gap-y-2"
         >
           <div
-            class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
+            class="flex flex-row justify-center gap-2"
           >
-            <div
-              class="w-full max-w-full relative z-0 rounded-moon-i-sm"
-            >
-              <div
-                class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-              >
-                <input
-                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                  id="auth-code-part-0"
-                  inputmode="text"
-                  maxlength="6"
-                  pattern="[a-z0-9]*"
-                  placeholder=""
-                  type="text"
-                  value=""
-                />
-                <label
-                  class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                />
-              </div>
-            </div>
-          </div>
-          <div
-            class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-          >
-            <div
-              class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-            >
-              <div
-                class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-              >
-                <input
-                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                  disabled=""
-                  id="auth-code-part-1"
-                  inputmode="text"
-                  maxlength="6"
-                  pattern="[a-z0-9]*"
-                  placeholder=""
-                  type="text"
-                  value=""
-                />
-                <label
-                  class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                />
-              </div>
-            </div>
-          </div>
-          <div
-            class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-          >
-            <div
-              class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-            >
-              <div
-                class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-              >
-                <input
-                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                  disabled=""
-                  id="auth-code-part-2"
-                  inputmode="text"
-                  maxlength="6"
-                  pattern="[a-z0-9]*"
-                  placeholder=""
-                  type="text"
-                  value=""
-                />
-                <label
-                  class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                />
-              </div>
-            </div>
-          </div>
-          <div
-            class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-          >
-            <div
-              class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-            >
-              <div
-                class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-              >
-                <input
-                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                  disabled=""
-                  id="auth-code-part-3"
-                  inputmode="text"
-                  maxlength="6"
-                  pattern="[a-z0-9]*"
-                  placeholder=""
-                  type="text"
-                  value=""
-                />
-                <label
-                  class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                />
-              </div>
-            </div>
-          </div>
-          <div
-            class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-          >
-            <div
-              class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-            >
-              <div
-                class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-              >
-                <input
-                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                  disabled=""
-                  id="auth-code-part-4"
-                  inputmode="text"
-                  maxlength="6"
-                  pattern="[a-z0-9]*"
-                  placeholder=""
-                  type="text"
-                  value=""
-                />
-                <label
-                  class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                />
-              </div>
-            </div>
-          </div>
-          <div
-            class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-          >
-            <div
-              class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-            >
-              <div
-                class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-              >
-                <input
-                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                  disabled=""
-                  id="auth-code-part-5"
-                  inputmode="text"
-                  maxlength="6"
-                  pattern="[a-z0-9]*"
-                  placeholder=""
-                  type="text"
-                  value=""
-                />
-                <label
-                  class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                />
-              </div>
-            </div>
+            <input
+              aria-label="Character 1."
+              autocomplete="one-time-code"
+              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+              inputmode="text"
+              maxlength="1"
+              pattern="[\\\\w\\\\d]{1}"
+              type="text"
+            />
+            <input
+              aria-label="Character 2."
+              autocomplete="off"
+              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+              inputmode="text"
+              maxlength="1"
+              pattern="[\\\\w\\\\d]{1}"
+              type="text"
+            />
+            <input
+              aria-label="Character 3."
+              autocomplete="off"
+              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+              inputmode="text"
+              maxlength="1"
+              pattern="[\\\\w\\\\d]{1}"
+              type="text"
+            />
+            <input
+              aria-label="Character 4."
+              autocomplete="off"
+              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+              inputmode="text"
+              maxlength="1"
+              pattern="[\\\\w\\\\d]{1}"
+              type="text"
+            />
+            <input
+              aria-label="Character 5."
+              autocomplete="off"
+              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+              inputmode="text"
+              maxlength="1"
+              pattern="[\\\\w\\\\d]{1}"
+              type="text"
+            />
+            <input
+              aria-label="Character 6."
+              autocomplete="off"
+              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+              inputmode="text"
+              maxlength="1"
+              pattern="[\\\\w\\\\d]{1}"
+              type="text"
+            />
           </div>
         </div>
-      </div>
+      </form>
     </div>
   </body>,
   "container": <div>
-    <div
-      class="grid gap-4"
+    <form
+      class="flex flex-col justify-between items-end gap-y-2"
     >
       <div
-        class="flex flex-row w-full justify-center"
+        class="flex flex-col justify-between items-stretch gap-y-2"
       >
         <div
-          class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
+          class="flex flex-row justify-center gap-2"
         >
-          <div
-            class="w-full max-w-full relative z-0 rounded-moon-i-sm"
-          >
-            <div
-              class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-            >
-              <input
-                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                id="auth-code-part-0"
-                inputmode="text"
-                maxlength="6"
-                pattern="[a-z0-9]*"
-                placeholder=""
-                type="text"
-                value=""
-              />
-              <label
-                class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-              />
-            </div>
-          </div>
-        </div>
-        <div
-          class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-        >
-          <div
-            class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-          >
-            <div
-              class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-            >
-              <input
-                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                disabled=""
-                id="auth-code-part-1"
-                inputmode="text"
-                maxlength="6"
-                pattern="[a-z0-9]*"
-                placeholder=""
-                type="text"
-                value=""
-              />
-              <label
-                class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-              />
-            </div>
-          </div>
-        </div>
-        <div
-          class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-        >
-          <div
-            class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-          >
-            <div
-              class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-            >
-              <input
-                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                disabled=""
-                id="auth-code-part-2"
-                inputmode="text"
-                maxlength="6"
-                pattern="[a-z0-9]*"
-                placeholder=""
-                type="text"
-                value=""
-              />
-              <label
-                class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-              />
-            </div>
-          </div>
-        </div>
-        <div
-          class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-        >
-          <div
-            class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-          >
-            <div
-              class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-            >
-              <input
-                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                disabled=""
-                id="auth-code-part-3"
-                inputmode="text"
-                maxlength="6"
-                pattern="[a-z0-9]*"
-                placeholder=""
-                type="text"
-                value=""
-              />
-              <label
-                class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-              />
-            </div>
-          </div>
-        </div>
-        <div
-          class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-        >
-          <div
-            class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-          >
-            <div
-              class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-            >
-              <input
-                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                disabled=""
-                id="auth-code-part-4"
-                inputmode="text"
-                maxlength="6"
-                pattern="[a-z0-9]*"
-                placeholder=""
-                type="text"
-                value=""
-              />
-              <label
-                class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-              />
-            </div>
-          </div>
-        </div>
-        <div
-          class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-        >
-          <div
-            class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-          >
-            <div
-              class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-            >
-              <input
-                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                disabled=""
-                id="auth-code-part-5"
-                inputmode="text"
-                maxlength="6"
-                pattern="[a-z0-9]*"
-                placeholder=""
-                type="text"
-                value=""
-              />
-              <label
-                class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-              />
-            </div>
-          </div>
+          <input
+            aria-label="Character 1."
+            autocomplete="one-time-code"
+            class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
+          <input
+            aria-label="Character 2."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
+          <input
+            aria-label="Character 3."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
+          <input
+            aria-label="Character 4."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
+          <input
+            aria-label="Character 5."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
+          <input
+            aria-label="Character 6."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
         </div>
       </div>
-    </div>
+    </form>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
@@ -1794,171 +996,150 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
-        class="grid gap-4"
+      <form
+        class="flex flex-col justify-between items-end gap-y-2"
       >
         <div
-          class="flex flex-row w-full justify-center"
+          class="flex flex-col justify-between items-stretch gap-y-2"
         >
           <div
-            class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
+            class="flex flex-row justify-center gap-2"
           >
-            <div
-              class="w-full max-w-full relative z-0 rounded-moon-i-sm"
-            >
-              <div
-                class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-              >
-                <input
-                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                  id="auth-code-part-0"
-                  inputmode="text"
-                  maxlength="6"
-                  pattern="[a-z0-9]*"
-                  placeholder=""
-                  type="text"
-                  value=""
-                />
-                <label
-                  class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                />
-              </div>
-            </div>
+            <input
+              aria-label="Character 1."
+              autocomplete="one-time-code"
+              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none box-border text-center focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none text-chichi shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+              inputmode="text"
+              maxlength="1"
+              pattern="[\\\\w\\\\d]{1}"
+              type="text"
+            />
+            <input
+              aria-label="Character 2."
+              autocomplete="off"
+              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none box-border text-center focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none text-chichi shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+              inputmode="text"
+              maxlength="1"
+              pattern="[\\\\w\\\\d]{1}"
+              type="text"
+            />
+            <input
+              aria-label="Character 3."
+              autocomplete="off"
+              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none box-border text-center focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none text-chichi shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+              inputmode="text"
+              maxlength="1"
+              pattern="[\\\\w\\\\d]{1}"
+              type="text"
+            />
+            <input
+              aria-label="Character 4."
+              autocomplete="off"
+              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none box-border text-center focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none text-chichi shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+              inputmode="text"
+              maxlength="1"
+              pattern="[\\\\w\\\\d]{1}"
+              type="text"
+            />
+            <input
+              aria-label="Character 5."
+              autocomplete="off"
+              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none box-border text-center focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none text-chichi shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+              inputmode="text"
+              maxlength="1"
+              pattern="[\\\\w\\\\d]{1}"
+              type="text"
+            />
+            <input
+              aria-label="Character 6."
+              autocomplete="off"
+              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none box-border text-center focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none text-chichi shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+              inputmode="text"
+              maxlength="1"
+              pattern="[\\\\w\\\\d]{1}"
+              type="text"
+            />
           </div>
           <div
-            class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
+            class="px-2 text-center"
           >
-            <div
-              class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
+            <p
+              class="text-moon-12 text-chichi"
             >
-              <div
-                class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-              >
-                <input
-                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                  disabled=""
-                  id="auth-code-part-1"
-                  inputmode="text"
-                  maxlength="6"
-                  pattern="[a-z0-9]*"
-                  placeholder=""
-                  type="text"
-                  value=""
-                />
-                <label
-                  class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                />
-              </div>
-            </div>
-          </div>
-          <div
-            class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-          >
-            <div
-              class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-            >
-              <div
-                class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-              >
-                <input
-                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                  disabled=""
-                  id="auth-code-part-2"
-                  inputmode="text"
-                  maxlength="6"
-                  pattern="[a-z0-9]*"
-                  placeholder=""
-                  type="text"
-                  value=""
-                />
-                <label
-                  class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                />
-              </div>
-            </div>
-          </div>
-          <div
-            class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-          >
-            <div
-              class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-            >
-              <div
-                class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-              >
-                <input
-                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                  disabled=""
-                  id="auth-code-part-3"
-                  inputmode="text"
-                  maxlength="6"
-                  pattern="[a-z0-9]*"
-                  placeholder=""
-                  type="text"
-                  value=""
-                />
-                <label
-                  class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                />
-              </div>
-            </div>
-          </div>
-          <div
-            class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-          >
-            <div
-              class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-            >
-              <div
-                class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-              >
-                <input
-                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                  disabled=""
-                  id="auth-code-part-4"
-                  inputmode="text"
-                  maxlength="6"
-                  pattern="[a-z0-9]*"
-                  placeholder=""
-                  type="text"
-                  value=""
-                />
-                <label
-                  class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                />
-              </div>
-            </div>
-          </div>
-          <div
-            class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-          >
-            <div
-              class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-            >
-              <div
-                class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-              >
-                <input
-                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                  disabled=""
-                  id="auth-code-part-5"
-                  inputmode="text"
-                  maxlength="6"
-                  pattern="[a-z0-9]*"
-                  placeholder=""
-                  type="text"
-                  value=""
-                />
-                <label
-                  class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                />
-              </div>
-            </div>
+              Provided value is not valid!
+            </p>
           </div>
         </div>
+      </form>
+    </div>
+  </body>,
+  "container": <div>
+    <form
+      class="flex flex-col justify-between items-end gap-y-2"
+    >
+      <div
+        class="flex flex-col justify-between items-stretch gap-y-2"
+      >
         <div
-          class="px-2"
-          data-testid="undefined-error"
+          class="flex flex-row justify-center gap-2"
+        >
+          <input
+            aria-label="Character 1."
+            autocomplete="one-time-code"
+            class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none box-border text-center focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none text-chichi shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
+          <input
+            aria-label="Character 2."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none box-border text-center focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none text-chichi shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
+          <input
+            aria-label="Character 3."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none box-border text-center focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none text-chichi shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
+          <input
+            aria-label="Character 4."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none box-border text-center focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none text-chichi shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
+          <input
+            aria-label="Character 5."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none box-border text-center focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none text-chichi shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
+          <input
+            aria-label="Character 6."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none box-border text-center focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none text-chichi shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
+        </div>
+        <div
+          class="px-2 text-center"
         >
           <p
             class="text-moon-12 text-chichi"
@@ -1967,182 +1148,7 @@ Object {
           </p>
         </div>
       </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      class="grid gap-4"
-    >
-      <div
-        class="flex flex-row w-full justify-center"
-      >
-        <div
-          class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-        >
-          <div
-            class="w-full max-w-full relative z-0 rounded-moon-i-sm"
-          >
-            <div
-              class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-            >
-              <input
-                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                id="auth-code-part-0"
-                inputmode="text"
-                maxlength="6"
-                pattern="[a-z0-9]*"
-                placeholder=""
-                type="text"
-                value=""
-              />
-              <label
-                class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-              />
-            </div>
-          </div>
-        </div>
-        <div
-          class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-        >
-          <div
-            class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-          >
-            <div
-              class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-            >
-              <input
-                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                disabled=""
-                id="auth-code-part-1"
-                inputmode="text"
-                maxlength="6"
-                pattern="[a-z0-9]*"
-                placeholder=""
-                type="text"
-                value=""
-              />
-              <label
-                class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-              />
-            </div>
-          </div>
-        </div>
-        <div
-          class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-        >
-          <div
-            class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-          >
-            <div
-              class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-            >
-              <input
-                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                disabled=""
-                id="auth-code-part-2"
-                inputmode="text"
-                maxlength="6"
-                pattern="[a-z0-9]*"
-                placeholder=""
-                type="text"
-                value=""
-              />
-              <label
-                class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-              />
-            </div>
-          </div>
-        </div>
-        <div
-          class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-        >
-          <div
-            class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-          >
-            <div
-              class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-            >
-              <input
-                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                disabled=""
-                id="auth-code-part-3"
-                inputmode="text"
-                maxlength="6"
-                pattern="[a-z0-9]*"
-                placeholder=""
-                type="text"
-                value=""
-              />
-              <label
-                class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-              />
-            </div>
-          </div>
-        </div>
-        <div
-          class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-        >
-          <div
-            class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-          >
-            <div
-              class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-            >
-              <input
-                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                disabled=""
-                id="auth-code-part-4"
-                inputmode="text"
-                maxlength="6"
-                pattern="[a-z0-9]*"
-                placeholder=""
-                type="text"
-                value=""
-              />
-              <label
-                class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-              />
-            </div>
-          </div>
-        </div>
-        <div
-          class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-        >
-          <div
-            class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-          >
-            <div
-              class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-            >
-              <input
-                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                disabled=""
-                id="auth-code-part-5"
-                inputmode="text"
-                maxlength="6"
-                pattern="[a-z0-9]*"
-                placeholder=""
-                type="text"
-                value=""
-              />
-              <label
-                class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        class="px-2"
-        data-testid="undefined-error"
-      >
-        <p
-          class="text-moon-12 text-chichi"
-        >
-          Provided value is not valid!
-        </p>
-      </div>
-    </div>
+    </form>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
@@ -2203,231 +1209,105 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
-        class="grid gap-4"
+      <form
+        class="flex flex-col justify-between items-end gap-y-2"
       >
         <div
-          class="flex flex-row w-full justify-center"
+          class="flex flex-col justify-between items-stretch gap-y-2"
         >
           <div
-            class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
+            class="flex flex-row justify-center gap-2"
           >
-            <div
-              class="w-full max-w-full relative z-0 rounded-moon-i-sm"
-            >
-              <div
-                class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-              >
-                <input
-                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                  id="auth-code-part-0"
-                  inputmode="text"
-                  maxlength="4"
-                  pattern="[a-z0-9]*"
-                  placeholder=""
-                  type="text"
-                  value=""
-                />
-                <label
-                  class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                />
-              </div>
-            </div>
-          </div>
-          <div
-            class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-          >
-            <div
-              class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-            >
-              <div
-                class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-              >
-                <input
-                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                  disabled=""
-                  id="auth-code-part-1"
-                  inputmode="text"
-                  maxlength="4"
-                  pattern="[a-z0-9]*"
-                  placeholder=""
-                  type="text"
-                  value=""
-                />
-                <label
-                  class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                />
-              </div>
-            </div>
-          </div>
-          <div
-            class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-          >
-            <div
-              class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-            >
-              <div
-                class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-              >
-                <input
-                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                  disabled=""
-                  id="auth-code-part-2"
-                  inputmode="text"
-                  maxlength="4"
-                  pattern="[a-z0-9]*"
-                  placeholder=""
-                  type="text"
-                  value=""
-                />
-                <label
-                  class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                />
-              </div>
-            </div>
-          </div>
-          <div
-            class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-          >
-            <div
-              class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-            >
-              <div
-                class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-              >
-                <input
-                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                  disabled=""
-                  id="auth-code-part-3"
-                  inputmode="text"
-                  maxlength="4"
-                  pattern="[a-z0-9]*"
-                  placeholder=""
-                  type="text"
-                  value=""
-                />
-                <label
-                  class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                />
-              </div>
-            </div>
+            <input
+              aria-label="Character 1."
+              autocomplete="one-time-code"
+              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+              inputmode="text"
+              maxlength="1"
+              pattern="[\\\\w\\\\d]{1}"
+              type="text"
+            />
+            <input
+              aria-label="Character 2."
+              autocomplete="off"
+              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+              inputmode="text"
+              maxlength="1"
+              pattern="[\\\\w\\\\d]{1}"
+              type="text"
+            />
+            <input
+              aria-label="Character 3."
+              autocomplete="off"
+              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+              inputmode="text"
+              maxlength="1"
+              pattern="[\\\\w\\\\d]{1}"
+              type="text"
+            />
+            <input
+              aria-label="Character 4."
+              autocomplete="off"
+              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+              inputmode="text"
+              maxlength="1"
+              pattern="[\\\\w\\\\d]{1}"
+              type="text"
+            />
           </div>
         </div>
-      </div>
+      </form>
     </div>
   </body>,
   "container": <div>
-    <div
-      class="grid gap-4"
+    <form
+      class="flex flex-col justify-between items-end gap-y-2"
     >
       <div
-        class="flex flex-row w-full justify-center"
+        class="flex flex-col justify-between items-stretch gap-y-2"
       >
         <div
-          class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
+          class="flex flex-row justify-center gap-2"
         >
-          <div
-            class="w-full max-w-full relative z-0 rounded-moon-i-sm"
-          >
-            <div
-              class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-            >
-              <input
-                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                id="auth-code-part-0"
-                inputmode="text"
-                maxlength="4"
-                pattern="[a-z0-9]*"
-                placeholder=""
-                type="text"
-                value=""
-              />
-              <label
-                class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-              />
-            </div>
-          </div>
-        </div>
-        <div
-          class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-        >
-          <div
-            class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-          >
-            <div
-              class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-            >
-              <input
-                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                disabled=""
-                id="auth-code-part-1"
-                inputmode="text"
-                maxlength="4"
-                pattern="[a-z0-9]*"
-                placeholder=""
-                type="text"
-                value=""
-              />
-              <label
-                class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-              />
-            </div>
-          </div>
-        </div>
-        <div
-          class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-        >
-          <div
-            class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-          >
-            <div
-              class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-            >
-              <input
-                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                disabled=""
-                id="auth-code-part-2"
-                inputmode="text"
-                maxlength="4"
-                pattern="[a-z0-9]*"
-                placeholder=""
-                type="text"
-                value=""
-              />
-              <label
-                class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-              />
-            </div>
-          </div>
-        </div>
-        <div
-          class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-        >
-          <div
-            class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-          >
-            <div
-              class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-            >
-              <input
-                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                disabled=""
-                id="auth-code-part-3"
-                inputmode="text"
-                maxlength="4"
-                pattern="[a-z0-9]*"
-                placeholder=""
-                type="text"
-                value=""
-              />
-              <label
-                class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-              />
-            </div>
-          </div>
+          <input
+            aria-label="Character 1."
+            autocomplete="one-time-code"
+            class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
+          <input
+            aria-label="Character 2."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
+          <input
+            aria-label="Character 3."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
+          <input
+            aria-label="Character 4."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
         </div>
       </div>
-    </div>
+    </form>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
@@ -2488,231 +1368,143 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
-        class="grid gap-4"
+      <form
+        class="flex flex-col justify-between items-end gap-y-2"
       >
         <div
-          class="flex flex-row w-full justify-center"
+          class="flex flex-col justify-between items-stretch gap-y-2"
         >
           <div
-            class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
+            class="flex flex-row justify-center gap-2"
           >
-            <div
-              class="w-full max-w-full relative z-0 rounded-moon-i-sm"
-            >
-              <div
-                class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-              >
-                <input
-                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                  id="auth-code-part-0"
-                  inputmode="numeric"
-                  maxlength="4"
-                  pattern="[a-z0-9]*"
-                  placeholder=""
-                  type="text"
-                  value=""
-                />
-                <label
-                  class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                />
-              </div>
-            </div>
-          </div>
-          <div
-            class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-          >
-            <div
-              class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-            >
-              <div
-                class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-              >
-                <input
-                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                  disabled=""
-                  id="auth-code-part-1"
-                  inputmode="numeric"
-                  maxlength="4"
-                  pattern="[a-z0-9]*"
-                  placeholder=""
-                  type="text"
-                  value=""
-                />
-                <label
-                  class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                />
-              </div>
-            </div>
-          </div>
-          <div
-            class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-          >
-            <div
-              class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-            >
-              <div
-                class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-              >
-                <input
-                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                  disabled=""
-                  id="auth-code-part-2"
-                  inputmode="numeric"
-                  maxlength="4"
-                  pattern="[a-z0-9]*"
-                  placeholder=""
-                  type="text"
-                  value=""
-                />
-                <label
-                  class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                />
-              </div>
-            </div>
-          </div>
-          <div
-            class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-          >
-            <div
-              class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-            >
-              <div
-                class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-              >
-                <input
-                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                  disabled=""
-                  id="auth-code-part-3"
-                  inputmode="numeric"
-                  maxlength="4"
-                  pattern="[a-z0-9]*"
-                  placeholder=""
-                  type="text"
-                  value=""
-                />
-                <label
-                  class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-                />
-              </div>
-            </div>
+            <input
+              aria-label="Character 1."
+              autocomplete="one-time-code"
+              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+              inputmode="numeric"
+              max="9"
+              maxlength="1"
+              min="0"
+              pattern="[0-9]{1}"
+              type="tel"
+            />
+            <input
+              aria-label="Character 2."
+              autocomplete="off"
+              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+              inputmode="numeric"
+              max="9"
+              maxlength="1"
+              min="0"
+              pattern="[0-9]{1}"
+              type="tel"
+            />
+            <input
+              aria-label="Character 3."
+              autocomplete="off"
+              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+              inputmode="numeric"
+              max="9"
+              maxlength="1"
+              min="0"
+              pattern="[0-9]{1}"
+              type="tel"
+            />
+            <input
+              aria-label="Character 4."
+              autocomplete="off"
+              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+              inputmode="numeric"
+              max="9"
+              maxlength="1"
+              min="0"
+              pattern="[0-9]{1}"
+              type="tel"
+            />
+            <input
+              aria-label="Character 5."
+              autocomplete="off"
+              class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+              inputmode="numeric"
+              max="9"
+              maxlength="1"
+              min="0"
+              pattern="[0-9]{1}"
+              type="tel"
+            />
           </div>
         </div>
-      </div>
+      </form>
     </div>
   </body>,
   "container": <div>
-    <div
-      class="grid gap-4"
+    <form
+      class="flex flex-col justify-between items-end gap-y-2"
     >
       <div
-        class="flex flex-row w-full justify-center"
+        class="flex flex-col justify-between items-stretch gap-y-2"
       >
         <div
-          class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
+          class="flex flex-row justify-center gap-2"
         >
-          <div
-            class="w-full max-w-full relative z-0 rounded-moon-i-sm"
-          >
-            <div
-              class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-            >
-              <input
-                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                id="auth-code-part-0"
-                inputmode="numeric"
-                maxlength="4"
-                pattern="[a-z0-9]*"
-                placeholder=""
-                type="text"
-                value=""
-              />
-              <label
-                class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-              />
-            </div>
-          </div>
-        </div>
-        <div
-          class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-        >
-          <div
-            class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-          >
-            <div
-              class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-            >
-              <input
-                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                disabled=""
-                id="auth-code-part-1"
-                inputmode="numeric"
-                maxlength="4"
-                pattern="[a-z0-9]*"
-                placeholder=""
-                type="text"
-                value=""
-              />
-              <label
-                class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-              />
-            </div>
-          </div>
-        </div>
-        <div
-          class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-        >
-          <div
-            class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-          >
-            <div
-              class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-            >
-              <input
-                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                disabled=""
-                id="auth-code-part-2"
-                inputmode="numeric"
-                maxlength="4"
-                pattern="[a-z0-9]*"
-                placeholder=""
-                type="text"
-                value=""
-              />
-              <label
-                class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-              />
-            </div>
-          </div>
-        </div>
-        <div
-          class="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
-        >
-          <div
-            class="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
-          >
-            <div
-              class="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
-            >
-              <input
-                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                disabled=""
-                id="auth-code-part-3"
-                inputmode="numeric"
-                maxlength="4"
-                pattern="[a-z0-9]*"
-                placeholder=""
-                type="text"
-                value=""
-              />
-              <label
-                class="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
-              />
-            </div>
-          </div>
+          <input
+            aria-label="Character 1."
+            autocomplete="one-time-code"
+            class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="numeric"
+            max="9"
+            maxlength="1"
+            min="0"
+            pattern="[0-9]{1}"
+            type="tel"
+          />
+          <input
+            aria-label="Character 2."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="numeric"
+            max="9"
+            maxlength="1"
+            min="0"
+            pattern="[0-9]{1}"
+            type="tel"
+          />
+          <input
+            aria-label="Character 3."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="numeric"
+            max="9"
+            maxlength="1"
+            min="0"
+            pattern="[0-9]{1}"
+            type="tel"
+          />
+          <input
+            aria-label="Character 4."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="numeric"
+            max="9"
+            maxlength="1"
+            min="0"
+            pattern="[0-9]{1}"
+            type="tel"
+          />
+          <input
+            aria-label="Character 5."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] text-lg rounded-xl m-0 py-3 px-4 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="numeric"
+            max="9"
+            maxlength="1"
+            min="0"
+            pattern="[0-9]{1}"
+            type="tel"
+          />
         </div>
       </div>
-    </div>
+    </form>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

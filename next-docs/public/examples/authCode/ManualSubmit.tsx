@@ -20,9 +20,25 @@ const Example = () => {
 
   const customCodeValidate = (code: string) => {
     switch (code.length) {
-      case 0: formReturn1.setError('authCode1', { type: 'required', message: 'This field is required' }); return false;
-      case codeLength: formReturn1.setError('authCode1', {}); return true;
-      default: formReturn1.setError('authCode1', { type: 'minLength', message: 'The code is incompleted' }); return false;
+      case 0:
+        formReturn1.setError(
+          'authCode1',
+          {
+            type: 'required',
+            message: 'This field is required'
+          });
+        return false;
+      case codeLength:
+        formReturn1.setError('authCode1', {});
+        return true;
+      default:
+        formReturn1.setError('authCode1',
+          {
+            type: 'minLength',
+            message: 'The code is uncompleted'
+          }
+        );
+        return false;
     }
   }
 
@@ -43,32 +59,34 @@ const Example = () => {
           name='authCode1'
           control={formReturn1.control}
           render={({ field }) => <AuthCode
-              {...field}
-              length={codeLength}
-              errorMessage={formReturn1.formState.errors.authCode1?.message}
-            />}
+            {...field}
+            length={codeLength}
+            errorMessage={formReturn1.formState.errors.authCode1?.message}
+          />}
         />
-      <Button as='button' type='submit' size='md'>Send code</Button>
-    </Form>
+        <Button as='button' type='submit' size='md'>Send code</Button>
+      </Form>
 
-    <Form onSubmit={formReturn2.handleSubmit(onSubmit2)} className='flex flex-col justify-between items-end gap-y-2'>
-      <Controller
-        name='authCode2'
-        control={formReturn2.control}
-        rules={{ validate: {
-          filled: v => v.length !== 0,
-          complete: v => v.length === codeLength
-        } }}
-        render={({ field }) => <AuthCode
+      <Form onSubmit={formReturn2.handleSubmit(onSubmit2)} className='flex flex-col justify-between items-end gap-y-2'>
+        <Controller
+          name='authCode2'
+          control={formReturn2.control}
+          rules={{
+            validate: {
+              filled: v => v.length !== 0,
+              complete: v => v.length === codeLength
+            }
+          }}
+          render={({ field }) => <AuthCode
             {...field}
             length={codeLength}
             onChange={(value: string) => { field.onChange(value) }}
             errorMessage={formReturn2.formState.errors.authCode2?.message}
           />}
-      />
-      <Button as='button' type='submit' size='md' disabled={ !formReturn2.formState.isValid }>Send code</Button>
-    </Form>
-  </div>
+        />
+        <Button as='button' type='submit' size='md' disabled={!formReturn2.formState.isValid}>Send code</Button>
+      </Form>
+    </div>
   );
 }
 
