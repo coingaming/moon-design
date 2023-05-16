@@ -1,4 +1,4 @@
-const template = require('./templates/template.svgrrc.js');
+const template = require('./templates/template_tw.svgrrc.js');
 const dimensions = require('./transform/dimensions');
 
 module.exports = {

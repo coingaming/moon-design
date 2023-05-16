@@ -1,5 +1,15 @@
 # @heathmont/moon-select
 
+## 9.32.1
+
+### Patch Changes
+
+- Remove in progress from some components
+- Updated dependencies [undefined]
+  - @heathmont/moon-core@9.32.1
+  - @heathmont/moon-themes@9.32.1
+  - @heathmont/moon-utils@9.32.1
+
 ## 9.32.0
 
 ### Minor Changes
