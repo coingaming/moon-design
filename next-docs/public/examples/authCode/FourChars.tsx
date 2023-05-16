@@ -29,8 +29,8 @@ const Example = () => {
             {...field}
             length={codeLength}
             onChange={(value: string) => {
-              onSubmit({ authCode: value });
               field.onChange(value);
+              onSubmit({ authCode: value });
             }}
             disabled={field.value.length === codeLength}
           />
