@@ -10,8 +10,9 @@ const Example = () => {
   });
 
   const onSubmit = ({ authCode }: { authCode: string }) => {
-    if (authCode.length === 6)
+    if (authCode.length === 6) {
       alert(`Code sent: "${authCode}"`);
+    }
   };
 
   return (

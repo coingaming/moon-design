@@ -37,7 +37,7 @@ const Example = () => {
         <Controller
           name='authCode1'
           control={formReturn1.control}
-          render={({ field }) => 
+          render={({ field }) =>
             <AuthCode
               {...field}
               length={codeLength1}
@@ -56,7 +56,7 @@ const Example = () => {
         <Controller
           name='authCode2'
           control={formReturn2.control}
-          render={({ field }) => 
+          render={({ field }) =>
             <AuthCode
               {...field}
               length={codeLength2}

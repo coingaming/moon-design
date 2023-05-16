@@ -67,14 +67,14 @@ const PageAuthCodeGroup = () => {
             description:
               'Specifies the type of input characters. Default is alphanumeric.',
           },
-          /* {
+          {
             name: 'autoFocus',
             type: 'boolean',
             required: false,
-            default: 'true',
+            default: 'false',
             description:
               'If true, inputs automatically accept the keyboard focus on data input.',
-          }, */
+          },
           {
             name: 'stretch',
             type: 'boolean',

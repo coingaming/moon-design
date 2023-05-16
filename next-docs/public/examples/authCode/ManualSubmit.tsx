@@ -18,33 +18,8 @@ const Example = () => {
 
   const codeLength = 6;
 
-  const customCodeValidate = (code: string) => {
-    switch (code.length) {
-      case 0:
-        formReturn1.setError(
-          'authCode1',
-          {
-            type: 'required',
-            message: 'This field is required'
-          });
-        return false;
-      case codeLength:
-        formReturn1.setError('authCode1', {});
-        return true;
-      default:
-        formReturn1.setError('authCode1',
-          {
-            type: 'minLength',
-            message: 'The code is uncompleted'
-          }
-        );
-        return false;
-    }
-  }
-
   const onSubmit1 = ({ authCode1 }: { authCode1: string }) => {
-    if (customCodeValidate(authCode1))
-      alert(`Code sent: "${authCode1}"`);
+    alert(`Code sent: "${authCode1}"`);
   };
 
   const onSubmit2 = ({ authCode2 }: { authCode2: string }) => {
