@@ -147,7 +147,7 @@ const PageAuthCodeGroup = () => {
               'Specifies the extra styles for input elements.',
           },
           {
-            name: 'containerClassName',
+            name: 'className',
             type: 'string',
             required: false,
             default: '-',

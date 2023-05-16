@@ -44,7 +44,7 @@ const AuthCode = forwardRef<AuthCodeRef, AuthCodeProps>(
       allowedCharacters = 'alphanumeric',
       ariaLabel,
       autoFocus = false,
-      containerClassName: className,
+      className,
       stretch = false,
       expandable = false,
       disabled,

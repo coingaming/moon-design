@@ -4,7 +4,7 @@ export type AuthCodeProps = {
   allowedCharacters?: typeof allowedCharactersValues[number];
   ariaLabel?: string;
   autoFocus?: boolean;
-  containerClassName?: string;
+  className?: string;
   stretch?: boolean;
   expandable?: boolean;
   disabled?: boolean;
