@@ -1,5 +1,19 @@
 # Change Log
 
+## 9.33.0
+
+### Minor Changes
+
+- svg tw
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@9.33.0
+  - @heathmont/moon-components@9.33.0
+  - @heathmont/moon-themes@9.33.0
+  - @heathmont/moon-utils@9.33.0
+
 ## 9.32.1
 
 ### Patch Changes
