@@ -75,6 +75,8 @@ const AuthCode = forwardRef<AuthCodeRef, AuthCodeProps>(
       focus: () => {
         if (inputsRef.current) {
           inputsRef.current[0].focus();
+          // Sets the start and end positions of the current text selection
+          inputsRef.current[0].setSelectionRange(0, 1);
         }
       },
       clear: () => {

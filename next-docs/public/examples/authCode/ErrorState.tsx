@@ -5,7 +5,7 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
 
 const schema = z.object({
-  authCode: z.string().min(3, { message: 'Minimum 3 symbols' }),
+  authCode: z.string().min(3, { message: 'Must be 3 or more characters long' }),
 });
 
 type ValidationSchema = z.infer<typeof schema>;
@@ -29,12 +29,10 @@ const Example = () => {
   return (
     <Form
       onSubmit={handleSubmit(onSubmit)}
-      className='flex flex-col justify-between gap-y-2'
     >
       <Controller
         name='authCode'
         control={control}
-        rules={{ pattern: /[-]+/ }}
         render={({ field }) =>
           <div className='flex flex-col gap-2'>
             <AuthCode

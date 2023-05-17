@@ -6,7 +6,6 @@ import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/authCode/Default';
 import ErrorState from '../../public/examples/authCode/ErrorState';
 import FourChars from '../../public/examples/authCode/FourChars';
-import ManualSubmit from '../../public/examples/authCode/ManualSubmit';
 import useExamples from '../../utils/useExamples';
 import AllowedCharacters from '../../public/examples/authCode/AllowedCharacters';
 import Stretch from '../../public/examples/authCode/Stretch';
@@ -14,6 +13,8 @@ import Expandable from '../../public/examples/authCode/Expandable';
 import Placeholder from '../../public/examples/authCode/Placeholder';
 import Sizes from '../../public/examples/authCode/Sizes';
 import IsPassword from '../../public/examples/authCode/IsPassword';
+import ReactHookForm from '../../public/examples/authCode/ReactHookForm';
+import ReactHookFormAuto from '../../public/examples/authCode/ReactHookFormAuto';
 
 const PageAuthCodeGroup = () => {
   const examples = useExamples('authCode');
@@ -29,9 +30,14 @@ const PageAuthCodeGroup = () => {
         code={examples ? examples.Default : 'Loading'}
       />
       <Preview
-        title="Manual submit"
-        preview={<ManualSubmit />}
-        code={examples ? examples.ManualSubmit : 'Loading'}
+        title="React Hook Form integration - Manual Submit"
+        preview={<ReactHookForm />}
+        code={examples ? examples.ReactHookForm : 'Loading'}
+      />
+      <Preview
+        title="React Hook Form integration - Auto Submit"
+        preview={<ReactHookFormAuto />}
+        code={examples ? examples.ReactHookFormAuto : 'Loading'}
       />
       <Preview
         title="Allowed Characters"
