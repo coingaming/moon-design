@@ -13,6 +13,7 @@ import Stretch from '../../public/examples/authCode/Stretch';
 import Expandable from '../../public/examples/authCode/Expandable';
 import Placeholder from '../../public/examples/authCode/Placeholder';
 import Sizes from '../../public/examples/authCode/Sizes';
+import IsPassword from '../../public/examples/authCode/IsPassword';
 
 const PageAuthCodeGroup = () => {
   const examples = useExamples('authCode');
@@ -57,6 +58,11 @@ const PageAuthCodeGroup = () => {
         title="Sizes"
         preview={<Sizes />}
         code={examples ? examples.Sizes : 'Loading'}
+      />
+      <Preview
+        title="Password"
+        preview={<IsPassword />}
+        code={examples ? examples.IsPassword : 'Loading'}
       />
       <Preview
         title="Stretch"
@@ -148,14 +154,6 @@ const PageAuthCodeGroup = () => {
             default: '-',
             description:
               'Specifies the extra styles for the container that wraps the set of input elements.',
-          },
-          {
-            name: 'inputClassName',
-            type: 'string',
-            required: false,
-            default: '-',
-            description:
-              'Specifies the extra styles for input elements.',
           },
           {
             name: 'ariaLabel',

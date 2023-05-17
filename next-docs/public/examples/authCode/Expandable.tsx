@@ -9,8 +9,7 @@ const Example = () => {
 
   return <AuthCode
     onChange={handleOnChange}
-    className='w-full justify-between'
-    inputClassName='flex grow'
+    className='w-full justify-between [&_input]:flex [&_input]:grow'
   />;
 }
 

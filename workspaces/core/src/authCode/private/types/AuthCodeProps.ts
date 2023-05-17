@@ -5,11 +5,11 @@ export type AuthCodeProps = {
   ariaLabel?: string;
   autoFocus?: boolean;
   className?: string;
-  stretch?: boolean;
-  expandable?: boolean;
+  stretch?: boolean; // TODO Deprecated.
+  expandable?: boolean; // TODO Deprecated.
   disabled?: boolean;
   inputSize?: 'sm' | 'md' | 'lg' | 'xl';
-  inputClassName?: string;
+  inputClassName?: string; // TODO Deprecated.
   isPassword?: boolean;
   length?: number;
   placeholder?: string;

@@ -45,10 +45,10 @@ const AuthCode = forwardRef<AuthCodeRef, AuthCodeProps>(
       ariaLabel,
       autoFocus = false,
       className,
-      stretch = false,
-      expandable = false,
+      stretch = false, // TODO Deprecated.
+      expandable = false, // TODO Deprecated.
       disabled,
-      inputClassName,
+      inputClassName, // TODO Deprecated.
       inputSize = 'lg',
       isPassword = false,
       length = 6,
@@ -192,7 +192,7 @@ const AuthCode = forwardRef<AuthCodeRef, AuthCodeProps>(
             disabled && 'opacity-30 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed',
             stretch && 'flex', // TODO Deprecated.
             stretch && expandable && 'grow', // TODO Deprecated.
-            inputClassName
+            inputClassName // TODO Deprecated.
           )}
           autoComplete={i === 0 ? 'one-time-code' : 'off'}
           aria-label={
@@ -210,7 +210,7 @@ const AuthCode = forwardRef<AuthCodeRef, AuthCodeProps>(
       <div
         className={mergeClassnames(
           'flex flex-row justify-center gap-2',
-          stretch && 'justify-between',
+          stretch && 'justify-between', // TODO Deprecated.
           className
         )}
       >
