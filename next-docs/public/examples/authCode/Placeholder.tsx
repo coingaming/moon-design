@@ -9,7 +9,7 @@ const Example = () => {
 
   return <AuthCode
     onChange={handleOnChange}
-    className='w-full justify-between [&_input]:flex'
+    placeholder='123456'
   />;
 }
 
