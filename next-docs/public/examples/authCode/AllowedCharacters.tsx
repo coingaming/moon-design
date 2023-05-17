@@ -7,7 +7,10 @@ const Example = () => {
     setResult(res);
   };
 
-  return <AuthCode onChange={handleOnChange} />;
-}
+  return <AuthCode
+    allowedCharacters='numeric'
+    onChange={handleOnChange}
+  />;
+};
 
 export default Example;

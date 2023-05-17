@@ -183,14 +183,15 @@ const AuthCode = forwardRef<AuthCodeRef, AuthCodeProps>(
           }}
           maxLength={1}
           className={mergeClassnames(
+            'h-14 w-[2.875rem] rounded-xl',
             getInputSizes(inputSize),
             'm-0 py-3 px-4 appearance-none text-bulma box-border text-center',
             'shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none',
             'focus-visible::shadow-input-focus focus-visible::outline-none',
             !isValid && 'text-chichi shadow-input-err hover:shadow-input-err focus:shadow-input-err',
             disabled && 'opacity-30 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed',
-            stretch && 'flex',
-            stretch && expandable && 'grow',
+            stretch && 'flex', // TODO Deprecated.
+            stretch && expandable && 'grow', // TODO Deprecated.
             inputClassName
           )}
           autoComplete={i === 0 ? 'one-time-code' : 'off'}
@@ -200,7 +201,7 @@ const AuthCode = forwardRef<AuthCodeRef, AuthCodeProps>(
               : `Character ${i + 1}.`
           }
           disabled={disabled}
-          placeholder={placeholder}
+          placeholder={placeholder && placeholder[i]}
         />
       );
     }

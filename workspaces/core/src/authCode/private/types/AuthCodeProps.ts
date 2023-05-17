@@ -8,7 +8,7 @@ export type AuthCodeProps = {
   stretch?: boolean;
   expandable?: boolean;
   disabled?: boolean;
-  inputSize?: 'sm' | 'md' | 'lg' | 'xl' | string;
+  inputSize?: 'sm' | 'md' | 'lg' | 'xl';
   inputClassName?: string;
   isPassword?: boolean;
   length?: number;

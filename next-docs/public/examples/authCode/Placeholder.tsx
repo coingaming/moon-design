@@ -7,7 +7,10 @@ const Example = () => {
     setResult(res);
   };
 
-  return <AuthCode onChange={handleOnChange} />;
+  return <AuthCode
+    onChange={handleOnChange}
+    placeholder='123456'
+  />;
 }
 
 export default Example;

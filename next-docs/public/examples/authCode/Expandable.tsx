@@ -7,7 +7,11 @@ const Example = () => {
     setResult(res);
   };
 
-  return <AuthCode onChange={handleOnChange} />;
+  return <AuthCode
+    onChange={handleOnChange}
+    className='w-full justify-between'
+    inputClassName='flex grow'
+  />;
 }
 
 export default Example;

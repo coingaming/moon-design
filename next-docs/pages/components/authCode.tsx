@@ -7,9 +7,12 @@ import Default from '../../public/examples/authCode/Default';
 import ErrorState from '../../public/examples/authCode/ErrorState';
 import FourChars from '../../public/examples/authCode/FourChars';
 import ManualSubmit from '../../public/examples/authCode/ManualSubmit';
-import OnlyDigits from '../../public/examples/authCode/OnlyDigits';
-import Stretch from '../../public/examples/authCode/Stretch';
 import useExamples from '../../utils/useExamples';
+import AllowedCharacters from '../../public/examples/authCode/AllowedCharacters';
+import Stretch from '../../public/examples/authCode/Stretch';
+import Expandable from '../../public/examples/authCode/Expandable';
+import Placeholder from '../../public/examples/authCode/Placeholder';
+import Sizes from '../../public/examples/authCode/Sizes';
 
 const PageAuthCodeGroup = () => {
   const examples = useExamples('authCode');
@@ -30,14 +33,15 @@ const PageAuthCodeGroup = () => {
         code={examples ? examples.ManualSubmit : 'Loading'}
       />
       <Preview
+        title="Allowed Characters"
+        description='By default you can type numbers and letters in the inputs as the allowedCharacters prop is defaulted to alphanumeric but you can also choose between allowing only letters or only numbers by setting the prop to alpha or numeric respectively.'
+        preview={<AllowedCharacters />}
+        code={examples ? examples.AllowedCharacters : 'Loading'}
+      />
+      <Preview
         title="Custom length"
         preview={<FourChars />}
         code={examples ? examples.FourChars : 'Loading'}
-      />
-      <Preview
-        title="Only digits"
-        preview={<OnlyDigits />}
-        code={examples ? examples.OnlyDigits : 'Loading'}
       />
       <Preview
         title="Error state"
@@ -45,13 +49,36 @@ const PageAuthCodeGroup = () => {
         code={examples ? examples.ErrorState : 'Loading'}
       />
       <Preview
+        title="Placeholder"
+        preview={<Placeholder />}
+        code={examples ? examples.Placeholder : 'Loading'}
+      />
+      <Preview
+        title="Sizes"
+        preview={<Sizes />}
+        code={examples ? examples.Sizes : 'Loading'}
+      />
+      <Preview
         title="Stretch"
         preview={<Stretch />}
         code={examples ? examples.Stretch : 'Loading'}
       />
+      <Preview
+        title="Expandable"
+        preview={<Expandable />}
+        code={examples ? examples.Expandable : 'Loading'}
+      />
       <PropsTable
         title="Props"
         data={[
+          {
+            name: 'onChange',
+            type: '(value: string) => {}',
+            required: true,
+            default: '-',
+            description:
+              'Callback function that gets triggered on single value change.',
+          },
           {
             name: 'length',
             type: 'number',
@@ -63,9 +90,9 @@ const PageAuthCodeGroup = () => {
             name: 'allowedCharacters',
             type: 'alphanumeric | numeric | alpha',
             required: false,
-            default: 'false',
+            default: 'alphanumeric',
             description:
-              'Specifies the type of input characters. Default is alphanumeric.',
+              'Specifies the type of input characters.',
           },
           {
             name: 'autoFocus',
@@ -74,22 +101,6 @@ const PageAuthCodeGroup = () => {
             default: 'false',
             description:
               'If true, inputs automatically accept the keyboard focus on data input.',
-          },
-          {
-            name: 'stretch',
-            type: 'boolean',
-            required: false,
-            default: 'false',
-            description:
-              'If true, inputs would get stretched to fill the available width.',
-          },
-          {
-            name: 'expandable',
-            type: 'boolean',
-            required: false,
-            default: 'false',
-            description:
-              'Defines whether or not the input cells can be stretched to fill the available space between them in the stretchable Auth code component. Matters only with the "stertch" parameter is being set to true.',
           },
           {
             name: 'isPassword',
@@ -115,20 +126,12 @@ const PageAuthCodeGroup = () => {
             description: 'Default placeholder for input elements.',
           },
           {
-            name: 'errorMessage',
-            type: 'string',
+            name: 'isValid',
+            type: 'boolean',
             required: false,
-            default: '-',
+            default: 'true',
             description:
               'Puts element in error state and displays the message.',
-          },
-          {
-            name: 'onChange',
-            type: 'function',
-            required: true,
-            default: '(value: string) => {}',
-            description:
-              'Callback function that gets triggered on single value change.',
           },
           {
             name: 'inputSize',
@@ -136,15 +139,7 @@ const PageAuthCodeGroup = () => {
             required: false,
             default: 'lg',
             description:
-              'Specifies the size of input characters. Default value is "lg".',
-          },
-          {
-            name: 'inputClassName',
-            type: 'string',
-            required: false,
-            default: '-',
-            description:
-              'Specifies the extra styles for input elements.',
+              'Specifies the size of input characters.',
           },
           {
             name: 'className',
@@ -155,12 +150,43 @@ const PageAuthCodeGroup = () => {
               'Specifies the extra styles for the container that wraps the set of input elements.',
           },
           {
-            name: 'ariaLabel',
+            name: 'inputClassName',
             type: 'string',
             required: false,
             default: '-',
             description:
+              'Specifies the extra styles for input elements.',
+          },
+          {
+            name: 'ariaLabel',
+            type: 'string',
+            required: false,
+            default: 'Character `${i + 1}`.',
+            description:
               'Specifies the common of the aria phrase for input elements.',
+          },
+          {
+            name: 'Deprecated props',
+            type: '',
+            required: undefined,
+            default: '',
+            description: '',
+          },
+          {
+            name: 'stretch',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description:
+              'If true, inputs would get stretched to fill the available width.',
+          },
+          {
+            name: 'expandable',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description:
+              'Defines whether or not the input cells can be stretched to fill the available space between them in the stretchable Auth code component. Matters only with the "stretch" parameter is being set to true.',
           },
         ]}
       />

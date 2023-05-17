@@ -3,7 +3,7 @@
  */
 
 import { cleanup, render } from '@testing-library/react';
-import Default from '../Default';
+import Default from '../Stretch';
 import FourChars from '../FourChars';
 import OnlyDigits from '../OnlyDigits';
 import ErrorState from '../ErrorState';
