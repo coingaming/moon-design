@@ -65,7 +65,7 @@ function CommandMenu() {
           <SearchCmdk.NoResults>
             No Results
           </SearchCmdk.NoResults>
-          {filteredItems.map(({ label }) =>
+            {filteredItems.map(({ label }) =>
               <SearchCmdk.ResultItem
                 key={label}
                 value={label}
