@@ -1,5 +1,16 @@
 # Change Log
 
+## 9.34.0
+
+### Minor Changes
+
+- authcode component
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@9.34.0
+
 ## 9.33.0
 
 ### Minor Changes

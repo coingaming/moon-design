@@ -7,10 +7,7 @@ const Example = () => {
     setResult(res);
   };
 
-  return <AuthCode
-    onChange={handleOnChange}
-    className='w-full justify-between [&_input]:flex'
-  />;
+  return <AuthCode onChange={handleOnChange} isPassword/>;
 }
 
 export default Example;

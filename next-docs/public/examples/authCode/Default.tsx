@@ -1,15 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { AuthCode } from '@heathmont/moon-core-tw';
 
-const Example = () => (
-  <AuthCode
-    onChange={(value: string) => {
-      console.log('New value - ', value);
-    }}
-    onSubmit={(value: string) => {
-      console.log('Submit value - ', value);
-    }}
-  />
-);
+const Example = () => {
+  const [result, setResult] = useState('');
+  const handleOnChange = (res: string) => {
+    setResult(res);
+  };
+
+  return <AuthCode onChange={handleOnChange} />;
+}
 
 export default Example;

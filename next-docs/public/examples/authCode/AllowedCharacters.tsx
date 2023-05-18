@@ -8,9 +8,9 @@ const Example = () => {
   };
 
   return <AuthCode
+    allowedCharacters='numeric'
     onChange={handleOnChange}
-    className='w-full justify-between [&_input]:flex'
   />;
-}
+};
 
 export default Example;

@@ -1,5 +1,18 @@
 # @heathmont/moon-select
 
+## 9.34.0
+
+### Minor Changes
+
+- authcode component
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-core@9.34.0
+  - @heathmont/moon-themes@9.34.0
+  - @heathmont/moon-utils@9.34.0
+
 ## 9.33.0
 
 ### Minor Changes

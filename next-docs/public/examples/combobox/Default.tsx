@@ -39,7 +39,6 @@ const Example = () => {
         onChange={setSelected0}
         onQueryChange={setQuery0}
         className='w-full max-w-xs'
-        nullable
       >
         {({ open }) => (
           <>
@@ -90,6 +89,7 @@ const Example = () => {
         onChange={setSelected1}
         onQueryChange={setQuery1}
         className='w-full max-w-xs'
+        nullable
       >
         {({ open }) => (
           <>

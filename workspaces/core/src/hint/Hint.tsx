@@ -24,7 +24,7 @@ const Hint: React.FC<HintProps> = ({
         'inline-block mt-2 ps-4 text-moon-12',
         error ? 'text-chichi' : 'text-trunks',
         disabled && 'opacity-30 cursor-not-allowed',
-        className && className
+        className
       )}
     >
       {children}
