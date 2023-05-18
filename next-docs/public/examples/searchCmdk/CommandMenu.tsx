@@ -4,14 +4,22 @@ import {
   SearchCmdk,
 } from '@heathmont/moon-core-tw';
 
+type TCMDKItem = {
+  label: string
+}
+
 const items = [
-  { label: "Test1" },
-  { label: "Test2" }
+  { label: "Aurum" },
+  { label: "Argentum" },
+  { label: "Zink" },
+  { label: "Plumbum" }
 ];
 
 function CommandMenu() {
   const [open, setOpen] = useState(false);
   const [search, setSearch] = useState("");
+  const [selected, setSelected] = useState(-1);
+  const [listLength, setListLength] = useState(0);
 
   useEffect(() => {
     const down = (e: KeyboardEvent) => {
@@ -20,13 +28,38 @@ function CommandMenu() {
         e.preventDefault();
         setOpen((open) => !open);
       }
+      if (e.code === 'ArrowDown') {
+        setSelected((selected) =>
+          selected + 1
+        );
+      }
+      if (e.code === 'ArrowUp') {
+        setSelected((selected) =>
+          selected - 1
+        );
+      }
     };
 
     document.addEventListener("keydown", down);
     return () => document.removeEventListener("keydown", down);
   }, []);
 
-  const filterItems = (value: string, search: string) => { console.log(value, search); return +value.includes(search); }
+  useEffect(() => {
+    setSelected(0);
+    setListLength(() => filterItems(items, search).length);
+  }, [search]);
+
+  useEffect(() => {
+    if (selected < 0) {
+      setSelected(listLength - 1);
+    }
+    if (selected >= listLength) {
+      setSelected(0);
+    }
+  }, [selected]);
+
+  const filterItems = (values: TCMDKItem[], search: string) => { return values.filter(({ label }) => +label.includes(search)); }
+  const filteredItems = filterItems(items, search);
 
   return (
     <>
@@ -42,7 +75,8 @@ function CommandMenu() {
         open={open}
         onOpenChange={setOpen}
         label="Command Menu"
-        filter={filterItems}
+        shouldFilter={false}
+        loop={true}
       >
         <SearchCmdk.InputWrapper>
           <SearchCmdk.Icon />
@@ -60,14 +94,15 @@ function CommandMenu() {
           <SearchCmdk.NoResults>
             No Results
           </SearchCmdk.NoResults>
-            {items.map(({ label }) =>
+            {filteredItems.map(({ label }, index) =>
                 <SearchCmdk.ResultItem
+                  tabIndex={-1}
                   key={label}
                   onSelect={() => {
                     setOpen(false);
                   }}
                 >
-                  <MenuItem >
+                  <MenuItem isActive={index === selected}>
                     <MenuItem.Title>{label}</MenuItem.Title>
                     <span className="text-moon-14 text-piccolo">Action</span>
                   </MenuItem>
