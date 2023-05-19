@@ -18,7 +18,7 @@ const items = [
 function CommandMenu() {
   const [open, setOpen] = useState(false);
   const [search, setSearch] = useState("");
-  const [selected, setSelected] = useState(-1);
+  const [selected, setSelected] = useState(0);
   const [listLength, setListLength] = useState(0);
 
   useEffect(() => {
@@ -95,19 +95,21 @@ function CommandMenu() {
             No Results
           </SearchCmdk.NoResults>
             {filteredItems.map(({ label }, index) =>
-                <SearchCmdk.ResultItem
-                  tabIndex={-1}
-                  key={label}
-                  onSelect={() => {
-                    setOpen(false);
-                  }}
-                >
-                  <MenuItem isActive={index === selected}>
-                    <MenuItem.Title>{label}</MenuItem.Title>
-                    <span className="text-moon-14 text-piccolo">Action</span>
-                  </MenuItem>
-                </SearchCmdk.ResultItem>
-          )}
+              <SearchCmdk.ResultItem
+                key={label}
+                value={label}
+                onSelect={() => {
+                  setOpen(false);
+                }}
+                isActive={index === selected}
+              >
+                {label}
+                {/*<MenuItem isActive={index === selected}>
+                  <MenuItem.Title>{label}</MenuItem.Title>
+                  <span className="text-moon-14 text-piccolo">Action</span>
+              </MenuItem>*/}
+              </SearchCmdk.ResultItem>
+            )}
         </SearchCmdk.Result>
       </SearchCmdk>
     </>

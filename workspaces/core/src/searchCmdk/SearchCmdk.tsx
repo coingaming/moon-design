@@ -4,13 +4,13 @@ import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import GenericSearch from '../private/icons/GenericSearch';
 
 const SearchCmdkRoot = ({
-  children,
-  className,
-  open,
-  onOpenChange,
-  label,
-  ...props
-}: React.ComponentProps<typeof Command.Dialog>) => {
+    children,
+    className,
+    open,
+    onOpenChange,
+    label,
+    ...props
+  }: React.ComponentProps<typeof Command.Dialog>) => {
   return (
     <Command.Dialog
       className={mergeClassnames(
@@ -124,6 +124,24 @@ const Separator = ({
   );
 };
 
+const Group = ({
+  children,
+  className,
+  ...props
+}: React.ComponentProps<typeof Command.Group>) => {
+  return (
+    <Command.Group
+    className={mergeClassnames(
+      "w-full max-h-[50vh] overflow-y-auto p-2 space-y-1 bg-gohan shadow-none",
+      className
+    )}
+    {...props}
+    >
+      {children}
+    </Command.Group>
+  );
+}
+
 const Result = ({
   children,
   className,
@@ -172,8 +190,9 @@ const ResultItem = ({
   return (
     <Command.Item
       className={mergeClassnames(
-        'p-2 cursor-pointer focus:outline-none select-none',
-        className
+      "p-2 cursor-pointer focus:outline-none hover:bg-goku select-none",
+      "data-[selected=true]:bg-goku",
+      className,
       )}
       onSelect={onSelect}
       {...props}
@@ -235,20 +254,22 @@ const TriggerKbd = ({
     </kbd>
   );
 };
-
-const SearchCmdk = Object.assign(SearchCmdkRoot, {
-  InputWrapper,
-  Input,
-  Icon,
-  Separator,
-  Result,
-  ResultItem,
-  NoResults,
-  Kbd,
-  Overlay,
-  Trigger,
-  TriggerIcon,
-  TriggerKbd,
-});
+const SearchCmdk = Object.assign(
+  SearchCmdkRoot,
+  {
+    InputWrapper,
+    Input,
+    Icon,
+    Separator,
+    Group,
+    Result,
+    ResultItem,
+    NoResults,
+    Kbd,
+    Overlay,
+    Trigger,
+    TriggerIcon,
+    TriggerKbd
+  })
 
 export default SearchCmdk;
