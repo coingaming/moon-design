@@ -254,21 +254,22 @@ const TriggerKbd = ({
     </kbd>
   );
 };
-
-const SearchCmdk = Object.assign(SearchCmdkRoot, {
-  InputWrapper,
-  Input,
-  Icon,
-  Separator,
-  Group,
-  Result,
-  ResultItem,
-  NoResults,
-  Kbd,
-  Overlay,
-  Trigger,
-  TriggerIcon,
-  TriggerKbd,
-});
+const SearchCmdk = Object.assign(
+  SearchCmdkRoot,
+  {
+    InputWrapper,
+    Input,
+    Icon,
+    Separator,
+    Group,
+    Result,
+    ResultItem,
+    NoResults,
+    Kbd,
+    Overlay,
+    Trigger,
+    TriggerIcon,
+    TriggerKbd
+  })
 
 export default SearchCmdk;
