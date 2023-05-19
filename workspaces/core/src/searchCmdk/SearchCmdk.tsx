@@ -254,6 +254,7 @@ const TriggerKbd = ({
     </kbd>
   );
 };
+
 const SearchCmdk = Object.assign(
   SearchCmdkRoot,
   {
