@@ -4,13 +4,13 @@ import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import GenericSearch from '../private/icons/GenericSearch';
 
 const SearchCmdkRoot = ({
-  children,
-  className,
-  open,
-  onOpenChange,
-  label,
-  ...props
-}: React.ComponentProps<typeof Command.Dialog>) => {
+    children,
+    className,
+    open,
+    onOpenChange,
+    label,
+    ...props
+  }: React.ComponentProps<typeof Command.Dialog>) => {
   return (
     <Command.Dialog
       className={mergeClassnames(
@@ -255,22 +255,20 @@ const TriggerKbd = ({
   );
 };
 
-const SearchCmdk = Object.assign(
-  SearchCmdkRoot,
-  {
-    InputWrapper,
-    Input,
-    Icon,
-    Separator,
-    Group,
-    Result,
-    ResultItem,
-    NoResults,
-    Kbd,
-    Overlay,
-    Trigger,
-    TriggerIcon,
-    TriggerKbd
-  })
+const SearchCmdk = Object.assign(SearchCmdkRoot, {
+  InputWrapper,
+  Input,
+  Icon,
+  Separator,
+  Group,
+  Result,
+  ResultItem,
+  NoResults,
+  Kbd,
+  Overlay,
+  Trigger,
+  TriggerIcon,
+  TriggerKbd,
+});
 
 export default SearchCmdk;
