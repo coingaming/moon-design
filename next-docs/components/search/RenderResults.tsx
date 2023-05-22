@@ -1,5 +1,6 @@
 import React from 'react';
 import { MenuItem, SearchCmdk } from '@heathmont/moon-core-tw';
+import actionHandler from './utils/actionHandler';
 import getAction, { Action } from './utils/getActions';
 
 const RenderResults: React.FC<{ onSelectHandler?: (value: string) => void }> =
@@ -11,8 +12,8 @@ const RenderResults: React.FC<{ onSelectHandler?: (value: string) => void }> =
           No results for your search...
         </SearchCmdk.NoResults>
         {actions.map((item) => (
-          <SearchCmdk.ResultItem key={item.id} onSelect={onSelectHandler}>
-            <MenuItem onClick={() => item.perform()}>
+          <SearchCmdk.ResultItem key={item.id} onSelect={(v) => { actionHandler(item.perform, v, onSelectHandler) }}>
+            <MenuItem onClick={() => item.perform()} className="hover:bg-goku">
               <MenuItem.Title>{item.name}</MenuItem.Title>
               {item.section && (
                 <span className="text-moon-14 text-piccolo">
