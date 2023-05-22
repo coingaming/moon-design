@@ -1,5 +1,38 @@
 # Change Log
 
+## 9.34.0
+
+### Minor Changes
+
+- authcode component
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@9.34.0
+  - @heathmont/moon-utils@9.34.0
+
+## 9.33.0
+
+### Minor Changes
+
+- svg tw
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@9.33.0
+  - @heathmont/moon-utils@9.33.0
+
+## 9.32.1
+
+### Patch Changes
+
+- Remove in progress from some components
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@9.32.1
+  - @heathmont/moon-utils@9.32.1
+
 ## 9.32.0
 
 ### Minor Changes

@@ -1,5 +1,23 @@
 # Change Log
 
+## 9.34.0
+
+### Minor Changes
+
+- authcode component
+
+## 9.33.0
+
+### Minor Changes
+
+- svg tw
+
+## 9.32.1
+
+### Patch Changes
+
+- Remove in progress from some components
+
 ## 9.32.0
 
 ### Minor Changes

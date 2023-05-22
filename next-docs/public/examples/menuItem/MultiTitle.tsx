@@ -25,7 +25,8 @@ const Example = () => {
       </div>
       <div className="w-56">
         <MenuItem
-          isActive={active}
+          role="сheckbox"
+          isSelected={active}
           onClick={useCallback(() => setActive(!active), [active])}
         >
           <span className="px-2">

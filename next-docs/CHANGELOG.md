@@ -1,5 +1,86 @@
 # Change Log
 
+## 9.34.0
+
+### Minor Changes
+
+- authcode component
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-core-tw@9.34.0
+  - @heathmont/moon-accordion@9.34.0
+  - @heathmont/moon-assets@9.34.0
+  - @heathmont/moon-charts@9.34.0
+  - @heathmont/moon-components@9.34.0
+  - @heathmont/moon-core@9.34.0
+  - @heathmont/moon-datepicker@9.34.0
+  - @heathmont/moon-draggabletable@9.34.0
+  - @heathmont/moon-icons@9.34.0
+  - @heathmont/moon-pagination@9.34.0
+  - @heathmont/moon-popover@9.34.0
+  - @heathmont/moon-select@9.34.0
+  - @heathmont/moon-sidebar@9.34.0
+  - @heathmont/moon-table@9.34.0
+  - @heathmont/moon-themes@9.34.0
+  - @heathmont/moon-utils@9.34.0
+  - @heathmont/moon-table-tw@9.34.0
+  - @heathmont/moon-themes-tw@9.34.0
+
+## 9.33.0
+
+### Minor Changes
+
+- svg tw
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-core-tw@9.33.0
+  - @heathmont/moon-accordion@9.33.0
+  - @heathmont/moon-assets@9.33.0
+  - @heathmont/moon-charts@9.33.0
+  - @heathmont/moon-components@9.33.0
+  - @heathmont/moon-core@9.33.0
+  - @heathmont/moon-datepicker@9.33.0
+  - @heathmont/moon-draggabletable@9.33.0
+  - @heathmont/moon-icons@9.33.0
+  - @heathmont/moon-pagination@9.33.0
+  - @heathmont/moon-popover@9.33.0
+  - @heathmont/moon-select@9.33.0
+  - @heathmont/moon-sidebar@9.33.0
+  - @heathmont/moon-table@9.33.0
+  - @heathmont/moon-themes@9.33.0
+  - @heathmont/moon-utils@9.33.0
+  - @heathmont/moon-table-tw@9.33.0
+  - @heathmont/moon-themes-tw@9.33.0
+
+## 9.32.1
+
+### Patch Changes
+
+- Remove in progress from some components
+- Updated dependencies [undefined]
+  - @heathmont/moon-core-tw@9.32.1
+  - @heathmont/moon-table-tw@9.32.1
+  - @heathmont/moon-accordion@9.32.1
+  - @heathmont/moon-assets@9.32.1
+  - @heathmont/moon-charts@9.32.1
+  - @heathmont/moon-components@9.32.1
+  - @heathmont/moon-core@9.32.1
+  - @heathmont/moon-datepicker@9.32.1
+  - @heathmont/moon-draggabletable@9.32.1
+  - @heathmont/moon-icons@9.32.1
+  - @heathmont/moon-pagination@9.32.1
+  - @heathmont/moon-popover@9.32.1
+  - @heathmont/moon-select@9.32.1
+  - @heathmont/moon-sidebar@9.32.1
+  - @heathmont/moon-table@9.32.1
+  - @heathmont/moon-themes@9.32.1
+  - @heathmont/moon-utils@9.32.1
+  - @heathmont/moon-themes-tw@9.32.1
+
 ## 9.32.0
 
 ### Minor Changes
