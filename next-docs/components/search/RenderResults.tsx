@@ -9,8 +9,8 @@ const RenderResults: React.FC<{ onSelectHandler?: (value: string) => void }> =
     const actions: Action[] = getAction();
     const { search } = useContext(SearchContext);
 
-    const filterItems = (values: Action[], search: string) => { return values.filter(({ name }) => +name.includes(search)) };
-    const filteredActions = filterItems(actions, search || '');
+    const filterItems = (values: Action[], search: string) => { return values.filter(({ name }) => +name.toLowerCase().includes(search)) };
+    const filteredActions = filterItems(actions, search?.toLowerCase() || '');
 
     return (
       <SearchCmdk.Result>
