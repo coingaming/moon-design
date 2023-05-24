@@ -3,13 +3,6 @@ import { MenuItem, SearchCmdk } from '@heathmont/moon-core-tw';
 import getAction, { Action } from './utils/getActions';
 import { SearchContext } from './SearchProvider';
 
-const actionHandler = (fn1: Function, value: string, fn2?: (value: string) => void) => {
-  fn1();
-
-  if (fn2 !== undefined)
-    fn2(value);
-}
-
 const RenderResults: React.FC<{ onSelectHandler?: (value: string) => void }> =
   ({ onSelectHandler }) => {
     const actions: Action[] = getAction();
@@ -24,7 +17,15 @@ const RenderResults: React.FC<{ onSelectHandler?: (value: string) => void }> =
           No results for your search...
         </SearchCmdk.NoResults>
         {filteredActions.map((item) => (
-          <SearchCmdk.ResultItem key={item.id} onSelect={(v) => { actionHandler(item.perform, v, onSelectHandler) }}>
+          <SearchCmdk.ResultItem
+            key={item.id}
+            onSelect={(value) => {
+              item.perform();
+              if (typeof onSelectHandler === 'function') {
+                onSelectHandler(value)
+              }
+            }}
+          >
             <MenuItem onClick={() => item.perform()} className="hover:bg-goku">
               <MenuItem.Title>{item.name}</MenuItem.Title>
               {item.section && (
