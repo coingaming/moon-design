@@ -1,5 +1,11 @@
 # Change Log
 
+## 9.34.1
+
+### Patch Changes
+
+- Fix search
+
 ## 9.34.0
 
 ### Minor Changes

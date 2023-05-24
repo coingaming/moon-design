@@ -1,5 +1,17 @@
 # Change Log
 
+## 9.34.1
+
+### Patch Changes
+
+- Fix search
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@9.34.1
+  - @heathmont/moon-core@9.34.1
+  - @heathmont/moon-icons@9.34.1
+  - @heathmont/moon-themes@9.34.1
+  - @heathmont/moon-utils@9.34.1
+
 ## 9.34.0
 
 ### Minor Changes
