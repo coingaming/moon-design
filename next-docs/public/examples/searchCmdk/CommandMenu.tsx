@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { SearchCmdk } from '@heathmont/moon-core-tw';
 
-type TCMDKItem = {
+type Item = {
   label: string
 }
 
@@ -29,7 +29,7 @@ function CommandMenu() {
     return () => document.removeEventListener("keydown", down);
   }, []);
 
-  const filterItems = (values: TCMDKItem[], search: string) => { return values.filter(({ label }) => +label.includes(search)); }
+  const filterItems = (values: Item[], search: string) => { return values.filter(({ label }) => +label.includes(search)); }
   const filteredItems = filterItems(items, search);
 
   return (
