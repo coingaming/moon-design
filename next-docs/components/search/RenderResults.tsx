@@ -1,8 +1,14 @@
 import React, { useContext } from 'react';
 import { MenuItem, SearchCmdk } from '@heathmont/moon-core-tw';
-import actionHandler from './utils/actionHandler';
 import getAction, { Action } from './utils/getActions';
 import { SearchContext } from './SearchProvider';
+
+const actionHandler = (fn1: Function, value: string, fn2?: (value: string) => void) => {
+  fn1();
+
+  if (fn2 !== undefined)
+    fn2(value);
+}
 
 const RenderResults: React.FC<{ onSelectHandler?: (value: string) => void }> =
   ({ onSelectHandler }) => {
