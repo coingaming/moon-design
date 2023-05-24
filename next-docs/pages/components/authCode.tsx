@@ -3,18 +3,18 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
+import AllowedCharacters from '../../public/examples/authCode/AllowedCharacters';
 import Default from '../../public/examples/authCode/Default';
 import ErrorState from '../../public/examples/authCode/ErrorState';
-import FourChars from '../../public/examples/authCode/FourChars';
-import useExamples from '../../utils/useExamples';
-import AllowedCharacters from '../../public/examples/authCode/AllowedCharacters';
-import Stretch from '../../public/examples/authCode/Stretch';
 import Expandable from '../../public/examples/authCode/Expandable';
-import Placeholder from '../../public/examples/authCode/Placeholder';
-import Sizes from '../../public/examples/authCode/Sizes';
+import FourChars from '../../public/examples/authCode/FourChars';
 import IsPassword from '../../public/examples/authCode/IsPassword';
+import Placeholder from '../../public/examples/authCode/Placeholder';
 import ReactHookForm from '../../public/examples/authCode/ReactHookForm';
 import ReactHookFormAuto from '../../public/examples/authCode/ReactHookFormAuto';
+import Sizes from '../../public/examples/authCode/Sizes';
+import Stretch from '../../public/examples/authCode/Stretch';
+import useExamples from '../../utils/useExamples';
 
 const PageAuthCodeGroup = () => {
   const examples = useExamples('authCode');

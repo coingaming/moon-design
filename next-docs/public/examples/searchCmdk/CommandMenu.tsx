@@ -1,17 +1,20 @@
 import React, { useEffect, useState } from "react";
-import {
-  MenuItem,
-  SearchCmdk,
-} from '@heathmont/moon-core-tw';
+import { SearchCmdk } from '@heathmont/moon-core-tw';
 
+type Item = {
+  label: string
+}
 
 const items = [
-  { label: "Test1" },
-  { label: "Test2" }
+  { label: "Aurum" },
+  { label: "Argentum" },
+  { label: "Zink" },
+  { label: "Plumbum" }
 ];
 
 function CommandMenu() {
   const [open, setOpen] = useState(false);
+  const [search, setSearch] = useState("");
 
   useEffect(() => {
     const down = (e: KeyboardEvent) => {
@@ -25,6 +28,9 @@ function CommandMenu() {
     document.addEventListener("keydown", down);
     return () => document.removeEventListener("keydown", down);
   }, []);
+
+  const filterItems = (values: Item[], search: string) => { return values.filter(({ label }) => +label.includes(search)); }
+  const filteredItems = filterItems(items, search);
 
   return (
     <>
@@ -40,10 +46,14 @@ function CommandMenu() {
         open={open}
         onOpenChange={setOpen}
         label="Command Menu"
+        shouldFilter={false}
+        loop={true}
       >
         <SearchCmdk.InputWrapper>
           <SearchCmdk.Icon />
           <SearchCmdk.Input
+            value={search}
+            onValueChange={setSearch}
             placeholder="Search for a component"
           />
           <SearchCmdk.Kbd onClick={() => setOpen(false)}>
@@ -55,19 +65,17 @@ function CommandMenu() {
           <SearchCmdk.NoResults>
             No Results
           </SearchCmdk.NoResults>
-          {items.map((item) => (
-            <SearchCmdk.ResultItem
-              key={item.label}
-              onSelect={() => {
-                setOpen(false);
-              }}
-            >
-              <MenuItem >
-                <MenuItem.Title>{item.label}</MenuItem.Title>
-                <span className="text-moon-14 text-piccolo">Action</span>
-              </MenuItem>
-            </SearchCmdk.ResultItem>
-          ))}
+            {filteredItems.map(({ label }) =>
+              <SearchCmdk.ResultItem
+                key={label}
+                value={label}
+                onSelect={() => {
+                  setOpen(false);
+                }}
+              >
+                {label}
+              </SearchCmdk.ResultItem>
+            )}
         </SearchCmdk.Result>
       </SearchCmdk>
     </>
