@@ -1,5 +1,13 @@
 # @heathmont/moon-table-tw
 
+## 9.34.2
+
+### Patch Changes
+
+- Fix Search
+- Updated dependencies [undefined]
+  - @heathmont/moon-core-tw@9.34.2
+
 ## 9.34.1
 
 ### Patch Changes
