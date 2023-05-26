@@ -29,8 +29,8 @@ function CommandMenu() {
     return () => document.removeEventListener("keydown", down);
   }, []);
 
-  const filterItems = (values: Item[], search: string) => { return values.filter(({ label }) => +label.includes(search)); }
-  const filteredItems = filterItems(items, search);
+  const filterItems = (values: Item[], search: string) => { return values.filter(({ label }) => +label.toLowerCase().includes(search)); }
+  const filteredItems = filterItems(items, search.toLowerCase());
 
   return (
     <>
