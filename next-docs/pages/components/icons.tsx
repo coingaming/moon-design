@@ -30,7 +30,7 @@ import useExamples from '../../utils/useExamples';
 
 const Example = () => {
   const [selectedIcons, setSelectedIcons] = useState<string[]>([]);
-  const props = { className: 'text-moon-32' };
+  const props = { className: 'text-moon-32 fill-blue-500' };
   const addIconToSelected: (iconName: string) => string[] = (iconName) =>
     selectedIcons.concat(iconName);
   const removeIconFromSelected = (removedIconName: string) =>

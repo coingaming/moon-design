@@ -1,3 +1,4 @@
+'use client';
 import React, { createContext } from 'react';
 import { SearchCmdk } from '@heathmont/moon-core-tw';
 import useSearch from './hooks/useSearch';

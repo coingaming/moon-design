@@ -13,11 +13,22 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "target": "es5",
-    "incremental": true
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
   },
   "paths": {
     "@heathmont/moon-*": ["./packages/*/lib", "./next-docs"]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "utils/analyzer.js"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "utils/analyzer.js",
+    ".next/types/**/*.ts"
+  ],
   "exclude": ["node_modules"]
 }

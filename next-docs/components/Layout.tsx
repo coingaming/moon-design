@@ -1,3 +1,4 @@
+'use client';
 import { useState } from 'react';
 import { Drawer } from '@heathmont/moon-core-tw';
 import Footer from './Footer';
