@@ -18,11 +18,11 @@ Object {
               class="relative"
             >
               <div
-                aria-controls="headlessui-listbox-options-:r3i:"
+                aria-controls="headlessui-listbox-options-:r3r:"
                 aria-expanded="true"
                 aria-haspopup="listbox"
                 data-headlessui-state="open"
-                id="headlessui-listbox-button-:r3h:"
+                id="headlessui-listbox-button-:r3q:"
               >
                 <div>
                   <span
@@ -33,14 +33,14 @@ Object {
                 </div>
               </div>
               <ul
-                aria-labelledby="headlessui-listbox-button-:r3h:"
+                aria-labelledby="headlessui-listbox-button-:r3q:"
                 aria-orientation="vertical"
                 class="w-full min-w-[18.75rem] z-5 absolute p-1 my-2 rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
                 data-headlessui-state="open"
                 data-popper-escaped="true"
                 data-popper-placement="bottom-start"
                 data-popper-reference-hidden="true"
-                id="headlessui-listbox-options-:r3i:"
+                id="headlessui-listbox-options-:r3r:"
                 role="listbox"
                 style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px);"
                 tabindex="0"
@@ -48,7 +48,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r3j:"
+                  id="headlessui-listbox-option-:r3s:"
                   role="option"
                   tabindex="-1"
                 >
@@ -62,7 +62,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r3k:"
+                  id="headlessui-listbox-option-:r3t:"
                   role="option"
                   tabindex="-1"
                 >
@@ -76,7 +76,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r3l:"
+                  id="headlessui-listbox-option-:r3u:"
                   role="option"
                   tabindex="-1"
                 >
@@ -90,7 +90,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r3m:"
+                  id="headlessui-listbox-option-:r3v:"
                   role="option"
                   tabindex="-1"
                 >
@@ -104,7 +104,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r3n:"
+                  id="headlessui-listbox-option-:r40:"
                   role="option"
                   tabindex="-1"
                 >
@@ -118,7 +118,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r3o:"
+                  id="headlessui-listbox-option-:r41:"
                   role="option"
                   tabindex="-1"
                 >
@@ -150,11 +150,11 @@ Object {
             class="relative"
           >
             <div
-              aria-controls="headlessui-listbox-options-:r3i:"
+              aria-controls="headlessui-listbox-options-:r3r:"
               aria-expanded="true"
               aria-haspopup="listbox"
               data-headlessui-state="open"
-              id="headlessui-listbox-button-:r3h:"
+              id="headlessui-listbox-button-:r3q:"
             >
               <div>
                 <span
@@ -165,14 +165,14 @@ Object {
               </div>
             </div>
             <ul
-              aria-labelledby="headlessui-listbox-button-:r3h:"
+              aria-labelledby="headlessui-listbox-button-:r3q:"
               aria-orientation="vertical"
               class="w-full min-w-[18.75rem] z-5 absolute p-1 my-2 rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
               data-headlessui-state="open"
               data-popper-escaped="true"
               data-popper-placement="bottom-start"
               data-popper-reference-hidden="true"
-              id="headlessui-listbox-options-:r3i:"
+              id="headlessui-listbox-options-:r3r:"
               role="listbox"
               style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px);"
               tabindex="0"
@@ -180,7 +180,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r3j:"
+                id="headlessui-listbox-option-:r3s:"
                 role="option"
                 tabindex="-1"
               >
@@ -194,7 +194,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r3k:"
+                id="headlessui-listbox-option-:r3t:"
                 role="option"
                 tabindex="-1"
               >
@@ -208,7 +208,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r3l:"
+                id="headlessui-listbox-option-:r3u:"
                 role="option"
                 tabindex="-1"
               >
@@ -222,7 +222,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r3m:"
+                id="headlessui-listbox-option-:r3v:"
                 role="option"
                 tabindex="-1"
               >
@@ -236,7 +236,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r3n:"
+                id="headlessui-listbox-option-:r40:"
                 role="option"
                 tabindex="-1"
               >
@@ -250,7 +250,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r3o:"
+                id="headlessui-listbox-option-:r41:"
                 role="option"
                 tabindex="-1"
               >
@@ -262,6 +262,561 @@ Object {
                 </button>
               </span>
             </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Dropdown in RTL renders HiddenInput 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        dir="rtl"
+      >
+        <div
+          class="flex flex-col lg:flex-row justify-around items-end w-80 gap-2"
+        >
+          <div
+            class="w-full relative"
+          >
+            <div
+              class="relative"
+            >
+              <label
+                class="block text-bulma pb-2 text-moon-16"
+                data-headlessui-state="open"
+                id="headlessui-listbox-label-:r7b:"
+              >
+                With hidden input
+              </label>
+              <div
+                aria-controls="headlessui-listbox-options-:r7d:"
+                aria-expanded="true"
+                aria-haspopup="listbox"
+                aria-labelledby="headlessui-listbox-label-:r7b: headlessui-listbox-button-:r7c:"
+                data-headlessui-state="open"
+                id="headlessui-listbox-button-:r7c:"
+              >
+                <div
+                  class="relative"
+                >
+                  <button
+                    class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                    open=""
+                  >
+                    <span
+                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                    >
+                      <span
+                        class="text-moon-16 text-trunks"
+                      >
+                        Choose an option
+                      </span>
+                    </span>
+                    <svg
+                      class="text-trunks flex-shrink-0 transition-transform text-moon-24 rotate-[-180deg]"
+                      fill="none"
+                      height="1em"
+                      viewBox="0 0 32 32"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M22 13l-6 6-6-6"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <input
+                hidden=""
+                name="value"
+                value=""
+              />
+              <ul
+                aria-labelledby="headlessui-listbox-label-:r7b:"
+                aria-orientation="vertical"
+                class="w-full min-w-[18.75rem] z-5 absolute p-1 my-2 rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
+                data-headlessui-state="open"
+                data-popper-escaped="true"
+                data-popper-placement="bottom-start"
+                data-popper-reference-hidden="true"
+                id="headlessui-listbox-options-:r7d:"
+                role="listbox"
+                style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px);"
+                tabindex="0"
+              >
+                <span
+                  aria-selected="false"
+                  data-headlessui-state=""
+                  id="headlessui-listbox-option-:r7e:"
+                  role="option"
+                  tabindex="-1"
+                >
+                  <button
+                    class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                    type="button"
+                  >
+                    <span
+                      class="block grow text-start text-bulma overflow-hidden"
+                    >
+                      Wade Cooper
+                    </span>
+                    <span
+                      class="flex w-6 h-6 justify-center items-center"
+                    >
+                      <span
+                        aria-checked="false"
+                        class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      />
+                    </span>
+                  </button>
+                </span>
+                <span
+                  aria-selected="false"
+                  data-headlessui-state=""
+                  id="headlessui-listbox-option-:r7f:"
+                  role="option"
+                  tabindex="-1"
+                >
+                  <button
+                    class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                    type="button"
+                  >
+                    <span
+                      class="block grow text-start text-bulma overflow-hidden"
+                    >
+                      Arlene Mccoy
+                    </span>
+                    <span
+                      class="flex w-6 h-6 justify-center items-center"
+                    >
+                      <span
+                        aria-checked="false"
+                        class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      />
+                    </span>
+                  </button>
+                </span>
+                <span
+                  aria-selected="false"
+                  data-headlessui-state=""
+                  id="headlessui-listbox-option-:r7g:"
+                  role="option"
+                  tabindex="-1"
+                >
+                  <button
+                    class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                    type="button"
+                  >
+                    <span
+                      class="block grow text-start text-bulma overflow-hidden"
+                    >
+                      Devon Webb
+                    </span>
+                    <span
+                      class="flex w-6 h-6 justify-center items-center"
+                    >
+                      <span
+                        aria-checked="false"
+                        class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      />
+                    </span>
+                  </button>
+                </span>
+                <span
+                  aria-selected="false"
+                  data-headlessui-state=""
+                  id="headlessui-listbox-option-:r7h:"
+                  role="option"
+                  tabindex="-1"
+                >
+                  <button
+                    class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                    type="button"
+                  >
+                    <span
+                      class="block grow text-start text-bulma overflow-hidden"
+                    >
+                      Tom Cook
+                    </span>
+                    <span
+                      class="flex w-6 h-6 justify-center items-center"
+                    >
+                      <span
+                        aria-checked="false"
+                        class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      />
+                    </span>
+                  </button>
+                </span>
+                <span
+                  aria-selected="false"
+                  data-headlessui-state=""
+                  id="headlessui-listbox-option-:r7i:"
+                  role="option"
+                  tabindex="-1"
+                >
+                  <button
+                    class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                    type="button"
+                  >
+                    <span
+                      class="block grow text-start text-bulma overflow-hidden"
+                    >
+                      Tanya Fox
+                    </span>
+                    <span
+                      class="flex w-6 h-6 justify-center items-center"
+                    >
+                      <span
+                        aria-checked="false"
+                        class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      />
+                    </span>
+                  </button>
+                </span>
+                <span
+                  aria-selected="false"
+                  data-headlessui-state=""
+                  id="headlessui-listbox-option-:r7j:"
+                  role="option"
+                  tabindex="-1"
+                >
+                  <button
+                    class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                    type="button"
+                  >
+                    <span
+                      class="block grow text-start text-bulma overflow-hidden"
+                    >
+                      Hellen Schmidt
+                    </span>
+                    <span
+                      class="flex w-6 h-6 justify-center items-center"
+                    >
+                      <span
+                        aria-checked="false"
+                        class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      />
+                    </span>
+                  </button>
+                </span>
+              </ul>
+              <p
+                class="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+                role="alert"
+              >
+                Informative message holder
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <div
+        class="flex flex-col lg:flex-row justify-around items-end w-80 gap-2"
+      >
+        <div
+          class="w-full relative"
+        >
+          <div
+            class="relative"
+          >
+            <label
+              class="block text-bulma pb-2 text-moon-16"
+              data-headlessui-state="open"
+              id="headlessui-listbox-label-:r7b:"
+            >
+              With hidden input
+            </label>
+            <div
+              aria-controls="headlessui-listbox-options-:r7d:"
+              aria-expanded="true"
+              aria-haspopup="listbox"
+              aria-labelledby="headlessui-listbox-label-:r7b: headlessui-listbox-button-:r7c:"
+              data-headlessui-state="open"
+              id="headlessui-listbox-button-:r7c:"
+            >
+              <div
+                class="relative"
+              >
+                <button
+                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                  open=""
+                >
+                  <span
+                    class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                  >
+                    <span
+                      class="text-moon-16 text-trunks"
+                    >
+                      Choose an option
+                    </span>
+                  </span>
+                  <svg
+                    class="text-trunks flex-shrink-0 transition-transform text-moon-24 rotate-[-180deg]"
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 32 32"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M22 13l-6 6-6-6"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <input
+              hidden=""
+              name="value"
+              value=""
+            />
+            <ul
+              aria-labelledby="headlessui-listbox-label-:r7b:"
+              aria-orientation="vertical"
+              class="w-full min-w-[18.75rem] z-5 absolute p-1 my-2 rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
+              data-headlessui-state="open"
+              data-popper-escaped="true"
+              data-popper-placement="bottom-start"
+              data-popper-reference-hidden="true"
+              id="headlessui-listbox-options-:r7d:"
+              role="listbox"
+              style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px);"
+              tabindex="0"
+            >
+              <span
+                aria-selected="false"
+                data-headlessui-state=""
+                id="headlessui-listbox-option-:r7e:"
+                role="option"
+                tabindex="-1"
+              >
+                <button
+                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                  type="button"
+                >
+                  <span
+                    class="block grow text-start text-bulma overflow-hidden"
+                  >
+                    Wade Cooper
+                  </span>
+                  <span
+                    class="flex w-6 h-6 justify-center items-center"
+                  >
+                    <span
+                      aria-checked="false"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                    />
+                  </span>
+                </button>
+              </span>
+              <span
+                aria-selected="false"
+                data-headlessui-state=""
+                id="headlessui-listbox-option-:r7f:"
+                role="option"
+                tabindex="-1"
+              >
+                <button
+                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                  type="button"
+                >
+                  <span
+                    class="block grow text-start text-bulma overflow-hidden"
+                  >
+                    Arlene Mccoy
+                  </span>
+                  <span
+                    class="flex w-6 h-6 justify-center items-center"
+                  >
+                    <span
+                      aria-checked="false"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                    />
+                  </span>
+                </button>
+              </span>
+              <span
+                aria-selected="false"
+                data-headlessui-state=""
+                id="headlessui-listbox-option-:r7g:"
+                role="option"
+                tabindex="-1"
+              >
+                <button
+                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                  type="button"
+                >
+                  <span
+                    class="block grow text-start text-bulma overflow-hidden"
+                  >
+                    Devon Webb
+                  </span>
+                  <span
+                    class="flex w-6 h-6 justify-center items-center"
+                  >
+                    <span
+                      aria-checked="false"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                    />
+                  </span>
+                </button>
+              </span>
+              <span
+                aria-selected="false"
+                data-headlessui-state=""
+                id="headlessui-listbox-option-:r7h:"
+                role="option"
+                tabindex="-1"
+              >
+                <button
+                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                  type="button"
+                >
+                  <span
+                    class="block grow text-start text-bulma overflow-hidden"
+                  >
+                    Tom Cook
+                  </span>
+                  <span
+                    class="flex w-6 h-6 justify-center items-center"
+                  >
+                    <span
+                      aria-checked="false"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                    />
+                  </span>
+                </button>
+              </span>
+              <span
+                aria-selected="false"
+                data-headlessui-state=""
+                id="headlessui-listbox-option-:r7i:"
+                role="option"
+                tabindex="-1"
+              >
+                <button
+                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                  type="button"
+                >
+                  <span
+                    class="block grow text-start text-bulma overflow-hidden"
+                  >
+                    Tanya Fox
+                  </span>
+                  <span
+                    class="flex w-6 h-6 justify-center items-center"
+                  >
+                    <span
+                      aria-checked="false"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                    />
+                  </span>
+                </button>
+              </span>
+              <span
+                aria-selected="false"
+                data-headlessui-state=""
+                id="headlessui-listbox-option-:r7j:"
+                role="option"
+                tabindex="-1"
+              >
+                <button
+                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                  type="button"
+                >
+                  <span
+                    class="block grow text-start text-bulma overflow-hidden"
+                  >
+                    Hellen Schmidt
+                  </span>
+                  <span
+                    class="flex w-6 h-6 justify-center items-center"
+                  >
+                    <span
+                      aria-checked="false"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                    />
+                  </span>
+                </button>
+              </span>
+            </ul>
+            <p
+              class="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+              role="alert"
+            >
+              Informative message holder
+            </p>
           </div>
         </div>
       </div>
@@ -339,12 +894,12 @@ Object {
               class="relative"
             >
               <div
-                aria-controls="headlessui-listbox-options-:r5q:"
+                aria-controls="headlessui-listbox-options-:r63:"
                 aria-expanded="true"
                 aria-haspopup="listbox"
-                aria-labelledby="headlessui-listbox-label-:r5p: headlessui-listbox-button-:r5o:"
+                aria-labelledby="headlessui-listbox-label-:r62: headlessui-listbox-button-:r61:"
                 data-headlessui-state="open"
-                id="headlessui-listbox-button-:r5o:"
+                id="headlessui-listbox-button-:r61:"
               >
                 <div
                   class="relative"
@@ -362,7 +917,7 @@ Object {
                         <label
                           class="block text-moon-12 text-trunks"
                           data-headlessui-state="open"
-                          id="headlessui-listbox-label-:r5p:"
+                          id="headlessui-listbox-label-:r62:"
                         >
                           Select label
                         </label>
@@ -392,7 +947,7 @@ Object {
                 </div>
               </div>
               <ul
-                aria-labelledby="headlessui-listbox-label-:r5p:"
+                aria-labelledby="headlessui-listbox-label-:r62:"
                 aria-multiselectable="true"
                 aria-orientation="vertical"
                 class="w-full min-w-[18.75rem] z-5 absolute p-1 my-2 rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
@@ -400,7 +955,7 @@ Object {
                 data-popper-escaped="true"
                 data-popper-placement="bottom-start"
                 data-popper-reference-hidden="true"
-                id="headlessui-listbox-options-:r5q:"
+                id="headlessui-listbox-options-:r63:"
                 role="listbox"
                 style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px);"
                 tabindex="0"
@@ -408,7 +963,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r5r:"
+                  id="headlessui-listbox-option-:r64:"
                   role="option"
                   tabindex="-1"
                 >
@@ -451,7 +1006,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r5s:"
+                  id="headlessui-listbox-option-:r65:"
                   role="option"
                   tabindex="-1"
                 >
@@ -494,7 +1049,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r5t:"
+                  id="headlessui-listbox-option-:r66:"
                   role="option"
                   tabindex="-1"
                 >
@@ -537,7 +1092,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r5u:"
+                  id="headlessui-listbox-option-:r67:"
                   role="option"
                   tabindex="-1"
                 >
@@ -580,7 +1135,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r5v:"
+                  id="headlessui-listbox-option-:r68:"
                   role="option"
                   tabindex="-1"
                 >
@@ -623,7 +1178,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r60:"
+                  id="headlessui-listbox-option-:r69:"
                   role="option"
                   tabindex="-1"
                 >
@@ -690,12 +1245,12 @@ Object {
             class="relative"
           >
             <div
-              aria-controls="headlessui-listbox-options-:r5q:"
+              aria-controls="headlessui-listbox-options-:r63:"
               aria-expanded="true"
               aria-haspopup="listbox"
-              aria-labelledby="headlessui-listbox-label-:r5p: headlessui-listbox-button-:r5o:"
+              aria-labelledby="headlessui-listbox-label-:r62: headlessui-listbox-button-:r61:"
               data-headlessui-state="open"
-              id="headlessui-listbox-button-:r5o:"
+              id="headlessui-listbox-button-:r61:"
             >
               <div
                 class="relative"
@@ -713,7 +1268,7 @@ Object {
                       <label
                         class="block text-moon-12 text-trunks"
                         data-headlessui-state="open"
-                        id="headlessui-listbox-label-:r5p:"
+                        id="headlessui-listbox-label-:r62:"
                       >
                         Select label
                       </label>
@@ -743,7 +1298,7 @@ Object {
               </div>
             </div>
             <ul
-              aria-labelledby="headlessui-listbox-label-:r5p:"
+              aria-labelledby="headlessui-listbox-label-:r62:"
               aria-multiselectable="true"
               aria-orientation="vertical"
               class="w-full min-w-[18.75rem] z-5 absolute p-1 my-2 rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
@@ -751,7 +1306,7 @@ Object {
               data-popper-escaped="true"
               data-popper-placement="bottom-start"
               data-popper-reference-hidden="true"
-              id="headlessui-listbox-options-:r5q:"
+              id="headlessui-listbox-options-:r63:"
               role="listbox"
               style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px);"
               tabindex="0"
@@ -759,7 +1314,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r5r:"
+                id="headlessui-listbox-option-:r64:"
                 role="option"
                 tabindex="-1"
               >
@@ -802,7 +1357,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r5s:"
+                id="headlessui-listbox-option-:r65:"
                 role="option"
                 tabindex="-1"
               >
@@ -845,7 +1400,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r5t:"
+                id="headlessui-listbox-option-:r66:"
                 role="option"
                 tabindex="-1"
               >
@@ -888,7 +1443,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r5u:"
+                id="headlessui-listbox-option-:r67:"
                 role="option"
                 tabindex="-1"
               >
@@ -931,7 +1486,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r5v:"
+                id="headlessui-listbox-option-:r68:"
                 role="option"
                 tabindex="-1"
               >
@@ -974,7 +1529,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r60:"
+                id="headlessui-listbox-option-:r69:"
                 role="option"
                 tabindex="-1"
               >
@@ -1098,12 +1653,12 @@ Object {
               class="relative"
             >
               <div
-                aria-controls="headlessui-listbox-options-:r5h:"
+                aria-controls="headlessui-listbox-options-:r5q:"
                 aria-expanded="true"
                 aria-haspopup="listbox"
-                aria-labelledby="headlessui-listbox-label-:r5g: headlessui-listbox-button-:r5f:"
+                aria-labelledby="headlessui-listbox-label-:r5p: headlessui-listbox-button-:r5o:"
                 data-headlessui-state="open"
-                id="headlessui-listbox-button-:r5f:"
+                id="headlessui-listbox-button-:r5o:"
               >
                 <div
                   class="relative"
@@ -1121,7 +1676,7 @@ Object {
                         <label
                           class="block text-moon-12 text-trunks"
                           data-headlessui-state="open"
-                          id="headlessui-listbox-label-:r5g:"
+                          id="headlessui-listbox-label-:r5p:"
                         >
                           Select label
                         </label>
@@ -1151,14 +1706,14 @@ Object {
                 </div>
               </div>
               <ul
-                aria-labelledby="headlessui-listbox-label-:r5g:"
+                aria-labelledby="headlessui-listbox-label-:r5p:"
                 aria-orientation="vertical"
                 class="w-full min-w-[18.75rem] z-5 absolute p-1 my-2 rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
                 data-headlessui-state="open"
                 data-popper-escaped="true"
                 data-popper-placement="bottom-start"
                 data-popper-reference-hidden="true"
-                id="headlessui-listbox-options-:r5h:"
+                id="headlessui-listbox-options-:r5q:"
                 role="listbox"
                 style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px);"
                 tabindex="0"
@@ -1166,7 +1721,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r5i:"
+                  id="headlessui-listbox-option-:r5r:"
                   role="option"
                   tabindex="-1"
                 >
@@ -1192,7 +1747,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r5j:"
+                  id="headlessui-listbox-option-:r5s:"
                   role="option"
                   tabindex="-1"
                 >
@@ -1218,7 +1773,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r5k:"
+                  id="headlessui-listbox-option-:r5t:"
                   role="option"
                   tabindex="-1"
                 >
@@ -1244,7 +1799,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r5l:"
+                  id="headlessui-listbox-option-:r5u:"
                   role="option"
                   tabindex="-1"
                 >
@@ -1270,7 +1825,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r5m:"
+                  id="headlessui-listbox-option-:r5v:"
                   role="option"
                   tabindex="-1"
                 >
@@ -1296,7 +1851,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r5n:"
+                  id="headlessui-listbox-option-:r60:"
                   role="option"
                   tabindex="-1"
                 >
@@ -1346,12 +1901,12 @@ Object {
             class="relative"
           >
             <div
-              aria-controls="headlessui-listbox-options-:r5h:"
+              aria-controls="headlessui-listbox-options-:r5q:"
               aria-expanded="true"
               aria-haspopup="listbox"
-              aria-labelledby="headlessui-listbox-label-:r5g: headlessui-listbox-button-:r5f:"
+              aria-labelledby="headlessui-listbox-label-:r5p: headlessui-listbox-button-:r5o:"
               data-headlessui-state="open"
-              id="headlessui-listbox-button-:r5f:"
+              id="headlessui-listbox-button-:r5o:"
             >
               <div
                 class="relative"
@@ -1369,7 +1924,7 @@ Object {
                       <label
                         class="block text-moon-12 text-trunks"
                         data-headlessui-state="open"
-                        id="headlessui-listbox-label-:r5g:"
+                        id="headlessui-listbox-label-:r5p:"
                       >
                         Select label
                       </label>
@@ -1399,14 +1954,14 @@ Object {
               </div>
             </div>
             <ul
-              aria-labelledby="headlessui-listbox-label-:r5g:"
+              aria-labelledby="headlessui-listbox-label-:r5p:"
               aria-orientation="vertical"
               class="w-full min-w-[18.75rem] z-5 absolute p-1 my-2 rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
               data-headlessui-state="open"
               data-popper-escaped="true"
               data-popper-placement="bottom-start"
               data-popper-reference-hidden="true"
-              id="headlessui-listbox-options-:r5h:"
+              id="headlessui-listbox-options-:r5q:"
               role="listbox"
               style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px);"
               tabindex="0"
@@ -1414,7 +1969,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r5i:"
+                id="headlessui-listbox-option-:r5r:"
                 role="option"
                 tabindex="-1"
               >
@@ -1440,7 +1995,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r5j:"
+                id="headlessui-listbox-option-:r5s:"
                 role="option"
                 tabindex="-1"
               >
@@ -1466,7 +2021,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r5k:"
+                id="headlessui-listbox-option-:r5t:"
                 role="option"
                 tabindex="-1"
               >
@@ -1492,7 +2047,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r5l:"
+                id="headlessui-listbox-option-:r5u:"
                 role="option"
                 tabindex="-1"
               >
@@ -1518,7 +2073,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r5m:"
+                id="headlessui-listbox-option-:r5v:"
                 role="option"
                 tabindex="-1"
               >
@@ -1544,7 +2099,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r5n:"
+                id="headlessui-listbox-option-:r60:"
                 role="option"
                 tabindex="-1"
               >
@@ -1651,12 +2206,12 @@ Object {
               class="relative"
             >
               <div
-                aria-controls="headlessui-listbox-options-:r63:"
+                aria-controls="headlessui-listbox-options-:r6c:"
                 aria-expanded="true"
                 aria-haspopup="listbox"
-                aria-labelledby="headlessui-listbox-label-:r62: headlessui-listbox-button-:r61:"
+                aria-labelledby="headlessui-listbox-label-:r6b: headlessui-listbox-button-:r6a:"
                 data-headlessui-state="open"
-                id="headlessui-listbox-button-:r61:"
+                id="headlessui-listbox-button-:r6a:"
               >
                 <div
                   class="relative"
@@ -1674,7 +2229,7 @@ Object {
                         <label
                           class="block text-moon-12 text-trunks"
                           data-headlessui-state="open"
-                          id="headlessui-listbox-label-:r62:"
+                          id="headlessui-listbox-label-:r6b:"
                         >
                           Error
                         </label>
@@ -1704,15 +2259,15 @@ Object {
                 </div>
               </div>
               <ul
-                aria-activedescendant="headlessui-listbox-option-:r6f:"
-                aria-labelledby="headlessui-listbox-label-:r62:"
+                aria-activedescendant="headlessui-listbox-option-:r6o:"
+                aria-labelledby="headlessui-listbox-label-:r6b:"
                 aria-orientation="vertical"
                 class="w-full min-w-[18.75rem] z-5 absolute p-1 my-2 rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
                 data-headlessui-state="open"
                 data-popper-escaped="true"
                 data-popper-placement="bottom-start"
                 data-popper-reference-hidden="true"
-                id="headlessui-listbox-options-:r63:"
+                id="headlessui-listbox-options-:r6c:"
                 role="listbox"
                 style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px);"
                 tabindex="0"
@@ -1720,7 +2275,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r6d:"
+                  id="headlessui-listbox-option-:r6m:"
                   role="option"
                   tabindex="-1"
                 >
@@ -1734,7 +2289,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r6e:"
+                  id="headlessui-listbox-option-:r6n:"
                   role="option"
                   tabindex="-1"
                 >
@@ -1748,7 +2303,7 @@ Object {
                 <span
                   aria-selected="true"
                   data-headlessui-state="active selected"
-                  id="headlessui-listbox-option-:r6f:"
+                  id="headlessui-listbox-option-:r6o:"
                   role="option"
                   tabindex="-1"
                 >
@@ -1762,7 +2317,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r6g:"
+                  id="headlessui-listbox-option-:r6p:"
                   role="option"
                   tabindex="-1"
                 >
@@ -1776,7 +2331,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r6h:"
+                  id="headlessui-listbox-option-:r6q:"
                   role="option"
                   tabindex="-1"
                 >
@@ -1790,7 +2345,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r6i:"
+                  id="headlessui-listbox-option-:r6r:"
                   role="option"
                   tabindex="-1"
                 >
@@ -1818,10 +2373,10 @@ Object {
             >
               <div
                 aria-haspopup="listbox"
-                aria-labelledby="headlessui-listbox-label-:r65: headlessui-listbox-button-:r64:"
+                aria-labelledby="headlessui-listbox-label-:r6e: headlessui-listbox-button-:r6d:"
                 data-headlessui-state="disabled"
                 disabled=""
-                id="headlessui-listbox-button-:r64:"
+                id="headlessui-listbox-button-:r6d:"
               >
                 <div
                   class="relative"
@@ -1838,7 +2393,7 @@ Object {
                         <label
                           class="block text-moon-12 text-trunks"
                           data-headlessui-state="disabled"
-                          id="headlessui-listbox-label-:r65:"
+                          id="headlessui-listbox-label-:r6e:"
                         >
                           Disabled
                         </label>
@@ -1884,9 +2439,9 @@ Object {
               <div
                 aria-expanded="false"
                 aria-haspopup="listbox"
-                aria-labelledby="headlessui-listbox-label-:r68: headlessui-listbox-button-:r67:"
+                aria-labelledby="headlessui-listbox-label-:r6h: headlessui-listbox-button-:r6g:"
                 data-headlessui-state=""
-                id="headlessui-listbox-button-:r67:"
+                id="headlessui-listbox-button-:r6g:"
               >
                 <div
                   class="relative"
@@ -1903,7 +2458,7 @@ Object {
                         <label
                           class="block text-moon-12 text-trunks"
                           data-headlessui-state=""
-                          id="headlessui-listbox-label-:r68:"
+                          id="headlessui-listbox-label-:r6h:"
                         />
                         <span
                           class="text-moon-16 text-trunks"
@@ -1941,9 +2496,9 @@ Object {
               <div
                 aria-expanded="false"
                 aria-haspopup="listbox"
-                aria-labelledby="headlessui-listbox-label-:r6b: headlessui-listbox-button-:r6a:"
+                aria-labelledby="headlessui-listbox-label-:r6k: headlessui-listbox-button-:r6j:"
                 data-headlessui-state=""
-                id="headlessui-listbox-button-:r6a:"
+                id="headlessui-listbox-button-:r6j:"
               >
                 <div
                   class="relative"
@@ -1960,7 +2515,7 @@ Object {
                         <label
                           class="block text-moon-12 text-trunks"
                           data-headlessui-state=""
-                          id="headlessui-listbox-label-:r6b:"
+                          id="headlessui-listbox-label-:r6k:"
                         >
                           List options width
                         </label>
@@ -2015,12 +2570,12 @@ Object {
             class="relative"
           >
             <div
-              aria-controls="headlessui-listbox-options-:r63:"
+              aria-controls="headlessui-listbox-options-:r6c:"
               aria-expanded="true"
               aria-haspopup="listbox"
-              aria-labelledby="headlessui-listbox-label-:r62: headlessui-listbox-button-:r61:"
+              aria-labelledby="headlessui-listbox-label-:r6b: headlessui-listbox-button-:r6a:"
               data-headlessui-state="open"
-              id="headlessui-listbox-button-:r61:"
+              id="headlessui-listbox-button-:r6a:"
             >
               <div
                 class="relative"
@@ -2038,7 +2593,7 @@ Object {
                       <label
                         class="block text-moon-12 text-trunks"
                         data-headlessui-state="open"
-                        id="headlessui-listbox-label-:r62:"
+                        id="headlessui-listbox-label-:r6b:"
                       >
                         Error
                       </label>
@@ -2068,15 +2623,15 @@ Object {
               </div>
             </div>
             <ul
-              aria-activedescendant="headlessui-listbox-option-:r6f:"
-              aria-labelledby="headlessui-listbox-label-:r62:"
+              aria-activedescendant="headlessui-listbox-option-:r6o:"
+              aria-labelledby="headlessui-listbox-label-:r6b:"
               aria-orientation="vertical"
               class="w-full min-w-[18.75rem] z-5 absolute p-1 my-2 rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
               data-headlessui-state="open"
               data-popper-escaped="true"
               data-popper-placement="bottom-start"
               data-popper-reference-hidden="true"
-              id="headlessui-listbox-options-:r63:"
+              id="headlessui-listbox-options-:r6c:"
               role="listbox"
               style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px);"
               tabindex="0"
@@ -2084,7 +2639,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r6d:"
+                id="headlessui-listbox-option-:r6m:"
                 role="option"
                 tabindex="-1"
               >
@@ -2098,7 +2653,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r6e:"
+                id="headlessui-listbox-option-:r6n:"
                 role="option"
                 tabindex="-1"
               >
@@ -2112,7 +2667,7 @@ Object {
               <span
                 aria-selected="true"
                 data-headlessui-state="active selected"
-                id="headlessui-listbox-option-:r6f:"
+                id="headlessui-listbox-option-:r6o:"
                 role="option"
                 tabindex="-1"
               >
@@ -2126,7 +2681,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r6g:"
+                id="headlessui-listbox-option-:r6p:"
                 role="option"
                 tabindex="-1"
               >
@@ -2140,7 +2695,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r6h:"
+                id="headlessui-listbox-option-:r6q:"
                 role="option"
                 tabindex="-1"
               >
@@ -2154,7 +2709,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r6i:"
+                id="headlessui-listbox-option-:r6r:"
                 role="option"
                 tabindex="-1"
               >
@@ -2182,10 +2737,10 @@ Object {
           >
             <div
               aria-haspopup="listbox"
-              aria-labelledby="headlessui-listbox-label-:r65: headlessui-listbox-button-:r64:"
+              aria-labelledby="headlessui-listbox-label-:r6e: headlessui-listbox-button-:r6d:"
               data-headlessui-state="disabled"
               disabled=""
-              id="headlessui-listbox-button-:r64:"
+              id="headlessui-listbox-button-:r6d:"
             >
               <div
                 class="relative"
@@ -2202,7 +2757,7 @@ Object {
                       <label
                         class="block text-moon-12 text-trunks"
                         data-headlessui-state="disabled"
-                        id="headlessui-listbox-label-:r65:"
+                        id="headlessui-listbox-label-:r6e:"
                       >
                         Disabled
                       </label>
@@ -2248,9 +2803,9 @@ Object {
             <div
               aria-expanded="false"
               aria-haspopup="listbox"
-              aria-labelledby="headlessui-listbox-label-:r68: headlessui-listbox-button-:r67:"
+              aria-labelledby="headlessui-listbox-label-:r6h: headlessui-listbox-button-:r6g:"
               data-headlessui-state=""
-              id="headlessui-listbox-button-:r67:"
+              id="headlessui-listbox-button-:r6g:"
             >
               <div
                 class="relative"
@@ -2267,7 +2822,7 @@ Object {
                       <label
                         class="block text-moon-12 text-trunks"
                         data-headlessui-state=""
-                        id="headlessui-listbox-label-:r68:"
+                        id="headlessui-listbox-label-:r6h:"
                       />
                       <span
                         class="text-moon-16 text-trunks"
@@ -2305,9 +2860,9 @@ Object {
             <div
               aria-expanded="false"
               aria-haspopup="listbox"
-              aria-labelledby="headlessui-listbox-label-:r6b: headlessui-listbox-button-:r6a:"
+              aria-labelledby="headlessui-listbox-label-:r6k: headlessui-listbox-button-:r6j:"
               data-headlessui-state=""
-              id="headlessui-listbox-button-:r6a:"
+              id="headlessui-listbox-button-:r6j:"
             >
               <div
                 class="relative"
@@ -2324,7 +2879,7 @@ Object {
                       <label
                         class="block text-moon-12 text-trunks"
                         data-headlessui-state=""
-                        id="headlessui-listbox-label-:r6b:"
+                        id="headlessui-listbox-label-:r6k:"
                       >
                         List options width
                       </label>
@@ -2438,17 +2993,17 @@ Object {
               <label
                 class="block text-bulma pb-2 text-moon-14"
                 data-headlessui-state="open"
-                id="headlessui-listbox-label-:r6j:"
+                id="headlessui-listbox-label-:r6s:"
               >
                 Small
               </label>
               <div
-                aria-controls="headlessui-listbox-options-:r6l:"
+                aria-controls="headlessui-listbox-options-:r6u:"
                 aria-expanded="true"
                 aria-haspopup="listbox"
-                aria-labelledby="headlessui-listbox-label-:r6j: headlessui-listbox-button-:r6k:"
+                aria-labelledby="headlessui-listbox-label-:r6s: headlessui-listbox-button-:r6t:"
                 data-headlessui-state="open"
-                id="headlessui-listbox-button-:r6k:"
+                id="headlessui-listbox-button-:r6t:"
               >
                 <div
                   class="relative"
@@ -2489,7 +3044,7 @@ Object {
                 </div>
               </div>
               <ul
-                aria-labelledby="headlessui-listbox-label-:r6j:"
+                aria-labelledby="headlessui-listbox-label-:r6s:"
                 aria-multiselectable="true"
                 aria-orientation="vertical"
                 class="w-full min-w-[18.75rem] z-5 absolute p-1 my-2 rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
@@ -2497,7 +3052,7 @@ Object {
                 data-popper-escaped="true"
                 data-popper-placement="bottom-start"
                 data-popper-reference-hidden="true"
-                id="headlessui-listbox-options-:r6l:"
+                id="headlessui-listbox-options-:r6u:"
                 role="listbox"
                 style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px);"
                 tabindex="0"
@@ -2505,7 +3060,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r6s:"
+                  id="headlessui-listbox-option-:r75:"
                   role="option"
                   tabindex="-1"
                 >
@@ -2548,7 +3103,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r6t:"
+                  id="headlessui-listbox-option-:r76:"
                   role="option"
                   tabindex="-1"
                 >
@@ -2591,7 +3146,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r6u:"
+                  id="headlessui-listbox-option-:r77:"
                   role="option"
                   tabindex="-1"
                 >
@@ -2634,7 +3189,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r6v:"
+                  id="headlessui-listbox-option-:r78:"
                   role="option"
                   tabindex="-1"
                 >
@@ -2677,7 +3232,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r70:"
+                  id="headlessui-listbox-option-:r79:"
                   role="option"
                   tabindex="-1"
                 >
@@ -2720,7 +3275,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r71:"
+                  id="headlessui-listbox-option-:r7a:"
                   role="option"
                   tabindex="-1"
                 >
@@ -2778,16 +3333,16 @@ Object {
               <label
                 class="block text-bulma pb-2 text-moon-16"
                 data-headlessui-state=""
-                id="headlessui-listbox-label-:r6m:"
+                id="headlessui-listbox-label-:r6v:"
               >
                 Medium
               </label>
               <div
                 aria-expanded="false"
                 aria-haspopup="listbox"
-                aria-labelledby="headlessui-listbox-label-:r6m: headlessui-listbox-button-:r6n:"
+                aria-labelledby="headlessui-listbox-label-:r6v: headlessui-listbox-button-:r70:"
                 data-headlessui-state=""
-                id="headlessui-listbox-button-:r6n:"
+                id="headlessui-listbox-button-:r70:"
               >
                 <div
                   class="relative"
@@ -2844,16 +3399,16 @@ Object {
               <label
                 class="block text-bulma pb-2 text-moon-16"
                 data-headlessui-state=""
-                id="headlessui-listbox-label-:r6p:"
+                id="headlessui-listbox-label-:r72:"
               >
                 Large
               </label>
               <div
                 aria-expanded="false"
                 aria-haspopup="listbox"
-                aria-labelledby="headlessui-listbox-label-:r6p: headlessui-listbox-button-:r6q:"
+                aria-labelledby="headlessui-listbox-label-:r72: headlessui-listbox-button-:r73:"
                 data-headlessui-state=""
-                id="headlessui-listbox-button-:r6q:"
+                id="headlessui-listbox-button-:r73:"
               >
                 <div
                   class="relative"
@@ -2920,17 +3475,17 @@ Object {
             <label
               class="block text-bulma pb-2 text-moon-14"
               data-headlessui-state="open"
-              id="headlessui-listbox-label-:r6j:"
+              id="headlessui-listbox-label-:r6s:"
             >
               Small
             </label>
             <div
-              aria-controls="headlessui-listbox-options-:r6l:"
+              aria-controls="headlessui-listbox-options-:r6u:"
               aria-expanded="true"
               aria-haspopup="listbox"
-              aria-labelledby="headlessui-listbox-label-:r6j: headlessui-listbox-button-:r6k:"
+              aria-labelledby="headlessui-listbox-label-:r6s: headlessui-listbox-button-:r6t:"
               data-headlessui-state="open"
-              id="headlessui-listbox-button-:r6k:"
+              id="headlessui-listbox-button-:r6t:"
             >
               <div
                 class="relative"
@@ -2971,7 +3526,7 @@ Object {
               </div>
             </div>
             <ul
-              aria-labelledby="headlessui-listbox-label-:r6j:"
+              aria-labelledby="headlessui-listbox-label-:r6s:"
               aria-multiselectable="true"
               aria-orientation="vertical"
               class="w-full min-w-[18.75rem] z-5 absolute p-1 my-2 rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
@@ -2979,7 +3534,7 @@ Object {
               data-popper-escaped="true"
               data-popper-placement="bottom-start"
               data-popper-reference-hidden="true"
-              id="headlessui-listbox-options-:r6l:"
+              id="headlessui-listbox-options-:r6u:"
               role="listbox"
               style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px);"
               tabindex="0"
@@ -2987,7 +3542,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r6s:"
+                id="headlessui-listbox-option-:r75:"
                 role="option"
                 tabindex="-1"
               >
@@ -3030,7 +3585,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r6t:"
+                id="headlessui-listbox-option-:r76:"
                 role="option"
                 tabindex="-1"
               >
@@ -3073,7 +3628,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r6u:"
+                id="headlessui-listbox-option-:r77:"
                 role="option"
                 tabindex="-1"
               >
@@ -3116,7 +3671,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r6v:"
+                id="headlessui-listbox-option-:r78:"
                 role="option"
                 tabindex="-1"
               >
@@ -3159,7 +3714,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r70:"
+                id="headlessui-listbox-option-:r79:"
                 role="option"
                 tabindex="-1"
               >
@@ -3202,7 +3757,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r71:"
+                id="headlessui-listbox-option-:r7a:"
                 role="option"
                 tabindex="-1"
               >
@@ -3260,16 +3815,16 @@ Object {
             <label
               class="block text-bulma pb-2 text-moon-16"
               data-headlessui-state=""
-              id="headlessui-listbox-label-:r6m:"
+              id="headlessui-listbox-label-:r6v:"
             >
               Medium
             </label>
             <div
               aria-expanded="false"
               aria-haspopup="listbox"
-              aria-labelledby="headlessui-listbox-label-:r6m: headlessui-listbox-button-:r6n:"
+              aria-labelledby="headlessui-listbox-label-:r6v: headlessui-listbox-button-:r70:"
               data-headlessui-state=""
-              id="headlessui-listbox-button-:r6n:"
+              id="headlessui-listbox-button-:r70:"
             >
               <div
                 class="relative"
@@ -3326,16 +3881,16 @@ Object {
             <label
               class="block text-bulma pb-2 text-moon-16"
               data-headlessui-state=""
-              id="headlessui-listbox-label-:r6p:"
+              id="headlessui-listbox-label-:r72:"
             >
               Large
             </label>
             <div
               aria-expanded="false"
               aria-haspopup="listbox"
-              aria-labelledby="headlessui-listbox-label-:r6p: headlessui-listbox-button-:r6q:"
+              aria-labelledby="headlessui-listbox-label-:r72: headlessui-listbox-button-:r73:"
               data-headlessui-state=""
-              id="headlessui-listbox-button-:r6q:"
+              id="headlessui-listbox-button-:r73:"
             >
               <div
                 class="relative"
@@ -3457,11 +4012,11 @@ Object {
               class="relative"
             >
               <div
-                aria-controls="headlessui-listbox-options-:r46:"
+                aria-controls="headlessui-listbox-options-:r4f:"
                 aria-expanded="true"
                 aria-haspopup="listbox"
                 data-headlessui-state="open"
-                id="headlessui-listbox-button-:r45:"
+                id="headlessui-listbox-button-:r4e:"
               >
                 <div>
                   <button
@@ -3472,14 +4027,14 @@ Object {
                 </div>
               </div>
               <ul
-                aria-labelledby="headlessui-listbox-button-:r45:"
+                aria-labelledby="headlessui-listbox-button-:r4e:"
                 aria-orientation="vertical"
                 class="w-full min-w-[18.75rem] z-5 absolute p-1 my-2 rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
                 data-headlessui-state="open"
                 data-popper-escaped="true"
                 data-popper-placement="bottom-start"
                 data-popper-reference-hidden="true"
-                id="headlessui-listbox-options-:r46:"
+                id="headlessui-listbox-options-:r4f:"
                 role="listbox"
                 style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px);"
                 tabindex="0"
@@ -3487,7 +4042,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r4b:"
+                  id="headlessui-listbox-option-:r4k:"
                   role="option"
                   tabindex="-1"
                 >
@@ -3518,7 +4073,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r4c:"
+                  id="headlessui-listbox-option-:r4l:"
                   role="option"
                   tabindex="-1"
                 >
@@ -3550,7 +4105,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r4d:"
+                  id="headlessui-listbox-option-:r4m:"
                   role="option"
                   tabindex="-1"
                 >
@@ -3582,7 +4137,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r4e:"
+                  id="headlessui-listbox-option-:r4n:"
                   role="option"
                   tabindex="-1"
                 >
@@ -3623,7 +4178,7 @@ Object {
                 aria-expanded="false"
                 aria-haspopup="listbox"
                 data-headlessui-state=""
-                id="headlessui-listbox-button-:r47:"
+                id="headlessui-listbox-button-:r4g:"
               >
                 <div>
                   <button
@@ -3645,7 +4200,7 @@ Object {
                 aria-expanded="false"
                 aria-haspopup="listbox"
                 data-headlessui-state=""
-                id="headlessui-listbox-button-:r49:"
+                id="headlessui-listbox-button-:r4i:"
               >
                 <div>
                   <button
@@ -3675,11 +4230,11 @@ Object {
             class="relative"
           >
             <div
-              aria-controls="headlessui-listbox-options-:r46:"
+              aria-controls="headlessui-listbox-options-:r4f:"
               aria-expanded="true"
               aria-haspopup="listbox"
               data-headlessui-state="open"
-              id="headlessui-listbox-button-:r45:"
+              id="headlessui-listbox-button-:r4e:"
             >
               <div>
                 <button
@@ -3690,14 +4245,14 @@ Object {
               </div>
             </div>
             <ul
-              aria-labelledby="headlessui-listbox-button-:r45:"
+              aria-labelledby="headlessui-listbox-button-:r4e:"
               aria-orientation="vertical"
               class="w-full min-w-[18.75rem] z-5 absolute p-1 my-2 rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
               data-headlessui-state="open"
               data-popper-escaped="true"
               data-popper-placement="bottom-start"
               data-popper-reference-hidden="true"
-              id="headlessui-listbox-options-:r46:"
+              id="headlessui-listbox-options-:r4f:"
               role="listbox"
               style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px);"
               tabindex="0"
@@ -3705,7 +4260,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r4b:"
+                id="headlessui-listbox-option-:r4k:"
                 role="option"
                 tabindex="-1"
               >
@@ -3736,7 +4291,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r4c:"
+                id="headlessui-listbox-option-:r4l:"
                 role="option"
                 tabindex="-1"
               >
@@ -3768,7 +4323,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r4d:"
+                id="headlessui-listbox-option-:r4m:"
                 role="option"
                 tabindex="-1"
               >
@@ -3800,7 +4355,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r4e:"
+                id="headlessui-listbox-option-:r4n:"
                 role="option"
                 tabindex="-1"
               >
@@ -3841,7 +4396,7 @@ Object {
               aria-expanded="false"
               aria-haspopup="listbox"
               data-headlessui-state=""
-              id="headlessui-listbox-button-:r47:"
+              id="headlessui-listbox-button-:r4g:"
             >
               <div>
                 <button
@@ -3863,7 +4418,7 @@ Object {
               aria-expanded="false"
               aria-haspopup="listbox"
               data-headlessui-state=""
-              id="headlessui-listbox-button-:r49:"
+              id="headlessui-listbox-button-:r4i:"
             >
               <div>
                 <button
@@ -3952,17 +4507,17 @@ Object {
               <label
                 class="block text-bulma pb-2 text-moon-14"
                 data-headlessui-state="open"
-                id="headlessui-listbox-label-:r4f:"
+                id="headlessui-listbox-label-:r4o:"
               >
                 Small
               </label>
               <div
-                aria-controls="headlessui-listbox-options-:r4h:"
+                aria-controls="headlessui-listbox-options-:r4q:"
                 aria-expanded="true"
                 aria-haspopup="listbox"
-                aria-labelledby="headlessui-listbox-label-:r4f: headlessui-listbox-button-:r4g:"
+                aria-labelledby="headlessui-listbox-label-:r4o: headlessui-listbox-button-:r4p:"
                 data-headlessui-state="open"
-                id="headlessui-listbox-button-:r4g:"
+                id="headlessui-listbox-button-:r4p:"
               >
                 <div
                   class="relative"
@@ -3999,14 +4554,14 @@ Object {
                 </div>
               </div>
               <ul
-                aria-labelledby="headlessui-listbox-label-:r4f:"
+                aria-labelledby="headlessui-listbox-label-:r4o:"
                 aria-orientation="vertical"
                 class="w-full min-w-[18.75rem] z-5 absolute p-1 my-2 rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
                 data-headlessui-state="open"
                 data-popper-escaped="true"
                 data-popper-placement="bottom-start"
                 data-popper-reference-hidden="true"
-                id="headlessui-listbox-options-:r4h:"
+                id="headlessui-listbox-options-:r4q:"
                 role="listbox"
                 style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px);"
                 tabindex="0"
@@ -4014,7 +4569,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r4o:"
+                  id="headlessui-listbox-option-:r51:"
                   role="option"
                   tabindex="-1"
                 >
@@ -4040,7 +4595,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r4p:"
+                  id="headlessui-listbox-option-:r52:"
                   role="option"
                   tabindex="-1"
                 >
@@ -4066,7 +4621,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r4q:"
+                  id="headlessui-listbox-option-:r53:"
                   role="option"
                   tabindex="-1"
                 >
@@ -4092,7 +4647,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r4r:"
+                  id="headlessui-listbox-option-:r54:"
                   role="option"
                   tabindex="-1"
                 >
@@ -4118,7 +4673,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r4s:"
+                  id="headlessui-listbox-option-:r55:"
                   role="option"
                   tabindex="-1"
                 >
@@ -4144,7 +4699,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r4t:"
+                  id="headlessui-listbox-option-:r56:"
                   role="option"
                   tabindex="-1"
                 >
@@ -4185,16 +4740,16 @@ Object {
               <label
                 class="block text-bulma pb-2 text-moon-16"
                 data-headlessui-state=""
-                id="headlessui-listbox-label-:r4i:"
+                id="headlessui-listbox-label-:r4r:"
               >
                 Medium
               </label>
               <div
                 aria-expanded="false"
                 aria-haspopup="listbox"
-                aria-labelledby="headlessui-listbox-label-:r4i: headlessui-listbox-button-:r4j:"
+                aria-labelledby="headlessui-listbox-label-:r4r: headlessui-listbox-button-:r4s:"
                 data-headlessui-state=""
-                id="headlessui-listbox-button-:r4j:"
+                id="headlessui-listbox-button-:r4s:"
               >
                 <div
                   class="relative"
@@ -4246,16 +4801,16 @@ Object {
               <label
                 class="block text-bulma pb-2 text-moon-16"
                 data-headlessui-state=""
-                id="headlessui-listbox-label-:r4l:"
+                id="headlessui-listbox-label-:r4u:"
               >
                 Large
               </label>
               <div
                 aria-expanded="false"
                 aria-haspopup="listbox"
-                aria-labelledby="headlessui-listbox-label-:r4l: headlessui-listbox-button-:r4m:"
+                aria-labelledby="headlessui-listbox-label-:r4u: headlessui-listbox-button-:r4v:"
                 data-headlessui-state=""
-                id="headlessui-listbox-button-:r4m:"
+                id="headlessui-listbox-button-:r4v:"
               >
                 <div
                   class="relative"
@@ -4318,17 +4873,17 @@ Object {
             <label
               class="block text-bulma pb-2 text-moon-14"
               data-headlessui-state="open"
-              id="headlessui-listbox-label-:r4f:"
+              id="headlessui-listbox-label-:r4o:"
             >
               Small
             </label>
             <div
-              aria-controls="headlessui-listbox-options-:r4h:"
+              aria-controls="headlessui-listbox-options-:r4q:"
               aria-expanded="true"
               aria-haspopup="listbox"
-              aria-labelledby="headlessui-listbox-label-:r4f: headlessui-listbox-button-:r4g:"
+              aria-labelledby="headlessui-listbox-label-:r4o: headlessui-listbox-button-:r4p:"
               data-headlessui-state="open"
-              id="headlessui-listbox-button-:r4g:"
+              id="headlessui-listbox-button-:r4p:"
             >
               <div
                 class="relative"
@@ -4365,14 +4920,14 @@ Object {
               </div>
             </div>
             <ul
-              aria-labelledby="headlessui-listbox-label-:r4f:"
+              aria-labelledby="headlessui-listbox-label-:r4o:"
               aria-orientation="vertical"
               class="w-full min-w-[18.75rem] z-5 absolute p-1 my-2 rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
               data-headlessui-state="open"
               data-popper-escaped="true"
               data-popper-placement="bottom-start"
               data-popper-reference-hidden="true"
-              id="headlessui-listbox-options-:r4h:"
+              id="headlessui-listbox-options-:r4q:"
               role="listbox"
               style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px);"
               tabindex="0"
@@ -4380,7 +4935,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r4o:"
+                id="headlessui-listbox-option-:r51:"
                 role="option"
                 tabindex="-1"
               >
@@ -4406,7 +4961,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r4p:"
+                id="headlessui-listbox-option-:r52:"
                 role="option"
                 tabindex="-1"
               >
@@ -4432,7 +4987,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r4q:"
+                id="headlessui-listbox-option-:r53:"
                 role="option"
                 tabindex="-1"
               >
@@ -4458,7 +5013,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r4r:"
+                id="headlessui-listbox-option-:r54:"
                 role="option"
                 tabindex="-1"
               >
@@ -4484,7 +5039,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r4s:"
+                id="headlessui-listbox-option-:r55:"
                 role="option"
                 tabindex="-1"
               >
@@ -4510,7 +5065,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r4t:"
+                id="headlessui-listbox-option-:r56:"
                 role="option"
                 tabindex="-1"
               >
@@ -4551,16 +5106,16 @@ Object {
             <label
               class="block text-bulma pb-2 text-moon-16"
               data-headlessui-state=""
-              id="headlessui-listbox-label-:r4i:"
+              id="headlessui-listbox-label-:r4r:"
             >
               Medium
             </label>
             <div
               aria-expanded="false"
               aria-haspopup="listbox"
-              aria-labelledby="headlessui-listbox-label-:r4i: headlessui-listbox-button-:r4j:"
+              aria-labelledby="headlessui-listbox-label-:r4r: headlessui-listbox-button-:r4s:"
               data-headlessui-state=""
-              id="headlessui-listbox-button-:r4j:"
+              id="headlessui-listbox-button-:r4s:"
             >
               <div
                 class="relative"
@@ -4612,16 +5167,16 @@ Object {
             <label
               class="block text-bulma pb-2 text-moon-16"
               data-headlessui-state=""
-              id="headlessui-listbox-label-:r4l:"
+              id="headlessui-listbox-label-:r4u:"
             >
               Large
             </label>
             <div
               aria-expanded="false"
               aria-haspopup="listbox"
-              aria-labelledby="headlessui-listbox-label-:r4l: headlessui-listbox-button-:r4m:"
+              aria-labelledby="headlessui-listbox-label-:r4u: headlessui-listbox-button-:r4v:"
               data-headlessui-state=""
-              id="headlessui-listbox-button-:r4m:"
+              id="headlessui-listbox-button-:r4v:"
             >
               <div
                 class="relative"
@@ -4741,17 +5296,17 @@ Object {
               <label
                 class="block text-bulma pb-2 text-moon-16"
                 data-headlessui-state="open"
-                id="headlessui-listbox-label-:r4u:"
+                id="headlessui-listbox-label-:r57:"
               >
                 Error
               </label>
               <div
-                aria-controls="headlessui-listbox-options-:r50:"
+                aria-controls="headlessui-listbox-options-:r59:"
                 aria-expanded="true"
                 aria-haspopup="listbox"
-                aria-labelledby="headlessui-listbox-label-:r4u: headlessui-listbox-button-:r4v:"
+                aria-labelledby="headlessui-listbox-label-:r57: headlessui-listbox-button-:r58:"
                 data-headlessui-state="open"
-                id="headlessui-listbox-button-:r4v:"
+                id="headlessui-listbox-button-:r58:"
               >
                 <div
                   class="relative"
@@ -4788,15 +5343,15 @@ Object {
                 </div>
               </div>
               <ul
-                aria-activedescendant="headlessui-listbox-option-:r5b:"
-                aria-labelledby="headlessui-listbox-label-:r4u:"
+                aria-activedescendant="headlessui-listbox-option-:r5k:"
+                aria-labelledby="headlessui-listbox-label-:r57:"
                 aria-orientation="vertical"
                 class="w-full min-w-[18.75rem] z-5 absolute p-1 my-2 rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
                 data-headlessui-state="open"
                 data-popper-escaped="true"
                 data-popper-placement="bottom-start"
                 data-popper-reference-hidden="true"
-                id="headlessui-listbox-options-:r50:"
+                id="headlessui-listbox-options-:r59:"
                 role="listbox"
                 style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px);"
                 tabindex="0"
@@ -4804,7 +5359,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r59:"
+                  id="headlessui-listbox-option-:r5i:"
                   role="option"
                   tabindex="-1"
                 >
@@ -4818,7 +5373,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r5a:"
+                  id="headlessui-listbox-option-:r5j:"
                   role="option"
                   tabindex="-1"
                 >
@@ -4832,7 +5387,7 @@ Object {
                 <span
                   aria-selected="true"
                   data-headlessui-state="active selected"
-                  id="headlessui-listbox-option-:r5b:"
+                  id="headlessui-listbox-option-:r5k:"
                   role="option"
                   tabindex="-1"
                 >
@@ -4846,7 +5401,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r5c:"
+                  id="headlessui-listbox-option-:r5l:"
                   role="option"
                   tabindex="-1"
                 >
@@ -4860,7 +5415,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r5d:"
+                  id="headlessui-listbox-option-:r5m:"
                   role="option"
                   tabindex="-1"
                 >
@@ -4874,7 +5429,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r5e:"
+                  id="headlessui-listbox-option-:r5n:"
                   role="option"
                   tabindex="-1"
                 >
@@ -4903,16 +5458,16 @@ Object {
               <label
                 class="block text-bulma pb-2 text-moon-16 opacity-30 cursor-not-allowed"
                 data-headlessui-state="disabled"
-                id="headlessui-listbox-label-:r51:"
+                id="headlessui-listbox-label-:r5a:"
               >
                 Disabled
               </label>
               <div
                 aria-haspopup="listbox"
-                aria-labelledby="headlessui-listbox-label-:r51: headlessui-listbox-button-:r52:"
+                aria-labelledby="headlessui-listbox-label-:r5a: headlessui-listbox-button-:r5b:"
                 data-headlessui-state="disabled"
                 disabled=""
-                id="headlessui-listbox-button-:r52:"
+                id="headlessui-listbox-button-:r5b:"
               >
                 <div
                   class="relative"
@@ -4965,7 +5520,7 @@ Object {
                 aria-expanded="false"
                 aria-haspopup="listbox"
                 data-headlessui-state=""
-                id="headlessui-listbox-button-:r54:"
+                id="headlessui-listbox-button-:r5d:"
               >
                 <div
                   class="relative"
@@ -5011,16 +5566,16 @@ Object {
               <label
                 class="block text-bulma pb-2 text-moon-16"
                 data-headlessui-state=""
-                id="headlessui-listbox-label-:r56:"
+                id="headlessui-listbox-label-:r5f:"
               >
                 List options width
               </label>
               <div
                 aria-expanded="false"
                 aria-haspopup="listbox"
-                aria-labelledby="headlessui-listbox-label-:r56: headlessui-listbox-button-:r57:"
+                aria-labelledby="headlessui-listbox-label-:r5f: headlessui-listbox-button-:r5g:"
                 data-headlessui-state=""
-                id="headlessui-listbox-button-:r57:"
+                id="headlessui-listbox-button-:r5g:"
               >
                 <div
                   class="relative"
@@ -5083,17 +5638,17 @@ Object {
             <label
               class="block text-bulma pb-2 text-moon-16"
               data-headlessui-state="open"
-              id="headlessui-listbox-label-:r4u:"
+              id="headlessui-listbox-label-:r57:"
             >
               Error
             </label>
             <div
-              aria-controls="headlessui-listbox-options-:r50:"
+              aria-controls="headlessui-listbox-options-:r59:"
               aria-expanded="true"
               aria-haspopup="listbox"
-              aria-labelledby="headlessui-listbox-label-:r4u: headlessui-listbox-button-:r4v:"
+              aria-labelledby="headlessui-listbox-label-:r57: headlessui-listbox-button-:r58:"
               data-headlessui-state="open"
-              id="headlessui-listbox-button-:r4v:"
+              id="headlessui-listbox-button-:r58:"
             >
               <div
                 class="relative"
@@ -5130,15 +5685,15 @@ Object {
               </div>
             </div>
             <ul
-              aria-activedescendant="headlessui-listbox-option-:r5b:"
-              aria-labelledby="headlessui-listbox-label-:r4u:"
+              aria-activedescendant="headlessui-listbox-option-:r5k:"
+              aria-labelledby="headlessui-listbox-label-:r57:"
               aria-orientation="vertical"
               class="w-full min-w-[18.75rem] z-5 absolute p-1 my-2 rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
               data-headlessui-state="open"
               data-popper-escaped="true"
               data-popper-placement="bottom-start"
               data-popper-reference-hidden="true"
-              id="headlessui-listbox-options-:r50:"
+              id="headlessui-listbox-options-:r59:"
               role="listbox"
               style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px);"
               tabindex="0"
@@ -5146,7 +5701,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r59:"
+                id="headlessui-listbox-option-:r5i:"
                 role="option"
                 tabindex="-1"
               >
@@ -5160,7 +5715,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r5a:"
+                id="headlessui-listbox-option-:r5j:"
                 role="option"
                 tabindex="-1"
               >
@@ -5174,7 +5729,7 @@ Object {
               <span
                 aria-selected="true"
                 data-headlessui-state="active selected"
-                id="headlessui-listbox-option-:r5b:"
+                id="headlessui-listbox-option-:r5k:"
                 role="option"
                 tabindex="-1"
               >
@@ -5188,7 +5743,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r5c:"
+                id="headlessui-listbox-option-:r5l:"
                 role="option"
                 tabindex="-1"
               >
@@ -5202,7 +5757,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r5d:"
+                id="headlessui-listbox-option-:r5m:"
                 role="option"
                 tabindex="-1"
               >
@@ -5216,7 +5771,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r5e:"
+                id="headlessui-listbox-option-:r5n:"
                 role="option"
                 tabindex="-1"
               >
@@ -5245,16 +5800,16 @@ Object {
             <label
               class="block text-bulma pb-2 text-moon-16 opacity-30 cursor-not-allowed"
               data-headlessui-state="disabled"
-              id="headlessui-listbox-label-:r51:"
+              id="headlessui-listbox-label-:r5a:"
             >
               Disabled
             </label>
             <div
               aria-haspopup="listbox"
-              aria-labelledby="headlessui-listbox-label-:r51: headlessui-listbox-button-:r52:"
+              aria-labelledby="headlessui-listbox-label-:r5a: headlessui-listbox-button-:r5b:"
               data-headlessui-state="disabled"
               disabled=""
-              id="headlessui-listbox-button-:r52:"
+              id="headlessui-listbox-button-:r5b:"
             >
               <div
                 class="relative"
@@ -5307,7 +5862,7 @@ Object {
               aria-expanded="false"
               aria-haspopup="listbox"
               data-headlessui-state=""
-              id="headlessui-listbox-button-:r54:"
+              id="headlessui-listbox-button-:r5d:"
             >
               <div
                 class="relative"
@@ -5353,16 +5908,16 @@ Object {
             <label
               class="block text-bulma pb-2 text-moon-16"
               data-headlessui-state=""
-              id="headlessui-listbox-label-:r56:"
+              id="headlessui-listbox-label-:r5f:"
             >
               List options width
             </label>
             <div
               aria-expanded="false"
               aria-haspopup="listbox"
-              aria-labelledby="headlessui-listbox-label-:r56: headlessui-listbox-button-:r57:"
+              aria-labelledby="headlessui-listbox-label-:r5f: headlessui-listbox-button-:r5g:"
               data-headlessui-state=""
-              id="headlessui-listbox-button-:r57:"
+              id="headlessui-listbox-button-:r5g:"
             >
               <div
                 class="relative"
@@ -5483,7 +6038,7 @@ Object {
                 aria-expanded="false"
                 aria-haspopup="listbox"
                 data-headlessui-state=""
-                id="headlessui-listbox-button-:r3p:"
+                id="headlessui-listbox-button-:r42:"
               >
                 <div>
                   <div
@@ -5516,11 +6071,11 @@ Object {
               class="relative"
             >
               <div
-                aria-controls="headlessui-listbox-options-:r3s:"
+                aria-controls="headlessui-listbox-options-:r45:"
                 aria-expanded="true"
                 aria-haspopup="listbox"
                 data-headlessui-state="open"
-                id="headlessui-listbox-button-:r3r:"
+                id="headlessui-listbox-button-:r44:"
               >
                 <div>
                   <button
@@ -5536,14 +6091,14 @@ Object {
                 </div>
               </div>
               <ul
-                aria-labelledby="headlessui-listbox-button-:r3r:"
+                aria-labelledby="headlessui-listbox-button-:r44:"
                 aria-orientation="vertical"
                 class="w-full min-w-[18.75rem] z-5 absolute p-1 my-2 rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
                 data-headlessui-state="open"
                 data-popper-escaped="true"
                 data-popper-placement="bottom-start"
                 data-popper-reference-hidden="true"
-                id="headlessui-listbox-options-:r3s:"
+                id="headlessui-listbox-options-:r45:"
                 role="listbox"
                 style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px);"
                 tabindex="0"
@@ -5551,7 +6106,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r3v:"
+                  id="headlessui-listbox-option-:r48:"
                   role="option"
                   tabindex="-1"
                 >
@@ -5565,7 +6120,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r40:"
+                  id="headlessui-listbox-option-:r49:"
                   role="option"
                   tabindex="-1"
                 >
@@ -5579,7 +6134,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r41:"
+                  id="headlessui-listbox-option-:r4a:"
                   role="option"
                   tabindex="-1"
                 >
@@ -5593,7 +6148,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r42:"
+                  id="headlessui-listbox-option-:r4b:"
                   role="option"
                   tabindex="-1"
                 >
@@ -5607,7 +6162,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r43:"
+                  id="headlessui-listbox-option-:r4c:"
                   role="option"
                   tabindex="-1"
                 >
@@ -5621,7 +6176,7 @@ Object {
                 <span
                   aria-selected="false"
                   data-headlessui-state=""
-                  id="headlessui-listbox-option-:r44:"
+                  id="headlessui-listbox-option-:r4d:"
                   role="option"
                   tabindex="-1"
                 >
@@ -5645,7 +6200,7 @@ Object {
                 aria-expanded="false"
                 aria-haspopup="listbox"
                 data-headlessui-state=""
-                id="headlessui-listbox-button-:r3t:"
+                id="headlessui-listbox-button-:r46:"
               >
                 <div>
                   <button
@@ -5693,7 +6248,7 @@ Object {
               aria-expanded="false"
               aria-haspopup="listbox"
               data-headlessui-state=""
-              id="headlessui-listbox-button-:r3p:"
+              id="headlessui-listbox-button-:r42:"
             >
               <div>
                 <div
@@ -5726,11 +6281,11 @@ Object {
             class="relative"
           >
             <div
-              aria-controls="headlessui-listbox-options-:r3s:"
+              aria-controls="headlessui-listbox-options-:r45:"
               aria-expanded="true"
               aria-haspopup="listbox"
               data-headlessui-state="open"
-              id="headlessui-listbox-button-:r3r:"
+              id="headlessui-listbox-button-:r44:"
             >
               <div>
                 <button
@@ -5746,14 +6301,14 @@ Object {
               </div>
             </div>
             <ul
-              aria-labelledby="headlessui-listbox-button-:r3r:"
+              aria-labelledby="headlessui-listbox-button-:r44:"
               aria-orientation="vertical"
               class="w-full min-w-[18.75rem] z-5 absolute p-1 my-2 rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
               data-headlessui-state="open"
               data-popper-escaped="true"
               data-popper-placement="bottom-start"
               data-popper-reference-hidden="true"
-              id="headlessui-listbox-options-:r3s:"
+              id="headlessui-listbox-options-:r45:"
               role="listbox"
               style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px);"
               tabindex="0"
@@ -5761,7 +6316,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r3v:"
+                id="headlessui-listbox-option-:r48:"
                 role="option"
                 tabindex="-1"
               >
@@ -5775,7 +6330,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r40:"
+                id="headlessui-listbox-option-:r49:"
                 role="option"
                 tabindex="-1"
               >
@@ -5789,7 +6344,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r41:"
+                id="headlessui-listbox-option-:r4a:"
                 role="option"
                 tabindex="-1"
               >
@@ -5803,7 +6358,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r42:"
+                id="headlessui-listbox-option-:r4b:"
                 role="option"
                 tabindex="-1"
               >
@@ -5817,7 +6372,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r43:"
+                id="headlessui-listbox-option-:r4c:"
                 role="option"
                 tabindex="-1"
               >
@@ -5831,7 +6386,7 @@ Object {
               <span
                 aria-selected="false"
                 data-headlessui-state=""
-                id="headlessui-listbox-option-:r44:"
+                id="headlessui-listbox-option-:r4d:"
                 role="option"
                 tabindex="-1"
               >
@@ -5855,7 +6410,7 @@ Object {
               aria-expanded="false"
               aria-haspopup="listbox"
               data-headlessui-state=""
-              id="headlessui-listbox-button-:r3t:"
+              id="headlessui-listbox-button-:r46:"
             >
               <div>
                 <button
@@ -11748,6 +12303,553 @@ Object {
               </button>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Dropdown renders with hidden Input 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex flex-col lg:flex-row justify-around items-end w-80 gap-2"
+      >
+        <div
+          class="w-full relative"
+        >
+          <div
+            class="relative"
+          >
+            <label
+              class="block text-bulma pb-2 text-moon-16"
+              data-headlessui-state="open"
+              id="headlessui-listbox-label-:r3h:"
+            >
+              With hidden input
+            </label>
+            <div
+              aria-controls="headlessui-listbox-options-:r3j:"
+              aria-expanded="true"
+              aria-haspopup="listbox"
+              aria-labelledby="headlessui-listbox-label-:r3h: headlessui-listbox-button-:r3i:"
+              data-headlessui-state="open"
+              id="headlessui-listbox-button-:r3i:"
+            >
+              <div
+                class="relative"
+              >
+                <button
+                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                  open=""
+                >
+                  <span
+                    class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                  >
+                    <span
+                      class="text-moon-16 text-trunks"
+                    >
+                      Choose an option
+                    </span>
+                  </span>
+                  <svg
+                    class="text-trunks flex-shrink-0 transition-transform text-moon-24 rotate-[-180deg]"
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 32 32"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M22 13l-6 6-6-6"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <input
+              hidden=""
+              name="value"
+              value=""
+            />
+            <ul
+              aria-labelledby="headlessui-listbox-label-:r3h:"
+              aria-orientation="vertical"
+              class="w-full min-w-[18.75rem] z-5 absolute p-1 my-2 rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
+              data-headlessui-state="open"
+              data-popper-escaped="true"
+              data-popper-placement="bottom-start"
+              data-popper-reference-hidden="true"
+              id="headlessui-listbox-options-:r3j:"
+              role="listbox"
+              style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px);"
+              tabindex="0"
+            >
+              <span
+                aria-selected="false"
+                data-headlessui-state=""
+                id="headlessui-listbox-option-:r3k:"
+                role="option"
+                tabindex="-1"
+              >
+                <button
+                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                  type="button"
+                >
+                  <span
+                    class="block grow text-start text-bulma overflow-hidden"
+                  >
+                    Wade Cooper
+                  </span>
+                  <span
+                    class="flex w-6 h-6 justify-center items-center"
+                  >
+                    <span
+                      aria-checked="false"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                    />
+                  </span>
+                </button>
+              </span>
+              <span
+                aria-selected="false"
+                data-headlessui-state=""
+                id="headlessui-listbox-option-:r3l:"
+                role="option"
+                tabindex="-1"
+              >
+                <button
+                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                  type="button"
+                >
+                  <span
+                    class="block grow text-start text-bulma overflow-hidden"
+                  >
+                    Arlene Mccoy
+                  </span>
+                  <span
+                    class="flex w-6 h-6 justify-center items-center"
+                  >
+                    <span
+                      aria-checked="false"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                    />
+                  </span>
+                </button>
+              </span>
+              <span
+                aria-selected="false"
+                data-headlessui-state=""
+                id="headlessui-listbox-option-:r3m:"
+                role="option"
+                tabindex="-1"
+              >
+                <button
+                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                  type="button"
+                >
+                  <span
+                    class="block grow text-start text-bulma overflow-hidden"
+                  >
+                    Devon Webb
+                  </span>
+                  <span
+                    class="flex w-6 h-6 justify-center items-center"
+                  >
+                    <span
+                      aria-checked="false"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                    />
+                  </span>
+                </button>
+              </span>
+              <span
+                aria-selected="false"
+                data-headlessui-state=""
+                id="headlessui-listbox-option-:r3n:"
+                role="option"
+                tabindex="-1"
+              >
+                <button
+                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                  type="button"
+                >
+                  <span
+                    class="block grow text-start text-bulma overflow-hidden"
+                  >
+                    Tom Cook
+                  </span>
+                  <span
+                    class="flex w-6 h-6 justify-center items-center"
+                  >
+                    <span
+                      aria-checked="false"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                    />
+                  </span>
+                </button>
+              </span>
+              <span
+                aria-selected="false"
+                data-headlessui-state=""
+                id="headlessui-listbox-option-:r3o:"
+                role="option"
+                tabindex="-1"
+              >
+                <button
+                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                  type="button"
+                >
+                  <span
+                    class="block grow text-start text-bulma overflow-hidden"
+                  >
+                    Tanya Fox
+                  </span>
+                  <span
+                    class="flex w-6 h-6 justify-center items-center"
+                  >
+                    <span
+                      aria-checked="false"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                    />
+                  </span>
+                </button>
+              </span>
+              <span
+                aria-selected="false"
+                data-headlessui-state=""
+                id="headlessui-listbox-option-:r3p:"
+                role="option"
+                tabindex="-1"
+              >
+                <button
+                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                  type="button"
+                >
+                  <span
+                    class="block grow text-start text-bulma overflow-hidden"
+                  >
+                    Hellen Schmidt
+                  </span>
+                  <span
+                    class="flex w-6 h-6 justify-center items-center"
+                  >
+                    <span
+                      aria-checked="false"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                    />
+                  </span>
+                </button>
+              </span>
+            </ul>
+            <p
+              class="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+              role="alert"
+            >
+              Informative message holder
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex flex-col lg:flex-row justify-around items-end w-80 gap-2"
+    >
+      <div
+        class="w-full relative"
+      >
+        <div
+          class="relative"
+        >
+          <label
+            class="block text-bulma pb-2 text-moon-16"
+            data-headlessui-state="open"
+            id="headlessui-listbox-label-:r3h:"
+          >
+            With hidden input
+          </label>
+          <div
+            aria-controls="headlessui-listbox-options-:r3j:"
+            aria-expanded="true"
+            aria-haspopup="listbox"
+            aria-labelledby="headlessui-listbox-label-:r3h: headlessui-listbox-button-:r3i:"
+            data-headlessui-state="open"
+            id="headlessui-listbox-button-:r3i:"
+          >
+            <div
+              class="relative"
+            >
+              <button
+                class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                open=""
+              >
+                <span
+                  class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                >
+                  <span
+                    class="text-moon-16 text-trunks"
+                  >
+                    Choose an option
+                  </span>
+                </span>
+                <svg
+                  class="text-trunks flex-shrink-0 transition-transform text-moon-24 rotate-[-180deg]"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22 13l-6 6-6-6"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <input
+            hidden=""
+            name="value"
+            value=""
+          />
+          <ul
+            aria-labelledby="headlessui-listbox-label-:r3h:"
+            aria-orientation="vertical"
+            class="w-full min-w-[18.75rem] z-5 absolute p-1 my-2 rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
+            data-headlessui-state="open"
+            data-popper-escaped="true"
+            data-popper-placement="bottom-start"
+            data-popper-reference-hidden="true"
+            id="headlessui-listbox-options-:r3j:"
+            role="listbox"
+            style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px);"
+            tabindex="0"
+          >
+            <span
+              aria-selected="false"
+              data-headlessui-state=""
+              id="headlessui-listbox-option-:r3k:"
+              role="option"
+              tabindex="-1"
+            >
+              <button
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                type="button"
+              >
+                <span
+                  class="block grow text-start text-bulma overflow-hidden"
+                >
+                  Wade Cooper
+                </span>
+                <span
+                  class="flex w-6 h-6 justify-center items-center"
+                >
+                  <span
+                    aria-checked="false"
+                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                  />
+                </span>
+              </button>
+            </span>
+            <span
+              aria-selected="false"
+              data-headlessui-state=""
+              id="headlessui-listbox-option-:r3l:"
+              role="option"
+              tabindex="-1"
+            >
+              <button
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                type="button"
+              >
+                <span
+                  class="block grow text-start text-bulma overflow-hidden"
+                >
+                  Arlene Mccoy
+                </span>
+                <span
+                  class="flex w-6 h-6 justify-center items-center"
+                >
+                  <span
+                    aria-checked="false"
+                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                  />
+                </span>
+              </button>
+            </span>
+            <span
+              aria-selected="false"
+              data-headlessui-state=""
+              id="headlessui-listbox-option-:r3m:"
+              role="option"
+              tabindex="-1"
+            >
+              <button
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                type="button"
+              >
+                <span
+                  class="block grow text-start text-bulma overflow-hidden"
+                >
+                  Devon Webb
+                </span>
+                <span
+                  class="flex w-6 h-6 justify-center items-center"
+                >
+                  <span
+                    aria-checked="false"
+                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                  />
+                </span>
+              </button>
+            </span>
+            <span
+              aria-selected="false"
+              data-headlessui-state=""
+              id="headlessui-listbox-option-:r3n:"
+              role="option"
+              tabindex="-1"
+            >
+              <button
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                type="button"
+              >
+                <span
+                  class="block grow text-start text-bulma overflow-hidden"
+                >
+                  Tom Cook
+                </span>
+                <span
+                  class="flex w-6 h-6 justify-center items-center"
+                >
+                  <span
+                    aria-checked="false"
+                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                  />
+                </span>
+              </button>
+            </span>
+            <span
+              aria-selected="false"
+              data-headlessui-state=""
+              id="headlessui-listbox-option-:r3o:"
+              role="option"
+              tabindex="-1"
+            >
+              <button
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                type="button"
+              >
+                <span
+                  class="block grow text-start text-bulma overflow-hidden"
+                >
+                  Tanya Fox
+                </span>
+                <span
+                  class="flex w-6 h-6 justify-center items-center"
+                >
+                  <span
+                    aria-checked="false"
+                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                  />
+                </span>
+              </button>
+            </span>
+            <span
+              aria-selected="false"
+              data-headlessui-state=""
+              id="headlessui-listbox-option-:r3p:"
+              role="option"
+              tabindex="-1"
+            >
+              <button
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                type="button"
+              >
+                <span
+                  class="block grow text-start text-bulma overflow-hidden"
+                >
+                  Hellen Schmidt
+                </span>
+                <span
+                  class="flex w-6 h-6 justify-center items-center"
+                >
+                  <span
+                    aria-checked="false"
+                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                  />
+                </span>
+              </button>
+            </span>
+          </ul>
+          <p
+            class="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+            role="alert"
+          >
+            Informative message holder
+          </p>
         </div>
       </div>
     </div>
