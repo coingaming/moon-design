@@ -5,6 +5,7 @@ import ComponentPageDescription from '../../components/ComponentPageDescription'
 import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/dropdown/Default';
+import HiddenInput from '../../public/examples/dropdown/HiddenInput';
 import InsetMultiSelect from '../../public/examples/dropdown/InsetMultiSelect';
 import InsetSelect from '../../public/examples/dropdown/InsetSelect';
 import InsetSelectStates from '../../public/examples/dropdown/InsetSelectStates';
@@ -66,6 +67,7 @@ const Example = () => {
       <ComponentAnatomy>
         {`<Dropdown>
   <Dropdown.Select>...</Dropdown.Select>
+  <Dropdown.HiddenInput />
   <Dropdown.Options>
     <Dropdown.Option>...</Dropdown.Option>
   </Dropdown.Options>
@@ -82,10 +84,16 @@ const Example = () => {
         preview={<SelectStates />}
         code={examples ? examples.SelectStates : 'Loading'}
       />
+      <Preview
+        title="Hidden input for Select"
+        preview={<HiddenInput />}
+        code={examples ? examples.HiddenInput : 'Loading'}
+      />
 
       <ComponentAnatomy>
         {`<Dropdown>
   <Dropdown.InsetSelect>...</Dropdown.InsetSelect>
+  <Dropdown.HiddenInput />
   <Dropdown.Options>
     <Dropdown.Option>...</Dropdown.Option>
   </Dropdown.Options>
@@ -323,6 +331,33 @@ const Example = () => {
             required: false,
             default: '0',
             description: 'Number of selected options',
+          },
+        ]}
+      />
+
+      <PropsTable
+        title="Dropdown.HiddenInput"
+        data={[
+          {
+            name: 'name',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Label title',
+          },
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Tailwind classes for custom styles.',
+          },
+          {
+            name: 'value',
+            type: 'string | number | readonly string[] | undefined',
+            required: false,
+            default: '_',
+            description: 'Input value',
           },
         ]}
       />

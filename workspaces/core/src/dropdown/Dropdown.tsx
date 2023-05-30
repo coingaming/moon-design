@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 import { Listbox } from '@headlessui/react';
 import { usePopper } from 'react-popper';
 import { SelectButton } from '../index';
@@ -70,6 +70,15 @@ const DropdownRoot = ({
     </DropdownContext.Provider>
   );
 };
+
+const HiddenInput = forwardRef<
+  HTMLInputElement,
+  React.InputHTMLAttributes<HTMLInputElement>
+>(({ ...props }, ref) => {
+  const { value: innerValue } = useDropdownContext('Dropdown.Select');
+  const currentValue = props?.value || innerValue;
+  return <input ref={ref} hidden {...props} value={currentValue} />;
+});
 
 const Options = ({
   children,
@@ -315,6 +324,7 @@ const Dropdown = Object.assign(DropdownRoot, {
   InsetSelect,
   MultiSelect,
   InsetMultiSelect,
+  HiddenInput,
 });
 
 export default Dropdown;
