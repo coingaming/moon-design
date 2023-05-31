@@ -1,4 +1,4 @@
-import React, { createContext, ReactNode, useContext, forwardRef } from 'react';
+import React, { forwardRef } from 'react';
 import Input, { InputProps } from '../input/Input';
 import InsetInput, { InsetInputProps } from '../insetInput/InsetInput';
 import InsetNativeSelect, {
@@ -6,43 +6,11 @@ import InsetNativeSelect, {
 } from '../insetNativeSelect/InsetNativeSelect';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import NativeSelect, { NativeSelectProps } from '../nativeSelect/NativeSelect';
-
-type WithChildren<T = {}> = T & { children?: ReactNode };
-type Orientation = 'vertical' | 'horizontal';
-type Size = 'sm' | 'md' | 'lg';
-type GroupProps = {
-  orientation?: Orientation;
-  size?: Size;
-  error?: boolean;
-  disabled?: boolean;
-  readOnly?: boolean;
-  className?: string;
-};
-type GroupComponentProps = (
-  props: WithChildren<GroupProps>
-) => React.ReactElement | null;
-type GroupState = {
-  orientation?: Orientation;
-  size?: Size;
-  error?: boolean;
-  disabled?: boolean;
-  readOnly?: boolean;
-};
-
-const GroupContext = createContext<GroupState>({});
-GroupContext.displayName = 'GroupContext';
-
-const useGroupContext = (component: string) => {
-  const context = useContext(GroupContext);
-  if (context === null) {
-    const err = new Error(
-      `<${component}> is missing a parent <Group /> component.`
-    );
-    // if (Error.captureStackTrace) Error.captureStackTrace(err, useGroupContext);
-    throw err;
-  }
-  return context;
-};
+import GroupContext from './private/utils/GroupContext';
+import useGroupContext from './private/utils/useGroupContext';
+import type GroupComponentProps from './private/types/GroupComponentProps';
+import type LabelProps from './private/types/LabelProps';
+import type WithChildren from './private/types/WithChildren';
 
 const GroupRoot: GroupComponentProps = ({
   orientation = 'vertical',
@@ -54,13 +22,12 @@ const GroupRoot: GroupComponentProps = ({
   readOnly,
 }) => {
   const states = {
-    orientation: orientation,
-    size: size,
-    error: error,
+    orientation,
+    size,
+    error,
     disabled,
     readOnly,
   };
-
   return (
     <GroupContext.Provider value={states}>
       <div
@@ -68,15 +35,8 @@ const GroupRoot: GroupComponentProps = ({
           'flex border-none shadow-input relative h-fit bg-gohan',
           orientation === 'horizontal' ? 'flex-row' : 'flex-col',
           size === 'sm' ? 'rounded-moon-i-xs' : 'rounded-moon-i-sm',
-          orientation === 'horizontal' &&
-            !error &&
-            'after:content-[""] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] ',
-          orientation === 'vertical' &&
-            !error &&
-            'after:content-[""] after:absolute after:top-1/2 after:bottom-0 after:w-full after:h-px after:left-0 after:translate-y-[-50%] after:bg-beerus after:x-[3]',
-          !disabled &&
-            !readOnly &&
-            'hover:after:hidden focus-within:after:hidden',
+          error &&
+            'shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-error',
           className && className
         )}
       >
@@ -117,11 +77,8 @@ const FirstInput = forwardRef<HTMLInputElement, InputProps>(
         size={size}
         placeholder="Placeholder"
         className={mergeClassnames(
-          isVertical &&
-            !error &&
-            'rounded-bl-none rounded-br-none input-bbb-hidden',
+          isVertical && 'rounded-bl-none rounded-br-none input-bbb-hidden',
           isHorizontal &&
-            !error &&
             'rtl:rounded-bl-none rtl:rounded-tl-none rtl:input-lsb-hidden ltr:rounded-br-none ltr:rounded-tr-none ltr:input-rsb-hidden flex-1 basis-1/2',
           className && className
         )}
@@ -162,11 +119,8 @@ const LastInput = forwardRef<HTMLInputElement, InputProps>(
         readOnly={readOnly}
         size={size}
         className={mergeClassnames(
-          isVertical &&
-            !error &&
-            'rounded-tl-none rounded-tr-none input-tbb-hidden',
+          isVertical && 'rounded-tl-none rounded-tr-none input-tbb-hidden',
           isHorizontal &&
-            !error &&
             'rtl:rounded-tr-none rtl:rounded-br-none rtl:input-rsb-hidden ltr:rounded-tl-none ltr:rounded-bl-none ltr:input-lsb-hidden flex-1 basis-1/2',
           className && className
         )}
@@ -275,7 +229,6 @@ const LastInsetInputRoot = forwardRef<
   }
 );
 
-type LabelProps = { className?: string };
 const InputLabel: React.FC<WithChildren<LabelProps>> = ({
   children,
   className,
@@ -486,6 +439,7 @@ const LastInsetSelect = forwardRef<
 const FirstInsetInput = Object.assign(FirstInsetInputRoot, {
   Label: InputLabel,
 });
+
 const LastInsetInput = Object.assign(LastInsetInputRoot, { Label: InputLabel });
 
 const Group = Object.assign(GroupRoot, {
@@ -500,4 +454,3 @@ const Group = Object.assign(GroupRoot, {
 });
 
 export default Group;
-//TODO: error - separate and both
