@@ -1,5 +1,15 @@
 # @heathmont/moon-select
 
+## 9.34.5
+
+### Patch Changes
+
+- Update GA
+- Updated dependencies [undefined]
+  - @heathmont/moon-core@9.34.5
+  - @heathmont/moon-themes@9.34.5
+  - @heathmont/moon-utils@9.34.5
+
 ## 9.34.4
 
 ### Patch Changes

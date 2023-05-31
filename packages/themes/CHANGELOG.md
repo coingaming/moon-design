@@ -1,5 +1,11 @@
 # Change Log
 
+## 9.34.5
+
+### Patch Changes
+
+- Update GA
+
 ## 9.34.4
 
 ### Patch Changes

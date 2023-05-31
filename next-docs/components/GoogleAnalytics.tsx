@@ -1,6 +1,6 @@
 import Script from 'next/script';
 
-const GoogleAnalytics = (id: { id: string }) => (
+const GoogleAnalytics = ({ id }: { id: string }) => (
   <>
     <Script
       src={`https://www.googletagmanager.com/gtag/js?id=${id}`}
