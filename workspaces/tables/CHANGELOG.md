@@ -1,5 +1,21 @@
 # @heathmont/moon-table-tw
 
+## 9.34.5
+
+### Patch Changes
+
+- Update GA
+- Updated dependencies [undefined]
+  - @heathmont/moon-core-tw@9.34.5
+
+## 9.34.4
+
+### Patch Changes
+
+- Add GA
+- Updated dependencies [undefined]
+  - @heathmont/moon-core-tw@9.34.4
+
 ## 9.34.3
 
 ### Patch Changes

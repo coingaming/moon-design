@@ -1,5 +1,17 @@
 # @heathmont/moon-themes-tw
 
+## 9.34.5
+
+### Patch Changes
+
+- Update GA
+
+## 9.34.4
+
+### Patch Changes
+
+- Add GA
+
 ## 9.34.3
 
 ### Patch Changes
