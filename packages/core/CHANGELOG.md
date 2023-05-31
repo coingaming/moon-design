@@ -1,5 +1,17 @@
 # Change Log
 
+## 9.34.4
+
+### Patch Changes
+
+- Add GA
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@9.34.4
+  - @heathmont/moon-components@9.34.4
+  - @heathmont/moon-icons@9.34.4
+  - @heathmont/moon-themes@9.34.4
+  - @heathmont/moon-utils@9.34.4
+
 ## 9.34.3
 
 ### Patch Changes
