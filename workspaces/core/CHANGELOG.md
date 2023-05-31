@@ -1,5 +1,11 @@
 # @heathmont/moon-core-tw
 
+## 9.34.3
+
+### Patch Changes
+
+- release_v9.34.3
+
 ## 9.34.2
 
 ### Patch Changes

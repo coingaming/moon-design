@@ -13,6 +13,7 @@ import InsetSelect from '../InsetSelect';
 import InsetMultiSelect from '../InsetMultiSelect';
 import InsetSelectStates from '../InsetSelectStates';
 import MultiSelect from '../MultiSelect';
+import HiddenInput from '../HiddenInput';
 
 const withRtl = (component: JSX.Element) => <div dir="rtl">{component}</div>;
 
@@ -63,6 +64,11 @@ describe('Dropdown', () => {
     await act(() => fireEvent.click(tree.getAllByRole('button')[0]));
     expect(tree).toMatchSnapshot();
   });
+  it('renders with hidden Input', async () => {
+    const tree = render(<HiddenInput />);
+    await act(() => fireEvent.click(tree.getAllByRole('button')[0]));
+    expect(tree).toMatchSnapshot();
+  });
 });
 
 describe('Dropdown in RTL', () => {
@@ -109,6 +115,11 @@ describe('Dropdown in RTL', () => {
   });
   it('renders MultiSelect', async () => {
     const tree = render(withRtl(<MultiSelect />));
+    await act(() => fireEvent.click(tree.getAllByRole('button')[0]));
+    expect(tree).toMatchSnapshot();
+  });
+  it('renders HiddenInput', async () => {
+    const tree = render(withRtl(<HiddenInput />));
     await act(() => fireEvent.click(tree.getAllByRole('button')[0]));
     expect(tree).toMatchSnapshot();
   });
