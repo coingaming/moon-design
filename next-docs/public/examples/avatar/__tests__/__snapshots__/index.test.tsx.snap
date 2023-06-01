@@ -589,7 +589,7 @@ Object {
             style="background-image: url(undefined);"
           >
             <svg
-              class="text-moon-24"
+              class="text-moon-16"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -699,7 +699,7 @@ Object {
             style="background-image: url(undefined);"
           >
             <svg
-              class="text-moon-24"
+              class="text-moon-32"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -800,7 +800,7 @@ Object {
           style="background-image: url(undefined);"
         >
           <svg
-            class="text-moon-24"
+            class="text-moon-16"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -910,7 +910,7 @@ Object {
           style="background-image: url(undefined);"
         >
           <svg
-            class="text-moon-24"
+            class="text-moon-32"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -2020,7 +2020,7 @@ Object {
           style="background-image: url(undefined);"
         >
           <svg
-            class="text-moon-24"
+            class="text-moon-16"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -2130,7 +2130,7 @@ Object {
           style="background-image: url(undefined);"
         >
           <svg
-            class="text-moon-24"
+            class="text-moon-32"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -2227,7 +2227,7 @@ Object {
         style="background-image: url(undefined);"
       >
         <svg
-          class="text-moon-24"
+          class="text-moon-16"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -2337,7 +2337,7 @@ Object {
         style="background-image: url(undefined);"
       >
         <svg
-          class="text-moon-24"
+          class="text-moon-32"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"

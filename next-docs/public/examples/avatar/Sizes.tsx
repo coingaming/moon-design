@@ -5,7 +5,7 @@ const Example = () => (
   <>
     <div className="flex flex-wrap items-center justify-around gap-2 w-full">
       <Avatar size="xs">
-        <GenericUser className="text-moon-24" />
+        <GenericUser className="text-moon-16" />
       </Avatar>
       <Avatar size="sm">
         <GenericUser className="text-moon-24" />
@@ -20,7 +20,7 @@ const Example = () => (
         <GenericUser className="text-moon-24" />
       </Avatar>
       <Avatar size="2xl">
-        <GenericUser className="text-moon-24" />
+        <GenericUser className="text-moon-32" />
       </Avatar>
     </div>
     <div className="flex flex-wrap items-center justify-around gap-2 w-full">
