@@ -1,9 +1,9 @@
 import React from 'react';
 import mergeClassnames from '../../mergeClassnames/mergeClassnames';
-import setStatusSize from '../private/utils/setStatusSize';
+import setStatusDeprecatedSize from '../private/utils/setStatusDeprecatedSize';
 import type AvatarProps from '../private/types/AvatarProps';
 
-const Status: React.FC<AvatarProps> = ({ size, statusOrigin }) => (
+const StatusDeprecated: React.FC<AvatarProps> = ({ size, statusOrigin }) => (
   <div
     className={mergeClassnames(
       'absolute border-solid border-beerus rounded-full bg-roshi',
@@ -15,9 +15,9 @@ const Status: React.FC<AvatarProps> = ({ size, statusOrigin }) => (
       statusOrigin &&
         statusOrigin.horizontal === 'right' &&
         'ltr:right-0 rtl:left-0',
-      setStatusSize(size)
+      setStatusDeprecatedSize(size)
     )}
   />
 );
 
-export default Status;
+export default StatusDeprecated;

@@ -11,14 +11,16 @@ const Wrapper: React.FC<AvatarProps> = ({
   color,
   bgColor,
   isRounded,
+  className,
 }) => (
   <div
     className={mergeClassnames(
-      'overflow-hidden uppercase font-medium flex items-center justify-center bg-cover',
+      'relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan',
       color && color,
       bgColor && bgColor,
       setWrapperSize(size),
-      setBorderRadius(size, isRounded)
+      setBorderRadius(size, isRounded),
+      className
     )}
     style={{ backgroundImage: `url('${imageUrl}')` }}
   >

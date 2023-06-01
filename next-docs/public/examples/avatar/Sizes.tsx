@@ -1,22 +1,35 @@
 import { Avatar } from '@heathmont/moon-core-tw';
+import { GenericUser } from '@heathmont/moon-icons-tw';
 
 const Example = () => (
   <>
     <div className="flex flex-wrap items-center justify-around gap-2 w-full">
-      <Avatar size="xs" />
-      <Avatar size="sm" />
-      <Avatar />
-      <Avatar size="lg" />
-      <Avatar size="xl" />
-      <Avatar size="2xl" />
+      <Avatar size="xs">
+        <GenericUser className="text-moon-24" />
+      </Avatar>
+      <Avatar size="sm">
+        <GenericUser className="text-moon-24" />
+      </Avatar>
+      <Avatar>
+        <GenericUser className="text-moon-24" />
+      </Avatar>
+      <Avatar size="lg">
+        <GenericUser className="text-moon-24" />
+      </Avatar>
+      <Avatar size="xl">
+        <GenericUser className="text-moon-24" />
+      </Avatar>
+      <Avatar size="2xl">
+        <GenericUser className="text-moon-24" />
+      </Avatar>
     </div>
     <div className="flex flex-wrap items-center justify-around gap-2 w-full">
-      <Avatar name="xs" size="xs" />
-      <Avatar name="sm" size="sm" />
-      <Avatar name="md" />
-      <Avatar name="lg" size="lg" />
-      <Avatar name="xl" size="xl" />
-      <Avatar name="2xl" size="2xl" />
+      <Avatar size="xs">xs</Avatar>
+      <Avatar size="sm">sm</Avatar>
+      <Avatar>md</Avatar>
+      <Avatar size="lg">lg</Avatar>
+      <Avatar size="xl">xl</Avatar>
+      <Avatar size="2xl">2xl</Avatar>
     </div>
     <div className="flex flex-wrap items-center justify-around gap-2 w-full">
       <Avatar imageUrl="../avatar.jpeg" size="xs" />

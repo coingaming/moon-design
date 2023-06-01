@@ -11,6 +11,7 @@ type AvatarProps = {
   isStatusActive?: boolean;
   isRounded?: boolean;
   children?: React.ReactNode;
+  className?: string;
 };
 
 export default AvatarProps;
