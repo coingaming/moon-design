@@ -10,7 +10,6 @@ import ContentOutsideSizes from '../../public/examples/accordion/ContentOutsideS
 import ControlOutside from '../../public/examples/accordion/ControlOutside';
 import Default from '../../public/examples/accordion/Default';
 import Disabled from '../../public/examples/accordion/Disabled';
-import Divider from '../../public/examples/accordion/Divider';
 import OpenDefault from '../../public/examples/accordion/OpenDefault';
 import Single from '../../public/examples/accordion/Single';
 import Sizes from '../../public/examples/accordion/Sizes';
@@ -87,11 +86,6 @@ const Example = () => {
         title="Header content"
         preview={<ContentHeader />}
         code={examples ? examples.ContentHeader : 'Loading'}
-      />
-      <Preview
-        title="With divider"
-        preview={<Divider />}
-        code={examples ? examples.Divider : 'Loading'}
       />
       <Preview
         title="Sizes"
