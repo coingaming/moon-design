@@ -4,7 +4,7 @@ import {
   ChatComment,
   ChatCommentAdd,
   ChatDoubleBubble,
-  ControlsChevronDown,
+  ControlsChevronDownSmall,
 } from '@heathmont/moon-icons-tw';
 
 const Example = () => (
@@ -20,7 +20,7 @@ const Example = () => (
             <ChatDoubleBubble />
           </div>
           <span className="flex justify-center w-6">
-            <ControlsChevronDown className="text-trunks text-moon-16 transition-transform duration-200" />
+            <ControlsChevronDownSmall className="text-trunks text-moon-24 transition duration-200 moon-open:text-bulma" />
           </span>
         </Accordion.Button>
       </Accordion.Header>
