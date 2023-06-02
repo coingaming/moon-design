@@ -1,5 +1,5 @@
 import { Accordion } from '@heathmont/moon-core-tw';
-import { ControlsChevronDown } from '@heathmont/moon-icons-tw';
+import { ControlsChevronDownSmall } from '@heathmont/moon-icons-tw';
 
 const Example = () => (
   <>
@@ -8,7 +8,7 @@ const Example = () => (
         <Accordion.Header className="moon-open:[&_svg]:rotate-180">
           <Accordion.Button>
             <span>X Large (xl)</span>
-            <ControlsChevronDown className="text-trunks text-moon-16 transition-transform duration-200" />
+            <ControlsChevronDownSmall className="text-trunks text-moon-24 transition duration-200 moon-open:text-bulma" />
           </Accordion.Button>
         </Accordion.Header>
         <Accordion.ContentOutside>
@@ -27,7 +27,7 @@ const Example = () => (
         <Accordion.Header className="moon-open:[&_svg]:rotate-180">
           <Accordion.Button>
             <span>Large (lg)</span>
-            <ControlsChevronDown className="text-trunks text-moon-16 transition-transform duration-200" />
+            <ControlsChevronDownSmall className="text-trunks text-moon-24 transition duration-200 moon-open:text-bulma" />
           </Accordion.Button>
         </Accordion.Header>
         <Accordion.ContentOutside>
@@ -46,7 +46,7 @@ const Example = () => (
         <Accordion.Header className="moon-open:[&_svg]:rotate-180">
           <Accordion.Button>
             <span>Medium is default (md)</span>
-            <ControlsChevronDown className="text-trunks text-moon-16 transition-transform duration-200" />
+            <ControlsChevronDownSmall className="text-trunks text-moon-24 transition duration-200 moon-open:text-bulma" />
           </Accordion.Button>
         </Accordion.Header>
         <Accordion.ContentOutside>
@@ -65,7 +65,7 @@ const Example = () => (
         <Accordion.Header className="moon-open:[&_svg]:rotate-180">
           <Accordion.Button>
             <span>Small (sm)</span>
-            <ControlsChevronDown className="text-trunks text-moon-16 transition-transform duration-200" />
+            <ControlsChevronDownSmall className="text-trunks text-moon-16 transition duration-200 moon-open:text-bulma" />
           </Accordion.Button>
         </Accordion.Header>
         <Accordion.ContentOutside>

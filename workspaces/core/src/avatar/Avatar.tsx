@@ -3,7 +3,7 @@ import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import GenericUser from '../private/icons/GenericUser';
 import setIconSize from './private/utils/setIconSize';
 import setStatusSize from './private/utils/setStatusSize';
-import StatusDeprecated from './styles/StatusDeprecated';
+import StatusDeprecated from './styles/StatusDeprecated'; // deprecated
 import Wrapper from './styles/Wrapper';
 import type AvatarProps from './private/types/AvatarProps';
 import type StatusProps from './private/types/StatusProps';
@@ -24,9 +24,9 @@ const AvatarRoot: React.FC<AvatarProps> = ({
     <Wrapper
       size={size}
       imageUrl={imageUrl}
-      color={color}
-      bgColor={bgColor}
-      isRounded={isRounded}
+      color={color} // deprecated
+      bgColor={bgColor} // deprecated
+      isRounded={isRounded} // deprecated
       className={mergeClassnames(setStatusSize(size), className)}
     >
       {!imageUrl && !name && !children && (
@@ -34,11 +34,12 @@ const AvatarRoot: React.FC<AvatarProps> = ({
           className={mergeClassnames(setIconSize(size), color && color)}
         />
       )}
-      {name && name}
+      {name && name} {/* deprecated */}
       {children && children}
       {statusOrigin && isStatusActive && (
         <StatusDeprecated size={size} statusOrigin={statusOrigin} />
-      )}
+      )}{' '}
+      {/* deprecated */}
     </Wrapper>
   );
 };

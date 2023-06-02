@@ -12,6 +12,7 @@ Object {
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
           style="background-image: url(undefined);"
         >
+           
           <svg
             class="text-moon-24"
             fill="none"
@@ -32,23 +33,28 @@ Object {
           <div
             class="status absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
           />
+           
         </div>
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
           style="background-image: url(undefined);"
         >
+           
           md
           <div
             class="status absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
           />
+           
         </div>
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
           style="background-image: url(../avatar.jpeg);"
         >
+           
           <div
             class="status absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
           />
+           
         </div>
       </div>
     </div>
@@ -61,6 +67,7 @@ Object {
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
         style="background-image: url(undefined);"
       >
+         
         <svg
           class="text-moon-24"
           fill="none"
@@ -81,23 +88,28 @@ Object {
         <div
           class="status absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
         />
+         
       </div>
       <div
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
         style="background-image: url(undefined);"
       >
+         
         md
         <div
           class="status absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
         />
+         
       </div>
       <div
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
         style="background-image: url(../avatar.jpeg);"
       >
+         
         <div
           class="status absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
         />
+         
       </div>
     </div>
   </div>,
@@ -167,6 +179,7 @@ Object {
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2 text-chichi"
           style="background-image: url(undefined);"
         >
+           
           <svg
             class="text-moon-24"
             fill="none"
@@ -184,11 +197,13 @@ Object {
               stroke="currentColor"
             />
           </svg>
+           
         </div>
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2 bg-piccolo text-goten"
           style="background-image: url(undefined);"
         >
+           
           <svg
             class="text-moon-24"
             fill="none"
@@ -206,11 +221,13 @@ Object {
               stroke="currentColor"
             />
           </svg>
+           
         </div>
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2 rounded-full"
           style="background-image: url(undefined);"
         >
+           
           <svg
             class="text-moon-24"
             fill="none"
@@ -228,11 +245,13 @@ Object {
               stroke="currentColor"
             />
           </svg>
+           
         </div>
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
           style="background-image: url(undefined);"
         >
+           
           <svg
             class="text-moon-24"
             fill="none"
@@ -253,11 +272,13 @@ Object {
           <div
             class="status absolute border-solid border-beerus rounded-full bottom-0 ltr:right-0 rtl:left-0 bg-chichi"
           />
+           
         </div>
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
           style="background-image: url(undefined);"
         >
+           
           <svg
             class="text-moon-24"
             fill="none"
@@ -278,6 +299,7 @@ Object {
           <div
             class="status absolute border-solid rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0 border-chichi"
           />
+           
         </div>
       </div>
     </div>
@@ -290,6 +312,7 @@ Object {
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2 text-chichi"
         style="background-image: url(undefined);"
       >
+         
         <svg
           class="text-moon-24"
           fill="none"
@@ -307,11 +330,13 @@ Object {
             stroke="currentColor"
           />
         </svg>
+         
       </div>
       <div
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2 bg-piccolo text-goten"
         style="background-image: url(undefined);"
       >
+         
         <svg
           class="text-moon-24"
           fill="none"
@@ -329,11 +354,13 @@ Object {
             stroke="currentColor"
           />
         </svg>
+         
       </div>
       <div
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2 rounded-full"
         style="background-image: url(undefined);"
       >
+         
         <svg
           class="text-moon-24"
           fill="none"
@@ -351,11 +378,13 @@ Object {
             stroke="currentColor"
           />
         </svg>
+         
       </div>
       <div
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
         style="background-image: url(undefined);"
       >
+         
         <svg
           class="text-moon-24"
           fill="none"
@@ -376,11 +405,13 @@ Object {
         <div
           class="status absolute border-solid border-beerus rounded-full bottom-0 ltr:right-0 rtl:left-0 bg-chichi"
         />
+         
       </div>
       <div
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
         style="background-image: url(undefined);"
       >
+         
         <svg
           class="text-moon-24"
           fill="none"
@@ -401,6 +432,7 @@ Object {
         <div
           class="status absolute border-solid rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0 border-chichi"
         />
+         
       </div>
     </div>
   </div>,
@@ -470,6 +502,7 @@ Object {
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
           style="background-image: url(undefined);"
         >
+           
           <svg
             class="text-moon-24"
             fill="none"
@@ -487,6 +520,7 @@ Object {
               stroke="currentColor"
             />
           </svg>
+           
         </div>
       </div>
     </div>
@@ -499,6 +533,7 @@ Object {
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
         style="background-image: url(undefined);"
       >
+         
         <svg
           class="text-moon-24"
           fill="none"
@@ -516,6 +551,7 @@ Object {
             stroke="currentColor"
           />
         </svg>
+         
       </div>
     </div>
   </div>,
@@ -588,6 +624,7 @@ Object {
             class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-6 w-6 text-moon-10-caption rounded-moon-i-xs [&_.status]:w-2 [&_.status]:h-2 [&_.status]:border"
             style="background-image: url(undefined);"
           >
+             
             <svg
               class="text-moon-16"
               fill="none"
@@ -605,11 +642,13 @@ Object {
                 stroke="currentColor"
               />
             </svg>
+             
           </div>
           <div
             class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-8 w-8 text-moon-12 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
             style="background-image: url(undefined);"
           >
+             
             <svg
               class="text-moon-24"
               fill="none"
@@ -627,11 +666,13 @@ Object {
                 stroke="currentColor"
               />
             </svg>
+             
           </div>
           <div
             class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
             style="background-image: url(undefined);"
           >
+             
             <svg
               class="text-moon-24"
               fill="none"
@@ -649,11 +690,13 @@ Object {
                 stroke="currentColor"
               />
             </svg>
+             
           </div>
           <div
             class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-12 w-12 text-moon-16 rounded-moon-i-sm [&_.status]:w-4 [&_.status]:h-4 [&_.status]:border-2"
             style="background-image: url(undefined);"
           >
+             
             <svg
               class="text-moon-24"
               fill="none"
@@ -671,11 +714,13 @@ Object {
                 stroke="currentColor"
               />
             </svg>
+             
           </div>
           <div
             class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-14 w-14 text-moon-16 rounded-moon-i-sm [&_.status]:w-4 [&_.status]:h-4 [&_.status]:border-2"
             style="background-image: url(undefined);"
           >
+             
             <svg
               class="text-moon-24"
               fill="none"
@@ -693,11 +738,13 @@ Object {
                 stroke="currentColor"
               />
             </svg>
+             
           </div>
           <div
             class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-16 w-16 text-moon-20 rounded-moon-i-md [&_.status]:w-4 [&_.status]:h-4 [&_.status]:border-2"
             style="background-image: url(undefined);"
           >
+             
             <svg
               class="text-moon-32"
               fill="none"
@@ -715,6 +762,7 @@ Object {
                 stroke="currentColor"
               />
             </svg>
+             
           </div>
         </div>
         <div
@@ -724,37 +772,49 @@ Object {
             class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-6 w-6 text-moon-10-caption rounded-moon-i-xs [&_.status]:w-2 [&_.status]:h-2 [&_.status]:border"
             style="background-image: url(undefined);"
           >
+             
             xs
+             
           </div>
           <div
             class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-8 w-8 text-moon-12 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
             style="background-image: url(undefined);"
           >
+             
             sm
+             
           </div>
           <div
             class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
             style="background-image: url(undefined);"
           >
+             
             md
+             
           </div>
           <div
             class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-12 w-12 text-moon-16 rounded-moon-i-sm [&_.status]:w-4 [&_.status]:h-4 [&_.status]:border-2"
             style="background-image: url(undefined);"
           >
+             
             lg
+             
           </div>
           <div
             class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-14 w-14 text-moon-16 rounded-moon-i-sm [&_.status]:w-4 [&_.status]:h-4 [&_.status]:border-2"
             style="background-image: url(undefined);"
           >
+             
             xl
+             
           </div>
           <div
             class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-16 w-16 text-moon-20 rounded-moon-i-md [&_.status]:w-4 [&_.status]:h-4 [&_.status]:border-2"
             style="background-image: url(undefined);"
           >
+             
             2xl
+             
           </div>
         </div>
         <div
@@ -763,27 +823,45 @@ Object {
           <div
             class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-6 w-6 text-moon-10-caption rounded-moon-i-xs [&_.status]:w-2 [&_.status]:h-2 [&_.status]:border"
             style="background-image: url(../avatar.jpeg);"
-          />
+          >
+             
+             
+          </div>
           <div
             class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-8 w-8 text-moon-12 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
             style="background-image: url(../avatar.jpeg);"
-          />
+          >
+             
+             
+          </div>
           <div
             class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
             style="background-image: url(../avatar.jpeg);"
-          />
+          >
+             
+             
+          </div>
           <div
             class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-12 w-12 text-moon-16 rounded-moon-i-sm [&_.status]:w-4 [&_.status]:h-4 [&_.status]:border-2"
             style="background-image: url(../avatar.jpeg);"
-          />
+          >
+             
+             
+          </div>
           <div
             class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-14 w-14 text-moon-16 rounded-moon-i-sm [&_.status]:w-4 [&_.status]:h-4 [&_.status]:border-2"
             style="background-image: url(../avatar.jpeg);"
-          />
+          >
+             
+             
+          </div>
           <div
             class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-16 w-16 text-moon-20 rounded-moon-i-md [&_.status]:w-4 [&_.status]:h-4 [&_.status]:border-2"
             style="background-image: url(../avatar.jpeg);"
-          />
+          >
+             
+             
+          </div>
         </div>
       </div>
     </div>
@@ -799,6 +877,7 @@ Object {
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-6 w-6 text-moon-10-caption rounded-moon-i-xs [&_.status]:w-2 [&_.status]:h-2 [&_.status]:border"
           style="background-image: url(undefined);"
         >
+           
           <svg
             class="text-moon-16"
             fill="none"
@@ -816,11 +895,13 @@ Object {
               stroke="currentColor"
             />
           </svg>
+           
         </div>
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-8 w-8 text-moon-12 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
           style="background-image: url(undefined);"
         >
+           
           <svg
             class="text-moon-24"
             fill="none"
@@ -838,11 +919,13 @@ Object {
               stroke="currentColor"
             />
           </svg>
+           
         </div>
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
           style="background-image: url(undefined);"
         >
+           
           <svg
             class="text-moon-24"
             fill="none"
@@ -860,11 +943,13 @@ Object {
               stroke="currentColor"
             />
           </svg>
+           
         </div>
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-12 w-12 text-moon-16 rounded-moon-i-sm [&_.status]:w-4 [&_.status]:h-4 [&_.status]:border-2"
           style="background-image: url(undefined);"
         >
+           
           <svg
             class="text-moon-24"
             fill="none"
@@ -882,11 +967,13 @@ Object {
               stroke="currentColor"
             />
           </svg>
+           
         </div>
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-14 w-14 text-moon-16 rounded-moon-i-sm [&_.status]:w-4 [&_.status]:h-4 [&_.status]:border-2"
           style="background-image: url(undefined);"
         >
+           
           <svg
             class="text-moon-24"
             fill="none"
@@ -904,11 +991,13 @@ Object {
               stroke="currentColor"
             />
           </svg>
+           
         </div>
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-16 w-16 text-moon-20 rounded-moon-i-md [&_.status]:w-4 [&_.status]:h-4 [&_.status]:border-2"
           style="background-image: url(undefined);"
         >
+           
           <svg
             class="text-moon-32"
             fill="none"
@@ -926,6 +1015,7 @@ Object {
               stroke="currentColor"
             />
           </svg>
+           
         </div>
       </div>
       <div
@@ -935,37 +1025,49 @@ Object {
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-6 w-6 text-moon-10-caption rounded-moon-i-xs [&_.status]:w-2 [&_.status]:h-2 [&_.status]:border"
           style="background-image: url(undefined);"
         >
+           
           xs
+           
         </div>
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-8 w-8 text-moon-12 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
           style="background-image: url(undefined);"
         >
+           
           sm
+           
         </div>
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
           style="background-image: url(undefined);"
         >
+           
           md
+           
         </div>
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-12 w-12 text-moon-16 rounded-moon-i-sm [&_.status]:w-4 [&_.status]:h-4 [&_.status]:border-2"
           style="background-image: url(undefined);"
         >
+           
           lg
+           
         </div>
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-14 w-14 text-moon-16 rounded-moon-i-sm [&_.status]:w-4 [&_.status]:h-4 [&_.status]:border-2"
           style="background-image: url(undefined);"
         >
+           
           xl
+           
         </div>
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-16 w-16 text-moon-20 rounded-moon-i-md [&_.status]:w-4 [&_.status]:h-4 [&_.status]:border-2"
           style="background-image: url(undefined);"
         >
+           
           2xl
+           
         </div>
       </div>
       <div
@@ -974,27 +1076,45 @@ Object {
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-6 w-6 text-moon-10-caption rounded-moon-i-xs [&_.status]:w-2 [&_.status]:h-2 [&_.status]:border"
           style="background-image: url(../avatar.jpeg);"
-        />
+        >
+           
+           
+        </div>
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-8 w-8 text-moon-12 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
           style="background-image: url(../avatar.jpeg);"
-        />
+        >
+           
+           
+        </div>
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
           style="background-image: url(../avatar.jpeg);"
-        />
+        >
+           
+           
+        </div>
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-12 w-12 text-moon-16 rounded-moon-i-sm [&_.status]:w-4 [&_.status]:h-4 [&_.status]:border-2"
           style="background-image: url(../avatar.jpeg);"
-        />
+        >
+           
+           
+        </div>
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-14 w-14 text-moon-16 rounded-moon-i-sm [&_.status]:w-4 [&_.status]:h-4 [&_.status]:border-2"
           style="background-image: url(../avatar.jpeg);"
-        />
+        >
+           
+           
+        </div>
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-16 w-16 text-moon-20 rounded-moon-i-md [&_.status]:w-4 [&_.status]:h-4 [&_.status]:border-2"
           style="background-image: url(../avatar.jpeg);"
-        />
+        >
+           
+           
+        </div>
       </div>
     </div>
   </div>,
@@ -1064,6 +1184,7 @@ Object {
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
           style="background-image: url(undefined);"
         >
+           
           <svg
             class="text-moon-24"
             fill="none"
@@ -1084,11 +1205,13 @@ Object {
           <div
             class="status absolute border-solid border-beerus rounded-full bg-roshi top-0 ltr:right-0 rtl:left-0"
           />
+           
         </div>
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
           style="background-image: url(undefined);"
         >
+           
           <svg
             class="text-moon-24"
             fill="none"
@@ -1109,11 +1232,13 @@ Object {
           <div
             class="status absolute border-solid border-beerus rounded-full bg-roshi top-0 ltr:left-0 rtl:right-0"
           />
+           
         </div>
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
           style="background-image: url(undefined);"
         >
+           
           <svg
             class="text-moon-24"
             fill="none"
@@ -1134,11 +1259,13 @@ Object {
           <div
             class="status absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
           />
+           
         </div>
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
           style="background-image: url(undefined);"
         >
+           
           <svg
             class="text-moon-24"
             fill="none"
@@ -1159,6 +1286,7 @@ Object {
           <div
             class="status absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:left-0 rtl:right-0"
           />
+           
         </div>
       </div>
     </div>
@@ -1171,6 +1299,7 @@ Object {
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
         style="background-image: url(undefined);"
       >
+         
         <svg
           class="text-moon-24"
           fill="none"
@@ -1191,11 +1320,13 @@ Object {
         <div
           class="status absolute border-solid border-beerus rounded-full bg-roshi top-0 ltr:right-0 rtl:left-0"
         />
+         
       </div>
       <div
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
         style="background-image: url(undefined);"
       >
+         
         <svg
           class="text-moon-24"
           fill="none"
@@ -1216,11 +1347,13 @@ Object {
         <div
           class="status absolute border-solid border-beerus rounded-full bg-roshi top-0 ltr:left-0 rtl:right-0"
         />
+         
       </div>
       <div
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
         style="background-image: url(undefined);"
       >
+         
         <svg
           class="text-moon-24"
           fill="none"
@@ -1241,11 +1374,13 @@ Object {
         <div
           class="status absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
         />
+         
       </div>
       <div
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
         style="background-image: url(undefined);"
       >
+         
         <svg
           class="text-moon-24"
           fill="none"
@@ -1266,6 +1401,7 @@ Object {
         <div
           class="status absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:left-0 rtl:right-0"
         />
+         
       </div>
     </div>
   </div>,
@@ -1335,6 +1471,7 @@ Object {
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
           style="background-image: url(undefined);"
         >
+           
           <svg
             class="text-moon-24"
             fill="none"
@@ -1352,17 +1489,23 @@ Object {
               stroke="currentColor"
             />
           </svg>
+           
         </div>
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
           style="background-image: url(undefined);"
         >
+           
           md
+           
         </div>
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
           style="background-image: url(../avatar.jpeg);"
-        />
+        >
+           
+           
+        </div>
       </div>
     </div>
   </body>,
@@ -1374,6 +1517,7 @@ Object {
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
         style="background-image: url(undefined);"
       >
+         
         <svg
           class="text-moon-24"
           fill="none"
@@ -1391,17 +1535,23 @@ Object {
             stroke="currentColor"
           />
         </svg>
+         
       </div>
       <div
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
         style="background-image: url(undefined);"
       >
+         
         md
+         
       </div>
       <div
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
         style="background-image: url(../avatar.jpeg);"
-      />
+      >
+         
+         
+      </div>
     </div>
   </div>,
   "debug": [Function],
@@ -1467,6 +1617,7 @@ Object {
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
         style="background-image: url(undefined);"
       >
+         
         <svg
           class="text-moon-24"
           fill="none"
@@ -1487,23 +1638,28 @@ Object {
         <div
           class="status absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
         />
+         
       </div>
       <div
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
         style="background-image: url(undefined);"
       >
+         
         md
         <div
           class="status absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
         />
+         
       </div>
       <div
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
         style="background-image: url(../avatar.jpeg);"
       >
+         
         <div
           class="status absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
         />
+         
       </div>
     </div>
   </body>,
@@ -1512,6 +1668,7 @@ Object {
       class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
       style="background-image: url(undefined);"
     >
+       
       <svg
         class="text-moon-24"
         fill="none"
@@ -1532,23 +1689,28 @@ Object {
       <div
         class="status absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
       />
+       
     </div>
     <div
       class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
       style="background-image: url(undefined);"
     >
+       
       md
       <div
         class="status absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
       />
+       
     </div>
     <div
       class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
       style="background-image: url(../avatar.jpeg);"
     >
+       
       <div
         class="status absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
       />
+       
     </div>
   </div>,
   "debug": [Function],
@@ -1614,6 +1776,7 @@ Object {
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2 text-chichi"
         style="background-image: url(undefined);"
       >
+         
         <svg
           class="text-moon-24"
           fill="none"
@@ -1631,11 +1794,13 @@ Object {
             stroke="currentColor"
           />
         </svg>
+         
       </div>
       <div
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2 bg-piccolo text-goten"
         style="background-image: url(undefined);"
       >
+         
         <svg
           class="text-moon-24"
           fill="none"
@@ -1653,11 +1818,13 @@ Object {
             stroke="currentColor"
           />
         </svg>
+         
       </div>
       <div
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2 rounded-full"
         style="background-image: url(undefined);"
       >
+         
         <svg
           class="text-moon-24"
           fill="none"
@@ -1675,11 +1842,13 @@ Object {
             stroke="currentColor"
           />
         </svg>
+         
       </div>
       <div
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
         style="background-image: url(undefined);"
       >
+         
         <svg
           class="text-moon-24"
           fill="none"
@@ -1700,11 +1869,13 @@ Object {
         <div
           class="status absolute border-solid border-beerus rounded-full bottom-0 ltr:right-0 rtl:left-0 bg-chichi"
         />
+         
       </div>
       <div
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
         style="background-image: url(undefined);"
       >
+         
         <svg
           class="text-moon-24"
           fill="none"
@@ -1725,6 +1896,7 @@ Object {
         <div
           class="status absolute border-solid rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0 border-chichi"
         />
+         
       </div>
     </div>
   </body>,
@@ -1733,6 +1905,7 @@ Object {
       class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2 text-chichi"
       style="background-image: url(undefined);"
     >
+       
       <svg
         class="text-moon-24"
         fill="none"
@@ -1750,11 +1923,13 @@ Object {
           stroke="currentColor"
         />
       </svg>
+       
     </div>
     <div
       class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2 bg-piccolo text-goten"
       style="background-image: url(undefined);"
     >
+       
       <svg
         class="text-moon-24"
         fill="none"
@@ -1772,11 +1947,13 @@ Object {
           stroke="currentColor"
         />
       </svg>
+       
     </div>
     <div
       class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2 rounded-full"
       style="background-image: url(undefined);"
     >
+       
       <svg
         class="text-moon-24"
         fill="none"
@@ -1794,11 +1971,13 @@ Object {
           stroke="currentColor"
         />
       </svg>
+       
     </div>
     <div
       class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
       style="background-image: url(undefined);"
     >
+       
       <svg
         class="text-moon-24"
         fill="none"
@@ -1819,11 +1998,13 @@ Object {
       <div
         class="status absolute border-solid border-beerus rounded-full bottom-0 ltr:right-0 rtl:left-0 bg-chichi"
       />
+       
     </div>
     <div
       class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
       style="background-image: url(undefined);"
     >
+       
       <svg
         class="text-moon-24"
         fill="none"
@@ -1844,6 +2025,7 @@ Object {
       <div
         class="status absolute border-solid rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0 border-chichi"
       />
+       
     </div>
   </div>,
   "debug": [Function],
@@ -1909,6 +2091,7 @@ Object {
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
         style="background-image: url(undefined);"
       >
+         
         <svg
           class="text-moon-24"
           fill="none"
@@ -1926,6 +2109,7 @@ Object {
             stroke="currentColor"
           />
         </svg>
+         
       </div>
     </div>
   </body>,
@@ -1934,6 +2118,7 @@ Object {
       class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
       style="background-image: url(undefined);"
     >
+       
       <svg
         class="text-moon-24"
         fill="none"
@@ -1951,6 +2136,7 @@ Object {
           stroke="currentColor"
         />
       </svg>
+       
     </div>
   </div>,
   "debug": [Function],
@@ -2019,6 +2205,7 @@ Object {
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-6 w-6 text-moon-10-caption rounded-moon-i-xs [&_.status]:w-2 [&_.status]:h-2 [&_.status]:border"
           style="background-image: url(undefined);"
         >
+           
           <svg
             class="text-moon-16"
             fill="none"
@@ -2036,11 +2223,13 @@ Object {
               stroke="currentColor"
             />
           </svg>
+           
         </div>
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-8 w-8 text-moon-12 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
           style="background-image: url(undefined);"
         >
+           
           <svg
             class="text-moon-24"
             fill="none"
@@ -2058,11 +2247,13 @@ Object {
               stroke="currentColor"
             />
           </svg>
+           
         </div>
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
           style="background-image: url(undefined);"
         >
+           
           <svg
             class="text-moon-24"
             fill="none"
@@ -2080,11 +2271,13 @@ Object {
               stroke="currentColor"
             />
           </svg>
+           
         </div>
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-12 w-12 text-moon-16 rounded-moon-i-sm [&_.status]:w-4 [&_.status]:h-4 [&_.status]:border-2"
           style="background-image: url(undefined);"
         >
+           
           <svg
             class="text-moon-24"
             fill="none"
@@ -2102,11 +2295,13 @@ Object {
               stroke="currentColor"
             />
           </svg>
+           
         </div>
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-14 w-14 text-moon-16 rounded-moon-i-sm [&_.status]:w-4 [&_.status]:h-4 [&_.status]:border-2"
           style="background-image: url(undefined);"
         >
+           
           <svg
             class="text-moon-24"
             fill="none"
@@ -2124,11 +2319,13 @@ Object {
               stroke="currentColor"
             />
           </svg>
+           
         </div>
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-16 w-16 text-moon-20 rounded-moon-i-md [&_.status]:w-4 [&_.status]:h-4 [&_.status]:border-2"
           style="background-image: url(undefined);"
         >
+           
           <svg
             class="text-moon-32"
             fill="none"
@@ -2146,6 +2343,7 @@ Object {
               stroke="currentColor"
             />
           </svg>
+           
         </div>
       </div>
       <div
@@ -2155,37 +2353,49 @@ Object {
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-6 w-6 text-moon-10-caption rounded-moon-i-xs [&_.status]:w-2 [&_.status]:h-2 [&_.status]:border"
           style="background-image: url(undefined);"
         >
+           
           xs
+           
         </div>
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-8 w-8 text-moon-12 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
           style="background-image: url(undefined);"
         >
+           
           sm
+           
         </div>
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
           style="background-image: url(undefined);"
         >
+           
           md
+           
         </div>
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-12 w-12 text-moon-16 rounded-moon-i-sm [&_.status]:w-4 [&_.status]:h-4 [&_.status]:border-2"
           style="background-image: url(undefined);"
         >
+           
           lg
+           
         </div>
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-14 w-14 text-moon-16 rounded-moon-i-sm [&_.status]:w-4 [&_.status]:h-4 [&_.status]:border-2"
           style="background-image: url(undefined);"
         >
+           
           xl
+           
         </div>
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-16 w-16 text-moon-20 rounded-moon-i-md [&_.status]:w-4 [&_.status]:h-4 [&_.status]:border-2"
           style="background-image: url(undefined);"
         >
+           
           2xl
+           
         </div>
       </div>
       <div
@@ -2194,27 +2404,45 @@ Object {
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-6 w-6 text-moon-10-caption rounded-moon-i-xs [&_.status]:w-2 [&_.status]:h-2 [&_.status]:border"
           style="background-image: url(../avatar.jpeg);"
-        />
+        >
+           
+           
+        </div>
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-8 w-8 text-moon-12 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
           style="background-image: url(../avatar.jpeg);"
-        />
+        >
+           
+           
+        </div>
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
           style="background-image: url(../avatar.jpeg);"
-        />
+        >
+           
+           
+        </div>
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-12 w-12 text-moon-16 rounded-moon-i-sm [&_.status]:w-4 [&_.status]:h-4 [&_.status]:border-2"
           style="background-image: url(../avatar.jpeg);"
-        />
+        >
+           
+           
+        </div>
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-14 w-14 text-moon-16 rounded-moon-i-sm [&_.status]:w-4 [&_.status]:h-4 [&_.status]:border-2"
           style="background-image: url(../avatar.jpeg);"
-        />
+        >
+           
+           
+        </div>
         <div
           class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-16 w-16 text-moon-20 rounded-moon-i-md [&_.status]:w-4 [&_.status]:h-4 [&_.status]:border-2"
           style="background-image: url(../avatar.jpeg);"
-        />
+        >
+           
+           
+        </div>
       </div>
     </div>
   </body>,
@@ -2226,6 +2454,7 @@ Object {
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-6 w-6 text-moon-10-caption rounded-moon-i-xs [&_.status]:w-2 [&_.status]:h-2 [&_.status]:border"
         style="background-image: url(undefined);"
       >
+         
         <svg
           class="text-moon-16"
           fill="none"
@@ -2243,11 +2472,13 @@ Object {
             stroke="currentColor"
           />
         </svg>
+         
       </div>
       <div
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-8 w-8 text-moon-12 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
         style="background-image: url(undefined);"
       >
+         
         <svg
           class="text-moon-24"
           fill="none"
@@ -2265,11 +2496,13 @@ Object {
             stroke="currentColor"
           />
         </svg>
+         
       </div>
       <div
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
         style="background-image: url(undefined);"
       >
+         
         <svg
           class="text-moon-24"
           fill="none"
@@ -2287,11 +2520,13 @@ Object {
             stroke="currentColor"
           />
         </svg>
+         
       </div>
       <div
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-12 w-12 text-moon-16 rounded-moon-i-sm [&_.status]:w-4 [&_.status]:h-4 [&_.status]:border-2"
         style="background-image: url(undefined);"
       >
+         
         <svg
           class="text-moon-24"
           fill="none"
@@ -2309,11 +2544,13 @@ Object {
             stroke="currentColor"
           />
         </svg>
+         
       </div>
       <div
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-14 w-14 text-moon-16 rounded-moon-i-sm [&_.status]:w-4 [&_.status]:h-4 [&_.status]:border-2"
         style="background-image: url(undefined);"
       >
+         
         <svg
           class="text-moon-24"
           fill="none"
@@ -2331,11 +2568,13 @@ Object {
             stroke="currentColor"
           />
         </svg>
+         
       </div>
       <div
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-16 w-16 text-moon-20 rounded-moon-i-md [&_.status]:w-4 [&_.status]:h-4 [&_.status]:border-2"
         style="background-image: url(undefined);"
       >
+         
         <svg
           class="text-moon-32"
           fill="none"
@@ -2353,6 +2592,7 @@ Object {
             stroke="currentColor"
           />
         </svg>
+         
       </div>
     </div>
     <div
@@ -2362,37 +2602,49 @@ Object {
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-6 w-6 text-moon-10-caption rounded-moon-i-xs [&_.status]:w-2 [&_.status]:h-2 [&_.status]:border"
         style="background-image: url(undefined);"
       >
+         
         xs
+         
       </div>
       <div
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-8 w-8 text-moon-12 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
         style="background-image: url(undefined);"
       >
+         
         sm
+         
       </div>
       <div
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
         style="background-image: url(undefined);"
       >
+         
         md
+         
       </div>
       <div
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-12 w-12 text-moon-16 rounded-moon-i-sm [&_.status]:w-4 [&_.status]:h-4 [&_.status]:border-2"
         style="background-image: url(undefined);"
       >
+         
         lg
+         
       </div>
       <div
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-14 w-14 text-moon-16 rounded-moon-i-sm [&_.status]:w-4 [&_.status]:h-4 [&_.status]:border-2"
         style="background-image: url(undefined);"
       >
+         
         xl
+         
       </div>
       <div
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-16 w-16 text-moon-20 rounded-moon-i-md [&_.status]:w-4 [&_.status]:h-4 [&_.status]:border-2"
         style="background-image: url(undefined);"
       >
+         
         2xl
+         
       </div>
     </div>
     <div
@@ -2401,27 +2653,45 @@ Object {
       <div
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-6 w-6 text-moon-10-caption rounded-moon-i-xs [&_.status]:w-2 [&_.status]:h-2 [&_.status]:border"
         style="background-image: url(../avatar.jpeg);"
-      />
+      >
+         
+         
+      </div>
       <div
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-8 w-8 text-moon-12 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
         style="background-image: url(../avatar.jpeg);"
-      />
+      >
+         
+         
+      </div>
       <div
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
         style="background-image: url(../avatar.jpeg);"
-      />
+      >
+         
+         
+      </div>
       <div
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-12 w-12 text-moon-16 rounded-moon-i-sm [&_.status]:w-4 [&_.status]:h-4 [&_.status]:border-2"
         style="background-image: url(../avatar.jpeg);"
-      />
+      >
+         
+         
+      </div>
       <div
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-14 w-14 text-moon-16 rounded-moon-i-sm [&_.status]:w-4 [&_.status]:h-4 [&_.status]:border-2"
         style="background-image: url(../avatar.jpeg);"
-      />
+      >
+         
+         
+      </div>
       <div
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-16 w-16 text-moon-20 rounded-moon-i-md [&_.status]:w-4 [&_.status]:h-4 [&_.status]:border-2"
         style="background-image: url(../avatar.jpeg);"
-      />
+      >
+         
+         
+      </div>
     </div>
   </div>,
   "debug": [Function],
@@ -2487,6 +2757,7 @@ Object {
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
         style="background-image: url(undefined);"
       >
+         
         <svg
           class="text-moon-24"
           fill="none"
@@ -2507,11 +2778,13 @@ Object {
         <div
           class="status absolute border-solid border-beerus rounded-full bg-roshi top-0 ltr:right-0 rtl:left-0"
         />
+         
       </div>
       <div
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
         style="background-image: url(undefined);"
       >
+         
         <svg
           class="text-moon-24"
           fill="none"
@@ -2532,11 +2805,13 @@ Object {
         <div
           class="status absolute border-solid border-beerus rounded-full bg-roshi top-0 ltr:left-0 rtl:right-0"
         />
+         
       </div>
       <div
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
         style="background-image: url(undefined);"
       >
+         
         <svg
           class="text-moon-24"
           fill="none"
@@ -2557,11 +2832,13 @@ Object {
         <div
           class="status absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
         />
+         
       </div>
       <div
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
         style="background-image: url(undefined);"
       >
+         
         <svg
           class="text-moon-24"
           fill="none"
@@ -2582,6 +2859,7 @@ Object {
         <div
           class="status absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:left-0 rtl:right-0"
         />
+         
       </div>
     </div>
   </body>,
@@ -2590,6 +2868,7 @@ Object {
       class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
       style="background-image: url(undefined);"
     >
+       
       <svg
         class="text-moon-24"
         fill="none"
@@ -2610,11 +2889,13 @@ Object {
       <div
         class="status absolute border-solid border-beerus rounded-full bg-roshi top-0 ltr:right-0 rtl:left-0"
       />
+       
     </div>
     <div
       class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
       style="background-image: url(undefined);"
     >
+       
       <svg
         class="text-moon-24"
         fill="none"
@@ -2635,11 +2916,13 @@ Object {
       <div
         class="status absolute border-solid border-beerus rounded-full bg-roshi top-0 ltr:left-0 rtl:right-0"
       />
+       
     </div>
     <div
       class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
       style="background-image: url(undefined);"
     >
+       
       <svg
         class="text-moon-24"
         fill="none"
@@ -2660,11 +2943,13 @@ Object {
       <div
         class="status absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
       />
+       
     </div>
     <div
       class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
       style="background-image: url(undefined);"
     >
+       
       <svg
         class="text-moon-24"
         fill="none"
@@ -2685,6 +2970,7 @@ Object {
       <div
         class="status absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:left-0 rtl:right-0"
       />
+       
     </div>
   </div>,
   "debug": [Function],
@@ -2750,6 +3036,7 @@ Object {
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
         style="background-image: url(undefined);"
       >
+         
         <svg
           class="text-moon-24"
           fill="none"
@@ -2767,17 +3054,23 @@ Object {
             stroke="currentColor"
           />
         </svg>
+         
       </div>
       <div
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
         style="background-image: url(undefined);"
       >
+         
         md
+         
       </div>
       <div
         class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
         style="background-image: url(../avatar.jpeg);"
-      />
+      >
+         
+         
+      </div>
     </div>
   </body>,
   "container": <div>
@@ -2785,6 +3078,7 @@ Object {
       class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
       style="background-image: url(undefined);"
     >
+       
       <svg
         class="text-moon-24"
         fill="none"
@@ -2802,17 +3096,23 @@ Object {
           stroke="currentColor"
         />
       </svg>
+       
     </div>
     <div
       class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
       style="background-image: url(undefined);"
     >
+       
       md
+       
     </div>
     <div
       class="relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm [&_.status]:w-3 [&_.status]:h-3 [&_.status]:border-2"
       style="background-image: url(../avatar.jpeg);"
-    />
+    >
+       
+       
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
