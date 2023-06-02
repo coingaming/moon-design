@@ -3,13 +3,12 @@
  */
 
 import { cleanup, render } from '@testing-library/react';
-import Colours from '../Colours';
+import Customization from '../Customization';
 import StatusOrigin from '../StatusOrigin';
 import Active from '../Active';
 import Sizes from '../Sizes';
 import Variants from '../Variants';
 import Default from '../Default';
-import Rounded from '../Rounded';
 
 const withRtl = (component: JSX.Element) => <div dir="rtl">{component}</div>;
 
@@ -23,12 +22,8 @@ describe('Avatar', () => {
     const tree = render(<Variants />);
     expect(tree).toMatchSnapshot();
   });
-  it('renders Rounded', () => {
-    const tree = render(<Rounded />);
-    expect(tree).toMatchSnapshot();
-  });
-  it('renders Colours', () => {
-    const tree = render(<Colours />);
+  it('renders Customization', () => {
+    const tree = render(<Customization />);
     expect(tree).toMatchSnapshot();
   });
   it('renders Sizes', () => {
@@ -55,12 +50,8 @@ describe('Avatar in RTL', () => {
     const tree = render(withRtl(<Variants />));
     expect(tree).toMatchSnapshot();
   });
-  it('renders Rounded', () => {
-    const tree = render(withRtl(<Rounded />));
-    expect(tree).toMatchSnapshot();
-  });
-  it('renders Colours', () => {
-    const tree = render(withRtl(<Colours />));
+  it('renders Customization', () => {
+    const tree = render(withRtl(<Customization />));
     expect(tree).toMatchSnapshot();
   });
   it('renders Sizes', () => {

@@ -11,7 +11,6 @@ import Sizes from '../Sizes';
 import ContentOutsideSizes from '../ContentOutsideSizes';
 import OpenDefault from '../OpenDefault';
 import Disabled from '../Disabled';
-import Divider from '../Divider';
 import Single from '../Single';
 import ControlOutside from '../ControlOutside';
 
@@ -25,10 +24,6 @@ describe('Accordion', () => {
   });
   it('renders OpenDefault', () => {
     const tree = render(<OpenDefault />);
-    expect(tree).toMatchSnapshot();
-  });
-  it('renders Divider', () => {
-    const tree = render(<Divider />);
     expect(tree).toMatchSnapshot();
   });
   it('renders Single', () => {
@@ -73,10 +68,6 @@ describe('Accordion in RTL', () => {
   });
   it('renders OpenDefault', () => {
     const tree = render(withRtl(<OpenDefault />));
-    expect(tree).toMatchSnapshot();
-  });
-  it('renders Divider', () => {
-    const tree = render(withRtl(<Divider />));
     expect(tree).toMatchSnapshot();
   });
   it('renders Single', () => {

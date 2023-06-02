@@ -1,6 +1,6 @@
 import React from 'react';
 import { Accordion, Button } from '@heathmont/moon-core-tw';
-import { ControlsChevronDown } from '@heathmont/moon-icons-tw';
+import { ControlsChevronDownSmall } from '@heathmont/moon-icons-tw';
 
 const Example = () => {
   const items = ['item-1', 'item-2'];
@@ -18,7 +18,7 @@ const Example = () => {
           <Accordion.Header className="moon-open:[&_svg]:rotate-180">
             <Accordion.Button>
               <span>Default</span>
-              <ControlsChevronDown className="text-trunks text-moon-16 transition-transform duration-200" />
+              <ControlsChevronDownSmall className="text-trunks text-moon-24 transition duration-200 moon-open:text-bulma" />
             </Accordion.Button>
           </Accordion.Header>
           <Accordion.Content>
@@ -35,7 +35,7 @@ const Example = () => {
           <Accordion.Header className="moon-open:[&_svg]:rotate-180">
             <Accordion.Button>
               <span>Test accordion</span>
-              <ControlsChevronDown className="text-trunks text-moon-16 transition-transform duration-200" />
+              <ControlsChevronDownSmall className="text-trunks text-moon-24 transition duration-200 moon-open:text-bulma" />
             </Accordion.Button>
           </Accordion.Header>
           <Accordion.Content>

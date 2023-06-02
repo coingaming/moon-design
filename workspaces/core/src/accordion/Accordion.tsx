@@ -117,7 +117,7 @@ const Button: React.FC<ButtonProps> = ({ children, className }) => {
         setPadding(true, size),
         setFont(size),
         'w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium',
-        'text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30 ',
+        'text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30',
         className
       )}
     >
@@ -131,7 +131,7 @@ const Content: React.FC<ContentProps> = ({ children, className }) => {
   return (
     <RadixAccordion.Content
       className={mergeClassnames(
-        'moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0',
+        'moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus',
         'text-moon-14 w-full text-bulma',
         className
       )}
