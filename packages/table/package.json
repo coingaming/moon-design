@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/moon-table",
   "sideEffects": false,
-  "version": "9.34.5",
+  "version": "9.35.0",
   "files": [
     "lib"
   ],
@@ -20,10 +20,10 @@
     "chokidar": "chokidar \"**/*.tsx\" \"**/*.ts\" -i \"lib/**/*.d.ts\" -c \"pnpm run build:code\" "
   },
   "dependencies": {
-    "@heathmont/moon-components": "workspace:^9.34.5",
-    "@heathmont/moon-core": "workspace:^9.34.5",
-    "@heathmont/moon-themes": "workspace:^9.34.5",
-    "@heathmont/moon-utils": "workspace:^9.34.5",
+    "@heathmont/moon-components": "workspace:^9.35.0",
+    "@heathmont/moon-core": "workspace:^9.35.0",
+    "@heathmont/moon-themes": "workspace:^9.35.0",
+    "@heathmont/moon-utils": "workspace:^9.35.0",
     "@types/react-table": "7.7.6",
     "polished": "4.1.4",
     "react-table": "7.5.1",
