@@ -149,7 +149,7 @@ const Example = () => {
         ]}
       />
       <PropsTable
-        title="Accordion.Item"
+        title="Accordion.Item props"
         data={[
           {
             name: 'value',
