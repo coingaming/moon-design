@@ -7,8 +7,8 @@ type Props = {
   disabled?: boolean;
   name?: string;
   value?: string;
-  onBgColor?: string;
-  offBgColor?: string;
+  onBgColor?: string; // deprecated
+  offBgColor?: string; // deprecated
   onIcon?: JSX.Element | string;
   offIcon?: JSX.Element | string;
   className?: string;
