@@ -4,16 +4,16 @@ import type ButtonSizes from './ButtonSizes';
 import type ButtonVariants from './ButtonVariants';
 
 type ButtonSettingsProps = {
-  icon?: ButtonIcons;
+  icon?: ButtonIcons; // deprecated
   children?: React.ReactNode;
   size?: ButtonSizes;
   iconLeft?: JSX.Element | boolean;
   iconRight?: JSX.Element | boolean;
-  iconOnly?: JSX.Element | boolean;
+  iconOnly?: JSX.Element | boolean; // deprecated
   animation?: ButtonAnimations;
   disabled?: boolean;
   variant?: ButtonVariants;
-  fullWidth?: boolean;
+  fullWidth?: boolean; // deprecated
 };
 
 export default ButtonSettingsProps;

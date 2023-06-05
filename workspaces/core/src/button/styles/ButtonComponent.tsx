@@ -9,11 +9,11 @@ import type ButtonProps from '../private/types/ButtonProps';
 const ButtonComponent = <C extends React.ElementType>({
   variant,
   size,
-  icon,
+  icon, // deprecated
   iconLeft,
   iconRight,
-  iconOnly,
-  fullWidth,
+  iconOnly, // deprecated
+  fullWidth, // deprecated
   disabled,
   animation,
   as,

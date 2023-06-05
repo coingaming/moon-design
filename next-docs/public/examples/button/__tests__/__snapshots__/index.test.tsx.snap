@@ -565,13 +565,13 @@ Object {
         dir="rtl"
       >
         <button
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary w-full"
+          class="ps-4 pe-2 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary w-full"
           type="button"
         >
           Full width
           <span
             aria-hidden="true"
-            class="text-moon-24 absolute block top-1/2 translate-y-[-50%] ltr:right-2 rtl:left-2"
+            class="text-moon-24"
           >
             <svg
               fill="none"
@@ -600,13 +600,13 @@ Object {
       dir="rtl"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary w-full"
+        class="ps-4 pe-2 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary w-full"
         type="button"
       >
         Full width
         <span
           aria-hidden="true"
-          class="text-moon-24 absolute block top-1/2 translate-y-[-50%] ltr:right-2 rtl:left-2"
+          class="text-moon-24"
         >
           <svg
             fill="none"
@@ -1898,13 +1898,13 @@ Object {
   "baseElement": <body>
     <div>
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary w-full"
+        class="ps-4 pe-2 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary w-full"
         type="button"
       >
         Full width
         <span
           aria-hidden="true"
-          class="text-moon-24 absolute block top-1/2 translate-y-[-50%] ltr:right-2 rtl:left-2"
+          class="text-moon-24"
         >
           <svg
             fill="none"
@@ -1929,13 +1929,13 @@ Object {
   </body>,
   "container": <div>
     <button
-      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary w-full"
+      class="ps-4 pe-2 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary w-full"
       type="button"
     >
       Full width
       <span
         aria-hidden="true"
-        class="text-moon-24 absolute block top-1/2 translate-y-[-50%] ltr:right-2 rtl:left-2"
+        class="text-moon-24"
       >
         <svg
           fill="none"

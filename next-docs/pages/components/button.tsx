@@ -96,10 +96,17 @@ const Example = () => {
           },
           {
             name: 'children',
-            type: 'React.ReactNode;',
+            type: 'React.ReactNode',
             required: false,
             default: '-',
             description: 'Children content',
+          },
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Tailwind classes for customization',
           },
           {
             name: 'disabled',
@@ -107,13 +114,6 @@ const Example = () => {
             required: false,
             default: 'false',
             description: 'Disabled button',
-          },
-          {
-            name: 'fullWidth',
-            type: 'boolean',
-            required: false,
-            default: 'false',
-            description: 'Full width button',
           },
           {
             name: 'iconLeft',
