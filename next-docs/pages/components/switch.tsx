@@ -89,6 +89,13 @@ const Example = () => {
             description: `Is switch checked/unchecked.`,
           },
           {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Tailwind classes for customization',
+          },
+          {
             name: 'disabled',
             type: 'boolean',
             required: false,
@@ -104,25 +111,11 @@ const Example = () => {
               'The name used when using this component inside a form.',
           },
           {
-            name: 'offBgColor',
-            type: 'string',
-            required: false,
-            default: 'bg-beerus',
-            description: 'Tailwind class for custom off-state background color',
-          },
-          {
             name: 'offIcon',
             type: 'JSX.Element | string',
             required: false,
             default: '-',
             description: 'Set icon for unchecked state',
-          },
-          {
-            name: 'onBgColor',
-            type: 'string',
-            required: false,
-            default: 'bg-piccolo',
-            description: 'Tailwind class for custom on-state background color',
           },
           {
             name: 'onChange',
