@@ -8,7 +8,7 @@ const setPadding = (isContentInside?: boolean, size?: AccordionSizes) => {
       case 'lg':
         return 'p-3';
       case 'sm':
-        return 'py-1 ps-3 pe-1';
+        return 'p-2';
       default:
         return 'py-2 ps-3 pe-2';
     }

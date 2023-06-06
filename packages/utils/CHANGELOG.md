@@ -1,5 +1,32 @@
 # Change Log
 
+## 9.35.0
+
+### Minor Changes
+
+- Deploy 9.35.1
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@9.35.0
+
+## 9.34.5
+
+### Patch Changes
+
+- Update GA
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@9.34.5
+
+## 9.34.4
+
+### Patch Changes
+
+- Add GA
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@9.34.4
+
 ## 9.34.3
 
 ### Patch Changes

@@ -3,21 +3,22 @@ import { GenericUser } from '@heathmont/moon-icons-tw';
 
 const Example = () => (
   <>
-    <Avatar>
+    <Avatar className="text-chichi">
       <GenericUser className="text-moon-24" />
-      <Avatar.Status position={{ vertical: 'top', horizontal: 'right' }} />
+    </Avatar>
+    <Avatar className="bg-piccolo text-goten">
+      <GenericUser className="text-moon-24" />
+    </Avatar>
+    <Avatar className="rounded-full">
+      <GenericUser className="text-moon-24" />
     </Avatar>
     <Avatar>
       <GenericUser className="text-moon-24" />
-      <Avatar.Status position={{ vertical: 'top', horizontal: 'left' }} />
+      <Avatar.Status className="bg-chichi" />
     </Avatar>
     <Avatar>
       <GenericUser className="text-moon-24" />
-      <Avatar.Status />
-    </Avatar>
-    <Avatar>
-      <GenericUser className="text-moon-24" />
-      <Avatar.Status position={{ vertical: 'bottom', horizontal: 'left' }} />
+      <Avatar.Status className="border-chichi" />
     </Avatar>
   </>
 );

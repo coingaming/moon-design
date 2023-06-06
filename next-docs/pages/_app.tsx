@@ -4,6 +4,7 @@ import '../styles/themes.css';
 import 'prismjs/themes/prism-okaidia.css';
 import { NextPage } from 'next';
 import Head from 'next/head';
+import GoogleAnalytics from '../components/GoogleAnalytics';
 import Layout from '../components/Layout';
 import RtlProvider from '../components/rtl/RtlProvider';
 import SearchProvider from '../components/search/SearchProvider';
@@ -50,6 +51,7 @@ function MyApp({ Component, pageProps }: MyAppProps) {
         <link rel="shortcut icon" href="/favs/favicon.ico" />
         <meta name="msapplication-config" content="/favs/browserconfig.xml" />
       </Head>
+      <GoogleAnalytics id="G-4842W3RKZJ" />
       <SearchProvider>
         <DocsThemeProvider>
           <RtlProvider>
