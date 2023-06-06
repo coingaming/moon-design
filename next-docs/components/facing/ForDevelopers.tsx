@@ -30,6 +30,7 @@ const ForDevelopers = () => {
           <Link
             href="/gettingStarted"
             className="flex items-center justify-end h-full pe-6 3xl:pe-0 w-full rounded-moon-s-lg text-moon-32"
+            aria-label="Read more info for developers"
           >
             <ArrowsTopRight />
           </Link>
