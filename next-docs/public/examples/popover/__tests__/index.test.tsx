@@ -15,7 +15,7 @@ describe('Popover', () => {
   afterEach(cleanup);
   it('renders Default', async () => {
     const tree = render(<Default />);
-    await act(() => fireEvent.click(tree.getByRole('button')));
+    await act(() => fireEvent.click(tree.getAllByRole('button')[0]));
     expect(tree).toMatchSnapshot();
   });
   it('renders TriggerElements', async () => {
@@ -30,7 +30,7 @@ describe('Popover', () => {
   });
   it('renders WithClose', async () => {
     const tree = render(<WithClose />);
-    await act(() => fireEvent.click(tree.getByRole('button')));
+    await act(() => fireEvent.click(tree.getAllByRole('button')[0]));
     expect(tree).toMatchSnapshot();
   });
 });
@@ -39,7 +39,7 @@ describe('Popover in RTL', () => {
   afterEach(cleanup);
   it('renders Default', async () => {
     const tree = render(withRtl(<Default />));
-    await act(() => fireEvent.click(tree.getByRole('button')));
+    await act(() => fireEvent.click(tree.getAllByRole('button')[0]));
     expect(tree).toMatchSnapshot();
   });
   it('renders TriggerElements', async () => {
@@ -54,7 +54,7 @@ describe('Popover in RTL', () => {
   });
   it('renders WithClose', async () => {
     const tree = render(withRtl(<WithClose />));
-    await act(() => fireEvent.click(tree.getByRole('button')));
+    await act(() => fireEvent.click(tree.getAllByRole('button')[0]));
     expect(tree).toMatchSnapshot();
   });
 });

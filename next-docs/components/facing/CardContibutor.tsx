@@ -21,7 +21,7 @@ const CardContributor: React.FC<Props> = ({
   title,
   imageSrc,
 }) => (
-  <div className="flex flex-col">
+  <li className="flex flex-col gap-2">
     <div
       className={mergeClassnames(
         'relative w-72 h-96',
@@ -37,8 +37,8 @@ const CardContributor: React.FC<Props> = ({
         src={imageSrc}
       />
     </div>
-    <p className="text-moon-24 mt-2 font-medium">{name}</p>
-  </div>
+    <p className="text-moon-24 font-medium">{name}</p>
+  </li>
 );
 
 export default CardContributor;
