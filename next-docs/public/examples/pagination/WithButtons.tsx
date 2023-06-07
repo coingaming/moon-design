@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Pagination, IconButton } from '@heathmont/moon-core-tw';
 import {
-  ControlsChevronLeft,
-  ControlsChevronRight,
+  ControlsChevronLeftSmall,
+  ControlsChevronRightSmall,
 } from '@heathmont/moon-icons-tw';
 
 const Example = () => {
@@ -20,7 +20,7 @@ const Example = () => {
         <Pagination.PrevButton as="div">
           {({ disabled }) => (
             <IconButton
-              icon={<ControlsChevronLeft className="rtl:rotate-180" />}
+              icon={<ControlsChevronLeftSmall className="rtl:rotate-180" />}
               variant="secondary"
               size="sm"
               disabled={disabled}
@@ -31,7 +31,7 @@ const Example = () => {
         <Pagination.NextButton as="div">
           {({ disabled }) => (
             <IconButton
-              icon={<ControlsChevronRight className="rtl:rotate-180" />}
+              icon={<ControlsChevronRightSmall className="rtl:rotate-180" />}
               variant="secondary"
               size="sm"
               disabled={disabled}
