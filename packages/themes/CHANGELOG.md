@@ -1,5 +1,11 @@
 # Change Log
 
+## 9.35.1
+
+### Patch Changes
+
+- Update icons and components
+
 ## 9.35.0
 
 ### Minor Changes
