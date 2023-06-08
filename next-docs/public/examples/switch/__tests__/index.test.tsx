@@ -3,7 +3,7 @@
  */
 
 import { cleanup, render } from '@testing-library/react';
-import CustomBg from '../CustomBg';
+import Customization from '../Customization';
 import Default from '../Default';
 import Form from '../Form';
 import Sizes from '../Sizes';
@@ -22,8 +22,8 @@ describe('Switch in Light Theme', () => {
     const tree = render(<Sizes />);
     expect(tree).toMatchSnapshot();
   });
-  it('renders CustomBg', () => {
-    const tree = render(<CustomBg />);
+  it('renders Customization', () => {
+    const tree = render(<Customization />);
     expect(tree).toMatchSnapshot();
   });
   it('renders Form', () => {
@@ -50,8 +50,8 @@ describe('Switch in RTL', () => {
     const tree = render(withRtl(<Sizes />));
     expect(tree).toMatchSnapshot();
   });
-  it('renders CustomBg', () => {
-    const tree = render(withRtl(<CustomBg />));
+  it('renders Customization', () => {
+    const tree = render(withRtl(<Customization />));
     expect(tree).toMatchSnapshot();
   });
   it('renders Form', () => {

@@ -8,12 +8,12 @@ const Example = () => {
       <Switch
         checked={state}
         onChange={setState}
-        className="bg-krillin moon-checked:bg-chichi"
+        className="bg-nappa moon-checked:bg-roshi"
       />
       <Switch
         checked={state}
         onChange={setState}
-        className="bg-nappa moon-checked:bg-roshi"
+        className="bg-krillin moon-checked:bg-chichi"
       />
     </>
   );
