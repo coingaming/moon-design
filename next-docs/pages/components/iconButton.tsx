@@ -89,6 +89,13 @@ const Example = () => {
             description: 'Children content',
           },
           {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Tailwind classes for customization',
+          },
+          {
             name: 'disabled',
             type: 'boolean',
             required: false,

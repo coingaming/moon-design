@@ -3,8 +3,7 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
-import DefaultCode from '../../public/examples/switch/codeExamples/DefaultCode';
-import CustomBg from '../../public/examples/switch/CustomBg';
+import Customization from '../../public/examples/switch/Customization';
 import Default from '../../public/examples/switch/Default';
 import Disabled from '../../public/examples/switch/Disabled';
 import Form from '../../public/examples/switch/Form';
@@ -14,7 +13,6 @@ import useExamples from '../../utils/useExamples';
 
 const Example = () => {
   const examples = useExamples('switch');
-  const examplesCode = useExamples('switch/codeExamples');
   const { name, text, image } = getComponent('Switch');
   return (
     <>
@@ -64,19 +62,14 @@ const Example = () => {
         code={examples ? examples.WithIcons : 'Loading'}
       />
       <Preview
-        title="Custom background colour"
-        preview={<CustomBg />}
-        code={examples ? examples.CustomBg : 'Loading'}
+        title="Customization"
+        preview={<Customization />}
+        code={examples ? examples.Customization : 'Loading'}
       />
       <Preview
         title="Using with HTML forms"
         preview={<Form />}
         code={examples ? examples.Form : 'Loading'}
-      />
-      <Preview
-        title="Code examples for full customization"
-        preview={<DefaultCode />}
-        code={examplesCode ? examplesCode.DefaultCode : 'Loading'}
       />
       <PropsTable
         title="Switch props"
@@ -87,6 +80,13 @@ const Example = () => {
             required: false,
             default: 'false',
             description: `Is switch checked/unchecked.`,
+          },
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Tailwind classes for customization',
           },
           {
             name: 'disabled',
@@ -104,25 +104,11 @@ const Example = () => {
               'The name used when using this component inside a form.',
           },
           {
-            name: 'offBgColor',
-            type: 'string',
-            required: false,
-            default: 'bg-beerus',
-            description: 'Tailwind class for custom off-state background color',
-          },
-          {
             name: 'offIcon',
             type: 'JSX.Element | string',
             required: false,
             default: '-',
             description: 'Set icon for unchecked state',
-          },
-          {
-            name: 'onBgColor',
-            type: 'string',
-            required: false,
-            default: 'bg-piccolo',
-            description: 'Tailwind class for custom on-state background color',
           },
           {
             name: 'onChange',

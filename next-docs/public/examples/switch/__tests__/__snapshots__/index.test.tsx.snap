@@ -1,13 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Switch in Light Theme renders CustomBg 1`] = `
+exports[`Switch in Light Theme renders Customization 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <button
         aria-checked="true"
-        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-chichi"
+        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-nappa moon-checked:bg-roshi"
         data-headlessui-state="checked"
         id="headlessui-switch-:r4:"
         role="switch"
@@ -19,13 +19,13 @@ Object {
         >
           <span
             aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+            class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
           />
         </span>
       </button>
       <button
         aria-checked="true"
-        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-roshi"
+        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-krillin moon-checked:bg-chichi"
         data-headlessui-state="checked"
         id="headlessui-switch-:r5:"
         role="switch"
@@ -37,7 +37,7 @@ Object {
         >
           <span
             aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+            class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
           />
         </span>
       </button>
@@ -46,7 +46,7 @@ Object {
   "container": <div>
     <button
       aria-checked="true"
-      class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-chichi"
+      class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-nappa moon-checked:bg-roshi"
       data-headlessui-state="checked"
       id="headlessui-switch-:r4:"
       role="switch"
@@ -58,13 +58,13 @@ Object {
       >
         <span
           aria-hidden="true"
-          class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+          class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
         />
       </span>
     </button>
     <button
       aria-checked="true"
-      class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-roshi"
+      class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-krillin moon-checked:bg-chichi"
       data-headlessui-state="checked"
       id="headlessui-switch-:r5:"
       role="switch"
@@ -76,7 +76,7 @@ Object {
       >
         <span
           aria-hidden="true"
-          class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+          class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
         />
       </span>
     </button>
@@ -142,7 +142,7 @@ Object {
     <div>
       <button
         aria-checked="true"
-        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
+        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
         data-headlessui-state="checked"
         data-tests="test-id"
         id="headlessui-switch-:r0:"
@@ -155,7 +155,7 @@ Object {
         >
           <span
             aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+            class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
           />
         </span>
       </button>
@@ -164,7 +164,7 @@ Object {
   "container": <div>
     <button
       aria-checked="true"
-      class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
+      class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
       data-headlessui-state="checked"
       data-tests="test-id"
       id="headlessui-switch-:r0:"
@@ -177,7 +177,7 @@ Object {
       >
         <span
           aria-hidden="true"
-          class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+          class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
         />
       </span>
     </button>
@@ -243,7 +243,7 @@ Object {
     <div>
       <button
         aria-checked="true"
-        class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo opacity-30 cursor-not-allowed select-none"
+        class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo opacity-30 cursor-not-allowed select-none"
         data-headlessui-state="checked"
         disabled=""
         id="headlessui-switch-:r7:"
@@ -256,13 +256,13 @@ Object {
         >
           <span
             aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+            class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
           />
         </span>
       </button>
       <button
         aria-checked="false"
-        class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus opacity-30 cursor-not-allowed select-none"
+        class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo opacity-30 cursor-not-allowed select-none"
         data-headlessui-state=""
         disabled=""
         id="headlessui-switch-:r8:"
@@ -275,7 +275,7 @@ Object {
         >
           <span
             aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-0 rtl:right-0"
+            class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-0 rtl:right-0"
           />
         </span>
       </button>
@@ -284,7 +284,7 @@ Object {
   "container": <div>
     <button
       aria-checked="true"
-      class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo opacity-30 cursor-not-allowed select-none"
+      class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo opacity-30 cursor-not-allowed select-none"
       data-headlessui-state="checked"
       disabled=""
       id="headlessui-switch-:r7:"
@@ -297,13 +297,13 @@ Object {
       >
         <span
           aria-hidden="true"
-          class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+          class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
         />
       </span>
     </button>
     <button
       aria-checked="false"
-      class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus opacity-30 cursor-not-allowed select-none"
+      class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo opacity-30 cursor-not-allowed select-none"
       data-headlessui-state=""
       disabled=""
       id="headlessui-switch-:r8:"
@@ -316,7 +316,7 @@ Object {
       >
         <span
           aria-hidden="true"
-          class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-0 rtl:right-0"
+          class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-0 rtl:right-0"
         />
       </span>
     </button>
@@ -395,7 +395,7 @@ Object {
         />
         <button
           aria-checked="true"
-          class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
+          class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
           data-headlessui-state="checked"
           id="headlessui-switch-:r6:"
           role="switch"
@@ -407,7 +407,7 @@ Object {
           >
             <span
               aria-hidden="true"
-              class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+              class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
             />
           </span>
         </button>
@@ -430,7 +430,7 @@ Object {
       />
       <button
         aria-checked="true"
-        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
+        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
         data-headlessui-state="checked"
         id="headlessui-switch-:r6:"
         role="switch"
@@ -442,7 +442,7 @@ Object {
         >
           <span
             aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+            class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
           />
         </span>
       </button>
@@ -509,7 +509,7 @@ Object {
     <div>
       <button
         aria-checked="true"
-        class="block cursor-pointer rounded-full transition w-7 h-4 p-0.5 bg-piccolo"
+        class="block cursor-pointer rounded-full transition w-7 h-4 p-0.5 bg-beerus moon-checked:bg-piccolo"
         data-headlessui-state="checked"
         id="headlessui-switch-:r1:"
         role="switch"
@@ -521,13 +521,13 @@ Object {
         >
           <span
             aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-3 h-3 ltr:left-[calc(100%-12px)] rtl:right-[calc(100%-12px)]"
+            class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-3 h-3 ltr:left-[calc(100%-12px)] rtl:right-[calc(100%-12px)]"
           />
         </span>
       </button>
       <button
         aria-checked="true"
-        class="block cursor-pointer rounded-full transition w-11 h-6 p-1 bg-piccolo"
+        class="block cursor-pointer rounded-full transition w-11 h-6 p-1 bg-beerus moon-checked:bg-piccolo"
         data-headlessui-state="checked"
         id="headlessui-switch-:r2:"
         role="switch"
@@ -539,13 +539,13 @@ Object {
         >
           <span
             aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-4 h-4 ltr:left-[calc(100%-16px)] rtl:right-[calc(100%-16px)]"
+            class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-4 h-4 ltr:left-[calc(100%-16px)] rtl:right-[calc(100%-16px)]"
           />
         </span>
       </button>
       <button
         aria-checked="true"
-        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
+        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
         data-headlessui-state="checked"
         id="headlessui-switch-:r3:"
         role="switch"
@@ -557,7 +557,7 @@ Object {
         >
           <span
             aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+            class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
           />
         </span>
       </button>
@@ -566,7 +566,7 @@ Object {
   "container": <div>
     <button
       aria-checked="true"
-      class="block cursor-pointer rounded-full transition w-7 h-4 p-0.5 bg-piccolo"
+      class="block cursor-pointer rounded-full transition w-7 h-4 p-0.5 bg-beerus moon-checked:bg-piccolo"
       data-headlessui-state="checked"
       id="headlessui-switch-:r1:"
       role="switch"
@@ -578,13 +578,13 @@ Object {
       >
         <span
           aria-hidden="true"
-          class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-3 h-3 ltr:left-[calc(100%-12px)] rtl:right-[calc(100%-12px)]"
+          class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-3 h-3 ltr:left-[calc(100%-12px)] rtl:right-[calc(100%-12px)]"
         />
       </span>
     </button>
     <button
       aria-checked="true"
-      class="block cursor-pointer rounded-full transition w-11 h-6 p-1 bg-piccolo"
+      class="block cursor-pointer rounded-full transition w-11 h-6 p-1 bg-beerus moon-checked:bg-piccolo"
       data-headlessui-state="checked"
       id="headlessui-switch-:r2:"
       role="switch"
@@ -596,13 +596,13 @@ Object {
       >
         <span
           aria-hidden="true"
-          class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-4 h-4 ltr:left-[calc(100%-16px)] rtl:right-[calc(100%-16px)]"
+          class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-4 h-4 ltr:left-[calc(100%-16px)] rtl:right-[calc(100%-16px)]"
         />
       </span>
     </button>
     <button
       aria-checked="true"
-      class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
+      class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
       data-headlessui-state="checked"
       id="headlessui-switch-:r3:"
       role="switch"
@@ -614,7 +614,7 @@ Object {
       >
         <span
           aria-hidden="true"
-          class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+          class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
         />
       </span>
     </button>
@@ -680,7 +680,7 @@ Object {
     <div>
       <button
         aria-checked="true"
-        class="block cursor-pointer rounded-full transition w-7 h-4 p-0.5 bg-piccolo"
+        class="block cursor-pointer rounded-full transition w-7 h-4 p-0.5 bg-beerus moon-checked:bg-piccolo"
         data-headlessui-state="checked"
         id="headlessui-switch-:r9:"
         role="switch"
@@ -739,13 +739,13 @@ Object {
           </span>
           <span
             aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-3 h-3 ltr:left-[calc(100%-12px)] rtl:right-[calc(100%-12px)]"
+            class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-3 h-3 ltr:left-[calc(100%-12px)] rtl:right-[calc(100%-12px)]"
           />
         </span>
       </button>
       <button
         aria-checked="true"
-        class="block cursor-pointer rounded-full transition w-11 h-6 p-1 bg-piccolo"
+        class="block cursor-pointer rounded-full transition w-11 h-6 p-1 bg-beerus moon-checked:bg-piccolo"
         data-headlessui-state="checked"
         id="headlessui-switch-:ra:"
         role="switch"
@@ -804,13 +804,13 @@ Object {
           </span>
           <span
             aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-4 h-4 ltr:left-[calc(100%-16px)] rtl:right-[calc(100%-16px)]"
+            class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-4 h-4 ltr:left-[calc(100%-16px)] rtl:right-[calc(100%-16px)]"
           />
         </span>
       </button>
       <button
         aria-checked="true"
-        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
+        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
         data-headlessui-state="checked"
         id="headlessui-switch-:rb:"
         role="switch"
@@ -869,7 +869,7 @@ Object {
           </span>
           <span
             aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+            class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
           />
         </span>
       </button>
@@ -878,7 +878,7 @@ Object {
   "container": <div>
     <button
       aria-checked="true"
-      class="block cursor-pointer rounded-full transition w-7 h-4 p-0.5 bg-piccolo"
+      class="block cursor-pointer rounded-full transition w-7 h-4 p-0.5 bg-beerus moon-checked:bg-piccolo"
       data-headlessui-state="checked"
       id="headlessui-switch-:r9:"
       role="switch"
@@ -937,13 +937,13 @@ Object {
         </span>
         <span
           aria-hidden="true"
-          class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-3 h-3 ltr:left-[calc(100%-12px)] rtl:right-[calc(100%-12px)]"
+          class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-3 h-3 ltr:left-[calc(100%-12px)] rtl:right-[calc(100%-12px)]"
         />
       </span>
     </button>
     <button
       aria-checked="true"
-      class="block cursor-pointer rounded-full transition w-11 h-6 p-1 bg-piccolo"
+      class="block cursor-pointer rounded-full transition w-11 h-6 p-1 bg-beerus moon-checked:bg-piccolo"
       data-headlessui-state="checked"
       id="headlessui-switch-:ra:"
       role="switch"
@@ -1002,13 +1002,13 @@ Object {
         </span>
         <span
           aria-hidden="true"
-          class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-4 h-4 ltr:left-[calc(100%-16px)] rtl:right-[calc(100%-16px)]"
+          class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-4 h-4 ltr:left-[calc(100%-16px)] rtl:right-[calc(100%-16px)]"
         />
       </span>
     </button>
     <button
       aria-checked="true"
-      class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
+      class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
       data-headlessui-state="checked"
       id="headlessui-switch-:rb:"
       role="switch"
@@ -1067,7 +1067,7 @@ Object {
         </span>
         <span
           aria-hidden="true"
-          class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+          class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
         />
       </span>
     </button>
@@ -1126,7 +1126,7 @@ Object {
 }
 `;
 
-exports[`Switch in RTL renders CustomBg 1`] = `
+exports[`Switch in RTL renders Customization 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
@@ -1136,7 +1136,7 @@ Object {
       >
         <button
           aria-checked="true"
-          class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-chichi"
+          class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-nappa moon-checked:bg-roshi"
           data-headlessui-state="checked"
           id="headlessui-switch-:rg:"
           role="switch"
@@ -1148,13 +1148,13 @@ Object {
           >
             <span
               aria-hidden="true"
-              class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+              class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
             />
           </span>
         </button>
         <button
           aria-checked="true"
-          class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-roshi"
+          class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-krillin moon-checked:bg-chichi"
           data-headlessui-state="checked"
           id="headlessui-switch-:rh:"
           role="switch"
@@ -1166,7 +1166,7 @@ Object {
           >
             <span
               aria-hidden="true"
-              class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+              class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
             />
           </span>
         </button>
@@ -1179,7 +1179,7 @@ Object {
     >
       <button
         aria-checked="true"
-        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-chichi"
+        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-nappa moon-checked:bg-roshi"
         data-headlessui-state="checked"
         id="headlessui-switch-:rg:"
         role="switch"
@@ -1191,13 +1191,13 @@ Object {
         >
           <span
             aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+            class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
           />
         </span>
       </button>
       <button
         aria-checked="true"
-        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-roshi"
+        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-krillin moon-checked:bg-chichi"
         data-headlessui-state="checked"
         id="headlessui-switch-:rh:"
         role="switch"
@@ -1209,7 +1209,7 @@ Object {
         >
           <span
             aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+            class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
           />
         </span>
       </button>
@@ -1279,7 +1279,7 @@ Object {
       >
         <button
           aria-checked="true"
-          class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
+          class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
           data-headlessui-state="checked"
           data-tests="test-id"
           id="headlessui-switch-:rc:"
@@ -1292,7 +1292,7 @@ Object {
           >
             <span
               aria-hidden="true"
-              class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+              class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
             />
           </span>
         </button>
@@ -1305,7 +1305,7 @@ Object {
     >
       <button
         aria-checked="true"
-        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
+        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
         data-headlessui-state="checked"
         data-tests="test-id"
         id="headlessui-switch-:rc:"
@@ -1318,7 +1318,7 @@ Object {
         >
           <span
             aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+            class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
           />
         </span>
       </button>
@@ -1388,7 +1388,7 @@ Object {
       >
         <button
           aria-checked="true"
-          class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo opacity-30 cursor-not-allowed select-none"
+          class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo opacity-30 cursor-not-allowed select-none"
           data-headlessui-state="checked"
           disabled=""
           id="headlessui-switch-:rj:"
@@ -1401,13 +1401,13 @@ Object {
           >
             <span
               aria-hidden="true"
-              class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+              class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
             />
           </span>
         </button>
         <button
           aria-checked="false"
-          class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus opacity-30 cursor-not-allowed select-none"
+          class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo opacity-30 cursor-not-allowed select-none"
           data-headlessui-state=""
           disabled=""
           id="headlessui-switch-:rk:"
@@ -1420,7 +1420,7 @@ Object {
           >
             <span
               aria-hidden="true"
-              class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-0 rtl:right-0"
+              class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-0 rtl:right-0"
             />
           </span>
         </button>
@@ -1433,7 +1433,7 @@ Object {
     >
       <button
         aria-checked="true"
-        class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo opacity-30 cursor-not-allowed select-none"
+        class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo opacity-30 cursor-not-allowed select-none"
         data-headlessui-state="checked"
         disabled=""
         id="headlessui-switch-:rj:"
@@ -1446,13 +1446,13 @@ Object {
         >
           <span
             aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+            class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
           />
         </span>
       </button>
       <button
         aria-checked="false"
-        class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus opacity-30 cursor-not-allowed select-none"
+        class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo opacity-30 cursor-not-allowed select-none"
         data-headlessui-state=""
         disabled=""
         id="headlessui-switch-:rk:"
@@ -1465,7 +1465,7 @@ Object {
         >
           <span
             aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-0 rtl:right-0"
+            class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-0 rtl:right-0"
           />
         </span>
       </button>
@@ -1548,7 +1548,7 @@ Object {
           />
           <button
             aria-checked="true"
-            class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
+            class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
             data-headlessui-state="checked"
             id="headlessui-switch-:ri:"
             role="switch"
@@ -1560,7 +1560,7 @@ Object {
             >
               <span
                 aria-hidden="true"
-                class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+                class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
               />
             </span>
           </button>
@@ -1587,7 +1587,7 @@ Object {
         />
         <button
           aria-checked="true"
-          class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
+          class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
           data-headlessui-state="checked"
           id="headlessui-switch-:ri:"
           role="switch"
@@ -1599,7 +1599,7 @@ Object {
           >
             <span
               aria-hidden="true"
-              class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+              class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
             />
           </span>
         </button>
@@ -1670,7 +1670,7 @@ Object {
       >
         <button
           aria-checked="true"
-          class="block cursor-pointer rounded-full transition w-7 h-4 p-0.5 bg-piccolo"
+          class="block cursor-pointer rounded-full transition w-7 h-4 p-0.5 bg-beerus moon-checked:bg-piccolo"
           data-headlessui-state="checked"
           id="headlessui-switch-:rd:"
           role="switch"
@@ -1682,13 +1682,13 @@ Object {
           >
             <span
               aria-hidden="true"
-              class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-3 h-3 ltr:left-[calc(100%-12px)] rtl:right-[calc(100%-12px)]"
+              class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-3 h-3 ltr:left-[calc(100%-12px)] rtl:right-[calc(100%-12px)]"
             />
           </span>
         </button>
         <button
           aria-checked="true"
-          class="block cursor-pointer rounded-full transition w-11 h-6 p-1 bg-piccolo"
+          class="block cursor-pointer rounded-full transition w-11 h-6 p-1 bg-beerus moon-checked:bg-piccolo"
           data-headlessui-state="checked"
           id="headlessui-switch-:re:"
           role="switch"
@@ -1700,13 +1700,13 @@ Object {
           >
             <span
               aria-hidden="true"
-              class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-4 h-4 ltr:left-[calc(100%-16px)] rtl:right-[calc(100%-16px)]"
+              class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-4 h-4 ltr:left-[calc(100%-16px)] rtl:right-[calc(100%-16px)]"
             />
           </span>
         </button>
         <button
           aria-checked="true"
-          class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
+          class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
           data-headlessui-state="checked"
           id="headlessui-switch-:rf:"
           role="switch"
@@ -1718,7 +1718,7 @@ Object {
           >
             <span
               aria-hidden="true"
-              class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+              class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
             />
           </span>
         </button>
@@ -1731,7 +1731,7 @@ Object {
     >
       <button
         aria-checked="true"
-        class="block cursor-pointer rounded-full transition w-7 h-4 p-0.5 bg-piccolo"
+        class="block cursor-pointer rounded-full transition w-7 h-4 p-0.5 bg-beerus moon-checked:bg-piccolo"
         data-headlessui-state="checked"
         id="headlessui-switch-:rd:"
         role="switch"
@@ -1743,13 +1743,13 @@ Object {
         >
           <span
             aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-3 h-3 ltr:left-[calc(100%-12px)] rtl:right-[calc(100%-12px)]"
+            class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-3 h-3 ltr:left-[calc(100%-12px)] rtl:right-[calc(100%-12px)]"
           />
         </span>
       </button>
       <button
         aria-checked="true"
-        class="block cursor-pointer rounded-full transition w-11 h-6 p-1 bg-piccolo"
+        class="block cursor-pointer rounded-full transition w-11 h-6 p-1 bg-beerus moon-checked:bg-piccolo"
         data-headlessui-state="checked"
         id="headlessui-switch-:re:"
         role="switch"
@@ -1761,13 +1761,13 @@ Object {
         >
           <span
             aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-4 h-4 ltr:left-[calc(100%-16px)] rtl:right-[calc(100%-16px)]"
+            class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-4 h-4 ltr:left-[calc(100%-16px)] rtl:right-[calc(100%-16px)]"
           />
         </span>
       </button>
       <button
         aria-checked="true"
-        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
+        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
         data-headlessui-state="checked"
         id="headlessui-switch-:rf:"
         role="switch"
@@ -1779,7 +1779,7 @@ Object {
         >
           <span
             aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+            class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
           />
         </span>
       </button>
@@ -1849,7 +1849,7 @@ Object {
       >
         <button
           aria-checked="true"
-          class="block cursor-pointer rounded-full transition w-7 h-4 p-0.5 bg-piccolo"
+          class="block cursor-pointer rounded-full transition w-7 h-4 p-0.5 bg-beerus moon-checked:bg-piccolo"
           data-headlessui-state="checked"
           id="headlessui-switch-:rl:"
           role="switch"
@@ -1908,13 +1908,13 @@ Object {
             </span>
             <span
               aria-hidden="true"
-              class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-3 h-3 ltr:left-[calc(100%-12px)] rtl:right-[calc(100%-12px)]"
+              class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-3 h-3 ltr:left-[calc(100%-12px)] rtl:right-[calc(100%-12px)]"
             />
           </span>
         </button>
         <button
           aria-checked="true"
-          class="block cursor-pointer rounded-full transition w-11 h-6 p-1 bg-piccolo"
+          class="block cursor-pointer rounded-full transition w-11 h-6 p-1 bg-beerus moon-checked:bg-piccolo"
           data-headlessui-state="checked"
           id="headlessui-switch-:rm:"
           role="switch"
@@ -1973,13 +1973,13 @@ Object {
             </span>
             <span
               aria-hidden="true"
-              class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-4 h-4 ltr:left-[calc(100%-16px)] rtl:right-[calc(100%-16px)]"
+              class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-4 h-4 ltr:left-[calc(100%-16px)] rtl:right-[calc(100%-16px)]"
             />
           </span>
         </button>
         <button
           aria-checked="true"
-          class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
+          class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
           data-headlessui-state="checked"
           id="headlessui-switch-:rn:"
           role="switch"
@@ -2038,7 +2038,7 @@ Object {
             </span>
             <span
               aria-hidden="true"
-              class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+              class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
             />
           </span>
         </button>
@@ -2051,7 +2051,7 @@ Object {
     >
       <button
         aria-checked="true"
-        class="block cursor-pointer rounded-full transition w-7 h-4 p-0.5 bg-piccolo"
+        class="block cursor-pointer rounded-full transition w-7 h-4 p-0.5 bg-beerus moon-checked:bg-piccolo"
         data-headlessui-state="checked"
         id="headlessui-switch-:rl:"
         role="switch"
@@ -2110,13 +2110,13 @@ Object {
           </span>
           <span
             aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-3 h-3 ltr:left-[calc(100%-12px)] rtl:right-[calc(100%-12px)]"
+            class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-3 h-3 ltr:left-[calc(100%-12px)] rtl:right-[calc(100%-12px)]"
           />
         </span>
       </button>
       <button
         aria-checked="true"
-        class="block cursor-pointer rounded-full transition w-11 h-6 p-1 bg-piccolo"
+        class="block cursor-pointer rounded-full transition w-11 h-6 p-1 bg-beerus moon-checked:bg-piccolo"
         data-headlessui-state="checked"
         id="headlessui-switch-:rm:"
         role="switch"
@@ -2175,13 +2175,13 @@ Object {
           </span>
           <span
             aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-4 h-4 ltr:left-[calc(100%-16px)] rtl:right-[calc(100%-16px)]"
+            class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-4 h-4 ltr:left-[calc(100%-16px)] rtl:right-[calc(100%-16px)]"
           />
         </span>
       </button>
       <button
         aria-checked="true"
-        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
+        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
         data-headlessui-state="checked"
         id="headlessui-switch-:rn:"
         role="switch"
@@ -2240,7 +2240,7 @@ Object {
           </span>
           <span
             aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+            class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
           />
         </span>
       </button>

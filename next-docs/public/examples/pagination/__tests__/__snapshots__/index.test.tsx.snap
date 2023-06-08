@@ -20,25 +20,25 @@ Object {
           </button>
           <nav
             aria-label="pagination"
-            class="flex gap-1 items-center justify-center w-full h-10 text-sm flex-grow"
+            class="flex gap-1 items-center justify-center w-full h-10 text-moon-14 flex-grow"
           >
             <a
               aria-label="page 1"
-              class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-goten bg-piccolo"
+              class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-goten bg-piccolo"
               tabindex="0"
             >
               1
             </a>
             <a
               aria-label="page 2"
-              class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-bulma hover:bg-jiren focus:bg-jiren"
+              class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
               tabindex="0"
             >
               2
             </a>
             <a
               aria-label="page 3"
-              class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-bulma hover:bg-jiren focus:bg-jiren"
+              class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
               tabindex="0"
             >
               3
@@ -50,7 +50,7 @@ Object {
             </span>
             <a
               aria-label="page 11"
-              class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-bulma hover:bg-jiren focus:bg-jiren"
+              class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
               tabindex="0"
             >
               11
@@ -82,25 +82,25 @@ Object {
         </button>
         <nav
           aria-label="pagination"
-          class="flex gap-1 items-center justify-center w-full h-10 text-sm flex-grow"
+          class="flex gap-1 items-center justify-center w-full h-10 text-moon-14 flex-grow"
         >
           <a
             aria-label="page 1"
-            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-goten bg-piccolo"
+            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-goten bg-piccolo"
             tabindex="0"
           >
             1
           </a>
           <a
             aria-label="page 2"
-            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-bulma hover:bg-jiren focus:bg-jiren"
+            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
             tabindex="0"
           >
             2
           </a>
           <a
             aria-label="page 3"
-            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-bulma hover:bg-jiren focus:bg-jiren"
+            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
             tabindex="0"
           >
             3
@@ -112,7 +112,7 @@ Object {
           </span>
           <a
             aria-label="page 11"
-            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-bulma hover:bg-jiren focus:bg-jiren"
+            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
             tabindex="0"
           >
             11
@@ -211,7 +211,7 @@ Object {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="M20.5 25L11.5 16L20.5 7"
+                  d="M19 22L13 16L19 10"
                   stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
@@ -225,25 +225,25 @@ Object {
           </div>
           <nav
             aria-label="pagination"
-            class="flex gap-1 items-center justify-center w-full h-10 text-sm flex-grow"
+            class="flex gap-1 items-center justify-center w-full h-10 text-moon-14 flex-grow"
           >
             <a
               aria-label="page 1"
-              class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-goten bg-piccolo"
+              class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-goten bg-piccolo"
               tabindex="0"
             >
               1
             </a>
             <a
               aria-label="page 2"
-              class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-bulma hover:bg-jiren focus:bg-jiren"
+              class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
               tabindex="0"
             >
               2
             </a>
             <a
               aria-label="page 3"
-              class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-bulma hover:bg-jiren focus:bg-jiren"
+              class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
               tabindex="0"
             >
               3
@@ -255,7 +255,7 @@ Object {
             </span>
             <a
               aria-label="page 26"
-              class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-bulma hover:bg-jiren focus:bg-jiren"
+              class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
               tabindex="0"
             >
               26
@@ -278,7 +278,7 @@ Object {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="M11.5 7L20.5 16L11.5 25"
+                  d="M13 10L19 16L13 22"
                   stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
@@ -320,7 +320,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M20.5 25L11.5 16L20.5 7"
+                d="M19 22L13 16L19 10"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -334,25 +334,25 @@ Object {
         </div>
         <nav
           aria-label="pagination"
-          class="flex gap-1 items-center justify-center w-full h-10 text-sm flex-grow"
+          class="flex gap-1 items-center justify-center w-full h-10 text-moon-14 flex-grow"
         >
           <a
             aria-label="page 1"
-            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-goten bg-piccolo"
+            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-goten bg-piccolo"
             tabindex="0"
           >
             1
           </a>
           <a
             aria-label="page 2"
-            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-bulma hover:bg-jiren focus:bg-jiren"
+            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
             tabindex="0"
           >
             2
           </a>
           <a
             aria-label="page 3"
-            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-bulma hover:bg-jiren focus:bg-jiren"
+            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
             tabindex="0"
           >
             3
@@ -364,7 +364,7 @@ Object {
           </span>
           <a
             aria-label="page 26"
-            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-bulma hover:bg-jiren focus:bg-jiren"
+            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
             tabindex="0"
           >
             26
@@ -387,7 +387,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M11.5 7L20.5 16L11.5 25"
+                d="M13 10L19 16L13 22"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -473,25 +473,25 @@ Object {
         </button>
         <nav
           aria-label="pagination"
-          class="flex gap-1 items-center justify-center w-full h-10 text-sm flex-grow"
+          class="flex gap-1 items-center justify-center w-full h-10 text-moon-14 flex-grow"
         >
           <a
             aria-label="page 1"
-            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-goten bg-piccolo"
+            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-goten bg-piccolo"
             tabindex="0"
           >
             1
           </a>
           <a
             aria-label="page 2"
-            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-bulma hover:bg-jiren focus:bg-jiren"
+            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
             tabindex="0"
           >
             2
           </a>
           <a
             aria-label="page 3"
-            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-bulma hover:bg-jiren focus:bg-jiren"
+            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
             tabindex="0"
           >
             3
@@ -503,7 +503,7 @@ Object {
           </span>
           <a
             aria-label="page 11"
-            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-bulma hover:bg-jiren focus:bg-jiren"
+            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
             tabindex="0"
           >
             11
@@ -531,25 +531,25 @@ Object {
       </button>
       <nav
         aria-label="pagination"
-        class="flex gap-1 items-center justify-center w-full h-10 text-sm flex-grow"
+        class="flex gap-1 items-center justify-center w-full h-10 text-moon-14 flex-grow"
       >
         <a
           aria-label="page 1"
-          class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-goten bg-piccolo"
+          class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-goten bg-piccolo"
           tabindex="0"
         >
           1
         </a>
         <a
           aria-label="page 2"
-          class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-bulma hover:bg-jiren focus:bg-jiren"
+          class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
           tabindex="0"
         >
           2
         </a>
         <a
           aria-label="page 3"
-          class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-bulma hover:bg-jiren focus:bg-jiren"
+          class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
           tabindex="0"
         >
           3
@@ -561,7 +561,7 @@ Object {
         </span>
         <a
           aria-label="page 11"
-          class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-bulma hover:bg-jiren focus:bg-jiren"
+          class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
           tabindex="0"
         >
           11
@@ -656,7 +656,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M20.5 25L11.5 16L20.5 7"
+                d="M19 22L13 16L19 10"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -670,25 +670,25 @@ Object {
         </div>
         <nav
           aria-label="pagination"
-          class="flex gap-1 items-center justify-center w-full h-10 text-sm flex-grow"
+          class="flex gap-1 items-center justify-center w-full h-10 text-moon-14 flex-grow"
         >
           <a
             aria-label="page 1"
-            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-goten bg-piccolo"
+            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-goten bg-piccolo"
             tabindex="0"
           >
             1
           </a>
           <a
             aria-label="page 2"
-            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-bulma hover:bg-jiren focus:bg-jiren"
+            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
             tabindex="0"
           >
             2
           </a>
           <a
             aria-label="page 3"
-            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-bulma hover:bg-jiren focus:bg-jiren"
+            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
             tabindex="0"
           >
             3
@@ -700,7 +700,7 @@ Object {
           </span>
           <a
             aria-label="page 26"
-            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-bulma hover:bg-jiren focus:bg-jiren"
+            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
             tabindex="0"
           >
             26
@@ -723,7 +723,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M11.5 7L20.5 16L11.5 25"
+                d="M13 10L19 16L13 22"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -761,7 +761,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M20.5 25L11.5 16L20.5 7"
+              d="M19 22L13 16L19 10"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -775,25 +775,25 @@ Object {
       </div>
       <nav
         aria-label="pagination"
-        class="flex gap-1 items-center justify-center w-full h-10 text-sm flex-grow"
+        class="flex gap-1 items-center justify-center w-full h-10 text-moon-14 flex-grow"
       >
         <a
           aria-label="page 1"
-          class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-goten bg-piccolo"
+          class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-goten bg-piccolo"
           tabindex="0"
         >
           1
         </a>
         <a
           aria-label="page 2"
-          class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-bulma hover:bg-jiren focus:bg-jiren"
+          class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
           tabindex="0"
         >
           2
         </a>
         <a
           aria-label="page 3"
-          class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-bulma hover:bg-jiren focus:bg-jiren"
+          class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
           tabindex="0"
         >
           3
@@ -805,7 +805,7 @@ Object {
         </span>
         <a
           aria-label="page 26"
-          class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-bulma hover:bg-jiren focus:bg-jiren"
+          class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
           tabindex="0"
         >
           26
@@ -828,7 +828,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7L20.5 16L11.5 25"
+              d="M13 10L19 16L13 22"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"

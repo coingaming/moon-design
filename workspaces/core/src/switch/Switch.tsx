@@ -14,8 +14,8 @@ const Switch: FC<Props> = ({
   name,
   value,
   onChange,
-  onBgColor = 'bg-piccolo',
-  offBgColor = 'bg-beerus',
+  onBgColor, // deprecated
+  offBgColor, // deprecated
   onIcon,
   offIcon,
   className,
@@ -43,6 +43,7 @@ const Switch: FC<Props> = ({
         'block cursor-pointer rounded-full transition',
         getSwitchSize(size),
         enabled ? onBgColor : offBgColor,
+        !onBgColor && !offBgColor && 'bg-beerus moon-checked:bg-piccolo',
         disabled && 'opacity-30 cursor-not-allowed select-none',
         className
       )}
@@ -78,7 +79,7 @@ const Switch: FC<Props> = ({
         <span
           aria-hidden="true"
           className={mergeClassnames(
-            'z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full',
+            'slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full',
             'bg-goten transition-all',
             getToggleSize(size),
             enabled ? getTogglePosition(size) : 'ltr:left-0 rtl:right-0'
