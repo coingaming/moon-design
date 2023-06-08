@@ -79,7 +79,7 @@ const Switch: FC<Props> = ({
         <span
           aria-hidden="true"
           className={mergeClassnames(
-            'z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full',
+            'slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full',
             'bg-goten transition-all',
             getToggleSize(size),
             enabled ? getTogglePosition(size) : 'ltr:left-0 rtl:right-0'
