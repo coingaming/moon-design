@@ -1,5 +1,13 @@
 # @heathmont/moon-table-tw
 
+## 9.35.1
+
+### Patch Changes
+
+- Update icons and components
+- Updated dependencies [undefined]
+  - @heathmont/moon-core-tw@9.35.1
+
 ## 9.35.0
 
 ### Minor Changes
