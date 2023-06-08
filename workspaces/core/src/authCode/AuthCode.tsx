@@ -1,8 +1,17 @@
-import React, { forwardRef, useEffect, useImperativeHandle, useState, useRef } from "react";
-import mergeClassnames from "../mergeClassnames/mergeClassnames";
-import { AuthCodeProps, allowedCharactersValues } from "./private/types/AuthCodeProps";
-import { AuthCodeRef } from "./private/types/AuthCodeTypes";
-import getInputSizes from "./private/utils/getInputSizes";
+import React, {
+  forwardRef,
+  useEffect,
+  useImperativeHandle,
+  useState,
+  useRef,
+} from 'react';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
+import {
+  AuthCodeProps,
+  allowedCharactersValues,
+} from './private/types/AuthCodeProps';
+import { AuthCodeRef } from './private/types/AuthCodeTypes';
+import getInputSizes from './private/utils/getInputSizes';
 
 type InputMode = 'text' | 'numeric';
 
@@ -20,13 +29,13 @@ const propsMap: { [key: string]: InputProps } = {
   alpha: {
     type: 'text',
     inputMode: 'text',
-    pattern: '[\\w]{1}'
+    pattern: '[\\w]{1}',
   },
 
   alphanumeric: {
     type: 'text',
     inputMode: 'text',
-    pattern: '[\\w\\d]{1}'
+    pattern: '[\\w\\d]{1}',
   },
 
   numeric: {
@@ -34,8 +43,8 @@ const propsMap: { [key: string]: InputProps } = {
     inputMode: 'numeric',
     pattern: '[0-9]{1}',
     min: '0',
-    max: '9'
-  }
+    max: '9',
+  },
 };
 
 const AuthCode = forwardRef<AuthCodeRef, AuthCodeProps>(
@@ -87,7 +96,7 @@ const AuthCode = forwardRef<AuthCodeRef, AuthCodeProps>(
           inputsRef.current[0].focus();
         }
         sendResult();
-      }
+      },
     }));
 
     useEffect(() => {
@@ -103,7 +112,7 @@ const AuthCode = forwardRef<AuthCodeRef, AuthCodeProps>(
 
     const handleOnChange = (e: React.ChangeEvent<HTMLInputElement>) => {
       const {
-        target: { value, nextElementSibling }
+        target: { value, nextElementSibling },
       } = e;
       if (value.length > 1) {
         e.target.value = value.charAt(0);
@@ -156,8 +165,10 @@ const AuthCode = forwardRef<AuthCodeRef, AuthCodeProps>(
           if (!currentValue) {
             inputsRef.current[currentInput].value = pastedCharacter;
             if (inputsRef.current[currentInput].nextElementSibling !== null) {
-              (inputsRef.current[currentInput]
-                .nextElementSibling as HTMLInputElement).focus();
+              (
+                inputsRef.current[currentInput]
+                  .nextElementSibling as HTMLInputElement
+              ).focus();
               currentInput++;
             }
           }
@@ -185,13 +196,15 @@ const AuthCode = forwardRef<AuthCodeRef, AuthCodeProps>(
           }}
           maxLength={1}
           className={mergeClassnames(
-            'h-14 w-[2.875rem] rounded-xl',
+            'h-14 w-[2.875rem] rounded-xl bg-gohan',
             getInputSizes(inputSize),
             'm-0 py-3 px-4 appearance-none text-bulma box-border text-center',
             'shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none',
             'focus-visible::shadow-input-focus focus-visible::outline-none',
-            !isValid && 'text-chichi shadow-input-err hover:shadow-input-err focus:shadow-input-err',
-            disabled && 'opacity-30 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed',
+            !isValid &&
+              'text-chichi shadow-input-err hover:shadow-input-err focus:shadow-input-err',
+            disabled &&
+              'opacity-30 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed',
             stretch && 'flex', // TODO Deprecated.
             stretch && expandable && 'grow', // TODO Deprecated.
             inputClassName // TODO Deprecated.
