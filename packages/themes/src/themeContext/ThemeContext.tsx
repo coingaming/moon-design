@@ -1,4 +1,3 @@
-import React from 'react';
 import { ThemeContext as StyledThemeContext } from 'styled-components';
 
 /**
@@ -6,6 +5,6 @@ import { ThemeContext as StyledThemeContext } from 'styled-components';
  *
  * Allow consumers to access theme values outside of `styled` functions.
  */
-const ThemeContext: React.Context<any> = StyledThemeContext;
+const ThemeContext = StyledThemeContext;
 
 export default ThemeContext;
