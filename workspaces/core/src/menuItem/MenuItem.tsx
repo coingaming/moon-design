@@ -17,7 +17,7 @@ type MenuItemPolymorphicProps<C extends React.FunctionComponent<any> | React.Ele
 
 type MenuItemComponentProps = <C extends React.ElementType = 'button'>(
   props: MenuItemPolymorphicProps<C>
-) => React.ReactElement | null;
+) => React.ReactNode;
 
 type MenuItemState = {
   selected?: boolean;
