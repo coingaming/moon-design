@@ -1,10 +1,10 @@
 import { Breadcrumb } from '@heathmont/moon-core-tw';
 import Link from 'next/link';
-import { useRouter } from 'next/router';
+import { usePathname } from 'next/navigation';
 
 const Breadcrumbs = () => {
-  const { pathname } = useRouter();
-  const [_, ...pages] = pathname === '/' ? [] : pathname.split('/');
+  const pathname = usePathname();
+  const [_, ...pages] = pathname === '/' ? [] : (pathname || '').split('/');
   if (pathname === '/') {
     return null;
   }

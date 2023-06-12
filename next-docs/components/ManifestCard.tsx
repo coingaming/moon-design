@@ -1,4 +1,4 @@
-import { mergeClassnames } from '@heathmont/moon-core-tw';
+import mergeClassnames from '@heathmont/moon-core-tw/lib/mergeClassnames/mergeClassnames';
 
 type Props = {
   title: string;

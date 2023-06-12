@@ -1,3 +1,4 @@
+'use client';
 import React, { createContext, useState } from 'react';
 import { SearchCmdk } from '@heathmont/moon-core-tw';
 import useSearch from './hooks/useSearch';
@@ -17,12 +18,24 @@ const SearchProvider: React.FC<{ children: React.ReactNode }> = ({
   children,
 }) => {
   const { open, setOpen, closeSearch } = useSearch();
-  const [search, setSearch] = useState("");
+  const [search, setSearch] = useState('');
 
   return (
-    <SearchContext.Provider value={{ open: open, setOpen: setOpen, search: search, setSearch: setSearch }}>
+    <SearchContext.Provider
+      value={{
+        open: open,
+        setOpen: setOpen,
+        search: search,
+        setSearch: setSearch,
+      }}
+    >
       {open && <SearchCmdk.Overlay />}
-      <SearchCmdk open={open} onOpenChange={setOpen} shouldFilter={false} label="Command Menu">
+      <SearchCmdk
+        open={open}
+        onOpenChange={setOpen}
+        shouldFilter={false}
+        label="Command Menu"
+      >
         <SearchCmdk.InputWrapper>
           <SearchCmdk.Icon />
           <SearchCmdk.Input
