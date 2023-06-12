@@ -2,6 +2,7 @@ import React, { createContext, useContext, useEffect, ReactNode } from 'react';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import GenericCheckAlternative from '../private/icons/GenericCheckAlternative';
 import useRegisterChild from '../private/utils/useRegisterChild';
+import type { PolymorphicComponentPropWithRef } from '../types/declarations/polymorphic';
 
 type MenuItemProps = {
   width?: string;
@@ -10,7 +11,8 @@ type MenuItemProps = {
   className?: string;
 };
 
-type MenuItemPolymorphicProps<C extends React.ElementType> =
+
+type MenuItemPolymorphicProps<C extends React.FunctionComponent<any> | React.ElementType<any>> =
   PolymorphicComponentPropWithRef<C, MenuItemProps>;
 
 type MenuItemComponentProps = <C extends React.ElementType = 'button'>(
@@ -48,7 +50,7 @@ const useMenuItemContext = (component: string) => {
   return context;
 };
 
-const MenuItemRoot: MenuItemComponentProps = React.forwardRef(
+const MenuItemRoot = React.forwardRef(
   <C extends React.ElementType = 'button'>(
     {
       as,
@@ -59,7 +61,7 @@ const MenuItemRoot: MenuItemComponentProps = React.forwardRef(
       className,
       ...rest
     }: MenuItemPolymorphicProps<C>,
-    ref?: PolymorphicRef<C>
+    ref?,
   ) => {
     const Component = as || 'button';
     const states = {
@@ -91,7 +93,7 @@ const MenuItemRoot: MenuItemComponentProps = React.forwardRef(
   }
 );
 
-const Title: React.FC<{ children?: ReactNode }> = ({ children }) => {
+const Title = ({ children }) => {
   const { registerChild } = useMenuItemContext('MenuItem.Title');
   useEffect(() => {
     registerChild && registerChild('Title');
@@ -118,7 +120,7 @@ const MultiTitle: React.FC<MultiTitleProps> = ({ title, text }) => {
   );
 };
 
-const Radio: React.FC<CheckboxRadioProps> = ({ isSelected, className }) => {
+const Radio = ({ isSelected, className }: CheckboxRadioProps) => {
   const { selected = isSelected, registerChild } =
     useMenuItemContext('MenuItem.Items');
   useEffect(() => {
