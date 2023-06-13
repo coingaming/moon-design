@@ -2,7 +2,10 @@ import React, { createContext, useContext, useEffect, ReactNode } from 'react';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import GenericCheckAlternative from '../private/icons/GenericCheckAlternative';
 import useRegisterChild from '../private/utils/useRegisterChild';
-import type { PolymorphicComponentPropWithRef } from '../types/declarations/polymorphic';
+import type {
+  PolymorphicComponentPropWithRef,
+  PolymorphicRef,
+} from '../types/declarations/polymorphic';
 
 type MenuItemProps = {
   width?: string;
@@ -15,6 +18,7 @@ type MenuItemPolymorphicProps<
   C extends React.FunctionComponent<any> | React.ElementType<any>
 > = PolymorphicComponentPropWithRef<C, MenuItemProps>;
 
+// TODO rethink, do we need it?
 type MenuItemComponentProps = <C extends React.ElementType = 'button'>(
   props: MenuItemPolymorphicProps<C>
 ) => React.ReactNode;
@@ -61,7 +65,7 @@ const MenuItemRoot = React.forwardRef(
       className,
       ...rest
     }: MenuItemPolymorphicProps<C>,
-    ref?: React.LegacyRef<HTMLButtonElement> | undefined
+    ref?: PolymorphicRef<C>
   ) => {
     const Component = as || 'button';
     const states = {
