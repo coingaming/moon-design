@@ -11,9 +11,9 @@ type MenuItemProps = {
   className?: string;
 };
 
-
-type MenuItemPolymorphicProps<C extends React.FunctionComponent<any> | React.ElementType<any>> =
-  PolymorphicComponentPropWithRef<C, MenuItemProps>;
+type MenuItemPolymorphicProps<
+  C extends React.FunctionComponent<any> | React.ElementType<any>
+> = PolymorphicComponentPropWithRef<C, MenuItemProps>;
 
 type MenuItemComponentProps = <C extends React.ElementType = 'button'>(
   props: MenuItemPolymorphicProps<C>
@@ -61,7 +61,7 @@ const MenuItemRoot = React.forwardRef(
       className,
       ...rest
     }: MenuItemPolymorphicProps<C>,
-    ref?,
+    ref?: React.LegacyRef<HTMLButtonElement> | undefined
   ) => {
     const Component = as || 'button';
     const states = {
@@ -93,7 +93,7 @@ const MenuItemRoot = React.forwardRef(
   }
 );
 
-const Title = ({ children }) => {
+const Title = ({ children }: { children: ReactNode }) => {
   const { registerChild } = useMenuItemContext('MenuItem.Title');
   useEffect(() => {
     registerChild && registerChild('Title');
