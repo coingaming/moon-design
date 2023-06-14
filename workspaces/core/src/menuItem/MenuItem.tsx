@@ -1,4 +1,11 @@
-import React, { createContext, useContext, useEffect, ReactNode } from 'react';
+import React, {
+  createContext,
+  useContext,
+  useEffect,
+  ReactNode,
+  ComponentProps,
+  AriaRole,
+} from 'react';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import GenericCheckAlternative from '../private/icons/GenericCheckAlternative';
 import useRegisterChild from '../private/utils/useRegisterChild';
@@ -8,14 +15,10 @@ type MenuItemProps = {
   isSelected?: boolean;
   isActive?: boolean;
   className?: string;
-};
-
-type MenuItemPolymorphicProps<C extends React.ElementType> =
-  PolymorphicComponentPropWithRef<C, MenuItemProps>;
-
-type MenuItemComponentProps = <C extends React.ElementType = 'button'>(
-  props: MenuItemPolymorphicProps<C>
-) => React.ReactElement | null;
+  children: React.ReactNode;
+  as?: React.ElementType;
+  role?: AriaRole;
+} & ComponentProps<any>;
 
 type MenuItemState = {
   selected?: boolean;
@@ -48,8 +51,8 @@ const useMenuItemContext = (component: string) => {
   return context;
 };
 
-const MenuItemRoot: MenuItemComponentProps = React.forwardRef(
-  <C extends React.ElementType = 'button'>(
+const MenuItemRoot = React.forwardRef(
+  (
     {
       as,
       children,
@@ -58,8 +61,8 @@ const MenuItemRoot: MenuItemComponentProps = React.forwardRef(
       isActive,
       className,
       ...rest
-    }: MenuItemPolymorphicProps<C>,
-    ref?: PolymorphicRef<C>
+    }: MenuItemProps,
+    ref?
   ) => {
     const Component = as || 'button';
     const states = {
