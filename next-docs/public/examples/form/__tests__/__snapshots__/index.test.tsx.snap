@@ -237,7 +237,7 @@ Object {
               Additional information
             </label>
             <textarea
-              class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none"
+              class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none"
               id="info"
             />
           </div>
@@ -490,7 +490,7 @@ Object {
             Additional information
           </label>
           <textarea
-            class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none"
+            class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none"
             id="info"
           />
         </div>
@@ -654,7 +654,7 @@ Object {
             class="w-full max-w-full relative z-0"
           >
             <textarea
-              class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none"
+              class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none"
               placeholder="Additional information..."
             />
           </div>
@@ -761,7 +761,7 @@ Object {
           class="w-full max-w-full relative z-0"
         >
           <textarea
-            class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none"
+            class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none"
             placeholder="Additional information..."
           />
         </div>
@@ -1068,7 +1068,7 @@ Object {
             Additional information
           </label>
           <textarea
-            class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none"
+            class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none"
             id="info"
           />
         </div>
@@ -1317,7 +1317,7 @@ Object {
           Additional information
         </label>
         <textarea
-          class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none"
+          class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none"
           id="info"
         />
       </div>
@@ -1477,7 +1477,7 @@ Object {
           class="w-full max-w-full relative z-0"
         >
           <textarea
-            class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none"
+            class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none"
             placeholder="Additional information..."
           />
         </div>
@@ -1580,7 +1580,7 @@ Object {
         class="w-full max-w-full relative z-0"
       >
         <textarea
-          class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none"
+          class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none"
           placeholder="Additional information..."
         />
       </div>
