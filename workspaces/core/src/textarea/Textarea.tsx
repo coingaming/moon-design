@@ -20,10 +20,10 @@ const Textarea = forwardRef<HTMLTextAreaElement, TextareaProps>(
         disabled={disabled || formItemDisabled}
         className={mergeClassnames(
           'block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks',
-          'transition-shadow shadow-input hover:shadow-input-hov',
-          'focus:shadow-input-focus focus:outline-none',
+          'transition-shadow shadow-textarea hover:shadow-textarea-hov',
+          'focus:shadow-textarea-focus focus:outline-none',
           error &&
-            'shadow-input-err hover:shadow-input-err focus:shadow-input-err',
+            'shadow-textarea-err hover:shadow-textarea-err focus:shadow-textarea-err',
           disabled && 'opacity-30 cursor-not-allowed',
           className
         )}
