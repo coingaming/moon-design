@@ -2,7 +2,7 @@
 
 exports[`Dialog Content renders 1`] = `
 <button
-  className="sc-LoTwT YiqNl"
+  className="sc-buvPDS bLPCDm"
   onClick={[Function]}
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
@@ -10,7 +10,7 @@ exports[`Dialog Content renders 1`] = `
 >
   Open Dialog
   <div
-    className="sc-inRwDn gWiyjT"
+    className="sc-bkzQlO bysHDj"
   />
 </button>
 `;
