@@ -1,44 +1,14 @@
-import React, { createContext, ReactNode, useContext } from 'react';
+import React from 'react';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
-import usePagination, { UsePagination } from './private/hooks/usePagination';
-
-type WithChildren<T = {}> = T & { children?: ReactNode };
-type PaginationProps = {
-  className?: string;
-  currentPage: number;
-  setCurrentPage: (page: number) => void;
-  totalPages: number;
-  edgePageCount?: number;
-  middlePagesSiblingCount?: number;
-};
-
-const defaultState: UsePagination = {
-  currentPage: 0,
-  setCurrentPage: () => {},
-  pages: [],
-  hasPreviousPage: false,
-  hasNextPage: false,
-  previousPages: [],
-  isPreviousTruncable: false,
-  middlePages: [],
-  isNextTruncable: false,
-  nextPages: [],
-};
-
-const PaginationContext = createContext(defaultState);
-PaginationContext.displayName = 'PaginationContext';
-
-const usePaginationContext = (component: string) => {
-  const context = useContext(PaginationContext);
-  if (context === null) {
-    const err = new Error(
-      `<${component}> is missing a parent <Pagination /> component.`
-    );
-    // if (Error.captureStackTrace) Error.captureStackTrace(err, usePaginationContext);
-    throw err;
-  }
-  return context;
-};
+import usePagination from './private/hooks/usePagination';
+import usePaginationContext from './private/hooks/usePaginationContext';
+import PaginationContext from './private/types/PaginationContext';
+import type PaginationProps from './private/types/PaginationProps';
+import type PolymorphicNextPrevButtonProps from './private/types/PolymorphicNextPrevButtonProps';
+import type PolymorphicPagesProps from './private/types/PolymorphicPagesProps';
+import type TruncableElementProps from './private/types/TruncableElementProps';
+import type UsePagination from './private/types/UsePagination';
+import type WithChildren from './private/types/WithChildren';
 
 const PaginationRoot: React.FC<WithChildren<PaginationProps>> = ({
   children,
@@ -69,24 +39,6 @@ const PaginationRoot: React.FC<WithChildren<PaginationProps>> = ({
     </PaginationContext.Provider>
   );
 };
-
-interface ChildrenFunc {
-  (data: { disabled?: boolean }): React.ReactNode;
-}
-//Pagination.NextButton
-interface NextPrevButtonProps<C extends React.ElementType> {
-  as?: C;
-  className?: string;
-  children?: React.ReactNode | ChildrenFunc;
-}
-
-type PropsWithChildrenFunc<P = unknown> = P & {
-  children?: ReactNode | ChildrenFunc | undefined;
-};
-
-type PolymorphicNextPrevButtonProps<C extends React.ElementType> =
-  PropsWithChildrenFunc<NextPrevButtonProps<C>> &
-    Omit<React.ComponentPropsWithoutRef<C>, keyof NextPrevButtonProps<C>>;
 
 export const PrevButton = <C extends React.ElementType = 'button'>({
   className,
@@ -182,11 +134,6 @@ export const NextButton = <C extends React.ElementType = 'button'>({
   );
 };
 
-// TruncableElement
-type TruncableElementProps = {
-  prev?: boolean;
-};
-
 const TruncableElement = ({
   prev,
   children,
@@ -202,17 +149,6 @@ const TruncableElement = ({
     </span>
   ) : null;
 };
-
-// Pagination.Pages
-type PagesProps<C extends React.ElementType> = {
-  as?: C;
-  className?: string;
-  truncableText?: JSX.Element | string;
-};
-
-type PolymorphicPagesProps<C extends React.ElementType> =
-  React.PropsWithChildren<PagesProps<C>> &
-    Omit<React.ComponentPropsWithoutRef<C>, keyof PagesProps<C>>;
 
 const Pages = <C extends React.ElementType = 'a'>({
   as,
@@ -230,7 +166,7 @@ const Pages = <C extends React.ElementType = 'a'>({
       tabIndex={0}
       onClick={() => pagination.setCurrentPage(page - 1)}
       className={mergeClassnames(
-        'flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none ',
+        'flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors',
         className,
         pagination.currentPage + 1 === page
           ? 'text-goten bg-piccolo'
@@ -245,7 +181,7 @@ const Pages = <C extends React.ElementType = 'a'>({
   return (
     <nav
       className={mergeClassnames(
-        'flex gap-1 items-center justify-center w-full h-10 text-sm flex-grow',
+        'flex gap-1 items-center justify-center w-full h-10 text-moon-14 flex-grow',
         className
       )}
       aria-label="pagination"

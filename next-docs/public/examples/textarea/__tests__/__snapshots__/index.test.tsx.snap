@@ -12,17 +12,17 @@ Object {
           class="flex flex-wrap md:flex-nowrap items-center justify-around gap-2 w-full"
         >
           <textarea
-            class="block appearance-none resize-none w-full p-4 text-moon-16 bg-gohan rounded-moon-s-sm transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none text-krillin placeholder:text-whis"
+            class="block appearance-none resize-none w-full p-4 text-moon-16 bg-gohan rounded-moon-s-sm transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none text-krillin placeholder:text-whis"
             placeholder="Custom text colours"
             rows="1"
           />
           <textarea
-            class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none outline-chichi hover:outline-piccolo focus:outline-krillin"
+            class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none outline-chichi hover:outline-piccolo focus:outline-krillin"
             placeholder="Custom border colours"
             rows="1"
           />
           <textarea
-            class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-roshi-10"
+            class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none bg-roshi-10"
             placeholder="Custom background colour"
             rows="1"
           />
@@ -31,17 +31,17 @@ Object {
           class="flex flex-wrap md:flex-nowrap items-center justify-around gap-2 w-full"
         >
           <textarea
-            class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none resize-y"
+            class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none resize-y"
             placeholder="Resize vertically"
             rows="3"
           />
           <textarea
-            class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none resize-x"
+            class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none resize-x"
             placeholder="Resize horizontally"
             rows="3"
           />
           <textarea
-            class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none resize"
+            class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none resize"
             placeholder="Resize vertically and horizontally"
             rows="3"
           />
@@ -57,17 +57,17 @@ Object {
         class="flex flex-wrap md:flex-nowrap items-center justify-around gap-2 w-full"
       >
         <textarea
-          class="block appearance-none resize-none w-full p-4 text-moon-16 bg-gohan rounded-moon-s-sm transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none text-krillin placeholder:text-whis"
+          class="block appearance-none resize-none w-full p-4 text-moon-16 bg-gohan rounded-moon-s-sm transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none text-krillin placeholder:text-whis"
           placeholder="Custom text colours"
           rows="1"
         />
         <textarea
-          class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none outline-chichi hover:outline-piccolo focus:outline-krillin"
+          class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none outline-chichi hover:outline-piccolo focus:outline-krillin"
           placeholder="Custom border colours"
           rows="1"
         />
         <textarea
-          class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-roshi-10"
+          class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none bg-roshi-10"
           placeholder="Custom background colour"
           rows="1"
         />
@@ -76,17 +76,17 @@ Object {
         class="flex flex-wrap md:flex-nowrap items-center justify-around gap-2 w-full"
       >
         <textarea
-          class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none resize-y"
+          class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none resize-y"
           placeholder="Resize vertically"
           rows="3"
         />
         <textarea
-          class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none resize-x"
+          class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none resize-x"
           placeholder="Resize horizontally"
           rows="3"
         />
         <textarea
-          class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none resize"
+          class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none resize"
           placeholder="Resize vertically and horizontally"
           rows="3"
         />
@@ -156,7 +156,7 @@ Object {
         dir="rtl"
       >
         <textarea
-          class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none"
+          class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none"
         />
       </div>
     </div>
@@ -166,7 +166,7 @@ Object {
       dir="rtl"
     >
       <textarea
-        class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none"
+        class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none"
       />
     </div>
   </div>,
@@ -233,7 +233,7 @@ Object {
         dir="rtl"
       >
         <textarea
-          class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none opacity-30 cursor-not-allowed"
+          class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none opacity-30 cursor-not-allowed"
           disabled=""
           placeholder="Disabled"
         />
@@ -245,10 +245,165 @@ Object {
       dir="rtl"
     >
       <textarea
-        class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none opacity-30 cursor-not-allowed"
+        class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none opacity-30 cursor-not-allowed"
         disabled=""
         placeholder="Disabled"
       />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Textarea in RTL renders with button 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        dir="rtl"
+      >
+        <div
+          class="flex flex-col flex-wrap md:flex-nowrap items-center justify-around gap-2 w-full"
+        >
+          <div
+            class="w-full relative"
+          >
+            <textarea
+              class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none pb-0 border-b-[4.5rem] border-b-gohan border-solid"
+              placeholder="Text area with button"
+              rows="3"
+            />
+            <button
+              class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary absolute left-4 bottom-4"
+              type="button"
+            >
+              Default
+              <span
+                aria-hidden="true"
+                class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+              />
+            </button>
+          </div>
+          <div
+            class="w-full relative"
+          >
+            <textarea
+              class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none resize-y pb-0 border-b-[4.5rem] border-b-gohan border-solid"
+              placeholder="Text area with scaling and button"
+              rows="3"
+            />
+            <button
+              class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary absolute left-4 bottom-4"
+              type="button"
+            >
+              Default
+              <span
+                aria-hidden="true"
+                class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <div
+        class="flex flex-col flex-wrap md:flex-nowrap items-center justify-around gap-2 w-full"
+      >
+        <div
+          class="w-full relative"
+        >
+          <textarea
+            class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none pb-0 border-b-[4.5rem] border-b-gohan border-solid"
+            placeholder="Text area with button"
+            rows="3"
+          />
+          <button
+            class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary absolute left-4 bottom-4"
+            type="button"
+          >
+            Default
+            <span
+              aria-hidden="true"
+              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
+        </div>
+        <div
+          class="w-full relative"
+        >
+          <textarea
+            class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none resize-y pb-0 border-b-[4.5rem] border-b-gohan border-solid"
+            placeholder="Text area with scaling and button"
+            rows="3"
+          />
+          <button
+            class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary absolute left-4 bottom-4"
+            type="button"
+          >
+            Default
+            <span
+              aria-hidden="true"
+              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
+        </div>
+      </div>
     </div>
   </div>,
   "debug": [Function],
@@ -314,17 +469,17 @@ Object {
         class="flex flex-wrap md:flex-nowrap items-center justify-around gap-2 w-full"
       >
         <textarea
-          class="block appearance-none resize-none w-full p-4 text-moon-16 bg-gohan rounded-moon-s-sm transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none text-krillin placeholder:text-whis"
+          class="block appearance-none resize-none w-full p-4 text-moon-16 bg-gohan rounded-moon-s-sm transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none text-krillin placeholder:text-whis"
           placeholder="Custom text colours"
           rows="1"
         />
         <textarea
-          class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none outline-chichi hover:outline-piccolo focus:outline-krillin"
+          class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none outline-chichi hover:outline-piccolo focus:outline-krillin"
           placeholder="Custom border colours"
           rows="1"
         />
         <textarea
-          class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-roshi-10"
+          class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none bg-roshi-10"
           placeholder="Custom background colour"
           rows="1"
         />
@@ -333,17 +488,17 @@ Object {
         class="flex flex-wrap md:flex-nowrap items-center justify-around gap-2 w-full"
       >
         <textarea
-          class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none resize-y"
+          class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none resize-y"
           placeholder="Resize vertically"
           rows="3"
         />
         <textarea
-          class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none resize-x"
+          class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none resize-x"
           placeholder="Resize horizontally"
           rows="3"
         />
         <textarea
-          class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none resize"
+          class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none resize"
           placeholder="Resize vertically and horizontally"
           rows="3"
         />
@@ -355,17 +510,17 @@ Object {
       class="flex flex-wrap md:flex-nowrap items-center justify-around gap-2 w-full"
     >
       <textarea
-        class="block appearance-none resize-none w-full p-4 text-moon-16 bg-gohan rounded-moon-s-sm transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none text-krillin placeholder:text-whis"
+        class="block appearance-none resize-none w-full p-4 text-moon-16 bg-gohan rounded-moon-s-sm transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none text-krillin placeholder:text-whis"
         placeholder="Custom text colours"
         rows="1"
       />
       <textarea
-        class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none outline-chichi hover:outline-piccolo focus:outline-krillin"
+        class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none outline-chichi hover:outline-piccolo focus:outline-krillin"
         placeholder="Custom border colours"
         rows="1"
       />
       <textarea
-        class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-roshi-10"
+        class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none bg-roshi-10"
         placeholder="Custom background colour"
         rows="1"
       />
@@ -374,17 +529,17 @@ Object {
       class="flex flex-wrap md:flex-nowrap items-center justify-around gap-2 w-full"
     >
       <textarea
-        class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none resize-y"
+        class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none resize-y"
         placeholder="Resize vertically"
         rows="3"
       />
       <textarea
-        class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none resize-x"
+        class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none resize-x"
         placeholder="Resize horizontally"
         rows="3"
       />
       <textarea
-        class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none resize"
+        class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none resize"
         placeholder="Resize vertically and horizontally"
         rows="3"
       />
@@ -450,13 +605,13 @@ Object {
   "baseElement": <body>
     <div>
       <textarea
-        class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none"
+        class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none"
       />
     </div>
   </body>,
   "container": <div>
     <textarea
-      class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none"
+      class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none"
     />
   </div>,
   "debug": [Function],
@@ -519,7 +674,7 @@ Object {
   "baseElement": <body>
     <div>
       <textarea
-        class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none opacity-30 cursor-not-allowed"
+        class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none opacity-30 cursor-not-allowed"
         disabled=""
         placeholder="Disabled"
       />
@@ -527,10 +682,157 @@ Object {
   </body>,
   "container": <div>
     <textarea
-      class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none opacity-30 cursor-not-allowed"
+      class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none opacity-30 cursor-not-allowed"
       disabled=""
       placeholder="Disabled"
     />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Textarea renders with button 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex flex-col flex-wrap md:flex-nowrap items-center justify-around gap-2 w-full"
+      >
+        <div
+          class="w-full relative"
+        >
+          <textarea
+            class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none pb-0 border-b-[4.5rem] border-b-gohan border-solid"
+            placeholder="Text area with button"
+            rows="3"
+          />
+          <button
+            class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary absolute left-4 bottom-4"
+            type="button"
+          >
+            Default
+            <span
+              aria-hidden="true"
+              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
+        </div>
+        <div
+          class="w-full relative"
+        >
+          <textarea
+            class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none resize-y pb-0 border-b-[4.5rem] border-b-gohan border-solid"
+            placeholder="Text area with scaling and button"
+            rows="3"
+          />
+          <button
+            class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary absolute left-4 bottom-4"
+            type="button"
+          >
+            Default
+            <span
+              aria-hidden="true"
+              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex flex-col flex-wrap md:flex-nowrap items-center justify-around gap-2 w-full"
+    >
+      <div
+        class="w-full relative"
+      >
+        <textarea
+          class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none pb-0 border-b-[4.5rem] border-b-gohan border-solid"
+          placeholder="Text area with button"
+          rows="3"
+        />
+        <button
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary absolute left-4 bottom-4"
+          type="button"
+        >
+          Default
+          <span
+            aria-hidden="true"
+            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
+        </button>
+      </div>
+      <div
+        class="w-full relative"
+      >
+        <textarea
+          class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none resize-y pb-0 border-b-[4.5rem] border-b-gohan border-solid"
+          placeholder="Text area with scaling and button"
+          rows="3"
+        />
+        <button
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary absolute left-4 bottom-4"
+          type="button"
+        >
+          Default
+          <span
+            aria-hidden="true"
+            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
+        </button>
+      </div>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

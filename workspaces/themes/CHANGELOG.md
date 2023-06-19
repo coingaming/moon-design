@@ -1,5 +1,17 @@
 # @heathmont/moon-themes-tw
 
+## 9.35.2
+
+### Patch Changes
+
+- Bump version
+
+## 9.35.1
+
+### Patch Changes
+
+- Update icons and components
+
 ## 9.35.0
 
 ### Minor Changes

@@ -9,190 +9,15 @@ Object {
         dir="rtl"
       >
         <div
-          data-headlessui-state="open"
-        >
-          <div
-            class="relative"
-          >
-            <div
-              aria-controls="headlessui-popover-panel-:r1a:"
-              aria-expanded="true"
-              data-headlessui-state="open"
-              id="headlessui-popover-button-:r18:"
-            >
-              <button
-                class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-                type="button"
-              >
-                Toggle Popover
-                <span
-                  aria-hidden="true"
-                  class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-                />
-              </button>
-            </div>
-            <div
-              class="w-72 z-[999999] rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
-              data-headlessui-state="open"
-              data-popper-escaped="true"
-              data-popper-placement="bottom"
-              data-popper-reference-hidden="true"
-              id="headlessui-popover-panel-:r1a:"
-              style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 8px);"
-              tabindex="-1"
-            >
-              <div
-                class="p-6 flex flex-col gap-6"
-              >
-                <button
-                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                  type="button"
-                >
-                  <span
-                    class="flex w-11 h-11 bg-goku items-center justify-center rounded-lg"
-                  >
-                    <svg
-                      class="text-bulma text-moon-24"
-                      fill="none"
-                      height="1em"
-                      viewBox="0 0 32 32"
-                      width="1em"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M13.206 24.8126C12.9299 24.8126 12.706 25.0365 12.706 25.3126C12.706 25.5888 12.9299 25.8126 13.206 25.8126V24.8126ZM18.9964 25.8126C19.2726 25.8126 19.4964 25.5888 19.4964 25.3126C19.4964 25.0365 19.2726 24.8126 18.9964 24.8126V25.8126ZM24.58 7.29267C24.3039 7.29267 24.08 7.51653 24.08 7.79267C24.08 8.06881 24.3039 8.29267 24.58 8.29267V7.29267ZM25.4086 7.79267V8.29267H25.409L25.4086 7.79267ZM26.8238 10.305L26.3721 10.0906L26.372 10.0908L26.8238 10.305ZM5.11029 9.62845L4.65044 9.82477L4.65147 9.82716L5.11029 9.62845ZM6.19557 7.79267L6.19423 8.29267H6.19557V7.79267ZM7.42 8.29267C7.69614 8.29267 7.92 8.06881 7.92 7.79267C7.92 7.51653 7.69614 7.29267 7.42 7.29267V8.29267ZM15.9629 18.5633C16.2379 18.5886 16.4814 18.3862 16.5067 18.1112C16.532 17.8363 16.3296 17.5928 16.0547 17.5675L15.9629 18.5633ZM9.004 4V3.5C8.72933 3.5 8.50609 3.72156 8.50401 3.99623L9.004 4ZM23.194 4L23.694 3.99606C23.6918 3.72147 23.4686 3.5 23.194 3.5V4ZM16.1477 17.5675C15.8728 17.5928 15.6704 17.8363 15.6957 18.1112C15.721 18.3862 15.9645 18.5886 16.2395 18.5633L16.1477 17.5675ZM13.206 25.8126H18.9964V24.8126H13.206V25.8126ZM24.58 8.29267H25.4086V7.29267H24.58V8.29267ZM25.409 8.29267C25.588 8.29252 25.7665 8.34213 25.9277 8.44009L26.447 7.58549C26.1325 7.39435 25.7746 7.29236 25.4082 7.29267L25.409 8.29267ZM25.9277 8.44009C26.0893 8.53827 26.2295 8.68277 26.3313 8.86348L27.2026 8.37268C27.0202 8.04879 26.7612 7.7764 26.447 7.58549L25.9277 8.44009ZM26.3313 8.86348C26.4332 9.04435 26.4919 9.2534 26.4992 9.47032L27.4987 9.43665C27.4861 9.06273 27.385 8.69641 27.2026 8.37268L26.3313 8.86348ZM26.4992 9.47032C26.5065 9.68726 26.4621 9.90107 26.3721 10.0906L27.2755 10.5194C27.4351 10.1832 27.5113 9.81056 27.4987 9.43665L26.4992 9.47032ZM26.372 10.0908C24.9279 13.1363 21.8163 17.6954 16.1778 17.6954V18.6954C22.4415 18.6954 25.8018 13.6274 27.2756 10.5192L26.372 10.0908ZM16.1778 17.6954H16.0625V18.6954H16.1778V17.6954ZM16.0625 17.6954C9.98924 17.6954 6.84769 12.3819 5.56911 9.42974L4.65147 9.82716C5.94098 12.8046 9.31906 18.6954 16.0625 18.6954V17.6954ZM5.57013 9.43212C5.51701 9.30768 5.49296 9.16873 5.50178 9.02879L4.50377 8.96587C4.48525 9.25958 4.53516 9.55474 4.65044 9.82477L5.57013 9.43212ZM5.50178 9.02879C5.51061 8.88886 5.55177 8.75594 5.61891 8.64238L4.75808 8.13348C4.60887 8.38588 4.52228 8.67215 4.50377 8.96587L5.50178 9.02879ZM5.61891 8.64238C5.68595 8.52897 5.77556 8.4403 5.8761 8.38087L5.36726 7.52001C5.11575 7.66866 4.90739 7.88092 4.75808 8.13348L5.61891 8.64238ZM5.8761 8.38087C5.9763 8.32164 6.08556 8.29238 6.19423 8.29267L6.19691 7.29267C5.9046 7.29189 5.61911 7.37115 5.36726 7.52001L5.8761 8.38087ZM6.19557 8.29267H7.42V7.29267H6.19557V8.29267ZM16.0547 17.5675C14.4551 17.4202 13.2476 16.5609 12.3196 15.2958C11.3839 14.0202 10.7505 12.3525 10.3266 10.6654C9.90407 8.98384 9.69782 7.31645 9.59762 6.06575C9.54761 5.44143 9.5242 4.92339 9.5133 4.56244C9.50785 4.38201 9.50554 4.24098 9.50457 4.14572C9.50409 4.09809 9.50395 4.06192 9.50393 4.03799C9.50391 4.02603 9.50393 4.01713 9.50395 4.01139C9.50396 4.00852 9.50397 4.00645 9.50398 4.00517C9.50398 4.00454 9.50398 4.0041 9.50399 4.00387C9.50399 4.00375 9.50399 4.00373 9.50399 4.00367C9.50399 4.00369 9.50399 4.00377 9.004 4C8.50401 3.99623 8.50401 3.99641 8.50401 3.99664C8.50401 3.99679 8.50401 3.99707 8.50401 3.99736C8.504 3.99794 8.504 3.99873 8.50399 3.99971C8.50398 4.00169 8.50397 4.00447 8.50396 4.00805C8.50393 4.01521 8.50391 4.02556 8.50393 4.03899C8.50395 4.06585 8.50411 4.10506 8.50462 4.15582C8.50565 4.25732 8.50809 4.40506 8.51376 4.59262C8.52508 4.96763 8.54929 5.50242 8.60082 6.1456C8.70371 7.42989 8.91628 9.15613 9.35672 10.9091C9.79577 12.6565 10.4694 14.4643 11.5133 15.8873C12.5649 17.3209 14.0095 18.3833 15.9629 18.5633L16.0547 17.5675ZM9.004 4.5H23.194V3.5H9.004V4.5ZM23.194 4C22.694 4.00394 22.694 4.00386 22.694 4.00383C22.694 4.00389 22.694 4.00391 22.694 4.00403C22.694 4.00426 22.694 4.0047 22.694 4.00534C22.694 4.00661 22.694 4.00869 22.6941 4.01156C22.6941 4.01729 22.6941 4.02619 22.6941 4.03816C22.6941 4.06208 22.6939 4.09826 22.6935 4.14588C22.6925 4.24115 22.6903 4.38217 22.6849 4.5626C22.6741 4.92355 22.6509 5.44159 22.6011 6.06591C22.5013 7.31661 22.2956 8.98399 21.8736 10.6656C21.4502 12.3527 20.8174 14.0203 19.882 15.2959C18.9545 16.5609 17.7472 17.4202 16.1477 17.5675L16.2395 18.5633C18.193 18.3833 19.6373 17.3208 20.6885 15.8872C21.7319 14.4642 22.405 12.6564 22.8435 10.9089C23.2834 9.15598 23.4954 7.42973 23.5979 6.14544C23.6492 5.50226 23.6732 4.96747 23.6844 4.59245C23.69 4.4049 23.6924 4.25716 23.6934 4.15566C23.6939 4.1049 23.6941 4.06569 23.6941 4.03883C23.6941 4.0254 23.6941 4.01505 23.694 4.00789C23.694 4.00431 23.694 4.00152 23.694 3.99955C23.694 3.99856 23.694 3.99778 23.694 3.9972C23.694 3.9969 23.694 3.99662 23.694 3.99648C23.694 3.99624 23.694 3.99606 23.194 4ZM14.2302 18.1954C13.7343 18.2594 13.7343 18.2591 13.7343 18.2589C13.7342 18.2588 13.7342 18.2585 13.7342 18.2583C13.7342 18.258 13.7341 18.2577 13.7341 18.2574C13.734 18.2569 13.734 18.2565 13.7339 18.2562C13.7339 18.2556 13.7339 18.2556 13.7339 18.256C13.734 18.2569 13.7343 18.2598 13.7347 18.2646C13.7356 18.2743 13.7369 18.2917 13.738 18.3163C13.7403 18.3655 13.7416 18.4433 13.7364 18.5456C13.726 18.7501 13.6895 19.0518 13.5825 19.4177C13.3699 20.1448 12.8734 21.1448 11.7123 22.1522L12.3677 22.9075C13.6794 21.7694 14.278 20.6022 14.5423 19.6984C14.6738 19.2489 14.7212 18.8692 14.7351 18.5964C14.742 18.4599 14.7406 18.3499 14.737 18.2711C14.7352 18.2316 14.7329 18.1999 14.7308 18.1764C14.7298 18.1647 14.7288 18.155 14.728 18.1475C14.7276 18.1437 14.7272 18.1405 14.7269 18.1378C14.7267 18.1365 14.7266 18.1353 14.7265 18.1342C14.7264 18.1337 14.7263 18.1332 14.7263 18.1327C14.7262 18.1325 14.7262 18.1321 14.7262 18.132C14.7261 18.1317 14.7261 18.1314 14.2302 18.1954ZM17.7697 18.1954C17.2738 18.1315 17.2738 18.1318 17.2738 18.1321C17.2737 18.1322 17.2737 18.1326 17.2737 18.1328C17.2736 18.1333 17.2736 18.1338 17.2735 18.1343C17.2734 18.1354 17.2732 18.1366 17.273 18.1379C17.2727 18.1406 17.2724 18.1439 17.2719 18.1476C17.2711 18.1551 17.2701 18.1648 17.2691 18.1765C17.267 18.2 17.2647 18.2317 17.263 18.2712C17.2594 18.35 17.258 18.46 17.2649 18.5964C17.2789 18.8693 17.3264 19.249 17.4578 19.6984C17.7222 20.6022 18.3208 21.7694 19.6323 22.9075L20.2877 22.1523C19.1268 21.1448 18.6303 20.1448 18.4176 19.4177C18.3106 19.0517 18.2741 18.7501 18.2636 18.5455C18.2584 18.4432 18.2597 18.3654 18.2619 18.3162C18.263 18.2916 18.2644 18.2742 18.2652 18.2645C18.2657 18.2597 18.266 18.2568 18.2661 18.2559C18.2661 18.2555 18.2661 18.2555 18.266 18.2561C18.266 18.2564 18.266 18.2568 18.2659 18.2573C18.2659 18.2576 18.2658 18.2579 18.2658 18.2582C18.2658 18.2584 18.2657 18.2587 18.2657 18.2587C18.2657 18.259 18.2656 18.2593 17.7697 18.1954ZM10.6892 23.0299H21.5132V22.0299H10.6892V23.0299ZM21.5132 23.0299C21.9732 23.0299 22.3332 23.3953 22.3332 23.8302H23.3332C23.3332 22.8289 22.5113 22.0299 21.5132 22.0299V23.0299ZM22.3332 23.8302V26.6997H23.3332V23.8302H22.3332ZM22.3332 26.6997C22.3332 27.1346 21.9732 27.5 21.5132 27.5V28.5C22.5113 28.5 23.3332 27.701 23.3332 26.6997H22.3332ZM21.5132 27.5H10.6892V28.5H21.5132V27.5ZM10.6892 27.5C10.2292 27.5 9.8692 27.1346 9.8692 26.6997H8.8692C8.8692 27.701 9.69114 28.5 10.6892 28.5V27.5ZM9.8692 26.6997V23.8302H8.8692V26.6997H9.8692ZM9.8692 23.8302C9.8692 23.3953 10.2292 23.0299 10.6892 23.0299V22.0299C9.69114 22.0299 8.8692 22.8289 8.8692 23.8302H9.8692Z"
-                        fill="currentColor"
-                      />
-                    </svg>
-                  </span>
-                  <span
-                    class="block grow text-start text-bulma overflow-hidden"
-                  >
-                    <span
-                      class="block text-bulma text-moon-14"
-                    >
-                      Tournaments
-                    </span>
-                    <span
-                      class="flex text-trunks text-moon-12"
-                    >
-                      <span
-                        class="flex-1 truncate"
-                      >
-                        <span>
-                          Best tournaments with streamers
-                        </span>
-                      </span>
-                    </span>
-                  </span>
-                </button>
-                <button
-                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                  type="button"
-                >
-                  <span
-                    class="flex w-11 h-11 bg-goku items-center justify-center"
-                  >
-                    <svg
-                      class="text-bulma text-moon-24"
-                      fill="none"
-                      height="1em"
-                      viewBox="0 0 32 32"
-                      width="1em"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M13.0385 19.0646V23.3767C13.0385 24.2555 12.3261 24.9678 11.4474 24.9678C10.6394 24.9678 9.95978 24.3624 9.86682 23.5598L9.34615 19.0646M7.5 17.3937V14.6063C7.5 13.9604 7.87238 13.3723 8.45631 13.096C8.67968 12.9903 8.92372 12.9355 9.17083 12.9355H13.356C13.5504 12.9355 13.7405 12.8789 13.9031 12.7726L20.4058 8.52243C21.736 7.65298 23.5 8.60739 23.5 10.1966V21.8035C23.5 23.3927 21.736 24.3471 20.4058 23.4776L13.9031 19.2275C13.7405 19.1212 13.5504 19.0646 13.356 19.0646H9.17083C8.92372 19.0646 8.67968 19.0097 8.45631 18.9041C7.87238 18.6278 7.5 18.0397 7.5 17.3937Z"
-                        stroke="currentColor"
-                      />
-                    </svg>
-                  </span>
-                  <span
-                    class="block grow text-start text-bulma overflow-hidden"
-                  >
-                    <span
-                      class="block text-bulma text-moon-14"
-                    >
-                      Promotions
-                    </span>
-                    <span
-                      class="flex text-trunks text-moon-12"
-                    >
-                      <span
-                        class="flex-1 truncate"
-                      >
-                        <span>
-                           Your favourite games
-                        </span>
-                      </span>
-                    </span>
-                  </span>
-                </button>
-                <button
-                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                  type="button"
-                >
-                  <span
-                    class="flex w-11 h-11 bg-goku items-center justify-center"
-                  >
-                    <svg
-                      class="text-bulma text-moon-24"
-                      fill="none"
-                      height="1em"
-                      viewBox="0 0 32 32"
-                      width="1em"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M10.8846 14.5385L10.8846 25.5M10.8846 6.5V9.42308M21.1154 22.5769V25.5M21.1154 6.5V17.4615M8.5 14.5385H13.2692C14.3738 14.5385 15.2692 13.6431 15.2692 12.5385V11.4231C15.2692 10.3185 14.3738 9.4231 13.2692 9.4231H8.5C7.39543 9.4231 6.5 10.3185 6.5 11.4231V12.5385C6.5 13.643 7.39543 14.5385 8.5 14.5385ZM18.7308 22.5769H23.5C24.6046 22.5769 25.5 21.6815 25.5 20.5769V19.4615C25.5 18.357 24.6046 17.4615 23.5 17.4615H18.7308C17.6262 17.4615 16.7308 18.357 16.7308 19.4615V20.5769C16.7308 21.6815 17.6262 22.5769 18.7308 22.5769Z"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                      />
-                    </svg>
-                  </span>
-                  <span
-                    class="block grow text-start text-bulma overflow-hidden"
-                  >
-                    <span
-                      class="block text-bulma text-moon-14"
-                    >
-                      Providers
-                    </span>
-                    <span
-                      class="flex text-trunks text-moon-12"
-                    >
-                      <span
-                        class="flex-1 truncate"
-                      >
-                        <span>
-                           Your favourite games
-                        </span>
-                      </span>
-                    </span>
-                  </span>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      dir="rtl"
-    >
-      <div
-        data-headlessui-state="open"
-      >
-        <div
           class="relative"
+          data-headlessui-state="open"
         >
           <div
             aria-controls="headlessui-popover-panel-:r1a:"
             aria-expanded="true"
             data-headlessui-state="open"
             id="headlessui-popover-button-:r18:"
+            role="button"
           >
             <button
               class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
@@ -350,6 +175,177 @@ Object {
         </div>
       </div>
     </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <div
+        class="relative"
+        data-headlessui-state="open"
+      >
+        <div
+          aria-controls="headlessui-popover-panel-:r1a:"
+          aria-expanded="true"
+          data-headlessui-state="open"
+          id="headlessui-popover-button-:r18:"
+          role="button"
+        >
+          <button
+            class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+            type="button"
+          >
+            Toggle Popover
+            <span
+              aria-hidden="true"
+              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
+        </div>
+        <div
+          class="w-72 z-[999999] rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
+          data-headlessui-state="open"
+          data-popper-escaped="true"
+          data-popper-placement="bottom"
+          data-popper-reference-hidden="true"
+          id="headlessui-popover-panel-:r1a:"
+          style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 8px);"
+          tabindex="-1"
+        >
+          <div
+            class="p-6 flex flex-col gap-6"
+          >
+            <button
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+              type="button"
+            >
+              <span
+                class="flex w-11 h-11 bg-goku items-center justify-center rounded-lg"
+              >
+                <svg
+                  class="text-bulma text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M13.206 24.8126C12.9299 24.8126 12.706 25.0365 12.706 25.3126C12.706 25.5888 12.9299 25.8126 13.206 25.8126V24.8126ZM18.9964 25.8126C19.2726 25.8126 19.4964 25.5888 19.4964 25.3126C19.4964 25.0365 19.2726 24.8126 18.9964 24.8126V25.8126ZM24.58 7.29267C24.3039 7.29267 24.08 7.51653 24.08 7.79267C24.08 8.06881 24.3039 8.29267 24.58 8.29267V7.29267ZM25.4086 7.79267V8.29267H25.409L25.4086 7.79267ZM26.8238 10.305L26.3721 10.0906L26.372 10.0908L26.8238 10.305ZM5.11029 9.62845L4.65044 9.82477L4.65147 9.82716L5.11029 9.62845ZM6.19557 7.79267L6.19423 8.29267H6.19557V7.79267ZM7.42 8.29267C7.69614 8.29267 7.92 8.06881 7.92 7.79267C7.92 7.51653 7.69614 7.29267 7.42 7.29267V8.29267ZM15.9629 18.5633C16.2379 18.5886 16.4814 18.3862 16.5067 18.1112C16.532 17.8363 16.3296 17.5928 16.0547 17.5675L15.9629 18.5633ZM9.004 4V3.5C8.72933 3.5 8.50609 3.72156 8.50401 3.99623L9.004 4ZM23.194 4L23.694 3.99606C23.6918 3.72147 23.4686 3.5 23.194 3.5V4ZM16.1477 17.5675C15.8728 17.5928 15.6704 17.8363 15.6957 18.1112C15.721 18.3862 15.9645 18.5886 16.2395 18.5633L16.1477 17.5675ZM13.206 25.8126H18.9964V24.8126H13.206V25.8126ZM24.58 8.29267H25.4086V7.29267H24.58V8.29267ZM25.409 8.29267C25.588 8.29252 25.7665 8.34213 25.9277 8.44009L26.447 7.58549C26.1325 7.39435 25.7746 7.29236 25.4082 7.29267L25.409 8.29267ZM25.9277 8.44009C26.0893 8.53827 26.2295 8.68277 26.3313 8.86348L27.2026 8.37268C27.0202 8.04879 26.7612 7.7764 26.447 7.58549L25.9277 8.44009ZM26.3313 8.86348C26.4332 9.04435 26.4919 9.2534 26.4992 9.47032L27.4987 9.43665C27.4861 9.06273 27.385 8.69641 27.2026 8.37268L26.3313 8.86348ZM26.4992 9.47032C26.5065 9.68726 26.4621 9.90107 26.3721 10.0906L27.2755 10.5194C27.4351 10.1832 27.5113 9.81056 27.4987 9.43665L26.4992 9.47032ZM26.372 10.0908C24.9279 13.1363 21.8163 17.6954 16.1778 17.6954V18.6954C22.4415 18.6954 25.8018 13.6274 27.2756 10.5192L26.372 10.0908ZM16.1778 17.6954H16.0625V18.6954H16.1778V17.6954ZM16.0625 17.6954C9.98924 17.6954 6.84769 12.3819 5.56911 9.42974L4.65147 9.82716C5.94098 12.8046 9.31906 18.6954 16.0625 18.6954V17.6954ZM5.57013 9.43212C5.51701 9.30768 5.49296 9.16873 5.50178 9.02879L4.50377 8.96587C4.48525 9.25958 4.53516 9.55474 4.65044 9.82477L5.57013 9.43212ZM5.50178 9.02879C5.51061 8.88886 5.55177 8.75594 5.61891 8.64238L4.75808 8.13348C4.60887 8.38588 4.52228 8.67215 4.50377 8.96587L5.50178 9.02879ZM5.61891 8.64238C5.68595 8.52897 5.77556 8.4403 5.8761 8.38087L5.36726 7.52001C5.11575 7.66866 4.90739 7.88092 4.75808 8.13348L5.61891 8.64238ZM5.8761 8.38087C5.9763 8.32164 6.08556 8.29238 6.19423 8.29267L6.19691 7.29267C5.9046 7.29189 5.61911 7.37115 5.36726 7.52001L5.8761 8.38087ZM6.19557 8.29267H7.42V7.29267H6.19557V8.29267ZM16.0547 17.5675C14.4551 17.4202 13.2476 16.5609 12.3196 15.2958C11.3839 14.0202 10.7505 12.3525 10.3266 10.6654C9.90407 8.98384 9.69782 7.31645 9.59762 6.06575C9.54761 5.44143 9.5242 4.92339 9.5133 4.56244C9.50785 4.38201 9.50554 4.24098 9.50457 4.14572C9.50409 4.09809 9.50395 4.06192 9.50393 4.03799C9.50391 4.02603 9.50393 4.01713 9.50395 4.01139C9.50396 4.00852 9.50397 4.00645 9.50398 4.00517C9.50398 4.00454 9.50398 4.0041 9.50399 4.00387C9.50399 4.00375 9.50399 4.00373 9.50399 4.00367C9.50399 4.00369 9.50399 4.00377 9.004 4C8.50401 3.99623 8.50401 3.99641 8.50401 3.99664C8.50401 3.99679 8.50401 3.99707 8.50401 3.99736C8.504 3.99794 8.504 3.99873 8.50399 3.99971C8.50398 4.00169 8.50397 4.00447 8.50396 4.00805C8.50393 4.01521 8.50391 4.02556 8.50393 4.03899C8.50395 4.06585 8.50411 4.10506 8.50462 4.15582C8.50565 4.25732 8.50809 4.40506 8.51376 4.59262C8.52508 4.96763 8.54929 5.50242 8.60082 6.1456C8.70371 7.42989 8.91628 9.15613 9.35672 10.9091C9.79577 12.6565 10.4694 14.4643 11.5133 15.8873C12.5649 17.3209 14.0095 18.3833 15.9629 18.5633L16.0547 17.5675ZM9.004 4.5H23.194V3.5H9.004V4.5ZM23.194 4C22.694 4.00394 22.694 4.00386 22.694 4.00383C22.694 4.00389 22.694 4.00391 22.694 4.00403C22.694 4.00426 22.694 4.0047 22.694 4.00534C22.694 4.00661 22.694 4.00869 22.6941 4.01156C22.6941 4.01729 22.6941 4.02619 22.6941 4.03816C22.6941 4.06208 22.6939 4.09826 22.6935 4.14588C22.6925 4.24115 22.6903 4.38217 22.6849 4.5626C22.6741 4.92355 22.6509 5.44159 22.6011 6.06591C22.5013 7.31661 22.2956 8.98399 21.8736 10.6656C21.4502 12.3527 20.8174 14.0203 19.882 15.2959C18.9545 16.5609 17.7472 17.4202 16.1477 17.5675L16.2395 18.5633C18.193 18.3833 19.6373 17.3208 20.6885 15.8872C21.7319 14.4642 22.405 12.6564 22.8435 10.9089C23.2834 9.15598 23.4954 7.42973 23.5979 6.14544C23.6492 5.50226 23.6732 4.96747 23.6844 4.59245C23.69 4.4049 23.6924 4.25716 23.6934 4.15566C23.6939 4.1049 23.6941 4.06569 23.6941 4.03883C23.6941 4.0254 23.6941 4.01505 23.694 4.00789C23.694 4.00431 23.694 4.00152 23.694 3.99955C23.694 3.99856 23.694 3.99778 23.694 3.9972C23.694 3.9969 23.694 3.99662 23.694 3.99648C23.694 3.99624 23.694 3.99606 23.194 4ZM14.2302 18.1954C13.7343 18.2594 13.7343 18.2591 13.7343 18.2589C13.7342 18.2588 13.7342 18.2585 13.7342 18.2583C13.7342 18.258 13.7341 18.2577 13.7341 18.2574C13.734 18.2569 13.734 18.2565 13.7339 18.2562C13.7339 18.2556 13.7339 18.2556 13.7339 18.256C13.734 18.2569 13.7343 18.2598 13.7347 18.2646C13.7356 18.2743 13.7369 18.2917 13.738 18.3163C13.7403 18.3655 13.7416 18.4433 13.7364 18.5456C13.726 18.7501 13.6895 19.0518 13.5825 19.4177C13.3699 20.1448 12.8734 21.1448 11.7123 22.1522L12.3677 22.9075C13.6794 21.7694 14.278 20.6022 14.5423 19.6984C14.6738 19.2489 14.7212 18.8692 14.7351 18.5964C14.742 18.4599 14.7406 18.3499 14.737 18.2711C14.7352 18.2316 14.7329 18.1999 14.7308 18.1764C14.7298 18.1647 14.7288 18.155 14.728 18.1475C14.7276 18.1437 14.7272 18.1405 14.7269 18.1378C14.7267 18.1365 14.7266 18.1353 14.7265 18.1342C14.7264 18.1337 14.7263 18.1332 14.7263 18.1327C14.7262 18.1325 14.7262 18.1321 14.7262 18.132C14.7261 18.1317 14.7261 18.1314 14.2302 18.1954ZM17.7697 18.1954C17.2738 18.1315 17.2738 18.1318 17.2738 18.1321C17.2737 18.1322 17.2737 18.1326 17.2737 18.1328C17.2736 18.1333 17.2736 18.1338 17.2735 18.1343C17.2734 18.1354 17.2732 18.1366 17.273 18.1379C17.2727 18.1406 17.2724 18.1439 17.2719 18.1476C17.2711 18.1551 17.2701 18.1648 17.2691 18.1765C17.267 18.2 17.2647 18.2317 17.263 18.2712C17.2594 18.35 17.258 18.46 17.2649 18.5964C17.2789 18.8693 17.3264 19.249 17.4578 19.6984C17.7222 20.6022 18.3208 21.7694 19.6323 22.9075L20.2877 22.1523C19.1268 21.1448 18.6303 20.1448 18.4176 19.4177C18.3106 19.0517 18.2741 18.7501 18.2636 18.5455C18.2584 18.4432 18.2597 18.3654 18.2619 18.3162C18.263 18.2916 18.2644 18.2742 18.2652 18.2645C18.2657 18.2597 18.266 18.2568 18.2661 18.2559C18.2661 18.2555 18.2661 18.2555 18.266 18.2561C18.266 18.2564 18.266 18.2568 18.2659 18.2573C18.2659 18.2576 18.2658 18.2579 18.2658 18.2582C18.2658 18.2584 18.2657 18.2587 18.2657 18.2587C18.2657 18.259 18.2656 18.2593 17.7697 18.1954ZM10.6892 23.0299H21.5132V22.0299H10.6892V23.0299ZM21.5132 23.0299C21.9732 23.0299 22.3332 23.3953 22.3332 23.8302H23.3332C23.3332 22.8289 22.5113 22.0299 21.5132 22.0299V23.0299ZM22.3332 23.8302V26.6997H23.3332V23.8302H22.3332ZM22.3332 26.6997C22.3332 27.1346 21.9732 27.5 21.5132 27.5V28.5C22.5113 28.5 23.3332 27.701 23.3332 26.6997H22.3332ZM21.5132 27.5H10.6892V28.5H21.5132V27.5ZM10.6892 27.5C10.2292 27.5 9.8692 27.1346 9.8692 26.6997H8.8692C8.8692 27.701 9.69114 28.5 10.6892 28.5V27.5ZM9.8692 26.6997V23.8302H8.8692V26.6997H9.8692ZM9.8692 23.8302C9.8692 23.3953 10.2292 23.0299 10.6892 23.0299V22.0299C9.69114 22.0299 8.8692 22.8289 8.8692 23.8302H9.8692Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </span>
+              <span
+                class="block grow text-start text-bulma overflow-hidden"
+              >
+                <span
+                  class="block text-bulma text-moon-14"
+                >
+                  Tournaments
+                </span>
+                <span
+                  class="flex text-trunks text-moon-12"
+                >
+                  <span
+                    class="flex-1 truncate"
+                  >
+                    <span>
+                      Best tournaments with streamers
+                    </span>
+                  </span>
+                </span>
+              </span>
+            </button>
+            <button
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+              type="button"
+            >
+              <span
+                class="flex w-11 h-11 bg-goku items-center justify-center"
+              >
+                <svg
+                  class="text-bulma text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M13.0385 19.0646V23.3767C13.0385 24.2555 12.3261 24.9678 11.4474 24.9678C10.6394 24.9678 9.95978 24.3624 9.86682 23.5598L9.34615 19.0646M7.5 17.3937V14.6063C7.5 13.9604 7.87238 13.3723 8.45631 13.096C8.67968 12.9903 8.92372 12.9355 9.17083 12.9355H13.356C13.5504 12.9355 13.7405 12.8789 13.9031 12.7726L20.4058 8.52243C21.736 7.65298 23.5 8.60739 23.5 10.1966V21.8035C23.5 23.3927 21.736 24.3471 20.4058 23.4776L13.9031 19.2275C13.7405 19.1212 13.5504 19.0646 13.356 19.0646H9.17083C8.92372 19.0646 8.67968 19.0097 8.45631 18.9041C7.87238 18.6278 7.5 18.0397 7.5 17.3937Z"
+                    stroke="currentColor"
+                  />
+                </svg>
+              </span>
+              <span
+                class="block grow text-start text-bulma overflow-hidden"
+              >
+                <span
+                  class="block text-bulma text-moon-14"
+                >
+                  Promotions
+                </span>
+                <span
+                  class="flex text-trunks text-moon-12"
+                >
+                  <span
+                    class="flex-1 truncate"
+                  >
+                    <span>
+                       Your favourite games
+                    </span>
+                  </span>
+                </span>
+              </span>
+            </button>
+            <button
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+              type="button"
+            >
+              <span
+                class="flex w-11 h-11 bg-goku items-center justify-center"
+              >
+                <svg
+                  class="text-bulma text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10.8846 14.5385L10.8846 25.5M10.8846 6.5V9.42308M21.1154 22.5769V25.5M21.1154 6.5V17.4615M8.5 14.5385H13.2692C14.3738 14.5385 15.2692 13.6431 15.2692 12.5385V11.4231C15.2692 10.3185 14.3738 9.4231 13.2692 9.4231H8.5C7.39543 9.4231 6.5 10.3185 6.5 11.4231V12.5385C6.5 13.643 7.39543 14.5385 8.5 14.5385ZM18.7308 22.5769H23.5C24.6046 22.5769 25.5 21.6815 25.5 20.5769V19.4615C25.5 18.357 24.6046 17.4615 23.5 17.4615H18.7308C17.6262 17.4615 16.7308 18.357 16.7308 19.4615V20.5769C16.7308 21.6815 17.6262 22.5769 18.7308 22.5769Z"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </span>
+              <span
+                class="block grow text-start text-bulma overflow-hidden"
+              >
+                <span
+                  class="block text-bulma text-moon-14"
+                >
+                  Providers
+                </span>
+                <span
+                  class="flex text-trunks text-moon-12"
+                >
+                  <span
+                    class="flex-1 truncate"
+                  >
+                    <span>
+                       Your favourite games
+                    </span>
+                  </span>
+                </span>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
@@ -417,137 +413,15 @@ Object {
           class="flex align-middle justify-around items-center w-full gap-2"
         >
           <div
-            data-headlessui-state="open"
-          >
-            <div
-              class="relative"
-            >
-              <div
-                aria-controls="headlessui-popover-panel-:r1u:"
-                aria-expanded="true"
-                data-headlessui-state="open"
-                id="headlessui-popover-button-:r1s:"
-              >
-                <button
-                  class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-                  type="button"
-                >
-                  Top
-                  <span
-                    aria-hidden="true"
-                    class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-                  />
-                </button>
-              </div>
-              <button
-                aria-hidden="true"
-                data-headlessui-focus-guard="true"
-                id="headlessui-focus-sentinel-:r1t:"
-                style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
-                type="button"
-              />
-              <button
-                aria-hidden="true"
-                data-headlessui-focus-guard="true"
-                id="headlessui-focus-sentinel-before-:r1v:"
-                style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
-                type="button"
-              />
-              <div
-                class="w-72 z-[999999] rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
-                data-headlessui-state="open"
-                data-popper-escaped="true"
-                data-popper-placement="top"
-                data-popper-reference-hidden="true"
-                id="headlessui-popover-panel-:r1u:"
-                style="position: absolute; left: 0px; top: 0px; bottom: 0px; transform: translate(0px, -8px);"
-                tabindex="-1"
-              >
-                <p
-                  class="p-4 text-moon-14"
-                >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-              </div>
-              <button
-                aria-hidden="true"
-                data-headlessui-focus-guard="true"
-                id="headlessui-focus-sentinel-after-:r20:"
-                style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
-                type="button"
-              />
-            </div>
-          </div>
-          <div
-            data-headlessui-state=""
-          >
-            <div
-              class="relative"
-            >
-              <div
-                aria-expanded="false"
-                data-headlessui-state=""
-                id="headlessui-popover-button-:r21:"
-              >
-                <button
-                  class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-                  type="button"
-                >
-                  Right
-                  <span
-                    aria-hidden="true"
-                    class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-                  />
-                </button>
-              </div>
-            </div>
-          </div>
-          <div
-            data-headlessui-state=""
-          >
-            <div
-              class="relative"
-            >
-              <div
-                aria-expanded="false"
-                data-headlessui-state=""
-                id="headlessui-popover-button-:r26:"
-              >
-                <button
-                  class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-                  type="button"
-                >
-                  Left
-                  <span
-                    aria-hidden="true"
-                    class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-                  />
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      dir="rtl"
-    >
-      <div
-        class="flex align-middle justify-around items-center w-full gap-2"
-      >
-        <div
-          data-headlessui-state="open"
-        >
-          <div
             class="relative"
+            data-headlessui-state="open"
           >
             <div
               aria-controls="headlessui-popover-panel-:r1u:"
               aria-expanded="true"
               data-headlessui-state="open"
               id="headlessui-popover-button-:r1s:"
+              role="button"
             >
               <button
                 class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
@@ -598,17 +472,15 @@ Object {
               type="button"
             />
           </div>
-        </div>
-        <div
-          data-headlessui-state=""
-        >
           <div
             class="relative"
+            data-headlessui-state=""
           >
             <div
               aria-expanded="false"
               data-headlessui-state=""
               id="headlessui-popover-button-:r21:"
+              role="button"
             >
               <button
                 class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
@@ -622,17 +494,15 @@ Object {
               </button>
             </div>
           </div>
-        </div>
-        <div
-          data-headlessui-state=""
-        >
           <div
             class="relative"
+            data-headlessui-state=""
           >
             <div
               aria-expanded="false"
               data-headlessui-state=""
               id="headlessui-popover-button-:r26:"
+              role="button"
             >
               <button
                 class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
@@ -645,6 +515,120 @@ Object {
                 />
               </button>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <div
+        class="flex align-middle justify-around items-center w-full gap-2"
+      >
+        <div
+          class="relative"
+          data-headlessui-state="open"
+        >
+          <div
+            aria-controls="headlessui-popover-panel-:r1u:"
+            aria-expanded="true"
+            data-headlessui-state="open"
+            id="headlessui-popover-button-:r1s:"
+            role="button"
+          >
+            <button
+              class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+              type="button"
+            >
+              Top
+              <span
+                aria-hidden="true"
+                class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+              />
+            </button>
+          </div>
+          <button
+            aria-hidden="true"
+            data-headlessui-focus-guard="true"
+            id="headlessui-focus-sentinel-:r1t:"
+            style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+            type="button"
+          />
+          <button
+            aria-hidden="true"
+            data-headlessui-focus-guard="true"
+            id="headlessui-focus-sentinel-before-:r1v:"
+            style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+            type="button"
+          />
+          <div
+            class="w-72 z-[999999] rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
+            data-headlessui-state="open"
+            data-popper-escaped="true"
+            data-popper-placement="top"
+            data-popper-reference-hidden="true"
+            id="headlessui-popover-panel-:r1u:"
+            style="position: absolute; left: 0px; top: 0px; bottom: 0px; transform: translate(0px, -8px);"
+            tabindex="-1"
+          >
+            <p
+              class="p-4 text-moon-14"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+          <button
+            aria-hidden="true"
+            data-headlessui-focus-guard="true"
+            id="headlessui-focus-sentinel-after-:r20:"
+            style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+            type="button"
+          />
+        </div>
+        <div
+          class="relative"
+          data-headlessui-state=""
+        >
+          <div
+            aria-expanded="false"
+            data-headlessui-state=""
+            id="headlessui-popover-button-:r21:"
+            role="button"
+          >
+            <button
+              class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+              type="button"
+            >
+              Right
+              <span
+                aria-hidden="true"
+                class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+              />
+            </button>
+          </div>
+        </div>
+        <div
+          class="relative"
+          data-headlessui-state=""
+        >
+          <div
+            aria-expanded="false"
+            data-headlessui-state=""
+            id="headlessui-popover-button-:r26:"
+            role="button"
+          >
+            <button
+              class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+              type="button"
+            >
+              Left
+              <span
+                aria-hidden="true"
+                class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+              />
+            </button>
           </div>
         </div>
       </div>
@@ -716,135 +700,15 @@ Object {
           class="flex align-middle justify-around items-center w-full gap-2"
         >
           <div
-            data-headlessui-state="open"
-          >
-            <div
-              class="relative"
-            >
-              <div
-                aria-controls="headlessui-popover-panel-:r1f:"
-                aria-expanded="true"
-                data-headlessui-state="open"
-                id="headlessui-popover-button-:r1d:"
-              >
-                <button
-                  class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-                  type="button"
-                >
-                  Button
-                  <span
-                    aria-hidden="true"
-                    class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-                  />
-                </button>
-              </div>
-              <div
-                class="w-72 z-[999999] rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
-                data-headlessui-state="open"
-                data-popper-escaped="true"
-                data-popper-placement="bottom"
-                data-popper-reference-hidden="true"
-                id="headlessui-popover-panel-:r1f:"
-                style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 8px);"
-                tabindex="-1"
-              >
-                <div>
-                  <button
-                    class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                    type="button"
-                  >
-                    Tournaments
-                  </button>
-                  <button
-                    class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                    type="button"
-                  >
-                    Promotions
-                  </button>
-                  <button
-                    class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                    type="button"
-                  >
-                    Providers
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            data-headlessui-state=""
-          >
-            <div
-              class="relative"
-            >
-              <div
-                aria-expanded="false"
-                data-headlessui-state=""
-                id="headlessui-popover-button-:r1i:"
-              >
-                <button
-                  class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 center h-10 gap-2 p-2 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-                >
-                  <svg
-                    class="text-moon-24"
-                    fill="none"
-                    height="1em"
-                    viewBox="0 0 32 32"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M25 11.5L16 20.5L7 11.5"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                </button>
-              </div>
-            </div>
-          </div>
-          <div
-            data-headlessui-state=""
-          >
-            <div
-              class="relative"
-            >
-              <div
-                aria-expanded="false"
-                data-headlessui-state=""
-                id="headlessui-popover-button-:r1n:"
-              >
-                <span
-                  class="text-moon-14 text-trunks cursor-pointer hover:text-piccolo"
-                >
-                  Open popover
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      dir="rtl"
-    >
-      <div
-        class="flex align-middle justify-around items-center w-full gap-2"
-      >
-        <div
-          data-headlessui-state="open"
-        >
-          <div
             class="relative"
+            data-headlessui-state="open"
           >
             <div
               aria-controls="headlessui-popover-panel-:r1f:"
               aria-expanded="true"
               data-headlessui-state="open"
               id="headlessui-popover-button-:r1d:"
+              role="button"
             >
               <button
                 class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
@@ -889,17 +753,15 @@ Object {
               </div>
             </div>
           </div>
-        </div>
-        <div
-          data-headlessui-state=""
-        >
           <div
             class="relative"
+            data-headlessui-state=""
           >
             <div
               aria-expanded="false"
               data-headlessui-state=""
               id="headlessui-popover-button-:r1i:"
+              role="button"
             >
               <button
                 class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 center h-10 gap-2 p-2 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
@@ -922,17 +784,15 @@ Object {
               </button>
             </div>
           </div>
-        </div>
-        <div
-          data-headlessui-state=""
-        >
           <div
             class="relative"
+            data-headlessui-state=""
           >
             <div
               aria-expanded="false"
               data-headlessui-state=""
               id="headlessui-popover-button-:r1n:"
+              role="button"
             >
               <span
                 class="text-moon-14 text-trunks cursor-pointer hover:text-piccolo"
@@ -940,6 +800,118 @@ Object {
                 Open popover
               </span>
             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <div
+        class="flex align-middle justify-around items-center w-full gap-2"
+      >
+        <div
+          class="relative"
+          data-headlessui-state="open"
+        >
+          <div
+            aria-controls="headlessui-popover-panel-:r1f:"
+            aria-expanded="true"
+            data-headlessui-state="open"
+            id="headlessui-popover-button-:r1d:"
+            role="button"
+          >
+            <button
+              class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+              type="button"
+            >
+              Button
+              <span
+                aria-hidden="true"
+                class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+              />
+            </button>
+          </div>
+          <div
+            class="w-72 z-[999999] rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
+            data-headlessui-state="open"
+            data-popper-escaped="true"
+            data-popper-placement="bottom"
+            data-popper-reference-hidden="true"
+            id="headlessui-popover-panel-:r1f:"
+            style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 8px);"
+            tabindex="-1"
+          >
+            <div>
+              <button
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                type="button"
+              >
+                Tournaments
+              </button>
+              <button
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                type="button"
+              >
+                Promotions
+              </button>
+              <button
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                type="button"
+              >
+                Providers
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="relative"
+          data-headlessui-state=""
+        >
+          <div
+            aria-expanded="false"
+            data-headlessui-state=""
+            id="headlessui-popover-button-:r1i:"
+            role="button"
+          >
+            <button
+              class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 center h-10 gap-2 p-2 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+            >
+              <svg
+                class="text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5L16 20.5L7 11.5"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div
+          class="relative"
+          data-headlessui-state=""
+        >
+          <div
+            aria-expanded="false"
+            data-headlessui-state=""
+            id="headlessui-popover-button-:r1n:"
+            role="button"
+          >
+            <span
+              class="text-moon-14 text-trunks cursor-pointer hover:text-piccolo"
+            >
+              Open popover
+            </span>
           </div>
         </div>
       </div>
@@ -1008,200 +980,15 @@ Object {
         dir="rtl"
       >
         <div
-          data-headlessui-state="open"
-        >
-          <div
-            class="relative"
-          >
-            <div
-              aria-controls="headlessui-popover-panel-:r2d:"
-              aria-expanded="true"
-              data-headlessui-state="open"
-              id="headlessui-popover-button-:r2b:"
-            >
-              <button
-                class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-                type="button"
-              >
-                Toggle Popover
-                <span
-                  aria-hidden="true"
-                  class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-                />
-              </button>
-            </div>
-            <div
-              class="w-72 z-[999999] rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none !w-96"
-              data-headlessui-state="open"
-              data-popper-escaped="true"
-              data-popper-placement="bottom"
-              data-popper-reference-hidden="true"
-              id="headlessui-popover-panel-:r2d:"
-              style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 8px);"
-              tabindex="-1"
-            >
-              <div
-                class="p-6 flex flex-col gap-6"
-              >
-                <button
-                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                  type="button"
-                >
-                  <span
-                    class="flex w-11 h-11 bg-goku items-center justify-center rounded-lg"
-                  >
-                    <svg
-                      class="text-bulma text-moon-24"
-                      fill="none"
-                      height="1em"
-                      viewBox="0 0 32 32"
-                      width="1em"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M13.206 24.8126C12.9299 24.8126 12.706 25.0365 12.706 25.3126C12.706 25.5888 12.9299 25.8126 13.206 25.8126V24.8126ZM18.9964 25.8126C19.2726 25.8126 19.4964 25.5888 19.4964 25.3126C19.4964 25.0365 19.2726 24.8126 18.9964 24.8126V25.8126ZM24.58 7.29267C24.3039 7.29267 24.08 7.51653 24.08 7.79267C24.08 8.06881 24.3039 8.29267 24.58 8.29267V7.29267ZM25.4086 7.79267V8.29267H25.409L25.4086 7.79267ZM26.8238 10.305L26.3721 10.0906L26.372 10.0908L26.8238 10.305ZM5.11029 9.62845L4.65044 9.82477L4.65147 9.82716L5.11029 9.62845ZM6.19557 7.79267L6.19423 8.29267H6.19557V7.79267ZM7.42 8.29267C7.69614 8.29267 7.92 8.06881 7.92 7.79267C7.92 7.51653 7.69614 7.29267 7.42 7.29267V8.29267ZM15.9629 18.5633C16.2379 18.5886 16.4814 18.3862 16.5067 18.1112C16.532 17.8363 16.3296 17.5928 16.0547 17.5675L15.9629 18.5633ZM9.004 4V3.5C8.72933 3.5 8.50609 3.72156 8.50401 3.99623L9.004 4ZM23.194 4L23.694 3.99606C23.6918 3.72147 23.4686 3.5 23.194 3.5V4ZM16.1477 17.5675C15.8728 17.5928 15.6704 17.8363 15.6957 18.1112C15.721 18.3862 15.9645 18.5886 16.2395 18.5633L16.1477 17.5675ZM13.206 25.8126H18.9964V24.8126H13.206V25.8126ZM24.58 8.29267H25.4086V7.29267H24.58V8.29267ZM25.409 8.29267C25.588 8.29252 25.7665 8.34213 25.9277 8.44009L26.447 7.58549C26.1325 7.39435 25.7746 7.29236 25.4082 7.29267L25.409 8.29267ZM25.9277 8.44009C26.0893 8.53827 26.2295 8.68277 26.3313 8.86348L27.2026 8.37268C27.0202 8.04879 26.7612 7.7764 26.447 7.58549L25.9277 8.44009ZM26.3313 8.86348C26.4332 9.04435 26.4919 9.2534 26.4992 9.47032L27.4987 9.43665C27.4861 9.06273 27.385 8.69641 27.2026 8.37268L26.3313 8.86348ZM26.4992 9.47032C26.5065 9.68726 26.4621 9.90107 26.3721 10.0906L27.2755 10.5194C27.4351 10.1832 27.5113 9.81056 27.4987 9.43665L26.4992 9.47032ZM26.372 10.0908C24.9279 13.1363 21.8163 17.6954 16.1778 17.6954V18.6954C22.4415 18.6954 25.8018 13.6274 27.2756 10.5192L26.372 10.0908ZM16.1778 17.6954H16.0625V18.6954H16.1778V17.6954ZM16.0625 17.6954C9.98924 17.6954 6.84769 12.3819 5.56911 9.42974L4.65147 9.82716C5.94098 12.8046 9.31906 18.6954 16.0625 18.6954V17.6954ZM5.57013 9.43212C5.51701 9.30768 5.49296 9.16873 5.50178 9.02879L4.50377 8.96587C4.48525 9.25958 4.53516 9.55474 4.65044 9.82477L5.57013 9.43212ZM5.50178 9.02879C5.51061 8.88886 5.55177 8.75594 5.61891 8.64238L4.75808 8.13348C4.60887 8.38588 4.52228 8.67215 4.50377 8.96587L5.50178 9.02879ZM5.61891 8.64238C5.68595 8.52897 5.77556 8.4403 5.8761 8.38087L5.36726 7.52001C5.11575 7.66866 4.90739 7.88092 4.75808 8.13348L5.61891 8.64238ZM5.8761 8.38087C5.9763 8.32164 6.08556 8.29238 6.19423 8.29267L6.19691 7.29267C5.9046 7.29189 5.61911 7.37115 5.36726 7.52001L5.8761 8.38087ZM6.19557 8.29267H7.42V7.29267H6.19557V8.29267ZM16.0547 17.5675C14.4551 17.4202 13.2476 16.5609 12.3196 15.2958C11.3839 14.0202 10.7505 12.3525 10.3266 10.6654C9.90407 8.98384 9.69782 7.31645 9.59762 6.06575C9.54761 5.44143 9.5242 4.92339 9.5133 4.56244C9.50785 4.38201 9.50554 4.24098 9.50457 4.14572C9.50409 4.09809 9.50395 4.06192 9.50393 4.03799C9.50391 4.02603 9.50393 4.01713 9.50395 4.01139C9.50396 4.00852 9.50397 4.00645 9.50398 4.00517C9.50398 4.00454 9.50398 4.0041 9.50399 4.00387C9.50399 4.00375 9.50399 4.00373 9.50399 4.00367C9.50399 4.00369 9.50399 4.00377 9.004 4C8.50401 3.99623 8.50401 3.99641 8.50401 3.99664C8.50401 3.99679 8.50401 3.99707 8.50401 3.99736C8.504 3.99794 8.504 3.99873 8.50399 3.99971C8.50398 4.00169 8.50397 4.00447 8.50396 4.00805C8.50393 4.01521 8.50391 4.02556 8.50393 4.03899C8.50395 4.06585 8.50411 4.10506 8.50462 4.15582C8.50565 4.25732 8.50809 4.40506 8.51376 4.59262C8.52508 4.96763 8.54929 5.50242 8.60082 6.1456C8.70371 7.42989 8.91628 9.15613 9.35672 10.9091C9.79577 12.6565 10.4694 14.4643 11.5133 15.8873C12.5649 17.3209 14.0095 18.3833 15.9629 18.5633L16.0547 17.5675ZM9.004 4.5H23.194V3.5H9.004V4.5ZM23.194 4C22.694 4.00394 22.694 4.00386 22.694 4.00383C22.694 4.00389 22.694 4.00391 22.694 4.00403C22.694 4.00426 22.694 4.0047 22.694 4.00534C22.694 4.00661 22.694 4.00869 22.6941 4.01156C22.6941 4.01729 22.6941 4.02619 22.6941 4.03816C22.6941 4.06208 22.6939 4.09826 22.6935 4.14588C22.6925 4.24115 22.6903 4.38217 22.6849 4.5626C22.6741 4.92355 22.6509 5.44159 22.6011 6.06591C22.5013 7.31661 22.2956 8.98399 21.8736 10.6656C21.4502 12.3527 20.8174 14.0203 19.882 15.2959C18.9545 16.5609 17.7472 17.4202 16.1477 17.5675L16.2395 18.5633C18.193 18.3833 19.6373 17.3208 20.6885 15.8872C21.7319 14.4642 22.405 12.6564 22.8435 10.9089C23.2834 9.15598 23.4954 7.42973 23.5979 6.14544C23.6492 5.50226 23.6732 4.96747 23.6844 4.59245C23.69 4.4049 23.6924 4.25716 23.6934 4.15566C23.6939 4.1049 23.6941 4.06569 23.6941 4.03883C23.6941 4.0254 23.6941 4.01505 23.694 4.00789C23.694 4.00431 23.694 4.00152 23.694 3.99955C23.694 3.99856 23.694 3.99778 23.694 3.9972C23.694 3.9969 23.694 3.99662 23.694 3.99648C23.694 3.99624 23.694 3.99606 23.194 4ZM14.2302 18.1954C13.7343 18.2594 13.7343 18.2591 13.7343 18.2589C13.7342 18.2588 13.7342 18.2585 13.7342 18.2583C13.7342 18.258 13.7341 18.2577 13.7341 18.2574C13.734 18.2569 13.734 18.2565 13.7339 18.2562C13.7339 18.2556 13.7339 18.2556 13.7339 18.256C13.734 18.2569 13.7343 18.2598 13.7347 18.2646C13.7356 18.2743 13.7369 18.2917 13.738 18.3163C13.7403 18.3655 13.7416 18.4433 13.7364 18.5456C13.726 18.7501 13.6895 19.0518 13.5825 19.4177C13.3699 20.1448 12.8734 21.1448 11.7123 22.1522L12.3677 22.9075C13.6794 21.7694 14.278 20.6022 14.5423 19.6984C14.6738 19.2489 14.7212 18.8692 14.7351 18.5964C14.742 18.4599 14.7406 18.3499 14.737 18.2711C14.7352 18.2316 14.7329 18.1999 14.7308 18.1764C14.7298 18.1647 14.7288 18.155 14.728 18.1475C14.7276 18.1437 14.7272 18.1405 14.7269 18.1378C14.7267 18.1365 14.7266 18.1353 14.7265 18.1342C14.7264 18.1337 14.7263 18.1332 14.7263 18.1327C14.7262 18.1325 14.7262 18.1321 14.7262 18.132C14.7261 18.1317 14.7261 18.1314 14.2302 18.1954ZM17.7697 18.1954C17.2738 18.1315 17.2738 18.1318 17.2738 18.1321C17.2737 18.1322 17.2737 18.1326 17.2737 18.1328C17.2736 18.1333 17.2736 18.1338 17.2735 18.1343C17.2734 18.1354 17.2732 18.1366 17.273 18.1379C17.2727 18.1406 17.2724 18.1439 17.2719 18.1476C17.2711 18.1551 17.2701 18.1648 17.2691 18.1765C17.267 18.2 17.2647 18.2317 17.263 18.2712C17.2594 18.35 17.258 18.46 17.2649 18.5964C17.2789 18.8693 17.3264 19.249 17.4578 19.6984C17.7222 20.6022 18.3208 21.7694 19.6323 22.9075L20.2877 22.1523C19.1268 21.1448 18.6303 20.1448 18.4176 19.4177C18.3106 19.0517 18.2741 18.7501 18.2636 18.5455C18.2584 18.4432 18.2597 18.3654 18.2619 18.3162C18.263 18.2916 18.2644 18.2742 18.2652 18.2645C18.2657 18.2597 18.266 18.2568 18.2661 18.2559C18.2661 18.2555 18.2661 18.2555 18.266 18.2561C18.266 18.2564 18.266 18.2568 18.2659 18.2573C18.2659 18.2576 18.2658 18.2579 18.2658 18.2582C18.2658 18.2584 18.2657 18.2587 18.2657 18.2587C18.2657 18.259 18.2656 18.2593 17.7697 18.1954ZM10.6892 23.0299H21.5132V22.0299H10.6892V23.0299ZM21.5132 23.0299C21.9732 23.0299 22.3332 23.3953 22.3332 23.8302H23.3332C23.3332 22.8289 22.5113 22.0299 21.5132 22.0299V23.0299ZM22.3332 23.8302V26.6997H23.3332V23.8302H22.3332ZM22.3332 26.6997C22.3332 27.1346 21.9732 27.5 21.5132 27.5V28.5C22.5113 28.5 23.3332 27.701 23.3332 26.6997H22.3332ZM21.5132 27.5H10.6892V28.5H21.5132V27.5ZM10.6892 27.5C10.2292 27.5 9.8692 27.1346 9.8692 26.6997H8.8692C8.8692 27.701 9.69114 28.5 10.6892 28.5V27.5ZM9.8692 26.6997V23.8302H8.8692V26.6997H9.8692ZM9.8692 23.8302C9.8692 23.3953 10.2292 23.0299 10.6892 23.0299V22.0299C9.69114 22.0299 8.8692 22.8289 8.8692 23.8302H9.8692Z"
-                        fill="currentColor"
-                      />
-                    </svg>
-                  </span>
-                  <span
-                    class="block grow text-start text-bulma overflow-hidden"
-                  >
-                    <span
-                      class="block text-bulma text-moon-14"
-                    >
-                      Tournaments
-                    </span>
-                    <span
-                      class="flex text-trunks text-moon-12"
-                    >
-                      <span
-                        class="flex-1 truncate"
-                      >
-                        <span>
-                          Best tournaments with streamers
-                        </span>
-                      </span>
-                    </span>
-                  </span>
-                </button>
-                <button
-                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                  type="button"
-                >
-                  <span
-                    class="flex w-11 h-11 bg-goku items-center justify-center"
-                  >
-                    <svg
-                      class="text-bulma text-moon-24"
-                      fill="none"
-                      height="1em"
-                      viewBox="0 0 32 32"
-                      width="1em"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M13.0385 19.0646V23.3767C13.0385 24.2555 12.3261 24.9678 11.4474 24.9678C10.6394 24.9678 9.95978 24.3624 9.86682 23.5598L9.34615 19.0646M7.5 17.3937V14.6063C7.5 13.9604 7.87238 13.3723 8.45631 13.096C8.67968 12.9903 8.92372 12.9355 9.17083 12.9355H13.356C13.5504 12.9355 13.7405 12.8789 13.9031 12.7726L20.4058 8.52243C21.736 7.65298 23.5 8.60739 23.5 10.1966V21.8035C23.5 23.3927 21.736 24.3471 20.4058 23.4776L13.9031 19.2275C13.7405 19.1212 13.5504 19.0646 13.356 19.0646H9.17083C8.92372 19.0646 8.67968 19.0097 8.45631 18.9041C7.87238 18.6278 7.5 18.0397 7.5 17.3937Z"
-                        stroke="currentColor"
-                      />
-                    </svg>
-                  </span>
-                  <span
-                    class="block grow text-start text-bulma overflow-hidden"
-                  >
-                    <span
-                      class="block text-bulma text-moon-14"
-                    >
-                      Promotions
-                    </span>
-                    <span
-                      class="flex text-trunks text-moon-12"
-                    >
-                      <span
-                        class="flex-1 truncate"
-                      >
-                        <span>
-                           Your favourite games
-                        </span>
-                      </span>
-                    </span>
-                  </span>
-                </button>
-                <button
-                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                  type="button"
-                >
-                  <span
-                    class="flex w-11 h-11 bg-goku items-center justify-center"
-                  >
-                    <svg
-                      class="text-bulma text-moon-24"
-                      fill="none"
-                      height="1em"
-                      viewBox="0 0 32 32"
-                      width="1em"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M10.8846 14.5385L10.8846 25.5M10.8846 6.5V9.42308M21.1154 22.5769V25.5M21.1154 6.5V17.4615M8.5 14.5385H13.2692C14.3738 14.5385 15.2692 13.6431 15.2692 12.5385V11.4231C15.2692 10.3185 14.3738 9.4231 13.2692 9.4231H8.5C7.39543 9.4231 6.5 10.3185 6.5 11.4231V12.5385C6.5 13.643 7.39543 14.5385 8.5 14.5385ZM18.7308 22.5769H23.5C24.6046 22.5769 25.5 21.6815 25.5 20.5769V19.4615C25.5 18.357 24.6046 17.4615 23.5 17.4615H18.7308C17.6262 17.4615 16.7308 18.357 16.7308 19.4615V20.5769C16.7308 21.6815 17.6262 22.5769 18.7308 22.5769Z"
-                        stroke="currentColor"
-                        stroke-linecap="round"
-                      />
-                    </svg>
-                  </span>
-                  <span
-                    class="block grow text-start text-bulma overflow-hidden"
-                  >
-                    <span
-                      class="block text-bulma text-moon-14"
-                    >
-                      Providers
-                    </span>
-                    <span
-                      class="flex text-trunks text-moon-12"
-                    >
-                      <span
-                        class="flex-1 truncate"
-                      >
-                        <span>
-                           Your favourite games
-                        </span>
-                      </span>
-                    </span>
-                  </span>
-                </button>
-                <button
-                  class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-                  type="button"
-                >
-                  Close
-                  <span
-                    aria-hidden="true"
-                    class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-                  />
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      dir="rtl"
-    >
-      <div
-        data-headlessui-state="open"
-      >
-        <div
           class="relative"
+          data-headlessui-state="open"
         >
           <div
             aria-controls="headlessui-popover-panel-:r2d:"
             aria-expanded="true"
             data-headlessui-state="open"
             id="headlessui-popover-button-:r2b:"
+            role="button"
           >
             <button
               class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
@@ -1369,6 +1156,187 @@ Object {
         </div>
       </div>
     </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <div
+        class="relative"
+        data-headlessui-state="open"
+      >
+        <div
+          aria-controls="headlessui-popover-panel-:r2d:"
+          aria-expanded="true"
+          data-headlessui-state="open"
+          id="headlessui-popover-button-:r2b:"
+          role="button"
+        >
+          <button
+            class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+            type="button"
+          >
+            Toggle Popover
+            <span
+              aria-hidden="true"
+              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
+        </div>
+        <div
+          class="w-72 z-[999999] rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none !w-96"
+          data-headlessui-state="open"
+          data-popper-escaped="true"
+          data-popper-placement="bottom"
+          data-popper-reference-hidden="true"
+          id="headlessui-popover-panel-:r2d:"
+          style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 8px);"
+          tabindex="-1"
+        >
+          <div
+            class="p-6 flex flex-col gap-6"
+          >
+            <button
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+              type="button"
+            >
+              <span
+                class="flex w-11 h-11 bg-goku items-center justify-center rounded-lg"
+              >
+                <svg
+                  class="text-bulma text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M13.206 24.8126C12.9299 24.8126 12.706 25.0365 12.706 25.3126C12.706 25.5888 12.9299 25.8126 13.206 25.8126V24.8126ZM18.9964 25.8126C19.2726 25.8126 19.4964 25.5888 19.4964 25.3126C19.4964 25.0365 19.2726 24.8126 18.9964 24.8126V25.8126ZM24.58 7.29267C24.3039 7.29267 24.08 7.51653 24.08 7.79267C24.08 8.06881 24.3039 8.29267 24.58 8.29267V7.29267ZM25.4086 7.79267V8.29267H25.409L25.4086 7.79267ZM26.8238 10.305L26.3721 10.0906L26.372 10.0908L26.8238 10.305ZM5.11029 9.62845L4.65044 9.82477L4.65147 9.82716L5.11029 9.62845ZM6.19557 7.79267L6.19423 8.29267H6.19557V7.79267ZM7.42 8.29267C7.69614 8.29267 7.92 8.06881 7.92 7.79267C7.92 7.51653 7.69614 7.29267 7.42 7.29267V8.29267ZM15.9629 18.5633C16.2379 18.5886 16.4814 18.3862 16.5067 18.1112C16.532 17.8363 16.3296 17.5928 16.0547 17.5675L15.9629 18.5633ZM9.004 4V3.5C8.72933 3.5 8.50609 3.72156 8.50401 3.99623L9.004 4ZM23.194 4L23.694 3.99606C23.6918 3.72147 23.4686 3.5 23.194 3.5V4ZM16.1477 17.5675C15.8728 17.5928 15.6704 17.8363 15.6957 18.1112C15.721 18.3862 15.9645 18.5886 16.2395 18.5633L16.1477 17.5675ZM13.206 25.8126H18.9964V24.8126H13.206V25.8126ZM24.58 8.29267H25.4086V7.29267H24.58V8.29267ZM25.409 8.29267C25.588 8.29252 25.7665 8.34213 25.9277 8.44009L26.447 7.58549C26.1325 7.39435 25.7746 7.29236 25.4082 7.29267L25.409 8.29267ZM25.9277 8.44009C26.0893 8.53827 26.2295 8.68277 26.3313 8.86348L27.2026 8.37268C27.0202 8.04879 26.7612 7.7764 26.447 7.58549L25.9277 8.44009ZM26.3313 8.86348C26.4332 9.04435 26.4919 9.2534 26.4992 9.47032L27.4987 9.43665C27.4861 9.06273 27.385 8.69641 27.2026 8.37268L26.3313 8.86348ZM26.4992 9.47032C26.5065 9.68726 26.4621 9.90107 26.3721 10.0906L27.2755 10.5194C27.4351 10.1832 27.5113 9.81056 27.4987 9.43665L26.4992 9.47032ZM26.372 10.0908C24.9279 13.1363 21.8163 17.6954 16.1778 17.6954V18.6954C22.4415 18.6954 25.8018 13.6274 27.2756 10.5192L26.372 10.0908ZM16.1778 17.6954H16.0625V18.6954H16.1778V17.6954ZM16.0625 17.6954C9.98924 17.6954 6.84769 12.3819 5.56911 9.42974L4.65147 9.82716C5.94098 12.8046 9.31906 18.6954 16.0625 18.6954V17.6954ZM5.57013 9.43212C5.51701 9.30768 5.49296 9.16873 5.50178 9.02879L4.50377 8.96587C4.48525 9.25958 4.53516 9.55474 4.65044 9.82477L5.57013 9.43212ZM5.50178 9.02879C5.51061 8.88886 5.55177 8.75594 5.61891 8.64238L4.75808 8.13348C4.60887 8.38588 4.52228 8.67215 4.50377 8.96587L5.50178 9.02879ZM5.61891 8.64238C5.68595 8.52897 5.77556 8.4403 5.8761 8.38087L5.36726 7.52001C5.11575 7.66866 4.90739 7.88092 4.75808 8.13348L5.61891 8.64238ZM5.8761 8.38087C5.9763 8.32164 6.08556 8.29238 6.19423 8.29267L6.19691 7.29267C5.9046 7.29189 5.61911 7.37115 5.36726 7.52001L5.8761 8.38087ZM6.19557 8.29267H7.42V7.29267H6.19557V8.29267ZM16.0547 17.5675C14.4551 17.4202 13.2476 16.5609 12.3196 15.2958C11.3839 14.0202 10.7505 12.3525 10.3266 10.6654C9.90407 8.98384 9.69782 7.31645 9.59762 6.06575C9.54761 5.44143 9.5242 4.92339 9.5133 4.56244C9.50785 4.38201 9.50554 4.24098 9.50457 4.14572C9.50409 4.09809 9.50395 4.06192 9.50393 4.03799C9.50391 4.02603 9.50393 4.01713 9.50395 4.01139C9.50396 4.00852 9.50397 4.00645 9.50398 4.00517C9.50398 4.00454 9.50398 4.0041 9.50399 4.00387C9.50399 4.00375 9.50399 4.00373 9.50399 4.00367C9.50399 4.00369 9.50399 4.00377 9.004 4C8.50401 3.99623 8.50401 3.99641 8.50401 3.99664C8.50401 3.99679 8.50401 3.99707 8.50401 3.99736C8.504 3.99794 8.504 3.99873 8.50399 3.99971C8.50398 4.00169 8.50397 4.00447 8.50396 4.00805C8.50393 4.01521 8.50391 4.02556 8.50393 4.03899C8.50395 4.06585 8.50411 4.10506 8.50462 4.15582C8.50565 4.25732 8.50809 4.40506 8.51376 4.59262C8.52508 4.96763 8.54929 5.50242 8.60082 6.1456C8.70371 7.42989 8.91628 9.15613 9.35672 10.9091C9.79577 12.6565 10.4694 14.4643 11.5133 15.8873C12.5649 17.3209 14.0095 18.3833 15.9629 18.5633L16.0547 17.5675ZM9.004 4.5H23.194V3.5H9.004V4.5ZM23.194 4C22.694 4.00394 22.694 4.00386 22.694 4.00383C22.694 4.00389 22.694 4.00391 22.694 4.00403C22.694 4.00426 22.694 4.0047 22.694 4.00534C22.694 4.00661 22.694 4.00869 22.6941 4.01156C22.6941 4.01729 22.6941 4.02619 22.6941 4.03816C22.6941 4.06208 22.6939 4.09826 22.6935 4.14588C22.6925 4.24115 22.6903 4.38217 22.6849 4.5626C22.6741 4.92355 22.6509 5.44159 22.6011 6.06591C22.5013 7.31661 22.2956 8.98399 21.8736 10.6656C21.4502 12.3527 20.8174 14.0203 19.882 15.2959C18.9545 16.5609 17.7472 17.4202 16.1477 17.5675L16.2395 18.5633C18.193 18.3833 19.6373 17.3208 20.6885 15.8872C21.7319 14.4642 22.405 12.6564 22.8435 10.9089C23.2834 9.15598 23.4954 7.42973 23.5979 6.14544C23.6492 5.50226 23.6732 4.96747 23.6844 4.59245C23.69 4.4049 23.6924 4.25716 23.6934 4.15566C23.6939 4.1049 23.6941 4.06569 23.6941 4.03883C23.6941 4.0254 23.6941 4.01505 23.694 4.00789C23.694 4.00431 23.694 4.00152 23.694 3.99955C23.694 3.99856 23.694 3.99778 23.694 3.9972C23.694 3.9969 23.694 3.99662 23.694 3.99648C23.694 3.99624 23.694 3.99606 23.194 4ZM14.2302 18.1954C13.7343 18.2594 13.7343 18.2591 13.7343 18.2589C13.7342 18.2588 13.7342 18.2585 13.7342 18.2583C13.7342 18.258 13.7341 18.2577 13.7341 18.2574C13.734 18.2569 13.734 18.2565 13.7339 18.2562C13.7339 18.2556 13.7339 18.2556 13.7339 18.256C13.734 18.2569 13.7343 18.2598 13.7347 18.2646C13.7356 18.2743 13.7369 18.2917 13.738 18.3163C13.7403 18.3655 13.7416 18.4433 13.7364 18.5456C13.726 18.7501 13.6895 19.0518 13.5825 19.4177C13.3699 20.1448 12.8734 21.1448 11.7123 22.1522L12.3677 22.9075C13.6794 21.7694 14.278 20.6022 14.5423 19.6984C14.6738 19.2489 14.7212 18.8692 14.7351 18.5964C14.742 18.4599 14.7406 18.3499 14.737 18.2711C14.7352 18.2316 14.7329 18.1999 14.7308 18.1764C14.7298 18.1647 14.7288 18.155 14.728 18.1475C14.7276 18.1437 14.7272 18.1405 14.7269 18.1378C14.7267 18.1365 14.7266 18.1353 14.7265 18.1342C14.7264 18.1337 14.7263 18.1332 14.7263 18.1327C14.7262 18.1325 14.7262 18.1321 14.7262 18.132C14.7261 18.1317 14.7261 18.1314 14.2302 18.1954ZM17.7697 18.1954C17.2738 18.1315 17.2738 18.1318 17.2738 18.1321C17.2737 18.1322 17.2737 18.1326 17.2737 18.1328C17.2736 18.1333 17.2736 18.1338 17.2735 18.1343C17.2734 18.1354 17.2732 18.1366 17.273 18.1379C17.2727 18.1406 17.2724 18.1439 17.2719 18.1476C17.2711 18.1551 17.2701 18.1648 17.2691 18.1765C17.267 18.2 17.2647 18.2317 17.263 18.2712C17.2594 18.35 17.258 18.46 17.2649 18.5964C17.2789 18.8693 17.3264 19.249 17.4578 19.6984C17.7222 20.6022 18.3208 21.7694 19.6323 22.9075L20.2877 22.1523C19.1268 21.1448 18.6303 20.1448 18.4176 19.4177C18.3106 19.0517 18.2741 18.7501 18.2636 18.5455C18.2584 18.4432 18.2597 18.3654 18.2619 18.3162C18.263 18.2916 18.2644 18.2742 18.2652 18.2645C18.2657 18.2597 18.266 18.2568 18.2661 18.2559C18.2661 18.2555 18.2661 18.2555 18.266 18.2561C18.266 18.2564 18.266 18.2568 18.2659 18.2573C18.2659 18.2576 18.2658 18.2579 18.2658 18.2582C18.2658 18.2584 18.2657 18.2587 18.2657 18.2587C18.2657 18.259 18.2656 18.2593 17.7697 18.1954ZM10.6892 23.0299H21.5132V22.0299H10.6892V23.0299ZM21.5132 23.0299C21.9732 23.0299 22.3332 23.3953 22.3332 23.8302H23.3332C23.3332 22.8289 22.5113 22.0299 21.5132 22.0299V23.0299ZM22.3332 23.8302V26.6997H23.3332V23.8302H22.3332ZM22.3332 26.6997C22.3332 27.1346 21.9732 27.5 21.5132 27.5V28.5C22.5113 28.5 23.3332 27.701 23.3332 26.6997H22.3332ZM21.5132 27.5H10.6892V28.5H21.5132V27.5ZM10.6892 27.5C10.2292 27.5 9.8692 27.1346 9.8692 26.6997H8.8692C8.8692 27.701 9.69114 28.5 10.6892 28.5V27.5ZM9.8692 26.6997V23.8302H8.8692V26.6997H9.8692ZM9.8692 23.8302C9.8692 23.3953 10.2292 23.0299 10.6892 23.0299V22.0299C9.69114 22.0299 8.8692 22.8289 8.8692 23.8302H9.8692Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </span>
+              <span
+                class="block grow text-start text-bulma overflow-hidden"
+              >
+                <span
+                  class="block text-bulma text-moon-14"
+                >
+                  Tournaments
+                </span>
+                <span
+                  class="flex text-trunks text-moon-12"
+                >
+                  <span
+                    class="flex-1 truncate"
+                  >
+                    <span>
+                      Best tournaments with streamers
+                    </span>
+                  </span>
+                </span>
+              </span>
+            </button>
+            <button
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+              type="button"
+            >
+              <span
+                class="flex w-11 h-11 bg-goku items-center justify-center"
+              >
+                <svg
+                  class="text-bulma text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M13.0385 19.0646V23.3767C13.0385 24.2555 12.3261 24.9678 11.4474 24.9678C10.6394 24.9678 9.95978 24.3624 9.86682 23.5598L9.34615 19.0646M7.5 17.3937V14.6063C7.5 13.9604 7.87238 13.3723 8.45631 13.096C8.67968 12.9903 8.92372 12.9355 9.17083 12.9355H13.356C13.5504 12.9355 13.7405 12.8789 13.9031 12.7726L20.4058 8.52243C21.736 7.65298 23.5 8.60739 23.5 10.1966V21.8035C23.5 23.3927 21.736 24.3471 20.4058 23.4776L13.9031 19.2275C13.7405 19.1212 13.5504 19.0646 13.356 19.0646H9.17083C8.92372 19.0646 8.67968 19.0097 8.45631 18.9041C7.87238 18.6278 7.5 18.0397 7.5 17.3937Z"
+                    stroke="currentColor"
+                  />
+                </svg>
+              </span>
+              <span
+                class="block grow text-start text-bulma overflow-hidden"
+              >
+                <span
+                  class="block text-bulma text-moon-14"
+                >
+                  Promotions
+                </span>
+                <span
+                  class="flex text-trunks text-moon-12"
+                >
+                  <span
+                    class="flex-1 truncate"
+                  >
+                    <span>
+                       Your favourite games
+                    </span>
+                  </span>
+                </span>
+              </span>
+            </button>
+            <button
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+              type="button"
+            >
+              <span
+                class="flex w-11 h-11 bg-goku items-center justify-center"
+              >
+                <svg
+                  class="text-bulma text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10.8846 14.5385L10.8846 25.5M10.8846 6.5V9.42308M21.1154 22.5769V25.5M21.1154 6.5V17.4615M8.5 14.5385H13.2692C14.3738 14.5385 15.2692 13.6431 15.2692 12.5385V11.4231C15.2692 10.3185 14.3738 9.4231 13.2692 9.4231H8.5C7.39543 9.4231 6.5 10.3185 6.5 11.4231V12.5385C6.5 13.643 7.39543 14.5385 8.5 14.5385ZM18.7308 22.5769H23.5C24.6046 22.5769 25.5 21.6815 25.5 20.5769V19.4615C25.5 18.357 24.6046 17.4615 23.5 17.4615H18.7308C17.6262 17.4615 16.7308 18.357 16.7308 19.4615V20.5769C16.7308 21.6815 17.6262 22.5769 18.7308 22.5769Z"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </span>
+              <span
+                class="block grow text-start text-bulma overflow-hidden"
+              >
+                <span
+                  class="block text-bulma text-moon-14"
+                >
+                  Providers
+                </span>
+                <span
+                  class="flex text-trunks text-moon-12"
+                >
+                  <span
+                    class="flex-1 truncate"
+                  >
+                    <span>
+                       Your favourite games
+                    </span>
+                  </span>
+                </span>
+              </span>
+            </button>
+            <button
+              class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+              type="button"
+            >
+              Close
+              <span
+                aria-hidden="true"
+                class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
@@ -1430,186 +1398,15 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        data-headlessui-state="open"
-      >
-        <div
-          class="relative"
-        >
-          <div
-            aria-controls="headlessui-popover-panel-:r2:"
-            aria-expanded="true"
-            data-headlessui-state="open"
-            id="headlessui-popover-button-:r0:"
-          >
-            <button
-              class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-              type="button"
-            >
-              Toggle Popover
-              <span
-                aria-hidden="true"
-                class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-              />
-            </button>
-          </div>
-          <div
-            class="w-72 z-[999999] rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
-            data-headlessui-state="open"
-            data-popper-escaped="true"
-            data-popper-placement="bottom"
-            data-popper-reference-hidden="true"
-            id="headlessui-popover-panel-:r2:"
-            style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 8px);"
-            tabindex="-1"
-          >
-            <div
-              class="p-6 flex flex-col gap-6"
-            >
-              <button
-                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                type="button"
-              >
-                <span
-                  class="flex w-11 h-11 bg-goku items-center justify-center rounded-lg"
-                >
-                  <svg
-                    class="text-bulma text-moon-24"
-                    fill="none"
-                    height="1em"
-                    viewBox="0 0 32 32"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M13.206 24.8126C12.9299 24.8126 12.706 25.0365 12.706 25.3126C12.706 25.5888 12.9299 25.8126 13.206 25.8126V24.8126ZM18.9964 25.8126C19.2726 25.8126 19.4964 25.5888 19.4964 25.3126C19.4964 25.0365 19.2726 24.8126 18.9964 24.8126V25.8126ZM24.58 7.29267C24.3039 7.29267 24.08 7.51653 24.08 7.79267C24.08 8.06881 24.3039 8.29267 24.58 8.29267V7.29267ZM25.4086 7.79267V8.29267H25.409L25.4086 7.79267ZM26.8238 10.305L26.3721 10.0906L26.372 10.0908L26.8238 10.305ZM5.11029 9.62845L4.65044 9.82477L4.65147 9.82716L5.11029 9.62845ZM6.19557 7.79267L6.19423 8.29267H6.19557V7.79267ZM7.42 8.29267C7.69614 8.29267 7.92 8.06881 7.92 7.79267C7.92 7.51653 7.69614 7.29267 7.42 7.29267V8.29267ZM15.9629 18.5633C16.2379 18.5886 16.4814 18.3862 16.5067 18.1112C16.532 17.8363 16.3296 17.5928 16.0547 17.5675L15.9629 18.5633ZM9.004 4V3.5C8.72933 3.5 8.50609 3.72156 8.50401 3.99623L9.004 4ZM23.194 4L23.694 3.99606C23.6918 3.72147 23.4686 3.5 23.194 3.5V4ZM16.1477 17.5675C15.8728 17.5928 15.6704 17.8363 15.6957 18.1112C15.721 18.3862 15.9645 18.5886 16.2395 18.5633L16.1477 17.5675ZM13.206 25.8126H18.9964V24.8126H13.206V25.8126ZM24.58 8.29267H25.4086V7.29267H24.58V8.29267ZM25.409 8.29267C25.588 8.29252 25.7665 8.34213 25.9277 8.44009L26.447 7.58549C26.1325 7.39435 25.7746 7.29236 25.4082 7.29267L25.409 8.29267ZM25.9277 8.44009C26.0893 8.53827 26.2295 8.68277 26.3313 8.86348L27.2026 8.37268C27.0202 8.04879 26.7612 7.7764 26.447 7.58549L25.9277 8.44009ZM26.3313 8.86348C26.4332 9.04435 26.4919 9.2534 26.4992 9.47032L27.4987 9.43665C27.4861 9.06273 27.385 8.69641 27.2026 8.37268L26.3313 8.86348ZM26.4992 9.47032C26.5065 9.68726 26.4621 9.90107 26.3721 10.0906L27.2755 10.5194C27.4351 10.1832 27.5113 9.81056 27.4987 9.43665L26.4992 9.47032ZM26.372 10.0908C24.9279 13.1363 21.8163 17.6954 16.1778 17.6954V18.6954C22.4415 18.6954 25.8018 13.6274 27.2756 10.5192L26.372 10.0908ZM16.1778 17.6954H16.0625V18.6954H16.1778V17.6954ZM16.0625 17.6954C9.98924 17.6954 6.84769 12.3819 5.56911 9.42974L4.65147 9.82716C5.94098 12.8046 9.31906 18.6954 16.0625 18.6954V17.6954ZM5.57013 9.43212C5.51701 9.30768 5.49296 9.16873 5.50178 9.02879L4.50377 8.96587C4.48525 9.25958 4.53516 9.55474 4.65044 9.82477L5.57013 9.43212ZM5.50178 9.02879C5.51061 8.88886 5.55177 8.75594 5.61891 8.64238L4.75808 8.13348C4.60887 8.38588 4.52228 8.67215 4.50377 8.96587L5.50178 9.02879ZM5.61891 8.64238C5.68595 8.52897 5.77556 8.4403 5.8761 8.38087L5.36726 7.52001C5.11575 7.66866 4.90739 7.88092 4.75808 8.13348L5.61891 8.64238ZM5.8761 8.38087C5.9763 8.32164 6.08556 8.29238 6.19423 8.29267L6.19691 7.29267C5.9046 7.29189 5.61911 7.37115 5.36726 7.52001L5.8761 8.38087ZM6.19557 8.29267H7.42V7.29267H6.19557V8.29267ZM16.0547 17.5675C14.4551 17.4202 13.2476 16.5609 12.3196 15.2958C11.3839 14.0202 10.7505 12.3525 10.3266 10.6654C9.90407 8.98384 9.69782 7.31645 9.59762 6.06575C9.54761 5.44143 9.5242 4.92339 9.5133 4.56244C9.50785 4.38201 9.50554 4.24098 9.50457 4.14572C9.50409 4.09809 9.50395 4.06192 9.50393 4.03799C9.50391 4.02603 9.50393 4.01713 9.50395 4.01139C9.50396 4.00852 9.50397 4.00645 9.50398 4.00517C9.50398 4.00454 9.50398 4.0041 9.50399 4.00387C9.50399 4.00375 9.50399 4.00373 9.50399 4.00367C9.50399 4.00369 9.50399 4.00377 9.004 4C8.50401 3.99623 8.50401 3.99641 8.50401 3.99664C8.50401 3.99679 8.50401 3.99707 8.50401 3.99736C8.504 3.99794 8.504 3.99873 8.50399 3.99971C8.50398 4.00169 8.50397 4.00447 8.50396 4.00805C8.50393 4.01521 8.50391 4.02556 8.50393 4.03899C8.50395 4.06585 8.50411 4.10506 8.50462 4.15582C8.50565 4.25732 8.50809 4.40506 8.51376 4.59262C8.52508 4.96763 8.54929 5.50242 8.60082 6.1456C8.70371 7.42989 8.91628 9.15613 9.35672 10.9091C9.79577 12.6565 10.4694 14.4643 11.5133 15.8873C12.5649 17.3209 14.0095 18.3833 15.9629 18.5633L16.0547 17.5675ZM9.004 4.5H23.194V3.5H9.004V4.5ZM23.194 4C22.694 4.00394 22.694 4.00386 22.694 4.00383C22.694 4.00389 22.694 4.00391 22.694 4.00403C22.694 4.00426 22.694 4.0047 22.694 4.00534C22.694 4.00661 22.694 4.00869 22.6941 4.01156C22.6941 4.01729 22.6941 4.02619 22.6941 4.03816C22.6941 4.06208 22.6939 4.09826 22.6935 4.14588C22.6925 4.24115 22.6903 4.38217 22.6849 4.5626C22.6741 4.92355 22.6509 5.44159 22.6011 6.06591C22.5013 7.31661 22.2956 8.98399 21.8736 10.6656C21.4502 12.3527 20.8174 14.0203 19.882 15.2959C18.9545 16.5609 17.7472 17.4202 16.1477 17.5675L16.2395 18.5633C18.193 18.3833 19.6373 17.3208 20.6885 15.8872C21.7319 14.4642 22.405 12.6564 22.8435 10.9089C23.2834 9.15598 23.4954 7.42973 23.5979 6.14544C23.6492 5.50226 23.6732 4.96747 23.6844 4.59245C23.69 4.4049 23.6924 4.25716 23.6934 4.15566C23.6939 4.1049 23.6941 4.06569 23.6941 4.03883C23.6941 4.0254 23.6941 4.01505 23.694 4.00789C23.694 4.00431 23.694 4.00152 23.694 3.99955C23.694 3.99856 23.694 3.99778 23.694 3.9972C23.694 3.9969 23.694 3.99662 23.694 3.99648C23.694 3.99624 23.694 3.99606 23.194 4ZM14.2302 18.1954C13.7343 18.2594 13.7343 18.2591 13.7343 18.2589C13.7342 18.2588 13.7342 18.2585 13.7342 18.2583C13.7342 18.258 13.7341 18.2577 13.7341 18.2574C13.734 18.2569 13.734 18.2565 13.7339 18.2562C13.7339 18.2556 13.7339 18.2556 13.7339 18.256C13.734 18.2569 13.7343 18.2598 13.7347 18.2646C13.7356 18.2743 13.7369 18.2917 13.738 18.3163C13.7403 18.3655 13.7416 18.4433 13.7364 18.5456C13.726 18.7501 13.6895 19.0518 13.5825 19.4177C13.3699 20.1448 12.8734 21.1448 11.7123 22.1522L12.3677 22.9075C13.6794 21.7694 14.278 20.6022 14.5423 19.6984C14.6738 19.2489 14.7212 18.8692 14.7351 18.5964C14.742 18.4599 14.7406 18.3499 14.737 18.2711C14.7352 18.2316 14.7329 18.1999 14.7308 18.1764C14.7298 18.1647 14.7288 18.155 14.728 18.1475C14.7276 18.1437 14.7272 18.1405 14.7269 18.1378C14.7267 18.1365 14.7266 18.1353 14.7265 18.1342C14.7264 18.1337 14.7263 18.1332 14.7263 18.1327C14.7262 18.1325 14.7262 18.1321 14.7262 18.132C14.7261 18.1317 14.7261 18.1314 14.2302 18.1954ZM17.7697 18.1954C17.2738 18.1315 17.2738 18.1318 17.2738 18.1321C17.2737 18.1322 17.2737 18.1326 17.2737 18.1328C17.2736 18.1333 17.2736 18.1338 17.2735 18.1343C17.2734 18.1354 17.2732 18.1366 17.273 18.1379C17.2727 18.1406 17.2724 18.1439 17.2719 18.1476C17.2711 18.1551 17.2701 18.1648 17.2691 18.1765C17.267 18.2 17.2647 18.2317 17.263 18.2712C17.2594 18.35 17.258 18.46 17.2649 18.5964C17.2789 18.8693 17.3264 19.249 17.4578 19.6984C17.7222 20.6022 18.3208 21.7694 19.6323 22.9075L20.2877 22.1523C19.1268 21.1448 18.6303 20.1448 18.4176 19.4177C18.3106 19.0517 18.2741 18.7501 18.2636 18.5455C18.2584 18.4432 18.2597 18.3654 18.2619 18.3162C18.263 18.2916 18.2644 18.2742 18.2652 18.2645C18.2657 18.2597 18.266 18.2568 18.2661 18.2559C18.2661 18.2555 18.2661 18.2555 18.266 18.2561C18.266 18.2564 18.266 18.2568 18.2659 18.2573C18.2659 18.2576 18.2658 18.2579 18.2658 18.2582C18.2658 18.2584 18.2657 18.2587 18.2657 18.2587C18.2657 18.259 18.2656 18.2593 17.7697 18.1954ZM10.6892 23.0299H21.5132V22.0299H10.6892V23.0299ZM21.5132 23.0299C21.9732 23.0299 22.3332 23.3953 22.3332 23.8302H23.3332C23.3332 22.8289 22.5113 22.0299 21.5132 22.0299V23.0299ZM22.3332 23.8302V26.6997H23.3332V23.8302H22.3332ZM22.3332 26.6997C22.3332 27.1346 21.9732 27.5 21.5132 27.5V28.5C22.5113 28.5 23.3332 27.701 23.3332 26.6997H22.3332ZM21.5132 27.5H10.6892V28.5H21.5132V27.5ZM10.6892 27.5C10.2292 27.5 9.8692 27.1346 9.8692 26.6997H8.8692C8.8692 27.701 9.69114 28.5 10.6892 28.5V27.5ZM9.8692 26.6997V23.8302H8.8692V26.6997H9.8692ZM9.8692 23.8302C9.8692 23.3953 10.2292 23.0299 10.6892 23.0299V22.0299C9.69114 22.0299 8.8692 22.8289 8.8692 23.8302H9.8692Z"
-                      fill="currentColor"
-                    />
-                  </svg>
-                </span>
-                <span
-                  class="block grow text-start text-bulma overflow-hidden"
-                >
-                  <span
-                    class="block text-bulma text-moon-14"
-                  >
-                    Tournaments
-                  </span>
-                  <span
-                    class="flex text-trunks text-moon-12"
-                  >
-                    <span
-                      class="flex-1 truncate"
-                    >
-                      <span>
-                        Best tournaments with streamers
-                      </span>
-                    </span>
-                  </span>
-                </span>
-              </button>
-              <button
-                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                type="button"
-              >
-                <span
-                  class="flex w-11 h-11 bg-goku items-center justify-center"
-                >
-                  <svg
-                    class="text-bulma text-moon-24"
-                    fill="none"
-                    height="1em"
-                    viewBox="0 0 32 32"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M13.0385 19.0646V23.3767C13.0385 24.2555 12.3261 24.9678 11.4474 24.9678C10.6394 24.9678 9.95978 24.3624 9.86682 23.5598L9.34615 19.0646M7.5 17.3937V14.6063C7.5 13.9604 7.87238 13.3723 8.45631 13.096C8.67968 12.9903 8.92372 12.9355 9.17083 12.9355H13.356C13.5504 12.9355 13.7405 12.8789 13.9031 12.7726L20.4058 8.52243C21.736 7.65298 23.5 8.60739 23.5 10.1966V21.8035C23.5 23.3927 21.736 24.3471 20.4058 23.4776L13.9031 19.2275C13.7405 19.1212 13.5504 19.0646 13.356 19.0646H9.17083C8.92372 19.0646 8.67968 19.0097 8.45631 18.9041C7.87238 18.6278 7.5 18.0397 7.5 17.3937Z"
-                      stroke="currentColor"
-                    />
-                  </svg>
-                </span>
-                <span
-                  class="block grow text-start text-bulma overflow-hidden"
-                >
-                  <span
-                    class="block text-bulma text-moon-14"
-                  >
-                    Promotions
-                  </span>
-                  <span
-                    class="flex text-trunks text-moon-12"
-                  >
-                    <span
-                      class="flex-1 truncate"
-                    >
-                      <span>
-                         Your favourite games
-                      </span>
-                    </span>
-                  </span>
-                </span>
-              </button>
-              <button
-                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                type="button"
-              >
-                <span
-                  class="flex w-11 h-11 bg-goku items-center justify-center"
-                >
-                  <svg
-                    class="text-bulma text-moon-24"
-                    fill="none"
-                    height="1em"
-                    viewBox="0 0 32 32"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M10.8846 14.5385L10.8846 25.5M10.8846 6.5V9.42308M21.1154 22.5769V25.5M21.1154 6.5V17.4615M8.5 14.5385H13.2692C14.3738 14.5385 15.2692 13.6431 15.2692 12.5385V11.4231C15.2692 10.3185 14.3738 9.4231 13.2692 9.4231H8.5C7.39543 9.4231 6.5 10.3185 6.5 11.4231V12.5385C6.5 13.643 7.39543 14.5385 8.5 14.5385ZM18.7308 22.5769H23.5C24.6046 22.5769 25.5 21.6815 25.5 20.5769V19.4615C25.5 18.357 24.6046 17.4615 23.5 17.4615H18.7308C17.6262 17.4615 16.7308 18.357 16.7308 19.4615V20.5769C16.7308 21.6815 17.6262 22.5769 18.7308 22.5769Z"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                    />
-                  </svg>
-                </span>
-                <span
-                  class="block grow text-start text-bulma overflow-hidden"
-                >
-                  <span
-                    class="block text-bulma text-moon-14"
-                  >
-                    Providers
-                  </span>
-                  <span
-                    class="flex text-trunks text-moon-12"
-                  >
-                    <span
-                      class="flex-1 truncate"
-                    >
-                      <span>
-                         Your favourite games
-                      </span>
-                    </span>
-                  </span>
-                </span>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      data-headlessui-state="open"
-    >
-      <div
         class="relative"
+        data-headlessui-state="open"
       >
         <div
           aria-controls="headlessui-popover-panel-:r2:"
           aria-expanded="true"
           data-headlessui-state="open"
           id="headlessui-popover-button-:r0:"
+          role="button"
         >
           <button
             class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
@@ -1766,6 +1563,173 @@ Object {
         </div>
       </div>
     </div>
+  </body>,
+  "container": <div>
+    <div
+      class="relative"
+      data-headlessui-state="open"
+    >
+      <div
+        aria-controls="headlessui-popover-panel-:r2:"
+        aria-expanded="true"
+        data-headlessui-state="open"
+        id="headlessui-popover-button-:r0:"
+        role="button"
+      >
+        <button
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+          type="button"
+        >
+          Toggle Popover
+          <span
+            aria-hidden="true"
+            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
+        </button>
+      </div>
+      <div
+        class="w-72 z-[999999] rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
+        data-headlessui-state="open"
+        data-popper-escaped="true"
+        data-popper-placement="bottom"
+        data-popper-reference-hidden="true"
+        id="headlessui-popover-panel-:r2:"
+        style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 8px);"
+        tabindex="-1"
+      >
+        <div
+          class="p-6 flex flex-col gap-6"
+        >
+          <button
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+            type="button"
+          >
+            <span
+              class="flex w-11 h-11 bg-goku items-center justify-center rounded-lg"
+            >
+              <svg
+                class="text-bulma text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.206 24.8126C12.9299 24.8126 12.706 25.0365 12.706 25.3126C12.706 25.5888 12.9299 25.8126 13.206 25.8126V24.8126ZM18.9964 25.8126C19.2726 25.8126 19.4964 25.5888 19.4964 25.3126C19.4964 25.0365 19.2726 24.8126 18.9964 24.8126V25.8126ZM24.58 7.29267C24.3039 7.29267 24.08 7.51653 24.08 7.79267C24.08 8.06881 24.3039 8.29267 24.58 8.29267V7.29267ZM25.4086 7.79267V8.29267H25.409L25.4086 7.79267ZM26.8238 10.305L26.3721 10.0906L26.372 10.0908L26.8238 10.305ZM5.11029 9.62845L4.65044 9.82477L4.65147 9.82716L5.11029 9.62845ZM6.19557 7.79267L6.19423 8.29267H6.19557V7.79267ZM7.42 8.29267C7.69614 8.29267 7.92 8.06881 7.92 7.79267C7.92 7.51653 7.69614 7.29267 7.42 7.29267V8.29267ZM15.9629 18.5633C16.2379 18.5886 16.4814 18.3862 16.5067 18.1112C16.532 17.8363 16.3296 17.5928 16.0547 17.5675L15.9629 18.5633ZM9.004 4V3.5C8.72933 3.5 8.50609 3.72156 8.50401 3.99623L9.004 4ZM23.194 4L23.694 3.99606C23.6918 3.72147 23.4686 3.5 23.194 3.5V4ZM16.1477 17.5675C15.8728 17.5928 15.6704 17.8363 15.6957 18.1112C15.721 18.3862 15.9645 18.5886 16.2395 18.5633L16.1477 17.5675ZM13.206 25.8126H18.9964V24.8126H13.206V25.8126ZM24.58 8.29267H25.4086V7.29267H24.58V8.29267ZM25.409 8.29267C25.588 8.29252 25.7665 8.34213 25.9277 8.44009L26.447 7.58549C26.1325 7.39435 25.7746 7.29236 25.4082 7.29267L25.409 8.29267ZM25.9277 8.44009C26.0893 8.53827 26.2295 8.68277 26.3313 8.86348L27.2026 8.37268C27.0202 8.04879 26.7612 7.7764 26.447 7.58549L25.9277 8.44009ZM26.3313 8.86348C26.4332 9.04435 26.4919 9.2534 26.4992 9.47032L27.4987 9.43665C27.4861 9.06273 27.385 8.69641 27.2026 8.37268L26.3313 8.86348ZM26.4992 9.47032C26.5065 9.68726 26.4621 9.90107 26.3721 10.0906L27.2755 10.5194C27.4351 10.1832 27.5113 9.81056 27.4987 9.43665L26.4992 9.47032ZM26.372 10.0908C24.9279 13.1363 21.8163 17.6954 16.1778 17.6954V18.6954C22.4415 18.6954 25.8018 13.6274 27.2756 10.5192L26.372 10.0908ZM16.1778 17.6954H16.0625V18.6954H16.1778V17.6954ZM16.0625 17.6954C9.98924 17.6954 6.84769 12.3819 5.56911 9.42974L4.65147 9.82716C5.94098 12.8046 9.31906 18.6954 16.0625 18.6954V17.6954ZM5.57013 9.43212C5.51701 9.30768 5.49296 9.16873 5.50178 9.02879L4.50377 8.96587C4.48525 9.25958 4.53516 9.55474 4.65044 9.82477L5.57013 9.43212ZM5.50178 9.02879C5.51061 8.88886 5.55177 8.75594 5.61891 8.64238L4.75808 8.13348C4.60887 8.38588 4.52228 8.67215 4.50377 8.96587L5.50178 9.02879ZM5.61891 8.64238C5.68595 8.52897 5.77556 8.4403 5.8761 8.38087L5.36726 7.52001C5.11575 7.66866 4.90739 7.88092 4.75808 8.13348L5.61891 8.64238ZM5.8761 8.38087C5.9763 8.32164 6.08556 8.29238 6.19423 8.29267L6.19691 7.29267C5.9046 7.29189 5.61911 7.37115 5.36726 7.52001L5.8761 8.38087ZM6.19557 8.29267H7.42V7.29267H6.19557V8.29267ZM16.0547 17.5675C14.4551 17.4202 13.2476 16.5609 12.3196 15.2958C11.3839 14.0202 10.7505 12.3525 10.3266 10.6654C9.90407 8.98384 9.69782 7.31645 9.59762 6.06575C9.54761 5.44143 9.5242 4.92339 9.5133 4.56244C9.50785 4.38201 9.50554 4.24098 9.50457 4.14572C9.50409 4.09809 9.50395 4.06192 9.50393 4.03799C9.50391 4.02603 9.50393 4.01713 9.50395 4.01139C9.50396 4.00852 9.50397 4.00645 9.50398 4.00517C9.50398 4.00454 9.50398 4.0041 9.50399 4.00387C9.50399 4.00375 9.50399 4.00373 9.50399 4.00367C9.50399 4.00369 9.50399 4.00377 9.004 4C8.50401 3.99623 8.50401 3.99641 8.50401 3.99664C8.50401 3.99679 8.50401 3.99707 8.50401 3.99736C8.504 3.99794 8.504 3.99873 8.50399 3.99971C8.50398 4.00169 8.50397 4.00447 8.50396 4.00805C8.50393 4.01521 8.50391 4.02556 8.50393 4.03899C8.50395 4.06585 8.50411 4.10506 8.50462 4.15582C8.50565 4.25732 8.50809 4.40506 8.51376 4.59262C8.52508 4.96763 8.54929 5.50242 8.60082 6.1456C8.70371 7.42989 8.91628 9.15613 9.35672 10.9091C9.79577 12.6565 10.4694 14.4643 11.5133 15.8873C12.5649 17.3209 14.0095 18.3833 15.9629 18.5633L16.0547 17.5675ZM9.004 4.5H23.194V3.5H9.004V4.5ZM23.194 4C22.694 4.00394 22.694 4.00386 22.694 4.00383C22.694 4.00389 22.694 4.00391 22.694 4.00403C22.694 4.00426 22.694 4.0047 22.694 4.00534C22.694 4.00661 22.694 4.00869 22.6941 4.01156C22.6941 4.01729 22.6941 4.02619 22.6941 4.03816C22.6941 4.06208 22.6939 4.09826 22.6935 4.14588C22.6925 4.24115 22.6903 4.38217 22.6849 4.5626C22.6741 4.92355 22.6509 5.44159 22.6011 6.06591C22.5013 7.31661 22.2956 8.98399 21.8736 10.6656C21.4502 12.3527 20.8174 14.0203 19.882 15.2959C18.9545 16.5609 17.7472 17.4202 16.1477 17.5675L16.2395 18.5633C18.193 18.3833 19.6373 17.3208 20.6885 15.8872C21.7319 14.4642 22.405 12.6564 22.8435 10.9089C23.2834 9.15598 23.4954 7.42973 23.5979 6.14544C23.6492 5.50226 23.6732 4.96747 23.6844 4.59245C23.69 4.4049 23.6924 4.25716 23.6934 4.15566C23.6939 4.1049 23.6941 4.06569 23.6941 4.03883C23.6941 4.0254 23.6941 4.01505 23.694 4.00789C23.694 4.00431 23.694 4.00152 23.694 3.99955C23.694 3.99856 23.694 3.99778 23.694 3.9972C23.694 3.9969 23.694 3.99662 23.694 3.99648C23.694 3.99624 23.694 3.99606 23.194 4ZM14.2302 18.1954C13.7343 18.2594 13.7343 18.2591 13.7343 18.2589C13.7342 18.2588 13.7342 18.2585 13.7342 18.2583C13.7342 18.258 13.7341 18.2577 13.7341 18.2574C13.734 18.2569 13.734 18.2565 13.7339 18.2562C13.7339 18.2556 13.7339 18.2556 13.7339 18.256C13.734 18.2569 13.7343 18.2598 13.7347 18.2646C13.7356 18.2743 13.7369 18.2917 13.738 18.3163C13.7403 18.3655 13.7416 18.4433 13.7364 18.5456C13.726 18.7501 13.6895 19.0518 13.5825 19.4177C13.3699 20.1448 12.8734 21.1448 11.7123 22.1522L12.3677 22.9075C13.6794 21.7694 14.278 20.6022 14.5423 19.6984C14.6738 19.2489 14.7212 18.8692 14.7351 18.5964C14.742 18.4599 14.7406 18.3499 14.737 18.2711C14.7352 18.2316 14.7329 18.1999 14.7308 18.1764C14.7298 18.1647 14.7288 18.155 14.728 18.1475C14.7276 18.1437 14.7272 18.1405 14.7269 18.1378C14.7267 18.1365 14.7266 18.1353 14.7265 18.1342C14.7264 18.1337 14.7263 18.1332 14.7263 18.1327C14.7262 18.1325 14.7262 18.1321 14.7262 18.132C14.7261 18.1317 14.7261 18.1314 14.2302 18.1954ZM17.7697 18.1954C17.2738 18.1315 17.2738 18.1318 17.2738 18.1321C17.2737 18.1322 17.2737 18.1326 17.2737 18.1328C17.2736 18.1333 17.2736 18.1338 17.2735 18.1343C17.2734 18.1354 17.2732 18.1366 17.273 18.1379C17.2727 18.1406 17.2724 18.1439 17.2719 18.1476C17.2711 18.1551 17.2701 18.1648 17.2691 18.1765C17.267 18.2 17.2647 18.2317 17.263 18.2712C17.2594 18.35 17.258 18.46 17.2649 18.5964C17.2789 18.8693 17.3264 19.249 17.4578 19.6984C17.7222 20.6022 18.3208 21.7694 19.6323 22.9075L20.2877 22.1523C19.1268 21.1448 18.6303 20.1448 18.4176 19.4177C18.3106 19.0517 18.2741 18.7501 18.2636 18.5455C18.2584 18.4432 18.2597 18.3654 18.2619 18.3162C18.263 18.2916 18.2644 18.2742 18.2652 18.2645C18.2657 18.2597 18.266 18.2568 18.2661 18.2559C18.2661 18.2555 18.2661 18.2555 18.266 18.2561C18.266 18.2564 18.266 18.2568 18.2659 18.2573C18.2659 18.2576 18.2658 18.2579 18.2658 18.2582C18.2658 18.2584 18.2657 18.2587 18.2657 18.2587C18.2657 18.259 18.2656 18.2593 17.7697 18.1954ZM10.6892 23.0299H21.5132V22.0299H10.6892V23.0299ZM21.5132 23.0299C21.9732 23.0299 22.3332 23.3953 22.3332 23.8302H23.3332C23.3332 22.8289 22.5113 22.0299 21.5132 22.0299V23.0299ZM22.3332 23.8302V26.6997H23.3332V23.8302H22.3332ZM22.3332 26.6997C22.3332 27.1346 21.9732 27.5 21.5132 27.5V28.5C22.5113 28.5 23.3332 27.701 23.3332 26.6997H22.3332ZM21.5132 27.5H10.6892V28.5H21.5132V27.5ZM10.6892 27.5C10.2292 27.5 9.8692 27.1346 9.8692 26.6997H8.8692C8.8692 27.701 9.69114 28.5 10.6892 28.5V27.5ZM9.8692 26.6997V23.8302H8.8692V26.6997H9.8692ZM9.8692 23.8302C9.8692 23.3953 10.2292 23.0299 10.6892 23.0299V22.0299C9.69114 22.0299 8.8692 22.8289 8.8692 23.8302H9.8692Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </span>
+            <span
+              class="block grow text-start text-bulma overflow-hidden"
+            >
+              <span
+                class="block text-bulma text-moon-14"
+              >
+                Tournaments
+              </span>
+              <span
+                class="flex text-trunks text-moon-12"
+              >
+                <span
+                  class="flex-1 truncate"
+                >
+                  <span>
+                    Best tournaments with streamers
+                  </span>
+                </span>
+              </span>
+            </span>
+          </button>
+          <button
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+            type="button"
+          >
+            <span
+              class="flex w-11 h-11 bg-goku items-center justify-center"
+            >
+              <svg
+                class="text-bulma text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.0385 19.0646V23.3767C13.0385 24.2555 12.3261 24.9678 11.4474 24.9678C10.6394 24.9678 9.95978 24.3624 9.86682 23.5598L9.34615 19.0646M7.5 17.3937V14.6063C7.5 13.9604 7.87238 13.3723 8.45631 13.096C8.67968 12.9903 8.92372 12.9355 9.17083 12.9355H13.356C13.5504 12.9355 13.7405 12.8789 13.9031 12.7726L20.4058 8.52243C21.736 7.65298 23.5 8.60739 23.5 10.1966V21.8035C23.5 23.3927 21.736 24.3471 20.4058 23.4776L13.9031 19.2275C13.7405 19.1212 13.5504 19.0646 13.356 19.0646H9.17083C8.92372 19.0646 8.67968 19.0097 8.45631 18.9041C7.87238 18.6278 7.5 18.0397 7.5 17.3937Z"
+                  stroke="currentColor"
+                />
+              </svg>
+            </span>
+            <span
+              class="block grow text-start text-bulma overflow-hidden"
+            >
+              <span
+                class="block text-bulma text-moon-14"
+              >
+                Promotions
+              </span>
+              <span
+                class="flex text-trunks text-moon-12"
+              >
+                <span
+                  class="flex-1 truncate"
+                >
+                  <span>
+                     Your favourite games
+                  </span>
+                </span>
+              </span>
+            </span>
+          </button>
+          <button
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+            type="button"
+          >
+            <span
+              class="flex w-11 h-11 bg-goku items-center justify-center"
+            >
+              <svg
+                class="text-bulma text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10.8846 14.5385L10.8846 25.5M10.8846 6.5V9.42308M21.1154 22.5769V25.5M21.1154 6.5V17.4615M8.5 14.5385H13.2692C14.3738 14.5385 15.2692 13.6431 15.2692 12.5385V11.4231C15.2692 10.3185 14.3738 9.4231 13.2692 9.4231H8.5C7.39543 9.4231 6.5 10.3185 6.5 11.4231V12.5385C6.5 13.643 7.39543 14.5385 8.5 14.5385ZM18.7308 22.5769H23.5C24.6046 22.5769 25.5 21.6815 25.5 20.5769V19.4615C25.5 18.357 24.6046 17.4615 23.5 17.4615H18.7308C17.6262 17.4615 16.7308 18.357 16.7308 19.4615V20.5769C16.7308 21.6815 17.6262 22.5769 18.7308 22.5769Z"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </span>
+            <span
+              class="block grow text-start text-bulma overflow-hidden"
+            >
+              <span
+                class="block text-bulma text-moon-14"
+              >
+                Providers
+              </span>
+              <span
+                class="flex text-trunks text-moon-12"
+              >
+                <span
+                  class="flex-1 truncate"
+                >
+                  <span>
+                     Your favourite games
+                  </span>
+                </span>
+              </span>
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
@@ -1830,133 +1794,15 @@ Object {
         class="flex align-middle justify-around items-center w-full gap-2"
       >
         <div
-          data-headlessui-state="open"
-        >
-          <div
-            class="relative"
-          >
-            <div
-              aria-controls="headlessui-popover-panel-:rm:"
-              aria-expanded="true"
-              data-headlessui-state="open"
-              id="headlessui-popover-button-:rk:"
-            >
-              <button
-                class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-                type="button"
-              >
-                Top
-                <span
-                  aria-hidden="true"
-                  class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-                />
-              </button>
-            </div>
-            <button
-              aria-hidden="true"
-              data-headlessui-focus-guard="true"
-              id="headlessui-focus-sentinel-:rl:"
-              style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
-              type="button"
-            />
-            <button
-              aria-hidden="true"
-              data-headlessui-focus-guard="true"
-              id="headlessui-focus-sentinel-before-:rn:"
-              style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
-              type="button"
-            />
-            <div
-              class="w-72 z-[999999] rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
-              data-headlessui-state="open"
-              data-popper-escaped="true"
-              data-popper-placement="top"
-              data-popper-reference-hidden="true"
-              id="headlessui-popover-panel-:rm:"
-              style="position: absolute; left: 0px; top: 0px; bottom: 0px; transform: translate(0px, -8px);"
-              tabindex="-1"
-            >
-              <p
-                class="p-4 text-moon-14"
-              >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              </p>
-            </div>
-            <button
-              aria-hidden="true"
-              data-headlessui-focus-guard="true"
-              id="headlessui-focus-sentinel-after-:ro:"
-              style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
-              type="button"
-            />
-          </div>
-        </div>
-        <div
-          data-headlessui-state=""
-        >
-          <div
-            class="relative"
-          >
-            <div
-              aria-expanded="false"
-              data-headlessui-state=""
-              id="headlessui-popover-button-:rp:"
-            >
-              <button
-                class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-                type="button"
-              >
-                Right
-                <span
-                  aria-hidden="true"
-                  class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-                />
-              </button>
-            </div>
-          </div>
-        </div>
-        <div
-          data-headlessui-state=""
-        >
-          <div
-            class="relative"
-          >
-            <div
-              aria-expanded="false"
-              data-headlessui-state=""
-              id="headlessui-popover-button-:ru:"
-            >
-              <button
-                class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-                type="button"
-              >
-                Left
-                <span
-                  aria-hidden="true"
-                  class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-                />
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      class="flex align-middle justify-around items-center w-full gap-2"
-    >
-      <div
-        data-headlessui-state="open"
-      >
-        <div
           class="relative"
+          data-headlessui-state="open"
         >
           <div
             aria-controls="headlessui-popover-panel-:rm:"
             aria-expanded="true"
             data-headlessui-state="open"
             id="headlessui-popover-button-:rk:"
+            role="button"
           >
             <button
               class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
@@ -2007,17 +1853,15 @@ Object {
             type="button"
           />
         </div>
-      </div>
-      <div
-        data-headlessui-state=""
-      >
         <div
           class="relative"
+          data-headlessui-state=""
         >
           <div
             aria-expanded="false"
             data-headlessui-state=""
             id="headlessui-popover-button-:rp:"
+            role="button"
           >
             <button
               class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
@@ -2031,17 +1875,15 @@ Object {
             </button>
           </div>
         </div>
-      </div>
-      <div
-        data-headlessui-state=""
-      >
         <div
           class="relative"
+          data-headlessui-state=""
         >
           <div
             aria-expanded="false"
             data-headlessui-state=""
             id="headlessui-popover-button-:ru:"
+            role="button"
           >
             <button
               class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
@@ -2054,6 +1896,116 @@ Object {
               />
             </button>
           </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex align-middle justify-around items-center w-full gap-2"
+    >
+      <div
+        class="relative"
+        data-headlessui-state="open"
+      >
+        <div
+          aria-controls="headlessui-popover-panel-:rm:"
+          aria-expanded="true"
+          data-headlessui-state="open"
+          id="headlessui-popover-button-:rk:"
+          role="button"
+        >
+          <button
+            class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+            type="button"
+          >
+            Top
+            <span
+              aria-hidden="true"
+              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
+        </div>
+        <button
+          aria-hidden="true"
+          data-headlessui-focus-guard="true"
+          id="headlessui-focus-sentinel-:rl:"
+          style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+          type="button"
+        />
+        <button
+          aria-hidden="true"
+          data-headlessui-focus-guard="true"
+          id="headlessui-focus-sentinel-before-:rn:"
+          style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+          type="button"
+        />
+        <div
+          class="w-72 z-[999999] rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
+          data-headlessui-state="open"
+          data-popper-escaped="true"
+          data-popper-placement="top"
+          data-popper-reference-hidden="true"
+          id="headlessui-popover-panel-:rm:"
+          style="position: absolute; left: 0px; top: 0px; bottom: 0px; transform: translate(0px, -8px);"
+          tabindex="-1"
+        >
+          <p
+            class="p-4 text-moon-14"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </p>
+        </div>
+        <button
+          aria-hidden="true"
+          data-headlessui-focus-guard="true"
+          id="headlessui-focus-sentinel-after-:ro:"
+          style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+          type="button"
+        />
+      </div>
+      <div
+        class="relative"
+        data-headlessui-state=""
+      >
+        <div
+          aria-expanded="false"
+          data-headlessui-state=""
+          id="headlessui-popover-button-:rp:"
+          role="button"
+        >
+          <button
+            class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+            type="button"
+          >
+            Right
+            <span
+              aria-hidden="true"
+              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
+        </div>
+      </div>
+      <div
+        class="relative"
+        data-headlessui-state=""
+      >
+        <div
+          aria-expanded="false"
+          data-headlessui-state=""
+          id="headlessui-popover-button-:ru:"
+          role="button"
+        >
+          <button
+            class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+            type="button"
+          >
+            Left
+            <span
+              aria-hidden="true"
+              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
         </div>
       </div>
     </div>
@@ -2121,131 +2073,15 @@ Object {
         class="flex align-middle justify-around items-center w-full gap-2"
       >
         <div
-          data-headlessui-state="open"
-        >
-          <div
-            class="relative"
-          >
-            <div
-              aria-controls="headlessui-popover-panel-:r7:"
-              aria-expanded="true"
-              data-headlessui-state="open"
-              id="headlessui-popover-button-:r5:"
-            >
-              <button
-                class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-                type="button"
-              >
-                Button
-                <span
-                  aria-hidden="true"
-                  class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-                />
-              </button>
-            </div>
-            <div
-              class="w-72 z-[999999] rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
-              data-headlessui-state="open"
-              data-popper-escaped="true"
-              data-popper-placement="bottom"
-              data-popper-reference-hidden="true"
-              id="headlessui-popover-panel-:r7:"
-              style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 8px);"
-              tabindex="-1"
-            >
-              <div>
-                <button
-                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                  type="button"
-                >
-                  Tournaments
-                </button>
-                <button
-                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                  type="button"
-                >
-                  Promotions
-                </button>
-                <button
-                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                  type="button"
-                >
-                  Providers
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          data-headlessui-state=""
-        >
-          <div
-            class="relative"
-          >
-            <div
-              aria-expanded="false"
-              data-headlessui-state=""
-              id="headlessui-popover-button-:ra:"
-            >
-              <button
-                class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 center h-10 gap-2 p-2 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-              >
-                <svg
-                  class="text-moon-24"
-                  fill="none"
-                  height="1em"
-                  viewBox="0 0 32 32"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M25 11.5L16 20.5L7 11.5"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </button>
-            </div>
-          </div>
-        </div>
-        <div
-          data-headlessui-state=""
-        >
-          <div
-            class="relative"
-          >
-            <div
-              aria-expanded="false"
-              data-headlessui-state=""
-              id="headlessui-popover-button-:rf:"
-            >
-              <span
-                class="text-moon-14 text-trunks cursor-pointer hover:text-piccolo"
-              >
-                Open popover
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      class="flex align-middle justify-around items-center w-full gap-2"
-    >
-      <div
-        data-headlessui-state="open"
-      >
-        <div
           class="relative"
+          data-headlessui-state="open"
         >
           <div
             aria-controls="headlessui-popover-panel-:r7:"
             aria-expanded="true"
             data-headlessui-state="open"
             id="headlessui-popover-button-:r5:"
+            role="button"
           >
             <button
               class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
@@ -2290,17 +2126,15 @@ Object {
             </div>
           </div>
         </div>
-      </div>
-      <div
-        data-headlessui-state=""
-      >
         <div
           class="relative"
+          data-headlessui-state=""
         >
           <div
             aria-expanded="false"
             data-headlessui-state=""
             id="headlessui-popover-button-:ra:"
+            role="button"
           >
             <button
               class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 center h-10 gap-2 p-2 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
@@ -2323,17 +2157,15 @@ Object {
             </button>
           </div>
         </div>
-      </div>
-      <div
-        data-headlessui-state=""
-      >
         <div
           class="relative"
+          data-headlessui-state=""
         >
           <div
             aria-expanded="false"
             data-headlessui-state=""
             id="headlessui-popover-button-:rf:"
+            role="button"
           >
             <span
               class="text-moon-14 text-trunks cursor-pointer hover:text-piccolo"
@@ -2341,6 +2173,114 @@ Object {
               Open popover
             </span>
           </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex align-middle justify-around items-center w-full gap-2"
+    >
+      <div
+        class="relative"
+        data-headlessui-state="open"
+      >
+        <div
+          aria-controls="headlessui-popover-panel-:r7:"
+          aria-expanded="true"
+          data-headlessui-state="open"
+          id="headlessui-popover-button-:r5:"
+          role="button"
+        >
+          <button
+            class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+            type="button"
+          >
+            Button
+            <span
+              aria-hidden="true"
+              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
+        </div>
+        <div
+          class="w-72 z-[999999] rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
+          data-headlessui-state="open"
+          data-popper-escaped="true"
+          data-popper-placement="bottom"
+          data-popper-reference-hidden="true"
+          id="headlessui-popover-panel-:r7:"
+          style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 8px);"
+          tabindex="-1"
+        >
+          <div>
+            <button
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+              type="button"
+            >
+              Tournaments
+            </button>
+            <button
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+              type="button"
+            >
+              Promotions
+            </button>
+            <button
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+              type="button"
+            >
+              Providers
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="relative"
+        data-headlessui-state=""
+      >
+        <div
+          aria-expanded="false"
+          data-headlessui-state=""
+          id="headlessui-popover-button-:ra:"
+          role="button"
+        >
+          <button
+            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 center h-10 gap-2 p-2 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+          >
+            <svg
+              class="text-moon-24"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5L16 20.5L7 11.5"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div
+        class="relative"
+        data-headlessui-state=""
+      >
+        <div
+          aria-expanded="false"
+          data-headlessui-state=""
+          id="headlessui-popover-button-:rf:"
+          role="button"
+        >
+          <span
+            class="text-moon-14 text-trunks cursor-pointer hover:text-piccolo"
+          >
+            Open popover
+          </span>
         </div>
       </div>
     </div>
@@ -2405,196 +2345,15 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        data-headlessui-state="open"
-      >
-        <div
-          class="relative"
-        >
-          <div
-            aria-controls="headlessui-popover-panel-:r15:"
-            aria-expanded="true"
-            data-headlessui-state="open"
-            id="headlessui-popover-button-:r13:"
-          >
-            <button
-              class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-              type="button"
-            >
-              Toggle Popover
-              <span
-                aria-hidden="true"
-                class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-              />
-            </button>
-          </div>
-          <div
-            class="w-72 z-[999999] rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none !w-96"
-            data-headlessui-state="open"
-            data-popper-escaped="true"
-            data-popper-placement="bottom"
-            data-popper-reference-hidden="true"
-            id="headlessui-popover-panel-:r15:"
-            style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 8px);"
-            tabindex="-1"
-          >
-            <div
-              class="p-6 flex flex-col gap-6"
-            >
-              <button
-                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                type="button"
-              >
-                <span
-                  class="flex w-11 h-11 bg-goku items-center justify-center rounded-lg"
-                >
-                  <svg
-                    class="text-bulma text-moon-24"
-                    fill="none"
-                    height="1em"
-                    viewBox="0 0 32 32"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M13.206 24.8126C12.9299 24.8126 12.706 25.0365 12.706 25.3126C12.706 25.5888 12.9299 25.8126 13.206 25.8126V24.8126ZM18.9964 25.8126C19.2726 25.8126 19.4964 25.5888 19.4964 25.3126C19.4964 25.0365 19.2726 24.8126 18.9964 24.8126V25.8126ZM24.58 7.29267C24.3039 7.29267 24.08 7.51653 24.08 7.79267C24.08 8.06881 24.3039 8.29267 24.58 8.29267V7.29267ZM25.4086 7.79267V8.29267H25.409L25.4086 7.79267ZM26.8238 10.305L26.3721 10.0906L26.372 10.0908L26.8238 10.305ZM5.11029 9.62845L4.65044 9.82477L4.65147 9.82716L5.11029 9.62845ZM6.19557 7.79267L6.19423 8.29267H6.19557V7.79267ZM7.42 8.29267C7.69614 8.29267 7.92 8.06881 7.92 7.79267C7.92 7.51653 7.69614 7.29267 7.42 7.29267V8.29267ZM15.9629 18.5633C16.2379 18.5886 16.4814 18.3862 16.5067 18.1112C16.532 17.8363 16.3296 17.5928 16.0547 17.5675L15.9629 18.5633ZM9.004 4V3.5C8.72933 3.5 8.50609 3.72156 8.50401 3.99623L9.004 4ZM23.194 4L23.694 3.99606C23.6918 3.72147 23.4686 3.5 23.194 3.5V4ZM16.1477 17.5675C15.8728 17.5928 15.6704 17.8363 15.6957 18.1112C15.721 18.3862 15.9645 18.5886 16.2395 18.5633L16.1477 17.5675ZM13.206 25.8126H18.9964V24.8126H13.206V25.8126ZM24.58 8.29267H25.4086V7.29267H24.58V8.29267ZM25.409 8.29267C25.588 8.29252 25.7665 8.34213 25.9277 8.44009L26.447 7.58549C26.1325 7.39435 25.7746 7.29236 25.4082 7.29267L25.409 8.29267ZM25.9277 8.44009C26.0893 8.53827 26.2295 8.68277 26.3313 8.86348L27.2026 8.37268C27.0202 8.04879 26.7612 7.7764 26.447 7.58549L25.9277 8.44009ZM26.3313 8.86348C26.4332 9.04435 26.4919 9.2534 26.4992 9.47032L27.4987 9.43665C27.4861 9.06273 27.385 8.69641 27.2026 8.37268L26.3313 8.86348ZM26.4992 9.47032C26.5065 9.68726 26.4621 9.90107 26.3721 10.0906L27.2755 10.5194C27.4351 10.1832 27.5113 9.81056 27.4987 9.43665L26.4992 9.47032ZM26.372 10.0908C24.9279 13.1363 21.8163 17.6954 16.1778 17.6954V18.6954C22.4415 18.6954 25.8018 13.6274 27.2756 10.5192L26.372 10.0908ZM16.1778 17.6954H16.0625V18.6954H16.1778V17.6954ZM16.0625 17.6954C9.98924 17.6954 6.84769 12.3819 5.56911 9.42974L4.65147 9.82716C5.94098 12.8046 9.31906 18.6954 16.0625 18.6954V17.6954ZM5.57013 9.43212C5.51701 9.30768 5.49296 9.16873 5.50178 9.02879L4.50377 8.96587C4.48525 9.25958 4.53516 9.55474 4.65044 9.82477L5.57013 9.43212ZM5.50178 9.02879C5.51061 8.88886 5.55177 8.75594 5.61891 8.64238L4.75808 8.13348C4.60887 8.38588 4.52228 8.67215 4.50377 8.96587L5.50178 9.02879ZM5.61891 8.64238C5.68595 8.52897 5.77556 8.4403 5.8761 8.38087L5.36726 7.52001C5.11575 7.66866 4.90739 7.88092 4.75808 8.13348L5.61891 8.64238ZM5.8761 8.38087C5.9763 8.32164 6.08556 8.29238 6.19423 8.29267L6.19691 7.29267C5.9046 7.29189 5.61911 7.37115 5.36726 7.52001L5.8761 8.38087ZM6.19557 8.29267H7.42V7.29267H6.19557V8.29267ZM16.0547 17.5675C14.4551 17.4202 13.2476 16.5609 12.3196 15.2958C11.3839 14.0202 10.7505 12.3525 10.3266 10.6654C9.90407 8.98384 9.69782 7.31645 9.59762 6.06575C9.54761 5.44143 9.5242 4.92339 9.5133 4.56244C9.50785 4.38201 9.50554 4.24098 9.50457 4.14572C9.50409 4.09809 9.50395 4.06192 9.50393 4.03799C9.50391 4.02603 9.50393 4.01713 9.50395 4.01139C9.50396 4.00852 9.50397 4.00645 9.50398 4.00517C9.50398 4.00454 9.50398 4.0041 9.50399 4.00387C9.50399 4.00375 9.50399 4.00373 9.50399 4.00367C9.50399 4.00369 9.50399 4.00377 9.004 4C8.50401 3.99623 8.50401 3.99641 8.50401 3.99664C8.50401 3.99679 8.50401 3.99707 8.50401 3.99736C8.504 3.99794 8.504 3.99873 8.50399 3.99971C8.50398 4.00169 8.50397 4.00447 8.50396 4.00805C8.50393 4.01521 8.50391 4.02556 8.50393 4.03899C8.50395 4.06585 8.50411 4.10506 8.50462 4.15582C8.50565 4.25732 8.50809 4.40506 8.51376 4.59262C8.52508 4.96763 8.54929 5.50242 8.60082 6.1456C8.70371 7.42989 8.91628 9.15613 9.35672 10.9091C9.79577 12.6565 10.4694 14.4643 11.5133 15.8873C12.5649 17.3209 14.0095 18.3833 15.9629 18.5633L16.0547 17.5675ZM9.004 4.5H23.194V3.5H9.004V4.5ZM23.194 4C22.694 4.00394 22.694 4.00386 22.694 4.00383C22.694 4.00389 22.694 4.00391 22.694 4.00403C22.694 4.00426 22.694 4.0047 22.694 4.00534C22.694 4.00661 22.694 4.00869 22.6941 4.01156C22.6941 4.01729 22.6941 4.02619 22.6941 4.03816C22.6941 4.06208 22.6939 4.09826 22.6935 4.14588C22.6925 4.24115 22.6903 4.38217 22.6849 4.5626C22.6741 4.92355 22.6509 5.44159 22.6011 6.06591C22.5013 7.31661 22.2956 8.98399 21.8736 10.6656C21.4502 12.3527 20.8174 14.0203 19.882 15.2959C18.9545 16.5609 17.7472 17.4202 16.1477 17.5675L16.2395 18.5633C18.193 18.3833 19.6373 17.3208 20.6885 15.8872C21.7319 14.4642 22.405 12.6564 22.8435 10.9089C23.2834 9.15598 23.4954 7.42973 23.5979 6.14544C23.6492 5.50226 23.6732 4.96747 23.6844 4.59245C23.69 4.4049 23.6924 4.25716 23.6934 4.15566C23.6939 4.1049 23.6941 4.06569 23.6941 4.03883C23.6941 4.0254 23.6941 4.01505 23.694 4.00789C23.694 4.00431 23.694 4.00152 23.694 3.99955C23.694 3.99856 23.694 3.99778 23.694 3.9972C23.694 3.9969 23.694 3.99662 23.694 3.99648C23.694 3.99624 23.694 3.99606 23.194 4ZM14.2302 18.1954C13.7343 18.2594 13.7343 18.2591 13.7343 18.2589C13.7342 18.2588 13.7342 18.2585 13.7342 18.2583C13.7342 18.258 13.7341 18.2577 13.7341 18.2574C13.734 18.2569 13.734 18.2565 13.7339 18.2562C13.7339 18.2556 13.7339 18.2556 13.7339 18.256C13.734 18.2569 13.7343 18.2598 13.7347 18.2646C13.7356 18.2743 13.7369 18.2917 13.738 18.3163C13.7403 18.3655 13.7416 18.4433 13.7364 18.5456C13.726 18.7501 13.6895 19.0518 13.5825 19.4177C13.3699 20.1448 12.8734 21.1448 11.7123 22.1522L12.3677 22.9075C13.6794 21.7694 14.278 20.6022 14.5423 19.6984C14.6738 19.2489 14.7212 18.8692 14.7351 18.5964C14.742 18.4599 14.7406 18.3499 14.737 18.2711C14.7352 18.2316 14.7329 18.1999 14.7308 18.1764C14.7298 18.1647 14.7288 18.155 14.728 18.1475C14.7276 18.1437 14.7272 18.1405 14.7269 18.1378C14.7267 18.1365 14.7266 18.1353 14.7265 18.1342C14.7264 18.1337 14.7263 18.1332 14.7263 18.1327C14.7262 18.1325 14.7262 18.1321 14.7262 18.132C14.7261 18.1317 14.7261 18.1314 14.2302 18.1954ZM17.7697 18.1954C17.2738 18.1315 17.2738 18.1318 17.2738 18.1321C17.2737 18.1322 17.2737 18.1326 17.2737 18.1328C17.2736 18.1333 17.2736 18.1338 17.2735 18.1343C17.2734 18.1354 17.2732 18.1366 17.273 18.1379C17.2727 18.1406 17.2724 18.1439 17.2719 18.1476C17.2711 18.1551 17.2701 18.1648 17.2691 18.1765C17.267 18.2 17.2647 18.2317 17.263 18.2712C17.2594 18.35 17.258 18.46 17.2649 18.5964C17.2789 18.8693 17.3264 19.249 17.4578 19.6984C17.7222 20.6022 18.3208 21.7694 19.6323 22.9075L20.2877 22.1523C19.1268 21.1448 18.6303 20.1448 18.4176 19.4177C18.3106 19.0517 18.2741 18.7501 18.2636 18.5455C18.2584 18.4432 18.2597 18.3654 18.2619 18.3162C18.263 18.2916 18.2644 18.2742 18.2652 18.2645C18.2657 18.2597 18.266 18.2568 18.2661 18.2559C18.2661 18.2555 18.2661 18.2555 18.266 18.2561C18.266 18.2564 18.266 18.2568 18.2659 18.2573C18.2659 18.2576 18.2658 18.2579 18.2658 18.2582C18.2658 18.2584 18.2657 18.2587 18.2657 18.2587C18.2657 18.259 18.2656 18.2593 17.7697 18.1954ZM10.6892 23.0299H21.5132V22.0299H10.6892V23.0299ZM21.5132 23.0299C21.9732 23.0299 22.3332 23.3953 22.3332 23.8302H23.3332C23.3332 22.8289 22.5113 22.0299 21.5132 22.0299V23.0299ZM22.3332 23.8302V26.6997H23.3332V23.8302H22.3332ZM22.3332 26.6997C22.3332 27.1346 21.9732 27.5 21.5132 27.5V28.5C22.5113 28.5 23.3332 27.701 23.3332 26.6997H22.3332ZM21.5132 27.5H10.6892V28.5H21.5132V27.5ZM10.6892 27.5C10.2292 27.5 9.8692 27.1346 9.8692 26.6997H8.8692C8.8692 27.701 9.69114 28.5 10.6892 28.5V27.5ZM9.8692 26.6997V23.8302H8.8692V26.6997H9.8692ZM9.8692 23.8302C9.8692 23.3953 10.2292 23.0299 10.6892 23.0299V22.0299C9.69114 22.0299 8.8692 22.8289 8.8692 23.8302H9.8692Z"
-                      fill="currentColor"
-                    />
-                  </svg>
-                </span>
-                <span
-                  class="block grow text-start text-bulma overflow-hidden"
-                >
-                  <span
-                    class="block text-bulma text-moon-14"
-                  >
-                    Tournaments
-                  </span>
-                  <span
-                    class="flex text-trunks text-moon-12"
-                  >
-                    <span
-                      class="flex-1 truncate"
-                    >
-                      <span>
-                        Best tournaments with streamers
-                      </span>
-                    </span>
-                  </span>
-                </span>
-              </button>
-              <button
-                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                type="button"
-              >
-                <span
-                  class="flex w-11 h-11 bg-goku items-center justify-center"
-                >
-                  <svg
-                    class="text-bulma text-moon-24"
-                    fill="none"
-                    height="1em"
-                    viewBox="0 0 32 32"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M13.0385 19.0646V23.3767C13.0385 24.2555 12.3261 24.9678 11.4474 24.9678C10.6394 24.9678 9.95978 24.3624 9.86682 23.5598L9.34615 19.0646M7.5 17.3937V14.6063C7.5 13.9604 7.87238 13.3723 8.45631 13.096C8.67968 12.9903 8.92372 12.9355 9.17083 12.9355H13.356C13.5504 12.9355 13.7405 12.8789 13.9031 12.7726L20.4058 8.52243C21.736 7.65298 23.5 8.60739 23.5 10.1966V21.8035C23.5 23.3927 21.736 24.3471 20.4058 23.4776L13.9031 19.2275C13.7405 19.1212 13.5504 19.0646 13.356 19.0646H9.17083C8.92372 19.0646 8.67968 19.0097 8.45631 18.9041C7.87238 18.6278 7.5 18.0397 7.5 17.3937Z"
-                      stroke="currentColor"
-                    />
-                  </svg>
-                </span>
-                <span
-                  class="block grow text-start text-bulma overflow-hidden"
-                >
-                  <span
-                    class="block text-bulma text-moon-14"
-                  >
-                    Promotions
-                  </span>
-                  <span
-                    class="flex text-trunks text-moon-12"
-                  >
-                    <span
-                      class="flex-1 truncate"
-                    >
-                      <span>
-                         Your favourite games
-                      </span>
-                    </span>
-                  </span>
-                </span>
-              </button>
-              <button
-                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                type="button"
-              >
-                <span
-                  class="flex w-11 h-11 bg-goku items-center justify-center"
-                >
-                  <svg
-                    class="text-bulma text-moon-24"
-                    fill="none"
-                    height="1em"
-                    viewBox="0 0 32 32"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M10.8846 14.5385L10.8846 25.5M10.8846 6.5V9.42308M21.1154 22.5769V25.5M21.1154 6.5V17.4615M8.5 14.5385H13.2692C14.3738 14.5385 15.2692 13.6431 15.2692 12.5385V11.4231C15.2692 10.3185 14.3738 9.4231 13.2692 9.4231H8.5C7.39543 9.4231 6.5 10.3185 6.5 11.4231V12.5385C6.5 13.643 7.39543 14.5385 8.5 14.5385ZM18.7308 22.5769H23.5C24.6046 22.5769 25.5 21.6815 25.5 20.5769V19.4615C25.5 18.357 24.6046 17.4615 23.5 17.4615H18.7308C17.6262 17.4615 16.7308 18.357 16.7308 19.4615V20.5769C16.7308 21.6815 17.6262 22.5769 18.7308 22.5769Z"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                    />
-                  </svg>
-                </span>
-                <span
-                  class="block grow text-start text-bulma overflow-hidden"
-                >
-                  <span
-                    class="block text-bulma text-moon-14"
-                  >
-                    Providers
-                  </span>
-                  <span
-                    class="flex text-trunks text-moon-12"
-                  >
-                    <span
-                      class="flex-1 truncate"
-                    >
-                      <span>
-                         Your favourite games
-                      </span>
-                    </span>
-                  </span>
-                </span>
-              </button>
-              <button
-                class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-                type="button"
-              >
-                Close
-                <span
-                  aria-hidden="true"
-                  class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-                />
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      data-headlessui-state="open"
-    >
-      <div
         class="relative"
+        data-headlessui-state="open"
       >
         <div
           aria-controls="headlessui-popover-panel-:r15:"
           aria-expanded="true"
           data-headlessui-state="open"
           id="headlessui-popover-button-:r13:"
+          role="button"
         >
           <button
             class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
@@ -2758,6 +2517,183 @@ Object {
               />
             </button>
           </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="relative"
+      data-headlessui-state="open"
+    >
+      <div
+        aria-controls="headlessui-popover-panel-:r15:"
+        aria-expanded="true"
+        data-headlessui-state="open"
+        id="headlessui-popover-button-:r13:"
+        role="button"
+      >
+        <button
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+          type="button"
+        >
+          Toggle Popover
+          <span
+            aria-hidden="true"
+            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
+        </button>
+      </div>
+      <div
+        class="w-72 z-[999999] rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none !w-96"
+        data-headlessui-state="open"
+        data-popper-escaped="true"
+        data-popper-placement="bottom"
+        data-popper-reference-hidden="true"
+        id="headlessui-popover-panel-:r15:"
+        style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 8px);"
+        tabindex="-1"
+      >
+        <div
+          class="p-6 flex flex-col gap-6"
+        >
+          <button
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+            type="button"
+          >
+            <span
+              class="flex w-11 h-11 bg-goku items-center justify-center rounded-lg"
+            >
+              <svg
+                class="text-bulma text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.206 24.8126C12.9299 24.8126 12.706 25.0365 12.706 25.3126C12.706 25.5888 12.9299 25.8126 13.206 25.8126V24.8126ZM18.9964 25.8126C19.2726 25.8126 19.4964 25.5888 19.4964 25.3126C19.4964 25.0365 19.2726 24.8126 18.9964 24.8126V25.8126ZM24.58 7.29267C24.3039 7.29267 24.08 7.51653 24.08 7.79267C24.08 8.06881 24.3039 8.29267 24.58 8.29267V7.29267ZM25.4086 7.79267V8.29267H25.409L25.4086 7.79267ZM26.8238 10.305L26.3721 10.0906L26.372 10.0908L26.8238 10.305ZM5.11029 9.62845L4.65044 9.82477L4.65147 9.82716L5.11029 9.62845ZM6.19557 7.79267L6.19423 8.29267H6.19557V7.79267ZM7.42 8.29267C7.69614 8.29267 7.92 8.06881 7.92 7.79267C7.92 7.51653 7.69614 7.29267 7.42 7.29267V8.29267ZM15.9629 18.5633C16.2379 18.5886 16.4814 18.3862 16.5067 18.1112C16.532 17.8363 16.3296 17.5928 16.0547 17.5675L15.9629 18.5633ZM9.004 4V3.5C8.72933 3.5 8.50609 3.72156 8.50401 3.99623L9.004 4ZM23.194 4L23.694 3.99606C23.6918 3.72147 23.4686 3.5 23.194 3.5V4ZM16.1477 17.5675C15.8728 17.5928 15.6704 17.8363 15.6957 18.1112C15.721 18.3862 15.9645 18.5886 16.2395 18.5633L16.1477 17.5675ZM13.206 25.8126H18.9964V24.8126H13.206V25.8126ZM24.58 8.29267H25.4086V7.29267H24.58V8.29267ZM25.409 8.29267C25.588 8.29252 25.7665 8.34213 25.9277 8.44009L26.447 7.58549C26.1325 7.39435 25.7746 7.29236 25.4082 7.29267L25.409 8.29267ZM25.9277 8.44009C26.0893 8.53827 26.2295 8.68277 26.3313 8.86348L27.2026 8.37268C27.0202 8.04879 26.7612 7.7764 26.447 7.58549L25.9277 8.44009ZM26.3313 8.86348C26.4332 9.04435 26.4919 9.2534 26.4992 9.47032L27.4987 9.43665C27.4861 9.06273 27.385 8.69641 27.2026 8.37268L26.3313 8.86348ZM26.4992 9.47032C26.5065 9.68726 26.4621 9.90107 26.3721 10.0906L27.2755 10.5194C27.4351 10.1832 27.5113 9.81056 27.4987 9.43665L26.4992 9.47032ZM26.372 10.0908C24.9279 13.1363 21.8163 17.6954 16.1778 17.6954V18.6954C22.4415 18.6954 25.8018 13.6274 27.2756 10.5192L26.372 10.0908ZM16.1778 17.6954H16.0625V18.6954H16.1778V17.6954ZM16.0625 17.6954C9.98924 17.6954 6.84769 12.3819 5.56911 9.42974L4.65147 9.82716C5.94098 12.8046 9.31906 18.6954 16.0625 18.6954V17.6954ZM5.57013 9.43212C5.51701 9.30768 5.49296 9.16873 5.50178 9.02879L4.50377 8.96587C4.48525 9.25958 4.53516 9.55474 4.65044 9.82477L5.57013 9.43212ZM5.50178 9.02879C5.51061 8.88886 5.55177 8.75594 5.61891 8.64238L4.75808 8.13348C4.60887 8.38588 4.52228 8.67215 4.50377 8.96587L5.50178 9.02879ZM5.61891 8.64238C5.68595 8.52897 5.77556 8.4403 5.8761 8.38087L5.36726 7.52001C5.11575 7.66866 4.90739 7.88092 4.75808 8.13348L5.61891 8.64238ZM5.8761 8.38087C5.9763 8.32164 6.08556 8.29238 6.19423 8.29267L6.19691 7.29267C5.9046 7.29189 5.61911 7.37115 5.36726 7.52001L5.8761 8.38087ZM6.19557 8.29267H7.42V7.29267H6.19557V8.29267ZM16.0547 17.5675C14.4551 17.4202 13.2476 16.5609 12.3196 15.2958C11.3839 14.0202 10.7505 12.3525 10.3266 10.6654C9.90407 8.98384 9.69782 7.31645 9.59762 6.06575C9.54761 5.44143 9.5242 4.92339 9.5133 4.56244C9.50785 4.38201 9.50554 4.24098 9.50457 4.14572C9.50409 4.09809 9.50395 4.06192 9.50393 4.03799C9.50391 4.02603 9.50393 4.01713 9.50395 4.01139C9.50396 4.00852 9.50397 4.00645 9.50398 4.00517C9.50398 4.00454 9.50398 4.0041 9.50399 4.00387C9.50399 4.00375 9.50399 4.00373 9.50399 4.00367C9.50399 4.00369 9.50399 4.00377 9.004 4C8.50401 3.99623 8.50401 3.99641 8.50401 3.99664C8.50401 3.99679 8.50401 3.99707 8.50401 3.99736C8.504 3.99794 8.504 3.99873 8.50399 3.99971C8.50398 4.00169 8.50397 4.00447 8.50396 4.00805C8.50393 4.01521 8.50391 4.02556 8.50393 4.03899C8.50395 4.06585 8.50411 4.10506 8.50462 4.15582C8.50565 4.25732 8.50809 4.40506 8.51376 4.59262C8.52508 4.96763 8.54929 5.50242 8.60082 6.1456C8.70371 7.42989 8.91628 9.15613 9.35672 10.9091C9.79577 12.6565 10.4694 14.4643 11.5133 15.8873C12.5649 17.3209 14.0095 18.3833 15.9629 18.5633L16.0547 17.5675ZM9.004 4.5H23.194V3.5H9.004V4.5ZM23.194 4C22.694 4.00394 22.694 4.00386 22.694 4.00383C22.694 4.00389 22.694 4.00391 22.694 4.00403C22.694 4.00426 22.694 4.0047 22.694 4.00534C22.694 4.00661 22.694 4.00869 22.6941 4.01156C22.6941 4.01729 22.6941 4.02619 22.6941 4.03816C22.6941 4.06208 22.6939 4.09826 22.6935 4.14588C22.6925 4.24115 22.6903 4.38217 22.6849 4.5626C22.6741 4.92355 22.6509 5.44159 22.6011 6.06591C22.5013 7.31661 22.2956 8.98399 21.8736 10.6656C21.4502 12.3527 20.8174 14.0203 19.882 15.2959C18.9545 16.5609 17.7472 17.4202 16.1477 17.5675L16.2395 18.5633C18.193 18.3833 19.6373 17.3208 20.6885 15.8872C21.7319 14.4642 22.405 12.6564 22.8435 10.9089C23.2834 9.15598 23.4954 7.42973 23.5979 6.14544C23.6492 5.50226 23.6732 4.96747 23.6844 4.59245C23.69 4.4049 23.6924 4.25716 23.6934 4.15566C23.6939 4.1049 23.6941 4.06569 23.6941 4.03883C23.6941 4.0254 23.6941 4.01505 23.694 4.00789C23.694 4.00431 23.694 4.00152 23.694 3.99955C23.694 3.99856 23.694 3.99778 23.694 3.9972C23.694 3.9969 23.694 3.99662 23.694 3.99648C23.694 3.99624 23.694 3.99606 23.194 4ZM14.2302 18.1954C13.7343 18.2594 13.7343 18.2591 13.7343 18.2589C13.7342 18.2588 13.7342 18.2585 13.7342 18.2583C13.7342 18.258 13.7341 18.2577 13.7341 18.2574C13.734 18.2569 13.734 18.2565 13.7339 18.2562C13.7339 18.2556 13.7339 18.2556 13.7339 18.256C13.734 18.2569 13.7343 18.2598 13.7347 18.2646C13.7356 18.2743 13.7369 18.2917 13.738 18.3163C13.7403 18.3655 13.7416 18.4433 13.7364 18.5456C13.726 18.7501 13.6895 19.0518 13.5825 19.4177C13.3699 20.1448 12.8734 21.1448 11.7123 22.1522L12.3677 22.9075C13.6794 21.7694 14.278 20.6022 14.5423 19.6984C14.6738 19.2489 14.7212 18.8692 14.7351 18.5964C14.742 18.4599 14.7406 18.3499 14.737 18.2711C14.7352 18.2316 14.7329 18.1999 14.7308 18.1764C14.7298 18.1647 14.7288 18.155 14.728 18.1475C14.7276 18.1437 14.7272 18.1405 14.7269 18.1378C14.7267 18.1365 14.7266 18.1353 14.7265 18.1342C14.7264 18.1337 14.7263 18.1332 14.7263 18.1327C14.7262 18.1325 14.7262 18.1321 14.7262 18.132C14.7261 18.1317 14.7261 18.1314 14.2302 18.1954ZM17.7697 18.1954C17.2738 18.1315 17.2738 18.1318 17.2738 18.1321C17.2737 18.1322 17.2737 18.1326 17.2737 18.1328C17.2736 18.1333 17.2736 18.1338 17.2735 18.1343C17.2734 18.1354 17.2732 18.1366 17.273 18.1379C17.2727 18.1406 17.2724 18.1439 17.2719 18.1476C17.2711 18.1551 17.2701 18.1648 17.2691 18.1765C17.267 18.2 17.2647 18.2317 17.263 18.2712C17.2594 18.35 17.258 18.46 17.2649 18.5964C17.2789 18.8693 17.3264 19.249 17.4578 19.6984C17.7222 20.6022 18.3208 21.7694 19.6323 22.9075L20.2877 22.1523C19.1268 21.1448 18.6303 20.1448 18.4176 19.4177C18.3106 19.0517 18.2741 18.7501 18.2636 18.5455C18.2584 18.4432 18.2597 18.3654 18.2619 18.3162C18.263 18.2916 18.2644 18.2742 18.2652 18.2645C18.2657 18.2597 18.266 18.2568 18.2661 18.2559C18.2661 18.2555 18.2661 18.2555 18.266 18.2561C18.266 18.2564 18.266 18.2568 18.2659 18.2573C18.2659 18.2576 18.2658 18.2579 18.2658 18.2582C18.2658 18.2584 18.2657 18.2587 18.2657 18.2587C18.2657 18.259 18.2656 18.2593 17.7697 18.1954ZM10.6892 23.0299H21.5132V22.0299H10.6892V23.0299ZM21.5132 23.0299C21.9732 23.0299 22.3332 23.3953 22.3332 23.8302H23.3332C23.3332 22.8289 22.5113 22.0299 21.5132 22.0299V23.0299ZM22.3332 23.8302V26.6997H23.3332V23.8302H22.3332ZM22.3332 26.6997C22.3332 27.1346 21.9732 27.5 21.5132 27.5V28.5C22.5113 28.5 23.3332 27.701 23.3332 26.6997H22.3332ZM21.5132 27.5H10.6892V28.5H21.5132V27.5ZM10.6892 27.5C10.2292 27.5 9.8692 27.1346 9.8692 26.6997H8.8692C8.8692 27.701 9.69114 28.5 10.6892 28.5V27.5ZM9.8692 26.6997V23.8302H8.8692V26.6997H9.8692ZM9.8692 23.8302C9.8692 23.3953 10.2292 23.0299 10.6892 23.0299V22.0299C9.69114 22.0299 8.8692 22.8289 8.8692 23.8302H9.8692Z"
+                  fill="currentColor"
+                />
+              </svg>
+            </span>
+            <span
+              class="block grow text-start text-bulma overflow-hidden"
+            >
+              <span
+                class="block text-bulma text-moon-14"
+              >
+                Tournaments
+              </span>
+              <span
+                class="flex text-trunks text-moon-12"
+              >
+                <span
+                  class="flex-1 truncate"
+                >
+                  <span>
+                    Best tournaments with streamers
+                  </span>
+                </span>
+              </span>
+            </span>
+          </button>
+          <button
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+            type="button"
+          >
+            <span
+              class="flex w-11 h-11 bg-goku items-center justify-center"
+            >
+              <svg
+                class="text-bulma text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.0385 19.0646V23.3767C13.0385 24.2555 12.3261 24.9678 11.4474 24.9678C10.6394 24.9678 9.95978 24.3624 9.86682 23.5598L9.34615 19.0646M7.5 17.3937V14.6063C7.5 13.9604 7.87238 13.3723 8.45631 13.096C8.67968 12.9903 8.92372 12.9355 9.17083 12.9355H13.356C13.5504 12.9355 13.7405 12.8789 13.9031 12.7726L20.4058 8.52243C21.736 7.65298 23.5 8.60739 23.5 10.1966V21.8035C23.5 23.3927 21.736 24.3471 20.4058 23.4776L13.9031 19.2275C13.7405 19.1212 13.5504 19.0646 13.356 19.0646H9.17083C8.92372 19.0646 8.67968 19.0097 8.45631 18.9041C7.87238 18.6278 7.5 18.0397 7.5 17.3937Z"
+                  stroke="currentColor"
+                />
+              </svg>
+            </span>
+            <span
+              class="block grow text-start text-bulma overflow-hidden"
+            >
+              <span
+                class="block text-bulma text-moon-14"
+              >
+                Promotions
+              </span>
+              <span
+                class="flex text-trunks text-moon-12"
+              >
+                <span
+                  class="flex-1 truncate"
+                >
+                  <span>
+                     Your favourite games
+                  </span>
+                </span>
+              </span>
+            </span>
+          </button>
+          <button
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+            type="button"
+          >
+            <span
+              class="flex w-11 h-11 bg-goku items-center justify-center"
+            >
+              <svg
+                class="text-bulma text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M10.8846 14.5385L10.8846 25.5M10.8846 6.5V9.42308M21.1154 22.5769V25.5M21.1154 6.5V17.4615M8.5 14.5385H13.2692C14.3738 14.5385 15.2692 13.6431 15.2692 12.5385V11.4231C15.2692 10.3185 14.3738 9.4231 13.2692 9.4231H8.5C7.39543 9.4231 6.5 10.3185 6.5 11.4231V12.5385C6.5 13.643 7.39543 14.5385 8.5 14.5385ZM18.7308 22.5769H23.5C24.6046 22.5769 25.5 21.6815 25.5 20.5769V19.4615C25.5 18.357 24.6046 17.4615 23.5 17.4615H18.7308C17.6262 17.4615 16.7308 18.357 16.7308 19.4615V20.5769C16.7308 21.6815 17.6262 22.5769 18.7308 22.5769Z"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </span>
+            <span
+              class="block grow text-start text-bulma overflow-hidden"
+            >
+              <span
+                class="block text-bulma text-moon-14"
+              >
+                Providers
+              </span>
+              <span
+                class="flex text-trunks text-moon-12"
+              >
+                <span
+                  class="flex-1 truncate"
+                >
+                  <span>
+                     Your favourite games
+                  </span>
+                </span>
+              </span>
+            </span>
+          </button>
+          <button
+            class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+            type="button"
+          >
+            Close
+            <span
+              aria-hidden="true"
+              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
         </div>
       </div>
     </div>

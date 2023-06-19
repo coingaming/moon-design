@@ -23,8 +23,11 @@ const CardArcticle: React.FC<Props> = ({
   author,
 }) => {
   return (
-    <a href={href} target="_blank" rel="noreferrer">
-      <div
+    <li>
+      <a
+        href={href}
+        target="_blank"
+        rel="noreferrer"
         className={mergeClassnames(
           `group relative w-72 h-96 flex flex-col justify-end p-6 bg-goku rounded-moon-s-lg`,
           variant && variant in variants ? variants[variant] : variants.default
@@ -39,8 +42,8 @@ const CardArcticle: React.FC<Props> = ({
           </p>
         )}
         <p className="text-moon-24 font-medium">{title}</p>
-      </div>
-    </a>
+      </a>
+    </li>
   );
 };
 

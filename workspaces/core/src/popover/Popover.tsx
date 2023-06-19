@@ -43,13 +43,13 @@ const PopoverRoot = ({
     typeof children === 'function' && (children as CallableChildren);
   return (
     <PopoverContext.Provider value={states}>
-      <HeadlessPopover className={className}>
+      <HeadlessPopover className={mergeClassnames('relative', className)}>
         {({ open }) => (
-          <div className="relative">
+          <>
             {typeof children === 'function'
               ? callableChildren && callableChildren({ open })
               : childrens.map((ch) => ch)}
-          </div>
+          </>
         )}
       </HeadlessPopover>
     </PopoverContext.Provider>
@@ -59,7 +59,7 @@ const PopoverRoot = ({
 const Trigger: React.FC<{ children?: React.ReactNode }> = ({ children }) => {
   const { popper } = usePopoverContext('Popover.Trigger');
   return (
-    <HeadlessPopover.Button as={'div'} ref={popper?.setAnchor}>
+    <HeadlessPopover.Button as={'div'} ref={popper?.setAnchor} role="button">
       {children}
     </HeadlessPopover.Button>
   );
