@@ -19,7 +19,7 @@ const Icon: React.FC<IconProps> = ({
       <Tooltip>
         <Tooltip.Trigger
           className={mergeClassnames(
-            'relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active transition-colors',
+            'relative flex flex-col items-center cursor-pointer rounded-md hover:bg-active-80 hover:text-active transition-colors',
             isShown ? 'text-active bg-active-80' : 'text-gray-400'
           )}
         >

@@ -4,13 +4,13 @@ import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import GenericSearch from '../private/icons/GenericSearch';
 
 const SearchCmdkRoot = ({
-    children,
-    className,
-    open,
-    onOpenChange,
-    label,
-    ...props
-  }: React.ComponentProps<typeof Command.Dialog>) => {
+  children,
+  className,
+  open,
+  onOpenChange,
+  label,
+  ...props
+}: React.ComponentProps<typeof Command.Dialog>) => {
   return (
     <Command.Dialog
       className={mergeClassnames(
@@ -131,16 +131,16 @@ const Group = ({
 }: React.ComponentProps<typeof Command.Group>) => {
   return (
     <Command.Group
-    className={mergeClassnames(
-      "w-full max-h-[50vh] overflow-y-auto p-2 space-y-1 bg-gohan shadow-none",
-      className
-    )}
-    {...props}
+      className={mergeClassnames(
+        'w-full max-h-[50vh] overflow-y-auto p-2 space-y-1 bg-gohan shadow-none',
+        className
+      )}
+      {...props}
     >
       {children}
     </Command.Group>
   );
-}
+};
 
 const Result = ({
   children,
@@ -190,9 +190,9 @@ const ResultItem = ({
   return (
     <Command.Item
       className={mergeClassnames(
-      "p-2 cursor-pointer focus:outline-none hover:bg-goku select-none",
-      "data-[selected=true]:bg-goku",
-      className,
+        'p-2 cursor-pointer focus:outline-none hover:bg-goku select-none',
+        'data-[selected=true]:bg-goku',
+        className
       )}
       onSelect={onSelect}
       {...props}
@@ -212,7 +212,7 @@ const Trigger = ({
       aria-label="Search"
       className={mergeClassnames(
         'flex gap-2 h-10 cursor-text items-center text-trunks',
-        'rounded-moon-i-sm border border-beerus bg-gohan px-2 text-sm',
+        'rounded-moon-i-sm border border-beerus bg-gohan px-2 text-moon-14',
         'hover:border-trunks w-full'
       )}
       {...props}
@@ -243,7 +243,7 @@ const TriggerKbd = ({
     <kbd
       className={mergeClassnames(
         'inline-block whitespace-nowrap rounded px-1.5 align-middle',
-        'font-medium leading-4 tracking-wide text-moon-14 border',
+        'font-medium tracking-wide text-moon-14 border',
         'border-beerus text-trunks',
         'ml-auto',
         className
@@ -254,22 +254,20 @@ const TriggerKbd = ({
     </kbd>
   );
 };
-const SearchCmdk = Object.assign(
-  SearchCmdkRoot,
-  {
-    InputWrapper,
-    Input,
-    Icon,
-    Separator,
-    Group,
-    Result,
-    ResultItem,
-    NoResults,
-    Kbd,
-    Overlay,
-    Trigger,
-    TriggerIcon,
-    TriggerKbd
-  })
+const SearchCmdk = Object.assign(SearchCmdkRoot, {
+  InputWrapper,
+  Input,
+  Icon,
+  Separator,
+  Group,
+  Result,
+  ResultItem,
+  NoResults,
+  Kbd,
+  Overlay,
+  Trigger,
+  TriggerIcon,
+  TriggerKbd,
+});
 
 export default SearchCmdk;
