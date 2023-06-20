@@ -1,5 +1,11 @@
 # Change Log
 
+## 9.36.0
+
+### Minor Changes
+
+- Fix components, revise fonts
+
 ## 9.35.2
 
 ### Patch Changes

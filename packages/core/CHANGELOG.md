@@ -1,5 +1,20 @@
 # Change Log
 
+## 9.36.0
+
+### Minor Changes
+
+- Fix components, revise fonts
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@9.36.0
+  - @heathmont/moon-components@9.36.0
+  - @heathmont/moon-icons@9.36.0
+  - @heathmont/moon-themes@9.36.0
+  - @heathmont/moon-utils@9.36.0
+
 ## 9.35.2
 
 ### Patch Changes
