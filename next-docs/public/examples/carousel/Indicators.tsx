@@ -1,7 +1,7 @@
 import { Carousel } from '@heathmont/moon-core-tw';
 import {
-  ControlsChevronLeft,
-  ControlsChevronRight,
+  ControlsChevronLeftSmall,
+  ControlsChevronRightSmall,
 } from '@heathmont/moon-icons-tw';
 
 const Example = () => {
@@ -9,7 +9,7 @@ const Example = () => {
   return (
     <Carousel step={1} selectedIndex={1} className="w-[320px]">
       <Carousel.LeftArrow>
-        <ControlsChevronLeft />
+        <ControlsChevronLeftSmall />
       </Carousel.LeftArrow>
       <Carousel.Reel>
         {items.map((_, index) => (
@@ -19,7 +19,7 @@ const Example = () => {
         ))}
       </Carousel.Reel>
       <Carousel.RightArrow>
-        <ControlsChevronRight />
+        <ControlsChevronRightSmall />
       </Carousel.RightArrow>
       <Carousel.Indicators />
     </Carousel>

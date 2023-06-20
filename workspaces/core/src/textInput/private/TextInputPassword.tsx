@@ -70,7 +70,7 @@ const TextInputPassword = forwardRef<HTMLInputElement, TextInputProps>(
               isPassword
               {...inputProps}
             />
-            <label className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all rtl:right-4 ltr:left-4">
+            <label className="absolute text-moon-12 text-trunks top-3 z-[1] transition-all rtl:right-4 ltr:left-4">
               {label}
             </label>
             <ShowPassword onClick={togglePasswordVisiblity}>

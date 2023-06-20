@@ -85,6 +85,13 @@ module.exports = {
             letterSpacing: '-0.03125rem',
           },
         ],
+        'moon-40': [
+          '2.5rem',
+          {
+            lineHeight: '3rem',
+            letterSpacing: '-0.03125rem',
+          },
+        ],
         'moon-48': [
           '3rem',
           {
