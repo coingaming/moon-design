@@ -1325,7 +1325,7 @@ Object {
               class="bg-piccolo/20 rounded-lg w-10 h-10 flex justify-center items-center"
             >
               <svg
-                class="text-2xl"
+                class="text-moon-24"
                 color="#4E46B4"
                 fill="none"
                 height="1em"
@@ -1369,7 +1369,7 @@ Object {
               class="bg-[#3448F01F]/20 rounded-lg w-10 h-10 flex justify-center items-center"
             >
               <svg
-                class="text-2xl"
+                class="text-moon-24"
                 color="#3448F0"
                 fill="none"
                 height="1em"
@@ -1415,7 +1415,7 @@ Object {
               class="bg-[#FFB3191F]/20 rounded-lg w-10 h-10 flex justify-center items-center"
             >
               <svg
-                class="text-2xl"
+                class="text-moon-24"
                 color="#FFB319"
                 fill="none"
                 height="1em"
@@ -1458,7 +1458,7 @@ Object {
               class="bg-[#FF4E641F]/20 rounded-lg w-10 h-10 flex justify-center items-center"
             >
               <svg
-                class="text-2xl"
+                class="text-moon-24"
                 color="#FF4E64"
                 fill="none"
                 height="1em"
@@ -1514,7 +1514,7 @@ Object {
             class="bg-piccolo/20 rounded-lg w-10 h-10 flex justify-center items-center"
           >
             <svg
-              class="text-2xl"
+              class="text-moon-24"
               color="#4E46B4"
               fill="none"
               height="1em"
@@ -1558,7 +1558,7 @@ Object {
             class="bg-[#3448F01F]/20 rounded-lg w-10 h-10 flex justify-center items-center"
           >
             <svg
-              class="text-2xl"
+              class="text-moon-24"
               color="#3448F0"
               fill="none"
               height="1em"
@@ -1604,7 +1604,7 @@ Object {
             class="bg-[#FFB3191F]/20 rounded-lg w-10 h-10 flex justify-center items-center"
           >
             <svg
-              class="text-2xl"
+              class="text-moon-24"
               color="#FFB319"
               fill="none"
               height="1em"
@@ -1647,7 +1647,7 @@ Object {
             class="bg-[#FF4E641F]/20 rounded-lg w-10 h-10 flex justify-center items-center"
           >
             <svg
-              class="text-2xl"
+              class="text-moon-24"
               color="#FF4E64"
               fill="none"
               height="1em"
@@ -3887,7 +3887,7 @@ Object {
             class="bg-piccolo/20 rounded-lg w-10 h-10 flex justify-center items-center"
           >
             <svg
-              class="text-2xl"
+              class="text-moon-24"
               color="#4E46B4"
               fill="none"
               height="1em"
@@ -3931,7 +3931,7 @@ Object {
             class="bg-[#3448F01F]/20 rounded-lg w-10 h-10 flex justify-center items-center"
           >
             <svg
-              class="text-2xl"
+              class="text-moon-24"
               color="#3448F0"
               fill="none"
               height="1em"
@@ -3977,7 +3977,7 @@ Object {
             class="bg-[#FFB3191F]/20 rounded-lg w-10 h-10 flex justify-center items-center"
           >
             <svg
-              class="text-2xl"
+              class="text-moon-24"
               color="#FFB319"
               fill="none"
               height="1em"
@@ -4020,7 +4020,7 @@ Object {
             class="bg-[#FF4E641F]/20 rounded-lg w-10 h-10 flex justify-center items-center"
           >
             <svg
-              class="text-2xl"
+              class="text-moon-24"
               color="#FF4E64"
               fill="none"
               height="1em"
@@ -4072,7 +4072,7 @@ Object {
           class="bg-piccolo/20 rounded-lg w-10 h-10 flex justify-center items-center"
         >
           <svg
-            class="text-2xl"
+            class="text-moon-24"
             color="#4E46B4"
             fill="none"
             height="1em"
@@ -4116,7 +4116,7 @@ Object {
           class="bg-[#3448F01F]/20 rounded-lg w-10 h-10 flex justify-center items-center"
         >
           <svg
-            class="text-2xl"
+            class="text-moon-24"
             color="#3448F0"
             fill="none"
             height="1em"
@@ -4162,7 +4162,7 @@ Object {
           class="bg-[#FFB3191F]/20 rounded-lg w-10 h-10 flex justify-center items-center"
         >
           <svg
-            class="text-2xl"
+            class="text-moon-24"
             color="#FFB319"
             fill="none"
             height="1em"
@@ -4205,7 +4205,7 @@ Object {
           class="bg-[#FF4E641F]/20 rounded-lg w-10 h-10 flex justify-center items-center"
         >
           <svg
-            class="text-2xl"
+            class="text-moon-24"
             color="#FF4E64"
             fill="none"
             height="1em"

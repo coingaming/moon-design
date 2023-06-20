@@ -6,6 +6,7 @@ import PropsTable from '../../components/PropsTable';
 import Customization from '../../public/examples/textarea/Customization';
 import Default from '../../public/examples/textarea/Default';
 import Disabled from '../../public/examples/textarea/Disabled';
+import WithBtn from '../../public/examples/textarea/WithBtn';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
@@ -30,6 +31,12 @@ const Example = () => {
         title="Customization"
         preview={<Customization />}
         code={examples ? examples.Customization : 'Loading'}
+      />
+
+      <Preview
+        title="Text area with button"
+        preview={<WithBtn />}
+        code={examples ? examples.WithBtn : 'Loading'}
       />
       <PropsTable
         title="Textarea props"

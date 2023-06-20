@@ -9,6 +9,7 @@ const Example = () => (
     <h3 className="text-moon-20 font-medium transition-colors">Size 20</h3>
     <h3 className="text-moon-24 font-medium transition-colors">Size 24</h3>
     <h3 className="text-moon-32 font-medium transition-colors">Size 32</h3>
+    <h3 className="text-moon-40 font-medium transition-colors">Size 40</h3>
     <h3 className="text-moon-48 font-medium transition-colors">Size 48</h3>
     <h3 className="text-moon-56 font-medium transition-colors">Size 56</h3>
     <h3 className="text-moon-64 font-medium transition-colors">Size 64</h3>

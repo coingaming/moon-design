@@ -45,7 +45,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
         id={id}
         disabled={disabled}
         className={mergeClassnames(
-          'block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2]',
+          'block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2]',
           'bg-gohan shadow-input hover:shadow-input-hov',
           'focus:shadow-input-focus focus:outline-none',
           'focus-visible::shadow-input-focus focus-visible::outline-none',

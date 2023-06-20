@@ -7,10 +7,11 @@ import getTogglePosition from './private/utils/getTogglePosition';
 import getToggleSize from './private/utils/getToggleSize';
 import type Props from './private/types/Props';
 
-const Switch: FC<Props> = ({
+type SwitchProps = Props & React.ComponentProps<typeof HeadlessSwitch>;
+
+const Switch: FC<SwitchProps> = ({
   size = 'sm',
   checked = false,
-  disabled,
   name,
   value,
   onChange,
@@ -37,14 +38,14 @@ const Switch: FC<Props> = ({
       name={name}
       value={value}
       checked={enabled}
-      disabled={disabled}
+      disabled={rest?.disabled}
       onChange={(data) => setEnabledHandler(data)}
       className={mergeClassnames(
         'block cursor-pointer rounded-full transition',
         getSwitchSize(size),
         enabled ? onBgColor : offBgColor,
         !onBgColor && !offBgColor && 'bg-beerus moon-checked:bg-piccolo',
-        disabled && 'opacity-30 cursor-not-allowed select-none',
+        rest?.disabled && 'opacity-30 cursor-not-allowed select-none',
         className
       )}
       {...rest}

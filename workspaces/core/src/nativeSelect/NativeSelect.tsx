@@ -53,7 +53,7 @@ const NativeSelect = forwardRef<
           ref={ref}
           disabled={disabled || readOnly}
           className={mergeClassnames(
-            'block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] cursor-pointer',
+            'block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer',
             'bg-gohan shadow-input hover:shadow-input-hov',
             'focus:shadow-input-focus focus:outline-none',
             error &&

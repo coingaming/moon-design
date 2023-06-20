@@ -180,8 +180,8 @@ const CarouselControl: React.FC<ControlProps> = ({
   return (
     <button
       className={mergeClassnames(
-        'max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks',
-        'text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2',
+        'max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks',
+        'text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2',
         'origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed',
         className
       )}

@@ -706,7 +706,7 @@ Object {
           class="relative w-full"
         >
           <button
-            class="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
+            class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
             disabled=""
           >
             <svg
@@ -717,7 +717,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M20.5 25L11.5 16L20.5 7"
+                d="M19 22L13 16L19 10"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -854,7 +854,7 @@ Object {
             </li>
           </ul>
           <button
-            class="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
+            class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
             disabled=""
           >
             <svg
@@ -865,7 +865,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M11.5 7L20.5 16L11.5 25"
+                d="M13 10L19 16L13 22"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -884,7 +884,7 @@ Object {
         class="relative w-full"
       >
         <button
-          class="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
+          class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
           disabled=""
         >
           <svg
@@ -895,7 +895,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M20.5 25L11.5 16L20.5 7"
+              d="M19 22L13 16L19 10"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -1032,7 +1032,7 @@ Object {
           </li>
         </ul>
         <button
-          class="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
+          class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
           disabled=""
         >
           <svg
@@ -1043,7 +1043,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7L20.5 16L11.5 25"
+              d="M13 10L19 16L13 22"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -1119,7 +1119,7 @@ Object {
           class="relative w-[320px]"
         >
           <button
-            class="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
+            class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
             disabled=""
           >
             <svg
@@ -1130,7 +1130,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M20.5 25L11.5 16L20.5 7"
+                d="M19 22L13 16L19 10"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -1167,7 +1167,7 @@ Object {
             </li>
           </ul>
           <button
-            class="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
+            class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
             disabled=""
           >
             <svg
@@ -1178,7 +1178,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M11.5 7L20.5 16L11.5 25"
+                d="M13 10L19 16L13 22"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -1216,7 +1216,7 @@ Object {
         class="relative w-[320px]"
       >
         <button
-          class="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
+          class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
           disabled=""
         >
           <svg
@@ -1227,7 +1227,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M20.5 25L11.5 16L20.5 7"
+              d="M19 22L13 16L19 10"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -1264,7 +1264,7 @@ Object {
           </li>
         </ul>
         <button
-          class="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
+          class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
           disabled=""
         >
           <svg
@@ -1275,7 +1275,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7L20.5 16L11.5 25"
+              d="M13 10L19 16L13 22"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -1583,7 +1583,7 @@ Object {
           class="relative w-full"
         >
           <button
-            class="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
+            class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
             disabled=""
           >
             <svg
@@ -1594,7 +1594,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M20.5 25L11.5 16L20.5 7"
+                d="M19 22L13 16L19 10"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -1631,7 +1631,7 @@ Object {
             </li>
           </ul>
           <button
-            class="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
+            class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
             disabled=""
           >
             <svg
@@ -1642,7 +1642,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M11.5 7L20.5 16L11.5 25"
+                d="M13 10L19 16L13 22"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -1661,7 +1661,7 @@ Object {
         class="relative w-full"
       >
         <button
-          class="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
+          class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
           disabled=""
         >
           <svg
@@ -1672,7 +1672,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M20.5 25L11.5 16L20.5 7"
+              d="M19 22L13 16L19 10"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -1709,7 +1709,7 @@ Object {
           </li>
         </ul>
         <button
-          class="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
+          class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
           disabled=""
         >
           <svg
@@ -1720,7 +1720,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7L20.5 16L11.5 25"
+              d="M13 10L19 16L13 22"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -1796,7 +1796,7 @@ Object {
           class="relative w-full"
         >
           <button
-            class="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
+            class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
             disabled=""
           >
             <svg
@@ -1807,7 +1807,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M20.5 25L11.5 16L20.5 7"
+                d="M19 22L13 16L19 10"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -1944,7 +1944,7 @@ Object {
             </li>
           </ul>
           <button
-            class="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
+            class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
             disabled=""
           >
             <svg
@@ -1955,7 +1955,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M11.5 7L20.5 16L11.5 25"
+                d="M13 10L19 16L13 22"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -1974,7 +1974,7 @@ Object {
         class="relative w-full"
       >
         <button
-          class="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
+          class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
           disabled=""
         >
           <svg
@@ -1985,7 +1985,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M20.5 25L11.5 16L20.5 7"
+              d="M19 22L13 16L19 10"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -2122,7 +2122,7 @@ Object {
           </li>
         </ul>
         <button
-          class="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
+          class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
           disabled=""
         >
           <svg
@@ -2133,7 +2133,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7L20.5 16L11.5 25"
+              d="M13 10L19 16L13 22"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -2884,7 +2884,7 @@ Object {
         class="relative w-full"
       >
         <button
-          class="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
+          class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
           disabled=""
         >
           <svg
@@ -2895,7 +2895,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M20.5 25L11.5 16L20.5 7"
+              d="M19 22L13 16L19 10"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -3032,7 +3032,7 @@ Object {
           </li>
         </ul>
         <button
-          class="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
+          class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
           disabled=""
         >
           <svg
@@ -3043,7 +3043,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7L20.5 16L11.5 25"
+              d="M13 10L19 16L13 22"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -3058,7 +3058,7 @@ Object {
       class="relative w-full"
     >
       <button
-        class="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
+        class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
         disabled=""
       >
         <svg
@@ -3069,7 +3069,7 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M20.5 25L11.5 16L20.5 7"
+            d="M19 22L13 16L19 10"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -3206,7 +3206,7 @@ Object {
         </li>
       </ul>
       <button
-        class="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
+        class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
         disabled=""
       >
         <svg
@@ -3217,7 +3217,7 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M11.5 7L20.5 16L11.5 25"
+            d="M13 10L19 16L13 22"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -3289,7 +3289,7 @@ Object {
         class="relative w-[320px]"
       >
         <button
-          class="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
+          class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
           disabled=""
         >
           <svg
@@ -3300,7 +3300,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M20.5 25L11.5 16L20.5 7"
+              d="M19 22L13 16L19 10"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -3337,7 +3337,7 @@ Object {
           </li>
         </ul>
         <button
-          class="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
+          class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
           disabled=""
         >
           <svg
@@ -3348,7 +3348,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7L20.5 16L11.5 25"
+              d="M13 10L19 16L13 22"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -3382,7 +3382,7 @@ Object {
       class="relative w-[320px]"
     >
       <button
-        class="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
+        class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
         disabled=""
       >
         <svg
@@ -3393,7 +3393,7 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M20.5 25L11.5 16L20.5 7"
+            d="M19 22L13 16L19 10"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -3430,7 +3430,7 @@ Object {
         </li>
       </ul>
       <button
-        class="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
+        class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
         disabled=""
       >
         <svg
@@ -3441,7 +3441,7 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M11.5 7L20.5 16L11.5 25"
+            d="M13 10L19 16L13 22"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -3737,7 +3737,7 @@ Object {
         class="relative w-full"
       >
         <button
-          class="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
+          class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
           disabled=""
         >
           <svg
@@ -3748,7 +3748,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M20.5 25L11.5 16L20.5 7"
+              d="M19 22L13 16L19 10"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -3785,7 +3785,7 @@ Object {
           </li>
         </ul>
         <button
-          class="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
+          class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
           disabled=""
         >
           <svg
@@ -3796,7 +3796,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7L20.5 16L11.5 25"
+              d="M13 10L19 16L13 22"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -3811,7 +3811,7 @@ Object {
       class="relative w-full"
     >
       <button
-        class="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
+        class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
         disabled=""
       >
         <svg
@@ -3822,7 +3822,7 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M20.5 25L11.5 16L20.5 7"
+            d="M19 22L13 16L19 10"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -3859,7 +3859,7 @@ Object {
         </li>
       </ul>
       <button
-        class="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
+        class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
         disabled=""
       >
         <svg
@@ -3870,7 +3870,7 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M11.5 7L20.5 16L11.5 25"
+            d="M13 10L19 16L13 22"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -3942,7 +3942,7 @@ Object {
         class="relative w-full"
       >
         <button
-          class="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
+          class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
           disabled=""
         >
           <svg
@@ -3953,7 +3953,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M20.5 25L11.5 16L20.5 7"
+              d="M19 22L13 16L19 10"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -4090,7 +4090,7 @@ Object {
           </li>
         </ul>
         <button
-          class="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
+          class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
           disabled=""
         >
           <svg
@@ -4101,7 +4101,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7L20.5 16L11.5 25"
+              d="M13 10L19 16L13 22"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -4116,7 +4116,7 @@ Object {
       class="relative w-full"
     >
       <button
-        class="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
+        class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
         disabled=""
       >
         <svg
@@ -4127,7 +4127,7 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M20.5 25L11.5 16L20.5 7"
+            d="M19 22L13 16L19 10"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -4264,7 +4264,7 @@ Object {
         </li>
       </ul>
       <button
-        class="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
+        class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
         disabled=""
       >
         <svg
@@ -4275,7 +4275,7 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M11.5 7L20.5 16L11.5 25"
+            d="M13 10L19 16L13 22"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"

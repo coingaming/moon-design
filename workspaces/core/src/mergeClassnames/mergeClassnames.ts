@@ -30,6 +30,7 @@ const mergeClassnames = extendTailwindMerge({
               '20',
               '24',
               '32',
+              '40',
               '48',
               '56',
               '64',

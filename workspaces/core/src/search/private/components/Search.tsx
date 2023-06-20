@@ -10,10 +10,7 @@ import React, {
 import { Transition as HeadlessTransition } from '@headlessui/react';
 import mergeClassnames from '../../../mergeClassnames/mergeClassnames';
 import useClickOutside from '../../../private/hooks/useClickOutside';
-import {
-  SearchContext,
-  SelectContext,
-} from '../utils/context';
+import { SearchContext, SelectContext } from '../utils/context';
 
 import { Input } from './Input';
 import NoResults from './NoResults';
@@ -28,7 +25,7 @@ interface SearchProps {
   isOpen: boolean;
   search: string;
   className?: string;
-};
+}
 
 const SearchRoot = ({
   selected: selectedParent,
@@ -160,7 +157,9 @@ const SearchRoot = ({
           className
         )}
       >
-        <SearchContext.Provider value={{ search, onChangeOpen, onChangeSearch, inputRef, isOpen }}>
+        <SearchContext.Provider
+          value={{ search, onChangeOpen, onChangeSearch, inputRef, isOpen }}
+        >
           <SelectContext.Provider value={{ selected }}>
             {children}
           </SelectContext.Provider>
@@ -168,51 +167,69 @@ const SearchRoot = ({
       </div>
     </div>
   );
-}
+};
 
-const Transition = ({ children, className }: { children: ReactNode, className?: string }) => {
+const Transition = ({
+  children,
+  className,
+}: {
+  children: ReactNode;
+  className?: string;
+}) => {
   const { isOpen } = useContext(SearchContext);
 
-  return <HeadlessTransition
-    show={isOpen}
-    as="div"
-    enter="ease-out duration-300"
-    enterFrom="opacity-0 scale-95"
-    enterTo="opacity-100 scale-100"
-    leave="ease-in duration-200"
-    leaveFrom="opacity-100 scale-100"
-    leaveTo="opacity-0 scale-95"
-    className={mergeClassnames("moon-search-transition z-5", className)}
-  >
-    {children}
-  </HeadlessTransition>
-}
+  return (
+    <HeadlessTransition
+      show={isOpen}
+      as="div"
+      enter="ease-out duration-300"
+      enterFrom="opacity-0 scale-95"
+      enterTo="opacity-100 scale-100"
+      leave="ease-in duration-200"
+      leaveFrom="opacity-100 scale-100"
+      leaveTo="opacity-0 scale-95"
+      className={mergeClassnames('moon-search-transition z-5', className)}
+    >
+      {children}
+    </HeadlessTransition>
+  );
+};
 
-const Result = ({ children, className, ...props }: React.HTMLAttributes<HTMLDivElement>) => {
+const Result = ({
+  children,
+  className,
+  ...props
+}: React.HTMLAttributes<HTMLDivElement>) => {
   const { isOpen } = useContext(SearchContext);
 
   if (!isOpen) {
-    return null
+    return null;
   }
 
-  return <div
-    className={mergeClassnames(
-      'moon-search-result',
-      'absolute w-full flex-1 focus:outline-none p-2 space-y-4 bg-gohan shadow-moon-md ',
-      isOpen ? 'rounded-b-moon-s-sm' : 'rounded-moon-s-sm',
-      className
-    )}
-    tabIndex={-1}
-    {...props}
-  >
-    {children}
-  </div>
-}
+  return (
+    <div
+      className={mergeClassnames(
+        'moon-search-result',
+        'absolute w-full flex-1 focus:outline-none p-2 space-y-4 bg-gohan shadow-moon-md ',
+        isOpen ? 'rounded-b-moon-s-sm' : 'rounded-moon-s-sm',
+        className
+      )}
+      tabIndex={-1}
+      {...props}
+    >
+      {children}
+    </div>
+  );
+};
 
-const ResultHeading = ({ children, className, ...props }: React.HTMLAttributes<HTMLHeadingElement>) => (
+const ResultHeading = ({
+  children,
+  className,
+  ...props
+}: React.HTMLAttributes<HTMLHeadingElement>) => (
   <h5
     className={mergeClassnames(
-      'text-bulma text-sm font-medium px-2 py-1',
+      'text-bulma text-moon-14 font-medium px-2 py-1',
       className
     )}
     {...props}
@@ -221,16 +238,13 @@ const ResultHeading = ({ children, className, ...props }: React.HTMLAttributes<H
   </h5>
 );
 
-const Search = Object.assign(
-  SearchRoot,
-  {
-    Input,
-    NoResults,
-    Transition,
-    Result,
-    ResultItem,
-    ResultHeading,
-  }
-)
+const Search = Object.assign(SearchRoot, {
+  Input,
+  NoResults,
+  Transition,
+  Result,
+  ResultItem,
+  ResultHeading,
+});
 
-export default Search
+export default Search;
