@@ -267,6 +267,11 @@ Object {
             Size 32
           </h3>
           <h3
+            class="text-moon-40 font-medium transition-colors"
+          >
+            Size 40
+          </h3>
+          <h3
             class="text-moon-48 font-medium transition-colors"
           >
             Size 48
@@ -341,6 +346,11 @@ Object {
           class="text-moon-32 font-medium transition-colors"
         >
           Size 32
+        </h3>
+        <h3
+          class="text-moon-40 font-medium transition-colors"
+        >
+          Size 40
         </h3>
         <h3
           class="text-moon-48 font-medium transition-colors"
@@ -476,6 +486,11 @@ Object {
             Size 32
           </p>
           <p
+            class="text-moon-40 transition-colors"
+          >
+            Size 40
+          </p>
+          <p
             class="text-moon-48 transition-colors"
           >
             Size 48
@@ -550,6 +565,11 @@ Object {
           class="text-moon-32 transition-colors"
         >
           Size 32
+        </p>
+        <p
+          class="text-moon-40 transition-colors"
+        >
+          Size 40
         </p>
         <p
           class="text-moon-48 transition-colors"
@@ -876,6 +896,11 @@ Object {
           Size 32
         </h3>
         <h3
+          class="text-moon-40 font-medium transition-colors"
+        >
+          Size 40
+        </h3>
+        <h3
           class="text-moon-48 font-medium transition-colors"
         >
           Size 48
@@ -946,6 +971,11 @@ Object {
         class="text-moon-32 font-medium transition-colors"
       >
         Size 32
+      </h3>
+      <h3
+        class="text-moon-40 font-medium transition-colors"
+      >
+        Size 40
       </h3>
       <h3
         class="text-moon-48 font-medium transition-colors"
@@ -1077,6 +1107,11 @@ Object {
           Size 32
         </p>
         <p
+          class="text-moon-40 transition-colors"
+        >
+          Size 40
+        </p>
+        <p
           class="text-moon-48 transition-colors"
         >
           Size 48
@@ -1147,6 +1182,11 @@ Object {
         class="text-moon-32 transition-colors"
       >
         Size 32
+      </p>
+      <p
+        class="text-moon-40 transition-colors"
+      >
+        Size 40
       </p>
       <p
         class="text-moon-48 transition-colors"

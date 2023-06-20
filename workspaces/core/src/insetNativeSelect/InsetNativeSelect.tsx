@@ -55,7 +55,7 @@ const InsetNativeSelect = forwardRef<
           ref={ref}
           disabled={disabled || readOnly}
           className={mergeClassnames(
-            'block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2]',
+            'block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2]',
             'bg-transparent shadow-input hover:shadow-input-hov',
             'focus:shadow-input-focus focus:outline-none',
             error &&
@@ -76,7 +76,7 @@ const InsetNativeSelect = forwardRef<
         <label
           className={mergeClassnames(
             'absolute text-trunks z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4',
-            'text-[0.75rem] leading-3 top-3'
+            'text-moon-12 top-3'
           )}
         >
           {label}

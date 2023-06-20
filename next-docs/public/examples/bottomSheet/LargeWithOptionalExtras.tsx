@@ -39,14 +39,16 @@ const Example = () => {
               Send
             </Button>
             <div className="p-2 mt-4 rounded-lg bg-goku">
-              <h3 className="p-2 text-lg font-medium leading-6 border-b-2 text-bulma border-beerus">
+              <h3 className="p-2 text-moon-18 font-medium border-b-2 text-bulma border-beerus">
                 Need some help?
               </h3>
               <div className="flex mt-2">
                 <MailEnvelope className="text-moon-48 text-bulma" />
                 <div className="px-2">
                   <p className="font-medium text-bulma">Email us</p>
-                  <p className="text-xs text-trunks">Contact us via email</p>
+                  <p className="text-moon-12 text-trunks">
+                    Contact us via email
+                  </p>
                 </div>
               </div>
             </div>
