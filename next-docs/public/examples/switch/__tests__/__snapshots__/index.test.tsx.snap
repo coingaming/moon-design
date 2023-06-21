@@ -1126,6 +1126,117 @@ Object {
 }
 `;
 
+exports[`Switch in Light Theme renders WithTooltip 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <button
+        class=""
+        data-state="closed"
+      >
+        <button
+          aria-checked="true"
+          class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
+          data-headlessui-state="checked"
+          data-tests="test-id"
+          id="headlessui-switch-:rd:"
+          role="switch"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="block relative h-full w-full"
+          >
+            <span
+              aria-hidden="true"
+              class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+            />
+          </span>
+        </button>
+      </button>
+    </div>
+  </body>,
+  "container": <div>
+    <button
+      class=""
+      data-state="closed"
+    >
+      <button
+        aria-checked="true"
+        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
+        data-headlessui-state="checked"
+        data-tests="test-id"
+        id="headlessui-switch-:rd:"
+        role="switch"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="block relative h-full w-full"
+        >
+          <span
+            aria-hidden="true"
+            class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+          />
+        </span>
+      </button>
+    </button>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
 exports[`Switch in RTL renders Customization 1`] = `
 Object {
   "asFragment": [Function],
@@ -1138,7 +1249,7 @@ Object {
           aria-checked="true"
           class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-nappa moon-checked:bg-roshi"
           data-headlessui-state="checked"
-          id="headlessui-switch-:rg:"
+          id="headlessui-switch-:ri:"
           role="switch"
           tabindex="0"
           type="button"
@@ -1156,7 +1267,7 @@ Object {
           aria-checked="true"
           class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-krillin moon-checked:bg-chichi"
           data-headlessui-state="checked"
-          id="headlessui-switch-:rh:"
+          id="headlessui-switch-:rj:"
           role="switch"
           tabindex="0"
           type="button"
@@ -1181,7 +1292,7 @@ Object {
         aria-checked="true"
         class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-nappa moon-checked:bg-roshi"
         data-headlessui-state="checked"
-        id="headlessui-switch-:rg:"
+        id="headlessui-switch-:ri:"
         role="switch"
         tabindex="0"
         type="button"
@@ -1199,7 +1310,7 @@ Object {
         aria-checked="true"
         class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-krillin moon-checked:bg-chichi"
         data-headlessui-state="checked"
-        id="headlessui-switch-:rh:"
+        id="headlessui-switch-:rj:"
         role="switch"
         tabindex="0"
         type="button"
@@ -1282,7 +1393,7 @@ Object {
           class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
           data-headlessui-state="checked"
           data-tests="test-id"
-          id="headlessui-switch-:rc:"
+          id="headlessui-switch-:re:"
           role="switch"
           tabindex="0"
           type="button"
@@ -1308,7 +1419,7 @@ Object {
         class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
         data-headlessui-state="checked"
         data-tests="test-id"
-        id="headlessui-switch-:rc:"
+        id="headlessui-switch-:re:"
         role="switch"
         tabindex="0"
         type="button"
@@ -1391,7 +1502,7 @@ Object {
           class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo opacity-30 cursor-not-allowed select-none"
           data-headlessui-state="checked"
           disabled=""
-          id="headlessui-switch-:rj:"
+          id="headlessui-switch-:rl:"
           role="switch"
           tabindex="0"
           type="button"
@@ -1410,7 +1521,7 @@ Object {
           class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo opacity-30 cursor-not-allowed select-none"
           data-headlessui-state=""
           disabled=""
-          id="headlessui-switch-:rk:"
+          id="headlessui-switch-:rm:"
           role="switch"
           tabindex="0"
           type="button"
@@ -1436,7 +1547,7 @@ Object {
         class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo opacity-30 cursor-not-allowed select-none"
         data-headlessui-state="checked"
         disabled=""
-        id="headlessui-switch-:rj:"
+        id="headlessui-switch-:rl:"
         role="switch"
         tabindex="0"
         type="button"
@@ -1455,7 +1566,7 @@ Object {
         class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo opacity-30 cursor-not-allowed select-none"
         data-headlessui-state=""
         disabled=""
-        id="headlessui-switch-:rk:"
+        id="headlessui-switch-:rm:"
         role="switch"
         tabindex="0"
         type="button"
@@ -1550,7 +1661,7 @@ Object {
             aria-checked="true"
             class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
             data-headlessui-state="checked"
-            id="headlessui-switch-:ri:"
+            id="headlessui-switch-:rk:"
             role="switch"
             tabindex="0"
             type="button"
@@ -1589,7 +1700,7 @@ Object {
           aria-checked="true"
           class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
           data-headlessui-state="checked"
-          id="headlessui-switch-:ri:"
+          id="headlessui-switch-:rk:"
           role="switch"
           tabindex="0"
           type="button"
@@ -1672,7 +1783,7 @@ Object {
           aria-checked="true"
           class="block cursor-pointer rounded-full transition w-7 h-4 p-0.5 bg-beerus moon-checked:bg-piccolo"
           data-headlessui-state="checked"
-          id="headlessui-switch-:rd:"
+          id="headlessui-switch-:rf:"
           role="switch"
           tabindex="0"
           type="button"
@@ -1690,7 +1801,7 @@ Object {
           aria-checked="true"
           class="block cursor-pointer rounded-full transition w-11 h-6 p-1 bg-beerus moon-checked:bg-piccolo"
           data-headlessui-state="checked"
-          id="headlessui-switch-:re:"
+          id="headlessui-switch-:rg:"
           role="switch"
           tabindex="0"
           type="button"
@@ -1708,7 +1819,7 @@ Object {
           aria-checked="true"
           class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
           data-headlessui-state="checked"
-          id="headlessui-switch-:rf:"
+          id="headlessui-switch-:rh:"
           role="switch"
           tabindex="0"
           type="button"
@@ -1733,7 +1844,7 @@ Object {
         aria-checked="true"
         class="block cursor-pointer rounded-full transition w-7 h-4 p-0.5 bg-beerus moon-checked:bg-piccolo"
         data-headlessui-state="checked"
-        id="headlessui-switch-:rd:"
+        id="headlessui-switch-:rf:"
         role="switch"
         tabindex="0"
         type="button"
@@ -1751,7 +1862,7 @@ Object {
         aria-checked="true"
         class="block cursor-pointer rounded-full transition w-11 h-6 p-1 bg-beerus moon-checked:bg-piccolo"
         data-headlessui-state="checked"
-        id="headlessui-switch-:re:"
+        id="headlessui-switch-:rg:"
         role="switch"
         tabindex="0"
         type="button"
@@ -1769,7 +1880,7 @@ Object {
         aria-checked="true"
         class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
         data-headlessui-state="checked"
-        id="headlessui-switch-:rf:"
+        id="headlessui-switch-:rh:"
         role="switch"
         tabindex="0"
         type="button"
@@ -1851,7 +1962,7 @@ Object {
           aria-checked="true"
           class="block cursor-pointer rounded-full transition w-7 h-4 p-0.5 bg-beerus moon-checked:bg-piccolo"
           data-headlessui-state="checked"
-          id="headlessui-switch-:rl:"
+          id="headlessui-switch-:rn:"
           role="switch"
           tabindex="0"
           type="button"
@@ -1916,7 +2027,7 @@ Object {
           aria-checked="true"
           class="block cursor-pointer rounded-full transition w-11 h-6 p-1 bg-beerus moon-checked:bg-piccolo"
           data-headlessui-state="checked"
-          id="headlessui-switch-:rm:"
+          id="headlessui-switch-:ro:"
           role="switch"
           tabindex="0"
           type="button"
@@ -1981,7 +2092,7 @@ Object {
           aria-checked="true"
           class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
           data-headlessui-state="checked"
-          id="headlessui-switch-:rn:"
+          id="headlessui-switch-:rp:"
           role="switch"
           tabindex="0"
           type="button"
@@ -2053,7 +2164,7 @@ Object {
         aria-checked="true"
         class="block cursor-pointer rounded-full transition w-7 h-4 p-0.5 bg-beerus moon-checked:bg-piccolo"
         data-headlessui-state="checked"
-        id="headlessui-switch-:rl:"
+        id="headlessui-switch-:rn:"
         role="switch"
         tabindex="0"
         type="button"
@@ -2118,7 +2229,7 @@ Object {
         aria-checked="true"
         class="block cursor-pointer rounded-full transition w-11 h-6 p-1 bg-beerus moon-checked:bg-piccolo"
         data-headlessui-state="checked"
-        id="headlessui-switch-:rm:"
+        id="headlessui-switch-:ro:"
         role="switch"
         tabindex="0"
         type="button"
@@ -2183,7 +2294,7 @@ Object {
         aria-checked="true"
         class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
         data-headlessui-state="checked"
-        id="headlessui-switch-:rn:"
+        id="headlessui-switch-:rp:"
         role="switch"
         tabindex="0"
         type="button"
@@ -2243,6 +2354,125 @@ Object {
             class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
           />
         </span>
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Switch in RTL renders WithTooltip 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        dir="rtl"
+      >
+        <button
+          class=""
+          data-state="closed"
+        >
+          <button
+            aria-checked="true"
+            class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
+            data-headlessui-state="checked"
+            data-tests="test-id"
+            id="headlessui-switch-:rr:"
+            role="switch"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="block relative h-full w-full"
+            >
+              <span
+                aria-hidden="true"
+                class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+              />
+            </span>
+          </button>
+        </button>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <button
+        class=""
+        data-state="closed"
+      >
+        <button
+          aria-checked="true"
+          class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
+          data-headlessui-state="checked"
+          data-tests="test-id"
+          id="headlessui-switch-:rr:"
+          role="switch"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="block relative h-full w-full"
+          >
+            <span
+              aria-hidden="true"
+              class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+            />
+          </span>
+        </button>
       </button>
     </div>
   </div>,

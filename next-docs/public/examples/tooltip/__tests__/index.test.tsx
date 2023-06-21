@@ -7,6 +7,7 @@ import '../../../../__mocks__/resizeObserver';
 import ArrowPositions from '../ArrowPositions';
 import Default from '../Default';
 import Customization from '../Customization';
+import NotPortal from '../NotPortal';
 
 const withRtl = (component: JSX.Element) => <div dir="rtl">{component}</div>;
 
@@ -27,6 +28,11 @@ describe('Tooltip', () => {
     await act(() => fireEvent.focus(tree.getAllByText('Trigger')[0]));
     expect(tree).toMatchSnapshot();
   });
+  it('renders NotPortal', async () => {
+    const tree = render(<NotPortal />);
+    await act(() => fireEvent.focus(tree.getAllByText('Trigger')[0]));
+    expect(tree).toMatchSnapshot();
+  });
 });
 
 describe('Tooltip in RTL', () => {
@@ -43,6 +49,11 @@ describe('Tooltip in RTL', () => {
   });
   it('renders Customization', async () => {
     const tree = render(withRtl(<Customization />));
+    await act(() => fireEvent.focus(tree.getAllByText('Trigger')[0]));
+    expect(tree).toMatchSnapshot();
+  });
+  it('renders NotPortal', async () => {
+    const tree = render(withRtl(<NotPortal />));
     await act(() => fireEvent.focus(tree.getAllByText('Trigger')[0]));
     expect(tree).toMatchSnapshot();
   });
