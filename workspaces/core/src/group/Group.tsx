@@ -77,6 +77,7 @@ const FirstInput = forwardRef<HTMLInputElement, InputProps>(
         size={size}
         placeholder="Placeholder"
         className={mergeClassnames(
+          '[&_+_.last-element:before]:hover:opacity-0 [&_+_.last-element:before]:focus:opacity-0',
           isVertical && 'rounded-bl-none rounded-br-none input-bbb-hidden',
           isHorizontal &&
             'rtl:rounded-bl-none rtl:rounded-tl-none rtl:input-lsb-hidden ltr:rounded-br-none ltr:rounded-tr-none ltr:input-rsb-hidden flex-1 basis-1/2',
@@ -113,20 +114,30 @@ const LastInput = forwardRef<HTMLInputElement, InputProps>(
     const disabled = inputDisabled || groupDisabled;
     const readOnly = inputReadOnly || groupReadOnly;
     return (
-      <Input
-        error={error}
-        disabled={disabled}
-        readOnly={readOnly}
-        size={size}
+      <div
         className={mergeClassnames(
-          isVertical && 'rounded-tl-none rounded-tr-none input-tbb-hidden',
+          'relative last-element before:absolute before:block before:bg-beerus hover:before:hidden before:transition-opacity',
+          isVertical && 'before:h-px before:top-0 before:left-0 before:right-0',
           isHorizontal &&
-            'rtl:rounded-tr-none rtl:rounded-br-none rtl:input-rsb-hidden ltr:rounded-tl-none ltr:rounded-bl-none ltr:input-lsb-hidden flex-1 basis-1/2',
-          className && className
+            'before:w-px ltr:before:left-0 rtl:before:right-0 before:top-0 before:bottom-0',
+          error && 'before:bg-chichi'
         )}
-        ref={ref}
-        {...rest}
-      />
+      >
+        <Input
+          error={error}
+          disabled={disabled}
+          readOnly={readOnly}
+          size={size}
+          className={mergeClassnames(
+            isVertical && 'rounded-tl-none rounded-tr-none input-tbb-hidden',
+            isHorizontal &&
+              'rtl:rounded-tr-none rtl:rounded-br-none rtl:input-rsb-hidden ltr:rounded-tl-none ltr:rounded-bl-none ltr:input-lsb-hidden flex-1 basis-1/2',
+            className && className
+          )}
+          ref={ref}
+          {...rest}
+        />
+      </div>
     );
   }
 );
@@ -163,6 +174,7 @@ const FirstInsetInputRoot = forwardRef<
         disabled={disabled}
         readOnly={readOnly}
         className={mergeClassnames(
+          '[&_+_.last-element:before]:hover:opacity-0',
           isVertical &&
             !error &&
             '[&_input]:rounded-bl-none [&_input]:rounded-br-none [&_input]:input-bbb-hidden',
@@ -212,12 +224,13 @@ const LastInsetInputRoot = forwardRef<
         disabled={disabled}
         readOnly={readOnly}
         className={mergeClassnames(
+          'last-element before:absolute before:block before:bg-beerus hover:before:hidden before:transition-opacity',
           isVertical &&
             !error &&
-            '[&_input]:rounded-tl-none [&_input]:rounded-tr-none [&_input]:input-tbb-hidden',
+            '[&_input]:rounded-tl-none [&_input]:rounded-tr-none [&_input]:input-tbb-hidden before:h-px before:top-0 before:left-0 before:right-0',
           isHorizontal &&
             !error &&
-            'rtl:[&_input]:rounded-tr-none rtl:[&_input]:rounded-br-none rtl:[&_input]:input-rsb-hidden ltr:[&_input]:rounded-tl-none ltr:[&_input]:rounded-bl-none ltr:[&_input]:input-lsb-hidden flex-1 basis-1/2',
+            'rtl:[&_input]:rounded-tr-none rtl:[&_input]:rounded-br-none rtl:[&_input]:input-rsb-hidden ltr:[&_input]:rounded-tl-none ltr:[&_input]:rounded-bl-none ltr:[&_input]:input-lsb-hidden flex-1 basis-1/2 before:w-px ltr:before:left-0 rtl:before:right-0 before:top-0 before:bottom-0',
           className && className
         )}
         ref={ref}
@@ -270,9 +283,10 @@ const FirstSelect = forwardRef<
         readOnly={readOnly}
         size={size}
         className={mergeClassnames(
+          '[&_+_.last-element:before]:hover:opacity-0',
           isVertical &&
             !error &&
-            '[&_select]:rounded-bl-none [&_select]:rounded-br-none [&_select]:input-bbb-hidden',
+            '[&_select]:rounded-bl-none [&_select]:rounded-br-none [&_select]:input-bbb-hidden before:h-px',
           isHorizontal &&
             !error &&
             'rtl:[&_select]:rounded-bl-none rtl:[&_select]:rounded-tl-none rtl:[&_select]:input-lsb-hidden ltr:[&_select]:rounded-br-none ltr:[&_select]:rounded-tr-none ltr:[&_select]:input-rsb-hidden flex-1 basis-1/2',
@@ -321,12 +335,13 @@ const LastSelect = forwardRef<
         readOnly={readOnly}
         size={size}
         className={mergeClassnames(
+          'last-element before:absolute before:block before:bg-beerus hover:before:hidden before:transition-opacity',
           isVertical &&
             !error &&
-            '[&_select]:rounded-tl-none [&_select]:rounded-tr-none [&_select]:input-tbb-hidden',
+            '[&_select]:rounded-tl-none [&_select]:rounded-tr-none [&_select]:input-tbb-hidden before:h-px before:top-0 before:left-0 before:right-0',
           isHorizontal &&
             !error &&
-            'rtl:[&_select]:rounded-tr-none rtl:[&_select]:rounded-br-none rtl:[&_select]:input-rsb-hidden ltr:[&_select]:rounded-tl-none ltr:[&_select]:rounded-bl-none ltr:[&_select]:input-lsb-hidden flex-1 basis-1/2',
+            'rtl:[&_select]:rounded-tr-none rtl:[&_select]:rounded-br-none rtl:[&_select]:input-rsb-hidden ltr:[&_select]:rounded-tl-none ltr:[&_select]:rounded-bl-none ltr:[&_select]:input-lsb-hidden flex-1 basis-1/2 before:w-px ltr:before:left-0 rtl:before:right-0 before:top-0 before:bottom-0',
           className && className
         )}
         ref={ref}
@@ -370,6 +385,7 @@ const FirstInsetSelect = forwardRef<
         disabled={disabled}
         readOnly={readOnly}
         className={mergeClassnames(
+          '[&_+_.last-element:before]:hover:opacity-0',
           isVertical &&
             !error &&
             '[&_select]:rounded-bl-none [&_select]:rounded-br-none [&_select]:input-bbb-hidden',
@@ -419,12 +435,13 @@ const LastInsetSelect = forwardRef<
         disabled={disabled}
         readOnly={readOnly}
         className={mergeClassnames(
+          'last-element before:absolute before:block before:bg-beerus hover:before:hidden before:transition-opacity',
           isVertical &&
             !error &&
-            '[&_select]:rounded-tl-none [&_select]:rounded-tr-none [&_select]:input-tbb-hidden',
+            '[&_select]:rounded-tl-none [&_select]:rounded-tr-none [&_select]:input-tbb-hidden before:h-px before:top-0 before:left-0 before:right-0',
           isHorizontal &&
             !error &&
-            'rtl:[&_select]:rounded-tr-none rtl:[&_select]:rounded-br-none rtl:[&_select]:input-rsb-hidden ltr:[&_select]:rounded-tl-none ltr:[&_select]:rounded-bl-none ltr:[&_select]:input-lsb-hidden flex-1 basis-1/2',
+            'rtl:[&_select]:rounded-tr-none rtl:[&_select]:rounded-br-none rtl:[&_select]:input-rsb-hidden ltr:[&_select]:rounded-tl-none ltr:[&_select]:rounded-bl-none ltr:[&_select]:input-lsb-hidden flex-1 basis-1/2 before:w-px ltr:before:left-0 rtl:before:right-0 before:top-0 before:bottom-0',
           className && className
         )}
         ref={ref}
