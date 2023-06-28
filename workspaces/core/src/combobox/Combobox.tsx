@@ -1,7 +1,7 @@
 import React from 'react';
-import { Combobox as HeadlessCombobox, Transition as HeadlessTransition, Listbox, ComboboxProps } from '@headlessui/react';
+import { Combobox as HeadlessCombobox, Transition as HeadlessTransition, Listbox } from '@headlessui/react';
 import { usePopper } from 'react-popper';
-import { InsetInput as InputInset, SelectButton, Input as NativeInput, BaseOptionType } from '../index';
+import { InsetInput as InputInset, SelectButton, Input as NativeInput } from '../index';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import ButtonProps from './private/types/ButtonProps';
 import { ComboboxRootProps } from './private/types/ComboboxRootProps';
@@ -146,7 +146,7 @@ const Input = ({
       placeholder={placeholder}
       type={type ? type : 'text'}
       className={mergeClassnames(
-        'flex-grow h-full border-0 !rounded-none bg-transparent px-0',
+        'flex-grow h-full border-0 !rounded-none bg-transparent px-0 leading-none',
         '!shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none',
         getTextSizes(size),
         className
@@ -188,7 +188,7 @@ const InsetInput = ({
         type={type ? type : 'text'}
         disabled={disabled}
         className={mergeClassnames(
-          'flex-grow h-full border-0 !rounded-none bg-transparent px-0',
+          'flex-grow h-full border-0 !rounded-none bg-transparent px-0 leading-none',
           '!shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none',
           (label !== undefined && label.length > 0)
           && (placeholder === undefined || placeholder.length === 0)
