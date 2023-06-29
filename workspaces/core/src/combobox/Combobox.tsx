@@ -28,12 +28,12 @@ const ComboboxRoot = ({
   value,
   children,
   onChange,
-  onQueryChange,
   isError,
   disabled,
   size = 'md',
   className,
   onClear,
+  onQueryChange,
   multiple,
   nullable,
   position = 'bottom-start',
@@ -63,6 +63,7 @@ const ComboboxRoot = ({
     },
     multiple: multiple,
     onClear: onClear,
+    onQueryChange: onQueryChange,
     popper: {
       styles: styles,
       attributes: attributes,
@@ -142,16 +143,15 @@ const Input = ({
   placeholder,
   type,
   className,
-  onChange,
-  onQueryChange,
   label,
   ...rest
 }: InputProps) => {
-  const { size, popper, disabled, isError, input } =
-    useComboboxContext('Combobox.Input');
+
+  const { size, popper, disabled, isError, input, onQueryChange } = useComboboxContext('Combobox.Input');
+
   return (
     <HeadlessCombobox.Input
-      onChange={({ target: { value } }) => onQueryChange(value)}
+      onChange={({ target: { value } }) => { onQueryChange ? onQueryChange(value) : () => {} }}
       ref={popper?.setAnchor}
       as={NativeInput}
       displayValue={displayValue}
@@ -177,19 +177,16 @@ const InsetInput = ({
   placeholder,
   type,
   className,
-  onChange,
-  onQueryChange,
   label,
   ...rest
 }: InputProps) => {
-  const { size, popper, disabled, isError, input } = useComboboxContext(
-    'Combobox.InsetInput'
-  );
+
+  const { size, popper, disabled, isError, input, onQueryChange } = useComboboxContext('Combobox.InsetInput');
 
   return (
     <span className={mergeClassnames('relative', 'flex flex-grow w-full')}>
       <HeadlessCombobox.Input
-        onChange={({ target: { value } }) => onQueryChange(value)}
+        onChange={({ target: { value } }) => { onQueryChange ? onQueryChange(value) : () => {}}}
         ref={popper?.setAnchor}
         as={NativeInput}
         displayValue={displayValue}
@@ -312,16 +309,18 @@ const Counter = ({ open, className, counter, ...rest }: SelectProps) => {
 
 const Transition = ({
   children,
-  onQueryChange,
   ...rest
-}: WithChildren<{ onQueryChange: (value: string) => void }>) => {
+}: WithChildren) => {
+
+  const { onQueryChange } = useComboboxContext('Combobox.Counter');
+
   return (
     <HeadlessTransition
       as={'div'}
-      leave="transition ease-in duration-100"
-      leaveFrom="opacity-100"
-      leaveTo="opacity-0"
-      afterLeave={() => onQueryChange('')}
+      leave='transition ease-in duration-100'
+      leaveFrom='opacity-100'
+      leaveTo='opacity-0'
+      afterLeave={onQueryChange ? () => onQueryChange('') : () => {}}
       {...rest}
     >
       {children}
@@ -337,8 +336,6 @@ const Select = ({
   className,
   multiple,
   counter,
-  onChange,
-  onQueryChange,
   displayValue,
   ...rest
 }: WithChildren<SelectProps & InputProps>) => {
@@ -363,8 +360,6 @@ const Select = ({
         <Input
           open={open}
           placeholder={placeholder}
-          onChange={onChange}
-          onQueryChange={onQueryChange}
           displayValue={displayValue}
         />
         <Button open={open}>{children}</Button>
@@ -381,8 +376,6 @@ const MultiSelect = ({
   className,
   multiple = true,
   counter,
-  onChange,
-  onQueryChange,
   displayValue,
   ...rest
 }: WithChildren<SelectProps & InputProps>) => {
@@ -408,8 +401,6 @@ const MultiSelect = ({
         <Input
           open={open}
           placeholder={placeholder}
-          onChange={onChange}
-          onQueryChange={onQueryChange}
           displayValue={displayValue}
         />
         <Button open={open}>{children}</Button>
@@ -426,8 +417,6 @@ const InsetSelect = ({
   className,
   multiple,
   counter,
-  onChange,
-  onQueryChange,
   displayValue,
   ...rest
 }: WithChildren<SelectProps & InputProps>) => {
@@ -449,8 +438,6 @@ const InsetSelect = ({
           open={open}
           label={label}
           placeholder={placeholder}
-          onChange={onChange}
-          onQueryChange={onQueryChange}
           displayValue={displayValue}
         />
         <Button open={open}>{children}</Button>
@@ -467,8 +454,6 @@ const InsetMultiSelect = ({
   className,
   multiple = true,
   counter,
-  onChange,
-  onQueryChange,
   displayValue,
   ...rest
 }: WithChildren<SelectProps & InputProps>) => {
@@ -491,8 +476,6 @@ const InsetMultiSelect = ({
           open={open}
           label={label}
           placeholder={placeholder}
-          onChange={onChange}
-          onQueryChange={onQueryChange}
           displayValue={displayValue}
         />
         <Button open={open}>{children}</Button>

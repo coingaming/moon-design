@@ -1057,7 +1057,7 @@ exports[`Select in Dark Theme renders SelectStates 1`] = `
     className="relative w-full max-w-xs"
   >
     <label
-      className="block text-bulma pb-2 text-moon-16 opacity-30 cursor-not-allowed"
+      className="block text-bulma pb-2 text-moon-16"
       data-headlessui-state=""
       id="headlessui-listbox-label-:r3f:"
       onClick={[Function]}
@@ -1065,26 +1065,35 @@ exports[`Select in Dark Theme renders SelectStates 1`] = `
       Disabled
     </label>
     <div
-      className="relative flex flex-nowrap w-full align-middle items-center rounded-lg py-2 px-3 bg-gohan gap-x-2 focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none opacity-30 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed"
+      className="relative flex flex-nowrap w-full align-middle items-center rounded-lg py-2 px-3 bg-gohan gap-x-2 shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
       tabIndex={-1}
     >
       <input
         aria-autocomplete="list"
-        className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err opacity-30 cursor-not-allowed flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16 leading-5"
-        data-headlessui-state="disabled"
-        disabled={true}
+        aria-expanded={false}
+        className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16 leading-5"
+        data-headlessui-state=""
         id="headlessui-combobox-input-:r3h:"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onCompositionEnd={[Function]}
+        onCompositionStart={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
         open={false}
         placeholder="Choose an option"
         role="combobox"
         type="text"
       />
       <button
+        aria-expanded={false}
         aria-haspopup="listbox"
-        className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center cursor-not-allowed"
-        data-headlessui-state="disabled"
-        disabled={true}
+        className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
+        data-headlessui-state=""
+        disabled={false}
         id="headlessui-combobox-button-:r3i:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
         tabIndex={-1}
         type="button"
       >
@@ -1106,7 +1115,7 @@ exports[`Select in Dark Theme renders SelectStates 1`] = `
       </button>
     </div>
     <p
-      className="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
+      className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
       role="alert"
     >
       Informative message holder
@@ -2294,7 +2303,7 @@ exports[`Select in Light Theme renders SelectStates 1`] = `
     className="relative w-full max-w-xs"
   >
     <label
-      className="block text-bulma pb-2 text-moon-16 opacity-30 cursor-not-allowed"
+      className="block text-bulma pb-2 text-moon-16"
       data-headlessui-state=""
       id="headlessui-listbox-label-:r1i:"
       onClick={[Function]}
@@ -2302,26 +2311,35 @@ exports[`Select in Light Theme renders SelectStates 1`] = `
       Disabled
     </label>
     <div
-      className="relative flex flex-nowrap w-full align-middle items-center rounded-lg py-2 px-3 bg-gohan gap-x-2 focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none opacity-30 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed"
+      className="relative flex flex-nowrap w-full align-middle items-center rounded-lg py-2 px-3 bg-gohan gap-x-2 shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
       tabIndex={-1}
     >
       <input
         aria-autocomplete="list"
-        className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err opacity-30 cursor-not-allowed flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16 leading-5"
-        data-headlessui-state="disabled"
-        disabled={true}
+        aria-expanded={false}
+        className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16 leading-5"
+        data-headlessui-state=""
         id="headlessui-combobox-input-:r1k:"
+        onBlur={[Function]}
+        onChange={[Function]}
+        onCompositionEnd={[Function]}
+        onCompositionStart={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
         open={false}
         placeholder="Choose an option"
         role="combobox"
         type="text"
       />
       <button
+        aria-expanded={false}
         aria-haspopup="listbox"
-        className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center cursor-not-allowed"
-        data-headlessui-state="disabled"
-        disabled={true}
+        className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
+        data-headlessui-state=""
+        disabled={false}
         id="headlessui-combobox-button-:r1l:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
         tabIndex={-1}
         type="button"
       >
@@ -2343,7 +2361,7 @@ exports[`Select in Light Theme renders SelectStates 1`] = `
       </button>
     </div>
     <p
-      className="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
+      className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
       role="alert"
     >
       Informative message holder
@@ -3558,7 +3576,7 @@ exports[`Select in RTL renders SelectStates 1`] = `
       className="relative w-full max-w-xs"
     >
       <label
-        className="block text-bulma pb-2 text-moon-16 opacity-30 cursor-not-allowed"
+        className="block text-bulma pb-2 text-moon-16"
         data-headlessui-state=""
         id="headlessui-listbox-label-:r5c:"
         onClick={[Function]}
@@ -3566,26 +3584,35 @@ exports[`Select in RTL renders SelectStates 1`] = `
         Disabled
       </label>
       <div
-        className="relative flex flex-nowrap w-full align-middle items-center rounded-lg py-2 px-3 bg-gohan gap-x-2 focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none opacity-30 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed"
+        className="relative flex flex-nowrap w-full align-middle items-center rounded-lg py-2 px-3 bg-gohan gap-x-2 shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
         tabIndex={-1}
       >
         <input
           aria-autocomplete="list"
-          className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err opacity-30 cursor-not-allowed flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16 leading-5"
-          data-headlessui-state="disabled"
-          disabled={true}
+          aria-expanded={false}
+          className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16 leading-5"
+          data-headlessui-state=""
           id="headlessui-combobox-input-:r5e:"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onCompositionEnd={[Function]}
+          onCompositionStart={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
           open={false}
           placeholder="Choose an option"
           role="combobox"
           type="text"
         />
         <button
+          aria-expanded={false}
           aria-haspopup="listbox"
-          className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center cursor-not-allowed"
-          data-headlessui-state="disabled"
-          disabled={true}
+          className="w-6 h-6 text-moon-24 text-bulma transition-transform flex-grow-0 flex-shrink-0 self-center"
+          data-headlessui-state=""
+          disabled={false}
           id="headlessui-combobox-button-:r5f:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
           tabIndex={-1}
           type="button"
         >
@@ -3607,7 +3634,7 @@ exports[`Select in RTL renders SelectStates 1`] = `
         </button>
       </div>
       <p
-        className="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
+        className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
         role="alert"
       >
         Informative message holder
