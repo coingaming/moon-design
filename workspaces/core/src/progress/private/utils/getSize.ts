@@ -1,6 +1,6 @@
 import type Sizes from '../types/Sizes';
 
-const getLinearSize = (size: Sizes) => {
+const getSize = (size?: Sizes) => {
   switch (size) {
     case '6xs':
       return 'h-0.5';
@@ -16,4 +16,4 @@ const getLinearSize = (size: Sizes) => {
   }
 };
 
-export default getLinearSize;
+export default getSize;
