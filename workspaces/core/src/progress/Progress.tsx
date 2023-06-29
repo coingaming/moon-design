@@ -42,6 +42,7 @@ const ProgressRoot: React.FC<Props> = ({
 
 const Pin: React.FC<PinProps> = ({ className }) => {
   const { value, size } = useContext(ProgressContext);
+  const displayValue = Math.round(value || 0) + '%';
   return (
     <div
       className={mergeClassnames(
@@ -56,7 +57,7 @@ const Pin: React.FC<PinProps> = ({ className }) => {
         className
       )}
     >
-      {value}%
+      {displayValue}
     </div>
   );
 };
