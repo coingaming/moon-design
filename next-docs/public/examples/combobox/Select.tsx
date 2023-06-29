@@ -51,15 +51,11 @@ const Example = () => {
                 open={open}
                 label="Small"
                 placeholder="Choose an option"
-                onChange={setSelected0}
-                onQueryChange={setQuery0}
                 displayValue={({ label }) => label }
               >
                 <ControlsChevronDownSmall />
               </Combobox.Select>
-              <Combobox.Transition
-                onQueryChange={setQuery0}
-              >
+              <Combobox.Transition>
                 <Combobox.Options>
                   {filteredPeople0.length === 0 && query0 !== '' ? (
                     <div className='relative cursor-default select-none py-2 px-4 text-trunks'>
@@ -95,15 +91,11 @@ const Example = () => {
                 open={open}
                 label="Medium"
                 placeholder="Choose an option"
-                onChange={setSelected1}
-                onQueryChange={setQuery1}
                 displayValue={({ label }) => label }
               >
                 <ControlsChevronDownSmall />
               </Combobox.Select>
-              <Combobox.Transition
-                onQueryChange={setQuery1}
-              >
+              <Combobox.Transition>
                 <Combobox.Options>
                   {filteredPeople1.length === 0 && query1 !== '' ? (
                     <div className='relative cursor-default select-none py-2 px-4 text-trunks'>
@@ -140,15 +132,11 @@ const Example = () => {
                 open={open}
                 label="Large"
                 placeholder="Choose an option"
-                onChange={setSelected2}
-                onQueryChange={setQuery2}
                 displayValue={({ label }) => label }
               >
                 <ControlsChevronDownSmall />
               </Combobox.Select>
-              <Combobox.Transition
-                onQueryChange={setQuery2}
-              >
+              <Combobox.Transition>
                 <Combobox.Options>
                   {filteredPeople2.length === 0 && query2 !== '' ? (
                     <div className='relative cursor-default select-none py-2 px-4 text-trunks'>
