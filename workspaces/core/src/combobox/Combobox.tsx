@@ -1,7 +1,15 @@
 import React from 'react';
-import { Combobox as HeadlessCombobox, Transition as HeadlessTransition, Listbox, ComboboxProps } from '@headlessui/react';
+import {
+  Combobox as HeadlessCombobox,
+  Transition as HeadlessTransition,
+  Listbox,
+} from '@headlessui/react';
 import { usePopper } from 'react-popper';
-import { InsetInput as InputInset, SelectButton, Input as NativeInput, BaseOptionType } from '../index';
+import {
+  InsetInput as InputInset,
+  SelectButton,
+  Input as NativeInput,
+} from '../index';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import ButtonProps from './private/types/ButtonProps';
 import { ComboboxRootProps } from './private/types/ComboboxRootProps';
@@ -9,7 +17,10 @@ import InputProps from './private/types/InputProps';
 import SelectProps from './private/types/SelectProps';
 import WithChildren from './private/types/WithChildren';
 import { getSizeStyles, getTextSizes } from './private/utils/getSizeStyles';
-import { useComboboxContext, ComboboxContext } from './private/utils/useComboboxContext';
+import {
+  useComboboxContext,
+  ComboboxContext,
+} from './private/utils/useComboboxContext';
 import type OptionProps from './private/types/OptionProps';
 import type OptionsProps from './private/types/OptionsProps';
 
@@ -17,12 +28,12 @@ const ComboboxRoot = ({
   value,
   children,
   onChange,
-  onQueryChange,
   isError,
   disabled,
   size = 'md',
   className,
   onClear,
+  onQueryChange,
   multiple,
   nullable,
   position = 'bottom-start',
@@ -52,6 +63,7 @@ const ComboboxRoot = ({
     },
     multiple: multiple,
     onClear: onClear,
+    onQueryChange: onQueryChange,
     popper: {
       styles: styles,
       attributes: attributes,
@@ -66,9 +78,7 @@ const ComboboxRoot = ({
 
   return (
     <ComboboxContext.Provider value={states}>
-      <div
-        className={mergeClassnames('w-full relative', className)}
-      >
+      <div className={mergeClassnames('w-full relative', className)}>
         <HeadlessCombobox
           // type coercion due to following issues in HeadlessUI combobox
           // https://github.com/tailwindlabs/headlessui/issues/2438
@@ -86,8 +96,7 @@ const ComboboxRoot = ({
             <>
               {typeof children === 'function'
                 ? callableChildren && callableChildren({ open })
-                : childrens?.map((ch) => ch)
-              }
+                : childrens?.map((ch) => ch)}
             </>
           )}
         </HeadlessCombobox>
@@ -101,7 +110,8 @@ const Trigger = ({
   className,
   innerLabel,
 }: WithChildren<SelectProps>) => {
-  const { size, input, popper, disabled, isError } = useComboboxContext('Combobox.Trigger');
+  const { size, input, popper, disabled, isError } =
+    useComboboxContext('Combobox.Trigger');
 
   return (
     <div
@@ -110,12 +120,17 @@ const Trigger = ({
         'relative',
         'flex flex-nowrap w-full align-middle items-center rounded-lg py-2 px-3 bg-gohan gap-x-2',
         getSizeStyles(size as string, innerLabel as boolean),
-        input?.isFocused ? 'shadow-input-focus hover:shadow-input-focus' : 'shadow-input hover:shadow-input-hov',
+        input?.isFocused
+          ? 'shadow-input-focus hover:shadow-input-focus'
+          : 'shadow-input hover:shadow-input-hov',
         'focus:shadow-input-focus focus:outline-none',
         'focus-visible::shadow-input-focus focus-visible::outline-none',
-        isError && 'shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err',
-        disabled && 'opacity-30 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed',
-        className)}
+        isError &&
+          'shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err',
+        disabled &&
+          'opacity-30 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed',
+        className
+      )}
       ref={popper?.setAnchor}
     >
       {children}
@@ -123,23 +138,20 @@ const Trigger = ({
   );
 };
 
-
 const Input = ({
   displayValue,
   placeholder,
   type,
   className,
-  onChange,
-  onQueryChange,
   label,
   ...rest
 }: InputProps) => {
 
-  const { size, popper, disabled, isError, input } = useComboboxContext('Combobox.Input');
+  const { size, popper, disabled, isError, input, onQueryChange } = useComboboxContext('Combobox.Input');
 
   return (
     <HeadlessCombobox.Input
-      onChange={({ target: { value } }) => onQueryChange(value)}
+      onChange={({ target: { value } }) => { onQueryChange ? onQueryChange(value) : () => {} }}
       ref={popper?.setAnchor}
       as={NativeInput}
       displayValue={displayValue}
@@ -165,22 +177,16 @@ const InsetInput = ({
   placeholder,
   type,
   className,
-  onChange,
-  onQueryChange,
   label,
   ...rest
 }: InputProps) => {
 
-  const { size, popper, disabled, isError, input } = useComboboxContext('Combobox.InsetInput');
+  const { size, popper, disabled, isError, input, onQueryChange } = useComboboxContext('Combobox.InsetInput');
 
   return (
-    <span className={mergeClassnames(
-      'relative',
-      'flex flex-grow w-full'
-    )}
-    >
+    <span className={mergeClassnames('relative', 'flex flex-grow w-full')}>
       <HeadlessCombobox.Input
-        onChange={({ target: { value } }) => onQueryChange(value)}
+        onChange={({ target: { value } }) => { onQueryChange ? onQueryChange(value) : () => {}}}
         ref={popper?.setAnchor}
         as={NativeInput}
         displayValue={displayValue}
@@ -190,20 +196,23 @@ const InsetInput = ({
         className={mergeClassnames(
           'flex-grow h-full border-0 !rounded-none bg-transparent px-0',
           '!shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none',
-          (label !== undefined && label.length > 0)
-          && (placeholder === undefined || placeholder.length === 0)
-          && 'input-xl',
-          (label !== undefined && label.length > 0)
-          && 'pt-3 input-xl-dt-label',
+          label !== undefined &&
+            label.length > 0 &&
+            (placeholder === undefined || placeholder.length === 0) &&
+            'input-xl',
+          label !== undefined && label.length > 0 && 'pt-3 input-xl-dt-label',
           getTextSizes(size),
-          className
+          className,
+          'leading-5'
         )}
         isError={isError}
         onFocus={() => input?.setIsFocused(true)}
         onBlur={() => input?.setIsFocused(false)}
         {...rest}
       />
-      <InputInset.Label className='w-auto -top-0.5 !right-0 !left-0 whitespace-nowrap overflow-x-hidden'>{label}</InputInset.Label>
+      <InputInset.Label className="w-auto -top-0.5 !right-0 !left-0 whitespace-nowrap overflow-x-hidden">
+        {label}
+      </InputInset.Label>
     </span>
   );
 };
@@ -247,7 +256,9 @@ const Options = ({
       style={popper?.styles?.popper}
       {...popper?.attributes?.popper}
       className={mergeClassnames(
-        menuWidth ? menuWidth : 'w-full max-h-[18.75rem] py-2 px-1 my-1 rounded-moon-s-md box-border bg-gohan shadow-moon-lg z-10 absolute',
+        menuWidth
+          ? menuWidth
+          : 'w-full max-h-[18.75rem] py-2 px-1 my-1 rounded-moon-s-md box-border bg-gohan shadow-moon-lg z-10 absolute',
         'overflow-y-auto focus:outline-none',
         className
       )}
@@ -270,19 +281,17 @@ const Option = ({ children, value }: OptionProps) => {
   );
 };
 
-const Counter = ({
-  open,
-  className,
-  counter,
-  ...rest
-}: SelectProps) => {
-  const { size, isError, disabled, onClear } = useComboboxContext('Combobox.Counter');
+const Counter = ({ open, className, counter, ...rest }: SelectProps) => {
+  const { size, isError, disabled, onClear } =
+    useComboboxContext('Combobox.Counter');
 
   return (
-    <span className={mergeClassnames(
-      'flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center',
-      className
-    )}>
+    <span
+      className={mergeClassnames(
+        'flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center',
+        className
+      )}
+    >
       <SelectButton
         size={size}
         open={open}
@@ -291,9 +300,7 @@ const Counter = ({
         {...rest}
       >
         <SelectButton.Value>
-          <SelectButton.Chip onClear={onClear}>
-            {counter}
-          </SelectButton.Chip>
+          <SelectButton.Chip onClear={onClear}>{counter}</SelectButton.Chip>
         </SelectButton.Value>
       </SelectButton>
     </span>
@@ -302,9 +309,10 @@ const Counter = ({
 
 const Transition = ({
   children,
-  onQueryChange,
   ...rest
-}: WithChildren<{ onQueryChange: (value: string) => void }>) => {
+}: WithChildren) => {
+
+  const { onQueryChange } = useComboboxContext('Combobox.Counter');
 
   return (
     <HeadlessTransition
@@ -312,13 +320,13 @@ const Transition = ({
       leave='transition ease-in duration-100'
       leaveFrom='opacity-100'
       leaveTo='opacity-0'
-      afterLeave={() => onQueryChange('')}
+      afterLeave={onQueryChange ? () => onQueryChange('') : () => {}}
       {...rest}
     >
       {children}
     </HeadlessTransition>
   );
-}
+};
 
 const Select = ({
   open,
@@ -328,8 +336,6 @@ const Select = ({
   className,
   multiple,
   counter,
-  onChange,
-  onQueryChange,
   displayValue,
   ...rest
 }: WithChildren<SelectProps & InputProps>) => {
@@ -354,13 +360,9 @@ const Select = ({
         <Input
           open={open}
           placeholder={placeholder}
-          onChange={onChange}
-          onQueryChange={onQueryChange}
           displayValue={displayValue}
         />
-        <Button open={open}>
-          {children}
-        </Button>
+        <Button open={open}>{children}</Button>
       </Listbox.Button>
     </Listbox>
   );
@@ -374,8 +376,6 @@ const MultiSelect = ({
   className,
   multiple = true,
   counter,
-  onChange,
-  onQueryChange,
   displayValue,
   ...rest
 }: WithChildren<SelectProps & InputProps>) => {
@@ -397,19 +397,13 @@ const MultiSelect = ({
         counter={counter}
         {...rest}
       >
-        {counter !== undefined && counter > 0 && (
-          <Counter counter={counter} />
-        )}
+        {counter !== undefined && counter > 0 && <Counter counter={counter} />}
         <Input
           open={open}
           placeholder={placeholder}
-          onChange={onChange}
-          onQueryChange={onQueryChange}
           displayValue={displayValue}
         />
-        <Button open={open}>
-          {children}
-        </Button>
+        <Button open={open}>{children}</Button>
       </Listbox.Button>
     </Listbox>
   );
@@ -423,8 +417,6 @@ const InsetSelect = ({
   className,
   multiple,
   counter,
-  onChange,
-  onQueryChange,
   displayValue,
   ...rest
 }: WithChildren<SelectProps & InputProps>) => {
@@ -446,13 +438,9 @@ const InsetSelect = ({
           open={open}
           label={label}
           placeholder={placeholder}
-          onChange={onChange}
-          onQueryChange={onQueryChange}
           displayValue={displayValue}
         />
-        <Button open={open}>
-          {children}
-        </Button>
+        <Button open={open}>{children}</Button>
       </Listbox.Button>
     </Listbox>
   );
@@ -466,8 +454,6 @@ const InsetMultiSelect = ({
   className,
   multiple = true,
   counter,
-  onChange,
-  onQueryChange,
   displayValue,
   ...rest
 }: WithChildren<SelectProps & InputProps>) => {
@@ -485,20 +471,14 @@ const InsetMultiSelect = ({
         innerLabel={true}
         {...rest}
       >
-        {counter !== undefined && counter > 0 && (
-          <Counter counter={counter} />
-        )}
+        {counter !== undefined && counter > 0 && <Counter counter={counter} />}
         <InsetInput
           open={open}
           label={label}
           placeholder={placeholder}
-          onChange={onChange}
-          onQueryChange={onQueryChange}
           displayValue={displayValue}
         />
-        <Button open={open}>
-          {children}
-        </Button>
+        <Button open={open}>{children}</Button>
       </Listbox.Button>
     </Listbox>
   );
@@ -539,7 +519,7 @@ const Combobox = Object.assign(ComboboxRoot, {
   Select,
   MultiSelect,
   InsetSelect,
-  InsetMultiSelect
+  InsetMultiSelect,
 });
 
 export default Combobox;
