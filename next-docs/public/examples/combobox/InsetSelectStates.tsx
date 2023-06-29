@@ -53,15 +53,11 @@ const Example = () => {
               open={open}
               label='Error'
               placeholder='Choose an option'
-              onChange={setSelected0}
-              onQueryChange={setQuery0}
               displayValue={({ label }) => label}
             >
               <ControlsChevronDownSmall />
             </Combobox.InsetSelect>
-            <Combobox.Transition
-              onQueryChange={setQuery0}
-            >
+            <Combobox.Transition>
               <Combobox.Options>
                 {filteredPeople0.length === 0 && query0 !== '' ? (
                   <div className='relative cursor-default select-none py-2 px-4 text-trunks'>
@@ -98,15 +94,11 @@ const Example = () => {
               open={open}
               label='Disabled'
               placeholder='Choose an option'
-              onChange={setSelected1}
-              onQueryChange={setQuery1}
               displayValue={({ label }) => label}
             >
               <ControlsChevronDownSmall />
             </Combobox.InsetSelect>
-            <Combobox.Transition
-              onQueryChange={setQuery1}
-            >
+            <Combobox.Transition>
               <Combobox.Options>
                 {filteredPeople1.length === 0 && query1 !== '' ? (
                   <div className='relative cursor-default select-none py-2 px-4 text-trunks'>
@@ -142,15 +134,11 @@ const Example = () => {
             <Combobox.InsetSelect
               open={open}
               label='Without placeholder (nullable)'
-              onChange={setSelected2}
-              onQueryChange={setQuery2}
               displayValue={(person) => person?.label}
             >
               <ControlsChevronDownSmall />
             </Combobox.InsetSelect>
-            <Combobox.Transition
-              onQueryChange={setQuery2}
-            >
+            <Combobox.Transition>
               <Combobox.Options className='z-5 rounded-moon-s-md box-border bg-gohan shadow-moon-lg py-2 px-1 my-2'>
                 {filteredPeople2.length === 0 && query2 !== '' ? (
                   <div className='relative cursor-default select-none py-2 px-4 text-trunks'>
@@ -186,15 +174,11 @@ const Example = () => {
               open={open}
               label='List options width'
               placeholder='Choose an option'
-              onChange={setSelected3}
-              onQueryChange={setQuery3}
               displayValue={({ label }) => label}
             >
               <ControlsChevronDownSmall />
             </Combobox.InsetSelect>
-            <Combobox.Transition
-              onQueryChange={setQuery3}
-            >
+            <Combobox.Transition>
               <Combobox.Options menuWidth='w-40' className='z-5 rounded-moon-s-md box-border bg-gohan shadow-moon-lg py-2 px-1 my-2'>
                 {filteredPeople3.length === 0 && query3 !== '' ? (
                   <div className='relative cursor-default select-none py-2 px-4 text-trunks'>
