@@ -1,5 +1,17 @@
 # Change Log
 
+## 9.37.0
+
+### Minor Changes
+
+- Update Progress, fix Combobox
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@9.37.0
+  - @heathmont/moon-utils@9.37.0
+
 ## 9.36.0
 
 ### Minor Changes
