@@ -2,10 +2,11 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
-import Colors from '../../public/examples/progress/Colors';
+import Customisation from '../../public/examples/progress/Customisation';
 import Default from '../../public/examples/progress/Default';
 import Sizes from '../../public/examples/progress/Sizes';
 import Values from '../../public/examples/progress/Values';
+import WithPin from '../../public/examples/progress/WithPin';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
@@ -38,26 +39,24 @@ const Example = () => {
         code={examples ? examples.Values : 'Loading'}
       />
       <Preview
-        title="Custom colours"
-        preview={<Colors />}
-        code={examples ? examples.Colors : 'Loading'}
+        title="Customisation"
+        preview={<Customisation />}
+        code={examples ? examples.Customisation : 'Loading'}
+      />
+      <Preview
+        title="Progress with Pin"
+        preview={<WithPin />}
+        code={examples ? examples.WithPin : 'Loading'}
       />
       <PropsTable
         title="Progress props"
         data={[
           {
-            name: 'bgColor',
+            name: 'className',
             type: 'string',
             required: false,
-            default: 'bg-trunks/[.24]',
-            description: 'Background colour',
-          },
-          {
-            name: 'progressColor',
-            type: 'string',
-            required: false,
-            default: 'bg-piccolo',
-            description: 'Progress bar colour',
+            default: '-',
+            description: 'Tailwind classes for custom styles.',
           },
           {
             name: 'size',
@@ -72,6 +71,18 @@ const Example = () => {
             required: false,
             default: '0',
             description: 'Value of Progress in %',
+          },
+        ]}
+      />
+      <PropsTable
+        title="Progress.Pin props"
+        data={[
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Tailwind classes for custom styles.',
           },
         ]}
       />
