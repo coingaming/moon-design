@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "@headlessui/react": "1.7.13",
+    "@heathmont/moon-icons-tw": "9.28.4",
     "@popperjs/core": "^2.11.6",
     "@radix-ui/react-accordion": "^1.1.0",
     "@radix-ui/react-toast": "1.1.2",
