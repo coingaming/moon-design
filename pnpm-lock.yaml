@@ -156,6 +156,12 @@ importers:
 
   docs:
     dependencies:
+      '@heathmont/moon-core-tw':
+        specifier: workspace:^9.36.0
+        version: link:../workspaces/core
+      '@heathmont/moon-icons-tw':
+        specifier: 9.28.4
+        version: 9.28.4(react-dom@18.2.0)(react@18.2.0)
       '@types/node':
         specifier: 20.3.2
         version: 20.3.2
