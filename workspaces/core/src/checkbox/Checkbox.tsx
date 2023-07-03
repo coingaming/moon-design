@@ -1,7 +1,9 @@
 import React, { forwardRef, useEffect, useState } from 'react';
-import { GenericCheckAlternative } from '@heathmont/moon-icons-tw';
+import {
+  ControlsMinus,
+  GenericCheckAlternative,
+} from '@heathmont/moon-icons-tw';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
-import ControlsMinus from '../private/icons/ControlsMinus';
 import type CheckboxProps from './private/types/CheckboxProps';
 
 const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
