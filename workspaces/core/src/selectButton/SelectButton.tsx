@@ -1,54 +1,17 @@
-import React, { createContext, useCallback, useContext } from 'react';
+import React, { useCallback } from 'react';
 import { Listbox } from '@headlessui/react';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import ControlsChevronDownSmall from '../private/icons/ControlsChevronDownSmall';
 import ControlsCloseSmall from '../private/icons/ControlsCloseSmall';
+import getSelectSize from './private/utils/getSelectSize';
+import SelectButtonContext from './private/utils/SelectButtonContext';
+import useSelectButtonContext from './private/utils/useSelectButtonContext';
+import type ChipProps from './private/types/ChipProps';
+import type InputProps from './private/types/InputProps';
+import type LabelProps from './private/types/LabelProps';
+import type SelectButtonProps from './private/types/SelectButtonProps';
 
-type SelectButtonState = {
-  open?: boolean;
-  size?: 'sm' | 'md' | 'lg' | string;
-  isError?: boolean;
-  idDisabled?: boolean;
-};
-
-const SelectButtonContext = createContext<SelectButtonState>({});
-SelectButtonContext.displayName = 'InputBtnContext';
-
-const useSelectButtonContext = (component: string) => {
-  const context = useContext(SelectButtonContext);
-  if (context === null) {
-    const err = new Error(
-      `<${component}> is missing a parent <SelectButton /> component.`
-    );
-    // if (Error.captureStackTrace) Error.captureStackTrace(err, useInputBtnContext);
-    throw err;
-  }
-  return context;
-};
-
-type SelectButtonProps = {
-  size?: 'sm' | 'md' | 'lg' | string;
-  isError?: boolean;
-  open?: boolean;
-  idDisabled?: boolean;
-  label?: JSX.Element | string;
-  placeholder?: JSX.Element | string;
-  children?: React.ReactNode;
-};
-
-const getSelectSize = (size?: 'sm' | 'md' | 'lg' | string) => {
-  switch (size) {
-    case 'lg':
-      return 'h-12 p-3 rounded-moon-i-sm';
-    case 'sm':
-      return 'h-8 py-1 px-2 rounded-moon-i-xs';
-    case 'md':
-    default:
-      return 'h-10 py-2 px-3 rounded-moon-i-sm';
-  }
-};
-
-const SelectButtonRoot: React.FC<SelectButtonProps> = ({
+const SelectButtonRoot = ({
   label,
   placeholder,
   size = 'md',
@@ -57,7 +20,7 @@ const SelectButtonRoot: React.FC<SelectButtonProps> = ({
   open,
   children,
   ...rest
-}) => {
+}: SelectButtonProps) => {
   const states = {
     open: open,
     size: size,
@@ -74,10 +37,7 @@ const SelectButtonRoot: React.FC<SelectButtonProps> = ({
   );
 };
 
-const Input: React.FC<{ className?: string; children?: React.ReactNode }> = ({
-  children,
-  className,
-}) => {
+const Input = ({ children, className }: InputProps) => {
   const { size, isError, idDisabled, ...rest } =
     useSelectButtonContext('SelectButton.Input');
   return (
@@ -95,46 +55,43 @@ const Input: React.FC<{ className?: string; children?: React.ReactNode }> = ({
         className && className
       )}
     >
-      <span className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap">
-        {children}
-      </span>
+      <span className="flex flex-col items-start">{children}</span>
       <Control />
     </button>
   );
 };
 
-const InsetInput: React.FC<{ className?: string; children?: React.ReactNode }> =
-  ({ children, className }) => {
-    const { isError, idDisabled, ...rest } =
-      useSelectButtonContext('SelectButton.Input');
-    return (
-      <button
-        {...rest}
-        className={mergeClassnames(
-          'flex items-center justify-between',
-          'w-full bg-gohan border-beerus',
-          'shadow-input hover:shadow-input-hov transition-shadow duration-200 ',
-          'focus:shadow-input-focus focus:outline-none',
-          'h-14 py-2 px-4 rounded-moon-i-md',
-          isError &&
-            'shadow-input-err hover:shadow-input-err focus:shadow-input-err',
-          idDisabled && 'opacity-30 cursor-not-allowed hover:shadow-input',
-          className && className
-        )}
-      >
-        <span className="flex gap-2 items-center">{children}</span>
-        <Control />
-      </button>
-    );
-  };
+const InsetInput = ({ children, className }: InputProps) => {
+  const { isError, idDisabled, ...rest } =
+    useSelectButtonContext('SelectButton.Input');
+  return (
+    <button
+      {...rest}
+      className={mergeClassnames(
+        'flex items-center justify-between',
+        'w-full bg-gohan border-beerus',
+        'shadow-input hover:shadow-input-hov transition-shadow duration-200 ',
+        'focus:shadow-input-focus focus:outline-none',
+        'h-14 py-2 px-4 rounded-moon-i-md',
+        isError &&
+          'shadow-input-err hover:shadow-input-err focus:shadow-input-err',
+        idDisabled && 'opacity-30 cursor-not-allowed hover:shadow-input',
+        className && className
+      )}
+    >
+      <span className="flex gap-2 items-center">{children}</span>
+      <Control />
+    </button>
+  );
+};
 
-const Value: React.FC<{ children?: React.ReactNode }> = ({ children }) => {
+const Value = ({ children }: { children?: React.ReactNode }) => {
   const { size } = useSelectButtonContext('SelectButton.Value');
   return (
     <span
       className={mergeClassnames(
         size === 'sm' ? 'text-moon-14' : 'text-moon-16',
-        'text-bulma'
+        'w-full text-bulma truncate'
       )}
     >
       {children}
@@ -142,13 +99,7 @@ const Value: React.FC<{ children?: React.ReactNode }> = ({ children }) => {
   );
 };
 
-type LabelProps = {
-  labelSize?: 'sm' | 'md' | 'lg' | 'xl' | string;
-  idDisabled?: boolean;
-  children?: React.ReactNode;
-};
-
-const Label: React.FC<LabelProps> = ({ children, labelSize, idDisabled }) => {
+const Label = ({ children, labelSize, idDisabled }: LabelProps) => {
   const { size } = useSelectButtonContext('SelectButton.Label');
   const currentSize = labelSize || size;
   return (
@@ -164,25 +115,19 @@ const Label: React.FC<LabelProps> = ({ children, labelSize, idDisabled }) => {
   );
 };
 
-const FloatingLabel: React.FC<{ children?: React.ReactNode }> = ({
-  children,
-}) => {
-  return (
-    <Listbox.Label className="block text-moon-12 text-trunks">
-      {children}
-    </Listbox.Label>
-  );
-};
+const FloatingLabel = ({ children }: { children?: React.ReactNode }) => (
+  <Listbox.Label className="block text-moon-12 text-trunks">
+    {children}
+  </Listbox.Label>
+);
 
-const Placeholder: React.FC<{ children?: React.ReactNode }> = ({
-  children,
-}) => {
+const Placeholder = ({ children }: { children?: React.ReactNode }) => {
   const { size } = useSelectButtonContext('SelectButton.Placeholder');
   return (
     <span
       className={mergeClassnames(
         size === 'sm' ? 'text-moon-14' : 'text-moon-16',
-        'text-trunks'
+        'w-full text-trunks truncate'
       )}
     >
       {children}
@@ -190,7 +135,7 @@ const Placeholder: React.FC<{ children?: React.ReactNode }> = ({
   );
 };
 
-const Control: React.FC = () => {
+const Control = () => {
   const { open, size } = useSelectButtonContext('SelectButton.Control');
   return (
     <ControlsChevronDownSmall
@@ -203,10 +148,8 @@ const Control: React.FC = () => {
   );
 };
 
-type ChipProps = { children: React.ReactNode; onClear?: () => void };
-const Chip: React.FC<ChipProps> = ({ children, onClear }) => {
+const Chip = ({ children, onClear }: ChipProps) => {
   const { size } = useSelectButtonContext('SelectButton.Control');
-
   const cliclHandler = useCallback(
     (e: any) => {
       e.preventDefault();
@@ -214,7 +157,6 @@ const Chip: React.FC<ChipProps> = ({ children, onClear }) => {
     },
     [onClear]
   );
-
   return (
     <span
       onClick={cliclHandler}
