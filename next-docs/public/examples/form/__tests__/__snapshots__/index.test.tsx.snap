@@ -79,10 +79,10 @@ Object {
                       class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                     >
                       <span
-                        class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                        class="flex flex-col items-start"
                       >
                         <span
-                          class="text-moon-16 text-trunks"
+                          class="text-moon-16 w-full text-trunks truncate"
                         />
                       </span>
                       <svg
@@ -94,7 +94,7 @@ Object {
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
-                          d="M22 13l-6 6-6-6"
+                          d="M22 13L16 19L10 13"
                           stroke="currentColor"
                           stroke-linecap="round"
                           stroke-linejoin="round"
@@ -132,10 +132,10 @@ Object {
                       class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                     >
                       <span
-                        class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                        class="flex flex-col items-start"
                       >
                         <span
-                          class="text-moon-16 text-trunks"
+                          class="text-moon-16 w-full text-trunks truncate"
                         />
                       </span>
                       <svg
@@ -147,7 +147,7 @@ Object {
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
-                          d="M22 13l-6 6-6-6"
+                          d="M22 13L16 19L10 13"
                           stroke="currentColor"
                           stroke-linecap="round"
                           stroke-linejoin="round"
@@ -185,10 +185,10 @@ Object {
                       class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                     >
                       <span
-                        class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                        class="flex flex-col items-start"
                       >
                         <span
-                          class="text-moon-16 text-trunks"
+                          class="text-moon-16 w-full text-trunks truncate"
                         />
                       </span>
                       <svg
@@ -200,7 +200,7 @@ Object {
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
-                          d="M22 13l-6 6-6-6"
+                          d="M22 13L16 19L10 13"
                           stroke="currentColor"
                           stroke-linecap="round"
                           stroke-linejoin="round"
@@ -332,10 +332,10 @@ Object {
                     class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                      class="flex flex-col items-start"
                     >
                       <span
-                        class="text-moon-16 text-trunks"
+                        class="text-moon-16 w-full text-trunks truncate"
                       />
                     </span>
                     <svg
@@ -347,7 +347,7 @@ Object {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M22 13l-6 6-6-6"
+                        d="M22 13L16 19L10 13"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
@@ -385,10 +385,10 @@ Object {
                     class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                      class="flex flex-col items-start"
                     >
                       <span
-                        class="text-moon-16 text-trunks"
+                        class="text-moon-16 w-full text-trunks truncate"
                       />
                     </span>
                     <svg
@@ -400,7 +400,7 @@ Object {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M22 13l-6 6-6-6"
+                        d="M22 13L16 19L10 13"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
@@ -438,10 +438,10 @@ Object {
                     class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                      class="flex flex-col items-start"
                     >
                       <span
-                        class="text-moon-16 text-trunks"
+                        class="text-moon-16 w-full text-trunks truncate"
                       />
                     </span>
                     <svg
@@ -453,7 +453,7 @@ Object {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M22 13l-6 6-6-6"
+                        d="M22 13L16 19L10 13"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
@@ -910,10 +910,10 @@ Object {
                     class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                      class="flex flex-col items-start"
                     >
                       <span
-                        class="text-moon-16 text-trunks"
+                        class="text-moon-16 w-full text-trunks truncate"
                       />
                     </span>
                     <svg
@@ -925,7 +925,7 @@ Object {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M22 13l-6 6-6-6"
+                        d="M22 13L16 19L10 13"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
@@ -963,10 +963,10 @@ Object {
                     class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                      class="flex flex-col items-start"
                     >
                       <span
-                        class="text-moon-16 text-trunks"
+                        class="text-moon-16 w-full text-trunks truncate"
                       />
                     </span>
                     <svg
@@ -978,7 +978,7 @@ Object {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M22 13l-6 6-6-6"
+                        d="M22 13L16 19L10 13"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
@@ -1016,10 +1016,10 @@ Object {
                     class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                      class="flex flex-col items-start"
                     >
                       <span
-                        class="text-moon-16 text-trunks"
+                        class="text-moon-16 w-full text-trunks truncate"
                       />
                     </span>
                     <svg
@@ -1031,7 +1031,7 @@ Object {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M22 13l-6 6-6-6"
+                        d="M22 13L16 19L10 13"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
@@ -1159,10 +1159,10 @@ Object {
                   class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                 >
                   <span
-                    class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                    class="flex flex-col items-start"
                   >
                     <span
-                      class="text-moon-16 text-trunks"
+                      class="text-moon-16 w-full text-trunks truncate"
                     />
                   </span>
                   <svg
@@ -1174,7 +1174,7 @@ Object {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M22 13l-6 6-6-6"
+                      d="M22 13L16 19L10 13"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -1212,10 +1212,10 @@ Object {
                   class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                 >
                   <span
-                    class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                    class="flex flex-col items-start"
                   >
                     <span
-                      class="text-moon-16 text-trunks"
+                      class="text-moon-16 w-full text-trunks truncate"
                     />
                   </span>
                   <svg
@@ -1227,7 +1227,7 @@ Object {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M22 13l-6 6-6-6"
+                      d="M22 13L16 19L10 13"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -1265,10 +1265,10 @@ Object {
                   class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                 >
                   <span
-                    class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                    class="flex flex-col items-start"
                   >
                     <span
-                      class="text-moon-16 text-trunks"
+                      class="text-moon-16 w-full text-trunks truncate"
                     />
                   </span>
                   <svg
@@ -1280,7 +1280,7 @@ Object {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M22 13l-6 6-6-6"
+                      d="M22 13L16 19L10 13"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"

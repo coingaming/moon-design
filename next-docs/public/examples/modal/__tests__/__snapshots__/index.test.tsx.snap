@@ -721,10 +721,10 @@ Object {
                               data-test="data-test"
                             >
                               <span
-                                class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                                class="flex flex-col items-start"
                               >
                                 <span
-                                  class="text-moon-16 text-trunks"
+                                  class="text-moon-16 w-full text-trunks truncate"
                                 >
                                   Choose size...
                                 </span>
@@ -738,7 +738,7 @@ Object {
                                 xmlns="http://www.w3.org/2000/svg"
                               >
                                 <path
-                                  d="M22 13l-6 6-6-6"
+                                  d="M22 13L16 19L10 13"
                                   stroke="currentColor"
                                   stroke-linecap="round"
                                   stroke-linejoin="round"
@@ -777,10 +777,10 @@ Object {
                               data-test="data-test"
                             >
                               <span
-                                class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                                class="flex flex-col items-start"
                               >
                                 <span
-                                  class="text-moon-16 text-trunks"
+                                  class="text-moon-16 w-full text-trunks truncate"
                                 >
                                   Choose color...
                                 </span>
@@ -794,7 +794,7 @@ Object {
                                 xmlns="http://www.w3.org/2000/svg"
                               >
                                 <path
-                                  d="M22 13l-6 6-6-6"
+                                  d="M22 13L16 19L10 13"
                                   stroke="currentColor"
                                   stroke-linecap="round"
                                   stroke-linejoin="round"
@@ -833,10 +833,10 @@ Object {
                               data-test="data-test"
                             >
                               <span
-                                class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                                class="flex flex-col items-start"
                               >
                                 <span
-                                  class="text-moon-16 text-trunks"
+                                  class="text-moon-16 w-full text-trunks truncate"
                                 >
                                   Choose material...
                                 </span>
@@ -850,7 +850,7 @@ Object {
                                 xmlns="http://www.w3.org/2000/svg"
                               >
                                 <path
-                                  d="M22 13l-6 6-6-6"
+                                  d="M22 13L16 19L10 13"
                                   stroke="currentColor"
                                   stroke-linecap="round"
                                   stroke-linejoin="round"
@@ -1645,10 +1645,10 @@ Object {
                               data-test="data-test"
                             >
                               <span
-                                class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                                class="flex flex-col items-start"
                               >
                                 <span
-                                  class="text-moon-16 text-trunks"
+                                  class="text-moon-16 w-full text-trunks truncate"
                                 >
                                   Choose size...
                                 </span>
@@ -1662,7 +1662,7 @@ Object {
                                 xmlns="http://www.w3.org/2000/svg"
                               >
                                 <path
-                                  d="M22 13l-6 6-6-6"
+                                  d="M22 13L16 19L10 13"
                                   stroke="currentColor"
                                   stroke-linecap="round"
                                   stroke-linejoin="round"
@@ -1701,10 +1701,10 @@ Object {
                               data-test="data-test"
                             >
                               <span
-                                class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                                class="flex flex-col items-start"
                               >
                                 <span
-                                  class="text-moon-16 text-trunks"
+                                  class="text-moon-16 w-full text-trunks truncate"
                                 >
                                   Choose color...
                                 </span>
@@ -1718,7 +1718,7 @@ Object {
                                 xmlns="http://www.w3.org/2000/svg"
                               >
                                 <path
-                                  d="M22 13l-6 6-6-6"
+                                  d="M22 13L16 19L10 13"
                                   stroke="currentColor"
                                   stroke-linecap="round"
                                   stroke-linejoin="round"
@@ -1757,10 +1757,10 @@ Object {
                               data-test="data-test"
                             >
                               <span
-                                class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                                class="flex flex-col items-start"
                               >
                                 <span
-                                  class="text-moon-16 text-trunks"
+                                  class="text-moon-16 w-full text-trunks truncate"
                                 >
                                   Choose material...
                                 </span>
@@ -1774,7 +1774,7 @@ Object {
                                 xmlns="http://www.w3.org/2000/svg"
                               >
                                 <path
-                                  d="M22 13l-6 6-6-6"
+                                  d="M22 13L16 19L10 13"
                                   stroke="currentColor"
                                   stroke-linecap="round"
                                   stroke-linejoin="round"
