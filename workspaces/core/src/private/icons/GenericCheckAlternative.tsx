@@ -1,5 +1,4 @@
 import React from 'react';
-
 const GenericCheckAlternative = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -10,12 +9,11 @@ const GenericCheckAlternative = (props: React.SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      d="M7 14.941L13.667 22 25 10"
+      d="M7 14.9412L13.6667 22L25 10"
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
   </svg>
 );
-
 export default GenericCheckAlternative;

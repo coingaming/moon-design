@@ -1,5 +1,4 @@
 import React from 'react';
-
 const ControlsChevronDownSmall = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -10,12 +9,11 @@ const ControlsChevronDownSmall = (props: React.SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      d="M22 13l-6 6-6-6"
+      d="M22 13L16 19L10 13"
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
   </svg>
 );
-
 export default ControlsChevronDownSmall;
