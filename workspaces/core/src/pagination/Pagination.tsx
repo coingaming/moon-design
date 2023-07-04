@@ -10,19 +10,21 @@ import type TruncableElementProps from './private/types/TruncableElementProps';
 import type UsePagination from './private/types/UsePagination';
 import type WithChildren from './private/types/WithChildren';
 
-const PaginationRoot: React.FC<WithChildren<PaginationProps>> = ({
+const PaginationRoot = ({
   children,
   className,
   currentPage = 0,
   setCurrentPage = () => {},
   totalPages,
+  hrefsArray,
   edgePageCount = 1,
   middlePagesSiblingCount,
-}) => {
+}: WithChildren<PaginationProps>) => {
   const pagination = usePagination({
     currentPage,
     setCurrentPage,
     totalPages,
+    hrefsArray,
     edgePageCount,
     middlePagesSiblingCount,
   });
@@ -165,6 +167,7 @@ const Pages = <C extends React.ElementType = 'a'>({
       aria-label={`page ${page}`}
       tabIndex={0}
       onClick={() => pagination.setCurrentPage(page - 1)}
+      href={pagination.hrefsArray && pagination.hrefsArray[page - 1]}
       className={mergeClassnames(
         'flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors',
         className,
