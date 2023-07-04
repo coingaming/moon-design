@@ -40,7 +40,7 @@ const Example = () => {
         code={examples ? examples.WithButtons : 'Loading'}
       />
       <Preview
-        title="With href array"
+        title="With array of page hrefs"
         preview={<WithHref />}
         code={examples ? examples.WithHref : 'Loading'}
       />
