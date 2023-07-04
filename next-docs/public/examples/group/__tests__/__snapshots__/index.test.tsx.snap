@@ -765,7 +765,7 @@ Object {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="M22 13l-6 6-6-6"
+                  d="M22 13L16 19L10 13"
                   stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
@@ -825,7 +825,7 @@ Object {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="M22 13l-6 6-6-6"
+                  d="M22 13L16 19L10 13"
                   stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
@@ -877,7 +877,7 @@ Object {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="M22 13l-6 6-6-6"
+                  d="M22 13L16 19L10 13"
                   stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
@@ -954,7 +954,7 @@ Object {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="M22 13l-6 6-6-6"
+                  d="M22 13L16 19L10 13"
                   stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
@@ -1073,7 +1073,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M22 13l-6 6-6-6"
+                d="M22 13L16 19L10 13"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -1133,7 +1133,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M22 13l-6 6-6-6"
+                d="M22 13L16 19L10 13"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -1185,7 +1185,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M22 13l-6 6-6-6"
+                d="M22 13L16 19L10 13"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -1262,7 +1262,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M22 13l-6 6-6-6"
+                d="M22 13L16 19L10 13"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -2057,7 +2057,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M22 13l-6 6-6-6"
+                d="M22 13L16 19L10 13"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -2117,7 +2117,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M22 13l-6 6-6-6"
+                d="M22 13L16 19L10 13"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -2169,7 +2169,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M22 13l-6 6-6-6"
+                d="M22 13L16 19L10 13"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -2246,7 +2246,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M22 13l-6 6-6-6"
+                d="M22 13L16 19L10 13"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -2361,7 +2361,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M22 13l-6 6-6-6"
+              d="M22 13L16 19L10 13"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -2421,7 +2421,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M22 13l-6 6-6-6"
+              d="M22 13L16 19L10 13"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -2473,7 +2473,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M22 13l-6 6-6-6"
+              d="M22 13L16 19L10 13"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -2550,7 +2550,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M22 13l-6 6-6-6"
+              d="M22 13L16 19L10 13"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
