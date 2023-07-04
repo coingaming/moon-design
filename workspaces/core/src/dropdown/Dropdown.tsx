@@ -178,7 +178,7 @@ const InsetSelect = ({
         {...rest}
       >
         <SelectButton.InsetInput className={className}>
-          <span className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap">
+          <span className="flex flex-col items-start truncate">
             <SelectButton.FloatingLabel>{label}</SelectButton.FloatingLabel>
             {children ? (
               <SelectButton.Value>{children}</SelectButton.Value>
@@ -222,13 +222,11 @@ const MultiSelect = ({
           {...rest}
         >
           <SelectButton.Input className={mergeClassnames(className)}>
-            <span className="flex gap-2 items-center">
+            <span className="flex w-full gap-2 items-center">
               {counter > 0 && (
-                <SelectButton.Value>
-                  <SelectButton.Chip onClear={onClear}>
-                    {counter}
-                  </SelectButton.Chip>
-                </SelectButton.Value>
+                <SelectButton.Chip onClear={onClear}>
+                  {counter}
+                </SelectButton.Chip>
               )}
               <SelectButton.Placeholder>{placeholder}</SelectButton.Placeholder>
             </span>
@@ -266,11 +264,9 @@ const InsetMultiSelect = ({
           className={mergeClassnames(className, '[&_>_span]:gap-4')}
         >
           {counter > 0 && (
-            <SelectButton.Value>
-              <SelectButton.Chip onClear={onClear}>{counter}</SelectButton.Chip>
-            </SelectButton.Value>
+            <SelectButton.Chip onClear={onClear}>{counter}</SelectButton.Chip>
           )}
-          <span className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap">
+          <span className="flex flex-col items-start truncate">
             <SelectButton.FloatingLabel>{label}</SelectButton.FloatingLabel>
             <SelectButton.Placeholder>{placeholder}</SelectButton.Placeholder>
           </span>

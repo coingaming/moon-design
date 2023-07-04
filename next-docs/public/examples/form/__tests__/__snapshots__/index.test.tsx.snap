@@ -76,13 +76,13 @@ Object {
                     class="relative"
                   >
                     <button
-                      class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                      class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                     >
                       <span
-                        class="flex flex-col items-start"
+                        class="flex w-full flex-col items-start text-start overflow-hidden"
                       >
                         <span
-                          class="text-moon-16 w-full text-trunks truncate"
+                          class="text-moon-16 w-full text-trunks text-start truncate"
                         />
                       </span>
                       <svg
@@ -129,13 +129,13 @@ Object {
                     class="relative"
                   >
                     <button
-                      class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                      class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                     >
                       <span
-                        class="flex flex-col items-start"
+                        class="flex w-full flex-col items-start text-start overflow-hidden"
                       >
                         <span
-                          class="text-moon-16 w-full text-trunks truncate"
+                          class="text-moon-16 w-full text-trunks text-start truncate"
                         />
                       </span>
                       <svg
@@ -182,13 +182,13 @@ Object {
                     class="relative"
                   >
                     <button
-                      class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                      class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                     >
                       <span
-                        class="flex flex-col items-start"
+                        class="flex w-full flex-col items-start text-start overflow-hidden"
                       >
                         <span
-                          class="text-moon-16 w-full text-trunks truncate"
+                          class="text-moon-16 w-full text-trunks text-start truncate"
                         />
                       </span>
                       <svg
@@ -329,13 +329,13 @@ Object {
                   class="relative"
                 >
                   <button
-                    class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                    class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                   >
                     <span
-                      class="flex flex-col items-start"
+                      class="flex w-full flex-col items-start text-start overflow-hidden"
                     >
                       <span
-                        class="text-moon-16 w-full text-trunks truncate"
+                        class="text-moon-16 w-full text-trunks text-start truncate"
                       />
                     </span>
                     <svg
@@ -382,13 +382,13 @@ Object {
                   class="relative"
                 >
                   <button
-                    class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                    class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                   >
                     <span
-                      class="flex flex-col items-start"
+                      class="flex w-full flex-col items-start text-start overflow-hidden"
                     >
                       <span
-                        class="text-moon-16 w-full text-trunks truncate"
+                        class="text-moon-16 w-full text-trunks text-start truncate"
                       />
                     </span>
                     <svg
@@ -435,13 +435,13 @@ Object {
                   class="relative"
                 >
                   <button
-                    class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                    class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                   >
                     <span
-                      class="flex flex-col items-start"
+                      class="flex w-full flex-col items-start text-start overflow-hidden"
                     >
                       <span
-                        class="text-moon-16 w-full text-trunks truncate"
+                        class="text-moon-16 w-full text-trunks text-start truncate"
                       />
                     </span>
                     <svg
@@ -907,13 +907,13 @@ Object {
                   class="relative"
                 >
                   <button
-                    class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                    class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                   >
                     <span
-                      class="flex flex-col items-start"
+                      class="flex w-full flex-col items-start text-start overflow-hidden"
                     >
                       <span
-                        class="text-moon-16 w-full text-trunks truncate"
+                        class="text-moon-16 w-full text-trunks text-start truncate"
                       />
                     </span>
                     <svg
@@ -960,13 +960,13 @@ Object {
                   class="relative"
                 >
                   <button
-                    class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                    class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                   >
                     <span
-                      class="flex flex-col items-start"
+                      class="flex w-full flex-col items-start text-start overflow-hidden"
                     >
                       <span
-                        class="text-moon-16 w-full text-trunks truncate"
+                        class="text-moon-16 w-full text-trunks text-start truncate"
                       />
                     </span>
                     <svg
@@ -1013,13 +1013,13 @@ Object {
                   class="relative"
                 >
                   <button
-                    class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                    class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                   >
                     <span
-                      class="flex flex-col items-start"
+                      class="flex w-full flex-col items-start text-start overflow-hidden"
                     >
                       <span
-                        class="text-moon-16 w-full text-trunks truncate"
+                        class="text-moon-16 w-full text-trunks text-start truncate"
                       />
                     </span>
                     <svg
@@ -1156,13 +1156,13 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                 >
                   <span
-                    class="flex flex-col items-start"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="text-moon-16 w-full text-trunks truncate"
+                      class="text-moon-16 w-full text-trunks text-start truncate"
                     />
                   </span>
                   <svg
@@ -1209,13 +1209,13 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                 >
                   <span
-                    class="flex flex-col items-start"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="text-moon-16 w-full text-trunks truncate"
+                      class="text-moon-16 w-full text-trunks text-start truncate"
                     />
                   </span>
                   <svg
@@ -1262,13 +1262,13 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                 >
                   <span
-                    class="flex flex-col items-start"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="text-moon-16 w-full text-trunks truncate"
+                      class="text-moon-16 w-full text-trunks text-start truncate"
                     />
                   </span>
                   <svg

@@ -357,14 +357,14 @@ Object {
                   class="relative"
                 >
                   <button
-                    class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                    class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                     open=""
                   >
                     <span
-                      class="flex flex-col items-start"
+                      class="flex w-full flex-col items-start text-start overflow-hidden"
                     >
                       <span
-                        class="text-moon-16 w-full text-trunks truncate"
+                        class="text-moon-16 w-full text-trunks text-start truncate"
                       >
                         Choose an option
                       </span>
@@ -606,14 +606,14 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                   open=""
                 >
                   <span
-                    class="flex flex-col items-start"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="text-moon-16 w-full text-trunks truncate"
+                      class="text-moon-16 w-full text-trunks text-start truncate"
                     >
                       Choose an option
                     </span>
@@ -909,20 +909,20 @@ Object {
                     open=""
                   >
                     <span
-                      class="flex gap-2 items-center"
+                      class="flex gap-2 items-center overflow-hidden"
                     >
                       <span
-                        class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                        class="flex flex-col items-start truncate"
                       >
                         <label
-                          class="block text-moon-12 text-trunks"
+                          class="w-full text-moon-12 text-trunks text-start truncate"
                           data-headlessui-state="open"
                           id="headlessui-listbox-label-:r62:"
                         >
                           Select label
                         </label>
                         <span
-                          class="text-moon-16 w-full text-trunks truncate"
+                          class="text-moon-16 w-full text-trunks text-start truncate"
                         >
                           Choose an option
                         </span>
@@ -1260,20 +1260,20 @@ Object {
                   open=""
                 >
                   <span
-                    class="flex gap-2 items-center"
+                    class="flex gap-2 items-center overflow-hidden"
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                      class="flex flex-col items-start truncate"
                     >
                       <label
-                        class="block text-moon-12 text-trunks"
+                        class="w-full text-moon-12 text-trunks text-start truncate"
                         data-headlessui-state="open"
                         id="headlessui-listbox-label-:r62:"
                       >
                         Select label
                       </label>
                       <span
-                        class="text-moon-16 w-full text-trunks truncate"
+                        class="text-moon-16 w-full text-trunks text-start truncate"
                       >
                         Choose an option
                       </span>
@@ -1668,20 +1668,20 @@ Object {
                     open=""
                   >
                     <span
-                      class="flex gap-2 items-center"
+                      class="flex gap-2 items-center overflow-hidden"
                     >
                       <span
-                        class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                        class="flex flex-col items-start truncate"
                       >
                         <label
-                          class="block text-moon-12 text-trunks"
+                          class="w-full text-moon-12 text-trunks text-start truncate"
                           data-headlessui-state="open"
                           id="headlessui-listbox-label-:r5p:"
                         >
                           Select label
                         </label>
                         <span
-                          class="text-moon-16 w-full text-trunks truncate"
+                          class="text-moon-16 w-full text-trunks text-start truncate"
                         >
                           Choose an option
                         </span>
@@ -1916,20 +1916,20 @@ Object {
                   open=""
                 >
                   <span
-                    class="flex gap-2 items-center"
+                    class="flex gap-2 items-center overflow-hidden"
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                      class="flex flex-col items-start truncate"
                     >
                       <label
-                        class="block text-moon-12 text-trunks"
+                        class="w-full text-moon-12 text-trunks text-start truncate"
                         data-headlessui-state="open"
                         id="headlessui-listbox-label-:r5p:"
                       >
                         Select label
                       </label>
                       <span
-                        class="text-moon-16 w-full text-trunks truncate"
+                        class="text-moon-16 w-full text-trunks text-start truncate"
                       >
                         Choose an option
                       </span>
@@ -2221,13 +2221,13 @@ Object {
                     open=""
                   >
                     <span
-                      class="flex gap-2 items-center"
+                      class="flex gap-2 items-center overflow-hidden"
                     >
                       <span
-                        class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                        class="flex flex-col items-start truncate"
                       >
                         <label
-                          class="block text-moon-12 text-trunks"
+                          class="w-full text-moon-12 text-trunks text-start truncate"
                           data-headlessui-state="open"
                           id="headlessui-listbox-label-:r6b:"
                         >
@@ -2385,13 +2385,13 @@ Object {
                     class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md opacity-30 cursor-not-allowed hover:shadow-input"
                   >
                     <span
-                      class="flex gap-2 items-center"
+                      class="flex gap-2 items-center overflow-hidden"
                     >
                       <span
-                        class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                        class="flex flex-col items-start truncate"
                       >
                         <label
-                          class="block text-moon-12 text-trunks"
+                          class="w-full text-moon-12 text-trunks text-start truncate"
                           data-headlessui-state="disabled"
                           id="headlessui-listbox-label-:r6e:"
                         >
@@ -2450,18 +2450,18 @@ Object {
                     class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
                   >
                     <span
-                      class="flex gap-2 items-center"
+                      class="flex gap-2 items-center overflow-hidden"
                     >
                       <span
-                        class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                        class="flex flex-col items-start truncate"
                       >
                         <label
-                          class="block text-moon-12 text-trunks"
+                          class="w-full text-moon-12 text-trunks text-start truncate"
                           data-headlessui-state=""
                           id="headlessui-listbox-label-:r6h:"
                         />
                         <span
-                          class="text-moon-16 w-full text-trunks truncate"
+                          class="text-moon-16 w-full text-trunks text-start truncate"
                         >
                           Without Label and Hint message
                         </span>
@@ -2507,20 +2507,20 @@ Object {
                     class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
                   >
                     <span
-                      class="flex gap-2 items-center"
+                      class="flex gap-2 items-center overflow-hidden"
                     >
                       <span
-                        class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                        class="flex flex-col items-start truncate"
                       >
                         <label
-                          class="block text-moon-12 text-trunks"
+                          class="w-full text-moon-12 text-trunks text-start truncate"
                           data-headlessui-state=""
                           id="headlessui-listbox-label-:r6k:"
                         >
                           List options width
                         </label>
                         <span
-                          class="text-moon-16 w-full text-trunks truncate"
+                          class="text-moon-16 w-full text-trunks text-start truncate"
                         >
                           Choose an option
                         </span>
@@ -2585,13 +2585,13 @@ Object {
                   open=""
                 >
                   <span
-                    class="flex gap-2 items-center"
+                    class="flex gap-2 items-center overflow-hidden"
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                      class="flex flex-col items-start truncate"
                     >
                       <label
-                        class="block text-moon-12 text-trunks"
+                        class="w-full text-moon-12 text-trunks text-start truncate"
                         data-headlessui-state="open"
                         id="headlessui-listbox-label-:r6b:"
                       >
@@ -2749,13 +2749,13 @@ Object {
                   class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md opacity-30 cursor-not-allowed hover:shadow-input"
                 >
                   <span
-                    class="flex gap-2 items-center"
+                    class="flex gap-2 items-center overflow-hidden"
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                      class="flex flex-col items-start truncate"
                     >
                       <label
-                        class="block text-moon-12 text-trunks"
+                        class="w-full text-moon-12 text-trunks text-start truncate"
                         data-headlessui-state="disabled"
                         id="headlessui-listbox-label-:r6e:"
                       >
@@ -2814,18 +2814,18 @@ Object {
                   class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
                 >
                   <span
-                    class="flex gap-2 items-center"
+                    class="flex gap-2 items-center overflow-hidden"
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                      class="flex flex-col items-start truncate"
                     >
                       <label
-                        class="block text-moon-12 text-trunks"
+                        class="w-full text-moon-12 text-trunks text-start truncate"
                         data-headlessui-state=""
                         id="headlessui-listbox-label-:r6h:"
                       />
                       <span
-                        class="text-moon-16 w-full text-trunks truncate"
+                        class="text-moon-16 w-full text-trunks text-start truncate"
                       >
                         Without Label and Hint message
                       </span>
@@ -2871,20 +2871,20 @@ Object {
                   class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
                 >
                   <span
-                    class="flex gap-2 items-center"
+                    class="flex gap-2 items-center overflow-hidden"
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                      class="flex flex-col items-start truncate"
                     >
                       <label
-                        class="block text-moon-12 text-trunks"
+                        class="w-full text-moon-12 text-trunks text-start truncate"
                         data-headlessui-state=""
                         id="headlessui-listbox-label-:r6k:"
                       >
                         List options width
                       </label>
                       <span
-                        class="text-moon-16 w-full text-trunks truncate"
+                        class="text-moon-16 w-full text-trunks text-start truncate"
                       >
                         Choose an option
                       </span>
@@ -3009,17 +3009,17 @@ Object {
                   class="relative"
                 >
                   <button
-                    class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 py-1 px-2 rounded-moon-i-xs"
+                    class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 py-1 px-2 rounded-moon-i-xs"
                     open=""
                   >
                     <span
-                      class="flex flex-col items-start"
+                      class="flex w-full flex-col items-start text-start overflow-hidden"
                     >
                       <span
-                        class="flex gap-2 items-center"
+                        class="flex w-full gap-2 items-center"
                       >
                         <span
-                          class="text-moon-14 w-full text-trunks truncate"
+                          class="text-moon-14 w-full text-trunks text-start truncate"
                         >
                           Choose an option
                         </span>
@@ -3348,17 +3348,17 @@ Object {
                   class="relative"
                 >
                   <button
-                    class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                    class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                     data-test="data-test"
                   >
                     <span
-                      class="flex flex-col items-start"
+                      class="flex w-full flex-col items-start text-start overflow-hidden"
                     >
                       <span
-                        class="flex gap-2 items-center"
+                        class="flex w-full gap-2 items-center"
                       >
                         <span
-                          class="text-moon-16 w-full text-trunks truncate"
+                          class="text-moon-16 w-full text-trunks text-start truncate"
                         >
                           Choose an option
                         </span>
@@ -3414,16 +3414,16 @@ Object {
                   class="relative"
                 >
                   <button
-                    class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 p-3 rounded-moon-i-sm"
+                    class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 p-3 rounded-moon-i-sm"
                   >
                     <span
-                      class="flex flex-col items-start"
+                      class="flex w-full flex-col items-start text-start overflow-hidden"
                     >
                       <span
-                        class="flex gap-2 items-center"
+                        class="flex w-full gap-2 items-center"
                       >
                         <span
-                          class="text-moon-16 w-full text-trunks truncate"
+                          class="text-moon-16 w-full text-trunks text-start truncate"
                         >
                           Choose an option
                         </span>
@@ -3491,17 +3491,17 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 py-1 px-2 rounded-moon-i-xs"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 py-1 px-2 rounded-moon-i-xs"
                   open=""
                 >
                   <span
-                    class="flex flex-col items-start"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="flex gap-2 items-center"
+                      class="flex w-full gap-2 items-center"
                     >
                       <span
-                        class="text-moon-14 w-full text-trunks truncate"
+                        class="text-moon-14 w-full text-trunks text-start truncate"
                       >
                         Choose an option
                       </span>
@@ -3830,17 +3830,17 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                   data-test="data-test"
                 >
                   <span
-                    class="flex flex-col items-start"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="flex gap-2 items-center"
+                      class="flex w-full gap-2 items-center"
                     >
                       <span
-                        class="text-moon-16 w-full text-trunks truncate"
+                        class="text-moon-16 w-full text-trunks text-start truncate"
                       >
                         Choose an option
                       </span>
@@ -3896,16 +3896,16 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 p-3 rounded-moon-i-sm"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 p-3 rounded-moon-i-sm"
                 >
                   <span
-                    class="flex flex-col items-start"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="flex gap-2 items-center"
+                      class="flex w-full gap-2 items-center"
                     >
                       <span
-                        class="text-moon-16 w-full text-trunks truncate"
+                        class="text-moon-16 w-full text-trunks text-start truncate"
                       >
                         Choose an option
                       </span>
@@ -4523,14 +4523,14 @@ Object {
                   class="relative"
                 >
                   <button
-                    class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 py-1 px-2 rounded-moon-i-xs"
+                    class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 py-1 px-2 rounded-moon-i-xs"
                     open=""
                   >
                     <span
-                      class="flex flex-col items-start"
+                      class="flex w-full flex-col items-start text-start overflow-hidden"
                     >
                       <span
-                        class="text-moon-14 w-full text-trunks truncate"
+                        class="text-moon-14 w-full text-trunks text-start truncate"
                       >
                         Choose an option
                       </span>
@@ -4755,13 +4755,13 @@ Object {
                   class="relative"
                 >
                   <button
-                    class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                    class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                   >
                     <span
-                      class="flex flex-col items-start"
+                      class="flex w-full flex-col items-start text-start overflow-hidden"
                     >
                       <span
-                        class="text-moon-16 w-full text-trunks truncate"
+                        class="text-moon-16 w-full text-trunks text-start truncate"
                       >
                         Choose an option
                       </span>
@@ -4816,13 +4816,13 @@ Object {
                   class="relative"
                 >
                   <button
-                    class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 p-3 rounded-moon-i-sm"
+                    class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 p-3 rounded-moon-i-sm"
                   >
                     <span
-                      class="flex flex-col items-start"
+                      class="flex w-full flex-col items-start text-start overflow-hidden"
                     >
                       <span
-                        class="text-moon-16 w-full text-trunks truncate"
+                        class="text-moon-16 w-full text-trunks text-start truncate"
                       >
                         Choose an option
                       </span>
@@ -4889,14 +4889,14 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 py-1 px-2 rounded-moon-i-xs"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 py-1 px-2 rounded-moon-i-xs"
                   open=""
                 >
                   <span
-                    class="flex flex-col items-start"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="text-moon-14 w-full text-trunks truncate"
+                      class="text-moon-14 w-full text-trunks text-start truncate"
                     >
                       Choose an option
                     </span>
@@ -5121,13 +5121,13 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                 >
                   <span
-                    class="flex flex-col items-start"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="text-moon-16 w-full text-trunks truncate"
+                      class="text-moon-16 w-full text-trunks text-start truncate"
                     >
                       Choose an option
                     </span>
@@ -5182,13 +5182,13 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 p-3 rounded-moon-i-sm"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 p-3 rounded-moon-i-sm"
                 >
                   <span
-                    class="flex flex-col items-start"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="text-moon-16 w-full text-trunks truncate"
+                      class="text-moon-16 w-full text-trunks text-start truncate"
                     >
                       Choose an option
                     </span>
@@ -5312,11 +5312,11 @@ Object {
                   class="relative"
                 >
                   <button
-                    class="flex items-center justify-between w-full bg-gohan border-beerus transition-shadow duration-200 focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+                    class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus transition-shadow duration-200 focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
                     open=""
                   >
                     <span
-                      class="flex flex-col items-start"
+                      class="flex w-full flex-col items-start text-start overflow-hidden"
                     >
                       <span
                         class="text-moon-16 w-full text-bulma truncate"
@@ -5473,10 +5473,10 @@ Object {
                   class="relative"
                 >
                   <button
-                    class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-30 cursor-not-allowed hover:shadow-input"
+                    class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-30 cursor-not-allowed hover:shadow-input"
                   >
                     <span
-                      class="flex flex-col items-start"
+                      class="flex w-full flex-col items-start text-start overflow-hidden"
                     >
                       <span
                         class="text-moon-16 w-full text-bulma truncate"
@@ -5526,13 +5526,13 @@ Object {
                   class="relative"
                 >
                   <button
-                    class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                    class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                   >
                     <span
-                      class="flex flex-col items-start"
+                      class="flex w-full flex-col items-start text-start overflow-hidden"
                     >
                       <span
-                        class="text-moon-16 w-full text-trunks truncate"
+                        class="text-moon-16 w-full text-trunks text-start truncate"
                       >
                         Without Label and Hint message
                       </span>
@@ -5581,13 +5581,13 @@ Object {
                   class="relative"
                 >
                   <button
-                    class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                    class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                   >
                     <span
-                      class="flex flex-col items-start"
+                      class="flex w-full flex-col items-start text-start overflow-hidden"
                     >
                       <span
-                        class="text-moon-16 w-full text-trunks truncate"
+                        class="text-moon-16 w-full text-trunks text-start truncate"
                       >
                         Choose an option
                       </span>
@@ -5654,11 +5654,11 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus transition-shadow duration-200 focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus transition-shadow duration-200 focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
                   open=""
                 >
                   <span
-                    class="flex flex-col items-start"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
                       class="text-moon-16 w-full text-bulma truncate"
@@ -5815,10 +5815,10 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-30 cursor-not-allowed hover:shadow-input"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-30 cursor-not-allowed hover:shadow-input"
                 >
                   <span
-                    class="flex flex-col items-start"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
                       class="text-moon-16 w-full text-bulma truncate"
@@ -5868,13 +5868,13 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                 >
                   <span
-                    class="flex flex-col items-start"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="text-moon-16 w-full text-trunks truncate"
+                      class="text-moon-16 w-full text-trunks text-start truncate"
                     >
                       Without Label and Hint message
                     </span>
@@ -5923,13 +5923,13 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                 >
                   <span
-                    class="flex flex-col items-start"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="text-moon-16 w-full text-trunks truncate"
+                      class="text-moon-16 w-full text-trunks text-start truncate"
                     >
                       Choose an option
                     </span>
@@ -6837,20 +6837,20 @@ Object {
                   open=""
                 >
                   <span
-                    class="flex gap-2 items-center"
+                    class="flex gap-2 items-center overflow-hidden"
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                      class="flex flex-col items-start truncate"
                     >
                       <label
-                        class="block text-moon-12 text-trunks"
+                        class="w-full text-moon-12 text-trunks text-start truncate"
                         data-headlessui-state="open"
                         id="headlessui-listbox-label-:r28:"
                       >
                         Select label
                       </label>
                       <span
-                        class="text-moon-16 w-full text-trunks truncate"
+                        class="text-moon-16 w-full text-trunks text-start truncate"
                       >
                         Choose an option
                       </span>
@@ -7184,20 +7184,20 @@ Object {
                 open=""
               >
                 <span
-                  class="flex gap-2 items-center"
+                  class="flex gap-2 items-center overflow-hidden"
                 >
                   <span
-                    class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                    class="flex flex-col items-start truncate"
                   >
                     <label
-                      class="block text-moon-12 text-trunks"
+                      class="w-full text-moon-12 text-trunks text-start truncate"
                       data-headlessui-state="open"
                       id="headlessui-listbox-label-:r28:"
                     >
                       Select label
                     </label>
                     <span
-                      class="text-moon-16 w-full text-trunks truncate"
+                      class="text-moon-16 w-full text-trunks text-start truncate"
                     >
                       Choose an option
                     </span>
@@ -7588,20 +7588,20 @@ Object {
                   open=""
                 >
                   <span
-                    class="flex gap-2 items-center"
+                    class="flex gap-2 items-center overflow-hidden"
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                      class="flex flex-col items-start truncate"
                     >
                       <label
-                        class="block text-moon-12 text-trunks"
+                        class="w-full text-moon-12 text-trunks text-start truncate"
                         data-headlessui-state="open"
                         id="headlessui-listbox-label-:r1v:"
                       >
                         Select label
                       </label>
                       <span
-                        class="text-moon-16 w-full text-trunks truncate"
+                        class="text-moon-16 w-full text-trunks text-start truncate"
                       >
                         Choose an option
                       </span>
@@ -7832,20 +7832,20 @@ Object {
                 open=""
               >
                 <span
-                  class="flex gap-2 items-center"
+                  class="flex gap-2 items-center overflow-hidden"
                 >
                   <span
-                    class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                    class="flex flex-col items-start truncate"
                   >
                     <label
-                      class="block text-moon-12 text-trunks"
+                      class="w-full text-moon-12 text-trunks text-start truncate"
                       data-headlessui-state="open"
                       id="headlessui-listbox-label-:r1v:"
                     >
                       Select label
                     </label>
                     <span
-                      class="text-moon-16 w-full text-trunks truncate"
+                      class="text-moon-16 w-full text-trunks text-start truncate"
                     >
                       Choose an option
                     </span>
@@ -8133,13 +8133,13 @@ Object {
                   open=""
                 >
                   <span
-                    class="flex gap-2 items-center"
+                    class="flex gap-2 items-center overflow-hidden"
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                      class="flex flex-col items-start truncate"
                     >
                       <label
-                        class="block text-moon-12 text-trunks"
+                        class="w-full text-moon-12 text-trunks text-start truncate"
                         data-headlessui-state="open"
                         id="headlessui-listbox-label-:r2h:"
                       >
@@ -8297,13 +8297,13 @@ Object {
                   class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md opacity-30 cursor-not-allowed hover:shadow-input"
                 >
                   <span
-                    class="flex gap-2 items-center"
+                    class="flex gap-2 items-center overflow-hidden"
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                      class="flex flex-col items-start truncate"
                     >
                       <label
-                        class="block text-moon-12 text-trunks"
+                        class="w-full text-moon-12 text-trunks text-start truncate"
                         data-headlessui-state="disabled"
                         id="headlessui-listbox-label-:r2k:"
                       >
@@ -8362,18 +8362,18 @@ Object {
                   class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
                 >
                   <span
-                    class="flex gap-2 items-center"
+                    class="flex gap-2 items-center overflow-hidden"
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                      class="flex flex-col items-start truncate"
                     >
                       <label
-                        class="block text-moon-12 text-trunks"
+                        class="w-full text-moon-12 text-trunks text-start truncate"
                         data-headlessui-state=""
                         id="headlessui-listbox-label-:r2n:"
                       />
                       <span
-                        class="text-moon-16 w-full text-trunks truncate"
+                        class="text-moon-16 w-full text-trunks text-start truncate"
                       >
                         Without Label and Hint message
                       </span>
@@ -8419,20 +8419,20 @@ Object {
                   class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
                 >
                   <span
-                    class="flex gap-2 items-center"
+                    class="flex gap-2 items-center overflow-hidden"
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                      class="flex flex-col items-start truncate"
                     >
                       <label
-                        class="block text-moon-12 text-trunks"
+                        class="w-full text-moon-12 text-trunks text-start truncate"
                         data-headlessui-state=""
                         id="headlessui-listbox-label-:r2q:"
                       >
                         List options width
                       </label>
                       <span
-                        class="text-moon-16 w-full text-trunks truncate"
+                        class="text-moon-16 w-full text-trunks text-start truncate"
                       >
                         Choose an option
                       </span>
@@ -8493,13 +8493,13 @@ Object {
                 open=""
               >
                 <span
-                  class="flex gap-2 items-center"
+                  class="flex gap-2 items-center overflow-hidden"
                 >
                   <span
-                    class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                    class="flex flex-col items-start truncate"
                   >
                     <label
-                      class="block text-moon-12 text-trunks"
+                      class="w-full text-moon-12 text-trunks text-start truncate"
                       data-headlessui-state="open"
                       id="headlessui-listbox-label-:r2h:"
                     >
@@ -8657,13 +8657,13 @@ Object {
                 class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md opacity-30 cursor-not-allowed hover:shadow-input"
               >
                 <span
-                  class="flex gap-2 items-center"
+                  class="flex gap-2 items-center overflow-hidden"
                 >
                   <span
-                    class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                    class="flex flex-col items-start truncate"
                   >
                     <label
-                      class="block text-moon-12 text-trunks"
+                      class="w-full text-moon-12 text-trunks text-start truncate"
                       data-headlessui-state="disabled"
                       id="headlessui-listbox-label-:r2k:"
                     >
@@ -8722,18 +8722,18 @@ Object {
                 class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
               >
                 <span
-                  class="flex gap-2 items-center"
+                  class="flex gap-2 items-center overflow-hidden"
                 >
                   <span
-                    class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                    class="flex flex-col items-start truncate"
                   >
                     <label
-                      class="block text-moon-12 text-trunks"
+                      class="w-full text-moon-12 text-trunks text-start truncate"
                       data-headlessui-state=""
                       id="headlessui-listbox-label-:r2n:"
                     />
                     <span
-                      class="text-moon-16 w-full text-trunks truncate"
+                      class="text-moon-16 w-full text-trunks text-start truncate"
                     >
                       Without Label and Hint message
                     </span>
@@ -8779,20 +8779,20 @@ Object {
                 class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
               >
                 <span
-                  class="flex gap-2 items-center"
+                  class="flex gap-2 items-center overflow-hidden"
                 >
                   <span
-                    class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                    class="flex flex-col items-start truncate"
                   >
                     <label
-                      class="block text-moon-12 text-trunks"
+                      class="w-full text-moon-12 text-trunks text-start truncate"
                       data-headlessui-state=""
                       id="headlessui-listbox-label-:r2q:"
                     >
                       List options width
                     </label>
                     <span
-                      class="text-moon-16 w-full text-trunks truncate"
+                      class="text-moon-16 w-full text-trunks text-start truncate"
                     >
                       Choose an option
                     </span>
@@ -8913,17 +8913,17 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 py-1 px-2 rounded-moon-i-xs"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 py-1 px-2 rounded-moon-i-xs"
                   open=""
                 >
                   <span
-                    class="flex flex-col items-start"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="flex gap-2 items-center"
+                      class="flex w-full gap-2 items-center"
                     >
                       <span
-                        class="text-moon-14 w-full text-trunks truncate"
+                        class="text-moon-14 w-full text-trunks text-start truncate"
                       >
                         Choose an option
                       </span>
@@ -9252,17 +9252,17 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                   data-test="data-test"
                 >
                   <span
-                    class="flex flex-col items-start"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="flex gap-2 items-center"
+                      class="flex w-full gap-2 items-center"
                     >
                       <span
-                        class="text-moon-16 w-full text-trunks truncate"
+                        class="text-moon-16 w-full text-trunks text-start truncate"
                       >
                         Choose an option
                       </span>
@@ -9318,16 +9318,16 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 p-3 rounded-moon-i-sm"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 p-3 rounded-moon-i-sm"
                 >
                   <span
-                    class="flex flex-col items-start"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="flex gap-2 items-center"
+                      class="flex w-full gap-2 items-center"
                     >
                       <span
-                        class="text-moon-16 w-full text-trunks truncate"
+                        class="text-moon-16 w-full text-trunks text-start truncate"
                       >
                         Choose an option
                       </span>
@@ -9391,17 +9391,17 @@ Object {
               class="relative"
             >
               <button
-                class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 py-1 px-2 rounded-moon-i-xs"
+                class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 py-1 px-2 rounded-moon-i-xs"
                 open=""
               >
                 <span
-                  class="flex flex-col items-start"
+                  class="flex w-full flex-col items-start text-start overflow-hidden"
                 >
                   <span
-                    class="flex gap-2 items-center"
+                    class="flex w-full gap-2 items-center"
                   >
                     <span
-                      class="text-moon-14 w-full text-trunks truncate"
+                      class="text-moon-14 w-full text-trunks text-start truncate"
                     >
                       Choose an option
                     </span>
@@ -9730,17 +9730,17 @@ Object {
               class="relative"
             >
               <button
-                class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                 data-test="data-test"
               >
                 <span
-                  class="flex flex-col items-start"
+                  class="flex w-full flex-col items-start text-start overflow-hidden"
                 >
                   <span
-                    class="flex gap-2 items-center"
+                    class="flex w-full gap-2 items-center"
                   >
                     <span
-                      class="text-moon-16 w-full text-trunks truncate"
+                      class="text-moon-16 w-full text-trunks text-start truncate"
                     >
                       Choose an option
                     </span>
@@ -9796,16 +9796,16 @@ Object {
               class="relative"
             >
               <button
-                class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 p-3 rounded-moon-i-sm"
+                class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 p-3 rounded-moon-i-sm"
               >
                 <span
-                  class="flex flex-col items-start"
+                  class="flex w-full flex-col items-start text-start overflow-hidden"
                 >
                   <span
-                    class="flex gap-2 items-center"
+                    class="flex w-full gap-2 items-center"
                   >
                     <span
-                      class="text-moon-16 w-full text-trunks truncate"
+                      class="text-moon-16 w-full text-trunks text-start truncate"
                     >
                       Choose an option
                     </span>
@@ -10411,14 +10411,14 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 py-1 px-2 rounded-moon-i-xs"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 py-1 px-2 rounded-moon-i-xs"
                   open=""
                 >
                   <span
-                    class="flex flex-col items-start"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="text-moon-14 w-full text-trunks truncate"
+                      class="text-moon-14 w-full text-trunks text-start truncate"
                     >
                       Choose an option
                     </span>
@@ -10643,13 +10643,13 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                 >
                   <span
-                    class="flex flex-col items-start"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="text-moon-16 w-full text-trunks truncate"
+                      class="text-moon-16 w-full text-trunks text-start truncate"
                     >
                       Choose an option
                     </span>
@@ -10704,13 +10704,13 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 p-3 rounded-moon-i-sm"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 p-3 rounded-moon-i-sm"
                 >
                   <span
-                    class="flex flex-col items-start"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="text-moon-16 w-full text-trunks truncate"
+                      class="text-moon-16 w-full text-trunks text-start truncate"
                     >
                       Choose an option
                     </span>
@@ -10773,14 +10773,14 @@ Object {
               class="relative"
             >
               <button
-                class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 py-1 px-2 rounded-moon-i-xs"
+                class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 py-1 px-2 rounded-moon-i-xs"
                 open=""
               >
                 <span
-                  class="flex flex-col items-start"
+                  class="flex w-full flex-col items-start text-start overflow-hidden"
                 >
                   <span
-                    class="text-moon-14 w-full text-trunks truncate"
+                    class="text-moon-14 w-full text-trunks text-start truncate"
                   >
                     Choose an option
                   </span>
@@ -11005,13 +11005,13 @@ Object {
               class="relative"
             >
               <button
-                class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
               >
                 <span
-                  class="flex flex-col items-start"
+                  class="flex w-full flex-col items-start text-start overflow-hidden"
                 >
                   <span
-                    class="text-moon-16 w-full text-trunks truncate"
+                    class="text-moon-16 w-full text-trunks text-start truncate"
                   >
                     Choose an option
                   </span>
@@ -11066,13 +11066,13 @@ Object {
               class="relative"
             >
               <button
-                class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 p-3 rounded-moon-i-sm"
+                class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 p-3 rounded-moon-i-sm"
               >
                 <span
-                  class="flex flex-col items-start"
+                  class="flex w-full flex-col items-start text-start overflow-hidden"
                 >
                   <span
-                    class="text-moon-16 w-full text-trunks truncate"
+                    class="text-moon-16 w-full text-trunks text-start truncate"
                   >
                     Choose an option
                   </span>
@@ -11192,11 +11192,11 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus transition-shadow duration-200 focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus transition-shadow duration-200 focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
                   open=""
                 >
                   <span
-                    class="flex flex-col items-start"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
                       class="text-moon-16 w-full text-bulma truncate"
@@ -11353,10 +11353,10 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-30 cursor-not-allowed hover:shadow-input"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-30 cursor-not-allowed hover:shadow-input"
                 >
                   <span
-                    class="flex flex-col items-start"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
                       class="text-moon-16 w-full text-bulma truncate"
@@ -11406,13 +11406,13 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                 >
                   <span
-                    class="flex flex-col items-start"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="text-moon-16 w-full text-trunks truncate"
+                      class="text-moon-16 w-full text-trunks text-start truncate"
                     >
                       Without Label and Hint message
                     </span>
@@ -11461,13 +11461,13 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                 >
                   <span
-                    class="flex flex-col items-start"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="text-moon-16 w-full text-trunks truncate"
+                      class="text-moon-16 w-full text-trunks text-start truncate"
                     >
                       Choose an option
                     </span>
@@ -11530,11 +11530,11 @@ Object {
               class="relative"
             >
               <button
-                class="flex items-center justify-between w-full bg-gohan border-beerus transition-shadow duration-200 focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+                class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus transition-shadow duration-200 focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
                 open=""
               >
                 <span
-                  class="flex flex-col items-start"
+                  class="flex w-full flex-col items-start text-start overflow-hidden"
                 >
                   <span
                     class="text-moon-16 w-full text-bulma truncate"
@@ -11691,10 +11691,10 @@ Object {
               class="relative"
             >
               <button
-                class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-30 cursor-not-allowed hover:shadow-input"
+                class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-30 cursor-not-allowed hover:shadow-input"
               >
                 <span
-                  class="flex flex-col items-start"
+                  class="flex w-full flex-col items-start text-start overflow-hidden"
                 >
                   <span
                     class="text-moon-16 w-full text-bulma truncate"
@@ -11744,13 +11744,13 @@ Object {
               class="relative"
             >
               <button
-                class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
               >
                 <span
-                  class="flex flex-col items-start"
+                  class="flex w-full flex-col items-start text-start overflow-hidden"
                 >
                   <span
-                    class="text-moon-16 w-full text-trunks truncate"
+                    class="text-moon-16 w-full text-trunks text-start truncate"
                   >
                     Without Label and Hint message
                   </span>
@@ -11799,13 +11799,13 @@ Object {
               class="relative"
             >
               <button
-                class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
               >
                 <span
-                  class="flex flex-col items-start"
+                  class="flex w-full flex-col items-start text-start overflow-hidden"
                 >
                   <span
-                    class="text-moon-16 w-full text-trunks truncate"
+                    class="text-moon-16 w-full text-trunks text-start truncate"
                   >
                     Choose an option
                   </span>
@@ -12394,14 +12394,14 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                   open=""
                 >
                   <span
-                    class="flex flex-col items-start"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="text-moon-16 w-full text-trunks truncate"
+                      class="text-moon-16 w-full text-trunks text-start truncate"
                     >
                       Choose an option
                     </span>
@@ -12639,14 +12639,14 @@ Object {
               class="relative"
             >
               <button
-                class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                 open=""
               >
                 <span
-                  class="flex flex-col items-start"
+                  class="flex w-full flex-col items-start text-start overflow-hidden"
                 >
                   <span
-                    class="text-moon-16 w-full text-trunks truncate"
+                    class="text-moon-16 w-full text-trunks text-start truncate"
                   >
                     Choose an option
                   </span>

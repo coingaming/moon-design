@@ -46,7 +46,7 @@ const Input = ({ children, className }: InputProps) => {
     <button
       {...rest}
       className={mergeClassnames(
-        'flex items-center justify-between',
+        'flex items-center justify-between gap-2',
         'w-full bg-gohan border-beerus',
         'shadow-input hover:shadow-input-hov transition-shadow duration-200 ',
         'focus:shadow-input-focus focus:outline-none',
@@ -57,7 +57,9 @@ const Input = ({ children, className }: InputProps) => {
         className && className
       )}
     >
-      <span className="flex flex-col items-start">{children}</span>
+      <span className="flex w-full flex-col items-start text-start overflow-hidden">
+        {children}
+      </span>
       <Control />
     </button>
   );
@@ -81,7 +83,9 @@ const InsetInput = ({ children, className }: InputProps) => {
         className && className
       )}
     >
-      <span className="flex gap-2 items-center">{children}</span>
+      <span className="flex gap-2 items-center overflow-hidden">
+        {children}
+      </span>
       <Control />
     </button>
   );
@@ -118,7 +122,7 @@ const Label = ({ children, labelSize, idDisabled }: LabelProps) => {
 };
 
 const FloatingLabel = ({ children }: { children?: React.ReactNode }) => (
-  <Listbox.Label className="block text-moon-12 text-trunks">
+  <Listbox.Label className="w-full text-moon-12 text-trunks text-start truncate">
     {children}
   </Listbox.Label>
 );
@@ -129,7 +133,7 @@ const Placeholder = ({ children }: { children?: React.ReactNode }) => {
     <span
       className={mergeClassnames(
         size === 'sm' ? 'text-moon-14' : 'text-moon-16',
-        'w-full text-trunks truncate'
+        'w-full text-trunks text-start truncate'
       )}
     >
       {children}
