@@ -6,6 +6,7 @@ import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/pagination/Default';
 import WithButtons from '../../public/examples/pagination/WithButtons';
+import WithHref from '../../public/examples/pagination/WithHref';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
@@ -38,16 +39,35 @@ const Example = () => {
         preview={<WithButtons />}
         code={examples ? examples.WithButtons : 'Loading'}
       />
+      <Preview
+        title="With href array"
+        preview={<WithHref />}
+        code={examples ? examples.WithHref : 'Loading'}
+      />
 
       <PropsTable
         title="Pagination"
         data={[
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Tailwind classes for custom styles.',
+          },
           {
             name: 'currentPage',
             type: 'number',
             required: true,
             default: '-',
             description: 'The value of current page',
+          },
+          {
+            name: 'hrefsArray',
+            type: 'string[]',
+            required: false,
+            default: '-',
+            description: 'Array of hrefs for each page.',
           },
           {
             name: 'setCurrentPage',
@@ -62,13 +82,6 @@ const Example = () => {
             required: true,
             default: '-',
             description: 'The number pages.',
-          },
-          {
-            name: 'className',
-            type: 'string',
-            required: false,
-            default: '-',
-            description: 'Tailwind classes for custom styles.',
           },
         ]}
       />
@@ -154,18 +167,18 @@ const Example = () => {
             description: 'Rendered HTML element.',
           },
           {
-            name: 'truncableText',
-            type: 'JSX.Element | string',
-            required: false,
-            default: '...',
-            description: 'Text to render if a one or more pages are truncated.',
-          },
-          {
             name: 'className',
             type: 'string',
             required: false,
             default: '-',
             description: 'Tailwind classes for custom styles.',
+          },
+          {
+            name: 'truncableText',
+            type: 'JSX.Element | string',
+            required: false,
+            default: '...',
+            description: 'Text to render if a one or more pages are truncated.',
           },
         ]}
       />

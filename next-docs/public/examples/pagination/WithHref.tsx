@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
-import { Pagination, IconButton } from '@heathmont/moon-core-tw';
+import { IconButton, Pagination } from '@heathmont/moon-core-tw';
 import {
   ControlsChevronLeftSmall,
   ControlsChevronRightSmall,
 } from '@heathmont/moon-icons-tw';
+
+const hrefsArray = ['#', '#', '#', '#', '#', '#', '#', '#', '#', '#'];
 
 const Example = () => {
   const [page, setPage] = useState<number>(0);
@@ -13,7 +15,8 @@ const Example = () => {
   return (
     <>
       <Pagination
-        totalPages={26}
+        totalPages={hrefsArray.length}
+        hrefsArray={hrefsArray}
         currentPage={page}
         setCurrentPage={handlePageChange}
       >
@@ -27,7 +30,7 @@ const Example = () => {
             />
           )}
         </Pagination.PrevButton>
-        <Pagination.Pages as="button" />
+        <Pagination.Pages />
         <Pagination.NextButton as="div">
           {({ disabled }) => (
             <IconButton

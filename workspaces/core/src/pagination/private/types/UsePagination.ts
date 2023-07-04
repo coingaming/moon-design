@@ -2,6 +2,7 @@ type UsePagination = {
   currentPage: number;
   setCurrentPage: (page: number) => void;
   pages: number[];
+  hrefsArray?: string[];
   hasPreviousPage: boolean;
   hasNextPage: boolean;
   previousPages: number[];
