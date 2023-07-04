@@ -11,7 +11,6 @@ import { Transition as HeadlessTransition } from '@headlessui/react';
 import mergeClassnames from '../../../mergeClassnames/mergeClassnames';
 import useClickOutside from '../../../private/hooks/useClickOutside';
 import { SearchContext, SelectContext } from '../utils/context';
-
 import { Input } from './Input';
 import NoResults from './NoResults';
 import ResultItem from './ResultItem';

@@ -1,6 +1,6 @@
 import React, { forwardRef, Ref, useContext, LegacyRef } from 'react';
-import { GenericSearch } from '@heathmont/moon-icons-tw';
 import mergeClassnames from '../../../mergeClassnames/mergeClassnames';
+import GenericSearch from '../../../private/icons/GenericSearch';
 import { SearchContext } from '../utils/context';
 
 const Wrapper = ({

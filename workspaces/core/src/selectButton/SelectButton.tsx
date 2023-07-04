@@ -1,10 +1,8 @@
 import React, { useCallback } from 'react';
 import { Listbox } from '@headlessui/react';
-import {
-  ControlsCloseSmall,
-  ControlsChevronDownSmall,
-} from '@heathmont/moon-icons-tw';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
+import ControlsChevronDownSmall from '../private/icons/ControlsChevronDownSmall';
+import ControlsCloseSmall from '../private/icons/ControlsCloseSmall';
 import getSelectSize from './private/utils/getSelectSize';
 import SelectButtonContext from './private/utils/SelectButtonContext';
 import useSelectButtonContext from './private/utils/useSelectButtonContext';

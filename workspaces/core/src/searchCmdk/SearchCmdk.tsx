@@ -1,7 +1,7 @@
 import React from 'react';
-import { GenericSearch } from '@heathmont/moon-icons-tw';
 import { Command } from 'cmdk';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
+import GenericSearch from '../private/icons/GenericSearch';
 
 const SearchCmdkRoot = ({
   children,
