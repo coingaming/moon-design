@@ -1,5 +1,5 @@
 import React from 'react';
-import { Popover as HeadlessPopover } from '@headlessui/react';
+import { Popover as HeadlessPopover, PopoverProps } from '@headlessui/react';
 import { usePopper } from 'react-popper';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import PopoverContext from './private/utils/PopoverContext';
@@ -56,16 +56,24 @@ const PopoverRoot = ({
   );
 };
 
-const Trigger: React.FC<{ children?: React.ReactNode }> = ({ children }) => {
+const Trigger: React.FC<{ children?: React.ReactNode }> = ({
+  children,
+  ...rest
+}) => {
   const { popper } = usePopoverContext('Popover.Trigger');
   return (
-    <HeadlessPopover.Button as={'div'} ref={popper?.setAnchor} role="button">
+    <HeadlessPopover.Button
+      as={'div'}
+      ref={popper?.setAnchor}
+      role="button"
+      {...rest}
+    >
       {children}
     </HeadlessPopover.Button>
   );
 };
 
-const Panel = ({ children, className }: PanelProps) => {
+const Panel = ({ children, className, ...rest }: PanelProps) => {
   const { popper } = usePopoverContext('Popover.Trigger');
   const childrens =
     typeof children !== 'function' ? React.Children.toArray(children) : [];

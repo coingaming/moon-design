@@ -708,6 +708,7 @@ Object {
           <button
             class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
             disabled=""
+            type="button"
           >
             <svg
               fill="none"
@@ -856,6 +857,7 @@ Object {
           <button
             class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
             disabled=""
+            type="button"
           >
             <svg
               fill="none"
@@ -886,6 +888,7 @@ Object {
         <button
           class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
           disabled=""
+          type="button"
         >
           <svg
             fill="none"
@@ -1034,6 +1037,7 @@ Object {
         <button
           class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
           disabled=""
+          type="button"
         >
           <svg
             fill="none"
@@ -1121,6 +1125,7 @@ Object {
           <button
             class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
             disabled=""
+            type="button"
           >
             <svg
               fill="none"
@@ -1169,6 +1174,7 @@ Object {
           <button
             class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
             disabled=""
+            type="button"
           >
             <svg
               fill="none"
@@ -1218,6 +1224,7 @@ Object {
         <button
           class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
           disabled=""
+          type="button"
         >
           <svg
             fill="none"
@@ -1266,6 +1273,7 @@ Object {
         <button
           class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
           disabled=""
+          type="button"
         >
           <svg
             fill="none"
@@ -1585,6 +1593,7 @@ Object {
           <button
             class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
             disabled=""
+            type="button"
           >
             <svg
               fill="none"
@@ -1633,6 +1642,7 @@ Object {
           <button
             class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
             disabled=""
+            type="button"
           >
             <svg
               fill="none"
@@ -1663,6 +1673,7 @@ Object {
         <button
           class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
           disabled=""
+          type="button"
         >
           <svg
             fill="none"
@@ -1711,6 +1722,7 @@ Object {
         <button
           class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
           disabled=""
+          type="button"
         >
           <svg
             fill="none"
@@ -1798,6 +1810,7 @@ Object {
           <button
             class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
             disabled=""
+            type="button"
           >
             <svg
               fill="none"
@@ -1946,6 +1959,7 @@ Object {
           <button
             class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
             disabled=""
+            type="button"
           >
             <svg
               fill="none"
@@ -1976,6 +1990,7 @@ Object {
         <button
           class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
           disabled=""
+          type="button"
         >
           <svg
             fill="none"
@@ -2124,6 +2139,7 @@ Object {
         <button
           class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
           disabled=""
+          type="button"
         >
           <svg
             fill="none"
@@ -2886,6 +2902,7 @@ Object {
         <button
           class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
           disabled=""
+          type="button"
         >
           <svg
             fill="none"
@@ -3034,6 +3051,7 @@ Object {
         <button
           class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
           disabled=""
+          type="button"
         >
           <svg
             fill="none"
@@ -3060,6 +3078,7 @@ Object {
       <button
         class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
         disabled=""
+        type="button"
       >
         <svg
           fill="none"
@@ -3208,6 +3227,7 @@ Object {
       <button
         class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
         disabled=""
+        type="button"
       >
         <svg
           fill="none"
@@ -3291,6 +3311,7 @@ Object {
         <button
           class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
           disabled=""
+          type="button"
         >
           <svg
             fill="none"
@@ -3339,6 +3360,7 @@ Object {
         <button
           class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
           disabled=""
+          type="button"
         >
           <svg
             fill="none"
@@ -3384,6 +3406,7 @@ Object {
       <button
         class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
         disabled=""
+        type="button"
       >
         <svg
           fill="none"
@@ -3432,6 +3455,7 @@ Object {
       <button
         class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
         disabled=""
+        type="button"
       >
         <svg
           fill="none"
@@ -3739,6 +3763,7 @@ Object {
         <button
           class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
           disabled=""
+          type="button"
         >
           <svg
             fill="none"
@@ -3787,6 +3812,7 @@ Object {
         <button
           class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
           disabled=""
+          type="button"
         >
           <svg
             fill="none"
@@ -3813,6 +3839,7 @@ Object {
       <button
         class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
         disabled=""
+        type="button"
       >
         <svg
           fill="none"
@@ -3861,6 +3888,7 @@ Object {
       <button
         class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
         disabled=""
+        type="button"
       >
         <svg
           fill="none"
@@ -3944,6 +3972,7 @@ Object {
         <button
           class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
           disabled=""
+          type="button"
         >
           <svg
             fill="none"
@@ -4092,6 +4121,7 @@ Object {
         <button
           class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
           disabled=""
+          type="button"
         >
           <svg
             fill="none"
@@ -4118,6 +4148,7 @@ Object {
       <button
         class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
         disabled=""
+        type="button"
       >
         <svg
           fill="none"
@@ -4266,6 +4297,7 @@ Object {
       <button
         class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
         disabled=""
+        type="button"
       >
         <svg
           fill="none"
