@@ -1,5 +1,7 @@
 import React from 'react';
-import { Accordion, Tabs } from '@heathmont/moon-base-tw';
+import { Accordion, Tabs, mergeClassnames, Tag } from '@heathmont/moon-base-tw';
+// import Tag from '@heathmont/moon-core-tw/lib/tag/Tag';
+// import { Tag } from '@heathmont/moon-core-tw';
 import { ControlsChevronDownSmall } from '@heathmont/moon-icons-tw';
 import Link from 'next/link';
 
@@ -7,7 +9,8 @@ const ServerDoc: React.FC = () => {
   const text =
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.';
   return (
-    <div className="flex flex-col p-5 gap-6 w-full">
+    <div className={mergeClassnames('flex flex-col p-5 gap-6 w-full')}>
+      <Tag className="rounded-none bg-roshi-10 text-roshi">Customized</Tag>
       <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry's standard dummy text ever
@@ -27,6 +30,13 @@ const ServerDoc: React.FC = () => {
         with desktop publishing software like Aldus PageMaker including versions
         of Lorem Ipsum.
       </p>
+      <Tabs className=" bg-purple-50">
+        <Tabs.List>
+          <Tabs.Pill href="#tab1"> Tab 1</Tabs.Pill>
+          <Tabs.Pill href="#tab2"> Tab 2</Tabs.Pill>
+          <Tabs.Pill href="#tab3"> Tab 3</Tabs.Pill>
+        </Tabs.List>
+      </Tabs>
       <Tabs>
         <Tabs.List>
           {/* <a href="#tab1">
@@ -39,7 +49,9 @@ const ServerDoc: React.FC = () => {
             <Tabs.Tab>Tab 3</Tabs.Tab>
           </a> */}
 
-          <Tabs.Tab href="#tab1">Tab 1</Tabs.Tab>
+          <Tabs.Tab href="#tab1" selected as="span">
+            Tab 1
+          </Tabs.Tab>
           <Tabs.Tab href="#tab2">Tab 2</Tabs.Tab>
           <Tabs.Tab href="#tab3">Tab 3</Tabs.Tab>
           {/* <Link href="/serverdoc#tab1" scroll={false} legacyBehavior>

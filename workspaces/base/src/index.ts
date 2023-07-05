@@ -18,3 +18,5 @@ export { default as Table } from './table/Table';
 export * from './table/Table';
 export { default as Tabs } from './tabs/Tabs';
 export * from './tabs/Tabs';
+export { default as Tag } from './tag/Tag';
+export * from './tag/Tag';

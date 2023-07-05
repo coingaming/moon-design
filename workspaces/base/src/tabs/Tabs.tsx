@@ -33,14 +33,33 @@ type TabProps = {
   children?: React.ReactNode;
   isDisabled?: boolean;
   selected?: boolean;
-  href: string;
   size?: Size;
 };
 
-const Tab = React.forwardRef<HTMLAnchorElement, TabProps>(
-  ({ className, children, isDisabled, selected, href, size, ...rest }, ref) => {
+type TabPolymorphicProps<C extends React.ElementType> =
+  PolymorphicComponentPropWithRef<C, TabProps>;
+
+type TabComponentProps = <C extends React.ElementType = 'a'>(
+  props: TabPolymorphicProps<C>
+) => React.ReactElement | null;
+
+const Tab: TabComponentProps = React.forwardRef(
+  <C extends React.ElementType = 'a'>(
+    {
+      className,
+      children,
+      isDisabled,
+      selected,
+      href,
+      size,
+      as,
+      ...rest
+    }: TabPolymorphicProps<C>,
+    ref?: PolymorphicRef<C>
+  ) => {
+    const Component = as || 'a';
     return (
-      <a
+      <Component
         href={href}
         className={mergeClassnames(
           getTabSize(size),
@@ -54,6 +73,27 @@ const Tab = React.forwardRef<HTMLAnchorElement, TabProps>(
           ' [&:local-link]:after:origin-top-left [&:local-link]:after:scale-x-100 [&:local-link]:text-piccolo',
           selected && 'after:origin-top-left after:scale-x-100 text-piccolo',
           className
+        )}
+        ref={ref}
+        {...rest}
+      >
+        {children}
+      </Component>
+    );
+  }
+);
+
+const Pill = React.forwardRef<HTMLAnchorElement, TabProps>(
+  ({ children, className, isDisabled, selected, href, size, ...rest }, ref) => {
+    return (
+      <a
+        className={mergeClassnames(
+          getTabSize(size),
+          'flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma',
+          'font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan',
+          'focus:outline-none',
+          selected && 'bg-gohan',
+          isDisabled && 'opacity-30 hover:bg-transparent cursor-not-allowed'
         )}
         ref={ref}
         {...rest}
@@ -90,5 +130,5 @@ const Panel: React.FC<PanelProps> = ({ children, id }) => {
   );
 };
 
-const Tabs = Object.assign(TabsRoot, { List, Tab, Panels, Panel });
+const Tabs = Object.assign(TabsRoot, { List, Tab, Panels, Panel, Pill });
 export default Tabs;
