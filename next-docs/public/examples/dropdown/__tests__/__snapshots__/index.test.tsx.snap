@@ -2382,7 +2382,7 @@ Object {
                   class="relative"
                 >
                   <button
-                    class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md opacity-30 cursor-not-allowed hover:shadow-input"
+                    class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md opacity-60 cursor-not-allowed hover:shadow-input"
                   >
                     <span
                       class="flex gap-2 items-center overflow-hidden"
@@ -2423,7 +2423,7 @@ Object {
                 </div>
               </div>
               <p
-                class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
+                class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-60 cursor-not-allowed"
                 role="alert"
               >
                 Informative message holder
@@ -2746,7 +2746,7 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md opacity-30 cursor-not-allowed hover:shadow-input"
+                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md opacity-60 cursor-not-allowed hover:shadow-input"
                 >
                   <span
                     class="flex gap-2 items-center overflow-hidden"
@@ -2787,7 +2787,7 @@ Object {
               </div>
             </div>
             <p
-              class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
+              class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-60 cursor-not-allowed"
               role="alert"
             >
               Informative message holder
@@ -5456,7 +5456,7 @@ Object {
               class="relative"
             >
               <label
-                class="block text-bulma pb-2 text-moon-16 opacity-30 cursor-not-allowed"
+                class="block text-bulma pb-2 text-moon-16 opacity-60 cursor-not-allowed"
                 data-headlessui-state="disabled"
                 id="headlessui-listbox-label-:r5a:"
               >
@@ -5473,7 +5473,7 @@ Object {
                   class="relative"
                 >
                   <button
-                    class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-30 cursor-not-allowed hover:shadow-input"
+                    class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-60 cursor-not-allowed hover:shadow-input"
                   >
                     <span
                       class="flex w-full flex-col items-start text-start overflow-hidden"
@@ -5503,7 +5503,7 @@ Object {
                 </div>
               </div>
               <p
-                class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
+                class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-60 cursor-not-allowed"
                 role="alert"
               >
                 Informative message holder
@@ -5798,7 +5798,7 @@ Object {
             class="relative"
           >
             <label
-              class="block text-bulma pb-2 text-moon-16 opacity-30 cursor-not-allowed"
+              class="block text-bulma pb-2 text-moon-16 opacity-60 cursor-not-allowed"
               data-headlessui-state="disabled"
               id="headlessui-listbox-label-:r5a:"
             >
@@ -5815,7 +5815,7 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-30 cursor-not-allowed hover:shadow-input"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-60 cursor-not-allowed hover:shadow-input"
                 >
                   <span
                     class="flex w-full flex-col items-start text-start overflow-hidden"
@@ -5845,7 +5845,7 @@ Object {
               </div>
             </div>
             <p
-              class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
+              class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-60 cursor-not-allowed"
               role="alert"
             >
               Informative message holder
@@ -8294,7 +8294,7 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md opacity-30 cursor-not-allowed hover:shadow-input"
+                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md opacity-60 cursor-not-allowed hover:shadow-input"
                 >
                   <span
                     class="flex gap-2 items-center overflow-hidden"
@@ -8335,7 +8335,7 @@ Object {
               </div>
             </div>
             <p
-              class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
+              class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-60 cursor-not-allowed"
               role="alert"
             >
               Informative message holder
@@ -8654,7 +8654,7 @@ Object {
               class="relative"
             >
               <button
-                class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md opacity-30 cursor-not-allowed hover:shadow-input"
+                class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md opacity-60 cursor-not-allowed hover:shadow-input"
               >
                 <span
                   class="flex gap-2 items-center overflow-hidden"
@@ -8695,7 +8695,7 @@ Object {
             </div>
           </div>
           <p
-            class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
+            class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-60 cursor-not-allowed"
             role="alert"
           >
             Informative message holder
@@ -11336,7 +11336,7 @@ Object {
             class="relative"
           >
             <label
-              class="block text-bulma pb-2 text-moon-16 opacity-30 cursor-not-allowed"
+              class="block text-bulma pb-2 text-moon-16 opacity-60 cursor-not-allowed"
               data-headlessui-state="disabled"
               id="headlessui-listbox-label-:r1g:"
             >
@@ -11353,7 +11353,7 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-30 cursor-not-allowed hover:shadow-input"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-60 cursor-not-allowed hover:shadow-input"
                 >
                   <span
                     class="flex w-full flex-col items-start text-start overflow-hidden"
@@ -11383,7 +11383,7 @@ Object {
               </div>
             </div>
             <p
-              class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
+              class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-60 cursor-not-allowed"
               role="alert"
             >
               Informative message holder
@@ -11674,7 +11674,7 @@ Object {
           class="relative"
         >
           <label
-            class="block text-bulma pb-2 text-moon-16 opacity-30 cursor-not-allowed"
+            class="block text-bulma pb-2 text-moon-16 opacity-60 cursor-not-allowed"
             data-headlessui-state="disabled"
             id="headlessui-listbox-label-:r1g:"
           >
@@ -11691,7 +11691,7 @@ Object {
               class="relative"
             >
               <button
-                class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-30 cursor-not-allowed hover:shadow-input"
+                class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-60 cursor-not-allowed hover:shadow-input"
               >
                 <span
                   class="flex w-full flex-col items-start text-start overflow-hidden"
@@ -11721,7 +11721,7 @@ Object {
             </div>
           </div>
           <p
-            class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
+            class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-60 cursor-not-allowed"
             role="alert"
           >
             Informative message holder

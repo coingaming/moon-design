@@ -44,7 +44,7 @@ const NativeSelect = forwardRef<
       <span
         className={mergeClassnames(
           'block relative w-full',
-          disabled && 'opacity-30 cursor-not-allowed',
+          disabled && 'opacity-60 cursor-not-allowed',
           readOnly && 'cursor-not-allowed',
           className && className
         )}

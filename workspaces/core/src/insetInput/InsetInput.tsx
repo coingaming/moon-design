@@ -59,7 +59,7 @@ const InsetInputRoot = forwardRef<HTMLInputElement, InsetInputProps>(
         <div
           className={mergeClassnames(
             'w-full max-w-full relative rounded-moon-i-sm bg-gohan',
-            disabled && 'opacity-30 cursor-not-allowed',
+            disabled && 'opacity-60 cursor-not-allowed',
             className && className
           )}
         >
@@ -91,7 +91,7 @@ const InsetInputRoot = forwardRef<HTMLInputElement, InsetInputProps>(
               'input-xl-dt-shared',
               isLabel && 'input-xl pt-[1.125rem] input-xl-dt-label',
               'invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err',
-              disabled && 'opacity-30 cursor-not-allowed'
+              disabled && 'opacity-60 cursor-not-allowed'
             )}
             {...rest}
           />

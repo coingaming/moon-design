@@ -233,7 +233,7 @@ Object {
         dir="rtl"
       >
         <textarea
-          class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none opacity-30 cursor-not-allowed"
+          class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none opacity-60 cursor-not-allowed"
           disabled=""
           placeholder="Disabled"
         />
@@ -245,7 +245,7 @@ Object {
       dir="rtl"
     >
       <textarea
-        class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none opacity-30 cursor-not-allowed"
+        class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none opacity-60 cursor-not-allowed"
         disabled=""
         placeholder="Disabled"
       />
@@ -674,7 +674,7 @@ Object {
   "baseElement": <body>
     <div>
       <textarea
-        class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none opacity-30 cursor-not-allowed"
+        class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none opacity-60 cursor-not-allowed"
         disabled=""
         placeholder="Disabled"
       />
@@ -682,7 +682,7 @@ Object {
   </body>,
   "container": <div>
     <textarea
-      class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none opacity-30 cursor-not-allowed"
+      class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none opacity-60 cursor-not-allowed"
       disabled=""
       placeholder="Disabled"
     />

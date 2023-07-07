@@ -12,7 +12,7 @@ Object {
           class="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
         >
           <div
-            class="w-full opacity-30 cursor-not-allowed"
+            class="w-full opacity-60 cursor-not-allowed"
           >
             <div
               class="relative"
@@ -69,7 +69,7 @@ Object {
             </p>
           </div>
           <div
-            class="w-full opacity-30 cursor-not-allowed"
+            class="w-full opacity-60 cursor-not-allowed"
           >
             <div
               class="relative"
@@ -126,7 +126,7 @@ Object {
             </p>
           </div>
           <div
-            class="w-full opacity-30 cursor-not-allowed"
+            class="w-full opacity-60 cursor-not-allowed"
           >
             <div
               class="relative"
@@ -183,7 +183,7 @@ Object {
             </p>
           </div>
           <div
-            class="w-full opacity-30 cursor-not-allowed"
+            class="w-full opacity-60 cursor-not-allowed"
           >
             <div
               class="relative"
@@ -251,7 +251,7 @@ Object {
         class="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
       >
         <div
-          class="w-full opacity-30 cursor-not-allowed"
+          class="w-full opacity-60 cursor-not-allowed"
         >
           <div
             class="relative"
@@ -308,7 +308,7 @@ Object {
           </p>
         </div>
         <div
-          class="w-full opacity-30 cursor-not-allowed"
+          class="w-full opacity-60 cursor-not-allowed"
         >
           <div
             class="relative"
@@ -365,7 +365,7 @@ Object {
           </p>
         </div>
         <div
-          class="w-full opacity-30 cursor-not-allowed"
+          class="w-full opacity-60 cursor-not-allowed"
         >
           <div
             class="relative"
@@ -422,7 +422,7 @@ Object {
           </p>
         </div>
         <div
-          class="w-full opacity-30 cursor-not-allowed"
+          class="w-full opacity-60 cursor-not-allowed"
         >
           <div
             class="relative"
@@ -3570,7 +3570,7 @@ Object {
         class="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
       >
         <div
-          class="w-full opacity-30 cursor-not-allowed"
+          class="w-full opacity-60 cursor-not-allowed"
         >
           <div
             class="relative"
@@ -3627,7 +3627,7 @@ Object {
           </p>
         </div>
         <div
-          class="w-full opacity-30 cursor-not-allowed"
+          class="w-full opacity-60 cursor-not-allowed"
         >
           <div
             class="relative"
@@ -3684,7 +3684,7 @@ Object {
           </p>
         </div>
         <div
-          class="w-full opacity-30 cursor-not-allowed"
+          class="w-full opacity-60 cursor-not-allowed"
         >
           <div
             class="relative"
@@ -3741,7 +3741,7 @@ Object {
           </p>
         </div>
         <div
-          class="w-full opacity-30 cursor-not-allowed"
+          class="w-full opacity-60 cursor-not-allowed"
         >
           <div
             class="relative"
@@ -3805,7 +3805,7 @@ Object {
       class="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
     >
       <div
-        class="w-full opacity-30 cursor-not-allowed"
+        class="w-full opacity-60 cursor-not-allowed"
       >
         <div
           class="relative"
@@ -3862,7 +3862,7 @@ Object {
         </p>
       </div>
       <div
-        class="w-full opacity-30 cursor-not-allowed"
+        class="w-full opacity-60 cursor-not-allowed"
       >
         <div
           class="relative"
@@ -3919,7 +3919,7 @@ Object {
         </p>
       </div>
       <div
-        class="w-full opacity-30 cursor-not-allowed"
+        class="w-full opacity-60 cursor-not-allowed"
       >
         <div
           class="relative"
@@ -3976,7 +3976,7 @@ Object {
         </p>
       </div>
       <div
-        class="w-full opacity-30 cursor-not-allowed"
+        class="w-full opacity-60 cursor-not-allowed"
       >
         <div
           class="relative"

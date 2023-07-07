@@ -237,10 +237,10 @@ Object {
             class="w-full"
           >
             <div
-              class="w-full max-w-full relative rounded-moon-i-sm bg-gohan opacity-30 cursor-not-allowed"
+              class="w-full max-w-full relative rounded-moon-i-sm bg-gohan opacity-60 cursor-not-allowed"
             >
               <input
-                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible:shadow-input-focus focus-visible::outline-none h-14 leading-[3.5rem] rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus-visible:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus-visible:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err opacity-30 cursor-not-allowed"
+                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible:shadow-input-focus focus-visible::outline-none h-14 leading-[3.5rem] rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus-visible:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus-visible:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err opacity-60 cursor-not-allowed"
                 disabled=""
                 placeholder="Placeholder"
               />
@@ -251,7 +251,7 @@ Object {
               </label>
             </div>
             <p
-              class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
+              class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-60 cursor-not-allowed"
               role="alert"
             >
               Informative message holder
@@ -320,10 +320,10 @@ Object {
           class="w-full"
         >
           <div
-            class="w-full max-w-full relative rounded-moon-i-sm bg-gohan opacity-30 cursor-not-allowed"
+            class="w-full max-w-full relative rounded-moon-i-sm bg-gohan opacity-60 cursor-not-allowed"
           >
             <input
-              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible:shadow-input-focus focus-visible::outline-none h-14 leading-[3.5rem] rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus-visible:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus-visible:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err opacity-30 cursor-not-allowed"
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible:shadow-input-focus focus-visible::outline-none h-14 leading-[3.5rem] rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus-visible:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus-visible:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err opacity-60 cursor-not-allowed"
               disabled=""
               placeholder="Placeholder"
             />
@@ -334,7 +334,7 @@ Object {
             </label>
           </div>
           <p
-            class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
+            class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-60 cursor-not-allowed"
             role="alert"
           >
             Informative message holder
@@ -1076,10 +1076,10 @@ Object {
           class="w-full"
         >
           <div
-            class="w-full max-w-full relative rounded-moon-i-sm bg-gohan opacity-30 cursor-not-allowed"
+            class="w-full max-w-full relative rounded-moon-i-sm bg-gohan opacity-60 cursor-not-allowed"
           >
             <input
-              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible:shadow-input-focus focus-visible::outline-none h-14 leading-[3.5rem] rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus-visible:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus-visible:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err opacity-30 cursor-not-allowed"
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible:shadow-input-focus focus-visible::outline-none h-14 leading-[3.5rem] rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus-visible:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus-visible:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err opacity-60 cursor-not-allowed"
               disabled=""
               placeholder="Placeholder"
             />
@@ -1090,7 +1090,7 @@ Object {
             </label>
           </div>
           <p
-            class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
+            class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-60 cursor-not-allowed"
             role="alert"
           >
             Informative message holder
@@ -1155,10 +1155,10 @@ Object {
         class="w-full"
       >
         <div
-          class="w-full max-w-full relative rounded-moon-i-sm bg-gohan opacity-30 cursor-not-allowed"
+          class="w-full max-w-full relative rounded-moon-i-sm bg-gohan opacity-60 cursor-not-allowed"
         >
           <input
-            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible:shadow-input-focus focus-visible::outline-none h-14 leading-[3.5rem] rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus-visible:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus-visible:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err opacity-30 cursor-not-allowed"
+            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible:shadow-input-focus focus-visible::outline-none h-14 leading-[3.5rem] rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus-visible:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus-visible:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err opacity-60 cursor-not-allowed"
             disabled=""
             placeholder="Placeholder"
           />
@@ -1169,7 +1169,7 @@ Object {
           </label>
         </div>
         <p
-          class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
+          class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-60 cursor-not-allowed"
           role="alert"
         >
           Informative message holder
