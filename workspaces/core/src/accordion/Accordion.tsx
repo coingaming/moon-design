@@ -117,7 +117,7 @@ const Button: React.FC<ButtonProps> = ({ children, className }) => {
         setPadding(true, size),
         setFont(size),
         'w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium',
-        'text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30',
+        'text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60',
         className
       )}
     >

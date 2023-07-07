@@ -51,7 +51,7 @@ const Input = ({ children, className }: InputProps) => {
         getSelectSize(size),
         isError &&
           'shadow-input-err hover:shadow-input-err focus:shadow-input-err',
-        idDisabled && 'opacity-30 cursor-not-allowed hover:shadow-input',
+        idDisabled && 'opacity-60 cursor-not-allowed hover:shadow-input',
         className && className
       )}
     >
@@ -77,7 +77,7 @@ const InsetInput = ({ children, className }: InputProps) => {
         'h-14 py-2 px-4 rounded-moon-i-md',
         isError &&
           'shadow-input-err hover:shadow-input-err focus:shadow-input-err',
-        idDisabled && 'opacity-30 cursor-not-allowed hover:shadow-input',
+        idDisabled && 'opacity-60 cursor-not-allowed hover:shadow-input',
         className && className
       )}
     >
@@ -111,7 +111,7 @@ const Label = ({ children, labelSize, idDisabled }: LabelProps) => {
       className={mergeClassnames(
         'block text-bulma pb-2',
         currentSize === 'sm' ? 'text-moon-14' : 'text-moon-16',
-        idDisabled && 'opacity-30 cursor-not-allowed'
+        idDisabled && 'opacity-60 cursor-not-allowed'
       )}
     >
       {children}

@@ -45,7 +45,7 @@ const Switch: FC<SwitchProps> = ({
         getSwitchSize(size),
         enabled ? onBgColor : offBgColor,
         !onBgColor && !offBgColor && 'bg-beerus moon-checked:bg-piccolo',
-        rest?.disabled && 'opacity-30 cursor-not-allowed select-none',
+        rest?.disabled && 'opacity-60 cursor-not-allowed select-none',
         className
       )}
       {...rest}

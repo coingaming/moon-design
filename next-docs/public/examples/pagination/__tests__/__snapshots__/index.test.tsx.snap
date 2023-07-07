@@ -13,7 +13,7 @@ Object {
         >
           <button
             aria-disabled="true"
-            class="moon-disabled:cursor-not-allowed moon-disabled:opacity-30"
+            class="moon-disabled:cursor-not-allowed moon-disabled:opacity-60"
             disabled=""
           >
             Previous
@@ -58,7 +58,7 @@ Object {
           </nav>
           <button
             aria-disabled="false"
-            class="moon-disabled:cursor-not-allowed moon-disabled:opacity-30"
+            class="moon-disabled:cursor-not-allowed moon-disabled:opacity-60"
           >
             Next
           </button>
@@ -75,7 +75,7 @@ Object {
       >
         <button
           aria-disabled="true"
-          class="moon-disabled:cursor-not-allowed moon-disabled:opacity-30"
+          class="moon-disabled:cursor-not-allowed moon-disabled:opacity-60"
           disabled=""
         >
           Previous
@@ -120,7 +120,7 @@ Object {
         </nav>
         <button
           aria-disabled="false"
-          class="moon-disabled:cursor-not-allowed moon-disabled:opacity-30"
+          class="moon-disabled:cursor-not-allowed moon-disabled:opacity-60"
         >
           Next
         </button>
@@ -198,7 +198,7 @@ Object {
             disabled=""
           >
             <button
-              class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-30 cursor-not-allowed btn-secondary text-moon-24"
+              class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-secondary text-moon-24"
               disabled=""
               type="button"
             >
@@ -307,7 +307,7 @@ Object {
           disabled=""
         >
           <button
-            class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-30 cursor-not-allowed btn-secondary text-moon-24"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-secondary text-moon-24"
             disabled=""
             type="button"
           >
@@ -473,7 +473,7 @@ Object {
             disabled=""
           >
             <button
-              class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-30 cursor-not-allowed btn-secondary text-moon-24"
+              class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-secondary text-moon-24"
               disabled=""
               type="button"
             >
@@ -586,7 +586,7 @@ Object {
           disabled=""
         >
           <button
-            class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-30 cursor-not-allowed btn-secondary text-moon-24"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-secondary text-moon-24"
             disabled=""
             type="button"
           >
@@ -749,7 +749,7 @@ Object {
       >
         <button
           aria-disabled="true"
-          class="moon-disabled:cursor-not-allowed moon-disabled:opacity-30"
+          class="moon-disabled:cursor-not-allowed moon-disabled:opacity-60"
           disabled=""
         >
           Previous
@@ -794,7 +794,7 @@ Object {
         </nav>
         <button
           aria-disabled="false"
-          class="moon-disabled:cursor-not-allowed moon-disabled:opacity-30"
+          class="moon-disabled:cursor-not-allowed moon-disabled:opacity-60"
         >
           Next
         </button>
@@ -807,7 +807,7 @@ Object {
     >
       <button
         aria-disabled="true"
-        class="moon-disabled:cursor-not-allowed moon-disabled:opacity-30"
+        class="moon-disabled:cursor-not-allowed moon-disabled:opacity-60"
         disabled=""
       >
         Previous
@@ -852,7 +852,7 @@ Object {
       </nav>
       <button
         aria-disabled="false"
-        class="moon-disabled:cursor-not-allowed moon-disabled:opacity-30"
+        class="moon-disabled:cursor-not-allowed moon-disabled:opacity-60"
       >
         Next
       </button>
@@ -926,7 +926,7 @@ Object {
           disabled=""
         >
           <button
-            class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-30 cursor-not-allowed btn-secondary text-moon-24"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-secondary text-moon-24"
             disabled=""
             type="button"
           >
@@ -1031,7 +1031,7 @@ Object {
         disabled=""
       >
         <button
-          class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-30 cursor-not-allowed btn-secondary text-moon-24"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-secondary text-moon-24"
           disabled=""
           type="button"
         >
@@ -1193,7 +1193,7 @@ Object {
           disabled=""
         >
           <button
-            class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-30 cursor-not-allowed btn-secondary text-moon-24"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-secondary text-moon-24"
             disabled=""
             type="button"
           >
@@ -1302,7 +1302,7 @@ Object {
         disabled=""
       >
         <button
-          class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-30 cursor-not-allowed btn-secondary text-moon-24"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-secondary text-moon-24"
           disabled=""
           type="button"
         >

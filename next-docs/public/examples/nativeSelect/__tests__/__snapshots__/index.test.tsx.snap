@@ -373,13 +373,13 @@ Object {
             class="w-full"
           >
             <label
-              class="w-full block text-bulma pb-2 text-moon-16 opacity-30 cursor-not-allowed"
+              class="w-full block text-bulma pb-2 text-moon-16 opacity-60 cursor-not-allowed"
               for="dis-1"
             >
               Disabled
             </label>
             <span
-              class="block relative w-full opacity-30 cursor-not-allowed"
+              class="block relative w-full opacity-60 cursor-not-allowed"
             >
               <select
                 class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-gohan shadow-input focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 cursor-not-allowed hover:shadow-input"
@@ -424,7 +424,7 @@ Object {
               </svg>
             </span>
             <p
-              class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
+              class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-60 cursor-not-allowed"
               role="alert"
             >
               Informative message holder
@@ -566,13 +566,13 @@ Object {
           class="w-full"
         >
           <label
-            class="w-full block text-bulma pb-2 text-moon-16 opacity-30 cursor-not-allowed"
+            class="w-full block text-bulma pb-2 text-moon-16 opacity-60 cursor-not-allowed"
             for="dis-1"
           >
             Disabled
           </label>
           <span
-            class="block relative w-full opacity-30 cursor-not-allowed"
+            class="block relative w-full opacity-60 cursor-not-allowed"
           >
             <select
               class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-gohan shadow-input focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 cursor-not-allowed hover:shadow-input"
@@ -617,7 +617,7 @@ Object {
             </svg>
           </span>
           <p
-            class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
+            class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-60 cursor-not-allowed"
             role="alert"
           >
             Informative message holder
@@ -1155,13 +1155,13 @@ Object {
           class="w-full"
         >
           <label
-            class="w-full block text-bulma pb-2 text-moon-16 opacity-30 cursor-not-allowed"
+            class="w-full block text-bulma pb-2 text-moon-16 opacity-60 cursor-not-allowed"
             for="dis-1"
           >
             Disabled
           </label>
           <span
-            class="block relative w-full opacity-30 cursor-not-allowed"
+            class="block relative w-full opacity-60 cursor-not-allowed"
           >
             <select
               class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-gohan shadow-input focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 cursor-not-allowed hover:shadow-input"
@@ -1206,7 +1206,7 @@ Object {
             </svg>
           </span>
           <p
-            class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
+            class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-60 cursor-not-allowed"
             role="alert"
           >
             Informative message holder
@@ -1344,13 +1344,13 @@ Object {
         class="w-full"
       >
         <label
-          class="w-full block text-bulma pb-2 text-moon-16 opacity-30 cursor-not-allowed"
+          class="w-full block text-bulma pb-2 text-moon-16 opacity-60 cursor-not-allowed"
           for="dis-1"
         >
           Disabled
         </label>
         <span
-          class="block relative w-full opacity-30 cursor-not-allowed"
+          class="block relative w-full opacity-60 cursor-not-allowed"
         >
           <select
             class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-gohan shadow-input focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 cursor-not-allowed hover:shadow-input"
@@ -1395,7 +1395,7 @@ Object {
           </svg>
         </span>
         <p
-          class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
+          class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-60 cursor-not-allowed"
           role="alert"
         >
           Informative message holder

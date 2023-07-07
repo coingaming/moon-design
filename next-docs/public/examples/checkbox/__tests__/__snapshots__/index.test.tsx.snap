@@ -578,7 +578,7 @@ Object {
         dir="rtl"
       >
         <label
-          class="relative flex items-center gap-2 text-moon-14 text-bulma opacity-30 cursor-not-allowed select-none"
+          class="relative flex items-center gap-2 text-moon-14 text-bulma opacity-60 cursor-not-allowed select-none"
           for="disabled1"
         >
           <input
@@ -611,7 +611,7 @@ Object {
           Disabled
         </label>
         <label
-          class="relative flex items-center gap-2 text-moon-14 text-bulma opacity-30 cursor-not-allowed select-none"
+          class="relative flex items-center gap-2 text-moon-14 text-bulma opacity-60 cursor-not-allowed select-none"
           for="disabled2"
         >
           <input
@@ -652,7 +652,7 @@ Object {
       dir="rtl"
     >
       <label
-        class="relative flex items-center gap-2 text-moon-14 text-bulma opacity-30 cursor-not-allowed select-none"
+        class="relative flex items-center gap-2 text-moon-14 text-bulma opacity-60 cursor-not-allowed select-none"
         for="disabled1"
       >
         <input
@@ -685,7 +685,7 @@ Object {
         Disabled
       </label>
       <label
-        class="relative flex items-center gap-2 text-moon-14 text-bulma opacity-30 cursor-not-allowed select-none"
+        class="relative flex items-center gap-2 text-moon-14 text-bulma opacity-60 cursor-not-allowed select-none"
         for="disabled2"
       >
         <input
@@ -1932,7 +1932,7 @@ Object {
   "baseElement": <body>
     <div>
       <label
-        class="relative flex items-center gap-2 text-moon-14 text-bulma opacity-30 cursor-not-allowed select-none"
+        class="relative flex items-center gap-2 text-moon-14 text-bulma opacity-60 cursor-not-allowed select-none"
         for="disabled1"
       >
         <input
@@ -1965,7 +1965,7 @@ Object {
         Disabled
       </label>
       <label
-        class="relative flex items-center gap-2 text-moon-14 text-bulma opacity-30 cursor-not-allowed select-none"
+        class="relative flex items-center gap-2 text-moon-14 text-bulma opacity-60 cursor-not-allowed select-none"
         for="disabled2"
       >
         <input
@@ -2002,7 +2002,7 @@ Object {
   </body>,
   "container": <div>
     <label
-      class="relative flex items-center gap-2 text-moon-14 text-bulma opacity-30 cursor-not-allowed select-none"
+      class="relative flex items-center gap-2 text-moon-14 text-bulma opacity-60 cursor-not-allowed select-none"
       for="disabled1"
     >
       <input
@@ -2035,7 +2035,7 @@ Object {
       Disabled
     </label>
     <label
-      class="relative flex items-center gap-2 text-moon-14 text-bulma opacity-30 cursor-not-allowed select-none"
+      class="relative flex items-center gap-2 text-moon-14 text-bulma opacity-60 cursor-not-allowed select-none"
       for="disabled2"
     >
       <input

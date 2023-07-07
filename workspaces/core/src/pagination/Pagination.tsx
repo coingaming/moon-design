@@ -78,7 +78,7 @@ export const PrevButton = <C extends React.ElementType = 'button'>({
     <Component
       {...rest}
       className={mergeClassnames(
-        'moon-disabled:cursor-not-allowed moon-disabled:opacity-30',
+        'moon-disabled:cursor-not-allowed moon-disabled:opacity-60',
         className
       )}
       onClick={() => previous()}
@@ -124,7 +124,7 @@ export const NextButton = <C extends React.ElementType = 'button'>({
     <Component
       {...rest}
       className={mergeClassnames(
-        'moon-disabled:cursor-not-allowed moon-disabled:opacity-30',
+        'moon-disabled:cursor-not-allowed moon-disabled:opacity-60',
         className
       )}
       onClick={() => next()}

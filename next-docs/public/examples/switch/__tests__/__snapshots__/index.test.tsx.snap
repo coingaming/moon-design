@@ -243,7 +243,7 @@ Object {
     <div>
       <button
         aria-checked="true"
-        class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo opacity-30 cursor-not-allowed select-none"
+        class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo opacity-60 cursor-not-allowed select-none"
         data-headlessui-state="checked"
         disabled=""
         id="headlessui-switch-:r7:"
@@ -262,7 +262,7 @@ Object {
       </button>
       <button
         aria-checked="false"
-        class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo opacity-30 cursor-not-allowed select-none"
+        class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo opacity-60 cursor-not-allowed select-none"
         data-headlessui-state=""
         disabled=""
         id="headlessui-switch-:r8:"
@@ -284,7 +284,7 @@ Object {
   "container": <div>
     <button
       aria-checked="true"
-      class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo opacity-30 cursor-not-allowed select-none"
+      class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo opacity-60 cursor-not-allowed select-none"
       data-headlessui-state="checked"
       disabled=""
       id="headlessui-switch-:r7:"
@@ -303,7 +303,7 @@ Object {
     </button>
     <button
       aria-checked="false"
-      class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo opacity-30 cursor-not-allowed select-none"
+      class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo opacity-60 cursor-not-allowed select-none"
       data-headlessui-state=""
       disabled=""
       id="headlessui-switch-:r8:"
@@ -1499,7 +1499,7 @@ Object {
       >
         <button
           aria-checked="true"
-          class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo opacity-30 cursor-not-allowed select-none"
+          class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo opacity-60 cursor-not-allowed select-none"
           data-headlessui-state="checked"
           disabled=""
           id="headlessui-switch-:rl:"
@@ -1518,7 +1518,7 @@ Object {
         </button>
         <button
           aria-checked="false"
-          class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo opacity-30 cursor-not-allowed select-none"
+          class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo opacity-60 cursor-not-allowed select-none"
           data-headlessui-state=""
           disabled=""
           id="headlessui-switch-:rm:"
@@ -1544,7 +1544,7 @@ Object {
     >
       <button
         aria-checked="true"
-        class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo opacity-30 cursor-not-allowed select-none"
+        class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo opacity-60 cursor-not-allowed select-none"
         data-headlessui-state="checked"
         disabled=""
         id="headlessui-switch-:rl:"
@@ -1563,7 +1563,7 @@ Object {
       </button>
       <button
         aria-checked="false"
-        class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo opacity-30 cursor-not-allowed select-none"
+        class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo opacity-60 cursor-not-allowed select-none"
         data-headlessui-state=""
         disabled=""
         id="headlessui-switch-:rm:"

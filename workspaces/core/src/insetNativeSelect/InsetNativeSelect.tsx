@@ -46,7 +46,7 @@ const InsetNativeSelect = forwardRef<
       <span
         className={mergeClassnames(
           'block relative w-full max-w-full rounded-moon-i-sm bg-gohan',
-          disabled && 'opacity-30 cursor-not-allowed',
+          disabled && 'opacity-60 cursor-not-allowed',
           readOnly && 'cursor-not-allowed',
           className && className
         )}
