@@ -83,26 +83,80 @@ const Tab: TabComponentProps = React.forwardRef(
   }
 );
 
-const Pill = React.forwardRef<HTMLAnchorElement, TabProps>(
-  ({ children, className, isDisabled, selected, href, size, ...rest }, ref) => {
+const Pill: TabComponentProps = React.forwardRef(
+  <C extends React.ElementType = 'a'>(
+    {
+      className,
+      children,
+      isDisabled,
+      selected,
+      href,
+      size,
+      as,
+      ...rest
+    }: TabPolymorphicProps<C>,
+    ref?: PolymorphicRef<C>
+  ) => {
+    const Component = as || 'a';
     return (
-      <a
+      <Component
+        href={href}
         className={mergeClassnames(
           getTabSize(size),
-          'flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma',
-          'font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan',
+          'relative flex items-center justify-center w-full whitespace-nowrap text-moon-14',
+          'text-bulma font-medium cursor-pointer after:content-[""] after:absolute after:left-0',
+          'after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform',
+          'after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100',
+          'hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo',
           'focus:outline-none',
-          selected && 'bg-gohan',
-          isDisabled && 'opacity-30 hover:bg-transparent cursor-not-allowed'
+          isDisabled && 'opacity-30 hover:after:scale-0 cursor-not-allowed',
+          ' [&:local-link]:after:origin-top-left [&:local-link]:after:scale-x-100 [&:local-link]:text-piccolo',
+          selected && 'after:origin-top-left after:scale-x-100 text-piccolo',
+          className
         )}
         ref={ref}
         {...rest}
       >
         {children}
-      </a>
+      </Component>
     );
   }
 );
+
+// const Pill: TabComponentProps = React.forwardRef(
+//   <C extends React.ElementType = 'a'>(
+//     {
+//       children,
+//       className,
+//       isDisabled,
+//       selected,
+//       href,
+//       as,
+//       size,
+//       ...rest
+//     }: TabPolymorphicProps<C>,
+//     ref: PolymorphicRef<C>
+//   ) => {
+//     const Component = as || 'a';
+//     return (
+//       <Component
+//         className={mergeClassnames(
+//           getTabSize(size),
+//           'flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma',
+//           'font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan',
+//           'focus:outline-none',
+//           selected && 'bg-gohan',
+//           isDisabled && 'opacity-30 hover:bg-transparent cursor-not-allowed'
+//         )}
+//         ref={ref}
+//         aria-label="Close"
+//         {...rest}
+//       >
+//         {children}
+//       </Component>
+//     );
+//   }
+// );
 
 type PanelsProps = {
   className?: string;

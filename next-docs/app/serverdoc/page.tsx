@@ -30,39 +30,13 @@ const ServerDoc: React.FC = () => {
         with desktop publishing software like Aldus PageMaker including versions
         of Lorem Ipsum.
       </p>
-      <Tabs className=" bg-purple-50">
-        <Tabs.List>
-          <Tabs.Pill href="#tab1"> Tab 1</Tabs.Pill>
-          <Tabs.Pill href="#tab2"> Tab 2</Tabs.Pill>
-          <Tabs.Pill href="#tab3"> Tab 3</Tabs.Pill>
-        </Tabs.List>
-      </Tabs>
       <Tabs>
         <Tabs.List>
-          {/* <a href="#tab1">
-            <Tabs.Tab>Tab 1</Tabs.Tab>
-          </a>
-          <a href="#tab2">
-            <Tabs.Tab>Tab 2</Tabs.Tab>
-          </a>
-          <a href="#tab3">
-            <Tabs.Tab>Tab 3</Tabs.Tab>
-          </a> */}
-
-          <Tabs.Tab href="#tab1" selected as="span">
+          <Tabs.Pill href="#tab1" className="bg-black" selected>
             Tab 1
-          </Tabs.Tab>
-          <Tabs.Tab href="#tab2">Tab 2</Tabs.Tab>
-          <Tabs.Tab href="#tab3">Tab 3</Tabs.Tab>
-          {/* <Link href="/serverdoc#tab1" scroll={false} legacyBehavior>
-            <Tabs.Tab>Tab 1</Tabs.Tab>
-          </Link>
-          <Link href="/serverdoc#tab2" scroll={false} legacyBehavior>
-            <Tabs.Tab>Tab 2</Tabs.Tab>
-          </Link>
-          <Link href="/serverdoc#tab3" scroll={false} legacyBehavior>
-            <Tabs.Tab>Tab 3</Tabs.Tab>
-          </Link> */}
+          </Tabs.Pill>
+          <Tabs.Pill href="#tab2"> Tab 2</Tabs.Pill>
+          <Tabs.Pill href="#tab3"> Tab 3</Tabs.Pill>
         </Tabs.List>
         <Tabs.Panels>
           <Tabs.Panel id="tab1">
@@ -80,6 +54,58 @@ const ServerDoc: React.FC = () => {
             Ipsum.
           </Tabs.Panel>
           <Tabs.Panel id="tab3">
+            Contrary to popular belief, Lorem Ipsum is not simply random text.
+            It has roots in a piece of classical Latin literature from 45 BC,
+            making it over 2000 years old. Richard McClintock, a Latin professor
+            at Hampden-Sydney College in Virginia, looked up one of the more
+            obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+            going through the cites of the word in classical literature,
+            discovered the undoubtable source.
+          </Tabs.Panel>
+        </Tabs.Panels>
+      </Tabs>
+
+      <Tabs>
+        <Tabs.List>
+          {/* <a href="#tab1">
+            <Tabs.Tab>Tab 1</Tabs.Tab>
+          </a>
+          <a href="#tab2">
+            <Tabs.Tab>Tab 2</Tabs.Tab>
+          </a>
+          <a href="#tab3">
+            <Tabs.Tab>Tab 3</Tabs.Tab>
+          </a> */}
+
+          <Tabs.Tab href="#tab11">Tab 1</Tabs.Tab>
+          <Tabs.Tab href="#tab22">Tab 2</Tabs.Tab>
+          <Tabs.Tab href="#tab33">Tab 3</Tabs.Tab>
+          {/* <Link href="/serverdoc#tab1" scroll={false} legacyBehavior>
+            <Tabs.Tab>Tab 1</Tabs.Tab>
+          </Link>
+          <Link href="/serverdoc#tab2" scroll={false} legacyBehavior>
+            <Tabs.Tab>Tab 2</Tabs.Tab>
+          </Link>
+          <Link href="/serverdoc#tab3" scroll={false} legacyBehavior>
+            <Tabs.Tab>Tab 3</Tabs.Tab>
+          </Link> */}
+        </Tabs.List>
+        <Tabs.Panels>
+          <Tabs.Panel id="tab11">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
+          </Tabs.Panel>
+          <Tabs.Panel id="tab22">
+            It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged. It was
+            popularised in the 1960s with the release of Letraset sheets
+            containing Lorem Ipsum passages, and more recently with desktop
+            publishing software like Aldus PageMaker including versions of Lorem
+            Ipsum.
+          </Tabs.Panel>
+          <Tabs.Panel id="tab33">
             Contrary to popular belief, Lorem Ipsum is not simply random text.
             It has roots in a piece of classical Latin literature from 45 BC,
             making it over 2000 years old. Richard McClintock, a Latin professor
