@@ -204,7 +204,7 @@ const AuthCode = forwardRef<AuthCodeRef, AuthCodeProps>(
             !isValid &&
               'text-chichi shadow-input-err hover:shadow-input-err focus:shadow-input-err',
             disabled &&
-              'opacity-30 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed',
+              'opacity-60 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed',
             stretch && 'flex', // TODO Deprecated.
             stretch && expandable && 'grow', // TODO Deprecated.
             inputClassName // TODO Deprecated.

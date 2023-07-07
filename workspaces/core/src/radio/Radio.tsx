@@ -43,7 +43,7 @@ const Option: React.FC<OptionProps> = ({
     value={value}
     disabled={disabled}
     className={mergeClassnames(
-      'flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30',
+      'flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60',
       'moon-disabled:cursor-default',
       className
     )}

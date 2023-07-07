@@ -66,7 +66,11 @@ const Collapsed: React.FC<BreadcrumbProps> = ({ breadcrumbs, divider }) => {
                 key={'crumb' + index + 1}
                 className="flex items-center gap-2 text-trunks"
               >
-                {divider ? divider : <ArrowsRight className="rtl:rotate-180" />}
+                {divider ? (
+                  divider
+                ) : (
+                  <ArrowsRight className="rtl:rotate-180 text-moon-16" />
+                )}
                 <span
                   className={mergeClassnames(
                     'text-trunks transition-colors duration-200 hover:text-bulma',

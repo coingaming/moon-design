@@ -65,7 +65,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
           size === 'lg' && 'input-lg-dt-shared',
           'input-dt-shared',
           'invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err',
-          disabled && 'opacity-30 cursor-not-allowed',
+          disabled && 'opacity-60 cursor-not-allowed',
           className && className
         )}
         {...rest}

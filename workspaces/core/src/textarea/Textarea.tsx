@@ -24,7 +24,7 @@ const Textarea = forwardRef<HTMLTextAreaElement, TextareaProps>(
           'focus:shadow-textarea-focus focus:outline-none',
           error &&
             'shadow-textarea-err hover:shadow-textarea-err focus:shadow-textarea-err',
-          disabled && 'opacity-30 cursor-not-allowed',
+          disabled && 'opacity-60 cursor-not-allowed',
           className
         )}
         {...rest}

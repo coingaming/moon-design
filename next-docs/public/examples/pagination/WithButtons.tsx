@@ -27,7 +27,7 @@ const Example = () => {
             />
           )}
         </Pagination.PrevButton>
-        <Pagination.Pages />
+        <Pagination.Pages as="button" />
         <Pagination.NextButton as="div">
           {({ disabled }) => (
             <IconButton

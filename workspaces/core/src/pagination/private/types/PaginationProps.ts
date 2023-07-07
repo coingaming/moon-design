@@ -3,6 +3,7 @@ type PaginationProps = {
   currentPage: number;
   setCurrentPage: (page: number) => void;
   totalPages: number;
+  hrefsArray?: string[];
   edgePageCount?: number;
   middlePagesSiblingCount?: number;
 };

@@ -49,7 +49,7 @@ const TextInputBasic = forwardRef<HTMLInputElement, TextInputProps>(
             className={mergeClassnames(
               'block text-bulma pb-2',
               getLabelSize(inputSize),
-              disabled && 'opacity-30 cursor-not-allowed'
+              disabled && 'opacity-60 cursor-not-allowed'
             )}
           >
             {label}

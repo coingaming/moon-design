@@ -9,7 +9,7 @@ Object {
         dir="rtl"
       >
         <div
-          class="w-56 h-80"
+          class="w-56"
         >
           <div
             class="w-full relative"
@@ -141,7 +141,7 @@ Object {
       dir="rtl"
     >
       <div
-        class="w-56 h-80"
+        class="w-56"
       >
         <div
           class="w-full relative"
@@ -357,14 +357,14 @@ Object {
                   class="relative"
                 >
                   <button
-                    class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                    class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                     open=""
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                      class="flex w-full flex-col items-start text-start overflow-hidden"
                     >
                       <span
-                        class="text-moon-16 text-trunks"
+                        class="text-moon-16 w-full text-trunks text-start truncate"
                       >
                         Choose an option
                       </span>
@@ -378,7 +378,7 @@ Object {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M22 13l-6 6-6-6"
+                        d="M22 13L16 19L10 13"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
@@ -606,14 +606,14 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                   open=""
                 >
                   <span
-                    class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="text-moon-16 text-trunks"
+                      class="text-moon-16 w-full text-trunks text-start truncate"
                     >
                       Choose an option
                     </span>
@@ -627,7 +627,7 @@ Object {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M22 13l-6 6-6-6"
+                      d="M22 13L16 19L10 13"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -909,20 +909,20 @@ Object {
                     open=""
                   >
                     <span
-                      class="flex gap-2 items-center"
+                      class="flex gap-2 items-center overflow-hidden"
                     >
                       <span
-                        class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                        class="flex flex-col items-start truncate"
                       >
                         <label
-                          class="block text-moon-12 text-trunks"
+                          class="w-full text-moon-12 text-trunks text-start truncate"
                           data-headlessui-state="open"
                           id="headlessui-listbox-label-:r62:"
                         >
                           Select label
                         </label>
                         <span
-                          class="text-moon-16 text-trunks"
+                          class="text-moon-16 w-full text-trunks text-start truncate"
                         >
                           Choose an option
                         </span>
@@ -937,7 +937,7 @@ Object {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M22 13l-6 6-6-6"
+                        d="M22 13L16 19L10 13"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
@@ -993,7 +993,7 @@ Object {
                           xmlns="http://www.w3.org/2000/svg"
                         >
                           <path
-                            d="M7 14.941L13.667 22 25 10"
+                            d="M7 14.9412L13.6667 22L25 10"
                             stroke="currentColor"
                             stroke-linecap="round"
                             stroke-linejoin="round"
@@ -1036,7 +1036,7 @@ Object {
                           xmlns="http://www.w3.org/2000/svg"
                         >
                           <path
-                            d="M7 14.941L13.667 22 25 10"
+                            d="M7 14.9412L13.6667 22L25 10"
                             stroke="currentColor"
                             stroke-linecap="round"
                             stroke-linejoin="round"
@@ -1079,7 +1079,7 @@ Object {
                           xmlns="http://www.w3.org/2000/svg"
                         >
                           <path
-                            d="M7 14.941L13.667 22 25 10"
+                            d="M7 14.9412L13.6667 22L25 10"
                             stroke="currentColor"
                             stroke-linecap="round"
                             stroke-linejoin="round"
@@ -1122,7 +1122,7 @@ Object {
                           xmlns="http://www.w3.org/2000/svg"
                         >
                           <path
-                            d="M7 14.941L13.667 22 25 10"
+                            d="M7 14.9412L13.6667 22L25 10"
                             stroke="currentColor"
                             stroke-linecap="round"
                             stroke-linejoin="round"
@@ -1165,7 +1165,7 @@ Object {
                           xmlns="http://www.w3.org/2000/svg"
                         >
                           <path
-                            d="M7 14.941L13.667 22 25 10"
+                            d="M7 14.9412L13.6667 22L25 10"
                             stroke="currentColor"
                             stroke-linecap="round"
                             stroke-linejoin="round"
@@ -1208,7 +1208,7 @@ Object {
                           xmlns="http://www.w3.org/2000/svg"
                         >
                           <path
-                            d="M7 14.941L13.667 22 25 10"
+                            d="M7 14.9412L13.6667 22L25 10"
                             stroke="currentColor"
                             stroke-linecap="round"
                             stroke-linejoin="round"
@@ -1260,20 +1260,20 @@ Object {
                   open=""
                 >
                   <span
-                    class="flex gap-2 items-center"
+                    class="flex gap-2 items-center overflow-hidden"
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                      class="flex flex-col items-start truncate"
                     >
                       <label
-                        class="block text-moon-12 text-trunks"
+                        class="w-full text-moon-12 text-trunks text-start truncate"
                         data-headlessui-state="open"
                         id="headlessui-listbox-label-:r62:"
                       >
                         Select label
                       </label>
                       <span
-                        class="text-moon-16 text-trunks"
+                        class="text-moon-16 w-full text-trunks text-start truncate"
                       >
                         Choose an option
                       </span>
@@ -1288,7 +1288,7 @@ Object {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M22 13l-6 6-6-6"
+                      d="M22 13L16 19L10 13"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -1344,7 +1344,7 @@ Object {
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
-                          d="M7 14.941L13.667 22 25 10"
+                          d="M7 14.9412L13.6667 22L25 10"
                           stroke="currentColor"
                           stroke-linecap="round"
                           stroke-linejoin="round"
@@ -1387,7 +1387,7 @@ Object {
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
-                          d="M7 14.941L13.667 22 25 10"
+                          d="M7 14.9412L13.6667 22L25 10"
                           stroke="currentColor"
                           stroke-linecap="round"
                           stroke-linejoin="round"
@@ -1430,7 +1430,7 @@ Object {
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
-                          d="M7 14.941L13.667 22 25 10"
+                          d="M7 14.9412L13.6667 22L25 10"
                           stroke="currentColor"
                           stroke-linecap="round"
                           stroke-linejoin="round"
@@ -1473,7 +1473,7 @@ Object {
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
-                          d="M7 14.941L13.667 22 25 10"
+                          d="M7 14.9412L13.6667 22L25 10"
                           stroke="currentColor"
                           stroke-linecap="round"
                           stroke-linejoin="round"
@@ -1516,7 +1516,7 @@ Object {
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
-                          d="M7 14.941L13.667 22 25 10"
+                          d="M7 14.9412L13.6667 22L25 10"
                           stroke="currentColor"
                           stroke-linecap="round"
                           stroke-linejoin="round"
@@ -1559,7 +1559,7 @@ Object {
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
-                          d="M7 14.941L13.667 22 25 10"
+                          d="M7 14.9412L13.6667 22L25 10"
                           stroke="currentColor"
                           stroke-linecap="round"
                           stroke-linejoin="round"
@@ -1668,20 +1668,20 @@ Object {
                     open=""
                   >
                     <span
-                      class="flex gap-2 items-center"
+                      class="flex gap-2 items-center overflow-hidden"
                     >
                       <span
-                        class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                        class="flex flex-col items-start truncate"
                       >
                         <label
-                          class="block text-moon-12 text-trunks"
+                          class="w-full text-moon-12 text-trunks text-start truncate"
                           data-headlessui-state="open"
                           id="headlessui-listbox-label-:r5p:"
                         >
                           Select label
                         </label>
                         <span
-                          class="text-moon-16 text-trunks"
+                          class="text-moon-16 w-full text-trunks text-start truncate"
                         >
                           Choose an option
                         </span>
@@ -1696,7 +1696,7 @@ Object {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M22 13l-6 6-6-6"
+                        d="M22 13L16 19L10 13"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
@@ -1916,20 +1916,20 @@ Object {
                   open=""
                 >
                   <span
-                    class="flex gap-2 items-center"
+                    class="flex gap-2 items-center overflow-hidden"
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                      class="flex flex-col items-start truncate"
                     >
                       <label
-                        class="block text-moon-12 text-trunks"
+                        class="w-full text-moon-12 text-trunks text-start truncate"
                         data-headlessui-state="open"
                         id="headlessui-listbox-label-:r5p:"
                       >
                         Select label
                       </label>
                       <span
-                        class="text-moon-16 text-trunks"
+                        class="text-moon-16 w-full text-trunks text-start truncate"
                       >
                         Choose an option
                       </span>
@@ -1944,7 +1944,7 @@ Object {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M22 13l-6 6-6-6"
+                      d="M22 13L16 19L10 13"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -2221,20 +2221,20 @@ Object {
                     open=""
                   >
                     <span
-                      class="flex gap-2 items-center"
+                      class="flex gap-2 items-center overflow-hidden"
                     >
                       <span
-                        class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                        class="flex flex-col items-start truncate"
                       >
                         <label
-                          class="block text-moon-12 text-trunks"
+                          class="w-full text-moon-12 text-trunks text-start truncate"
                           data-headlessui-state="open"
                           id="headlessui-listbox-label-:r6b:"
                         >
                           Error
                         </label>
                         <span
-                          class="text-moon-16 text-bulma"
+                          class="text-moon-16 w-full text-bulma truncate"
                         >
                           Devon Webb
                         </span>
@@ -2249,7 +2249,7 @@ Object {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M22 13l-6 6-6-6"
+                        d="M22 13L16 19L10 13"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
@@ -2382,23 +2382,23 @@ Object {
                   class="relative"
                 >
                   <button
-                    class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md opacity-30 cursor-not-allowed hover:shadow-input"
+                    class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md opacity-60 cursor-not-allowed hover:shadow-input"
                   >
                     <span
-                      class="flex gap-2 items-center"
+                      class="flex gap-2 items-center overflow-hidden"
                     >
                       <span
-                        class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                        class="flex flex-col items-start truncate"
                       >
                         <label
-                          class="block text-moon-12 text-trunks"
+                          class="w-full text-moon-12 text-trunks text-start truncate"
                           data-headlessui-state="disabled"
                           id="headlessui-listbox-label-:r6e:"
                         >
                           Disabled
                         </label>
                         <span
-                          class="text-moon-16 text-bulma"
+                          class="text-moon-16 w-full text-bulma truncate"
                         >
                           Wade Cooper
                         </span>
@@ -2413,7 +2413,7 @@ Object {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M22 13l-6 6-6-6"
+                        d="M22 13L16 19L10 13"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
@@ -2423,7 +2423,7 @@ Object {
                 </div>
               </div>
               <p
-                class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
+                class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-60 cursor-not-allowed"
                 role="alert"
               >
                 Informative message holder
@@ -2450,18 +2450,18 @@ Object {
                     class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
                   >
                     <span
-                      class="flex gap-2 items-center"
+                      class="flex gap-2 items-center overflow-hidden"
                     >
                       <span
-                        class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                        class="flex flex-col items-start truncate"
                       >
                         <label
-                          class="block text-moon-12 text-trunks"
+                          class="w-full text-moon-12 text-trunks text-start truncate"
                           data-headlessui-state=""
                           id="headlessui-listbox-label-:r6h:"
                         />
                         <span
-                          class="text-moon-16 text-trunks"
+                          class="text-moon-16 w-full text-trunks text-start truncate"
                         >
                           Without Label and Hint message
                         </span>
@@ -2476,7 +2476,7 @@ Object {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M22 13l-6 6-6-6"
+                        d="M22 13L16 19L10 13"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
@@ -2507,20 +2507,20 @@ Object {
                     class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
                   >
                     <span
-                      class="flex gap-2 items-center"
+                      class="flex gap-2 items-center overflow-hidden"
                     >
                       <span
-                        class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                        class="flex flex-col items-start truncate"
                       >
                         <label
-                          class="block text-moon-12 text-trunks"
+                          class="w-full text-moon-12 text-trunks text-start truncate"
                           data-headlessui-state=""
                           id="headlessui-listbox-label-:r6k:"
                         >
                           List options width
                         </label>
                         <span
-                          class="text-moon-16 text-trunks"
+                          class="text-moon-16 w-full text-trunks text-start truncate"
                         >
                           Choose an option
                         </span>
@@ -2535,7 +2535,7 @@ Object {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M22 13l-6 6-6-6"
+                        d="M22 13L16 19L10 13"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
@@ -2585,20 +2585,20 @@ Object {
                   open=""
                 >
                   <span
-                    class="flex gap-2 items-center"
+                    class="flex gap-2 items-center overflow-hidden"
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                      class="flex flex-col items-start truncate"
                     >
                       <label
-                        class="block text-moon-12 text-trunks"
+                        class="w-full text-moon-12 text-trunks text-start truncate"
                         data-headlessui-state="open"
                         id="headlessui-listbox-label-:r6b:"
                       >
                         Error
                       </label>
                       <span
-                        class="text-moon-16 text-bulma"
+                        class="text-moon-16 w-full text-bulma truncate"
                       >
                         Devon Webb
                       </span>
@@ -2613,7 +2613,7 @@ Object {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M22 13l-6 6-6-6"
+                      d="M22 13L16 19L10 13"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -2746,23 +2746,23 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md opacity-30 cursor-not-allowed hover:shadow-input"
+                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md opacity-60 cursor-not-allowed hover:shadow-input"
                 >
                   <span
-                    class="flex gap-2 items-center"
+                    class="flex gap-2 items-center overflow-hidden"
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                      class="flex flex-col items-start truncate"
                     >
                       <label
-                        class="block text-moon-12 text-trunks"
+                        class="w-full text-moon-12 text-trunks text-start truncate"
                         data-headlessui-state="disabled"
                         id="headlessui-listbox-label-:r6e:"
                       >
                         Disabled
                       </label>
                       <span
-                        class="text-moon-16 text-bulma"
+                        class="text-moon-16 w-full text-bulma truncate"
                       >
                         Wade Cooper
                       </span>
@@ -2777,7 +2777,7 @@ Object {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M22 13l-6 6-6-6"
+                      d="M22 13L16 19L10 13"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -2787,7 +2787,7 @@ Object {
               </div>
             </div>
             <p
-              class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
+              class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-60 cursor-not-allowed"
               role="alert"
             >
               Informative message holder
@@ -2814,18 +2814,18 @@ Object {
                   class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
                 >
                   <span
-                    class="flex gap-2 items-center"
+                    class="flex gap-2 items-center overflow-hidden"
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                      class="flex flex-col items-start truncate"
                     >
                       <label
-                        class="block text-moon-12 text-trunks"
+                        class="w-full text-moon-12 text-trunks text-start truncate"
                         data-headlessui-state=""
                         id="headlessui-listbox-label-:r6h:"
                       />
                       <span
-                        class="text-moon-16 text-trunks"
+                        class="text-moon-16 w-full text-trunks text-start truncate"
                       >
                         Without Label and Hint message
                       </span>
@@ -2840,7 +2840,7 @@ Object {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M22 13l-6 6-6-6"
+                      d="M22 13L16 19L10 13"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -2871,20 +2871,20 @@ Object {
                   class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
                 >
                   <span
-                    class="flex gap-2 items-center"
+                    class="flex gap-2 items-center overflow-hidden"
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                      class="flex flex-col items-start truncate"
                     >
                       <label
-                        class="block text-moon-12 text-trunks"
+                        class="w-full text-moon-12 text-trunks text-start truncate"
                         data-headlessui-state=""
                         id="headlessui-listbox-label-:r6k:"
                       >
                         List options width
                       </label>
                       <span
-                        class="text-moon-16 text-trunks"
+                        class="text-moon-16 w-full text-trunks text-start truncate"
                       >
                         Choose an option
                       </span>
@@ -2899,7 +2899,7 @@ Object {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M22 13l-6 6-6-6"
+                      d="M22 13L16 19L10 13"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -3009,17 +3009,17 @@ Object {
                   class="relative"
                 >
                   <button
-                    class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 py-1 px-2 rounded-moon-i-xs"
+                    class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 py-1 px-2 rounded-moon-i-xs"
                     open=""
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                      class="flex w-full flex-col items-start text-start overflow-hidden"
                     >
                       <span
-                        class="flex gap-2 items-center"
+                        class="flex w-full gap-2 items-center"
                       >
                         <span
-                          class="text-moon-14 text-trunks"
+                          class="text-moon-14 w-full text-trunks text-start truncate"
                         >
                           Choose an option
                         </span>
@@ -3034,7 +3034,7 @@ Object {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M22 13l-6 6-6-6"
+                        d="M22 13L16 19L10 13"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
@@ -3090,7 +3090,7 @@ Object {
                           xmlns="http://www.w3.org/2000/svg"
                         >
                           <path
-                            d="M7 14.941L13.667 22 25 10"
+                            d="M7 14.9412L13.6667 22L25 10"
                             stroke="currentColor"
                             stroke-linecap="round"
                             stroke-linejoin="round"
@@ -3133,7 +3133,7 @@ Object {
                           xmlns="http://www.w3.org/2000/svg"
                         >
                           <path
-                            d="M7 14.941L13.667 22 25 10"
+                            d="M7 14.9412L13.6667 22L25 10"
                             stroke="currentColor"
                             stroke-linecap="round"
                             stroke-linejoin="round"
@@ -3176,7 +3176,7 @@ Object {
                           xmlns="http://www.w3.org/2000/svg"
                         >
                           <path
-                            d="M7 14.941L13.667 22 25 10"
+                            d="M7 14.9412L13.6667 22L25 10"
                             stroke="currentColor"
                             stroke-linecap="round"
                             stroke-linejoin="round"
@@ -3219,7 +3219,7 @@ Object {
                           xmlns="http://www.w3.org/2000/svg"
                         >
                           <path
-                            d="M7 14.941L13.667 22 25 10"
+                            d="M7 14.9412L13.6667 22L25 10"
                             stroke="currentColor"
                             stroke-linecap="round"
                             stroke-linejoin="round"
@@ -3262,7 +3262,7 @@ Object {
                           xmlns="http://www.w3.org/2000/svg"
                         >
                           <path
-                            d="M7 14.941L13.667 22 25 10"
+                            d="M7 14.9412L13.6667 22L25 10"
                             stroke="currentColor"
                             stroke-linecap="round"
                             stroke-linejoin="round"
@@ -3305,7 +3305,7 @@ Object {
                           xmlns="http://www.w3.org/2000/svg"
                         >
                           <path
-                            d="M7 14.941L13.667 22 25 10"
+                            d="M7 14.9412L13.6667 22L25 10"
                             stroke="currentColor"
                             stroke-linecap="round"
                             stroke-linejoin="round"
@@ -3348,17 +3348,17 @@ Object {
                   class="relative"
                 >
                   <button
-                    class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                    class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                     data-test="data-test"
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                      class="flex w-full flex-col items-start text-start overflow-hidden"
                     >
                       <span
-                        class="flex gap-2 items-center"
+                        class="flex w-full gap-2 items-center"
                       >
                         <span
-                          class="text-moon-16 text-trunks"
+                          class="text-moon-16 w-full text-trunks text-start truncate"
                         >
                           Choose an option
                         </span>
@@ -3373,7 +3373,7 @@ Object {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M22 13l-6 6-6-6"
+                        d="M22 13L16 19L10 13"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
@@ -3414,16 +3414,16 @@ Object {
                   class="relative"
                 >
                   <button
-                    class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 p-3 rounded-moon-i-sm"
+                    class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 p-3 rounded-moon-i-sm"
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                      class="flex w-full flex-col items-start text-start overflow-hidden"
                     >
                       <span
-                        class="flex gap-2 items-center"
+                        class="flex w-full gap-2 items-center"
                       >
                         <span
-                          class="text-moon-16 text-trunks"
+                          class="text-moon-16 w-full text-trunks text-start truncate"
                         >
                           Choose an option
                         </span>
@@ -3438,7 +3438,7 @@ Object {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M22 13l-6 6-6-6"
+                        d="M22 13L16 19L10 13"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
@@ -3491,17 +3491,17 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 py-1 px-2 rounded-moon-i-xs"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 py-1 px-2 rounded-moon-i-xs"
                   open=""
                 >
                   <span
-                    class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="flex gap-2 items-center"
+                      class="flex w-full gap-2 items-center"
                     >
                       <span
-                        class="text-moon-14 text-trunks"
+                        class="text-moon-14 w-full text-trunks text-start truncate"
                       >
                         Choose an option
                       </span>
@@ -3516,7 +3516,7 @@ Object {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M22 13l-6 6-6-6"
+                      d="M22 13L16 19L10 13"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -3572,7 +3572,7 @@ Object {
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
-                          d="M7 14.941L13.667 22 25 10"
+                          d="M7 14.9412L13.6667 22L25 10"
                           stroke="currentColor"
                           stroke-linecap="round"
                           stroke-linejoin="round"
@@ -3615,7 +3615,7 @@ Object {
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
-                          d="M7 14.941L13.667 22 25 10"
+                          d="M7 14.9412L13.6667 22L25 10"
                           stroke="currentColor"
                           stroke-linecap="round"
                           stroke-linejoin="round"
@@ -3658,7 +3658,7 @@ Object {
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
-                          d="M7 14.941L13.667 22 25 10"
+                          d="M7 14.9412L13.6667 22L25 10"
                           stroke="currentColor"
                           stroke-linecap="round"
                           stroke-linejoin="round"
@@ -3701,7 +3701,7 @@ Object {
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
-                          d="M7 14.941L13.667 22 25 10"
+                          d="M7 14.9412L13.6667 22L25 10"
                           stroke="currentColor"
                           stroke-linecap="round"
                           stroke-linejoin="round"
@@ -3744,7 +3744,7 @@ Object {
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
-                          d="M7 14.941L13.667 22 25 10"
+                          d="M7 14.9412L13.6667 22L25 10"
                           stroke="currentColor"
                           stroke-linecap="round"
                           stroke-linejoin="round"
@@ -3787,7 +3787,7 @@ Object {
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
-                          d="M7 14.941L13.667 22 25 10"
+                          d="M7 14.9412L13.6667 22L25 10"
                           stroke="currentColor"
                           stroke-linecap="round"
                           stroke-linejoin="round"
@@ -3830,17 +3830,17 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                   data-test="data-test"
                 >
                   <span
-                    class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="flex gap-2 items-center"
+                      class="flex w-full gap-2 items-center"
                     >
                       <span
-                        class="text-moon-16 text-trunks"
+                        class="text-moon-16 w-full text-trunks text-start truncate"
                       >
                         Choose an option
                       </span>
@@ -3855,7 +3855,7 @@ Object {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M22 13l-6 6-6-6"
+                      d="M22 13L16 19L10 13"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -3896,16 +3896,16 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 p-3 rounded-moon-i-sm"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 p-3 rounded-moon-i-sm"
                 >
                   <span
-                    class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="flex gap-2 items-center"
+                      class="flex w-full gap-2 items-center"
                     >
                       <span
-                        class="text-moon-16 text-trunks"
+                        class="text-moon-16 w-full text-trunks text-start truncate"
                       >
                         Choose an option
                       </span>
@@ -3920,7 +3920,7 @@ Object {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M22 13l-6 6-6-6"
+                      d="M22 13L16 19L10 13"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -4523,14 +4523,14 @@ Object {
                   class="relative"
                 >
                   <button
-                    class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 py-1 px-2 rounded-moon-i-xs"
+                    class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 py-1 px-2 rounded-moon-i-xs"
                     open=""
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                      class="flex w-full flex-col items-start text-start overflow-hidden"
                     >
                       <span
-                        class="text-moon-14 text-trunks"
+                        class="text-moon-14 w-full text-trunks text-start truncate"
                       >
                         Choose an option
                       </span>
@@ -4544,7 +4544,7 @@ Object {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M22 13l-6 6-6-6"
+                        d="M22 13L16 19L10 13"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
@@ -4755,13 +4755,13 @@ Object {
                   class="relative"
                 >
                   <button
-                    class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                    class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                      class="flex w-full flex-col items-start text-start overflow-hidden"
                     >
                       <span
-                        class="text-moon-16 text-trunks"
+                        class="text-moon-16 w-full text-trunks text-start truncate"
                       >
                         Choose an option
                       </span>
@@ -4775,7 +4775,7 @@ Object {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M22 13l-6 6-6-6"
+                        d="M22 13L16 19L10 13"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
@@ -4816,13 +4816,13 @@ Object {
                   class="relative"
                 >
                   <button
-                    class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 p-3 rounded-moon-i-sm"
+                    class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 p-3 rounded-moon-i-sm"
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                      class="flex w-full flex-col items-start text-start overflow-hidden"
                     >
                       <span
-                        class="text-moon-16 text-trunks"
+                        class="text-moon-16 w-full text-trunks text-start truncate"
                       >
                         Choose an option
                       </span>
@@ -4836,7 +4836,7 @@ Object {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M22 13l-6 6-6-6"
+                        d="M22 13L16 19L10 13"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
@@ -4889,14 +4889,14 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 py-1 px-2 rounded-moon-i-xs"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 py-1 px-2 rounded-moon-i-xs"
                   open=""
                 >
                   <span
-                    class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="text-moon-14 text-trunks"
+                      class="text-moon-14 w-full text-trunks text-start truncate"
                     >
                       Choose an option
                     </span>
@@ -4910,7 +4910,7 @@ Object {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M22 13l-6 6-6-6"
+                      d="M22 13L16 19L10 13"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -5121,13 +5121,13 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                 >
                   <span
-                    class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="text-moon-16 text-trunks"
+                      class="text-moon-16 w-full text-trunks text-start truncate"
                     >
                       Choose an option
                     </span>
@@ -5141,7 +5141,7 @@ Object {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M22 13l-6 6-6-6"
+                      d="M22 13L16 19L10 13"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -5182,13 +5182,13 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 p-3 rounded-moon-i-sm"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 p-3 rounded-moon-i-sm"
                 >
                   <span
-                    class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="text-moon-16 text-trunks"
+                      class="text-moon-16 w-full text-trunks text-start truncate"
                     >
                       Choose an option
                     </span>
@@ -5202,7 +5202,7 @@ Object {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M22 13l-6 6-6-6"
+                      d="M22 13L16 19L10 13"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -5312,14 +5312,14 @@ Object {
                   class="relative"
                 >
                   <button
-                    class="flex items-center justify-between w-full bg-gohan border-beerus transition-shadow duration-200 focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+                    class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus transition-shadow duration-200 focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
                     open=""
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                      class="flex w-full flex-col items-start text-start overflow-hidden"
                     >
                       <span
-                        class="text-moon-16 text-bulma"
+                        class="text-moon-16 w-full text-bulma truncate"
                       >
                         Devon Webb
                       </span>
@@ -5333,7 +5333,7 @@ Object {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M22 13l-6 6-6-6"
+                        d="M22 13L16 19L10 13"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
@@ -5456,7 +5456,7 @@ Object {
               class="relative"
             >
               <label
-                class="block text-bulma pb-2 text-moon-16 opacity-30 cursor-not-allowed"
+                class="block text-bulma pb-2 text-moon-16 opacity-60 cursor-not-allowed"
                 data-headlessui-state="disabled"
                 id="headlessui-listbox-label-:r5a:"
               >
@@ -5473,13 +5473,13 @@ Object {
                   class="relative"
                 >
                   <button
-                    class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-30 cursor-not-allowed hover:shadow-input"
+                    class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-60 cursor-not-allowed hover:shadow-input"
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                      class="flex w-full flex-col items-start text-start overflow-hidden"
                     >
                       <span
-                        class="text-moon-16 text-bulma"
+                        class="text-moon-16 w-full text-bulma truncate"
                       >
                         Wade Cooper
                       </span>
@@ -5493,7 +5493,7 @@ Object {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M22 13l-6 6-6-6"
+                        d="M22 13L16 19L10 13"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
@@ -5503,7 +5503,7 @@ Object {
                 </div>
               </div>
               <p
-                class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
+                class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-60 cursor-not-allowed"
                 role="alert"
               >
                 Informative message holder
@@ -5526,13 +5526,13 @@ Object {
                   class="relative"
                 >
                   <button
-                    class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                    class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                      class="flex w-full flex-col items-start text-start overflow-hidden"
                     >
                       <span
-                        class="text-moon-16 text-trunks"
+                        class="text-moon-16 w-full text-trunks text-start truncate"
                       >
                         Without Label and Hint message
                       </span>
@@ -5546,7 +5546,7 @@ Object {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M22 13l-6 6-6-6"
+                        d="M22 13L16 19L10 13"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
@@ -5581,13 +5581,13 @@ Object {
                   class="relative"
                 >
                   <button
-                    class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                    class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                      class="flex w-full flex-col items-start text-start overflow-hidden"
                     >
                       <span
-                        class="text-moon-16 text-trunks"
+                        class="text-moon-16 w-full text-trunks text-start truncate"
                       >
                         Choose an option
                       </span>
@@ -5601,7 +5601,7 @@ Object {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M22 13l-6 6-6-6"
+                        d="M22 13L16 19L10 13"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
@@ -5654,14 +5654,14 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus transition-shadow duration-200 focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus transition-shadow duration-200 focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
                   open=""
                 >
                   <span
-                    class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="text-moon-16 text-bulma"
+                      class="text-moon-16 w-full text-bulma truncate"
                     >
                       Devon Webb
                     </span>
@@ -5675,7 +5675,7 @@ Object {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M22 13l-6 6-6-6"
+                      d="M22 13L16 19L10 13"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -5798,7 +5798,7 @@ Object {
             class="relative"
           >
             <label
-              class="block text-bulma pb-2 text-moon-16 opacity-30 cursor-not-allowed"
+              class="block text-bulma pb-2 text-moon-16 opacity-60 cursor-not-allowed"
               data-headlessui-state="disabled"
               id="headlessui-listbox-label-:r5a:"
             >
@@ -5815,13 +5815,13 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-30 cursor-not-allowed hover:shadow-input"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-60 cursor-not-allowed hover:shadow-input"
                 >
                   <span
-                    class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="text-moon-16 text-bulma"
+                      class="text-moon-16 w-full text-bulma truncate"
                     >
                       Wade Cooper
                     </span>
@@ -5835,7 +5835,7 @@ Object {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M22 13l-6 6-6-6"
+                      d="M22 13L16 19L10 13"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -5845,7 +5845,7 @@ Object {
               </div>
             </div>
             <p
-              class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
+              class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-60 cursor-not-allowed"
               role="alert"
             >
               Informative message holder
@@ -5868,13 +5868,13 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                 >
                   <span
-                    class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="text-moon-16 text-trunks"
+                      class="text-moon-16 w-full text-trunks text-start truncate"
                     >
                       Without Label and Hint message
                     </span>
@@ -5888,7 +5888,7 @@ Object {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M22 13l-6 6-6-6"
+                      d="M22 13L16 19L10 13"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -5923,13 +5923,13 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                 >
                   <span
-                    class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="text-moon-16 text-trunks"
+                      class="text-moon-16 w-full text-trunks text-start truncate"
                     >
                       Choose an option
                     </span>
@@ -5943,7 +5943,7 @@ Object {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M22 13l-6 6-6-6"
+                      d="M22 13L16 19L10 13"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -6500,7 +6500,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="w-56 h-80"
+        class="w-56"
       >
         <div
           class="w-full relative"
@@ -6628,7 +6628,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="w-56 h-80"
+      class="w-56"
     >
       <div
         class="w-full relative"
@@ -6837,20 +6837,20 @@ Object {
                   open=""
                 >
                   <span
-                    class="flex gap-2 items-center"
+                    class="flex gap-2 items-center overflow-hidden"
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                      class="flex flex-col items-start truncate"
                     >
                       <label
-                        class="block text-moon-12 text-trunks"
+                        class="w-full text-moon-12 text-trunks text-start truncate"
                         data-headlessui-state="open"
                         id="headlessui-listbox-label-:r28:"
                       >
                         Select label
                       </label>
                       <span
-                        class="text-moon-16 text-trunks"
+                        class="text-moon-16 w-full text-trunks text-start truncate"
                       >
                         Choose an option
                       </span>
@@ -6865,7 +6865,7 @@ Object {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M22 13l-6 6-6-6"
+                      d="M22 13L16 19L10 13"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -6921,7 +6921,7 @@ Object {
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
-                          d="M7 14.941L13.667 22 25 10"
+                          d="M7 14.9412L13.6667 22L25 10"
                           stroke="currentColor"
                           stroke-linecap="round"
                           stroke-linejoin="round"
@@ -6964,7 +6964,7 @@ Object {
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
-                          d="M7 14.941L13.667 22 25 10"
+                          d="M7 14.9412L13.6667 22L25 10"
                           stroke="currentColor"
                           stroke-linecap="round"
                           stroke-linejoin="round"
@@ -7007,7 +7007,7 @@ Object {
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
-                          d="M7 14.941L13.667 22 25 10"
+                          d="M7 14.9412L13.6667 22L25 10"
                           stroke="currentColor"
                           stroke-linecap="round"
                           stroke-linejoin="round"
@@ -7050,7 +7050,7 @@ Object {
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
-                          d="M7 14.941L13.667 22 25 10"
+                          d="M7 14.9412L13.6667 22L25 10"
                           stroke="currentColor"
                           stroke-linecap="round"
                           stroke-linejoin="round"
@@ -7093,7 +7093,7 @@ Object {
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
-                          d="M7 14.941L13.667 22 25 10"
+                          d="M7 14.9412L13.6667 22L25 10"
                           stroke="currentColor"
                           stroke-linecap="round"
                           stroke-linejoin="round"
@@ -7136,7 +7136,7 @@ Object {
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
-                          d="M7 14.941L13.667 22 25 10"
+                          d="M7 14.9412L13.6667 22L25 10"
                           stroke="currentColor"
                           stroke-linecap="round"
                           stroke-linejoin="round"
@@ -7184,20 +7184,20 @@ Object {
                 open=""
               >
                 <span
-                  class="flex gap-2 items-center"
+                  class="flex gap-2 items-center overflow-hidden"
                 >
                   <span
-                    class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                    class="flex flex-col items-start truncate"
                   >
                     <label
-                      class="block text-moon-12 text-trunks"
+                      class="w-full text-moon-12 text-trunks text-start truncate"
                       data-headlessui-state="open"
                       id="headlessui-listbox-label-:r28:"
                     >
                       Select label
                     </label>
                     <span
-                      class="text-moon-16 text-trunks"
+                      class="text-moon-16 w-full text-trunks text-start truncate"
                     >
                       Choose an option
                     </span>
@@ -7212,7 +7212,7 @@ Object {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M22 13l-6 6-6-6"
+                    d="M22 13L16 19L10 13"
                     stroke="currentColor"
                     stroke-linecap="round"
                     stroke-linejoin="round"
@@ -7268,7 +7268,7 @@ Object {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M7 14.941L13.667 22 25 10"
+                        d="M7 14.9412L13.6667 22L25 10"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
@@ -7311,7 +7311,7 @@ Object {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M7 14.941L13.667 22 25 10"
+                        d="M7 14.9412L13.6667 22L25 10"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
@@ -7354,7 +7354,7 @@ Object {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M7 14.941L13.667 22 25 10"
+                        d="M7 14.9412L13.6667 22L25 10"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
@@ -7397,7 +7397,7 @@ Object {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M7 14.941L13.667 22 25 10"
+                        d="M7 14.9412L13.6667 22L25 10"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
@@ -7440,7 +7440,7 @@ Object {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M7 14.941L13.667 22 25 10"
+                        d="M7 14.9412L13.6667 22L25 10"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
@@ -7483,7 +7483,7 @@ Object {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M7 14.941L13.667 22 25 10"
+                        d="M7 14.9412L13.6667 22L25 10"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
@@ -7588,20 +7588,20 @@ Object {
                   open=""
                 >
                   <span
-                    class="flex gap-2 items-center"
+                    class="flex gap-2 items-center overflow-hidden"
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                      class="flex flex-col items-start truncate"
                     >
                       <label
-                        class="block text-moon-12 text-trunks"
+                        class="w-full text-moon-12 text-trunks text-start truncate"
                         data-headlessui-state="open"
                         id="headlessui-listbox-label-:r1v:"
                       >
                         Select label
                       </label>
                       <span
-                        class="text-moon-16 text-trunks"
+                        class="text-moon-16 w-full text-trunks text-start truncate"
                       >
                         Choose an option
                       </span>
@@ -7616,7 +7616,7 @@ Object {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M22 13l-6 6-6-6"
+                      d="M22 13L16 19L10 13"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -7832,20 +7832,20 @@ Object {
                 open=""
               >
                 <span
-                  class="flex gap-2 items-center"
+                  class="flex gap-2 items-center overflow-hidden"
                 >
                   <span
-                    class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                    class="flex flex-col items-start truncate"
                   >
                     <label
-                      class="block text-moon-12 text-trunks"
+                      class="w-full text-moon-12 text-trunks text-start truncate"
                       data-headlessui-state="open"
                       id="headlessui-listbox-label-:r1v:"
                     >
                       Select label
                     </label>
                     <span
-                      class="text-moon-16 text-trunks"
+                      class="text-moon-16 w-full text-trunks text-start truncate"
                     >
                       Choose an option
                     </span>
@@ -7860,7 +7860,7 @@ Object {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M22 13l-6 6-6-6"
+                    d="M22 13L16 19L10 13"
                     stroke="currentColor"
                     stroke-linecap="round"
                     stroke-linejoin="round"
@@ -8133,20 +8133,20 @@ Object {
                   open=""
                 >
                   <span
-                    class="flex gap-2 items-center"
+                    class="flex gap-2 items-center overflow-hidden"
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                      class="flex flex-col items-start truncate"
                     >
                       <label
-                        class="block text-moon-12 text-trunks"
+                        class="w-full text-moon-12 text-trunks text-start truncate"
                         data-headlessui-state="open"
                         id="headlessui-listbox-label-:r2h:"
                       >
                         Error
                       </label>
                       <span
-                        class="text-moon-16 text-bulma"
+                        class="text-moon-16 w-full text-bulma truncate"
                       >
                         Devon Webb
                       </span>
@@ -8161,7 +8161,7 @@ Object {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M22 13l-6 6-6-6"
+                      d="M22 13L16 19L10 13"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -8294,23 +8294,23 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md opacity-30 cursor-not-allowed hover:shadow-input"
+                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md opacity-60 cursor-not-allowed hover:shadow-input"
                 >
                   <span
-                    class="flex gap-2 items-center"
+                    class="flex gap-2 items-center overflow-hidden"
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                      class="flex flex-col items-start truncate"
                     >
                       <label
-                        class="block text-moon-12 text-trunks"
+                        class="w-full text-moon-12 text-trunks text-start truncate"
                         data-headlessui-state="disabled"
                         id="headlessui-listbox-label-:r2k:"
                       >
                         Disabled
                       </label>
                       <span
-                        class="text-moon-16 text-bulma"
+                        class="text-moon-16 w-full text-bulma truncate"
                       >
                         Wade Cooper
                       </span>
@@ -8325,7 +8325,7 @@ Object {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M22 13l-6 6-6-6"
+                      d="M22 13L16 19L10 13"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -8335,7 +8335,7 @@ Object {
               </div>
             </div>
             <p
-              class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
+              class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-60 cursor-not-allowed"
               role="alert"
             >
               Informative message holder
@@ -8362,18 +8362,18 @@ Object {
                   class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
                 >
                   <span
-                    class="flex gap-2 items-center"
+                    class="flex gap-2 items-center overflow-hidden"
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                      class="flex flex-col items-start truncate"
                     >
                       <label
-                        class="block text-moon-12 text-trunks"
+                        class="w-full text-moon-12 text-trunks text-start truncate"
                         data-headlessui-state=""
                         id="headlessui-listbox-label-:r2n:"
                       />
                       <span
-                        class="text-moon-16 text-trunks"
+                        class="text-moon-16 w-full text-trunks text-start truncate"
                       >
                         Without Label and Hint message
                       </span>
@@ -8388,7 +8388,7 @@ Object {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M22 13l-6 6-6-6"
+                      d="M22 13L16 19L10 13"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -8419,20 +8419,20 @@ Object {
                   class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
                 >
                   <span
-                    class="flex gap-2 items-center"
+                    class="flex gap-2 items-center overflow-hidden"
                   >
                     <span
-                      class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                      class="flex flex-col items-start truncate"
                     >
                       <label
-                        class="block text-moon-12 text-trunks"
+                        class="w-full text-moon-12 text-trunks text-start truncate"
                         data-headlessui-state=""
                         id="headlessui-listbox-label-:r2q:"
                       >
                         List options width
                       </label>
                       <span
-                        class="text-moon-16 text-trunks"
+                        class="text-moon-16 w-full text-trunks text-start truncate"
                       >
                         Choose an option
                       </span>
@@ -8447,7 +8447,7 @@ Object {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M22 13l-6 6-6-6"
+                      d="M22 13L16 19L10 13"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -8493,20 +8493,20 @@ Object {
                 open=""
               >
                 <span
-                  class="flex gap-2 items-center"
+                  class="flex gap-2 items-center overflow-hidden"
                 >
                   <span
-                    class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                    class="flex flex-col items-start truncate"
                   >
                     <label
-                      class="block text-moon-12 text-trunks"
+                      class="w-full text-moon-12 text-trunks text-start truncate"
                       data-headlessui-state="open"
                       id="headlessui-listbox-label-:r2h:"
                     >
                       Error
                     </label>
                     <span
-                      class="text-moon-16 text-bulma"
+                      class="text-moon-16 w-full text-bulma truncate"
                     >
                       Devon Webb
                     </span>
@@ -8521,7 +8521,7 @@ Object {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M22 13l-6 6-6-6"
+                    d="M22 13L16 19L10 13"
                     stroke="currentColor"
                     stroke-linecap="round"
                     stroke-linejoin="round"
@@ -8654,23 +8654,23 @@ Object {
               class="relative"
             >
               <button
-                class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md opacity-30 cursor-not-allowed hover:shadow-input"
+                class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md opacity-60 cursor-not-allowed hover:shadow-input"
               >
                 <span
-                  class="flex gap-2 items-center"
+                  class="flex gap-2 items-center overflow-hidden"
                 >
                   <span
-                    class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                    class="flex flex-col items-start truncate"
                   >
                     <label
-                      class="block text-moon-12 text-trunks"
+                      class="w-full text-moon-12 text-trunks text-start truncate"
                       data-headlessui-state="disabled"
                       id="headlessui-listbox-label-:r2k:"
                     >
                       Disabled
                     </label>
                     <span
-                      class="text-moon-16 text-bulma"
+                      class="text-moon-16 w-full text-bulma truncate"
                     >
                       Wade Cooper
                     </span>
@@ -8685,7 +8685,7 @@ Object {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M22 13l-6 6-6-6"
+                    d="M22 13L16 19L10 13"
                     stroke="currentColor"
                     stroke-linecap="round"
                     stroke-linejoin="round"
@@ -8695,7 +8695,7 @@ Object {
             </div>
           </div>
           <p
-            class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
+            class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-60 cursor-not-allowed"
             role="alert"
           >
             Informative message holder
@@ -8722,18 +8722,18 @@ Object {
                 class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
               >
                 <span
-                  class="flex gap-2 items-center"
+                  class="flex gap-2 items-center overflow-hidden"
                 >
                   <span
-                    class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                    class="flex flex-col items-start truncate"
                   >
                     <label
-                      class="block text-moon-12 text-trunks"
+                      class="w-full text-moon-12 text-trunks text-start truncate"
                       data-headlessui-state=""
                       id="headlessui-listbox-label-:r2n:"
                     />
                     <span
-                      class="text-moon-16 text-trunks"
+                      class="text-moon-16 w-full text-trunks text-start truncate"
                     >
                       Without Label and Hint message
                     </span>
@@ -8748,7 +8748,7 @@ Object {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M22 13l-6 6-6-6"
+                    d="M22 13L16 19L10 13"
                     stroke="currentColor"
                     stroke-linecap="round"
                     stroke-linejoin="round"
@@ -8779,20 +8779,20 @@ Object {
                 class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
               >
                 <span
-                  class="flex gap-2 items-center"
+                  class="flex gap-2 items-center overflow-hidden"
                 >
                   <span
-                    class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                    class="flex flex-col items-start truncate"
                   >
                     <label
-                      class="block text-moon-12 text-trunks"
+                      class="w-full text-moon-12 text-trunks text-start truncate"
                       data-headlessui-state=""
                       id="headlessui-listbox-label-:r2q:"
                     >
                       List options width
                     </label>
                     <span
-                      class="text-moon-16 text-trunks"
+                      class="text-moon-16 w-full text-trunks text-start truncate"
                     >
                       Choose an option
                     </span>
@@ -8807,7 +8807,7 @@ Object {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M22 13l-6 6-6-6"
+                    d="M22 13L16 19L10 13"
                     stroke="currentColor"
                     stroke-linecap="round"
                     stroke-linejoin="round"
@@ -8913,17 +8913,17 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 py-1 px-2 rounded-moon-i-xs"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 py-1 px-2 rounded-moon-i-xs"
                   open=""
                 >
                   <span
-                    class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="flex gap-2 items-center"
+                      class="flex w-full gap-2 items-center"
                     >
                       <span
-                        class="text-moon-14 text-trunks"
+                        class="text-moon-14 w-full text-trunks text-start truncate"
                       >
                         Choose an option
                       </span>
@@ -8938,7 +8938,7 @@ Object {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M22 13l-6 6-6-6"
+                      d="M22 13L16 19L10 13"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -8994,7 +8994,7 @@ Object {
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
-                          d="M7 14.941L13.667 22 25 10"
+                          d="M7 14.9412L13.6667 22L25 10"
                           stroke="currentColor"
                           stroke-linecap="round"
                           stroke-linejoin="round"
@@ -9037,7 +9037,7 @@ Object {
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
-                          d="M7 14.941L13.667 22 25 10"
+                          d="M7 14.9412L13.6667 22L25 10"
                           stroke="currentColor"
                           stroke-linecap="round"
                           stroke-linejoin="round"
@@ -9080,7 +9080,7 @@ Object {
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
-                          d="M7 14.941L13.667 22 25 10"
+                          d="M7 14.9412L13.6667 22L25 10"
                           stroke="currentColor"
                           stroke-linecap="round"
                           stroke-linejoin="round"
@@ -9123,7 +9123,7 @@ Object {
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
-                          d="M7 14.941L13.667 22 25 10"
+                          d="M7 14.9412L13.6667 22L25 10"
                           stroke="currentColor"
                           stroke-linecap="round"
                           stroke-linejoin="round"
@@ -9166,7 +9166,7 @@ Object {
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
-                          d="M7 14.941L13.667 22 25 10"
+                          d="M7 14.9412L13.6667 22L25 10"
                           stroke="currentColor"
                           stroke-linecap="round"
                           stroke-linejoin="round"
@@ -9209,7 +9209,7 @@ Object {
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
-                          d="M7 14.941L13.667 22 25 10"
+                          d="M7 14.9412L13.6667 22L25 10"
                           stroke="currentColor"
                           stroke-linecap="round"
                           stroke-linejoin="round"
@@ -9252,17 +9252,17 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                   data-test="data-test"
                 >
                   <span
-                    class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="flex gap-2 items-center"
+                      class="flex w-full gap-2 items-center"
                     >
                       <span
-                        class="text-moon-16 text-trunks"
+                        class="text-moon-16 w-full text-trunks text-start truncate"
                       >
                         Choose an option
                       </span>
@@ -9277,7 +9277,7 @@ Object {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M22 13l-6 6-6-6"
+                      d="M22 13L16 19L10 13"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -9318,16 +9318,16 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 p-3 rounded-moon-i-sm"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 p-3 rounded-moon-i-sm"
                 >
                   <span
-                    class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="flex gap-2 items-center"
+                      class="flex w-full gap-2 items-center"
                     >
                       <span
-                        class="text-moon-16 text-trunks"
+                        class="text-moon-16 w-full text-trunks text-start truncate"
                       >
                         Choose an option
                       </span>
@@ -9342,7 +9342,7 @@ Object {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M22 13l-6 6-6-6"
+                      d="M22 13L16 19L10 13"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -9391,17 +9391,17 @@ Object {
               class="relative"
             >
               <button
-                class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 py-1 px-2 rounded-moon-i-xs"
+                class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 py-1 px-2 rounded-moon-i-xs"
                 open=""
               >
                 <span
-                  class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                  class="flex w-full flex-col items-start text-start overflow-hidden"
                 >
                   <span
-                    class="flex gap-2 items-center"
+                    class="flex w-full gap-2 items-center"
                   >
                     <span
-                      class="text-moon-14 text-trunks"
+                      class="text-moon-14 w-full text-trunks text-start truncate"
                     >
                       Choose an option
                     </span>
@@ -9416,7 +9416,7 @@ Object {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M22 13l-6 6-6-6"
+                    d="M22 13L16 19L10 13"
                     stroke="currentColor"
                     stroke-linecap="round"
                     stroke-linejoin="round"
@@ -9472,7 +9472,7 @@ Object {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M7 14.941L13.667 22 25 10"
+                        d="M7 14.9412L13.6667 22L25 10"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
@@ -9515,7 +9515,7 @@ Object {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M7 14.941L13.667 22 25 10"
+                        d="M7 14.9412L13.6667 22L25 10"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
@@ -9558,7 +9558,7 @@ Object {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M7 14.941L13.667 22 25 10"
+                        d="M7 14.9412L13.6667 22L25 10"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
@@ -9601,7 +9601,7 @@ Object {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M7 14.941L13.667 22 25 10"
+                        d="M7 14.9412L13.6667 22L25 10"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
@@ -9644,7 +9644,7 @@ Object {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M7 14.941L13.667 22 25 10"
+                        d="M7 14.9412L13.6667 22L25 10"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
@@ -9687,7 +9687,7 @@ Object {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M7 14.941L13.667 22 25 10"
+                        d="M7 14.9412L13.6667 22L25 10"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
@@ -9730,17 +9730,17 @@ Object {
               class="relative"
             >
               <button
-                class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                 data-test="data-test"
               >
                 <span
-                  class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                  class="flex w-full flex-col items-start text-start overflow-hidden"
                 >
                   <span
-                    class="flex gap-2 items-center"
+                    class="flex w-full gap-2 items-center"
                   >
                     <span
-                      class="text-moon-16 text-trunks"
+                      class="text-moon-16 w-full text-trunks text-start truncate"
                     >
                       Choose an option
                     </span>
@@ -9755,7 +9755,7 @@ Object {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M22 13l-6 6-6-6"
+                    d="M22 13L16 19L10 13"
                     stroke="currentColor"
                     stroke-linecap="round"
                     stroke-linejoin="round"
@@ -9796,16 +9796,16 @@ Object {
               class="relative"
             >
               <button
-                class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 p-3 rounded-moon-i-sm"
+                class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 p-3 rounded-moon-i-sm"
               >
                 <span
-                  class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                  class="flex w-full flex-col items-start text-start overflow-hidden"
                 >
                   <span
-                    class="flex gap-2 items-center"
+                    class="flex w-full gap-2 items-center"
                   >
                     <span
-                      class="text-moon-16 text-trunks"
+                      class="text-moon-16 w-full text-trunks text-start truncate"
                     >
                       Choose an option
                     </span>
@@ -9820,7 +9820,7 @@ Object {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M22 13l-6 6-6-6"
+                    d="M22 13L16 19L10 13"
                     stroke="currentColor"
                     stroke-linecap="round"
                     stroke-linejoin="round"
@@ -10411,14 +10411,14 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 py-1 px-2 rounded-moon-i-xs"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 py-1 px-2 rounded-moon-i-xs"
                   open=""
                 >
                   <span
-                    class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="text-moon-14 text-trunks"
+                      class="text-moon-14 w-full text-trunks text-start truncate"
                     >
                       Choose an option
                     </span>
@@ -10432,7 +10432,7 @@ Object {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M22 13l-6 6-6-6"
+                      d="M22 13L16 19L10 13"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -10643,13 +10643,13 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                 >
                   <span
-                    class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="text-moon-16 text-trunks"
+                      class="text-moon-16 w-full text-trunks text-start truncate"
                     >
                       Choose an option
                     </span>
@@ -10663,7 +10663,7 @@ Object {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M22 13l-6 6-6-6"
+                      d="M22 13L16 19L10 13"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -10704,13 +10704,13 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 p-3 rounded-moon-i-sm"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 p-3 rounded-moon-i-sm"
                 >
                   <span
-                    class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="text-moon-16 text-trunks"
+                      class="text-moon-16 w-full text-trunks text-start truncate"
                     >
                       Choose an option
                     </span>
@@ -10724,7 +10724,7 @@ Object {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M22 13l-6 6-6-6"
+                      d="M22 13L16 19L10 13"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -10773,14 +10773,14 @@ Object {
               class="relative"
             >
               <button
-                class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 py-1 px-2 rounded-moon-i-xs"
+                class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 py-1 px-2 rounded-moon-i-xs"
                 open=""
               >
                 <span
-                  class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                  class="flex w-full flex-col items-start text-start overflow-hidden"
                 >
                   <span
-                    class="text-moon-14 text-trunks"
+                    class="text-moon-14 w-full text-trunks text-start truncate"
                   >
                     Choose an option
                   </span>
@@ -10794,7 +10794,7 @@ Object {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M22 13l-6 6-6-6"
+                    d="M22 13L16 19L10 13"
                     stroke="currentColor"
                     stroke-linecap="round"
                     stroke-linejoin="round"
@@ -11005,13 +11005,13 @@ Object {
               class="relative"
             >
               <button
-                class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
               >
                 <span
-                  class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                  class="flex w-full flex-col items-start text-start overflow-hidden"
                 >
                   <span
-                    class="text-moon-16 text-trunks"
+                    class="text-moon-16 w-full text-trunks text-start truncate"
                   >
                     Choose an option
                   </span>
@@ -11025,7 +11025,7 @@ Object {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M22 13l-6 6-6-6"
+                    d="M22 13L16 19L10 13"
                     stroke="currentColor"
                     stroke-linecap="round"
                     stroke-linejoin="round"
@@ -11066,13 +11066,13 @@ Object {
               class="relative"
             >
               <button
-                class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 p-3 rounded-moon-i-sm"
+                class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 p-3 rounded-moon-i-sm"
               >
                 <span
-                  class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                  class="flex w-full flex-col items-start text-start overflow-hidden"
                 >
                   <span
-                    class="text-moon-16 text-trunks"
+                    class="text-moon-16 w-full text-trunks text-start truncate"
                   >
                     Choose an option
                   </span>
@@ -11086,7 +11086,7 @@ Object {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M22 13l-6 6-6-6"
+                    d="M22 13L16 19L10 13"
                     stroke="currentColor"
                     stroke-linecap="round"
                     stroke-linejoin="round"
@@ -11192,14 +11192,14 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus transition-shadow duration-200 focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus transition-shadow duration-200 focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
                   open=""
                 >
                   <span
-                    class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="text-moon-16 text-bulma"
+                      class="text-moon-16 w-full text-bulma truncate"
                     >
                       Devon Webb
                     </span>
@@ -11213,7 +11213,7 @@ Object {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M22 13l-6 6-6-6"
+                      d="M22 13L16 19L10 13"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -11336,7 +11336,7 @@ Object {
             class="relative"
           >
             <label
-              class="block text-bulma pb-2 text-moon-16 opacity-30 cursor-not-allowed"
+              class="block text-bulma pb-2 text-moon-16 opacity-60 cursor-not-allowed"
               data-headlessui-state="disabled"
               id="headlessui-listbox-label-:r1g:"
             >
@@ -11353,13 +11353,13 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-30 cursor-not-allowed hover:shadow-input"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-60 cursor-not-allowed hover:shadow-input"
                 >
                   <span
-                    class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="text-moon-16 text-bulma"
+                      class="text-moon-16 w-full text-bulma truncate"
                     >
                       Wade Cooper
                     </span>
@@ -11373,7 +11373,7 @@ Object {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M22 13l-6 6-6-6"
+                      d="M22 13L16 19L10 13"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -11383,7 +11383,7 @@ Object {
               </div>
             </div>
             <p
-              class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
+              class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-60 cursor-not-allowed"
               role="alert"
             >
               Informative message holder
@@ -11406,13 +11406,13 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                 >
                   <span
-                    class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="text-moon-16 text-trunks"
+                      class="text-moon-16 w-full text-trunks text-start truncate"
                     >
                       Without Label and Hint message
                     </span>
@@ -11426,7 +11426,7 @@ Object {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M22 13l-6 6-6-6"
+                      d="M22 13L16 19L10 13"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -11461,13 +11461,13 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                 >
                   <span
-                    class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="text-moon-16 text-trunks"
+                      class="text-moon-16 w-full text-trunks text-start truncate"
                     >
                       Choose an option
                     </span>
@@ -11481,7 +11481,7 @@ Object {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M22 13l-6 6-6-6"
+                      d="M22 13L16 19L10 13"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -11530,14 +11530,14 @@ Object {
               class="relative"
             >
               <button
-                class="flex items-center justify-between w-full bg-gohan border-beerus transition-shadow duration-200 focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+                class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus transition-shadow duration-200 focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
                 open=""
               >
                 <span
-                  class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                  class="flex w-full flex-col items-start text-start overflow-hidden"
                 >
                   <span
-                    class="text-moon-16 text-bulma"
+                    class="text-moon-16 w-full text-bulma truncate"
                   >
                     Devon Webb
                   </span>
@@ -11551,7 +11551,7 @@ Object {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M22 13l-6 6-6-6"
+                    d="M22 13L16 19L10 13"
                     stroke="currentColor"
                     stroke-linecap="round"
                     stroke-linejoin="round"
@@ -11674,7 +11674,7 @@ Object {
           class="relative"
         >
           <label
-            class="block text-bulma pb-2 text-moon-16 opacity-30 cursor-not-allowed"
+            class="block text-bulma pb-2 text-moon-16 opacity-60 cursor-not-allowed"
             data-headlessui-state="disabled"
             id="headlessui-listbox-label-:r1g:"
           >
@@ -11691,13 +11691,13 @@ Object {
               class="relative"
             >
               <button
-                class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-30 cursor-not-allowed hover:shadow-input"
+                class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-60 cursor-not-allowed hover:shadow-input"
               >
                 <span
-                  class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                  class="flex w-full flex-col items-start text-start overflow-hidden"
                 >
                   <span
-                    class="text-moon-16 text-bulma"
+                    class="text-moon-16 w-full text-bulma truncate"
                   >
                     Wade Cooper
                   </span>
@@ -11711,7 +11711,7 @@ Object {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M22 13l-6 6-6-6"
+                    d="M22 13L16 19L10 13"
                     stroke="currentColor"
                     stroke-linecap="round"
                     stroke-linejoin="round"
@@ -11721,7 +11721,7 @@ Object {
             </div>
           </div>
           <p
-            class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
+            class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-60 cursor-not-allowed"
             role="alert"
           >
             Informative message holder
@@ -11744,13 +11744,13 @@ Object {
               class="relative"
             >
               <button
-                class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
               >
                 <span
-                  class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                  class="flex w-full flex-col items-start text-start overflow-hidden"
                 >
                   <span
-                    class="text-moon-16 text-trunks"
+                    class="text-moon-16 w-full text-trunks text-start truncate"
                   >
                     Without Label and Hint message
                   </span>
@@ -11764,7 +11764,7 @@ Object {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M22 13l-6 6-6-6"
+                    d="M22 13L16 19L10 13"
                     stroke="currentColor"
                     stroke-linecap="round"
                     stroke-linejoin="round"
@@ -11799,13 +11799,13 @@ Object {
               class="relative"
             >
               <button
-                class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
               >
                 <span
-                  class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                  class="flex w-full flex-col items-start text-start overflow-hidden"
                 >
                   <span
-                    class="text-moon-16 text-trunks"
+                    class="text-moon-16 w-full text-trunks text-start truncate"
                   >
                     Choose an option
                   </span>
@@ -11819,7 +11819,7 @@ Object {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M22 13l-6 6-6-6"
+                    d="M22 13L16 19L10 13"
                     stroke="currentColor"
                     stroke-linecap="round"
                     stroke-linejoin="round"
@@ -12394,14 +12394,14 @@ Object {
                 class="relative"
               >
                 <button
-                  class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                  class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                   open=""
                 >
                   <span
-                    class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                    class="flex w-full flex-col items-start text-start overflow-hidden"
                   >
                     <span
-                      class="text-moon-16 text-trunks"
+                      class="text-moon-16 w-full text-trunks text-start truncate"
                     >
                       Choose an option
                     </span>
@@ -12415,7 +12415,7 @@ Object {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M22 13l-6 6-6-6"
+                      d="M22 13L16 19L10 13"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -12639,14 +12639,14 @@ Object {
               class="relative"
             >
               <button
-                class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                 open=""
               >
                 <span
-                  class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                  class="flex w-full flex-col items-start text-start overflow-hidden"
                 >
                   <span
-                    class="text-moon-16 text-trunks"
+                    class="text-moon-16 w-full text-trunks text-start truncate"
                   >
                     Choose an option
                   </span>
@@ -12660,7 +12660,7 @@ Object {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M22 13l-6 6-6-6"
+                    d="M22 13L16 19L10 13"
                     stroke="currentColor"
                     stroke-linecap="round"
                     stroke-linejoin="round"

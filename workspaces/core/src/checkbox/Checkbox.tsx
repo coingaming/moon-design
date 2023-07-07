@@ -31,7 +31,7 @@ const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
         htmlFor={id}
         className={mergeClassnames(
           'relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer',
-          disabled && 'opacity-30 cursor-not-allowed select-none',
+          disabled && 'opacity-60 cursor-not-allowed select-none',
           readOnly && 'cursor-not-allowed select-none'
         )}
       >
