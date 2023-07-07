@@ -1,4 +1,4 @@
-import React, { createContext, RefObject, useContext } from 'react';
+import React, { createContext, RefObject, useContext, useEffect } from 'react';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import useInterval from './private/utils/useInterval';
 import withHorizontalScroll from './private/utils/withHorizontalScroll';
@@ -75,17 +75,16 @@ const CarouselRoot: React.FC<CarouselRootProps> = ({
     scrollInContainer: true,
   });
 
-  if (autoSlideDelay) {
-    useInterval(() => {
-      if (canScrollRight) {
-        scrollRightToStep();
-      } else {
-        scrollToIndex(0);
-      }
-    }, autoSlideDelay);
-  }
+  useInterval(() => {
+    if (!autoSlideDelay) return;
+    if (canScrollRight) {
+      scrollRightToStep();
+    } else {
+      scrollToIndex(0);
+    }
+  }, autoSlideDelay as number);
 
-  React.useEffect(() => {
+  useEffect(() => {
     if (selectedIndex !== undefined) {
       scrollToIndex(selectedIndex);
     }
