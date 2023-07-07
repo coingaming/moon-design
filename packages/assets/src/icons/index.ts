@@ -324,6 +324,8 @@ export { default as IconLiveChat } from './IconLiveChat';
 export * from './IconLiveChat';
 export { default as IconLiveStream } from './IconLiveStream';
 export * from './IconLiveStream';
+export { default as IconLivespins } from './IconLivespins';
+export * from './IconLivespins';
 export { default as IconLock } from './IconLock';
 export * from './IconLock';
 export { default as IconLogin } from './IconLogin';
