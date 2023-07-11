@@ -21,10 +21,12 @@ const Example = () => (
         size="sm"
         iconRight={<SoftwareDownload className="text-moon-24" />}
         iconLeft={<MediaMusic className="text-moon-24" />}
+        aria-label="Left and right icons"
       />
       <Chip
         size="sm"
         iconOnly={<SoftwareDownload className="text-moon-24" />}
+        aria-label="Single icon"
       />
     </div>
     <div className="flex flex-wrap items-center justify-around gap-2 w-full">
@@ -41,8 +43,12 @@ const Example = () => (
       <Chip
         iconRight={<SoftwareDownload className="text-moon-24" />}
         iconLeft={<MediaMusic className="text-moon-24" />}
+        aria-label="Left and right icons"
       />
-      <Chip iconOnly={<SoftwareDownload className="text-moon-24" />} />
+      <Chip
+        iconOnly={<SoftwareDownload className="text-moon-24" />}
+        aria-label="Single icon"
+      />
     </div>
   </>
 );

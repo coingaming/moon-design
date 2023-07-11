@@ -7,12 +7,7 @@ export type IconProps = {
   children?: React.ReactNode;
 };
 
-const Icon: React.FC<IconProps> = ({
-  children,
-  name,
-  onClick,
-  selectedIcons,
-}) => {
+const Icon = ({ children, name, onClick, selectedIcons }: IconProps) => {
   const isShown = selectedIcons.includes(name);
   return (
     <div onClick={() => onClick(name)}>

@@ -49,7 +49,12 @@ const Example = () => {
   const { name, text, image } = getComponent('Icons');
   return (
     <>
-      <ComponentPageDescription title={name} image={image}>
+      <ComponentPageDescription
+        title={name}
+        image={image}
+        isAriaSupport
+        isRtlSupport
+      >
         <p>{text}</p>
       </ComponentPageDescription>
       <Preview
