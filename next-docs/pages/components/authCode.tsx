@@ -21,7 +21,12 @@ const PageAuthCodeGroup = () => {
   const { name, text, image } = getComponent('AuthCode' as any);
   return (
     <>
-      <ComponentPageDescription title={name} image={image} isInProgress>
+      <ComponentPageDescription
+        title={name}
+        image={image}
+        isInProgress
+        isAriaSupport
+      >
         <p>{text}</p>
       </ComponentPageDescription>
       <Preview
@@ -41,7 +46,7 @@ const PageAuthCodeGroup = () => {
       />
       <Preview
         title="Allowed Characters"
-        description='By default you can type numbers and letters in the inputs as the allowedCharacters prop is defaulted to alphanumeric but you can also choose between allowing only letters or only numbers by setting the prop to alpha or numeric respectively.'
+        description="By default you can type numbers and letters in the inputs as the allowedCharacters prop is defaulted to alphanumeric but you can also choose between allowing only letters or only numbers by setting the prop to alpha or numeric respectively."
         preview={<AllowedCharacters />}
         code={examples ? examples.AllowedCharacters : 'Loading'}
       />
@@ -103,8 +108,7 @@ const PageAuthCodeGroup = () => {
             type: 'alphanumeric | numeric | alpha',
             required: false,
             default: 'alphanumeric',
-            description:
-              'Specifies the type of input characters.',
+            description: 'Specifies the type of input characters.',
           },
           {
             name: 'autoFocus',
@@ -127,8 +131,7 @@ const PageAuthCodeGroup = () => {
             type: 'boolean',
             required: false,
             default: 'false',
-            description:
-              'If true, disables whole Auth code component.',
+            description: 'If true, disables whole Auth code component.',
           },
           {
             name: 'placeholder',
@@ -150,8 +153,7 @@ const PageAuthCodeGroup = () => {
             type: 'sm | md | lg | xl',
             required: false,
             default: 'lg',
-            description:
-              'Specifies the size of input characters.',
+            description: 'Specifies the size of input characters.',
           },
           {
             name: 'className',
