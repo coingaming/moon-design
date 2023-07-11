@@ -14,6 +14,8 @@ export { default as NativeSelect } from './nativeSelect/NativeSelect';
 export * from './nativeSelect/NativeSelect';
 export { default as getSizeStyles } from './nativeSelect/prvate/getSizeStyles';
 export * from './nativeSelect/prvate/getSizeStyles';
+export { default as Pagination } from './pagination/Pagination';
+export * from './pagination/Pagination';
 export { default as Table } from './table/Table';
 export * from './table/Table';
 export { default as Tabs } from './tabs/Tabs';
