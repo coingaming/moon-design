@@ -27,6 +27,7 @@ const Example = () => {
               variant="secondary"
               size="sm"
               disabled={disabled}
+              aria-label="Previous"
             />
           )}
         </Pagination.PrevButton>
@@ -38,6 +39,7 @@ const Example = () => {
               variant="secondary"
               size="sm"
               disabled={disabled}
+              aria-label="Next"
             />
           )}
         </Pagination.NextButton>

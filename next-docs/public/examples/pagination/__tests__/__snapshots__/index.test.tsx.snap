@@ -15,6 +15,7 @@ Object {
             aria-disabled="true"
             class="moon-disabled:cursor-not-allowed moon-disabled:opacity-60"
             disabled=""
+            type="button"
           >
             Previous
           </button>
@@ -59,6 +60,7 @@ Object {
           <button
             aria-disabled="false"
             class="moon-disabled:cursor-not-allowed moon-disabled:opacity-60"
+            type="button"
           >
             Next
           </button>
@@ -77,6 +79,7 @@ Object {
           aria-disabled="true"
           class="moon-disabled:cursor-not-allowed moon-disabled:opacity-60"
           disabled=""
+          type="button"
         >
           Previous
         </button>
@@ -121,6 +124,7 @@ Object {
         <button
           aria-disabled="false"
           class="moon-disabled:cursor-not-allowed moon-disabled:opacity-60"
+          type="button"
         >
           Next
         </button>
@@ -198,6 +202,7 @@ Object {
             disabled=""
           >
             <button
+              aria-label="Previous"
               class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-secondary text-moon-24"
               disabled=""
               type="button"
@@ -231,6 +236,7 @@ Object {
               aria-label="page 1"
               class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-goten bg-piccolo"
               tabindex="0"
+              type="button"
             >
               1
             </button>
@@ -238,6 +244,7 @@ Object {
               aria-label="page 2"
               class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
               tabindex="0"
+              type="button"
             >
               2
             </button>
@@ -245,6 +252,7 @@ Object {
               aria-label="page 3"
               class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
               tabindex="0"
+              type="button"
             >
               3
             </button>
@@ -257,6 +265,7 @@ Object {
               aria-label="page 26"
               class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
               tabindex="0"
+              type="button"
             >
               26
             </button>
@@ -266,6 +275,7 @@ Object {
             class=""
           >
             <button
+              aria-label="Next"
               class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary text-moon-24"
               type="button"
             >
@@ -307,6 +317,7 @@ Object {
           disabled=""
         >
           <button
+            aria-label="Previous"
             class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-secondary text-moon-24"
             disabled=""
             type="button"
@@ -340,6 +351,7 @@ Object {
             aria-label="page 1"
             class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-goten bg-piccolo"
             tabindex="0"
+            type="button"
           >
             1
           </button>
@@ -347,6 +359,7 @@ Object {
             aria-label="page 2"
             class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
             tabindex="0"
+            type="button"
           >
             2
           </button>
@@ -354,6 +367,7 @@ Object {
             aria-label="page 3"
             class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
             tabindex="0"
+            type="button"
           >
             3
           </button>
@@ -366,6 +380,7 @@ Object {
             aria-label="page 26"
             class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
             tabindex="0"
+            type="button"
           >
             26
           </button>
@@ -375,6 +390,7 @@ Object {
           class=""
         >
           <button
+            aria-label="Next"
             class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary text-moon-24"
             type="button"
           >
@@ -473,6 +489,7 @@ Object {
             disabled=""
           >
             <button
+              aria-label="Previous"
               class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-secondary text-moon-24"
               disabled=""
               type="button"
@@ -545,6 +562,7 @@ Object {
             class=""
           >
             <button
+              aria-label="Next"
               class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary text-moon-24"
               type="button"
             >
@@ -586,6 +604,7 @@ Object {
           disabled=""
         >
           <button
+            aria-label="Previous"
             class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-secondary text-moon-24"
             disabled=""
             type="button"
@@ -658,6 +677,7 @@ Object {
           class=""
         >
           <button
+            aria-label="Next"
             class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary text-moon-24"
             type="button"
           >
@@ -751,6 +771,7 @@ Object {
           aria-disabled="true"
           class="moon-disabled:cursor-not-allowed moon-disabled:opacity-60"
           disabled=""
+          type="button"
         >
           Previous
         </button>
@@ -795,6 +816,7 @@ Object {
         <button
           aria-disabled="false"
           class="moon-disabled:cursor-not-allowed moon-disabled:opacity-60"
+          type="button"
         >
           Next
         </button>
@@ -809,6 +831,7 @@ Object {
         aria-disabled="true"
         class="moon-disabled:cursor-not-allowed moon-disabled:opacity-60"
         disabled=""
+        type="button"
       >
         Previous
       </button>
@@ -853,6 +876,7 @@ Object {
       <button
         aria-disabled="false"
         class="moon-disabled:cursor-not-allowed moon-disabled:opacity-60"
+        type="button"
       >
         Next
       </button>
@@ -926,6 +950,7 @@ Object {
           disabled=""
         >
           <button
+            aria-label="Previous"
             class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-secondary text-moon-24"
             disabled=""
             type="button"
@@ -959,6 +984,7 @@ Object {
             aria-label="page 1"
             class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-goten bg-piccolo"
             tabindex="0"
+            type="button"
           >
             1
           </button>
@@ -966,6 +992,7 @@ Object {
             aria-label="page 2"
             class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
             tabindex="0"
+            type="button"
           >
             2
           </button>
@@ -973,6 +1000,7 @@ Object {
             aria-label="page 3"
             class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
             tabindex="0"
+            type="button"
           >
             3
           </button>
@@ -985,6 +1013,7 @@ Object {
             aria-label="page 26"
             class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
             tabindex="0"
+            type="button"
           >
             26
           </button>
@@ -994,6 +1023,7 @@ Object {
           class=""
         >
           <button
+            aria-label="Next"
             class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary text-moon-24"
             type="button"
           >
@@ -1031,6 +1061,7 @@ Object {
         disabled=""
       >
         <button
+          aria-label="Previous"
           class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-secondary text-moon-24"
           disabled=""
           type="button"
@@ -1064,6 +1095,7 @@ Object {
           aria-label="page 1"
           class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-goten bg-piccolo"
           tabindex="0"
+          type="button"
         >
           1
         </button>
@@ -1071,6 +1103,7 @@ Object {
           aria-label="page 2"
           class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
           tabindex="0"
+          type="button"
         >
           2
         </button>
@@ -1078,6 +1111,7 @@ Object {
           aria-label="page 3"
           class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
           tabindex="0"
+          type="button"
         >
           3
         </button>
@@ -1090,6 +1124,7 @@ Object {
           aria-label="page 26"
           class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
           tabindex="0"
+          type="button"
         >
           26
         </button>
@@ -1099,6 +1134,7 @@ Object {
         class=""
       >
         <button
+          aria-label="Next"
           class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary text-moon-24"
           type="button"
         >
@@ -1193,6 +1229,7 @@ Object {
           disabled=""
         >
           <button
+            aria-label="Previous"
             class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-secondary text-moon-24"
             disabled=""
             type="button"
@@ -1265,6 +1302,7 @@ Object {
           class=""
         >
           <button
+            aria-label="Next"
             class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary text-moon-24"
             type="button"
           >
@@ -1302,6 +1340,7 @@ Object {
         disabled=""
       >
         <button
+          aria-label="Previous"
           class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-secondary text-moon-24"
           disabled=""
           type="button"
@@ -1374,6 +1413,7 @@ Object {
         class=""
       >
         <button
+          aria-label="Next"
           class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary text-moon-24"
           type="button"
         >

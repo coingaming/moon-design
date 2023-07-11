@@ -68,6 +68,7 @@ export const PrevButton = <C extends React.ElementType = 'button'>({
         onClick={() => previous()}
         aria-disabled={disabled}
         disabled={disabled}
+        type={as === 'button' || as === undefined ? 'button' : undefined}
       >
         {children({ disabled })}
       </Component>
@@ -84,6 +85,7 @@ export const PrevButton = <C extends React.ElementType = 'button'>({
       onClick={() => previous()}
       aria-disabled={disabled}
       disabled={disabled}
+      type={as === 'button' || as === undefined ? 'button' : undefined}
     >
       {childrens?.map((ch) => ch)}
     </Component>
@@ -115,6 +117,7 @@ export const NextButton = <C extends React.ElementType = 'button'>({
         onClick={() => next()}
         aria-disabled={disabled}
         disabled={disabled}
+        type={as === 'button' || as === undefined ? 'button' : undefined}
       >
         {children({ disabled })}
       </Component>
@@ -130,6 +133,7 @@ export const NextButton = <C extends React.ElementType = 'button'>({
       onClick={() => next()}
       aria-disabled={disabled}
       disabled={disabled}
+      type={as === 'button' || as === undefined ? 'button' : undefined}
     >
       {childrens?.map((ch) => ch)}
     </Component>
@@ -168,6 +172,7 @@ const Pages = <C extends React.ElementType = 'a'>({
       tabIndex={0}
       onClick={() => pagination.setCurrentPage(page - 1)}
       href={pagination.hrefsArray && pagination.hrefsArray[page - 1]}
+      type={as === 'button' ? 'button' : undefined}
       className={mergeClassnames(
         'flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors',
         className,
