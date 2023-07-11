@@ -1,12 +1,14 @@
-import { AuthCodeTextSizes } from "../types/AuthCodeTypes";
+import { AuthCodeTextSizes } from '../types/AuthCodeTypes';
 
 const getInputSizes = (size: AuthCodeTextSizes) => {
-  return {
-    sm: 'leading-8 text-sm',
-    md: 'leading-10 text-base',
-    lg: 'leading-[3rem] text-lg',
-    xl: 'leading-[3.5rem] text-xl',
-  }[size] || 'leading-10 text-base';
+  return (
+    {
+      sm: 'text-moon-14',
+      md: 'text-moon-16',
+      lg: 'text-moon-18',
+      xl: 'text-moon-20',
+    }[size] || 'text-moon-16'
+  );
 };
 
 export default getInputSizes;

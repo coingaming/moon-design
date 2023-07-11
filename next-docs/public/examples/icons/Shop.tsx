@@ -10,6 +10,8 @@ import {
   ShopCryptoCoin,
   ShopWallet,
   ShopWirelessPay,
+  ShopCashback,
+  ShopRebate,
 } from '@heathmont/moon-icons-tw';
 import Icon from './Icon';
 
@@ -57,6 +59,12 @@ const Example = ({ wrapperProps, props }: Props) => (
     </Icon>
     <Icon {...wrapperProps} name="ShopWirelessPay">
       <ShopWirelessPay {...props} />
+    </Icon>
+    <Icon {...wrapperProps} name="ShopCashback">
+      <ShopCashback {...props} />
+    </Icon>
+    <Icon {...wrapperProps} name="ShopRebate">
+      <ShopRebate {...props} />
     </Icon>
   </>
 );

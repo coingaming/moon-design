@@ -53,15 +53,11 @@ const Example = () => {
               open={open}
               label="Error"
               placeholder="Choose an option"
-              onChange={setSelected0}
-              onQueryChange={setQuery0}
               displayValue={({ label }) => label }
             >
               <ControlsChevronDownSmall />
             </Combobox.Select>
-            <Combobox.Transition
-              onQueryChange={setQuery0}
-            >
+            <Combobox.Transition>
             <Combobox.Options>
                 {filteredPeople0.length === 0 && query0 !== '' ? (
                   <div className='relative cursor-default select-none py-2 px-4 text-trunks'>
@@ -87,7 +83,7 @@ const Example = () => {
       <Combobox
         value={selected1}
         onChange={setSelected1}
-        onQueryChange={setQuery1}disabled={true}
+        onQueryChange={setQuery1}
         className='w-full max-w-xs'
       >
         {({ open }) => (
@@ -96,15 +92,11 @@ const Example = () => {
               open={open}
               label="Disabled"
               placeholder="Choose an option"
-              onChange={setSelected1}
-              onQueryChange={setQuery1}
               displayValue={({ label }) => label }
             >
               <ControlsChevronDownSmall />
             </Combobox.Select>
-            <Combobox.Transition
-              onQueryChange={setQuery1}
-            >
+            <Combobox.Transition>
               <Combobox.Options>
                 {filteredPeople1.length === 0 && query1 !== '' ? (
                   <div className='relative cursor-default select-none py-2 px-4 text-trunks'>
@@ -138,15 +130,11 @@ const Example = () => {
             <Combobox.Select
               open={open}
               placeholder="Without Label and Hint message"
-              onChange={setSelected2}
-              onQueryChange={setQuery2}
               displayValue={({ label }) => label }
             >
               <ControlsChevronDownSmall />
             </Combobox.Select>
-            <Combobox.Transition
-              onQueryChange={setQuery2}
-            >
+            <Combobox.Transition>
               <Combobox.Options>
                 {filteredPeople2.length === 0 && query2 !== '' ? (
                   <div className='relative cursor-default select-none py-2 px-4 text-trunks'>
@@ -168,22 +156,23 @@ const Example = () => {
         )}
       </Combobox>
 
-      <Combobox value={selected3} onChange={setSelected3} onQueryChange={setQuery3} className='w-full max-w-xs'>
+      <Combobox
+        value={selected3}
+        onChange={setSelected3}
+        onQueryChange={setQuery3}
+        className='w-full max-w-xs'
+      >
         {({ open }) => (
           <>
             <Combobox.Select
               open={open}
               label="List options width"
               placeholder="Choose an option"
-              onChange={setSelected3}
-              onQueryChange={setQuery3}
               displayValue={({ label }) => label }
             >
               <ControlsChevronDownSmall />
             </Combobox.Select>
-            <Combobox.Transition
-              onQueryChange={setQuery3}
-            >
+            <Combobox.Transition>
               <Combobox.Options menuWidth='w-40' className='z-5 rounded-moon-s-md box-border bg-gohan shadow-moon-lg py-2 px-1 my-2'>
                 {filteredPeople3.length === 0 && query3 !== '' ? (
                   <div className='relative cursor-default select-none py-2 px-4 text-trunks'>

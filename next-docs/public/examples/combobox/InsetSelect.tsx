@@ -41,15 +41,11 @@ const Example = () => {
               open={open}
               label='Label'
               placeholder='Choose an option'
-              onChange={setOption}
-              onQueryChange={setQuery}
               displayValue={({ label }) => label}
             >
               <ControlsChevronDownSmall />
             </Combobox.InsetSelect>
-            <Combobox.Transition
-              onQueryChange={setQuery}
-            >
+            <Combobox.Transition>
               <Combobox.Options>
                 {filteredPeople.length === 0 && query !== '' ? (
                   <div className='relative cursor-default select-none py-2 px-4 text-trunks'>

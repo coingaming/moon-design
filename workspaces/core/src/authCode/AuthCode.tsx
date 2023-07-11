@@ -198,13 +198,13 @@ const AuthCode = forwardRef<AuthCodeRef, AuthCodeProps>(
           className={mergeClassnames(
             'h-14 w-[2.875rem] rounded-xl bg-gohan',
             getInputSizes(inputSize),
-            'm-0 py-3 px-4 appearance-none text-bulma box-border text-center',
+            'm-0 py-3 appearance-none text-bulma box-border text-center',
             'shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none',
             'focus-visible::shadow-input-focus focus-visible::outline-none',
             !isValid &&
               'text-chichi shadow-input-err hover:shadow-input-err focus:shadow-input-err',
             disabled &&
-              'opacity-30 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed',
+              'opacity-60 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed',
             stretch && 'flex', // TODO Deprecated.
             stretch && expandable && 'grow', // TODO Deprecated.
             inputClassName // TODO Deprecated.

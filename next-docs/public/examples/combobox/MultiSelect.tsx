@@ -40,8 +40,8 @@ const Example = () => {
       <Combobox
         value={selected0}
         onChange={setSelected0}
-        onClear={useCallback(() => setSelected0([]), [setSelected0])}
         onQueryChange={setQuery0}
+        onClear={useCallback(() => setSelected0([]), [setSelected0])}
         className='w-full max-w-xs'
         size="sm"
         multiple
@@ -53,15 +53,11 @@ const Example = () => {
               label="Small"
               counter={selected0.length}
               placeholder="Choose an option"
-              onChange={setSelected0}
-              onQueryChange={setQuery0}
               displayValue={({ label }) => label }
             >
               <ControlsChevronDownSmall />
             </Combobox.MultiSelect>
-            <Combobox.Transition
-              onQueryChange={setQuery0}
-            >
+            <Combobox.Transition>
               <Combobox.Options>
                 {filteredPeople0.length === 0 && query0 !== '' ? (
                     <div className='relative cursor-default select-none py-2 px-4 text-trunks'>
@@ -87,8 +83,8 @@ const Example = () => {
       <Combobox
         value={selected1}
         onChange={setSelected1}
-        onClear={useCallback(() => setSelected1([]), [setSelected1])}
         onQueryChange={setQuery1}
+        onClear={useCallback(() => setSelected1([]), [setSelected1])}
         className='w-full max-w-xs'
         multiple
       >
@@ -99,15 +95,11 @@ const Example = () => {
               label="Medium"
               counter={selected1.length}
               placeholder="Choose an option"
-              onChange={setSelected1}
-              onQueryChange={setQuery1}
               displayValue={({ label }) => label }
             >
               <ControlsChevronDownSmall />
             </Combobox.MultiSelect>
-            <Combobox.Transition
-              onQueryChange={setQuery1}
-            >
+            <Combobox.Transition>
               <Combobox.Options>
                 {filteredPeople1.length === 0 && query1 !== '' ? (
                   <div className='relative cursor-default select-none py-2 px-4 text-trunks'>
@@ -133,8 +125,8 @@ const Example = () => {
       <Combobox
         value={selected2}
         onChange={setSelected2}
-        onClear={useCallback(() => setSelected2([]), [setSelected2])}
         onQueryChange={setQuery2}
+        onClear={useCallback(() => setSelected2([]), [setSelected2])}
         className='w-full max-w-xs'
         size="lg"
         multiple
@@ -146,15 +138,11 @@ const Example = () => {
               label="Large"
               counter={selected2.length}
               placeholder="Choose an option"
-              onChange={setSelected2}
-              onQueryChange={setQuery2}
               displayValue={({ label }) => label }
             >
               <ControlsChevronDownSmall />
             </Combobox.MultiSelect>
-            <Combobox.Transition
-              onQueryChange={setQuery2}
-            >
+            <Combobox.Transition>
               <Combobox.Options>
                 {filteredPeople2.length === 0 && query2 !== '' ? (
                   <div className='relative cursor-default select-none py-2 px-4 text-trunks'>

@@ -54,10 +54,7 @@ const Panel: React.FC<WithChildren<PanelProps>> = ({ children, className }) => {
 
 const Title: React.FC<{ children?: ReactNode }> = ({ children }) => {
   return (
-    <Dialog.Title
-      as="h3"
-      className="text-lg font-medium leading-6 text-gray-900"
-    >
+    <Dialog.Title as="h3" className="text-moon-18 font-medium text-gray-900">
       {children}
     </Dialog.Title>
   );

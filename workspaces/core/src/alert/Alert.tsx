@@ -4,7 +4,7 @@ import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import ControlsClose from '../private/icons/ControlsClose';
 import useRegisterChild from '../private/utils/useRegisterChild';
 import AlertContext from './private/utils/AlertContext';
-import useAlertContext from './private/utils/useTooltipContext';
+import useAlertContext from './private/utils/useAlertContext';
 import type CloseProps from './private/types/CloseProps';
 import type Props from './private/types/Props';
 import type TextProps from './private/types/TextProps';

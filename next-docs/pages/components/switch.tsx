@@ -9,6 +9,7 @@ import Disabled from '../../public/examples/switch/Disabled';
 import Form from '../../public/examples/switch/Form';
 import Sizes from '../../public/examples/switch/Sizes';
 import WithIcons from '../../public/examples/switch/WithIcons';
+import WithTooltip from '../../public/examples/switch/WithTooltip';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
@@ -70,6 +71,11 @@ const Example = () => {
         title="Using with HTML forms"
         preview={<Form />}
         code={examples ? examples.Form : 'Loading'}
+      />
+      <Preview
+        title="Using with Tooltip"
+        preview={<WithTooltip />}
+        code={examples ? examples.WithTooltip : 'Loading'}
       />
       <PropsTable
         title="Switch props"

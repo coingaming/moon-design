@@ -85,6 +85,13 @@ module.exports = {
             letterSpacing: '-0.03125rem',
           },
         ],
+        'moon-40': [
+          '2.5rem',
+          {
+            lineHeight: '3rem',
+            letterSpacing: '-0.03125rem',
+          },
+        ],
         'moon-48': [
           '3rem',
           {
@@ -144,6 +151,11 @@ module.exports = {
         'moon-md': 'var(--shadow-md)',
         'moon-lg': 'var(--shadow-lg)',
         'moon-xl': 'var(--shadow-xl)',
+        textarea: '0 0 0 var(--border-width) rgb(var(--beerus))',
+        'textarea-hov':
+          '0 0 0 var(--border-i-width) rgb(var(--bulma) / 7%), 0 0 0 var(--border-i-width) rgb(var(--beerus))',
+        'textarea-focus': '0 0 0 var(--border-i-width) rgb(var(--piccolo))',
+        'textarea-err': '0 0 0 var(--border-i-width) rgb(var(--chichi))',
       },
       opacity: {
         moon: 'var(--opacity-moon)',

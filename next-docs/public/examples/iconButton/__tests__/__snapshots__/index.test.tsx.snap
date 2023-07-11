@@ -87,7 +87,7 @@ Object {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="M7 14.941L13.667 22 25 10"
+                  d="M7 14.9412L13.6667 22L25 10"
                   stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
@@ -247,7 +247,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M7 14.941L13.667 22 25 10"
+                d="M7 14.9412L13.6667 22L25 10"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -616,7 +616,7 @@ Object {
         dir="rtl"
       >
         <button
-          class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-30 cursor-not-allowed btn-primary text-moon-24"
+          class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24"
           disabled=""
           type="button"
         >
@@ -646,7 +646,7 @@ Object {
       dir="rtl"
     >
       <button
-        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-30 cursor-not-allowed btn-primary text-moon-24"
+        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24"
         disabled=""
         type="button"
       >
@@ -1346,7 +1346,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M7 14.941L13.667 22 25 10"
+                d="M7 14.9412L13.6667 22L25 10"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -1502,7 +1502,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 14.941L13.667 22 25 10"
+              d="M7 14.9412L13.6667 22L25 10"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -1851,7 +1851,7 @@ Object {
   "baseElement": <body>
     <div>
       <button
-        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-30 cursor-not-allowed btn-primary text-moon-24"
+        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24"
         disabled=""
         type="button"
       >
@@ -1877,7 +1877,7 @@ Object {
   </body>,
   "container": <div>
     <button
-      class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-30 cursor-not-allowed btn-primary text-moon-24"
+      class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24"
       disabled=""
       type="button"
     >

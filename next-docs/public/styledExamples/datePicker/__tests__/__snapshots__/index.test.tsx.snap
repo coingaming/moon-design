@@ -6268,7 +6268,11 @@ exports[`DatePicker renders 1`] = `
 >
   <div>
     <div
+<<<<<<< HEAD
       className="sc-bzywxr bWMTLL"
+=======
+      className="sc-eNVtYQ dfvWkj"
+>>>>>>> develop
     >
       <button
         className="sc-iPahhU eWIjvf"
@@ -6744,7 +6748,11 @@ exports[`DatePicker renders RTL 1`] = `
   >
     <div>
       <div
+<<<<<<< HEAD
         className="sc-bzywxr bWMTLL"
+=======
+        className="sc-eNVtYQ dfvWkj"
+>>>>>>> develop
       >
         <button
           className="sc-iPahhU eWIjvf"

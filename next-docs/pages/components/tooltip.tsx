@@ -7,6 +7,7 @@ import PropsTable from '../../components/PropsTable';
 import ArrowPositions from '../../public/examples/tooltip/ArrowPositions';
 import Customization from '../../public/examples/tooltip/Customization';
 import Default from '../../public/examples/tooltip/Default';
+import NotPortal from '../../public/examples/tooltip/NotPortal';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
@@ -53,6 +54,11 @@ const Example = () => {
         preview={<Customization />}
         code={examples ? examples.Customization : 'Loading'}
       />
+      <Preview
+        title="Render content into the specific container (not body)"
+        preview={<NotPortal />}
+        code={examples ? examples.NotPortal : 'Loading'}
+      />
       <PropsTable
         title="Tooltip.Trigger props"
         data={[
@@ -81,6 +87,14 @@ const Example = () => {
             required: false,
             default: 'top-center',
             description: 'Position of Tooltip',
+          },
+          {
+            name: 'container',
+            type: 'HTMLElement | null',
+            required: false,
+            default: 'document.body',
+            description:
+              'Specify a container element to portal the content into.',
           },
         ]}
       />

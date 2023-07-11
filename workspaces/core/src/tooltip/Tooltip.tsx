@@ -11,9 +11,12 @@ import type ContentProps from './private/types/ContentProps';
 import type TooltipRootProps from './private/types/TooltipRootProps';
 import type TriggerProps from './private/types/TriggerProps';
 
-const TooltipRoot: React.FC<TooltipRootProps> = ({ children }) => (
+type RootContentProps = TooltipRootProps &
+  React.ComponentProps<typeof RadixTooltip.Root>;
+
+const TooltipRoot: React.FC<RootContentProps> = ({ children, ...rest }) => (
   <RadixTooltip.Provider delayDuration={100}>
-    <RadixTooltip.Root>{children}</RadixTooltip.Root>
+    <RadixTooltip.Root {...rest}>{children}</RadixTooltip.Root>
   </RadixTooltip.Provider>
 );
 
@@ -34,14 +37,27 @@ const Arrow: React.FC<ArrowProps> = ({ className }) => {
   );
 };
 
-const Trigger: React.FC<TriggerProps> = ({ className, children }) => (
-  <RadixTooltip.Trigger className={className}>{children}</RadixTooltip.Trigger>
+type TriggerComponentProps = TriggerProps &
+  React.ComponentProps<typeof RadixTooltip.Trigger>;
+
+const Trigger: React.FC<TriggerComponentProps> = ({
+  className,
+  children,
+  ...rest
+}) => (
+  <RadixTooltip.Trigger className={className} {...rest}>
+    {children}
+  </RadixTooltip.Trigger>
 );
 
-const Content: React.FC<ContentProps> = ({
+type ContentComponentProps = ContentProps &
+  React.ComponentProps<typeof RadixTooltip.Content>;
+const Content: React.FC<ContentComponentProps> = ({
   position = 'top-center',
   className,
   children,
+  container,
+  ...rest
 }) => {
   const states = {
     withArrow: false,
@@ -50,7 +66,7 @@ const Content: React.FC<ContentProps> = ({
   const isArrow = state.childrens?.find((name) => name === 'Arrow');
   return (
     <TooltipContext.Provider value={{ ...states, ...state, registerChild }}>
-      <RadixTooltip.Portal>
+      <RadixTooltip.Portal container={container}>
         <RadixTooltip.Content
           side={getSide(position)}
           align={getAlign(position)}
@@ -60,6 +76,7 @@ const Content: React.FC<ContentProps> = ({
             'shadow-[0_6px_6px_-6px_rgba(0,0,0,0.16)] drop-shadow-[0_0_1px_rgba(0,0,0,0.4)]',
             className
           )}
+          {...rest}
         >
           {children}
         </RadixTooltip.Content>

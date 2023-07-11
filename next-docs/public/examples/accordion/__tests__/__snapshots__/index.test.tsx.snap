@@ -25,7 +25,7 @@ Object {
               <button
                 aria-controls="radix-:r29:"
                 aria-expanded="false"
-                class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+                class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
                 data-orientation="vertical"
                 data-radix-collection-item=""
                 data-state="closed"
@@ -76,7 +76,7 @@ Object {
               <button
                 aria-controls="radix-:r2b:"
                 aria-expanded="false"
-                class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+                class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
                 data-orientation="vertical"
                 data-radix-collection-item=""
                 data-state="closed"
@@ -139,7 +139,7 @@ Object {
             <button
               aria-controls="radix-:r29:"
               aria-expanded="false"
-              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
@@ -190,7 +190,7 @@ Object {
             <button
               aria-controls="radix-:r2b:"
               aria-expanded="false"
-              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
@@ -310,7 +310,7 @@ Object {
               <button
                 aria-controls="radix-:r1n:"
                 aria-expanded="false"
-                class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30 moon-open:[&_span_svg]:rotate-180"
+                class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60 moon-open:[&_span_svg]:rotate-180"
                 data-orientation="vertical"
                 data-radix-collection-item=""
                 data-state="closed"
@@ -438,7 +438,7 @@ Object {
             <button
               aria-controls="radix-:r1n:"
               aria-expanded="false"
-              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30 moon-open:[&_span_svg]:rotate-180"
+              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60 moon-open:[&_span_svg]:rotate-180"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
@@ -623,7 +623,7 @@ Object {
               <button
                 aria-controls="radix-:r1l:"
                 aria-expanded="false"
-                class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+                class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
                 data-orientation="vertical"
                 data-radix-collection-item=""
                 data-state="closed"
@@ -686,7 +686,7 @@ Object {
             <button
               aria-controls="radix-:r1l:"
               aria-expanded="false"
-              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
@@ -806,7 +806,7 @@ Object {
               <button
                 aria-controls="radix-:r21:"
                 aria-expanded="false"
-                class="p-4 text-moon-16 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+                class="p-4 text-moon-16 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
                 data-orientation="vertical"
                 data-radix-collection-item=""
                 data-state="closed"
@@ -862,7 +862,7 @@ Object {
               <button
                 aria-controls="radix-:r23:"
                 aria-expanded="false"
-                class="p-3 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+                class="p-3 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
                 data-orientation="vertical"
                 data-radix-collection-item=""
                 data-state="closed"
@@ -918,7 +918,7 @@ Object {
               <button
                 aria-controls="radix-:r25:"
                 aria-expanded="false"
-                class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+                class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
                 data-orientation="vertical"
                 data-radix-collection-item=""
                 data-state="closed"
@@ -974,7 +974,7 @@ Object {
               <button
                 aria-controls="radix-:r27:"
                 aria-expanded="false"
-                class="p-2 text-moon-12 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+                class="p-2 text-moon-12 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
                 data-orientation="vertical"
                 data-radix-collection-item=""
                 data-state="closed"
@@ -1037,7 +1037,7 @@ Object {
             <button
               aria-controls="radix-:r21:"
               aria-expanded="false"
-              class="p-4 text-moon-16 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              class="p-4 text-moon-16 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
@@ -1093,7 +1093,7 @@ Object {
             <button
               aria-controls="radix-:r23:"
               aria-expanded="false"
-              class="p-3 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              class="p-3 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
@@ -1149,7 +1149,7 @@ Object {
             <button
               aria-controls="radix-:r25:"
               aria-expanded="false"
-              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
@@ -1205,7 +1205,7 @@ Object {
             <button
               aria-controls="radix-:r27:"
               aria-expanded="false"
-              class="p-2 text-moon-12 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              class="p-2 text-moon-12 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
@@ -1325,7 +1325,7 @@ Object {
               <button
                 aria-controls="radix-:r19:"
                 aria-expanded="false"
-                class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+                class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
                 data-orientation="vertical"
                 data-radix-collection-item=""
                 data-state="closed"
@@ -1376,7 +1376,7 @@ Object {
               <button
                 aria-controls="radix-:r1b:"
                 aria-expanded="false"
-                class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+                class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
                 data-orientation="vertical"
                 data-radix-collection-item=""
                 data-state="closed"
@@ -1439,7 +1439,7 @@ Object {
             <button
               aria-controls="radix-:r19:"
               aria-expanded="false"
-              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
@@ -1490,7 +1490,7 @@ Object {
             <button
               aria-controls="radix-:r1b:"
               aria-expanded="false"
-              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
@@ -1612,7 +1612,7 @@ Object {
               <button
                 aria-controls="radix-:r1j:"
                 aria-expanded="false"
-                class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+                class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
                 data-disabled=""
                 data-orientation="vertical"
                 data-radix-collection-item=""
@@ -1680,7 +1680,7 @@ Object {
             <button
               aria-controls="radix-:r1j:"
               aria-expanded="false"
-              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
               data-disabled=""
               data-orientation="vertical"
               data-radix-collection-item=""
@@ -1803,7 +1803,7 @@ Object {
               <button
                 aria-controls="radix-:r1d:"
                 aria-expanded="true"
-                class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+                class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
                 data-orientation="vertical"
                 data-radix-collection-item=""
                 data-state="open"
@@ -1867,7 +1867,7 @@ Object {
             <button
               aria-controls="radix-:r1d:"
               aria-expanded="true"
-              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="open"
@@ -1988,7 +1988,7 @@ Object {
               <button
                 aria-controls="radix-:r1f:"
                 aria-expanded="false"
-                class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+                class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
                 data-orientation="vertical"
                 data-radix-collection-item=""
                 data-state="closed"
@@ -2039,7 +2039,7 @@ Object {
               <button
                 aria-controls="radix-:r1h:"
                 aria-expanded="false"
-                class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+                class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
                 data-orientation="vertical"
                 data-radix-collection-item=""
                 data-state="closed"
@@ -2102,7 +2102,7 @@ Object {
             <button
               aria-controls="radix-:r1f:"
               aria-expanded="false"
-              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
@@ -2153,7 +2153,7 @@ Object {
             <button
               aria-controls="radix-:r1h:"
               aria-expanded="false"
-              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
@@ -2273,7 +2273,7 @@ Object {
               <button
                 aria-controls="radix-:r1p:"
                 aria-expanded="false"
-                class="p-4 text-moon-16 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+                class="p-4 text-moon-16 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
                 data-orientation="vertical"
                 data-radix-collection-item=""
                 data-state="closed"
@@ -2329,7 +2329,7 @@ Object {
               <button
                 aria-controls="radix-:r1r:"
                 aria-expanded="false"
-                class="p-3 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+                class="p-3 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
                 data-orientation="vertical"
                 data-radix-collection-item=""
                 data-state="closed"
@@ -2385,7 +2385,7 @@ Object {
               <button
                 aria-controls="radix-:r1t:"
                 aria-expanded="false"
-                class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+                class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
                 data-orientation="vertical"
                 data-radix-collection-item=""
                 data-state="closed"
@@ -2441,7 +2441,7 @@ Object {
               <button
                 aria-controls="radix-:r1v:"
                 aria-expanded="false"
-                class="p-2 text-moon-12 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+                class="p-2 text-moon-12 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
                 data-orientation="vertical"
                 data-radix-collection-item=""
                 data-state="closed"
@@ -2504,7 +2504,7 @@ Object {
             <button
               aria-controls="radix-:r1p:"
               aria-expanded="false"
-              class="p-4 text-moon-16 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              class="p-4 text-moon-16 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
@@ -2560,7 +2560,7 @@ Object {
             <button
               aria-controls="radix-:r1r:"
               aria-expanded="false"
-              class="p-3 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              class="p-3 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
@@ -2616,7 +2616,7 @@ Object {
             <button
               aria-controls="radix-:r1t:"
               aria-expanded="false"
-              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
@@ -2672,7 +2672,7 @@ Object {
             <button
               aria-controls="radix-:r1v:"
               aria-expanded="false"
-              class="p-2 text-moon-12 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              class="p-2 text-moon-12 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
@@ -2805,7 +2805,7 @@ Object {
                 <button
                   aria-controls="radix-:r2d:"
                   aria-expanded="true"
-                  class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+                  class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
                   data-orientation="vertical"
                   data-radix-collection-item=""
                   data-state="open"
@@ -2857,7 +2857,7 @@ Object {
                 <button
                   aria-controls="radix-:r2f:"
                   aria-expanded="false"
-                  class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+                  class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
                   data-orientation="vertical"
                   data-radix-collection-item=""
                   data-state="closed"
@@ -2934,7 +2934,7 @@ Object {
               <button
                 aria-controls="radix-:r2d:"
                 aria-expanded="true"
-                class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+                class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
                 data-orientation="vertical"
                 data-radix-collection-item=""
                 data-state="open"
@@ -2986,7 +2986,7 @@ Object {
               <button
                 aria-controls="radix-:r2f:"
                 aria-expanded="false"
-                class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+                class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
                 data-orientation="vertical"
                 data-radix-collection-item=""
                 data-state="closed"
@@ -3104,7 +3104,7 @@ Object {
             <button
               aria-controls="radix-:r11:"
               aria-expanded="false"
-              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
@@ -3155,7 +3155,7 @@ Object {
             <button
               aria-controls="radix-:r13:"
               aria-expanded="false"
-              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
@@ -3214,7 +3214,7 @@ Object {
           <button
             aria-controls="radix-:r11:"
             aria-expanded="false"
-            class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+            class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
             data-orientation="vertical"
             data-radix-collection-item=""
             data-state="closed"
@@ -3265,7 +3265,7 @@ Object {
           <button
             aria-controls="radix-:r13:"
             aria-expanded="false"
-            class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+            class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
             data-orientation="vertical"
             data-radix-collection-item=""
             data-state="closed"
@@ -3381,7 +3381,7 @@ Object {
             <button
               aria-controls="radix-:rf:"
               aria-expanded="false"
-              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30 moon-open:[&_span_svg]:rotate-180"
+              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60 moon-open:[&_span_svg]:rotate-180"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
@@ -3505,7 +3505,7 @@ Object {
           <button
             aria-controls="radix-:rf:"
             aria-expanded="false"
-            class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30 moon-open:[&_span_svg]:rotate-180"
+            class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60 moon-open:[&_span_svg]:rotate-180"
             data-orientation="vertical"
             data-radix-collection-item=""
             data-state="closed"
@@ -3686,7 +3686,7 @@ Object {
             <button
               aria-controls="radix-:rd:"
               aria-expanded="false"
-              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
@@ -3745,7 +3745,7 @@ Object {
           <button
             aria-controls="radix-:rd:"
             aria-expanded="false"
-            class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+            class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
             data-orientation="vertical"
             data-radix-collection-item=""
             data-state="closed"
@@ -3861,7 +3861,7 @@ Object {
             <button
               aria-controls="radix-:rp:"
               aria-expanded="false"
-              class="p-4 text-moon-16 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              class="p-4 text-moon-16 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
@@ -3917,7 +3917,7 @@ Object {
             <button
               aria-controls="radix-:rr:"
               aria-expanded="false"
-              class="p-3 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              class="p-3 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
@@ -3973,7 +3973,7 @@ Object {
             <button
               aria-controls="radix-:rt:"
               aria-expanded="false"
-              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
@@ -4029,7 +4029,7 @@ Object {
             <button
               aria-controls="radix-:rv:"
               aria-expanded="false"
-              class="p-2 text-moon-12 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              class="p-2 text-moon-12 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
@@ -4088,7 +4088,7 @@ Object {
           <button
             aria-controls="radix-:rp:"
             aria-expanded="false"
-            class="p-4 text-moon-16 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+            class="p-4 text-moon-16 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
             data-orientation="vertical"
             data-radix-collection-item=""
             data-state="closed"
@@ -4144,7 +4144,7 @@ Object {
           <button
             aria-controls="radix-:rr:"
             aria-expanded="false"
-            class="p-3 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+            class="p-3 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
             data-orientation="vertical"
             data-radix-collection-item=""
             data-state="closed"
@@ -4200,7 +4200,7 @@ Object {
           <button
             aria-controls="radix-:rt:"
             aria-expanded="false"
-            class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+            class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
             data-orientation="vertical"
             data-radix-collection-item=""
             data-state="closed"
@@ -4256,7 +4256,7 @@ Object {
           <button
             aria-controls="radix-:rv:"
             aria-expanded="false"
-            class="p-2 text-moon-12 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+            class="p-2 text-moon-12 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
             data-orientation="vertical"
             data-radix-collection-item=""
             data-state="closed"
@@ -4372,7 +4372,7 @@ Object {
             <button
               aria-controls="radix-:r1:"
               aria-expanded="false"
-              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
@@ -4423,7 +4423,7 @@ Object {
             <button
               aria-controls="radix-:r3:"
               aria-expanded="false"
-              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
@@ -4482,7 +4482,7 @@ Object {
           <button
             aria-controls="radix-:r1:"
             aria-expanded="false"
-            class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+            class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
             data-orientation="vertical"
             data-radix-collection-item=""
             data-state="closed"
@@ -4533,7 +4533,7 @@ Object {
           <button
             aria-controls="radix-:r3:"
             aria-expanded="false"
-            class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+            class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
             data-orientation="vertical"
             data-radix-collection-item=""
             data-state="closed"
@@ -4651,7 +4651,7 @@ Object {
             <button
               aria-controls="radix-:rb:"
               aria-expanded="false"
-              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
               data-disabled=""
               data-orientation="vertical"
               data-radix-collection-item=""
@@ -4715,7 +4715,7 @@ Object {
           <button
             aria-controls="radix-:rb:"
             aria-expanded="false"
-            class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+            class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
             data-disabled=""
             data-orientation="vertical"
             data-radix-collection-item=""
@@ -4834,7 +4834,7 @@ Object {
             <button
               aria-controls="radix-:r5:"
               aria-expanded="true"
-              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="open"
@@ -4894,7 +4894,7 @@ Object {
           <button
             aria-controls="radix-:r5:"
             aria-expanded="true"
-            class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+            class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
             data-orientation="vertical"
             data-radix-collection-item=""
             data-state="open"
@@ -5011,7 +5011,7 @@ Object {
             <button
               aria-controls="radix-:r7:"
               aria-expanded="false"
-              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
@@ -5062,7 +5062,7 @@ Object {
             <button
               aria-controls="radix-:r9:"
               aria-expanded="false"
-              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
@@ -5121,7 +5121,7 @@ Object {
           <button
             aria-controls="radix-:r7:"
             aria-expanded="false"
-            class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+            class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
             data-orientation="vertical"
             data-radix-collection-item=""
             data-state="closed"
@@ -5172,7 +5172,7 @@ Object {
           <button
             aria-controls="radix-:r9:"
             aria-expanded="false"
-            class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+            class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
             data-orientation="vertical"
             data-radix-collection-item=""
             data-state="closed"
@@ -5288,7 +5288,7 @@ Object {
             <button
               aria-controls="radix-:rh:"
               aria-expanded="false"
-              class="p-4 text-moon-16 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              class="p-4 text-moon-16 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
@@ -5344,7 +5344,7 @@ Object {
             <button
               aria-controls="radix-:rj:"
               aria-expanded="false"
-              class="p-3 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              class="p-3 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
@@ -5400,7 +5400,7 @@ Object {
             <button
               aria-controls="radix-:rl:"
               aria-expanded="false"
-              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
@@ -5456,7 +5456,7 @@ Object {
             <button
               aria-controls="radix-:rn:"
               aria-expanded="false"
-              class="p-2 text-moon-12 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              class="p-2 text-moon-12 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"
@@ -5515,7 +5515,7 @@ Object {
           <button
             aria-controls="radix-:rh:"
             aria-expanded="false"
-            class="p-4 text-moon-16 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+            class="p-4 text-moon-16 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
             data-orientation="vertical"
             data-radix-collection-item=""
             data-state="closed"
@@ -5571,7 +5571,7 @@ Object {
           <button
             aria-controls="radix-:rj:"
             aria-expanded="false"
-            class="p-3 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+            class="p-3 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
             data-orientation="vertical"
             data-radix-collection-item=""
             data-state="closed"
@@ -5627,7 +5627,7 @@ Object {
           <button
             aria-controls="radix-:rl:"
             aria-expanded="false"
-            class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+            class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
             data-orientation="vertical"
             data-radix-collection-item=""
             data-state="closed"
@@ -5683,7 +5683,7 @@ Object {
           <button
             aria-controls="radix-:rn:"
             aria-expanded="false"
-            class="p-2 text-moon-12 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+            class="p-2 text-moon-12 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
             data-orientation="vertical"
             data-radix-collection-item=""
             data-state="closed"
@@ -5812,7 +5812,7 @@ Object {
               <button
                 aria-controls="radix-:r15:"
                 aria-expanded="true"
-                class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+                class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
                 data-orientation="vertical"
                 data-radix-collection-item=""
                 data-state="open"
@@ -5864,7 +5864,7 @@ Object {
               <button
                 aria-controls="radix-:r17:"
                 aria-expanded="false"
-                class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+                class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
                 data-orientation="vertical"
                 data-radix-collection-item=""
                 data-state="closed"
@@ -5937,7 +5937,7 @@ Object {
             <button
               aria-controls="radix-:r15:"
               aria-expanded="true"
-              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="open"
@@ -5989,7 +5989,7 @@ Object {
             <button
               aria-controls="radix-:r17:"
               aria-expanded="false"
-              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+              class="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60"
               data-orientation="vertical"
               data-radix-collection-item=""
               data-state="closed"

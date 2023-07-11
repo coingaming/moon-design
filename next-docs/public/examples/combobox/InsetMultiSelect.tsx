@@ -33,8 +33,8 @@ const Example = () => {
       <Combobox
         value={selected}
         onChange={setSelected}
-        onClear={useCallback(() => setSelected([]), [setSelected])}
         onQueryChange={setQuery}
+        onClear={useCallback(() => setSelected([]), [setSelected])}
         multiple
       >
         {({ open }) => (
@@ -44,15 +44,11 @@ const Example = () => {
               label='Select label'
               counter={selected.length}
               placeholder='Choose an option'
-              onChange={setSelected}
-              onQueryChange={setQuery}
               displayValue={({ label }) => label}
             >
               <ControlsChevronDownSmall />
             </Combobox.InsetMultiSelect>
-            <Combobox.Transition
-              onQueryChange={setQuery}
-            >
+            <Combobox.Transition>
               <Combobox.Options>
                 {filteredPeople.length === 0 && query !== '' ? (
                   <div className='relative cursor-default select-none py-2 px-4 text-trunks'>

@@ -58,7 +58,7 @@ const TextInputInnerLabel = forwardRef<HTMLInputElement, TextInputProps>(
             isRtl={dir === 'rtl'}
             {...inputProps}
           />
-          <label className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4">
+          <label className="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4">
             {label}
           </label>
         </div>

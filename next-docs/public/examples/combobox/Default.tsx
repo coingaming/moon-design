@@ -49,17 +49,13 @@ const Example = () => {
               <Combobox.Input
                 open={open}
                 placeholder={'Choose a name...'}
-                onChange={setSelected0}
-                onQueryChange={setQuery0}
                 displayValue={({ label }) => label}
               />
               <Combobox.Button open={open}>
                 <ControlsChevronDownSmall />
               </Combobox.Button>
             </Combobox.Trigger>
-            <Combobox.Transition
-              onQueryChange={setQuery0}
-            >
+            <Combobox.Transition>
               <Combobox.Options className={'min-w-[18.75rem] z-50'}>
                 {filteredPeople0.length === 0 && query0 !== '' ? (
                   <div className='relative cursor-default select-none py-2 px-4 text-trunks'>
@@ -100,17 +96,13 @@ const Example = () => {
               <Combobox.Input
                 open={open}
                 placeholder={'Choose a name...'}
-                onChange={setSelected1}
-                onQueryChange={setQuery1}
                 displayValue={(person) => person?.label}
               />
               <Combobox.Button open={open}>
                 <ControlsChevronDownSmall />
               </Combobox.Button>
             </Combobox.Trigger>
-            <Combobox.Transition
-              onQueryChange={setQuery1}
-            >
+            <Combobox.Transition>
               <Combobox.Options className={'min-w-[18.75rem] z-50'}>
                 {filteredPeople1.length === 0 && query1 !== '' ? (
                   <div className='relative cursor-default select-none py-2 px-4 text-trunks'>

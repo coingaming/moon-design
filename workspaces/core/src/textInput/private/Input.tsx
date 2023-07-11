@@ -34,7 +34,7 @@ const Input = forwardRef<
         type={type}
         placeholder={placeholder}
         className={mergeClassnames(
-          'block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2]',
+          'block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2]',
           'shadow-input hover:shadow-input-hov',
           'focus:shadow-input-focus focus:outline-none',
           isError &&

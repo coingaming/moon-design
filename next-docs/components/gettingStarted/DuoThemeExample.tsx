@@ -67,7 +67,7 @@ const DuoThemeExample = () => (
   --border-i-width: 0.125rem; /* 2px */
 
   /* opacity */
-  --opacity-moon: 0.32;
+  --opacity-moon: 0.6;
 
   /* fonts */
   --averta: 'Averta Std';
@@ -147,7 +147,7 @@ const DuoThemeExample = () => (
   --border-i-width: 0.125rem; /* 2px */
 
   /* opacity */
-  --opacity-moon: 0.32;
+  --opacity-moon: 0.6;
 
   /* fonts */
   --averta: 'Averta Std';

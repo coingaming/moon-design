@@ -7,6 +7,11 @@ const Example = () => (
       <Group.LastInput placeholder="Password" type="password" />
     </Group>
 
+    <Group>
+      <Group.FirstInput placeholder="Username" error />
+      <Group.LastInput placeholder="Password" type="password" />
+    </Group>
+
     <Group disabled>
       <Group.FirstInput placeholder="Username" />
       <Group.LastInput placeholder="Password" type="password" />

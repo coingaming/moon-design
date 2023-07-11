@@ -59,7 +59,7 @@ const InsetInputRoot = forwardRef<HTMLInputElement, InsetInputProps>(
         <div
           className={mergeClassnames(
             'w-full max-w-full relative rounded-moon-i-sm bg-gohan',
-            disabled && 'opacity-30 cursor-not-allowed',
+            disabled && 'opacity-60 cursor-not-allowed',
             className && className
           )}
         >
@@ -69,7 +69,7 @@ const InsetInputRoot = forwardRef<HTMLInputElement, InsetInputProps>(
             id={id}
             disabled={disabled}
             className={mergeClassnames(
-              'block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2]',
+              'block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2]',
               'bg-transparent shadow-input hover:shadow-input-hov',
               'focus:shadow-input-focus focus:outline-none',
               'focus-visible:shadow-input-focus focus-visible::outline-none',
@@ -91,7 +91,7 @@ const InsetInputRoot = forwardRef<HTMLInputElement, InsetInputProps>(
               'input-xl-dt-shared',
               isLabel && 'input-xl pt-[1.125rem] input-xl-dt-label',
               'invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err',
-              disabled && 'opacity-30 cursor-not-allowed'
+              disabled && 'opacity-60 cursor-not-allowed'
             )}
             {...rest}
           />
@@ -111,7 +111,7 @@ const Label: React.FC<LabelProps> = ({ children, className }) => {
   return (
     <label
       className={mergeClassnames(
-        'absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4',
+        'absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4',
         className && className
       )}
     >

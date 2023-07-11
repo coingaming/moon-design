@@ -880,7 +880,7 @@ Object {
                         Username or email
                       </label>
                       <input
-                        class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+                        class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
                         placeholder=""
                         type="email"
                       />
@@ -903,7 +903,7 @@ Object {
                       class="p-2 mt-4 rounded-lg bg-goku"
                     >
                       <h3
-                        class="p-2 text-lg font-medium leading-6 border-b-2 text-bulma border-beerus"
+                        class="p-2 text-moon-18 font-medium border-b-2 text-bulma border-beerus"
                       >
                         Need some help?
                       </h3>
@@ -934,7 +934,7 @@ Object {
                             Email us
                           </p>
                           <p
-                            class="text-xs text-trunks"
+                            class="text-moon-12 text-trunks"
                           >
                             Contact us via email
                           </p>
@@ -1889,7 +1889,7 @@ Object {
                         Username or email
                       </label>
                       <input
-                        class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+                        class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
                         placeholder=""
                         type="email"
                       />
@@ -1912,7 +1912,7 @@ Object {
                       class="p-2 mt-4 rounded-lg bg-goku"
                     >
                       <h3
-                        class="p-2 text-lg font-medium leading-6 border-b-2 text-bulma border-beerus"
+                        class="p-2 text-moon-18 font-medium border-b-2 text-bulma border-beerus"
                       >
                         Need some help?
                       </h3>
@@ -1943,7 +1943,7 @@ Object {
                             Email us
                           </p>
                           <p
-                            class="text-xs text-trunks"
+                            class="text-moon-12 text-trunks"
                           >
                             Contact us via email
                           </p>

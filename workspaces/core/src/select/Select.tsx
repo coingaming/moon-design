@@ -87,7 +87,7 @@ const Select: React.FC<SelectProps<BaseOptionType[], BaseOptionType>> = ({
         <div
           className={mergeClassnames(
             'w-full',
-            disabled && 'opacity-30 cursor-not-allowed'
+            disabled && 'opacity-60 cursor-not-allowed'
           )}
         >
           <div className="relative">

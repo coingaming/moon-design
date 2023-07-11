@@ -3,7 +3,7 @@
 exports[`Tooltip renders 1`] = `
 Array [
   <div
-    className="sc-MeVjq jOjazt"
+    className="sc-iOEKEQ ljJUJ"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
   >
@@ -14,10 +14,10 @@ Array [
       Default tooltip
     </p>
     <div
-      className="sc-dtjvA-D cCuIEw"
+      className="sc-hVhwyb gaMjzb"
     >
       <div
-        className="sc-gYNeLZ eOtvzy"
+        className="sc-kvxsdh cXqfOa"
       >
         <p
           className="sc-hFbbzE hfabmn"
@@ -29,7 +29,7 @@ Array [
     </div>
   </div>,
   <div
-    className="sc-MeVjq jOjazt"
+    className="sc-iOEKEQ ljJUJ"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
   >
@@ -40,13 +40,13 @@ Array [
       With icon
     </p>
     <div
-      className="sc-dtjvA-D cCuIEw"
+      className="sc-hVhwyb gaMjzb"
     >
       <div
-        className="sc-gYNeLZ eOtvzy"
+        className="sc-kvxsdh cXqfOa"
       >
         <div
-          className="sc-erIEuM ciOzwV"
+          className="sc-gLZMPq kLtEdG"
         >
           <svg
             className="sc-fMMURN"
