@@ -8,8 +8,9 @@ const Example = () => {
       <Switch
         checked={state}
         onChange={setState}
-        name="notification"
+        name="Notification"
         value="on"
+        aria-label="Notification"
       />
     </form>
   );

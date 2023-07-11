@@ -12,6 +12,7 @@ const Example = () => {
         size="2xs"
         onIcon={<GenericCheckRounded />}
         offIcon={<GenericClose />}
+        aria-label="Switch with icons"
       />
       <Switch
         checked={state}
@@ -19,12 +20,14 @@ const Example = () => {
         size="xs"
         onIcon={<GenericCheckRounded />}
         offIcon={<GenericClose />}
+        aria-label="Switch with icons"
       />
       <Switch
         checked={state}
         onChange={setState}
         onIcon={<GenericCheckRounded />}
         offIcon={<GenericClose />}
+        aria-label="Switch with icons"
       />
     </>
   );
