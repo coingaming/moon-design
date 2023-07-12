@@ -48,6 +48,7 @@ const Switch: FC<SwitchProps> = ({
         rest?.disabled && 'opacity-60 cursor-not-allowed select-none',
         className
       )}
+      aria-readonly={rest?.disabled}
       {...rest}
     >
       <span className="block relative h-full w-full">

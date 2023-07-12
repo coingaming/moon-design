@@ -12,7 +12,12 @@ const Example = () => {
   const { name, text, image } = getComponent('SearchCmdk');
   return (
     <>
-      <ComponentPageDescription title={name} image={image} isInProgress>
+      <ComponentPageDescription
+        title={name}
+        image={image}
+        isInProgress
+        isAriaSupport
+      >
         <p>{text}</p>
       </ComponentPageDescription>
 
