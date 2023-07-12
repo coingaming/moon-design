@@ -1,5 +1,11 @@
 # Change Log
 
+## 10.0.0
+
+### Major Changes
+
+- Implement new Base package
+
 ## 9.38.0
 
 ### Minor Changes

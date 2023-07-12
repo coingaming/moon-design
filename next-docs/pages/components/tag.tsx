@@ -20,6 +20,7 @@ const Example = () => {
         image={image}
         isInProgress
         isRtlSupport
+        isAriaSupport
       >
         <p>{text}</p>
         <p>Tags can be added or removed from an object.</p>

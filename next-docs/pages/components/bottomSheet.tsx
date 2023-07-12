@@ -13,7 +13,12 @@ const Example = () => {
   const { name, text, image } = getComponent('BottomSheet');
   return (
     <>
-      <ComponentPageDescription title={name} image={image} isInProgress>
+      <ComponentPageDescription
+        title={name}
+        image={image}
+        isInProgress
+        isAriaSupport
+      >
         <p>{text}</p>
         <p>
           Bottom sheets can contain any anything so let your imagination fly.

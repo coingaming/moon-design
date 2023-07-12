@@ -1,55 +1,14 @@
-import React, { createContext, RefObject, useContext, useEffect } from 'react';
+import React, { useEffect } from 'react';
+import IconButton from '../iconButton/IconButton';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
+import CarouselContext from './private/utils/CarouselContext';
+import useCarouselContext from './private/utils/useCarouselContext';
 import useInterval from './private/utils/useInterval';
 import withHorizontalScroll from './private/utils/withHorizontalScroll';
+import type CarouselRootProps from './private/types/CarouselRootProps';
+import type SubcomponentProps from './private/types/SubcomponentProps';
 
-type CarouselState = {
-  itemRef?: (element: HTMLLIElement) => void;
-  scrollLeftToStep?: () => void;
-  scrollRightToStep?: () => void;
-  canScrollLeft?: boolean;
-  canScrollRight?: boolean;
-  containerRef?: RefObject<HTMLUListElement>;
-  selectedIndex?: number;
-  itemsCount?: number;
-  firstVisibleIndex?: number;
-  lastVisibleIndex?: number;
-  autoSlideDelay?: number;
-};
-
-const CarouselContext = createContext<CarouselState>({});
-CarouselContext.displayName = 'CarouselContext';
-
-const useCarouselContext = (component: string) => {
-  const context = useContext(CarouselContext);
-  if (context === null) {
-    const err = new Error(
-      `<${component}> is missing a parent <Carousel /> component.`
-    );
-    throw err;
-  }
-  return context;
-};
-
-type CarouselRootProps = {
-  scrollTo?: number;
-  className?: string;
-  step?: number;
-  selectedIndex?: number;
-  autoSlideDelay?: number;
-  children?:
-    | React.ReactNode
-    | ((data: {
-        scrollLeftToStep?: () => void;
-        scrollRightToStep?: () => void;
-        canScrollLeft?: boolean;
-        canScrollRight?: boolean;
-        firstVisibleIndex?: number;
-        lastVisibleIndex?: number;
-      }) => React.ReactElement);
-};
-
-const CarouselRoot: React.FC<CarouselRootProps> = ({
+const CarouselRoot = ({
   children,
   scrollTo,
   className,
@@ -57,7 +16,7 @@ const CarouselRoot: React.FC<CarouselRootProps> = ({
   selectedIndex,
   autoSlideDelay,
   ...rest
-}) => {
+}: CarouselRootProps) => {
   const {
     itemRef,
     scrollLeftToStep,
@@ -122,16 +81,7 @@ const CarouselRoot: React.FC<CarouselRootProps> = ({
   );
 };
 
-type SubcomponentProps = {
-  className?: string;
-  children?: React.ReactNode;
-};
-
-const Reel: React.FC<SubcomponentProps> = ({
-  children,
-  className,
-  ...rest
-}) => {
+const Reel = ({ children, className, ...rest }: SubcomponentProps) => {
   const { containerRef, autoSlideDelay } = useCarouselContext('Carousel.Reel');
   return (
     <ul
@@ -154,11 +104,7 @@ const Reel: React.FC<SubcomponentProps> = ({
 };
 
 // TODO: highlight selected item (mark it as selected)
-const Item: React.FC<SubcomponentProps> = ({
-  children,
-  className,
-  ...rest
-}) => {
+const Item = ({ children, className, ...rest }: SubcomponentProps) => {
   const { itemRef } = useCarouselContext('Carousel.Item');
   return (
     <li
@@ -174,79 +120,51 @@ const Item: React.FC<SubcomponentProps> = ({
   );
 };
 
-type ControlProps = {
-  className?: string;
-  onClick: () => void;
-  disabled?: boolean;
-  children?: React.ReactNode;
-};
-
-const CarouselControl: React.FC<ControlProps> = ({
-  children,
-  className,
-  onClick,
-  disabled,
-  ...rest
-}) => {
-  return (
-    <button
-      className={mergeClassnames(
-        'max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks',
-        'text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2',
-        'origin-[top_center] z-5 disabled:opacity-60 disabled:cursor-not-allowed',
-        className
-      )}
-      onClick={onClick}
-      disabled={disabled}
-      {...rest}
-      type="button"
-    >
-      {children}
-    </button>
-  );
-};
-
-const LeftArrow: React.FC<SubcomponentProps> = ({
-  children,
-  className,
-  ...rest
-}) => {
+const LeftArrow = ({ children, className, ...rest }: SubcomponentProps) => {
   const { scrollLeftToStep = () => {}, canScrollLeft } =
     useCarouselContext('Carousel.LeftArrow');
   return (
-    <CarouselControl
-      className={mergeClassnames('-left-3', className)}
+    <IconButton
+      size="sm"
+      className={mergeClassnames(
+        'max-sm:hidden shadow-moon-sm bg-gohan text-bulma',
+        'absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -left-4',
+        className
+      )}
       onClick={scrollLeftToStep}
       disabled={!canScrollLeft}
+      aria-label="Scroll left"
       {...rest}
     >
       {children}
-    </CarouselControl>
+    </IconButton>
   );
 };
 
-const RightArrow: React.FC<SubcomponentProps> = ({
-  children,
-  className,
-  ...rest
-}) => {
+const RightArrow = ({ children, className, ...rest }: SubcomponentProps) => {
   const { scrollRightToStep = () => {}, canScrollRight } = useCarouselContext(
     'Carousel.RightArrow'
   );
   return (
-    <CarouselControl
-      className={mergeClassnames('-right-3 left-auto', className)}
+    <IconButton
+      size="sm"
+      className={mergeClassnames(
+        'max-sm:hidden shadow-moon-sm bg-gohan text-bulma',
+        'absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -right-4',
+        className
+      )}
       onClick={scrollRightToStep}
       disabled={!canScrollRight}
+      aria-label="Scroll right"
       {...rest}
     >
       {children}
-    </CarouselControl>
+    </IconButton>
   );
 };
 
 // TODO: add slide indicator timer
-const Indicators: React.FC<SubcomponentProps> = ({ className, ...rest }) => {
+const Indicators = ({ className, ...rest }: SubcomponentProps) => {
   const {
     itemsCount,
     selectedIndex,
