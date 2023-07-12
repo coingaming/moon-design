@@ -1,5 +1,19 @@
 # Change Log
 
+## 10.0.0
+
+### Major Changes
+
+- Implement new Base package
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@10.0.0
+  - @heathmont/moon-icons@10.0.0
+  - @heathmont/moon-themes@10.0.0
+  - @heathmont/moon-utils@10.0.0
+
 ## 9.38.0
 
 ### Minor Changes

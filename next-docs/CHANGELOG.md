@@ -1,5 +1,33 @@
 # Change Log
 
+## 10.0.0
+
+### Major Changes
+
+- Implement new Base package
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-core-tw@10.0.0
+  - @heathmont/moon-accordion@10.0.0
+  - @heathmont/moon-assets@10.0.0
+  - @heathmont/moon-charts@10.0.0
+  - @heathmont/moon-components@10.0.0
+  - @heathmont/moon-core@10.0.0
+  - @heathmont/moon-datepicker@10.0.0
+  - @heathmont/moon-draggabletable@10.0.0
+  - @heathmont/moon-icons@10.0.0
+  - @heathmont/moon-pagination@10.0.0
+  - @heathmont/moon-popover@10.0.0
+  - @heathmont/moon-select@10.0.0
+  - @heathmont/moon-sidebar@10.0.0
+  - @heathmont/moon-table@10.0.0
+  - @heathmont/moon-themes@10.0.0
+  - @heathmont/moon-utils@10.0.0
+  - @heathmont/moon-table-tw@10.0.0
+  - @heathmont/moon-themes-tw@10.0.0
+
 ## 9.38.0
 
 ### Minor Changes
