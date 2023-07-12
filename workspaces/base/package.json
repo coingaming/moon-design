@@ -20,7 +20,7 @@
     "chokidar": "chokidar \"**/*.tsx\" \"**/*.ts\" -i \"lib/**/*.d.ts\" -c \"pnpm run build:code\" "
   },
   "dependencies": {
-    "tailwind-merge": "1.8.0"
+    "tailwind-merge": "1.13.2"
   },
   "peerDependencies": {
     "react": ">= 18.2.0",

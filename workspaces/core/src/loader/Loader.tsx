@@ -4,13 +4,14 @@ import setDivBorder from './private/utils/setDivBorder';
 import setSize from './private/utils/setSize';
 import type LoaderProps from './private/types/LoaderProps';
 
-const Loader: React.FC<LoaderProps> = ({
+const Loader = ({
   color = 'border-hit',
   size = 'md',
   ariaLabel = 'loading',
-}) => (
+}: LoaderProps) => (
   <div
     aria-label={ariaLabel}
+    role="alert"
     aria-busy="true"
     className={mergeClassnames(setSize(size), 'relative rounded-full')}
   >
