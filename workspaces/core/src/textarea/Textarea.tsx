@@ -12,6 +12,8 @@ const Textarea = forwardRef<HTMLTextAreaElement, TextareaProps>(
       ? undefined
       : rest['aria-label']
       ? rest['aria-label']
+      : rest.name
+      ? rest.name
       : 'Textarea';
     return (
       <textarea
