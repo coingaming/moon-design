@@ -134,12 +134,13 @@ const Select = ({
           {label}
         </SelectButton.Label>
       )}
-      <Listbox.Button as={Fragment} ref={pooper?.setAnchor}>
+      <Listbox.Button as={Fragment}>
         <SelectButton
           size={size}
           open={open}
           isError={isError}
           idDisabled={disabled}
+          ref={pooper?.setAnchor}
           {...rest}
         >
           <SelectButton.Input className={className}>
@@ -169,12 +170,13 @@ const InsetSelect = ({
     'Dropdown.InsetSelect'
   );
   return (
-    <Listbox.Button as={Fragment} ref={pooper?.setAnchor}>
+    <Listbox.Button as={Fragment}>
       <SelectButton
         size={size}
         open={open}
         isError={isError}
         idDisabled={disabled}
+        ref={pooper?.setAnchor}
         {...rest}
       >
         <SelectButton.InsetInput className={className}>
@@ -213,12 +215,13 @@ const MultiSelect = ({
           {label}
         </SelectButton.Label>
       )}
-      <Listbox.Button as={Fragment} ref={pooper?.setAnchor}>
+      <Listbox.Button as={Fragment}>
         <SelectButton
           size={size}
           open={open}
           isError={isError}
           idDisabled={disabled}
+          ref={pooper?.setAnchor}
           {...rest}
         >
           <SelectButton.Input className={mergeClassnames(className)}>
@@ -252,12 +255,13 @@ const InsetMultiSelect = ({
     'Dropdown.InsetMultiSelect'
   );
   return (
-    <Listbox.Button as={Fragment} ref={pooper?.setAnchor}>
+    <Listbox.Button as={Fragment}>
       <SelectButton
         size={size}
         open={open}
         isError={isError}
         idDisabled={disabled}
+        ref={pooper?.setAnchor}
         {...rest}
       >
         <SelectButton.InsetInput
