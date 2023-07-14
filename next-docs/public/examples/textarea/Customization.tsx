@@ -4,12 +4,12 @@ const Example = () => (
   <>
     <div className="flex flex-wrap md:flex-nowrap items-center justify-around gap-2 w-full">
       <Textarea
-        placeholder="Custom text colours"
+        placeholder="Custom text colour"
         className="text-krillin placeholder:text-whis"
         rows={1}
       />
       <Textarea
-        placeholder="Custom border colours"
+        placeholder="Custom border colour"
         className="outline-chichi hover:outline-piccolo focus:outline-krillin"
         rows={1}
       />

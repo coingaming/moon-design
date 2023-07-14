@@ -9,7 +9,7 @@ const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
     {
       disabled,
       readOnly,
-      ariaLabel = 'Checkbox',
+      ariaLabel,
       label,
       id,
       checked = false,
@@ -40,7 +40,7 @@ const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
           id={id}
           disabled={disabled}
           readOnly={readOnly}
-          aria-label={ariaLabelValue}
+          // aria-label={ariaLabelValue}
           ref={ref}
           className="peer appearance-none h-6 w-6 outline-none align-top select-none"
           {...inputProps}

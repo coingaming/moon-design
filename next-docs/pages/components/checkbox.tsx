@@ -68,13 +68,6 @@ const Example = () => {
         title="Checkbox props"
         data={[
           {
-            name: 'ariaLabel',
-            type: 'string',
-            required: false,
-            default: '-',
-            description: 'ARIA description of checkbox',
-          },
-          {
             name: 'bgColor',
             type: 'string',
             required: false,

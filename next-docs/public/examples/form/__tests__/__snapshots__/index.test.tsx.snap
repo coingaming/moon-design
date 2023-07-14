@@ -237,6 +237,7 @@ Object {
               Additional information
             </label>
             <textarea
+              aria-label="Textarea"
               class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none"
               id="info"
             />
@@ -490,6 +491,7 @@ Object {
             Additional information
           </label>
           <textarea
+            aria-label="Textarea"
             class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none"
             id="info"
           />
@@ -1068,6 +1070,7 @@ Object {
             Additional information
           </label>
           <textarea
+            aria-label="Textarea"
             class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none"
             id="info"
           />
@@ -1317,6 +1320,7 @@ Object {
           Additional information
         </label>
         <textarea
+          aria-label="Textarea"
           class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none"
           id="info"
         />

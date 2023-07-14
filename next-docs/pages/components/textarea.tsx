@@ -14,7 +14,12 @@ const Example = () => {
   const { name, text, image } = getComponent('Textarea');
   return (
     <>
-      <ComponentPageDescription title={name} image={image} isRtlSupport>
+      <ComponentPageDescription
+        title={name}
+        image={image}
+        isRtlSupport
+        isAriaSupport
+      >
         <p>{text}</p>
       </ComponentPageDescription>
       <Preview
@@ -42,18 +47,18 @@ const Example = () => {
         title="Textarea props"
         data={[
           {
-            name: 'disabled',
-            type: 'boolean',
-            required: false,
-            default: '-',
-            description: 'Disables textarea',
-          },
-          {
             name: 'className',
             type: 'string',
             required: false,
             default: '-',
             description: 'Tailwind classes for customization',
+          },
+          {
+            name: 'error',
+            type: 'boolean',
+            required: false,
+            default: '-',
+            description: 'Error state of Textarea',
           },
         ]}
       />
