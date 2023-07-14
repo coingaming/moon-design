@@ -9,16 +9,21 @@ type AccordionProps = {
   children?: React.ReactNode;
   size?: AccordionSizes;
   disabled?: boolean;
-};
+} & React.DetailedHTMLProps<
+  React.DetailsHTMLAttributes<HTMLDetailsElement>,
+  HTMLDetailsElement
+>;
 
-const AccordionRoot: React.FC<AccordionProps> = ({
+const AccordionRoot = ({
   className,
   children,
   size,
   disabled,
-}) => {
+  ...rest
+}: AccordionProps) => {
   return (
     <details
+      {...rest}
       className={mergeClassnames(
         'flex w-full gap-2 flex-col [&[open]_svg]:rotate-180 [&[open]_summary]:rounded-b-none',
         '[&_.content]:flex',
@@ -41,15 +46,17 @@ type SummaryProps = {
   className?: string;
   disabled?: boolean;
   children?: React.ReactNode;
-};
+} & React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
 
-const Summary: React.FC<SummaryProps> = ({ className, children }) => {
+const Summary = ({ className, children, ...rest }: SummaryProps) => {
   return (
     <summary
       className={mergeClassnames(
         'w-full rounded-moon-s-sm bg-gohan list-none cursor-pointer',
-        '[.disabled_&]:pointer-events-none'
+        '[.disabled_&]:pointer-events-none',
+        className
       )}
+      {...rest}
     >
       <h3
         className={mergeClassnames(
@@ -57,8 +64,7 @@ const Summary: React.FC<SummaryProps> = ({ className, children }) => {
           'text-moon-14',
           'w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium',
           'text-bulma text-start',
-          '[.disabled_&]:select-none [.disabled_&]:opacity-30',
-          className
+          '[.disabled_&]:select-none [.disabled_&]:opacity-30'
         )}
       >
         {children}
@@ -71,9 +77,12 @@ type ContentProps = {
   className?: string;
   disabled?: boolean;
   children?: React.ReactNode;
-};
+} & React.DetailedHTMLProps<
+  React.HTMLAttributes<HTMLDivElement>,
+  HTMLDivElement
+>;
 
-const Content: React.FC<ContentProps> = ({ children, className }) => {
+const Content = ({ children, className, ...rest }: ContentProps) => {
   return (
     <div
       className={mergeClassnames(
@@ -81,13 +90,14 @@ const Content: React.FC<ContentProps> = ({ children, className }) => {
         'text-moon-14 w-full text-bulma border-t border-beerus',
         className
       )}
+      {...rest}
     >
       {children}
     </div>
   );
 };
 
-const ContentOutside: React.FC<ContentProps> = ({ children, className }) => {
+const ContentOutside = ({ children, className }: ContentProps) => {
   return (
     <div
       className={mergeClassnames(
