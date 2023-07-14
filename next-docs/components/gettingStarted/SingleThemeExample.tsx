@@ -4,7 +4,7 @@ const SingleThemeExample = () => (
   <CodeSnippet language="css">{`:root {
   --piccolo: 78 70 180; /* #4e46b4 */
   --hit: 64 166 159; /* #40a69f */
-  --beerus: 235 235 235; /* #ebebeb */
+  --beerus: 226 226 226; /* #e2e2e2 */
   --gohan: 255 255 255; /* #ffffff */
   --goten: 255 255 255; /* #ffffff */
   --goku: 245 245 245; /* #f5f5f5 */

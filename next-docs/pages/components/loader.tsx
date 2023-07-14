@@ -13,7 +13,7 @@ const Example = () => {
   const { name, text, image } = getComponent('Loader');
   return (
     <>
-      <ComponentPageDescription title={name} image={image}>
+      <ComponentPageDescription title={name} image={image} isAriaSupport>
         <p>{text}</p>
       </ComponentPageDescription>
       <Preview

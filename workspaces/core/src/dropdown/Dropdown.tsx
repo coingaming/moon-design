@@ -1,4 +1,4 @@
-import React, { forwardRef } from 'react';
+import React, { Fragment, forwardRef } from 'react';
 import { Listbox } from '@headlessui/react';
 import { usePopper } from 'react-popper';
 import { SelectButton } from '../index';
@@ -134,12 +134,13 @@ const Select = ({
           {label}
         </SelectButton.Label>
       )}
-      <Listbox.Button as={'div'} ref={pooper?.setAnchor}>
+      <Listbox.Button as={Fragment}>
         <SelectButton
           size={size}
           open={open}
           isError={isError}
           idDisabled={disabled}
+          ref={pooper?.setAnchor}
           {...rest}
         >
           <SelectButton.Input className={className}>
@@ -169,12 +170,13 @@ const InsetSelect = ({
     'Dropdown.InsetSelect'
   );
   return (
-    <Listbox.Button as={'div'} ref={pooper?.setAnchor}>
+    <Listbox.Button as={Fragment}>
       <SelectButton
         size={size}
         open={open}
         isError={isError}
         idDisabled={disabled}
+        ref={pooper?.setAnchor}
         {...rest}
       >
         <SelectButton.InsetInput className={className}>
@@ -213,12 +215,13 @@ const MultiSelect = ({
           {label}
         </SelectButton.Label>
       )}
-      <Listbox.Button as={'div'} ref={pooper?.setAnchor}>
+      <Listbox.Button as={Fragment}>
         <SelectButton
           size={size}
           open={open}
           isError={isError}
           idDisabled={disabled}
+          ref={pooper?.setAnchor}
           {...rest}
         >
           <SelectButton.Input className={mergeClassnames(className)}>
@@ -252,12 +255,13 @@ const InsetMultiSelect = ({
     'Dropdown.InsetMultiSelect'
   );
   return (
-    <Listbox.Button as={'div'} ref={pooper?.setAnchor}>
+    <Listbox.Button as={Fragment}>
       <SelectButton
         size={size}
         open={open}
         isError={isError}
         idDisabled={disabled}
+        ref={pooper?.setAnchor}
         {...rest}
       >
         <SelectButton.InsetInput
@@ -280,11 +284,16 @@ const InsetMultiSelect = ({
 const Trigger = ({
   children,
   className,
+  ...rest
 }: WithChildren<{ className?: string }>) => {
   const { pooper } = useDropdownContext('Dropdown.Trigger');
   return (
-    <Listbox.Button as={'div'} ref={pooper?.setAnchor}>
-      <div className={className && className}>{children}</div>
+    <Listbox.Button
+      ref={pooper?.setAnchor}
+      className={className && className}
+      {...rest}
+    >
+      {children}
     </Listbox.Button>
   );
 };

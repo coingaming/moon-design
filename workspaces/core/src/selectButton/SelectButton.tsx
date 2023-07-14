@@ -1,4 +1,4 @@
-import React, { useCallback } from 'react';
+import React, { Ref, forwardRef, useCallback } from 'react';
 import { Listbox } from '@headlessui/react';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import ControlsChevronDownSmall from '../private/icons/ControlsChevronDownSmall';
@@ -11,31 +11,36 @@ import type InputProps from './private/types/InputProps';
 import type LabelProps from './private/types/LabelProps';
 import type SelectButtonProps from './private/types/SelectButtonProps';
 
-const SelectButtonRoot = ({
-  label,
-  placeholder,
-  size = 'md',
-  isError,
-  idDisabled,
-  open,
-  children,
-  ...rest
-}: SelectButtonProps) => {
-  const states = {
-    open: open,
-    size: size,
-    isError: isError,
-    idDisabled: idDisabled,
-    ...rest,
-  };
-  return (
-    <div className="relative">
-      <SelectButtonContext.Provider value={states}>
-        {children}
-      </SelectButtonContext.Provider>
-    </div>
-  );
-};
+const SelectButtonRoot = forwardRef(
+  (
+    {
+      label,
+      placeholder,
+      size = 'md',
+      isError,
+      idDisabled,
+      open,
+      children,
+      ...rest
+    }: SelectButtonProps,
+    ref: Ref<HTMLInputElement>
+  ) => {
+    const states = {
+      open: open,
+      size: size,
+      isError: isError,
+      idDisabled: idDisabled,
+      ...rest,
+    };
+    return (
+      <div className="relative" ref={ref}>
+        <SelectButtonContext.Provider value={states}>
+          {children}
+        </SelectButtonContext.Provider>
+      </div>
+    );
+  }
+);
 
 const Input = ({ children, className }: InputProps) => {
   const { size, isError, idDisabled, ...rest } =
