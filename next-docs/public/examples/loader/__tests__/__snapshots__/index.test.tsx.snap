@@ -12,6 +12,7 @@ Object {
           aria-busy="true"
           aria-label="loading"
           class="w-10 h-10 relative rounded-full"
+          role="alert"
         >
           <div
             class="border-4 border-solid border-dodoria block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
@@ -37,6 +38,7 @@ Object {
           aria-busy="true"
           aria-label="loading"
           class="w-10 h-10 relative rounded-full"
+          role="alert"
         >
           <div
             class="border-4 border-solid border-trunks block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
@@ -62,6 +64,7 @@ Object {
           aria-busy="true"
           aria-label="loading"
           class="w-10 h-10 relative rounded-full"
+          role="alert"
         >
           <div
             class="border-4 border-solid border-raditz block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
@@ -94,6 +97,7 @@ Object {
         aria-busy="true"
         aria-label="loading"
         class="w-10 h-10 relative rounded-full"
+        role="alert"
       >
         <div
           class="border-4 border-solid border-dodoria block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
@@ -119,6 +123,7 @@ Object {
         aria-busy="true"
         aria-label="loading"
         class="w-10 h-10 relative rounded-full"
+        role="alert"
       >
         <div
           class="border-4 border-solid border-trunks block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
@@ -144,6 +149,7 @@ Object {
         aria-busy="true"
         aria-label="loading"
         class="w-10 h-10 relative rounded-full"
+        role="alert"
       >
         <div
           class="border-4 border-solid border-raditz block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
@@ -233,6 +239,7 @@ Object {
           aria-busy="true"
           aria-label="loading"
           class="w-10 h-10 relative rounded-full"
+          role="alert"
         >
           <div
             class="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
@@ -265,6 +272,7 @@ Object {
         aria-busy="true"
         aria-label="loading"
         class="w-10 h-10 relative rounded-full"
+        role="alert"
       >
         <div
           class="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
@@ -354,6 +362,7 @@ Object {
           aria-busy="true"
           aria-label="loading"
           class="w-4 h-4 relative rounded-full"
+          role="alert"
         >
           <div
             class="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
@@ -379,6 +388,7 @@ Object {
           aria-busy="true"
           aria-label="loading"
           class="w-6 h-6 relative rounded-full"
+          role="alert"
         >
           <div
             class="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
@@ -404,6 +414,7 @@ Object {
           aria-busy="true"
           aria-label="loading"
           class="w-8 h-8 relative rounded-full"
+          role="alert"
         >
           <div
             class="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
@@ -429,6 +440,7 @@ Object {
           aria-busy="true"
           aria-label="loading"
           class="w-10 h-10 relative rounded-full"
+          role="alert"
         >
           <div
             class="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
@@ -454,6 +466,7 @@ Object {
           aria-busy="true"
           aria-label="loading"
           class="w-12 h-12 relative rounded-full"
+          role="alert"
         >
           <div
             class="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
@@ -486,6 +499,7 @@ Object {
         aria-busy="true"
         aria-label="loading"
         class="w-4 h-4 relative rounded-full"
+        role="alert"
       >
         <div
           class="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
@@ -511,6 +525,7 @@ Object {
         aria-busy="true"
         aria-label="loading"
         class="w-6 h-6 relative rounded-full"
+        role="alert"
       >
         <div
           class="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
@@ -536,6 +551,7 @@ Object {
         aria-busy="true"
         aria-label="loading"
         class="w-8 h-8 relative rounded-full"
+        role="alert"
       >
         <div
           class="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
@@ -561,6 +577,7 @@ Object {
         aria-busy="true"
         aria-label="loading"
         class="w-10 h-10 relative rounded-full"
+        role="alert"
       >
         <div
           class="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
@@ -586,6 +603,7 @@ Object {
         aria-busy="true"
         aria-label="loading"
         class="w-12 h-12 relative rounded-full"
+        role="alert"
       >
         <div
           class="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
@@ -672,6 +690,7 @@ Object {
         aria-busy="true"
         aria-label="loading"
         class="w-10 h-10 relative rounded-full"
+        role="alert"
       >
         <div
           class="border-4 border-solid border-dodoria block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
@@ -697,6 +716,7 @@ Object {
         aria-busy="true"
         aria-label="loading"
         class="w-10 h-10 relative rounded-full"
+        role="alert"
       >
         <div
           class="border-4 border-solid border-trunks block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
@@ -722,6 +742,7 @@ Object {
         aria-busy="true"
         aria-label="loading"
         class="w-10 h-10 relative rounded-full"
+        role="alert"
       >
         <div
           class="border-4 border-solid border-raditz block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
@@ -750,6 +771,7 @@ Object {
       aria-busy="true"
       aria-label="loading"
       class="w-10 h-10 relative rounded-full"
+      role="alert"
     >
       <div
         class="border-4 border-solid border-dodoria block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
@@ -775,6 +797,7 @@ Object {
       aria-busy="true"
       aria-label="loading"
       class="w-10 h-10 relative rounded-full"
+      role="alert"
     >
       <div
         class="border-4 border-solid border-trunks block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
@@ -800,6 +823,7 @@ Object {
       aria-busy="true"
       aria-label="loading"
       class="w-10 h-10 relative rounded-full"
+      role="alert"
     >
       <div
         class="border-4 border-solid border-raditz block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
@@ -885,6 +909,7 @@ Object {
         aria-busy="true"
         aria-label="loading"
         class="w-10 h-10 relative rounded-full"
+        role="alert"
       >
         <div
           class="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
@@ -913,6 +938,7 @@ Object {
       aria-busy="true"
       aria-label="loading"
       class="w-10 h-10 relative rounded-full"
+      role="alert"
     >
       <div
         class="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
@@ -998,6 +1024,7 @@ Object {
         aria-busy="true"
         aria-label="loading"
         class="w-4 h-4 relative rounded-full"
+        role="alert"
       >
         <div
           class="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
@@ -1023,6 +1050,7 @@ Object {
         aria-busy="true"
         aria-label="loading"
         class="w-6 h-6 relative rounded-full"
+        role="alert"
       >
         <div
           class="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
@@ -1048,6 +1076,7 @@ Object {
         aria-busy="true"
         aria-label="loading"
         class="w-8 h-8 relative rounded-full"
+        role="alert"
       >
         <div
           class="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
@@ -1073,6 +1102,7 @@ Object {
         aria-busy="true"
         aria-label="loading"
         class="w-10 h-10 relative rounded-full"
+        role="alert"
       >
         <div
           class="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
@@ -1098,6 +1128,7 @@ Object {
         aria-busy="true"
         aria-label="loading"
         class="w-12 h-12 relative rounded-full"
+        role="alert"
       >
         <div
           class="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
@@ -1126,6 +1157,7 @@ Object {
       aria-busy="true"
       aria-label="loading"
       class="w-4 h-4 relative rounded-full"
+      role="alert"
     >
       <div
         class="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
@@ -1151,6 +1183,7 @@ Object {
       aria-busy="true"
       aria-label="loading"
       class="w-6 h-6 relative rounded-full"
+      role="alert"
     >
       <div
         class="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
@@ -1176,6 +1209,7 @@ Object {
       aria-busy="true"
       aria-label="loading"
       class="w-8 h-8 relative rounded-full"
+      role="alert"
     >
       <div
         class="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
@@ -1201,6 +1235,7 @@ Object {
       aria-busy="true"
       aria-label="loading"
       class="w-10 h-10 relative rounded-full"
+      role="alert"
     >
       <div
         class="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
@@ -1226,6 +1261,7 @@ Object {
       aria-busy="true"
       aria-label="loading"
       class="w-12 h-12 relative rounded-full"
+      role="alert"
     >
       <div
         class="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"

@@ -22,6 +22,7 @@ Object {
                 aria-busy="true"
                 aria-label="loading"
                 class="w-6 h-6 relative rounded-full"
+                role="alert"
               >
                 <div
                   class="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
@@ -182,6 +183,7 @@ Object {
               aria-busy="true"
               aria-label="loading"
               class="w-6 h-6 relative rounded-full"
+              role="alert"
             >
               <div
                 class="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
@@ -1281,6 +1283,7 @@ Object {
               aria-busy="true"
               aria-label="loading"
               class="w-6 h-6 relative rounded-full"
+              role="alert"
             >
               <div
                 class="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
@@ -1437,6 +1440,7 @@ Object {
             aria-busy="true"
             aria-label="loading"
             class="w-6 h-6 relative rounded-full"
+            role="alert"
           >
             <div
               class="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
