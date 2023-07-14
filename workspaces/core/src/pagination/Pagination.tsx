@@ -174,10 +174,10 @@ const Pages = <C extends React.ElementType = 'a'>({
       href={pagination.hrefsArray && pagination.hrefsArray[page - 1]}
       type={as === 'button' ? 'button' : undefined}
       className={mergeClassnames(
-        'flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors',
+        'flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors',
         className,
         pagination.currentPage + 1 === page
-          ? 'text-goten bg-piccolo'
+          ? 'text-goten bg-piccolo font-medium'
           : 'text-bulma hover:bg-jiren focus:bg-jiren'
       )}
       {...rest}
