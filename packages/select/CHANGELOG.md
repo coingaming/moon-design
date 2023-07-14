@@ -1,5 +1,15 @@
 # @heathmont/moon-select
 
+## 10.0.1
+
+### Patch Changes
+
+- Deploy v10.0.1
+- Updated dependencies [undefined]
+  - @heathmont/moon-core@10.0.1
+  - @heathmont/moon-themes@10.0.1
+  - @heathmont/moon-utils@10.0.1
+
 ## 10.0.0
 
 ### Major Changes
