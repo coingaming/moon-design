@@ -97,13 +97,14 @@ const Content = ({ children, className, ...rest }: ContentProps) => {
   );
 };
 
-const ContentOutside = ({ children, className }: ContentProps) => {
+const ContentOutside = ({ children, className, ...rest }: ContentProps) => {
   return (
     <div
       className={mergeClassnames(
         'content content-out w-full text-bulma text-moon-14',
         className
       )}
+      {...rest}
     >
       {children}
     </div>
