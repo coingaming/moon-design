@@ -35,11 +35,6 @@ const components = [
     text: 'Buttons allow users to take actions, and make choices, with a single tap.',
   },
   {
-    name: 'IconButton',
-    href: '/components/iconButton',
-    text: 'Buttons allow users to take actions, and make choices, with a single tap.',
-  },
-  {
     name: 'Carousel',
     href: '/components/carousel',
     text: 'Is an effective way of displaying multiple images or content in a single space.',
@@ -53,6 +48,11 @@ const components = [
     name: 'Chip',
     href: '/components/chip',
     text: 'Chips help filter content, or trigger actions.',
+  },
+  {
+    name: 'CircularProgress',
+    href: '/components/circularProgress',
+    text: 'A progress indicator (Circular and Linear) is a visual representation of a user’s progress through a set of steps, guiding toward the completion of a specified process.',
   },
   {
     name: 'Combobox',
@@ -75,6 +75,16 @@ const components = [
     text: 'Form component is a grouping of input controls that allow a user to submit information to a server.',
   },
   {
+    name: 'Group',
+    href: '/components/group',
+    text: 'Combine different types of inputs into groups to save vertical space on your designs and also simplify form filling.',
+  },
+  {
+    name: 'IconButton',
+    href: '/components/iconButton',
+    text: 'Buttons allow users to take actions, and make choices, with a single tap.',
+  },
+  {
     name: 'Icons',
     href: '/components/icons',
     text: 'Moon DS provides a set of commonly used interface icons you can use in your project.',
@@ -90,9 +100,9 @@ const components = [
     text: 'Text input fields allow users to enter text and can be used to collect user feedback or enter information in data entry forms.',
   },
   {
-    name: 'Group',
-    href: '/components/group',
-    text: 'Combine different types of inputs into groups to save vertical space on your designs and also simplify form filling.',
+    name: 'InsetNativeSelect',
+    href: '/components/insetNativeSelect',
+    text: 'A form input used for selecting a value: when collapsed it shows the currently selected option and when expanded, it shows a scrollable list of predefined options for the user to choose from.',
   },
   {
     name: 'Loader',
@@ -110,6 +120,11 @@ const components = [
     text: 'A modal is an interface element that appears over other content. It requires an interaction from the user before they can return to whatever is underneath.',
   },
   {
+    name: 'NativeSelect',
+    href: '/components/nativeSelect',
+    text: 'A form input used for selecting a value: when collapsed it shows the currently selected option and when expanded, it shows a scrollable list of predefined options for the user to choose from.',
+  },
+  {
     name: 'Pagination',
     href: '/components/pagination',
     text: 'Pagination is the process of splitting information over multiple pages instead of showing it all on a single page.',
@@ -118,11 +133,6 @@ const components = [
     name: 'Popover',
     href: '/components/popover',
     text: 'Popovers are perfect for floating panels with arbitrary content like navigation menus, mobile menus and flyout menus.',
-  },
-  {
-    name: 'CircularProgress',
-    href: '/components/circularProgress',
-    text: 'A progress indicator (Circular and Linear) is a visual representation of a user’s progress through a set of steps, guiding toward the completion of a specified process.',
   },
   {
     name: 'Progress',
@@ -143,16 +153,6 @@ const components = [
     name: 'SearchCmdk',
     href: '/components/searchCmdk',
     text: 'Command menu search can be used as an accessible combobox. You render items, it filters and sorts them automatically.',
-  },
-  {
-    name: 'NativeSelect',
-    href: '/components/nativeSelect',
-    text: 'A form input used for selecting a value: when collapsed it shows the currently selected option and when expanded, it shows a scrollable list of predefined options for the user to choose from.',
-  },
-  {
-    name: 'InsetNativeSelect',
-    href: '/components/insetNativeSelect',
-    text: 'A form input used for selecting a value: when collapsed it shows the currently selected option and when expanded, it shows a scrollable list of predefined options for the user to choose from.',
   },
   {
     name: 'Snackbar',
