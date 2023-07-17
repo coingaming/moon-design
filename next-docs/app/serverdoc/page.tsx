@@ -9,8 +9,6 @@ const ServerDoc: React.FC = () => {
   const page = 11;
   const pageInfo = getPageInfo({ page: 11, totalCount: 3000, pageSize: 30 });
   const {
-    nextPage,
-    previousPage,
     isTrancable,
     previousPages,
     nextPages,
@@ -19,12 +17,10 @@ const ServerDoc: React.FC = () => {
   } = pageInfo;
   return (
     <div className="flex bg-goku p-36">
-      <Pagination>
-        {previousPage && (
-          <Pagination.PrevButton>
-            <ControlsChevronLeftSmall className="rtl:rotate-180" />
-          </Pagination.PrevButton>
-        )}
+      <Pagination currentPage={1} totalPages={30}>
+        <Pagination.PrevButton>
+          <ControlsChevronLeftSmall className="rtl:rotate-180" />
+        </Pagination.PrevButton>
         <Pagination.Pages>
           {previousPages?.map((p) => (
             <Pagination.Page as="span" selected={p === page} key={p} page={p}>
@@ -52,12 +48,9 @@ const ServerDoc: React.FC = () => {
             </Pagination.Page>
           ))}
         </Pagination.Pages>
-
-        {nextPage && (
-          <Pagination.NextButton>
-            <ControlsChevronRightSmall className="rtl:rotate-180" />
-          </Pagination.NextButton>
-        )}
+        <Pagination.NextButton>
+          <ControlsChevronRightSmall className="rtl:rotate-180" />
+        </Pagination.NextButton>
       </Pagination>
     </div>
   );

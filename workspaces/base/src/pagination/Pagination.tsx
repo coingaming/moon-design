@@ -1,10 +1,22 @@
 import React from 'react';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
+import getPageInfo from './getPageInfo';
+import serverContext from './private/helper/ServerOnlyContext';
 import type PolymorphicNextPrevButtonProps from './private/type/NextPrevButton';
 import type PolymorphicPagesProps from './private/type/PagesProps';
 import type WithStyledChildren from './private/type/WithStyledChildren';
 
-const PaginationRoot = ({ className, children }: WithStyledChildren<{}>) => {
+const [getCurrentPage, setCurrentPage] = serverContext(1);
+const [getTotalPages, setTotalPages] = serverContext(1);
+
+const PaginationRoot = ({
+  className,
+  children,
+  currentPage,
+  totalPages,
+}: WithStyledChildren<{ currentPage: number; totalPages: number }>) => {
+  setCurrentPage(currentPage);
+  setTotalPages(totalPages);
   return (
     <div
       className={mergeClassnames(
@@ -27,19 +39,31 @@ export const PrevButton = <C extends React.ElementType = 'button'>({
   const Component = as || 'button';
   const childrens =
     typeof children !== 'function' ? React.Children.toArray(children) : [];
-  return (
-    <Component
-      {...rest}
-      className={mergeClassnames(
-        'moon-disabled:cursor-not-allowed moon-disabled:opacity-30',
-        className
-      )}
-      aria-disabled={disabled}
-      disabled={disabled}
-    >
-      {childrens?.map((ch) => ch)}
-    </Component>
-  );
+  const currentPage = getCurrentPage();
+  const totalPages = getTotalPages();
+
+  const { previousPage } = getPageInfo({
+    page: currentPage,
+    totalCount: 3000,
+    pageSize: totalPages,
+  });
+
+  if (previousPage) {
+    return (
+      <Component
+        {...rest}
+        className={mergeClassnames(
+          'moon-disabled:cursor-not-allowed moon-disabled:opacity-30',
+          className
+        )}
+        aria-disabled={disabled}
+        disabled={disabled}
+      >
+        {childrens?.map((ch) => ch)}
+      </Component>
+    );
+  }
+  return null;
 };
 
 export const NextButton = <C extends React.ElementType = 'button'>({
@@ -52,19 +76,30 @@ export const NextButton = <C extends React.ElementType = 'button'>({
   const Component = as || 'button';
   const childrens =
     typeof children !== 'function' ? React.Children.toArray(children) : [];
-  return (
-    <Component
-      {...rest}
-      className={mergeClassnames(
-        'moon-disabled:cursor-not-allowed moon-disabled:opacity-30',
-        className
-      )}
-      aria-disabled={disabled}
-      disabled={disabled}
-    >
-      {childrens?.map((ch) => ch)}
-    </Component>
-  );
+  const currentPage = getCurrentPage();
+  const totalPages = getTotalPages();
+
+  const { nextPage } = getPageInfo({
+    page: currentPage,
+    totalCount: 3000,
+    pageSize: totalPages,
+  });
+  if (nextPage) {
+    return (
+      <Component
+        {...rest}
+        className={mergeClassnames(
+          'moon-disabled:cursor-not-allowed moon-disabled:opacity-30',
+          className
+        )}
+        aria-disabled={disabled}
+        disabled={disabled}
+      >
+        {childrens?.map((ch) => ch)}
+      </Component>
+    );
+  }
+  return null;
 };
 
 const TruncableElement = ({
