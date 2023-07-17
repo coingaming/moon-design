@@ -7,55 +7,59 @@ import type CheckboxProps from './private/types/CheckboxProps';
 const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
   (
     {
-      disabled,
-      readOnly,
       ariaLabel,
       label,
-      id,
-      checked = false,
-      onChange,
       bgColor = 'bg-piccolo',
       className,
       indeterminate,
-      ...inputProps
+      ...rest
     },
     ref
   ) => {
-    const [isChecked, setIsChecked] = useState(checked || false);
+    const [isChecked, setIsChecked] = useState(rest.checked || false);
     useEffect(() => {
-      if (typeof checked !== undefined && checked !== isChecked)
-        setIsChecked(!!checked);
-    }, [checked]);
+      if (typeof rest.checked !== undefined && rest.checked !== isChecked)
+        setIsChecked(!!rest.checked);
+    }, [rest.checked]);
+    const ariaLabelValue = label
+      ? undefined
+      : ariaLabel
+      ? ariaLabel
+      : rest['aria-label']
+      ? rest['aria-label']
+      : rest.name
+      ? rest.name
+      : 'Checkbox';
     return (
       <label
-        htmlFor={id}
+        htmlFor={rest.id}
         className={mergeClassnames(
           'relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer',
-          disabled && 'opacity-60 cursor-not-allowed select-none',
-          readOnly && 'cursor-not-allowed select-none'
+          rest.disabled && 'opacity-60 cursor-not-allowed select-none',
+          rest.readOnly && 'cursor-not-allowed select-none'
         )}
       >
         <input
-          id={id}
-          disabled={disabled}
-          readOnly={readOnly}
-          aria-label={ariaLabel}
+          id={rest.id}
+          disabled={rest.disabled}
+          readOnly={rest.readOnly}
+          aria-label={ariaLabelValue}
           ref={ref}
           className="peer appearance-none h-6 w-6 outline-none align-top select-none"
-          {...inputProps}
           type="checkbox"
           aria-checked={indeterminate ? 'mixed' : isChecked}
           checked={isChecked}
           onClick={(e) => {
-            if (disabled || readOnly) {
+            if (rest.disabled || rest.readOnly) {
               e.preventDefault();
               e.stopPropagation();
               return;
             }
-            if (inputProps.onClick) inputProps.onClick(e);
+            if (rest.onClick) rest.onClick(e);
             setIsChecked(e?.currentTarget?.checked);
           }}
-          onChange={onChange ? onChange : (e) => {}}
+          onChange={rest.onChange ? rest.onChange : (e) => {}}
+          {...rest}
         />
         <span
           className={mergeClassnames(
