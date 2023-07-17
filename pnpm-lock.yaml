@@ -165,6 +165,9 @@ importers:
       '@heathmont/moon-assets':
         specifier: workspace:^10.0.0
         version: link:../packages/assets
+      '@heathmont/moon-base-tw':
+        specifier: workspace:^10.0.0
+        version: link:../workspaces/base
       '@heathmont/moon-charts':
         specifier: workspace:^10.0.0
         version: link:../packages/charts

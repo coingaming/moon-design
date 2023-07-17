@@ -33,6 +33,7 @@
     "@heathmont/moon-themes": "workspace:^10.0.0",
     "@heathmont/moon-themes-tw": "workspace:^10.0.0",
     "@heathmont/moon-utils": "workspace:^10.0.0",
+    "@heathmont/moon-base-tw": "workspace:^10.0.0",
     "@heathmont/moon-icons-tw": "9.28.4",
     "@hookform/resolvers": "^3.1.0",
     "@jest/globals": "27.4.6",

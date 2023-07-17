@@ -3,8 +3,10 @@ module.exports = {
     './public/**/*.{js,ts,jsx,tsx}',
     './pages/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
+    './app/**/*.{js,ts,jsx,tsx}',
     './node_modules/@heathmont/moon-core-tw/**/*.{js,ts,jsx,tsx}',
     './node_modules/@heathmont/moon-table-tw/**/*.{js,ts,jsx,tsx}',
+    './node_modules/@heathmont/moon-base-tw/**/*.{js,ts,jsx,tsx}',
   ],
   presets: [
     require('@heathmont/moon-core-tw/src/private/presets/ds-moon-preset'),
