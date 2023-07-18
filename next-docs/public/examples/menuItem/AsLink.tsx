@@ -1,11 +1,9 @@
 import { MenuItem } from '@heathmont/moon-core-tw';
 
 const Example = () => (
-  <div className="w-56">
-    <MenuItem as="a" href="#">
-      Menu item text
-    </MenuItem>
-  </div>
+  <MenuItem as="a" href="#" className="w-56">
+    Menu item text
+  </MenuItem>
 );
 
 export default Example;
