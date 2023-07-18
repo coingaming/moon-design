@@ -1,10 +1,11 @@
 import React from 'react';
-import { Popover as HeadlessPopover, PopoverProps } from '@headlessui/react';
+import { Popover as HeadlessPopover } from '@headlessui/react';
 import { usePopper } from 'react-popper';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import PopoverContext from './private/utils/PopoverContext';
 import usePopoverContext from './private/utils/usePopoverContext';
 import type CallableChildren from './private/types/CallableChildren';
+import type GroupProps from './private/types/GroupProps';
 import type PanelProps from './private/types/PanelProps';
 import type PopoverRootProps from './private/types/PopoverRootProps';
 
@@ -15,7 +16,6 @@ const PopoverRoot = ({
 }: PopoverRootProps) => {
   const [anchorEl, setAnchorEl] = React.useState<Element | null>();
   const [popperEl, setPopperEl] = React.useState<HTMLElement | null>();
-
   let { styles, attributes } = usePopper(anchorEl, popperEl, {
     placement: position,
     modifiers: [
@@ -27,7 +27,6 @@ const PopoverRoot = ({
       },
     ],
   });
-
   const states = {
     popper: {
       styles: styles,
@@ -36,7 +35,6 @@ const PopoverRoot = ({
       setPopper: setPopperEl,
     },
   };
-
   const childrens =
     typeof children !== 'function' ? React.Children.toArray(children) : [];
   const callableChildren =
@@ -56,10 +54,7 @@ const PopoverRoot = ({
   );
 };
 
-const Trigger: React.FC<{ children?: React.ReactNode }> = ({
-  children,
-  ...rest
-}) => {
+const Trigger = ({ children, ...rest }: { children?: React.ReactNode }) => {
   const { popper } = usePopoverContext('Popover.Trigger');
   return (
     <HeadlessPopover.Button
@@ -73,7 +68,7 @@ const Trigger: React.FC<{ children?: React.ReactNode }> = ({
   );
 };
 
-const Panel = ({ children, className, ...rest }: PanelProps) => {
+const Panel = ({ children, className }: PanelProps) => {
   const { popper } = usePopoverContext('Popover.Trigger');
   const childrens =
     typeof children !== 'function' ? React.Children.toArray(children) : [];
@@ -101,13 +96,7 @@ const Panel = ({ children, className, ...rest }: PanelProps) => {
   );
 };
 
-const Group = ({
-  children,
-  className,
-}: {
-  className?: string;
-  children: React.ReactNode;
-}) => (
+const Group = ({ children, className }: GroupProps) => (
   <HeadlessPopover.Group className={className}>
     {children}
   </HeadlessPopover.Group>
