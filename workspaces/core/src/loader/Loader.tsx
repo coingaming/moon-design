@@ -7,7 +7,7 @@ import type LoaderProps from './private/types/LoaderProps';
 const Loader = ({
   color = 'border-hit',
   size = 'md',
-  ariaLabel = 'loading',
+  ariaLabel = 'Loading',
 }: LoaderProps) => (
   <div
     aria-label={ariaLabel}

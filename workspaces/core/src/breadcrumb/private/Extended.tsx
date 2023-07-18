@@ -1,9 +1,9 @@
 import React from 'react';
 import mergeClassnames from '../../mergeClassnames/mergeClassnames';
 import ArrowsRight from '../../private/icons/ArrowsRight';
-import type BreadcrumbProps from './types/BreadcrumbProps';
+import type Props from './types/Props';
 
-const Extended: React.FC<BreadcrumbProps> = ({ breadcrumbs, divider }) => (
+const Extended = ({ breadcrumbs, divider }: Props) => (
   <nav aria-label="Breadcrumb">
     <ol className="flex flex-wrap gap-2 items-center text-moon-14">
       {breadcrumbs.length > 0 &&

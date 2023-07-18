@@ -20,7 +20,7 @@ Object {
             >
               <div
                 aria-busy="true"
-                aria-label="loading"
+                aria-label="Loading"
                 class="w-6 h-6 relative rounded-full"
                 role="alert"
               >
@@ -133,7 +133,7 @@ Object {
           >
             <div
               aria-busy="true"
-              aria-label="loading"
+              aria-label="Loading"
               class="w-6 h-6 relative rounded-full"
               role="alert"
             >
@@ -1387,7 +1387,7 @@ Object {
           >
             <div
               aria-busy="true"
-              aria-label="loading"
+              aria-label="Loading"
               class="w-6 h-6 relative rounded-full"
               role="alert"
             >
@@ -1496,7 +1496,7 @@ Object {
         >
           <div
             aria-busy="true"
-            aria-label="loading"
+            aria-label="Loading"
             class="w-6 h-6 relative rounded-full"
             role="alert"
           >

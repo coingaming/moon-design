@@ -20,7 +20,7 @@ Object {
             >
               <div
                 aria-busy="true"
-                aria-label="loading"
+                aria-label="Loading"
                 class="w-6 h-6 relative rounded-full"
                 role="alert"
               >
@@ -119,6 +119,7 @@ Object {
           />
         </button>
         <button
+          aria-label="Error"
           class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary bg-chichi text-goten animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both] anim-error text-moon-24"
           type="button"
         >
@@ -141,6 +142,7 @@ Object {
           />
         </button>
         <button
+          aria-label="IconButton"
           class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary anim-pulse animate-[pulse2_1.5s_infinite] text-moon-24"
           type="button"
         >
@@ -181,7 +183,7 @@ Object {
           >
             <div
               aria-busy="true"
-              aria-label="loading"
+              aria-label="Loading"
               class="w-6 h-6 relative rounded-full"
               role="alert"
             >
@@ -280,6 +282,7 @@ Object {
         />
       </button>
       <button
+        aria-label="Error"
         class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary bg-chichi text-goten animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both] anim-error text-moon-24"
         type="button"
       >
@@ -302,6 +305,7 @@ Object {
         />
       </button>
       <button
+        aria-label="IconButton"
         class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary anim-pulse animate-[pulse2_1.5s_infinite] text-moon-24"
         type="button"
       >
@@ -388,6 +392,7 @@ Object {
         dir="rtl"
       >
         <a
+          aria-label="IconButton"
           class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary text-moon-24"
           href="/components/button"
         >
@@ -417,6 +422,7 @@ Object {
       dir="rtl"
     >
       <a
+        aria-label="IconButton"
         class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary text-moon-24"
         href="/components/button"
       >
@@ -503,6 +509,7 @@ Object {
         dir="rtl"
       >
         <button
+          aria-label="IconButton"
           class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary text-moon-24"
           type="button"
         >
@@ -532,6 +539,7 @@ Object {
       dir="rtl"
     >
       <button
+        aria-label="IconButton"
         class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary text-moon-24"
         type="button"
       >
@@ -618,6 +626,7 @@ Object {
         dir="rtl"
       >
         <button
+          aria-label="IconButton"
           class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24"
           disabled=""
           type="button"
@@ -648,6 +657,7 @@ Object {
       dir="rtl"
     >
       <button
+        aria-label="IconButton"
         class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24"
         disabled=""
         type="button"
@@ -735,6 +745,7 @@ Object {
         dir="rtl"
       >
         <button
+          aria-label="IconButton"
           class="h-6 p-1 gap-1 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary text-moon-16"
           type="button"
         >
@@ -757,6 +768,7 @@ Object {
           />
         </button>
         <button
+          aria-label="IconButton"
           class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary text-moon-24"
           type="button"
         >
@@ -779,6 +791,7 @@ Object {
           />
         </button>
         <button
+          aria-label="IconButton"
           class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary text-moon-24"
           type="button"
         >
@@ -801,6 +814,7 @@ Object {
           />
         </button>
         <button
+          aria-label="IconButton"
           class="h-12 p-3 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary text-moon-24"
           type="button"
         >
@@ -823,6 +837,7 @@ Object {
           />
         </button>
         <button
+          aria-label="IconButton"
           class="h-14 p-4 gap-2 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary text-moon-24"
           type="button"
         >
@@ -852,6 +867,7 @@ Object {
       dir="rtl"
     >
       <button
+        aria-label="IconButton"
         class="h-6 p-1 gap-1 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary text-moon-16"
         type="button"
       >
@@ -874,6 +890,7 @@ Object {
         />
       </button>
       <button
+        aria-label="IconButton"
         class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary text-moon-24"
         type="button"
       >
@@ -896,6 +913,7 @@ Object {
         />
       </button>
       <button
+        aria-label="IconButton"
         class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary text-moon-24"
         type="button"
       >
@@ -918,6 +936,7 @@ Object {
         />
       </button>
       <button
+        aria-label="IconButton"
         class="h-12 p-3 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary text-moon-24"
         type="button"
       >
@@ -940,6 +959,7 @@ Object {
         />
       </button>
       <button
+        aria-label="IconButton"
         class="h-14 p-4 gap-2 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary text-moon-24"
         type="button"
       >
@@ -1026,6 +1046,7 @@ Object {
         dir="rtl"
       >
         <button
+          aria-label="IconButton"
           class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary text-moon-24"
           type="button"
         >
@@ -1048,6 +1069,7 @@ Object {
           />
         </button>
         <button
+          aria-label="IconButton"
           class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary text-moon-24"
           type="button"
         >
@@ -1070,6 +1092,7 @@ Object {
           />
         </button>
         <button
+          aria-label="IconButton"
           class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-tertiary text-moon-24"
           type="button"
         >
@@ -1092,6 +1115,7 @@ Object {
           />
         </button>
         <button
+          aria-label="IconButton"
           class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma text-moon-24"
           type="button"
         >
@@ -1121,6 +1145,7 @@ Object {
       dir="rtl"
     >
       <button
+        aria-label="IconButton"
         class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary text-moon-24"
         type="button"
       >
@@ -1143,6 +1168,7 @@ Object {
         />
       </button>
       <button
+        aria-label="IconButton"
         class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary text-moon-24"
         type="button"
       >
@@ -1165,6 +1191,7 @@ Object {
         />
       </button>
       <button
+        aria-label="IconButton"
         class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-tertiary text-moon-24"
         type="button"
       >
@@ -1187,6 +1214,7 @@ Object {
         />
       </button>
       <button
+        aria-label="IconButton"
         class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma text-moon-24"
         type="button"
       >
@@ -1281,7 +1309,7 @@ Object {
           >
             <div
               aria-busy="true"
-              aria-label="loading"
+              aria-label="Loading"
               class="w-6 h-6 relative rounded-full"
               role="alert"
             >
@@ -1380,6 +1408,7 @@ Object {
         />
       </button>
       <button
+        aria-label="Error"
         class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary bg-chichi text-goten animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both] anim-error text-moon-24"
         type="button"
       >
@@ -1402,6 +1431,7 @@ Object {
         />
       </button>
       <button
+        aria-label="IconButton"
         class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary anim-pulse animate-[pulse2_1.5s_infinite] text-moon-24"
         type="button"
       >
@@ -1438,7 +1468,7 @@ Object {
         >
           <div
             aria-busy="true"
-            aria-label="loading"
+            aria-label="Loading"
             class="w-6 h-6 relative rounded-full"
             role="alert"
           >
@@ -1537,6 +1567,7 @@ Object {
       />
     </button>
     <button
+      aria-label="Error"
       class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary bg-chichi text-goten animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both] anim-error text-moon-24"
       type="button"
     >
@@ -1559,6 +1590,7 @@ Object {
       />
     </button>
     <button
+      aria-label="IconButton"
       class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary anim-pulse animate-[pulse2_1.5s_infinite] text-moon-24"
       type="button"
     >
@@ -1641,6 +1673,7 @@ Object {
   "baseElement": <body>
     <div>
       <a
+        aria-label="IconButton"
         class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary text-moon-24"
         href="/components/button"
       >
@@ -1666,6 +1699,7 @@ Object {
   </body>,
   "container": <div>
     <a
+      aria-label="IconButton"
       class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary text-moon-24"
       href="/components/button"
     >
@@ -1748,6 +1782,7 @@ Object {
   "baseElement": <body>
     <div>
       <button
+        aria-label="IconButton"
         class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary text-moon-24"
         type="button"
       >
@@ -1773,6 +1808,7 @@ Object {
   </body>,
   "container": <div>
     <button
+      aria-label="IconButton"
       class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary text-moon-24"
       type="button"
     >
@@ -1855,6 +1891,7 @@ Object {
   "baseElement": <body>
     <div>
       <button
+        aria-label="IconButton"
         class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24"
         disabled=""
         type="button"
@@ -1881,6 +1918,7 @@ Object {
   </body>,
   "container": <div>
     <button
+      aria-label="IconButton"
       class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24"
       disabled=""
       type="button"
@@ -1964,6 +2002,7 @@ Object {
   "baseElement": <body>
     <div>
       <button
+        aria-label="IconButton"
         class="h-6 p-1 gap-1 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary text-moon-16"
         type="button"
       >
@@ -1986,6 +2025,7 @@ Object {
         />
       </button>
       <button
+        aria-label="IconButton"
         class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary text-moon-24"
         type="button"
       >
@@ -2008,6 +2048,7 @@ Object {
         />
       </button>
       <button
+        aria-label="IconButton"
         class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary text-moon-24"
         type="button"
       >
@@ -2030,6 +2071,7 @@ Object {
         />
       </button>
       <button
+        aria-label="IconButton"
         class="h-12 p-3 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary text-moon-24"
         type="button"
       >
@@ -2052,6 +2094,7 @@ Object {
         />
       </button>
       <button
+        aria-label="IconButton"
         class="h-14 p-4 gap-2 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary text-moon-24"
         type="button"
       >
@@ -2077,6 +2120,7 @@ Object {
   </body>,
   "container": <div>
     <button
+      aria-label="IconButton"
       class="h-6 p-1 gap-1 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary text-moon-16"
       type="button"
     >
@@ -2099,6 +2143,7 @@ Object {
       />
     </button>
     <button
+      aria-label="IconButton"
       class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary text-moon-24"
       type="button"
     >
@@ -2121,6 +2166,7 @@ Object {
       />
     </button>
     <button
+      aria-label="IconButton"
       class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary text-moon-24"
       type="button"
     >
@@ -2143,6 +2189,7 @@ Object {
       />
     </button>
     <button
+      aria-label="IconButton"
       class="h-12 p-3 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary text-moon-24"
       type="button"
     >
@@ -2165,6 +2212,7 @@ Object {
       />
     </button>
     <button
+      aria-label="IconButton"
       class="h-14 p-4 gap-2 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary text-moon-24"
       type="button"
     >
@@ -2247,6 +2295,7 @@ Object {
   "baseElement": <body>
     <div>
       <button
+        aria-label="IconButton"
         class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary text-moon-24"
         type="button"
       >
@@ -2269,6 +2318,7 @@ Object {
         />
       </button>
       <button
+        aria-label="IconButton"
         class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary text-moon-24"
         type="button"
       >
@@ -2291,6 +2341,7 @@ Object {
         />
       </button>
       <button
+        aria-label="IconButton"
         class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-tertiary text-moon-24"
         type="button"
       >
@@ -2313,6 +2364,7 @@ Object {
         />
       </button>
       <button
+        aria-label="IconButton"
         class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma text-moon-24"
         type="button"
       >
@@ -2338,6 +2390,7 @@ Object {
   </body>,
   "container": <div>
     <button
+      aria-label="IconButton"
       class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary text-moon-24"
       type="button"
     >
@@ -2360,6 +2413,7 @@ Object {
       />
     </button>
     <button
+      aria-label="IconButton"
       class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary text-moon-24"
       type="button"
     >
@@ -2382,6 +2436,7 @@ Object {
       />
     </button>
     <button
+      aria-label="IconButton"
       class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-tertiary text-moon-24"
       type="button"
     >
@@ -2404,6 +2459,7 @@ Object {
       />
     </button>
     <button
+      aria-label="IconButton"
       class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma text-moon-24"
       type="button"
     >
