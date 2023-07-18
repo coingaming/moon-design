@@ -1,57 +1,18 @@
-import React, { forwardRef, createContext, useContext, useEffect } from 'react';
+import React, { forwardRef, useEffect } from 'react';
 import { useFormItemContext } from '../form/Form';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import useRegisterChild from '../private/utils/useRegisterChild';
-
-export interface InsetInputProps
-  extends React.InputHTMLAttributes<HTMLInputElement> {
-  className?: string;
-  type?: React.HTMLInputTypeAttribute;
-  error?: boolean;
-  isRtl?: boolean;
-  disabled?: boolean;
-  id?: string;
-  isLabel?: boolean;
-}
-
-type InsetInputState = {
-  registerChild?: (child: string) => () => void;
-};
-
-const InsetInputContext = createContext<InsetInputState>({});
-InsetInputContext.displayName = 'InsetInputContext';
-
-const useInsetInputContext = (component: string) => {
-  const context = useContext(InsetInputContext);
-  if (context === null) {
-    const err = new Error(
-      `<${component}> is missing a parent <InsetInput /> component.`
-    );
-    // if (Error.captureStackTrace) Error.captureStackTrace(err, useInsetInputContext);
-    throw err;
-  }
-  return context;
-};
+import InsetInputContext from './private/utils/InsetInputContext';
+import useInsetInputContext from './private/utils/useInsetInputContext';
+import type InsetInputProps from './private/types/InsetInputProps';
+import type LabelProps from './private/types/LabelProps';
 
 const InsetInputRoot = forwardRef<HTMLInputElement, InsetInputProps>(
-  (
-    {
-      className,
-      type,
-      error: inputError,
-      disabled: inputDisabled,
-      isRtl,
-      id,
-      children,
-      ...rest
-    },
-    ref
-  ) => {
+  ({ className, error: inputError, children, ...rest }, ref) => {
     const { disabled: formItemDisabled, error: formItemError } =
       useFormItemContext('Input');
-    const disabled = inputDisabled || formItemDisabled;
+    const disabled = rest.disabled || formItemDisabled;
     const error = inputError || formItemError;
-
     const { state, registerChild } = useRegisterChild();
     const isLabel = state.childrens?.some((name) => name === 'Label');
     return (
@@ -65,8 +26,8 @@ const InsetInputRoot = forwardRef<HTMLInputElement, InsetInputProps>(
         >
           <input
             ref={ref}
-            type={type}
-            id={id}
+            type={rest.type}
+            id={rest.id}
             disabled={disabled}
             className={mergeClassnames(
               'block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2]',
@@ -81,13 +42,11 @@ const InsetInputRoot = forwardRef<HTMLInputElement, InsetInputProps>(
               'before:box-border after:box-border',
               'placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75',
               'read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input',
-              type === 'number' && 'input-number-clear',
-              type === 'date' && 'input-d',
-              type === 'date' && isRtl && 'input-d-rtl',
-              type === 'time' && 'input-t',
-              type === 'time' && isRtl && 'input-t-rtl',
-              type === 'datetime-local' && 'input-d',
-              type === 'datetime-local' && isRtl && 'input-dt-local-rtl',
+              rest.type === 'number' && 'input-number-clear',
+              rest.type === 'date' && 'ltr:input-d rtl:input-d-rtl',
+              rest.type === 'time' && 'ltr:input-t rtl:input-t-rtl',
+              rest.type === 'datetime-local' &&
+                'ltr:input-d rtl:input-dt-local-rtl',
               'input-xl-dt-shared',
               isLabel && 'input-xl pt-[1.125rem] input-xl-dt-label',
               'invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err',
@@ -102,8 +61,7 @@ const InsetInputRoot = forwardRef<HTMLInputElement, InsetInputProps>(
   }
 );
 
-type LabelProps = { className?: string; children?: React.ReactNode };
-const Label: React.FC<LabelProps> = ({ children, className }) => {
+const Label = ({ children, className }: LabelProps) => {
   const { registerChild } = useInsetInputContext('Label');
   useEffect(() => {
     registerChild && registerChild('Label');
@@ -119,5 +77,7 @@ const Label: React.FC<LabelProps> = ({ children, className }) => {
     </label>
   );
 };
+
 const InsetInput = Object.assign(InsetInputRoot, { Label });
+
 export default InsetInput;
