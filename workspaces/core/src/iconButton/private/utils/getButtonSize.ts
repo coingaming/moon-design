@@ -1,4 +1,4 @@
-import type ButtonSizes from '../../../../button/private/types/ButtonSizes';
+import type ButtonSizes from '../../../button/private/types/ButtonSizes';
 
 const getButtonSize = (size?: ButtonSizes): string => {
   if (size === 'xs') {

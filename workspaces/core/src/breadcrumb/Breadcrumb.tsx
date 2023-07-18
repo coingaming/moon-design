@@ -1,13 +1,11 @@
 import React from 'react';
 import Collapsed from './private/Collapsed';
 import Extended from './private/Extended';
-import type BreadcrumbProps from './private/types/BreadcrumbProps';
+import type Props from './private/types/Props';
 
-const Breadcrumb: React.FC<BreadcrumbProps> = ({ breadcrumbs, divider }) => {
+const Breadcrumb = ({ breadcrumbs, divider }: Props) => {
   if (!breadcrumbs) return null;
-
   const isCollapse = breadcrumbs?.length > 4;
-
   return isCollapse ? (
     <Collapsed breadcrumbs={breadcrumbs} divider={divider} />
   ) : (

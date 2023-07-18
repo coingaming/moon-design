@@ -228,6 +228,7 @@ Object {
                   Header
                 </p>
                 <button
+                  aria-label="Close"
                   class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma text-moon-24"
                   type="button"
                 >
@@ -914,6 +915,7 @@ Object {
                   Header
                 </p>
                 <button
+                  aria-label="Close"
                   class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma text-moon-24"
                   type="button"
                 >
