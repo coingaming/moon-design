@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
 import Input, { InputProps } from '../input/Input';
-import InsetInput, { InsetInputProps } from '../insetInput/InsetInput';
+import InsetInput from '../insetInput/InsetInput';
 import InsetNativeSelect, {
   InsetNativeSelectProps,
 } from '../insetNativeSelect/InsetNativeSelect';
@@ -8,6 +8,7 @@ import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import NativeSelect, { NativeSelectProps } from '../nativeSelect/NativeSelect';
 import GroupContext from './private/utils/GroupContext';
 import useGroupContext from './private/utils/useGroupContext';
+import type InsetInputProps from '../insetInput/private/types/InsetInputProps';
 import type GroupComponentProps from './private/types/GroupComponentProps';
 import type LabelProps from './private/types/LabelProps';
 import type WithChildren from './private/types/WithChildren';
@@ -242,12 +243,9 @@ const LastInsetInputRoot = forwardRef<
   }
 );
 
-const InputLabel: React.FC<WithChildren<LabelProps>> = ({
-  children,
-  className,
-}) => {
-  return <InsetInput.Label className={className}>{children}</InsetInput.Label>;
-};
+const InputLabel = ({ children, className }: WithChildren<LabelProps>) => (
+  <InsetInput.Label className={className}>{children}</InsetInput.Label>
+);
 
 const FirstSelect = forwardRef<
   HTMLSelectElement,

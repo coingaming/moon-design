@@ -8,83 +8,6 @@ Object {
       <div
         dir="rtl"
       >
-        <div>
-          <div
-            aria-orientation="horizontal"
-            class="flex items-center justify-center w-fit gap-2"
-            role="tablist"
-          >
-            <button
-              aria-controls="headlessui-tabs-panel-:r1j:"
-              aria-selected="true"
-              class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
-              data-headlessui-state="selected"
-              id="headlessui-tabs-tab-:r1g:"
-              role="tab"
-              tabindex="0"
-              type="button"
-            >
-              Tab 1
-            </button>
-            <button
-              aria-controls="headlessui-tabs-panel-:r1k:"
-              aria-selected="false"
-              class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
-              data-headlessui-state=""
-              id="headlessui-tabs-tab-:r1h:"
-              role="tab"
-              tabindex="-1"
-              type="button"
-            >
-              Tab 2
-            </button>
-            <button
-              aria-controls="headlessui-tabs-panel-:r1l:"
-              aria-selected="false"
-              class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
-              data-headlessui-state=""
-              id="headlessui-tabs-tab-:r1i:"
-              role="tab"
-              tabindex="-1"
-              type="button"
-            >
-              Tab 3
-            </button>
-          </div>
-          <div>
-            <div
-              aria-labelledby="headlessui-tabs-tab-:r1g:"
-              data-headlessui-state="selected"
-              id="headlessui-tabs-panel-:r1j:"
-              role="tabpanel"
-              tabindex="0"
-            >
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            </div>
-            <span
-              aria-labelledby="headlessui-tabs-tab-:r1h:"
-              id="headlessui-tabs-panel-:r1k:"
-              role="tabpanel"
-              style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
-              tabindex="-1"
-            />
-            <span
-              aria-labelledby="headlessui-tabs-tab-:r1i:"
-              id="headlessui-tabs-panel-:r1l:"
-              role="tabpanel"
-              style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
-              tabindex="-1"
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      dir="rtl"
-    >
-      <div>
         <div
           aria-orientation="horizontal"
           class="flex items-center justify-center w-fit gap-2"
@@ -154,6 +77,79 @@ Object {
         </div>
       </div>
     </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <div
+        aria-orientation="horizontal"
+        class="flex items-center justify-center w-fit gap-2"
+        role="tablist"
+      >
+        <button
+          aria-controls="headlessui-tabs-panel-:r1j:"
+          aria-selected="true"
+          class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+          data-headlessui-state="selected"
+          id="headlessui-tabs-tab-:r1g:"
+          role="tab"
+          tabindex="0"
+          type="button"
+        >
+          Tab 1
+        </button>
+        <button
+          aria-controls="headlessui-tabs-panel-:r1k:"
+          aria-selected="false"
+          class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+          data-headlessui-state=""
+          id="headlessui-tabs-tab-:r1h:"
+          role="tab"
+          tabindex="-1"
+          type="button"
+        >
+          Tab 2
+        </button>
+        <button
+          aria-controls="headlessui-tabs-panel-:r1l:"
+          aria-selected="false"
+          class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+          data-headlessui-state=""
+          id="headlessui-tabs-tab-:r1i:"
+          role="tab"
+          tabindex="-1"
+          type="button"
+        >
+          Tab 3
+        </button>
+      </div>
+      <div>
+        <div
+          aria-labelledby="headlessui-tabs-tab-:r1g:"
+          data-headlessui-state="selected"
+          id="headlessui-tabs-panel-:r1j:"
+          role="tabpanel"
+          tabindex="0"
+        >
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        </div>
+        <span
+          aria-labelledby="headlessui-tabs-tab-:r1h:"
+          id="headlessui-tabs-panel-:r1k:"
+          role="tabpanel"
+          style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+          tabindex="-1"
+        />
+        <span
+          aria-labelledby="headlessui-tabs-tab-:r1i:"
+          id="headlessui-tabs-panel-:r1l:"
+          role="tabpanel"
+          style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+          tabindex="-1"
+        />
+      </div>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
@@ -217,83 +213,6 @@ Object {
       <div
         dir="rtl"
       >
-        <div>
-          <div
-            aria-orientation="horizontal"
-            class="flex items-center justify-center w-fit gap-2"
-            role="tablist"
-          >
-            <button
-              aria-controls="headlessui-tabs-panel-:r2b:"
-              aria-selected="true"
-              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
-              data-headlessui-state="selected"
-              id="headlessui-tabs-tab-:r28:"
-              role="tab"
-              tabindex="0"
-              type="button"
-            >
-              Tab 1
-            </button>
-            <button
-              aria-controls="headlessui-tabs-panel-:r2c:"
-              aria-selected="false"
-              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
-              data-headlessui-state=""
-              id="headlessui-tabs-tab-:r29:"
-              role="tab"
-              tabindex="-1"
-              type="button"
-            >
-              Tab 2
-            </button>
-            <button
-              aria-controls="headlessui-tabs-panel-:r2d:"
-              aria-selected="false"
-              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
-              data-headlessui-state=""
-              id="headlessui-tabs-tab-:r2a:"
-              role="tab"
-              tabindex="-1"
-              type="button"
-            >
-              Tab 3
-            </button>
-          </div>
-          <div>
-            <div
-              aria-labelledby="headlessui-tabs-tab-:r28:"
-              data-headlessui-state="selected"
-              id="headlessui-tabs-panel-:r2b:"
-              role="tabpanel"
-              tabindex="0"
-            >
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            </div>
-            <span
-              aria-labelledby="headlessui-tabs-tab-:r29:"
-              id="headlessui-tabs-panel-:r2c:"
-              role="tabpanel"
-              style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
-              tabindex="-1"
-            />
-            <span
-              aria-labelledby="headlessui-tabs-tab-:r2a:"
-              id="headlessui-tabs-panel-:r2d:"
-              role="tabpanel"
-              style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
-              tabindex="-1"
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      dir="rtl"
-    >
-      <div>
         <div
           aria-orientation="horizontal"
           class="flex items-center justify-center w-fit gap-2"
@@ -361,6 +280,79 @@ Object {
             tabindex="-1"
           />
         </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <div
+        aria-orientation="horizontal"
+        class="flex items-center justify-center w-fit gap-2"
+        role="tablist"
+      >
+        <button
+          aria-controls="headlessui-tabs-panel-:r2b:"
+          aria-selected="true"
+          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+          data-headlessui-state="selected"
+          id="headlessui-tabs-tab-:r28:"
+          role="tab"
+          tabindex="0"
+          type="button"
+        >
+          Tab 1
+        </button>
+        <button
+          aria-controls="headlessui-tabs-panel-:r2c:"
+          aria-selected="false"
+          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+          data-headlessui-state=""
+          id="headlessui-tabs-tab-:r29:"
+          role="tab"
+          tabindex="-1"
+          type="button"
+        >
+          Tab 2
+        </button>
+        <button
+          aria-controls="headlessui-tabs-panel-:r2d:"
+          aria-selected="false"
+          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+          data-headlessui-state=""
+          id="headlessui-tabs-tab-:r2a:"
+          role="tab"
+          tabindex="-1"
+          type="button"
+        >
+          Tab 3
+        </button>
+      </div>
+      <div>
+        <div
+          aria-labelledby="headlessui-tabs-tab-:r28:"
+          data-headlessui-state="selected"
+          id="headlessui-tabs-panel-:r2b:"
+          role="tabpanel"
+          tabindex="0"
+        >
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        </div>
+        <span
+          aria-labelledby="headlessui-tabs-tab-:r29:"
+          id="headlessui-tabs-panel-:r2c:"
+          role="tabpanel"
+          style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+          tabindex="-1"
+        />
+        <span
+          aria-labelledby="headlessui-tabs-tab-:r2a:"
+          id="headlessui-tabs-panel-:r2d:"
+          role="tabpanel"
+          style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+          tabindex="-1"
+        />
       </div>
     </div>
   </div>,
@@ -1554,83 +1546,6 @@ Object {
       <div
         dir="rtl"
       >
-        <div>
-          <div
-            aria-orientation="horizontal"
-            class="flex items-center justify-center w-fit gap-2"
-            role="tablist"
-          >
-            <button
-              aria-controls="headlessui-tabs-panel-:r2t:"
-              aria-selected="false"
-              class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
-              data-headlessui-state=""
-              id="headlessui-tabs-tab-:r2q:"
-              role="tab"
-              tabindex="-1"
-              type="button"
-            >
-              Tab 1
-            </button>
-            <button
-              aria-controls="headlessui-tabs-panel-:r2u:"
-              aria-selected="false"
-              class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
-              data-headlessui-state=""
-              id="headlessui-tabs-tab-:r2r:"
-              role="tab"
-              tabindex="-1"
-              type="button"
-            >
-              Tab 2
-            </button>
-            <button
-              aria-controls="headlessui-tabs-panel-:r2v:"
-              aria-selected="true"
-              class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
-              data-headlessui-state="selected"
-              id="headlessui-tabs-tab-:r2s:"
-              role="tab"
-              tabindex="0"
-              type="button"
-            >
-              Tab 3
-            </button>
-          </div>
-          <div>
-            <span
-              aria-labelledby="headlessui-tabs-tab-:r2q:"
-              id="headlessui-tabs-panel-:r2t:"
-              role="tabpanel"
-              style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
-              tabindex="-1"
-            />
-            <span
-              aria-labelledby="headlessui-tabs-tab-:r2r:"
-              id="headlessui-tabs-panel-:r2u:"
-              role="tabpanel"
-              style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
-              tabindex="-1"
-            />
-            <div
-              aria-labelledby="headlessui-tabs-tab-:r2s:"
-              data-headlessui-state="selected"
-              id="headlessui-tabs-panel-:r2v:"
-              role="tabpanel"
-              tabindex="0"
-            >
-              Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      dir="rtl"
-    >
-      <div>
         <div
           aria-orientation="horizontal"
           class="flex items-center justify-center w-fit gap-2"
@@ -1700,6 +1615,79 @@ Object {
         </div>
       </div>
     </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <div
+        aria-orientation="horizontal"
+        class="flex items-center justify-center w-fit gap-2"
+        role="tablist"
+      >
+        <button
+          aria-controls="headlessui-tabs-panel-:r2t:"
+          aria-selected="false"
+          class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+          data-headlessui-state=""
+          id="headlessui-tabs-tab-:r2q:"
+          role="tab"
+          tabindex="-1"
+          type="button"
+        >
+          Tab 1
+        </button>
+        <button
+          aria-controls="headlessui-tabs-panel-:r2u:"
+          aria-selected="false"
+          class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+          data-headlessui-state=""
+          id="headlessui-tabs-tab-:r2r:"
+          role="tab"
+          tabindex="-1"
+          type="button"
+        >
+          Tab 2
+        </button>
+        <button
+          aria-controls="headlessui-tabs-panel-:r2v:"
+          aria-selected="true"
+          class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+          data-headlessui-state="selected"
+          id="headlessui-tabs-tab-:r2s:"
+          role="tab"
+          tabindex="0"
+          type="button"
+        >
+          Tab 3
+        </button>
+      </div>
+      <div>
+        <span
+          aria-labelledby="headlessui-tabs-tab-:r2q:"
+          id="headlessui-tabs-panel-:r2t:"
+          role="tabpanel"
+          style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+          tabindex="-1"
+        />
+        <span
+          aria-labelledby="headlessui-tabs-tab-:r2r:"
+          id="headlessui-tabs-panel-:r2u:"
+          role="tabpanel"
+          style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+          tabindex="-1"
+        />
+        <div
+          aria-labelledby="headlessui-tabs-tab-:r2s:"
+          data-headlessui-state="selected"
+          id="headlessui-tabs-panel-:r2v:"
+          role="tabpanel"
+          tabindex="0"
+        >
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
+        </div>
+      </div>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
@@ -1759,79 +1747,6 @@ exports[`Tabs renders Default 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
-    <div>
-      <div>
-        <div
-          aria-orientation="horizontal"
-          class="flex items-center justify-center w-fit gap-2"
-          role="tablist"
-        >
-          <button
-            aria-controls="headlessui-tabs-panel-:r3:"
-            aria-selected="true"
-            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
-            data-headlessui-state="selected"
-            id="headlessui-tabs-tab-:r0:"
-            role="tab"
-            tabindex="0"
-            type="button"
-          >
-            Tab 1
-          </button>
-          <button
-            aria-controls="headlessui-tabs-panel-:r4:"
-            aria-selected="false"
-            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
-            data-headlessui-state=""
-            id="headlessui-tabs-tab-:r1:"
-            role="tab"
-            tabindex="-1"
-            type="button"
-          >
-            Tab 2
-          </button>
-          <button
-            aria-controls="headlessui-tabs-panel-:r5:"
-            aria-selected="false"
-            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
-            data-headlessui-state=""
-            id="headlessui-tabs-tab-:r2:"
-            role="tab"
-            tabindex="-1"
-            type="button"
-          >
-            Tab 3
-          </button>
-        </div>
-        <div>
-          <div
-            aria-labelledby="headlessui-tabs-tab-:r0:"
-            data-headlessui-state="selected"
-            id="headlessui-tabs-panel-:r3:"
-            role="tabpanel"
-            tabindex="0"
-          >
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-          </div>
-          <span
-            aria-labelledby="headlessui-tabs-tab-:r1:"
-            id="headlessui-tabs-panel-:r4:"
-            role="tabpanel"
-            style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
-            tabindex="-1"
-          />
-          <span
-            aria-labelledby="headlessui-tabs-tab-:r2:"
-            id="headlessui-tabs-panel-:r5:"
-            role="tabpanel"
-            style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
-            tabindex="-1"
-          />
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
     <div>
       <div
         aria-orientation="horizontal"
@@ -1901,6 +1816,75 @@ Object {
         />
       </div>
     </div>
+  </body>,
+  "container": <div>
+    <div
+      aria-orientation="horizontal"
+      class="flex items-center justify-center w-fit gap-2"
+      role="tablist"
+    >
+      <button
+        aria-controls="headlessui-tabs-panel-:r3:"
+        aria-selected="true"
+        class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+        data-headlessui-state="selected"
+        id="headlessui-tabs-tab-:r0:"
+        role="tab"
+        tabindex="0"
+        type="button"
+      >
+        Tab 1
+      </button>
+      <button
+        aria-controls="headlessui-tabs-panel-:r4:"
+        aria-selected="false"
+        class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+        data-headlessui-state=""
+        id="headlessui-tabs-tab-:r1:"
+        role="tab"
+        tabindex="-1"
+        type="button"
+      >
+        Tab 2
+      </button>
+      <button
+        aria-controls="headlessui-tabs-panel-:r5:"
+        aria-selected="false"
+        class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+        data-headlessui-state=""
+        id="headlessui-tabs-tab-:r2:"
+        role="tab"
+        tabindex="-1"
+        type="button"
+      >
+        Tab 3
+      </button>
+    </div>
+    <div>
+      <div
+        aria-labelledby="headlessui-tabs-tab-:r0:"
+        data-headlessui-state="selected"
+        id="headlessui-tabs-panel-:r3:"
+        role="tabpanel"
+        tabindex="0"
+      >
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+      </div>
+      <span
+        aria-labelledby="headlessui-tabs-tab-:r1:"
+        id="headlessui-tabs-panel-:r4:"
+        role="tabpanel"
+        style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+        tabindex="-1"
+      />
+      <span
+        aria-labelledby="headlessui-tabs-tab-:r2:"
+        id="headlessui-tabs-panel-:r5:"
+        role="tabpanel"
+        style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+        tabindex="-1"
+      />
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
@@ -1960,79 +1944,6 @@ exports[`Tabs renders DefaultPills 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
-    <div>
-      <div>
-        <div
-          aria-orientation="horizontal"
-          class="flex items-center justify-center w-fit gap-2"
-          role="tablist"
-        >
-          <button
-            aria-controls="headlessui-tabs-panel-:rr:"
-            aria-selected="true"
-            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
-            data-headlessui-state="selected"
-            id="headlessui-tabs-tab-:ro:"
-            role="tab"
-            tabindex="0"
-            type="button"
-          >
-            Tab 1
-          </button>
-          <button
-            aria-controls="headlessui-tabs-panel-:rs:"
-            aria-selected="false"
-            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
-            data-headlessui-state=""
-            id="headlessui-tabs-tab-:rp:"
-            role="tab"
-            tabindex="-1"
-            type="button"
-          >
-            Tab 2
-          </button>
-          <button
-            aria-controls="headlessui-tabs-panel-:rt:"
-            aria-selected="false"
-            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
-            data-headlessui-state=""
-            id="headlessui-tabs-tab-:rq:"
-            role="tab"
-            tabindex="-1"
-            type="button"
-          >
-            Tab 3
-          </button>
-        </div>
-        <div>
-          <div
-            aria-labelledby="headlessui-tabs-tab-:ro:"
-            data-headlessui-state="selected"
-            id="headlessui-tabs-panel-:rr:"
-            role="tabpanel"
-            tabindex="0"
-          >
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-          </div>
-          <span
-            aria-labelledby="headlessui-tabs-tab-:rp:"
-            id="headlessui-tabs-panel-:rs:"
-            role="tabpanel"
-            style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
-            tabindex="-1"
-          />
-          <span
-            aria-labelledby="headlessui-tabs-tab-:rq:"
-            id="headlessui-tabs-panel-:rt:"
-            role="tabpanel"
-            style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
-            tabindex="-1"
-          />
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
     <div>
       <div
         aria-orientation="horizontal"
@@ -2101,6 +2012,75 @@ Object {
           tabindex="-1"
         />
       </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      aria-orientation="horizontal"
+      class="flex items-center justify-center w-fit gap-2"
+      role="tablist"
+    >
+      <button
+        aria-controls="headlessui-tabs-panel-:rr:"
+        aria-selected="true"
+        class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+        data-headlessui-state="selected"
+        id="headlessui-tabs-tab-:ro:"
+        role="tab"
+        tabindex="0"
+        type="button"
+      >
+        Tab 1
+      </button>
+      <button
+        aria-controls="headlessui-tabs-panel-:rs:"
+        aria-selected="false"
+        class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+        data-headlessui-state=""
+        id="headlessui-tabs-tab-:rp:"
+        role="tab"
+        tabindex="-1"
+        type="button"
+      >
+        Tab 2
+      </button>
+      <button
+        aria-controls="headlessui-tabs-panel-:rt:"
+        aria-selected="false"
+        class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+        data-headlessui-state=""
+        id="headlessui-tabs-tab-:rq:"
+        role="tab"
+        tabindex="-1"
+        type="button"
+      >
+        Tab 3
+      </button>
+    </div>
+    <div>
+      <div
+        aria-labelledby="headlessui-tabs-tab-:ro:"
+        data-headlessui-state="selected"
+        id="headlessui-tabs-panel-:rr:"
+        role="tabpanel"
+        tabindex="0"
+      >
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+      </div>
+      <span
+        aria-labelledby="headlessui-tabs-tab-:rp:"
+        id="headlessui-tabs-panel-:rs:"
+        role="tabpanel"
+        style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+        tabindex="-1"
+      />
+      <span
+        aria-labelledby="headlessui-tabs-tab-:rq:"
+        id="headlessui-tabs-panel-:rt:"
+        role="tabpanel"
+        style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+        tabindex="-1"
+      />
     </div>
   </div>,
   "debug": [Function],
@@ -3258,79 +3238,6 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div>
-        <div
-          aria-orientation="horizontal"
-          class="flex items-center justify-center w-fit gap-2"
-          role="tablist"
-        >
-          <button
-            aria-controls="headlessui-tabs-panel-:r1d:"
-            aria-selected="false"
-            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
-            data-headlessui-state=""
-            id="headlessui-tabs-tab-:r1a:"
-            role="tab"
-            tabindex="-1"
-            type="button"
-          >
-            Tab 1
-          </button>
-          <button
-            aria-controls="headlessui-tabs-panel-:r1e:"
-            aria-selected="false"
-            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
-            data-headlessui-state=""
-            id="headlessui-tabs-tab-:r1b:"
-            role="tab"
-            tabindex="-1"
-            type="button"
-          >
-            Tab 2
-          </button>
-          <button
-            aria-controls="headlessui-tabs-panel-:r1f:"
-            aria-selected="true"
-            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
-            data-headlessui-state="selected"
-            id="headlessui-tabs-tab-:r1c:"
-            role="tab"
-            tabindex="0"
-            type="button"
-          >
-            Tab 3
-          </button>
-        </div>
-        <div>
-          <span
-            aria-labelledby="headlessui-tabs-tab-:r1a:"
-            id="headlessui-tabs-panel-:r1d:"
-            role="tabpanel"
-            style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
-            tabindex="-1"
-          />
-          <span
-            aria-labelledby="headlessui-tabs-tab-:r1b:"
-            id="headlessui-tabs-panel-:r1e:"
-            role="tabpanel"
-            style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
-            tabindex="-1"
-          />
-          <div
-            aria-labelledby="headlessui-tabs-tab-:r1c:"
-            data-headlessui-state="selected"
-            id="headlessui-tabs-panel-:r1f:"
-            role="tabpanel"
-            tabindex="0"
-          >
-            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div>
       <div
         aria-orientation="horizontal"
         class="flex items-center justify-center w-fit gap-2"
@@ -3397,6 +3304,75 @@ Object {
         >
           Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
         </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      aria-orientation="horizontal"
+      class="flex items-center justify-center w-fit gap-2"
+      role="tablist"
+    >
+      <button
+        aria-controls="headlessui-tabs-panel-:r1d:"
+        aria-selected="false"
+        class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+        data-headlessui-state=""
+        id="headlessui-tabs-tab-:r1a:"
+        role="tab"
+        tabindex="-1"
+        type="button"
+      >
+        Tab 1
+      </button>
+      <button
+        aria-controls="headlessui-tabs-panel-:r1e:"
+        aria-selected="false"
+        class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+        data-headlessui-state=""
+        id="headlessui-tabs-tab-:r1b:"
+        role="tab"
+        tabindex="-1"
+        type="button"
+      >
+        Tab 2
+      </button>
+      <button
+        aria-controls="headlessui-tabs-panel-:r1f:"
+        aria-selected="true"
+        class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+        data-headlessui-state="selected"
+        id="headlessui-tabs-tab-:r1c:"
+        role="tab"
+        tabindex="0"
+        type="button"
+      >
+        Tab 3
+      </button>
+    </div>
+    <div>
+      <span
+        aria-labelledby="headlessui-tabs-tab-:r1a:"
+        id="headlessui-tabs-panel-:r1d:"
+        role="tabpanel"
+        style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+        tabindex="-1"
+      />
+      <span
+        aria-labelledby="headlessui-tabs-tab-:r1b:"
+        id="headlessui-tabs-panel-:r1e:"
+        role="tabpanel"
+        style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+        tabindex="-1"
+      />
+      <div
+        aria-labelledby="headlessui-tabs-tab-:r1c:"
+        data-headlessui-state="selected"
+        id="headlessui-tabs-panel-:r1f:"
+        role="tabpanel"
+        tabindex="0"
+      >
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
       </div>
     </div>
   </div>,

@@ -962,6 +962,8 @@ export { default as IconLiveChat } from './icons/IconLiveChat';
 export * from './icons/IconLiveChat';
 export { default as IconLiveStream } from './icons/IconLiveStream';
 export * from './icons/IconLiveStream';
+export { default as IconLivespins } from './icons/IconLivespins';
+export * from './icons/IconLivespins';
 export { default as IconLock } from './icons/IconLock';
 export * from './icons/IconLock';
 export { default as IconLogin } from './icons/IconLogin';

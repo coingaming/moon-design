@@ -9,7 +9,7 @@ const ControlsClose = (props: React.SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+      d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

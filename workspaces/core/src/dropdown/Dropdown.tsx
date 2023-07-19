@@ -1,4 +1,4 @@
-import React, { forwardRef } from 'react';
+import React, { Fragment, forwardRef } from 'react';
 import { Listbox } from '@headlessui/react';
 import { usePopper } from 'react-popper';
 import { SelectButton } from '../index';
@@ -134,12 +134,13 @@ const Select = ({
           {label}
         </SelectButton.Label>
       )}
-      <Listbox.Button as={'div'} ref={pooper?.setAnchor}>
+      <Listbox.Button as={Fragment}>
         <SelectButton
           size={size}
           open={open}
           isError={isError}
           idDisabled={disabled}
+          ref={pooper?.setAnchor}
           {...rest}
         >
           <SelectButton.Input className={className}>
@@ -169,16 +170,17 @@ const InsetSelect = ({
     'Dropdown.InsetSelect'
   );
   return (
-    <Listbox.Button as={'div'} ref={pooper?.setAnchor}>
+    <Listbox.Button as={Fragment}>
       <SelectButton
         size={size}
         open={open}
         isError={isError}
         idDisabled={disabled}
+        ref={pooper?.setAnchor}
         {...rest}
       >
         <SelectButton.InsetInput className={className}>
-          <span className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap">
+          <span className="flex flex-col items-start truncate">
             <SelectButton.FloatingLabel>{label}</SelectButton.FloatingLabel>
             {children ? (
               <SelectButton.Value>{children}</SelectButton.Value>
@@ -213,22 +215,21 @@ const MultiSelect = ({
           {label}
         </SelectButton.Label>
       )}
-      <Listbox.Button as={'div'} ref={pooper?.setAnchor}>
+      <Listbox.Button as={Fragment}>
         <SelectButton
           size={size}
           open={open}
           isError={isError}
           idDisabled={disabled}
+          ref={pooper?.setAnchor}
           {...rest}
         >
           <SelectButton.Input className={mergeClassnames(className)}>
-            <span className="flex gap-2 items-center">
+            <span className="flex w-full gap-2 items-center">
               {counter > 0 && (
-                <SelectButton.Value>
-                  <SelectButton.Chip onClear={onClear}>
-                    {counter}
-                  </SelectButton.Chip>
-                </SelectButton.Value>
+                <SelectButton.Chip onClear={onClear}>
+                  {counter}
+                </SelectButton.Chip>
               )}
               <SelectButton.Placeholder>{placeholder}</SelectButton.Placeholder>
             </span>
@@ -254,23 +255,22 @@ const InsetMultiSelect = ({
     'Dropdown.InsetMultiSelect'
   );
   return (
-    <Listbox.Button as={'div'} ref={pooper?.setAnchor}>
+    <Listbox.Button as={Fragment}>
       <SelectButton
         size={size}
         open={open}
         isError={isError}
         idDisabled={disabled}
+        ref={pooper?.setAnchor}
         {...rest}
       >
         <SelectButton.InsetInput
           className={mergeClassnames(className, '[&_>_span]:gap-4')}
         >
           {counter > 0 && (
-            <SelectButton.Value>
-              <SelectButton.Chip onClear={onClear}>{counter}</SelectButton.Chip>
-            </SelectButton.Value>
+            <SelectButton.Chip onClear={onClear}>{counter}</SelectButton.Chip>
           )}
-          <span className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap">
+          <span className="flex flex-col items-start truncate">
             <SelectButton.FloatingLabel>{label}</SelectButton.FloatingLabel>
             <SelectButton.Placeholder>{placeholder}</SelectButton.Placeholder>
           </span>
@@ -284,11 +284,16 @@ const InsetMultiSelect = ({
 const Trigger = ({
   children,
   className,
+  ...rest
 }: WithChildren<{ className?: string }>) => {
   const { pooper } = useDropdownContext('Dropdown.Trigger');
   return (
-    <Listbox.Button as={'div'} ref={pooper?.setAnchor}>
-      <div className={className && className}>{children}</div>
+    <Listbox.Button
+      ref={pooper?.setAnchor}
+      className={className && className}
+      {...rest}
+    >
+      {children}
     </Listbox.Button>
   );
 };
@@ -305,7 +310,7 @@ const Hint = ({
       className={mergeClassnames(
         'inline-block mt-2 ps-4 text-moon-12',
         isError ? 'text-chichi' : 'text-trunks',
-        disabled && 'opacity-30 cursor-not-allowed',
+        disabled && 'opacity-60 cursor-not-allowed',
         className && className
       )}
     >

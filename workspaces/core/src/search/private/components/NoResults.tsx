@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
+import mergeClassnames from '../../../mergeClassnames/mergeClassnames';
 import { SearchContext } from '../utils/context';
 import ListItem, { ButtonProps, LinkProps } from './ResultItem';
-import mergeClassnames from '../../../mergeClassnames/mergeClassnames';
 
 interface FreeSearchActionProps extends Omit<ButtonProps & LinkProps, 'index'> {
   index?: number;
@@ -18,7 +18,9 @@ export default function NoResults({
 
   return (
     <ListItem index={0} showType={false} {...props}>
-      <span className={mergeClassnames("max-w-md truncate text-bulma", className)}>
+      <span
+        className={mergeClassnames('max-w-md truncate text-bulma', className)}
+      >
         {label} <span className="font-medium">"{search}"</span>
       </span>
     </ListItem>

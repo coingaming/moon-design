@@ -145,7 +145,7 @@ const PageTokensNew = () => (
           name: 'Opacity',
           variable: '--opacity-moon',
           className: 'opacity-moon',
-          value: '0.32',
+          value: '0.6',
         },
       ]}
     />

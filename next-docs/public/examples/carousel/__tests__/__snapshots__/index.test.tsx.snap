@@ -706,8 +706,10 @@ Object {
           class="relative w-full"
         >
           <button
-            class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
+            aria-label="Scroll left"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -left-4"
             disabled=""
+            type="button"
           >
             <svg
               fill="none"
@@ -723,6 +725,10 @@ Object {
                 stroke-linejoin="round"
               />
             </svg>
+            <span
+              aria-hidden="true"
+              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
           </button>
           <ul
             class="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse"
@@ -854,8 +860,10 @@ Object {
             </li>
           </ul>
           <button
-            class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
+            aria-label="Scroll right"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -right-4"
             disabled=""
+            type="button"
           >
             <svg
               fill="none"
@@ -871,6 +879,10 @@ Object {
                 stroke-linejoin="round"
               />
             </svg>
+            <span
+              aria-hidden="true"
+              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
           </button>
         </div>
       </div>
@@ -884,8 +896,10 @@ Object {
         class="relative w-full"
       >
         <button
-          class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
+          aria-label="Scroll left"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -left-4"
           disabled=""
+          type="button"
         >
           <svg
             fill="none"
@@ -901,6 +915,10 @@ Object {
               stroke-linejoin="round"
             />
           </svg>
+          <span
+            aria-hidden="true"
+            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
         </button>
         <ul
           class="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse"
@@ -1032,8 +1050,10 @@ Object {
           </li>
         </ul>
         <button
-          class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
+          aria-label="Scroll right"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -right-4"
           disabled=""
+          type="button"
         >
           <svg
             fill="none"
@@ -1049,6 +1069,10 @@ Object {
               stroke-linejoin="round"
             />
           </svg>
+          <span
+            aria-hidden="true"
+            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
         </button>
       </div>
     </div>
@@ -1119,8 +1143,10 @@ Object {
           class="relative w-[320px]"
         >
           <button
-            class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
+            aria-label="Scroll left"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -left-4"
             disabled=""
+            type="button"
           >
             <svg
               fill="none"
@@ -1136,6 +1162,10 @@ Object {
                 stroke-linejoin="round"
               />
             </svg>
+            <span
+              aria-hidden="true"
+              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
           </button>
           <ul
             class="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse"
@@ -1167,8 +1197,10 @@ Object {
             </li>
           </ul>
           <button
-            class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
+            aria-label="Scroll right"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -right-4"
             disabled=""
+            type="button"
           >
             <svg
               fill="none"
@@ -1184,6 +1216,10 @@ Object {
                 stroke-linejoin="round"
               />
             </svg>
+            <span
+              aria-hidden="true"
+              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
           </button>
           <div
             class="flex absolute bottom-8 left-1/2 -translate-x-1/2 rtl:flex-row-reverse"
@@ -1216,8 +1252,10 @@ Object {
         class="relative w-[320px]"
       >
         <button
-          class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
+          aria-label="Scroll left"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -left-4"
           disabled=""
+          type="button"
         >
           <svg
             fill="none"
@@ -1233,6 +1271,10 @@ Object {
               stroke-linejoin="round"
             />
           </svg>
+          <span
+            aria-hidden="true"
+            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
         </button>
         <ul
           class="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse"
@@ -1264,8 +1306,10 @@ Object {
           </li>
         </ul>
         <button
-          class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
+          aria-label="Scroll right"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -right-4"
           disabled=""
+          type="button"
         >
           <svg
             fill="none"
@@ -1281,6 +1325,10 @@ Object {
               stroke-linejoin="round"
             />
           </svg>
+          <span
+            aria-hidden="true"
+            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
         </button>
         <div
           class="flex absolute bottom-8 left-1/2 -translate-x-1/2 rtl:flex-row-reverse"
@@ -1583,8 +1631,10 @@ Object {
           class="relative w-full"
         >
           <button
-            class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
+            aria-label="Scroll left"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -left-4"
             disabled=""
+            type="button"
           >
             <svg
               fill="none"
@@ -1600,6 +1650,10 @@ Object {
                 stroke-linejoin="round"
               />
             </svg>
+            <span
+              aria-hidden="true"
+              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
           </button>
           <ul
             class="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse gap-10"
@@ -1631,8 +1685,10 @@ Object {
             </li>
           </ul>
           <button
-            class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
+            aria-label="Scroll right"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -right-4"
             disabled=""
+            type="button"
           >
             <svg
               fill="none"
@@ -1648,6 +1704,10 @@ Object {
                 stroke-linejoin="round"
               />
             </svg>
+            <span
+              aria-hidden="true"
+              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
           </button>
         </div>
       </div>
@@ -1661,8 +1721,10 @@ Object {
         class="relative w-full"
       >
         <button
-          class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
+          aria-label="Scroll left"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -left-4"
           disabled=""
+          type="button"
         >
           <svg
             fill="none"
@@ -1678,6 +1740,10 @@ Object {
               stroke-linejoin="round"
             />
           </svg>
+          <span
+            aria-hidden="true"
+            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
         </button>
         <ul
           class="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse gap-10"
@@ -1709,8 +1775,10 @@ Object {
           </li>
         </ul>
         <button
-          class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
+          aria-label="Scroll right"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -right-4"
           disabled=""
+          type="button"
         >
           <svg
             fill="none"
@@ -1726,6 +1794,10 @@ Object {
               stroke-linejoin="round"
             />
           </svg>
+          <span
+            aria-hidden="true"
+            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
         </button>
       </div>
     </div>
@@ -1796,8 +1868,10 @@ Object {
           class="relative w-full"
         >
           <button
-            class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
+            aria-label="Scroll left"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -left-4"
             disabled=""
+            type="button"
           >
             <svg
               fill="none"
@@ -1813,6 +1887,10 @@ Object {
                 stroke-linejoin="round"
               />
             </svg>
+            <span
+              aria-hidden="true"
+              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
           </button>
           <ul
             class="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse"
@@ -1944,8 +2022,10 @@ Object {
             </li>
           </ul>
           <button
-            class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
+            aria-label="Scroll right"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -right-4"
             disabled=""
+            type="button"
           >
             <svg
               fill="none"
@@ -1961,6 +2041,10 @@ Object {
                 stroke-linejoin="round"
               />
             </svg>
+            <span
+              aria-hidden="true"
+              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
           </button>
         </div>
       </div>
@@ -1974,8 +2058,10 @@ Object {
         class="relative w-full"
       >
         <button
-          class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
+          aria-label="Scroll left"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -left-4"
           disabled=""
+          type="button"
         >
           <svg
             fill="none"
@@ -1991,6 +2077,10 @@ Object {
               stroke-linejoin="round"
             />
           </svg>
+          <span
+            aria-hidden="true"
+            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
         </button>
         <ul
           class="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse"
@@ -2122,8 +2212,10 @@ Object {
           </li>
         </ul>
         <button
-          class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
+          aria-label="Scroll right"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -right-4"
           disabled=""
+          type="button"
         >
           <svg
             fill="none"
@@ -2139,6 +2231,10 @@ Object {
               stroke-linejoin="round"
             />
           </svg>
+          <span
+            aria-hidden="true"
+            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
         </button>
       </div>
     </div>
@@ -2884,8 +2980,10 @@ Object {
         class="relative w-full"
       >
         <button
-          class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
+          aria-label="Scroll left"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -left-4"
           disabled=""
+          type="button"
         >
           <svg
             fill="none"
@@ -2901,6 +2999,10 @@ Object {
               stroke-linejoin="round"
             />
           </svg>
+          <span
+            aria-hidden="true"
+            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
         </button>
         <ul
           class="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse"
@@ -3032,8 +3134,10 @@ Object {
           </li>
         </ul>
         <button
-          class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
+          aria-label="Scroll right"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -right-4"
           disabled=""
+          type="button"
         >
           <svg
             fill="none"
@@ -3049,6 +3153,10 @@ Object {
               stroke-linejoin="round"
             />
           </svg>
+          <span
+            aria-hidden="true"
+            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
         </button>
       </div>
     </div>
@@ -3058,8 +3166,10 @@ Object {
       class="relative w-full"
     >
       <button
-        class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
+        aria-label="Scroll left"
+        class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -left-4"
         disabled=""
+        type="button"
       >
         <svg
           fill="none"
@@ -3075,6 +3185,10 @@ Object {
             stroke-linejoin="round"
           />
         </svg>
+        <span
+          aria-hidden="true"
+          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        />
       </button>
       <ul
         class="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse"
@@ -3206,8 +3320,10 @@ Object {
         </li>
       </ul>
       <button
-        class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
+        aria-label="Scroll right"
+        class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -right-4"
         disabled=""
+        type="button"
       >
         <svg
           fill="none"
@@ -3223,6 +3339,10 @@ Object {
             stroke-linejoin="round"
           />
         </svg>
+        <span
+          aria-hidden="true"
+          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        />
       </button>
     </div>
   </div>,
@@ -3289,8 +3409,10 @@ Object {
         class="relative w-[320px]"
       >
         <button
-          class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
+          aria-label="Scroll left"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -left-4"
           disabled=""
+          type="button"
         >
           <svg
             fill="none"
@@ -3306,6 +3428,10 @@ Object {
               stroke-linejoin="round"
             />
           </svg>
+          <span
+            aria-hidden="true"
+            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
         </button>
         <ul
           class="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse"
@@ -3337,8 +3463,10 @@ Object {
           </li>
         </ul>
         <button
-          class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
+          aria-label="Scroll right"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -right-4"
           disabled=""
+          type="button"
         >
           <svg
             fill="none"
@@ -3354,6 +3482,10 @@ Object {
               stroke-linejoin="round"
             />
           </svg>
+          <span
+            aria-hidden="true"
+            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
         </button>
         <div
           class="flex absolute bottom-8 left-1/2 -translate-x-1/2 rtl:flex-row-reverse"
@@ -3382,8 +3514,10 @@ Object {
       class="relative w-[320px]"
     >
       <button
-        class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
+        aria-label="Scroll left"
+        class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -left-4"
         disabled=""
+        type="button"
       >
         <svg
           fill="none"
@@ -3399,6 +3533,10 @@ Object {
             stroke-linejoin="round"
           />
         </svg>
+        <span
+          aria-hidden="true"
+          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        />
       </button>
       <ul
         class="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse"
@@ -3430,8 +3568,10 @@ Object {
         </li>
       </ul>
       <button
-        class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
+        aria-label="Scroll right"
+        class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -right-4"
         disabled=""
+        type="button"
       >
         <svg
           fill="none"
@@ -3447,6 +3587,10 @@ Object {
             stroke-linejoin="round"
           />
         </svg>
+        <span
+          aria-hidden="true"
+          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        />
       </button>
       <div
         class="flex absolute bottom-8 left-1/2 -translate-x-1/2 rtl:flex-row-reverse"
@@ -3737,8 +3881,10 @@ Object {
         class="relative w-full"
       >
         <button
-          class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
+          aria-label="Scroll left"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -left-4"
           disabled=""
+          type="button"
         >
           <svg
             fill="none"
@@ -3754,6 +3900,10 @@ Object {
               stroke-linejoin="round"
             />
           </svg>
+          <span
+            aria-hidden="true"
+            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
         </button>
         <ul
           class="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse gap-10"
@@ -3785,8 +3935,10 @@ Object {
           </li>
         </ul>
         <button
-          class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
+          aria-label="Scroll right"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -right-4"
           disabled=""
+          type="button"
         >
           <svg
             fill="none"
@@ -3802,6 +3954,10 @@ Object {
               stroke-linejoin="round"
             />
           </svg>
+          <span
+            aria-hidden="true"
+            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
         </button>
       </div>
     </div>
@@ -3811,8 +3967,10 @@ Object {
       class="relative w-full"
     >
       <button
-        class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
+        aria-label="Scroll left"
+        class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -left-4"
         disabled=""
+        type="button"
       >
         <svg
           fill="none"
@@ -3828,6 +3986,10 @@ Object {
             stroke-linejoin="round"
           />
         </svg>
+        <span
+          aria-hidden="true"
+          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        />
       </button>
       <ul
         class="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse gap-10"
@@ -3859,8 +4021,10 @@ Object {
         </li>
       </ul>
       <button
-        class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
+        aria-label="Scroll right"
+        class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -right-4"
         disabled=""
+        type="button"
       >
         <svg
           fill="none"
@@ -3876,6 +4040,10 @@ Object {
             stroke-linejoin="round"
           />
         </svg>
+        <span
+          aria-hidden="true"
+          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        />
       </button>
     </div>
   </div>,
@@ -3942,8 +4110,10 @@ Object {
         class="relative w-full"
       >
         <button
-          class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
+          aria-label="Scroll left"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -left-4"
           disabled=""
+          type="button"
         >
           <svg
             fill="none"
@@ -3959,6 +4129,10 @@ Object {
               stroke-linejoin="round"
             />
           </svg>
+          <span
+            aria-hidden="true"
+            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
         </button>
         <ul
           class="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse"
@@ -4090,8 +4264,10 @@ Object {
           </li>
         </ul>
         <button
-          class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
+          aria-label="Scroll right"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -right-4"
           disabled=""
+          type="button"
         >
           <svg
             fill="none"
@@ -4107,6 +4283,10 @@ Object {
               stroke-linejoin="round"
             />
           </svg>
+          <span
+            aria-hidden="true"
+            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
         </button>
       </div>
     </div>
@@ -4116,8 +4296,10 @@ Object {
       class="relative w-full"
     >
       <button
-        class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
+        aria-label="Scroll left"
+        class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -left-4"
         disabled=""
+        type="button"
       >
         <svg
           fill="none"
@@ -4133,6 +4315,10 @@ Object {
             stroke-linejoin="round"
           />
         </svg>
+        <span
+          aria-hidden="true"
+          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        />
       </button>
       <ul
         class="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse"
@@ -4264,8 +4450,10 @@ Object {
         </li>
       </ul>
       <button
-        class="max-sm:hidden p-1 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-moon-24 no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
+        aria-label="Scroll right"
+        class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -right-4"
         disabled=""
+        type="button"
       >
         <svg
           fill="none"
@@ -4281,6 +4469,10 @@ Object {
             stroke-linejoin="round"
           />
         </svg>
+        <span
+          aria-hidden="true"
+          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        />
       </button>
     </div>
   </div>,

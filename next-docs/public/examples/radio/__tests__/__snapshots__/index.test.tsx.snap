@@ -23,7 +23,8 @@ Object {
         >
           <div
             aria-checked="false"
-            class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+            aria-label="option1"
+            class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
             data-headlessui-state=""
             id="headlessui-radiogroup-option-:r15:"
             role="radio"
@@ -36,7 +37,8 @@ Object {
           </div>
           <div
             aria-checked="false"
-            class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+            aria-label="option2"
+            class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
             data-headlessui-state=""
             id="headlessui-radiogroup-option-:r16:"
             role="radio"
@@ -70,7 +72,8 @@ Object {
       >
         <div
           aria-checked="false"
-          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+          aria-label="option1"
+          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
           data-headlessui-state=""
           id="headlessui-radiogroup-option-:r15:"
           role="radio"
@@ -83,7 +86,8 @@ Object {
         </div>
         <div
           aria-checked="false"
-          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+          aria-label="option2"
+          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
           data-headlessui-state=""
           id="headlessui-radiogroup-option-:r16:"
           role="radio"
@@ -166,7 +170,8 @@ Object {
         >
           <div
             aria-checked="false"
-            class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+            aria-label="option1"
+            class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
             data-headlessui-state=""
             id="headlessui-radiogroup-option-:rs:"
             role="radio"
@@ -179,7 +184,8 @@ Object {
           </div>
           <div
             aria-checked="false"
-            class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+            aria-label="option2"
+            class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
             data-headlessui-state=""
             id="headlessui-radiogroup-option-:rt:"
             role="radio"
@@ -197,7 +203,8 @@ Object {
         >
           <div
             aria-checked="false"
-            class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default w-48 p-2 justify-between hover:bg-gohan transition-colors rounded-moon-i-sm"
+            aria-label="option1"
+            class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default w-48 p-2 justify-between hover:bg-gohan transition-colors rounded-moon-i-sm"
             data-headlessui-state=""
             id="headlessui-radiogroup-option-:rv:"
             role="radio"
@@ -210,7 +217,8 @@ Object {
           </div>
           <div
             aria-checked="false"
-            class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default w-48 p-2 justify-between hover:bg-gohan transition-colors rounded-moon-i-sm"
+            aria-label="option2"
+            class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default w-48 p-2 justify-between hover:bg-gohan transition-colors rounded-moon-i-sm"
             data-headlessui-state=""
             id="headlessui-radiogroup-option-:r10:"
             role="radio"
@@ -228,7 +236,8 @@ Object {
         >
           <div
             aria-checked="false"
-            class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+            aria-label="option1"
+            class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
             data-headlessui-state=""
             id="headlessui-radiogroup-option-:r12:"
             role="radio"
@@ -241,7 +250,8 @@ Object {
           </div>
           <div
             aria-checked="false"
-            class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+            aria-label="option2"
+            class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
             data-headlessui-state=""
             id="headlessui-radiogroup-option-:r13:"
             role="radio"
@@ -267,7 +277,8 @@ Object {
       >
         <div
           aria-checked="false"
-          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+          aria-label="option1"
+          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
           data-headlessui-state=""
           id="headlessui-radiogroup-option-:rs:"
           role="radio"
@@ -280,7 +291,8 @@ Object {
         </div>
         <div
           aria-checked="false"
-          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+          aria-label="option2"
+          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
           data-headlessui-state=""
           id="headlessui-radiogroup-option-:rt:"
           role="radio"
@@ -298,7 +310,8 @@ Object {
       >
         <div
           aria-checked="false"
-          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default w-48 p-2 justify-between hover:bg-gohan transition-colors rounded-moon-i-sm"
+          aria-label="option1"
+          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default w-48 p-2 justify-between hover:bg-gohan transition-colors rounded-moon-i-sm"
           data-headlessui-state=""
           id="headlessui-radiogroup-option-:rv:"
           role="radio"
@@ -311,7 +324,8 @@ Object {
         </div>
         <div
           aria-checked="false"
-          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default w-48 p-2 justify-between hover:bg-gohan transition-colors rounded-moon-i-sm"
+          aria-label="option2"
+          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default w-48 p-2 justify-between hover:bg-gohan transition-colors rounded-moon-i-sm"
           data-headlessui-state=""
           id="headlessui-radiogroup-option-:r10:"
           role="radio"
@@ -329,7 +343,8 @@ Object {
       >
         <div
           aria-checked="false"
-          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+          aria-label="option1"
+          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
           data-headlessui-state=""
           id="headlessui-radiogroup-option-:r12:"
           role="radio"
@@ -342,7 +357,8 @@ Object {
         </div>
         <div
           aria-checked="false"
-          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+          aria-label="option2"
+          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
           data-headlessui-state=""
           id="headlessui-radiogroup-option-:r13:"
           role="radio"
@@ -424,7 +440,8 @@ Object {
         >
           <div
             aria-checked="false"
-            class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+            aria-label="option1"
+            class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
             data-headlessui-state=""
             id="headlessui-radiogroup-option-:rm:"
             role="radio"
@@ -436,7 +453,8 @@ Object {
           </div>
           <div
             aria-checked="false"
-            class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+            aria-label="option2"
+            class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
             data-headlessui-state=""
             id="headlessui-radiogroup-option-:rn:"
             role="radio"
@@ -460,7 +478,8 @@ Object {
       >
         <div
           aria-checked="false"
-          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+          aria-label="option1"
+          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
           data-headlessui-state=""
           id="headlessui-radiogroup-option-:rm:"
           role="radio"
@@ -472,7 +491,8 @@ Object {
         </div>
         <div
           aria-checked="false"
-          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+          aria-label="option2"
+          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
           data-headlessui-state=""
           id="headlessui-radiogroup-option-:rn:"
           role="radio"
@@ -553,7 +573,8 @@ Object {
         >
           <div
             aria-checked="false"
-            class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+            aria-label="option1"
+            class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
             data-headlessui-state=""
             id="headlessui-radiogroup-option-:r18:"
             role="radio"
@@ -566,7 +587,8 @@ Object {
           </div>
           <div
             aria-checked="true"
-            class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+            aria-label="option2"
+            class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
             data-headlessui-state="checked"
             id="headlessui-radiogroup-option-:r19:"
             role="radio"
@@ -591,7 +613,8 @@ Object {
       >
         <div
           aria-checked="false"
-          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+          aria-label="option1"
+          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
           data-headlessui-state=""
           id="headlessui-radiogroup-option-:r18:"
           role="radio"
@@ -604,7 +627,8 @@ Object {
         </div>
         <div
           aria-checked="true"
-          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+          aria-label="option2"
+          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
           data-headlessui-state="checked"
           id="headlessui-radiogroup-option-:r19:"
           role="radio"
@@ -687,7 +711,8 @@ Object {
           <div
             aria-checked="false"
             aria-disabled="true"
-            class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+            aria-label="option1"
+            class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
             data-headlessui-state="disabled"
             id="headlessui-radiogroup-option-:rp:"
             role="radio"
@@ -701,7 +726,8 @@ Object {
           <div
             aria-checked="false"
             aria-disabled="true"
-            class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+            aria-label="option2"
+            class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
             data-headlessui-state="disabled"
             id="headlessui-radiogroup-option-:rq:"
             role="radio"
@@ -727,7 +753,8 @@ Object {
         <div
           aria-checked="false"
           aria-disabled="true"
-          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+          aria-label="option1"
+          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
           data-headlessui-state="disabled"
           id="headlessui-radiogroup-option-:rp:"
           role="radio"
@@ -741,7 +768,8 @@ Object {
         <div
           aria-checked="false"
           aria-disabled="true"
-          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+          aria-label="option2"
+          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
           data-headlessui-state="disabled"
           id="headlessui-radiogroup-option-:rq:"
           role="radio"
@@ -829,7 +857,8 @@ Object {
       >
         <div
           aria-checked="false"
-          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+          aria-label="option1"
+          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
           data-headlessui-state=""
           id="headlessui-radiogroup-option-:rg:"
           role="radio"
@@ -842,7 +871,8 @@ Object {
         </div>
         <div
           aria-checked="false"
-          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+          aria-label="option2"
+          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
           data-headlessui-state=""
           id="headlessui-radiogroup-option-:rh:"
           role="radio"
@@ -872,7 +902,8 @@ Object {
     >
       <div
         aria-checked="false"
-        class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+        aria-label="option1"
+        class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
         data-headlessui-state=""
         id="headlessui-radiogroup-option-:rg:"
         role="radio"
@@ -885,7 +916,8 @@ Object {
       </div>
       <div
         aria-checked="false"
-        class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+        aria-label="option2"
+        class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
         data-headlessui-state=""
         id="headlessui-radiogroup-option-:rh:"
         role="radio"
@@ -964,7 +996,8 @@ Object {
       >
         <div
           aria-checked="false"
-          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+          aria-label="option1"
+          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
           data-headlessui-state=""
           id="headlessui-radiogroup-option-:r7:"
           role="radio"
@@ -977,7 +1010,8 @@ Object {
         </div>
         <div
           aria-checked="false"
-          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+          aria-label="option2"
+          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
           data-headlessui-state=""
           id="headlessui-radiogroup-option-:r8:"
           role="radio"
@@ -995,7 +1029,8 @@ Object {
       >
         <div
           aria-checked="false"
-          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default w-48 p-2 justify-between hover:bg-gohan transition-colors rounded-moon-i-sm"
+          aria-label="option1"
+          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default w-48 p-2 justify-between hover:bg-gohan transition-colors rounded-moon-i-sm"
           data-headlessui-state=""
           id="headlessui-radiogroup-option-:ra:"
           role="radio"
@@ -1008,7 +1043,8 @@ Object {
         </div>
         <div
           aria-checked="false"
-          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default w-48 p-2 justify-between hover:bg-gohan transition-colors rounded-moon-i-sm"
+          aria-label="option2"
+          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default w-48 p-2 justify-between hover:bg-gohan transition-colors rounded-moon-i-sm"
           data-headlessui-state=""
           id="headlessui-radiogroup-option-:rb:"
           role="radio"
@@ -1026,7 +1062,8 @@ Object {
       >
         <div
           aria-checked="false"
-          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+          aria-label="option1"
+          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
           data-headlessui-state=""
           id="headlessui-radiogroup-option-:rd:"
           role="radio"
@@ -1039,7 +1076,8 @@ Object {
         </div>
         <div
           aria-checked="false"
-          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+          aria-label="option2"
+          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
           data-headlessui-state=""
           id="headlessui-radiogroup-option-:re:"
           role="radio"
@@ -1061,7 +1099,8 @@ Object {
     >
       <div
         aria-checked="false"
-        class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+        aria-label="option1"
+        class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
         data-headlessui-state=""
         id="headlessui-radiogroup-option-:r7:"
         role="radio"
@@ -1074,7 +1113,8 @@ Object {
       </div>
       <div
         aria-checked="false"
-        class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+        aria-label="option2"
+        class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
         data-headlessui-state=""
         id="headlessui-radiogroup-option-:r8:"
         role="radio"
@@ -1092,7 +1132,8 @@ Object {
     >
       <div
         aria-checked="false"
-        class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default w-48 p-2 justify-between hover:bg-gohan transition-colors rounded-moon-i-sm"
+        aria-label="option1"
+        class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default w-48 p-2 justify-between hover:bg-gohan transition-colors rounded-moon-i-sm"
         data-headlessui-state=""
         id="headlessui-radiogroup-option-:ra:"
         role="radio"
@@ -1105,7 +1146,8 @@ Object {
       </div>
       <div
         aria-checked="false"
-        class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default w-48 p-2 justify-between hover:bg-gohan transition-colors rounded-moon-i-sm"
+        aria-label="option2"
+        class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default w-48 p-2 justify-between hover:bg-gohan transition-colors rounded-moon-i-sm"
         data-headlessui-state=""
         id="headlessui-radiogroup-option-:rb:"
         role="radio"
@@ -1123,7 +1165,8 @@ Object {
     >
       <div
         aria-checked="false"
-        class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+        aria-label="option1"
+        class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
         data-headlessui-state=""
         id="headlessui-radiogroup-option-:rd:"
         role="radio"
@@ -1136,7 +1179,8 @@ Object {
       </div>
       <div
         aria-checked="false"
-        class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+        aria-label="option2"
+        class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
         data-headlessui-state=""
         id="headlessui-radiogroup-option-:re:"
         role="radio"
@@ -1214,7 +1258,8 @@ Object {
       >
         <div
           aria-checked="false"
-          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+          aria-label="option1"
+          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
           data-headlessui-state=""
           id="headlessui-radiogroup-option-:r1:"
           role="radio"
@@ -1226,7 +1271,8 @@ Object {
         </div>
         <div
           aria-checked="false"
-          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+          aria-label="option2"
+          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
           data-headlessui-state=""
           id="headlessui-radiogroup-option-:r2:"
           role="radio"
@@ -1246,7 +1292,8 @@ Object {
     >
       <div
         aria-checked="false"
-        class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+        aria-label="option1"
+        class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
         data-headlessui-state=""
         id="headlessui-radiogroup-option-:r1:"
         role="radio"
@@ -1258,7 +1305,8 @@ Object {
       </div>
       <div
         aria-checked="false"
-        class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+        aria-label="option2"
+        class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
         data-headlessui-state=""
         id="headlessui-radiogroup-option-:r2:"
         role="radio"
@@ -1335,7 +1383,8 @@ Object {
       >
         <div
           aria-checked="false"
-          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+          aria-label="option1"
+          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
           data-headlessui-state=""
           id="headlessui-radiogroup-option-:rj:"
           role="radio"
@@ -1348,7 +1397,8 @@ Object {
         </div>
         <div
           aria-checked="true"
-          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+          aria-label="option2"
+          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
           data-headlessui-state="checked"
           id="headlessui-radiogroup-option-:rk:"
           role="radio"
@@ -1369,7 +1419,8 @@ Object {
     >
       <div
         aria-checked="false"
-        class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+        aria-label="option1"
+        class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
         data-headlessui-state=""
         id="headlessui-radiogroup-option-:rj:"
         role="radio"
@@ -1382,7 +1433,8 @@ Object {
       </div>
       <div
         aria-checked="true"
-        class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+        aria-label="option2"
+        class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
         data-headlessui-state="checked"
         id="headlessui-radiogroup-option-:rk:"
         role="radio"
@@ -1461,7 +1513,8 @@ Object {
         <div
           aria-checked="false"
           aria-disabled="true"
-          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+          aria-label="option1"
+          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
           data-headlessui-state="disabled"
           id="headlessui-radiogroup-option-:r4:"
           role="radio"
@@ -1475,7 +1528,8 @@ Object {
         <div
           aria-checked="false"
           aria-disabled="true"
-          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+          aria-label="option2"
+          class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
           data-headlessui-state="disabled"
           id="headlessui-radiogroup-option-:r5:"
           role="radio"
@@ -1497,7 +1551,8 @@ Object {
       <div
         aria-checked="false"
         aria-disabled="true"
-        class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+        aria-label="option1"
+        class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
         data-headlessui-state="disabled"
         id="headlessui-radiogroup-option-:r4:"
         role="radio"
@@ -1511,7 +1566,8 @@ Object {
       <div
         aria-checked="false"
         aria-disabled="true"
-        class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+        aria-label="option2"
+        class="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60 moon-disabled:cursor-default"
         data-headlessui-state="disabled"
         id="headlessui-radiogroup-option-:r5:"
         role="radio"

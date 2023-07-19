@@ -14,7 +14,7 @@ const Example = () => {
   const { name, text, image } = getComponent('InsetNativeSelect');
   return (
     <>
-      <ComponentPageDescription title={name} image={image}>
+      <ComponentPageDescription title={name} image={image} isAriaSupport>
         <p>{text}</p>
         <p>
           When collapsed it shows the currently selected option and when

@@ -9,8 +9,8 @@ import {
 interface Item {
   children?: React.ReactNode;
   href?: string;
-  id: string
-};
+  id: string;
+}
 
 interface Items {
   items: Item[];
@@ -86,16 +86,14 @@ const Example = () => {
         <Search.Input>
           <Search.Input.Icon />
           <Search.Input.Input />
-          <Search.Input.ButtonClear>
-            Clear
-          </Search.Input.ButtonClear>
+          <Search.Input.ButtonClear>Clear</Search.Input.ButtonClear>
         </Search.Input>
 
         <Search.Transition>
           <Search.Result>
             {filteredItems.length ? (
               filteredItems.map((list: Items) => (
-                <ul className='space-y-1'>
+                <ul className="space-y-1" key={list.id}>
                   <li>
                     <Search.ResultHeading>{list.heading}</Search.ResultHeading>
                     {list.items.map(({ id, children, href, ...rest }: Item) => (
@@ -105,23 +103,23 @@ const Example = () => {
                         closeOnSelect={true}
                         {...rest}
                       >
-                        {
-                          href ? (
-                            <a href={href}>
-                              <MenuItem>
-                                <MenuItem.Title>{children}</MenuItem.Title>
-                                <span className="text-moon-12 text-trunks">
-                                  {href}
-                                </span>
-                              </MenuItem>
-                            </a>
-                          ) : (
+                        {href ? (
+                          <a href={href}>
                             <MenuItem>
                               <MenuItem.Title>{children}</MenuItem.Title>
-                              <span className="text-moon-12 text-trunks">Action</span>
+                              <span className="text-moon-12 text-trunks">
+                                {href}
+                              </span>
                             </MenuItem>
-                          )
-                        }
+                          </a>
+                        ) : (
+                          <MenuItem>
+                            <MenuItem.Title>{children}</MenuItem.Title>
+                            <span className="text-moon-12 text-trunks">
+                              Action
+                            </span>
+                          </MenuItem>
+                        )}
                       </Search.ResultItem>
                     ))}
                   </li>

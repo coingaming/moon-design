@@ -5,6 +5,7 @@ const defaultState: UsePagination = {
   currentPage: 0,
   setCurrentPage: () => {},
   pages: [],
+  hrefsArray: [],
   hasPreviousPage: false,
   hasNextPage: false,
   previousPages: [],

@@ -13,8 +13,9 @@ Object {
         >
           <button
             aria-disabled="true"
-            class="moon-disabled:cursor-not-allowed moon-disabled:opacity-30"
+            class="moon-disabled:cursor-not-allowed moon-disabled:opacity-60"
             disabled=""
+            type="button"
           >
             Previous
           </button>
@@ -24,21 +25,21 @@ Object {
           >
             <a
               aria-label="page 1"
-              class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-goten bg-piccolo"
+              class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-goten bg-piccolo font-medium"
               tabindex="0"
             >
               1
             </a>
             <a
               aria-label="page 2"
-              class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
+              class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
               tabindex="0"
             >
               2
             </a>
             <a
               aria-label="page 3"
-              class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
+              class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
               tabindex="0"
             >
               3
@@ -50,7 +51,7 @@ Object {
             </span>
             <a
               aria-label="page 11"
-              class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
+              class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
               tabindex="0"
             >
               11
@@ -58,7 +59,8 @@ Object {
           </nav>
           <button
             aria-disabled="false"
-            class="moon-disabled:cursor-not-allowed moon-disabled:opacity-30"
+            class="moon-disabled:cursor-not-allowed moon-disabled:opacity-60"
+            type="button"
           >
             Next
           </button>
@@ -75,8 +77,9 @@ Object {
       >
         <button
           aria-disabled="true"
-          class="moon-disabled:cursor-not-allowed moon-disabled:opacity-30"
+          class="moon-disabled:cursor-not-allowed moon-disabled:opacity-60"
           disabled=""
+          type="button"
         >
           Previous
         </button>
@@ -86,21 +89,21 @@ Object {
         >
           <a
             aria-label="page 1"
-            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-goten bg-piccolo"
+            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-goten bg-piccolo font-medium"
             tabindex="0"
           >
             1
           </a>
           <a
             aria-label="page 2"
-            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
+            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
             tabindex="0"
           >
             2
           </a>
           <a
             aria-label="page 3"
-            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
+            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
             tabindex="0"
           >
             3
@@ -112,7 +115,7 @@ Object {
           </span>
           <a
             aria-label="page 11"
-            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
+            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
             tabindex="0"
           >
             11
@@ -120,7 +123,8 @@ Object {
         </nav>
         <button
           aria-disabled="false"
-          class="moon-disabled:cursor-not-allowed moon-disabled:opacity-30"
+          class="moon-disabled:cursor-not-allowed moon-disabled:opacity-60"
+          type="button"
         >
           Next
         </button>
@@ -198,7 +202,8 @@ Object {
             disabled=""
           >
             <button
-              class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-30 cursor-not-allowed btn-secondary text-moon-24"
+              aria-label="Previous"
+              class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-secondary text-moon-24"
               disabled=""
               type="button"
             >
@@ -227,45 +232,50 @@ Object {
             aria-label="pagination"
             class="flex gap-1 items-center justify-center w-full h-10 text-moon-14 flex-grow"
           >
-            <a
+            <button
               aria-label="page 1"
-              class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-goten bg-piccolo"
+              class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-goten bg-piccolo font-medium"
               tabindex="0"
+              type="button"
             >
               1
-            </a>
-            <a
+            </button>
+            <button
               aria-label="page 2"
-              class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
+              class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
               tabindex="0"
+              type="button"
             >
               2
-            </a>
-            <a
+            </button>
+            <button
               aria-label="page 3"
-              class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
+              class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
               tabindex="0"
+              type="button"
             >
               3
-            </a>
+            </button>
             <span
               class="truncable flex justify-center min-w-[2rem]"
             >
               ...
             </span>
-            <a
+            <button
               aria-label="page 26"
-              class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
+              class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
               tabindex="0"
+              type="button"
             >
               26
-            </a>
+            </button>
           </nav>
           <div
             aria-disabled="false"
             class=""
           >
             <button
+              aria-label="Next"
               class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary text-moon-24"
               type="button"
             >
@@ -307,7 +317,295 @@ Object {
           disabled=""
         >
           <button
-            class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-30 cursor-not-allowed btn-secondary text-moon-24"
+            aria-label="Previous"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-secondary text-moon-24"
+            disabled=""
+            type="button"
+          >
+            <svg
+              class="rtl:rotate-180"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 22L13 16L19 10"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span
+              aria-hidden="true"
+              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
+        </div>
+        <nav
+          aria-label="pagination"
+          class="flex gap-1 items-center justify-center w-full h-10 text-moon-14 flex-grow"
+        >
+          <button
+            aria-label="page 1"
+            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-goten bg-piccolo font-medium"
+            tabindex="0"
+            type="button"
+          >
+            1
+          </button>
+          <button
+            aria-label="page 2"
+            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
+            tabindex="0"
+            type="button"
+          >
+            2
+          </button>
+          <button
+            aria-label="page 3"
+            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
+            tabindex="0"
+            type="button"
+          >
+            3
+          </button>
+          <span
+            class="truncable flex justify-center min-w-[2rem]"
+          >
+            ...
+          </span>
+          <button
+            aria-label="page 26"
+            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
+            tabindex="0"
+            type="button"
+          >
+            26
+          </button>
+        </nav>
+        <div
+          aria-disabled="false"
+          class=""
+        >
+          <button
+            aria-label="Next"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary text-moon-24"
+            type="button"
+          >
+            <svg
+              class="rtl:rotate-180"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M13 10L19 16L13 22"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span
+              aria-hidden="true"
+              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Pagination in RTL renders WithHref 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        dir="rtl"
+      >
+        <div
+          class="flex justify-center items-center w-full select-none"
+        >
+          <div
+            aria-disabled="true"
+            class=""
+            disabled=""
+          >
+            <button
+              aria-label="Previous"
+              class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-secondary text-moon-24"
+              disabled=""
+              type="button"
+            >
+              <svg
+                class="rtl:rotate-180"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M19 22L13 16L19 10"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <span
+                aria-hidden="true"
+                class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+              />
+            </button>
+          </div>
+          <nav
+            aria-label="pagination"
+            class="flex gap-1 items-center justify-center w-full h-10 text-moon-14 flex-grow"
+          >
+            <a
+              aria-label="page 1"
+              class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-goten bg-piccolo font-medium"
+              href="#"
+              tabindex="0"
+            >
+              1
+            </a>
+            <a
+              aria-label="page 2"
+              class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
+              href="#"
+              tabindex="0"
+            >
+              2
+            </a>
+            <a
+              aria-label="page 3"
+              class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
+              href="#"
+              tabindex="0"
+            >
+              3
+            </a>
+            <span
+              class="truncable flex justify-center min-w-[2rem]"
+            >
+              ...
+            </span>
+            <a
+              aria-label="page 10"
+              class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
+              href="#"
+              tabindex="0"
+            >
+              10
+            </a>
+          </nav>
+          <div
+            aria-disabled="false"
+            class=""
+          >
+            <button
+              aria-label="Next"
+              class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary text-moon-24"
+              type="button"
+            >
+              <svg
+                class="rtl:rotate-180"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13 10L19 16L13 22"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <span
+                aria-hidden="true"
+                class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <div
+        class="flex justify-center items-center w-full select-none"
+      >
+        <div
+          aria-disabled="true"
+          class=""
+          disabled=""
+        >
+          <button
+            aria-label="Previous"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-secondary text-moon-24"
             disabled=""
             type="button"
           >
@@ -338,21 +636,24 @@ Object {
         >
           <a
             aria-label="page 1"
-            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-goten bg-piccolo"
+            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-goten bg-piccolo font-medium"
+            href="#"
             tabindex="0"
           >
             1
           </a>
           <a
             aria-label="page 2"
-            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
+            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
+            href="#"
             tabindex="0"
           >
             2
           </a>
           <a
             aria-label="page 3"
-            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
+            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
+            href="#"
             tabindex="0"
           >
             3
@@ -363,11 +664,12 @@ Object {
             ...
           </span>
           <a
-            aria-label="page 26"
-            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
+            aria-label="page 10"
+            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
+            href="#"
             tabindex="0"
           >
-            26
+            10
           </a>
         </nav>
         <div
@@ -375,6 +677,7 @@ Object {
           class=""
         >
           <button
+            aria-label="Next"
             class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary text-moon-24"
             type="button"
           >
@@ -466,8 +769,9 @@ Object {
       >
         <button
           aria-disabled="true"
-          class="moon-disabled:cursor-not-allowed moon-disabled:opacity-30"
+          class="moon-disabled:cursor-not-allowed moon-disabled:opacity-60"
           disabled=""
+          type="button"
         >
           Previous
         </button>
@@ -477,21 +781,21 @@ Object {
         >
           <a
             aria-label="page 1"
-            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-goten bg-piccolo"
+            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-goten bg-piccolo font-medium"
             tabindex="0"
           >
             1
           </a>
           <a
             aria-label="page 2"
-            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
+            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
             tabindex="0"
           >
             2
           </a>
           <a
             aria-label="page 3"
-            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
+            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
             tabindex="0"
           >
             3
@@ -503,7 +807,7 @@ Object {
           </span>
           <a
             aria-label="page 11"
-            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
+            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
             tabindex="0"
           >
             11
@@ -511,7 +815,8 @@ Object {
         </nav>
         <button
           aria-disabled="false"
-          class="moon-disabled:cursor-not-allowed moon-disabled:opacity-30"
+          class="moon-disabled:cursor-not-allowed moon-disabled:opacity-60"
+          type="button"
         >
           Next
         </button>
@@ -524,8 +829,9 @@ Object {
     >
       <button
         aria-disabled="true"
-        class="moon-disabled:cursor-not-allowed moon-disabled:opacity-30"
+        class="moon-disabled:cursor-not-allowed moon-disabled:opacity-60"
         disabled=""
+        type="button"
       >
         Previous
       </button>
@@ -535,21 +841,21 @@ Object {
       >
         <a
           aria-label="page 1"
-          class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-goten bg-piccolo"
+          class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-goten bg-piccolo font-medium"
           tabindex="0"
         >
           1
         </a>
         <a
           aria-label="page 2"
-          class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
+          class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
           tabindex="0"
         >
           2
         </a>
         <a
           aria-label="page 3"
-          class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
+          class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
           tabindex="0"
         >
           3
@@ -561,7 +867,7 @@ Object {
         </span>
         <a
           aria-label="page 11"
-          class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
+          class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
           tabindex="0"
         >
           11
@@ -569,7 +875,8 @@ Object {
       </nav>
       <button
         aria-disabled="false"
-        class="moon-disabled:cursor-not-allowed moon-disabled:opacity-30"
+        class="moon-disabled:cursor-not-allowed moon-disabled:opacity-60"
+        type="button"
       >
         Next
       </button>
@@ -643,7 +950,8 @@ Object {
           disabled=""
         >
           <button
-            class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-30 cursor-not-allowed btn-secondary text-moon-24"
+            aria-label="Previous"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-secondary text-moon-24"
             disabled=""
             type="button"
           >
@@ -672,45 +980,50 @@ Object {
           aria-label="pagination"
           class="flex gap-1 items-center justify-center w-full h-10 text-moon-14 flex-grow"
         >
-          <a
+          <button
             aria-label="page 1"
-            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-goten bg-piccolo"
+            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-goten bg-piccolo font-medium"
             tabindex="0"
+            type="button"
           >
             1
-          </a>
-          <a
+          </button>
+          <button
             aria-label="page 2"
-            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
+            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
             tabindex="0"
+            type="button"
           >
             2
-          </a>
-          <a
+          </button>
+          <button
             aria-label="page 3"
-            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
+            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
             tabindex="0"
+            type="button"
           >
             3
-          </a>
+          </button>
           <span
             class="truncable flex justify-center min-w-[2rem]"
           >
             ...
           </span>
-          <a
+          <button
             aria-label="page 26"
-            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
+            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
             tabindex="0"
+            type="button"
           >
             26
-          </a>
+          </button>
         </nav>
         <div
           aria-disabled="false"
           class=""
         >
           <button
+            aria-label="Next"
             class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary text-moon-24"
             type="button"
           >
@@ -748,7 +1061,287 @@ Object {
         disabled=""
       >
         <button
-          class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-30 cursor-not-allowed btn-secondary text-moon-24"
+          aria-label="Previous"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-secondary text-moon-24"
+          disabled=""
+          type="button"
+        >
+          <svg
+            class="rtl:rotate-180"
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19 22L13 16L19 10"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <span
+            aria-hidden="true"
+            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
+        </button>
+      </div>
+      <nav
+        aria-label="pagination"
+        class="flex gap-1 items-center justify-center w-full h-10 text-moon-14 flex-grow"
+      >
+        <button
+          aria-label="page 1"
+          class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-goten bg-piccolo font-medium"
+          tabindex="0"
+          type="button"
+        >
+          1
+        </button>
+        <button
+          aria-label="page 2"
+          class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
+          tabindex="0"
+          type="button"
+        >
+          2
+        </button>
+        <button
+          aria-label="page 3"
+          class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
+          tabindex="0"
+          type="button"
+        >
+          3
+        </button>
+        <span
+          class="truncable flex justify-center min-w-[2rem]"
+        >
+          ...
+        </span>
+        <button
+          aria-label="page 26"
+          class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
+          tabindex="0"
+          type="button"
+        >
+          26
+        </button>
+      </nav>
+      <div
+        aria-disabled="false"
+        class=""
+      >
+        <button
+          aria-label="Next"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary text-moon-24"
+          type="button"
+        >
+          <svg
+            class="rtl:rotate-180"
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13 10L19 16L13 22"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <span
+            aria-hidden="true"
+            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
+        </button>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Pagination renders WithHref 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex justify-center items-center w-full select-none"
+      >
+        <div
+          aria-disabled="true"
+          class=""
+          disabled=""
+        >
+          <button
+            aria-label="Previous"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-secondary text-moon-24"
+            disabled=""
+            type="button"
+          >
+            <svg
+              class="rtl:rotate-180"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 22L13 16L19 10"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span
+              aria-hidden="true"
+              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
+        </div>
+        <nav
+          aria-label="pagination"
+          class="flex gap-1 items-center justify-center w-full h-10 text-moon-14 flex-grow"
+        >
+          <a
+            aria-label="page 1"
+            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-goten bg-piccolo font-medium"
+            href="#"
+            tabindex="0"
+          >
+            1
+          </a>
+          <a
+            aria-label="page 2"
+            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
+            href="#"
+            tabindex="0"
+          >
+            2
+          </a>
+          <a
+            aria-label="page 3"
+            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
+            href="#"
+            tabindex="0"
+          >
+            3
+          </a>
+          <span
+            class="truncable flex justify-center min-w-[2rem]"
+          >
+            ...
+          </span>
+          <a
+            aria-label="page 10"
+            class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
+            href="#"
+            tabindex="0"
+          >
+            10
+          </a>
+        </nav>
+        <div
+          aria-disabled="false"
+          class=""
+        >
+          <button
+            aria-label="Next"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary text-moon-24"
+            type="button"
+          >
+            <svg
+              class="rtl:rotate-180"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M13 10L19 16L13 22"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span
+              aria-hidden="true"
+              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex justify-center items-center w-full select-none"
+    >
+      <div
+        aria-disabled="true"
+        class=""
+        disabled=""
+      >
+        <button
+          aria-label="Previous"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-secondary text-moon-24"
           disabled=""
           type="button"
         >
@@ -779,21 +1372,24 @@ Object {
       >
         <a
           aria-label="page 1"
-          class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-goten bg-piccolo"
+          class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-goten bg-piccolo font-medium"
+          href="#"
           tabindex="0"
         >
           1
         </a>
         <a
           aria-label="page 2"
-          class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
+          class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
+          href="#"
           tabindex="0"
         >
           2
         </a>
         <a
           aria-label="page 3"
-          class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
+          class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
+          href="#"
           tabindex="0"
         >
           3
@@ -804,11 +1400,12 @@ Object {
           ...
         </span>
         <a
-          aria-label="page 26"
-          class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
+          aria-label="page 10"
+          class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
+          href="#"
           tabindex="0"
         >
-          26
+          10
         </a>
       </nav>
       <div
@@ -816,6 +1413,7 @@ Object {
         class=""
       >
         <button
+          aria-label="Next"
           class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary text-moon-24"
           type="button"
         >

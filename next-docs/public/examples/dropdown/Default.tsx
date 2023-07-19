@@ -17,12 +17,10 @@ const people = [
 const Example = () => {
   const [option, setOption] = useState<People>({ name: 'Choose a name...' });
   return (
-    <div className="w-56 h-80">
+    <div className="w-56">
       <Dropdown value={option} onChange={setOption}>
-        <Dropdown.Trigger>
-          <span className="p-2 cursor-pointer hover:text-piccolo">
-            {option?.name}
-          </span>
+        <Dropdown.Trigger className="p-2 cursor-pointer hover:text-piccolo">
+          {option?.name}
         </Dropdown.Trigger>
 
         <Dropdown.Options>

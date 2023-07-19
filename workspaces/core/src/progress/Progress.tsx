@@ -6,14 +6,14 @@ import ProgressContext from './private/utils/ProgressContext';
 import type PinProps from './private/types/PinProps';
 import type Props from './private/types/Props';
 
-const ProgressRoot: React.FC<Props> = ({
+const ProgressRoot = ({
   size = '2xs',
   value = 0,
   bgColor, // deprecated
   progressColor, // deprecated
   className,
   children,
-}) => (
+}: Props) => (
   <ProgressContext.Provider value={{ value, size }}>
     <div
       className={mergeClassnames(
@@ -26,6 +26,7 @@ const ProgressRoot: React.FC<Props> = ({
       aria-valuemax={100}
       aria-valuenow={value}
       role="progressbar"
+      aria-label={`${value}%`}
     >
       <div
         style={{ width: `${value}%` }}
@@ -40,7 +41,7 @@ const ProgressRoot: React.FC<Props> = ({
   </ProgressContext.Provider>
 );
 
-const Pin: React.FC<PinProps> = ({ className }) => {
+const Pin = ({ className }: PinProps) => {
   const { value, size } = useContext(ProgressContext);
   const displayValue = Math.round(value || 0) + '%';
   return (

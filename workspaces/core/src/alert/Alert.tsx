@@ -9,7 +9,7 @@ import type CloseProps from './private/types/CloseProps';
 import type Props from './private/types/Props';
 import type TextProps from './private/types/TextProps';
 
-const AlertRoot: React.FC<Props> = ({ className, children }) => {
+const AlertRoot = ({ className, children }: Props) => {
   const states = {
     withClose: false,
   };
@@ -32,21 +32,17 @@ const AlertRoot: React.FC<Props> = ({ className, children }) => {
   );
 };
 
-const Title: React.FC<TextProps> = ({ className, children }) => (
-  <h6 className={mergeClassnames('flex gap-3 font-medium', className)}>
+const Title = ({ className, children }: TextProps) => (
+  <p className={mergeClassnames('flex gap-3 font-medium', className)}>
     {children}
-  </h6>
+  </p>
 );
 
-const Message: React.FC<TextProps> = ({ className, children }) => (
+const Message = ({ className, children }: TextProps) => (
   <p className={mergeClassnames('flex gap-3', className)}>{children}</p>
 );
 
-const Close: React.FC<CloseProps> = ({
-  className,
-  ariaLabel = 'close',
-  onClick,
-}) => {
+const Close = ({ className, ariaLabel = 'close', onClick }: CloseProps) => {
   const { registerChild } = useAlertContext('Alert.Close');
   useEffect(() => {
     registerChild && registerChild('Close');

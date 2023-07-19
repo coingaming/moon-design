@@ -5,7 +5,7 @@ exports[`Table Chart renders Active 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-eNVtYQ iftnUU"
+    className="sc-gHZGBh dvFXZJ"
     style={
       Object {
         "height": 446,
@@ -13,14 +13,14 @@ exports[`Table Chart renders Active 1`] = `
     }
   >
     <div
-      className="sc-gHZGBh hhlwXJ"
+      className="sc-kbMABK dnuCHp"
     >
       <button
-        className="sc-hmINyy hWCYMo"
+        className="sc-eNVtYQ dvhexz"
         onClick={[Function]}
       >
         <svg
-          className="sc-bBrHrO sc-kbMABK  lgxZZb"
+          className="sc-bBrHrO sc-GvdFf  eTPCza"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -35,7 +35,7 @@ exports[`Table Chart renders Active 1`] = `
       </button>
       <div />
       <button
-        className="sc-hmINyy ifprlW"
+        className="sc-eNVtYQ fJFfEx"
         onClick={[Function]}
       >
         <svg
@@ -56,7 +56,7 @@ exports[`Table Chart renders Active 1`] = `
         </svg>
       </button>
       <button
-        className="sc-hmINyy ifprlW"
+        className="sc-eNVtYQ fJFfEx"
         onClick={[Function]}
       >
         <svg
@@ -78,10 +78,10 @@ exports[`Table Chart renders Active 1`] = `
       </button>
     </div>
     <div
-      className="sc-fsquOa ctoUqu"
+      className="sc-dwOrSJ csjpmC"
     >
       <div
-        className="sc-jPzPiz iQNFXX"
+        className="sc-WywnD fAcKcD"
       >
         <svg
           fill="none"
@@ -152,23 +152,23 @@ exports[`Table Chart renders Active 1`] = `
         </svg>
       </div>
       <p
-        className="sc-fIiyQQ sc-iiHhKi bNNRsz glYnLs"
+        className="sc-fIiyQQ sc-jPzPiz bNNRsz eQkglR"
         size={20}
       >
         Top Countries
       </p>
       <div
-        className="sc-WywnD"
+        className="sc-fsquOa"
       >
         <div
-          className="sc-jmpIuw kSOSXy"
+          className="sc-kTipSN dvTdCl"
         >
           <button
-            className="sc-isSunH icabox"
+            className="sc-jmpIuw dZafbA"
             onClick={[Function]}
           >
             <p
-              className="sc-fIiyQQ sc-gLZMPq gQihTb cfsXsA"
+              className="sc-fIiyQQ sc-isSunH gQihTb eQUlhz"
               size={14}
             >
               by GGR
@@ -194,40 +194,40 @@ exports[`Table Chart renders Active 1`] = `
       </div>
     </div>
     <div
-      className="sc-hynUIa jLjYoh"
+      className="sc-jfgCgr hGUSOG"
     >
       <div
-        className="sc-gInMJo eBQlSB"
+        className="sc-iCrZlF wSzFF"
       >
         <div
-          className="sc-flGrOw bjFDtw"
+          className="sc-hfKEqN bhvyJS"
         >
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <span
-              className="sc-kzxyrq kvkZip"
+              className="sc-begbuL iaCPqh"
             >
               1
             </span>
           </div>
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <div
-              className="sc-hfKEqN cGbhHI"
+              className="sc-kzxyrq bsgOQc"
             >
               Estonia
             </div>
           </div>
           <div
-            className="sc-GvdFf ToLoa"
+            className="sc-flGrOw fWtzVE"
           >
             <div
-              className="sc-iCrZlF fIIbxM"
+              className="sc-kLAKLF bmUfa-D"
             >
               <div
-                className="sc-kLAKLF ckQHsM"
+                className="sc-dRWZNg izKRRF"
                 style={
                   Object {
                     "background": "#ffb319",
@@ -239,40 +239,40 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <div
-              className="sc-begbuL bGMuHg"
+              className="sc-gInMJo dMJHzf"
             >
               120
             </div>
           </div>
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <span
-              className="sc-kzxyrq kvkZip"
+              className="sc-begbuL iaCPqh"
             >
               2
             </span>
           </div>
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <div
-              className="sc-hfKEqN cGbhHI"
+              className="sc-kzxyrq bsgOQc"
             >
               Russia
             </div>
           </div>
           <div
-            className="sc-GvdFf ToLoa"
+            className="sc-flGrOw fWtzVE"
           >
             <div
-              className="sc-iCrZlF fIIbxM"
+              className="sc-kLAKLF bmUfa-D"
             >
               <div
-                className="sc-kLAKLF ckQHsM"
+                className="sc-dRWZNg izKRRF"
                 style={
                   Object {
                     "background": "#ffb319",
@@ -284,40 +284,40 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <div
-              className="sc-begbuL bGMuHg"
+              className="sc-gInMJo dMJHzf"
             >
               100
             </div>
           </div>
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <span
-              className="sc-kzxyrq kvkZip"
+              className="sc-begbuL iaCPqh"
             >
               3
             </span>
           </div>
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <div
-              className="sc-hfKEqN cGbhHI"
+              className="sc-kzxyrq bsgOQc"
             >
               Belarus
             </div>
           </div>
           <div
-            className="sc-GvdFf ToLoa"
+            className="sc-flGrOw fWtzVE"
           >
             <div
-              className="sc-iCrZlF fIIbxM"
+              className="sc-kLAKLF bmUfa-D"
             >
               <div
-                className="sc-kLAKLF ckQHsM"
+                className="sc-dRWZNg izKRRF"
                 style={
                   Object {
                     "background": "#ffb319",
@@ -329,40 +329,40 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <div
-              className="sc-begbuL bGMuHg"
+              className="sc-gInMJo dMJHzf"
             >
               80
             </div>
           </div>
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <span
-              className="sc-kzxyrq kvkZip"
+              className="sc-begbuL iaCPqh"
             >
               4
             </span>
           </div>
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <div
-              className="sc-hfKEqN cGbhHI"
+              className="sc-kzxyrq bsgOQc"
             >
               Argentina
             </div>
           </div>
           <div
-            className="sc-GvdFf ToLoa"
+            className="sc-flGrOw fWtzVE"
           >
             <div
-              className="sc-iCrZlF fIIbxM"
+              className="sc-kLAKLF bmUfa-D"
             >
               <div
-                className="sc-kLAKLF ckQHsM"
+                className="sc-dRWZNg izKRRF"
                 style={
                   Object {
                     "background": "#ffb319",
@@ -374,40 +374,40 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <div
-              className="sc-begbuL bGMuHg"
+              className="sc-gInMJo dMJHzf"
             >
               60
             </div>
           </div>
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <span
-              className="sc-kzxyrq kvkZip"
+              className="sc-begbuL iaCPqh"
             >
               5
             </span>
           </div>
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <div
-              className="sc-hfKEqN cGbhHI"
+              className="sc-kzxyrq bsgOQc"
             >
               USA
             </div>
           </div>
           <div
-            className="sc-GvdFf ToLoa"
+            className="sc-flGrOw fWtzVE"
           >
             <div
-              className="sc-iCrZlF fIIbxM"
+              className="sc-kLAKLF bmUfa-D"
             >
               <div
-                className="sc-kLAKLF ckQHsM"
+                className="sc-dRWZNg izKRRF"
                 style={
                   Object {
                     "background": "#ffb319",
@@ -419,10 +419,10 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <div
-              className="sc-begbuL bGMuHg"
+              className="sc-gInMJo dMJHzf"
             >
               40
             </div>
@@ -432,7 +432,7 @@ exports[`Table Chart renders Active 1`] = `
     </div>
   </div>
   <div
-    className="sc-eNVtYQ iftnUU"
+    className="sc-gHZGBh dvFXZJ"
     style={
       Object {
         "height": 446,
@@ -440,10 +440,10 @@ exports[`Table Chart renders Active 1`] = `
     }
   >
     <div
-      className="sc-gHZGBh hhlwXJ"
+      className="sc-kbMABK dnuCHp"
     >
       <button
-        className="sc-hmINyy ifprlW"
+        className="sc-eNVtYQ fJFfEx"
         onClick={[Function]}
       >
         <div
@@ -459,7 +459,7 @@ exports[`Table Chart renders Active 1`] = `
       </button>
       <div />
       <button
-        className="sc-hmINyy ifprlW"
+        className="sc-eNVtYQ fJFfEx"
         onClick={[Function]}
       >
         <svg
@@ -480,7 +480,7 @@ exports[`Table Chart renders Active 1`] = `
         </svg>
       </button>
       <button
-        className="sc-hmINyy ifprlW"
+        className="sc-eNVtYQ fJFfEx"
         onClick={[Function]}
       >
         <svg
@@ -502,10 +502,10 @@ exports[`Table Chart renders Active 1`] = `
       </button>
     </div>
     <div
-      className="sc-fsquOa ctoUqu"
+      className="sc-dwOrSJ csjpmC"
     >
       <div
-        className="sc-jPzPiz iQNFXX"
+        className="sc-WywnD fAcKcD"
       >
         <svg
           fill="none"
@@ -576,23 +576,23 @@ exports[`Table Chart renders Active 1`] = `
         </svg>
       </div>
       <p
-        className="sc-fIiyQQ sc-iiHhKi bNNRsz glYnLs"
+        className="sc-fIiyQQ sc-jPzPiz bNNRsz eQkglR"
         size={20}
       >
         Top Countries
       </p>
       <div
-        className="sc-WywnD"
+        className="sc-fsquOa"
       >
         <div
-          className="sc-jmpIuw kSOSXy"
+          className="sc-kTipSN dvTdCl"
         >
           <button
-            className="sc-isSunH icabox"
+            className="sc-jmpIuw dZafbA"
             onClick={[Function]}
           >
             <p
-              className="sc-fIiyQQ sc-gLZMPq gQihTb cfsXsA"
+              className="sc-fIiyQQ sc-isSunH gQihTb eQUlhz"
               size={14}
             >
               by GGR
@@ -618,43 +618,43 @@ exports[`Table Chart renders Active 1`] = `
       </div>
     </div>
     <div
-      className="sc-hynUIa jLjYoh"
+      className="sc-jfgCgr hGUSOG"
     >
       <div
-        className="sc-gInMJo eBQlSB"
+        className="sc-iCrZlF wSzFF"
       >
         <div
-          className="sc-flGrOw bjFDtw"
+          className="sc-hfKEqN bhvyJS"
         >
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <span
-              className="sc-kzxyrq kvkZip"
+              className="sc-begbuL iaCPqh"
             >
               1
             </span>
           </div>
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <div
-              className="sc-hfKEqN cGbhHI"
+              className="sc-kzxyrq bsgOQc"
             >
               Estonia
             </div>
           </div>
           <div
-            className="sc-GvdFf ToLoa"
+            className="sc-flGrOw fWtzVE"
           >
             <div
-              className="sc-dRWZNg cPeTDM"
+              className="sc-eJWhPD gIgWse"
             />
             <div
-              className="sc-iCrZlF fGTAEy"
+              className="sc-kLAKLF jtVtpd"
             >
               <div
-                className="sc-kLAKLF ckQHsM"
+                className="sc-dRWZNg izKRRF"
                 style={
                   Object {
                     "background": "#ffb319",
@@ -666,43 +666,43 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <div
-              className="sc-begbuL bGMuHg"
+              className="sc-gInMJo dMJHzf"
             >
               120
             </div>
           </div>
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <span
-              className="sc-kzxyrq kvkZip"
+              className="sc-begbuL iaCPqh"
             >
               2
             </span>
           </div>
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <div
-              className="sc-hfKEqN cGbhHI"
+              className="sc-kzxyrq bsgOQc"
             >
               Russia
             </div>
           </div>
           <div
-            className="sc-GvdFf ToLoa"
+            className="sc-flGrOw fWtzVE"
           >
             <div
-              className="sc-dRWZNg cPeTDM"
+              className="sc-eJWhPD gIgWse"
             />
             <div
-              className="sc-iCrZlF fGTAEy"
+              className="sc-kLAKLF jtVtpd"
             >
               <div
-                className="sc-kLAKLF ckQHsM"
+                className="sc-dRWZNg izKRRF"
                 style={
                   Object {
                     "background": "#ffb319",
@@ -714,43 +714,43 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <div
-              className="sc-begbuL bGMuHg"
+              className="sc-gInMJo dMJHzf"
             >
               100
             </div>
           </div>
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <span
-              className="sc-kzxyrq kvkZip"
+              className="sc-begbuL iaCPqh"
             >
               3
             </span>
           </div>
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <div
-              className="sc-hfKEqN cGbhHI"
+              className="sc-kzxyrq bsgOQc"
             >
               Belarus
             </div>
           </div>
           <div
-            className="sc-GvdFf ToLoa"
+            className="sc-flGrOw fWtzVE"
           >
             <div
-              className="sc-dRWZNg cPeTDM"
+              className="sc-eJWhPD gIgWse"
             />
             <div
-              className="sc-iCrZlF fGTAEy"
+              className="sc-kLAKLF jtVtpd"
             >
               <div
-                className="sc-kLAKLF ckQHsM"
+                className="sc-dRWZNg izKRRF"
                 style={
                   Object {
                     "background": "#ffb319",
@@ -762,43 +762,43 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <div
-              className="sc-begbuL bGMuHg"
+              className="sc-gInMJo dMJHzf"
             >
               20
             </div>
           </div>
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <span
-              className="sc-kzxyrq kvkZip"
+              className="sc-begbuL iaCPqh"
             >
               4
             </span>
           </div>
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <div
-              className="sc-hfKEqN cGbhHI"
+              className="sc-kzxyrq bsgOQc"
             >
               Argentina
             </div>
           </div>
           <div
-            className="sc-GvdFf ToLoa"
+            className="sc-flGrOw fWtzVE"
           >
             <div
-              className="sc-dRWZNg cPeTDM"
+              className="sc-eJWhPD gIgWse"
             />
             <div
-              className="sc-iCrZlF gVZoum"
+              className="sc-kLAKLF faLAuJ"
             >
               <div
-                className="sc-kLAKLF ckQHsM"
+                className="sc-dRWZNg izKRRF"
                 style={
                   Object {
                     "background": "#ff4e64",
@@ -810,43 +810,43 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <div
-              className="sc-begbuL bGMuHg"
+              className="sc-gInMJo dMJHzf"
             >
               -60
             </div>
           </div>
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <span
-              className="sc-kzxyrq kvkZip"
+              className="sc-begbuL iaCPqh"
             >
               5
             </span>
           </div>
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <div
-              className="sc-hfKEqN cGbhHI"
+              className="sc-kzxyrq bsgOQc"
             >
               USA
             </div>
           </div>
           <div
-            className="sc-GvdFf ToLoa"
+            className="sc-flGrOw fWtzVE"
           >
             <div
-              className="sc-dRWZNg cPeTDM"
+              className="sc-eJWhPD gIgWse"
             />
             <div
-              className="sc-iCrZlF gVZoum"
+              className="sc-kLAKLF faLAuJ"
             >
               <div
-                className="sc-kLAKLF ckQHsM"
+                className="sc-dRWZNg izKRRF"
                 style={
                   Object {
                     "background": "#ff4e64",
@@ -858,10 +858,10 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <div
-              className="sc-begbuL bGMuHg"
+              className="sc-gInMJo dMJHzf"
             >
               -80
             </div>
@@ -871,7 +871,7 @@ exports[`Table Chart renders Active 1`] = `
     </div>
   </div>
   <div
-    className="sc-eNVtYQ iftnUU"
+    className="sc-gHZGBh dvFXZJ"
     style={
       Object {
         "height": 446,
@@ -879,14 +879,14 @@ exports[`Table Chart renders Active 1`] = `
     }
   >
     <div
-      className="sc-gHZGBh hhlwXJ"
+      className="sc-kbMABK dnuCHp"
     >
       <button
-        className="sc-hmINyy ifprlW"
+        className="sc-eNVtYQ fJFfEx"
         onClick={[Function]}
       >
         <svg
-          className="sc-bBrHrO sc-kbMABK  lgxZZb"
+          className="sc-bBrHrO sc-GvdFf  eTPCza"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -901,7 +901,7 @@ exports[`Table Chart renders Active 1`] = `
       </button>
       <div />
       <button
-        className="sc-hmINyy ifprlW"
+        className="sc-eNVtYQ fJFfEx"
         onClick={[Function]}
       >
         <svg
@@ -922,7 +922,7 @@ exports[`Table Chart renders Active 1`] = `
         </svg>
       </button>
       <button
-        className="sc-hmINyy ifprlW"
+        className="sc-eNVtYQ fJFfEx"
         onClick={[Function]}
       >
         <svg
@@ -944,10 +944,10 @@ exports[`Table Chart renders Active 1`] = `
       </button>
     </div>
     <div
-      className="sc-fsquOa ctoUqu"
+      className="sc-dwOrSJ csjpmC"
     >
       <div
-        className="sc-jPzPiz iQNFXX"
+        className="sc-WywnD fAcKcD"
       >
         <svg
           fill="none"
@@ -1018,23 +1018,23 @@ exports[`Table Chart renders Active 1`] = `
         </svg>
       </div>
       <p
-        className="sc-fIiyQQ sc-iiHhKi bNNRsz glYnLs"
+        className="sc-fIiyQQ sc-jPzPiz bNNRsz eQkglR"
         size={20}
       >
         Top Countries
       </p>
       <div
-        className="sc-WywnD"
+        className="sc-fsquOa"
       >
         <div
-          className="sc-jmpIuw kSOSXy"
+          className="sc-kTipSN dvTdCl"
         >
           <button
-            className="sc-isSunH icabox"
+            className="sc-jmpIuw dZafbA"
             onClick={[Function]}
           >
             <p
-              className="sc-fIiyQQ sc-gLZMPq gQihTb cfsXsA"
+              className="sc-fIiyQQ sc-isSunH gQihTb eQUlhz"
               size={14}
             >
               by GGR
@@ -1060,40 +1060,40 @@ exports[`Table Chart renders Active 1`] = `
       </div>
     </div>
     <div
-      className="sc-hynUIa jLjYoh"
+      className="sc-jfgCgr hGUSOG"
     >
       <div
-        className="sc-gInMJo eBQlSB"
+        className="sc-iCrZlF wSzFF"
       >
         <div
-          className="sc-flGrOw bjFDtw"
+          className="sc-hfKEqN bhvyJS"
         >
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <span
-              className="sc-kzxyrq kvkZip"
+              className="sc-begbuL iaCPqh"
             >
               1
             </span>
           </div>
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <div
-              className="sc-hfKEqN cGbhHI"
+              className="sc-kzxyrq bsgOQc"
             >
               Estonia
             </div>
           </div>
           <div
-            className="sc-GvdFf ToLoa"
+            className="sc-flGrOw fWtzVE"
           >
             <div
-              className="sc-iCrZlF mWVnu"
+              className="sc-kLAKLF kUDkHt"
             >
               <div
-                className="sc-kLAKLF ckQHsM"
+                className="sc-dRWZNg izKRRF"
                 style={
                   Object {
                     "background": "#ff4e64",
@@ -1105,40 +1105,40 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <div
-              className="sc-begbuL bGMuHg"
+              className="sc-gInMJo dMJHzf"
             >
               -40
             </div>
           </div>
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <span
-              className="sc-kzxyrq kvkZip"
+              className="sc-begbuL iaCPqh"
             >
               2
             </span>
           </div>
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <div
-              className="sc-hfKEqN cGbhHI"
+              className="sc-kzxyrq bsgOQc"
             >
               Russia
             </div>
           </div>
           <div
-            className="sc-GvdFf ToLoa"
+            className="sc-flGrOw fWtzVE"
           >
             <div
-              className="sc-iCrZlF mWVnu"
+              className="sc-kLAKLF kUDkHt"
             >
               <div
-                className="sc-kLAKLF ckQHsM"
+                className="sc-dRWZNg izKRRF"
                 style={
                   Object {
                     "background": "#ff4e64",
@@ -1150,40 +1150,40 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <div
-              className="sc-begbuL bGMuHg"
+              className="sc-gInMJo dMJHzf"
             >
               -60
             </div>
           </div>
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <span
-              className="sc-kzxyrq kvkZip"
+              className="sc-begbuL iaCPqh"
             >
               3
             </span>
           </div>
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <div
-              className="sc-hfKEqN cGbhHI"
+              className="sc-kzxyrq bsgOQc"
             >
               Belarus
             </div>
           </div>
           <div
-            className="sc-GvdFf ToLoa"
+            className="sc-flGrOw fWtzVE"
           >
             <div
-              className="sc-iCrZlF mWVnu"
+              className="sc-kLAKLF kUDkHt"
             >
               <div
-                className="sc-kLAKLF ckQHsM"
+                className="sc-dRWZNg izKRRF"
                 style={
                   Object {
                     "background": "#ff4e64",
@@ -1195,40 +1195,40 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <div
-              className="sc-begbuL bGMuHg"
+              className="sc-gInMJo dMJHzf"
             >
               -80
             </div>
           </div>
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <span
-              className="sc-kzxyrq kvkZip"
+              className="sc-begbuL iaCPqh"
             >
               4
             </span>
           </div>
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <div
-              className="sc-hfKEqN cGbhHI"
+              className="sc-kzxyrq bsgOQc"
             >
               Argentina
             </div>
           </div>
           <div
-            className="sc-GvdFf ToLoa"
+            className="sc-flGrOw fWtzVE"
           >
             <div
-              className="sc-iCrZlF mWVnu"
+              className="sc-kLAKLF kUDkHt"
             >
               <div
-                className="sc-kLAKLF ckQHsM"
+                className="sc-dRWZNg izKRRF"
                 style={
                   Object {
                     "background": "#ff4e64",
@@ -1240,40 +1240,40 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <div
-              className="sc-begbuL bGMuHg"
+              className="sc-gInMJo dMJHzf"
             >
               -100
             </div>
           </div>
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <span
-              className="sc-kzxyrq kvkZip"
+              className="sc-begbuL iaCPqh"
             >
               5
             </span>
           </div>
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <div
-              className="sc-hfKEqN cGbhHI"
+              className="sc-kzxyrq bsgOQc"
             >
               USA
             </div>
           </div>
           <div
-            className="sc-GvdFf ToLoa"
+            className="sc-flGrOw fWtzVE"
           >
             <div
-              className="sc-iCrZlF mWVnu"
+              className="sc-kLAKLF kUDkHt"
             >
               <div
-                className="sc-kLAKLF ckQHsM"
+                className="sc-dRWZNg izKRRF"
                 style={
                   Object {
                     "background": "#ff4e64",
@@ -1285,10 +1285,10 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="sc-GvdFf fqwAsR"
+            className="sc-flGrOw hLOxpL"
           >
             <div
-              className="sc-begbuL bGMuHg"
+              className="sc-gInMJo dMJHzf"
             >
               -120
             </div>
@@ -1302,7 +1302,7 @@ exports[`Table Chart renders Active 1`] = `
 
 exports[`Table Chart renders NoData 1`] = `
 <div
-  className="sc-eNVtYQ iftnUU"
+  className="sc-gHZGBh dvFXZJ"
   style={
     Object {
       "height": 446,
@@ -1310,14 +1310,14 @@ exports[`Table Chart renders NoData 1`] = `
   }
 >
   <div
-    className="sc-gHZGBh hhlwXJ"
+    className="sc-kbMABK dnuCHp"
   >
     <button
-      className="sc-hmINyy hWCYMo"
+      className="sc-eNVtYQ dvhexz"
       onClick={[Function]}
     >
       <svg
-        className="sc-bBrHrO sc-kbMABK  lgxZZb"
+        className="sc-bBrHrO sc-GvdFf  eTPCza"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -1332,7 +1332,7 @@ exports[`Table Chart renders NoData 1`] = `
     </button>
     <div />
     <button
-      className="sc-hmINyy ifprlW"
+      className="sc-eNVtYQ fJFfEx"
       onClick={[Function]}
     >
       <svg
@@ -1353,7 +1353,7 @@ exports[`Table Chart renders NoData 1`] = `
       </svg>
     </button>
     <button
-      className="sc-hmINyy ifprlW"
+      className="sc-eNVtYQ fJFfEx"
       onClick={[Function]}
     >
       <svg
@@ -1375,10 +1375,10 @@ exports[`Table Chart renders NoData 1`] = `
     </button>
   </div>
   <div
-    className="sc-fsquOa ctoUqu"
+    className="sc-dwOrSJ csjpmC"
   >
     <div
-      className="sc-jPzPiz iQNFXX"
+      className="sc-WywnD fAcKcD"
     >
       <svg
         fill="none"
@@ -1449,23 +1449,23 @@ exports[`Table Chart renders NoData 1`] = `
       </svg>
     </div>
     <p
-      className="sc-fIiyQQ sc-iiHhKi bNNRsz glYnLs"
+      className="sc-fIiyQQ sc-jPzPiz bNNRsz eQkglR"
       size={20}
     >
       Top Countries
     </p>
     <div
-      className="sc-WywnD"
+      className="sc-fsquOa"
     >
       <div
-        className="sc-jmpIuw kSOSXy"
+        className="sc-kTipSN dvTdCl"
       >
         <button
-          className="sc-isSunH icabox"
+          className="sc-jmpIuw dZafbA"
           onClick={[Function]}
         >
           <p
-            className="sc-fIiyQQ sc-gLZMPq gQihTb cfsXsA"
+            className="sc-fIiyQQ sc-isSunH gQihTb eQUlhz"
             size={14}
           >
             by GGR
@@ -1491,10 +1491,10 @@ exports[`Table Chart renders NoData 1`] = `
     </div>
   </div>
   <div
-    className="sc-hynUIa jLjYoh"
+    className="sc-jfgCgr hGUSOG"
   >
     <div
-      className="sc-hSGqtg eQdYcD"
+      className="sc-bujudj kIUEEL"
     >
       <svg
         fill="none"
@@ -1536,7 +1536,7 @@ exports[`Table Chart renders NoData 1`] = `
         />
       </svg>
       <p
-        className="sc-fIiyQQ sc-dwOrSJ icZmog eTUJuE"
+        className="sc-fIiyQQ sc-hSGqtg icZmog hgCdOh"
         color="trunks.100"
         size={14}
       >

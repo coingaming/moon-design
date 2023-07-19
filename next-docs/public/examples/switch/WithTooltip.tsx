@@ -6,7 +6,12 @@ const Example = () => {
   return (
     <Tooltip>
       <Tooltip.Trigger>
-        <Switch checked={state} onChange={setState} data-tests="test-id" />
+        <Switch
+          checked={state}
+          onChange={setState}
+          data-tests="test-id"
+          aria-label="Switch with Tooltip"
+        />
       </Tooltip.Trigger>
       <Tooltip.Content>
         This is the tooltip for Switch

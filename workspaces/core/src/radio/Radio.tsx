@@ -33,26 +33,25 @@ const RadioRoot = forwardRef<HTMLInputElement, RadioProps>(
   )
 );
 
-const Option: React.FC<OptionProps> = ({
-  value,
-  children,
-  className,
-  disabled,
-}) => (
-  <RadioGroup.Option
-    value={value}
-    disabled={disabled}
-    className={mergeClassnames(
-      'flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30',
-      'moon-disabled:cursor-default',
-      className
-    )}
-  >
-    {children}
-  </RadioGroup.Option>
-);
+const Option = ({ value, children, className, disabled }: OptionProps) => {
+  const ariaLabelValue = value ? value.toString() : 'Radio option';
+  return (
+    <RadioGroup.Option
+      value={value}
+      disabled={disabled}
+      className={mergeClassnames(
+        'flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-60',
+        'moon-disabled:cursor-default',
+        className
+      )}
+      aria-label={ariaLabelValue}
+    >
+      {children}
+    </RadioGroup.Option>
+  );
+};
 
-const Indicator: React.FC<{ className?: string }> = ({ className }) => (
+const Indicator = ({ className }: { className?: string }) => (
   <div
     className={mergeClassnames(
       'relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border',

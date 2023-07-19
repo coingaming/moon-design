@@ -24,10 +24,11 @@ const Example = () => {
               variant="secondary"
               size="sm"
               disabled={disabled}
+              aria-label="Previous"
             />
           )}
         </Pagination.PrevButton>
-        <Pagination.Pages />
+        <Pagination.Pages as="button" />
         <Pagination.NextButton as="div">
           {({ disabled }) => (
             <IconButton
@@ -35,6 +36,7 @@ const Example = () => {
               variant="secondary"
               size="sm"
               disabled={disabled}
+              aria-label="Next"
             />
           )}
         </Pagination.NextButton>

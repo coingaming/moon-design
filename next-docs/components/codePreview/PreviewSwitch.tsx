@@ -24,15 +24,16 @@ const PreviewSwitch = ({
           variant="secondary"
           onClick={copyCode}
           size="lg"
+          aria-label="Copy code"
         />
       )}
       <Tabs selectedIndex={selectedIndex} onChange={handleClick}>
         <Tabs.Segment>
-          <Tabs.Pill>
+          <Tabs.Pill aria-label="Preview">
             <ControlsEye className="text-moon-24" />
             <span className="hidden md:block">Preview</span>
           </Tabs.Pill>
-          <Tabs.Pill>
+          <Tabs.Pill aria-label="Code">
             <SoftwareCode className="text-moon-24" />
             <span className="hidden md:block">Code</span>
           </Tabs.Pill>

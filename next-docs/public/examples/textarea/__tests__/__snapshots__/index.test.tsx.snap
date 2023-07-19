@@ -13,12 +13,12 @@ Object {
         >
           <textarea
             class="block appearance-none resize-none w-full p-4 text-moon-16 bg-gohan rounded-moon-s-sm transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none text-krillin placeholder:text-whis"
-            placeholder="Custom text colours"
+            placeholder="Custom text colour"
             rows="1"
           />
           <textarea
             class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none outline-chichi hover:outline-piccolo focus:outline-krillin"
-            placeholder="Custom border colours"
+            placeholder="Custom border colour"
             rows="1"
           />
           <textarea
@@ -58,12 +58,12 @@ Object {
       >
         <textarea
           class="block appearance-none resize-none w-full p-4 text-moon-16 bg-gohan rounded-moon-s-sm transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none text-krillin placeholder:text-whis"
-          placeholder="Custom text colours"
+          placeholder="Custom text colour"
           rows="1"
         />
         <textarea
           class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none outline-chichi hover:outline-piccolo focus:outline-krillin"
-          placeholder="Custom border colours"
+          placeholder="Custom border colour"
           rows="1"
         />
         <textarea
@@ -156,6 +156,7 @@ Object {
         dir="rtl"
       >
         <textarea
+          aria-label="Textarea"
           class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none"
         />
       </div>
@@ -166,6 +167,7 @@ Object {
       dir="rtl"
     >
       <textarea
+        aria-label="Textarea"
         class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none"
       />
     </div>
@@ -233,7 +235,7 @@ Object {
         dir="rtl"
       >
         <textarea
-          class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none opacity-30 cursor-not-allowed"
+          class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none opacity-60 cursor-not-allowed"
           disabled=""
           placeholder="Disabled"
         />
@@ -245,7 +247,7 @@ Object {
       dir="rtl"
     >
       <textarea
-        class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none opacity-30 cursor-not-allowed"
+        class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none opacity-60 cursor-not-allowed"
         disabled=""
         placeholder="Disabled"
       />
@@ -325,7 +327,7 @@ Object {
               rows="3"
             />
             <button
-              class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary absolute left-4 bottom-4"
+              class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary absolute ltr:left-4 rtl:right-4 bottom-4"
               type="button"
             >
               Default
@@ -344,7 +346,7 @@ Object {
               rows="3"
             />
             <button
-              class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary absolute left-4 bottom-4"
+              class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary absolute ltr:left-4 rtl:right-4 bottom-4"
               type="button"
             >
               Default
@@ -374,7 +376,7 @@ Object {
             rows="3"
           />
           <button
-            class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary absolute left-4 bottom-4"
+            class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary absolute ltr:left-4 rtl:right-4 bottom-4"
             type="button"
           >
             Default
@@ -393,7 +395,7 @@ Object {
             rows="3"
           />
           <button
-            class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary absolute left-4 bottom-4"
+            class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary absolute ltr:left-4 rtl:right-4 bottom-4"
             type="button"
           >
             Default
@@ -470,12 +472,12 @@ Object {
       >
         <textarea
           class="block appearance-none resize-none w-full p-4 text-moon-16 bg-gohan rounded-moon-s-sm transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none text-krillin placeholder:text-whis"
-          placeholder="Custom text colours"
+          placeholder="Custom text colour"
           rows="1"
         />
         <textarea
           class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none outline-chichi hover:outline-piccolo focus:outline-krillin"
-          placeholder="Custom border colours"
+          placeholder="Custom border colour"
           rows="1"
         />
         <textarea
@@ -511,12 +513,12 @@ Object {
     >
       <textarea
         class="block appearance-none resize-none w-full p-4 text-moon-16 bg-gohan rounded-moon-s-sm transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none text-krillin placeholder:text-whis"
-        placeholder="Custom text colours"
+        placeholder="Custom text colour"
         rows="1"
       />
       <textarea
         class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none outline-chichi hover:outline-piccolo focus:outline-krillin"
-        placeholder="Custom border colours"
+        placeholder="Custom border colour"
         rows="1"
       />
       <textarea
@@ -605,12 +607,14 @@ Object {
   "baseElement": <body>
     <div>
       <textarea
+        aria-label="Textarea"
         class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none"
       />
     </div>
   </body>,
   "container": <div>
     <textarea
+      aria-label="Textarea"
       class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none"
     />
   </div>,
@@ -674,7 +678,7 @@ Object {
   "baseElement": <body>
     <div>
       <textarea
-        class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none opacity-30 cursor-not-allowed"
+        class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none opacity-60 cursor-not-allowed"
         disabled=""
         placeholder="Disabled"
       />
@@ -682,7 +686,7 @@ Object {
   </body>,
   "container": <div>
     <textarea
-      class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none opacity-30 cursor-not-allowed"
+      class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none opacity-60 cursor-not-allowed"
       disabled=""
       placeholder="Disabled"
     />
@@ -758,7 +762,7 @@ Object {
             rows="3"
           />
           <button
-            class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary absolute left-4 bottom-4"
+            class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary absolute ltr:left-4 rtl:right-4 bottom-4"
             type="button"
           >
             Default
@@ -777,7 +781,7 @@ Object {
             rows="3"
           />
           <button
-            class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary absolute left-4 bottom-4"
+            class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary absolute ltr:left-4 rtl:right-4 bottom-4"
             type="button"
           >
             Default
@@ -803,7 +807,7 @@ Object {
           rows="3"
         />
         <button
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary absolute left-4 bottom-4"
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary absolute ltr:left-4 rtl:right-4 bottom-4"
           type="button"
         >
           Default
@@ -822,7 +826,7 @@ Object {
           rows="3"
         />
         <button
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary absolute left-4 bottom-4"
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary absolute ltr:left-4 rtl:right-4 bottom-4"
           type="button"
         >
           Default

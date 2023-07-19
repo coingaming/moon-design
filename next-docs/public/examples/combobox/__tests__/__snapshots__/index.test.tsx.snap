@@ -357,7 +357,7 @@ exports[`Select in Dark Theme renders InsetSelectStates 1`] = `
     className="relative w-full max-w-xs"
   >
     <div
-      className="relative flex flex-nowrap w-full align-middle items-center rounded-lg bg-gohan py-3 px-4 rounded-moon-i-sm gap-x-4 focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none opacity-30 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed"
+      className="relative flex flex-nowrap w-full align-middle items-center rounded-lg bg-gohan py-3 px-4 rounded-moon-i-sm gap-x-4 focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none opacity-60 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed"
       tabIndex={-1}
     >
       <span
@@ -365,7 +365,7 @@ exports[`Select in Dark Theme renders InsetSelectStates 1`] = `
       >
         <input
           aria-autocomplete="list"
-          className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err opacity-30 cursor-not-allowed flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none pt-3 input-xl-dt-label text-moon-16 leading-5"
+          className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err opacity-60 cursor-not-allowed flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none pt-3 input-xl-dt-label text-moon-16 leading-5"
           data-headlessui-state="disabled"
           disabled={true}
           id="headlessui-combobox-input-:r2b:"
@@ -407,7 +407,7 @@ exports[`Select in Dark Theme renders InsetSelectStates 1`] = `
       </button>
     </div>
     <p
-      className="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
+      className="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-60 cursor-not-allowed"
       role="alert"
     >
       Informative message holder
@@ -1603,7 +1603,7 @@ exports[`Select in Light Theme renders InsetSelectStates 1`] = `
     className="relative w-full max-w-xs"
   >
     <div
-      className="relative flex flex-nowrap w-full align-middle items-center rounded-lg bg-gohan py-3 px-4 rounded-moon-i-sm gap-x-4 focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none opacity-30 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed"
+      className="relative flex flex-nowrap w-full align-middle items-center rounded-lg bg-gohan py-3 px-4 rounded-moon-i-sm gap-x-4 focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none opacity-60 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed"
       tabIndex={-1}
     >
       <span
@@ -1611,7 +1611,7 @@ exports[`Select in Light Theme renders InsetSelectStates 1`] = `
       >
         <input
           aria-autocomplete="list"
-          className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err opacity-30 cursor-not-allowed flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none pt-3 input-xl-dt-label text-moon-16 leading-5"
+          className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err opacity-60 cursor-not-allowed flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none pt-3 input-xl-dt-label text-moon-16 leading-5"
           data-headlessui-state="disabled"
           disabled={true}
           id="headlessui-combobox-input-:re:"
@@ -1653,7 +1653,7 @@ exports[`Select in Light Theme renders InsetSelectStates 1`] = `
       </button>
     </div>
     <p
-      className="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
+      className="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-60 cursor-not-allowed"
       role="alert"
     >
       Informative message holder
@@ -2864,7 +2864,7 @@ exports[`Select in RTL renders InsetSelectStates 1`] = `
       className="relative w-full max-w-xs"
     >
       <div
-        className="relative flex flex-nowrap w-full align-middle items-center rounded-lg bg-gohan py-3 px-4 rounded-moon-i-sm gap-x-4 focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none opacity-30 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed"
+        className="relative flex flex-nowrap w-full align-middle items-center rounded-lg bg-gohan py-3 px-4 rounded-moon-i-sm gap-x-4 focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none opacity-60 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed"
         tabIndex={-1}
       >
         <span
@@ -2872,7 +2872,7 @@ exports[`Select in RTL renders InsetSelectStates 1`] = `
         >
           <input
             aria-autocomplete="list"
-            className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err opacity-30 cursor-not-allowed flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none pt-3 input-xl-dt-label text-moon-16 leading-5"
+            className="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err opacity-60 cursor-not-allowed flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none pt-3 input-xl-dt-label text-moon-16 leading-5"
             data-headlessui-state="disabled"
             disabled={true}
             id="headlessui-combobox-input-:r48:"
@@ -2914,7 +2914,7 @@ exports[`Select in RTL renders InsetSelectStates 1`] = `
         </button>
       </div>
       <p
-        className="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
+        className="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-60 cursor-not-allowed"
         role="alert"
       >
         Informative message holder

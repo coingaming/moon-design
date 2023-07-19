@@ -47,7 +47,7 @@ const Example = () => (
         <option value="China">China</option>
         <option value="Germany">Germany</option>
       </Group.FirstInsetSelect>
-      <Group.LastInsetInput>
+      <Group.LastInsetInput aria-label="Phone number">
         <Group.LastInsetInput.Label>Phone number</Group.LastInsetInput.Label>
       </Group.LastInsetInput>
     </Group>

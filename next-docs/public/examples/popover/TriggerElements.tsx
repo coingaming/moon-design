@@ -16,7 +16,10 @@ const Example = () => {
 
       <Popover position="bottom-end">
         <Popover.Trigger>
-          <Chip iconOnly={<ControlsChevronDown className="text-moon-24" />} />
+          <Chip
+            iconOnly={<ControlsChevronDown className="text-moon-24" />}
+            aria-label="Trigger"
+          />
         </Popover.Trigger>
         <Popover.Panel>
           <Content />

@@ -3,7 +3,7 @@ import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import setPadding from './private/utils/setPadding';
 import type ChipProps from './private/types/ChipProps';
 
-const Chip: React.FC<ChipProps> = ({
+const Chip = ({
   children,
   isActive,
   size = 'md',
@@ -13,7 +13,7 @@ const Chip: React.FC<ChipProps> = ({
   isStroke,
   variant = 'default',
   ...rest
-}) => (
+}: ChipProps) => (
   <button
     className={mergeClassnames(
       'z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200',
@@ -26,6 +26,7 @@ const Chip: React.FC<ChipProps> = ({
       isActive && isStroke && 'shadow-interactive',
       'hover:bg-piccolo/[.12] hover:text-piccolo'
     )}
+    type="button"
     {...rest}
   >
     {iconLeft}

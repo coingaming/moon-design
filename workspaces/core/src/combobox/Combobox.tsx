@@ -128,7 +128,7 @@ const Trigger = ({
         isError &&
           'shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err',
         disabled &&
-          'opacity-30 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed',
+          'opacity-60 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed',
         className
       )}
       ref={popper?.setAnchor}
@@ -146,12 +146,14 @@ const Input = ({
   label,
   ...rest
 }: InputProps) => {
-
-  const { size, popper, disabled, isError, input, onQueryChange } = useComboboxContext('Combobox.Input');
+  const { size, popper, disabled, isError, input, onQueryChange } =
+    useComboboxContext('Combobox.Input');
 
   return (
     <HeadlessCombobox.Input
-      onChange={({ target: { value } }) => { onQueryChange ? onQueryChange(value) : () => {} }}
+      onChange={({ target: { value } }) => {
+        onQueryChange ? onQueryChange(value) : () => {};
+      }}
       ref={popper?.setAnchor}
       as={NativeInput}
       displayValue={displayValue}
@@ -180,13 +182,15 @@ const InsetInput = ({
   label,
   ...rest
 }: InputProps) => {
-
-  const { size, popper, disabled, isError, input, onQueryChange } = useComboboxContext('Combobox.InsetInput');
+  const { size, popper, disabled, isError, input, onQueryChange } =
+    useComboboxContext('Combobox.InsetInput');
 
   return (
     <span className={mergeClassnames('relative', 'flex flex-grow w-full')}>
       <HeadlessCombobox.Input
-        onChange={({ target: { value } }) => { onQueryChange ? onQueryChange(value) : () => {}}}
+        onChange={({ target: { value } }) => {
+          onQueryChange ? onQueryChange(value) : () => {};
+        }}
         ref={popper?.setAnchor}
         as={NativeInput}
         displayValue={displayValue}
@@ -307,19 +311,15 @@ const Counter = ({ open, className, counter, ...rest }: SelectProps) => {
   );
 };
 
-const Transition = ({
-  children,
-  ...rest
-}: WithChildren) => {
-
+const Transition = ({ children, ...rest }: WithChildren) => {
   const { onQueryChange } = useComboboxContext('Combobox.Counter');
 
   return (
     <HeadlessTransition
       as={'div'}
-      leave='transition ease-in duration-100'
-      leaveFrom='opacity-100'
-      leaveTo='opacity-0'
+      leave="transition ease-in duration-100"
+      leaveFrom="opacity-100"
+      leaveTo="opacity-0"
       afterLeave={onQueryChange ? () => onQueryChange('') : () => {}}
       {...rest}
     >
@@ -496,7 +496,7 @@ const Hint = ({
       className={mergeClassnames(
         'inline-block mt-2 ps-4 text-moon-12',
         isError ? 'text-chichi' : 'text-trunks',
-        disabled && 'opacity-30 cursor-not-allowed',
+        disabled && 'opacity-60 cursor-not-allowed',
         className
       )}
       {...rest}

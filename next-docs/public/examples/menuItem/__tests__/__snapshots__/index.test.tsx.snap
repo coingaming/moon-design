@@ -8,16 +8,12 @@ Object {
       <div
         dir="rtl"
       >
-        <div
-          class="w-56"
+        <a
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+          href="#"
         >
-          <a
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-            href="#"
-          >
-            Menu item text
-          </a>
-        </div>
+          Menu item text
+        </a>
       </div>
     </div>
   </body>,
@@ -25,16 +21,12 @@ Object {
     <div
       dir="rtl"
     >
-      <div
-        class="w-56"
+      <a
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+        href="#"
       >
-        <a
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-          href="#"
-        >
-          Menu item text
-        </a>
-      </div>
+        Menu item text
+      </a>
     </div>
   </div>,
   "debug": [Function],
@@ -99,86 +91,78 @@ Object {
       <div
         dir="rtl"
       >
-        <div
-          class="w-56"
+        <button
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+          type="button"
         >
-          <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-            role="сheckbox"
-            type="button"
+          <span
+            class="flex w-6 h-6 justify-center items-center relative"
           >
             <span
-              class="flex w-6 h-6 justify-center items-center relative"
+              aria-checked="false"
+              aria-label="Checkbox"
+              class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+              role="checkbox"
             >
-              <span
-                aria-checked="false"
-                aria-hidden="true"
-                class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+              <svg
+                class="transition-opacity opacity-0"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  class="transition-opacity opacity-0"
-                  fill="none"
-                  height="1em"
-                  viewBox="0 0 32 32"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M7 14.941L13.667 22 25 10"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </span>
+                <path
+                  d="M7 14.9412L13.6667 22L25 10"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
             </span>
-            <span
-              class="block grow text-start text-bulma overflow-hidden"
-            >
-              Your value
-            </span>
-          </button>
-        </div>
-        <div
-          class="w-56"
+          </span>
+          <span
+            class="block grow text-start text-bulma overflow-hidden"
+          >
+            Your value
+          </span>
+        </button>
+        <button
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+          type="button"
         >
-          <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-            role="сheckbox"
-            type="button"
+          <span
+            class="block grow text-start text-bulma overflow-hidden"
+          >
+            Your value
+          </span>
+          <span
+            class="flex w-6 h-6 justify-center items-center relative"
           >
             <span
-              class="block grow text-start text-bulma overflow-hidden"
+              aria-checked="false"
+              aria-label="Checkbox"
+              class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 text-goten moon-checked:shadow-none rounded-none shadow-roshi moon-checked:bg-roshi"
+              role="checkbox"
             >
-              Your value
-            </span>
-            <span
-              class="flex w-6 h-6 justify-center items-center relative"
-            >
-              <span
-                aria-checked="false"
-                aria-hidden="true"
-                class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 text-goten moon-checked:shadow-none rounded-none shadow-roshi moon-checked:bg-roshi"
+              <svg
+                class="transition-opacity opacity-0"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  class="transition-opacity opacity-0"
-                  fill="none"
-                  height="1em"
-                  viewBox="0 0 32 32"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M7 14.941L13.667 22 25 10"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </span>
+                <path
+                  d="M7 14.9412L13.6667 22L25 10"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
             </span>
-          </button>
-        </div>
+          </span>
+        </button>
       </div>
     </div>
   </body>,
@@ -186,86 +170,78 @@ Object {
     <div
       dir="rtl"
     >
-      <div
-        class="w-56"
+      <button
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+        type="button"
       >
-        <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-          role="сheckbox"
-          type="button"
+        <span
+          class="flex w-6 h-6 justify-center items-center relative"
         >
           <span
-            class="flex w-6 h-6 justify-center items-center relative"
+            aria-checked="false"
+            aria-label="Checkbox"
+            class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+            role="checkbox"
           >
-            <span
-              aria-checked="false"
-              aria-hidden="true"
-              class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+            <svg
+              class="transition-opacity opacity-0"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                class="transition-opacity opacity-0"
-                fill="none"
-                height="1em"
-                viewBox="0 0 32 32"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M7 14.941L13.667 22 25 10"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </span>
+              <path
+                d="M7 14.9412L13.6667 22L25 10"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
           </span>
-          <span
-            class="block grow text-start text-bulma overflow-hidden"
-          >
-            Your value
-          </span>
-        </button>
-      </div>
-      <div
-        class="w-56"
+        </span>
+        <span
+          class="block grow text-start text-bulma overflow-hidden"
+        >
+          Your value
+        </span>
+      </button>
+      <button
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+        type="button"
       >
-        <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-          role="сheckbox"
-          type="button"
+        <span
+          class="block grow text-start text-bulma overflow-hidden"
+        >
+          Your value
+        </span>
+        <span
+          class="flex w-6 h-6 justify-center items-center relative"
         >
           <span
-            class="block grow text-start text-bulma overflow-hidden"
+            aria-checked="false"
+            aria-label="Checkbox"
+            class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 text-goten moon-checked:shadow-none rounded-none shadow-roshi moon-checked:bg-roshi"
+            role="checkbox"
           >
-            Your value
-          </span>
-          <span
-            class="flex w-6 h-6 justify-center items-center relative"
-          >
-            <span
-              aria-checked="false"
-              aria-hidden="true"
-              class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 text-goten moon-checked:shadow-none rounded-none shadow-roshi moon-checked:bg-roshi"
+            <svg
+              class="transition-opacity opacity-0"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                class="transition-opacity opacity-0"
-                fill="none"
-                height="1em"
-                viewBox="0 0 32 32"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M7 14.941L13.667 22 25 10"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </span>
+              <path
+                d="M7 14.9412L13.6667 22L25 10"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
           </span>
-        </button>
-      </div>
+        </span>
+      </button>
     </div>
   </div>,
   "debug": [Function],
@@ -1749,147 +1725,8 @@ Object {
       <div
         dir="rtl"
       >
-        <div
-          class="w-56"
-        >
-          <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-            type="button"
-          >
-            <span>
-              <svg
-                class="text-moon-24"
-                fill="none"
-                height="1em"
-                viewBox="0 0 32 32"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M11.5 7L20.5 16L11.5 25"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </span>
-            <span
-              class="block grow text-start text-bulma overflow-hidden"
-            >
-              <span
-                class="block text-bulma text-moon-14"
-              >
-                Your value
-              </span>
-              <span
-                class="flex text-trunks text-moon-12"
-              >
-                <span
-                  class="flex-1 truncate"
-                >
-                  <span>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry
-                  </span>
-                </span>
-              </span>
-            </span>
-            <span
-              class="text-moon-12 text-trunks"
-            >
-              Meta
-            </span>
-          </button>
-        </div>
-        <div
-          class="w-56"
-        >
-          <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-            role="сheckbox"
-            type="button"
-          >
-            <span
-              class="px-2"
-            >
-              <svg
-                class="text-moon-24"
-                fill="none"
-                height="1em"
-                viewBox="0 0 32 32"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M13.5624 8.73104L11.838 7.0017C11.5204 6.68412 11.1435 6.43221 10.7285 6.26034C10.3136 6.08846 9.86894 6 9.41984 6C8.97075 6 8.52604 6.08846 8.11114 6.26034C7.69623 6.43221 7.31924 6.68412 7.0017 7.0017C6.68412 7.31924 6.43221 7.69624 6.26034 8.11114C6.08846 8.52605 6 8.97075 6 9.41984C6 9.86894 6.08846 10.3136 6.26034 10.7285C6.43221 11.1435 6.68412 11.5204 7.0017 11.838L8.73104 13.5673L13.5624 8.73104ZM13.5624 8.73104L24.9644 14.603L26 17.0211L22.8931 16.6743M22.8931 16.6743L23.235 19.7812H19.7812M22.8931 16.6743L18.3987 13.5673M19.7812 19.7812V23.235L16.6743 22.8931M19.7812 19.7812L15.9855 15.9806M16.6743 22.8931L17.0211 26L14.2561 24.6175L8.73104 13.5624M16.6743 22.8931L13.5673 18.3987M18.4036 11.4911V13.5624H15.6386L15.9806 15.9806L13.5624 15.6386L13.5673 18.4036L11.1492 18.0568M15.6386 13.5673L11.838 10.4555M13.5673 15.6386L10.4555 11.838"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </span>
-            <span
-              class="block grow text-start text-bulma overflow-hidden"
-            >
-              <span
-                class="block text-bulma text-moon-14"
-              >
-                Your value
-              </span>
-              <span
-                class="flex text-trunks text-moon-12"
-              >
-                <span
-                  class="flex-1 truncate"
-                >
-                  <span>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry
-                  </span>
-                </span>
-              </span>
-            </span>
-            <span
-              class="px-2"
-            >
-              <span
-                class="flex w-6 h-6 justify-center items-center relative"
-              >
-                <span
-                  aria-checked="false"
-                  aria-hidden="true"
-                  class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
-                >
-                  <svg
-                    class="transition-opacity opacity-0"
-                    fill="none"
-                    height="1em"
-                    viewBox="0 0 32 32"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M7 14.941L13.667 22 25 10"
-                      stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                </span>
-              </span>
-            </span>
-          </button>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      dir="rtl"
-    >
-      <div
-        class="w-56"
-      >
         <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
           type="button"
         >
           <span>
@@ -1935,13 +1772,8 @@ Object {
             Meta
           </span>
         </button>
-      </div>
-      <div
-        class="w-56"
-      >
         <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-          role="сheckbox"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
           type="button"
         >
           <span
@@ -1991,8 +1823,9 @@ Object {
             >
               <span
                 aria-checked="false"
-                aria-hidden="true"
+                aria-label="Checkbox"
                 class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                role="checkbox"
               >
                 <svg
                   class="transition-opacity opacity-0"
@@ -2003,7 +1836,7 @@ Object {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M7 14.941L13.667 22 25 10"
+                    d="M7 14.9412L13.6667 22L25 10"
                     stroke="currentColor"
                     stroke-linecap="round"
                     stroke-linejoin="round"
@@ -2014,6 +1847,133 @@ Object {
           </span>
         </button>
       </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <button
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+        type="button"
+      >
+        <span>
+          <svg
+            class="text-moon-24"
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11.5 7L20.5 16L11.5 25"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </span>
+        <span
+          class="block grow text-start text-bulma overflow-hidden"
+        >
+          <span
+            class="block text-bulma text-moon-14"
+          >
+            Your value
+          </span>
+          <span
+            class="flex text-trunks text-moon-12"
+          >
+            <span
+              class="flex-1 truncate"
+            >
+              <span>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry
+              </span>
+            </span>
+          </span>
+        </span>
+        <span
+          class="text-moon-12 text-trunks"
+        >
+          Meta
+        </span>
+      </button>
+      <button
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+        type="button"
+      >
+        <span
+          class="px-2"
+        >
+          <svg
+            class="text-moon-24"
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.5624 8.73104L11.838 7.0017C11.5204 6.68412 11.1435 6.43221 10.7285 6.26034C10.3136 6.08846 9.86894 6 9.41984 6C8.97075 6 8.52604 6.08846 8.11114 6.26034C7.69623 6.43221 7.31924 6.68412 7.0017 7.0017C6.68412 7.31924 6.43221 7.69624 6.26034 8.11114C6.08846 8.52605 6 8.97075 6 9.41984C6 9.86894 6.08846 10.3136 6.26034 10.7285C6.43221 11.1435 6.68412 11.5204 7.0017 11.838L8.73104 13.5673L13.5624 8.73104ZM13.5624 8.73104L24.9644 14.603L26 17.0211L22.8931 16.6743M22.8931 16.6743L23.235 19.7812H19.7812M22.8931 16.6743L18.3987 13.5673M19.7812 19.7812V23.235L16.6743 22.8931M19.7812 19.7812L15.9855 15.9806M16.6743 22.8931L17.0211 26L14.2561 24.6175L8.73104 13.5624M16.6743 22.8931L13.5673 18.3987M18.4036 11.4911V13.5624H15.6386L15.9806 15.9806L13.5624 15.6386L13.5673 18.4036L11.1492 18.0568M15.6386 13.5673L11.838 10.4555M13.5673 15.6386L10.4555 11.838"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </span>
+        <span
+          class="block grow text-start text-bulma overflow-hidden"
+        >
+          <span
+            class="block text-bulma text-moon-14"
+          >
+            Your value
+          </span>
+          <span
+            class="flex text-trunks text-moon-12"
+          >
+            <span
+              class="flex-1 truncate"
+            >
+              <span>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry
+              </span>
+            </span>
+          </span>
+        </span>
+        <span
+          class="px-2"
+        >
+          <span
+            class="flex w-6 h-6 justify-center items-center relative"
+          >
+            <span
+              aria-checked="false"
+              aria-label="Checkbox"
+              class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+              role="checkbox"
+            >
+              <svg
+                class="transition-opacity opacity-0"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 14.9412L13.6667 22L25 10"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+          </span>
+        </span>
+      </button>
     </div>
   </div>,
   "debug": [Function],
@@ -2078,52 +2038,46 @@ Object {
       <div
         dir="rtl"
       >
-        <div
-          class="w-56"
+        <button
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+          type="button"
         >
-          <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-            role="radio"
-            type="button"
+          <span
+            class="flex w-6 h-6 justify-center items-center"
           >
             <span
-              class="flex w-6 h-6 justify-center items-center"
-            >
-              <span
-                aria-checked="false"
-                class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
-              />
-            </span>
-            <span
-              class="block grow text-start text-bulma overflow-hidden"
-            >
-              Your value
-            </span>
-          </button>
-        </div>
-        <div
-          class="w-56"
+              aria-checked="false"
+              aria-label="Radio option"
+              class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+              role="radio"
+            />
+          </span>
+          <span
+            class="block grow text-start text-bulma overflow-hidden"
+          >
+            Your value
+          </span>
+        </button>
+        <button
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+          type="button"
         >
-          <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-            role="radio"
-            type="button"
+          <span
+            class="block grow text-start text-bulma overflow-hidden"
+          >
+            Your value
+          </span>
+          <span
+            class="flex w-6 h-6 justify-center items-center"
           >
             <span
-              class="block grow text-start text-bulma overflow-hidden"
-            >
-              Your value
-            </span>
-            <span
-              class="flex w-6 h-6 justify-center items-center"
-            >
-              <span
-                aria-checked="false"
-                class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:transition-transform after:scale-0 moon-checked:after:scale-100 moon-checked:shadow-hit after:bg-hit"
-              />
-            </span>
-          </button>
-        </div>
+              aria-checked="false"
+              aria-label="Radio option"
+              class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:transition-transform after:scale-0 moon-checked:after:scale-100 moon-checked:shadow-hit after:bg-hit"
+              role="radio"
+            />
+          </span>
+        </button>
       </div>
     </div>
   </body>,
@@ -2131,52 +2085,46 @@ Object {
     <div
       dir="rtl"
     >
-      <div
-        class="w-56"
+      <button
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+        type="button"
       >
-        <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-          role="radio"
-          type="button"
+        <span
+          class="flex w-6 h-6 justify-center items-center"
         >
           <span
-            class="flex w-6 h-6 justify-center items-center"
-          >
-            <span
-              aria-checked="false"
-              class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
-            />
-          </span>
-          <span
-            class="block grow text-start text-bulma overflow-hidden"
-          >
-            Your value
-          </span>
-        </button>
-      </div>
-      <div
-        class="w-56"
+            aria-checked="false"
+            aria-label="Radio option"
+            class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+            role="radio"
+          />
+        </span>
+        <span
+          class="block grow text-start text-bulma overflow-hidden"
+        >
+          Your value
+        </span>
+      </button>
+      <button
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+        type="button"
       >
-        <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-          role="radio"
-          type="button"
+        <span
+          class="block grow text-start text-bulma overflow-hidden"
+        >
+          Your value
+        </span>
+        <span
+          class="flex w-6 h-6 justify-center items-center"
         >
           <span
-            class="block grow text-start text-bulma overflow-hidden"
-          >
-            Your value
-          </span>
-          <span
-            class="flex w-6 h-6 justify-center items-center"
-          >
-            <span
-              aria-checked="false"
-              class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:transition-transform after:scale-0 moon-checked:after:scale-100 moon-checked:shadow-hit after:bg-hit"
-            />
-          </span>
-        </button>
-      </div>
+            aria-checked="false"
+            aria-label="Radio option"
+            class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:transition-transform after:scale-0 moon-checked:after:scale-100 moon-checked:shadow-hit after:bg-hit"
+            role="radio"
+          />
+        </span>
+      </button>
     </div>
   </div>,
   "debug": [Function],
@@ -2241,64 +2189,56 @@ Object {
       <div
         dir="rtl"
       >
-        <div
-          class="w-56"
+        <button
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+          type="button"
         >
-          <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-            type="button"
+          <svg
+            class="text-moon-24"
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <svg
-              class="text-moon-24"
-              fill="none"
-              height="1em"
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M13.5624 8.73104L11.838 7.0017C11.5204 6.68412 11.1435 6.43221 10.7285 6.26034C10.3136 6.08846 9.86894 6 9.41984 6C8.97075 6 8.52604 6.08846 8.11114 6.26034C7.69623 6.43221 7.31924 6.68412 7.0017 7.0017C6.68412 7.31924 6.43221 7.69624 6.26034 8.11114C6.08846 8.52605 6 8.97075 6 9.41984C6 9.86894 6.08846 10.3136 6.26034 10.7285C6.43221 11.1435 6.68412 11.5204 7.0017 11.838L8.73104 13.5673L13.5624 8.73104ZM13.5624 8.73104L24.9644 14.603L26 17.0211L22.8931 16.6743M22.8931 16.6743L23.235 19.7812H19.7812M22.8931 16.6743L18.3987 13.5673M19.7812 19.7812V23.235L16.6743 22.8931M19.7812 19.7812L15.9855 15.9806M16.6743 22.8931L17.0211 26L14.2561 24.6175L8.73104 13.5624M16.6743 22.8931L13.5673 18.3987M18.4036 11.4911V13.5624H15.6386L15.9806 15.9806L13.5624 15.6386L13.5673 18.4036L11.1492 18.0568M15.6386 13.5673L11.838 10.4555M13.5673 15.6386L10.4555 11.838"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-            <span
-              class="block grow text-start text-bulma overflow-hidden"
-            >
-              Your value
-            </span>
-          </button>
-        </div>
-        <div
-          class="w-56"
+            <path
+              d="M13.5624 8.73104L11.838 7.0017C11.5204 6.68412 11.1435 6.43221 10.7285 6.26034C10.3136 6.08846 9.86894 6 9.41984 6C8.97075 6 8.52604 6.08846 8.11114 6.26034C7.69623 6.43221 7.31924 6.68412 7.0017 7.0017C6.68412 7.31924 6.43221 7.69624 6.26034 8.11114C6.08846 8.52605 6 8.97075 6 9.41984C6 9.86894 6.08846 10.3136 6.26034 10.7285C6.43221 11.1435 6.68412 11.5204 7.0017 11.838L8.73104 13.5673L13.5624 8.73104ZM13.5624 8.73104L24.9644 14.603L26 17.0211L22.8931 16.6743M22.8931 16.6743L23.235 19.7812H19.7812M22.8931 16.6743L18.3987 13.5673M19.7812 19.7812V23.235L16.6743 22.8931M19.7812 19.7812L15.9855 15.9806M16.6743 22.8931L17.0211 26L14.2561 24.6175L8.73104 13.5624M16.6743 22.8931L13.5673 18.3987M18.4036 11.4911V13.5624H15.6386L15.9806 15.9806L13.5624 15.6386L13.5673 18.4036L11.1492 18.0568M15.6386 13.5673L11.838 10.4555M13.5673 15.6386L10.4555 11.838"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <span
+            class="block grow text-start text-bulma overflow-hidden"
+          >
+            Your value
+          </span>
+        </button>
+        <button
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+          type="button"
         >
-          <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-            type="button"
+          <span
+            class="block grow text-start text-bulma overflow-hidden"
           >
-            <span
-              class="block grow text-start text-bulma overflow-hidden"
-            >
-              Your value
-            </span>
-            <svg
-              class="text-moon-24"
-              fill="none"
-              height="1em"
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M13.5624 8.73104L11.838 7.0017C11.5204 6.68412 11.1435 6.43221 10.7285 6.26034C10.3136 6.08846 9.86894 6 9.41984 6C8.97075 6 8.52604 6.08846 8.11114 6.26034C7.69623 6.43221 7.31924 6.68412 7.0017 7.0017C6.68412 7.31924 6.43221 7.69624 6.26034 8.11114C6.08846 8.52605 6 8.97075 6 9.41984C6 9.86894 6.08846 10.3136 6.26034 10.7285C6.43221 11.1435 6.68412 11.5204 7.0017 11.838L8.73104 13.5673L13.5624 8.73104ZM13.5624 8.73104L24.9644 14.603L26 17.0211L22.8931 16.6743M22.8931 16.6743L23.235 19.7812H19.7812M22.8931 16.6743L18.3987 13.5673M19.7812 19.7812V23.235L16.6743 22.8931M19.7812 19.7812L15.9855 15.9806M16.6743 22.8931L17.0211 26L14.2561 24.6175L8.73104 13.5624M16.6743 22.8931L13.5673 18.3987M18.4036 11.4911V13.5624H15.6386L15.9806 15.9806L13.5624 15.6386L13.5673 18.4036L11.1492 18.0568M15.6386 13.5673L11.838 10.4555M13.5673 15.6386L10.4555 11.838"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </button>
-        </div>
+            Your value
+          </span>
+          <svg
+            class="text-moon-24"
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.5624 8.73104L11.838 7.0017C11.5204 6.68412 11.1435 6.43221 10.7285 6.26034C10.3136 6.08846 9.86894 6 9.41984 6C8.97075 6 8.52604 6.08846 8.11114 6.26034C7.69623 6.43221 7.31924 6.68412 7.0017 7.0017C6.68412 7.31924 6.43221 7.69624 6.26034 8.11114C6.08846 8.52605 6 8.97075 6 9.41984C6 9.86894 6.08846 10.3136 6.26034 10.7285C6.43221 11.1435 6.68412 11.5204 7.0017 11.838L8.73104 13.5673L13.5624 8.73104ZM13.5624 8.73104L24.9644 14.603L26 17.0211L22.8931 16.6743M22.8931 16.6743L23.235 19.7812H19.7812M22.8931 16.6743L18.3987 13.5673M19.7812 19.7812V23.235L16.6743 22.8931M19.7812 19.7812L15.9855 15.9806M16.6743 22.8931L17.0211 26L14.2561 24.6175L8.73104 13.5624M16.6743 22.8931L13.5673 18.3987M18.4036 11.4911V13.5624H15.6386L15.9806 15.9806L13.5624 15.6386L13.5673 18.4036L11.1492 18.0568M15.6386 13.5673L11.838 10.4555M13.5673 15.6386L10.4555 11.838"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
       </div>
     </div>
   </body>,
@@ -2306,64 +2246,56 @@ Object {
     <div
       dir="rtl"
     >
-      <div
-        class="w-56"
+      <button
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+        type="button"
       >
-        <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-          type="button"
+        <svg
+          class="text-moon-24"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
         >
-          <svg
-            class="text-moon-24"
-            fill="none"
-            height="1em"
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M13.5624 8.73104L11.838 7.0017C11.5204 6.68412 11.1435 6.43221 10.7285 6.26034C10.3136 6.08846 9.86894 6 9.41984 6C8.97075 6 8.52604 6.08846 8.11114 6.26034C7.69623 6.43221 7.31924 6.68412 7.0017 7.0017C6.68412 7.31924 6.43221 7.69624 6.26034 8.11114C6.08846 8.52605 6 8.97075 6 9.41984C6 9.86894 6.08846 10.3136 6.26034 10.7285C6.43221 11.1435 6.68412 11.5204 7.0017 11.838L8.73104 13.5673L13.5624 8.73104ZM13.5624 8.73104L24.9644 14.603L26 17.0211L22.8931 16.6743M22.8931 16.6743L23.235 19.7812H19.7812M22.8931 16.6743L18.3987 13.5673M19.7812 19.7812V23.235L16.6743 22.8931M19.7812 19.7812L15.9855 15.9806M16.6743 22.8931L17.0211 26L14.2561 24.6175L8.73104 13.5624M16.6743 22.8931L13.5673 18.3987M18.4036 11.4911V13.5624H15.6386L15.9806 15.9806L13.5624 15.6386L13.5673 18.4036L11.1492 18.0568M15.6386 13.5673L11.838 10.4555M13.5673 15.6386L10.4555 11.838"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg>
-          <span
-            class="block grow text-start text-bulma overflow-hidden"
-          >
-            Your value
-          </span>
-        </button>
-      </div>
-      <div
-        class="w-56"
+          <path
+            d="M13.5624 8.73104L11.838 7.0017C11.5204 6.68412 11.1435 6.43221 10.7285 6.26034C10.3136 6.08846 9.86894 6 9.41984 6C8.97075 6 8.52604 6.08846 8.11114 6.26034C7.69623 6.43221 7.31924 6.68412 7.0017 7.0017C6.68412 7.31924 6.43221 7.69624 6.26034 8.11114C6.08846 8.52605 6 8.97075 6 9.41984C6 9.86894 6.08846 10.3136 6.26034 10.7285C6.43221 11.1435 6.68412 11.5204 7.0017 11.838L8.73104 13.5673L13.5624 8.73104ZM13.5624 8.73104L24.9644 14.603L26 17.0211L22.8931 16.6743M22.8931 16.6743L23.235 19.7812H19.7812M22.8931 16.6743L18.3987 13.5673M19.7812 19.7812V23.235L16.6743 22.8931M19.7812 19.7812L15.9855 15.9806M16.6743 22.8931L17.0211 26L14.2561 24.6175L8.73104 13.5624M16.6743 22.8931L13.5673 18.3987M18.4036 11.4911V13.5624H15.6386L15.9806 15.9806L13.5624 15.6386L13.5673 18.4036L11.1492 18.0568M15.6386 13.5673L11.838 10.4555M13.5673 15.6386L10.4555 11.838"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        <span
+          class="block grow text-start text-bulma overflow-hidden"
+        >
+          Your value
+        </span>
+      </button>
+      <button
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+        type="button"
       >
-        <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-          type="button"
+        <span
+          class="block grow text-start text-bulma overflow-hidden"
         >
-          <span
-            class="block grow text-start text-bulma overflow-hidden"
-          >
-            Your value
-          </span>
-          <svg
-            class="text-moon-24"
-            fill="none"
-            height="1em"
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M13.5624 8.73104L11.838 7.0017C11.5204 6.68412 11.1435 6.43221 10.7285 6.26034C10.3136 6.08846 9.86894 6 9.41984 6C8.97075 6 8.52604 6.08846 8.11114 6.26034C7.69623 6.43221 7.31924 6.68412 7.0017 7.0017C6.68412 7.31924 6.43221 7.69624 6.26034 8.11114C6.08846 8.52605 6 8.97075 6 9.41984C6 9.86894 6.08846 10.3136 6.26034 10.7285C6.43221 11.1435 6.68412 11.5204 7.0017 11.838L8.73104 13.5673L13.5624 8.73104ZM13.5624 8.73104L24.9644 14.603L26 17.0211L22.8931 16.6743M22.8931 16.6743L23.235 19.7812H19.7812M22.8931 16.6743L18.3987 13.5673M19.7812 19.7812V23.235L16.6743 22.8931M19.7812 19.7812L15.9855 15.9806M16.6743 22.8931L17.0211 26L14.2561 24.6175L8.73104 13.5624M16.6743 22.8931L13.5673 18.3987M18.4036 11.4911V13.5624H15.6386L15.9806 15.9806L13.5624 15.6386L13.5673 18.4036L11.1492 18.0568M15.6386 13.5673L11.838 10.4555M13.5673 15.6386L10.4555 11.838"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg>
-        </button>
-      </div>
+          Your value
+        </span>
+        <svg
+          class="text-moon-24"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M13.5624 8.73104L11.838 7.0017C11.5204 6.68412 11.1435 6.43221 10.7285 6.26034C10.3136 6.08846 9.86894 6 9.41984 6C8.97075 6 8.52604 6.08846 8.11114 6.26034C7.69623 6.43221 7.31924 6.68412 7.0017 7.0017C6.68412 7.31924 6.43221 7.69624 6.26034 8.11114C6.08846 8.52605 6 8.97075 6 9.41984C6 9.86894 6.08846 10.3136 6.26034 10.7285C6.43221 11.1435 6.68412 11.5204 7.0017 11.838L8.73104 13.5673L13.5624 8.73104ZM13.5624 8.73104L24.9644 14.603L26 17.0211L22.8931 16.6743M22.8931 16.6743L23.235 19.7812H19.7812M22.8931 16.6743L18.3987 13.5673M19.7812 19.7812V23.235L16.6743 22.8931M19.7812 19.7812L15.9855 15.9806M16.6743 22.8931L17.0211 26L14.2561 24.6175L8.73104 13.5624M16.6743 22.8931L13.5673 18.3987M18.4036 11.4911V13.5624H15.6386L15.9806 15.9806L13.5624 15.6386L13.5673 18.4036L11.1492 18.0568M15.6386 13.5673L11.838 10.4555M13.5673 15.6386L10.4555 11.838"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </button>
     </div>
   </div>,
   "debug": [Function],
@@ -2428,71 +2360,8 @@ Object {
       <div
         dir="rtl"
       >
-        <div
-          class="w-56"
-        >
-          <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-            type="button"
-          >
-            <span
-              class="block grow text-start text-bulma overflow-hidden"
-            >
-              Your value
-            </span>
-            <span
-              class="text-moon-12 text-trunks"
-            >
-              Meta
-            </span>
-          </button>
-        </div>
-        <div
-          class="w-56"
-        >
-          <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-            type="button"
-          >
-            <svg
-              class="text-moon-24"
-              fill="none"
-              height="1em"
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M11.5 7L20.5 16L11.5 25"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-            <span
-              class="block grow text-start text-bulma overflow-hidden"
-            >
-              Your value
-            </span>
-            <span
-              class="text-moon-12 text-trunks"
-            >
-              Meta
-            </span>
-          </button>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      dir="rtl"
-    >
-      <div
-        class="w-56"
-      >
         <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
           type="button"
         >
           <span
@@ -2506,12 +2375,8 @@ Object {
             Meta
           </span>
         </button>
-      </div>
-      <div
-        class="w-56"
-      >
         <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
           type="button"
         >
           <svg
@@ -2541,6 +2406,57 @@ Object {
           </span>
         </button>
       </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <button
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+        type="button"
+      >
+        <span
+          class="block grow text-start text-bulma overflow-hidden"
+        >
+          Your value
+        </span>
+        <span
+          class="text-moon-12 text-trunks"
+        >
+          Meta
+        </span>
+      </button>
+      <button
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+        type="button"
+      >
+        <svg
+          class="text-moon-24"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M11.5 7L20.5 16L11.5 25"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        <span
+          class="block grow text-start text-bulma overflow-hidden"
+        >
+          Your value
+        </span>
+        <span
+          class="text-moon-12 text-trunks"
+        >
+          Meta
+        </span>
+      </button>
     </div>
   </div>,
   "debug": [Function],
@@ -2602,29 +2518,21 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
-        class="w-56"
-      >
-        <a
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-          href="#"
-        >
-          Menu item text
-        </a>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      class="w-56"
-    >
       <a
-        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
         href="#"
       >
         Menu item text
       </a>
     </div>
+  </body>,
+  "container": <div>
+    <a
+      class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+      href="#"
+    >
+      Menu item text
+    </a>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
@@ -2685,169 +2593,153 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
-        class="w-56"
+      <button
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+        type="button"
       >
-        <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-          role="сheckbox"
-          type="button"
+        <span
+          class="flex w-6 h-6 justify-center items-center relative"
         >
           <span
-            class="flex w-6 h-6 justify-center items-center relative"
+            aria-checked="false"
+            aria-label="Checkbox"
+            class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+            role="checkbox"
           >
-            <span
-              aria-checked="false"
-              aria-hidden="true"
-              class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+            <svg
+              class="transition-opacity opacity-0"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                class="transition-opacity opacity-0"
-                fill="none"
-                height="1em"
-                viewBox="0 0 32 32"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M7 14.941L13.667 22 25 10"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </span>
+              <path
+                d="M7 14.9412L13.6667 22L25 10"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
           </span>
-          <span
-            class="block grow text-start text-bulma overflow-hidden"
-          >
-            Your value
-          </span>
-        </button>
-      </div>
-      <div
-        class="w-56"
+        </span>
+        <span
+          class="block grow text-start text-bulma overflow-hidden"
+        >
+          Your value
+        </span>
+      </button>
+      <button
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+        type="button"
       >
-        <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-          role="сheckbox"
-          type="button"
+        <span
+          class="block grow text-start text-bulma overflow-hidden"
+        >
+          Your value
+        </span>
+        <span
+          class="flex w-6 h-6 justify-center items-center relative"
         >
           <span
-            class="block grow text-start text-bulma overflow-hidden"
+            aria-checked="false"
+            aria-label="Checkbox"
+            class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 text-goten moon-checked:shadow-none rounded-none shadow-roshi moon-checked:bg-roshi"
+            role="checkbox"
           >
-            Your value
-          </span>
-          <span
-            class="flex w-6 h-6 justify-center items-center relative"
-          >
-            <span
-              aria-checked="false"
-              aria-hidden="true"
-              class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 text-goten moon-checked:shadow-none rounded-none shadow-roshi moon-checked:bg-roshi"
+            <svg
+              class="transition-opacity opacity-0"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                class="transition-opacity opacity-0"
-                fill="none"
-                height="1em"
-                viewBox="0 0 32 32"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M7 14.941L13.667 22 25 10"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </span>
+              <path
+                d="M7 14.9412L13.6667 22L25 10"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
           </span>
-        </button>
-      </div>
+        </span>
+      </button>
     </div>
   </body>,
   "container": <div>
-    <div
-      class="w-56"
+    <button
+      class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+      type="button"
     >
-      <button
-        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-        role="сheckbox"
-        type="button"
+      <span
+        class="flex w-6 h-6 justify-center items-center relative"
       >
         <span
-          class="flex w-6 h-6 justify-center items-center relative"
+          aria-checked="false"
+          aria-label="Checkbox"
+          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+          role="checkbox"
         >
-          <span
-            aria-checked="false"
-            aria-hidden="true"
-            class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+          <svg
+            class="transition-opacity opacity-0"
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <svg
-              class="transition-opacity opacity-0"
-              fill="none"
-              height="1em"
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M7 14.941L13.667 22 25 10"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </span>
+            <path
+              d="M7 14.9412L13.6667 22L25 10"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
         </span>
-        <span
-          class="block grow text-start text-bulma overflow-hidden"
-        >
-          Your value
-        </span>
-      </button>
-    </div>
-    <div
-      class="w-56"
+      </span>
+      <span
+        class="block grow text-start text-bulma overflow-hidden"
+      >
+        Your value
+      </span>
+    </button>
+    <button
+      class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+      type="button"
     >
-      <button
-        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-        role="сheckbox"
-        type="button"
+      <span
+        class="block grow text-start text-bulma overflow-hidden"
+      >
+        Your value
+      </span>
+      <span
+        class="flex w-6 h-6 justify-center items-center relative"
       >
         <span
-          class="block grow text-start text-bulma overflow-hidden"
+          aria-checked="false"
+          aria-label="Checkbox"
+          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 text-goten moon-checked:shadow-none rounded-none shadow-roshi moon-checked:bg-roshi"
+          role="checkbox"
         >
-          Your value
-        </span>
-        <span
-          class="flex w-6 h-6 justify-center items-center relative"
-        >
-          <span
-            aria-checked="false"
-            aria-hidden="true"
-            class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 text-goten moon-checked:shadow-none rounded-none shadow-roshi moon-checked:bg-roshi"
+          <svg
+            class="transition-opacity opacity-0"
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <svg
-              class="transition-opacity opacity-0"
-              fill="none"
-              height="1em"
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M7 14.941L13.667 22 25 10"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </span>
+            <path
+              d="M7 14.9412L13.6667 22L25 10"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
         </span>
-      </button>
-    </div>
+      </span>
+    </button>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
@@ -4303,143 +4195,8 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
-        class="w-56"
-      >
-        <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-          type="button"
-        >
-          <span>
-            <svg
-              class="text-moon-24"
-              fill="none"
-              height="1em"
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M11.5 7L20.5 16L11.5 25"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </span>
-          <span
-            class="block grow text-start text-bulma overflow-hidden"
-          >
-            <span
-              class="block text-bulma text-moon-14"
-            >
-              Your value
-            </span>
-            <span
-              class="flex text-trunks text-moon-12"
-            >
-              <span
-                class="flex-1 truncate"
-              >
-                <span>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry
-                </span>
-              </span>
-            </span>
-          </span>
-          <span
-            class="text-moon-12 text-trunks"
-          >
-            Meta
-          </span>
-        </button>
-      </div>
-      <div
-        class="w-56"
-      >
-        <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-          role="сheckbox"
-          type="button"
-        >
-          <span
-            class="px-2"
-          >
-            <svg
-              class="text-moon-24"
-              fill="none"
-              height="1em"
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M13.5624 8.73104L11.838 7.0017C11.5204 6.68412 11.1435 6.43221 10.7285 6.26034C10.3136 6.08846 9.86894 6 9.41984 6C8.97075 6 8.52604 6.08846 8.11114 6.26034C7.69623 6.43221 7.31924 6.68412 7.0017 7.0017C6.68412 7.31924 6.43221 7.69624 6.26034 8.11114C6.08846 8.52605 6 8.97075 6 9.41984C6 9.86894 6.08846 10.3136 6.26034 10.7285C6.43221 11.1435 6.68412 11.5204 7.0017 11.838L8.73104 13.5673L13.5624 8.73104ZM13.5624 8.73104L24.9644 14.603L26 17.0211L22.8931 16.6743M22.8931 16.6743L23.235 19.7812H19.7812M22.8931 16.6743L18.3987 13.5673M19.7812 19.7812V23.235L16.6743 22.8931M19.7812 19.7812L15.9855 15.9806M16.6743 22.8931L17.0211 26L14.2561 24.6175L8.73104 13.5624M16.6743 22.8931L13.5673 18.3987M18.4036 11.4911V13.5624H15.6386L15.9806 15.9806L13.5624 15.6386L13.5673 18.4036L11.1492 18.0568M15.6386 13.5673L11.838 10.4555M13.5673 15.6386L10.4555 11.838"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </span>
-          <span
-            class="block grow text-start text-bulma overflow-hidden"
-          >
-            <span
-              class="block text-bulma text-moon-14"
-            >
-              Your value
-            </span>
-            <span
-              class="flex text-trunks text-moon-12"
-            >
-              <span
-                class="flex-1 truncate"
-              >
-                <span>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry
-                </span>
-              </span>
-            </span>
-          </span>
-          <span
-            class="px-2"
-          >
-            <span
-              class="flex w-6 h-6 justify-center items-center relative"
-            >
-              <span
-                aria-checked="false"
-                aria-hidden="true"
-                class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
-              >
-                <svg
-                  class="transition-opacity opacity-0"
-                  fill="none"
-                  height="1em"
-                  viewBox="0 0 32 32"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M7 14.941L13.667 22 25 10"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </span>
-            </span>
-          </span>
-        </button>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      class="w-56"
-    >
       <button
-        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
         type="button"
       >
         <span>
@@ -4485,13 +4242,8 @@ Object {
           Meta
         </span>
       </button>
-    </div>
-    <div
-      class="w-56"
-    >
       <button
-        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-        role="сheckbox"
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
         type="button"
       >
         <span
@@ -4541,8 +4293,9 @@ Object {
           >
             <span
               aria-checked="false"
-              aria-hidden="true"
+              aria-label="Checkbox"
               class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+              role="checkbox"
             >
               <svg
                 class="transition-opacity opacity-0"
@@ -4553,7 +4306,7 @@ Object {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="M7 14.941L13.667 22 25 10"
+                  d="M7 14.9412L13.6667 22L25 10"
                   stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
@@ -4564,6 +4317,129 @@ Object {
         </span>
       </button>
     </div>
+  </body>,
+  "container": <div>
+    <button
+      class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+      type="button"
+    >
+      <span>
+        <svg
+          class="text-moon-24"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M11.5 7L20.5 16L11.5 25"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </span>
+      <span
+        class="block grow text-start text-bulma overflow-hidden"
+      >
+        <span
+          class="block text-bulma text-moon-14"
+        >
+          Your value
+        </span>
+        <span
+          class="flex text-trunks text-moon-12"
+        >
+          <span
+            class="flex-1 truncate"
+          >
+            <span>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry
+            </span>
+          </span>
+        </span>
+      </span>
+      <span
+        class="text-moon-12 text-trunks"
+      >
+        Meta
+      </span>
+    </button>
+    <button
+      class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+      type="button"
+    >
+      <span
+        class="px-2"
+      >
+        <svg
+          class="text-moon-24"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M13.5624 8.73104L11.838 7.0017C11.5204 6.68412 11.1435 6.43221 10.7285 6.26034C10.3136 6.08846 9.86894 6 9.41984 6C8.97075 6 8.52604 6.08846 8.11114 6.26034C7.69623 6.43221 7.31924 6.68412 7.0017 7.0017C6.68412 7.31924 6.43221 7.69624 6.26034 8.11114C6.08846 8.52605 6 8.97075 6 9.41984C6 9.86894 6.08846 10.3136 6.26034 10.7285C6.43221 11.1435 6.68412 11.5204 7.0017 11.838L8.73104 13.5673L13.5624 8.73104ZM13.5624 8.73104L24.9644 14.603L26 17.0211L22.8931 16.6743M22.8931 16.6743L23.235 19.7812H19.7812M22.8931 16.6743L18.3987 13.5673M19.7812 19.7812V23.235L16.6743 22.8931M19.7812 19.7812L15.9855 15.9806M16.6743 22.8931L17.0211 26L14.2561 24.6175L8.73104 13.5624M16.6743 22.8931L13.5673 18.3987M18.4036 11.4911V13.5624H15.6386L15.9806 15.9806L13.5624 15.6386L13.5673 18.4036L11.1492 18.0568M15.6386 13.5673L11.838 10.4555M13.5673 15.6386L10.4555 11.838"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </span>
+      <span
+        class="block grow text-start text-bulma overflow-hidden"
+      >
+        <span
+          class="block text-bulma text-moon-14"
+        >
+          Your value
+        </span>
+        <span
+          class="flex text-trunks text-moon-12"
+        >
+          <span
+            class="flex-1 truncate"
+          >
+            <span>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry
+            </span>
+          </span>
+        </span>
+      </span>
+      <span
+        class="px-2"
+      >
+        <span
+          class="flex w-6 h-6 justify-center items-center relative"
+        >
+          <span
+            aria-checked="false"
+            aria-label="Checkbox"
+            class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+            role="checkbox"
+          >
+            <svg
+              class="transition-opacity opacity-0"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7 14.9412L13.6667 22L25 10"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+        </span>
+      </span>
+    </button>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
@@ -4624,101 +4500,89 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
-        class="w-56"
+      <button
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+        type="button"
       >
-        <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-          role="radio"
-          type="button"
+        <span
+          class="flex w-6 h-6 justify-center items-center"
         >
           <span
-            class="flex w-6 h-6 justify-center items-center"
-          >
-            <span
-              aria-checked="false"
-              class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
-            />
-          </span>
-          <span
-            class="block grow text-start text-bulma overflow-hidden"
-          >
-            Your value
-          </span>
-        </button>
-      </div>
-      <div
-        class="w-56"
+            aria-checked="false"
+            aria-label="Radio option"
+            class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+            role="radio"
+          />
+        </span>
+        <span
+          class="block grow text-start text-bulma overflow-hidden"
+        >
+          Your value
+        </span>
+      </button>
+      <button
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+        type="button"
       >
-        <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-          role="radio"
-          type="button"
+        <span
+          class="block grow text-start text-bulma overflow-hidden"
+        >
+          Your value
+        </span>
+        <span
+          class="flex w-6 h-6 justify-center items-center"
         >
           <span
-            class="block grow text-start text-bulma overflow-hidden"
-          >
-            Your value
-          </span>
-          <span
-            class="flex w-6 h-6 justify-center items-center"
-          >
-            <span
-              aria-checked="false"
-              class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:transition-transform after:scale-0 moon-checked:after:scale-100 moon-checked:shadow-hit after:bg-hit"
-            />
-          </span>
-        </button>
-      </div>
+            aria-checked="false"
+            aria-label="Radio option"
+            class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:transition-transform after:scale-0 moon-checked:after:scale-100 moon-checked:shadow-hit after:bg-hit"
+            role="radio"
+          />
+        </span>
+      </button>
     </div>
   </body>,
   "container": <div>
-    <div
-      class="w-56"
+    <button
+      class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+      type="button"
     >
-      <button
-        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-        role="radio"
-        type="button"
+      <span
+        class="flex w-6 h-6 justify-center items-center"
       >
         <span
-          class="flex w-6 h-6 justify-center items-center"
-        >
-          <span
-            aria-checked="false"
-            class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
-          />
-        </span>
-        <span
-          class="block grow text-start text-bulma overflow-hidden"
-        >
-          Your value
-        </span>
-      </button>
-    </div>
-    <div
-      class="w-56"
+          aria-checked="false"
+          aria-label="Radio option"
+          class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+          role="radio"
+        />
+      </span>
+      <span
+        class="block grow text-start text-bulma overflow-hidden"
+      >
+        Your value
+      </span>
+    </button>
+    <button
+      class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+      type="button"
     >
-      <button
-        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-        role="radio"
-        type="button"
+      <span
+        class="block grow text-start text-bulma overflow-hidden"
+      >
+        Your value
+      </span>
+      <span
+        class="flex w-6 h-6 justify-center items-center"
       >
         <span
-          class="block grow text-start text-bulma overflow-hidden"
-        >
-          Your value
-        </span>
-        <span
-          class="flex w-6 h-6 justify-center items-center"
-        >
-          <span
-            aria-checked="false"
-            class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:transition-transform after:scale-0 moon-checked:after:scale-100 moon-checked:shadow-hit after:bg-hit"
-          />
-        </span>
-      </button>
-    </div>
+          aria-checked="false"
+          aria-label="Radio option"
+          class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:transition-transform after:scale-0 moon-checked:after:scale-100 moon-checked:shadow-hit after:bg-hit"
+          role="radio"
+        />
+      </span>
+    </button>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
@@ -4779,125 +4643,109 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
-        class="w-56"
+      <button
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+        type="button"
       >
-        <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-          type="button"
+        <svg
+          class="text-moon-24"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
         >
-          <svg
-            class="text-moon-24"
-            fill="none"
-            height="1em"
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M13.5624 8.73104L11.838 7.0017C11.5204 6.68412 11.1435 6.43221 10.7285 6.26034C10.3136 6.08846 9.86894 6 9.41984 6C8.97075 6 8.52604 6.08846 8.11114 6.26034C7.69623 6.43221 7.31924 6.68412 7.0017 7.0017C6.68412 7.31924 6.43221 7.69624 6.26034 8.11114C6.08846 8.52605 6 8.97075 6 9.41984C6 9.86894 6.08846 10.3136 6.26034 10.7285C6.43221 11.1435 6.68412 11.5204 7.0017 11.838L8.73104 13.5673L13.5624 8.73104ZM13.5624 8.73104L24.9644 14.603L26 17.0211L22.8931 16.6743M22.8931 16.6743L23.235 19.7812H19.7812M22.8931 16.6743L18.3987 13.5673M19.7812 19.7812V23.235L16.6743 22.8931M19.7812 19.7812L15.9855 15.9806M16.6743 22.8931L17.0211 26L14.2561 24.6175L8.73104 13.5624M16.6743 22.8931L13.5673 18.3987M18.4036 11.4911V13.5624H15.6386L15.9806 15.9806L13.5624 15.6386L13.5673 18.4036L11.1492 18.0568M15.6386 13.5673L11.838 10.4555M13.5673 15.6386L10.4555 11.838"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg>
-          <span
-            class="block grow text-start text-bulma overflow-hidden"
-          >
-            Your value
-          </span>
-        </button>
-      </div>
-      <div
-        class="w-56"
+          <path
+            d="M13.5624 8.73104L11.838 7.0017C11.5204 6.68412 11.1435 6.43221 10.7285 6.26034C10.3136 6.08846 9.86894 6 9.41984 6C8.97075 6 8.52604 6.08846 8.11114 6.26034C7.69623 6.43221 7.31924 6.68412 7.0017 7.0017C6.68412 7.31924 6.43221 7.69624 6.26034 8.11114C6.08846 8.52605 6 8.97075 6 9.41984C6 9.86894 6.08846 10.3136 6.26034 10.7285C6.43221 11.1435 6.68412 11.5204 7.0017 11.838L8.73104 13.5673L13.5624 8.73104ZM13.5624 8.73104L24.9644 14.603L26 17.0211L22.8931 16.6743M22.8931 16.6743L23.235 19.7812H19.7812M22.8931 16.6743L18.3987 13.5673M19.7812 19.7812V23.235L16.6743 22.8931M19.7812 19.7812L15.9855 15.9806M16.6743 22.8931L17.0211 26L14.2561 24.6175L8.73104 13.5624M16.6743 22.8931L13.5673 18.3987M18.4036 11.4911V13.5624H15.6386L15.9806 15.9806L13.5624 15.6386L13.5673 18.4036L11.1492 18.0568M15.6386 13.5673L11.838 10.4555M13.5673 15.6386L10.4555 11.838"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        <span
+          class="block grow text-start text-bulma overflow-hidden"
+        >
+          Your value
+        </span>
+      </button>
+      <button
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+        type="button"
       >
-        <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-          type="button"
+        <span
+          class="block grow text-start text-bulma overflow-hidden"
         >
-          <span
-            class="block grow text-start text-bulma overflow-hidden"
-          >
-            Your value
-          </span>
-          <svg
-            class="text-moon-24"
-            fill="none"
-            height="1em"
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M13.5624 8.73104L11.838 7.0017C11.5204 6.68412 11.1435 6.43221 10.7285 6.26034C10.3136 6.08846 9.86894 6 9.41984 6C8.97075 6 8.52604 6.08846 8.11114 6.26034C7.69623 6.43221 7.31924 6.68412 7.0017 7.0017C6.68412 7.31924 6.43221 7.69624 6.26034 8.11114C6.08846 8.52605 6 8.97075 6 9.41984C6 9.86894 6.08846 10.3136 6.26034 10.7285C6.43221 11.1435 6.68412 11.5204 7.0017 11.838L8.73104 13.5673L13.5624 8.73104ZM13.5624 8.73104L24.9644 14.603L26 17.0211L22.8931 16.6743M22.8931 16.6743L23.235 19.7812H19.7812M22.8931 16.6743L18.3987 13.5673M19.7812 19.7812V23.235L16.6743 22.8931M19.7812 19.7812L15.9855 15.9806M16.6743 22.8931L17.0211 26L14.2561 24.6175L8.73104 13.5624M16.6743 22.8931L13.5673 18.3987M18.4036 11.4911V13.5624H15.6386L15.9806 15.9806L13.5624 15.6386L13.5673 18.4036L11.1492 18.0568M15.6386 13.5673L11.838 10.4555M13.5673 15.6386L10.4555 11.838"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg>
-        </button>
-      </div>
+          Your value
+        </span>
+        <svg
+          class="text-moon-24"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M13.5624 8.73104L11.838 7.0017C11.5204 6.68412 11.1435 6.43221 10.7285 6.26034C10.3136 6.08846 9.86894 6 9.41984 6C8.97075 6 8.52604 6.08846 8.11114 6.26034C7.69623 6.43221 7.31924 6.68412 7.0017 7.0017C6.68412 7.31924 6.43221 7.69624 6.26034 8.11114C6.08846 8.52605 6 8.97075 6 9.41984C6 9.86894 6.08846 10.3136 6.26034 10.7285C6.43221 11.1435 6.68412 11.5204 7.0017 11.838L8.73104 13.5673L13.5624 8.73104ZM13.5624 8.73104L24.9644 14.603L26 17.0211L22.8931 16.6743M22.8931 16.6743L23.235 19.7812H19.7812M22.8931 16.6743L18.3987 13.5673M19.7812 19.7812V23.235L16.6743 22.8931M19.7812 19.7812L15.9855 15.9806M16.6743 22.8931L17.0211 26L14.2561 24.6175L8.73104 13.5624M16.6743 22.8931L13.5673 18.3987M18.4036 11.4911V13.5624H15.6386L15.9806 15.9806L13.5624 15.6386L13.5673 18.4036L11.1492 18.0568M15.6386 13.5673L11.838 10.4555M13.5673 15.6386L10.4555 11.838"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </button>
     </div>
   </body>,
   "container": <div>
-    <div
-      class="w-56"
+    <button
+      class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+      type="button"
     >
-      <button
-        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-        type="button"
+      <svg
+        class="text-moon-24"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
       >
-        <svg
-          class="text-moon-24"
-          fill="none"
-          height="1em"
-          viewBox="0 0 32 32"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M13.5624 8.73104L11.838 7.0017C11.5204 6.68412 11.1435 6.43221 10.7285 6.26034C10.3136 6.08846 9.86894 6 9.41984 6C8.97075 6 8.52604 6.08846 8.11114 6.26034C7.69623 6.43221 7.31924 6.68412 7.0017 7.0017C6.68412 7.31924 6.43221 7.69624 6.26034 8.11114C6.08846 8.52605 6 8.97075 6 9.41984C6 9.86894 6.08846 10.3136 6.26034 10.7285C6.43221 11.1435 6.68412 11.5204 7.0017 11.838L8.73104 13.5673L13.5624 8.73104ZM13.5624 8.73104L24.9644 14.603L26 17.0211L22.8931 16.6743M22.8931 16.6743L23.235 19.7812H19.7812M22.8931 16.6743L18.3987 13.5673M19.7812 19.7812V23.235L16.6743 22.8931M19.7812 19.7812L15.9855 15.9806M16.6743 22.8931L17.0211 26L14.2561 24.6175L8.73104 13.5624M16.6743 22.8931L13.5673 18.3987M18.4036 11.4911V13.5624H15.6386L15.9806 15.9806L13.5624 15.6386L13.5673 18.4036L11.1492 18.0568M15.6386 13.5673L11.838 10.4555M13.5673 15.6386L10.4555 11.838"
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-        </svg>
-        <span
-          class="block grow text-start text-bulma overflow-hidden"
-        >
-          Your value
-        </span>
-      </button>
-    </div>
-    <div
-      class="w-56"
+        <path
+          d="M13.5624 8.73104L11.838 7.0017C11.5204 6.68412 11.1435 6.43221 10.7285 6.26034C10.3136 6.08846 9.86894 6 9.41984 6C8.97075 6 8.52604 6.08846 8.11114 6.26034C7.69623 6.43221 7.31924 6.68412 7.0017 7.0017C6.68412 7.31924 6.43221 7.69624 6.26034 8.11114C6.08846 8.52605 6 8.97075 6 9.41984C6 9.86894 6.08846 10.3136 6.26034 10.7285C6.43221 11.1435 6.68412 11.5204 7.0017 11.838L8.73104 13.5673L13.5624 8.73104ZM13.5624 8.73104L24.9644 14.603L26 17.0211L22.8931 16.6743M22.8931 16.6743L23.235 19.7812H19.7812M22.8931 16.6743L18.3987 13.5673M19.7812 19.7812V23.235L16.6743 22.8931M19.7812 19.7812L15.9855 15.9806M16.6743 22.8931L17.0211 26L14.2561 24.6175L8.73104 13.5624M16.6743 22.8931L13.5673 18.3987M18.4036 11.4911V13.5624H15.6386L15.9806 15.9806L13.5624 15.6386L13.5673 18.4036L11.1492 18.0568M15.6386 13.5673L11.838 10.4555M13.5673 15.6386L10.4555 11.838"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <span
+        class="block grow text-start text-bulma overflow-hidden"
+      >
+        Your value
+      </span>
+    </button>
+    <button
+      class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+      type="button"
     >
-      <button
-        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-        type="button"
+      <span
+        class="block grow text-start text-bulma overflow-hidden"
       >
-        <span
-          class="block grow text-start text-bulma overflow-hidden"
-        >
-          Your value
-        </span>
-        <svg
-          class="text-moon-24"
-          fill="none"
-          height="1em"
-          viewBox="0 0 32 32"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M13.5624 8.73104L11.838 7.0017C11.5204 6.68412 11.1435 6.43221 10.7285 6.26034C10.3136 6.08846 9.86894 6 9.41984 6C8.97075 6 8.52604 6.08846 8.11114 6.26034C7.69623 6.43221 7.31924 6.68412 7.0017 7.0017C6.68412 7.31924 6.43221 7.69624 6.26034 8.11114C6.08846 8.52605 6 8.97075 6 9.41984C6 9.86894 6.08846 10.3136 6.26034 10.7285C6.43221 11.1435 6.68412 11.5204 7.0017 11.838L8.73104 13.5673L13.5624 8.73104ZM13.5624 8.73104L24.9644 14.603L26 17.0211L22.8931 16.6743M22.8931 16.6743L23.235 19.7812H19.7812M22.8931 16.6743L18.3987 13.5673M19.7812 19.7812V23.235L16.6743 22.8931M19.7812 19.7812L15.9855 15.9806M16.6743 22.8931L17.0211 26L14.2561 24.6175L8.73104 13.5624M16.6743 22.8931L13.5673 18.3987M18.4036 11.4911V13.5624H15.6386L15.9806 15.9806L13.5624 15.6386L13.5673 18.4036L11.1492 18.0568M15.6386 13.5673L11.838 10.4555M13.5673 15.6386L10.4555 11.838"
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          />
-        </svg>
-      </button>
-    </div>
+        Your value
+      </span>
+      <svg
+        class="text-moon-24"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M13.5624 8.73104L11.838 7.0017C11.5204 6.68412 11.1435 6.43221 10.7285 6.26034C10.3136 6.08846 9.86894 6 9.41984 6C8.97075 6 8.52604 6.08846 8.11114 6.26034C7.69623 6.43221 7.31924 6.68412 7.0017 7.0017C6.68412 7.31924 6.43221 7.69624 6.26034 8.11114C6.08846 8.52605 6 8.97075 6 9.41984C6 9.86894 6.08846 10.3136 6.26034 10.7285C6.43221 11.1435 6.68412 11.5204 7.0017 11.838L8.73104 13.5673L13.5624 8.73104ZM13.5624 8.73104L24.9644 14.603L26 17.0211L22.8931 16.6743M22.8931 16.6743L23.235 19.7812H19.7812M22.8931 16.6743L18.3987 13.5673M19.7812 19.7812V23.235L16.6743 22.8931M19.7812 19.7812L15.9855 15.9806M16.6743 22.8931L17.0211 26L14.2561 24.6175L8.73104 13.5624M16.6743 22.8931L13.5673 18.3987M18.4036 11.4911V13.5624H15.6386L15.9806 15.9806L13.5624 15.6386L13.5673 18.4036L11.1492 18.0568M15.6386 13.5673L11.838 10.4555M13.5673 15.6386L10.4555 11.838"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </button>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
@@ -4958,67 +4806,8 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
-        class="w-56"
-      >
-        <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-          type="button"
-        >
-          <span
-            class="block grow text-start text-bulma overflow-hidden"
-          >
-            Your value
-          </span>
-          <span
-            class="text-moon-12 text-trunks"
-          >
-            Meta
-          </span>
-        </button>
-      </div>
-      <div
-        class="w-56"
-      >
-        <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-          type="button"
-        >
-          <svg
-            class="text-moon-24"
-            fill="none"
-            height="1em"
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M11.5 7L20.5 16L11.5 25"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg>
-          <span
-            class="block grow text-start text-bulma overflow-hidden"
-          >
-            Your value
-          </span>
-          <span
-            class="text-moon-12 text-trunks"
-          >
-            Meta
-          </span>
-        </button>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      class="w-56"
-    >
       <button
-        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
         type="button"
       >
         <span
@@ -5032,12 +4821,8 @@ Object {
           Meta
         </span>
       </button>
-    </div>
-    <div
-      class="w-56"
-    >
       <button
-        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
         type="button"
       >
         <svg
@@ -5067,6 +4852,53 @@ Object {
         </span>
       </button>
     </div>
+  </body>,
+  "container": <div>
+    <button
+      class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+      type="button"
+    >
+      <span
+        class="block grow text-start text-bulma overflow-hidden"
+      >
+        Your value
+      </span>
+      <span
+        class="text-moon-12 text-trunks"
+      >
+        Meta
+      </span>
+    </button>
+    <button
+      class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+      type="button"
+    >
+      <svg
+        class="text-moon-24"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.5 7L20.5 16L11.5 25"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <span
+        class="block grow text-start text-bulma overflow-hidden"
+      >
+        Your value
+      </span>
+      <span
+        class="text-moon-12 text-trunks"
+      >
+        Meta
+      </span>
+    </button>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

@@ -10,19 +10,21 @@ import type TruncableElementProps from './private/types/TruncableElementProps';
 import type UsePagination from './private/types/UsePagination';
 import type WithChildren from './private/types/WithChildren';
 
-const PaginationRoot: React.FC<WithChildren<PaginationProps>> = ({
+const PaginationRoot = ({
   children,
   className,
   currentPage = 0,
   setCurrentPage = () => {},
   totalPages,
+  hrefsArray,
   edgePageCount = 1,
   middlePagesSiblingCount,
-}) => {
+}: WithChildren<PaginationProps>) => {
   const pagination = usePagination({
     currentPage,
     setCurrentPage,
     totalPages,
+    hrefsArray,
     edgePageCount,
     middlePagesSiblingCount,
   });
@@ -66,6 +68,7 @@ export const PrevButton = <C extends React.ElementType = 'button'>({
         onClick={() => previous()}
         aria-disabled={disabled}
         disabled={disabled}
+        type={as === 'button' || as === undefined ? 'button' : undefined}
       >
         {children({ disabled })}
       </Component>
@@ -76,12 +79,13 @@ export const PrevButton = <C extends React.ElementType = 'button'>({
     <Component
       {...rest}
       className={mergeClassnames(
-        'moon-disabled:cursor-not-allowed moon-disabled:opacity-30',
+        'moon-disabled:cursor-not-allowed moon-disabled:opacity-60',
         className
       )}
       onClick={() => previous()}
       aria-disabled={disabled}
       disabled={disabled}
+      type={as === 'button' || as === undefined ? 'button' : undefined}
     >
       {childrens?.map((ch) => ch)}
     </Component>
@@ -113,6 +117,7 @@ export const NextButton = <C extends React.ElementType = 'button'>({
         onClick={() => next()}
         aria-disabled={disabled}
         disabled={disabled}
+        type={as === 'button' || as === undefined ? 'button' : undefined}
       >
         {children({ disabled })}
       </Component>
@@ -122,12 +127,13 @@ export const NextButton = <C extends React.ElementType = 'button'>({
     <Component
       {...rest}
       className={mergeClassnames(
-        'moon-disabled:cursor-not-allowed moon-disabled:opacity-30',
+        'moon-disabled:cursor-not-allowed moon-disabled:opacity-60',
         className
       )}
       onClick={() => next()}
       aria-disabled={disabled}
       disabled={disabled}
+      type={as === 'button' || as === undefined ? 'button' : undefined}
     >
       {childrens?.map((ch) => ch)}
     </Component>
@@ -165,11 +171,13 @@ const Pages = <C extends React.ElementType = 'a'>({
       aria-label={`page ${page}`}
       tabIndex={0}
       onClick={() => pagination.setCurrentPage(page - 1)}
+      href={pagination.hrefsArray && pagination.hrefsArray[page - 1]}
+      type={as === 'button' ? 'button' : undefined}
       className={mergeClassnames(
-        'flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm font-medium focus:outline-none transition-colors',
+        'flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors',
         className,
         pagination.currentPage + 1 === page
-          ? 'text-goten bg-piccolo'
+          ? 'text-goten bg-piccolo font-medium'
           : 'text-bulma hover:bg-jiren focus:bg-jiren'
       )}
       {...rest}

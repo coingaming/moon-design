@@ -5,6 +5,7 @@ type UsePaginationProps = {
   currentPage: number;
   setCurrentPage: (page: number) => void;
   totalPages: number;
+  hrefsArray?: string[];
   edgePageCount?: number;
   middlePagesSiblingCount?: number;
 };
@@ -13,6 +14,7 @@ const usePagination = ({
   currentPage,
   setCurrentPage,
   totalPages,
+  hrefsArray,
   edgePageCount = 1,
   middlePagesSiblingCount = 1,
 }: UsePaginationProps): UsePagination => {
@@ -86,6 +88,7 @@ const usePagination = ({
     currentPage,
     setCurrentPage,
     pages,
+    hrefsArray,
     hasPreviousPage,
     hasNextPage,
     previousPages,

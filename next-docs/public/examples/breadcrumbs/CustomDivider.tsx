@@ -3,7 +3,7 @@ import { GenericHome, ControlsChevronRight } from '@heathmont/moon-icons-tw';
 import Link from 'next/link';
 
 const breadcrumbs = [
-  <Link href="">
+  <Link href="" aria-label="Home">
     <GenericHome className="text-moon-24" />
   </Link>,
   <Link href="">Page 1</Link>,
@@ -16,7 +16,7 @@ const breadcrumbs = [
 const Example = () => (
   <Breadcrumb
     breadcrumbs={breadcrumbs}
-    divider={<ControlsChevronRight className="text-moon-20" />}
+    divider={<ControlsChevronRight className="text-moon-16" />}
   />
 );
 

@@ -41,7 +41,7 @@ const Label = forwardRef<HTMLLabelElement, WithChildren<LabelProps>>(
         className={mergeClassnames(
           'w-full block text-bulma pb-2',
           getLabelSize(size),
-          disabled && 'opacity-30 cursor-not-allowed',
+          disabled && 'opacity-60 cursor-not-allowed',
           className && className
         )}
         {...rest}

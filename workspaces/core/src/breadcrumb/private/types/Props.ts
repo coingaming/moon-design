@@ -1,6 +1,6 @@
-type BreadcrumbProps = {
+type Props = {
   breadcrumbs: React.ReactNode[];
   divider?: React.ReactNode;
 };
 
-export default BreadcrumbProps;
+export default Props;
