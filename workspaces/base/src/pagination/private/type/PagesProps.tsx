@@ -1,12 +1,14 @@
-type PagesProps<C extends React.ElementType> = {
-  as?: C;
+type PagesProps = {
+  children?: React.ReactNode;
   className?: string;
-  selected?: boolean;
-  page?: number;
+  currentPage: number;
+  totalPages: number;
+  isTruncable?: boolean;
+  maxNotTruncablePages?: number;
+  truncableText?: JSX.Element | string;
+  locale?: string;
+  hrefsArray?: string[];
+  as?: React.ElementType<any>;
 };
 
-type PolymorphicPagesProps<C extends React.ElementType> =
-  React.PropsWithChildren<PagesProps<C>> &
-    Omit<React.ComponentPropsWithoutRef<C>, keyof PagesProps<C>>;
-
-export default PolymorphicPagesProps;
+export default PagesProps;
