@@ -3,7 +3,6 @@ import { Tabs } from '@heathmont/moon-core-tw';
 
 const Example = () => {
   const [selectedIndex, setSelectedIndex] = useState(2);
-  console.log('selectedIndex', selectedIndex);
   return (
     <Tabs selectedIndex={selectedIndex} onChange={setSelectedIndex}>
       <Tabs.List>

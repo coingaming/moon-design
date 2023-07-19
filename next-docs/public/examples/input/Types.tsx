@@ -9,17 +9,17 @@ const Example = () => (
       </div>
       <div className="w-full">
         <Label>Date</Label>
-        <Input type="date" />
+        <Input type="date" aria-label="Date" />
       </div>
       <div className="w-full">
-        <Label>Time</Label>
-        <Input type="time" />
+        <Label htmlFor="time-type">Time</Label>
+        <Input type="time" id="time-type" />
       </div>
     </div>
     <div className="flex flex-col lg:flex-row justify-around items-end w-full gap-2">
       <div className="w-full">
-        <Label>Datetime local</Label>
-        <Input type="datetime-local" />
+        <Label htmlFor="datetimelocal-type">Datetime local</Label>
+        <Input type="datetime-local" id="datetimelocal-type" />
       </div>
       <div className="w-full">
         <Label>Email</Label>
