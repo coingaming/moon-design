@@ -11,16 +11,19 @@ const people = [
   { id: 6, label: 'Hellen Schmidt', value: 'Hellen Schmidt' },
 ];
 
-const filter = (query: string, people: ({ id: number, label: string, value: string })[]) => {
+const filter = (
+  query: string,
+  people: { id: number; label: string; value: string }[]
+) => {
   return query === ''
     ? people
     : people.filter(({ value }) =>
-      value
-        .toLowerCase()
-        .replace(/\s+/g, '')
-        .includes(query.toLowerCase().replace(/\s+/g, ''))
-    );
-}
+        value
+          .toLowerCase()
+          .replace(/\s+/g, '')
+          .includes(query.toLowerCase().replace(/\s+/g, ''))
+      );
+};
 
 const Example = () => {
   const [option, setOption] = useState({});
@@ -30,17 +33,13 @@ const Example = () => {
 
   return (
     <div className="flex w-full max-w-xs items-center">
-      <Combobox
-        value={option}
-        onChange={setOption}
-        onQueryChange={setQuery}
-      >
+      <Combobox value={option} onChange={setOption} onQueryChange={setQuery}>
         {({ open }) => (
           <>
             <Combobox.InsetSelect
               open={open}
-              label='Label'
-              placeholder='Choose an option'
+              label="Label"
+              placeholder="Choose an option"
               displayValue={({ label }) => label}
             >
               <ControlsChevronDownSmall />
@@ -48,7 +47,7 @@ const Example = () => {
             <Combobox.Transition>
               <Combobox.Options>
                 {filteredPeople.length === 0 && query !== '' ? (
-                  <div className='relative cursor-default select-none py-2 px-4 text-trunks'>
+                  <div className="relative cursor-default select-none py-2 px-4 text-trunks">
                     Nothing found.
                   </div>
                 ) : (
@@ -61,7 +60,8 @@ const Example = () => {
                         </MenuItem>
                       )}
                     </Combobox.Option>
-                )))}
+                  ))
+                )}
               </Combobox.Options>
             </Combobox.Transition>
             <Combobox.Hint>Informative message holder</Combobox.Hint>

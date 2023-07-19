@@ -13,7 +13,7 @@ import WithTooltip from '../WithTooltip';
 
 const withRtl = (component: JSX.Element) => <div dir="rtl">{component}</div>;
 
-describe('Switch in Light Theme', () => {
+describe('Switch', () => {
   afterEach(cleanup);
   it('renders Default', () => {
     const tree = render(<Default />);

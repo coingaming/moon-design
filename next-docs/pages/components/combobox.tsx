@@ -18,7 +18,12 @@ const Example = () => {
   const { name, text, image } = getComponent('Combobox');
   return (
     <>
-      <ComponentPageDescription title={name} image={image} isRtlSupport>
+      <ComponentPageDescription
+        title={name}
+        image={image}
+        isRtlSupport
+        isAriaSupport
+      >
         <p>{text}</p>
         <p>
           Based on{' '}
