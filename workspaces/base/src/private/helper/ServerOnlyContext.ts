@@ -12,3 +12,12 @@ export default <T>(defaultValue: T): [() => T, (v: T) => void] => {
 
   return [getValue, setValue];
 };
+
+// const [getCurrentPage, setCurrentPage] = serverContext(1);
+// const [getTotalPages, setTotalPages] = serverContext(1);
+
+// setCurrentPage(currentPage);
+// setTotalPages(totalPages);
+
+// const currentPage = getCurrentPage();
+// const totalPages = getTotalPages();

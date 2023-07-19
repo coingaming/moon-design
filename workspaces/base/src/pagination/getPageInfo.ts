@@ -7,7 +7,7 @@ type PageInfo = {
   middlePages?: number[];
   isMiddleTruncable?: boolean;
 };
-type Args = { page: number; totalCount: number; pageSize: number };
+type Args = { page: number; pageSize: number; isTruncable?: boolean };
 type ArgsFunc = (page: number, pages: number[]) => number[];
 
 const getPreviousPages: ArgsFunc = (page, pages) => {
@@ -42,8 +42,8 @@ const getMiddlePages: ArgsFunc = (page, pages) => {
   return [];
 };
 
-const getPageInfo = ({ page, totalCount, pageSize }: Args): PageInfo => {
-  const hasNextPage = totalCount > page * pageSize;
+const getPageInfo = ({ page, pageSize, isTruncable }: Args): PageInfo => {
+  const hasNextPage = page < pageSize;
   const nextPage = hasNextPage ? page + 1 : undefined;
   const hasPreviousPage = page > 1;
   const previousPage = hasPreviousPage ? page - 1 : undefined;
@@ -51,17 +51,15 @@ const getPageInfo = ({ page, totalCount, pageSize }: Args): PageInfo => {
   const pages = Array(pageSize)
     .fill(0)
     .map((_, i) => i + 1);
-  const previousPages = getPreviousPages(page, pages);
-  const nextPages = getNextPages(page, pages);
-  const middlePages = getMiddlePages(page, pages);
+  const previousPages = isTruncable ? getPreviousPages(page, pages) : pages;
+  const nextPages = isTruncable ? getNextPages(page, pages) : [];
+  const middlePages = isTruncable ? getMiddlePages(page, pages) : [];
 
-  const isTrancable = pageSize > 7;
   const isMiddleTruncable = !!middlePages?.length;
 
   return {
     nextPage,
     previousPage,
-    isTrancable,
     previousPages,
     nextPages,
     middlePages,
