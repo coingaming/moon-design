@@ -25,8 +25,8 @@ const Example = () => {
   const filteredItems = searchFilterItems(
     [
       {
-        heading: 'Home',
-        id: 'home',
+        heading: 'Results',
+        id: 'results',
         items: [
           {
             id: 'home',
@@ -50,7 +50,7 @@ const Example = () => {
       },
       {
         heading: 'Other',
-        id: 'advanced',
+        id: 'other',
         items: [
           {
             id: 'developer-settings',

@@ -55,7 +55,7 @@ const InnerInput = forwardRef(
         ref={(ref || inputRef) as LegacyRef<HTMLInputElement>}
         spellCheck={false}
         className={mergeClassnames(
-          'py-2 px-0 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent placeholder-bulma text-bulma',
+          'moon-search-input py-2 px-0 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent placeholder-bulma text-bulma',
           className
         )}
         onChange={(e) => {
@@ -101,9 +101,10 @@ export const ButtonClear = ({
       )}
       onClick={(e) => {
         onChangeSearch('');
-        const inputElement = e.currentTarget
-          .previousSibling as HTMLInputElement;
-        if (inputElement.tagName === 'INPUT') {
+        const inputElement = e.currentTarget.parentNode?.querySelectorAll(
+          '.moon-search-input'
+        )[0] as HTMLInputElement;
+        if (inputElement) {
           inputElement.focus();
         }
         if (typeof onClick === 'function') {
