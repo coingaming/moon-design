@@ -36,7 +36,7 @@
    pnpm run next dev
    ```
 
-4. For Hot Module Replacement Run these tasks in parallel tabs:
+4. For Hot Module Replacement run these tasks in parallel:
 
 
    ```sh
