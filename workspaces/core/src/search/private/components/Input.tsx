@@ -49,7 +49,7 @@ const InnerInput = forwardRef(
   ) => {
     const { search, onChangeOpen, onChangeSearch, inputRef } =
       useContext(SearchContext);
-
+    const ariaLabelValue = props['aria-label'] ? props['aria-label'] : 'Search';
     return (
       <input
         ref={(ref || inputRef) as LegacyRef<HTMLInputElement>}
@@ -72,12 +72,12 @@ const InnerInput = forwardRef(
             onChangeSearch('');
           }
         }}
-        id="moon-search-input"
         placeholder={placeholder}
         value={search}
         type="text"
         autoFocus={autoFocus}
         autoComplete="off"
+        aria-label={ariaLabelValue}
         {...props}
       />
     );
@@ -101,8 +101,9 @@ export const ButtonClear = ({
       )}
       onClick={(e) => {
         onChangeSearch('');
-        const inputElement = document.getElementById('moon-search-input');
-        if (inputElement) {
+        const inputElement = e.currentTarget
+          .previousSibling as HTMLInputElement;
+        if (inputElement.tagName === 'INPUT') {
           inputElement.focus();
         }
         if (typeof onClick === 'function') {

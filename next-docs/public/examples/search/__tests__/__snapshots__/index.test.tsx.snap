@@ -33,9 +33,9 @@ Object {
                   />
                 </svg>
                 <input
+                  aria-label="Search"
                   autocomplete="off"
                   class="py-2 px-0 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent placeholder-bulma text-bulma"
-                  id="moon-search-input"
                   spellcheck="false"
                   type="text"
                   value=""
@@ -83,9 +83,9 @@ Object {
                 />
               </svg>
               <input
+                aria-label="Search"
                 autocomplete="off"
                 class="py-2 px-0 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent placeholder-bulma text-bulma"
-                id="moon-search-input"
                 spellcheck="false"
                 type="text"
                 value=""
@@ -187,9 +187,9 @@ Object {
                 />
               </svg>
               <input
+                aria-label="Search"
                 autocomplete="off"
                 class="py-2 px-0 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent placeholder-bulma text-bulma"
-                id="moon-search-input"
                 spellcheck="false"
                 type="text"
                 value=""
@@ -233,9 +233,9 @@ Object {
               />
             </svg>
             <input
+              aria-label="Search"
               autocomplete="off"
               class="py-2 px-0 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent placeholder-bulma text-bulma"
-              id="moon-search-input"
               spellcheck="false"
               type="text"
               value=""
@@ -336,9 +336,9 @@ Object {
                 />
               </svg>
               <input
+                aria-label="Search"
                 autocomplete="off"
                 class="py-2 px-0 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent placeholder-bulma text-bulma"
-                id="moon-search-input"
                 spellcheck="false"
                 type="text"
                 value=""
@@ -382,9 +382,9 @@ Object {
               />
             </svg>
             <input
+              aria-label="Search"
               autocomplete="off"
               class="py-2 px-0 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent placeholder-bulma text-bulma"
-              id="moon-search-input"
               spellcheck="false"
               type="text"
               value=""
@@ -485,9 +485,9 @@ Object {
                 />
               </svg>
               <input
+                aria-label="Search"
                 autocomplete="off"
                 class="py-2 px-0 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent placeholder-bulma text-bulma"
-                id="moon-search-input"
                 spellcheck="false"
                 type="text"
                 value=""
@@ -531,9 +531,9 @@ Object {
               />
             </svg>
             <input
+              aria-label="Search"
               autocomplete="off"
               class="py-2 px-0 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent placeholder-bulma text-bulma"
-              id="moon-search-input"
               spellcheck="false"
               type="text"
               value=""
