@@ -11,16 +11,19 @@ const people = [
   { id: 6, label: 'Hellen Schmidt', value: 'Hellen Schmidt' },
 ];
 
-const filter = (query: string, people: ({ id: number, label: string, value: string })[]) => {
+const filter = (
+  query: string,
+  people: { id: number; label: string; value: string }[]
+) => {
   return query === ''
     ? people
     : people.filter(({ value }) =>
-      value
-        .toLowerCase()
-        .replace(/\s+/g, '')
-        .includes(query.toLowerCase().replace(/\s+/g, ''))
-    );
-}
+        value
+          .toLowerCase()
+          .replace(/\s+/g, '')
+          .includes(query.toLowerCase().replace(/\s+/g, ''))
+      );
+};
 
 const Example = () => {
   const [selected0, setSelected0] = useState([]);
@@ -42,7 +45,7 @@ const Example = () => {
         onChange={setSelected0}
         onQueryChange={setQuery0}
         onClear={useCallback(() => setSelected0([]), [setSelected0])}
-        className='w-full max-w-xs'
+        className="w-full max-w-xs"
         size="sm"
         multiple
       >
@@ -53,26 +56,28 @@ const Example = () => {
               label="Small"
               counter={selected0.length}
               placeholder="Choose an option"
-              displayValue={({ label }) => label }
+              displayValue={({ label }) => label}
             >
               <ControlsChevronDownSmall />
             </Combobox.MultiSelect>
             <Combobox.Transition>
               <Combobox.Options>
                 {filteredPeople0.length === 0 && query0 !== '' ? (
-                    <div className='relative cursor-default select-none py-2 px-4 text-trunks'>
-                      Nothing found.
-                    </div>
-                  ) : (filteredPeople0.map((person, index) => (
-                  <Combobox.Option value={person} key={index}>
-                    {({ selected, active }) => (
-                      <MenuItem isActive={active} isSelected={selected}>
-                        <MenuItem.Title>{person.label}</MenuItem.Title>
-                        <MenuItem.Checkbox isSelected={selected} />
-                      </MenuItem>
-                    )}
-                  </Combobox.Option>
-                )))}
+                  <div className="relative cursor-default select-none py-2 px-4 text-trunks">
+                    Nothing found.
+                  </div>
+                ) : (
+                  filteredPeople0.map((person, index) => (
+                    <Combobox.Option value={person} key={index}>
+                      {({ selected, active }) => (
+                        <MenuItem isActive={active} isSelected={selected}>
+                          <MenuItem.Title>{person.label}</MenuItem.Title>
+                          <MenuItem.Checkbox isSelected={selected} />
+                        </MenuItem>
+                      )}
+                    </Combobox.Option>
+                  ))
+                )}
               </Combobox.Options>
             </Combobox.Transition>
             <Combobox.Hint>Informative message holder</Combobox.Hint>
@@ -85,7 +90,7 @@ const Example = () => {
         onChange={setSelected1}
         onQueryChange={setQuery1}
         onClear={useCallback(() => setSelected1([]), [setSelected1])}
-        className='w-full max-w-xs'
+        className="w-full max-w-xs"
         multiple
       >
         {({ open }) => (
@@ -95,17 +100,18 @@ const Example = () => {
               label="Medium"
               counter={selected1.length}
               placeholder="Choose an option"
-              displayValue={({ label }) => label }
+              displayValue={({ label }) => label}
             >
               <ControlsChevronDownSmall />
             </Combobox.MultiSelect>
             <Combobox.Transition>
               <Combobox.Options>
                 {filteredPeople1.length === 0 && query1 !== '' ? (
-                  <div className='relative cursor-default select-none py-2 px-4 text-trunks'>
+                  <div className="relative cursor-default select-none py-2 px-4 text-trunks">
                     Nothing found.
                   </div>
-                  ) : (filteredPeople1.map((person, index) => (
+                ) : (
+                  filteredPeople1.map((person, index) => (
                     <Combobox.Option value={person} key={index}>
                       {({ selected, active }) => (
                         <MenuItem isActive={active} isSelected={selected}>
@@ -114,9 +120,10 @@ const Example = () => {
                         </MenuItem>
                       )}
                     </Combobox.Option>
-                  )))}
+                  ))
+                )}
               </Combobox.Options>
-             </Combobox.Transition>
+            </Combobox.Transition>
             <Combobox.Hint>Informative message holder</Combobox.Hint>
           </>
         )}
@@ -127,7 +134,7 @@ const Example = () => {
         onChange={setSelected2}
         onQueryChange={setQuery2}
         onClear={useCallback(() => setSelected2([]), [setSelected2])}
-        className='w-full max-w-xs'
+        className="w-full max-w-xs"
         size="lg"
         multiple
       >
@@ -138,17 +145,18 @@ const Example = () => {
               label="Large"
               counter={selected2.length}
               placeholder="Choose an option"
-              displayValue={({ label }) => label }
+              displayValue={({ label }) => label}
             >
               <ControlsChevronDownSmall />
             </Combobox.MultiSelect>
             <Combobox.Transition>
               <Combobox.Options>
                 {filteredPeople2.length === 0 && query2 !== '' ? (
-                  <div className='relative cursor-default select-none py-2 px-4 text-trunks'>
+                  <div className="relative cursor-default select-none py-2 px-4 text-trunks">
                     Nothing found.
                   </div>
-                  ) : (filteredPeople2.map((person, index) => (
+                ) : (
+                  filteredPeople2.map((person, index) => (
                     <Combobox.Option value={person} key={index}>
                       {({ selected, active }) => (
                         <MenuItem isActive={active} isSelected={selected}>
@@ -157,7 +165,8 @@ const Example = () => {
                         </MenuItem>
                       )}
                     </Combobox.Option>
-                  )))}
+                  ))
+                )}
               </Combobox.Options>
             </Combobox.Transition>
             <Combobox.Hint>Informative message holder</Combobox.Hint>

@@ -3,6 +3,7 @@ type ButtonProps = {
   open?: boolean;
   value?: undefined;
   className?: string;
+  ['aria-label']?: string;
 };
 
-export default ButtonProps
+export default ButtonProps;

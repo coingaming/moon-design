@@ -1,4 +1,4 @@
-import InputValue from "./InputValue";
+import type InputValue from './InputValue';
 
 type InputProps = {
   value?: string;
@@ -10,6 +10,7 @@ type InputProps = {
   type?: string;
   disabled?: boolean;
   isError?: boolean;
+  ['aria-label']?: string;
 };
 
-export default InputProps
+export default InputProps;

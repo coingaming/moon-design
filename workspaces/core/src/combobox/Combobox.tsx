@@ -148,7 +148,6 @@ const Input = ({
 }: InputProps) => {
   const { size, popper, disabled, isError, input, onQueryChange } =
     useComboboxContext('Combobox.Input');
-
   return (
     <HeadlessCombobox.Input
       onChange={({ target: { value } }) => {
@@ -169,6 +168,7 @@ const Input = ({
       isError={isError}
       onFocus={() => input?.setIsFocused(true)}
       onBlur={() => input?.setIsFocused(false)}
+      aria-label={rest['aria-label']}
       {...rest}
     />
   );
@@ -184,7 +184,6 @@ const InsetInput = ({
 }: InputProps) => {
   const { size, popper, disabled, isError, input, onQueryChange } =
     useComboboxContext('Combobox.InsetInput');
-
   return (
     <span className={mergeClassnames('relative', 'flex flex-grow w-full')}>
       <HeadlessCombobox.Input
@@ -212,6 +211,7 @@ const InsetInput = ({
         isError={isError}
         onFocus={() => input?.setIsFocused(true)}
         onBlur={() => input?.setIsFocused(false)}
+        aria-label={rest['aria-label']}
         {...rest}
       />
       <InputInset.Label className="w-auto -top-0.5 !right-0 !left-0 whitespace-nowrap overflow-x-hidden">
@@ -226,10 +226,11 @@ const Button = ({
   children,
   label,
   className,
+  ['aria-label']: ariaLabel,
   ...rest
 }: WithChildren<ButtonProps>) => {
   const { size, disabled } = useComboboxContext('Combobox.Button');
-
+  const ariaLabelValue = ariaLabel ? ariaLabel : open ? 'Close' : 'Open';
   return (
     <HeadlessCombobox.Button
       className={mergeClassnames(
@@ -240,6 +241,7 @@ const Button = ({
         disabled && 'cursor-not-allowed',
         className
       )}
+      aria-label={ariaLabelValue}
       {...rest}
     >
       {children}
@@ -361,6 +363,7 @@ const Select = ({
           open={open}
           placeholder={placeholder}
           displayValue={displayValue}
+          aria-label={rest['aria-label']}
         />
         <Button open={open}>{children}</Button>
       </Listbox.Button>
@@ -402,6 +405,7 @@ const MultiSelect = ({
           open={open}
           placeholder={placeholder}
           displayValue={displayValue}
+          aria-label={rest['aria-label']}
         />
         <Button open={open}>{children}</Button>
       </Listbox.Button>
@@ -439,6 +443,7 @@ const InsetSelect = ({
           label={label}
           placeholder={placeholder}
           displayValue={displayValue}
+          aria-label={rest['aria-label']}
         />
         <Button open={open}>{children}</Button>
       </Listbox.Button>
@@ -477,6 +482,7 @@ const InsetMultiSelect = ({
           label={label}
           placeholder={placeholder}
           displayValue={displayValue}
+          aria-label={rest['aria-label']}
         />
         <Button open={open}>{children}</Button>
       </Listbox.Button>
