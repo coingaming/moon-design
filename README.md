@@ -13,9 +13,10 @@
    ```sh
    corepack enable
 
+   // Note that we are using pnpm version 8
+
    corepack prepare pnpm@8.2.0 --activate
    ```
-
 
 1. Install dependencies and link local packages together:
 
@@ -35,7 +36,8 @@
    pnpm run next dev
    ```
 
-4. Hot Module Replacement:
+4. For Hot Module Replacement Run these tasks in parallel tabs:
+
 
    ```sh
    pnpm run watch
@@ -55,35 +57,18 @@
    pnpm run next start
    ```
 
-
-## Resources
-
-- 📖 [Documentation](https://moon.io)
-
-
 ## Architecture
 
 Our [pnpm](https://pnpm.io/motivation) monorepo publishes key layers as individual `@heathmont/moon-` packages:
 
 1. [`next-docs/`](#docs) - style guide and documentation
-2. [`packages/`](#design-system) - Moon Design System
+2. [`workspaces/`](#design-system) - Moon Design System
+2. [`packages/`](#design-system) - Legacy components, solely for supporting older projects.
 
-`packages/`
 
-1. [**Themes**](packages/themes/README.mdx) - theming feature
-2. [**Utils**](packages/utils/README.md) - suite of tools to quickly access common token values.
-3. [**Icons**](packages/components/README.mdx) - React components for each icon.
-4. [**Core**](packages/components/README.md) - the individual building blocks of our UI.
-
-Packages are developed inside their respective `src` folders, utilising [pnpm workspaces](https://pnpm.io/workspaces) for dependency linking/sharing. Distributable code is generated in each package's `lib` by the typeScript compiler.
-
-### Docs
-
-`next-docs/`
-
-Our project's style guide and documentation is built using [Next.js](https://nextjs.org/) inside its own individual package directory.
+Packages are developed inside their respective `src` folders, utilizing [pnpm workspaces](https://pnpm.io/workspaces) for dependency linking/sharing. The distributable code is generated in each package's lib by the TypeScript compiler.
 
 
 ## Contributing
 
-See the [Contributing Guidelines](CONTRIBUTING.md) for full info.
+If you're interested in contributing to Moon Design, please read our [сontributing docs](CONTRIBUTING.md) before submitting a pull request.
