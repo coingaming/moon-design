@@ -11,7 +11,7 @@ import CustomContent from '../../public/examples/table/CustomContent';
 import DeepTable from '../../public/examples/table/DeepTable';
 import Default from '../../public/examples/table/Default';
 import Editable from '../../public/examples/table/Editable';
-import ExpandedRow from '../../public/examples/table/ExpandedRow';
+import ExpandedRows from '../../public/examples/table/ExpandedRows';
 import MiniMap from '../../public/examples/table/MiniMap';
 import RowGaps from '../../public/examples/table/RowGaps';
 import RowSizes from '../../public/examples/table/RowSizes';
@@ -87,8 +87,8 @@ const Example = () => {
       />
       <Preview
         title="Expanded Rows"
-        preview={<ExpandedRow />}
-        code={examples ? examples.ExpandedRow : 'Loading'}
+        preview={<ExpandedRows />}
+        code={examples ? examples.ExpandedRows : 'Loading'}
       />
       <Preview
         title="With Sorting"
