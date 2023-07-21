@@ -1,7 +1,6 @@
 import React, { Fragment, useState } from 'react';
 import { Checkbox } from '@heathmont/moon-core-tw';
 import BodyTR from '../../components/BodyTR';
-import CheckboxTD from '../../components/CheckboxTD';
 import TD from '../../components/TD';
 import type RenderRowsProps from '../types/RenderRowsProps';
 import type { Cell, Row, UseExpandedRowProps } from 'react-table';
@@ -122,13 +121,13 @@ const renderRows = ({
                 rowSize={rowSize}
                 isCellBorder={isCellBorder}
               >
-                <CheckboxTD>
+                <div className="flex items-center h-full w-full justify-center pl-2">
                   <Checkbox
                     id={row.id}
                     checked={selectedRows[`${row.id}-${rowProps.key}`]}
                     onClick={(e: any) => e.stopPropagation()}
                   />
-                </CheckboxTD>
+                </div>
               </TD>
             )}
 

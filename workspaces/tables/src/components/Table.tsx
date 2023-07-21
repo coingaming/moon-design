@@ -25,7 +25,6 @@ import Header from './Header';
 import HeaderTR from './HeaderTR';
 import HiddenTR from './HiddenTR';
 import Minimap from './Minimap';
-import OuterWrapper from './OuterWrapper';
 import TableWrapper from './TableWrapper';
 import TH from './TH';
 import type RowSpanHeaderProps from '../private/types/RowSpanHeaderProps';
@@ -294,14 +293,14 @@ const Table = ({
 
   if (withMinimap) {
     return (
-      <OuterWrapper>
+      <div className="relative h-full w-full overflow-auto">
         {renderTableComponent()}
         <Minimap
           numberOfColumns={visibleColumns.length}
           tableRef={tableRef}
           footerRef={footerRef}
         />
-      </OuterWrapper>
+      </div>
     );
   }
 

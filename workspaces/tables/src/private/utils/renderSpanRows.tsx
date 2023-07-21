@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Checkbox } from '@heathmont/moon-core-tw';
 import BodyTR from '../../components/BodyTR';
-import CheckboxTD from '../../components/CheckboxTD';
 import TD from '../../components/TD';
 import type RowSpanHeaderProps from '../../private/types/RowSpanHeaderProps';
 import type RenderSpanRowsProps from '../types/RenderSpanRowsProps';
@@ -117,7 +116,7 @@ const renderSpanRows = ({
         >
           {useCheckbox && (
             <TD selectable={true} rowSize={rowSize} isCellBorder={isCellBorder}>
-              <CheckboxTD>
+              <div className="flex items-center h-full w-full justify-center pl-2">
                 <Checkbox
                   id={row.id}
                   checked={isSelected}
@@ -128,7 +127,7 @@ const renderSpanRows = ({
                     if (onRowSelectHandler) onRowSelectHandler(row);
                   }}
                 />
-              </CheckboxTD>
+              </div>
             </TD>
           )}
           {row.cells.map((cell: Cell<{}>) => {
