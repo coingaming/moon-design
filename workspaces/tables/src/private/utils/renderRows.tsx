@@ -1,29 +1,10 @@
 import React, { Fragment, useState } from 'react';
 import { Checkbox } from '@heathmont/moon-core-tw';
-import { Cell, Row, UseExpandedRowProps } from 'react-table';
 import BodyTR from '../../components/BodyTR';
 import CheckboxTD from '../../components/CheckboxTD';
 import TD from '../../components/TD';
-import { RowSubComponentProps } from '../../func/Table';
-import type RowSizes from '../types/RowSizes';
-
-type RenderRowsProps<D extends object = {}> = {
-  rows: Row<D>[];
-  prepareRow: (row: Row<D>) => void;
-  evenRowBackgroundColor: string;
-  defaultRowBackgroundColor: string;
-  getOnRowClickHandler?: (
-    row: Row<D>
-  ) => ((row: Row<D>) => void | (() => void)) | undefined;
-  getOnRowSelectHandler?: (
-    row: Row<D>
-  ) => ((row: Row<D>) => void | (() => void)) | undefined;
-  renderRowSubComponent?: (props: RowSubComponentProps) => JSX.Element;
-  selectable?: boolean;
-  useCheckbox?: boolean;
-  rowSize?: RowSizes;
-  isCellBorder?: boolean;
-};
+import type RenderRowsProps from '../types/RenderRowsProps';
+import type { Cell, Row, UseExpandedRowProps } from 'react-table';
 
 const renderRows = ({
   rows,

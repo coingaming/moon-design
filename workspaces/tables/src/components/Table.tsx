@@ -1,5 +1,4 @@
 import React, { useRef, useState, useEffect } from 'react';
-
 import {
   useTable,
   useResizeColumns,
@@ -9,7 +8,6 @@ import {
   useSortBy,
   TableInstance,
   PluginHook,
-  Column,
   Row,
   HeaderGroup,
   UseResizeColumnsColumnProps,
@@ -17,59 +15,23 @@ import {
   TableOptions,
 } from 'react-table';
 import { useSticky } from 'react-table-sticky';
-import Body from '../components/Body';
-import Footer from '../components/Footer';
-import Header from '../components/Header';
-import HeaderTR from '../components/HeaderTR';
-import HiddenTR from '../components/HiddenTR';
-import Minimap from '../components/Minimap';
-import OuterWrapper from '../components/OuterWrapper';
-import TableWrapper from '../components/TableWrapper';
-import TH from '../components/TH';
-import useRowSpan, { RowSpanHeader } from '../hooks/useRowSpan';
-import useScrollState from '../hooks/useScrollState';
+import useRowSpan from '../private/hooks/useRowSpan';
+import useScrollState from '../private/hooks/useScrollState';
 import renderRows from '../private/utils/renderRows';
 import renderSpanRows from '../private/utils/renderSpanRows';
-import type RowGaps from '../private/types/RowGaps';
-import type RowSizes from '../private/types/RowSizes';
+import Body from './Body';
+import Footer from './Footer';
+import Header from './Header';
+import HeaderTR from './HeaderTR';
+import HiddenTR from './HiddenTR';
+import Minimap from './Minimap';
+import OuterWrapper from './OuterWrapper';
+import TableWrapper from './TableWrapper';
+import TH from './TH';
+import type RowSpanHeaderProps from '../private/types/RowSpanHeaderProps';
+import type TableProps from '../private/types/TableProps';
 
-export type TableLayout = 'block';
-export type TableVariant = 'calendar';
-export type RowSubComponentProps<D extends object = {}> = {
-  row: Row<D>;
-  backgroundColor: string;
-};
-
-export type TableProps<D extends object = {}> = {
-  columns: ReadonlyArray<Column<D>>;
-  data: readonly D[];
-  defaultColumn?: Partial<Column<D>>;
-  width?: string | number;
-  height?: string | number;
-  maxWidth?: string | number;
-  maxHeight?: string | number;
-  variant?: TableVariant;
-  layout?: TableLayout;
-  withFooter?: boolean;
-  withMinimap?: boolean;
-  expandedByDefault?: boolean;
-  defaultRowBackgroundColor?: string;
-  evenRowBackgroundColor?: string;
-  headerBackgroundColor?: string;
-  rowGap?: RowGaps;
-  rowSize?: RowSizes;
-  isCellBorder?: boolean;
-  isSticky?: boolean;
-  isSorting?: boolean;
-  selectable?: boolean;
-  useCheckbox?: boolean;
-  renderRowSubComponent?: (props: RowSubComponentProps) => JSX.Element;
-  getOnRowClickHandler?: (row: Row<D>) => (row: Row<D>) => void | (() => void);
-  getOnRowSelect?: () => (rows: Row<D>[]) => void | (() => void);
-  updateMyData?: <T extends {}>(t: T) => void;
-};
-
-const Table: React.FC<TableProps> = ({
+const Table = ({
   columns,
   data,
   defaultColumn,
@@ -96,7 +58,7 @@ const Table: React.FC<TableProps> = ({
   getOnRowClickHandler,
   getOnRowSelect,
   updateMyData,
-}) => {
+}: TableProps) => {
   const plugins = [
     layout === 'block' ? useBlockLayout : useFlexLayout,
     variant === 'calendar' ? useRowSpan : undefined,
@@ -126,7 +88,7 @@ const Table: React.FC<TableProps> = ({
     ...plugins
   ) as TableInstance<object> & {
     toggleAllRowsExpanded: (isExpanded?: boolean) => void;
-    rowSpanHeaders: RowSpanHeader[];
+    rowSpanHeaders: RowSpanHeaderProps[];
   };
   const lastHeaderGroup = headerGroups[headerGroups.length - 1];
   const tableRef = useRef<HTMLDivElement>(null);

@@ -1,29 +1,11 @@
 import React, { useState } from 'react';
 import { Checkbox } from '@heathmont/moon-core-tw';
-import { Cell, Row } from 'react-table';
 import BodyTR from '../../components/BodyTR';
 import CheckboxTD from '../../components/CheckboxTD';
 import TD from '../../components/TD';
-import { RowSpanHeader } from '../../hooks/useRowSpan';
-import type RowSizes from '../types/RowSizes';
-
-type RenderSpanRowsProps<D extends object = {}> = {
-  rows: Row<D>[];
-  prepareRow: (row: Row<D>) => void;
-  rowSpanHeaders: RowSpanHeader[];
-  getOnRowClickHandler?: (
-    row: Row<D>
-  ) => ((row: Row<D>) => void | (() => void)) | undefined;
-  getOnRowSelectHandler?: (
-    row: Row<D>
-  ) => ((row: Row<D>) => void | (() => void)) | undefined;
-  evenRowBackgroundColor: string;
-  defaultRowBackgroundColor: string;
-  selectable?: boolean;
-  useCheckbox?: boolean;
-  rowSize?: RowSizes;
-  isCellBorder?: boolean;
-};
+import type RowSpanHeaderProps from '../../private/types/RowSpanHeaderProps';
+import type RenderSpanRowsProps from '../types/RenderSpanRowsProps';
+import type { Cell, Row } from 'react-table';
 
 const renderSpanRows = ({
   rows,
@@ -72,7 +54,7 @@ const renderSpanRows = ({
       const fontColor = row.original?.fontColor;
       const isRowSpanned =
         rowSpanHeaders &&
-        rowSpanHeaders.some((rowSpanHeader: RowSpanHeader) =>
+        rowSpanHeaders.some((rowSpanHeader: RowSpanHeaderProps) =>
           row.cells.some(
             (cell: Cell<{}>) =>
               cell.column &&

@@ -1,18 +1,6 @@
 import React, { forwardRef } from 'react';
 import { mergeClassnames } from '@heathmont/moon-core-tw';
-
-const getSizeStyles = (size?: string) => {
-  switch (size) {
-    case 'xl':
-      return 'rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm';
-    case 'lg':
-      return 'rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm';
-    case 'sm':
-      return 'rounded-moon-i-xs rtl:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-xs rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-xs rtl:invalid:rounded-moon-i-xs ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-xs ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-xs ltr:invalid:rounded-moon-i-xs';
-    default:
-      return 'rounded-moon-i-xs rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-xs rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-xs rtl:invalid:rounded-moon-i-xs ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-xs ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-xs ltr:invalid:rounded-moon-i-xs';
-  }
-};
+import getSizeStyles from '../private/utils/getSizeStyles';
 
 export interface InputProps
   extends Omit<React.InputHTMLAttributes<HTMLInputElement>, 'size'> {
@@ -25,7 +13,7 @@ export interface InputProps
   id?: string;
 }
 
-const Input = forwardRef<HTMLInputElement, InputProps>(
+const InputCell = forwardRef<HTMLInputElement, InputProps>(
   (
     {
       className,
@@ -42,7 +30,9 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
     const size = inputSize;
     const disabled = inputDisabled;
     const error = inputError;
-
+    const ariaLabelValue = rest['aria-label']
+      ? rest['aria-label']
+      : 'Editable cell';
     return (
       <input
         ref={ref}
@@ -73,10 +63,11 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
           disabled && 'opacity-60 cursor-not-allowed',
           className && className
         )}
+        aria-label={ariaLabelValue}
         {...rest}
       />
     );
   }
 );
 
-export default Input;
+export default InputCell;

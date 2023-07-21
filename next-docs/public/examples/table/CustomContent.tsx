@@ -1,6 +1,4 @@
-import { BodyTR } from '@heathmont/moon-table-tw';
-import { TD } from '@heathmont/moon-table-tw';
-import { Table } from '@heathmont/moon-table-tw';
+import { BodyTR, TD, Table } from '@heathmont/moon-table-tw';
 import React from 'react';
 
 const Example = () => {

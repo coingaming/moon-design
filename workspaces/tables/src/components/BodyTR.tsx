@@ -1,34 +1,13 @@
-import React, { forwardRef, ReactNode } from 'react';
+import React, { forwardRef } from 'react';
 import { mergeClassnames } from '@heathmont/moon-core-tw';
-
-type BodyTRProps = {
-  reactTableProps?: any;
-  onClick?: any;
-  onHoverToggle?: (hover?: boolean) => void;
-  depth?: number;
-  withOffset?: boolean;
-  isExpanded?: boolean;
-  hasChildren?: boolean;
-  hasParent?: boolean;
-  isLastRow?: boolean;
-  isLastNestedRow?: boolean;
-  isSelected?: boolean | string;
-  customBackground?: boolean;
-  backgroundColor?: string;
-  fontColor?: string;
-  children?: ReactNode;
-  selectable?: boolean;
-  isHovered?: boolean;
-};
+import type BodyTRProps from '../private/types/BodyTRProps';
 
 const BodyTR = forwardRef<HTMLDivElement, BodyTRProps>(
   ({
     reactTableProps,
     onClick,
     onHoverToggle,
-    withOffset,
     isExpanded,
-    hasParent,
     isLastRow,
     isSelected,
     selectable,
@@ -36,7 +15,6 @@ const BodyTR = forwardRef<HTMLDivElement, BodyTRProps>(
     backgroundColor,
     fontColor,
     customBackground,
-    depth = 0,
     isHovered,
   }) => {
     return (

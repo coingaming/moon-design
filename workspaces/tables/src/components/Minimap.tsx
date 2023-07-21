@@ -1,21 +1,11 @@
-import React, {
-  useEffect,
-  useCallback,
-  useState,
-  MutableRefObject,
-} from 'react';
+import React, { useEffect, useCallback, useState } from 'react';
 import { mergeClassnames } from '@heathmont/moon-core-tw';
-
-type Props = {
-  numberOfColumns: number;
-  tableRef: MutableRefObject<HTMLElement | null>;
-  footerRef: MutableRefObject<HTMLElement | null>;
-};
+import type MinimapProps from '../private/types/MinimapProps';
 
 let timeoutId: ReturnType<typeof setTimeout>;
 const TIMEOUT = 150;
 
-const Minimap: React.FC<Props> = ({ tableRef, footerRef, numberOfColumns }) => {
+const Minimap = ({ tableRef, footerRef, numberOfColumns }: MinimapProps) => {
   const [styles, setStyles] = useState({});
   const [visible, setVisible] = useState(false);
   const [footerHeight, setFooterHeight] = useState(0);

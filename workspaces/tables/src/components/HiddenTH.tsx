@@ -1,16 +1,10 @@
 import React from 'react';
+import type HiddenTHProps from '../private/types/HiddenTHProps';
 
-const HiddenTH: React.FC<HiddenTHProps> = ({ style, children }) => {
-  return (
-    <div className={'h-px'} style={{ ...style }}>
-      {children}
-    </div>
-  );
-};
-
-type HiddenTHProps = {
-  style: React.CSSProperties;
-  children?: React.ReactNode;
-};
+const HiddenTH = ({ style, children }: HiddenTHProps) => (
+  <div className="h-px" style={{ ...style }}>
+    {children}
+  </div>
+);
 
 export default HiddenTH;
