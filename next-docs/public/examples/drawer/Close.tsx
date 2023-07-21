@@ -15,7 +15,11 @@ const Example = () => {
         <Drawer.Panel>
           <div className="flex justify-between items-center p-3 border-b border-trunks">
             <p>Header</p>
-            <IconButton variant="ghost" onClick={handleClose}>
+            <IconButton
+              variant="ghost"
+              onClick={handleClose}
+              aria-label="Close"
+            >
               <ControlsCloseSmall />
             </IconButton>
           </div>

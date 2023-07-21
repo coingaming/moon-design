@@ -2,13 +2,7 @@
  * @jest-environment jsdom
  */
 
-import React from 'react';
-import renderer from 'react-test-renderer';
-import {
-  moonDesignDark,
-  moonDesignLight,
-  ThemeProvider,
-} from '@heathmont/moon-themes';
+import { cleanup, render } from '@testing-library/react';
 import Default from '../Default';
 import InsetMultiSelect from '../InsetMultiSelect';
 import InsetSelect from '../InsetSelect';
@@ -17,107 +11,68 @@ import MultiSelect from '../MultiSelect';
 import Select from '../Select';
 import SelectStates from '../SelectStates';
 
-const renderWithLightTheme = (component: JSX.Element) => (
-  <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
-);
+const withRtl = (component: JSX.Element) => <div dir="rtl">{component}</div>;
 
-const renderWithDarkTheme = (component: JSX.Element) => (
-  <ThemeProvider theme={moonDesignDark}>{component}</ThemeProvider>
-);
-
-const renderWithRtl = (component: JSX.Element) => (
-  <div dir="rtl">{component}</div>
-);
-
-describe('Select in Light Theme', () => {
+describe('Combobox', () => {
+  afterEach(cleanup);
   it('renders Default', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Default />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<Default />);
+    expect(tree).toMatchSnapshot();
   });
   it('renders InsetMultiSelect', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<InsetMultiSelect />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<InsetMultiSelect />);
+    expect(tree).toMatchSnapshot();
   });
   it('renders InsetSelect', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<InsetSelect />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<InsetSelect />);
+    expect(tree).toMatchSnapshot();
   });
   it('renders InsetSelectStates', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<InsetSelectStates />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<InsetSelectStates />);
+    expect(tree).toMatchSnapshot();
   });
   it('renders MultiSelect', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<MultiSelect />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<MultiSelect />);
+    expect(tree).toMatchSnapshot();
   });
   it('renders Select', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Select />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<Select />);
+    expect(tree).toMatchSnapshot();
   });
   it('renders SelectStates', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<SelectStates />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<SelectStates />);
+    expect(tree).toMatchSnapshot();
   });
 });
 
-describe('Select in Dark Theme', () => {
+describe('Combobox in RTL', () => {
+  afterEach(cleanup);
   it('renders Default', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Default />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<Default />));
+    expect(tree).toMatchSnapshot();
   });
   it('renders InsetMultiSelect', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<InsetMultiSelect />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<InsetMultiSelect />));
+    expect(tree).toMatchSnapshot();
   });
   it('renders InsetSelect', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<InsetSelect />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<InsetSelect />));
+    expect(tree).toMatchSnapshot();
   });
   it('renders InsetSelectStates', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<InsetSelectStates />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<InsetSelectStates />));
+    expect(tree).toMatchSnapshot();
   });
   it('renders MultiSelect', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<MultiSelect />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<MultiSelect />));
+    expect(tree).toMatchSnapshot();
   });
   it('renders Select', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Select />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<Select />));
+    expect(tree).toMatchSnapshot();
   });
   it('renders SelectStates', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<SelectStates />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-});
-
-describe('Select in RTL', () => {
-  it('renders Default', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Default />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders InsetMultiSelect', () => {
-    const testRenderer = renderer.create(renderWithRtl(<InsetMultiSelect />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders InsetSelect', () => {
-    const testRenderer = renderer.create(renderWithRtl(<InsetSelect />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders InsetSelectStates', () => {
-    const testRenderer = renderer.create(renderWithRtl(<InsetSelectStates />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders MultiSelect', () => {
-    const testRenderer = renderer.create(renderWithRtl(<MultiSelect />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders Select', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Select />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders SelectStates', () => {
-    const testRenderer = renderer.create(renderWithRtl(<SelectStates />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<SelectStates />));
+    expect(tree).toMatchSnapshot();
   });
 });

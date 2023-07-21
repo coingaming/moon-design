@@ -2,11 +2,11 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
-import Collapsed from '../../public/examples/breadcrumbs/Collapsed';
-import CustomDivider from '../../public/examples/breadcrumbs/CustomDivider';
-import FourItems from '../../public/examples/breadcrumbs/FourItems';
-import OneItem from '../../public/examples/breadcrumbs/OneItem';
-import TwoItems from '../../public/examples/breadcrumbs/TwoItems';
+import Collapsed from '../../public/examples/breadcrumb/Collapsed';
+import CustomDivider from '../../public/examples/breadcrumb/CustomDivider';
+import FourItems from '../../public/examples/breadcrumb/FourItems';
+import OneItem from '../../public/examples/breadcrumb/OneItem';
+import TwoItems from '../../public/examples/breadcrumb/TwoItems';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
@@ -17,8 +17,8 @@ const Example = () => {
       <ComponentPageDescription
         title={name}
         image={image}
-        isInProgress
         isRtlSupport
+        isAriaSupport
       >
         <p>{text}</p>
       </ComponentPageDescription>

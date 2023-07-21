@@ -11,16 +11,19 @@ const people = [
   { id: 6, label: 'Hellen Schmidt', value: 'Hellen Schmidt' },
 ];
 
-const filter = (query: string, people: ({ id: number, label: string, value: string })[]) => {
+const filter = (
+  query: string,
+  people: { id: number; label: string; value: string }[]
+) => {
   return query === ''
     ? people
     : people.filter(({ value }) =>
-      value
-        .toLowerCase()
-        .replace(/\s+/g, '')
-        .includes(query.toLowerCase().replace(/\s+/g, ''))
-    );
-}
+        value
+          .toLowerCase()
+          .replace(/\s+/g, '')
+          .includes(query.toLowerCase().replace(/\s+/g, ''))
+      );
+};
 
 const Example = () => {
   const [selected0, setSelected0] = useState(people[4]);
@@ -33,19 +36,16 @@ const Example = () => {
   const filteredPeople1 = filter(query1, people);
 
   return (
-    <div className='flex flex-col lg:flex-row lg:justify-center items-center w-full gap-4'>
+    <div className="flex flex-col lg:flex-row lg:justify-center items-center w-full gap-4">
       <Combobox
         value={selected0}
         onChange={setSelected0}
         onQueryChange={setQuery0}
-        className='w-full max-w-xs'
+        className="w-full max-w-xs"
       >
         {({ open }) => (
           <>
-            <Combobox.Trigger
-              open={open}
-              className='min-w-[18.75rem]'
-            >
+            <Combobox.Trigger open={open} className="min-w-[18.75rem]">
               <Combobox.Input
                 open={open}
                 placeholder={'Choose a name...'}
@@ -58,7 +58,7 @@ const Example = () => {
             <Combobox.Transition>
               <Combobox.Options className={'min-w-[18.75rem] z-50'}>
                 {filteredPeople0.length === 0 && query0 !== '' ? (
-                  <div className='relative cursor-default select-none py-2 px-4 text-trunks'>
+                  <div className="relative cursor-default select-none py-2 px-4 text-trunks">
                     Nothing found.
                   </div>
                 ) : (
@@ -72,7 +72,8 @@ const Example = () => {
                         </div>
                       )}
                     </Combobox.Option>
-                  )))}
+                  ))
+                )}
               </Combobox.Options>
             </Combobox.Transition>
             <Combobox.Hint>Informative message holder (default)</Combobox.Hint>
@@ -84,15 +85,12 @@ const Example = () => {
         value={selected1}
         onChange={setSelected1}
         onQueryChange={setQuery1}
-        className='w-full max-w-xs'
+        className="w-full max-w-xs"
         nullable
       >
         {({ open }) => (
           <>
-            <Combobox.Trigger
-              open={open}
-              className='min-w-[18.75rem]'
-            >
+            <Combobox.Trigger open={open} className="min-w-[18.75rem]">
               <Combobox.Input
                 open={open}
                 placeholder={'Choose a name...'}
@@ -105,7 +103,7 @@ const Example = () => {
             <Combobox.Transition>
               <Combobox.Options className={'min-w-[18.75rem] z-50'}>
                 {filteredPeople1.length === 0 && query1 !== '' ? (
-                  <div className='relative cursor-default select-none py-2 px-4 text-trunks'>
+                  <div className="relative cursor-default select-none py-2 px-4 text-trunks">
                     Nothing found.
                   </div>
                 ) : (
@@ -119,7 +117,8 @@ const Example = () => {
                         </div>
                       )}
                     </Combobox.Option>
-                  )))}
+                  ))
+                )}
               </Combobox.Options>
             </Combobox.Transition>
             <Combobox.Hint>Informative message holder (nullable)</Combobox.Hint>

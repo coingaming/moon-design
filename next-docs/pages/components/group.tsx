@@ -16,7 +16,7 @@ const Example = () => {
   const { name, text, image } = getComponent('Group');
   return (
     <>
-      <ComponentPageDescription title={name} image={image}>
+      <ComponentPageDescription title={name} image={image} isAriaSupport>
         <p>{text}</p>
       </ComponentPageDescription>
 

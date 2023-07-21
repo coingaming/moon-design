@@ -1,8 +1,5 @@
 import { MenuItem } from '@heathmont/moon-core-tw';
-import {
-  ControlsChevronDown,
-  ControlsChevronUp,
-} from '@heathmont/moon-icons-tw';
+import { ControlsChevronDown } from '@heathmont/moon-icons-tw';
 import { useCallback, useState } from 'react';
 
 const Example = () => {

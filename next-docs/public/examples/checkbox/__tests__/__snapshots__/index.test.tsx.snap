@@ -150,6 +150,7 @@ Object {
         >
           <input
             aria-checked="false"
+            aria-label="Checkbox"
             class="peer appearance-none h-6 w-6 outline-none align-top select-none"
             type="checkbox"
           />
@@ -179,6 +180,7 @@ Object {
         >
           <input
             aria-checked="false"
+            aria-label="Checkbox"
             class="peer appearance-none h-6 w-6 outline-none align-top select-none"
             type="checkbox"
           />
@@ -208,6 +210,7 @@ Object {
         >
           <input
             aria-checked="false"
+            aria-label="Checkbox"
             class="peer appearance-none h-6 w-6 outline-none align-top select-none"
             type="checkbox"
           />
@@ -237,6 +240,7 @@ Object {
         >
           <input
             aria-checked="false"
+            aria-label="Checkbox"
             class="peer appearance-none h-6 w-6 outline-none align-top select-none"
             type="checkbox"
           />
@@ -273,6 +277,7 @@ Object {
       >
         <input
           aria-checked="false"
+          aria-label="Checkbox"
           class="peer appearance-none h-6 w-6 outline-none align-top select-none"
           type="checkbox"
         />
@@ -302,6 +307,7 @@ Object {
       >
         <input
           aria-checked="false"
+          aria-label="Checkbox"
           class="peer appearance-none h-6 w-6 outline-none align-top select-none"
           type="checkbox"
         />
@@ -331,6 +337,7 @@ Object {
       >
         <input
           aria-checked="false"
+          aria-label="Checkbox"
           class="peer appearance-none h-6 w-6 outline-none align-top select-none"
           type="checkbox"
         />
@@ -360,6 +367,7 @@ Object {
       >
         <input
           aria-checked="false"
+          aria-label="Checkbox"
           class="peer appearance-none h-6 w-6 outline-none align-top select-none"
           type="checkbox"
         />
@@ -453,6 +461,7 @@ Object {
         >
           <input
             aria-checked="false"
+            aria-label="Checkbox"
             class="peer appearance-none h-6 w-6 outline-none align-top select-none"
             type="checkbox"
           />
@@ -489,6 +498,7 @@ Object {
       >
         <input
           aria-checked="false"
+          aria-label="Checkbox"
           class="peer appearance-none h-6 w-6 outline-none align-top select-none"
           type="checkbox"
         />
@@ -1520,6 +1530,7 @@ Object {
       >
         <input
           aria-checked="false"
+          aria-label="Checkbox"
           class="peer appearance-none h-6 w-6 outline-none align-top select-none"
           type="checkbox"
         />
@@ -1549,6 +1560,7 @@ Object {
       >
         <input
           aria-checked="false"
+          aria-label="Checkbox"
           class="peer appearance-none h-6 w-6 outline-none align-top select-none"
           type="checkbox"
         />
@@ -1578,6 +1590,7 @@ Object {
       >
         <input
           aria-checked="false"
+          aria-label="Checkbox"
           class="peer appearance-none h-6 w-6 outline-none align-top select-none"
           type="checkbox"
         />
@@ -1607,6 +1620,7 @@ Object {
       >
         <input
           aria-checked="false"
+          aria-label="Checkbox"
           class="peer appearance-none h-6 w-6 outline-none align-top select-none"
           type="checkbox"
         />
@@ -1639,6 +1653,7 @@ Object {
     >
       <input
         aria-checked="false"
+        aria-label="Checkbox"
         class="peer appearance-none h-6 w-6 outline-none align-top select-none"
         type="checkbox"
       />
@@ -1668,6 +1683,7 @@ Object {
     >
       <input
         aria-checked="false"
+        aria-label="Checkbox"
         class="peer appearance-none h-6 w-6 outline-none align-top select-none"
         type="checkbox"
       />
@@ -1697,6 +1713,7 @@ Object {
     >
       <input
         aria-checked="false"
+        aria-label="Checkbox"
         class="peer appearance-none h-6 w-6 outline-none align-top select-none"
         type="checkbox"
       />
@@ -1726,6 +1743,7 @@ Object {
     >
       <input
         aria-checked="false"
+        aria-label="Checkbox"
         class="peer appearance-none h-6 w-6 outline-none align-top select-none"
         type="checkbox"
       />
@@ -1815,6 +1833,7 @@ Object {
       >
         <input
           aria-checked="false"
+          aria-label="Checkbox"
           class="peer appearance-none h-6 w-6 outline-none align-top select-none"
           type="checkbox"
         />
@@ -1847,6 +1866,7 @@ Object {
     >
       <input
         aria-checked="false"
+        aria-label="Checkbox"
         class="peer appearance-none h-6 w-6 outline-none align-top select-none"
         type="checkbox"
       />

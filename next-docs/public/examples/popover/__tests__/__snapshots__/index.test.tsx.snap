@@ -764,6 +764,7 @@ Object {
               role="button"
             >
               <button
+                aria-label="Trigger"
                 class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 center h-10 gap-2 p-2 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
                 type="button"
               >
@@ -878,6 +879,7 @@ Object {
             role="button"
           >
             <button
+              aria-label="Trigger"
               class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 center h-10 gap-2 p-2 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
               type="button"
             >
@@ -2139,6 +2141,7 @@ Object {
             role="button"
           >
             <button
+              aria-label="Trigger"
               class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 center h-10 gap-2 p-2 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
               type="button"
             >
@@ -2249,6 +2252,7 @@ Object {
           role="button"
         >
           <button
+            aria-label="Trigger"
             class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 center h-10 gap-2 p-2 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
             type="button"
           >

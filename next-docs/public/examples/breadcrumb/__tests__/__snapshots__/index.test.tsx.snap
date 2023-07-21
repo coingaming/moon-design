@@ -46,7 +46,8 @@ Object {
               class="relative"
             >
               <button
-                class="px-1 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma"
+                aria-label="Show more breadcrumbs"
+                class="h-6 p-1 gap-1 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma text-moon-16"
                 type="button"
               >
                 <svg
@@ -180,7 +181,8 @@ Object {
             class="relative"
           >
             <button
-              class="px-1 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma"
+              aria-label="Show more breadcrumbs"
+              class="h-6 p-1 gap-1 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma text-moon-16"
               type="button"
             >
               <svg
@@ -897,6 +899,7 @@ Object {
                 class="text-trunks transition-colors duration-200 hover:text-bulma"
               >
                 <a
+                  aria-label="Home"
                   href=""
                 >
                   <svg
@@ -915,7 +918,7 @@ Object {
                 </a>
               </span>
               <svg
-                class="text-moon-20"
+                class="text-moon-16"
                 fill="none"
                 height="1em"
                 viewBox="0 0 32 32"
@@ -934,7 +937,8 @@ Object {
               class="relative"
             >
               <button
-                class="px-1 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma"
+                aria-label="Show more breadcrumbs"
+                class="h-6 p-1 gap-1 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma text-moon-16"
                 type="button"
               >
                 <svg
@@ -971,7 +975,7 @@ Object {
               class="flex items-center gap-2 text-trunks"
             >
               <svg
-                class="text-moon-20"
+                class="text-moon-16"
                 fill="none"
                 height="1em"
                 viewBox="0 0 32 32"
@@ -999,7 +1003,7 @@ Object {
               class="flex items-center gap-2 text-trunks"
             >
               <svg
-                class="text-moon-20"
+                class="text-moon-16"
                 fill="none"
                 height="1em"
                 viewBox="0 0 32 32"
@@ -1043,6 +1047,7 @@ Object {
               class="text-trunks transition-colors duration-200 hover:text-bulma"
             >
               <a
+                aria-label="Home"
                 href=""
               >
                 <svg
@@ -1061,7 +1066,7 @@ Object {
               </a>
             </span>
             <svg
-              class="text-moon-20"
+              class="text-moon-16"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -1080,7 +1085,8 @@ Object {
             class="relative"
           >
             <button
-              class="px-1 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma"
+              aria-label="Show more breadcrumbs"
+              class="h-6 p-1 gap-1 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma text-moon-16"
               type="button"
             >
               <svg
@@ -1117,7 +1123,7 @@ Object {
             class="flex items-center gap-2 text-trunks"
           >
             <svg
-              class="text-moon-20"
+              class="text-moon-16"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -1145,7 +1151,7 @@ Object {
             class="flex items-center gap-2 text-trunks"
           >
             <svg
-              class="text-moon-20"
+              class="text-moon-16"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -1268,7 +1274,8 @@ Object {
             class="relative"
           >
             <button
-              class="px-1 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma"
+              aria-label="Show more breadcrumbs"
+              class="h-6 p-1 gap-1 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma text-moon-16"
               type="button"
             >
               <svg
@@ -1398,7 +1405,8 @@ Object {
           class="relative"
         >
           <button
-            class="px-1 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma"
+            aria-label="Show more breadcrumbs"
+            class="h-6 p-1 gap-1 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma text-moon-16"
             type="button"
           >
             <svg
@@ -2087,6 +2095,7 @@ Object {
               class="text-trunks transition-colors duration-200 hover:text-bulma"
             >
               <a
+                aria-label="Home"
                 href=""
               >
                 <svg
@@ -2105,7 +2114,7 @@ Object {
               </a>
             </span>
             <svg
-              class="text-moon-20"
+              class="text-moon-16"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -2124,7 +2133,8 @@ Object {
             class="relative"
           >
             <button
-              class="px-1 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma"
+              aria-label="Show more breadcrumbs"
+              class="h-6 p-1 gap-1 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma text-moon-16"
               type="button"
             >
               <svg
@@ -2161,7 +2171,7 @@ Object {
             class="flex items-center gap-2 text-trunks"
           >
             <svg
-              class="text-moon-20"
+              class="text-moon-16"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -2189,7 +2199,7 @@ Object {
             class="flex items-center gap-2 text-trunks"
           >
             <svg
-              class="text-moon-20"
+              class="text-moon-16"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -2229,6 +2239,7 @@ Object {
             class="text-trunks transition-colors duration-200 hover:text-bulma"
           >
             <a
+              aria-label="Home"
               href=""
             >
               <svg
@@ -2247,7 +2258,7 @@ Object {
             </a>
           </span>
           <svg
-            class="text-moon-20"
+            class="text-moon-16"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -2266,7 +2277,8 @@ Object {
           class="relative"
         >
           <button
-            class="px-1 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma"
+            aria-label="Show more breadcrumbs"
+            class="h-6 p-1 gap-1 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma text-moon-16"
             type="button"
           >
             <svg
@@ -2303,7 +2315,7 @@ Object {
           class="flex items-center gap-2 text-trunks"
         >
           <svg
-            class="text-moon-20"
+            class="text-moon-16"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -2331,7 +2343,7 @@ Object {
           class="flex items-center gap-2 text-trunks"
         >
           <svg
-            class="text-moon-20"
+            class="text-moon-16"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"

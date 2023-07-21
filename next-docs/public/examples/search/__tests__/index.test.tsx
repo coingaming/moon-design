@@ -10,12 +10,11 @@ const withRtl = (component: JSX.Element) => <div dir="rtl">{component}</div>;
 
 describe('Search', () => {
   afterEach(cleanup);
-  it('renders Default', async () => {
+  it('renders Default', () => {
     const tree = render(<Default />);
     expect(tree).toMatchSnapshot();
   });
-
-  it('renders NoTransition', async () => {
+  it('renders NoTransition', () => {
     const tree = render(<NoTransition />);
     expect(tree).toMatchSnapshot();
   });
@@ -23,8 +22,12 @@ describe('Search', () => {
 
 describe('Search in RTL', () => {
   afterEach(cleanup);
-  it('renders Default', async () => {
+  it('renders Default', () => {
     const tree = render(withRtl(<Default />));
+    expect(tree).toMatchSnapshot();
+  });
+  it('renders NoTransition', () => {
+    const tree = render(<NoTransition />);
     expect(tree).toMatchSnapshot();
   });
 });

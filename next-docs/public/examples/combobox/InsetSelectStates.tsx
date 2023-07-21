@@ -11,16 +11,19 @@ const people = [
   { id: 6, label: 'Hellen Schmidt', value: 'Hellen Schmidt' },
 ];
 
-const filter = (query: string, people: ({ id: number, label: string, value: string })[]) => {
+const filter = (
+  query: string,
+  people: { id: number; label: string; value: string }[]
+) => {
   return query === ''
     ? people
     : people.filter(({ value }) =>
-      value
-        .toLowerCase()
-        .replace(/\s+/g, '')
-        .includes(query.toLowerCase().replace(/\s+/g, ''))
-    );
-}
+        value
+          .toLowerCase()
+          .replace(/\s+/g, '')
+          .includes(query.toLowerCase().replace(/\s+/g, ''))
+      );
+};
 
 const Example = () => {
   const [selected0, setSelected0] = useState(people[2]);
@@ -44,15 +47,15 @@ const Example = () => {
         value={selected0}
         onChange={setSelected0}
         onQueryChange={setQuery0}
-        isError={true}
-        className='w-full max-w-xs'
+        isError
+        className="w-full max-w-xs"
       >
         {({ open }) => (
           <>
             <Combobox.InsetSelect
               open={open}
-              label='Error'
-              placeholder='Choose an option'
+              label="Error"
+              placeholder="Choose an option"
               displayValue={({ label }) => label}
             >
               <ControlsChevronDownSmall />
@@ -60,7 +63,7 @@ const Example = () => {
             <Combobox.Transition>
               <Combobox.Options>
                 {filteredPeople0.length === 0 && query0 !== '' ? (
-                  <div className='relative cursor-default select-none py-2 px-4 text-trunks'>
+                  <div className="relative cursor-default select-none py-2 px-4 text-trunks">
                     Nothing found.
                   </div>
                 ) : (
@@ -73,7 +76,8 @@ const Example = () => {
                         </MenuItem>
                       )}
                     </Combobox.Option>
-                )))}
+                  ))
+                )}
               </Combobox.Options>
             </Combobox.Transition>
             <Combobox.Hint>Informative message holder</Combobox.Hint>
@@ -85,15 +89,15 @@ const Example = () => {
         value={selected1}
         onChange={setSelected1}
         onQueryChange={setQuery1}
-        disabled={true}
-        className='w-full max-w-xs'
+        disabled
+        className="w-full max-w-xs"
       >
         {({ open }) => (
           <>
             <Combobox.InsetSelect
               open={open}
-              label='Disabled'
-              placeholder='Choose an option'
+              label="Disabled"
+              placeholder="Choose an option"
               displayValue={({ label }) => label}
             >
               <ControlsChevronDownSmall />
@@ -101,7 +105,7 @@ const Example = () => {
             <Combobox.Transition>
               <Combobox.Options>
                 {filteredPeople1.length === 0 && query1 !== '' ? (
-                  <div className='relative cursor-default select-none py-2 px-4 text-trunks'>
+                  <div className="relative cursor-default select-none py-2 px-4 text-trunks">
                     Nothing found.
                   </div>
                 ) : (
@@ -114,7 +118,8 @@ const Example = () => {
                         </MenuItem>
                       )}
                     </Combobox.Option>
-                )))}
+                  ))
+                )}
               </Combobox.Options>
             </Combobox.Transition>
             <Combobox.Hint>Informative message holder</Combobox.Hint>
@@ -126,22 +131,23 @@ const Example = () => {
         value={selected2}
         onChange={setSelected2}
         onQueryChange={setQuery2}
-        className='w-full max-w-xs'
+        className="w-full max-w-xs"
         nullable
       >
         {({ open }) => (
           <>
             <Combobox.InsetSelect
               open={open}
-              label='Without placeholder (nullable)'
+              label="Without placeholder (nullable)"
               displayValue={(person) => person?.label}
+              aria-label="Without placeholder"
             >
               <ControlsChevronDownSmall />
             </Combobox.InsetSelect>
             <Combobox.Transition>
-              <Combobox.Options className='z-5 rounded-moon-s-md box-border bg-gohan shadow-moon-lg py-2 px-1 my-2'>
+              <Combobox.Options className="z-5 rounded-moon-s-md box-border bg-gohan shadow-moon-lg py-2 px-1 my-2">
                 {filteredPeople2.length === 0 && query2 !== '' ? (
-                  <div className='relative cursor-default select-none py-2 px-4 text-trunks'>
+                  <div className="relative cursor-default select-none py-2 px-4 text-trunks">
                     Nothing found.
                   </div>
                 ) : (
@@ -154,7 +160,8 @@ const Example = () => {
                         </MenuItem>
                       )}
                     </Combobox.Option>
-                )))}
+                  ))
+                )}
               </Combobox.Options>
             </Combobox.Transition>
             <Combobox.Hint>Informative message holder</Combobox.Hint>
@@ -166,22 +173,25 @@ const Example = () => {
         value={selected3}
         onChange={setSelected3}
         onQueryChange={setQuery3}
-        className='w-full max-w-xs'
+        className="w-full max-w-xs"
       >
         {({ open }) => (
           <>
             <Combobox.InsetSelect
               open={open}
-              label='List options width'
-              placeholder='Choose an option'
+              label="List options width"
+              placeholder="Choose an option"
               displayValue={({ label }) => label}
             >
               <ControlsChevronDownSmall />
             </Combobox.InsetSelect>
             <Combobox.Transition>
-              <Combobox.Options menuWidth='w-40' className='z-5 rounded-moon-s-md box-border bg-gohan shadow-moon-lg py-2 px-1 my-2'>
+              <Combobox.Options
+                menuWidth="w-40"
+                className="z-5 rounded-moon-s-md box-border bg-gohan shadow-moon-lg py-2 px-1 my-2"
+              >
                 {filteredPeople3.length === 0 && query3 !== '' ? (
-                  <div className='relative cursor-default select-none py-2 px-4 text-trunks'>
+                  <div className="relative cursor-default select-none py-2 px-4 text-trunks">
                     Nothing found.
                   </div>
                 ) : (
@@ -194,7 +204,8 @@ const Example = () => {
                         </MenuItem>
                       )}
                     </Combobox.Option>
-                )))}
+                  ))
+                )}
               </Combobox.Options>
             </Combobox.Transition>
             <Combobox.Hint>Informative message holder</Combobox.Hint>

@@ -11,16 +11,19 @@ const people = [
   { id: 6, label: 'Hellen Schmidt', value: 'Hellen Schmidt' },
 ];
 
-const filter = (query: string, people: ({ id: number, label: string, value: string })[]) => {
+const filter = (
+  query: string,
+  people: { id: number; label: string; value: string }[]
+) => {
   return query === ''
     ? people
     : people.filter(({ value }) =>
-      value
-        .toLowerCase()
-        .replace(/\s+/g, '')
-        .includes(query.toLowerCase().replace(/\s+/g, ''))
-    );
-}
+        value
+          .toLowerCase()
+          .replace(/\s+/g, '')
+          .includes(query.toLowerCase().replace(/\s+/g, ''))
+      );
+};
 
 const Example = () => {
   const [selected, setSelected] = useState([]);
@@ -41,9 +44,9 @@ const Example = () => {
           <>
             <Combobox.InsetMultiSelect
               open={open}
-              label='Select label'
+              label="Select label"
               counter={selected.length}
-              placeholder='Choose an option'
+              placeholder="Choose an option"
               displayValue={({ label }) => label}
             >
               <ControlsChevronDownSmall />
@@ -51,7 +54,7 @@ const Example = () => {
             <Combobox.Transition>
               <Combobox.Options>
                 {filteredPeople.length === 0 && query !== '' ? (
-                  <div className='relative cursor-default select-none py-2 px-4 text-trunks'>
+                  <div className="relative cursor-default select-none py-2 px-4 text-trunks">
                     Nothing found.
                   </div>
                 ) : (
@@ -59,12 +62,13 @@ const Example = () => {
                     <Combobox.Option value={person} key={index}>
                       {({ selected, active }) => (
                         <MenuItem isActive={active} isSelected={selected}>
-                        <MenuItem.Title>{person.label}</MenuItem.Title>
-                        <MenuItem.Checkbox isSelected={selected} />
-                      </MenuItem>
+                          <MenuItem.Title>{person.label}</MenuItem.Title>
+                          <MenuItem.Checkbox isSelected={selected} />
+                        </MenuItem>
                       )}
                     </Combobox.Option>
-                )))}
+                  ))
+                )}
               </Combobox.Options>
             </Combobox.Transition>
             <Combobox.Hint>Informative message holder</Combobox.Hint>
