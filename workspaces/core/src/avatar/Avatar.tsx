@@ -8,7 +8,7 @@ import Wrapper from './styles/Wrapper';
 import type AvatarProps from './private/types/AvatarProps';
 import type StatusProps from './private/types/StatusProps';
 
-const AvatarRoot: React.FC<AvatarProps> = ({
+const AvatarRoot = ({
   name, // deprecated
   imageUrl,
   color, // deprecated
@@ -19,7 +19,7 @@ const AvatarRoot: React.FC<AvatarProps> = ({
   isRounded, // deprecated
   className,
   children,
-}) => {
+}: AvatarProps) => {
   return (
     <Wrapper
       size={size}
@@ -44,10 +44,10 @@ const AvatarRoot: React.FC<AvatarProps> = ({
   );
 };
 
-const Status: React.FC<StatusProps> = ({
+const Status = ({
   position = { vertical: 'bottom', horizontal: 'right' },
   className,
-}) => {
+}: StatusProps) => {
   return (
     <div
       className={mergeClassnames(

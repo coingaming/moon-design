@@ -9,17 +9,13 @@ import type PanelProps from './private/types/PanelProps';
 import type TabProps from './private/types/TabProps';
 import type TabsProps from './private/types/TabsProps';
 
-const TabsRoot: React.FC<TabsProps> = ({
-  children,
-  selectedIndex,
-  onChange,
-}) => (
+const TabsRoot = ({ children, selectedIndex, onChange }: TabsProps) => (
   <HeadlesssTab.Group selectedIndex={selectedIndex} onChange={onChange}>
     {children}
   </HeadlesssTab.Group>
 );
 
-const List: React.FC<ListProps> = ({ children, className, size = 'md' }) => {
+const List = ({ children, className, size = 'md' }: ListProps) => {
   const states = {
     size: size,
   };
@@ -37,7 +33,7 @@ const List: React.FC<ListProps> = ({ children, className, size = 'md' }) => {
   );
 };
 
-const Segment: React.FC<ListProps> = ({ children, className, size = 'md' }) => {
+const Segment = ({ children, className, size = 'md' }: ListProps) => {
   const states = {
     size: size,
   };
@@ -56,8 +52,8 @@ const Segment: React.FC<ListProps> = ({ children, className, size = 'md' }) => {
   );
 };
 
-const Tab: React.FC<TabProps> = React.forwardRef(
-  ({ children, as = 'button', className, ...rest }, ref) => {
+const Tab = React.forwardRef(
+  ({ children, as = 'button', className, ...rest }: TabProps, ref) => {
     const { size } = useTabsContext('Tabs.Tab');
     const isDisabled = rest.disabled;
     return (
@@ -88,8 +84,8 @@ const Tab: React.FC<TabProps> = React.forwardRef(
   }
 );
 
-const Pill: React.FC<TabProps> = React.forwardRef(
-  ({ children, className, as = 'button', ...rest }, ref) => {
+const Pill = React.forwardRef(
+  ({ children, className, as = 'button', ...rest }: TabProps, ref) => {
     const { size } = useTabsContext('Tabs.Pill');
     const isDisabled = rest.disabled;
     return (
@@ -117,11 +113,11 @@ const Pill: React.FC<TabProps> = React.forwardRef(
   }
 );
 
-const Panels: React.FC<PanelProps> = ({ children, className }) => (
+const Panels = ({ children, className }: PanelProps) => (
   <HeadlesssTab.Panels className={className}>{children}</HeadlesssTab.Panels>
 );
 
-const Panel: React.FC<PanelProps> = ({ children, className }) => (
+const Panel = ({ children, className }: PanelProps) => (
   <HeadlesssTab.Panel className={className}>{children}</HeadlesssTab.Panel>
 );
 
