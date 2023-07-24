@@ -7,7 +7,7 @@ type PagesProps = {
   maxNotTruncablePages?: number;
   truncableText?: JSX.Element | string;
   locale?: string;
-  hrefsArray?: string[];
+  hrefsArray?: string[] | unknown[];
   as?: React.ElementType<any>;
 };
 

@@ -1,5 +1,14 @@
 # Change Log
 
+## 10.1.1
+
+### Patch Changes
+
+- Base updates
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@10.1.1
+  - @heathmont/moon-utils@10.1.1
+
 ## 10.1.0
 
 ### Minor Changes
