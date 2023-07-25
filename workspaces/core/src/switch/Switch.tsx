@@ -1,4 +1,4 @@
-import React, { FC, useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Switch as HeadlessSwitch } from '@headlessui/react';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import getIconSize from './private/utils/getIconSize';
@@ -9,7 +9,7 @@ import type Props from './private/types/Props';
 
 type SwitchProps = Props & React.ComponentProps<typeof HeadlessSwitch>;
 
-const Switch: FC<SwitchProps> = ({
+const Switch = ({
   size = 'sm',
   checked = false,
   name,
@@ -21,7 +21,7 @@ const Switch: FC<SwitchProps> = ({
   offIcon,
   className,
   ...rest
-}) => {
+}: SwitchProps) => {
   const [enabled, setEnabled] = useState(checked);
   const setEnabledHandler = (data: boolean) => {
     onChange && onChange(data);

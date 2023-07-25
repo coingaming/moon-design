@@ -3,7 +3,7 @@ import mergeClassnames from '../../mergeClassnames/mergeClassnames';
 import setStatusDeprecatedSize from '../private/utils/setStatusDeprecatedSize';
 import type AvatarProps from '../private/types/AvatarProps';
 
-const StatusDeprecated: React.FC<AvatarProps> = ({ size, statusOrigin }) => (
+const StatusDeprecated = ({ size, statusOrigin }: AvatarProps) => (
   <div
     className={mergeClassnames(
       'absolute border-solid border-beerus rounded-full bg-roshi',

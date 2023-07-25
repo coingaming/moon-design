@@ -40,13 +40,7 @@ const getDashStyle = ({ dashRatio, pathRadius }: DashStyleProps) => {
   };
 };
 
-const Path: React.FC<PathProps> = ({
-  dashRatio,
-  pathRadius,
-  style,
-  classes,
-  center,
-}) => (
+const Path = ({ dashRatio, pathRadius, style, classes, center }: PathProps) => (
   <path
     strokeLinecap="round"
     style={{

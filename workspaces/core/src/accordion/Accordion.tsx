@@ -73,12 +73,7 @@ const AccordionRoot = ({
   );
 };
 
-const Item: React.FC<ItemProps> = ({
-  children,
-  value,
-  className,
-  disabled,
-}) => {
+const Item = ({ children, value, className, disabled }: ItemProps) => {
   const { itemSize } = useAccordionContext('Accordion.Item');
   const contentElement = useRef<HTMLDivElement>(null);
   return (
@@ -97,7 +92,7 @@ const Item: React.FC<ItemProps> = ({
   );
 };
 
-const Header: React.FC<HeaderProps> = ({ children, className }) => (
+const Header = ({ children, className }: HeaderProps) => (
   <RadixAccordion.Header
     className={mergeClassnames(
       'w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none',
@@ -108,7 +103,7 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => (
   </RadixAccordion.Header>
 );
 
-const Button: React.FC<ButtonProps> = ({ children, className }) => {
+const Button = ({ children, className }: ButtonProps) => {
   const { size, disabled } = useAccordionItemContext('Accordion.Button');
   return (
     <RadixAccordion.Trigger
@@ -126,7 +121,7 @@ const Button: React.FC<ButtonProps> = ({ children, className }) => {
   );
 };
 
-const Content: React.FC<ContentProps> = ({ children, className }) => {
+const Content = ({ children, className }: ContentProps) => {
   const { contentElement } = useAccordionItemContext('Accordion.Content');
   return (
     <RadixAccordion.Content
@@ -142,7 +137,7 @@ const Content: React.FC<ContentProps> = ({ children, className }) => {
   );
 };
 
-const ContentOutside: React.FC<ContentProps> = ({ children, className }) => {
+const ContentOutside = ({ children, className }: ContentProps) => {
   const { size } = useAccordionItemContext('Accordion.ContentOutside');
   return (
     <RadixAccordion.Content
