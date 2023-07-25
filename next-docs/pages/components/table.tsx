@@ -30,6 +30,7 @@ const Example = () => {
         image={image}
         isInProgress
         isRtlSupport
+        isAriaSupport
       >
         <p>{text}</p>
         <p>
