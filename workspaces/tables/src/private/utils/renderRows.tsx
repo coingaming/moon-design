@@ -120,6 +120,7 @@ const renderRows = ({
                 stickySide={row.cells[0].parent?.sticky ? 'left' : ''}
                 rowSize={rowSize}
                 isCellBorder={isCellBorder}
+                role="cell"
               >
                 <div className="flex items-center h-full w-full justify-center pl-2">
                   <Checkbox

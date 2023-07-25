@@ -1,5 +1,5 @@
 type HeaderTRProps = {
-  children: any;
+  children: React.ReactNode;
   reactTableProps?: any;
 };
 

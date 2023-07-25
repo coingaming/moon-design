@@ -7,7 +7,7 @@ type TDProps = {
   isExpanded?: boolean;
   isLastRow?: boolean;
   hasParent?: boolean;
-  isSelected?: boolean | any;
+  isSelected?: boolean;
   customBackground?: boolean;
   backgroundColor?: string;
   fontColor?: string;
@@ -21,6 +21,7 @@ type TDProps = {
   onClick?: () => void;
   rowSize?: RowSizes;
   isCellBorder?: boolean;
+  role?: string;
 };
 
 export default TDProps;

@@ -16,10 +16,12 @@ const BodyTR = forwardRef<HTMLDivElement, BodyTRProps>(
     fontColor,
     customBackground,
     isHovered,
+    role = 'row',
   }) => {
     return (
       <div
         {...reactTableProps}
+        role={role}
         className={mergeClassnames(
           'relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors',
           isExpanded && 'first:rounded-bl-0 last:rounded-br-0',

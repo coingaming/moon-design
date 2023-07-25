@@ -16,6 +16,7 @@ type BodyTRProps = {
   children?: React.ReactNode;
   selectable?: boolean;
   isHovered?: boolean;
+  role?: string;
 };
 
 export default BodyTRProps;

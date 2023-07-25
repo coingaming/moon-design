@@ -25,9 +25,11 @@ const TD = forwardRef<HTMLDivElement, TDProps>(
     headerBackgroundColor,
     rowSize,
     isCellBorder,
+    role = 'cell',
   }) => (
     <div
       {...reactTableProps}
+      role={role}
       className={mergeClassnames(
         'relative box-border justify-between items-center text-start',
         getFontSize(rowSize),

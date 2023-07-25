@@ -115,7 +115,12 @@ const renderSpanRows = ({
           }
         >
           {useCheckbox && (
-            <TD selectable={true} rowSize={rowSize} isCellBorder={isCellBorder}>
+            <TD
+              selectable={true}
+              rowSize={rowSize}
+              isCellBorder={isCellBorder}
+              role="cell"
+            >
               <div className="flex items-center h-full w-full justify-center pl-2">
                 <Checkbox
                   id={row.id}
