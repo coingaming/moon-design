@@ -5,12 +5,12 @@ import getPathRatio from './private/utils/getPathRatio';
 import getSize from './private/utils/getSize';
 import type Props from './private/types/Props';
 
-const CircularProgress: React.FC<Props> = ({
+const CircularProgress = ({
   value = 0,
   size = 'md',
   bgColor = 'stroke-trunks/[.24]',
   progressColor = 'stroke-piccolo',
-}) => {
+}: Props) => {
   const VIEWBOX_WIDTH = 100;
   const VIEWBOX_HEIGHT = 100;
   const PATH_RADIUS = (VIEWBOX_HEIGHT - 8) / 2;

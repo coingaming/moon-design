@@ -2,11 +2,13 @@ import React from 'react';
 import mergeClassnames from '../../mergeClassnames/mergeClassnames';
 import getBorderRadius from './utils/getBorderRadius';
 
-const Container: React.FC<{
+type Props = {
   disabled?: boolean;
   inputSize?: string;
   children?: React.ReactNode;
-}> = ({ children, disabled, inputSize }) => (
+};
+
+const Container = ({ children, disabled, inputSize }: Props) => (
   <div
     className={mergeClassnames(
       'w-full max-w-full relative z-0',

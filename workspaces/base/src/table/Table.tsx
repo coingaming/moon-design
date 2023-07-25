@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import React from 'react';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
 type Size = 'xs' | 'sm' | 'md' | 'lg' | 'xl' | '2xl';
@@ -26,97 +26,85 @@ const getSize = (size?: Size) => {
   }
 };
 
-const TableRoot: FC<TableProps> = ({ children, className, size, ...props }) => {
-  return (
-    <table
-      className={mergeClassnames(
-        'w-full border-separate border-spacing-y-1 [&_td]:px-2',
-        getSize(size),
-        className
-      )}
-      {...props}
-    >
-      {children}
-    </table>
-  );
-};
+const TableRoot = ({ children, className, size, ...props }: TableProps) => (
+  <table
+    className={mergeClassnames(
+      'w-full border-separate border-spacing-y-1 [&_td]:px-2',
+      getSize(size),
+      className
+    )}
+    {...props}
+  >
+    {children}
+  </table>
+);
 
 type BodyProps = {
   className?: string;
   children?: React.ReactNode;
 };
 
-const Body: FC<BodyProps> = ({ children, className, ...props }) => {
-  return (
-    <tbody className={mergeClassnames(className)} {...props}>
-      {children}
-    </tbody>
-  );
-};
+const Body = ({ children, className, ...props }: BodyProps) => (
+  <tbody className={mergeClassnames(className)} {...props}>
+    {children}
+  </tbody>
+);
 
 type HeadProps = {
   className?: string;
   children?: React.ReactNode;
 };
 
-const Head: FC<HeadProps> = ({ children, className, ...props }) => {
-  return (
-    <thead className={mergeClassnames(className)} {...props}>
-      {children}
-    </thead>
-  );
-};
+const Head = ({ children, className, ...props }: HeadProps) => (
+  <thead className={mergeClassnames(className)} {...props}>
+    {children}
+  </thead>
+);
 
 type RowProps = {
   className?: string;
   children?: React.ReactNode;
 };
 
-const Row: FC<RowProps> = ({ children, className, ...props }) => {
-  return (
-    <tr className={mergeClassnames(className)} {...props}>
-      {children}
-    </tr>
-  );
-};
+const Row = ({ children, className, ...props }: RowProps) => (
+  <tr className={mergeClassnames(className)} {...props}>
+    {children}
+  </tr>
+);
 
 type HeaderProps = {
   className?: string;
   children?: React.ReactNode;
 };
 
-const Header: FC<HeaderProps> = ({ children, className, ...props }) => {
-  return (
-    <th
-      className={mergeClassnames(
-        className,
-        'text-moon-14 px-3 py-2 font-medium text-start text-bulma'
-      )}
-      {...props}
-    >
-      {children}
-    </th>
-  );
-};
+const Header = ({ children, className, ...props }: HeaderProps) => (
+  <th
+    className={mergeClassnames(
+      className,
+      'text-moon-14 px-3 py-2 font-medium text-start text-bulma'
+    )}
+    {...props}
+  >
+    {children}
+  </th>
+);
 
 type CellProps = {
   className?: string;
   children?: React.ReactNode;
 };
 
-const Cell: FC<CellProps> = ({ children, className, ...props }) => {
-  return (
-    <td
-      className={mergeClassnames(
-        className,
-        'text-start text-bulma bg-gohan first:rounded-tl-moon-s-sm first:rounded-bl-moon-s-sm last:rounded-tr-moon-s-sm last:rounded-br-moon-s-sm'
-      )}
-      {...props}
-    >
-      {children}
-    </td>
-  );
-};
+const Cell = ({ children, className, ...props }: CellProps) => (
+  <td
+    className={mergeClassnames(
+      className,
+      'text-start text-bulma bg-gohan first:rounded-tl-moon-s-sm first:rounded-bl-moon-s-sm last:rounded-tr-moon-s-sm last:rounded-br-moon-s-sm'
+    )}
+    {...props}
+  >
+    {children}
+  </td>
+);
 
 const Table = Object.assign(TableRoot, { Row, Header, Cell, Body, Head });
 

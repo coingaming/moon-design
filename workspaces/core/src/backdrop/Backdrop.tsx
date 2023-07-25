@@ -2,7 +2,7 @@ import React from 'react';
 import { Transition } from '@headlessui/react';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
-const Backdrop: React.FC<{ className?: string }> = ({ className }) => (
+const Backdrop = ({ className }: { className?: string }) => (
   <Transition.Child
     as={React.Fragment}
     enter="ease-out duration-300 transition-opacity"

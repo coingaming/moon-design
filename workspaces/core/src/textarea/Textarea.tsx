@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import { useFormItemContext } from '../form/Form';
+import useFormItemContext from '../form/private/utils/useFormItemContext';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import type TextareaProps from './private/types/TextareaProps';
 

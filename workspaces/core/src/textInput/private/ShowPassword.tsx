@@ -1,9 +1,11 @@
 import React from 'react';
 
-const ShowPassword: React.FC<{
+type Props = {
   onClick: () => void;
   children?: React.ReactNode;
-}> = ({ children, onClick }) => (
+};
+
+const ShowPassword = ({ children, onClick }: Props) => (
   <div
     onClick={onClick}
     role="alert"
