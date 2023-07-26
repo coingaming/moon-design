@@ -284,7 +284,7 @@ const Table = ({
         >
           {footerGroups.map((footerGroup: HeaderGroup<object>) => (
             <HeaderTR
-              key={footerGroup.id}
+              key={footerGroup.getHeaderGroupProps().key}
               reactTableProps={{ ...footerGroup.getHeaderGroupProps() }}
             >
               {footerGroup.headers.map((column: HeaderGroup<object>) =>
