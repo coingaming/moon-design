@@ -3,15 +3,10 @@ import { mergeClassnames } from '@heathmont/moon-core-tw';
 import type TableWrapperProps from '../private/types/TableWrapperProps';
 
 const TableWrapper = forwardRef<HTMLDivElement, TableWrapperProps>(
-  ({
-    reactTableProps,
-    variant,
-    className,
-    style,
-    children,
-    onScroll,
-    tableRef,
-  }) => (
+  (
+    { reactTableProps, variant, className, style, children, onScroll },
+    tableRef
+  ) => (
     <div
       {...reactTableProps}
       ref={tableRef}

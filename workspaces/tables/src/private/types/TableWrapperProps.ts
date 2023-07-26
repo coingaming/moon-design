@@ -11,7 +11,7 @@ type TableWrapperProps = {
   evenRowBackgroundColor?: string;
   headerBackgroundColor?: string;
   children?: React.ReactNode;
-  tableRef?: any;
+  tableRef?: React.ForwardedRef<HTMLDivElement>;
   onScroll?: (tableRef: any) => any;
 };
 

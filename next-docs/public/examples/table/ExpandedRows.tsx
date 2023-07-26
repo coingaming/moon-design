@@ -125,8 +125,6 @@ const Example = () => {
       defaultColumn={defaultColumn}
       width={800}
       height={400}
-      defaultRowBackgroundColor="gohan"
-      evenRowBackgroundColor="trunks"
     />
   );
 };

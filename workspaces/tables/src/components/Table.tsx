@@ -127,6 +127,7 @@ const Table = ({
 
     return (
       <TH
+        key={column.id}
         reactTableProps={{
           ...column.getHeaderProps(
             isSorting ? sortingColumn.getSortByToggleProps : undefined
@@ -162,6 +163,7 @@ const Table = ({
       column as unknown as UseResizeColumnsColumnProps<object>;
     return (
       <TH
+        key={column.id}
         reactTableProps={{ ...column.getHeaderProps() }}
         headerBackgroundColor={headerBackgroundColor}
         stickySide={
@@ -212,7 +214,10 @@ const Table = ({
         headerBackgroundColor={headerBackgroundColor}
       >
         {headerGroups.map((headerGroup: HeaderGroup<object>) => (
-          <HeaderTR reactTableProps={{ ...headerGroup.getHeaderGroupProps() }}>
+          <HeaderTR
+            reactTableProps={{ ...headerGroup.getHeaderGroupProps() }}
+            key={headerGroup.getHeaderGroupProps().key}
+          >
             {headerGroup.headers.map((column: HeaderGroup<object>, index) =>
               getHeaderRow(
                 column,
@@ -279,6 +284,7 @@ const Table = ({
         >
           {footerGroups.map((footerGroup: HeaderGroup<object>) => (
             <HeaderTR
+              key={footerGroup.id}
               reactTableProps={{ ...footerGroup.getHeaderGroupProps() }}
             >
               {footerGroup.headers.map((column: HeaderGroup<object>) =>

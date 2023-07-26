@@ -93,7 +93,6 @@ const renderRows = ({
             isLastRow={isLastRow}
             isSelected={selectedRows[`${row.id}-${rowProps.key}`]}
             isHovered={hoveredRow === `${row.id}-${rowProps.key}`}
-            customBackground={!!row.original?.backgroundColor}
             backgroundColor={backgroundColor}
             fontColor={fontColor}
             onHoverToggle={
@@ -110,7 +109,6 @@ const renderRows = ({
                 isExpanded={expandedRow.isExpanded}
                 isLastRow={isLastRow}
                 hasParent={!!expandedRow.depth}
-                customBackground={!!row.original?.backgroundColor}
                 backgroundColor={backgroundColor}
                 fontColor={fontColor}
                 isSelected={selectedRows[`${row.id}-${rowProps.key}`]}
@@ -134,6 +132,7 @@ const renderRows = ({
 
             {row.cells.map((cell: Cell<{}>, index) => (
               <TD
+                key={cell.getCellProps().key}
                 reactTableProps={{ ...cell.getCellProps() }}
                 // @ts-ignore
                 stickySide={cell?.column?.parent?.sticky}
@@ -141,7 +140,6 @@ const renderRows = ({
                 isLastColumn={index === row.cells.length - 1}
                 isSelected={selectedRows[`${row.id}-${rowProps.key}`]}
                 isHovered={hoveredRow === `${row.id}-${rowProps.key}`}
-                customBackground={!!row.original?.backgroundColor}
                 backgroundColor={backgroundColor}
                 fontColor={fontColor}
                 rowSize={rowSize}

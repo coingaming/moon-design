@@ -18,6 +18,7 @@ import RowSizes from '../../public/examples/table/RowSizes';
 import SelectableCheckboxes from '../../public/examples/table/SelectableCheckboxes';
 import SelectableRows from '../../public/examples/table/SelectableRows';
 import Sorting from '../../public/examples/table/Sorting';
+import Zebra from '../../public/examples/table/Zebra';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
@@ -120,6 +121,11 @@ const Example = () => {
         title="Editable"
         preview={<Editable />}
         code={examples ? examples.Editable : 'Loading'}
+      />
+      <Preview
+        title="Zebra style rows"
+        preview={<Zebra />}
+        code={examples ? examples.Zebra : 'Loading'}
       />
       <PropsTable
         title="Table props"

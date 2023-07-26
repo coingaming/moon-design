@@ -12,8 +12,6 @@ export { default as Header } from './components/Header';
 export * from './components/Header';
 export { default as HeaderTR } from './components/HeaderTR';
 export * from './components/HeaderTR';
-export { default as HiddenTH } from './components/HiddenTH';
-export * from './components/HiddenTH';
 export { default as HiddenTR } from './components/HiddenTR';
 export * from './components/HiddenTR';
 export { default as InputCell } from './components/InputCell';

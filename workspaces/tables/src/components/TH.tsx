@@ -6,17 +6,21 @@ import getPadding from '../private/utils/getPadding';
 import type THProps from '../private/types/THProps';
 
 const TH = forwardRef<HTMLDivElement, THProps>(
-  ({
-    headerBackgroundColor,
-    children,
-    reactTableProps,
-    stickySide,
-    isLastColumn,
-    variant,
-    rowSize,
-    isCellBorder,
-  }) => (
+  (
+    {
+      headerBackgroundColor,
+      children,
+      reactTableProps,
+      stickySide,
+      isLastColumn,
+      variant,
+      rowSize,
+      isCellBorder,
+    },
+    ref
+  ) => (
     <div
+      ref={ref}
       {...reactTableProps}
       className={mergeClassnames(
         'relative text-start justify-between font-medium',

@@ -6,28 +6,31 @@ import getPadding from '../private/utils/getPadding';
 import type TDProps from '../private/types/TDProps';
 
 const TD = forwardRef<HTMLDivElement, TDProps>(
-  ({
-    reactTableProps,
-    isExpanded,
-    isSelected,
-    fontColor,
-    customBackground,
-    backgroundColor,
-    isLastRow,
-    hasParent,
-    selectable,
-    children,
-    stickySide,
-    isFirstColumn,
-    isLastColumn,
-    isHovered,
-    variant,
-    headerBackgroundColor,
-    rowSize,
-    isCellBorder,
-    role = 'cell',
-  }) => (
+  (
+    {
+      reactTableProps,
+      isExpanded,
+      isSelected,
+      fontColor,
+      backgroundColor,
+      isLastRow,
+      hasParent,
+      selectable,
+      children,
+      stickySide,
+      isFirstColumn,
+      isLastColumn,
+      isHovered,
+      variant,
+      headerBackgroundColor,
+      rowSize,
+      isCellBorder,
+      role = 'cell',
+    },
+    ref
+  ) => (
     <div
+      ref={ref}
       {...reactTableProps}
       role={role}
       className={mergeClassnames(
@@ -48,11 +51,9 @@ const TD = forwardRef<HTMLDivElement, TDProps>(
           : 'text-bulma',
         stickySide === 'right' &&
           'before:content-[""] before:absolute before:w-px before:bg-beerus before:h-[70%] before:bottom-[15%] before:left-0 before:-margin-l-2',
-        (isSelected && !customBackground) || isHovered
+        isSelected || isHovered
           ? 'border-piccolo cursor-pointer'
-          : customBackground
-          ? `bg-${backgroundColor} border-${backgroundColor}`
-          : 'bg-gohan',
+          : `bg-${backgroundColor} border-${backgroundColor}`,
         selectable &&
           'pl-2 text-bulma border-t-1 border-t-transparent border-b-1 border-b-transparent',
         variant === 'calendar' &&

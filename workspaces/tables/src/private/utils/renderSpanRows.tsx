@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, Fragment } from 'react';
 import { Checkbox } from '@heathmont/moon-core-tw';
 import BodyTR from '../../components/BodyTR';
 import TD from '../../components/TD';
@@ -65,6 +65,7 @@ const renderSpanRows = ({
 
       const makeCellForRowSpanned = (cell: Cell<{}>) => (
         <TD
+          key={cell.getCellProps().key}
           reactTableProps={{ ...cell.getCellProps() }}
           isHovered={hoveredRow === `${row.id}-${rowProps.key}`}
           rowSize={rowSize}
@@ -74,6 +75,7 @@ const renderSpanRows = ({
 
       const makeCellForNormalRow = (cell: Cell<{}>) => (
         <TD
+          key={cell.getCellProps().key}
           reactTableProps={{ ...cell.getCellProps() }}
           isHovered={hoveredRow === `${row.id}-${rowProps.key}`}
           rowSize={rowSize}
@@ -84,76 +86,77 @@ const renderSpanRows = ({
       );
 
       return (
-        <BodyTR
-          {...row.getRowProps()}
-          withOffset={!isRowSpanned}
-          customBackground={!!row.original?.backgroundColor}
-          backgroundColor={backgroundColor}
-          fontColor={fontColor}
-          isLastRow={isLastRow}
-          isSelected={isSelected}
-          isHovered={hoveredRow === `${row.id}-${rowProps.key}`}
-          onClick={
-            selectable
-              ? onRowSelectHandler
-                ? () => {
-                    setSelected(!isSelected);
-                    onRowSelectHandler(row);
-                  }
+        <Fragment key={`${row.id}-${rowProps.key}`}>
+          <BodyTR
+            {...row.getRowProps()}
+            withOffset={!isRowSpanned}
+            backgroundColor={backgroundColor}
+            fontColor={fontColor}
+            isLastRow={isLastRow}
+            isSelected={isSelected}
+            isHovered={hoveredRow === `${row.id}-${rowProps.key}`}
+            onClick={
+              selectable
+                ? onRowSelectHandler
+                  ? () => {
+                      setSelected(!isSelected);
+                      onRowSelectHandler(row);
+                    }
+                  : onRowClickHandler
+                  ? () => onRowClickHandler(row)
+                  : undefined
                 : onRowClickHandler
                 ? () => onRowClickHandler(row)
                 : undefined
-              : onRowClickHandler
-              ? () => onRowClickHandler(row)
-              : undefined
-          }
-          onHoverToggle={
-            getOnRowClickHandler || getOnRowSelectHandler
-              ? (hover?: boolean) =>
-                  setHoveredRow(hover ? `${row.id}-${rowProps.key}` : '')
-              : undefined
-          }
-        >
-          {useCheckbox && (
-            <TD
-              selectable={true}
-              rowSize={rowSize}
-              isCellBorder={isCellBorder}
-              role="cell"
-            >
-              <div className="flex items-center h-full w-full justify-center pl-2">
-                <Checkbox
-                  id={row.id}
-                  checked={isSelected}
-                  onClick={(e: any) => e.stopPropagation()}
-                  onChange={() => {
-                    setSelected(!isSelected);
+            }
+            onHoverToggle={
+              getOnRowClickHandler || getOnRowSelectHandler
+                ? (hover?: boolean) =>
+                    setHoveredRow(hover ? `${row.id}-${rowProps.key}` : '')
+                : undefined
+            }
+          >
+            {useCheckbox && (
+              <TD
+                selectable={true}
+                rowSize={rowSize}
+                isCellBorder={isCellBorder}
+                role="cell"
+              >
+                <div className="flex items-center h-full w-full justify-center pl-2">
+                  <Checkbox
+                    id={row.id}
+                    checked={isSelected}
+                    onClick={(e: any) => e.stopPropagation()}
+                    onChange={() => {
+                      setSelected(!isSelected);
 
-                    if (onRowSelectHandler) onRowSelectHandler(row);
-                  }}
-                />
-              </div>
-            </TD>
-          )}
-          {row.cells.map((cell: Cell<{}>) => {
-            if (!rowSpanHeaders) return makeCellForNormalRow(cell);
+                      if (onRowSelectHandler) onRowSelectHandler(row);
+                    }}
+                  />
+                </div>
+              </TD>
+            )}
+            {row.cells.map((cell: Cell<{}>) => {
+              if (!rowSpanHeaders) return makeCellForNormalRow(cell);
 
-            const rowSpanHeader = rowSpanHeaders.find(
-              (rowSpanHeader) =>
-                rowSpanHeader &&
-                cell.column &&
-                rowSpanHeader.id === cell.column.id
-            );
-            const isRowSpanned =
-              rowSpanHeader && rowSpanHeader.value === cell.value;
+              const rowSpanHeader = rowSpanHeaders.find(
+                (rowSpanHeader) =>
+                  rowSpanHeader &&
+                  cell.column &&
+                  rowSpanHeader.id === cell.column.id
+              );
+              const isRowSpanned =
+                rowSpanHeader && rowSpanHeader.value === cell.value;
 
-            if (isRowSpanned) return makeCellForRowSpanned(cell);
+              if (isRowSpanned) return makeCellForRowSpanned(cell);
 
-            if (rowSpanHeader) rowSpanHeader.value = cell.value;
+              if (rowSpanHeader) rowSpanHeader.value = cell.value;
 
-            return makeCellForNormalRow(cell);
-          })}
-        </BodyTR>
+              return makeCellForNormalRow(cell);
+            })}
+          </BodyTR>
+        </Fragment>
       );
     }
   );

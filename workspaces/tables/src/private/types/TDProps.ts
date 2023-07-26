@@ -8,7 +8,6 @@ type TDProps = {
   isLastRow?: boolean;
   hasParent?: boolean;
   isSelected?: boolean;
-  customBackground?: boolean;
   backgroundColor?: string;
   fontColor?: string;
   children?: React.ReactNode;

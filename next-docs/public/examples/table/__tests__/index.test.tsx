@@ -18,6 +18,7 @@ import CustomContent from '../CustomContent';
 import MiniMap from '../MiniMap';
 import Calendar from '../Calendar';
 import Editable from '../Editable';
+import Zebra from '../Zebra';
 
 const withRtl = (component: JSX.Element) => <div dir="rtl">{component}</div>;
 
@@ -83,6 +84,10 @@ describe('Table', () => {
     const tree = render(<Editable />);
     expect(tree).toMatchSnapshot();
   });
+  it('renders Zebra', () => {
+    const tree = render(<Zebra />);
+    expect(tree).toMatchSnapshot();
+  });
 });
 
 describe('Table in RTL', () => {
@@ -145,6 +150,10 @@ describe('Table in RTL', () => {
   });
   it('renders Editable', () => {
     const tree = render(withRtl(<Editable />));
+    expect(tree).toMatchSnapshot();
+  });
+  it('renders Zebra', () => {
+    const tree = render(withRtl(<Zebra />));
     expect(tree).toMatchSnapshot();
   });
 });

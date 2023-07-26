@@ -85,8 +85,6 @@ const Example = () => {
       defaultColumn={defaultColumn}
       width={800}
       height={400}
-      defaultRowBackgroundColor="gohan.40"
-      evenRowBackgroundColor="gohan.80"
       getOnRowClickHandler={(row: any) => () => {
         (row as any).canExpand
           ? () => (row as any).toggleRowExpanded()

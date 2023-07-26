@@ -10,7 +10,6 @@ type BodyTRProps = {
   isLastRow?: boolean;
   isLastNestedRow?: boolean;
   isSelected?: boolean | string;
-  customBackground?: boolean;
   backgroundColor?: string;
   fontColor?: string;
   children?: React.ReactNode;

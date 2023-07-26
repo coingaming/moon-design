@@ -1,17 +1,7 @@
 import React, { forwardRef } from 'react';
 import { mergeClassnames } from '@heathmont/moon-core-tw';
 import getSizeStyles from '../private/utils/getSizeStyles';
-
-export interface InputProps
-  extends Omit<React.InputHTMLAttributes<HTMLInputElement>, 'size'> {
-  className?: string;
-  type?: React.HTMLInputTypeAttribute;
-  size?: 'sm' | 'md' | 'lg';
-  error?: boolean;
-  isRtl?: boolean;
-  disabled?: boolean;
-  id?: string;
-}
+import type InputProps from '../private/types/InputProps';
 
 const InputCell = forwardRef<HTMLInputElement, InputProps>(
   (

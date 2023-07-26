@@ -69,9 +69,6 @@ const Example = () => {
       height={400}
       getOnRowClickHandler={(row: any) => () => {}}
       variant="calendar"
-      headerBackgroundColor="gohan"
-      defaultRowBackgroundColor="gohan.40"
-      evenRowBackgroundColor="gohan.80"
     />
   );
 };
