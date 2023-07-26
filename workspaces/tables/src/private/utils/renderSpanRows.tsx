@@ -1,29 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, Fragment } from 'react';
 import { Checkbox } from '@heathmont/moon-core-tw';
-import { Cell, Row } from 'react-table';
 import BodyTR from '../../components/BodyTR';
-import CheckboxTD from '../../components/CheckboxTD';
 import TD from '../../components/TD';
-import { RowSpanHeader } from '../../hooks/useRowSpan';
-import type RowSizes from '../types/RowSizes';
-
-type RenderSpanRowsProps<D extends object = {}> = {
-  rows: Row<D>[];
-  prepareRow: (row: Row<D>) => void;
-  rowSpanHeaders: RowSpanHeader[];
-  getOnRowClickHandler?: (
-    row: Row<D>
-  ) => ((row: Row<D>) => void | (() => void)) | undefined;
-  getOnRowSelectHandler?: (
-    row: Row<D>
-  ) => ((row: Row<D>) => void | (() => void)) | undefined;
-  evenRowBackgroundColor: string;
-  defaultRowBackgroundColor: string;
-  selectable?: boolean;
-  useCheckbox?: boolean;
-  rowSize?: RowSizes;
-  isCellBorder?: boolean;
-};
+import type RowSpanHeaderProps from '../../private/types/RowSpanHeaderProps';
+import type RenderSpanRowsProps from '../types/RenderSpanRowsProps';
+import type { Cell, Row } from 'react-table';
 
 const renderSpanRows = ({
   rows,
@@ -72,7 +53,7 @@ const renderSpanRows = ({
       const fontColor = row.original?.fontColor;
       const isRowSpanned =
         rowSpanHeaders &&
-        rowSpanHeaders.some((rowSpanHeader: RowSpanHeader) =>
+        rowSpanHeaders.some((rowSpanHeader: RowSpanHeaderProps) =>
           row.cells.some(
             (cell: Cell<{}>) =>
               cell.column &&
@@ -84,6 +65,7 @@ const renderSpanRows = ({
 
       const makeCellForRowSpanned = (cell: Cell<{}>) => (
         <TD
+          key={cell.getCellProps().key}
           reactTableProps={{ ...cell.getCellProps() }}
           isHovered={hoveredRow === `${row.id}-${rowProps.key}`}
           rowSize={rowSize}
@@ -93,6 +75,7 @@ const renderSpanRows = ({
 
       const makeCellForNormalRow = (cell: Cell<{}>) => (
         <TD
+          key={cell.getCellProps().key}
           reactTableProps={{ ...cell.getCellProps() }}
           isHovered={hoveredRow === `${row.id}-${rowProps.key}`}
           rowSize={rowSize}
@@ -103,71 +86,77 @@ const renderSpanRows = ({
       );
 
       return (
-        <BodyTR
-          {...row.getRowProps()}
-          withOffset={!isRowSpanned}
-          customBackground={!!row.original?.backgroundColor}
-          backgroundColor={backgroundColor}
-          fontColor={fontColor}
-          isLastRow={isLastRow}
-          isSelected={isSelected}
-          isHovered={hoveredRow === `${row.id}-${rowProps.key}`}
-          onClick={
-            selectable
-              ? onRowSelectHandler
-                ? () => {
-                    setSelected(!isSelected);
-                    onRowSelectHandler(row);
-                  }
+        <Fragment key={`${row.id}-${rowProps.key}`}>
+          <BodyTR
+            {...row.getRowProps()}
+            withOffset={!isRowSpanned}
+            backgroundColor={backgroundColor}
+            fontColor={fontColor}
+            isLastRow={isLastRow}
+            isSelected={isSelected}
+            isHovered={hoveredRow === `${row.id}-${rowProps.key}`}
+            onClick={
+              selectable
+                ? onRowSelectHandler
+                  ? () => {
+                      setSelected(!isSelected);
+                      onRowSelectHandler(row);
+                    }
+                  : onRowClickHandler
+                  ? () => onRowClickHandler(row)
+                  : undefined
                 : onRowClickHandler
                 ? () => onRowClickHandler(row)
                 : undefined
-              : onRowClickHandler
-              ? () => onRowClickHandler(row)
-              : undefined
-          }
-          onHoverToggle={
-            getOnRowClickHandler || getOnRowSelectHandler
-              ? (hover?: boolean) =>
-                  setHoveredRow(hover ? `${row.id}-${rowProps.key}` : '')
-              : undefined
-          }
-        >
-          {useCheckbox && (
-            <TD selectable={true} rowSize={rowSize} isCellBorder={isCellBorder}>
-              <CheckboxTD>
-                <Checkbox
-                  id={row.id}
-                  checked={isSelected}
-                  onClick={(e: any) => e.stopPropagation()}
-                  onChange={() => {
-                    setSelected(!isSelected);
+            }
+            onHoverToggle={
+              getOnRowClickHandler || getOnRowSelectHandler
+                ? (hover?: boolean) =>
+                    setHoveredRow(hover ? `${row.id}-${rowProps.key}` : '')
+                : undefined
+            }
+          >
+            {useCheckbox && (
+              <TD
+                selectable={true}
+                rowSize={rowSize}
+                isCellBorder={isCellBorder}
+                role="cell"
+              >
+                <div className="flex items-center h-full w-full justify-center pl-2">
+                  <Checkbox
+                    id={row.id}
+                    checked={isSelected}
+                    onClick={(e: any) => e.stopPropagation()}
+                    onChange={() => {
+                      setSelected(!isSelected);
 
-                    if (onRowSelectHandler) onRowSelectHandler(row);
-                  }}
-                />
-              </CheckboxTD>
-            </TD>
-          )}
-          {row.cells.map((cell: Cell<{}>) => {
-            if (!rowSpanHeaders) return makeCellForNormalRow(cell);
+                      if (onRowSelectHandler) onRowSelectHandler(row);
+                    }}
+                  />
+                </div>
+              </TD>
+            )}
+            {row.cells.map((cell: Cell<{}>) => {
+              if (!rowSpanHeaders) return makeCellForNormalRow(cell);
 
-            const rowSpanHeader = rowSpanHeaders.find(
-              (rowSpanHeader) =>
-                rowSpanHeader &&
-                cell.column &&
-                rowSpanHeader.id === cell.column.id
-            );
-            const isRowSpanned =
-              rowSpanHeader && rowSpanHeader.value === cell.value;
+              const rowSpanHeader = rowSpanHeaders.find(
+                (rowSpanHeader) =>
+                  rowSpanHeader &&
+                  cell.column &&
+                  rowSpanHeader.id === cell.column.id
+              );
+              const isRowSpanned =
+                rowSpanHeader && rowSpanHeader.value === cell.value;
 
-            if (isRowSpanned) return makeCellForRowSpanned(cell);
+              if (isRowSpanned) return makeCellForRowSpanned(cell);
 
-            if (rowSpanHeader) rowSpanHeader.value = cell.value;
+              if (rowSpanHeader) rowSpanHeader.value = cell.value;
 
-            return makeCellForNormalRow(cell);
-          })}
-        </BodyTR>
+              return makeCellForNormalRow(cell);
+            })}
+          </BodyTR>
+        </Fragment>
       );
     }
   );

@@ -1,6 +1,6 @@
 import type RowSizes from '../types/RowSizes';
 
-const getFontSize = (rowSize: RowSizes) => {
+const getFontSize = (rowSize?: RowSizes) => {
   switch (rowSize) {
     case 'xs':
       return 'text-moon-12';

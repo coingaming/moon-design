@@ -11,13 +11,14 @@ import CustomContent from '../../public/examples/table/CustomContent';
 import DeepTable from '../../public/examples/table/DeepTable';
 import Default from '../../public/examples/table/Default';
 import Editable from '../../public/examples/table/Editable';
-import ExpandedRow from '../../public/examples/table/ExpandedRow';
+import ExpandedRows from '../../public/examples/table/ExpandedRows';
 import MiniMap from '../../public/examples/table/MiniMap';
 import RowGaps from '../../public/examples/table/RowGaps';
 import RowSizes from '../../public/examples/table/RowSizes';
 import SelectableCheckboxes from '../../public/examples/table/SelectableCheckboxes';
 import SelectableRows from '../../public/examples/table/SelectableRows';
 import Sorting from '../../public/examples/table/Sorting';
+import Zebra from '../../public/examples/table/Zebra';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
@@ -30,6 +31,7 @@ const Example = () => {
         image={image}
         isInProgress
         isRtlSupport
+        isAriaSupport
       >
         <p>{text}</p>
         <p>
@@ -87,8 +89,8 @@ const Example = () => {
       />
       <Preview
         title="Expanded Rows"
-        preview={<ExpandedRow />}
-        code={examples ? examples.ExpandedRow : 'Loading'}
+        preview={<ExpandedRows />}
+        code={examples ? examples.ExpandedRows : 'Loading'}
       />
       <Preview
         title="With Sorting"
@@ -119,6 +121,11 @@ const Example = () => {
         title="Editable"
         preview={<Editable />}
         code={examples ? examples.Editable : 'Loading'}
+      />
+      <Preview
+        title="Zebra style rows"
+        preview={<Zebra />}
+        code={examples ? examples.Zebra : 'Loading'}
       />
       <PropsTable
         title="Table props"

@@ -50,7 +50,6 @@
     "jest": "27.4.7",
     "jest-environment-jsdom": "27.4.6",
     "lodash": "4.17.21",
-    "namor": "2.0.4",
     "next": "13.1.6",
     "parse-link-header": "2.0.0",
     "postcss": "8.4.14",
