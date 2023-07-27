@@ -1,20 +1,14 @@
 import React from 'react';
-import { useFormItemContext } from '../form/Form';
+import useFormItemContext from '../form/private/utils/useFormItemContext';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
+import type HintProps from './private/types/HintProps';
 
-type HintProps = {
-  error?: boolean;
-  className?: string;
-  disabled?: boolean;
-  children?: React.ReactNode;
-};
-
-const Hint: React.FC<HintProps> = ({
+const Hint = ({
   children,
   error: hintError,
   disabled,
   className,
-}) => {
+}: HintProps) => {
   const { error: formItemError } = useFormItemContext('Hint');
   const error = hintError || formItemError;
   return (

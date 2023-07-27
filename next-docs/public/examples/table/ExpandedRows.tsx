@@ -1,7 +1,5 @@
 import React from 'react';
 import { Table } from '@heathmont/moon-table-tw';
-import { BodyTR } from '@heathmont/moon-table-tw';
-import { TD } from '@heathmont/moon-table-tw';
 
 interface HeaderProps {
   isAllRowsExpanded: boolean;
@@ -127,8 +125,6 @@ const Example = () => {
       defaultColumn={defaultColumn}
       width={800}
       height={400}
-      defaultRowBackgroundColor="gohan"
-      evenRowBackgroundColor="trunks"
     />
   );
 };

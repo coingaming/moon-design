@@ -7,12 +7,12 @@ import getPositionStyles from './private/utils/getPositionStyles';
 import type DrawerRootProps from './private/types/DrawerRootProps';
 import type PanelProps from './private/types/PanelProps';
 
-const DrawerRoot: React.FC<DrawerRootProps> = ({
+const DrawerRoot = ({
   children,
   className,
   open,
   setOpen,
-}) => (
+}: DrawerRootProps) => (
   <Transition appear show={open} as={React.Fragment}>
     <Dialog
       onClose={setOpen}
@@ -23,11 +23,7 @@ const DrawerRoot: React.FC<DrawerRootProps> = ({
   </Transition>
 );
 
-const Panel: React.FC<PanelProps> = ({
-  children,
-  className,
-  position = 'end',
-}) => (
+const Panel = ({ children, className, position = 'end' }: PanelProps) => (
   <Transition.Child
     as={React.Fragment}
     enter="ease-out duration-300 transition-transform"

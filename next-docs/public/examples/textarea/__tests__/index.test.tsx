@@ -24,7 +24,7 @@ describe('Textarea', () => {
     const tree = render(<Customization />);
     expect(tree).toMatchSnapshot();
   });
-  it('renders with button', () => {
+  it('renders WithBtn', () => {
     const tree = render(<WithBtn />);
     expect(tree).toMatchSnapshot();
   });
@@ -44,7 +44,7 @@ describe('Textarea in RTL', () => {
     const tree = render(withRtl(<Customization />));
     expect(tree).toMatchSnapshot();
   });
-  it('renders with button', () => {
+  it('renders WithBtn', () => {
     const tree = render(withRtl(<WithBtn />));
     expect(tree).toMatchSnapshot();
   });

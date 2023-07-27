@@ -7,26 +7,24 @@ type TabsRootProps = {
   className?: string;
   children?: React.ReactNode;
 };
-const TabsRoot: React.FC<TabsRootProps> = ({ className, children }) => {
-  return <div className={mergeClassnames(className)}>{children}</div>;
-};
+const TabsRoot = ({ className, children }: TabsRootProps) => (
+  <div className={mergeClassnames(className)}>{children}</div>
+);
 
 type ListProps = {
   className?: string;
   children?: React.ReactNode;
 };
-const List: React.FC<ListProps> = ({ className, children }) => {
-  return (
-    <div
-      className={mergeClassnames(
-        className,
-        'flex items-center justify-center w-fit gap-2'
-      )}
-    >
-      {children}
-    </div>
-  );
-};
+const List = ({ className, children }: ListProps) => (
+  <div
+    className={mergeClassnames(
+      className,
+      'flex items-center justify-center w-fit gap-2'
+    )}
+  >
+    {children}
+  </div>
+);
 
 type TabProps = {
   className?: string;
@@ -163,9 +161,9 @@ type PanelsProps = {
   children?: React.ReactNode;
 };
 
-const Panels: React.FC<PanelsProps> = ({ children }) => {
-  return <div className=" relative">{children}</div>;
-};
+const Panels = ({ children }: PanelsProps) => (
+  <div className=" relative">{children}</div>
+);
 
 type PanelProps = {
   id: string;
@@ -173,16 +171,15 @@ type PanelProps = {
   children?: React.ReactNode;
 };
 
-const Panel: React.FC<PanelProps> = ({ children, id }) => {
-  return (
-    <div
-      id={id}
-      className=" absolute w-full p-5  [&:not(:target)]:hidden target:block"
-    >
-      {children}
-    </div>
-  );
-};
+const Panel = ({ children, id }: PanelProps) => (
+  <div
+    id={id}
+    className=" absolute w-full p-5  [&:not(:target)]:hidden target:block"
+  >
+    {children}
+  </div>
+);
 
 const Tabs = Object.assign(TabsRoot, { List, Tab, Panels, Panel, Pill });
+
 export default Tabs;

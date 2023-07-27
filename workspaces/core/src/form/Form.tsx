@@ -1,38 +1,12 @@
-import React, { createContext, forwardRef, useContext, ReactNode } from 'react';
+import React, { forwardRef } from 'react';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
+import FormContext from './private/utils/FormContext';
+import ItemContext from './private/utils/ItemContext';
+import useFormContext from './private/utils/useFormContext';
+import type FormProps from './private/types/FormProps';
+import type ItemProps from './private/types/ItemProps';
+import type WithChildren from './private/types/WithChildren';
 
-type WithChildren<T = {}> = T & { children?: ReactNode };
-
-//Form
-type FormState = {
-  size?: 'sm' | 'md' | 'lg';
-};
-
-const FormContext = createContext<FormState>({});
-FormContext.displayName = 'FormContext';
-
-export const useFormContext = (component: string) => {
-  const context = useContext(FormContext);
-  if (context === null) {
-    const err = new Error(`<${component}> is missing root <Form /> component.`);
-    // if (Error.captureStackTrace) Error.captureStackTrace(err, useMenuItemContext);
-    throw err;
-  }
-  return context;
-};
-
-interface FormProps
-  extends Omit<
-    React.DetailedHTMLProps<
-      React.FormHTMLAttributes<HTMLFormElement>,
-      HTMLFormElement
-    >,
-    'size'
-  > {
-  size?: 'sm' | 'md' | 'lg';
-  className?: string;
-  onSubmit?: () => void;
-}
 const FormRoot = forwardRef<HTMLFormElement, WithChildren<FormProps>>(
   ({ children, size = 'md', className, onSubmit, ...rest }, ref) => {
     const state = {
@@ -53,45 +27,14 @@ const FormRoot = forwardRef<HTMLFormElement, WithChildren<FormProps>>(
   }
 );
 
-// Form.Item
-type ItemState = {
-  size?: 'sm' | 'md' | 'lg';
-  disabled?: boolean;
-  error?: boolean;
-};
-
-const ItemContext = createContext<ItemState>({});
-ItemContext.displayName = 'ItemContext';
-
-export const useFormItemContext = (component: string) => {
-  const context = useContext(ItemContext);
-  if (context === null) {
-    const err = new Error(
-      `<${component}> is missing root <Form.Item /> component.`
-    );
-    // if (Error.captureStackTrace) Error.captureStackTrace(err, useMenuItemContext);
-    throw err;
-  }
-  return context;
-};
-
-type ItemProps = {
-  size?: 'sm' | 'md' | 'lg';
-  disabled?: boolean;
-  error?: boolean;
-  className?: string;
-  children?: React.ReactNode;
-};
-
-const Item: React.FC<WithChildren<ItemProps>> = ({
+const Item = ({
   children,
   size,
   disabled,
   error,
   className,
-}) => {
+}: WithChildren<ItemProps>) => {
   const { size: formSize } = useFormContext('Form.Item');
-
   const state = {
     size: size || formSize,
     disabled: disabled,

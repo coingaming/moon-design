@@ -1,11 +1,7 @@
 import React from 'react';
 import mergeClassnames from '../../mergeClassnames/mergeClassnames';
 
-type Props = {
-  isHover: boolean;
-};
-
-const Hover: React.FC<Props> = ({ isHover }) => (
+const Hover = ({ isHover }: { isHover: boolean }) => (
   <span
     aria-hidden="true"
     className={mergeClassnames(

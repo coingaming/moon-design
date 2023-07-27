@@ -1,16 +1,11 @@
-import React, { forwardRef, ReactNode } from 'react';
+import React, { forwardRef } from 'react';
 import { mergeClassnames } from '@heathmont/moon-core-tw';
-import type RowGaps from '../private/types/RowGaps';
-
-type BodyProps = {
-  children?: ReactNode;
-  reactTableProps?: any;
-  rowGap?: RowGaps;
-};
+import type BodyProps from '../private/types/BodyProps';
 
 const Body = forwardRef<HTMLDivElement, BodyProps>(
-  ({ children, reactTableProps, rowGap }) => (
+  ({ children, reactTableProps, rowGap }, ref) => (
     <div
+      ref={ref}
       {...reactTableProps}
       className={mergeClassnames(
         'flex flex-col relative z-0 no-scrollbar',

@@ -54,7 +54,7 @@ describe('Accordion', () => {
     const tree = render(<Background />);
     expect(tree).toMatchSnapshot();
   });
-  it('renders toggle all outside', () => {
+  it('renders ControlOutside', () => {
     const tree = render(<ControlOutside />);
     expect(tree).toMatchSnapshot();
   });
@@ -98,7 +98,7 @@ describe('Accordion in RTL', () => {
     const tree = render(withRtl(<Background />));
     expect(tree).toMatchSnapshot();
   });
-  it('renders toggle all outside', () => {
+  it('renders ControlOutside', () => {
     const tree = render(withRtl(<ControlOutside />));
     expect(tree).toMatchSnapshot();
   });

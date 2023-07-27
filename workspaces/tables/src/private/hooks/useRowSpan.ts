@@ -1,14 +1,10 @@
-import { TableInstance } from 'react-table';
-
-export type RowSpanHeader = {
-  id: string;
-  value?: any;
-};
+import type RowSpanHeaderProps from '../types/RowSpanHeaderProps';
+import type { TableInstance } from 'react-table';
 
 const useInstance = (instance: TableInstance<object>) => {
   const { allColumns } = instance;
 
-  let rowSpanHeaders: RowSpanHeader[] = [];
+  let rowSpanHeaders: RowSpanHeaderProps[] = [];
 
   allColumns.forEach((column: any) => {
     const { id, withRowSpan } = column;

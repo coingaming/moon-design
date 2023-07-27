@@ -8,11 +8,13 @@ export type BaseOptionType = {
   value: string | number;
 };
 
-const Options: React.FC<{
+type OptionsProps = {
   options: BaseOptionType[];
   formatOptionLabel?: (data: BaseOptionType) => JSX.Element | string;
   menuWidth?: string;
-}> = ({ options, formatOptionLabel, menuWidth }) => (
+};
+
+const Options = ({ options, formatOptionLabel, menuWidth }: OptionsProps) => (
   <Listbox.Options
     className={mergeClassnames(
       menuWidth ? menuWidth : 'w-full min-w-[18.75rem]',

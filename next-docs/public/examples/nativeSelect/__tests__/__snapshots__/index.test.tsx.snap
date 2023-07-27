@@ -358,6 +358,409 @@ Object {
 }
 `;
 
+exports[`NativeSelect in RTL renders Sizes 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        dir="rtl"
+      >
+        <div
+          class="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+        >
+          <div
+            class="w-full"
+          >
+            <label
+              class="w-full block text-bulma pb-2 text-moon-14"
+              for="test-1"
+            >
+              Small (sm)
+            </label>
+            <span
+              class="block relative w-full"
+            >
+              <select
+                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-8 leading-8 rounded-moon-i-xs rtl:[&:not([disabled])]:hover:rounded-moon-i-xs rtl:[&:not([disabled])]:focus:rounded-moon-i-xs rtl:invalid:rounded-moon-i-xs ltr:[&:not([disabled])]:hover:rounded-moon-i-xs ltr:[&:not([disabled])]:focus:rounded-moon-i-xs ltr:invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+                id="test-1"
+              >
+                <option
+                  value="Italy"
+                >
+                  Italy
+                </option>
+                <option
+                  value="Spain"
+                >
+                  Spain
+                </option>
+                <option
+                  value="China"
+                >
+                  China
+                </option>
+                <option
+                  value="Germany"
+                >
+                  Germany
+                </option>
+              </select>
+              <svg
+                class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-16"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 13L16 19L10 13"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+          </div>
+          <div
+            class="w-full"
+          >
+            <label
+              class="w-full block text-bulma pb-2 text-moon-16"
+              for="test-2"
+            >
+              Medium (Default: md)
+            </label>
+            <span
+              class="block relative w-full"
+            >
+              <select
+                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+                id="test-2"
+              >
+                <option
+                  value="Italy"
+                >
+                  Italy
+                </option>
+                <option
+                  value="Spain"
+                >
+                  Spain
+                </option>
+                <option
+                  value="China"
+                >
+                  China
+                </option>
+                <option
+                  value="Germany"
+                >
+                  Germany
+                </option>
+              </select>
+              <svg
+                class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 13L16 19L10 13"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+          </div>
+          <div
+            class="w-full"
+          >
+            <label
+              class="w-full block text-bulma pb-2 text-moon-16"
+              for="test-3"
+            >
+              Large (lg)
+            </label>
+            <span
+              class="block relative w-full"
+            >
+              <select
+                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+                id="test-3"
+              >
+                <option
+                  value="Italy"
+                >
+                  Italy
+                </option>
+                <option
+                  value="Spain"
+                >
+                  Spain
+                </option>
+                <option
+                  value="China"
+                >
+                  China
+                </option>
+                <option
+                  value="Germany"
+                >
+                  Germany
+                </option>
+              </select>
+              <svg
+                class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 13L16 19L10 13"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <div
+        class="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+      >
+        <div
+          class="w-full"
+        >
+          <label
+            class="w-full block text-bulma pb-2 text-moon-14"
+            for="test-1"
+          >
+            Small (sm)
+          </label>
+          <span
+            class="block relative w-full"
+          >
+            <select
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-8 leading-8 rounded-moon-i-xs rtl:[&:not([disabled])]:hover:rounded-moon-i-xs rtl:[&:not([disabled])]:focus:rounded-moon-i-xs rtl:invalid:rounded-moon-i-xs ltr:[&:not([disabled])]:hover:rounded-moon-i-xs ltr:[&:not([disabled])]:focus:rounded-moon-i-xs ltr:invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+              id="test-1"
+            >
+              <option
+                value="Italy"
+              >
+                Italy
+              </option>
+              <option
+                value="Spain"
+              >
+                Spain
+              </option>
+              <option
+                value="China"
+              >
+                China
+              </option>
+              <option
+                value="Germany"
+              >
+                Germany
+              </option>
+            </select>
+            <svg
+              class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-16"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22 13L16 19L10 13"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+        </div>
+        <div
+          class="w-full"
+        >
+          <label
+            class="w-full block text-bulma pb-2 text-moon-16"
+            for="test-2"
+          >
+            Medium (Default: md)
+          </label>
+          <span
+            class="block relative w-full"
+          >
+            <select
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+              id="test-2"
+            >
+              <option
+                value="Italy"
+              >
+                Italy
+              </option>
+              <option
+                value="Spain"
+              >
+                Spain
+              </option>
+              <option
+                value="China"
+              >
+                China
+              </option>
+              <option
+                value="Germany"
+              >
+                Germany
+              </option>
+            </select>
+            <svg
+              class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22 13L16 19L10 13"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+        </div>
+        <div
+          class="w-full"
+        >
+          <label
+            class="w-full block text-bulma pb-2 text-moon-16"
+            for="test-3"
+          >
+            Large (lg)
+          </label>
+          <span
+            class="block relative w-full"
+          >
+            <select
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+              id="test-3"
+            >
+              <option
+                value="Italy"
+              >
+                Italy
+              </option>
+              <option
+                value="Spain"
+              >
+                Spain
+              </option>
+              <option
+                value="China"
+              >
+                China
+              </option>
+              <option
+                value="Germany"
+              >
+                Germany
+              </option>
+            </select>
+            <svg
+              class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22 13L16 19L10 13"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
 exports[`NativeSelect in RTL renders States 1`] = `
 Object {
   "asFragment": [Function],
@@ -1088,6 +1491,401 @@ Object {
         />
       </svg>
     </span>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`NativeSelect renders Sizes 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+      >
+        <div
+          class="w-full"
+        >
+          <label
+            class="w-full block text-bulma pb-2 text-moon-14"
+            for="test-1"
+          >
+            Small (sm)
+          </label>
+          <span
+            class="block relative w-full"
+          >
+            <select
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-8 leading-8 rounded-moon-i-xs rtl:[&:not([disabled])]:hover:rounded-moon-i-xs rtl:[&:not([disabled])]:focus:rounded-moon-i-xs rtl:invalid:rounded-moon-i-xs ltr:[&:not([disabled])]:hover:rounded-moon-i-xs ltr:[&:not([disabled])]:focus:rounded-moon-i-xs ltr:invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+              id="test-1"
+            >
+              <option
+                value="Italy"
+              >
+                Italy
+              </option>
+              <option
+                value="Spain"
+              >
+                Spain
+              </option>
+              <option
+                value="China"
+              >
+                China
+              </option>
+              <option
+                value="Germany"
+              >
+                Germany
+              </option>
+            </select>
+            <svg
+              class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-16"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22 13L16 19L10 13"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+        </div>
+        <div
+          class="w-full"
+        >
+          <label
+            class="w-full block text-bulma pb-2 text-moon-16"
+            for="test-2"
+          >
+            Medium (Default: md)
+          </label>
+          <span
+            class="block relative w-full"
+          >
+            <select
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+              id="test-2"
+            >
+              <option
+                value="Italy"
+              >
+                Italy
+              </option>
+              <option
+                value="Spain"
+              >
+                Spain
+              </option>
+              <option
+                value="China"
+              >
+                China
+              </option>
+              <option
+                value="Germany"
+              >
+                Germany
+              </option>
+            </select>
+            <svg
+              class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22 13L16 19L10 13"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+        </div>
+        <div
+          class="w-full"
+        >
+          <label
+            class="w-full block text-bulma pb-2 text-moon-16"
+            for="test-3"
+          >
+            Large (lg)
+          </label>
+          <span
+            class="block relative w-full"
+          >
+            <select
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+              id="test-3"
+            >
+              <option
+                value="Italy"
+              >
+                Italy
+              </option>
+              <option
+                value="Spain"
+              >
+                Spain
+              </option>
+              <option
+                value="China"
+              >
+                China
+              </option>
+              <option
+                value="Germany"
+              >
+                Germany
+              </option>
+            </select>
+            <svg
+              class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22 13L16 19L10 13"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+    >
+      <div
+        class="w-full"
+      >
+        <label
+          class="w-full block text-bulma pb-2 text-moon-14"
+          for="test-1"
+        >
+          Small (sm)
+        </label>
+        <span
+          class="block relative w-full"
+        >
+          <select
+            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-8 leading-8 rounded-moon-i-xs rtl:[&:not([disabled])]:hover:rounded-moon-i-xs rtl:[&:not([disabled])]:focus:rounded-moon-i-xs rtl:invalid:rounded-moon-i-xs ltr:[&:not([disabled])]:hover:rounded-moon-i-xs ltr:[&:not([disabled])]:focus:rounded-moon-i-xs ltr:invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+            id="test-1"
+          >
+            <option
+              value="Italy"
+            >
+              Italy
+            </option>
+            <option
+              value="Spain"
+            >
+              Spain
+            </option>
+            <option
+              value="China"
+            >
+              China
+            </option>
+            <option
+              value="Germany"
+            >
+              Germany
+            </option>
+          </select>
+          <svg
+            class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-16"
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M22 13L16 19L10 13"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </span>
+      </div>
+      <div
+        class="w-full"
+      >
+        <label
+          class="w-full block text-bulma pb-2 text-moon-16"
+          for="test-2"
+        >
+          Medium (Default: md)
+        </label>
+        <span
+          class="block relative w-full"
+        >
+          <select
+            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+            id="test-2"
+          >
+            <option
+              value="Italy"
+            >
+              Italy
+            </option>
+            <option
+              value="Spain"
+            >
+              Spain
+            </option>
+            <option
+              value="China"
+            >
+              China
+            </option>
+            <option
+              value="Germany"
+            >
+              Germany
+            </option>
+          </select>
+          <svg
+            class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M22 13L16 19L10 13"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </span>
+      </div>
+      <div
+        class="w-full"
+      >
+        <label
+          class="w-full block text-bulma pb-2 text-moon-16"
+          for="test-3"
+        >
+          Large (lg)
+        </label>
+        <span
+          class="block relative w-full"
+        >
+          <select
+            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+            id="test-3"
+          >
+            <option
+              value="Italy"
+            >
+              Italy
+            </option>
+            <option
+              value="Spain"
+            >
+              Spain
+            </option>
+            <option
+              value="China"
+            >
+              China
+            </option>
+            <option
+              value="Germany"
+            >
+              Germany
+            </option>
+          </select>
+          <svg
+            class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M22 13L16 19L10 13"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </span>
+      </div>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

@@ -1,5 +1,5 @@
 import React, { createContext, useContext } from 'react';
-import type Size from './types/Size';
+import type Size from '../types/Size';
 
 const BottomSheetContext = createContext<{
   size?: Size;

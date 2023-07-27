@@ -1,29 +1,9 @@
 import React, { Fragment, useState } from 'react';
 import { Checkbox } from '@heathmont/moon-core-tw';
-import { Cell, Row, UseExpandedRowProps } from 'react-table';
 import BodyTR from '../../components/BodyTR';
-import CheckboxTD from '../../components/CheckboxTD';
 import TD from '../../components/TD';
-import { RowSubComponentProps } from '../../func/Table';
-import type RowSizes from '../types/RowSizes';
-
-type RenderRowsProps<D extends object = {}> = {
-  rows: Row<D>[];
-  prepareRow: (row: Row<D>) => void;
-  evenRowBackgroundColor: string;
-  defaultRowBackgroundColor: string;
-  getOnRowClickHandler?: (
-    row: Row<D>
-  ) => ((row: Row<D>) => void | (() => void)) | undefined;
-  getOnRowSelectHandler?: (
-    row: Row<D>
-  ) => ((row: Row<D>) => void | (() => void)) | undefined;
-  renderRowSubComponent?: (props: RowSubComponentProps) => JSX.Element;
-  selectable?: boolean;
-  useCheckbox?: boolean;
-  rowSize?: RowSizes;
-  isCellBorder?: boolean;
-};
+import type RenderRowsProps from '../types/RenderRowsProps';
+import type { Cell, Row, UseExpandedRowProps } from 'react-table';
 
 const renderRows = ({
   rows,
@@ -113,7 +93,6 @@ const renderRows = ({
             isLastRow={isLastRow}
             isSelected={selectedRows[`${row.id}-${rowProps.key}`]}
             isHovered={hoveredRow === `${row.id}-${rowProps.key}`}
-            customBackground={!!row.original?.backgroundColor}
             backgroundColor={backgroundColor}
             fontColor={fontColor}
             onHoverToggle={
@@ -130,7 +109,6 @@ const renderRows = ({
                 isExpanded={expandedRow.isExpanded}
                 isLastRow={isLastRow}
                 hasParent={!!expandedRow.depth}
-                customBackground={!!row.original?.backgroundColor}
                 backgroundColor={backgroundColor}
                 fontColor={fontColor}
                 isSelected={selectedRows[`${row.id}-${rowProps.key}`]}
@@ -140,19 +118,21 @@ const renderRows = ({
                 stickySide={row.cells[0].parent?.sticky ? 'left' : ''}
                 rowSize={rowSize}
                 isCellBorder={isCellBorder}
+                role="cell"
               >
-                <CheckboxTD>
+                <div className="flex items-center h-full w-full justify-center pl-2">
                   <Checkbox
                     id={row.id}
                     checked={selectedRows[`${row.id}-${rowProps.key}`]}
                     onClick={(e: any) => e.stopPropagation()}
                   />
-                </CheckboxTD>
+                </div>
               </TD>
             )}
 
             {row.cells.map((cell: Cell<{}>, index) => (
               <TD
+                key={cell.getCellProps().key}
                 reactTableProps={{ ...cell.getCellProps() }}
                 // @ts-ignore
                 stickySide={cell?.column?.parent?.sticky}
@@ -160,7 +140,6 @@ const renderRows = ({
                 isLastColumn={index === row.cells.length - 1}
                 isSelected={selectedRows[`${row.id}-${rowProps.key}`]}
                 isHovered={hoveredRow === `${row.id}-${rowProps.key}`}
-                customBackground={!!row.original?.backgroundColor}
                 backgroundColor={backgroundColor}
                 fontColor={fontColor}
                 rowSize={rowSize}

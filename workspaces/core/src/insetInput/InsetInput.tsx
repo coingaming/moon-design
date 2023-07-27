@@ -1,5 +1,5 @@
 import React, { forwardRef, useEffect } from 'react';
-import { useFormItemContext } from '../form/Form';
+import useFormItemContext from '../form/private/utils/useFormItemContext';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import useRegisterChild from '../private/utils/useRegisterChild';
 import InsetInputContext from './private/utils/InsetInputContext';

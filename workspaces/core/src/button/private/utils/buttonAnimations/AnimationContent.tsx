@@ -8,7 +8,7 @@ import getIconSize from '../buttonSizes/getIconSize';
 import getLoaderSize from '../buttonSizes/getLoaderSize';
 import type ButtonSettingsProps from '../../types/ButtonSettingsProps';
 
-const AnimationContent: React.FC<ButtonSettingsProps> = ({
+const AnimationContent = ({
   children,
   iconLeft,
   iconRight,
@@ -16,7 +16,7 @@ const AnimationContent: React.FC<ButtonSettingsProps> = ({
   animation,
   size,
   fullWidth,
-}) => (
+}: ButtonSettingsProps) => (
   <span className="block h-full pointer-events-none">
     <span
       className={mergeClassnames(

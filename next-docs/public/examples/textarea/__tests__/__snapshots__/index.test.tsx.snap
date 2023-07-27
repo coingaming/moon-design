@@ -307,7 +307,7 @@ Object {
 }
 `;
 
-exports[`Textarea in RTL renders with button 1`] = `
+exports[`Textarea in RTL renders WithBtn 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
@@ -745,7 +745,7 @@ Object {
 }
 `;
 
-exports[`Textarea renders with button 1`] = `
+exports[`Textarea renders WithBtn 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>

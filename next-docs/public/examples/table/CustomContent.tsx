@@ -1,6 +1,4 @@
-import { BodyTR } from '@heathmont/moon-table-tw';
-import { TD } from '@heathmont/moon-table-tw';
-import { Table } from '@heathmont/moon-table-tw';
+import { BodyTR, TD, Table } from '@heathmont/moon-table-tw';
 import React from 'react';
 
 const Example = () => {
@@ -55,14 +53,11 @@ const Example = () => {
       defaultColumn={defaultColumn}
       width={800}
       height={400}
-      defaultRowBackgroundColor="gohan.40"
-      evenRowBackgroundColor="gohan.80"
       getOnRowClickHandler={(row: any) => () => {
         (row as any).depth === 0
           ? () => (row as any).toggleRowExpanded()
           : undefined;
       }}
-      // @ts-ignore
       renderRowSubComponent={({ row, backgroundColor }) => {
         return (
           <BodyTR

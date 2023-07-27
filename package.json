@@ -98,7 +98,7 @@
     "typescript-plugin-css-modules": "3.4.0"
   },
   "resolutions": {
-    "@headlessui/react": "1.7.13",
+    "@headlessui/react": "1.7.15",
     "@radix-ui/react-collection": "1.0.2",
     "@radix-ui/react-dismissable-layer": "1.0.2",
     "@radix-ui/react-portal": "1.0.1",

@@ -38,7 +38,7 @@ const Example = () => {
   const makeData = (length: number) => {
     return Array.from('_'.repeat(length)).map((_, index) => {
       return {
-        date: `January ${Math.floor(index / 5) + 1}, 2020`,
+        date: `January ${Math.floor(index / 5) + 1}, 2023`,
         age: <span>{Math.floor(index * 30)}</span>,
         visits: <span>{Math.floor(index * 100)}</span>,
         progress: <span>{Math.floor(index * 100)}</span>,
@@ -69,9 +69,6 @@ const Example = () => {
       height={400}
       getOnRowClickHandler={(row: any) => () => {}}
       variant="calendar"
-      headerBackgroundColor="gohan"
-      defaultRowBackgroundColor="gohan.40"
-      evenRowBackgroundColor="gohan.80"
     />
   );
 };

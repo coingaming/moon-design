@@ -1,14 +1,15 @@
 import React from 'react';
 import mergeClassnames from '../../mergeClassnames/mergeClassnames';
+import type ContainerProps from '../private/types/ContainerProps';
 
-const Container: React.FC<{
-  orientation?: 'vertical' | 'horizontal';
-  isXLarge?: boolean;
-  dir?: string;
-  backgroundColor?: string;
-  isError?: boolean;
-  children?: React.ReactNode;
-}> = ({ orientation, isXLarge, dir, backgroundColor, isError, children }) => (
+const Container = ({
+  orientation,
+  isXLarge,
+  dir,
+  backgroundColor,
+  isError,
+  children,
+}: ContainerProps) => (
   <div
     dir={dir}
     className={mergeClassnames(
