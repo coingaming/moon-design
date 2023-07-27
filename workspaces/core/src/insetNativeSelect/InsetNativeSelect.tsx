@@ -1,20 +1,10 @@
-import React, { ReactNode, forwardRef } from 'react';
+import React, { forwardRef } from 'react';
 import useFormContext from '../form/private/utils/useFormContext';
 import useFormItemContext from '../form/private/utils/useFormItemContext';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import ControlsChevronDownSmall from '../private/icons/ControlsChevronDownSmall';
-
-type WithChildren<T = {}> = T & { children?: ReactNode };
-
-export interface InsetNativeSelectProps
-  extends Omit<React.SelectHTMLAttributes<HTMLSelectElement>, 'size'> {
-  className?: string;
-  size?: 'sm' | 'md' | 'lg';
-  error?: boolean;
-  disabled?: boolean;
-  label: React.ReactNode | string;
-  readOnly?: boolean;
-}
+import type InsetNativeSelectProps from './private/types/InsetNativeSelectProps';
+import type WithChildren from './private/types/WithChildren';
 
 const InsetNativeSelect = forwardRef<
   HTMLSelectElement,
@@ -42,11 +32,10 @@ const InsetNativeSelect = forwardRef<
     const size = selectSize || formItemSize || formSize;
     const disabled = selectDisabled || formItemDisabled;
     const error = selectError || formItemError;
-
     return (
       <span
         className={mergeClassnames(
-          'block relative w-full max-w-full rounded-moon-i-sm bg-gohan',
+          'block relative w-full max-w-full rounded-moon-i-sm',
           disabled && 'opacity-60 cursor-not-allowed',
           readOnly && 'cursor-not-allowed',
           className && className
@@ -56,9 +45,9 @@ const InsetNativeSelect = forwardRef<
           ref={ref}
           disabled={disabled || readOnly}
           className={mergeClassnames(
-            'block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2]',
-            'bg-transparent shadow-input hover:shadow-input-hov',
-            'focus:shadow-input-focus focus:outline-none',
+            'block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma',
+            'transition-shadow box-border relative bg-gohan shadow-input',
+            'hover:shadow-input-hov focus:shadow-input-focus focus:outline-none',
             error &&
               'shadow-input-err hover:shadow-input-err focus:shadow-input-err',
             'h-14 rounded-moon-i-sm',
@@ -76,7 +65,7 @@ const InsetNativeSelect = forwardRef<
         </select>
         <label
           className={mergeClassnames(
-            'absolute text-trunks z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4',
+            'absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4',
             'text-moon-12 top-3'
           )}
         >

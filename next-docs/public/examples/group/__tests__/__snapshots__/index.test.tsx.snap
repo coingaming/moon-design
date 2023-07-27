@@ -837,10 +837,10 @@ Object {
             class="flex border-none shadow-input relative h-fit bg-gohan flex-col rounded-moon-i-sm"
           >
             <span
-              class="block relative w-full max-w-full rounded-moon-i-sm bg-gohan [&_+_.last-element:before]:hover:opacity-0 [&_select]:rounded-bl-none [&_select]:rounded-br-none [&_select]:input-bbb-hidden"
+              class="block relative w-full max-w-full rounded-moon-i-sm [&_+_.last-element:before]:hover:opacity-0 [&_select]:rounded-bl-none [&_select]:rounded-br-none [&_select]:input-bbb-hidden"
             >
               <select
-                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err pt-[1.125rem]"
+                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err pt-[1.125rem]"
               >
                 <option
                   value="Italy"
@@ -864,7 +864,7 @@ Object {
                 </option>
               </select>
               <label
-                class="absolute text-trunks z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3"
+                class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3"
               >
                 Country / Region
               </label>
@@ -915,10 +915,10 @@ Object {
               </label>
             </div>
             <span
-              class="block relative w-full max-w-full rounded-moon-i-sm bg-gohan last-element before:absolute before:block before:bg-beerus hover:before:hidden before:transition-opacity rtl:[&_select]:rounded-tr-none rtl:[&_select]:rounded-br-none rtl:[&_select]:input-rsb-hidden ltr:[&_select]:rounded-tl-none ltr:[&_select]:rounded-bl-none ltr:[&_select]:input-lsb-hidden flex-1 basis-1/2 before:w-px ltr:before:left-0 rtl:before:right-0 before:top-0 before:bottom-0"
+              class="block relative w-full max-w-full rounded-moon-i-sm last-element before:absolute before:block before:bg-beerus hover:before:hidden before:transition-opacity rtl:[&_select]:rounded-tr-none rtl:[&_select]:rounded-br-none rtl:[&_select]:input-rsb-hidden ltr:[&_select]:rounded-tl-none ltr:[&_select]:rounded-bl-none ltr:[&_select]:input-lsb-hidden flex-1 basis-1/2 before:w-px ltr:before:left-0 rtl:before:right-0 before:top-0 before:bottom-0"
             >
               <select
-                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err pt-[1.125rem]"
+                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err pt-[1.125rem]"
               >
                 <option
                   value="Italy"
@@ -942,7 +942,7 @@ Object {
                 </option>
               </select>
               <label
-                class="absolute text-trunks z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3"
+                class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3"
               >
                 Country / Region
               </label>
@@ -1146,10 +1146,10 @@ Object {
           class="flex border-none shadow-input relative h-fit bg-gohan flex-col rounded-moon-i-sm"
         >
           <span
-            class="block relative w-full max-w-full rounded-moon-i-sm bg-gohan [&_+_.last-element:before]:hover:opacity-0 [&_select]:rounded-bl-none [&_select]:rounded-br-none [&_select]:input-bbb-hidden"
+            class="block relative w-full max-w-full rounded-moon-i-sm [&_+_.last-element:before]:hover:opacity-0 [&_select]:rounded-bl-none [&_select]:rounded-br-none [&_select]:input-bbb-hidden"
           >
             <select
-              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err pt-[1.125rem]"
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err pt-[1.125rem]"
             >
               <option
                 value="Italy"
@@ -1173,7 +1173,7 @@ Object {
               </option>
             </select>
             <label
-              class="absolute text-trunks z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3"
+              class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3"
             >
               Country / Region
             </label>
@@ -1224,10 +1224,10 @@ Object {
             </label>
           </div>
           <span
-            class="block relative w-full max-w-full rounded-moon-i-sm bg-gohan last-element before:absolute before:block before:bg-beerus hover:before:hidden before:transition-opacity rtl:[&_select]:rounded-tr-none rtl:[&_select]:rounded-br-none rtl:[&_select]:input-rsb-hidden ltr:[&_select]:rounded-tl-none ltr:[&_select]:rounded-bl-none ltr:[&_select]:input-lsb-hidden flex-1 basis-1/2 before:w-px ltr:before:left-0 rtl:before:right-0 before:top-0 before:bottom-0"
+            class="block relative w-full max-w-full rounded-moon-i-sm last-element before:absolute before:block before:bg-beerus hover:before:hidden before:transition-opacity rtl:[&_select]:rounded-tr-none rtl:[&_select]:rounded-br-none rtl:[&_select]:input-rsb-hidden ltr:[&_select]:rounded-tl-none ltr:[&_select]:rounded-bl-none ltr:[&_select]:input-lsb-hidden flex-1 basis-1/2 before:w-px ltr:before:left-0 rtl:before:right-0 before:top-0 before:bottom-0"
           >
             <select
-              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err pt-[1.125rem]"
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err pt-[1.125rem]"
             >
               <option
                 value="Italy"
@@ -1251,7 +1251,7 @@ Object {
               </option>
             </select>
             <label
-              class="absolute text-trunks z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3"
+              class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3"
             >
               Country / Region
             </label>
@@ -2131,10 +2131,10 @@ Object {
           class="flex border-none shadow-input relative h-fit bg-gohan flex-col rounded-moon-i-sm"
         >
           <span
-            class="block relative w-full max-w-full rounded-moon-i-sm bg-gohan [&_+_.last-element:before]:hover:opacity-0 [&_select]:rounded-bl-none [&_select]:rounded-br-none [&_select]:input-bbb-hidden"
+            class="block relative w-full max-w-full rounded-moon-i-sm [&_+_.last-element:before]:hover:opacity-0 [&_select]:rounded-bl-none [&_select]:rounded-br-none [&_select]:input-bbb-hidden"
           >
             <select
-              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err pt-[1.125rem]"
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err pt-[1.125rem]"
             >
               <option
                 value="Italy"
@@ -2158,7 +2158,7 @@ Object {
               </option>
             </select>
             <label
-              class="absolute text-trunks z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3"
+              class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3"
             >
               Country / Region
             </label>
@@ -2209,10 +2209,10 @@ Object {
             </label>
           </div>
           <span
-            class="block relative w-full max-w-full rounded-moon-i-sm bg-gohan last-element before:absolute before:block before:bg-beerus hover:before:hidden before:transition-opacity rtl:[&_select]:rounded-tr-none rtl:[&_select]:rounded-br-none rtl:[&_select]:input-rsb-hidden ltr:[&_select]:rounded-tl-none ltr:[&_select]:rounded-bl-none ltr:[&_select]:input-lsb-hidden flex-1 basis-1/2 before:w-px ltr:before:left-0 rtl:before:right-0 before:top-0 before:bottom-0"
+            class="block relative w-full max-w-full rounded-moon-i-sm last-element before:absolute before:block before:bg-beerus hover:before:hidden before:transition-opacity rtl:[&_select]:rounded-tr-none rtl:[&_select]:rounded-br-none rtl:[&_select]:input-rsb-hidden ltr:[&_select]:rounded-tl-none ltr:[&_select]:rounded-bl-none ltr:[&_select]:input-lsb-hidden flex-1 basis-1/2 before:w-px ltr:before:left-0 rtl:before:right-0 before:top-0 before:bottom-0"
           >
             <select
-              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err pt-[1.125rem]"
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err pt-[1.125rem]"
             >
               <option
                 value="Italy"
@@ -2236,7 +2236,7 @@ Object {
               </option>
             </select>
             <label
-              class="absolute text-trunks z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3"
+              class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3"
             >
               Country / Region
             </label>
@@ -2436,10 +2436,10 @@ Object {
         class="flex border-none shadow-input relative h-fit bg-gohan flex-col rounded-moon-i-sm"
       >
         <span
-          class="block relative w-full max-w-full rounded-moon-i-sm bg-gohan [&_+_.last-element:before]:hover:opacity-0 [&_select]:rounded-bl-none [&_select]:rounded-br-none [&_select]:input-bbb-hidden"
+          class="block relative w-full max-w-full rounded-moon-i-sm [&_+_.last-element:before]:hover:opacity-0 [&_select]:rounded-bl-none [&_select]:rounded-br-none [&_select]:input-bbb-hidden"
         >
           <select
-            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err pt-[1.125rem]"
+            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err pt-[1.125rem]"
           >
             <option
               value="Italy"
@@ -2463,7 +2463,7 @@ Object {
             </option>
           </select>
           <label
-            class="absolute text-trunks z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3"
+            class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3"
           >
             Country / Region
           </label>
@@ -2514,10 +2514,10 @@ Object {
           </label>
         </div>
         <span
-          class="block relative w-full max-w-full rounded-moon-i-sm bg-gohan last-element before:absolute before:block before:bg-beerus hover:before:hidden before:transition-opacity rtl:[&_select]:rounded-tr-none rtl:[&_select]:rounded-br-none rtl:[&_select]:input-rsb-hidden ltr:[&_select]:rounded-tl-none ltr:[&_select]:rounded-bl-none ltr:[&_select]:input-lsb-hidden flex-1 basis-1/2 before:w-px ltr:before:left-0 rtl:before:right-0 before:top-0 before:bottom-0"
+          class="block relative w-full max-w-full rounded-moon-i-sm last-element before:absolute before:block before:bg-beerus hover:before:hidden before:transition-opacity rtl:[&_select]:rounded-tr-none rtl:[&_select]:rounded-br-none rtl:[&_select]:input-rsb-hidden ltr:[&_select]:rounded-tl-none ltr:[&_select]:rounded-bl-none ltr:[&_select]:input-lsb-hidden flex-1 basis-1/2 before:w-px ltr:before:left-0 rtl:before:right-0 before:top-0 before:bottom-0"
         >
           <select
-            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err pt-[1.125rem]"
+            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err pt-[1.125rem]"
           >
             <option
               value="Italy"
@@ -2541,7 +2541,7 @@ Object {
             </option>
           </select>
           <label
-            class="absolute text-trunks z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3"
+            class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3"
           >
             Country / Region
           </label>
