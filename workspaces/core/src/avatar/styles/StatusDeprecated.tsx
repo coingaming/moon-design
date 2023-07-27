@@ -6,7 +6,7 @@ import type AvatarProps from '../private/types/AvatarProps';
 const StatusDeprecated = ({ size, statusOrigin }: AvatarProps) => (
   <div
     className={mergeClassnames(
-      'absolute border-solid border-beerus rounded-full bg-roshi',
+      'absolute border-solid border-goku rounded-full bg-roshi',
       statusOrigin && statusOrigin.vertical === 'top' && 'top-0',
       statusOrigin && statusOrigin.vertical === 'bottom' && 'bottom-0',
       statusOrigin &&
