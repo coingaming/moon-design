@@ -43,7 +43,7 @@ Object {
                 </option>
               </select>
               <label
-                class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3"
+                class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3 pointer-events-none"
               >
                 Country / Region
               </label>
@@ -113,7 +113,7 @@ Object {
               </option>
             </select>
             <label
-              class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3"
+              class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3 pointer-events-none"
             >
               Country / Region
             </label>
@@ -233,7 +233,7 @@ Object {
             </option>
           </select>
           <label
-            class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3"
+            class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3 pointer-events-none"
           >
             Country / Region
           </label>
@@ -288,7 +288,7 @@ Object {
           </option>
         </select>
         <label
-          class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3"
+          class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3 pointer-events-none"
         >
           Country / Region
         </label>
@@ -408,7 +408,7 @@ Object {
                 </option>
               </select>
               <label
-                class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3"
+                class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3 pointer-events-none"
               >
                 Disabled
               </label>
@@ -467,7 +467,7 @@ Object {
                 </option>
               </select>
               <label
-                class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3"
+                class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3 pointer-events-none"
               >
                 Error
               </label>
@@ -527,7 +527,7 @@ Object {
                 </option>
               </select>
               <label
-                class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3"
+                class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3 pointer-events-none"
               >
                 Read only
               </label>
@@ -598,7 +598,7 @@ Object {
               </option>
             </select>
             <label
-              class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3"
+              class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3 pointer-events-none"
             >
               Disabled
             </label>
@@ -657,7 +657,7 @@ Object {
               </option>
             </select>
             <label
-              class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3"
+              class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3 pointer-events-none"
             >
               Error
             </label>
@@ -717,7 +717,7 @@ Object {
               </option>
             </select>
             <label
-              class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3"
+              class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3 pointer-events-none"
             >
               Read only
             </label>
@@ -841,7 +841,7 @@ Object {
               </option>
             </select>
             <label
-              class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3"
+              class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3 pointer-events-none"
             >
               Country / Region
             </label>
@@ -907,7 +907,7 @@ Object {
             </option>
           </select>
           <label
-            class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3"
+            class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3 pointer-events-none"
           >
             Country / Region
           </label>
@@ -1023,7 +1023,7 @@ Object {
           </option>
         </select>
         <label
-          class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3"
+          class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3 pointer-events-none"
         >
           Country / Region
         </label>
@@ -1074,7 +1074,7 @@ Object {
         </option>
       </select>
       <label
-        class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3"
+        class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3 pointer-events-none"
       >
         Country / Region
       </label>
@@ -1190,7 +1190,7 @@ Object {
               </option>
             </select>
             <label
-              class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3"
+              class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3 pointer-events-none"
             >
               Disabled
             </label>
@@ -1249,7 +1249,7 @@ Object {
               </option>
             </select>
             <label
-              class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3"
+              class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3 pointer-events-none"
             >
               Error
             </label>
@@ -1309,7 +1309,7 @@ Object {
               </option>
             </select>
             <label
-              class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3"
+              class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3 pointer-events-none"
             >
               Read only
             </label>
@@ -1376,7 +1376,7 @@ Object {
             </option>
           </select>
           <label
-            class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3"
+            class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3 pointer-events-none"
           >
             Disabled
           </label>
@@ -1435,7 +1435,7 @@ Object {
             </option>
           </select>
           <label
-            class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3"
+            class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3 pointer-events-none"
           >
             Error
           </label>
@@ -1495,7 +1495,7 @@ Object {
             </option>
           </select>
           <label
-            class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3"
+            class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3 pointer-events-none"
           >
             Read only
           </label>

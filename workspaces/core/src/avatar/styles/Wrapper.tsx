@@ -15,7 +15,8 @@ const Wrapper = ({
 }: AvatarProps) => (
   <div
     className={mergeClassnames(
-      'relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan',
+      'relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover',
+      'text-bulma bg-gohan',
       color && color,
       bgColor && bgColor,
       setWrapperSize(size),

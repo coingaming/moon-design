@@ -73,7 +73,7 @@ Object {
       tabindex="-1"
     >
       <div
-        class="z-[60] fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full sm:max-w-lg md:max-w-xl bg-gohan shadow-moon-md rounded-moon-s-md flex flex-col overflow-hidden"
+        class="z-[60] fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full bg-gohan sm:max-w-lg md:max-w-xl shadow-moon-md rounded-moon-s-md flex flex-col overflow-hidden"
         cmdk-root=""
         loop=""
       >
@@ -143,7 +143,7 @@ Object {
           >
             <div
               aria-selected="true"
-              class="p-2 cursor-pointer focus:outline-none hover:bg-goku select-none data-[selected=true]:bg-goku"
+              class="p-2 cursor-pointer focus:outline-none hover:bg-goku select-none text-bulma data-[selected=true]:bg-goku"
               cmdk-item=""
               data-selected="true"
               data-value="aurum"
@@ -152,7 +152,7 @@ Object {
               Aurum
             </div>
             <div
-              class="p-2 cursor-pointer focus:outline-none hover:bg-goku select-none data-[selected=true]:bg-goku"
+              class="p-2 cursor-pointer focus:outline-none hover:bg-goku select-none text-bulma data-[selected=true]:bg-goku"
               cmdk-item=""
               data-value="argentum"
               role="option"
@@ -160,7 +160,7 @@ Object {
               Argentum
             </div>
             <div
-              class="p-2 cursor-pointer focus:outline-none hover:bg-goku select-none data-[selected=true]:bg-goku"
+              class="p-2 cursor-pointer focus:outline-none hover:bg-goku select-none text-bulma data-[selected=true]:bg-goku"
               cmdk-item=""
               data-value="zink"
               role="option"
@@ -168,7 +168,7 @@ Object {
               Zink
             </div>
             <div
-              class="p-2 cursor-pointer focus:outline-none hover:bg-goku select-none data-[selected=true]:bg-goku"
+              class="p-2 cursor-pointer focus:outline-none hover:bg-goku select-none text-bulma data-[selected=true]:bg-goku"
               cmdk-item=""
               data-value="plumbum"
               role="option"
@@ -351,7 +351,7 @@ Object {
       tabindex="-1"
     >
       <div
-        class="z-[60] fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full sm:max-w-lg md:max-w-xl bg-gohan shadow-moon-md rounded-moon-s-md flex flex-col overflow-hidden"
+        class="z-[60] fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full bg-gohan sm:max-w-lg md:max-w-xl shadow-moon-md rounded-moon-s-md flex flex-col overflow-hidden"
         cmdk-root=""
         loop=""
       >
@@ -421,7 +421,7 @@ Object {
           >
             <div
               aria-selected="true"
-              class="p-2 cursor-pointer focus:outline-none hover:bg-goku select-none data-[selected=true]:bg-goku"
+              class="p-2 cursor-pointer focus:outline-none hover:bg-goku select-none text-bulma data-[selected=true]:bg-goku"
               cmdk-item=""
               data-selected="true"
               data-value="aurum"
@@ -430,7 +430,7 @@ Object {
               Aurum
             </div>
             <div
-              class="p-2 cursor-pointer focus:outline-none hover:bg-goku select-none data-[selected=true]:bg-goku"
+              class="p-2 cursor-pointer focus:outline-none hover:bg-goku select-none text-bulma data-[selected=true]:bg-goku"
               cmdk-item=""
               data-value="argentum"
               role="option"
@@ -438,7 +438,7 @@ Object {
               Argentum
             </div>
             <div
-              class="p-2 cursor-pointer focus:outline-none hover:bg-goku select-none data-[selected=true]:bg-goku"
+              class="p-2 cursor-pointer focus:outline-none hover:bg-goku select-none text-bulma data-[selected=true]:bg-goku"
               cmdk-item=""
               data-value="zink"
               role="option"
@@ -446,7 +446,7 @@ Object {
               Zink
             </div>
             <div
-              class="p-2 cursor-pointer focus:outline-none hover:bg-goku select-none data-[selected=true]:bg-goku"
+              class="p-2 cursor-pointer focus:outline-none hover:bg-goku select-none text-bulma data-[selected=true]:bg-goku"
               cmdk-item=""
               data-value="plumbum"
               role="option"

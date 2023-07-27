@@ -50,13 +50,13 @@ const InsetNativeSelect = forwardRef<
             'hover:shadow-input-hov focus:shadow-input-focus focus:outline-none',
             error &&
               'shadow-input-err hover:shadow-input-err focus:shadow-input-err',
-            'h-14 rounded-moon-i-sm',
-            'rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm',
-            'ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm',
-            'before:box-border after:box-border',
-            'placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75',
-            'invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err',
-            'pt-[1.125rem]',
+            'h-14 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm',
+            'rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm',
+            'ltr:[&:not([disabled])]:hover:rounded-moon-i-sm',
+            'ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm',
+            'before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100',
+            'placeholder:transition-opacity placeholder:delay-75 invalid:shadow-input-err',
+            'invalid:hover:shadow-input-err invalid:focus:shadow-input-err pt-[1.125rem]',
             (disabled || readOnly) && 'cursor-not-allowed hover:shadow-input'
           )}
           {...rest}
@@ -66,7 +66,7 @@ const InsetNativeSelect = forwardRef<
         <label
           className={mergeClassnames(
             'absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4',
-            'text-moon-12 top-3'
+            'text-moon-12 top-3 pointer-events-none'
           )}
         >
           {label}
