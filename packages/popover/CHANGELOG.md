@@ -1,5 +1,19 @@
 # Change Log
 
+## 10.2.0
+
+### Minor Changes
+
+- Deploy 10.2.0
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@10.2.0
+  - @heathmont/moon-components@10.2.0
+  - @heathmont/moon-themes@10.2.0
+  - @heathmont/moon-utils@10.2.0
+
 ## 10.1.1
 
 ### Patch Changes

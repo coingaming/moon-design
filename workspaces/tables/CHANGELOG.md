@@ -1,5 +1,16 @@
 # @heathmont/moon-table-tw
 
+## 10.2.0
+
+### Minor Changes
+
+- Deploy 10.2.0
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-core-tw@10.2.0
+
 ## 10.1.1
 
 ### Patch Changes
