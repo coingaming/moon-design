@@ -1,7 +1,9 @@
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import getComponent from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Background from '../../public/examples/accordion/Background';
 import ContentHeader from '../../public/examples/accordion/ContentHeader';
@@ -15,7 +17,7 @@ import Single from '../../public/examples/accordion/Single';
 import Sizes from '../../public/examples/accordion/Sizes';
 import useExamples from '../../utils/useExamples';
 
-const Example = () => {
+const PageAccordion = () => {
   const examples = useExamples('accordion');
   const { name, text, image } = getComponent('Accordion');
   return (
@@ -171,4 +173,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+export default PageAccordion;
+
+PageAccordion.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title="Components | Accordion">{page}</Layout>;
+};

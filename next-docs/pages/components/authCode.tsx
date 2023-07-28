@@ -1,7 +1,8 @@
-import React from 'react';
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import getComponent from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import AllowedCharacters from '../../public/examples/authCode/AllowedCharacters';
 import Default from '../../public/examples/authCode/Default';
@@ -16,7 +17,7 @@ import Sizes from '../../public/examples/authCode/Sizes';
 import Stretch from '../../public/examples/authCode/Stretch';
 import useExamples from '../../utils/useExamples';
 
-const PageAuthCodeGroup = () => {
+const PageAuthCode = () => {
   const examples = useExamples('authCode');
   const { name, text, image } = getComponent('AuthCode' as any);
   return (
@@ -200,4 +201,8 @@ const PageAuthCodeGroup = () => {
   );
 };
 
-export default PageAuthCodeGroup;
+export default PageAuthCode;
+
+PageAuthCode.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title="Components | AuthCode">{page}</Layout>;
+};

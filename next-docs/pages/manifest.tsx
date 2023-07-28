@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import { ReactNode } from 'react';
 import Image from 'next/image';
 import Layout from '../components/Layout';
 import ManifestCard from '../components/ManifestCard';
@@ -6,7 +6,7 @@ import Logo from '../components/sidebar/Logo';
 import SameDifferentSignature from '../components/sidebar/SameDifferentSignature';
 import imageMoon from '../public/moon.png';
 
-const Manifest = () => (
+const PageManifest = () => (
   <>
     <div className="relative text-bulma">
       <div className="absolute z-10 ltr:left-0 rtl:right-0 top-0">
@@ -74,8 +74,8 @@ const Manifest = () => (
   </>
 );
 
-Manifest.getLayout = function getLayout(page: ReactNode) {
-  return <Layout>{page}</Layout>;
-};
+export default PageManifest;
 
-export default Manifest;
+PageManifest.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title="Manifest">{page}</Layout>;
+};

@@ -70,28 +70,28 @@ const Example = () => {
         data={[
           {
             name: 'children',
-            type: 'JSX.Element | string',
+            type: 'React.ReactNode',
             required: false,
             default: '-',
             description: 'Children content',
           },
           {
             name: 'iconLeft',
-            type: 'JSX.Element | boolean',
+            type: 'React.ReactNode',
             required: false,
             default: '-',
             description: 'Left icon',
           },
           {
             name: 'iconOnly',
-            type: 'JSX.Element | boolean',
+            type: 'React.ReactNode',
             required: false,
             default: '-',
             description: 'Icon without text',
           },
           {
             name: 'iconRight',
-            type: 'JSX.Element | boolean',
+            type: 'React.ReactNode',
             required: false,
             default: '-',
             description: 'Right icon',

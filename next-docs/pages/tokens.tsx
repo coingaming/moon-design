@@ -1,9 +1,10 @@
-import React from 'react';
+import { ReactNode } from 'react';
 import NextLink from 'next/link';
 import ComponentPageDescription from '../components/ComponentPageDescription';
+import Layout from '../components/Layout';
 import TokenTable from '../components/TokenTable';
 
-const PageTokensNew = () => (
+const PageTokens = () => (
   <>
     <ComponentPageDescription title="Tokens" image="/illustartions/tokens.png">
       <p>
@@ -152,4 +153,8 @@ const PageTokensNew = () => (
   </>
 );
 
-export default PageTokensNew;
+export default PageTokens;
+
+PageTokens.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title="Tokens">{page}</Layout>;
+};

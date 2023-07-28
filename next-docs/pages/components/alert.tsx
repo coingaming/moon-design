@@ -1,7 +1,9 @@
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import getComponent from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Customization from '../../public/examples/alert/Customization';
 import Default from '../../public/examples/alert/Default';
@@ -12,7 +14,7 @@ import WithIconAndClose from '../../public/examples/alert/WithIconAndClose';
 import WithTitle from '../../public/examples/alert/WithTitle';
 import useExamples from '../../utils/useExamples';
 
-const Example = () => {
+const PageAlert = () => {
   const examples = useExamples('alert');
   const { name, text, image } = getComponent('Alert');
   return (
@@ -121,4 +123,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+export default PageAlert;
+
+PageAlert.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title="Components | Alert">{page}</Layout>;
+};

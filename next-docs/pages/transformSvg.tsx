@@ -1,7 +1,9 @@
+import { ReactNode } from 'react';
+import Layout from '../components/Layout';
 import PageSection from '../components/PageSection';
 import TransformIcon from '../public/transformIcon/TransformIcon';
 
-const PageTransformIcon = () => (
+const PageTransformSvg = () => (
   <>
     <h1 className="text-moon-32 font-medium">
       Transform SVG into React components
@@ -12,4 +14,8 @@ const PageTransformIcon = () => (
   </>
 );
 
-export default PageTransformIcon;
+export default PageTransformSvg;
+
+PageTransformSvg.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title="Transform SVG">{page}</Layout>;
+};

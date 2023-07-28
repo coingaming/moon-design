@@ -81,5 +81,5 @@ const PageVision = () => (
 export default PageVision;
 
 PageVision.getLayout = function getLayout(page: ReactNode) {
-  return <Layout>{page}</Layout>;
+  return <Layout title="Vision">{page}</Layout>;
 };

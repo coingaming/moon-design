@@ -1,6 +1,8 @@
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import getComponent from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Active from '../../public/examples/avatar/Active';
 import Customization from '../../public/examples/avatar/Customization';
@@ -10,7 +12,7 @@ import StatusOrigin from '../../public/examples/avatar/StatusOrigin';
 import Variants from '../../public/examples/avatar/Variants';
 import useExamples from '../../utils/useExamples';
 
-const Example = () => {
+const PageAvatar = () => {
   const examples = useExamples('avatar');
   const { name, text, image } = getComponent('Avatar');
   return (
@@ -102,4 +104,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+export default PageAvatar;
+
+PageAvatar.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title="Components | Avatar">{page}</Layout>;
+};
