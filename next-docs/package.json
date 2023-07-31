@@ -14,7 +14,7 @@
     "analyze": "env ANALYZE=true next build"
   },
   "dependencies": {
-    "@headlessui/react": "1.7.12",
+    "@headlessui/react": "1.7.16",
     "@heathmont/moon-accordion": "workspace:^10.2.0",
     "@heathmont/moon-assets": "workspace:^10.2.0",
     "@heathmont/moon-charts": "workspace:^10.2.0",
