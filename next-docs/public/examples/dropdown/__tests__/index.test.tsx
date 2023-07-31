@@ -64,7 +64,7 @@ describe('Dropdown', () => {
     await act(() => fireEvent.click(tree.getAllByRole('button')[0]));
     expect(tree).toMatchSnapshot();
   });
-  it('renders with hidden Input', async () => {
+  it('renders HiddenInput', async () => {
     const tree = render(<HiddenInput />);
     await act(() => fireEvent.click(tree.getAllByRole('button')[0]));
     expect(tree).toMatchSnapshot();

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`AuthCode in RTL renders Allowed Characters 1`] = `
+exports[`AuthCode in RTL renders AllowedCharacters 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
@@ -155,360 +155,6 @@ Object {
           type="tel"
         />
       </div>
-    </div>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
-`;
-
-exports[`AuthCode in RTL renders Custom length 1`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": <body>
-    <div>
-      <div
-        dir="rtl"
-      >
-        <form
-          class="flex flex-col justify-between items-end gap-y-2"
-        >
-          <div
-            class="flex flex-row justify-center gap-2"
-          >
-            <input
-              aria-label="Character 1."
-              autocomplete="one-time-code"
-              class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-              inputmode="text"
-              maxlength="1"
-              pattern="[\\\\w\\\\d]{1}"
-              type="text"
-            />
-            <input
-              aria-label="Character 2."
-              autocomplete="off"
-              class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-              inputmode="text"
-              maxlength="1"
-              pattern="[\\\\w\\\\d]{1}"
-              type="text"
-            />
-            <input
-              aria-label="Character 3."
-              autocomplete="off"
-              class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-              inputmode="text"
-              maxlength="1"
-              pattern="[\\\\w\\\\d]{1}"
-              type="text"
-            />
-            <input
-              aria-label="Character 4."
-              autocomplete="off"
-              class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-              inputmode="text"
-              maxlength="1"
-              pattern="[\\\\w\\\\d]{1}"
-              type="text"
-            />
-          </div>
-        </form>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      dir="rtl"
-    >
-      <form
-        class="flex flex-col justify-between items-end gap-y-2"
-      >
-        <div
-          class="flex flex-row justify-center gap-2"
-        >
-          <input
-            aria-label="Character 1."
-            autocomplete="one-time-code"
-            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-            inputmode="text"
-            maxlength="1"
-            pattern="[\\\\w\\\\d]{1}"
-            type="text"
-          />
-          <input
-            aria-label="Character 2."
-            autocomplete="off"
-            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-            inputmode="text"
-            maxlength="1"
-            pattern="[\\\\w\\\\d]{1}"
-            type="text"
-          />
-          <input
-            aria-label="Character 3."
-            autocomplete="off"
-            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-            inputmode="text"
-            maxlength="1"
-            pattern="[\\\\w\\\\d]{1}"
-            type="text"
-          />
-          <input
-            aria-label="Character 4."
-            autocomplete="off"
-            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-            inputmode="text"
-            maxlength="1"
-            pattern="[\\\\w\\\\d]{1}"
-            type="text"
-          />
-        </div>
-      </form>
-    </div>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
-`;
-
-exports[`AuthCode in RTL renders Custom length 2`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": <body>
-    <div>
-      <div
-        dir="rtl"
-      >
-        <form
-          class=""
-        >
-          <div
-            class="flex flex-row justify-center gap-2"
-          >
-            <input
-              aria-label="Character 1."
-              autocomplete="one-time-code"
-              class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-              inputmode="text"
-              maxlength="1"
-              pattern="[\\\\w\\\\d]{1}"
-              type="text"
-            />
-            <input
-              aria-label="Character 2."
-              autocomplete="off"
-              class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-              inputmode="text"
-              maxlength="1"
-              pattern="[\\\\w\\\\d]{1}"
-              type="text"
-            />
-            <input
-              aria-label="Character 3."
-              autocomplete="off"
-              class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-              inputmode="text"
-              maxlength="1"
-              pattern="[\\\\w\\\\d]{1}"
-              type="text"
-            />
-            <input
-              aria-label="Character 4."
-              autocomplete="off"
-              class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-              inputmode="text"
-              maxlength="1"
-              pattern="[\\\\w\\\\d]{1}"
-              type="text"
-            />
-            <input
-              aria-label="Character 5."
-              autocomplete="off"
-              class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-              inputmode="text"
-              maxlength="1"
-              pattern="[\\\\w\\\\d]{1}"
-              type="text"
-            />
-            <input
-              aria-label="Character 6."
-              autocomplete="off"
-              class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-              inputmode="text"
-              maxlength="1"
-              pattern="[\\\\w\\\\d]{1}"
-              type="text"
-            />
-          </div>
-        </form>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      dir="rtl"
-    >
-      <form
-        class=""
-      >
-        <div
-          class="flex flex-row justify-center gap-2"
-        >
-          <input
-            aria-label="Character 1."
-            autocomplete="one-time-code"
-            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-            inputmode="text"
-            maxlength="1"
-            pattern="[\\\\w\\\\d]{1}"
-            type="text"
-          />
-          <input
-            aria-label="Character 2."
-            autocomplete="off"
-            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-            inputmode="text"
-            maxlength="1"
-            pattern="[\\\\w\\\\d]{1}"
-            type="text"
-          />
-          <input
-            aria-label="Character 3."
-            autocomplete="off"
-            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-            inputmode="text"
-            maxlength="1"
-            pattern="[\\\\w\\\\d]{1}"
-            type="text"
-          />
-          <input
-            aria-label="Character 4."
-            autocomplete="off"
-            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-            inputmode="text"
-            maxlength="1"
-            pattern="[\\\\w\\\\d]{1}"
-            type="text"
-          />
-          <input
-            aria-label="Character 5."
-            autocomplete="off"
-            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-            inputmode="text"
-            maxlength="1"
-            pattern="[\\\\w\\\\d]{1}"
-            type="text"
-          />
-          <input
-            aria-label="Character 6."
-            autocomplete="off"
-            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-            inputmode="text"
-            maxlength="1"
-            pattern="[\\\\w\\\\d]{1}"
-            type="text"
-          />
-        </div>
-      </form>
     </div>
   </div>,
   "debug": [Function],
@@ -1150,7 +796,166 @@ Object {
 }
 `;
 
-exports[`AuthCode in RTL renders Password 1`] = `
+exports[`AuthCode in RTL renders FourChars 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        dir="rtl"
+      >
+        <form
+          class="flex flex-col justify-between items-end gap-y-2"
+        >
+          <div
+            class="flex flex-row justify-center gap-2"
+          >
+            <input
+              aria-label="Character 1."
+              autocomplete="one-time-code"
+              class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+              inputmode="text"
+              maxlength="1"
+              pattern="[\\\\w\\\\d]{1}"
+              type="text"
+            />
+            <input
+              aria-label="Character 2."
+              autocomplete="off"
+              class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+              inputmode="text"
+              maxlength="1"
+              pattern="[\\\\w\\\\d]{1}"
+              type="text"
+            />
+            <input
+              aria-label="Character 3."
+              autocomplete="off"
+              class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+              inputmode="text"
+              maxlength="1"
+              pattern="[\\\\w\\\\d]{1}"
+              type="text"
+            />
+            <input
+              aria-label="Character 4."
+              autocomplete="off"
+              class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+              inputmode="text"
+              maxlength="1"
+              pattern="[\\\\w\\\\d]{1}"
+              type="text"
+            />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <form
+        class="flex flex-col justify-between items-end gap-y-2"
+      >
+        <div
+          class="flex flex-row justify-center gap-2"
+        >
+          <input
+            aria-label="Character 1."
+            autocomplete="one-time-code"
+            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
+          <input
+            aria-label="Character 2."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
+          <input
+            aria-label="Character 3."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
+          <input
+            aria-label="Character 4."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
+        </div>
+      </form>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`AuthCode in RTL renders IsPassword 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
@@ -1536,202 +1341,7 @@ Object {
 }
 `;
 
-exports[`AuthCode in RTL renders React Hook Form integration - Auto Submit 1`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": <body>
-    <div>
-      <div
-        dir="rtl"
-      >
-        <form
-          class=""
-        >
-          <div
-            class="flex flex-row justify-center gap-2"
-          >
-            <input
-              aria-label="Character 1."
-              autocomplete="one-time-code"
-              class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-              inputmode="text"
-              maxlength="1"
-              pattern="[\\\\w\\\\d]{1}"
-              type="text"
-            />
-            <input
-              aria-label="Character 2."
-              autocomplete="off"
-              class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-              inputmode="text"
-              maxlength="1"
-              pattern="[\\\\w\\\\d]{1}"
-              type="text"
-            />
-            <input
-              aria-label="Character 3."
-              autocomplete="off"
-              class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-              inputmode="text"
-              maxlength="1"
-              pattern="[\\\\w\\\\d]{1}"
-              type="text"
-            />
-            <input
-              aria-label="Character 4."
-              autocomplete="off"
-              class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-              inputmode="text"
-              maxlength="1"
-              pattern="[\\\\w\\\\d]{1}"
-              type="text"
-            />
-            <input
-              aria-label="Character 5."
-              autocomplete="off"
-              class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-              inputmode="text"
-              maxlength="1"
-              pattern="[\\\\w\\\\d]{1}"
-              type="text"
-            />
-            <input
-              aria-label="Character 6."
-              autocomplete="off"
-              class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-              inputmode="text"
-              maxlength="1"
-              pattern="[\\\\w\\\\d]{1}"
-              type="text"
-            />
-          </div>
-        </form>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      dir="rtl"
-    >
-      <form
-        class=""
-      >
-        <div
-          class="flex flex-row justify-center gap-2"
-        >
-          <input
-            aria-label="Character 1."
-            autocomplete="one-time-code"
-            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-            inputmode="text"
-            maxlength="1"
-            pattern="[\\\\w\\\\d]{1}"
-            type="text"
-          />
-          <input
-            aria-label="Character 2."
-            autocomplete="off"
-            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-            inputmode="text"
-            maxlength="1"
-            pattern="[\\\\w\\\\d]{1}"
-            type="text"
-          />
-          <input
-            aria-label="Character 3."
-            autocomplete="off"
-            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-            inputmode="text"
-            maxlength="1"
-            pattern="[\\\\w\\\\d]{1}"
-            type="text"
-          />
-          <input
-            aria-label="Character 4."
-            autocomplete="off"
-            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-            inputmode="text"
-            maxlength="1"
-            pattern="[\\\\w\\\\d]{1}"
-            type="text"
-          />
-          <input
-            aria-label="Character 5."
-            autocomplete="off"
-            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-            inputmode="text"
-            maxlength="1"
-            pattern="[\\\\w\\\\d]{1}"
-            type="text"
-          />
-          <input
-            aria-label="Character 6."
-            autocomplete="off"
-            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-            inputmode="text"
-            maxlength="1"
-            pattern="[\\\\w\\\\d]{1}"
-            type="text"
-          />
-        </div>
-      </form>
-    </div>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
-`;
-
-exports[`AuthCode in RTL renders React Hook Form integration - Manual Submit 1`] = `
+exports[`AuthCode in RTL renders ReactHookForm 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
@@ -1891,6 +1501,201 @@ Object {
             class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
           />
         </button>
+      </form>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`AuthCode in RTL renders ReactHookFormAuto 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        dir="rtl"
+      >
+        <form
+          class=""
+        >
+          <div
+            class="flex flex-row justify-center gap-2"
+          >
+            <input
+              aria-label="Character 1."
+              autocomplete="one-time-code"
+              class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+              inputmode="text"
+              maxlength="1"
+              pattern="[\\\\w\\\\d]{1}"
+              type="text"
+            />
+            <input
+              aria-label="Character 2."
+              autocomplete="off"
+              class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+              inputmode="text"
+              maxlength="1"
+              pattern="[\\\\w\\\\d]{1}"
+              type="text"
+            />
+            <input
+              aria-label="Character 3."
+              autocomplete="off"
+              class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+              inputmode="text"
+              maxlength="1"
+              pattern="[\\\\w\\\\d]{1}"
+              type="text"
+            />
+            <input
+              aria-label="Character 4."
+              autocomplete="off"
+              class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+              inputmode="text"
+              maxlength="1"
+              pattern="[\\\\w\\\\d]{1}"
+              type="text"
+            />
+            <input
+              aria-label="Character 5."
+              autocomplete="off"
+              class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+              inputmode="text"
+              maxlength="1"
+              pattern="[\\\\w\\\\d]{1}"
+              type="text"
+            />
+            <input
+              aria-label="Character 6."
+              autocomplete="off"
+              class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+              inputmode="text"
+              maxlength="1"
+              pattern="[\\\\w\\\\d]{1}"
+              type="text"
+            />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <form
+        class=""
+      >
+        <div
+          class="flex flex-row justify-center gap-2"
+        >
+          <input
+            aria-label="Character 1."
+            autocomplete="one-time-code"
+            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
+          <input
+            aria-label="Character 2."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
+          <input
+            aria-label="Character 3."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
+          <input
+            aria-label="Character 4."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
+          <input
+            aria-label="Character 5."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
+          <input
+            aria-label="Character 6."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
+        </div>
       </form>
     </div>
   </div>,
@@ -2726,7 +2531,7 @@ Object {
 }
 `;
 
-exports[`AuthCode renders Allowed Characters 1`] = `
+exports[`AuthCode renders AllowedCharacters 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
@@ -2874,344 +2679,6 @@ Object {
         type="tel"
       />
     </div>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
-`;
-
-exports[`AuthCode renders Custom length 1`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": <body>
-    <div>
-      <form
-        class="flex flex-col justify-between items-end gap-y-2"
-      >
-        <div
-          class="flex flex-row justify-center gap-2"
-        >
-          <input
-            aria-label="Character 1."
-            autocomplete="one-time-code"
-            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-            inputmode="text"
-            maxlength="1"
-            pattern="[\\\\w\\\\d]{1}"
-            type="text"
-          />
-          <input
-            aria-label="Character 2."
-            autocomplete="off"
-            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-            inputmode="text"
-            maxlength="1"
-            pattern="[\\\\w\\\\d]{1}"
-            type="text"
-          />
-          <input
-            aria-label="Character 3."
-            autocomplete="off"
-            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-            inputmode="text"
-            maxlength="1"
-            pattern="[\\\\w\\\\d]{1}"
-            type="text"
-          />
-          <input
-            aria-label="Character 4."
-            autocomplete="off"
-            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-            inputmode="text"
-            maxlength="1"
-            pattern="[\\\\w\\\\d]{1}"
-            type="text"
-          />
-        </div>
-      </form>
-    </div>
-  </body>,
-  "container": <div>
-    <form
-      class="flex flex-col justify-between items-end gap-y-2"
-    >
-      <div
-        class="flex flex-row justify-center gap-2"
-      >
-        <input
-          aria-label="Character 1."
-          autocomplete="one-time-code"
-          class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-          inputmode="text"
-          maxlength="1"
-          pattern="[\\\\w\\\\d]{1}"
-          type="text"
-        />
-        <input
-          aria-label="Character 2."
-          autocomplete="off"
-          class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-          inputmode="text"
-          maxlength="1"
-          pattern="[\\\\w\\\\d]{1}"
-          type="text"
-        />
-        <input
-          aria-label="Character 3."
-          autocomplete="off"
-          class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-          inputmode="text"
-          maxlength="1"
-          pattern="[\\\\w\\\\d]{1}"
-          type="text"
-        />
-        <input
-          aria-label="Character 4."
-          autocomplete="off"
-          class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-          inputmode="text"
-          maxlength="1"
-          pattern="[\\\\w\\\\d]{1}"
-          type="text"
-        />
-      </div>
-    </form>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
-`;
-
-exports[`AuthCode renders Custom length 2`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": <body>
-    <div>
-      <form
-        class=""
-      >
-        <div
-          class="flex flex-row justify-center gap-2"
-        >
-          <input
-            aria-label="Character 1."
-            autocomplete="one-time-code"
-            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-            inputmode="text"
-            maxlength="1"
-            pattern="[\\\\w\\\\d]{1}"
-            type="text"
-          />
-          <input
-            aria-label="Character 2."
-            autocomplete="off"
-            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-            inputmode="text"
-            maxlength="1"
-            pattern="[\\\\w\\\\d]{1}"
-            type="text"
-          />
-          <input
-            aria-label="Character 3."
-            autocomplete="off"
-            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-            inputmode="text"
-            maxlength="1"
-            pattern="[\\\\w\\\\d]{1}"
-            type="text"
-          />
-          <input
-            aria-label="Character 4."
-            autocomplete="off"
-            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-            inputmode="text"
-            maxlength="1"
-            pattern="[\\\\w\\\\d]{1}"
-            type="text"
-          />
-          <input
-            aria-label="Character 5."
-            autocomplete="off"
-            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-            inputmode="text"
-            maxlength="1"
-            pattern="[\\\\w\\\\d]{1}"
-            type="text"
-          />
-          <input
-            aria-label="Character 6."
-            autocomplete="off"
-            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-            inputmode="text"
-            maxlength="1"
-            pattern="[\\\\w\\\\d]{1}"
-            type="text"
-          />
-        </div>
-      </form>
-    </div>
-  </body>,
-  "container": <div>
-    <form
-      class=""
-    >
-      <div
-        class="flex flex-row justify-center gap-2"
-      >
-        <input
-          aria-label="Character 1."
-          autocomplete="one-time-code"
-          class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-          inputmode="text"
-          maxlength="1"
-          pattern="[\\\\w\\\\d]{1}"
-          type="text"
-        />
-        <input
-          aria-label="Character 2."
-          autocomplete="off"
-          class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-          inputmode="text"
-          maxlength="1"
-          pattern="[\\\\w\\\\d]{1}"
-          type="text"
-        />
-        <input
-          aria-label="Character 3."
-          autocomplete="off"
-          class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-          inputmode="text"
-          maxlength="1"
-          pattern="[\\\\w\\\\d]{1}"
-          type="text"
-        />
-        <input
-          aria-label="Character 4."
-          autocomplete="off"
-          class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-          inputmode="text"
-          maxlength="1"
-          pattern="[\\\\w\\\\d]{1}"
-          type="text"
-        />
-        <input
-          aria-label="Character 5."
-          autocomplete="off"
-          class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-          inputmode="text"
-          maxlength="1"
-          pattern="[\\\\w\\\\d]{1}"
-          type="text"
-        />
-        <input
-          aria-label="Character 6."
-          autocomplete="off"
-          class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-          inputmode="text"
-          maxlength="1"
-          pattern="[\\\\w\\\\d]{1}"
-          type="text"
-        />
-      </div>
-    </form>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
@@ -3828,7 +3295,158 @@ Object {
 }
 `;
 
-exports[`AuthCode renders Password 1`] = `
+exports[`AuthCode renders FourChars 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <form
+        class="flex flex-col justify-between items-end gap-y-2"
+      >
+        <div
+          class="flex flex-row justify-center gap-2"
+        >
+          <input
+            aria-label="Character 1."
+            autocomplete="one-time-code"
+            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
+          <input
+            aria-label="Character 2."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
+          <input
+            aria-label="Character 3."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
+          <input
+            aria-label="Character 4."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
+        </div>
+      </form>
+    </div>
+  </body>,
+  "container": <div>
+    <form
+      class="flex flex-col justify-between items-end gap-y-2"
+    >
+      <div
+        class="flex flex-row justify-center gap-2"
+      >
+        <input
+          aria-label="Character 1."
+          autocomplete="one-time-code"
+          class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+          inputmode="text"
+          maxlength="1"
+          pattern="[\\\\w\\\\d]{1}"
+          type="text"
+        />
+        <input
+          aria-label="Character 2."
+          autocomplete="off"
+          class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+          inputmode="text"
+          maxlength="1"
+          pattern="[\\\\w\\\\d]{1}"
+          type="text"
+        />
+        <input
+          aria-label="Character 3."
+          autocomplete="off"
+          class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+          inputmode="text"
+          maxlength="1"
+          pattern="[\\\\w\\\\d]{1}"
+          type="text"
+        />
+        <input
+          aria-label="Character 4."
+          autocomplete="off"
+          class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+          inputmode="text"
+          maxlength="1"
+          pattern="[\\\\w\\\\d]{1}"
+          type="text"
+        />
+      </div>
+    </form>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`AuthCode renders IsPassword 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
@@ -4198,194 +3816,7 @@ Object {
 }
 `;
 
-exports[`AuthCode renders React Hook Form integration - Auto Submit 1`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": <body>
-    <div>
-      <form
-        class=""
-      >
-        <div
-          class="flex flex-row justify-center gap-2"
-        >
-          <input
-            aria-label="Character 1."
-            autocomplete="one-time-code"
-            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-            inputmode="text"
-            maxlength="1"
-            pattern="[\\\\w\\\\d]{1}"
-            type="text"
-          />
-          <input
-            aria-label="Character 2."
-            autocomplete="off"
-            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-            inputmode="text"
-            maxlength="1"
-            pattern="[\\\\w\\\\d]{1}"
-            type="text"
-          />
-          <input
-            aria-label="Character 3."
-            autocomplete="off"
-            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-            inputmode="text"
-            maxlength="1"
-            pattern="[\\\\w\\\\d]{1}"
-            type="text"
-          />
-          <input
-            aria-label="Character 4."
-            autocomplete="off"
-            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-            inputmode="text"
-            maxlength="1"
-            pattern="[\\\\w\\\\d]{1}"
-            type="text"
-          />
-          <input
-            aria-label="Character 5."
-            autocomplete="off"
-            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-            inputmode="text"
-            maxlength="1"
-            pattern="[\\\\w\\\\d]{1}"
-            type="text"
-          />
-          <input
-            aria-label="Character 6."
-            autocomplete="off"
-            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-            inputmode="text"
-            maxlength="1"
-            pattern="[\\\\w\\\\d]{1}"
-            type="text"
-          />
-        </div>
-      </form>
-    </div>
-  </body>,
-  "container": <div>
-    <form
-      class=""
-    >
-      <div
-        class="flex flex-row justify-center gap-2"
-      >
-        <input
-          aria-label="Character 1."
-          autocomplete="one-time-code"
-          class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-          inputmode="text"
-          maxlength="1"
-          pattern="[\\\\w\\\\d]{1}"
-          type="text"
-        />
-        <input
-          aria-label="Character 2."
-          autocomplete="off"
-          class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-          inputmode="text"
-          maxlength="1"
-          pattern="[\\\\w\\\\d]{1}"
-          type="text"
-        />
-        <input
-          aria-label="Character 3."
-          autocomplete="off"
-          class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-          inputmode="text"
-          maxlength="1"
-          pattern="[\\\\w\\\\d]{1}"
-          type="text"
-        />
-        <input
-          aria-label="Character 4."
-          autocomplete="off"
-          class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-          inputmode="text"
-          maxlength="1"
-          pattern="[\\\\w\\\\d]{1}"
-          type="text"
-        />
-        <input
-          aria-label="Character 5."
-          autocomplete="off"
-          class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-          inputmode="text"
-          maxlength="1"
-          pattern="[\\\\w\\\\d]{1}"
-          type="text"
-        />
-        <input
-          aria-label="Character 6."
-          autocomplete="off"
-          class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-          inputmode="text"
-          maxlength="1"
-          pattern="[\\\\w\\\\d]{1}"
-          type="text"
-        />
-      </div>
-    </form>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
-`;
-
-exports[`AuthCode renders React Hook Form integration - Manual Submit 1`] = `
+exports[`AuthCode renders ReactHookForm 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
@@ -4538,6 +3969,193 @@ Object {
           class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
         />
       </button>
+    </form>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`AuthCode renders ReactHookFormAuto 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <form
+        class=""
+      >
+        <div
+          class="flex flex-row justify-center gap-2"
+        >
+          <input
+            aria-label="Character 1."
+            autocomplete="one-time-code"
+            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
+          <input
+            aria-label="Character 2."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
+          <input
+            aria-label="Character 3."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
+          <input
+            aria-label="Character 4."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
+          <input
+            aria-label="Character 5."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
+          <input
+            aria-label="Character 6."
+            autocomplete="off"
+            class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            inputmode="text"
+            maxlength="1"
+            pattern="[\\\\w\\\\d]{1}"
+            type="text"
+          />
+        </div>
+      </form>
+    </div>
+  </body>,
+  "container": <div>
+    <form
+      class=""
+    >
+      <div
+        class="flex flex-row justify-center gap-2"
+      >
+        <input
+          aria-label="Character 1."
+          autocomplete="one-time-code"
+          class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+          inputmode="text"
+          maxlength="1"
+          pattern="[\\\\w\\\\d]{1}"
+          type="text"
+        />
+        <input
+          aria-label="Character 2."
+          autocomplete="off"
+          class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+          inputmode="text"
+          maxlength="1"
+          pattern="[\\\\w\\\\d]{1}"
+          type="text"
+        />
+        <input
+          aria-label="Character 3."
+          autocomplete="off"
+          class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+          inputmode="text"
+          maxlength="1"
+          pattern="[\\\\w\\\\d]{1}"
+          type="text"
+        />
+        <input
+          aria-label="Character 4."
+          autocomplete="off"
+          class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+          inputmode="text"
+          maxlength="1"
+          pattern="[\\\\w\\\\d]{1}"
+          type="text"
+        />
+        <input
+          aria-label="Character 5."
+          autocomplete="off"
+          class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+          inputmode="text"
+          maxlength="1"
+          pattern="[\\\\w\\\\d]{1}"
+          type="text"
+        />
+        <input
+          aria-label="Character 6."
+          autocomplete="off"
+          class="h-14 w-[2.875rem] rounded-xl bg-gohan text-moon-18 m-0 py-3 appearance-none text-bulma box-border text-center shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+          inputmode="text"
+          maxlength="1"
+          pattern="[\\\\w\\\\d]{1}"
+          type="text"
+        />
+      </div>
     </form>
   </div>,
   "debug": [Function],

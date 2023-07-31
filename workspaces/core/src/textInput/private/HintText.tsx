@@ -1,10 +1,12 @@
 import React from 'react';
 import mergeClassnames from '../../mergeClassnames/mergeClassnames';
 
-const HintText: React.FC<{ isError?: boolean; children?: React.ReactNode }> = ({
-  children,
-  isError,
-}) => (
+type Props = {
+  isError?: boolean;
+  children?: React.ReactNode;
+};
+
+const HintText = ({ children, isError }: Props) => (
   <p
     role="alert"
     className={mergeClassnames(

@@ -24,14 +24,14 @@ const getSelectSize = (size?: SelectSize) => {
       return 'h-10 py-2 px-3 rounded-moon-i-sm';
   }
 };
-const InputBtn: React.FC<InputBtnProps> = ({
+const InputBtn = ({
   size,
   isError,
   disabled,
   open,
   children,
   ...rest
-}) => (
+}: InputBtnProps) => (
   <Listbox.Button
     {...rest}
     className={mergeClassnames(

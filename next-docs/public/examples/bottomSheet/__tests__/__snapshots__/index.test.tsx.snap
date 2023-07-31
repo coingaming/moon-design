@@ -223,26 +223,26 @@ Object {
                         role="rowgroup"
                       >
                         <div
-                          class="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan"
+                          class="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan border-gohan"
                           role="row"
                           style="display: flex; flex: 1 0 auto; min-width: 0px;"
                         >
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
                             Milton
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
                             Friedman
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
@@ -251,7 +251,7 @@ Object {
                             </span>
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
@@ -260,14 +260,14 @@ Object {
                             </span>
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
                             0
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
@@ -275,26 +275,26 @@ Object {
                           </div>
                         </div>
                         <div
-                          class="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan"
+                          class="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan border-gohan"
                           role="row"
                           style="display: flex; flex: 1 0 auto; min-width: 0px;"
                         >
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
                             Thomas
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
                             Sowell
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
@@ -303,7 +303,7 @@ Object {
                             </span>
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
@@ -312,14 +312,14 @@ Object {
                             </span>
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
                             100
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
@@ -327,26 +327,26 @@ Object {
                           </div>
                         </div>
                         <div
-                          class="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan"
+                          class="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan border-gohan"
                           role="row"
                           style="display: flex; flex: 1 0 auto; min-width: 0px;"
                         >
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
                             Milton
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
                             Friedman
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
@@ -355,7 +355,7 @@ Object {
                             </span>
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
@@ -364,14 +364,14 @@ Object {
                             </span>
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
                             200
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
@@ -379,26 +379,26 @@ Object {
                           </div>
                         </div>
                         <div
-                          class="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan"
+                          class="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan border-gohan"
                           role="row"
                           style="display: flex; flex: 1 0 auto; min-width: 0px;"
                         >
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
                             Thomas
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
                             Sowell
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
@@ -407,7 +407,7 @@ Object {
                             </span>
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
@@ -416,14 +416,14 @@ Object {
                             </span>
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
                             300
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
@@ -431,26 +431,26 @@ Object {
                           </div>
                         </div>
                         <div
-                          class="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan"
+                          class="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan border-gohan"
                           role="row"
                           style="display: flex; flex: 1 0 auto; min-width: 0px;"
                         >
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
                             Milton
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
                             Friedman
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
@@ -459,7 +459,7 @@ Object {
                             </span>
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
@@ -468,14 +468,14 @@ Object {
                             </span>
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
                             400
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
@@ -1266,26 +1266,26 @@ Object {
                         role="rowgroup"
                       >
                         <div
-                          class="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan"
+                          class="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan border-gohan"
                           role="row"
                           style="display: flex; flex: 1 0 auto; min-width: 0px;"
                         >
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
                             Milton
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
                             Friedman
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
@@ -1294,7 +1294,7 @@ Object {
                             </span>
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
@@ -1303,14 +1303,14 @@ Object {
                             </span>
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
                             0
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
@@ -1318,26 +1318,26 @@ Object {
                           </div>
                         </div>
                         <div
-                          class="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan"
+                          class="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan border-gohan"
                           role="row"
                           style="display: flex; flex: 1 0 auto; min-width: 0px;"
                         >
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
                             Thomas
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
                             Sowell
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
@@ -1346,7 +1346,7 @@ Object {
                             </span>
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
@@ -1355,14 +1355,14 @@ Object {
                             </span>
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
                             100
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
@@ -1370,26 +1370,26 @@ Object {
                           </div>
                         </div>
                         <div
-                          class="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan"
+                          class="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan border-gohan"
                           role="row"
                           style="display: flex; flex: 1 0 auto; min-width: 0px;"
                         >
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
                             Milton
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
                             Friedman
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
@@ -1398,7 +1398,7 @@ Object {
                             </span>
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
@@ -1407,14 +1407,14 @@ Object {
                             </span>
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
                             200
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
@@ -1422,26 +1422,26 @@ Object {
                           </div>
                         </div>
                         <div
-                          class="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan"
+                          class="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan border-gohan"
                           role="row"
                           style="display: flex; flex: 1 0 auto; min-width: 0px;"
                         >
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
                             Thomas
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
                             Sowell
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
@@ -1450,7 +1450,7 @@ Object {
                             </span>
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
@@ -1459,14 +1459,14 @@ Object {
                             </span>
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
                             300
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
@@ -1474,26 +1474,26 @@ Object {
                           </div>
                         </div>
                         <div
-                          class="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan"
+                          class="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan border-gohan"
                           role="row"
                           style="display: flex; flex: 1 0 auto; min-width: 0px;"
                         >
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
                             Milton
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
                             Friedman
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
@@ -1502,7 +1502,7 @@ Object {
                             </span>
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
@@ -1511,14 +1511,14 @@ Object {
                             </span>
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >
                             400
                           </div>
                           <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan"
+                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan border-gohan"
                             role="cell"
                             style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
                           >

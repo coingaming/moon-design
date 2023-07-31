@@ -8,6 +8,7 @@ import './moon.css';
 import './partners.css';
 import './sportsbet.css';
 import './tradeart.css';
+import './tradeartMiniBetting.css';
 import './bombayClub.css';
 import './hub88.css';
 import './travel.css';

@@ -29,7 +29,7 @@ describe('Breadcrumb', () => {
     const tree = render(<Collapsed />);
     expect(tree).toMatchSnapshot();
   });
-  it('renders with custom divider', () => {
+  it('renders CustomDivider', () => {
     const tree = render(<CustomDivider />);
     expect(tree).toMatchSnapshot();
   });
@@ -53,7 +53,7 @@ describe('Breadcrumb in RTL', () => {
     const tree = render(withRtl(<Collapsed />));
     expect(tree).toMatchSnapshot();
   });
-  it('renders with custom divider', () => {
+  it('renders CustomDivider', () => {
     const tree = render(withRtl(<CustomDivider />));
     expect(tree).toMatchSnapshot();
   });

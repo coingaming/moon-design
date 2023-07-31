@@ -5,7 +5,7 @@ import getIconSize from './private/utils/getIconSize';
 import getSize from './private/utils/getSize';
 import type TagProps from './private/types/TagProps';
 
-const Tag: React.FC<TagProps> = ({
+const Tag = ({
   children,
   color, // deprecated
   bgColor, // deprecated
@@ -14,7 +14,7 @@ const Tag: React.FC<TagProps> = ({
   size = 'xs',
   isUppercase = true,
   className,
-}) => (
+}: TagProps) => (
   <div
     className={mergeClassnames(
       'flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma',
