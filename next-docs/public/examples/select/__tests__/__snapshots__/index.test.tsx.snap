@@ -26,6 +26,7 @@ Object {
               </label>
               <div>
                 <button
+                  aria-expanded="false"
                   aria-haspopup="listbox"
                   aria-labelledby="headlessui-listbox-label-:r25: headlessui-listbox-button-:r26:"
                   class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs cursor-not-allowed"
@@ -83,6 +84,7 @@ Object {
               </label>
               <div>
                 <button
+                  aria-expanded="false"
                   aria-haspopup="listbox"
                   aria-labelledby="headlessui-listbox-label-:r27: headlessui-listbox-button-:r28:"
                   class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm cursor-not-allowed"
@@ -140,6 +142,7 @@ Object {
               </label>
               <div>
                 <button
+                  aria-expanded="false"
                   aria-haspopup="listbox"
                   aria-labelledby="headlessui-listbox-label-:r29: headlessui-listbox-button-:r2a:"
                   class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm cursor-not-allowed"
@@ -190,6 +193,7 @@ Object {
             >
               <div>
                 <button
+                  aria-expanded="false"
                   aria-haspopup="listbox"
                   aria-labelledby="headlessui-listbox-label-:r2c: headlessui-listbox-button-:r2b:"
                   class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md cursor-not-allowed"
@@ -265,6 +269,7 @@ Object {
             </label>
             <div>
               <button
+                aria-expanded="false"
                 aria-haspopup="listbox"
                 aria-labelledby="headlessui-listbox-label-:r25: headlessui-listbox-button-:r26:"
                 class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs cursor-not-allowed"
@@ -322,6 +327,7 @@ Object {
             </label>
             <div>
               <button
+                aria-expanded="false"
                 aria-haspopup="listbox"
                 aria-labelledby="headlessui-listbox-label-:r27: headlessui-listbox-button-:r28:"
                 class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm cursor-not-allowed"
@@ -379,6 +385,7 @@ Object {
             </label>
             <div>
               <button
+                aria-expanded="false"
                 aria-haspopup="listbox"
                 aria-labelledby="headlessui-listbox-label-:r29: headlessui-listbox-button-:r2a:"
                 class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm cursor-not-allowed"
@@ -429,6 +436,7 @@ Object {
           >
             <div>
               <button
+                aria-expanded="false"
                 aria-haspopup="listbox"
                 aria-labelledby="headlessui-listbox-label-:r2c: headlessui-listbox-button-:r2b:"
                 class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md cursor-not-allowed"
@@ -3584,6 +3592,7 @@ Object {
             </label>
             <div>
               <button
+                aria-expanded="false"
                 aria-haspopup="listbox"
                 aria-labelledby="headlessui-listbox-label-:rk: headlessui-listbox-button-:rl:"
                 class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs cursor-not-allowed"
@@ -3641,6 +3650,7 @@ Object {
             </label>
             <div>
               <button
+                aria-expanded="false"
                 aria-haspopup="listbox"
                 aria-labelledby="headlessui-listbox-label-:rm: headlessui-listbox-button-:rn:"
                 class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm cursor-not-allowed"
@@ -3698,6 +3708,7 @@ Object {
             </label>
             <div>
               <button
+                aria-expanded="false"
                 aria-haspopup="listbox"
                 aria-labelledby="headlessui-listbox-label-:ro: headlessui-listbox-button-:rp:"
                 class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm cursor-not-allowed"
@@ -3748,6 +3759,7 @@ Object {
           >
             <div>
               <button
+                aria-expanded="false"
                 aria-haspopup="listbox"
                 aria-labelledby="headlessui-listbox-label-:rr: headlessui-listbox-button-:rq:"
                 class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md cursor-not-allowed"
@@ -3819,6 +3831,7 @@ Object {
           </label>
           <div>
             <button
+              aria-expanded="false"
               aria-haspopup="listbox"
               aria-labelledby="headlessui-listbox-label-:rk: headlessui-listbox-button-:rl:"
               class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs cursor-not-allowed"
@@ -3876,6 +3889,7 @@ Object {
           </label>
           <div>
             <button
+              aria-expanded="false"
               aria-haspopup="listbox"
               aria-labelledby="headlessui-listbox-label-:rm: headlessui-listbox-button-:rn:"
               class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm cursor-not-allowed"
@@ -3933,6 +3947,7 @@ Object {
           </label>
           <div>
             <button
+              aria-expanded="false"
               aria-haspopup="listbox"
               aria-labelledby="headlessui-listbox-label-:ro: headlessui-listbox-button-:rp:"
               class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm cursor-not-allowed"
@@ -3983,6 +3998,7 @@ Object {
         >
           <div>
             <button
+              aria-expanded="false"
               aria-haspopup="listbox"
               aria-labelledby="headlessui-listbox-label-:rr: headlessui-listbox-button-:rq:"
               class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md cursor-not-allowed"
