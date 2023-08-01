@@ -79,3 +79,7 @@ const PageVision = () => (
 );
 
 export default PageVision;
+
+PageVision.getLayout = function getLayout(page: ReactNode) {
+  return <Layout>{page}</Layout>;
+};
