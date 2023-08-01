@@ -1,8 +1,9 @@
+import React from 'react';
 import NextLink from 'next/link';
 import ComponentPageDescription from '../components/ComponentPageDescription';
 import TokenTable from '../components/TokenTable';
 
-const PageTokens = () => (
+const PageTokensNew = () => (
   <>
     <ComponentPageDescription title="Tokens" image="/illustartions/tokens.png">
       <p>
@@ -151,4 +152,4 @@ const PageTokens = () => (
   </>
 );
 
-export default PageTokens;
+export default PageTokensNew;

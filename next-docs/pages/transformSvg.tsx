@@ -1,7 +1,7 @@
 import PageSection from '../components/PageSection';
 import TransformIcon from '../public/transformIcon/TransformIcon';
 
-const PageTransformSvg = () => (
+const PageTransformIcon = () => (
   <>
     <h1 className="text-moon-32 font-medium">
       Transform SVG into React components
@@ -12,4 +12,4 @@ const PageTransformSvg = () => (
   </>
 );
 
-export default PageTransformSvg;
+export default PageTransformIcon;

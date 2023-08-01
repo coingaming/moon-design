@@ -6,7 +6,7 @@ import Heading from '../public/examples/typography/Heading';
 import Text from '../public/examples/typography/Text';
 import useExamples from '../utils/useExamples';
 
-const PageTypography = () => {
+const Example = () => {
   const examples = useExamples('typography');
   return (
     <>
@@ -37,4 +37,4 @@ const PageTypography = () => {
   );
 };
 
-export default PageTypography;
+export default Example;

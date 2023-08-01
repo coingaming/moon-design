@@ -1,3 +1,4 @@
+import React from 'react';
 import ColoursPalette from '../components/ColoursPalette';
 import ComponentPageDescription from '../components/ComponentPageDescription';
 import PageSection from '../components/PageSection';
