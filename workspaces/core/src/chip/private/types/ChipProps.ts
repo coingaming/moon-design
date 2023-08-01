@@ -1,15 +1,13 @@
-type ChipProps = {
+type ChipProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
   isActive?: boolean;
-  iconOnly?: JSX.Element | boolean;
-  iconLeft?: JSX.Element | boolean;
-  iconRight?: JSX.Element | boolean;
+  iconOnly?: React.ReactNode;
+  iconLeft?: React.ReactNode;
+  iconRight?: React.ReactNode;
   size?: 'sm' | 'md';
   isStroke?: boolean;
   variant?: 'default' | 'ghost';
   children?: React.ReactNode;
-} & React.DetailedHTMLProps<
-  React.ButtonHTMLAttributes<HTMLButtonElement>,
-  HTMLButtonElement
->;
+  className?: string;
+};
 
 export default ChipProps;

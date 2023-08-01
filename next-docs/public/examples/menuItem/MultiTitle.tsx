@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react';
 import { MenuItem } from '@heathmont/moon-core-tw';
-import { ControlsChevronRight, SportBadminton } from '@heathmont/moon-icons-tw';
+import { OtherFrame } from '@heathmont/moon-icons-tw';
 
 const Example = () => {
   const [active, setActive] = useState(false);
@@ -8,7 +8,7 @@ const Example = () => {
     <>
       <MenuItem className="w-56">
         <span>
-          <ControlsChevronRight className="text-moon-24" />
+          <OtherFrame className="text-moon-24" />
         </span>
         <MenuItem.MultiTitle
           title="Your value"
@@ -27,7 +27,7 @@ const Example = () => {
         className="w-56"
       >
         <span className="px-2">
-          <SportBadminton className="text-moon-24" />
+          <OtherFrame className="text-moon-24" />
         </span>
         <MenuItem.MultiTitle
           title="Your value"

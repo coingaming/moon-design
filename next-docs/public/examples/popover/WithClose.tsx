@@ -1,10 +1,6 @@
 import React, { useEffect } from 'react';
 import { Popover, Button, MenuItem } from '@heathmont/moon-core-tw';
-import {
-  GenericTrophy,
-  MediaTuner,
-  MediaMegaphone,
-} from '@heathmont/moon-icons-tw';
+import { OtherFrame } from '@heathmont/moon-icons-tw';
 
 type RenderProps = {
   open?: boolean;
@@ -37,7 +33,7 @@ const Content: React.FC<RenderProps> = ({ open, close }) => {
     <div className="p-6 flex flex-col gap-6">
       <MenuItem>
         <span className="flex w-11 h-11 bg-goku items-center justify-center rounded-lg">
-          <GenericTrophy className="text-bulma text-moon-24" />
+          <OtherFrame className="text-bulma text-moon-24" />
         </span>
         <MenuItem.MultiTitle
           title="Tournaments"
@@ -46,7 +42,7 @@ const Content: React.FC<RenderProps> = ({ open, close }) => {
       </MenuItem>
       <MenuItem>
         <span className="flex w-11 h-11 bg-goku items-center justify-center">
-          <MediaMegaphone className="text-bulma text-moon-24" />
+          <OtherFrame className="text-bulma text-moon-24" />
         </span>
         <MenuItem.MultiTitle
           title="Promotions"
@@ -55,7 +51,7 @@ const Content: React.FC<RenderProps> = ({ open, close }) => {
       </MenuItem>
       <MenuItem>
         <span className="flex w-11 h-11 bg-goku items-center justify-center">
-          <MediaTuner className="text-bulma text-moon-24" />
+          <OtherFrame className="text-bulma text-moon-24" />
         </span>
         <MenuItem.MultiTitle
           title="Providers"
