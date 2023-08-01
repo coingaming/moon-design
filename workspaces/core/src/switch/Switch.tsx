@@ -7,7 +7,7 @@ import getTogglePosition from './private/utils/getTogglePosition';
 import getToggleSize from './private/utils/getToggleSize';
 import type SwitchProps from './private/types/SwitchProps';
 
-const Switch = forwardRef<HTMLDivElement>(
+const Switch = forwardRef<HTMLButtonElement, SwitchProps>(
   (
     {
       size = 'sm',
@@ -21,7 +21,7 @@ const Switch = forwardRef<HTMLDivElement>(
       offIcon,
       className,
       ...rest
-    }: SwitchProps,
+    },
     ref
   ) => {
     const [enabled, setEnabled] = useState(checked);
@@ -34,63 +34,62 @@ const Switch = forwardRef<HTMLDivElement>(
         setEnabled(!!checked);
     }, [checked]);
     return (
-      <div ref={ref}>
-        <HeadlessSwitch
-          name={name}
-          value={value}
-          checked={enabled}
-          disabled={rest?.disabled}
-          onChange={(data) => setEnabledHandler(data)}
-          className={mergeClassnames(
-            'block cursor-pointer rounded-full transition',
-            getSwitchSize(size),
-            enabled ? onBgColor : offBgColor,
-            !onBgColor && !offBgColor && 'bg-beerus moon-checked:bg-piccolo',
-            rest?.disabled && 'opacity-60 cursor-not-allowed select-none',
-            className
-          )}
-          aria-readonly={rest?.disabled}
-          {...rest}
-        >
-          <span className="block relative h-full w-full">
-            {onIcon && (
-              <span
-                className={mergeClassnames(
-                  'z-1 absolute ltr:left-0 rtl:right-0 top-1/2 -translate-y-1/2 transition-opacity',
-                  'text-goten',
-                  getIconSize(size),
-                  enabled ? 'opacity-100' : 'opacity-0'
-                )}
-                aria-hidden="true"
-              >
-                {onIcon}
-              </span>
-            )}
-            {offIcon && (
-              <span
-                className={mergeClassnames(
-                  'z-1 absolute ltr:right-0 rtl:left-0 top-1/2 -translate-y-1/2 transition-opacity',
-                  'text-bulma',
-                  getIconSize(size),
-                  enabled ? 'opacity-0' : 'opacity-100'
-                )}
-                aria-hidden="true"
-              >
-                {offIcon}
-              </span>
-            )}
+      <HeadlessSwitch
+        ref={ref}
+        name={name}
+        value={value}
+        checked={enabled}
+        disabled={rest?.disabled}
+        onChange={(data) => setEnabledHandler(data)}
+        className={mergeClassnames(
+          'block cursor-pointer rounded-full transition',
+          getSwitchSize(size),
+          enabled ? onBgColor : offBgColor,
+          !onBgColor && !offBgColor && 'bg-beerus moon-checked:bg-piccolo',
+          rest?.disabled && 'opacity-60 cursor-not-allowed select-none',
+          className
+        )}
+        aria-readonly={rest?.disabled}
+        {...rest}
+      >
+        <span className="block relative h-full w-full">
+          {onIcon && (
             <span
-              aria-hidden="true"
               className={mergeClassnames(
-                'slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full',
-                'bg-goten transition-all',
-                getToggleSize(size),
-                enabled ? getTogglePosition(size) : 'ltr:left-0 rtl:right-0'
+                'z-1 absolute ltr:left-0 rtl:right-0 top-1/2 -translate-y-1/2 transition-opacity',
+                'text-goten',
+                getIconSize(size),
+                enabled ? 'opacity-100' : 'opacity-0'
               )}
-            />
-          </span>
-        </HeadlessSwitch>
-      </div>
+              aria-hidden="true"
+            >
+              {onIcon}
+            </span>
+          )}
+          {offIcon && (
+            <span
+              className={mergeClassnames(
+                'z-1 absolute ltr:right-0 rtl:left-0 top-1/2 -translate-y-1/2 transition-opacity',
+                'text-bulma',
+                getIconSize(size),
+                enabled ? 'opacity-0' : 'opacity-100'
+              )}
+              aria-hidden="true"
+            >
+              {offIcon}
+            </span>
+          )}
+          <span
+            aria-hidden="true"
+            className={mergeClassnames(
+              'slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full',
+              'bg-goten transition-all',
+              getToggleSize(size),
+              enabled ? getTogglePosition(size) : 'ltr:left-0 rtl:right-0'
+            )}
+          />
+        </span>
+      </HeadlessSwitch>
     );
   }
 );
