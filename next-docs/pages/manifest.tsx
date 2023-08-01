@@ -1,6 +1,4 @@
-import { ReactNode } from 'react';
 import Image from 'next/image';
-import Layout from '../components/Layout';
 import ManifestCard from '../components/ManifestCard';
 import Logo from '../components/sidebar/Logo';
 import SameDifferentSignature from '../components/sidebar/SameDifferentSignature';
@@ -75,7 +73,3 @@ const PageManifest = () => (
 );
 
 export default PageManifest;
-
-PageManifest.getLayout = function getLayout(page: ReactNode) {
-  return <Layout title="Manifest">{page}</Layout>;
-};

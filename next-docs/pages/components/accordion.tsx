@@ -1,9 +1,7 @@
-import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import getComponent from '../../components/getComponent';
-import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Background from '../../public/examples/accordion/Background';
 import ContentHeader from '../../public/examples/accordion/ContentHeader';
@@ -174,7 +172,3 @@ const PageAccordion = () => {
 };
 
 export default PageAccordion;
-
-PageAccordion.getLayout = function getLayout(page: ReactNode) {
-  return <Layout title="Components | Accordion">{page}</Layout>;
-};

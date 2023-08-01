@@ -1,8 +1,6 @@
-import { ReactNode } from 'react';
 import { Tabs } from '@heathmont/moon-core-tw';
 import DesGettingStarted from '../components/gettingStarted/DesGettingStarted';
 import DevGettingStarted from '../components/gettingStarted/DevGettingStarted';
-import Layout from '../components/Layout';
 
 const PageGettingStarted = () => (
   <>
@@ -25,7 +23,3 @@ const PageGettingStarted = () => (
 );
 
 export default PageGettingStarted;
-
-PageGettingStarted.getLayout = function getLayout(page: ReactNode) {
-  return <Layout title="Getting Started">{page}</Layout>;
-};

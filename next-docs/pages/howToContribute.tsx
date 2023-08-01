@@ -1,6 +1,4 @@
-import { ReactNode } from 'react';
 import CodeSnippet from '../components/codePreview/CodeSnippet';
-import Layout from '../components/Layout';
 import PageSection from '../components/PageSection';
 
 const PageHowToContribute = () => (
@@ -71,7 +69,3 @@ const PageHowToContribute = () => (
 );
 
 export default PageHowToContribute;
-
-PageHowToContribute.getLayout = function getLayout(page: ReactNode) {
-  return <Layout title="How to contribute">{page}</Layout>;
-};

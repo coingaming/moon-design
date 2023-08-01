@@ -1,7 +1,5 @@
-import { ReactNode } from 'react';
 import NextLink from 'next/link';
 import ComponentPageDescription from '../components/ComponentPageDescription';
-import Layout from '../components/Layout';
 import TokenTable from '../components/TokenTable';
 
 const PageTokens = () => (
@@ -154,7 +152,3 @@ const PageTokens = () => (
 );
 
 export default PageTokens;
-
-PageTokens.getLayout = function getLayout(page: ReactNode) {
-  return <Layout title="Tokens">{page}</Layout>;
-};

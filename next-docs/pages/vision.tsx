@@ -1,6 +1,4 @@
-import { ReactNode } from 'react';
 import Image from 'next/image';
-import Layout from '../components/Layout';
 import VisionCard from '../components/VisionCard';
 import imageMoon from '../public/moon.png';
 import testimonial_1 from '../public/testimonial_1.png';
@@ -79,7 +77,3 @@ const PageVision = () => (
 );
 
 export default PageVision;
-
-PageVision.getLayout = function getLayout(page: ReactNode) {
-  return <Layout title="Vision">{page}</Layout>;
-};

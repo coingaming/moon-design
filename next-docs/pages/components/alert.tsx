@@ -1,9 +1,7 @@
-import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import getComponent from '../../components/getComponent';
-import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Customization from '../../public/examples/alert/Customization';
 import Default from '../../public/examples/alert/Default';
@@ -124,7 +122,3 @@ const PageAlert = () => {
 };
 
 export default PageAlert;
-
-PageAlert.getLayout = function getLayout(page: ReactNode) {
-  return <Layout title="Components | Alert">{page}</Layout>;
-};

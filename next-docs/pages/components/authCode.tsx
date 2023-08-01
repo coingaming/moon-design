@@ -1,8 +1,6 @@
-import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import getComponent from '../../components/getComponent';
-import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import AllowedCharacters from '../../public/examples/authCode/AllowedCharacters';
 import Default from '../../public/examples/authCode/Default';
@@ -202,7 +200,3 @@ const PageAuthCode = () => {
 };
 
 export default PageAuthCode;
-
-PageAuthCode.getLayout = function getLayout(page: ReactNode) {
-  return <Layout title="Components | AuthCode">{page}</Layout>;
-};
