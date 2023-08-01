@@ -12,7 +12,7 @@ import WithIconAndClose from '../../public/examples/alert/WithIconAndClose';
 import WithTitle from '../../public/examples/alert/WithTitle';
 import useExamples from '../../utils/useExamples';
 
-const PageAlert = () => {
+const Example = () => {
   const examples = useExamples('alert');
   const { name, text, image } = getComponent('Alert');
   return (
@@ -121,4 +121,4 @@ const PageAlert = () => {
   );
 };
 
-export default PageAlert;
+export default Example;

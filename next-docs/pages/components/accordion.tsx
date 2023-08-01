@@ -15,7 +15,7 @@ import Single from '../../public/examples/accordion/Single';
 import Sizes from '../../public/examples/accordion/Sizes';
 import useExamples from '../../utils/useExamples';
 
-const PageAccordion = () => {
+const Example = () => {
   const examples = useExamples('accordion');
   const { name, text, image } = getComponent('Accordion');
   return (
@@ -171,4 +171,4 @@ const PageAccordion = () => {
   );
 };
 
-export default PageAccordion;
+export default Example;

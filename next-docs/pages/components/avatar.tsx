@@ -10,7 +10,7 @@ import StatusOrigin from '../../public/examples/avatar/StatusOrigin';
 import Variants from '../../public/examples/avatar/Variants';
 import useExamples from '../../utils/useExamples';
 
-const PageAvatar = () => {
+const Example = () => {
   const examples = useExamples('avatar');
   const { name, text, image } = getComponent('Avatar');
   return (
@@ -102,4 +102,4 @@ const PageAvatar = () => {
   );
 };
 
-export default PageAvatar;
+export default Example;

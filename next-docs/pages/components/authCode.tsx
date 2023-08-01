@@ -1,3 +1,4 @@
+import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import getComponent from '../../components/getComponent';
@@ -15,7 +16,7 @@ import Sizes from '../../public/examples/authCode/Sizes';
 import Stretch from '../../public/examples/authCode/Stretch';
 import useExamples from '../../utils/useExamples';
 
-const PageAuthCode = () => {
+const PageAuthCodeGroup = () => {
   const examples = useExamples('authCode');
   const { name, text, image } = getComponent('AuthCode' as any);
   return (
@@ -199,4 +200,4 @@ const PageAuthCode = () => {
   );
 };
 
-export default PageAuthCode;
+export default PageAuthCodeGroup;
