@@ -14,10 +14,10 @@ import MiniMap from '../../public/styledExamples/table/MiniMap';
 import SelectableCheckboxes from '../../public/styledExamples/table/SelectableCheckboxes';
 import SelectableRows from '../../public/styledExamples/table/SelectableRows';
 import Sorting from '../../public/styledExamples/table/Sorting';
-import useExamples from '../../utils/useExamples';
+import useStyledExamples from '../../utils/useStyledExamples';
 
 export default function PageTable() {
-  const examples = useExamples('table', 'styled');
+  const examples = useStyledExamples('table');
   return (
     <>
       <ComponentPageDescription title="Table" isDeprecated>

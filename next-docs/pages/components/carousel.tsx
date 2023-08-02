@@ -1,8 +1,8 @@
-import React from 'react';
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Autoslide from '../../public/examples/carousel/Autoslide';
 import CustomizedArrow from '../../public/examples/carousel/CustomizedArrow';
@@ -11,11 +11,13 @@ import Indicators from '../../public/examples/carousel/Indicators';
 import SelectIndex from '../../public/examples/carousel/SelectIndex';
 import Spaces from '../../public/examples/carousel/Spaces';
 import VisibleIndex from '../../public/examples/carousel/VisibleIndex';
-import useExamples from '../../utils/useExamples';
+import useComponent from '../../utils/useComponent';
+import type { ComponentNames } from '../../components/getComponent';
 
-export default function PageCarousel() {
-  const examples = useExamples('carousel');
-  const { name, text, image } = getComponent('Carousel');
+const COMPONENT_NAME: ComponentNames = 'Carousel';
+
+const PageCarousel = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
       <ComponentPageDescription title={name} image={image} isAriaSupport>
@@ -156,4 +158,10 @@ export default function PageCarousel() {
       />
     </>
   );
-}
+};
+
+PageCarousel.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageCarousel;

@@ -1,16 +1,18 @@
-import React from 'react';
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/search/Default';
 import NoTransition from '../../public/examples/search/NoTransition';
-import useExamples from '../../utils/useExamples';
+import useComponent from '../../utils/useComponent';
+import type { ComponentNames } from '../../components/getComponent';
 
-const Example = () => {
-  const examples = useExamples('search');
-  const { name, text, image } = getComponent('Search');
+const COMPONENT_NAME: ComponentNames = 'Search';
+
+const PageSearch = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
       <ComponentPageDescription
@@ -18,6 +20,7 @@ const Example = () => {
         image={image}
         isInProgress
         isAriaSupport
+        isRtlSupport
       >
         <p>{text}</p>
       </ComponentPageDescription>
@@ -245,4 +248,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+PageSearch.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageSearch;

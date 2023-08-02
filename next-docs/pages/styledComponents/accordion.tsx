@@ -10,10 +10,10 @@ import OpenByDefault from '../../public/styledExamples/accordionNew/OpenByDefaul
 import Sizes from '../../public/styledExamples/accordionNew/Sizes';
 import SizesContentOutside from '../../public/styledExamples/accordionNew/SizesContentOutside';
 import WithoutButton from '../../public/styledExamples/accordionNew/WithoutButton';
-import useExamples from '../../utils/useExamples';
+import useStyledExamples from '../../utils/useStyledExamples';
 
 const PageAccordion = () => {
-  const examples = useExamples('accordionNew', 'styled');
+  const examples = useStyledExamples('accordionNew');
   return (
     <>
       <ComponentPageDescription title="Accordion" isDeprecated>

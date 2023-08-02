@@ -16,7 +16,7 @@ const Example = () => {
         onChange={(e) => setCheckedItems([e.target.checked, e.target.checked])}
         label="Parent "
       />
-      <div className="flex flex-col pl-4">
+      <div className="flex flex-col ps-4">
         <Checkbox
           checked={checkedItems[0]}
           onChange={(e) => setCheckedItems([e.target.checked, checkedItems[1]])}

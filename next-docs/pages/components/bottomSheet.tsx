@@ -1,16 +1,18 @@
-import React from 'react';
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import CustomHeight from '../../public/examples/bottomSheet/CustomHeight';
 import Default from '../../public/examples/bottomSheet/Default';
 import LargeWithOptionalExtras from '../../public/examples/bottomSheet/LargeWithOptionalExtras';
-import useExamples from '../../utils/useExamples';
+import useComponent from '../../utils/useComponent';
+import type { ComponentNames } from '../../components/getComponent';
 
-const Example = () => {
-  const examples = useExamples('bottomSheet');
-  const { name, text, image } = getComponent('BottomSheet');
+const COMPONENT_NAME: ComponentNames = 'BottomSheet';
+
+const PageBottomSheet = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
       <ComponentPageDescription
@@ -18,6 +20,7 @@ const Example = () => {
         image={image}
         isInProgress
         isAriaSupport
+        isRtlSupport
       >
         <p>{text}</p>
         <p>
@@ -155,4 +158,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+PageBottomSheet.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageBottomSheet;

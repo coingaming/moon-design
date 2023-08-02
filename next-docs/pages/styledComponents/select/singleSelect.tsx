@@ -11,10 +11,10 @@ import Options from '../../../public/styledExamples/select/singleReactSelect/Opt
 import OptionsContent from '../../../public/styledExamples/select/singleReactSelect/OptionsContent';
 import WithLabel from '../../../public/styledExamples/select/singleReactSelect/WithLabel';
 import WithoutLabel from '../../../public/styledExamples/select/singleReactSelect/WithoutLabel';
-import useExamples from '../../../utils/useExamples';
+import useStyledExamples from '../../../utils/useStyledExamples';
 
 export default function PageSelect() {
-  const examples = useExamples('select/singleReactSelect', 'styled');
+  const examples = useStyledExamples('select/singleReactSelect');
   return (
     <>
       <ComponentPageDescription title="Single Select" isDeprecated>

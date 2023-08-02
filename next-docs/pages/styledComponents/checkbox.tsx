@@ -7,10 +7,10 @@ import Default from '../../public/styledExamples/checkbox/Default';
 import Disabled from '../../public/styledExamples/checkbox/Disabled';
 import NoLabel from '../../public/styledExamples/checkbox/NoLabel';
 import Readonly from '../../public/styledExamples/checkbox/Readonly';
-import useExamples from '../../utils/useExamples';
+import useStyledExamples from '../../utils/useStyledExamples';
 
 const PageAccordion = () => {
-  const examples = useExamples('checkbox', 'styled');
+  const examples = useStyledExamples('checkbox');
   return (
     <>
       <ComponentPageDescription title="Checkbox" isDeprecated>

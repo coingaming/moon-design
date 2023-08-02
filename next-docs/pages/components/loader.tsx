@@ -1,19 +1,26 @@
-import React from 'react';
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Colors from '../../public/examples/loader/Colors';
 import Default from '../../public/examples/loader/Default';
 import Sizes from '../../public/examples/loader/Sizes';
-import useExamples from '../../utils/useExamples';
+import useComponent from '../../utils/useComponent';
+import type { ComponentNames } from '../../components/getComponent';
 
-const Example = () => {
-  const examples = useExamples('loader');
-  const { name, text, image } = getComponent('Loader');
+const COMPONENT_NAME: ComponentNames = 'Loader';
+
+const PageLoader = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
-      <ComponentPageDescription title={name} image={image} isAriaSupport>
+      <ComponentPageDescription
+        title={name}
+        image={image}
+        isAriaSupport
+        isRtlSupport
+      >
         <p>{text}</p>
       </ComponentPageDescription>
       <Preview
@@ -54,4 +61,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+PageLoader.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageLoader;

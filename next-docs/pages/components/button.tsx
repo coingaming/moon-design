@@ -1,7 +1,7 @@
-import React from 'react';
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Animations from '../../public/examples/button/Animations';
 import AsLink from '../../public/examples/button/AsLink';
@@ -11,11 +11,13 @@ import FullWidth from '../../public/examples/button/FullWidth';
 import Icons from '../../public/examples/button/Icons';
 import Sizes from '../../public/examples/button/Sizes';
 import Variants from '../../public/examples/button/Variants';
-import useExamples from '../../utils/useExamples';
+import useComponent from '../../utils/useComponent';
+import type { ComponentNames } from '../../components/getComponent';
 
-const Example = () => {
-  const examples = useExamples('button');
-  const { name, text, image } = getComponent('Button');
+const COMPONENT_NAME: ComponentNames = 'Button';
+
+const PageButton = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
       <ComponentPageDescription
@@ -156,4 +158,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+PageButton.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageButton;

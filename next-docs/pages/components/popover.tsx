@@ -1,18 +1,20 @@
-import React from 'react';
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/popover/Default';
 import Position from '../../public/examples/popover/Position';
 import TriggerElements from '../../public/examples/popover/TriggerElements';
 import WithClose from '../../public/examples/popover/WithClose';
-import useExamples from '../../utils/useExamples';
+import useComponent from '../../utils/useComponent';
+import type { ComponentNames } from '../../components/getComponent';
 
-const Example = () => {
-  const examples = useExamples('popover');
-  const { name, text, image } = getComponent('Popover');
+const COMPONENT_NAME: ComponentNames = 'Popover';
+
+const PagePopover = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
       <ComponentPageDescription title={name} image={image} isAriaSupport>
@@ -124,4 +126,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+PagePopover.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PagePopover;

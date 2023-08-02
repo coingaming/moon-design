@@ -8,7 +8,7 @@ const Example = () => {
     <>
       <MenuItem className="w-56">
         <span>
-          <ControlsChevronRight className="text-moon-24" />
+          <ControlsChevronRight className="text-moon-24 rtl:rotate-180" />
         </span>
         <MenuItem.MultiTitle
           title="Your value"

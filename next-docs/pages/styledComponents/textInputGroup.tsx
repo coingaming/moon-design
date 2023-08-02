@@ -14,10 +14,10 @@ import SingleSelect from '../../public/styledExamples/textInputGroup/SingleSelec
 import SingleSelectRtl from '../../public/styledExamples/textInputGroup/SingleSelectRtl';
 import SingleSelectVertical from '../../public/styledExamples/textInputGroup/SingleSelectVertical';
 import Types from '../../public/styledExamples/textInputGroup/Types';
-import useExamples from '../../utils/useExamples';
+import useStyledExamples from '../../utils/useStyledExamples';
 
 const PageTextInputGroup = () => {
-  const examples = useExamples('textInputGroup', 'styled');
+  const examples = useStyledExamples('textInputGroup');
   return (
     <>
       <ComponentPageDescription title="TextInput Group" isDeprecated>

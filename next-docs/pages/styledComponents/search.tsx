@@ -6,10 +6,10 @@ import PropsTable from '../../components/PropsTable';
 import OmitResults from '../../public/styledExamples/search/OmitResults';
 import PreviewSearch from '../../public/styledExamples/search/PreviewSearch';
 import PreviewSearchLoading from '../../public/styledExamples/search/PreviewSearchLoading';
-import useExamples from '../../utils/useExamples';
+import useStyledExamples from '../../utils/useStyledExamples';
 
 export default function PageSearch() {
-  const examples = useExamples('search', 'styled');
+  const examples = useStyledExamples('search');
   return (
     <>
       <ComponentPageDescription title="Search" isDeprecated>

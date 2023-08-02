@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Switch as HeadlessSwitch } from '@headlessui/react';
-import mergeClassnames from '../mergeClassnames/mergeClassnames';
+import mergeClassnames from '../../mergeClassnames/mergeClassnames';
 import getIconSize from './private/utils/getIconSize';
 import getSwitchSize from './private/utils/getSwitchSize';
 import getTogglePosition from './private/utils/getTogglePosition';

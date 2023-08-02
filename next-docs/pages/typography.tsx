@@ -1,16 +1,21 @@
+import { ReactNode } from 'react';
 import Preview from '../components/codePreview/Preview';
 import ComponentPageDescription from '../components/ComponentPageDescription';
+import Layout from '../components/Layout';
 import Caption from '../public/examples/typography/Caption';
 import Colors from '../public/examples/typography/Colors';
 import Heading from '../public/examples/typography/Heading';
 import Text from '../public/examples/typography/Text';
-import useExamples from '../utils/useExamples';
+import useComponent from '../utils/useComponent';
+import type { ComponentNames } from '../components/getComponent';
 
-const Example = () => {
-  const examples = useExamples('typography');
+const COMPONENT_NAME: ComponentNames = 'Typography';
+
+const PageTypography = () => {
+  const { examples } = useComponent(COMPONENT_NAME);
   return (
     <>
-      <ComponentPageDescription title="Typography">
+      <ComponentPageDescription title={COMPONENT_NAME}>
         <p>Typography includes text, headings, and captions.</p>
       </ComponentPageDescription>
       <Preview
@@ -37,4 +42,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+PageTypography.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={COMPONENT_NAME}>{page}</Layout>;
+};
+
+export default PageTypography;

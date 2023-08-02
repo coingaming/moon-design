@@ -1,18 +1,20 @@
-import React from 'react';
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import ArrowPositions from '../../public/examples/tooltip/ArrowPositions';
 import Customization from '../../public/examples/tooltip/Customization';
 import Default from '../../public/examples/tooltip/Default';
 import NotPortal from '../../public/examples/tooltip/NotPortal';
-import useExamples from '../../utils/useExamples';
+import useComponent from '../../utils/useComponent';
+import type { ComponentNames } from '../../components/getComponent';
 
-const Example = () => {
-  const examples = useExamples('tooltip');
-  const { name, text, image } = getComponent('Tooltip');
+const COMPONENT_NAME: ComponentNames = 'Tooltip';
+
+const PageTooltip = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
       <ComponentPageDescription
@@ -119,4 +121,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+PageTooltip.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageTooltip;

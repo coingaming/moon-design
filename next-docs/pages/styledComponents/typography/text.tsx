@@ -10,10 +10,10 @@ import Sizes from '../../../public/styledExamples/text/Sizes';
 import TextAlign from '../../../public/styledExamples/text/TextAlign';
 import Underline from '../../../public/styledExamples/text/Underline';
 import Uppercase from '../../../public/styledExamples/text/Uppercase';
-import useExamples from '../../../utils/useExamples';
+import useStyledExamples from '../../../utils/useStyledExamples';
 
 const PageText = () => {
-  const examples = useExamples('text', 'styled');
+  const examples = useStyledExamples('text');
   return (
     <>
       <ComponentPageDescription title="Text" isDeprecated>

@@ -1,5 +1,7 @@
+import { ReactNode } from 'react';
 import { Button } from '@heathmont/moon-core-tw';
 import Image from 'next/image';
+import Layout from '../components/Layout';
 import image404 from '../public/404.png';
 
 const Page404 = () => (
@@ -20,5 +22,9 @@ const Page404 = () => (
     </div>
   </div>
 );
+
+Page404.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title="404">{page}</Layout>;
+};
 
 export default Page404;
