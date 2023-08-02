@@ -33,7 +33,7 @@ const COMPONENT_NAME: ComponentNames = 'Icons';
 
 const PageIcons = () => {
   const [selectedIcons, setSelectedIcons] = useState<string[]>([]);
-  const props = { className: 'text-moon-32' };
+  const props = { className: 'text-moon-24' };
   const addIconToSelected: (iconName: string) => string[] = (iconName) =>
     selectedIcons.concat(iconName);
   const removeIconFromSelected = (removedIconName: string) =>

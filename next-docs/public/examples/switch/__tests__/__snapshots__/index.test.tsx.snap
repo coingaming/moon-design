@@ -1211,46 +1211,11 @@ Object {
         dir="rtl"
       >
         <button
-          class=""
-          data-state="closed"
-        >
-          <button
-            aria-checked="true"
-            aria-label="Switch with Tooltip"
-            class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
-            data-headlessui-state="checked"
-            data-tests="test-id"
-            id="headlessui-switch-:rr:"
-            role="switch"
-            tabindex="0"
-            type="button"
-          >
-            <span
-              class="block relative h-full w-full"
-            >
-              <span
-                aria-hidden="true"
-                class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
-              />
-            </span>
-          </button>
-        </button>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      dir="rtl"
-    >
-      <button
-        class=""
-        data-state="closed"
-      >
-        <button
           aria-checked="true"
           aria-label="Switch with Tooltip"
           class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
           data-headlessui-state="checked"
+          data-state="closed"
           data-tests="test-id"
           id="headlessui-switch-:rr:"
           role="switch"
@@ -1266,6 +1231,33 @@ Object {
             />
           </span>
         </button>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <button
+        aria-checked="true"
+        aria-label="Switch with Tooltip"
+        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
+        data-headlessui-state="checked"
+        data-state="closed"
+        data-tests="test-id"
+        id="headlessui-switch-:rr:"
+        role="switch"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="block relative h-full w-full"
+        >
+          <span
+            aria-hidden="true"
+            class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+          />
+        </span>
       </button>
     </div>
   </div>,
@@ -2483,42 +2475,11 @@ Object {
   "baseElement": <body>
     <div>
       <button
-        class=""
-        data-state="closed"
-      >
-        <button
-          aria-checked="true"
-          aria-label="Switch with Tooltip"
-          class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
-          data-headlessui-state="checked"
-          data-tests="test-id"
-          id="headlessui-switch-:rd:"
-          role="switch"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="block relative h-full w-full"
-          >
-            <span
-              aria-hidden="true"
-              class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
-            />
-          </span>
-        </button>
-      </button>
-    </div>
-  </body>,
-  "container": <div>
-    <button
-      class=""
-      data-state="closed"
-    >
-      <button
         aria-checked="true"
         aria-label="Switch with Tooltip"
         class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
         data-headlessui-state="checked"
+        data-state="closed"
         data-tests="test-id"
         id="headlessui-switch-:rd:"
         role="switch"
@@ -2534,6 +2495,29 @@ Object {
           />
         </span>
       </button>
+    </div>
+  </body>,
+  "container": <div>
+    <button
+      aria-checked="true"
+      aria-label="Switch with Tooltip"
+      class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
+      data-headlessui-state="checked"
+      data-state="closed"
+      data-tests="test-id"
+      id="headlessui-switch-:rd:"
+      role="switch"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="block relative h-full w-full"
+      >
+        <span
+          aria-hidden="true"
+          class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+        />
+      </span>
     </button>
   </div>,
   "debug": [Function],
