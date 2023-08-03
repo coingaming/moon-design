@@ -1,6 +1,7 @@
-import React from 'react';
+import { ReactNode } from 'react';
 import ColoursPalette from '../components/ColoursPalette';
 import ComponentPageDescription from '../components/ComponentPageDescription';
+import Layout from '../components/Layout';
 import PageSection from '../components/PageSection';
 
 const PageColours = () => (
@@ -229,5 +230,9 @@ const PageColours = () => (
     </PageSection>
   </>
 );
+
+PageColours.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title="Colours">{page}</Layout>;
+};
 
 export default PageColours;

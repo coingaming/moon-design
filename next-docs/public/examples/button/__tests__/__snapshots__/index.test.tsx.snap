@@ -21,26 +21,26 @@ Object {
               <div
                 aria-busy="true"
                 aria-label="Loading"
-                class="w-6 h-6 relative rounded-full"
+                class="w-6 h-6 relative rounded-full rtl:-scale-x-100"
                 role="alert"
               >
                 <div
-                  class="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+                  class="border-2 currentColor absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
                   role="presentation"
                   style="animation-delay: -0.45s;"
                 />
                 <div
-                  class="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+                  class="border-2 currentColor absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
                   role="presentation"
                   style="animation-delay: -0.3s;"
                 />
                 <div
-                  class="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+                  class="border-2 currentColor absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
                   role="presentation"
                   style="animation-delay: -0.15s;"
                 />
                 <div
-                  class="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+                  class="border-2 currentColor absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
                   role="presentation"
                 />
               </div>
@@ -134,26 +134,26 @@ Object {
             <div
               aria-busy="true"
               aria-label="Loading"
-              class="w-6 h-6 relative rounded-full"
+              class="w-6 h-6 relative rounded-full rtl:-scale-x-100"
               role="alert"
             >
               <div
-                class="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+                class="border-2 currentColor absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
                 role="presentation"
                 style="animation-delay: -0.45s;"
               />
               <div
-                class="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+                class="border-2 currentColor absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
                 role="presentation"
                 style="animation-delay: -0.3s;"
               />
               <div
-                class="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+                class="border-2 currentColor absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
                 role="presentation"
                 style="animation-delay: -0.15s;"
               />
               <div
-                class="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+                class="border-2 currentColor absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
                 role="presentation"
               />
             </div>
@@ -1388,26 +1388,26 @@ Object {
             <div
               aria-busy="true"
               aria-label="Loading"
-              class="w-6 h-6 relative rounded-full"
+              class="w-6 h-6 relative rounded-full rtl:-scale-x-100"
               role="alert"
             >
               <div
-                class="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+                class="border-2 currentColor absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
                 role="presentation"
                 style="animation-delay: -0.45s;"
               />
               <div
-                class="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+                class="border-2 currentColor absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
                 role="presentation"
                 style="animation-delay: -0.3s;"
               />
               <div
-                class="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+                class="border-2 currentColor absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
                 role="presentation"
                 style="animation-delay: -0.15s;"
               />
               <div
-                class="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+                class="border-2 currentColor absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
                 role="presentation"
               />
             </div>
@@ -1497,26 +1497,26 @@ Object {
           <div
             aria-busy="true"
             aria-label="Loading"
-            class="w-6 h-6 relative rounded-full"
+            class="w-6 h-6 relative rounded-full rtl:-scale-x-100"
             role="alert"
           >
             <div
-              class="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+              class="border-2 currentColor absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
               role="presentation"
               style="animation-delay: -0.45s;"
             />
             <div
-              class="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+              class="border-2 currentColor absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
               role="presentation"
               style="animation-delay: -0.3s;"
             />
             <div
-              class="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+              class="border-2 currentColor absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
               role="presentation"
               style="animation-delay: -0.15s;"
             />
             <div
-              class="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+              class="border-2 currentColor absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
               role="presentation"
             />
           </div>

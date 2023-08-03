@@ -8,10 +8,10 @@ import CalendarDisabledDays from '../../public/styledExamples/datePicker/Calenda
 import CalendarDisabledRange from '../../public/styledExamples/datePicker/CalendarDisabledRange';
 import CalendarDisabledRange2 from '../../public/styledExamples/datePicker/CalendarDisabledRange2';
 import DatePicker from '../../public/styledExamples/datePicker/DatePicker';
-import useExamples from '../../utils/useExamples';
+import useStyledExamples from '../../utils/useStyledExamples';
 
 const PageDatepicker = () => {
-  const examples = useExamples('datePicker', 'styled');
+  const examples = useStyledExamples('datePicker');
   return (
     <>
       <ComponentPageDescription title="Single Date">

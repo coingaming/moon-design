@@ -9,10 +9,10 @@ import DialogHeader from '../../../public/styledExamples/dialog/dialog/DialogHea
 import DialogHeader2 from '../../../public/styledExamples/dialog/dialog/DialogHeader2';
 import NoBackground from '../../../public/styledExamples/dialog/dialog/NoBackground';
 import NoClose from '../../../public/styledExamples/dialog/dialog/NoClose';
-import useExamples from '../../../utils/useExamples';
+import useStyledExamples from '../../../utils/useStyledExamples';
 
 export default function PageDialog() {
-  const examples = useExamples('dialog/dialog', 'styled');
+  const examples = useStyledExamples('dialog/dialog');
   return (
     <>
       <ComponentPageDescription title="Dialog" isDeprecated>

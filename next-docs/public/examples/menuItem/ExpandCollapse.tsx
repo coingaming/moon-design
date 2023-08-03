@@ -44,7 +44,7 @@ const Example = () => {
         </MenuItem>
 
         {activeOpt && (
-          <div className="pl-6">
+          <div className="ps-6">
             <MenuItem as="a" href="/">
               <MenuItem.Title> Accordion</MenuItem.Title>
             </MenuItem>
@@ -67,79 +67,79 @@ const Example = () => {
       <div className="w-56 bg-gohan flex flex-col gap-2 rounded-moon-s-lg p-4">
         <MenuItem>
           <span className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center">
-            <p className="leading-4 font-medium text-moon-10">B</p>
+            <p className="font-medium text-moon-10">B</p>
           </span>
           <MenuItem.Title>
-            <p className="leading-6 text-moon-14 font-medium">Bitcasino</p>
+            <p className="text-moon-14 font-medium">Bitcasino</p>
           </MenuItem.Title>
         </MenuItem>
-        <MenuItem className="pl-6" onClick={toggleClick}>
+        <MenuItem className="ps-6" onClick={toggleClick}>
           <span className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center">
-            <p className="leading-4 font-medium text-moon-10">CX</p>
+            <p className="font-medium text-moon-10">CX</p>
           </span>
           <MenuItem.Title> Customer...</MenuItem.Title>
           <ControlsChevronDown className={`w-6 ${isOpen && 'rotate-180'}`} />
         </MenuItem>
 
         {isOpen && (
-          <div className="pl-10">
+          <div className="ps-10">
             <MenuItem>
               <span className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center">
-                <p className="leading-4 font-medium text-moon-10">S</p>
+                <p className="font-medium text-moon-10">S</p>
               </span>
               <MenuItem.Title>Sub nested item</MenuItem.Title>
             </MenuItem>
             <MenuItem>
               <span className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center">
-                <p className="leading-4 font-medium text-moon-10">S</p>
+                <p className="font-medium text-moon-10">S</p>
               </span>
               <MenuItem.Title>Sub nested item</MenuItem.Title>
             </MenuItem>
           </div>
         )}
 
-        <MenuItem className="pl-6">
+        <MenuItem className="ps-6">
           <span className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center">
-            <p className="leading-4 font-medium text-moon-10">CX</p>
+            <p className="font-medium text-moon-10">CX</p>
           </span>
           <MenuItem.Title>Quality...</MenuItem.Title>
         </MenuItem>
-        <MenuItem className="pl-6">
+        <MenuItem className="ps-6">
           <span className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center">
-            <p className="leading-4 font-medium text-moon-10">RG</p>
+            <p className="font-medium text-moon-10">RG</p>
           </span>
           <MenuItem.Title>Responsible...</MenuItem.Title>
         </MenuItem>
-        <MenuItem className="pl-6">
+        <MenuItem className="ps-6">
           <span className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center">
-            <p className="leading-4 font-medium text-moon-10">RG</p>
+            <p className="font-medium text-moon-10">RG</p>
           </span>
           <MenuItem.Title>Responsible...</MenuItem.Title>
         </MenuItem>
         <div className="flex flex-col gap-2 rounded-moon-s-lg">
           <MenuItem>
             <span className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center">
-              <p className="leading-4 font-medium text-moon-10">S</p>
+              <p className="font-medium text-moon-10">S</p>
             </span>
             <MenuItem.Title>
-              <p className="leading-6 text-moon-14 font-medium">Sportsbet</p>
+              <p className="text-moon-14 font-medium">Sportsbet</p>
             </MenuItem.Title>
           </MenuItem>
-          <MenuItem className="pl-6">
+          <MenuItem className="ps-6">
             <span className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center">
-              <p className="leading-4 font-medium text-moon-10">RG</p>
+              <p className="font-medium text-moon-10">RG</p>
             </span>
             <MenuItem.Title>Customer...</MenuItem.Title>
           </MenuItem>
-          <MenuItem className="pl-6">
+          <MenuItem className="ps-6">
             <span className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center">
-              <p className="leading-4 font-medium text-moon-10">CX</p>
+              <p className="font-medium text-moon-10">CX</p>
             </span>
             <MenuItem.Title>Quality...</MenuItem.Title>
           </MenuItem>
-          <MenuItem className="pl-6">
+          <MenuItem className="ps-6">
             <span className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center">
-              <p className="leading-4 font-medium text-moon-10">RG</p>
+              <p className="font-medium text-moon-10">RG</p>
             </span>
             <MenuItem.Title>Responsible...</MenuItem.Title>
           </MenuItem>
@@ -147,15 +147,15 @@ const Example = () => {
         <div className="flex flex-col gap-2 rounded-moon-s-lg ">
           <MenuItem>
             <span className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center">
-              <p className="leading-4 font-medium text-moon-10">L</p>
+              <p className="font-medium text-moon-10">L</p>
             </span>
             <MenuItem.Title>
-              <p className="leading-6 text-moon-14 font-medium">Livecasino</p>
+              <p className="text-moon-14 font-medium">Livecasino</p>
             </MenuItem.Title>
           </MenuItem>
-          <MenuItem className="pl-6">
+          <MenuItem className="ps-6">
             <span className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center">
-              <p className="leading-4 font-medium text-moon-10">RG</p>
+              <p className="font-medium text-moon-10">RG</p>
             </span>
             <MenuItem.Title>Customer...</MenuItem.Title>
           </MenuItem>

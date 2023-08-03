@@ -1,18 +1,20 @@
-import React from 'react';
+import { ReactNode } from 'react';
 import Link from 'next/link';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Bg from '../../public/examples/nativeSelect/Bg';
 import Default from '../../public/examples/nativeSelect/Default';
 import Sizes from '../../public/examples/nativeSelect/Sizes';
 import States from '../../public/examples/nativeSelect/States';
-import useExamples from '../../utils/useExamples';
+import useComponent from '../../utils/useComponent';
+import type { ComponentNames } from '../../components/getComponent';
 
-const Example = () => {
-  const examples = useExamples('nativeSelect');
-  const { name, text, image } = getComponent('NativeSelect');
+const COMPONENT_NAME: ComponentNames = 'NativeSelect';
+
+const PageNativeSelect = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
       <ComponentPageDescription title={name} image={image} isAriaSupport>
@@ -89,4 +91,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+PageNativeSelect.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageNativeSelect;

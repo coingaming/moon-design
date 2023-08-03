@@ -1,7 +1,8 @@
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Background from '../../public/examples/accordion/Background';
 import ContentHeader from '../../public/examples/accordion/ContentHeader';
@@ -13,11 +14,13 @@ import Disabled from '../../public/examples/accordion/Disabled';
 import OpenDefault from '../../public/examples/accordion/OpenDefault';
 import Single from '../../public/examples/accordion/Single';
 import Sizes from '../../public/examples/accordion/Sizes';
-import useExamples from '../../utils/useExamples';
+import useComponent from '../../utils/useComponent';
+import type { ComponentNames } from '../../components/getComponent';
 
-const Example = () => {
-  const examples = useExamples('accordion');
-  const { name, text, image } = getComponent('Accordion');
+const COMPONENT_NAME: ComponentNames = 'Accordion';
+
+const PageAccordion = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
       <ComponentPageDescription
@@ -171,4 +174,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+PageAccordion.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageAccordion;

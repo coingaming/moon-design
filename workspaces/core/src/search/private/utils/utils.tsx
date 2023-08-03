@@ -1,8 +1,5 @@
-import {
-  Children,
-  ReactNode,
-} from 'react';
-import { JsonStructure } from '../types';
+import { Children, ReactNode } from 'react';
+import type JsonStructure from '../types/JsonStructure';
 
 export function getItemIndex(
   items: JsonStructure,

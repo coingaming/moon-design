@@ -1,7 +1,7 @@
-import React from 'react';
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Customization from '../../public/examples/switch/Customization';
 import Default from '../../public/examples/switch/Default';
@@ -10,11 +10,13 @@ import Form from '../../public/examples/switch/Form';
 import Sizes from '../../public/examples/switch/Sizes';
 import WithIcons from '../../public/examples/switch/WithIcons';
 import WithTooltip from '../../public/examples/switch/WithTooltip';
-import useExamples from '../../utils/useExamples';
+import useComponent from '../../utils/useComponent';
+import type { ComponentNames } from '../../components/getComponent';
 
-const Example = () => {
-  const examples = useExamples('switch');
-  const { name, text, image } = getComponent('Switch');
+const COMPONENT_NAME: ComponentNames = 'Switch';
+
+const PageSwitch = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
       <ComponentPageDescription
@@ -151,4 +153,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+PageSwitch.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageSwitch;

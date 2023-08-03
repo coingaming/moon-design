@@ -11,10 +11,10 @@ import PasswordWithHint from '../../../public/styledExamples/textInput/password/
 import PasswordWithLabel from '../../../public/styledExamples/textInput/password/PasswordWithLabel';
 import PasswordWithLabelRtl from '../../../public/styledExamples/textInput/password/PasswordWithLabelRtl';
 import PasswordWithoutLabel from '../../../public/styledExamples/textInput/password/PasswordWithoutLabel';
-import useExamples from '../../../utils/useExamples';
+import useStyledExamples from '../../../utils/useStyledExamples';
 
 export default function PageTextInput() {
-  const examples = useExamples('textInput/password', 'styled');
+  const examples = useStyledExamples('textInput/password');
   return (
     <>
       <ComponentPageDescription title="Password" isDeprecated>

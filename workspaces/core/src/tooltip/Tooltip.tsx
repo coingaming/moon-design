@@ -1,4 +1,4 @@
-import React, { forwardRef, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import * as RadixTooltip from '@radix-ui/react-tooltip';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import useRegisterChild from '../private/utils/useRegisterChild';

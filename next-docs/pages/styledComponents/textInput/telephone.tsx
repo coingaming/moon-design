@@ -11,10 +11,10 @@ import TelephoneWithHint from '../../../public/styledExamples/textInput/telephon
 import TelephoneWithLabel from '../../../public/styledExamples/textInput/telephone/TelephoneWithLabel';
 import TelephoneWithLabelRtl from '../../../public/styledExamples/textInput/telephone/TelephoneWithLabelRtl';
 import TelephoneWithoutLabel from '../../../public/styledExamples/textInput/telephone/TelephoneWithoutLabel';
-import useExamples from '../../../utils/useExamples';
+import useStyledExamples from '../../../utils/useStyledExamples';
 
 export default function PageTelephoneInput() {
-  const examples = useExamples('textInput/text', 'styled');
+  const examples = useStyledExamples('textInput/text');
   return (
     <>
       <ComponentPageDescription title="Telephone" isDeprecated>

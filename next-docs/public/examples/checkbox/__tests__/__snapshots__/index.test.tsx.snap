@@ -826,7 +826,7 @@ Object {
             Parent 
           </label>
           <div
-            class="flex flex-col pl-4"
+            class="flex flex-col ps-4"
           >
             <label
               class="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
@@ -931,7 +931,7 @@ Object {
           Parent 
         </label>
         <div
-          class="flex flex-col pl-4"
+          class="flex flex-col ps-4"
         >
           <label
             class="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
@@ -2182,7 +2182,7 @@ Object {
           Parent 
         </label>
         <div
-          class="flex flex-col pl-4"
+          class="flex flex-col ps-4"
         >
           <label
             class="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
@@ -2283,7 +2283,7 @@ Object {
         Parent 
       </label>
       <div
-        class="flex flex-col pl-4"
+        class="flex flex-col ps-4"
       >
         <label
           class="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"

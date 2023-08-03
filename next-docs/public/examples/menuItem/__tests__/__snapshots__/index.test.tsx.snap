@@ -459,7 +459,7 @@ Object {
               </svg>
             </button>
             <div
-              class="pl-6"
+              class="ps-6"
             >
               <a
                 class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
@@ -524,7 +524,7 @@ Object {
                 class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
               >
                 <p
-                  class="leading-4 font-medium text-moon-10"
+                  class="font-medium text-moon-10"
                 >
                   B
                 </p>
@@ -533,21 +533,21 @@ Object {
                 class="block grow text-start text-bulma overflow-hidden"
               >
                 <p
-                  class="leading-6 text-moon-14 font-medium"
+                  class="text-moon-14 font-medium"
                 >
                   Bitcasino
                 </p>
               </span>
             </button>
             <button
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
               type="button"
             >
               <span
                 class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
               >
                 <p
-                  class="leading-4 font-medium text-moon-10"
+                  class="font-medium text-moon-10"
                 >
                   CX
                 </p>
@@ -574,7 +574,7 @@ Object {
               </svg>
             </button>
             <div
-              class="pl-10"
+              class="ps-10"
             >
               <button
                 class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
@@ -584,7 +584,7 @@ Object {
                   class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
                 >
                   <p
-                    class="leading-4 font-medium text-moon-10"
+                    class="font-medium text-moon-10"
                   >
                     S
                   </p>
@@ -603,7 +603,7 @@ Object {
                   class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
                 >
                   <p
-                    class="leading-4 font-medium text-moon-10"
+                    class="font-medium text-moon-10"
                   >
                     S
                   </p>
@@ -616,14 +616,14 @@ Object {
               </button>
             </div>
             <button
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
               type="button"
             >
               <span
                 class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
               >
                 <p
-                  class="leading-4 font-medium text-moon-10"
+                  class="font-medium text-moon-10"
                 >
                   CX
                 </p>
@@ -635,14 +635,14 @@ Object {
               </span>
             </button>
             <button
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
               type="button"
             >
               <span
                 class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
               >
                 <p
-                  class="leading-4 font-medium text-moon-10"
+                  class="font-medium text-moon-10"
                 >
                   RG
                 </p>
@@ -654,14 +654,14 @@ Object {
               </span>
             </button>
             <button
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
               type="button"
             >
               <span
                 class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
               >
                 <p
-                  class="leading-4 font-medium text-moon-10"
+                  class="font-medium text-moon-10"
                 >
                   RG
                 </p>
@@ -683,7 +683,7 @@ Object {
                   class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
                 >
                   <p
-                    class="leading-4 font-medium text-moon-10"
+                    class="font-medium text-moon-10"
                   >
                     S
                   </p>
@@ -692,21 +692,21 @@ Object {
                   class="block grow text-start text-bulma overflow-hidden"
                 >
                   <p
-                    class="leading-6 text-moon-14 font-medium"
+                    class="text-moon-14 font-medium"
                   >
                     Sportsbet
                   </p>
                 </span>
               </button>
               <button
-                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
                 type="button"
               >
                 <span
                   class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
                 >
                   <p
-                    class="leading-4 font-medium text-moon-10"
+                    class="font-medium text-moon-10"
                   >
                     RG
                   </p>
@@ -718,14 +718,14 @@ Object {
                 </span>
               </button>
               <button
-                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
                 type="button"
               >
                 <span
                   class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
                 >
                   <p
-                    class="leading-4 font-medium text-moon-10"
+                    class="font-medium text-moon-10"
                   >
                     CX
                   </p>
@@ -737,14 +737,14 @@ Object {
                 </span>
               </button>
               <button
-                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
                 type="button"
               >
                 <span
                   class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
                 >
                   <p
-                    class="leading-4 font-medium text-moon-10"
+                    class="font-medium text-moon-10"
                   >
                     RG
                   </p>
@@ -767,7 +767,7 @@ Object {
                   class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
                 >
                   <p
-                    class="leading-4 font-medium text-moon-10"
+                    class="font-medium text-moon-10"
                   >
                     L
                   </p>
@@ -776,21 +776,21 @@ Object {
                   class="block grow text-start text-bulma overflow-hidden"
                 >
                   <p
-                    class="leading-6 text-moon-14 font-medium"
+                    class="text-moon-14 font-medium"
                   >
                     Livecasino
                   </p>
                 </span>
               </button>
               <button
-                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
                 type="button"
               >
                 <span
                   class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
                 >
                   <p
-                    class="leading-4 font-medium text-moon-10"
+                    class="font-medium text-moon-10"
                   >
                     RG
                   </p>
@@ -881,7 +881,7 @@ Object {
             </svg>
           </button>
           <div
-            class="pl-6"
+            class="ps-6"
           >
             <a
               class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
@@ -946,7 +946,7 @@ Object {
               class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
             >
               <p
-                class="leading-4 font-medium text-moon-10"
+                class="font-medium text-moon-10"
               >
                 B
               </p>
@@ -955,21 +955,21 @@ Object {
               class="block grow text-start text-bulma overflow-hidden"
             >
               <p
-                class="leading-6 text-moon-14 font-medium"
+                class="text-moon-14 font-medium"
               >
                 Bitcasino
               </p>
             </span>
           </button>
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
             type="button"
           >
             <span
               class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
             >
               <p
-                class="leading-4 font-medium text-moon-10"
+                class="font-medium text-moon-10"
               >
                 CX
               </p>
@@ -996,7 +996,7 @@ Object {
             </svg>
           </button>
           <div
-            class="pl-10"
+            class="ps-10"
           >
             <button
               class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
@@ -1006,7 +1006,7 @@ Object {
                 class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
               >
                 <p
-                  class="leading-4 font-medium text-moon-10"
+                  class="font-medium text-moon-10"
                 >
                   S
                 </p>
@@ -1025,7 +1025,7 @@ Object {
                 class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
               >
                 <p
-                  class="leading-4 font-medium text-moon-10"
+                  class="font-medium text-moon-10"
                 >
                   S
                 </p>
@@ -1038,14 +1038,14 @@ Object {
             </button>
           </div>
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
             type="button"
           >
             <span
               class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
             >
               <p
-                class="leading-4 font-medium text-moon-10"
+                class="font-medium text-moon-10"
               >
                 CX
               </p>
@@ -1057,14 +1057,14 @@ Object {
             </span>
           </button>
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
             type="button"
           >
             <span
               class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
             >
               <p
-                class="leading-4 font-medium text-moon-10"
+                class="font-medium text-moon-10"
               >
                 RG
               </p>
@@ -1076,14 +1076,14 @@ Object {
             </span>
           </button>
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
             type="button"
           >
             <span
               class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
             >
               <p
-                class="leading-4 font-medium text-moon-10"
+                class="font-medium text-moon-10"
               >
                 RG
               </p>
@@ -1105,7 +1105,7 @@ Object {
                 class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
               >
                 <p
-                  class="leading-4 font-medium text-moon-10"
+                  class="font-medium text-moon-10"
                 >
                   S
                 </p>
@@ -1114,21 +1114,21 @@ Object {
                 class="block grow text-start text-bulma overflow-hidden"
               >
                 <p
-                  class="leading-6 text-moon-14 font-medium"
+                  class="text-moon-14 font-medium"
                 >
                   Sportsbet
                 </p>
               </span>
             </button>
             <button
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
               type="button"
             >
               <span
                 class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
               >
                 <p
-                  class="leading-4 font-medium text-moon-10"
+                  class="font-medium text-moon-10"
                 >
                   RG
                 </p>
@@ -1140,14 +1140,14 @@ Object {
               </span>
             </button>
             <button
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
               type="button"
             >
               <span
                 class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
               >
                 <p
-                  class="leading-4 font-medium text-moon-10"
+                  class="font-medium text-moon-10"
                 >
                   CX
                 </p>
@@ -1159,14 +1159,14 @@ Object {
               </span>
             </button>
             <button
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
               type="button"
             >
               <span
                 class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
               >
                 <p
-                  class="leading-4 font-medium text-moon-10"
+                  class="font-medium text-moon-10"
                 >
                   RG
                 </p>
@@ -1189,7 +1189,7 @@ Object {
                 class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
               >
                 <p
-                  class="leading-4 font-medium text-moon-10"
+                  class="font-medium text-moon-10"
                 >
                   L
                 </p>
@@ -1198,21 +1198,21 @@ Object {
                 class="block grow text-start text-bulma overflow-hidden"
               >
                 <p
-                  class="leading-6 text-moon-14 font-medium"
+                  class="text-moon-14 font-medium"
                 >
                   Livecasino
                 </p>
               </span>
             </button>
             <button
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
               type="button"
             >
               <span
                 class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
               >
                 <p
-                  class="leading-4 font-medium text-moon-10"
+                  class="font-medium text-moon-10"
                 >
                   RG
                 </p>
@@ -2937,7 +2937,7 @@ Object {
             </svg>
           </button>
           <div
-            class="pl-6"
+            class="ps-6"
           >
             <a
               class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
@@ -3002,7 +3002,7 @@ Object {
               class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
             >
               <p
-                class="leading-4 font-medium text-moon-10"
+                class="font-medium text-moon-10"
               >
                 B
               </p>
@@ -3011,21 +3011,21 @@ Object {
               class="block grow text-start text-bulma overflow-hidden"
             >
               <p
-                class="leading-6 text-moon-14 font-medium"
+                class="text-moon-14 font-medium"
               >
                 Bitcasino
               </p>
             </span>
           </button>
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
             type="button"
           >
             <span
               class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
             >
               <p
-                class="leading-4 font-medium text-moon-10"
+                class="font-medium text-moon-10"
               >
                 CX
               </p>
@@ -3052,7 +3052,7 @@ Object {
             </svg>
           </button>
           <div
-            class="pl-10"
+            class="ps-10"
           >
             <button
               class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
@@ -3062,7 +3062,7 @@ Object {
                 class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
               >
                 <p
-                  class="leading-4 font-medium text-moon-10"
+                  class="font-medium text-moon-10"
                 >
                   S
                 </p>
@@ -3081,7 +3081,7 @@ Object {
                 class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
               >
                 <p
-                  class="leading-4 font-medium text-moon-10"
+                  class="font-medium text-moon-10"
                 >
                   S
                 </p>
@@ -3094,14 +3094,14 @@ Object {
             </button>
           </div>
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
             type="button"
           >
             <span
               class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
             >
               <p
-                class="leading-4 font-medium text-moon-10"
+                class="font-medium text-moon-10"
               >
                 CX
               </p>
@@ -3113,14 +3113,14 @@ Object {
             </span>
           </button>
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
             type="button"
           >
             <span
               class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
             >
               <p
-                class="leading-4 font-medium text-moon-10"
+                class="font-medium text-moon-10"
               >
                 RG
               </p>
@@ -3132,14 +3132,14 @@ Object {
             </span>
           </button>
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
             type="button"
           >
             <span
               class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
             >
               <p
-                class="leading-4 font-medium text-moon-10"
+                class="font-medium text-moon-10"
               >
                 RG
               </p>
@@ -3161,7 +3161,7 @@ Object {
                 class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
               >
                 <p
-                  class="leading-4 font-medium text-moon-10"
+                  class="font-medium text-moon-10"
                 >
                   S
                 </p>
@@ -3170,21 +3170,21 @@ Object {
                 class="block grow text-start text-bulma overflow-hidden"
               >
                 <p
-                  class="leading-6 text-moon-14 font-medium"
+                  class="text-moon-14 font-medium"
                 >
                   Sportsbet
                 </p>
               </span>
             </button>
             <button
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
               type="button"
             >
               <span
                 class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
               >
                 <p
-                  class="leading-4 font-medium text-moon-10"
+                  class="font-medium text-moon-10"
                 >
                   RG
                 </p>
@@ -3196,14 +3196,14 @@ Object {
               </span>
             </button>
             <button
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
               type="button"
             >
               <span
                 class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
               >
                 <p
-                  class="leading-4 font-medium text-moon-10"
+                  class="font-medium text-moon-10"
                 >
                   CX
                 </p>
@@ -3215,14 +3215,14 @@ Object {
               </span>
             </button>
             <button
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
               type="button"
             >
               <span
                 class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
               >
                 <p
-                  class="leading-4 font-medium text-moon-10"
+                  class="font-medium text-moon-10"
                 >
                   RG
                 </p>
@@ -3245,7 +3245,7 @@ Object {
                 class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
               >
                 <p
-                  class="leading-4 font-medium text-moon-10"
+                  class="font-medium text-moon-10"
                 >
                   L
                 </p>
@@ -3254,21 +3254,21 @@ Object {
                 class="block grow text-start text-bulma overflow-hidden"
               >
                 <p
-                  class="leading-6 text-moon-14 font-medium"
+                  class="text-moon-14 font-medium"
                 >
                   Livecasino
                 </p>
               </span>
             </button>
             <button
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
               type="button"
             >
               <span
                 class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
               >
                 <p
-                  class="leading-4 font-medium text-moon-10"
+                  class="font-medium text-moon-10"
                 >
                   RG
                 </p>
@@ -3355,7 +3355,7 @@ Object {
           </svg>
         </button>
         <div
-          class="pl-6"
+          class="ps-6"
         >
           <a
             class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
@@ -3420,7 +3420,7 @@ Object {
             class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
           >
             <p
-              class="leading-4 font-medium text-moon-10"
+              class="font-medium text-moon-10"
             >
               B
             </p>
@@ -3429,21 +3429,21 @@ Object {
             class="block grow text-start text-bulma overflow-hidden"
           >
             <p
-              class="leading-6 text-moon-14 font-medium"
+              class="text-moon-14 font-medium"
             >
               Bitcasino
             </p>
           </span>
         </button>
         <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
           type="button"
         >
           <span
             class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
           >
             <p
-              class="leading-4 font-medium text-moon-10"
+              class="font-medium text-moon-10"
             >
               CX
             </p>
@@ -3470,7 +3470,7 @@ Object {
           </svg>
         </button>
         <div
-          class="pl-10"
+          class="ps-10"
         >
           <button
             class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
@@ -3480,7 +3480,7 @@ Object {
               class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
             >
               <p
-                class="leading-4 font-medium text-moon-10"
+                class="font-medium text-moon-10"
               >
                 S
               </p>
@@ -3499,7 +3499,7 @@ Object {
               class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
             >
               <p
-                class="leading-4 font-medium text-moon-10"
+                class="font-medium text-moon-10"
               >
                 S
               </p>
@@ -3512,14 +3512,14 @@ Object {
           </button>
         </div>
         <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
           type="button"
         >
           <span
             class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
           >
             <p
-              class="leading-4 font-medium text-moon-10"
+              class="font-medium text-moon-10"
             >
               CX
             </p>
@@ -3531,14 +3531,14 @@ Object {
           </span>
         </button>
         <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
           type="button"
         >
           <span
             class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
           >
             <p
-              class="leading-4 font-medium text-moon-10"
+              class="font-medium text-moon-10"
             >
               RG
             </p>
@@ -3550,14 +3550,14 @@ Object {
           </span>
         </button>
         <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
           type="button"
         >
           <span
             class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
           >
             <p
-              class="leading-4 font-medium text-moon-10"
+              class="font-medium text-moon-10"
             >
               RG
             </p>
@@ -3579,7 +3579,7 @@ Object {
               class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
             >
               <p
-                class="leading-4 font-medium text-moon-10"
+                class="font-medium text-moon-10"
               >
                 S
               </p>
@@ -3588,21 +3588,21 @@ Object {
               class="block grow text-start text-bulma overflow-hidden"
             >
               <p
-                class="leading-6 text-moon-14 font-medium"
+                class="text-moon-14 font-medium"
               >
                 Sportsbet
               </p>
             </span>
           </button>
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
             type="button"
           >
             <span
               class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
             >
               <p
-                class="leading-4 font-medium text-moon-10"
+                class="font-medium text-moon-10"
               >
                 RG
               </p>
@@ -3614,14 +3614,14 @@ Object {
             </span>
           </button>
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
             type="button"
           >
             <span
               class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
             >
               <p
-                class="leading-4 font-medium text-moon-10"
+                class="font-medium text-moon-10"
               >
                 CX
               </p>
@@ -3633,14 +3633,14 @@ Object {
             </span>
           </button>
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
             type="button"
           >
             <span
               class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
             >
               <p
-                class="leading-4 font-medium text-moon-10"
+                class="font-medium text-moon-10"
               >
                 RG
               </p>
@@ -3663,7 +3663,7 @@ Object {
               class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
             >
               <p
-                class="leading-4 font-medium text-moon-10"
+                class="font-medium text-moon-10"
               >
                 L
               </p>
@@ -3672,21 +3672,21 @@ Object {
               class="block grow text-start text-bulma overflow-hidden"
             >
               <p
-                class="leading-6 text-moon-14 font-medium"
+                class="text-moon-14 font-medium"
               >
                 Livecasino
               </p>
             </span>
           </button>
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
             type="button"
           >
             <span
               class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
             >
               <p
-                class="leading-4 font-medium text-moon-10"
+                class="font-medium text-moon-10"
               >
                 RG
               </p>

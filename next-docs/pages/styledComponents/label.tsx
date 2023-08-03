@@ -6,10 +6,10 @@ import Colours from '../../public/styledExamples/label/Colours';
 import Icons from '../../public/styledExamples/label/Icons';
 import LetterCases from '../../public/styledExamples/label/LetterCases';
 import Sizes from '../../public/styledExamples/label/Sizes';
-import useExamples from '../../utils/useExamples';
+import useStyledExamples from '../../utils/useStyledExamples';
 
 const PageLabel = () => {
-  const examples = useExamples('label', 'styled');
+  const examples = useStyledExamples('label');
   return (
     <>
       <ComponentPageDescription title="Label" isDeprecated>

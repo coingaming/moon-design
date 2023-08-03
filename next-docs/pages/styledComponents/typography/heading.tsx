@@ -10,10 +10,10 @@ import Sizes from '../../../public/styledExamples/heading/Sizes';
 import TextAlign from '../../../public/styledExamples/heading/TextAlign';
 import Underline from '../../../public/styledExamples/heading/Underline';
 import Uppercase from '../../../public/styledExamples/heading/Uppercase';
-import useExamples from '../../../utils/useExamples';
+import useStyledExamples from '../../../utils/useStyledExamples';
 
 const PageHeading = () => {
-  const examples = useExamples('heading', 'styled');
+  const examples = useStyledExamples('heading');
   return (
     <>
       <ComponentPageDescription title="Heading" isDeprecated>

@@ -1,7 +1,7 @@
-import React from 'react';
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Calendar from '../../public/examples/table/Calendar';
 import CellBorder from '../../public/examples/table/CellBorder';
@@ -19,18 +19,19 @@ import SelectableCheckboxes from '../../public/examples/table/SelectableCheckbox
 import SelectableRows from '../../public/examples/table/SelectableRows';
 import Sorting from '../../public/examples/table/Sorting';
 import Zebra from '../../public/examples/table/Zebra';
-import useExamples from '../../utils/useExamples';
+import useComponent from '../../utils/useComponent';
+import type { ComponentNames } from '../../components/getComponent';
 
-const Example = () => {
-  const examples = useExamples('table');
-  const { name, text, image } = getComponent('Table');
+const COMPONENT_NAME: ComponentNames = 'Table';
+
+const PageTable = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
       <ComponentPageDescription
         title={name}
         image={image}
         isInProgress
-        isRtlSupport
         isAriaSupport
       >
         <p>{text}</p>
@@ -220,4 +221,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+PageTable.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageTable;

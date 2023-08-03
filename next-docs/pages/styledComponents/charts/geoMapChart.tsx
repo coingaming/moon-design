@@ -1,14 +1,13 @@
 import React from 'react';
-import Preview from '../../../components/codePreview/Preview';
 import CodeSnippet from '../../../components/codePreview/CodeSnippet';
+import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import PropsTable from '../../../components/PropsTable';
 import Default from '../../../public/styledExamples/charts/geoMapChart/Default';
-import useExamples from '../../../utils/useExamples';
+import useStyledExamples from '../../../utils/useStyledExamples';
 
 export default function PageGeoMapChart() {
-  const examples = useExamples('charts/geoMapChart', 'styled');
-
+  const examples = useStyledExamples('charts/geoMapChart');
   return (
     <>
       <ComponentPageDescription title="Geo map">

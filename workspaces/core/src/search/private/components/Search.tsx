@@ -14,17 +14,7 @@ import { SearchContext, SelectContext } from '../utils/context';
 import { Input } from './Input';
 import NoResults from './NoResults';
 import ResultItem from './ResultItem';
-
-interface SearchProps {
-  onChangeSelected?: (value: number) => void;
-  onChangeSearch: (search: string) => void;
-  onChangeOpen: (isOpen: boolean) => void;
-  children: ReactNode;
-  selected?: number;
-  isOpen: boolean;
-  search: string;
-  className?: string;
-}
+import type SearchProps from '../types/SearchProps';
 
 const SearchRoot = ({
   selected: selectedParent,

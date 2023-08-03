@@ -8,14 +8,14 @@ import Disabled from '../../public/styledExamples/switch/Disabled';
 import Rtl from '../../public/styledExamples/switch/Rtl';
 import Sizes from '../../public/styledExamples/switch/Sizes';
 import Theme from '../../public/styledExamples/switch/Theme';
-import useExamples from '../../utils/useExamples';
+import useStyledExamples from '../../utils/useStyledExamples';
 
 type Props = {
   isRtl?: boolean;
 };
 
 export default function PageSwitch({ isRtl }: Props) {
-  const examples = useExamples('switch', 'styled');
+  const examples = useStyledExamples('switch');
   return (
     <>
       <ComponentPageDescription title="Switch" isDeprecated>

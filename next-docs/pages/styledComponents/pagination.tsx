@@ -3,10 +3,10 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/styledExamples/pagination/Default';
-import useExamples from '../../utils/useExamples';
+import useStyledExamples from '../../utils/useStyledExamples';
 
 const PagePagination = () => {
-  const examples = useExamples('pagination', 'styled');
+  const examples = useStyledExamples('pagination');
   return (
     <>
       <ComponentPageDescription title="Pagination">

@@ -33,7 +33,7 @@ const InputWrapper = ({
 }: React.HTMLAttributes<HTMLDivElement>) => (
   <div
     className={mergeClassnames(
-      'relative flex items-center space-x-1.5 pl-3 py-4',
+      'relative flex items-center gap-2 ps-3 py-4',
       className
     )}
     {...props}
@@ -78,8 +78,8 @@ const Kbd = ({
 }: React.HTMLAttributes<HTMLDivElement>) => (
   <kbd
     className={mergeClassnames(
-      'select-none hover:cursor-pointer text-trunks text-moon-10 transition absolute right-4',
-      'top-1/2 transform -translate-y-1/2 border border-trunks rounded-md p-1',
+      'select-none hover:cursor-pointer text-trunks text-moon-10 transition absolute ltr:right-4',
+      'rtl:left-4 top-1/2 transform -translate-y-1/2 border border-trunks rounded-md p-1',
       className
     )}
     {...props}
@@ -215,10 +215,8 @@ const TriggerKbd = ({
 }: React.HTMLAttributes<HTMLDivElement>) => (
   <kbd
     className={mergeClassnames(
-      'inline-block whitespace-nowrap rounded px-1.5 align-middle',
-      'font-medium tracking-wide text-moon-14 border',
-      'border-beerus text-trunks',
-      'ml-auto',
+      'inline-block whitespace-nowrap rounded px-1.5 font-medium tracking-wide text-moon-14 border',
+      'border-beerus text-trunks ms-auto',
       className
     )}
     {...props}
