@@ -4026,7 +4026,7 @@ Object {
                 type="button"
               >
                 <button
-                  class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+                  class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
                   type="button"
                 >
                   Sort by
@@ -4188,7 +4188,7 @@ Object {
                 type="button"
               >
                 <button
-                  class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+                  class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
                   type="button"
                 >
                   Select language
@@ -4210,7 +4210,7 @@ Object {
                 type="button"
               >
                 <button
-                  class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+                  class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
                   type="button"
                 >
                   Select countries
@@ -4244,7 +4244,7 @@ Object {
               type="button"
             >
               <button
-                class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+                class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
                 type="button"
               >
                 Sort by
@@ -4406,7 +4406,7 @@ Object {
               type="button"
             >
               <button
-                class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+                class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
                 type="button"
               >
                 Select language
@@ -4428,7 +4428,7 @@ Object {
               type="button"
             >
               <button
-                class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+                class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
                 type="button"
               >
                 Select countries
@@ -6189,7 +6189,7 @@ Object {
                 type="button"
               >
                 <button
-                  class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-3 pe-2 bg-gohan text-bulma"
+                  class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-3 pe-2 bg-gohan text-bulma"
                   type="button"
                 >
                   Select name
@@ -6394,7 +6394,7 @@ Object {
               type="button"
             >
               <button
-                class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-3 pe-2 bg-gohan text-bulma"
+                class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-3 pe-2 bg-gohan text-bulma"
                 type="button"
               >
                 Select name
@@ -10449,7 +10449,7 @@ Object {
               type="button"
             >
               <button
-                class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+                class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
                 type="button"
               >
                 Sort by
@@ -10611,7 +10611,7 @@ Object {
               type="button"
             >
               <button
-                class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+                class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
                 type="button"
               >
                 Select language
@@ -10633,7 +10633,7 @@ Object {
               type="button"
             >
               <button
-                class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+                class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
                 type="button"
               >
                 Select countries
@@ -10663,7 +10663,7 @@ Object {
             type="button"
           >
             <button
-              class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+              class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
               type="button"
             >
               Sort by
@@ -10825,7 +10825,7 @@ Object {
             type="button"
           >
             <button
-              class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+              class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
               type="button"
             >
               Select language
@@ -10847,7 +10847,7 @@ Object {
             type="button"
           >
             <button
-              class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+              class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
               type="button"
             >
               Select countries
@@ -12588,7 +12588,7 @@ Object {
               type="button"
             >
               <button
-                class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-3 pe-2 bg-gohan text-bulma"
+                class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-3 pe-2 bg-gohan text-bulma"
                 type="button"
               >
                 Select name
@@ -12789,7 +12789,7 @@ Object {
             type="button"
           >
             <button
-              class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-3 pe-2 bg-gohan text-bulma"
+              class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-3 pe-2 bg-gohan text-bulma"
               type="button"
             >
               Select name
