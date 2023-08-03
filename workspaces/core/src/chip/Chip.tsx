@@ -23,9 +23,9 @@ const Chip = forwardRef<HTMLButtonElement, ChipProps>(
       ref={ref}
       {...rest}
       className={mergeClassnames(
-        'z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm',
-        'cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo',
-        'user-select-none',
+        'z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative',
+        'rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren',
+        'hover:text-piccolo user-select-none',
         iconOnly ? 'center' : 'space-between',
         size === 'sm' ? 'h-8 gap-1' : 'h-10 gap-2',
         setPadding({ size, iconLeft, iconRight, iconOnly }),

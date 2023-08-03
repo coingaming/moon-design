@@ -9,13 +9,13 @@ Object {
         dir="rtl"
       >
         <button
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 px-2 bg-jiren text-piccolo"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 px-2 bg-jiren text-piccolo"
           type="button"
         >
           Active
         </button>
         <button
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-jiren text-piccolo hover:shadow-interactive shadow-interactive"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-jiren text-piccolo hover:shadow-interactive shadow-interactive"
           type="button"
         >
           Active
@@ -28,13 +28,13 @@ Object {
       dir="rtl"
     >
       <button
-        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 px-2 bg-jiren text-piccolo"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 px-2 bg-jiren text-piccolo"
         type="button"
       >
         Active
       </button>
       <button
-        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-jiren text-piccolo hover:shadow-interactive shadow-interactive"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-jiren text-piccolo hover:shadow-interactive shadow-interactive"
         type="button"
       >
         Active
@@ -104,7 +104,7 @@ Object {
         dir="rtl"
       >
         <button
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
           type="button"
         >
           Default
@@ -117,7 +117,7 @@ Object {
       dir="rtl"
     >
       <button
-        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
         type="button"
       >
         Default
@@ -190,7 +190,7 @@ Object {
           class="flex flex-wrap items-center justify-around gap-2 w-full"
         >
           <button
-            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 ps-1 pe-2 bg-gohan text-bulma"
+            class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 ps-1 pe-2 bg-gohan text-bulma"
             type="button"
           >
             <svg
@@ -210,7 +210,7 @@ Object {
             Left Icon
           </button>
           <button
-            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 ps-2 pe-1 bg-gohan text-bulma"
+            class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 ps-2 pe-1 bg-gohan text-bulma"
             type="button"
           >
             Right Icon
@@ -230,7 +230,7 @@ Object {
             </svg>
           </button>
           <button
-            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 p-1 bg-gohan text-bulma"
+            class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 p-1 bg-gohan text-bulma"
             type="button"
           >
             <svg
@@ -265,7 +265,7 @@ Object {
           </button>
           <button
             aria-label="Left and right icons"
-            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 p-1 bg-gohan text-bulma"
+            class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 p-1 bg-gohan text-bulma"
             type="button"
           >
             <svg
@@ -299,7 +299,7 @@ Object {
           </button>
           <button
             aria-label="Single icon"
-            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none center h-8 gap-1 p-1 bg-gohan text-bulma"
+            class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none center h-8 gap-1 p-1 bg-gohan text-bulma"
             type="button"
           >
             <svg
@@ -322,7 +322,7 @@ Object {
           class="flex flex-wrap items-center justify-around gap-2 w-full"
         >
           <button
-            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-2 pe-3 bg-gohan text-bulma"
+            class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-2 pe-3 bg-gohan text-bulma"
             type="button"
           >
             <svg
@@ -342,7 +342,7 @@ Object {
             Left Icon
           </button>
           <button
-            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-3 pe-2 bg-gohan text-bulma"
+            class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-3 pe-2 bg-gohan text-bulma"
             type="button"
           >
             Right Icon
@@ -362,7 +362,7 @@ Object {
             </svg>
           </button>
           <button
-            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 p-2 bg-gohan text-bulma"
+            class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 p-2 bg-gohan text-bulma"
             type="button"
           >
             <svg
@@ -397,7 +397,7 @@ Object {
           </button>
           <button
             aria-label="Left and right icons"
-            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 p-2 bg-gohan text-bulma"
+            class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 p-2 bg-gohan text-bulma"
             type="button"
           >
             <svg
@@ -431,7 +431,7 @@ Object {
           </button>
           <button
             aria-label="Single icon"
-            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none center h-10 gap-2 p-2 bg-gohan text-bulma"
+            class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none center h-10 gap-2 p-2 bg-gohan text-bulma"
             type="button"
           >
             <svg
@@ -461,7 +461,7 @@ Object {
         class="flex flex-wrap items-center justify-around gap-2 w-full"
       >
         <button
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 ps-1 pe-2 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 ps-1 pe-2 bg-gohan text-bulma"
           type="button"
         >
           <svg
@@ -481,7 +481,7 @@ Object {
           Left Icon
         </button>
         <button
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 ps-2 pe-1 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 ps-2 pe-1 bg-gohan text-bulma"
           type="button"
         >
           Right Icon
@@ -501,7 +501,7 @@ Object {
           </svg>
         </button>
         <button
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 p-1 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 p-1 bg-gohan text-bulma"
           type="button"
         >
           <svg
@@ -536,7 +536,7 @@ Object {
         </button>
         <button
           aria-label="Left and right icons"
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 p-1 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 p-1 bg-gohan text-bulma"
           type="button"
         >
           <svg
@@ -570,7 +570,7 @@ Object {
         </button>
         <button
           aria-label="Single icon"
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none center h-8 gap-1 p-1 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none center h-8 gap-1 p-1 bg-gohan text-bulma"
           type="button"
         >
           <svg
@@ -593,7 +593,7 @@ Object {
         class="flex flex-wrap items-center justify-around gap-2 w-full"
       >
         <button
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-2 pe-3 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-2 pe-3 bg-gohan text-bulma"
           type="button"
         >
           <svg
@@ -613,7 +613,7 @@ Object {
           Left Icon
         </button>
         <button
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-3 pe-2 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-3 pe-2 bg-gohan text-bulma"
           type="button"
         >
           Right Icon
@@ -633,7 +633,7 @@ Object {
           </svg>
         </button>
         <button
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 p-2 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 p-2 bg-gohan text-bulma"
           type="button"
         >
           <svg
@@ -668,7 +668,7 @@ Object {
         </button>
         <button
           aria-label="Left and right icons"
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 p-2 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 p-2 bg-gohan text-bulma"
           type="button"
         >
           <svg
@@ -702,7 +702,7 @@ Object {
         </button>
         <button
           aria-label="Single icon"
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none center h-10 gap-2 p-2 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none center h-10 gap-2 p-2 bg-gohan text-bulma"
           type="button"
         >
           <svg
@@ -786,13 +786,13 @@ Object {
         dir="rtl"
       >
         <button
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 px-2 bg-gohan text-bulma hover:shadow-interactive"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 px-2 bg-gohan text-bulma hover:shadow-interactive"
           type="button"
         >
           Stroke on hover
         </button>
         <button
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:shadow-interactive"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:shadow-interactive"
           type="button"
         >
           Stroke on hover
@@ -805,13 +805,13 @@ Object {
       dir="rtl"
     >
       <button
-        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 px-2 bg-gohan text-bulma hover:shadow-interactive"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 px-2 bg-gohan text-bulma hover:shadow-interactive"
         type="button"
       >
         Stroke on hover
       </button>
       <button
-        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:shadow-interactive"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:shadow-interactive"
         type="button"
       >
         Stroke on hover
@@ -884,7 +884,7 @@ Object {
           class="flex flex-wrap items-center justify-around gap-2 w-full"
         >
           <button
-            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 ps-1 pe-2 bg-gohan text-bulma hover:shadow-interactive"
+            class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 ps-1 pe-2 bg-gohan text-bulma hover:shadow-interactive"
             type="button"
           >
             <svg
@@ -904,7 +904,7 @@ Object {
             Left Icon
           </button>
           <button
-            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 ps-2 pe-1 bg-gohan text-bulma hover:shadow-interactive"
+            class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 ps-2 pe-1 bg-gohan text-bulma hover:shadow-interactive"
             type="button"
           >
             Right Icon
@@ -924,7 +924,7 @@ Object {
             </svg>
           </button>
           <button
-            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 p-1 bg-gohan text-bulma hover:shadow-interactive"
+            class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 p-1 bg-gohan text-bulma hover:shadow-interactive"
             type="button"
           >
             <svg
@@ -959,7 +959,7 @@ Object {
           </button>
           <button
             aria-label="Left and right icons"
-            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 p-1 bg-gohan text-bulma hover:shadow-interactive"
+            class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 p-1 bg-gohan text-bulma hover:shadow-interactive"
             type="button"
           >
             <svg
@@ -993,7 +993,7 @@ Object {
           </button>
           <button
             aria-label="Single icon"
-            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none center h-8 gap-1 p-1 bg-gohan text-bulma hover:shadow-interactive"
+            class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none center h-8 gap-1 p-1 bg-gohan text-bulma hover:shadow-interactive"
             type="button"
           >
             <svg
@@ -1016,7 +1016,7 @@ Object {
           class="flex flex-wrap items-center justify-around gap-2 w-full"
         >
           <button
-            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-2 pe-3 bg-gohan text-bulma hover:shadow-interactive"
+            class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-2 pe-3 bg-gohan text-bulma hover:shadow-interactive"
             type="button"
           >
             <svg
@@ -1036,7 +1036,7 @@ Object {
             Left Icon
           </button>
           <button
-            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-3 pe-2 bg-gohan text-bulma hover:shadow-interactive"
+            class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-3 pe-2 bg-gohan text-bulma hover:shadow-interactive"
             type="button"
           >
             Right Icon
@@ -1056,7 +1056,7 @@ Object {
             </svg>
           </button>
           <button
-            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 p-2 bg-gohan text-bulma hover:shadow-interactive"
+            class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 p-2 bg-gohan text-bulma hover:shadow-interactive"
             type="button"
           >
             <svg
@@ -1091,7 +1091,7 @@ Object {
           </button>
           <button
             aria-label="Left and right icons"
-            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 p-2 bg-gohan text-bulma hover:shadow-interactive"
+            class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 p-2 bg-gohan text-bulma hover:shadow-interactive"
             type="button"
           >
             <svg
@@ -1125,7 +1125,7 @@ Object {
           </button>
           <button
             aria-label="Single icon"
-            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none center h-10 gap-2 p-2 bg-gohan text-bulma hover:shadow-interactive"
+            class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none center h-10 gap-2 p-2 bg-gohan text-bulma hover:shadow-interactive"
             type="button"
           >
             <svg
@@ -1155,7 +1155,7 @@ Object {
         class="flex flex-wrap items-center justify-around gap-2 w-full"
       >
         <button
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 ps-1 pe-2 bg-gohan text-bulma hover:shadow-interactive"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 ps-1 pe-2 bg-gohan text-bulma hover:shadow-interactive"
           type="button"
         >
           <svg
@@ -1175,7 +1175,7 @@ Object {
           Left Icon
         </button>
         <button
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 ps-2 pe-1 bg-gohan text-bulma hover:shadow-interactive"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 ps-2 pe-1 bg-gohan text-bulma hover:shadow-interactive"
           type="button"
         >
           Right Icon
@@ -1195,7 +1195,7 @@ Object {
           </svg>
         </button>
         <button
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 p-1 bg-gohan text-bulma hover:shadow-interactive"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 p-1 bg-gohan text-bulma hover:shadow-interactive"
           type="button"
         >
           <svg
@@ -1230,7 +1230,7 @@ Object {
         </button>
         <button
           aria-label="Left and right icons"
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 p-1 bg-gohan text-bulma hover:shadow-interactive"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 p-1 bg-gohan text-bulma hover:shadow-interactive"
           type="button"
         >
           <svg
@@ -1264,7 +1264,7 @@ Object {
         </button>
         <button
           aria-label="Single icon"
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none center h-8 gap-1 p-1 bg-gohan text-bulma hover:shadow-interactive"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none center h-8 gap-1 p-1 bg-gohan text-bulma hover:shadow-interactive"
           type="button"
         >
           <svg
@@ -1287,7 +1287,7 @@ Object {
         class="flex flex-wrap items-center justify-around gap-2 w-full"
       >
         <button
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-2 pe-3 bg-gohan text-bulma hover:shadow-interactive"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-2 pe-3 bg-gohan text-bulma hover:shadow-interactive"
           type="button"
         >
           <svg
@@ -1307,7 +1307,7 @@ Object {
           Left Icon
         </button>
         <button
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-3 pe-2 bg-gohan text-bulma hover:shadow-interactive"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-3 pe-2 bg-gohan text-bulma hover:shadow-interactive"
           type="button"
         >
           Right Icon
@@ -1327,7 +1327,7 @@ Object {
           </svg>
         </button>
         <button
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 p-2 bg-gohan text-bulma hover:shadow-interactive"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 p-2 bg-gohan text-bulma hover:shadow-interactive"
           type="button"
         >
           <svg
@@ -1362,7 +1362,7 @@ Object {
         </button>
         <button
           aria-label="Left and right icons"
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 p-2 bg-gohan text-bulma hover:shadow-interactive"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 p-2 bg-gohan text-bulma hover:shadow-interactive"
           type="button"
         >
           <svg
@@ -1396,7 +1396,7 @@ Object {
         </button>
         <button
           aria-label="Single icon"
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none center h-10 gap-2 p-2 bg-gohan text-bulma hover:shadow-interactive"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none center h-10 gap-2 p-2 bg-gohan text-bulma hover:shadow-interactive"
           type="button"
         >
           <svg
@@ -1480,7 +1480,7 @@ Object {
         dir="rtl"
       >
         <button
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
           type="button"
         >
           Default
@@ -1493,7 +1493,7 @@ Object {
       dir="rtl"
     >
       <button
-        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
         type="button"
       >
         Default
@@ -1563,13 +1563,13 @@ Object {
         dir="rtl"
       >
         <button
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 px-2 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 px-2 bg-gohan text-bulma"
           type="button"
         >
           Small
         </button>
         <button
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
           type="button"
         >
           Medium is Default
@@ -1582,13 +1582,13 @@ Object {
       dir="rtl"
     >
       <button
-        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 px-2 bg-gohan text-bulma"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 px-2 bg-gohan text-bulma"
         type="button"
       >
         Small
       </button>
       <button
-        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
         type="button"
       >
         Medium is Default
@@ -1658,13 +1658,13 @@ Object {
         dir="rtl"
       >
         <button
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 text-bulma"
           type="button"
         >
           Ghost variant
         </button>
         <button
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
           type="button"
         >
           Default variant
@@ -1677,13 +1677,13 @@ Object {
       dir="rtl"
     >
       <button
-        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 text-bulma"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 text-bulma"
         type="button"
       >
         Ghost variant
       </button>
       <button
-        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
         type="button"
       >
         Default variant
@@ -1750,13 +1750,13 @@ Object {
   "baseElement": <body>
     <div>
       <button
-        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 px-2 bg-jiren text-piccolo"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 px-2 bg-jiren text-piccolo"
         type="button"
       >
         Active
       </button>
       <button
-        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-jiren text-piccolo hover:shadow-interactive shadow-interactive"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-jiren text-piccolo hover:shadow-interactive shadow-interactive"
         type="button"
       >
         Active
@@ -1765,13 +1765,13 @@ Object {
   </body>,
   "container": <div>
     <button
-      class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 px-2 bg-jiren text-piccolo"
+      class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 px-2 bg-jiren text-piccolo"
       type="button"
     >
       Active
     </button>
     <button
-      class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-jiren text-piccolo hover:shadow-interactive shadow-interactive"
+      class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-jiren text-piccolo hover:shadow-interactive shadow-interactive"
       type="button"
     >
       Active
@@ -1837,7 +1837,7 @@ Object {
   "baseElement": <body>
     <div>
       <button
-        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
         type="button"
       >
         Default
@@ -1846,7 +1846,7 @@ Object {
   </body>,
   "container": <div>
     <button
-      class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+      class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
       type="button"
     >
       Default
@@ -1915,7 +1915,7 @@ Object {
         class="flex flex-wrap items-center justify-around gap-2 w-full"
       >
         <button
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 ps-1 pe-2 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 ps-1 pe-2 bg-gohan text-bulma"
           type="button"
         >
           <svg
@@ -1935,7 +1935,7 @@ Object {
           Left Icon
         </button>
         <button
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 ps-2 pe-1 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 ps-2 pe-1 bg-gohan text-bulma"
           type="button"
         >
           Right Icon
@@ -1955,7 +1955,7 @@ Object {
           </svg>
         </button>
         <button
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 p-1 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 p-1 bg-gohan text-bulma"
           type="button"
         >
           <svg
@@ -1990,7 +1990,7 @@ Object {
         </button>
         <button
           aria-label="Left and right icons"
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 p-1 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 p-1 bg-gohan text-bulma"
           type="button"
         >
           <svg
@@ -2024,7 +2024,7 @@ Object {
         </button>
         <button
           aria-label="Single icon"
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none center h-8 gap-1 p-1 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none center h-8 gap-1 p-1 bg-gohan text-bulma"
           type="button"
         >
           <svg
@@ -2047,7 +2047,7 @@ Object {
         class="flex flex-wrap items-center justify-around gap-2 w-full"
       >
         <button
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-2 pe-3 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-2 pe-3 bg-gohan text-bulma"
           type="button"
         >
           <svg
@@ -2067,7 +2067,7 @@ Object {
           Left Icon
         </button>
         <button
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-3 pe-2 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-3 pe-2 bg-gohan text-bulma"
           type="button"
         >
           Right Icon
@@ -2087,7 +2087,7 @@ Object {
           </svg>
         </button>
         <button
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 p-2 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 p-2 bg-gohan text-bulma"
           type="button"
         >
           <svg
@@ -2122,7 +2122,7 @@ Object {
         </button>
         <button
           aria-label="Left and right icons"
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 p-2 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 p-2 bg-gohan text-bulma"
           type="button"
         >
           <svg
@@ -2156,7 +2156,7 @@ Object {
         </button>
         <button
           aria-label="Single icon"
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none center h-10 gap-2 p-2 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none center h-10 gap-2 p-2 bg-gohan text-bulma"
           type="button"
         >
           <svg
@@ -2182,7 +2182,7 @@ Object {
       class="flex flex-wrap items-center justify-around gap-2 w-full"
     >
       <button
-        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 ps-1 pe-2 bg-gohan text-bulma"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 ps-1 pe-2 bg-gohan text-bulma"
         type="button"
       >
         <svg
@@ -2202,7 +2202,7 @@ Object {
         Left Icon
       </button>
       <button
-        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 ps-2 pe-1 bg-gohan text-bulma"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 ps-2 pe-1 bg-gohan text-bulma"
         type="button"
       >
         Right Icon
@@ -2222,7 +2222,7 @@ Object {
         </svg>
       </button>
       <button
-        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 p-1 bg-gohan text-bulma"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 p-1 bg-gohan text-bulma"
         type="button"
       >
         <svg
@@ -2257,7 +2257,7 @@ Object {
       </button>
       <button
         aria-label="Left and right icons"
-        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 p-1 bg-gohan text-bulma"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 p-1 bg-gohan text-bulma"
         type="button"
       >
         <svg
@@ -2291,7 +2291,7 @@ Object {
       </button>
       <button
         aria-label="Single icon"
-        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none center h-8 gap-1 p-1 bg-gohan text-bulma"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none center h-8 gap-1 p-1 bg-gohan text-bulma"
         type="button"
       >
         <svg
@@ -2314,7 +2314,7 @@ Object {
       class="flex flex-wrap items-center justify-around gap-2 w-full"
     >
       <button
-        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-2 pe-3 bg-gohan text-bulma"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-2 pe-3 bg-gohan text-bulma"
         type="button"
       >
         <svg
@@ -2334,7 +2334,7 @@ Object {
         Left Icon
       </button>
       <button
-        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-3 pe-2 bg-gohan text-bulma"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-3 pe-2 bg-gohan text-bulma"
         type="button"
       >
         Right Icon
@@ -2354,7 +2354,7 @@ Object {
         </svg>
       </button>
       <button
-        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 p-2 bg-gohan text-bulma"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 p-2 bg-gohan text-bulma"
         type="button"
       >
         <svg
@@ -2389,7 +2389,7 @@ Object {
       </button>
       <button
         aria-label="Left and right icons"
-        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 p-2 bg-gohan text-bulma"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 p-2 bg-gohan text-bulma"
         type="button"
       >
         <svg
@@ -2423,7 +2423,7 @@ Object {
       </button>
       <button
         aria-label="Single icon"
-        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none center h-10 gap-2 p-2 bg-gohan text-bulma"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none center h-10 gap-2 p-2 bg-gohan text-bulma"
         type="button"
       >
         <svg
@@ -2503,13 +2503,13 @@ Object {
   "baseElement": <body>
     <div>
       <button
-        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 px-2 bg-gohan text-bulma hover:shadow-interactive"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 px-2 bg-gohan text-bulma hover:shadow-interactive"
         type="button"
       >
         Stroke on hover
       </button>
       <button
-        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:shadow-interactive"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:shadow-interactive"
         type="button"
       >
         Stroke on hover
@@ -2518,13 +2518,13 @@ Object {
   </body>,
   "container": <div>
     <button
-      class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 px-2 bg-gohan text-bulma hover:shadow-interactive"
+      class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 px-2 bg-gohan text-bulma hover:shadow-interactive"
       type="button"
     >
       Stroke on hover
     </button>
     <button
-      class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:shadow-interactive"
+      class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:shadow-interactive"
       type="button"
     >
       Stroke on hover
@@ -2593,7 +2593,7 @@ Object {
         class="flex flex-wrap items-center justify-around gap-2 w-full"
       >
         <button
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 ps-1 pe-2 bg-gohan text-bulma hover:shadow-interactive"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 ps-1 pe-2 bg-gohan text-bulma hover:shadow-interactive"
           type="button"
         >
           <svg
@@ -2613,7 +2613,7 @@ Object {
           Left Icon
         </button>
         <button
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 ps-2 pe-1 bg-gohan text-bulma hover:shadow-interactive"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 ps-2 pe-1 bg-gohan text-bulma hover:shadow-interactive"
           type="button"
         >
           Right Icon
@@ -2633,7 +2633,7 @@ Object {
           </svg>
         </button>
         <button
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 p-1 bg-gohan text-bulma hover:shadow-interactive"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 p-1 bg-gohan text-bulma hover:shadow-interactive"
           type="button"
         >
           <svg
@@ -2668,7 +2668,7 @@ Object {
         </button>
         <button
           aria-label="Left and right icons"
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 p-1 bg-gohan text-bulma hover:shadow-interactive"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 p-1 bg-gohan text-bulma hover:shadow-interactive"
           type="button"
         >
           <svg
@@ -2702,7 +2702,7 @@ Object {
         </button>
         <button
           aria-label="Single icon"
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none center h-8 gap-1 p-1 bg-gohan text-bulma hover:shadow-interactive"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none center h-8 gap-1 p-1 bg-gohan text-bulma hover:shadow-interactive"
           type="button"
         >
           <svg
@@ -2725,7 +2725,7 @@ Object {
         class="flex flex-wrap items-center justify-around gap-2 w-full"
       >
         <button
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-2 pe-3 bg-gohan text-bulma hover:shadow-interactive"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-2 pe-3 bg-gohan text-bulma hover:shadow-interactive"
           type="button"
         >
           <svg
@@ -2745,7 +2745,7 @@ Object {
           Left Icon
         </button>
         <button
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-3 pe-2 bg-gohan text-bulma hover:shadow-interactive"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-3 pe-2 bg-gohan text-bulma hover:shadow-interactive"
           type="button"
         >
           Right Icon
@@ -2765,7 +2765,7 @@ Object {
           </svg>
         </button>
         <button
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 p-2 bg-gohan text-bulma hover:shadow-interactive"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 p-2 bg-gohan text-bulma hover:shadow-interactive"
           type="button"
         >
           <svg
@@ -2800,7 +2800,7 @@ Object {
         </button>
         <button
           aria-label="Left and right icons"
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 p-2 bg-gohan text-bulma hover:shadow-interactive"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 p-2 bg-gohan text-bulma hover:shadow-interactive"
           type="button"
         >
           <svg
@@ -2834,7 +2834,7 @@ Object {
         </button>
         <button
           aria-label="Single icon"
-          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none center h-10 gap-2 p-2 bg-gohan text-bulma hover:shadow-interactive"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none center h-10 gap-2 p-2 bg-gohan text-bulma hover:shadow-interactive"
           type="button"
         >
           <svg
@@ -2860,7 +2860,7 @@ Object {
       class="flex flex-wrap items-center justify-around gap-2 w-full"
     >
       <button
-        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 ps-1 pe-2 bg-gohan text-bulma hover:shadow-interactive"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 ps-1 pe-2 bg-gohan text-bulma hover:shadow-interactive"
         type="button"
       >
         <svg
@@ -2880,7 +2880,7 @@ Object {
         Left Icon
       </button>
       <button
-        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 ps-2 pe-1 bg-gohan text-bulma hover:shadow-interactive"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 ps-2 pe-1 bg-gohan text-bulma hover:shadow-interactive"
         type="button"
       >
         Right Icon
@@ -2900,7 +2900,7 @@ Object {
         </svg>
       </button>
       <button
-        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 p-1 bg-gohan text-bulma hover:shadow-interactive"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 p-1 bg-gohan text-bulma hover:shadow-interactive"
         type="button"
       >
         <svg
@@ -2935,7 +2935,7 @@ Object {
       </button>
       <button
         aria-label="Left and right icons"
-        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 p-1 bg-gohan text-bulma hover:shadow-interactive"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 p-1 bg-gohan text-bulma hover:shadow-interactive"
         type="button"
       >
         <svg
@@ -2969,7 +2969,7 @@ Object {
       </button>
       <button
         aria-label="Single icon"
-        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none center h-8 gap-1 p-1 bg-gohan text-bulma hover:shadow-interactive"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none center h-8 gap-1 p-1 bg-gohan text-bulma hover:shadow-interactive"
         type="button"
       >
         <svg
@@ -2992,7 +2992,7 @@ Object {
       class="flex flex-wrap items-center justify-around gap-2 w-full"
     >
       <button
-        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-2 pe-3 bg-gohan text-bulma hover:shadow-interactive"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-2 pe-3 bg-gohan text-bulma hover:shadow-interactive"
         type="button"
       >
         <svg
@@ -3012,7 +3012,7 @@ Object {
         Left Icon
       </button>
       <button
-        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-3 pe-2 bg-gohan text-bulma hover:shadow-interactive"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-3 pe-2 bg-gohan text-bulma hover:shadow-interactive"
         type="button"
       >
         Right Icon
@@ -3032,7 +3032,7 @@ Object {
         </svg>
       </button>
       <button
-        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 p-2 bg-gohan text-bulma hover:shadow-interactive"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 p-2 bg-gohan text-bulma hover:shadow-interactive"
         type="button"
       >
         <svg
@@ -3067,7 +3067,7 @@ Object {
       </button>
       <button
         aria-label="Left and right icons"
-        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 p-2 bg-gohan text-bulma hover:shadow-interactive"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 p-2 bg-gohan text-bulma hover:shadow-interactive"
         type="button"
       >
         <svg
@@ -3101,7 +3101,7 @@ Object {
       </button>
       <button
         aria-label="Single icon"
-        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none center h-10 gap-2 p-2 bg-gohan text-bulma hover:shadow-interactive"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none center h-10 gap-2 p-2 bg-gohan text-bulma hover:shadow-interactive"
         type="button"
       >
         <svg
@@ -3181,7 +3181,7 @@ Object {
   "baseElement": <body>
     <div>
       <button
-        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
         type="button"
       >
         Default
@@ -3190,7 +3190,7 @@ Object {
   </body>,
   "container": <div>
     <button
-      class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+      class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
       type="button"
     >
       Default
@@ -3256,13 +3256,13 @@ Object {
   "baseElement": <body>
     <div>
       <button
-        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 px-2 bg-gohan text-bulma"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 px-2 bg-gohan text-bulma"
         type="button"
       >
         Small
       </button>
       <button
-        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
         type="button"
       >
         Medium is Default
@@ -3271,13 +3271,13 @@ Object {
   </body>,
   "container": <div>
     <button
-      class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 px-2 bg-gohan text-bulma"
+      class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-8 gap-1 py-1 px-2 bg-gohan text-bulma"
       type="button"
     >
       Small
     </button>
     <button
-      class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+      class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
       type="button"
     >
       Medium is Default
@@ -3343,13 +3343,13 @@ Object {
   "baseElement": <body>
     <div>
       <button
-        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 text-bulma"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 text-bulma"
         type="button"
       >
         Ghost variant
       </button>
       <button
-        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
         type="button"
       >
         Default variant
@@ -3358,13 +3358,13 @@ Object {
   </body>,
   "container": <div>
     <button
-      class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 text-bulma"
+      class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 text-bulma"
       type="button"
     >
       Ghost variant
     </button>
     <button
-      class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+      class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
       type="button"
     >
       Default variant

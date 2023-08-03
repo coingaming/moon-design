@@ -796,7 +796,7 @@ Object {
             >
               <button
                 aria-label="Trigger"
-                class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none center h-10 gap-2 p-2 bg-gohan text-bulma"
+                class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none center h-10 gap-2 p-2 bg-gohan text-bulma"
                 type="button"
               >
                 <svg
@@ -920,7 +920,7 @@ Object {
           >
             <button
               aria-label="Trigger"
-              class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none center h-10 gap-2 p-2 bg-gohan text-bulma"
+              class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none center h-10 gap-2 p-2 bg-gohan text-bulma"
               type="button"
             >
               <svg
@@ -2229,7 +2229,7 @@ Object {
           >
             <button
               aria-label="Trigger"
-              class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none center h-10 gap-2 p-2 bg-gohan text-bulma"
+              class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none center h-10 gap-2 p-2 bg-gohan text-bulma"
               type="button"
             >
               <svg
@@ -2349,7 +2349,7 @@ Object {
         >
           <button
             aria-label="Trigger"
-            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none center h-10 gap-2 p-2 bg-gohan text-bulma"
+            class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none center h-10 gap-2 p-2 bg-gohan text-bulma"
             type="button"
           >
             <svg
