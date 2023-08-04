@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@heathmont/moon-base-tw": "workspace:^10.0.1",
     "@heathmont/moon-core-tw": "workspace:^10.0.1",
     "@heathmont/moon-icons-tw": "9.28.4",
     "@types/node": "20.3.2",

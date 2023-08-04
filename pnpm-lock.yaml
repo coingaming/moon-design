@@ -156,6 +156,9 @@ importers:
 
   docs:
     dependencies:
+      '@heathmont/moon-base-tw':
+        specifier: workspace:^10.0.1
+        version: link:../workspaces/base
       '@heathmont/moon-core-tw':
         specifier: workspace:^10.0.1
         version: link:../workspaces/core
