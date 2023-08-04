@@ -3,9 +3,11 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
-import CustomHeight from '../../public/examples/bottomSheet/CustomHeight';
+import Customization from '../../public/examples/bottomSheet/Customization';
 import Default from '../../public/examples/bottomSheet/Default';
-import LargeWithOptionalExtras from '../../public/examples/bottomSheet/LargeWithOptionalExtras';
+import Sizes from '../../public/examples/bottomSheet/Sizes';
+import WithDraghandle from '../../public/examples/bottomSheet/WithDraghandle';
+import WithTitle from '../../public/examples/bottomSheet/WithTitle';
 import useComponent from '../../utils/useComponent';
 import type { ComponentNames } from '../../components/getComponent';
 
@@ -45,25 +47,28 @@ const PageBottomSheet = () => {
         code={examples ? examples.Default : 'Loading'}
       />
       <Preview
-        title="Large with all optional extras"
-        preview={<LargeWithOptionalExtras />}
-        code={examples ? examples.LargeWithOptionalExtras : 'Loading'}
+        title="Different sizes"
+        preview={<Sizes />}
+        code={examples ? examples.Sizes : 'Loading'}
       />
       <Preview
-        title="Custom height"
-        preview={<CustomHeight />}
-        code={examples ? examples.CustomHeight : 'Loading'}
+        title="With Draghandle"
+        preview={<WithDraghandle />}
+        code={examples ? examples.WithDraghandle : 'Loading'}
+      />
+      <Preview
+        title="With Title"
+        preview={<WithTitle />}
+        code={examples ? examples.WithTitle : 'Loading'}
+      />
+      <Preview
+        title="Customization"
+        preview={<Customization />}
+        code={examples ? examples.Customization : 'Loading'}
       />
       <PropsTable
         title="BottomSheet"
         data={[
-          {
-            name: 'hasShadow',
-            type: 'boolean',
-            required: false,
-            default: '-',
-            description: 'Whether the BottomSheet has a shadow or not.',
-          },
           {
             name: 'onClose',
             type: '() => void',
@@ -77,14 +82,6 @@ const PageBottomSheet = () => {
             required: true,
             default: '-',
             description: 'Whether the BottomSheet is open or not.',
-          },
-          {
-            name: 'size',
-            type: 'string',
-            required: false,
-            default: 'sm',
-            description:
-              'The size of the BottomSheet, sm, md, lg or custom pixel/percentage/rem value.',
           },
         ]}
       />
