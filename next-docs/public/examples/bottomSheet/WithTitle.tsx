@@ -39,9 +39,7 @@ const Example = () => {
         <BottomSheet open={isMediumOpen} onClose={closeMediumBottomSheet}>
           <BottomSheet.Panel>
             <BottomSheet.Draghandle>
-              <BottomSheet.Title className="pt-2">
-                BottomSheet Title
-              </BottomSheet.Title>
+              <BottomSheet.Title>BottomSheet Title</BottomSheet.Title>
             </BottomSheet.Draghandle>
             <div className="flex grow items-center justify-center bg-jiren text-piccolo">
               BottomSheet content

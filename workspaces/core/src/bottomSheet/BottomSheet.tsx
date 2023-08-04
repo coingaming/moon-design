@@ -119,7 +119,7 @@ const Draghandle = ({ children, className }: DraghandleProps) => {
       className={mergeClassnames(
         'relative flex items-center justify-center pb-2 after:absolute after:-top-1',
         'after:left-1/2 after:rounded-full after:-translate-x-1/2 after:w-10 after:h-1',
-        'after:bg-beerus',
+        'after:bg-beerus [&_.bottomsheet-title]:pt-2',
         className
       )}
       ref={draghandleRef}
@@ -133,7 +133,7 @@ const Title = ({ children, className }: TitleProps) => (
   <Dialog.Title
     as="p"
     className={mergeClassnames(
-      'text-moon-16 text-bulma font-medium text-center',
+      'bottomsheet-title text-moon-16 text-bulma font-medium text-center',
       className
     )}
   >

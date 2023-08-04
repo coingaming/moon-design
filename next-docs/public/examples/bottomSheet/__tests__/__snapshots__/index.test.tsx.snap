@@ -58,10 +58,10 @@ Object {
               id="headlessui-dialog-panel-:rm:"
             >
               <div
-                class="relative flex items-center justify-center pb-2 after:absolute after:-top-1 after:left-1/2 after:rounded-full after:-translate-x-1/2 after:w-10 after:h-1 after:bg-piccolo"
+                class="relative flex items-center justify-center pb-2 after:absolute after:-top-1 after:left-1/2 after:rounded-full after:-translate-x-1/2 after:w-10 after:h-1 [&_.bottomsheet-title]:pt-2 after:bg-piccolo"
               >
                 <p
-                  class="text-moon-16 font-medium text-center pt-2 text-goten"
+                  class="bottomsheet-title text-moon-16 font-medium text-center pt-2 text-goten"
                   data-headlessui-state="open"
                   id="headlessui-dialog-title-:rn:"
                 >
@@ -623,7 +623,7 @@ Object {
               id="headlessui-dialog-panel-:rh:"
             >
               <div
-                class="relative flex items-center justify-center pb-2 after:absolute after:-top-1 after:left-1/2 after:rounded-full after:-translate-x-1/2 after:w-10 after:h-1 after:bg-beerus"
+                class="relative flex items-center justify-center pb-2 after:absolute after:-top-1 after:left-1/2 after:rounded-full after:-translate-x-1/2 after:w-10 after:h-1 after:bg-beerus [&_.bottomsheet-title]:pt-2"
               />
               <div
                 class="flex grow items-center justify-center bg-jiren text-piccolo"
@@ -797,7 +797,7 @@ Object {
               id="headlessui-dialog-panel-:rj:"
             >
               <p
-                class="text-moon-16 text-bulma font-medium text-center"
+                class="bottomsheet-title text-moon-16 text-bulma font-medium text-center"
                 data-headlessui-state="open"
                 id="headlessui-dialog-title-:rk:"
               >
@@ -991,10 +991,10 @@ Object {
               id="headlessui-dialog-panel-:ra:"
             >
               <div
-                class="relative flex items-center justify-center pb-2 after:absolute after:-top-1 after:left-1/2 after:rounded-full after:-translate-x-1/2 after:w-10 after:h-1 after:bg-piccolo"
+                class="relative flex items-center justify-center pb-2 after:absolute after:-top-1 after:left-1/2 after:rounded-full after:-translate-x-1/2 after:w-10 after:h-1 [&_.bottomsheet-title]:pt-2 after:bg-piccolo"
               >
                 <p
-                  class="text-moon-16 font-medium text-center pt-2 text-goten"
+                  class="bottomsheet-title text-moon-16 font-medium text-center pt-2 text-goten"
                   data-headlessui-state="open"
                   id="headlessui-dialog-title-:rb:"
                 >
@@ -1487,7 +1487,7 @@ Object {
               id="headlessui-dialog-panel-:r5:"
             >
               <div
-                class="relative flex items-center justify-center pb-2 after:absolute after:-top-1 after:left-1/2 after:rounded-full after:-translate-x-1/2 after:w-10 after:h-1 after:bg-beerus"
+                class="relative flex items-center justify-center pb-2 after:absolute after:-top-1 after:left-1/2 after:rounded-full after:-translate-x-1/2 after:w-10 after:h-1 after:bg-beerus [&_.bottomsheet-title]:pt-2"
               />
               <div
                 class="flex grow items-center justify-center bg-jiren text-piccolo"
@@ -1638,7 +1638,7 @@ Object {
               id="headlessui-dialog-panel-:r7:"
             >
               <p
-                class="text-moon-16 text-bulma font-medium text-center"
+                class="bottomsheet-title text-moon-16 text-bulma font-medium text-center"
                 data-headlessui-state="open"
                 id="headlessui-dialog-title-:r8:"
               >
