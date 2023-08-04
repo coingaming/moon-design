@@ -1,17 +1,20 @@
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
-import Collapsed from '../../public/examples/breadcrumbs/Collapsed';
-import CustomDivider from '../../public/examples/breadcrumbs/CustomDivider';
-import FourItems from '../../public/examples/breadcrumbs/FourItems';
-import OneItem from '../../public/examples/breadcrumbs/OneItem';
-import TwoItems from '../../public/examples/breadcrumbs/TwoItems';
-import useExamples from '../../utils/useExamples';
+import Collapsed from '../../public/examples/breadcrumb/Collapsed';
+import CustomDivider from '../../public/examples/breadcrumb/CustomDivider';
+import FourItems from '../../public/examples/breadcrumb/FourItems';
+import OneItem from '../../public/examples/breadcrumb/OneItem';
+import TwoItems from '../../public/examples/breadcrumb/TwoItems';
+import useComponent from '../../utils/useComponent';
+import type { ComponentNames } from '../../components/getComponent';
 
-const Example = () => {
-  const examples = useExamples('breadcrumbs');
-  const { name, text, image } = getComponent('Breadcrumb');
+const COMPONENT_NAME: ComponentNames = 'Breadcrumb';
+
+const PageBreadcrumb = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
       <ComponentPageDescription
@@ -70,4 +73,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+PageBreadcrumb.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageBreadcrumb;

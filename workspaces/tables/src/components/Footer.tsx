@@ -1,20 +1,11 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
+import type FooterProps from '../private/types/FooterProps';
 
-type FooterProps = {
-  ref: React.RefObject<any>;
-  headerBackgroundColor: string;
-  selectable?: boolean;
-  children?: React.ReactNode;
-};
-
-const Footer: React.FC<FooterProps> = ({
-  headerBackgroundColor,
-  selectable,
-  children,
-}) => {
-  return (
+const Footer = forwardRef<HTMLDivElement, FooterProps>(
+  ({ headerBackgroundColor, selectable, children }, ref) => (
     <div
-      className={'sticky z-[99] bottom-0'}
+      ref={ref}
+      className="sticky z-[99] bottom-0"
       style={
         selectable
           ? { backgroundColor: `rgb(var(--${headerBackgroundColor}))` }
@@ -23,7 +14,7 @@ const Footer: React.FC<FooterProps> = ({
     >
       {children}
     </div>
-  );
-};
+  )
+);
 
 export default Footer;

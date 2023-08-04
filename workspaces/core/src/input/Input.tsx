@@ -1,5 +1,6 @@
 import React, { forwardRef } from 'react';
-import { useFormContext, useFormItemContext } from '../form/Form';
+import useFormContext from '../form/private/utils/useFormContext';
+import useFormItemContext from '../form/private/utils/useFormItemContext';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import getSizeStyles from './private/getSizeStyles';
 

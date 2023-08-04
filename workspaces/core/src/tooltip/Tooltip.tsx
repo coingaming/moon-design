@@ -7,20 +7,17 @@ import getSide from './private/utils/getSide';
 import TooltipContext from './private/utils/TooltipContext';
 import useTooltipContext from './private/utils/useTooltipContext';
 import type ArrowProps from './private/types/ArrowProps';
-import type ContentProps from './private/types/ContentProps';
-import type TooltipRootProps from './private/types/TooltipRootProps';
-import type TriggerProps from './private/types/TriggerProps';
+import type ContentComponentProps from './private/types/ContentComponentProps';
+import type RootContentProps from './private/types/RootContentProps';
+import type TriggerComponentProps from './private/types/TriggerComponentProps';
 
-type RootContentProps = TooltipRootProps &
-  React.ComponentProps<typeof RadixTooltip.Root>;
-
-const TooltipRoot: React.FC<RootContentProps> = ({ children, ...rest }) => (
+const TooltipRoot = ({ children, ...rest }: RootContentProps) => (
   <RadixTooltip.Provider delayDuration={100}>
     <RadixTooltip.Root {...rest}>{children}</RadixTooltip.Root>
   </RadixTooltip.Provider>
 );
 
-const Arrow: React.FC<ArrowProps> = ({ className }) => {
+const Arrow = ({ className }: ArrowProps) => {
   const { registerChild } = useTooltipContext('Tooltip.Arrow');
   useEffect(() => {
     registerChild && registerChild('Arrow');
@@ -37,28 +34,19 @@ const Arrow: React.FC<ArrowProps> = ({ className }) => {
   );
 };
 
-type TriggerComponentProps = TriggerProps &
-  React.ComponentProps<typeof RadixTooltip.Trigger>;
-
-const Trigger: React.FC<TriggerComponentProps> = ({
-  className,
-  children,
-  ...rest
-}) => (
-  <RadixTooltip.Trigger className={className} {...rest}>
+const Trigger = ({ className, children, ...rest }: TriggerComponentProps) => (
+  <RadixTooltip.Trigger asChild className={className} {...rest}>
     {children}
   </RadixTooltip.Trigger>
 );
 
-type ContentComponentProps = ContentProps &
-  React.ComponentProps<typeof RadixTooltip.Content>;
-const Content: React.FC<ContentComponentProps> = ({
+const Content = ({
   position = 'top-center',
   className,
   children,
   container,
   ...rest
-}) => {
+}: ContentComponentProps) => {
   const states = {
     withArrow: false,
   };

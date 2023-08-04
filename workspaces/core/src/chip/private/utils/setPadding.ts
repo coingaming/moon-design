@@ -1,9 +1,11 @@
-const setPadding = (
-  size?: string,
-  iconLeft?: JSX.Element | boolean,
-  iconRight?: JSX.Element | boolean,
-  iconOnly?: JSX.Element | boolean
-) => {
+import type ChipProps from '../types/ChipProps';
+
+const setPadding = ({
+  size,
+  iconLeft,
+  iconRight,
+  iconOnly,
+}: ChipProps): string => {
   if (size === 'sm') {
     if (iconLeft && !iconRight) {
       return 'py-1 ps-1 pe-2';

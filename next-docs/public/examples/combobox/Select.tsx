@@ -11,16 +11,19 @@ const people = [
   { id: 6, label: 'Hellen Schmidt', value: 'Hellen Schmidt' },
 ];
 
-const filter = (query: string, people: ({ id: number, label: string, value: string })[]) => {
+const filter = (
+  query: string,
+  people: { id: number; label: string; value: string }[]
+) => {
   return query === ''
     ? people
     : people.filter(({ value }) =>
-      value
-        .toLowerCase()
-        .replace(/\s+/g, '')
-        .includes(query.toLowerCase().replace(/\s+/g, ''))
-    );
-}
+        value
+          .toLowerCase()
+          .replace(/\s+/g, '')
+          .includes(query.toLowerCase().replace(/\s+/g, ''))
+      );
+};
 
 const Example = () => {
   const [selected0, setSelected0] = useState({});
@@ -37,13 +40,13 @@ const Example = () => {
 
   return (
     <div className={'flex flex-col items-center w-full h-50'}>
-      <div className='flex flex-col items-center lg:flex-row lg:justify-center lg:items-end w-full gap-4'>
+      <div className="flex flex-col items-center lg:flex-row lg:justify-center lg:items-end w-full gap-4">
         <Combobox
           value={selected0}
           onChange={setSelected0}
           onQueryChange={setQuery0}
-          className='w-full max-w-xs'
-          size='sm'
+          className="w-full max-w-xs"
+          size="sm"
         >
           {({ open }) => (
             <>
@@ -51,27 +54,28 @@ const Example = () => {
                 open={open}
                 label="Small"
                 placeholder="Choose an option"
-                displayValue={({ label }) => label }
+                displayValue={({ label }) => label}
               >
                 <ControlsChevronDownSmall />
               </Combobox.Select>
               <Combobox.Transition>
                 <Combobox.Options>
                   {filteredPeople0.length === 0 && query0 !== '' ? (
-                    <div className='relative cursor-default select-none py-2 px-4 text-trunks'>
+                    <div className="relative cursor-default select-none py-2 px-4 text-trunks">
                       Nothing found.
                     </div>
                   ) : (
-                  filteredPeople0.map((person, index) => (
-                    <Combobox.Option value={person} key={index}>
-                      {({ selected, active }) => (
-                        <MenuItem isActive={active} isSelected={selected}>
-                          <MenuItem.Title>{person.label}</MenuItem.Title>
-                          <MenuItem.Radio isSelected={selected} />
-                        </MenuItem>
-                      )}
-                    </Combobox.Option>
-                  )))}
+                    filteredPeople0.map((person, index) => (
+                      <Combobox.Option value={person} key={index}>
+                        {({ selected, active }) => (
+                          <MenuItem isActive={active} isSelected={selected}>
+                            <MenuItem.Title>{person.label}</MenuItem.Title>
+                            <MenuItem.Radio isSelected={selected} />
+                          </MenuItem>
+                        )}
+                      </Combobox.Option>
+                    ))
+                  )}
                 </Combobox.Options>
               </Combobox.Transition>
               <Combobox.Hint>Informative message holder</Combobox.Hint>
@@ -83,7 +87,7 @@ const Example = () => {
           value={selected1}
           onChange={setSelected1}
           onQueryChange={setQuery1}
-          className='w-full max-w-xs'
+          className="w-full max-w-xs"
         >
           {({ open }) => (
             <>
@@ -91,27 +95,28 @@ const Example = () => {
                 open={open}
                 label="Medium"
                 placeholder="Choose an option"
-                displayValue={({ label }) => label }
+                displayValue={({ label }) => label}
               >
                 <ControlsChevronDownSmall />
               </Combobox.Select>
               <Combobox.Transition>
                 <Combobox.Options>
                   {filteredPeople1.length === 0 && query1 !== '' ? (
-                    <div className='relative cursor-default select-none py-2 px-4 text-trunks'>
+                    <div className="relative cursor-default select-none py-2 px-4 text-trunks">
                       Nothing found.
                     </div>
                   ) : (
-                  filteredPeople1.map((person, index) => (
-                    <Combobox.Option value={person} key={index}>
-                      {({ selected, active }) => (
-                        <MenuItem isActive={active} isSelected={selected}>
-                          <MenuItem.Title>{person.label}</MenuItem.Title>
-                          <MenuItem.Radio isSelected={selected} />
-                        </MenuItem>
-                      )}
-                    </Combobox.Option>
-                  )))}
+                    filteredPeople1.map((person, index) => (
+                      <Combobox.Option value={person} key={index}>
+                        {({ selected, active }) => (
+                          <MenuItem isActive={active} isSelected={selected}>
+                            <MenuItem.Title>{person.label}</MenuItem.Title>
+                            <MenuItem.Radio isSelected={selected} />
+                          </MenuItem>
+                        )}
+                      </Combobox.Option>
+                    ))
+                  )}
                 </Combobox.Options>
               </Combobox.Transition>
               <Combobox.Hint>Informative message holder</Combobox.Hint>
@@ -123,8 +128,8 @@ const Example = () => {
           value={selected2}
           onChange={setSelected2}
           onQueryChange={setQuery2}
-          className='w-full max-w-xs'
-          size='lg'
+          className="w-full max-w-xs"
+          size="lg"
         >
           {({ open }) => (
             <>
@@ -132,31 +137,32 @@ const Example = () => {
                 open={open}
                 label="Large"
                 placeholder="Choose an option"
-                displayValue={({ label }) => label }
+                displayValue={({ label }) => label}
               >
                 <ControlsChevronDownSmall />
               </Combobox.Select>
               <Combobox.Transition>
                 <Combobox.Options>
                   {filteredPeople2.length === 0 && query2 !== '' ? (
-                    <div className='relative cursor-default select-none py-2 px-4 text-trunks'>
+                    <div className="relative cursor-default select-none py-2 px-4 text-trunks">
                       Nothing found.
                     </div>
                   ) : (
-                  filteredPeople2.map((person, index) => (
-                    <Combobox.Option value={person} key={index}>
-                      {({ selected, active }) => (
-                        <MenuItem isActive={active} isSelected={selected}>
-                          <MenuItem.Title>{person.label}</MenuItem.Title>
-                          <MenuItem.Radio isSelected={selected} />
-                        </MenuItem>
-                      )}
-                    </Combobox.Option>
-                  )))}
+                    filteredPeople2.map((person, index) => (
+                      <Combobox.Option value={person} key={index}>
+                        {({ selected, active }) => (
+                          <MenuItem isActive={active} isSelected={selected}>
+                            <MenuItem.Title>{person.label}</MenuItem.Title>
+                            <MenuItem.Radio isSelected={selected} />
+                          </MenuItem>
+                        )}
+                      </Combobox.Option>
+                    ))
+                  )}
                 </Combobox.Options>
               </Combobox.Transition>
-            <Combobox.Hint>Informative message holder</Combobox.Hint>
-          </>
+              <Combobox.Hint>Informative message holder</Combobox.Hint>
+            </>
           )}
         </Combobox>
       </div>

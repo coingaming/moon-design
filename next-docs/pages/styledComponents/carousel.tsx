@@ -8,11 +8,10 @@ import Default from '../../public/styledExamples/carousel/Default';
 import Rtl from '../../public/styledExamples/carousel/Rtl';
 import Space from '../../public/styledExamples/carousel/Space';
 import VisibleIndex from '../../public/styledExamples/carousel/VisibleIndex';
-import useExamples from '../../utils/useExamples';
+import useStyledExamples from '../../utils/useStyledExamples';
 
 export default function PageCarousel() {
-  const examples = useExamples('carousel', 'styled');
-
+  const examples = useStyledExamples('carousel');
   return (
     <>
       <ComponentPageDescription title="Carousel" isDeprecated>

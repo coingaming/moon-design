@@ -1,8 +1,8 @@
-import React from 'react';
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/dropdown/Default';
 import HiddenInput from '../../public/examples/dropdown/HiddenInput';
@@ -14,14 +14,21 @@ import OptionsVariants from '../../public/examples/dropdown/OptionsVariants';
 import Select from '../../public/examples/dropdown/Select';
 import SelectStates from '../../public/examples/dropdown/SelectStates';
 import TriggerElements from '../../public/examples/dropdown/TriggerElements';
-import useExamples from '../../utils/useExamples';
+import useComponent from '../../utils/useComponent';
+import type { ComponentNames } from '../../components/getComponent';
 
-const Example = () => {
-  const examples = useExamples('dropdown');
-  const { name, text, image } = getComponent('Dropdown');
+const COMPONENT_NAME: ComponentNames = 'Dropdown';
+
+const PageDropdown = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
-      <ComponentPageDescription title={name} image={image} isAriaSupport>
+      <ComponentPageDescription
+        title={name}
+        image={image}
+        isAriaSupport
+        isRtlSupport
+      >
         <p>{text}</p>
         <p>
           An option that's been selected can represent a corresponding value in
@@ -365,4 +372,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+PageDropdown.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageDropdown;

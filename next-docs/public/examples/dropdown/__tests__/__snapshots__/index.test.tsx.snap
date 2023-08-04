@@ -2406,6 +2406,7 @@ Object {
                 class="relative"
               >
                 <button
+                  aria-expanded="false"
                   aria-haspopup="listbox"
                   aria-labelledby="headlessui-listbox-label-:r6e: headlessui-listbox-button-:r6d:"
                   class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md opacity-60 cursor-not-allowed hover:shadow-input"
@@ -2758,6 +2759,7 @@ Object {
               class="relative"
             >
               <button
+                aria-expanded="false"
                 aria-haspopup="listbox"
                 aria-labelledby="headlessui-listbox-label-:r6e: headlessui-listbox-button-:r6d:"
                 class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md opacity-60 cursor-not-allowed hover:shadow-input"
@@ -4024,7 +4026,7 @@ Object {
                 type="button"
               >
                 <button
-                  class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+                  class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
                   type="button"
                 >
                   Sort by
@@ -4186,7 +4188,7 @@ Object {
                 type="button"
               >
                 <button
-                  class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+                  class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
                   type="button"
                 >
                   Select language
@@ -4208,7 +4210,7 @@ Object {
                 type="button"
               >
                 <button
-                  class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+                  class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
                   type="button"
                 >
                   Select countries
@@ -4242,7 +4244,7 @@ Object {
               type="button"
             >
               <button
-                class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+                class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
                 type="button"
               >
                 Sort by
@@ -4404,7 +4406,7 @@ Object {
               type="button"
             >
               <button
-                class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+                class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
                 type="button"
               >
                 Select language
@@ -4426,7 +4428,7 @@ Object {
               type="button"
             >
               <button
-                class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+                class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
                 type="button"
               >
                 Select countries
@@ -5473,6 +5475,7 @@ Object {
                 class="relative"
               >
                 <button
+                  aria-expanded="false"
                   aria-haspopup="listbox"
                   aria-labelledby="headlessui-listbox-label-:r5a: headlessui-listbox-button-:r5b:"
                   class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-60 cursor-not-allowed hover:shadow-input"
@@ -5803,6 +5806,7 @@ Object {
               class="relative"
             >
               <button
+                aria-expanded="false"
                 aria-haspopup="listbox"
                 aria-labelledby="headlessui-listbox-label-:r5a: headlessui-listbox-button-:r5b:"
                 class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-60 cursor-not-allowed hover:shadow-input"
@@ -6185,7 +6189,7 @@ Object {
                 type="button"
               >
                 <button
-                  class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 ps-3 pe-2 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+                  class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-3 pe-2 bg-gohan text-bulma"
                   type="button"
                 >
                   Select name
@@ -6390,7 +6394,7 @@ Object {
               type="button"
             >
               <button
-                class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 ps-3 pe-2 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+                class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-3 pe-2 bg-gohan text-bulma"
                 type="button"
               >
                 Select name
@@ -6717,6 +6721,571 @@ Object {
               </button>
             </span>
           </ul>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Dropdown renders HiddenInput 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex flex-col lg:flex-row justify-around items-end w-80 gap-2"
+      >
+        <div
+          class="w-full relative"
+        >
+          <div
+            class="relative"
+          >
+            <label
+              class="block text-bulma pb-2 text-moon-16"
+              data-headlessui-state="open"
+              id="headlessui-listbox-label-:r3h:"
+            >
+              With hidden input
+            </label>
+            <div
+              class="relative"
+            >
+              <button
+                aria-controls="headlessui-listbox-options-:r3j:"
+                aria-expanded="true"
+                aria-haspopup="listbox"
+                aria-labelledby="headlessui-listbox-label-:r3h: headlessui-listbox-button-:r3i:"
+                class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                data-headlessui-state="open"
+                id="headlessui-listbox-button-:r3i:"
+                open=""
+              >
+                <span
+                  class="flex w-full flex-col items-start text-start overflow-hidden"
+                >
+                  <span
+                    class="text-moon-16 w-full text-trunks text-start truncate"
+                  >
+                    Choose an option
+                  </span>
+                </span>
+                <svg
+                  class="text-trunks flex-shrink-0 transition-transform text-moon-24 rotate-[-180deg]"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22 13L16 19L10 13"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+            <input
+              hidden=""
+              name="value"
+              value=""
+            />
+            <ul
+              aria-labelledby="headlessui-listbox-label-:r3h:"
+              aria-orientation="vertical"
+              class="w-full min-w-[18.75rem] z-5 absolute p-1 my-2 rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
+              data-headlessui-state="open"
+              data-popper-escaped="true"
+              data-popper-placement="bottom-start"
+              data-popper-reference-hidden="true"
+              id="headlessui-listbox-options-:r3j:"
+              role="listbox"
+              style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px);"
+              tabindex="0"
+            >
+              <span
+                aria-selected="false"
+                data-headlessui-state=""
+                id="headlessui-listbox-option-:r3k:"
+                role="option"
+                tabindex="-1"
+              >
+                <button
+                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                  type="button"
+                >
+                  <span
+                    class="block grow text-start text-bulma overflow-hidden"
+                  >
+                    Wade Cooper
+                  </span>
+                  <span
+                    class="flex w-6 h-6 justify-center items-center"
+                  >
+                    <span
+                      aria-checked="false"
+                      aria-label="Radio option"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      role="radio"
+                    />
+                  </span>
+                </button>
+              </span>
+              <span
+                aria-selected="false"
+                data-headlessui-state=""
+                id="headlessui-listbox-option-:r3l:"
+                role="option"
+                tabindex="-1"
+              >
+                <button
+                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                  type="button"
+                >
+                  <span
+                    class="block grow text-start text-bulma overflow-hidden"
+                  >
+                    Arlene Mccoy
+                  </span>
+                  <span
+                    class="flex w-6 h-6 justify-center items-center"
+                  >
+                    <span
+                      aria-checked="false"
+                      aria-label="Radio option"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      role="radio"
+                    />
+                  </span>
+                </button>
+              </span>
+              <span
+                aria-selected="false"
+                data-headlessui-state=""
+                id="headlessui-listbox-option-:r3m:"
+                role="option"
+                tabindex="-1"
+              >
+                <button
+                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                  type="button"
+                >
+                  <span
+                    class="block grow text-start text-bulma overflow-hidden"
+                  >
+                    Devon Webb
+                  </span>
+                  <span
+                    class="flex w-6 h-6 justify-center items-center"
+                  >
+                    <span
+                      aria-checked="false"
+                      aria-label="Radio option"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      role="radio"
+                    />
+                  </span>
+                </button>
+              </span>
+              <span
+                aria-selected="false"
+                data-headlessui-state=""
+                id="headlessui-listbox-option-:r3n:"
+                role="option"
+                tabindex="-1"
+              >
+                <button
+                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                  type="button"
+                >
+                  <span
+                    class="block grow text-start text-bulma overflow-hidden"
+                  >
+                    Tom Cook
+                  </span>
+                  <span
+                    class="flex w-6 h-6 justify-center items-center"
+                  >
+                    <span
+                      aria-checked="false"
+                      aria-label="Radio option"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      role="radio"
+                    />
+                  </span>
+                </button>
+              </span>
+              <span
+                aria-selected="false"
+                data-headlessui-state=""
+                id="headlessui-listbox-option-:r3o:"
+                role="option"
+                tabindex="-1"
+              >
+                <button
+                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                  type="button"
+                >
+                  <span
+                    class="block grow text-start text-bulma overflow-hidden"
+                  >
+                    Tanya Fox
+                  </span>
+                  <span
+                    class="flex w-6 h-6 justify-center items-center"
+                  >
+                    <span
+                      aria-checked="false"
+                      aria-label="Radio option"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      role="radio"
+                    />
+                  </span>
+                </button>
+              </span>
+              <span
+                aria-selected="false"
+                data-headlessui-state=""
+                id="headlessui-listbox-option-:r3p:"
+                role="option"
+                tabindex="-1"
+              >
+                <button
+                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                  type="button"
+                >
+                  <span
+                    class="block grow text-start text-bulma overflow-hidden"
+                  >
+                    Hellen Schmidt
+                  </span>
+                  <span
+                    class="flex w-6 h-6 justify-center items-center"
+                  >
+                    <span
+                      aria-checked="false"
+                      aria-label="Radio option"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      role="radio"
+                    />
+                  </span>
+                </button>
+              </span>
+            </ul>
+            <p
+              class="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+              role="alert"
+            >
+              Informative message holder
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex flex-col lg:flex-row justify-around items-end w-80 gap-2"
+    >
+      <div
+        class="w-full relative"
+      >
+        <div
+          class="relative"
+        >
+          <label
+            class="block text-bulma pb-2 text-moon-16"
+            data-headlessui-state="open"
+            id="headlessui-listbox-label-:r3h:"
+          >
+            With hidden input
+          </label>
+          <div
+            class="relative"
+          >
+            <button
+              aria-controls="headlessui-listbox-options-:r3j:"
+              aria-expanded="true"
+              aria-haspopup="listbox"
+              aria-labelledby="headlessui-listbox-label-:r3h: headlessui-listbox-button-:r3i:"
+              class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+              data-headlessui-state="open"
+              id="headlessui-listbox-button-:r3i:"
+              open=""
+            >
+              <span
+                class="flex w-full flex-col items-start text-start overflow-hidden"
+              >
+                <span
+                  class="text-moon-16 w-full text-trunks text-start truncate"
+                >
+                  Choose an option
+                </span>
+              </span>
+              <svg
+                class="text-trunks flex-shrink-0 transition-transform text-moon-24 rotate-[-180deg]"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 13L16 19L10 13"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+          <input
+            hidden=""
+            name="value"
+            value=""
+          />
+          <ul
+            aria-labelledby="headlessui-listbox-label-:r3h:"
+            aria-orientation="vertical"
+            class="w-full min-w-[18.75rem] z-5 absolute p-1 my-2 rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
+            data-headlessui-state="open"
+            data-popper-escaped="true"
+            data-popper-placement="bottom-start"
+            data-popper-reference-hidden="true"
+            id="headlessui-listbox-options-:r3j:"
+            role="listbox"
+            style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px);"
+            tabindex="0"
+          >
+            <span
+              aria-selected="false"
+              data-headlessui-state=""
+              id="headlessui-listbox-option-:r3k:"
+              role="option"
+              tabindex="-1"
+            >
+              <button
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                type="button"
+              >
+                <span
+                  class="block grow text-start text-bulma overflow-hidden"
+                >
+                  Wade Cooper
+                </span>
+                <span
+                  class="flex w-6 h-6 justify-center items-center"
+                >
+                  <span
+                    aria-checked="false"
+                    aria-label="Radio option"
+                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                    role="radio"
+                  />
+                </span>
+              </button>
+            </span>
+            <span
+              aria-selected="false"
+              data-headlessui-state=""
+              id="headlessui-listbox-option-:r3l:"
+              role="option"
+              tabindex="-1"
+            >
+              <button
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                type="button"
+              >
+                <span
+                  class="block grow text-start text-bulma overflow-hidden"
+                >
+                  Arlene Mccoy
+                </span>
+                <span
+                  class="flex w-6 h-6 justify-center items-center"
+                >
+                  <span
+                    aria-checked="false"
+                    aria-label="Radio option"
+                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                    role="radio"
+                  />
+                </span>
+              </button>
+            </span>
+            <span
+              aria-selected="false"
+              data-headlessui-state=""
+              id="headlessui-listbox-option-:r3m:"
+              role="option"
+              tabindex="-1"
+            >
+              <button
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                type="button"
+              >
+                <span
+                  class="block grow text-start text-bulma overflow-hidden"
+                >
+                  Devon Webb
+                </span>
+                <span
+                  class="flex w-6 h-6 justify-center items-center"
+                >
+                  <span
+                    aria-checked="false"
+                    aria-label="Radio option"
+                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                    role="radio"
+                  />
+                </span>
+              </button>
+            </span>
+            <span
+              aria-selected="false"
+              data-headlessui-state=""
+              id="headlessui-listbox-option-:r3n:"
+              role="option"
+              tabindex="-1"
+            >
+              <button
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                type="button"
+              >
+                <span
+                  class="block grow text-start text-bulma overflow-hidden"
+                >
+                  Tom Cook
+                </span>
+                <span
+                  class="flex w-6 h-6 justify-center items-center"
+                >
+                  <span
+                    aria-checked="false"
+                    aria-label="Radio option"
+                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                    role="radio"
+                  />
+                </span>
+              </button>
+            </span>
+            <span
+              aria-selected="false"
+              data-headlessui-state=""
+              id="headlessui-listbox-option-:r3o:"
+              role="option"
+              tabindex="-1"
+            >
+              <button
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                type="button"
+              >
+                <span
+                  class="block grow text-start text-bulma overflow-hidden"
+                >
+                  Tanya Fox
+                </span>
+                <span
+                  class="flex w-6 h-6 justify-center items-center"
+                >
+                  <span
+                    aria-checked="false"
+                    aria-label="Radio option"
+                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                    role="radio"
+                  />
+                </span>
+              </button>
+            </span>
+            <span
+              aria-selected="false"
+              data-headlessui-state=""
+              id="headlessui-listbox-option-:r3p:"
+              role="option"
+              tabindex="-1"
+            >
+              <button
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                type="button"
+              >
+                <span
+                  class="block grow text-start text-bulma overflow-hidden"
+                >
+                  Hellen Schmidt
+                </span>
+                <span
+                  class="flex w-6 h-6 justify-center items-center"
+                >
+                  <span
+                    aria-checked="false"
+                    aria-label="Radio option"
+                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                    role="radio"
+                  />
+                </span>
+              </button>
+            </span>
+          </ul>
+          <p
+            class="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+            role="alert"
+          >
+            Informative message holder
+          </p>
         </div>
       </div>
     </div>
@@ -8276,6 +8845,7 @@ Object {
               class="relative"
             >
               <button
+                aria-expanded="false"
                 aria-haspopup="listbox"
                 aria-labelledby="headlessui-listbox-label-:r2k: headlessui-listbox-button-:r2j:"
                 class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md opacity-60 cursor-not-allowed hover:shadow-input"
@@ -8624,6 +9194,7 @@ Object {
             class="relative"
           >
             <button
+              aria-expanded="false"
               aria-haspopup="listbox"
               aria-labelledby="headlessui-listbox-label-:r2k: headlessui-listbox-button-:r2j:"
               class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md opacity-60 cursor-not-allowed hover:shadow-input"
@@ -9878,7 +10449,7 @@ Object {
               type="button"
             >
               <button
-                class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+                class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
                 type="button"
               >
                 Sort by
@@ -10040,7 +10611,7 @@ Object {
               type="button"
             >
               <button
-                class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+                class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
                 type="button"
               >
                 Select language
@@ -10062,7 +10633,7 @@ Object {
               type="button"
             >
               <button
-                class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+                class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
                 type="button"
               >
                 Select countries
@@ -10092,7 +10663,7 @@ Object {
             type="button"
           >
             <button
-              class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+              class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
               type="button"
             >
               Sort by
@@ -10254,7 +10825,7 @@ Object {
             type="button"
           >
             <button
-              class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+              class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
               type="button"
             >
               Select language
@@ -10276,7 +10847,7 @@ Object {
             type="button"
           >
             <button
-              class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+              class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
               type="button"
             >
               Select countries
@@ -11311,6 +11882,7 @@ Object {
               class="relative"
             >
               <button
+                aria-expanded="false"
                 aria-haspopup="listbox"
                 aria-labelledby="headlessui-listbox-label-:r1g: headlessui-listbox-button-:r1h:"
                 class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-60 cursor-not-allowed hover:shadow-input"
@@ -11637,6 +12209,7 @@ Object {
             class="relative"
           >
             <button
+              aria-expanded="false"
               aria-haspopup="listbox"
               aria-labelledby="headlessui-listbox-label-:r1g: headlessui-listbox-button-:r1h:"
               class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-60 cursor-not-allowed hover:shadow-input"
@@ -12015,7 +12588,7 @@ Object {
               type="button"
             >
               <button
-                class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 ps-3 pe-2 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+                class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-3 pe-2 bg-gohan text-bulma"
                 type="button"
               >
                 Select name
@@ -12216,7 +12789,7 @@ Object {
             type="button"
           >
             <button
-              class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 ps-3 pe-2 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+              class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 ps-3 pe-2 bg-gohan text-bulma"
               type="button"
             >
               Select name
@@ -12237,571 +12810,6 @@ Object {
               </svg>
             </button>
           </button>
-        </div>
-      </div>
-    </div>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
-`;
-
-exports[`Dropdown renders with hidden Input 1`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": <body>
-    <div>
-      <div
-        class="flex flex-col lg:flex-row justify-around items-end w-80 gap-2"
-      >
-        <div
-          class="w-full relative"
-        >
-          <div
-            class="relative"
-          >
-            <label
-              class="block text-bulma pb-2 text-moon-16"
-              data-headlessui-state="open"
-              id="headlessui-listbox-label-:r3h:"
-            >
-              With hidden input
-            </label>
-            <div
-              class="relative"
-            >
-              <button
-                aria-controls="headlessui-listbox-options-:r3j:"
-                aria-expanded="true"
-                aria-haspopup="listbox"
-                aria-labelledby="headlessui-listbox-label-:r3h: headlessui-listbox-button-:r3i:"
-                class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
-                data-headlessui-state="open"
-                id="headlessui-listbox-button-:r3i:"
-                open=""
-              >
-                <span
-                  class="flex w-full flex-col items-start text-start overflow-hidden"
-                >
-                  <span
-                    class="text-moon-16 w-full text-trunks text-start truncate"
-                  >
-                    Choose an option
-                  </span>
-                </span>
-                <svg
-                  class="text-trunks flex-shrink-0 transition-transform text-moon-24 rotate-[-180deg]"
-                  fill="none"
-                  height="1em"
-                  viewBox="0 0 32 32"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M22 13L16 19L10 13"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </button>
-            </div>
-            <input
-              hidden=""
-              name="value"
-              value=""
-            />
-            <ul
-              aria-labelledby="headlessui-listbox-label-:r3h:"
-              aria-orientation="vertical"
-              class="w-full min-w-[18.75rem] z-5 absolute p-1 my-2 rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
-              data-headlessui-state="open"
-              data-popper-escaped="true"
-              data-popper-placement="bottom-start"
-              data-popper-reference-hidden="true"
-              id="headlessui-listbox-options-:r3j:"
-              role="listbox"
-              style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px);"
-              tabindex="0"
-            >
-              <span
-                aria-selected="false"
-                data-headlessui-state=""
-                id="headlessui-listbox-option-:r3k:"
-                role="option"
-                tabindex="-1"
-              >
-                <button
-                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                  type="button"
-                >
-                  <span
-                    class="block grow text-start text-bulma overflow-hidden"
-                  >
-                    Wade Cooper
-                  </span>
-                  <span
-                    class="flex w-6 h-6 justify-center items-center"
-                  >
-                    <span
-                      aria-checked="false"
-                      aria-label="Radio option"
-                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
-                      role="radio"
-                    />
-                  </span>
-                </button>
-              </span>
-              <span
-                aria-selected="false"
-                data-headlessui-state=""
-                id="headlessui-listbox-option-:r3l:"
-                role="option"
-                tabindex="-1"
-              >
-                <button
-                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                  type="button"
-                >
-                  <span
-                    class="block grow text-start text-bulma overflow-hidden"
-                  >
-                    Arlene Mccoy
-                  </span>
-                  <span
-                    class="flex w-6 h-6 justify-center items-center"
-                  >
-                    <span
-                      aria-checked="false"
-                      aria-label="Radio option"
-                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
-                      role="radio"
-                    />
-                  </span>
-                </button>
-              </span>
-              <span
-                aria-selected="false"
-                data-headlessui-state=""
-                id="headlessui-listbox-option-:r3m:"
-                role="option"
-                tabindex="-1"
-              >
-                <button
-                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                  type="button"
-                >
-                  <span
-                    class="block grow text-start text-bulma overflow-hidden"
-                  >
-                    Devon Webb
-                  </span>
-                  <span
-                    class="flex w-6 h-6 justify-center items-center"
-                  >
-                    <span
-                      aria-checked="false"
-                      aria-label="Radio option"
-                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
-                      role="radio"
-                    />
-                  </span>
-                </button>
-              </span>
-              <span
-                aria-selected="false"
-                data-headlessui-state=""
-                id="headlessui-listbox-option-:r3n:"
-                role="option"
-                tabindex="-1"
-              >
-                <button
-                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                  type="button"
-                >
-                  <span
-                    class="block grow text-start text-bulma overflow-hidden"
-                  >
-                    Tom Cook
-                  </span>
-                  <span
-                    class="flex w-6 h-6 justify-center items-center"
-                  >
-                    <span
-                      aria-checked="false"
-                      aria-label="Radio option"
-                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
-                      role="radio"
-                    />
-                  </span>
-                </button>
-              </span>
-              <span
-                aria-selected="false"
-                data-headlessui-state=""
-                id="headlessui-listbox-option-:r3o:"
-                role="option"
-                tabindex="-1"
-              >
-                <button
-                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                  type="button"
-                >
-                  <span
-                    class="block grow text-start text-bulma overflow-hidden"
-                  >
-                    Tanya Fox
-                  </span>
-                  <span
-                    class="flex w-6 h-6 justify-center items-center"
-                  >
-                    <span
-                      aria-checked="false"
-                      aria-label="Radio option"
-                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
-                      role="radio"
-                    />
-                  </span>
-                </button>
-              </span>
-              <span
-                aria-selected="false"
-                data-headlessui-state=""
-                id="headlessui-listbox-option-:r3p:"
-                role="option"
-                tabindex="-1"
-              >
-                <button
-                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                  type="button"
-                >
-                  <span
-                    class="block grow text-start text-bulma overflow-hidden"
-                  >
-                    Hellen Schmidt
-                  </span>
-                  <span
-                    class="flex w-6 h-6 justify-center items-center"
-                  >
-                    <span
-                      aria-checked="false"
-                      aria-label="Radio option"
-                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
-                      role="radio"
-                    />
-                  </span>
-                </button>
-              </span>
-            </ul>
-            <p
-              class="inline-block mt-2 ps-4 text-moon-12 text-trunks"
-              role="alert"
-            >
-              Informative message holder
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      class="flex flex-col lg:flex-row justify-around items-end w-80 gap-2"
-    >
-      <div
-        class="w-full relative"
-      >
-        <div
-          class="relative"
-        >
-          <label
-            class="block text-bulma pb-2 text-moon-16"
-            data-headlessui-state="open"
-            id="headlessui-listbox-label-:r3h:"
-          >
-            With hidden input
-          </label>
-          <div
-            class="relative"
-          >
-            <button
-              aria-controls="headlessui-listbox-options-:r3j:"
-              aria-expanded="true"
-              aria-haspopup="listbox"
-              aria-labelledby="headlessui-listbox-label-:r3h: headlessui-listbox-button-:r3i:"
-              class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
-              data-headlessui-state="open"
-              id="headlessui-listbox-button-:r3i:"
-              open=""
-            >
-              <span
-                class="flex w-full flex-col items-start text-start overflow-hidden"
-              >
-                <span
-                  class="text-moon-16 w-full text-trunks text-start truncate"
-                >
-                  Choose an option
-                </span>
-              </span>
-              <svg
-                class="text-trunks flex-shrink-0 transition-transform text-moon-24 rotate-[-180deg]"
-                fill="none"
-                height="1em"
-                viewBox="0 0 32 32"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M22 13L16 19L10 13"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </button>
-          </div>
-          <input
-            hidden=""
-            name="value"
-            value=""
-          />
-          <ul
-            aria-labelledby="headlessui-listbox-label-:r3h:"
-            aria-orientation="vertical"
-            class="w-full min-w-[18.75rem] z-5 absolute p-1 my-2 rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
-            data-headlessui-state="open"
-            data-popper-escaped="true"
-            data-popper-placement="bottom-start"
-            data-popper-reference-hidden="true"
-            id="headlessui-listbox-options-:r3j:"
-            role="listbox"
-            style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px);"
-            tabindex="0"
-          >
-            <span
-              aria-selected="false"
-              data-headlessui-state=""
-              id="headlessui-listbox-option-:r3k:"
-              role="option"
-              tabindex="-1"
-            >
-              <button
-                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                type="button"
-              >
-                <span
-                  class="block grow text-start text-bulma overflow-hidden"
-                >
-                  Wade Cooper
-                </span>
-                <span
-                  class="flex w-6 h-6 justify-center items-center"
-                >
-                  <span
-                    aria-checked="false"
-                    aria-label="Radio option"
-                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
-                    role="radio"
-                  />
-                </span>
-              </button>
-            </span>
-            <span
-              aria-selected="false"
-              data-headlessui-state=""
-              id="headlessui-listbox-option-:r3l:"
-              role="option"
-              tabindex="-1"
-            >
-              <button
-                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                type="button"
-              >
-                <span
-                  class="block grow text-start text-bulma overflow-hidden"
-                >
-                  Arlene Mccoy
-                </span>
-                <span
-                  class="flex w-6 h-6 justify-center items-center"
-                >
-                  <span
-                    aria-checked="false"
-                    aria-label="Radio option"
-                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
-                    role="radio"
-                  />
-                </span>
-              </button>
-            </span>
-            <span
-              aria-selected="false"
-              data-headlessui-state=""
-              id="headlessui-listbox-option-:r3m:"
-              role="option"
-              tabindex="-1"
-            >
-              <button
-                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                type="button"
-              >
-                <span
-                  class="block grow text-start text-bulma overflow-hidden"
-                >
-                  Devon Webb
-                </span>
-                <span
-                  class="flex w-6 h-6 justify-center items-center"
-                >
-                  <span
-                    aria-checked="false"
-                    aria-label="Radio option"
-                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
-                    role="radio"
-                  />
-                </span>
-              </button>
-            </span>
-            <span
-              aria-selected="false"
-              data-headlessui-state=""
-              id="headlessui-listbox-option-:r3n:"
-              role="option"
-              tabindex="-1"
-            >
-              <button
-                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                type="button"
-              >
-                <span
-                  class="block grow text-start text-bulma overflow-hidden"
-                >
-                  Tom Cook
-                </span>
-                <span
-                  class="flex w-6 h-6 justify-center items-center"
-                >
-                  <span
-                    aria-checked="false"
-                    aria-label="Radio option"
-                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
-                    role="radio"
-                  />
-                </span>
-              </button>
-            </span>
-            <span
-              aria-selected="false"
-              data-headlessui-state=""
-              id="headlessui-listbox-option-:r3o:"
-              role="option"
-              tabindex="-1"
-            >
-              <button
-                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                type="button"
-              >
-                <span
-                  class="block grow text-start text-bulma overflow-hidden"
-                >
-                  Tanya Fox
-                </span>
-                <span
-                  class="flex w-6 h-6 justify-center items-center"
-                >
-                  <span
-                    aria-checked="false"
-                    aria-label="Radio option"
-                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
-                    role="radio"
-                  />
-                </span>
-              </button>
-            </span>
-            <span
-              aria-selected="false"
-              data-headlessui-state=""
-              id="headlessui-listbox-option-:r3p:"
-              role="option"
-              tabindex="-1"
-            >
-              <button
-                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                type="button"
-              >
-                <span
-                  class="block grow text-start text-bulma overflow-hidden"
-                >
-                  Hellen Schmidt
-                </span>
-                <span
-                  class="flex w-6 h-6 justify-center items-center"
-                >
-                  <span
-                    aria-checked="false"
-                    aria-label="Radio option"
-                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
-                    role="radio"
-                  />
-                </span>
-              </button>
-            </span>
-          </ul>
-          <p
-            class="inline-block mt-2 ps-4 text-moon-12 text-trunks"
-            role="alert"
-          >
-            Informative message holder
-          </p>
         </div>
       </div>
     </div>

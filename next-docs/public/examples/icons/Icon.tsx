@@ -1,6 +1,6 @@
-import { Tooltip, mergeClassnames } from '@heathmont/moon-core-tw';
+import { Chip, Tooltip } from '@heathmont/moon-core-tw';
 
-export type IconProps = {
+type IconProps = {
   name: string;
   onClick: (v: string) => void;
   selectedIcons: string[];
@@ -10,23 +10,21 @@ export type IconProps = {
 const Icon = ({ children, name, onClick, selectedIcons }: IconProps) => {
   const isShown = selectedIcons.includes(name);
   return (
-    <div onClick={() => onClick(name)}>
-      <Tooltip>
-        <Tooltip.Trigger
+    <Tooltip>
+      <Tooltip.Trigger>
+        <Chip
+          variant="ghost"
           aria-label={name}
-          className={mergeClassnames(
-            'relative flex flex-col items-center cursor-pointer rounded-md hover:bg-active-80 hover:text-active transition-colors',
-            isShown ? 'text-active bg-active-80' : 'text-gray-400'
-          )}
-        >
-          {children}
-        </Tooltip.Trigger>
-        <Tooltip.Content>
-          {name}
-          <Tooltip.Arrow />
-        </Tooltip.Content>
-      </Tooltip>
-    </div>
+          isActive={isShown}
+          onClick={() => onClick(name)}
+          iconOnly={children}
+        />
+      </Tooltip.Trigger>
+      <Tooltip.Content>
+        {name}
+        <Tooltip.Arrow />
+      </Tooltip.Content>
+    </Tooltip>
   );
 };
 

@@ -1,6 +1,7 @@
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Active from '../../public/examples/chip/Active';
 import Default from '../../public/examples/chip/Default';
@@ -10,11 +11,13 @@ import IsStrokeIcons from '../../public/examples/chip/IsStrokeIcons';
 import OnClick from '../../public/examples/chip/OnClick';
 import Sizes from '../../public/examples/chip/Sizes';
 import Variants from '../../public/examples/chip/Variants';
-import useExamples from '../../utils/useExamples';
+import useComponent from '../../utils/useComponent';
+import type { ComponentNames } from '../../components/getComponent';
 
-const Example = () => {
-  const examples = useExamples('chip');
-  const { name, text, image } = getComponent('Chip');
+const COMPONENT_NAME: ComponentNames = 'Chip';
+
+const PageChip = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
       <ComponentPageDescription
@@ -70,28 +73,28 @@ const Example = () => {
         data={[
           {
             name: 'children',
-            type: 'JSX.Element | string',
+            type: 'React.ReactNode',
             required: false,
             default: '-',
             description: 'Children content',
           },
           {
             name: 'iconLeft',
-            type: 'JSX.Element | boolean',
+            type: 'React.ReactNode',
             required: false,
             default: '-',
             description: 'Left icon',
           },
           {
             name: 'iconOnly',
-            type: 'JSX.Element | boolean',
+            type: 'React.ReactNode',
             required: false,
             default: '-',
             description: 'Icon without text',
           },
           {
             name: 'iconRight',
-            type: 'JSX.Element | boolean',
+            type: 'React.ReactNode',
             required: false,
             default: '-',
             description: 'Right icon',
@@ -130,4 +133,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+PageChip.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageChip;

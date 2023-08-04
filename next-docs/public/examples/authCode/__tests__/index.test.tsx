@@ -23,24 +23,20 @@ describe('AuthCode', () => {
     const tree = render(<Default />);
     expect(tree).toMatchSnapshot();
   });
-  it('renders React Hook Form integration - Manual Submit', () => {
+  it('renders ReactHookForm', () => {
     const tree = render(<ReactHookForm />);
     expect(tree).toMatchSnapshot();
   });
-  it('renders React Hook Form integration - Auto Submit', () => {
+  it('renders ReactHookFormAuto', () => {
     const tree = render(<ReactHookFormAuto />);
     expect(tree).toMatchSnapshot();
   });
-  it('renders Allowed Characters', () => {
+  it('renders AllowedCharacters', () => {
     const tree = render(<AllowedCharacters />);
     expect(tree).toMatchSnapshot();
   });
-  it('renders Custom length', () => {
+  it('renders FourChars', () => {
     const tree = render(<FourChars />);
-    expect(tree).toMatchSnapshot();
-  });
-  it('renders Custom length', () => {
-    const tree = render(<ReactHookFormAuto />);
     expect(tree).toMatchSnapshot();
   });
   it('renders ErrorState', () => {
@@ -55,7 +51,7 @@ describe('AuthCode', () => {
     const tree = render(<Sizes />);
     expect(tree).toMatchSnapshot();
   });
-  it('renders Password', () => {
+  it('renders IsPassword', () => {
     const tree = render(<IsPassword />);
     expect(tree).toMatchSnapshot();
   });
@@ -75,24 +71,20 @@ describe('AuthCode in RTL', () => {
     const tree = render(withRtl(<Default />));
     expect(tree).toMatchSnapshot();
   });
-  it('renders React Hook Form integration - Manual Submit', () => {
+  it('renders ReactHookForm', () => {
     const tree = render(withRtl(<ReactHookForm />));
     expect(tree).toMatchSnapshot();
   });
-  it('renders React Hook Form integration - Auto Submit', () => {
+  it('renders ReactHookFormAuto', () => {
     const tree = render(withRtl(<ReactHookFormAuto />));
     expect(tree).toMatchSnapshot();
   });
-  it('renders Allowed Characters', () => {
+  it('renders AllowedCharacters', () => {
     const tree = render(withRtl(<AllowedCharacters />));
     expect(tree).toMatchSnapshot();
   });
-  it('renders Custom length', () => {
+  it('renders FourChars', () => {
     const tree = render(withRtl(<FourChars />));
-    expect(tree).toMatchSnapshot();
-  });
-  it('renders Custom length', () => {
-    const tree = render(withRtl(<ReactHookFormAuto />));
     expect(tree).toMatchSnapshot();
   });
   it('renders ErrorState', () => {
@@ -107,7 +99,7 @@ describe('AuthCode in RTL', () => {
     const tree = render(withRtl(<Sizes />));
     expect(tree).toMatchSnapshot();
   });
-  it('renders Password', () => {
+  it('renders IsPassword', () => {
     const tree = render(withRtl(<IsPassword />));
     expect(tree).toMatchSnapshot();
   });

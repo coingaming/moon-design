@@ -31,7 +31,7 @@ Object {
             />
           </svg>
           <div
-            class="status absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
+            class="status absolute border-solid border-goku rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
           />
            
         </div>
@@ -42,7 +42,7 @@ Object {
            
           md
           <div
-            class="status absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
+            class="status absolute border-solid border-goku rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
           />
            
         </div>
@@ -52,7 +52,7 @@ Object {
         >
            
           <div
-            class="status absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
+            class="status absolute border-solid border-goku rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
           />
            
         </div>
@@ -86,7 +86,7 @@ Object {
           />
         </svg>
         <div
-          class="status absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
+          class="status absolute border-solid border-goku rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
         />
          
       </div>
@@ -97,7 +97,7 @@ Object {
          
         md
         <div
-          class="status absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
+          class="status absolute border-solid border-goku rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
         />
          
       </div>
@@ -107,7 +107,7 @@ Object {
       >
          
         <div
-          class="status absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
+          class="status absolute border-solid border-goku rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
         />
          
       </div>
@@ -270,7 +270,7 @@ Object {
             />
           </svg>
           <div
-            class="status absolute border-solid border-beerus rounded-full bottom-0 ltr:right-0 rtl:left-0 bg-chichi"
+            class="status absolute border-solid border-goku rounded-full bottom-0 ltr:right-0 rtl:left-0 bg-chichi"
           />
            
         </div>
@@ -403,7 +403,7 @@ Object {
           />
         </svg>
         <div
-          class="status absolute border-solid border-beerus rounded-full bottom-0 ltr:right-0 rtl:left-0 bg-chichi"
+          class="status absolute border-solid border-goku rounded-full bottom-0 ltr:right-0 rtl:left-0 bg-chichi"
         />
          
       </div>
@@ -1203,7 +1203,7 @@ Object {
             />
           </svg>
           <div
-            class="status absolute border-solid border-beerus rounded-full bg-roshi top-0 ltr:right-0 rtl:left-0"
+            class="status absolute border-solid border-goku rounded-full bg-roshi top-0 ltr:right-0 rtl:left-0"
           />
            
         </div>
@@ -1230,7 +1230,7 @@ Object {
             />
           </svg>
           <div
-            class="status absolute border-solid border-beerus rounded-full bg-roshi top-0 ltr:left-0 rtl:right-0"
+            class="status absolute border-solid border-goku rounded-full bg-roshi top-0 ltr:left-0 rtl:right-0"
           />
            
         </div>
@@ -1257,7 +1257,7 @@ Object {
             />
           </svg>
           <div
-            class="status absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
+            class="status absolute border-solid border-goku rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
           />
            
         </div>
@@ -1284,7 +1284,7 @@ Object {
             />
           </svg>
           <div
-            class="status absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:left-0 rtl:right-0"
+            class="status absolute border-solid border-goku rounded-full bg-roshi bottom-0 ltr:left-0 rtl:right-0"
           />
            
         </div>
@@ -1318,7 +1318,7 @@ Object {
           />
         </svg>
         <div
-          class="status absolute border-solid border-beerus rounded-full bg-roshi top-0 ltr:right-0 rtl:left-0"
+          class="status absolute border-solid border-goku rounded-full bg-roshi top-0 ltr:right-0 rtl:left-0"
         />
          
       </div>
@@ -1345,7 +1345,7 @@ Object {
           />
         </svg>
         <div
-          class="status absolute border-solid border-beerus rounded-full bg-roshi top-0 ltr:left-0 rtl:right-0"
+          class="status absolute border-solid border-goku rounded-full bg-roshi top-0 ltr:left-0 rtl:right-0"
         />
          
       </div>
@@ -1372,7 +1372,7 @@ Object {
           />
         </svg>
         <div
-          class="status absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
+          class="status absolute border-solid border-goku rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
         />
          
       </div>
@@ -1399,7 +1399,7 @@ Object {
           />
         </svg>
         <div
-          class="status absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:left-0 rtl:right-0"
+          class="status absolute border-solid border-goku rounded-full bg-roshi bottom-0 ltr:left-0 rtl:right-0"
         />
          
       </div>
@@ -1636,7 +1636,7 @@ Object {
           />
         </svg>
         <div
-          class="status absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
+          class="status absolute border-solid border-goku rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
         />
          
       </div>
@@ -1647,7 +1647,7 @@ Object {
          
         md
         <div
-          class="status absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
+          class="status absolute border-solid border-goku rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
         />
          
       </div>
@@ -1657,7 +1657,7 @@ Object {
       >
          
         <div
-          class="status absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
+          class="status absolute border-solid border-goku rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
         />
          
       </div>
@@ -1687,7 +1687,7 @@ Object {
         />
       </svg>
       <div
-        class="status absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
+        class="status absolute border-solid border-goku rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
       />
        
     </div>
@@ -1698,7 +1698,7 @@ Object {
        
       md
       <div
-        class="status absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
+        class="status absolute border-solid border-goku rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
       />
        
     </div>
@@ -1708,7 +1708,7 @@ Object {
     >
        
       <div
-        class="status absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
+        class="status absolute border-solid border-goku rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
       />
        
     </div>
@@ -1867,7 +1867,7 @@ Object {
           />
         </svg>
         <div
-          class="status absolute border-solid border-beerus rounded-full bottom-0 ltr:right-0 rtl:left-0 bg-chichi"
+          class="status absolute border-solid border-goku rounded-full bottom-0 ltr:right-0 rtl:left-0 bg-chichi"
         />
          
       </div>
@@ -1996,7 +1996,7 @@ Object {
         />
       </svg>
       <div
-        class="status absolute border-solid border-beerus rounded-full bottom-0 ltr:right-0 rtl:left-0 bg-chichi"
+        class="status absolute border-solid border-goku rounded-full bottom-0 ltr:right-0 rtl:left-0 bg-chichi"
       />
        
     </div>
@@ -2776,7 +2776,7 @@ Object {
           />
         </svg>
         <div
-          class="status absolute border-solid border-beerus rounded-full bg-roshi top-0 ltr:right-0 rtl:left-0"
+          class="status absolute border-solid border-goku rounded-full bg-roshi top-0 ltr:right-0 rtl:left-0"
         />
          
       </div>
@@ -2803,7 +2803,7 @@ Object {
           />
         </svg>
         <div
-          class="status absolute border-solid border-beerus rounded-full bg-roshi top-0 ltr:left-0 rtl:right-0"
+          class="status absolute border-solid border-goku rounded-full bg-roshi top-0 ltr:left-0 rtl:right-0"
         />
          
       </div>
@@ -2830,7 +2830,7 @@ Object {
           />
         </svg>
         <div
-          class="status absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
+          class="status absolute border-solid border-goku rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
         />
          
       </div>
@@ -2857,7 +2857,7 @@ Object {
           />
         </svg>
         <div
-          class="status absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:left-0 rtl:right-0"
+          class="status absolute border-solid border-goku rounded-full bg-roshi bottom-0 ltr:left-0 rtl:right-0"
         />
          
       </div>
@@ -2887,7 +2887,7 @@ Object {
         />
       </svg>
       <div
-        class="status absolute border-solid border-beerus rounded-full bg-roshi top-0 ltr:right-0 rtl:left-0"
+        class="status absolute border-solid border-goku rounded-full bg-roshi top-0 ltr:right-0 rtl:left-0"
       />
        
     </div>
@@ -2914,7 +2914,7 @@ Object {
         />
       </svg>
       <div
-        class="status absolute border-solid border-beerus rounded-full bg-roshi top-0 ltr:left-0 rtl:right-0"
+        class="status absolute border-solid border-goku rounded-full bg-roshi top-0 ltr:left-0 rtl:right-0"
       />
        
     </div>
@@ -2941,7 +2941,7 @@ Object {
         />
       </svg>
       <div
-        class="status absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
+        class="status absolute border-solid border-goku rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0"
       />
        
     </div>
@@ -2968,7 +2968,7 @@ Object {
         />
       </svg>
       <div
-        class="status absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:left-0 rtl:right-0"
+        class="status absolute border-solid border-goku rounded-full bg-roshi bottom-0 ltr:left-0 rtl:right-0"
       />
        
     </div>

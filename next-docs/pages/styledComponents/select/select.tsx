@@ -6,10 +6,10 @@ import PropsTable from '../../../components/PropsTable';
 import Default from '../../../public/styledExamples/select/select/Default';
 import Label from '../../../public/styledExamples/select/select/Label';
 import Rtl from '../../../public/styledExamples/select/select/Rtl';
-import useExamples from '../../../utils/useExamples';
+import useStyledExamples from '../../../utils/useStyledExamples';
 
 export default function PageSelect() {
-  const examples = useExamples('select/select', 'styled');
+  const examples = useStyledExamples('select/select');
   return (
     <>
       <ComponentPageDescription title="Select" isDeprecated>

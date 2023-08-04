@@ -7,10 +7,10 @@ import Icons from '../../public/styledExamples/chip/Icons';
 import IconsWithStroke from '../../public/styledExamples/chip/IconsWithStroke';
 import Sizes from '../../public/styledExamples/chip/Sizes';
 import Stroke from '../../public/styledExamples/chip/Stroke';
-import useExamples from '../../utils/useExamples';
+import useStyledExamples from '../../utils/useStyledExamples';
 
 const PageChip = () => {
-  const examples = useExamples('chip', 'styled');
+  const examples = useStyledExamples('chip');
   return (
     <>
       <ComponentPageDescription title="Chip" isDeprecated>

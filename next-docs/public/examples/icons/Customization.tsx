@@ -1,13 +1,13 @@
-import { FilesCopy } from '@heathmont/moon-icons-tw';
+import { OtherFrame } from '@heathmont/moon-icons-tw';
 
 const Example = () => (
   <>
-    <FilesCopy className="text-moon-24 text-chichi" />
-    <FilesCopy className="text-moon-24 text-trunks" />
-    <FilesCopy className="text-moon-32 text-roshi" />
-    <FilesCopy className="text-moon-32 text-piccolo" />
-    <FilesCopy className="text-moon-48 text-raditz" />
-    <FilesCopy className="text-moon-48 text-whis" />
+    <OtherFrame className="text-moon-24 text-chichi" />
+    <OtherFrame className="text-moon-24 text-trunks" />
+    <OtherFrame className="text-moon-32 text-roshi" />
+    <OtherFrame className="text-moon-32 text-piccolo" />
+    <OtherFrame className="text-moon-48 text-raditz" />
+    <OtherFrame className="text-moon-48 text-whis" />
   </>
 );
 

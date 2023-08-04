@@ -65,6 +65,7 @@ const ComponentPageDescription: React.FC<Props> = ({
       </div>
       {image && (
         <Image
+          priority
           src={image}
           alt={title as string}
           width={408}

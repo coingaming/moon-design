@@ -1,7 +1,7 @@
-import React from 'react';
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Calendar from '../../public/examples/table/Calendar';
 import CellBorder from '../../public/examples/table/CellBorder';
@@ -11,25 +11,28 @@ import CustomContent from '../../public/examples/table/CustomContent';
 import DeepTable from '../../public/examples/table/DeepTable';
 import Default from '../../public/examples/table/Default';
 import Editable from '../../public/examples/table/Editable';
-import ExpandedRow from '../../public/examples/table/ExpandedRow';
+import ExpandedRows from '../../public/examples/table/ExpandedRows';
 import MiniMap from '../../public/examples/table/MiniMap';
 import RowGaps from '../../public/examples/table/RowGaps';
 import RowSizes from '../../public/examples/table/RowSizes';
 import SelectableCheckboxes from '../../public/examples/table/SelectableCheckboxes';
 import SelectableRows from '../../public/examples/table/SelectableRows';
 import Sorting from '../../public/examples/table/Sorting';
-import useExamples from '../../utils/useExamples';
+import Zebra from '../../public/examples/table/Zebra';
+import useComponent from '../../utils/useComponent';
+import type { ComponentNames } from '../../components/getComponent';
 
-const Example = () => {
-  const examples = useExamples('table');
-  const { name, text, image } = getComponent('Table');
+const COMPONENT_NAME: ComponentNames = 'Table';
+
+const PageTable = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
       <ComponentPageDescription
         title={name}
         image={image}
         isInProgress
-        isRtlSupport
+        isAriaSupport
       >
         <p>{text}</p>
         <p>
@@ -87,8 +90,8 @@ const Example = () => {
       />
       <Preview
         title="Expanded Rows"
-        preview={<ExpandedRow />}
-        code={examples ? examples.ExpandedRow : 'Loading'}
+        preview={<ExpandedRows />}
+        code={examples ? examples.ExpandedRows : 'Loading'}
       />
       <Preview
         title="With Sorting"
@@ -119,6 +122,11 @@ const Example = () => {
         title="Editable"
         preview={<Editable />}
         code={examples ? examples.Editable : 'Loading'}
+      />
+      <Preview
+        title="Zebra style rows"
+        preview={<Zebra />}
+        code={examples ? examples.Zebra : 'Loading'}
       />
       <PropsTable
         title="Table props"
@@ -213,4 +221,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+PageTable.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageTable;

@@ -11,10 +11,10 @@ import EmailWithHint from '../../../public/styledExamples/textInput/email/EmailW
 import EmailWithLabel from '../../../public/styledExamples/textInput/email/EmailWithLabel';
 import EmailWithLabelRtl from '../../../public/styledExamples/textInput/email/EmailWithLabelRtl';
 import EmailWithoutLabel from '../../../public/styledExamples/textInput/email/EmailWithoutLabel';
-import useExamples from '../../../utils/useExamples';
+import useStyledExamples from '../../../utils/useStyledExamples';
 
 export default function PageTextInput() {
-  const examples = useExamples('textInput/email', 'styled');
+  const examples = useStyledExamples('textInput/email');
   return (
     <>
       <ComponentPageDescription title="Email" isDeprecated>

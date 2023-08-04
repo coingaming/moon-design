@@ -1,8 +1,13 @@
+import { useState, useEffect } from 'react';
 import { Tooltip, Chip } from '@heathmont/moon-core-tw';
 
 const Example = () => {
-  const container =
-    (typeof document === 'object' && document?.getElementById('box')) || null;
+  const [container, setContainer] = useState<HTMLElement | null>(null);
+  useEffect(() => {
+    const box =
+      (typeof document === 'object' && document?.getElementById('box')) || null;
+    setContainer(box);
+  }, []);
   return (
     <div id="box">
       <Tooltip>

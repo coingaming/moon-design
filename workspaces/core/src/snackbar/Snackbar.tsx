@@ -2,28 +2,11 @@ import React from 'react';
 import * as ToastPrimitive from '@radix-ui/react-toast';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import ControlsCloseSmall from '../private/icons/ControlsCloseSmall';
+import type CloseProps from './private/types/CloseProps';
+import type SnackbarProps from './private/types/SnackbarProps';
+import type WithChildren from './private/types/WithChildren';
 
-type WithChildren<T = {}> = T & { children?: React.ReactNode };
-
-//TODO: Ask Oladetoun Temitayo Micheal:
-//why onOpenChange: (value: sting) => void, and not onOpenChange: (value: boolean) => void
-
-type SnackbarProps = {
-  autoClose?: number;
-  position?:
-    | 'top-left'
-    | 'top-center'
-    | 'top-right'
-    | 'bottom-left'
-    | 'bottom-center'
-    | 'bottom-right';
-  ref?: null;
-  className?: string;
-  isOpen: boolean;
-  onOpenChange: (value: any) => void;
-};
-
-const SnackbarRoot: React.FC<WithChildren<SnackbarProps>> = ({
+const SnackbarRoot = ({
   autoClose,
   position = 'top-right',
   children,
@@ -31,7 +14,7 @@ const SnackbarRoot: React.FC<WithChildren<SnackbarProps>> = ({
   className,
   isOpen,
   onOpenChange,
-}) => (
+}: WithChildren<SnackbarProps>) => (
   <ToastPrimitive.Provider swipeDirection="right" duration={autoClose}>
     <ToastPrimitive.Root
       open={isOpen}
@@ -71,10 +54,10 @@ const SnackbarRoot: React.FC<WithChildren<SnackbarProps>> = ({
   </ToastPrimitive.Provider>
 );
 
-const Header: React.FC<WithChildren<{ className?: string }>> = ({
+const Header = ({
   children,
   className,
-}) => (
+}: WithChildren<{ className?: string }>) => (
   <p
     className={mergeClassnames(
       'w-full text-moon-14 font-medium transition-colors text-bulma',
@@ -85,10 +68,10 @@ const Header: React.FC<WithChildren<{ className?: string }>> = ({
   </p>
 );
 
-const Message: React.FC<WithChildren<{ className?: string }>> = ({
+const Message = ({
   children,
   className,
-}) => (
+}: WithChildren<{ className?: string }>) => (
   <p
     className={mergeClassnames(
       'w-full text-moon-14 transition-colors text-bulma',
@@ -99,15 +82,17 @@ const Message: React.FC<WithChildren<{ className?: string }>> = ({
   </p>
 );
 
-const Content: React.FC<WithChildren<{ className?: string }>> = ({
+const Content = ({
   children,
   className,
-}) => <div className={mergeClassnames('w-full', className)}>{children}</div>;
+}: WithChildren<{ className?: string }>) => (
+  <div className={mergeClassnames('w-full', className)}>{children}</div>
+);
 
-const Icon: React.FC<WithChildren<{ className?: string }>> = ({
+const Icon = ({
   children,
   className,
-}) => (
+}: WithChildren<{ className?: string }>) => (
   <div
     aria-hidden="true"
     className={mergeClassnames(
@@ -119,10 +104,7 @@ const Icon: React.FC<WithChildren<{ className?: string }>> = ({
   </div>
 );
 
-const Close: React.FC<{ className?: string; ariaLabel?: string }> = ({
-  className,
-  ariaLabel = 'Close',
-}) => (
+const Close = ({ className, ariaLabel = 'Close' }: CloseProps) => (
   <ToastPrimitive.Close
     aria-label={ariaLabel}
     className={mergeClassnames(

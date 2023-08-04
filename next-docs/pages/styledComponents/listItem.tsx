@@ -10,10 +10,10 @@ import TwoLineItems from '../../public/styledExamples/listItem/TwoLineItems';
 import TwoLineItemsCheckbox from '../../public/styledExamples/listItem/TwoLineItemsCheckbox';
 import TwoLineItemsIcon from '../../public/styledExamples/listItem/TwoLineItemsIcon';
 import TwoLineItemsSize from '../../public/styledExamples/listItem/TwoLineItemsSize';
-import useExamples from '../../utils/useExamples';
+import useStyledExamples from '../../utils/useStyledExamples';
 
 export default function PageListItem() {
-  const examples = useExamples('listItem', 'styled');
+  const examples = useStyledExamples('listItem');
   return (
     <>
       <ComponentPageDescription title="List item" isDeprecated>

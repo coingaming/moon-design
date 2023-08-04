@@ -5,10 +5,10 @@ import PropsTable from '../../components/PropsTable';
 import Colours from '../../public/styledExamples/loader/Colours';
 import Default from '../../public/styledExamples/loader/Default';
 import Sizes from '../../public/styledExamples/loader/Sizes';
-import useExamples from '../../utils/useExamples';
+import useStyledExamples from '../../utils/useStyledExamples';
 
 const PageLoader = () => {
-  const examples = useExamples('loader', 'styled');
+  const examples = useStyledExamples('loader');
   return (
     <>
       <ComponentPageDescription title="Loader" isDeprecated>

@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import { ReactNode, useState } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
 import IconsBlock from '../../components/IconsBlock';
 import IconsImportHelper from '../../components/IconsImportHelper';
+import Layout from '../../components/Layout';
 import PageSection from '../../components/PageSection';
 import Arrows from '../../public/examples/icons/Arrows';
 import Chart from '../../public/examples/icons/Chart';
@@ -26,11 +26,14 @@ import Sport from '../../public/examples/icons/Sport';
 import Text from '../../public/examples/icons/Text';
 import Time from '../../public/examples/icons/Time';
 import Travel from '../../public/examples/icons/Travel';
-import useExamples from '../../utils/useExamples';
+import useComponent from '../../utils/useComponent';
+import type { ComponentNames } from '../../components/getComponent';
 
-const Example = () => {
+const COMPONENT_NAME: ComponentNames = 'Icons';
+
+const PageIcons = () => {
   const [selectedIcons, setSelectedIcons] = useState<string[]>([]);
-  const props = { className: 'text-moon-32' };
+  const props = { className: 'text-moon-24' };
   const addIconToSelected: (iconName: string) => string[] = (iconName) =>
     selectedIcons.concat(iconName);
   const removeIconFromSelected = (removedIconName: string) =>
@@ -45,8 +48,7 @@ const Example = () => {
   const onClick = (iconName: string) =>
     setSelectedIcons(toggleSelectedIcons(iconName));
   const wrapperProps = { onClick, selectedIcons };
-  const examples = useExamples('icons');
-  const { name, text, image } = getComponent('Icons');
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
       <ComponentPageDescription
@@ -175,4 +177,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+PageIcons.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageIcons;

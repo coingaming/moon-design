@@ -1,19 +1,27 @@
-import React from 'react';
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/search/Default';
 import NoTransition from '../../public/examples/search/NoTransition';
-import useExamples from '../../utils/useExamples';
+import useComponent from '../../utils/useComponent';
+import type { ComponentNames } from '../../components/getComponent';
 
-const Example = () => {
-  const examples = useExamples('search');
-  const { name, text, image } = getComponent('Search');
+const COMPONENT_NAME: ComponentNames = 'Search';
+
+const PageSearch = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
-      <ComponentPageDescription title={name} image={image} isInProgress>
+      <ComponentPageDescription
+        title={name}
+        image={image}
+        isInProgress
+        isAriaSupport
+        isRtlSupport
+      >
         <p>{text}</p>
       </ComponentPageDescription>
 
@@ -54,25 +62,11 @@ const Example = () => {
         title="Search props"
         data={[
           {
-            name: 'onChangeSearch',
-            type: '(value: string) => void',
-            required: true,
-            default: '-',
-            description: 'Function for setting search value',
-          },
-          {
-            name: 'onChangeOpen',
-            type: '(value: boolean) => void',
-            required: true,
-            default: '_',
-            description: 'Function for setting open state',
-          },
-          {
-            name: 'search',
+            name: 'className',
             type: 'string',
-            required: true,
-            default: '_',
-            description: 'Search query data',
+            required: false,
+            default: '',
+            description: 'Tailwind classes for customization',
           },
           {
             name: 'isOpen',
@@ -82,6 +76,20 @@ const Example = () => {
             description: 'Open state',
           },
           {
+            name: 'onChangeOpen',
+            type: '(isOpen: boolean) => void',
+            required: true,
+            default: '_',
+            description: 'Function for setting open state',
+          },
+          {
+            name: 'onChangeSearch',
+            type: '(search: string) => void',
+            required: true,
+            default: '-',
+            description: 'Function for setting search value',
+          },
+          {
             name: 'onChangeSelected',
             type: '(value: number) => void',
             required: false,
@@ -89,18 +97,11 @@ const Example = () => {
             description: 'Function for setting selected item index',
           },
           {
-            name: 'onChangeOpen',
-            type: '(isOpen: boolean) => void',
-            required: false,
-            default: '-',
-            description: 'The function to call when Search is open or closed',
-          },
-          {
-            name: 'className',
+            name: 'search',
             type: 'string',
-            required: false,
-            default: '',
-            description: 'Tailwind classes for customization',
+            required: true,
+            default: '_',
+            description: 'Search query data',
           },
         ]}
       />
@@ -135,6 +136,14 @@ const Example = () => {
         title="Search.Input.Input"
         data={[
           {
+            name: 'autoFocus',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description:
+              'Specifies that an search should automatically get focus when the page loads',
+          },
+          {
             name: 'className',
             type: 'string',
             required: false,
@@ -147,14 +156,6 @@ const Example = () => {
             required: false,
             default: '"Search"',
             description: 'Search field placeholder',
-          },
-          {
-            name: 'autoFocus',
-            type: 'boolean',
-            required: false,
-            default: 'false',
-            description:
-              'Specifies that an search should automatically get focus when the page loads',
           },
         ]}
       />
@@ -247,4 +248,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+PageSearch.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageSearch;

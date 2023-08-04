@@ -1,21 +1,23 @@
 import React, { ReactNode, useCallback, useEffect, useReducer } from 'react';
 import { Dialog } from '@headlessui/react';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
-import BottomSheetContext, { useBottomSheetContext } from './private/context';
-import stateReducer from './private/stateReducer';
-import useDrag from './private/useDrag';
+import BottomSheetContext, {
+  useBottomSheetContext,
+} from './private/utils/context';
+import stateReducer from './private/utils/stateReducer';
+import useDrag from './private/utils/useDrag';
 import type BackdropProps from './private/types/BackdropProps';
 import type BottomSheetRootProps from './private/types/BottomSheetRootProps';
 import type PanelProps from './private/types/PanelProps';
 import type TitleProps from './private/types/TitleProps';
 
-const BottomSheetRoot: React.FC<BottomSheetRootProps> = ({
+const BottomSheetRoot = ({
   open,
   onClose,
   hasShadow,
   size,
   children,
-}) => {
+}: BottomSheetRootProps) => {
   const [state, dispatch] = useReducer(stateReducer, {
     bottomSheetChildren: [],
   });
@@ -43,12 +45,7 @@ const BottomSheetRoot: React.FC<BottomSheetRootProps> = ({
   );
 };
 
-const Panel: React.FC<PanelProps> = ({
-  children,
-  className,
-  hasShadow,
-  onClose,
-}) => {
+const Panel = ({ children, className, hasShadow, onClose }: PanelProps) => {
   const { size } = useBottomSheetContext('BottomSheet.Panel');
   const { isTransition, hasDraghandle, panelRef, contentRef } =
     useDrag(onClose);
@@ -107,13 +104,13 @@ const Draghandle = ({ children }: { children: ReactNode }) => {
   );
 };
 
-const Backdrop: React.FC<BackdropProps> = ({ className }) => (
+const Backdrop = ({ className }: BackdropProps) => (
   <div
     className={mergeClassnames('fixed inset-0 bg-black/[0.56]', className)}
   ></div>
 );
 
-const Title: React.FC<TitleProps> = ({ children, className }) => (
+const Title = ({ children, className }: TitleProps) => (
   <div className="p-4 border-b-2 border-beerus">
     <Dialog.Title
       as="h3"

@@ -1,17 +1,16 @@
 import React from 'react';
-import Preview from '../../../components/codePreview/Preview';
 import CodeSnippet from '../../../components/codePreview/CodeSnippet';
+import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import PageSection from '../../../components/PageSection';
 import PropsTable from '../../../components/PropsTable';
 import Active from '../../../public/styledExamples/charts/tableChart/Active';
 import Default from '../../../public/styledExamples/charts/tableChart/Default';
 import Loading from '../../../public/styledExamples/charts/tableChart/Loading';
-import useExamples from '../../../utils/useExamples';
+import useStyledExamples from '../../../utils/useStyledExamples';
 
 export default function PageLineChart() {
-  const examples = useExamples('charts/tableChart', 'styled');
-
+  const examples = useStyledExamples('charts/tableChart');
   return (
     <>
       <ComponentPageDescription title="Table">

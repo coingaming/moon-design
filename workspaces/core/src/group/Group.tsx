@@ -1,14 +1,13 @@
 import React, { forwardRef } from 'react';
 import Input, { InputProps } from '../input/Input';
 import InsetInput from '../insetInput/InsetInput';
-import InsetNativeSelect, {
-  InsetNativeSelectProps,
-} from '../insetNativeSelect/InsetNativeSelect';
+import InsetNativeSelect from '../insetNativeSelect/InsetNativeSelect';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import NativeSelect, { NativeSelectProps } from '../nativeSelect/NativeSelect';
 import GroupContext from './private/utils/GroupContext';
 import useGroupContext from './private/utils/useGroupContext';
 import type InsetInputProps from '../insetInput/private/types/InsetInputProps';
+import type InsetNativeSelectProps from '../insetNativeSelect/private/types/InsetNativeSelectProps';
 import type GroupComponentProps from './private/types/GroupComponentProps';
 import type LabelProps from './private/types/LabelProps';
 import type WithChildren from './private/types/WithChildren';

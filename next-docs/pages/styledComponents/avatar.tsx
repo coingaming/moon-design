@@ -7,10 +7,10 @@ import Colours from '../../public/styledExamples/avatar/Colours';
 import Sizes from '../../public/styledExamples/avatar/Sizes';
 import StatusOrigin from '../../public/styledExamples/avatar/StatusOrigin';
 import Variants from '../../public/styledExamples/avatar/Variants';
-import useExamples from '../../utils/useExamples';
+import useStyledExamples from '../../utils/useStyledExamples';
 
 const PageAvatar = () => {
-  const examples = useExamples('avatar', 'styled');
+  const { examples } = useStyledExamples('avatar');
   return (
     <>
       <ComponentPageDescription title="Avatar" isDeprecated>

@@ -1,8 +1,8 @@
-import React from 'react';
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/combobox/Default';
 import InsetMultiSelect from '../../public/examples/combobox/InsetMultiSelect';
@@ -11,14 +11,21 @@ import InsetSelectStates from '../../public/examples/combobox/InsetSelectStates'
 import MultiSelect from '../../public/examples/combobox/MultiSelect';
 import Select from '../../public/examples/combobox/Select';
 import SelectStates from '../../public/examples/combobox/SelectStates';
-import useExamples from '../../utils/useExamples';
+import useComponent from '../../utils/useComponent';
+import type { ComponentNames } from '../../components/getComponent';
 
-const Example = () => {
-  const examples = useExamples('combobox');
-  const { name, text, image } = getComponent('Combobox');
+const COMPONENT_NAME: ComponentNames = 'Combobox';
+
+const PageCombobox = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
-      <ComponentPageDescription title={name} image={image} isRtlSupport>
+      <ComponentPageDescription
+        title={name}
+        image={image}
+        isRtlSupport
+        isAriaSupport
+      >
         <p>{text}</p>
         <p>
           Based on{' '}
@@ -573,4 +580,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+PageCombobox.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageCombobox;

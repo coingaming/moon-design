@@ -1,15 +1,15 @@
 import React from 'react';
-import Preview from '../../../components/codePreview/Preview';
 import CodeSnippet from '../../../components/codePreview/CodeSnippet';
+import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import PageSection from '../../../components/PageSection';
 import PropsTable from '../../../components/PropsTable';
 import Active from '../../../public/styledExamples/charts/verticalChart/Active';
 import NoData from '../../../public/styledExamples/charts/verticalChart/NoData';
-import useExamples from '../../../utils/useExamples';
+import useStyledExamples from '../../../utils/useStyledExamples';
 
 export default function PageVerticalBarChart() {
-  const examples = useExamples('charts/verticalChart', 'styled');
+  const examples = useStyledExamples('charts/verticalChart');
   return (
     <>
       <ComponentPageDescription title="Vertical bar">

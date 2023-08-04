@@ -3,11 +3,10 @@ import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
 import PropsTable from '../../../components/PropsTable';
 import Default from '../../../public/styledExamples/radiobutton/radiobutton-api/Default';
-import useExamples from '../../../utils/useExamples';
+import useStyledExamples from '../../../utils/useStyledExamples';
 
 export default function RadioButtonPage() {
-  const examples = useExamples('radiobutton-api');
-
+  const examples = useStyledExamples('radiobutton-api');
   return (
     <>
       <section className="mt-8">

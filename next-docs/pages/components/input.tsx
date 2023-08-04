@@ -1,21 +1,23 @@
-import React from 'react';
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Bg from '../../public/examples/input/Bg';
 import Default from '../../public/examples/input/Default';
 import Sizes from '../../public/examples/input/Sizes';
 import States from '../../public/examples/input/States';
 import Types from '../../public/examples/input/Types';
-import useExamples from '../../utils/useExamples';
+import useComponent from '../../utils/useComponent';
+import type { ComponentNames } from '../../components/getComponent';
 
-const Example = () => {
-  const examples = useExamples('input');
-  const { name, text, image } = getComponent('Input');
+const COMPONENT_NAME: ComponentNames = 'Input';
+
+const PageInput = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
-      <ComponentPageDescription title={name} image={image}>
+      <ComponentPageDescription title={name} image={image} isAriaSupport>
         <p>{text}</p>
         <p>
           These types of input fields are used on their own, or in combination
@@ -106,4 +108,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+PageInput.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageInput;
