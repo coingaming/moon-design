@@ -1,4 +1,7 @@
 packages:
+  # new docs using latest NextJs
+  - 'docs'
+  # legacy docs using old version NextJs
   - 'next-docs'
   # all packages in subdirs of packages/
   - 'packages/**'
