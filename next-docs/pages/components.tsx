@@ -1,6 +1,8 @@
+import { ReactNode } from 'react';
 import components from '../components/components';
 import ComponentsPageCard from '../components/componentsPage/ComponentsPageCard';
 import ComponentsPageSection from '../components/componentsPage/ComponentsPageSection';
+import Layout from '../components/Layout';
 
 const PageComponents = () => (
   <>
@@ -21,5 +23,9 @@ const PageComponents = () => (
     </ComponentsPageSection>
   </>
 );
+
+PageComponents.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title="Components">{page}</Layout>;
+};
 
 export default PageComponents;

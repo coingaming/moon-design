@@ -6,10 +6,10 @@ import PropsTable from '../../components/PropsTable';
 import Content from '../../public/styledExamples/tooltip/Content';
 import Default from '../../public/styledExamples/tooltip/Default';
 import Positions from '../../public/styledExamples/tooltip/Positions';
-import useExamples from '../../utils/useExamples';
+import useStyledExamples from '../../utils/useStyledExamples';
 
 export default function PageTooltip() {
-  const examples = useExamples('tooltip', 'styled');
+  const examples = useStyledExamples('tooltip');
   return (
     <>
       <ComponentPageDescription title="Tooltip" isDeprecated>

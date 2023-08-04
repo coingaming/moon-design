@@ -13,7 +13,7 @@ const Example = () => {
         <Modal.Backdrop />
         <Modal.Panel className="lg:max-w-md bg-roshi text-goten rounded-none">
           <span
-            className="absolute top-5 right-5 cursor-pointer"
+            className="absolute top-5 ltr:right-5 rtl:left-5 cursor-pointer"
             onClick={closeModal}
           >
             <ControlsClose className="text-moon-24" />

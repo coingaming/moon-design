@@ -4,11 +4,10 @@ import ComponentPageDescription from '../../../components/ComponentPageDescripti
 import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
 import Default from '../../../public/styledExamples/dialog/dialogOverlay/Default';
-import useExamples from '../../../utils/useExamples';
+import useStyledExamples from '../../../utils/useStyledExamples';
 
 export default function PageDialogOverlay() {
-  const examples = useExamples('dialog/dialogOverlay', 'styled');
-
+  const examples = useStyledExamples('dialog/dialogOverlay');
   return (
     <>
       <ComponentPageDescription title="Dialog Overlay" isDeprecated>

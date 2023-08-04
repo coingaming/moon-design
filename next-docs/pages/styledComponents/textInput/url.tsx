@@ -11,10 +11,10 @@ import UrlWithHint from '../../../public/styledExamples/textInput/url/UrlWithHin
 import UrlWithLabel from '../../../public/styledExamples/textInput/url/UrlWithLabel';
 import UrlWithLabelRtl from '../../../public/styledExamples/textInput/url/UrlWithLabelRtl';
 import UrlWithoutLabel from '../../../public/styledExamples/textInput/url/UrlWithoutLabel';
-import useExamples from '../../../utils/useExamples';
+import useStyledExamples from '../../../utils/useStyledExamples';
 
 export default function PageUrlInput() {
-  const examples = useExamples('textInput/text', 'styled');
+  const examples = useStyledExamples('textInput/text');
   return (
     <>
       <ComponentPageDescription title="Url" isDeprecated>

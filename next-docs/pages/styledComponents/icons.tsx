@@ -25,7 +25,7 @@ import Sport from '../../public/styledExamples/icons/Sport';
 import Text from '../../public/styledExamples/icons/Text';
 import Time from '../../public/styledExamples/icons/Time';
 import Travel from '../../public/styledExamples/icons/Travel';
-import useExamples from '../../utils/useExamples';
+import useStyledExamples from '../../utils/useStyledExamples';
 
 const PageIcons = () => {
   const [selectedIcons, setSelectedIcons] = useState<string[]>([]);
@@ -44,7 +44,7 @@ const PageIcons = () => {
   const onClick = (iconName: string) =>
     setSelectedIcons(toggleSelectedIcons(iconName));
   const wrapperProps = { onClick, selectedIcons };
-  const examples = useExamples('icons', 'styled');
+  const examples = useStyledExamples('icons');
   return (
     <>
       <ComponentPageDescription title="Icons" isDeprecated>

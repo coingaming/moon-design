@@ -1,8 +1,8 @@
-import React from 'react';
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/tabs/Default';
 import DefaultPills from '../../public/examples/tabs/DefaultPills';
@@ -11,11 +11,13 @@ import Segment from '../../public/examples/tabs/Segment';
 import Sizes from '../../public/examples/tabs/Sizes';
 import WithCustomStyles from '../../public/examples/tabs/WithCustomStyles';
 import WithHandler from '../../public/examples/tabs/WithHandler';
-import useExamples from '../../utils/useExamples';
+import useComponent from '../../utils/useComponent';
+import type { ComponentNames } from '../../components/getComponent';
 
-const Example = () => {
-  const examples = useExamples('tabs');
-  const { name, text, image } = getComponent('Tabs');
+const COMPONENT_NAME: ComponentNames = 'Tabs';
+
+const PageTabs = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
       <ComponentPageDescription
@@ -224,4 +226,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+PageTabs.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageTabs;

@@ -8,10 +8,10 @@ import FullWidth from '../../public/styledExamples/button/FullWidth';
 import Icons from '../../public/styledExamples/button/Icons';
 import Sizes from '../../public/styledExamples/button/Sizes';
 import Variants from '../../public/styledExamples/button/Variants';
-import useExamples from '../../utils/useExamples';
+import useStyledExamples from '../../utils/useStyledExamples';
 
 const PageButton = () => {
-  const examples = useExamples('button', 'styled');
+  const examples = useStyledExamples('button');
   return (
     <>
       <ComponentPageDescription title="Button" isDeprecated>

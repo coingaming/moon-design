@@ -2,26 +2,9 @@ import React from 'react';
 import * as ToastPrimitive from '@radix-ui/react-toast';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import ControlsCloseSmall from '../private/icons/ControlsCloseSmall';
-
-type WithChildren<T = {}> = T & { children?: React.ReactNode };
-
-//TODO: Ask Oladetoun Temitayo Micheal:
-//why onOpenChange: (value: sting) => void, and not onOpenChange: (value: boolean) => void
-
-type SnackbarProps = {
-  autoClose?: number;
-  position?:
-    | 'top-left'
-    | 'top-center'
-    | 'top-right'
-    | 'bottom-left'
-    | 'bottom-center'
-    | 'bottom-right';
-  ref?: null;
-  className?: string;
-  isOpen: boolean;
-  onOpenChange: (value: any) => void;
-};
+import type CloseProps from './private/types/CloseProps';
+import type SnackbarProps from './private/types/SnackbarProps';
+import type WithChildren from './private/types/WithChildren';
 
 const SnackbarRoot = ({
   autoClose,
@@ -121,13 +104,7 @@ const Icon = ({
   </div>
 );
 
-const Close = ({
-  className,
-  ariaLabel = 'Close',
-}: {
-  className?: string;
-  ariaLabel?: string;
-}) => (
+const Close = ({ className, ariaLabel = 'Close' }: CloseProps) => (
   <ToastPrimitive.Close
     aria-label={ariaLabel}
     className={mergeClassnames(

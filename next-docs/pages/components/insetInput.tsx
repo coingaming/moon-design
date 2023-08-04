@@ -1,18 +1,20 @@
-import React from 'react';
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Bg from '../../public/examples/insetInput/Bg';
 import Default from '../../public/examples/insetInput/Default';
 import States from '../../public/examples/insetInput/States';
 import Types from '../../public/examples/insetInput/Types';
-import useExamples from '../../utils/useExamples';
+import useComponent from '../../utils/useComponent';
+import type { ComponentNames } from '../../components/getComponent';
 
-const Example = () => {
-  const examples = useExamples('insetInput');
-  const { name, text, image } = getComponent('InsetInput');
+const COMPONENT_NAME: ComponentNames = 'InsetInput';
+
+const PageInsetInput = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
       <ComponentPageDescription
@@ -88,4 +90,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+PageInsetInput.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageInsetInput;

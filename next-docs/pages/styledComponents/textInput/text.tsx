@@ -13,10 +13,10 @@ import TextReadonlyRtl from '../../../public/styledExamples/textInput/text/TextR
 import TextWithHint from '../../../public/styledExamples/textInput/text/TextWithHint';
 import TextWithLabel from '../../../public/styledExamples/textInput/text/TextWithLabel';
 import TextWithoutLabel from '../../../public/styledExamples/textInput/text/TextWithoutLabel';
-import useExamples from '../../../utils/useExamples';
+import useStyledExamples from '../../../utils/useStyledExamples';
 
 export default function PageTextInput() {
-  const examples = useExamples('textInput/text', 'styled');
+  const examples = useStyledExamples('textInput/text');
   return (
     <>
       <ComponentPageDescription title="Text" isDeprecated>

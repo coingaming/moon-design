@@ -16,7 +16,7 @@ const breadcrumbs = [
 const Example = () => (
   <Breadcrumb
     breadcrumbs={breadcrumbs}
-    divider={<ControlsChevronRight className="text-moon-16" />}
+    divider={<ControlsChevronRight className="text-moon-16 rtl:rotate-180" />}
   />
 );
 

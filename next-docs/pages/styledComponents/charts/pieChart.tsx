@@ -1,17 +1,16 @@
 import React from 'react';
 import { ChartIcons } from '@heathmont/moon-charts';
-import Preview from '../../../components/codePreview/Preview';
 import CodeSnippet from '../../../components/codePreview/CodeSnippet';
+import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import PageSection from '../../../components/PageSection';
 import PropsTable from '../../../components/PropsTable';
 import Default from '../../../public/styledExamples/charts/pieChart/Default';
 import Loading from '../../../public/styledExamples/charts/pieChart/Loading';
-import useExamples from '../../../utils/useExamples';
+import useStyledExamples from '../../../utils/useStyledExamples';
 
 export default function PageLineChart() {
-  const examples = useExamples('charts/pieChart', 'styled');
-
+  const examples = useStyledExamples('charts/pieChart');
   return (
     <>
       <ComponentPageDescription title="Pie">

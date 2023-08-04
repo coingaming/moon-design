@@ -1,15 +1,17 @@
-import React from 'react';
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import CommandMenu from '../../public/examples/searchCmdk/CommandMenu';
-import useExamples from '../../utils/useExamples';
+import useComponent from '../../utils/useComponent';
+import type { ComponentNames } from '../../components/getComponent';
 
-const Example = () => {
-  const examples = useExamples('searchCmdk');
-  const { name, text, image } = getComponent('SearchCmdk');
+const COMPONENT_NAME: ComponentNames = 'SearchCmdk';
+
+const PageSearchCmdk = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
       <ComponentPageDescription
@@ -17,6 +19,7 @@ const Example = () => {
         image={image}
         isInProgress
         isAriaSupport
+        isRtlSupport
       >
         <p>{text}</p>
       </ComponentPageDescription>
@@ -222,4 +225,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+PageSearchCmdk.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageSearchCmdk;

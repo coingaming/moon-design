@@ -1,14 +1,14 @@
 import React from 'react';
-import Preview from '../../components/codePreview/Preview';
 import CodeSnippet from '../../components/codePreview/CodeSnippet';
+import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/styledExamples/popover/Default';
-import useExamples from '../../utils/useExamples';
+import useStyledExamples from '../../utils/useStyledExamples';
 
 const PagePopover = () => {
-  const examples = useExamples('popover', 'styled');
+  const examples = useStyledExamples('popover');
   return (
     <>
       <ComponentPageDescription title="Popover" isDeprecated>
