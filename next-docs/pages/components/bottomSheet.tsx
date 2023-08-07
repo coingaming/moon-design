@@ -1,6 +1,8 @@
 import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
+import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import type { ComponentNames } from '../../components/getComponent';
 import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Customization from '../../public/examples/bottomSheet/Customization';
@@ -9,7 +11,6 @@ import Sizes from '../../public/examples/bottomSheet/Sizes';
 import WithDraghandle from '../../public/examples/bottomSheet/WithDraghandle';
 import WithTitle from '../../public/examples/bottomSheet/WithTitle';
 import useComponent from '../../utils/useComponent';
-import type { ComponentNames } from '../../components/getComponent';
 
 const COMPONENT_NAME: ComponentNames = 'BottomSheet';
 
@@ -41,6 +42,17 @@ const PageBottomSheet = () => {
           .
         </p>
       </ComponentPageDescription>
+      <ComponentAnatomy>
+        {`<BottomSheet>
+  <BottomSheet.Panel>
+    <BottomSheet.Draghandle>
+      <BottomSheet.Title>...</BottomSheet.Title>
+    </BottomSheet.Draghandle>
+    ...
+  </BottomSheet.Panel>
+  <BottomSheet.Backdrop />
+</BottomSheet>`}
+      </ComponentAnatomy>
       <Preview
         title="Default"
         preview={<Default />}
@@ -74,40 +86,14 @@ const PageBottomSheet = () => {
             type: '() => void',
             required: true,
             default: '-',
-            description: 'Called when the BottomSheet is dismissed.',
+            description: 'Called when the BottomSheet is dismissed',
           },
           {
             name: 'open',
             type: 'boolean',
             required: true,
             default: '-',
-            description: 'Whether the BottomSheet is open or not.',
-          },
-        ]}
-      />
-      <PropsTable
-        title="BottomSheet.Draghandle"
-        data={[
-          {
-            name: 'children',
-            type: 'ReactNode',
-            required: false,
-            default: '-',
-            description:
-              'Optional title as a child to render text next to the drag handle.',
-          },
-        ]}
-      />
-      <PropsTable
-        title="BottomSheet.Title"
-        data={[
-          {
-            name: 'className',
-            type: 'string',
-            required: false,
-            default: '-',
-            description:
-              'Tailwind classes for customization of BottomSheet Title.',
+            description: 'Whether the BottomSheet is open or not',
           },
         ]}
       />
@@ -119,22 +105,38 @@ const PageBottomSheet = () => {
             type: 'string',
             required: false,
             default: '-',
-            description:
-              'Tailwind classes for customization of BottomSheet Panel.',
-          },
-          {
-            name: 'hasShadow',
-            type: 'boolean',
-            required: false,
-            default: '-',
-            description: 'Whether the BottomSheet has a shadow or not.',
+            description: 'Tailwind classes for customization',
           },
           {
             name: 'onClose',
             type: '() => void',
             required: false,
             default: '-',
-            description: 'Called when the BottomSheet is dismissed.',
+            description: 'Called when the BottomSheet is dismissed',
+          },
+        ]}
+      />
+      <PropsTable
+        title="BottomSheet.Draghandle"
+        data={[
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Tailwind classes for customization',
+          },
+        ]}
+      />
+      <PropsTable
+        title="BottomSheet.Title"
+        data={[
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Tailwind classes for customization',
           },
         ]}
       />
@@ -146,8 +148,7 @@ const PageBottomSheet = () => {
             type: 'string',
             required: false,
             default: '-',
-            description:
-              'Tailwind classes for customization of BottomSheet Backdrop.',
+            description: 'Tailwind classes for customization',
           },
         ]}
       />
