@@ -33,473 +33,455 @@ Object {
         />
         <div>
           <div
-            aria-labelledby="headlessui-dialog-title-:rl:"
+            aria-labelledby="headlessui-dialog-title-:rh:"
             aria-modal="true"
-            class="relative z-10"
+            class="fixed inset-0 z-50"
             data-headlessui-state="open"
-            id="headlessui-dialog-:ri:"
+            id="headlessui-dialog-:rf:"
             role="dialog"
           >
             <div
-              class="fixed inset-0 bg-black/[0.56]"
+              aria-hidden="true"
+              class="fixed -z-1 inset-0 bg-zeno ease-out duration-300 transition-opacity opacity-0"
             />
             <div
-              class="fixed inset-0"
+              class="absolute flex flex-col inset-x-0 bottom-0 rounded-t-moon-i-md bg-gohan p-2 shadow-moon-lg transition-all h-[77%] ease-out duration-300 transition-transform translate-y-full"
+              data-headlessui-state="open"
+              id="headlessui-dialog-panel-:rg:"
             >
               <div
-                class="absolute inset-x-0 bottom-0 rounded-t-xl bg-gohan translate-y-full shadow-moon-lg duration-200 transition-all h-[77%]"
-                data-headlessui-state="open"
-                id="headlessui-dialog-panel-:rj:"
+                class="relative flex items-center justify-center pb-2 after:absolute after:-top-1 after:left-1/2 after:rounded-full after:-translate-x-1/2 after:w-10 after:h-1 after:bg-beerus [&_.bottomsheet-title]:pt-2"
+              >
+                <p
+                  class="bottomsheet-title text-moon-16 text-bulma font-medium text-center"
+                  data-headlessui-state="open"
+                  id="headlessui-dialog-title-:rh:"
+                >
+                  I am gonna show you some data whether you like it or not!
+                </p>
+              </div>
+              <div
+                class="p-2"
               >
                 <div
-                  class="h-full overflow-y-auto"
+                  class="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
+                  role="table"
                 >
                   <div
-                    class="sticky inset-x-0 top-0 flex flex-col items-center justify-start pt-2 min-h-[48px] z-10 bg-gohan rounded-t-xl"
+                    class="flex flex-col sticky top-0 z-[99]"
                   >
                     <div
-                      class="w-10 h-1 rounded bg-beerus"
-                    />
-                    <div
-                      class="w-full"
+                      class="flex rounded-moon-s-sm sticky"
+                      role="row"
+                      style="display: flex; flex: 1 0 auto; min-width: 0px;"
                     >
                       <div
-                        class="p-4 border-b-2 border-beerus"
+                        class="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
+                        colspan="1"
+                        role="columnheader"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
                       >
-                        <h3
-                          class="text-moon-18 text-bulma font-medium text-center"
-                          data-headlessui-state="open"
-                          id="headlessui-dialog-title-:rl:"
-                        >
-                          I am gonna show you some data whether you like it or not!
-                        </h3>
+                        First Name
+                        <div
+                          class="inline-block w-px h-full absolute top-0 right-0 z-1 after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%] after:right-0 "
+                          draggable="false"
+                          role="separator"
+                          style="cursor: col-resize;"
+                        />
+                      </div>
+                      <div
+                        class="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
+                        colspan="1"
+                        role="columnheader"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
+                      >
+                        Last Name
+                        <div
+                          class="inline-block w-px h-full absolute top-0 right-0 z-1 after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%] after:right-0 "
+                          draggable="false"
+                          role="separator"
+                          style="cursor: col-resize;"
+                        />
+                      </div>
+                      <div
+                        class="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
+                        colspan="1"
+                        role="columnheader"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
+                      >
+                        Age
+                        <div
+                          class="inline-block w-px h-full absolute top-0 right-0 z-1 after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%] after:right-0 "
+                          draggable="false"
+                          role="separator"
+                          style="cursor: col-resize;"
+                        />
+                      </div>
+                      <div
+                        class="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
+                        colspan="1"
+                        role="columnheader"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
+                      >
+                        Money
+                        <div
+                          class="inline-block w-px h-full absolute top-0 right-0 z-1 after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%] after:right-0 "
+                          draggable="false"
+                          role="separator"
+                          style="cursor: col-resize;"
+                        />
+                      </div>
+                      <div
+                        class="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
+                        colspan="1"
+                        role="columnheader"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
+                      >
+                        Activity
+                        <div
+                          class="inline-block w-px h-full absolute top-0 right-0 z-1 after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%] after:right-0 "
+                          draggable="false"
+                          role="separator"
+                          style="cursor: col-resize;"
+                        />
+                      </div>
+                      <div
+                        class="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
+                        colspan="1"
+                        role="columnheader"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
+                      >
+                        Status
+                        <div
+                          class="inline-block w-px h-full absolute top-0 right-0 z-1 after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%] after:right-0 "
+                          draggable="false"
+                          role="separator"
+                          style="cursor: col-resize;"
+                        />
                       </div>
                     </div>
-                  </div>
-                  <div
-                    class="p-2"
-                  >
                     <div
-                      class="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
-                      role="table"
+                      role="row"
+                      style="display: flex; flex: 1 0 auto; min-width: 0px;"
                     >
                       <div
-                        class="flex flex-col sticky top-0 z-[99]"
-                      >
-                        <div
-                          class="flex rounded-moon-s-sm sticky"
-                          role="row"
-                          style="display: flex; flex: 1 0 auto; min-width: 0px;"
-                        >
-                          <div
-                            class="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
-                            colspan="1"
-                            role="columnheader"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
-                          >
-                            First Name
-                            <div
-                              class="inline-block w-px h-full absolute top-0 right-0 z-1 after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%] after:right-0 "
-                              draggable="false"
-                              role="separator"
-                              style="cursor: col-resize;"
-                            />
-                          </div>
-                          <div
-                            class="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
-                            colspan="1"
-                            role="columnheader"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
-                          >
-                            Last Name
-                            <div
-                              class="inline-block w-px h-full absolute top-0 right-0 z-1 after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%] after:right-0 "
-                              draggable="false"
-                              role="separator"
-                              style="cursor: col-resize;"
-                            />
-                          </div>
-                          <div
-                            class="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
-                            colspan="1"
-                            role="columnheader"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
-                          >
-                            Age
-                            <div
-                              class="inline-block w-px h-full absolute top-0 right-0 z-1 after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%] after:right-0 "
-                              draggable="false"
-                              role="separator"
-                              style="cursor: col-resize;"
-                            />
-                          </div>
-                          <div
-                            class="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
-                            colspan="1"
-                            role="columnheader"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
-                          >
-                            Money
-                            <div
-                              class="inline-block w-px h-full absolute top-0 right-0 z-1 after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%] after:right-0 "
-                              draggable="false"
-                              role="separator"
-                              style="cursor: col-resize;"
-                            />
-                          </div>
-                          <div
-                            class="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
-                            colspan="1"
-                            role="columnheader"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
-                          >
-                            Activity
-                            <div
-                              class="inline-block w-px h-full absolute top-0 right-0 z-1 after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%] after:right-0 "
-                              draggable="false"
-                              role="separator"
-                              style="cursor: col-resize;"
-                            />
-                          </div>
-                          <div
-                            class="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
-                            colspan="1"
-                            role="columnheader"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
-                          >
-                            Status
-                            <div
-                              class="inline-block w-px h-full absolute top-0 right-0 z-1 after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%] after:right-0 "
-                              draggable="false"
-                              role="separator"
-                              style="cursor: col-resize;"
-                            />
-                          </div>
-                        </div>
-                        <div
-                          role="row"
-                          style="display: flex; flex: 1 0 auto; min-width: 0px;"
-                        >
-                          <div
-                            class="relative"
-                            colspan="1"
-                            role="columnheader"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
-                          />
-                          <div
-                            class="relative"
-                            colspan="1"
-                            role="columnheader"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
-                          />
-                          <div
-                            class="relative"
-                            colspan="1"
-                            role="columnheader"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
-                          />
-                          <div
-                            class="relative"
-                            colspan="1"
-                            role="columnheader"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
-                          />
-                          <div
-                            class="relative"
-                            colspan="1"
-                            role="columnheader"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
-                          />
-                          <div
-                            class="relative"
-                            colspan="1"
-                            role="columnheader"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
-                          />
-                        </div>
-                      </div>
-                      <div
-                        class="flex flex-col relative z-0 no-scrollbar gap-1"
-                        role="rowgroup"
-                      >
-                        <div
-                          class="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan border-gohan"
-                          role="row"
-                          style="display: flex; flex: 1 0 auto; min-width: 0px;"
-                        >
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            Milton
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            Friedman
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            <span>
-                              0
-                            </span>
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            <span>
-                              0
-                            </span>
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            0
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            0
-                          </div>
-                        </div>
-                        <div
-                          class="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan border-gohan"
-                          role="row"
-                          style="display: flex; flex: 1 0 auto; min-width: 0px;"
-                        >
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            Thomas
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            Sowell
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            <span>
-                              22
-                            </span>
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            <span>
-                              10000
-                            </span>
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            100
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            100
-                          </div>
-                        </div>
-                        <div
-                          class="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan border-gohan"
-                          role="row"
-                          style="display: flex; flex: 1 0 auto; min-width: 0px;"
-                        >
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            Milton
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            Friedman
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            <span>
-                              44
-                            </span>
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            <span>
-                              20000
-                            </span>
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            200
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            200
-                          </div>
-                        </div>
-                        <div
-                          class="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan border-gohan"
-                          role="row"
-                          style="display: flex; flex: 1 0 auto; min-width: 0px;"
-                        >
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            Thomas
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            Sowell
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            <span>
-                              66
-                            </span>
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            <span>
-                              30000
-                            </span>
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            300
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            300
-                          </div>
-                        </div>
-                        <div
-                          class="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan border-gohan"
-                          role="row"
-                          style="display: flex; flex: 1 0 auto; min-width: 0px;"
-                        >
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            Milton
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            Friedman
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            <span>
-                              88
-                            </span>
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            <span>
-                              40000
-                            </span>
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            400
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            400
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="p-2"
-                  >
-                    <button
-                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma w-full"
-                      type="button"
-                    >
-                      I don't wanna see this
-                      <span
-                        aria-hidden="true"
-                        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                        class="relative"
+                        colspan="1"
+                        role="columnheader"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
                       />
-                    </button>
+                      <div
+                        class="relative"
+                        colspan="1"
+                        role="columnheader"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
+                      />
+                      <div
+                        class="relative"
+                        colspan="1"
+                        role="columnheader"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
+                      />
+                      <div
+                        class="relative"
+                        colspan="1"
+                        role="columnheader"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
+                      />
+                      <div
+                        class="relative"
+                        colspan="1"
+                        role="columnheader"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
+                      />
+                      <div
+                        class="relative"
+                        colspan="1"
+                        role="columnheader"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="flex flex-col relative z-0 no-scrollbar gap-1"
+                    role="rowgroup"
+                  >
+                    <div
+                      class="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan border-gohan"
+                      role="row"
+                      style="display: flex; flex: 1 0 auto; min-width: 0px;"
+                    >
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        Milton
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        Friedman
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        <span>
+                          0
+                        </span>
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        <span>
+                          0
+                        </span>
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        0
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        0
+                      </div>
+                    </div>
+                    <div
+                      class="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan border-gohan"
+                      role="row"
+                      style="display: flex; flex: 1 0 auto; min-width: 0px;"
+                    >
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        Thomas
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        Sowell
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        <span>
+                          22
+                        </span>
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        <span>
+                          10000
+                        </span>
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        100
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        100
+                      </div>
+                    </div>
+                    <div
+                      class="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan border-gohan"
+                      role="row"
+                      style="display: flex; flex: 1 0 auto; min-width: 0px;"
+                    >
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        Milton
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        Friedman
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        <span>
+                          44
+                        </span>
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        <span>
+                          20000
+                        </span>
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        200
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        200
+                      </div>
+                    </div>
+                    <div
+                      class="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan border-gohan"
+                      role="row"
+                      style="display: flex; flex: 1 0 auto; min-width: 0px;"
+                    >
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        Thomas
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        Sowell
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        <span>
+                          66
+                        </span>
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        <span>
+                          30000
+                        </span>
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        300
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        300
+                      </div>
+                    </div>
+                    <div
+                      class="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan border-gohan"
+                      role="row"
+                      style="display: flex; flex: 1 0 auto; min-width: 0px;"
+                    >
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        Milton
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        Friedman
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        <span>
+                          88
+                        </span>
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        <span>
+                          40000
+                        </span>
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        400
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        400
+                      </div>
+                    </div>
                   </div>
                 </div>
+              </div>
+              <div
+                class="p-2"
+              >
+                <button
+                  class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma w-full"
+                  type="button"
+                >
+                  I don't wanna see this
+                  <span
+                    aria-hidden="true"
+                    class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                  />
+                </button>
               </div>
             </div>
           </div>
@@ -636,51 +618,43 @@ Object {
         />
         <div>
           <div
-            aria-labelledby="headlessui-dialog-title-:rd:"
+            aria-labelledby="headlessui-dialog-title-:rb:"
             aria-modal="true"
-            class="relative z-10"
+            class="fixed inset-0 z-50"
             data-headlessui-state="open"
-            id="headlessui-dialog-:rb:"
+            id="headlessui-dialog-:r9:"
             role="dialog"
           >
             <div
-              class="fixed inset-0"
+              class="absolute flex flex-col inset-x-0 bottom-0 rounded-t-moon-i-md bg-gohan p-2 h-1/3 transition-all ease-out duration-300 transition-transform translate-y-full"
+              data-headlessui-state="open"
+              id="headlessui-dialog-panel-:ra:"
             >
-              <div
-                class="absolute inset-x-0 bottom-0 rounded-t-xl bg-gohan translate-y-full h-[64%] overflow-y-auto duration-200 transition-all"
+              <p
+                class="bottomsheet-title text-moon-16 text-bulma font-medium text-center"
                 data-headlessui-state="open"
-                id="headlessui-dialog-panel-:rc:"
+                id="headlessui-dialog-title-:rb:"
               >
-                <div
-                  class="p-4 border-b-2 border-beerus"
+                Do you wear skinny jeans?
+              </p>
+              <p
+                class="p-4 text-trunks"
+              >
+                I'm baby vaporware flexitarian scenester lyft activated charcoal tacos. Hashtag etsy literally irony yr 3 wolf moon PBR&B cred banjo lyft air plant edison bulb. Salvia next level pitchfork single-origin coffee adaptogen. Neutra tilde sartorial Brooklyn shaman schlitz. Roof party irony tattooed bicycle rights. Ethical you probably haven't heard of them literally bespoke PBR&B. Tattooed artisan twee, kinfolk kale chips taxidermy austin kitsch williamsburg tousled ugh.
+              </p>
+              <div
+                class="p-4"
+              >
+                <button
+                  class="px-4 h-12 py-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary w-full"
+                  type="button"
                 >
-                  <h3
-                    class="text-moon-18 text-bulma font-medium"
-                    data-headlessui-state="open"
-                    id="headlessui-dialog-title-:rd:"
-                  >
-                    Do you wear skinny jeans?
-                  </h3>
-                </div>
-                <p
-                  class="p-4 text-trunks"
-                >
-                  I'm baby vaporware flexitarian scenester lyft activated charcoal tacos. Hashtag etsy literally irony yr 3 wolf moon PBR&B cred banjo lyft air plant edison bulb. Salvia next level pitchfork single-origin coffee adaptogen. Neutra tilde sartorial Brooklyn shaman schlitz. Roof party irony tattooed bicycle rights. Ethical you probably haven't heard of them literally bespoke PBR&B. Tattooed artisan twee, kinfolk kale chips taxidermy austin kitsch williamsburg tousled ugh.
-                </p>
-                <div
-                  class="p-4"
-                >
-                  <button
-                    class="px-4 h-12 py-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary w-full"
-                    type="button"
-                  >
-                    I'm honestly done
-                    <span
-                      aria-hidden="true"
-                      class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-                    />
-                  </button>
-                </div>
+                  I'm honestly done
+                  <span
+                    aria-hidden="true"
+                    class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                  />
+                </button>
               </div>
             </div>
           </div>
@@ -820,126 +794,108 @@ Object {
         />
         <div>
           <div
-            aria-labelledby="headlessui-dialog-title-:rh:"
+            aria-labelledby="headlessui-dialog-title-:re:"
             aria-modal="true"
-            class="relative z-10"
+            class="fixed inset-0 z-50"
             data-headlessui-state="open"
-            id="headlessui-dialog-:re:"
+            id="headlessui-dialog-:rc:"
             role="dialog"
           >
             <div
-              class="fixed inset-0 bg-black/[0.56]"
+              aria-hidden="true"
+              class="fixed -z-1 inset-0 bg-zeno ease-out duration-300 transition-opacity opacity-0"
             />
             <div
-              class="fixed inset-0"
+              class="absolute flex flex-col inset-x-0 bottom-0 rounded-t-moon-i-md bg-gohan p-2 h-[88%] shadow-moon-lg transition-all ease-out duration-300 transition-transform translate-y-full"
+              data-headlessui-state="open"
+              id="headlessui-dialog-panel-:rd:"
             >
               <div
-                class="absolute inset-x-0 bottom-0 rounded-t-xl bg-gohan translate-y-full h-[88%] shadow-moon-lg duration-200 transition-all"
-                data-headlessui-state="open"
-                id="headlessui-dialog-panel-:rf:"
+                class="relative flex items-center justify-center pb-2 after:absolute after:-top-1 after:left-1/2 after:rounded-full after:-translate-x-1/2 after:w-10 after:h-1 after:bg-beerus [&_.bottomsheet-title]:pt-2"
+              >
+                <p
+                  class="bottomsheet-title text-moon-16 text-bulma font-medium text-center"
+                  data-headlessui-state="open"
+                  id="headlessui-dialog-title-:re:"
+                >
+                  Forgot password?
+                </p>
+              </div>
+              <p
+                class="p-2 text-trunks"
+              >
+                If you change your password, you will be unable to withdraw for 48 hours due to security reasons.
+              </p>
+              <div
+                class="p-2"
               >
                 <div
-                  class="h-full overflow-y-auto"
+                  class="w-full max-w-full relative z-0 rounded-moon-i-xs"
                 >
+                  <label
+                    class="block text-bulma pb-2 text-moon-16"
+                  >
+                    Username or email
+                  </label>
+                  <input
+                    class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+                    placeholder=""
+                    type="email"
+                  />
+                </div>
+              </div>
+              <div
+                class="p-2"
+              >
+                <button
+                  class="px-4 h-12 py-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-tertiary w-full"
+                  type="button"
+                >
+                  Send
+                  <span
+                    aria-hidden="true"
+                    class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                  />
+                </button>
+                <div
+                  class="p-2 mt-4 rounded-lg bg-goku"
+                >
+                  <h3
+                    class="p-2 text-moon-18 font-medium border-b-2 text-bulma border-beerus"
+                  >
+                    Need some help?
+                  </h3>
                   <div
-                    class="sticky inset-x-0 top-0 flex flex-col items-center justify-start pt-2 min-h-[48px] z-10 bg-gohan rounded-t-xl"
+                    class="flex mt-2"
                   >
-                    <div
-                      class="w-10 h-1 rounded bg-beerus"
-                    />
-                    <div
-                      class="w-full"
+                    <svg
+                      class="text-moon-48 text-bulma"
+                      fill="none"
+                      height="1em"
+                      viewBox="0 0 32 32"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
                     >
-                      <div
-                        class="p-4 border-b-2 border-beerus"
-                      >
-                        <h3
-                          class="text-moon-18 text-bulma font-medium text-center"
-                          data-headlessui-state="open"
-                          id="headlessui-dialog-title-:rh:"
-                        >
-                          Forgot password?
-                        </h3>
-                      </div>
-                    </div>
-                  </div>
-                  <p
-                    class="p-2 text-trunks"
-                  >
-                    If you change your password, you will be unable to withdraw for 48 hours due to security reasons.
-                  </p>
-                  <div
-                    class="p-2"
-                  >
-                    <div
-                      class="w-full max-w-full relative z-0 rounded-moon-i-xs"
-                    >
-                      <label
-                        class="block text-bulma pb-2 text-moon-16"
-                      >
-                        Username or email
-                      </label>
-                      <input
-                        class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                        placeholder=""
-                        type="email"
+                      <path
+                        d="M6.5 11L13.8221 15.7529C15.1467 16.6128 16.8532 16.6128 18.1779 15.7529L25.5 11M6.5 11L6.5 21C6.5 22.1046 7.39543 23 8.5 23L23.5 23C24.6046 23 25.5 22.1046 25.5 21V11M6.5 11C6.5 9.89546 7.39543 9.00002 8.5 9.00001L23.5 9C24.6046 9 25.5 9.89546 25.5 11"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
                       />
-                    </div>
-                  </div>
-                  <div
-                    class="p-2"
-                  >
-                    <button
-                      class="px-4 h-12 py-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-tertiary w-full"
-                      type="button"
-                    >
-                      Send
-                      <span
-                        aria-hidden="true"
-                        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-                      />
-                    </button>
+                    </svg>
                     <div
-                      class="p-2 mt-4 rounded-lg bg-goku"
+                      class="px-2"
                     >
-                      <h3
-                        class="p-2 text-moon-18 font-medium border-b-2 text-bulma border-beerus"
+                      <p
+                        class="font-medium text-bulma"
                       >
-                        Need some help?
-                      </h3>
-                      <div
-                        class="flex mt-2"
+                        Email us
+                      </p>
+                      <p
+                        class="text-moon-12 text-trunks"
                       >
-                        <svg
-                          class="text-moon-48 text-bulma"
-                          fill="none"
-                          height="1em"
-                          viewBox="0 0 32 32"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M6.5 11L13.8221 15.7529C15.1467 16.6128 16.8532 16.6128 18.1779 15.7529L25.5 11M6.5 11L6.5 21C6.5 22.1046 7.39543 23 8.5 23L23.5 23C24.6046 23 25.5 22.1046 25.5 21V11M6.5 11C6.5 9.89546 7.39543 9.00002 8.5 9.00001L23.5 9C24.6046 9 25.5 9.89546 25.5 11"
-                            stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          />
-                        </svg>
-                        <div
-                          class="px-2"
-                        >
-                          <p
-                            class="font-medium text-bulma"
-                          >
-                            Email us
-                          </p>
-                          <p
-                            class="text-moon-12 text-trunks"
-                          >
-                            Contact us via email
-                          </p>
-                        </div>
-                      </div>
+                        Contact us via email
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -1076,473 +1032,455 @@ Object {
         />
         <div>
           <div
-            aria-labelledby="headlessui-dialog-title-:ra:"
+            aria-labelledby="headlessui-dialog-title-:r8:"
             aria-modal="true"
-            class="relative z-10"
+            class="fixed inset-0 z-50"
             data-headlessui-state="open"
-            id="headlessui-dialog-:r7:"
+            id="headlessui-dialog-:r6:"
             role="dialog"
           >
             <div
-              class="fixed inset-0 bg-black/[0.56]"
+              aria-hidden="true"
+              class="fixed -z-1 inset-0 bg-zeno ease-out duration-300 transition-opacity opacity-0"
             />
             <div
-              class="fixed inset-0"
+              class="absolute flex flex-col inset-x-0 bottom-0 rounded-t-moon-i-md bg-gohan p-2 shadow-moon-lg transition-all h-[77%] ease-out duration-300 transition-transform translate-y-full"
+              data-headlessui-state="open"
+              id="headlessui-dialog-panel-:r7:"
             >
               <div
-                class="absolute inset-x-0 bottom-0 rounded-t-xl bg-gohan translate-y-full shadow-moon-lg duration-200 transition-all h-[77%]"
-                data-headlessui-state="open"
-                id="headlessui-dialog-panel-:r8:"
+                class="relative flex items-center justify-center pb-2 after:absolute after:-top-1 after:left-1/2 after:rounded-full after:-translate-x-1/2 after:w-10 after:h-1 after:bg-beerus [&_.bottomsheet-title]:pt-2"
+              >
+                <p
+                  class="bottomsheet-title text-moon-16 text-bulma font-medium text-center"
+                  data-headlessui-state="open"
+                  id="headlessui-dialog-title-:r8:"
+                >
+                  I am gonna show you some data whether you like it or not!
+                </p>
+              </div>
+              <div
+                class="p-2"
               >
                 <div
-                  class="h-full overflow-y-auto"
+                  class="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
+                  role="table"
                 >
                   <div
-                    class="sticky inset-x-0 top-0 flex flex-col items-center justify-start pt-2 min-h-[48px] z-10 bg-gohan rounded-t-xl"
+                    class="flex flex-col sticky top-0 z-[99]"
                   >
                     <div
-                      class="w-10 h-1 rounded bg-beerus"
-                    />
-                    <div
-                      class="w-full"
+                      class="flex rounded-moon-s-sm sticky"
+                      role="row"
+                      style="display: flex; flex: 1 0 auto; min-width: 0px;"
                     >
                       <div
-                        class="p-4 border-b-2 border-beerus"
+                        class="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
+                        colspan="1"
+                        role="columnheader"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
                       >
-                        <h3
-                          class="text-moon-18 text-bulma font-medium text-center"
-                          data-headlessui-state="open"
-                          id="headlessui-dialog-title-:ra:"
-                        >
-                          I am gonna show you some data whether you like it or not!
-                        </h3>
+                        First Name
+                        <div
+                          class="inline-block w-px h-full absolute top-0 right-0 z-1 after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%] after:right-0 "
+                          draggable="false"
+                          role="separator"
+                          style="cursor: col-resize;"
+                        />
+                      </div>
+                      <div
+                        class="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
+                        colspan="1"
+                        role="columnheader"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
+                      >
+                        Last Name
+                        <div
+                          class="inline-block w-px h-full absolute top-0 right-0 z-1 after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%] after:right-0 "
+                          draggable="false"
+                          role="separator"
+                          style="cursor: col-resize;"
+                        />
+                      </div>
+                      <div
+                        class="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
+                        colspan="1"
+                        role="columnheader"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
+                      >
+                        Age
+                        <div
+                          class="inline-block w-px h-full absolute top-0 right-0 z-1 after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%] after:right-0 "
+                          draggable="false"
+                          role="separator"
+                          style="cursor: col-resize;"
+                        />
+                      </div>
+                      <div
+                        class="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
+                        colspan="1"
+                        role="columnheader"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
+                      >
+                        Money
+                        <div
+                          class="inline-block w-px h-full absolute top-0 right-0 z-1 after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%] after:right-0 "
+                          draggable="false"
+                          role="separator"
+                          style="cursor: col-resize;"
+                        />
+                      </div>
+                      <div
+                        class="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
+                        colspan="1"
+                        role="columnheader"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
+                      >
+                        Activity
+                        <div
+                          class="inline-block w-px h-full absolute top-0 right-0 z-1 after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%] after:right-0 "
+                          draggable="false"
+                          role="separator"
+                          style="cursor: col-resize;"
+                        />
+                      </div>
+                      <div
+                        class="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
+                        colspan="1"
+                        role="columnheader"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
+                      >
+                        Status
+                        <div
+                          class="inline-block w-px h-full absolute top-0 right-0 z-1 after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%] after:right-0 "
+                          draggable="false"
+                          role="separator"
+                          style="cursor: col-resize;"
+                        />
                       </div>
                     </div>
-                  </div>
-                  <div
-                    class="p-2"
-                  >
                     <div
-                      class="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
-                      role="table"
+                      role="row"
+                      style="display: flex; flex: 1 0 auto; min-width: 0px;"
                     >
                       <div
-                        class="flex flex-col sticky top-0 z-[99]"
-                      >
-                        <div
-                          class="flex rounded-moon-s-sm sticky"
-                          role="row"
-                          style="display: flex; flex: 1 0 auto; min-width: 0px;"
-                        >
-                          <div
-                            class="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
-                            colspan="1"
-                            role="columnheader"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
-                          >
-                            First Name
-                            <div
-                              class="inline-block w-px h-full absolute top-0 right-0 z-1 after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%] after:right-0 "
-                              draggable="false"
-                              role="separator"
-                              style="cursor: col-resize;"
-                            />
-                          </div>
-                          <div
-                            class="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
-                            colspan="1"
-                            role="columnheader"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
-                          >
-                            Last Name
-                            <div
-                              class="inline-block w-px h-full absolute top-0 right-0 z-1 after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%] after:right-0 "
-                              draggable="false"
-                              role="separator"
-                              style="cursor: col-resize;"
-                            />
-                          </div>
-                          <div
-                            class="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
-                            colspan="1"
-                            role="columnheader"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
-                          >
-                            Age
-                            <div
-                              class="inline-block w-px h-full absolute top-0 right-0 z-1 after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%] after:right-0 "
-                              draggable="false"
-                              role="separator"
-                              style="cursor: col-resize;"
-                            />
-                          </div>
-                          <div
-                            class="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
-                            colspan="1"
-                            role="columnheader"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
-                          >
-                            Money
-                            <div
-                              class="inline-block w-px h-full absolute top-0 right-0 z-1 after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%] after:right-0 "
-                              draggable="false"
-                              role="separator"
-                              style="cursor: col-resize;"
-                            />
-                          </div>
-                          <div
-                            class="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
-                            colspan="1"
-                            role="columnheader"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
-                          >
-                            Activity
-                            <div
-                              class="inline-block w-px h-full absolute top-0 right-0 z-1 after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%] after:right-0 "
-                              draggable="false"
-                              role="separator"
-                              style="cursor: col-resize;"
-                            />
-                          </div>
-                          <div
-                            class="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
-                            colspan="1"
-                            role="columnheader"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
-                          >
-                            Status
-                            <div
-                              class="inline-block w-px h-full absolute top-0 right-0 z-1 after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%] after:right-0 "
-                              draggable="false"
-                              role="separator"
-                              style="cursor: col-resize;"
-                            />
-                          </div>
-                        </div>
-                        <div
-                          role="row"
-                          style="display: flex; flex: 1 0 auto; min-width: 0px;"
-                        >
-                          <div
-                            class="relative"
-                            colspan="1"
-                            role="columnheader"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
-                          />
-                          <div
-                            class="relative"
-                            colspan="1"
-                            role="columnheader"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
-                          />
-                          <div
-                            class="relative"
-                            colspan="1"
-                            role="columnheader"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
-                          />
-                          <div
-                            class="relative"
-                            colspan="1"
-                            role="columnheader"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
-                          />
-                          <div
-                            class="relative"
-                            colspan="1"
-                            role="columnheader"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
-                          />
-                          <div
-                            class="relative"
-                            colspan="1"
-                            role="columnheader"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
-                          />
-                        </div>
-                      </div>
-                      <div
-                        class="flex flex-col relative z-0 no-scrollbar gap-1"
-                        role="rowgroup"
-                      >
-                        <div
-                          class="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan border-gohan"
-                          role="row"
-                          style="display: flex; flex: 1 0 auto; min-width: 0px;"
-                        >
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            Milton
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            Friedman
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            <span>
-                              0
-                            </span>
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            <span>
-                              0
-                            </span>
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            0
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            0
-                          </div>
-                        </div>
-                        <div
-                          class="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan border-gohan"
-                          role="row"
-                          style="display: flex; flex: 1 0 auto; min-width: 0px;"
-                        >
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            Thomas
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            Sowell
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            <span>
-                              22
-                            </span>
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            <span>
-                              10000
-                            </span>
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            100
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            100
-                          </div>
-                        </div>
-                        <div
-                          class="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan border-gohan"
-                          role="row"
-                          style="display: flex; flex: 1 0 auto; min-width: 0px;"
-                        >
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            Milton
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            Friedman
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            <span>
-                              44
-                            </span>
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            <span>
-                              20000
-                            </span>
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            200
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            200
-                          </div>
-                        </div>
-                        <div
-                          class="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan border-gohan"
-                          role="row"
-                          style="display: flex; flex: 1 0 auto; min-width: 0px;"
-                        >
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            Thomas
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            Sowell
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            <span>
-                              66
-                            </span>
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            <span>
-                              30000
-                            </span>
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            300
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            300
-                          </div>
-                        </div>
-                        <div
-                          class="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan border-gohan"
-                          role="row"
-                          style="display: flex; flex: 1 0 auto; min-width: 0px;"
-                        >
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            Milton
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            Friedman
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            <span>
-                              88
-                            </span>
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            <span>
-                              40000
-                            </span>
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            400
-                          </div>
-                          <div
-                            class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan border-gohan"
-                            role="cell"
-                            style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
-                          >
-                            400
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="p-2"
-                  >
-                    <button
-                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma w-full"
-                      type="button"
-                    >
-                      I don't wanna see this
-                      <span
-                        aria-hidden="true"
-                        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                        class="relative"
+                        colspan="1"
+                        role="columnheader"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
                       />
-                    </button>
+                      <div
+                        class="relative"
+                        colspan="1"
+                        role="columnheader"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
+                      />
+                      <div
+                        class="relative"
+                        colspan="1"
+                        role="columnheader"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
+                      />
+                      <div
+                        class="relative"
+                        colspan="1"
+                        role="columnheader"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
+                      />
+                      <div
+                        class="relative"
+                        colspan="1"
+                        role="columnheader"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
+                      />
+                      <div
+                        class="relative"
+                        colspan="1"
+                        role="columnheader"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px; position: relative;"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="flex flex-col relative z-0 no-scrollbar gap-1"
+                    role="rowgroup"
+                  >
+                    <div
+                      class="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan border-gohan"
+                      role="row"
+                      style="display: flex; flex: 1 0 auto; min-width: 0px;"
+                    >
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        Milton
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        Friedman
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        <span>
+                          0
+                        </span>
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        <span>
+                          0
+                        </span>
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        0
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        0
+                      </div>
+                    </div>
+                    <div
+                      class="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan border-gohan"
+                      role="row"
+                      style="display: flex; flex: 1 0 auto; min-width: 0px;"
+                    >
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        Thomas
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        Sowell
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        <span>
+                          22
+                        </span>
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        <span>
+                          10000
+                        </span>
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        100
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        100
+                      </div>
+                    </div>
+                    <div
+                      class="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan border-gohan"
+                      role="row"
+                      style="display: flex; flex: 1 0 auto; min-width: 0px;"
+                    >
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        Milton
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        Friedman
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        <span>
+                          44
+                        </span>
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        <span>
+                          20000
+                        </span>
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        200
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        200
+                      </div>
+                    </div>
+                    <div
+                      class="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan border-gohan"
+                      role="row"
+                      style="display: flex; flex: 1 0 auto; min-width: 0px;"
+                    >
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        Thomas
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        Sowell
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        <span>
+                          66
+                        </span>
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        <span>
+                          30000
+                        </span>
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        300
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        300
+                      </div>
+                    </div>
+                    <div
+                      class="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan border-gohan"
+                      role="row"
+                      style="display: flex; flex: 1 0 auto; min-width: 0px;"
+                    >
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        Milton
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        Friedman
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        <span>
+                          88
+                        </span>
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        <span>
+                          40000
+                        </span>
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        400
+                      </div>
+                      <div
+                        class="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan border-gohan"
+                        role="cell"
+                        style="box-sizing: border-box; flex: 150 0 auto; min-width: 0px; width: 150px;"
+                      >
+                        400
+                      </div>
+                    </div>
                   </div>
                 </div>
+              </div>
+              <div
+                class="p-2"
+              >
+                <button
+                  class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma w-full"
+                  type="button"
+                >
+                  I don't wanna see this
+                  <span
+                    aria-hidden="true"
+                    class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                  />
+                </button>
               </div>
             </div>
           </div>
@@ -1681,49 +1619,41 @@ Object {
           <div
             aria-labelledby="headlessui-dialog-title-:r2:"
             aria-modal="true"
-            class="relative z-10"
+            class="fixed inset-0 z-50"
             data-headlessui-state="open"
             id="headlessui-dialog-:r0:"
             role="dialog"
           >
             <div
-              class="fixed inset-0"
+              class="absolute flex flex-col inset-x-0 bottom-0 rounded-t-moon-i-md bg-gohan p-2 h-1/3 transition-all ease-out duration-300 transition-transform translate-y-full"
+              data-headlessui-state="open"
+              id="headlessui-dialog-panel-:r1:"
             >
-              <div
-                class="absolute inset-x-0 bottom-0 rounded-t-xl bg-gohan translate-y-full h-[64%] overflow-y-auto duration-200 transition-all"
+              <p
+                class="bottomsheet-title text-moon-16 text-bulma font-medium text-center"
                 data-headlessui-state="open"
-                id="headlessui-dialog-panel-:r1:"
+                id="headlessui-dialog-title-:r2:"
               >
-                <div
-                  class="p-4 border-b-2 border-beerus"
+                Do you wear skinny jeans?
+              </p>
+              <p
+                class="p-4 text-trunks"
+              >
+                I'm baby vaporware flexitarian scenester lyft activated charcoal tacos. Hashtag etsy literally irony yr 3 wolf moon PBR&B cred banjo lyft air plant edison bulb. Salvia next level pitchfork single-origin coffee adaptogen. Neutra tilde sartorial Brooklyn shaman schlitz. Roof party irony tattooed bicycle rights. Ethical you probably haven't heard of them literally bespoke PBR&B. Tattooed artisan twee, kinfolk kale chips taxidermy austin kitsch williamsburg tousled ugh.
+              </p>
+              <div
+                class="p-4"
+              >
+                <button
+                  class="px-4 h-12 py-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary w-full"
+                  type="button"
                 >
-                  <h3
-                    class="text-moon-18 text-bulma font-medium"
-                    data-headlessui-state="open"
-                    id="headlessui-dialog-title-:r2:"
-                  >
-                    Do you wear skinny jeans?
-                  </h3>
-                </div>
-                <p
-                  class="p-4 text-trunks"
-                >
-                  I'm baby vaporware flexitarian scenester lyft activated charcoal tacos. Hashtag etsy literally irony yr 3 wolf moon PBR&B cred banjo lyft air plant edison bulb. Salvia next level pitchfork single-origin coffee adaptogen. Neutra tilde sartorial Brooklyn shaman schlitz. Roof party irony tattooed bicycle rights. Ethical you probably haven't heard of them literally bespoke PBR&B. Tattooed artisan twee, kinfolk kale chips taxidermy austin kitsch williamsburg tousled ugh.
-                </p>
-                <div
-                  class="p-4"
-                >
-                  <button
-                    class="px-4 h-12 py-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary w-full"
-                    type="button"
-                  >
-                    I'm honestly done
-                    <span
-                      aria-hidden="true"
-                      class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-                    />
-                  </button>
-                </div>
+                  I'm honestly done
+                  <span
+                    aria-hidden="true"
+                    class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                  />
+                </button>
               </div>
             </div>
           </div>
@@ -1829,126 +1759,108 @@ Object {
         />
         <div>
           <div
-            aria-labelledby="headlessui-dialog-title-:r6:"
+            aria-labelledby="headlessui-dialog-title-:r5:"
             aria-modal="true"
-            class="relative z-10"
+            class="fixed inset-0 z-50"
             data-headlessui-state="open"
             id="headlessui-dialog-:r3:"
             role="dialog"
           >
             <div
-              class="fixed inset-0 bg-black/[0.56]"
+              aria-hidden="true"
+              class="fixed -z-1 inset-0 bg-zeno ease-out duration-300 transition-opacity opacity-0"
             />
             <div
-              class="fixed inset-0"
+              class="absolute flex flex-col inset-x-0 bottom-0 rounded-t-moon-i-md bg-gohan p-2 h-[88%] shadow-moon-lg transition-all ease-out duration-300 transition-transform translate-y-full"
+              data-headlessui-state="open"
+              id="headlessui-dialog-panel-:r4:"
             >
               <div
-                class="absolute inset-x-0 bottom-0 rounded-t-xl bg-gohan translate-y-full h-[88%] shadow-moon-lg duration-200 transition-all"
-                data-headlessui-state="open"
-                id="headlessui-dialog-panel-:r4:"
+                class="relative flex items-center justify-center pb-2 after:absolute after:-top-1 after:left-1/2 after:rounded-full after:-translate-x-1/2 after:w-10 after:h-1 after:bg-beerus [&_.bottomsheet-title]:pt-2"
+              >
+                <p
+                  class="bottomsheet-title text-moon-16 text-bulma font-medium text-center"
+                  data-headlessui-state="open"
+                  id="headlessui-dialog-title-:r5:"
+                >
+                  Forgot password?
+                </p>
+              </div>
+              <p
+                class="p-2 text-trunks"
+              >
+                If you change your password, you will be unable to withdraw for 48 hours due to security reasons.
+              </p>
+              <div
+                class="p-2"
               >
                 <div
-                  class="h-full overflow-y-auto"
+                  class="w-full max-w-full relative z-0 rounded-moon-i-xs"
                 >
+                  <label
+                    class="block text-bulma pb-2 text-moon-16"
+                  >
+                    Username or email
+                  </label>
+                  <input
+                    class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+                    placeholder=""
+                    type="email"
+                  />
+                </div>
+              </div>
+              <div
+                class="p-2"
+              >
+                <button
+                  class="px-4 h-12 py-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-tertiary w-full"
+                  type="button"
+                >
+                  Send
+                  <span
+                    aria-hidden="true"
+                    class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                  />
+                </button>
+                <div
+                  class="p-2 mt-4 rounded-lg bg-goku"
+                >
+                  <h3
+                    class="p-2 text-moon-18 font-medium border-b-2 text-bulma border-beerus"
+                  >
+                    Need some help?
+                  </h3>
                   <div
-                    class="sticky inset-x-0 top-0 flex flex-col items-center justify-start pt-2 min-h-[48px] z-10 bg-gohan rounded-t-xl"
+                    class="flex mt-2"
                   >
-                    <div
-                      class="w-10 h-1 rounded bg-beerus"
-                    />
-                    <div
-                      class="w-full"
+                    <svg
+                      class="text-moon-48 text-bulma"
+                      fill="none"
+                      height="1em"
+                      viewBox="0 0 32 32"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
                     >
-                      <div
-                        class="p-4 border-b-2 border-beerus"
-                      >
-                        <h3
-                          class="text-moon-18 text-bulma font-medium text-center"
-                          data-headlessui-state="open"
-                          id="headlessui-dialog-title-:r6:"
-                        >
-                          Forgot password?
-                        </h3>
-                      </div>
-                    </div>
-                  </div>
-                  <p
-                    class="p-2 text-trunks"
-                  >
-                    If you change your password, you will be unable to withdraw for 48 hours due to security reasons.
-                  </p>
-                  <div
-                    class="p-2"
-                  >
-                    <div
-                      class="w-full max-w-full relative z-0 rounded-moon-i-xs"
-                    >
-                      <label
-                        class="block text-bulma pb-2 text-moon-16"
-                      >
-                        Username or email
-                      </label>
-                      <input
-                        class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-                        placeholder=""
-                        type="email"
+                      <path
+                        d="M6.5 11L13.8221 15.7529C15.1467 16.6128 16.8532 16.6128 18.1779 15.7529L25.5 11M6.5 11L6.5 21C6.5 22.1046 7.39543 23 8.5 23L23.5 23C24.6046 23 25.5 22.1046 25.5 21V11M6.5 11C6.5 9.89546 7.39543 9.00002 8.5 9.00001L23.5 9C24.6046 9 25.5 9.89546 25.5 11"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
                       />
-                    </div>
-                  </div>
-                  <div
-                    class="p-2"
-                  >
-                    <button
-                      class="px-4 h-12 py-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-tertiary w-full"
-                      type="button"
-                    >
-                      Send
-                      <span
-                        aria-hidden="true"
-                        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-                      />
-                    </button>
+                    </svg>
                     <div
-                      class="p-2 mt-4 rounded-lg bg-goku"
+                      class="px-2"
                     >
-                      <h3
-                        class="p-2 text-moon-18 font-medium border-b-2 text-bulma border-beerus"
+                      <p
+                        class="font-medium text-bulma"
                       >
-                        Need some help?
-                      </h3>
-                      <div
-                        class="flex mt-2"
+                        Email us
+                      </p>
+                      <p
+                        class="text-moon-12 text-trunks"
                       >
-                        <svg
-                          class="text-moon-48 text-bulma"
-                          fill="none"
-                          height="1em"
-                          viewBox="0 0 32 32"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M6.5 11L13.8221 15.7529C15.1467 16.6128 16.8532 16.6128 18.1779 15.7529L25.5 11M6.5 11L6.5 21C6.5 22.1046 7.39543 23 8.5 23L23.5 23C24.6046 23 25.5 22.1046 25.5 21V11M6.5 11C6.5 9.89546 7.39543 9.00002 8.5 9.00001L23.5 9C24.6046 9 25.5 9.89546 25.5 11"
-                            stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          />
-                        </svg>
-                        <div
-                          class="px-2"
-                        >
-                          <p
-                            class="font-medium text-bulma"
-                          >
-                            Email us
-                          </p>
-                          <p
-                            class="text-moon-12 text-trunks"
-                          >
-                            Contact us via email
-                          </p>
-                        </div>
-                      </div>
+                        Contact us via email
+                      </p>
                     </div>
                   </div>
                 </div>
