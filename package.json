@@ -6,6 +6,7 @@
     "watch:legacy": "pnpm --filter \"./packages/**\" --parallel -r run chokidar",
     "watch:tailwind": "pnpm --filter \"./workspaces/**\" --parallel -r run chokidar",
     "watch:core": "pnpm --filter \"./workspaces/core/**\" --parallel -r run chokidar",
+    "docs": "pnpm run --filter \"docs\"",
     "next": "pnpm run --filter \"next-docs\"",
     "build": "pnpm run build:legacy && pnpm run build:tailwind",
     "build:legacy": "pnpm --filter \"./packages/**\" -r run build",
