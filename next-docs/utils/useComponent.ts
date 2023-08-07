@@ -15,8 +15,10 @@ const useComponent = (componentName: ComponentNames): Props => {
     `/api/examples?component=${encodeURIComponent(componentName)}`,
     fetcher
   );
-  const examples = data?.examples;
-  return { examples, name, text, image };
+  if (!(data && data.examples)) {
+    return { examples: 'Loading...', name, text, image };
+  }
+  return { examples: data.examples, name, text, image };
 };
 
 export default useComponent;
