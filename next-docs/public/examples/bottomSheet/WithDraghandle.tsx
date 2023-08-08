@@ -12,10 +12,11 @@ const Example = () => {
   return (
     <>
       <Button variant="secondary" onClick={openBottomSheet}>
-        Default BottomSheet
+        BottomSheet with Draghandle
       </Button>
       <BottomSheet open={isOpen} onClose={closeBottomSheet}>
         <BottomSheet.Panel>
+          <BottomSheet.Draghandle />
           <div className="flex grow items-center justify-center bg-jiren text-piccolo">
             BottomSheet content
           </div>
