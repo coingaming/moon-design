@@ -11,26 +11,16 @@ const Example = () => {
   };
   return (
     <>
-      <Button onClick={openBottomSheet}>My mind is ready</Button>
+      <Button variant="secondary" onClick={openBottomSheet}>
+        Default BottomSheet
+      </Button>
       <BottomSheet open={isOpen} onClose={closeBottomSheet}>
         <BottomSheet.Panel>
-          <BottomSheet.Title>Do you wear skinny jeans?</BottomSheet.Title>
-          <p className="p-4 text-trunks">
-            I'm baby vaporware flexitarian scenester lyft activated charcoal
-            tacos. Hashtag etsy literally irony yr 3 wolf moon PBR&B cred banjo
-            lyft air plant edison bulb. Salvia next level pitchfork
-            single-origin coffee adaptogen. Neutra tilde sartorial Brooklyn
-            shaman schlitz. Roof party irony tattooed bicycle rights. Ethical
-            you probably haven't heard of them literally bespoke PBR&B. Tattooed
-            artisan twee, kinfolk kale chips taxidermy austin kitsch
-            williamsburg tousled ugh.
-          </p>
-          <div className="p-4">
-            <Button onClick={closeBottomSheet} size="lg" fullWidth>
-              I'm honestly done
-            </Button>
+          <div className="flex grow items-center justify-center bg-jiren text-piccolo">
+            BottomSheet content
           </div>
         </BottomSheet.Panel>
+        <BottomSheet.Backdrop />
       </BottomSheet>
     </>
   );

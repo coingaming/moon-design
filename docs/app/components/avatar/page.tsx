@@ -1,5 +1,5 @@
-import { Default } from "@/app/components/avatar/examples/Default";
 import { Active } from "@/app/components/avatar/examples/Active";
+import { Default } from "@/app/components/avatar/examples/Default";
 import { getSourceCode } from "@/app/utils/getSourceCode";
 
 export default async function Home() {
