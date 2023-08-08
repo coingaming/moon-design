@@ -24,12 +24,6 @@ const Contributors = () => (
           imageSrc={imageEgertTamm}
         />
         <CardContributor
-          variant="tiny"
-          name="Dima Nikolaenko"
-          title="Lead Product Designer"
-          imageSrc={imageDimaNikolaenko}
-        />
-        <CardContributor
           variant="tall"
           name="Pavel Navolochko"
           title="Head of Design"
@@ -47,16 +41,22 @@ const Contributors = () => (
           imageSrc={imageDmytroKireiev}
         />
         <CardContributor
-          variant="tiny"
-          name="Mikita Lisavets"
-          title="Developer"
-          imageSrc={imageMikitaLisavets}
-        />
-        <CardContributor
           variant="tall"
           name="Yuliana Yarema"
           title="Developer"
           imageSrc={imageYulianaYarema}
+        />
+        <CardContributor
+          variant="tiny"
+          name="Dima Nikolaenko"
+          title="Lead Product Designer"
+          imageSrc={imageDimaNikolaenko}
+        />
+        <CardContributor
+          variant="tiny"
+          name="Mikita Lisavets"
+          title="Developer"
+          imageSrc={imageMikitaLisavets}
         />
       </Carousel.Reel>
     </Carousel>

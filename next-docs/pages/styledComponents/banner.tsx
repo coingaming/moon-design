@@ -7,10 +7,10 @@ import Default from '../../public/styledExamples/banner/Default';
 import HeaderIcon from '../../public/styledExamples/banner/HeaderIcon';
 import Mobile from '../../public/styledExamples/banner/Mobile';
 import Singleline from '../../public/styledExamples/banner/Singleline';
-import useExamples from '../../utils/useExamples';
+import useStyledExamples from '../../utils/useStyledExamples';
 
 const PageBanner = () => {
-  const examples = useExamples('banner', 'styled');
+  const examples = useStyledExamples('banner');
   return (
     <>
       <ComponentPageDescription title="Banner" isDeprecated>

@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import { ReactNode } from 'react';
 import '../styles/globals.css';
 import '../styles/themes.css';
 import 'prismjs/themes/prism-okaidia.css';
@@ -26,7 +26,6 @@ function MyApp({ Component, pageProps }: MyAppProps) {
   return (
     <>
       <Head>
-        <title>Moon Design System</title>
         <meta name="description" content="Moon Design System" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link

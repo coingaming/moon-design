@@ -6,6 +6,7 @@
     "watch:legacy": "pnpm --filter \"./packages/**\" --parallel -r run chokidar",
     "watch:tailwind": "pnpm --filter \"./workspaces/**\" --parallel -r run chokidar",
     "watch:core": "pnpm --filter \"./workspaces/core/**\" --parallel -r run chokidar",
+    "docs": "pnpm run --filter \"docs\"",
     "next": "pnpm run --filter \"next-docs\"",
     "build": "pnpm run build:legacy && pnpm run build:tailwind",
     "build:legacy": "pnpm --filter \"./packages/**\" -r run build",
@@ -95,10 +96,10 @@
     "rimraf": "3.0.0",
     "styled-components": "5.3.5",
     "typescript": "5.1.3",
-    "typescript-plugin-css-modules": "3.4.0"
+    "typescript-plugin-css-modules": "5.0.1"
   },
   "resolutions": {
-    "@headlessui/react": "1.7.15",
+    "@headlessui/react": "1.7.16",
     "@radix-ui/react-collection": "1.0.2",
     "@radix-ui/react-dismissable-layer": "1.0.2",
     "@radix-ui/react-portal": "1.0.1",

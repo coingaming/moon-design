@@ -4,11 +4,10 @@ import ComponentPageDescription from '../../../components/ComponentPageDescripti
 import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
 import Default from '../../../public/styledExamples/progress/linear/Default';
-import useExamples from '../../../utils/useExamples';
+import useStyledExamples from '../../../utils/useStyledExamples';
 
 export default function PageProgressLinear() {
-  const examples = useExamples('progress/linear', 'styled');
-
+  const examples = useStyledExamples('progress/linear');
   return (
     <>
       <ComponentPageDescription title="Linear" isDeprecated>

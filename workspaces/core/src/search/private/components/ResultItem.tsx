@@ -1,37 +1,12 @@
-import React, {
-  AnchorHTMLAttributes,
-  ButtonHTMLAttributes,
-  DetailedHTMLProps,
-  ReactNode,
-  useContext,
-} from 'react';
+import React, { useContext } from 'react';
 import mergeClassnames from '../../../mergeClassnames/mergeClassnames';
-import {
-  OpenContext,
-  SelectContext,
-} from '../utils/context';
-
-export type ListItemType = 'Link' | 'Action';
+import { OpenContext, SelectContext } from '../utils/context';
+import type ButtonProps from '../types/ButtonProps';
+import type LinkProps from '../types/LinkProps';
 
 const commonClasses = 'moon-search-list-item w-full';
 
-interface ListItemBaseProps {
-  closeOnSelect?: boolean;
-  showType?: boolean;
-  disabled?: boolean;
-  keywords?: string[];
-  index: number;
-};
-
-export type LinkProps = ListItemBaseProps &
-  DetailedHTMLProps<
-    AnchorHTMLAttributes<HTMLAnchorElement>,
-    HTMLAnchorElement
-  > & {
-    children?: ReactNode | ((selected: boolean) => ReactNode);
-  };
-
-export function Link({
+export const Link = ({
   closeOnSelect = true,
   disabled = false,
   showType = true,
@@ -40,10 +15,9 @@ export function Link({
   onClick,
   index,
   ...rest
-}: LinkProps) {
+}: LinkProps) => {
   const { onChangeOpen } = useContext(OpenContext);
   const { selected } = useContext(SelectContext);
-
   function renderLinkContent() {
     return (
       <div>
@@ -53,7 +27,6 @@ export function Link({
       </div>
     );
   }
-
   function clickAndClose(e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) {
     if (rest.href && !disabled) {
       if (onClick) {
@@ -66,26 +39,20 @@ export function Link({
     }
   }
 
-  return <a
-    data-close-on-select={closeOnSelect}
-    aria-disabled={disabled}
-    onClick={clickAndClose}
-    className={mergeClassnames(commonClasses, className)}
-    {...rest}
-  >
-    {renderLinkContent()}
-  </a>
-}
+  return (
+    <a
+      data-close-on-select={closeOnSelect}
+      aria-disabled={disabled}
+      onClick={clickAndClose}
+      className={mergeClassnames(commonClasses, className)}
+      {...rest}
+    >
+      {renderLinkContent()}
+    </a>
+  );
+};
 
-export type ButtonProps = ListItemBaseProps &
-  DetailedHTMLProps<
-    ButtonHTMLAttributes<HTMLButtonElement>,
-    HTMLButtonElement
-  > & {
-    children?: ReactNode | ((selected: boolean) => ReactNode);
-  };
-
-export function Button({
+export const Button = ({
   closeOnSelect = true,
   showType = true,
   className,
@@ -93,7 +60,7 @@ export function Button({
   onClick,
   index,
   ...rest
-}: ButtonProps) {
+}: ButtonProps) => {
   const { selected } = useContext(SelectContext);
   const { onChangeOpen } = useContext(OpenContext);
 
@@ -118,10 +85,12 @@ export function Button({
       {typeof children === 'function' ? children(selected === index) : children}
     </button>
   );
-}
+};
 
-export default function ResultItem(props: ButtonProps & LinkProps) {
+const ResultItem = (props: ButtonProps & LinkProps) => {
   const Wrapper = props.href ? Link : Button;
 
   return <Wrapper {...props} />;
-}
+};
+
+export default ResultItem;

@@ -35,7 +35,7 @@ const Arrow = ({ className }: ArrowProps) => {
 };
 
 const Trigger = ({ className, children, ...rest }: TriggerComponentProps) => (
-  <RadixTooltip.Trigger className={className} {...rest}>
+  <RadixTooltip.Trigger asChild className={className} {...rest}>
     {children}
   </RadixTooltip.Trigger>
 );

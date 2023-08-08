@@ -2,11 +2,10 @@ import Preview from '../../components/codePreview/Preview';
 import Closed from '../../public/styledExamples/sidebar/Closed';
 import Default from '../../public/styledExamples/sidebar/Default';
 import Rtl from '../../public/styledExamples/sidebar/Rtl';
-import useExamples from '../../utils/useExamples';
+import useStyledExamples from '../../utils/useStyledExamples';
 
 export default function PageSidebar() {
-  const examples = useExamples('sidebar', 'styled');
-
+  const examples = useStyledExamples('sidebar');
   return (
     <>
       <section className="mt-8">

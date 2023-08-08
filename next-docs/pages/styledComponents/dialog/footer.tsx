@@ -6,10 +6,10 @@ import PropsTable from '../../../components/PropsTable';
 import ButtonMd from '../../../public/styledExamples/dialog/footer/ButtonMd';
 import ButtonSm from '../../../public/styledExamples/dialog/footer/ButtonSm';
 import Size from '../../../public/styledExamples/dialog/footer/Size';
-import useExamples from '../../../utils/useExamples';
+import useStyledExamples from '../../../utils/useStyledExamples';
 
 export default function PageDialogFooter() {
-  const examples = useExamples('dialog/footer', 'styled');
+  const examples = useStyledExamples('dialog/footer');
   return (
     <>
       <ComponentPageDescription title="Dialog Footer" isDeprecated>

@@ -11,10 +11,10 @@ import OptionsContent from '../../../public/styledExamples/select/multiReactSele
 import WithCounter from '../../../public/styledExamples/select/multiReactSelect/WithCounter';
 import WithLabel from '../../../public/styledExamples/select/multiReactSelect/WithLabel';
 import WithoutLabel from '../../../public/styledExamples/select/multiReactSelect/WithoutLabel';
-import useExamples from '../../../utils/useExamples';
+import useStyledExamples from '../../../utils/useStyledExamples';
 
 export default function PageSelect() {
-  const examples = useExamples('select/multiReactSelect', 'styled');
+  const examples = useStyledExamples('select/multiReactSelect');
   return (
     <>
       <ComponentPageDescription title="Multi Select" isDeprecated>

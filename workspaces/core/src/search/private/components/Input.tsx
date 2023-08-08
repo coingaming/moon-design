@@ -7,35 +7,31 @@ const Wrapper = ({
   children,
   className,
   ...props
-}: React.HTMLAttributes<HTMLDivElement>) => {
-  return (
-    <div
-      className={mergeClassnames(
-        'flex items-center space-x-1.5 pl-3 moon-search-input',
-        className
-      )}
-      {...props}
-    >
-      {children}
-    </div>
-  );
-};
+}: React.HTMLAttributes<HTMLDivElement>) => (
+  <div
+    className={mergeClassnames(
+      'flex items-center ps-3 gap-2 moon-search-input',
+      className
+    )}
+    {...props}
+  >
+    {children}
+  </div>
+);
 
 const Icon = ({
   children,
   className,
   ...props
-}: React.ComponentProps<typeof GenericSearch>) => {
-  return (
-    <GenericSearch
-      className={mergeClassnames(
-        'w-6 h-6 pointer-events-none text-bulma',
-        className
-      )}
-      {...props}
-    />
-  );
-};
+}: React.ComponentProps<typeof GenericSearch>) => (
+  <GenericSearch
+    className={mergeClassnames(
+      'w-6 h-6 pointer-events-none text-bulma',
+      className
+    )}
+    {...props}
+  />
+);
 
 const InnerInput = forwardRef(
   (
@@ -55,7 +51,8 @@ const InnerInput = forwardRef(
         ref={(ref || inputRef) as LegacyRef<HTMLInputElement>}
         spellCheck={false}
         className={mergeClassnames(
-          'moon-search-input py-2 px-0 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent placeholder-bulma text-bulma',
+          'moon-search-input py-2 px-0 border-0 w-full focus:outline-none focus:border-0',
+          'focus:ring-0 bg-transparent placeholder-bulma text-bulma',
           className
         )}
         onChange={(e) => {
@@ -96,7 +93,8 @@ export const ButtonClear = ({
       tabIndex={-1}
       type="button"
       className={mergeClassnames(
-        'cursor-pointer text-trunks text-moon-14 transition absolute right-4 top-1/2 transform -translate-y-1/2',
+        'cursor-pointer text-trunks text-moon-14 transition absolute ltr:right-4 rtl:left-4',
+        'top-1/2 transform -translate-y-1/2',
         className
       )}
       onClick={(e) => {

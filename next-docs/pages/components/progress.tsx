@@ -1,17 +1,20 @@
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Customisation from '../../public/examples/progress/Customisation';
 import Default from '../../public/examples/progress/Default';
 import Sizes from '../../public/examples/progress/Sizes';
 import Values from '../../public/examples/progress/Values';
 import WithPin from '../../public/examples/progress/WithPin';
-import useExamples from '../../utils/useExamples';
+import useComponent from '../../utils/useComponent';
+import type { ComponentNames } from '../../components/getComponent';
 
-const Example = () => {
-  const examples = useExamples('progress');
-  const { name, text, image } = getComponent('Progress');
+const COMPONENT_NAME: ComponentNames = 'Progress';
+
+const PageProgress = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
       <ComponentPageDescription
@@ -89,4 +92,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+PageProgress.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageProgress;

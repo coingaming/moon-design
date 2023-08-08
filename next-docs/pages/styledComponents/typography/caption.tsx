@@ -7,10 +7,10 @@ import FontWeight from '../../../public/styledExamples/caption/FontWeight';
 import SemanticTags from '../../../public/styledExamples/caption/SemanticTags';
 import Sizes from '../../../public/styledExamples/caption/Sizes';
 import TextAlign from '../../../public/styledExamples/caption/TextAlign';
-import useExamples from '../../../utils/useExamples';
+import useStyledExamples from '../../../utils/useStyledExamples';
 
 const PageCaption = () => {
-  const examples = useExamples('caption', 'styled');
+  const examples = useStyledExamples('caption');
   return (
     <>
       <ComponentPageDescription title="Caption" isDeprecated>

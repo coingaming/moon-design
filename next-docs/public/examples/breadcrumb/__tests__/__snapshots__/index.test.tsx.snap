@@ -367,7 +367,7 @@ Object {
                 </a>
               </span>
               <svg
-                class="text-moon-16"
+                class="text-moon-16 rtl:rotate-180"
                 fill="none"
                 height="1em"
                 viewBox="0 0 32 32"
@@ -424,7 +424,7 @@ Object {
               class="flex items-center gap-2 text-trunks"
             >
               <svg
-                class="text-moon-16"
+                class="text-moon-16 rtl:rotate-180"
                 fill="none"
                 height="1em"
                 viewBox="0 0 32 32"
@@ -452,7 +452,7 @@ Object {
               class="flex items-center gap-2 text-trunks"
             >
               <svg
-                class="text-moon-16"
+                class="text-moon-16 rtl:rotate-180"
                 fill="none"
                 height="1em"
                 viewBox="0 0 32 32"
@@ -515,7 +515,7 @@ Object {
               </a>
             </span>
             <svg
-              class="text-moon-16"
+              class="text-moon-16 rtl:rotate-180"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -572,7 +572,7 @@ Object {
             class="flex items-center gap-2 text-trunks"
           >
             <svg
-              class="text-moon-16"
+              class="text-moon-16 rtl:rotate-180"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -600,7 +600,7 @@ Object {
             class="flex items-center gap-2 text-trunks"
           >
             <svg
-              class="text-moon-16"
+              class="text-moon-16 rtl:rotate-180"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -1587,7 +1587,7 @@ Object {
               </a>
             </span>
             <svg
-              class="text-moon-16"
+              class="text-moon-16 rtl:rotate-180"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -1644,7 +1644,7 @@ Object {
             class="flex items-center gap-2 text-trunks"
           >
             <svg
-              class="text-moon-16"
+              class="text-moon-16 rtl:rotate-180"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -1672,7 +1672,7 @@ Object {
             class="flex items-center gap-2 text-trunks"
           >
             <svg
-              class="text-moon-16"
+              class="text-moon-16 rtl:rotate-180"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -1731,7 +1731,7 @@ Object {
             </a>
           </span>
           <svg
-            class="text-moon-16"
+            class="text-moon-16 rtl:rotate-180"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -1788,7 +1788,7 @@ Object {
           class="flex items-center gap-2 text-trunks"
         >
           <svg
-            class="text-moon-16"
+            class="text-moon-16 rtl:rotate-180"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -1816,7 +1816,7 @@ Object {
           class="flex items-center gap-2 text-trunks"
         >
           <svg
-            class="text-moon-16"
+            class="text-moon-16 rtl:rotate-180"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"

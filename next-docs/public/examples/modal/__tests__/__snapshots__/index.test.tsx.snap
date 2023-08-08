@@ -447,7 +447,7 @@ Object {
                   id="headlessui-dialog-panel-:rm:"
                 >
                   <span
-                    class="absolute top-5 right-5 cursor-pointer"
+                    class="absolute top-5 ltr:right-5 rtl:left-5 cursor-pointer"
                   >
                     <svg
                       class="text-moon-24"
@@ -671,7 +671,7 @@ Object {
                       Modal title
                     </h3>
                     <span
-                      class="absolute top-5 right-5 cursor-pointer"
+                      class="absolute top-5 ltr:right-5 rtl:left-5 cursor-pointer"
                     >
                       <svg
                         class="text-moon-24"
@@ -1382,7 +1382,7 @@ Object {
                   id="headlessui-dialog-panel-:r5:"
                 >
                   <span
-                    class="absolute top-5 right-5 cursor-pointer"
+                    class="absolute top-5 ltr:right-5 rtl:left-5 cursor-pointer"
                   >
                     <svg
                       class="text-moon-24"
@@ -1586,7 +1586,7 @@ Object {
                       Modal title
                     </h3>
                     <span
-                      class="absolute top-5 right-5 cursor-pointer"
+                      class="absolute top-5 ltr:right-5 rtl:left-5 cursor-pointer"
                     >
                       <svg
                         class="text-moon-24"

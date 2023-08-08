@@ -9,11 +9,10 @@ import ErrorStateCentered from '../../public/styledExamples/authCode/ErrorStateC
 import FourChars from '../../public/styledExamples/authCode/FourChars';
 import OnlyDigits from '../../public/styledExamples/authCode/OnlyDigits';
 import Stretch from '../../public/styledExamples/authCode/Stretch';
-import useExamples from '../../utils/useExamples';
+import useStyledExamples from '../../utils/useStyledExamples';
 
 const PageAuthCodeGroup = () => {
-  const examples = useExamples('authCode', 'styled');
-
+  const examples = useStyledExamples('authCode');
   return (
     <>
       <ComponentPageDescription title="AuthCode" isDeprecated>

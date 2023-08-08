@@ -11,10 +11,10 @@ import DateWithHint from '../../../public/styledExamples/textInput/date/DateWith
 import DateWithLabel from '../../../public/styledExamples/textInput/date/DateWithLabel';
 import DateWithLabelRtl from '../../../public/styledExamples/textInput/date/DateWithLabelRtl';
 import DateWithoutLabel from '../../../public/styledExamples/textInput/date/DateWithoutLabel';
-import useExamples from '../../../utils/useExamples';
+import useStyledExamples from '../../../utils/useStyledExamples';
 
 export default function PageDateInput() {
-  const examples = useExamples('textInput/date', 'styled');
+  const examples = useStyledExamples('textInput/date');
   return (
     <>
       <ComponentPageDescription title="Date" isDeprecated>

@@ -1,10 +1,5 @@
 import { MenuItem } from '@heathmont/moon-core-tw';
-import {
-  DevicesJoystick,
-  GenericLoyalty,
-  TravelAirplane,
-  TravelBill,
-} from '@heathmont/moon-icons-tw';
+import { OtherFrame } from '@heathmont/moon-icons-tw';
 import { useState } from 'react';
 
 const Example = () => {
@@ -14,7 +9,7 @@ const Example = () => {
     <div className="w-94 bg-gohan flex flex-col gap-3 rounded-moon-s-lg p-6">
       <MenuItem isActive={activeOpt}>
         <span className="bg-piccolo/20 rounded-lg w-10 h-10 flex justify-center items-center">
-          <TravelAirplane className="text-moon-24" color="#4E46B4" />
+          <OtherFrame className="text-moon-24" color="#4E46B4" />
         </span>
         <MenuItem.MultiTitle
           title="Job Board"
@@ -23,7 +18,7 @@ const Example = () => {
       </MenuItem>
       <MenuItem>
         <span className="bg-[#3448F01F]/20 rounded-lg w-10 h-10 flex justify-center items-center">
-          <TravelBill className="text-moon-24" color="#3448F0" />
+          <OtherFrame className="text-moon-24" color="#3448F0" />
         </span>
         <MenuItem.MultiTitle
           title="Freelance Projects"
@@ -33,7 +28,7 @@ const Example = () => {
       <hr className="w-80 border-px border-solid border-beerus left-6 top-40  self-stretch" />
       <MenuItem>
         <span className="bg-[#FFB3191F]/20 rounded-lg w-10 h-10 flex justify-center items-center">
-          <GenericLoyalty className="text-moon-24" color="#FFB319" />
+          <OtherFrame className="text-moon-24" color="#FFB319" />
         </span>
         <MenuItem.MultiTitle
           title="Want freelance design projects?"
@@ -42,7 +37,7 @@ const Example = () => {
       </MenuItem>
       <MenuItem>
         <span className="bg-[#FF4E641F]/20 rounded-lg w-10 h-10 flex justify-center items-center">
-          <DevicesJoystick className="text-moon-24" color="#FF4E64" />
+          <OtherFrame className="text-moon-24" color="#FF4E64" />
         </span>
         <MenuItem.MultiTitle
           title="Personalized your profile with video"

@@ -1,5 +1,17 @@
 # Change Log
 
+## 10.3.1
+
+### Patch Changes
+
+- Fix docs
+
+## 10.3.0
+
+### Minor Changes
+
+- Deploy 10.3.0
+
 ## 10.2.0
 
 ### Minor Changes

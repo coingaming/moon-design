@@ -1,12 +1,13 @@
 {
   "name": "@heathmont/moon-base-tw",
   "sideEffects": false,
-  "version": "10.2.0",
+  "version": "10.3.1",
   "files": [
     "lib"
   ],
+  "type": "module",
   "main": "lib/index.js",
-  "module": "lib/es/index.js",
+  "module": "lib/index.js",
   "typings": "lib/index.d.ts",
   "repository": "https://github.com/coingaming/moon-design",
   "author": "Yolo Group",
@@ -14,9 +15,7 @@
   "scripts": {
     "build": "pnpm run build:index && pnpm run build:code",
     "build:index": "barrelsby --config ../../.config/barrelsby/barrelsby.json --directory src",
-    "build:code": "pnpm run build:js:es && pnpm run build:js:commonjs",
-    "build:js:commonjs": "tsc --project tsconfig.cjs.json",
-    "build:js:es": "tsc --project tsconfig.esm.json",
+    "build:code": "tsc --project tsconfig.esm.json",
     "chokidar": "chokidar \"**/*.tsx\" \"**/*.ts\" -i \"lib/**/*.d.ts\" -c \"pnpm run build:code\" "
   },
   "dependencies": {
