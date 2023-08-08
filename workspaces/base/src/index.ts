@@ -4,10 +4,14 @@
 
 export { default as Accordion } from './accordion/Accordion';
 export * from './accordion/Accordion';
+export { default as Button } from './button/Button';
+export * from './button/Button';
 export { default as Checkbox } from './checkbox/Checkbox';
 export * from './checkbox/Checkbox';
 export { default as Input } from './input/Input';
 export * from './input/Input';
+export { default as Loader } from './loader/Loader';
+export * from './loader/Loader';
 export { default as mergeClassnames } from './mergeClassnames/mergeClassnames';
 export * from './mergeClassnames/mergeClassnames';
 export { default as NativeSelect } from './nativeSelect/NativeSelect';
