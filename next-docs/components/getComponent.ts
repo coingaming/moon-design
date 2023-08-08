@@ -9,6 +9,7 @@ const getComponent = (name: ComponentNames) => {
   const href = `/components/${camelCaseName}`;
   return {
     name: component?.name,
+    camelCaseName,
     text: component?.text as string,
     href,
     image,
