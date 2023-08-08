@@ -1,5 +1,19 @@
 # Change Log
 
+## 10.4.0
+
+### Minor Changes
+
+- Deploy 10.4.0
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@10.4.0
+  - @heathmont/moon-icons@10.4.0
+  - @heathmont/moon-themes@10.4.0
+  - @heathmont/moon-utils@10.4.0
+
 ## 10.3.2
 
 ### Patch Changes
