@@ -9,10 +9,10 @@ type Props = {
 };
 
 const useComponent = (componentName: ComponentNames): Props => {
-  const { name, text, image } = getComponent(componentName);
+  const { name, camelCaseName, text, image } = getComponent(componentName);
   const fetcher = (url: string) => fetch(url).then((res) => res.json());
   const { data } = useSWR(
-    `/api/examples?component=${encodeURIComponent(componentName)}`,
+    `/api/examples?component=${encodeURIComponent(camelCaseName)}`,
     fetcher
   );
   if (!(data && data.examples)) {
