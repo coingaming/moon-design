@@ -1,15 +1,15 @@
 import React, { useEffect, ReactNode } from 'react';
-import mergeClassnames from '../mergeClassnames/mergeClassnames';
-import GenericCheckAlternative from '../private/icons/GenericCheckAlternative';
-import useRegisterChild from '../private/utils/useRegisterChild';
-import MenuItemContext from './private/utils/MenuItemContext';
-import useMenuItemContext from './private/utils/useMenuItemContext';
 import type CheckboxRadioProps from './private/types/CheckboxRadioProps';
 import type MenuItemComponentProps from './private/types/MenuItemComponentProps';
 import type MenuItemPolymorphicProps from './private/types/MenuItemPolymorphicProps';
 import type MultiTitleProps from './private/types/MultiTitleProps';
+import MenuItemContext from './private/utils/MenuItemContext';
+import useMenuItemContext from './private/utils/useMenuItemContext';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
+import GenericCheckAlternative from '../private/icons/GenericCheckAlternative';
+import useRegisterChild from '../private/utils/useRegisterChild';
 
-const MenuItemRoot: MenuItemComponentProps = React.forwardRef(
+const MenuItemRoot = React.forwardRef(
   <C extends React.ElementType = 'button'>(
     {
       as,

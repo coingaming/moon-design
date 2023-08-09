@@ -1,7 +1,7 @@
 import React from 'react';
-import mergeClassnames from '../mergeClassnames/mergeClassnames';
-import getTabSize from './private/utils/getTabSize';
 import type Size from './private/types/Size';
+import getTabSize from './private/utils/getTabSize';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
 type TabsRootProps = {
   className?: string;
@@ -41,7 +41,7 @@ type TabComponentProps = <C extends React.ElementType = 'a'>(
   props: TabPolymorphicProps<C>
 ) => React.ReactElement | null;
 
-const Tab: TabComponentProps = React.forwardRef(
+const Tab = React.forwardRef(
   <C extends React.ElementType = 'a'>(
     {
       className,
@@ -81,7 +81,7 @@ const Tab: TabComponentProps = React.forwardRef(
   }
 );
 
-const Pill: TabComponentProps = React.forwardRef(
+const Pill = React.forwardRef(
   <C extends React.ElementType = 'a'>(
     {
       className,
