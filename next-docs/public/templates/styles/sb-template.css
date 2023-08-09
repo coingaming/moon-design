@@ -2397,7 +2397,7 @@ video {
   --opacity-moon: 0.6;
   /* fonts */
   --averta: 'Averta Std';
-  --sans: 'DM Sans';
+  --dm-sans: 'DM Sans';
 }
 
 :root.theme-sb-dark,
@@ -2528,7 +2528,7 @@ video {
   --opacity-moon: 0.6;
   /* fonts */
   --averta: 'Averta Std';
-  --sans: 'DM Sans';
+  --dm-sans: 'DM Sans';
 }
 
 :root.theme-betadda-dark,

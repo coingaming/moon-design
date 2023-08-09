@@ -70,7 +70,7 @@
 
   /* fonts */
   --averta: 'Averta Std';
-  --sans: 'DM Sans';
+  --dm-sans: 'DM Sans';
 }
 
 :root.theme-sb-dark,
@@ -158,7 +158,7 @@
 
   /* fonts */
   --averta: 'Averta Std';
-  --sans: 'DM Sans';
+  --dm-sans: 'DM Sans';
 }
 
 :root.theme-bitcasino-dark,
@@ -242,7 +242,7 @@
 
   /* fonts */
   --averta: 'Averta Std';
-  --sans: 'DM Sans';
+  --dm-sans: 'DM Sans';
 }
 
 :root.theme-betadda-dark,
@@ -326,7 +326,7 @@
 
   /* fonts */
   --averta: 'Averta Std';
-  --sans: 'DM Sans';
+  --dm-sans: 'DM Sans';
 }
 
 :root.theme-livecasino-dark,
