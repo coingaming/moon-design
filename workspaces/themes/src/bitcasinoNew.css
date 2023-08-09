@@ -69,6 +69,7 @@
   /* fonts */
   --averta: 'Averta Std';
   --fraunces: 'Fraunces', serif;
+  --dm-sans: 'DM Sans';
 
   /* box-shadow */
   --shadow-xs: 0 4px 12px -6px rgb(0 0 0 / 0.06);
@@ -150,6 +151,7 @@
   /* fonts */
   --averta: 'Averta Std';
   --fraunces: 'Fraunces', serif;
+  --dm-sans: 'DM Sans';
 
   /* box-shadow */
   --shadow-xs: 0 4px 12px -6px rgb(0 0 0 / 0.64);
