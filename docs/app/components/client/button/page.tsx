@@ -1,12 +1,16 @@
-import { Default } from "@/app/components/tag/examples/Default";
-import { getSourceCode } from "@/app/utils/getSourceCode";
+import { Default } from "@/app/components/client/button/examples/Default";
+import { getSourceCode, getExamples } from "@/app/utils/getSourceCode";
 
 export default async function Home() {
-  const defaultCode = await getSourceCode('./app/components/tag/examples/Default.tsx');
+  // TODO too much boilerplate code
+  const defaultCode = await getSourceCode('./app/components/client/button/examples/Default.tsx');
+  const tree = await getExamples();
+
+  console.log('tree: ', tree);
 
   return (
     <div className="flex flex-col gap-4 text-moon-14">
-      <h1>Tag</h1>
+      <h1>Button</h1>
 
       <div className="space-y-2">
         <h2>Default</h2>
@@ -18,4 +22,3 @@ export default async function Home() {
     </div>
   )
 }
-

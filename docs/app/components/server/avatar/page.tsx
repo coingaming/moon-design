@@ -1,11 +1,11 @@
-import { Active } from "@/app/components/avatar/examples/Active";
-import { Default } from "@/app/components/avatar/examples/Default";
+import { Active } from "@/app/components/server/avatar/examples/Active";
+import { Default } from "@/app/components/server/avatar/examples/Default";
 import { getSourceCode } from "@/app/utils/getSourceCode";
 
 export default async function Home() {
   // TODO too much boilerplate code
-  const defaultCode = await getSourceCode('./app/components/avatar/examples/Default.tsx');
-  const activeCode = await getSourceCode('./app/components/avatar/examples/Active.tsx');
+  const defaultCode = await getSourceCode('./app/components/server/avatar/examples/Default.tsx');
+  const activeCode = await getSourceCode('./app/components/server/avatar/examples/Active.tsx');
 
   return (
     <div className="flex flex-col gap-4 text-moon-14">
