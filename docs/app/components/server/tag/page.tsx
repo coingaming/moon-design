@@ -1,5 +1,6 @@
 import { Default } from "@/app/components/server/tag/examples/Default";
 import { getExamples } from "@/app/utils/getExamples";
+import { MDX } from "@/components/MDX";
 
 export default async function Home() {
   const { server } = await getExamples();
@@ -7,6 +8,8 @@ export default async function Home() {
   return (
     <div className="flex flex-col gap-4 text-moon-14">
       <h1>Tag</h1>
+
+      <MDX markdown={server.tag.description.main} />
 
       <div className="space-y-2">
         <h2>Default</h2>

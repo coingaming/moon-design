@@ -1,26 +1,50 @@
 import { promises as fs } from 'fs';
 import path from 'path';
-import { z } from 'zod';
-import { processFiles } from './buildExamplesType';
-import { Examples } from '../components/components';
+import { Examples } from '../components/types';
 
-/*
-  You can define a recursive schema in Zod,
-  but because of a limitation of TypeScript,
-  their type can't be statically inferred.
+export async function hasSubfolders(_path: string) {
+  try {
+    const files = await fs.readdir(_path, { withFileTypes: true });
 
-  Instead you'll need to define the type definition manually,
-  and provide it to Zod as a "type hint".
+    for (const file of files) {
+      if (file.isDirectory()) {
+        // There is at least one subdirectory
+        return true;
+      }
+    }
+    // No subdirectories found
+    return false;
+  } catch (err) {
+    if (err instanceof Error) {
+      console.error('Error checking folders:', err.message);
+      throw err;
+    }
+  }
+}
 
-  https://github.com/colinhacks/zod#recursive-types
-*/
-// type Children = z.infer<typeof fileSchema> & {
-//   children: Children[];
-// };
+export async function processFiles(
+  dirPath: string,
+  processCallback: (filePath: string) => Promise<Record<string, string | undefined>>
+) {
+  const files = await fs.readdir(dirPath);
+  const result: Record<string, Record<string, unknown> | string[]> = {};
 
-// const fileTreeSchema: z.ZodType<Children> = fileSchema.extend({
-//   children: z.lazy(() => fileTreeSchema.array()),
-// });
+  for (const file of files) {
+    const filePath = path.join(dirPath, file);
+    const stats = await fs.stat(filePath);
+
+    if (stats.isDirectory()) {
+      const _hasSubfolders = await hasSubfolders(filePath);
+      if (_hasSubfolders) {
+        result[file] = await processFiles(filePath, processCallback);
+      } else {
+        result[file] = await processCallback(filePath);
+      }
+    }
+  }
+
+  return result;
+}
 
 const getFilesContent = async (dirPath: string) => {
   const files = await fs.readdir(dirPath);

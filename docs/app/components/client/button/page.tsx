@@ -1,12 +1,14 @@
 import { Default } from "@/app/components/client/button/examples/Default";
 import { getExamples } from "@/app/utils/getExamples";
+import { MDX } from "@/components/MDX";
 
 export default async function Home() {
   const { client } = await getExamples()
-
   return (
     <div className="flex flex-col gap-4 text-moon-14">
       <h1>Button</h1>
+
+      <MDX markdown={client.button.description.main} />
 
       <div className="space-y-2">
         <h2>Default</h2>

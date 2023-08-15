@@ -1,6 +1,7 @@
 import { Active } from "@/app/components/server/avatar/examples/Active";
 import { Default } from "@/app/components/server/avatar/examples/Default";
 import { getExamples } from "@/app/utils/getExamples";
+import { MDX } from "@/components/MDX";
 
 
 export default async function Home() {
@@ -9,6 +10,8 @@ export default async function Home() {
   return (
     <div className="flex flex-col gap-4 text-moon-14">
       <h1>Avatar</h1>
+
+      <MDX markdown={server.avatar.description.main} />
 
       <div className="space-y-2">
         <h2>Default</h2>

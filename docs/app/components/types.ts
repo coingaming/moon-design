@@ -1,6 +1,9 @@
 export interface Examples {
   "client": {
     "button": {
+      "description": {
+        "main": "string"
+      },
       "examples": {
         "Default": "string"
       }
@@ -8,12 +11,18 @@ export interface Examples {
   },
   "server": {
     "avatar": {
+      "description": {
+        "main": "string"
+      },
       "examples": {
         "Active": "string",
         "Default": "string"
       }
     },
     "tag": {
+      "description": {
+        "main": "string"
+      },
       "examples": {
         "Default": "string"
       }

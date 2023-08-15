@@ -97,7 +97,7 @@ export const buildExamplesType = async () => {
 
   await writeToFile({
     contentToWrite: getTemplate(JSON.stringify(components, null, 2)),
-    path: './app/components/components.d.ts'
+    path: './app/components/types.ts'
   });
 
   return components;
