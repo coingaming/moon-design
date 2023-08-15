@@ -1,8 +1,8 @@
 import { Default } from "@/app/components/server/tag/examples/Default";
-import { getSourceCode } from "@/app/utils/getSourceCode";
+import { getExamples } from "@/app/utils/getExamples";
 
 export default async function Home() {
-  const defaultCode = await getSourceCode('./app/components/server/tag/examples/Default.tsx');
+  const { server } = await getExamples();
 
   return (
     <div className="flex flex-col gap-4 text-moon-14">
@@ -13,7 +13,7 @@ export default async function Home() {
         <div className={'flex flex-wrap items-center justify-around p-4 gap-2 w-full bg-goku rounded-moon-s-sm'}>
           <Default />
         </div>
-        <pre className="bg-goku rounded-moon-s-sm p-4">{defaultCode}</pre>
+        <pre className="bg-goku rounded-moon-s-sm p-4">{server.tag.examples.Default}</pre>
       </div>
     </div>
   )
