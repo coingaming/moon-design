@@ -351,9 +351,6 @@ importers:
       tailwindcss:
         specifier: 3.3.3
         version: 3.3.3
-      tailwindcss-rtl:
-        specifier: 0.9.0
-        version: 0.9.0
       typescript:
         specifier: 4.9.5
         version: 4.9.5
@@ -12823,10 +12820,6 @@ packages:
 
   /tailwindcss-radix@2.8.0:
     resolution: {integrity: sha512-1k1UfoIYgVyBl13FKwwoKavjnJ5VEaUClCTAsgz3VLquN4ay/lyaMPzkbqD71sACDs2fRGImytAUlMb4TzOt1A==}
-    dev: false
-
-  /tailwindcss-rtl@0.9.0:
-    resolution: {integrity: sha512-y7yC8QXjluDBEFMSX33tV6xMYrf0B3sa+tOB5JSQb6/G6laBU313a+Z+qxu55M1Qyn8tDMttjomsA8IsJD+k+w==}
     dev: false
 
   /tailwindcss@3.3.3:

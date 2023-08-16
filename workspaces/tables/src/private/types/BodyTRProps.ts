@@ -7,7 +7,6 @@ type BodyTRProps = {
   isExpanded?: boolean;
   hasChildren?: boolean;
   hasParent?: boolean;
-  isLastRow?: boolean;
   isLastNestedRow?: boolean;
   isSelected?: boolean | string;
   backgroundColor?: string;

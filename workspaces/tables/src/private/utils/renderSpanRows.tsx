@@ -1,10 +1,10 @@
 import React, { useState, Fragment } from 'react';
 import { Checkbox } from '@heathmont/moon-core-tw';
+import type { Cell, Row } from 'react-table';
 import BodyTR from '../../components/BodyTR';
 import TD from '../../components/TD';
 import type RowSpanHeaderProps from '../../private/types/RowSpanHeaderProps';
 import type RenderSpanRowsProps from '../types/RenderSpanRowsProps';
-import type { Cell, Row } from 'react-table';
 
 const renderSpanRows = ({
   rows,
@@ -33,11 +33,6 @@ const renderSpanRows = ({
     ) => {
       prepareRow(row);
       const rowProps = row.getRowProps();
-      const nextRow = rows[index + 1];
-      const nextRowItem = nextRow as Row;
-      const nextRowId =
-        nextRowItem && nextRowItem.id ? nextRowItem.id.split('.') : [];
-      const isLastRow = nextRowId.length === 0 || nextRowId.length === 1;
 
       const onRowClickHandler = getOnRowClickHandler
         ? getOnRowClickHandler(row)
@@ -92,7 +87,6 @@ const renderSpanRows = ({
             withOffset={!isRowSpanned}
             backgroundColor={backgroundColor}
             fontColor={fontColor}
-            isLastRow={isLastRow}
             isSelected={isSelected}
             isHovered={hoveredRow === `${row.id}-${rowProps.key}`}
             onClick={
@@ -123,7 +117,7 @@ const renderSpanRows = ({
                 isCellBorder={isCellBorder}
                 role="cell"
               >
-                <div className="flex items-center h-full w-full justify-center pl-2">
+                <div className="flex items-center h-full w-full justify-center ps-2">
                   <Checkbox
                     id={row.id}
                     checked={isSelected}

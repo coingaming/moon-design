@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
+import type Props from './types/Props';
 import IconButton from '../../iconButton/IconButton';
 import mergeClassnames from '../../mergeClassnames/mergeClassnames';
 import useClickOutside from '../../private/hooks/useClickOutside';
 import ArrowsRight from '../../private/icons/ArrowsRight';
 import Other3DotsHorizontal from '../../private/icons/Other3DotsHorizontal';
-import type Props from './types/Props';
 
 const Collapsed = ({ breadcrumbs, divider }: Props) => {
   const [isOpen, toggleDropdown] = useState(false);
@@ -45,7 +45,7 @@ const Collapsed = ({ breadcrumbs, divider }: Props) => {
               aria-label="Show more breadcrumbs"
             />
             {isOpen && (
-              <ol className="absolute ltr:left-0 rtl:right-0 top-full bg-gohan p-1 mt-3 flex flex-col gap-2 shadow-moon-lg rounded-moon-s-md z-10000 min-w-[8.5rem]">
+              <ol className="absolute start-0 top-full bg-gohan p-1 mt-3 flex flex-col gap-2 shadow-moon-lg rounded-moon-s-md z-10000 min-w-[8.5rem]">
                 {restBreadcrumbs.map((crumb, index) => (
                   <li
                     key={'innercrumb' + index}

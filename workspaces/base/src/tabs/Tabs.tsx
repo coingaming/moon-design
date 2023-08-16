@@ -62,14 +62,16 @@ const Tab = React.forwardRef(
         className={mergeClassnames(
           getTabSize(size),
           'relative flex items-center justify-center w-full whitespace-nowrap text-moon-14',
-          'text-bulma font-medium cursor-pointer after:content-[""] after:absolute after:left-0',
-          'after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform',
-          'after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100',
-          'hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo',
+          'text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0',
+          'after:w-full after:h-[2px] after:bg-piccolo after:transition-transform',
+          'after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right',
+          'after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left',
+          'rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo',
           'focus:outline-none',
           isDisabled && 'opacity-30 hover:after:scale-0 cursor-not-allowed',
-          ' [&:local-link]:after:origin-top-left [&:local-link]:after:scale-x-100 [&:local-link]:text-piccolo',
-          selected && 'after:origin-top-left after:scale-x-100 text-piccolo',
+          'ltr:[&:local-link]:after:origin-top-left rtl:[&:local-link]:after:origin-top-right [&:local-link]:after:scale-x-100 [&:local-link]:text-piccolo',
+          selected &&
+            'ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-100 text-piccolo',
           className
         )}
         ref={ref}
@@ -102,14 +104,15 @@ const Pill = React.forwardRef(
         className={mergeClassnames(
           getTabSize(size),
           'relative flex items-center justify-center w-full whitespace-nowrap text-moon-14',
-          'text-bulma font-medium cursor-pointer after:content-[""] after:absolute after:left-0',
-          'after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform',
-          'after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100',
-          'hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo',
-          'focus:outline-none',
+          'text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0',
+          'after:w-full after:h-[2px] after:bg-piccolo after:transition-transform',
+          'after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0',
+          'after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right',
+          'hover:after:scale-100 hover:text-piccolo focus:outline-none',
           isDisabled && 'opacity-30 hover:after:scale-0 cursor-not-allowed',
-          ' [&:local-link]:after:origin-top-left [&:local-link]:after:scale-x-100 [&:local-link]:text-piccolo',
-          selected && 'after:origin-top-left after:scale-x-100 text-piccolo',
+          'ltr:[&:local-link]:after:origin-top-left rtl:[&:local-link]:after:origin-top-right [&:local-link]:after:scale-x-100 [&:local-link]:text-piccolo',
+          selected &&
+            'ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-100 text-piccolo',
           className
         )}
         ref={ref}

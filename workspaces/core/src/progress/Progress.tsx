@@ -1,10 +1,10 @@
 import React, { useContext } from 'react';
-import mergeClassnames from '../mergeClassnames/mergeClassnames';
+import type PinProps from './private/types/PinProps';
+import type Props from './private/types/Props';
 import getPinStyle from './private/utils/getPinStyle';
 import getSize from './private/utils/getSize';
 import ProgressContext from './private/utils/ProgressContext';
-import type PinProps from './private/types/PinProps';
-import type Props from './private/types/Props';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
 const ProgressRoot = ({
   size = '2xs',
@@ -31,7 +31,7 @@ const ProgressRoot = ({
       <div
         style={{ width: `${value}%` }}
         className={mergeClassnames(
-          'progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo',
+          'progress absolute h-full rounded-full start-0 transition-all bg-piccolo',
           progressColor
         )}
       >

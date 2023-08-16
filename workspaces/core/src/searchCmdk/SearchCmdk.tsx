@@ -13,7 +13,7 @@ const SearchCmdkRoot = ({
 }: React.ComponentProps<typeof Command.Dialog>) => (
   <Command.Dialog
     className={mergeClassnames(
-      'z-[60] fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full  bg-gohan',
+      'z-[60] fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full bg-gohan',
       'sm:max-w-lg md:max-w-xl shadow-moon-md rounded-moon-s-md flex flex-col overflow-hidden',
       className
     )}
@@ -78,8 +78,8 @@ const Kbd = ({
 }: React.HTMLAttributes<HTMLDivElement>) => (
   <kbd
     className={mergeClassnames(
-      'select-none hover:cursor-pointer text-trunks text-moon-10 transition absolute ltr:right-4',
-      'rtl:left-4 top-1/2 transform -translate-y-1/2 border border-trunks rounded-md p-1',
+      'select-none hover:cursor-pointer text-trunks text-moon-10 transition absolute end-4',
+      'top-1/2 transform -translate-y-1/2 border border-trunks rounded-md p-1',
       className
     )}
     {...props}

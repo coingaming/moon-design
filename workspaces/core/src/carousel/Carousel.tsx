@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react';
-import IconButton from '../iconButton/IconButton';
-import mergeClassnames from '../mergeClassnames/mergeClassnames';
+import type CarouselRootProps from './private/types/CarouselRootProps';
+import type SubcomponentProps from './private/types/SubcomponentProps';
 import CarouselContext from './private/utils/CarouselContext';
 import useCarouselContext from './private/utils/useCarouselContext';
 import useInterval from './private/utils/useInterval';
 import withHorizontalScroll from './private/utils/withHorizontalScroll';
-import type CarouselRootProps from './private/types/CarouselRootProps';
-import type SubcomponentProps from './private/types/SubcomponentProps';
+import IconButton from '../iconButton/IconButton';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
 const CarouselRoot = ({
   children,
@@ -128,7 +128,7 @@ const LeftArrow = ({ children, className, ...rest }: SubcomponentProps) => {
       size="sm"
       className={mergeClassnames(
         'max-sm:hidden shadow-moon-sm bg-gohan text-bulma',
-        'absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -left-4',
+        'absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4',
         className
       )}
       onClick={scrollLeftToStep}
@@ -150,7 +150,7 @@ const RightArrow = ({ children, className, ...rest }: SubcomponentProps) => {
       size="sm"
       className={mergeClassnames(
         'max-sm:hidden shadow-moon-sm bg-gohan text-bulma',
-        'absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -right-4',
+        'absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4',
         className
       )}
       onClick={scrollRightToStep}

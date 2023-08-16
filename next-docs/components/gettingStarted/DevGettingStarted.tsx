@@ -1,9 +1,9 @@
 import { Tabs } from '@heathmont/moon-core-tw';
 import Link from 'next/link';
-import CodeSnippet from '../codePreview/CodeSnippet';
-import PageSection from '../PageSection';
 import DuoThemeExample from './DuoThemeExample';
 import SingleThemeExample from './SingleThemeExample';
+import CodeSnippet from '../codePreview/CodeSnippet';
+import PageSection from '../PageSection';
 
 const DevGettingStarted = () => (
   <>
@@ -59,14 +59,6 @@ const DevGettingStarted = () => (
           <a href="#config">
             Configure your project to use{' '}
             <span className="font-medium">Moon DS.</span>
-          </a>
-        </li>
-        <li>
-          <a href="#rtl">
-            Install and configure{' '}
-            <code className="bg-goku px-2 rounded-moon-s-xs">
-              tailwindcss-rtl
-            </code>
           </a>
         </li>
         <li>
@@ -138,58 +130,6 @@ const DevGettingStarted = () => (
           Presets - Tailwind CSS
         </a>
       </p>
-    </PageSection>
-    <PageSection title="Installing and adding tailwindcss-rtl plugin" id="rtl">
-      <p>
-        <code className="bg-goku px-2 rounded-moon-s-xs">tailwindcss-rtl</code>{' '}
-        is a third-party plugin that provides new styles for Tailwind for
-        right-to-left orientation.
-      </p>
-      <p>1. Run:</p>
-      <CodeSnippet language="bash">{`npm i tailwindcss-rtl`}</CodeSnippet>
-      <p>
-        2. Add the plugin to your config{' '}
-        <code className="bg-goku px-2 rounded-moon-s-xs">
-          tailwind.config.js
-        </code>{' '}
-        file:{' '}
-      </p>
-      <CodeSnippet>{`// tailwind.config
-{
-...
-  plugins: [
-    require('tailwindcss-rtl'),
-  ],
-...
-}
-`}</CodeSnippet>
-      <ul className="flex flex-col gap-1 list-disc list-inside">
-        <li>
-          {' '}
-          For more information about tailwindcss-rtl plugin and the list of all
-          extended classes, see npm:{' '}
-          <a
-            href="https://www.npmjs.com/package/tailwindcss-rtl"
-            className="text-piccolo font-medium transition-colors duration-200 hover:text-hit visited:text-hit"
-            target="_blank"
-            rel="noreferrer"
-          >
-            tailwindcss-rtl
-          </a>
-        </li>
-        <li>
-          {' '}
-          For more information about customization with plugins, see{' '}
-          <a
-            href="https://tailwindcss.com/docs/plugins"
-            className="text-piccolo font-medium transition-colors duration-200 hover:text-hit visited:text-hit"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Plugins - Tailwind CSS
-          </a>{' '}
-        </li>
-      </ul>
     </PageSection>
     <PageSection title="Moon DS additional information">
       <ul className="flex flex-col gap-1 list-disc list-inside">
@@ -389,17 +329,6 @@ export default Example;
             rel="noreferrer"
           >
             Editor Setup - Tailwind CSS
-          </a>
-          .
-        </li>
-        <li>
-          <a
-            href="https://www.npmjs.com/package/tailwindcss-rtl"
-            className="text-piccolo font-medium transition-colors duration-200 hover:text-hit visited:text-hit"
-            target="_blank"
-            rel="noreferrer"
-          >
-            npm: tailwindcss-rtl
           </a>
           .
         </li>

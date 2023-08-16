@@ -17,7 +17,7 @@ Object {
           role="progressbar"
         >
           <div
-            class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+            class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
             style="width: 75%;"
           />
         </div>
@@ -30,7 +30,7 @@ Object {
           role="progressbar"
         >
           <div
-            class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+            class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
             style="width: 75%;"
           />
         </div>
@@ -43,7 +43,7 @@ Object {
           role="progressbar"
         >
           <div
-            class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+            class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
             style="width: 75%;"
           />
         </div>
@@ -63,7 +63,7 @@ Object {
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 75%;"
         />
       </div>
@@ -76,7 +76,7 @@ Object {
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 75%;"
         />
       </div>
@@ -89,7 +89,7 @@ Object {
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 75%;"
         />
       </div>
@@ -166,7 +166,7 @@ Object {
           role="progressbar"
         >
           <div
-            class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+            class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
             style="width: 0%;"
           />
         </div>
@@ -186,7 +186,7 @@ Object {
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 0%;"
         />
       </div>
@@ -263,7 +263,7 @@ Object {
           role="progressbar"
         >
           <div
-            class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+            class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
             style="width: 75%;"
           />
         </div>
@@ -276,7 +276,7 @@ Object {
           role="progressbar"
         >
           <div
-            class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+            class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
             style="width: 75%;"
           />
         </div>
@@ -289,7 +289,7 @@ Object {
           role="progressbar"
         >
           <div
-            class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+            class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
             style="width: 75%;"
           />
         </div>
@@ -302,7 +302,7 @@ Object {
           role="progressbar"
         >
           <div
-            class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+            class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
             style="width: 75%;"
           />
         </div>
@@ -315,7 +315,7 @@ Object {
           role="progressbar"
         >
           <div
-            class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+            class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
             style="width: 75%;"
           />
         </div>
@@ -335,7 +335,7 @@ Object {
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 75%;"
         />
       </div>
@@ -348,7 +348,7 @@ Object {
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 75%;"
         />
       </div>
@@ -361,7 +361,7 @@ Object {
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 75%;"
         />
       </div>
@@ -374,7 +374,7 @@ Object {
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 75%;"
         />
       </div>
@@ -387,7 +387,7 @@ Object {
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 75%;"
         />
       </div>
@@ -464,7 +464,7 @@ Object {
           role="progressbar"
         >
           <div
-            class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+            class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
             style="width: 25%;"
           />
         </div>
@@ -477,7 +477,7 @@ Object {
           role="progressbar"
         >
           <div
-            class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+            class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
             style="width: 50%;"
           />
         </div>
@@ -490,7 +490,7 @@ Object {
           role="progressbar"
         >
           <div
-            class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+            class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
             style="width: 75%;"
           />
         </div>
@@ -503,7 +503,7 @@ Object {
           role="progressbar"
         >
           <div
-            class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+            class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
             style="width: 100%;"
           />
         </div>
@@ -523,7 +523,7 @@ Object {
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 25%;"
         />
       </div>
@@ -536,7 +536,7 @@ Object {
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 50%;"
         />
       </div>
@@ -549,7 +549,7 @@ Object {
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 75%;"
         />
       </div>
@@ -562,7 +562,7 @@ Object {
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 100%;"
         />
       </div>
@@ -639,7 +639,7 @@ Object {
           role="progressbar"
         >
           <div
-            class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+            class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
             style="width: 75%;"
           >
             <div
@@ -665,7 +665,7 @@ Object {
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 75%;"
         >
           <div
@@ -745,7 +745,7 @@ Object {
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 75%;"
         />
       </div>
@@ -758,7 +758,7 @@ Object {
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 75%;"
         />
       </div>
@@ -771,7 +771,7 @@ Object {
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 75%;"
         />
       </div>
@@ -787,7 +787,7 @@ Object {
       role="progressbar"
     >
       <div
-        class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+        class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
         style="width: 75%;"
       />
     </div>
@@ -800,7 +800,7 @@ Object {
       role="progressbar"
     >
       <div
-        class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+        class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
         style="width: 75%;"
       />
     </div>
@@ -813,7 +813,7 @@ Object {
       role="progressbar"
     >
       <div
-        class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+        class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
         style="width: 75%;"
       />
     </div>
@@ -886,7 +886,7 @@ Object {
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 0%;"
         />
       </div>
@@ -902,7 +902,7 @@ Object {
       role="progressbar"
     >
       <div
-        class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+        class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
         style="width: 0%;"
       />
     </div>
@@ -975,7 +975,7 @@ Object {
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 75%;"
         />
       </div>
@@ -988,7 +988,7 @@ Object {
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 75%;"
         />
       </div>
@@ -1001,7 +1001,7 @@ Object {
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 75%;"
         />
       </div>
@@ -1014,7 +1014,7 @@ Object {
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 75%;"
         />
       </div>
@@ -1027,7 +1027,7 @@ Object {
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 75%;"
         />
       </div>
@@ -1043,7 +1043,7 @@ Object {
       role="progressbar"
     >
       <div
-        class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+        class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
         style="width: 75%;"
       />
     </div>
@@ -1056,7 +1056,7 @@ Object {
       role="progressbar"
     >
       <div
-        class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+        class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
         style="width: 75%;"
       />
     </div>
@@ -1069,7 +1069,7 @@ Object {
       role="progressbar"
     >
       <div
-        class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+        class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
         style="width: 75%;"
       />
     </div>
@@ -1082,7 +1082,7 @@ Object {
       role="progressbar"
     >
       <div
-        class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+        class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
         style="width: 75%;"
       />
     </div>
@@ -1095,7 +1095,7 @@ Object {
       role="progressbar"
     >
       <div
-        class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+        class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
         style="width: 75%;"
       />
     </div>
@@ -1168,7 +1168,7 @@ Object {
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 25%;"
         />
       </div>
@@ -1181,7 +1181,7 @@ Object {
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 50%;"
         />
       </div>
@@ -1194,7 +1194,7 @@ Object {
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 75%;"
         />
       </div>
@@ -1207,7 +1207,7 @@ Object {
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 100%;"
         />
       </div>
@@ -1223,7 +1223,7 @@ Object {
       role="progressbar"
     >
       <div
-        class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+        class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
         style="width: 25%;"
       />
     </div>
@@ -1236,7 +1236,7 @@ Object {
       role="progressbar"
     >
       <div
-        class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+        class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
         style="width: 50%;"
       />
     </div>
@@ -1249,7 +1249,7 @@ Object {
       role="progressbar"
     >
       <div
-        class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+        class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
         style="width: 75%;"
       />
     </div>
@@ -1262,7 +1262,7 @@ Object {
       role="progressbar"
     >
       <div
-        class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+        class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
         style="width: 100%;"
       />
     </div>
@@ -1335,7 +1335,7 @@ Object {
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 75%;"
         >
           <div
@@ -1357,7 +1357,7 @@ Object {
       role="progressbar"
     >
       <div
-        class="progress absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+        class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
         style="width: 75%;"
       >
         <div

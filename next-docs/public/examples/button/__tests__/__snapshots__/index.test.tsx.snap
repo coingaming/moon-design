@@ -16,7 +16,7 @@ Object {
             class="block h-full pointer-events-none"
           >
             <span
-              class="flex absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] content-center justify-center"
+              class="flex absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 content-center justify-center"
             >
               <div
                 aria-busy="true"
@@ -64,7 +64,7 @@ Object {
             class="block h-full pointer-events-none"
           >
             <span
-              class="flex absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] content-center justify-center"
+              class="flex absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 content-center justify-center"
             >
               <svg
                 aria-label="Success"
@@ -129,7 +129,7 @@ Object {
           class="block h-full pointer-events-none"
         >
           <span
-            class="flex absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] content-center justify-center"
+            class="flex absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 content-center justify-center"
           >
             <div
               aria-busy="true"
@@ -177,7 +177,7 @@ Object {
           class="block h-full pointer-events-none"
         >
           <span
-            class="flex absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] content-center justify-center"
+            class="flex absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 content-center justify-center"
           >
             <svg
               aria-label="Success"
@@ -1383,7 +1383,7 @@ Object {
           class="block h-full pointer-events-none"
         >
           <span
-            class="flex absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] content-center justify-center"
+            class="flex absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 content-center justify-center"
           >
             <div
               aria-busy="true"
@@ -1431,7 +1431,7 @@ Object {
           class="block h-full pointer-events-none"
         >
           <span
-            class="flex absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] content-center justify-center"
+            class="flex absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 content-center justify-center"
           >
             <svg
               aria-label="Success"
@@ -1492,7 +1492,7 @@ Object {
         class="block h-full pointer-events-none"
       >
         <span
-          class="flex absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] content-center justify-center"
+          class="flex absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 content-center justify-center"
         >
           <div
             aria-busy="true"
@@ -1540,7 +1540,7 @@ Object {
         class="block h-full pointer-events-none"
       >
         <span
-          class="flex absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] content-center justify-center"
+          class="flex absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 content-center justify-center"
         >
           <svg
             aria-label="Success"

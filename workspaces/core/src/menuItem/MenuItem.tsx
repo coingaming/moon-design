@@ -1,6 +1,5 @@
 import React, { useEffect, ReactNode } from 'react';
 import type CheckboxRadioProps from './private/types/CheckboxRadioProps';
-import type MenuItemComponentProps from './private/types/MenuItemComponentProps';
 import type MenuItemPolymorphicProps from './private/types/MenuItemPolymorphicProps';
 import type MultiTitleProps from './private/types/MultiTitleProps';
 import MenuItemContext from './private/utils/MenuItemContext';
@@ -37,7 +36,9 @@ const MenuItemRoot = React.forwardRef(
         <Component
           ref={ref}
           className={mergeClassnames(
-            'flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition',
+            'flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm',
+            'text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer',
+            'hover:bg-bulma/[0.04] transition',
             width ? width : 'w-full',
             (innerSelected || isActive) && 'bg-bulma/[0.04]',
             className && className
@@ -97,9 +98,12 @@ const Radio = ({
         aria-checked={selected}
         aria-label={ariaLabelValue}
         className={mergeClassnames(
-          'block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo',
-          'after:content-[""] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100',
-          className && className
+          'block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks',
+          'moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute',
+          'after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2',
+          'after:bg-piccolo after:transition-transform after:scale-0',
+          'moon-checked:after:scale-100',
+          className
         )}
       />
     </span>
@@ -124,8 +128,10 @@ const Checkbox = ({
         aria-checked={selected}
         aria-label={ariaLabelValue}
         className={mergeClassnames(
-          'absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo',
-          className && className
+          'absolute top-1 start-1 flex w-4 h-4 items-center justify-center',
+          'shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks',
+          'text-goten moon-checked:shadow-none moon-checked:bg-piccolo',
+          className
         )}
       >
         <GenericCheckAlternative
