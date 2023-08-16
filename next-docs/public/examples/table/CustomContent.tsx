@@ -64,7 +64,6 @@ const Example = () => {
             {...row.getRowProps()}
             key={row.getRowProps().key + '1'}
             hasParent={true}
-            isLastRow={true}
             backgroundColor={backgroundColor}
             isExpanded
           >
