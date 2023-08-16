@@ -1,5 +1,21 @@
 export interface Examples {
+  "button": {
+    "examples": {
+      "client": {},
+      "server": {}
+    }
+  },
   "client": {
+    "accordion": {
+      "description": {
+        "main": "string",
+        "page": "string"
+      },
+      "examples": {
+        "Default": "string"
+      },
+      "tests": {}
+    },
     "button": {
       "description": {
         "main": "string"
