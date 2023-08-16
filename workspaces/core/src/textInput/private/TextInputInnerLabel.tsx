@@ -1,9 +1,9 @@
 import React, { forwardRef } from 'react';
-import mergeClassnames from '../../mergeClassnames/mergeClassnames';
 import Container from './Container';
 import HintText from './HintText';
 import Input from './Input';
 import getBorderRadius from './utils/getBorderRadius';
+import mergeClassnames from '../../mergeClassnames/mergeClassnames';
 import type TextInputProps from '../private/types/TextInputProps';
 
 const TextInputInnerLabel = forwardRef<HTMLInputElement, TextInputProps>(
@@ -58,7 +58,7 @@ const TextInputInnerLabel = forwardRef<HTMLInputElement, TextInputProps>(
             isRtl={dir === 'rtl'}
             {...inputProps}
           />
-          <label className="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4">
+          <label className="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4">
             {label}
           </label>
         </div>

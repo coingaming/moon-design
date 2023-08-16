@@ -1,10 +1,10 @@
 import React from 'react';
 import * as ToastPrimitive from '@radix-ui/react-toast';
-import mergeClassnames from '../mergeClassnames/mergeClassnames';
-import ControlsCloseSmall from '../private/icons/ControlsCloseSmall';
 import type CloseProps from './private/types/CloseProps';
 import type SnackbarProps from './private/types/SnackbarProps';
 import type WithChildren from './private/types/WithChildren';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
+import ControlsCloseSmall from '../private/icons/ControlsCloseSmall';
 
 const SnackbarRoot = ({
   autoClose,
@@ -28,17 +28,17 @@ const SnackbarRoot = ({
         'translate-x-radix-toast-swipe-move-x',
         'radix-swipe-cancel:translate-x-0 radix-swipe-cancel:duration-200 radix-swipe-cancel:ease-[ease]',
         position === 'top-left' &&
-          'top-4 ltr:left-4 ltr:radix-state-open:animate-toast-slide-in-left rtl:right-4 rtl:radix-state-open:animate-toast-slide-in-right',
+          'top-4 start-4 ltr:radix-state-open:animate-toast-slide-in-left rtl:radix-state-open:animate-toast-slide-in-right',
         position === 'top-center' &&
-          'justify-center top-4 left-4 right-4 md:m-auto radix-state-open:animate-toast-slide-in-up',
+          'justify-center top-4 inset-x-4 md:m-auto radix-state-open:animate-toast-slide-in-up',
         position === 'top-right' &&
-          'justify-end top-4 ltr:right-4 ltr:radix-state-open:animate-toast-slide-in-right rtl:left-4 rtl:radix-state-open:animate-toast-slide-in-left',
+          'justify-end top-4 end-4 ltr:radix-state-open:animate-toast-slide-in-right rtl:radix-state-open:animate-toast-slide-in-left',
         position === 'bottom-left' &&
-          'bottom-4 ltr:left-4 ltr:radix-state-open:animate-toast-slide-in-left rtl:right-4 rtl:radix-state-open:animate-toast-slide-in-right',
+          'bottom-4 start-4 ltr:radix-state-open:animate-toast-slide-in-left rtl:radix-state-open:animate-toast-slide-in-right',
         position === 'bottom-center' &&
-          'justify-center bottom-4 left-4 right-4 m-auto radix-state-open:animate-toast-slide-in-down',
+          'justify-center bottom-4 inset-x-4 m-auto radix-state-open:animate-toast-slide-in-down',
         position === 'bottom-right' &&
-          'justify-end bottom-4 ltr:right-4 ltr:radix-state-open:animate-toast-slide-in-right rtl:left-4 lrtltr:radix-state-open:animate-toast-slide-in-left'
+          'justify-end bottom-4 end-4 ltr:radix-state-open:animate-toast-slide-in-right lrtltr:radix-state-open:animate-toast-slide-in-left'
       )}
     >
       <div

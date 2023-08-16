@@ -1,16 +1,16 @@
 import React, { forwardRef } from 'react';
-import Input, { InputProps } from '../input/Input';
-import InsetInput from '../insetInput/InsetInput';
-import InsetNativeSelect from '../insetNativeSelect/InsetNativeSelect';
-import mergeClassnames from '../mergeClassnames/mergeClassnames';
-import NativeSelect, { NativeSelectProps } from '../nativeSelect/NativeSelect';
-import GroupContext from './private/utils/GroupContext';
-import useGroupContext from './private/utils/useGroupContext';
-import type InsetInputProps from '../insetInput/private/types/InsetInputProps';
-import type InsetNativeSelectProps from '../insetNativeSelect/private/types/InsetNativeSelectProps';
 import type GroupComponentProps from './private/types/GroupComponentProps';
 import type LabelProps from './private/types/LabelProps';
 import type WithChildren from './private/types/WithChildren';
+import GroupContext from './private/utils/GroupContext';
+import useGroupContext from './private/utils/useGroupContext';
+import Input, { InputProps } from '../input/Input';
+import InsetInput from '../insetInput/InsetInput';
+import type InsetInputProps from '../insetInput/private/types/InsetInputProps';
+import InsetNativeSelect from '../insetNativeSelect/InsetNativeSelect';
+import type InsetNativeSelectProps from '../insetNativeSelect/private/types/InsetNativeSelectProps';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
+import NativeSelect, { NativeSelectProps } from '../nativeSelect/NativeSelect';
 
 const GroupRoot: GroupComponentProps = ({
   orientation = 'vertical',
@@ -78,9 +78,9 @@ const FirstInput = forwardRef<HTMLInputElement, InputProps>(
         placeholder="Placeholder"
         className={mergeClassnames(
           '[&_+_.last-element:before]:hover:opacity-0 [&_+_.last-element:before]:focus:opacity-0',
-          isVertical && 'rounded-bl-none rounded-br-none input-bbb-hidden',
+          isVertical && 'rounded-b-none input-bbb-hidden',
           isHorizontal &&
-            'rtl:rounded-bl-none rtl:rounded-tl-none rtl:input-lsb-hidden ltr:rounded-br-none ltr:rounded-tr-none ltr:input-rsb-hidden flex-1 basis-1/2',
+            'rounded-e-none rtl:input-lsb-hidden ltr:input-rsb-hidden flex-1 basis-1/2',
           className && className
         )}
         ref={ref}
@@ -117,9 +117,8 @@ const LastInput = forwardRef<HTMLInputElement, InputProps>(
       <div
         className={mergeClassnames(
           'relative last-element before:absolute before:block before:bg-beerus hover:before:hidden before:transition-opacity',
-          isVertical && 'before:h-px before:top-0 before:left-0 before:right-0',
-          isHorizontal &&
-            'before:w-px ltr:before:left-0 rtl:before:right-0 before:top-0 before:bottom-0',
+          isVertical && 'before:h-px before:top-0 before:inset-x-0',
+          isHorizontal && 'before:w-px before:start-0 before:inset-y-0',
           error && 'before:bg-chichi'
         )}
       >
@@ -129,9 +128,9 @@ const LastInput = forwardRef<HTMLInputElement, InputProps>(
           readOnly={readOnly}
           size={size}
           className={mergeClassnames(
-            isVertical && 'rounded-tl-none rounded-tr-none input-tbb-hidden',
+            isVertical && 'rounded-t-none input-tbb-hidden',
             isHorizontal &&
-              'rtl:rounded-tr-none rtl:rounded-br-none rtl:input-rsb-hidden ltr:rounded-tl-none ltr:rounded-bl-none ltr:input-lsb-hidden flex-1 basis-1/2',
+              'rounded-s-none rtl:input-rsb-hidden ltr:input-lsb-hidden flex-1 basis-1/2',
             className && className
           )}
           ref={ref}
@@ -177,10 +176,10 @@ const FirstInsetInputRoot = forwardRef<
           '[&_+_.last-element:before]:hover:opacity-0',
           isVertical &&
             !error &&
-            '[&_input]:rounded-bl-none [&_input]:rounded-br-none [&_input]:input-bbb-hidden',
+            '[&_input]:rounded-b-none [&_input]:input-bbb-hidden',
           isHorizontal &&
             !error &&
-            'rtl:[&_input]:rounded-bl-none rtl:[&_input]:rounded-tl-none rtl:[&_input]:input-lsb-hidden ltr:[&_input]:rounded-br-none ltr:[&_input]:rounded-tr-none ltr:[&_input]:input-rsb-hidden flex-1 basis-1/2',
+            '[&_input]:rounded-e-none rtl:[&_input]:input-lsb-hidden ltr:[&_input]:input-rsb-hidden flex-1 basis-1/2',
           className && className
         )}
         ref={ref}
@@ -227,10 +226,10 @@ const LastInsetInputRoot = forwardRef<
           'last-element before:absolute before:block before:bg-beerus hover:before:hidden before:transition-opacity',
           isVertical &&
             !error &&
-            '[&_input]:rounded-tl-none [&_input]:rounded-tr-none [&_input]:input-tbb-hidden before:h-px before:top-0 before:left-0 before:right-0',
+            '[&_input]:rounded-t-none [&_input]:input-tbb-hidden before:h-px before:top-0 before:inset-x-0',
           isHorizontal &&
             !error &&
-            'rtl:[&_input]:rounded-tr-none rtl:[&_input]:rounded-br-none rtl:[&_input]:input-rsb-hidden ltr:[&_input]:rounded-tl-none ltr:[&_input]:rounded-bl-none ltr:[&_input]:input-lsb-hidden flex-1 basis-1/2 before:w-px ltr:before:left-0 rtl:before:right-0 before:top-0 before:bottom-0',
+            '[&_input]:rounded-s-none rtl:[&_input]:input-rsb-hidden ltr:[&_input]:input-lsb-hidden flex-1 basis-1/2 before:w-px before:start-0 before:inset-y-0',
           className && className
         )}
         ref={ref}
@@ -283,10 +282,10 @@ const FirstSelect = forwardRef<
           '[&_+_.last-element:before]:hover:opacity-0',
           isVertical &&
             !error &&
-            '[&_select]:rounded-bl-none [&_select]:rounded-br-none [&_select]:input-bbb-hidden before:h-px',
+            '[&_select]:rounded-b-none [&_select]:input-bbb-hidden before:h-px',
           isHorizontal &&
             !error &&
-            'rtl:[&_select]:rounded-bl-none rtl:[&_select]:rounded-tl-none rtl:[&_select]:input-lsb-hidden ltr:[&_select]:rounded-br-none ltr:[&_select]:rounded-tr-none ltr:[&_select]:input-rsb-hidden flex-1 basis-1/2',
+            '[&_select]:rounded-e-none rtl:[&_select]:input-lsb-hidden ltr:[&_select]:input-rsb-hidden flex-1 basis-1/2',
           className && className
         )}
         ref={ref}
@@ -335,10 +334,10 @@ const LastSelect = forwardRef<
           'last-element before:absolute before:block before:bg-beerus hover:before:hidden before:transition-opacity',
           isVertical &&
             !error &&
-            '[&_select]:rounded-tl-none [&_select]:rounded-tr-none [&_select]:input-tbb-hidden before:h-px before:top-0 before:left-0 before:right-0',
+            '[&_select]:rounded-t-none [&_select]:input-tbb-hidden before:h-px before:top-0 before:inset-x-0',
           isHorizontal &&
             !error &&
-            'rtl:[&_select]:rounded-tr-none rtl:[&_select]:rounded-br-none rtl:[&_select]:input-rsb-hidden ltr:[&_select]:rounded-tl-none ltr:[&_select]:rounded-bl-none ltr:[&_select]:input-lsb-hidden flex-1 basis-1/2 before:w-px ltr:before:left-0 rtl:before:right-0 before:top-0 before:bottom-0',
+            '[&_select]:rounded-s-none rtl:[&_select]:input-rsb-hidden ltr:[&_select]:input-lsb-hidden flex-1 basis-1/2 before:w-px before:start-0 before:inset-y-0',
           className && className
         )}
         ref={ref}
@@ -385,10 +384,10 @@ const FirstInsetSelect = forwardRef<
           '[&_+_.last-element:before]:hover:opacity-0',
           isVertical &&
             !error &&
-            '[&_select]:rounded-bl-none [&_select]:rounded-br-none [&_select]:input-bbb-hidden',
+            '[&_select]:rounded-b-none [&_select]:input-bbb-hidden',
           isHorizontal &&
             !error &&
-            'rtl:[&_select]:rounded-bl-none rtl:[&_select]:rounded-tl-none rtl:[&_select]:input-lsb-hidden ltr:[&_select]:rounded-br-none ltr:[&_select]:rounded-tr-none ltr:[&_select]:input-rsb-hidden flex-1 basis-1/2',
+            '[&_select]:rounded-e-none rtl:[&_select]:input-lsb-hidden ltr:[&_select]:input-rsb-hidden flex-1 basis-1/2',
           className && className
         )}
         ref={ref}
@@ -435,10 +434,10 @@ const LastInsetSelect = forwardRef<
           'last-element before:absolute before:block before:bg-beerus hover:before:hidden before:transition-opacity',
           isVertical &&
             !error &&
-            '[&_select]:rounded-tl-none [&_select]:rounded-tr-none [&_select]:input-tbb-hidden before:h-px before:top-0 before:left-0 before:right-0',
+            '[&_select]:rounded-t-none [&_select]:input-tbb-hidden before:h-px before:top-0 before:inset-x-0',
           isHorizontal &&
             !error &&
-            'rtl:[&_select]:rounded-tr-none rtl:[&_select]:rounded-br-none rtl:[&_select]:input-rsb-hidden ltr:[&_select]:rounded-tl-none ltr:[&_select]:rounded-bl-none ltr:[&_select]:input-lsb-hidden flex-1 basis-1/2 before:w-px ltr:before:left-0 rtl:before:right-0 before:top-0 before:bottom-0',
+            '[&_select]:rounded-s-none rtl:[&_select]:input-rsb-hidden ltr:[&_select]:input-lsb-hidden flex-1 basis-1/2 before:w-px before:start-0 before:inset-y-0',
           className && className
         )}
         ref={ref}

@@ -1,7 +1,7 @@
-import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import type { ComponentNames } from '../../components/getComponent';
 import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/popover/Default';
@@ -9,7 +9,6 @@ import Position from '../../public/examples/popover/Position';
 import TriggerElements from '../../public/examples/popover/TriggerElements';
 import WithClose from '../../public/examples/popover/WithClose';
 import useComponent from '../../utils/useComponent';
-import type { ComponentNames } from '../../components/getComponent';
 
 const COMPONENT_NAME: ComponentNames = 'Popover';
 
@@ -17,7 +16,12 @@ const PagePopover = () => {
   const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
-      <ComponentPageDescription title={name} image={image} isAriaSupport>
+      <ComponentPageDescription
+        title={name}
+        image={image}
+        isAriaSupport
+        isRtlSupport
+      >
         <p>{text}</p>
         <p>
           Based on{' '}
@@ -126,7 +130,7 @@ const PagePopover = () => {
   );
 };
 
-PagePopover.getLayout = function getLayout(page: ReactNode) {
+PagePopover.getLayout = function getLayout(page: React.ReactNode) {
   return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
 };
 

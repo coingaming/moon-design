@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import mergeClassnames from '../../mergeClassnames/mergeClassnames';
+import type TextInputProps from '../private/types/TextInputProps';
 import getSizeStyles from '../private/utils/getSizeStyles';
 import makeBorder from '../private/utils/makeBorder';
-import type TextInputProps from '../private/types/TextInputProps';
 
 const Input = forwardRef<
   HTMLInputElement,
@@ -57,14 +57,14 @@ const Input = forwardRef<
             'input-xl pt-[1.125rem] input-xl-dt-label',
           inputSize === 'lg' && 'input-lg-dt-shared',
           'input-dt-shared',
-          (isSharpLeftSide || isSharpTopSide) && !isError && 'rounded-tl-none',
-          (isSharpRightSide || isSharpTopSide) && !isError && 'rounded-tr-none',
+          (isSharpLeftSide || isSharpTopSide) && !isError && 'rounded-ss-none',
+          (isSharpRightSide || isSharpTopSide) && !isError && 'rounded-se-none',
           (isSharpLeftSide || isSharpBottomSide) &&
             !isError &&
-            'rounded-bl-none',
+            'rounded-es-none',
           (isSharpRightSide || isSharpBottomSide) &&
             !isError &&
-            'rounded-br-none',
+            'rounded-ee-none',
           'invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err',
           makeBorder(
             isSideBorderHidden,

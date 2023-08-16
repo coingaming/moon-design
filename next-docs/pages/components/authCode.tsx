@@ -1,6 +1,6 @@
-import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import type { ComponentNames } from '../../components/getComponent';
 import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import AllowedCharacters from '../../public/examples/authCode/AllowedCharacters';
@@ -15,7 +15,6 @@ import ReactHookFormAuto from '../../public/examples/authCode/ReactHookFormAuto'
 import Sizes from '../../public/examples/authCode/Sizes';
 import Stretch from '../../public/examples/authCode/Stretch';
 import useComponent from '../../utils/useComponent';
-import type { ComponentNames } from '../../components/getComponent';
 
 const COMPONENT_NAME: ComponentNames = 'AuthCode';
 
@@ -28,6 +27,7 @@ const PageAuthCode = () => {
         image={image}
         isInProgress
         isAriaSupport
+        isRtlSupport
       >
         <p>{text}</p>
       </ComponentPageDescription>
@@ -202,7 +202,7 @@ const PageAuthCode = () => {
   );
 };
 
-PageAuthCode.getLayout = function getLayout(page: ReactNode) {
+PageAuthCode.getLayout = function getLayout(page: React.ReactNode) {
   return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
 };
 

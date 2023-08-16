@@ -1,10 +1,10 @@
 import React, { forwardRef } from 'react';
+import type InsetNativeSelectProps from './private/types/InsetNativeSelectProps';
+import type WithChildren from './private/types/WithChildren';
 import useFormContext from '../form/private/utils/useFormContext';
 import useFormItemContext from '../form/private/utils/useFormItemContext';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import ControlsChevronDownSmall from '../private/icons/ControlsChevronDownSmall';
-import type InsetNativeSelectProps from './private/types/InsetNativeSelectProps';
-import type WithChildren from './private/types/WithChildren';
 
 const InsetNativeSelect = forwardRef<
   HTMLSelectElement,
@@ -65,7 +65,7 @@ const InsetNativeSelect = forwardRef<
         </select>
         <label
           className={mergeClassnames(
-            'absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4',
+            'absolute text-trunks transition-all ease-in-out duration-200 start-4',
             'text-moon-12 top-3 pointer-events-none'
           )}
         >
@@ -73,7 +73,7 @@ const InsetNativeSelect = forwardRef<
         </label>
         <ControlsChevronDownSmall
           className={mergeClassnames(
-            'absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none',
+            'absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none',
             'text-trunks flex-shrink-0 transition-transform',
             size === 'sm' ? 'text-moon-16' : 'text-moon-24'
           )}

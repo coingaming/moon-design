@@ -9,7 +9,7 @@ Object {
         dir="rtl"
       >
         <div
-          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
           role="alert"
         >
           <p
@@ -33,7 +33,7 @@ Object {
           </p>
           <button
             aria-label="close"
-            class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+            class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
             type="button"
           >
             <svg
@@ -58,7 +58,7 @@ Object {
           </button>
         </div>
         <div
-          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px] bg-transparent outline outline-1 outline-offset-[-1px] outline-roshi"
+          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm text-moon-14 text-bulma pe-14 bg-transparent outline outline-1 outline-offset-[-1px] outline-roshi"
           role="alert"
         >
           <p
@@ -82,7 +82,7 @@ Object {
           </p>
           <button
             aria-label="close"
-            class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+            class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
             type="button"
           >
             <svg
@@ -107,7 +107,7 @@ Object {
           </button>
         </div>
         <div
-          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px] bg-roshi-10"
+          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm text-moon-14 text-bulma pe-14 bg-roshi-10"
           role="alert"
         >
           <p
@@ -131,7 +131,7 @@ Object {
           </p>
           <button
             aria-label="close"
-            class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+            class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
             type="button"
           >
             <svg
@@ -163,7 +163,7 @@ Object {
       dir="rtl"
     >
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
         role="alert"
       >
         <p
@@ -187,7 +187,7 @@ Object {
         </p>
         <button
           aria-label="close"
-          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
           type="button"
         >
           <svg
@@ -212,7 +212,7 @@ Object {
         </button>
       </div>
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px] bg-transparent outline outline-1 outline-offset-[-1px] outline-roshi"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm text-moon-14 text-bulma pe-14 bg-transparent outline outline-1 outline-offset-[-1px] outline-roshi"
         role="alert"
       >
         <p
@@ -236,7 +236,7 @@ Object {
         </p>
         <button
           aria-label="close"
-          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
           type="button"
         >
           <svg
@@ -261,7 +261,7 @@ Object {
         </button>
       </div>
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px] bg-roshi-10"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm text-moon-14 text-bulma pe-14 bg-roshi-10"
         role="alert"
       >
         <p
@@ -285,7 +285,7 @@ Object {
         </p>
         <button
           aria-label="close"
-          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
           type="button"
         >
           <svg
@@ -457,13 +457,13 @@ Object {
         dir="rtl"
       >
         <div
-          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
           role="alert"
         >
           Click the Close button to hide the Alert
           <button
             aria-label="close"
-            class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+            class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
             type="button"
           >
             <svg
@@ -495,13 +495,13 @@ Object {
       dir="rtl"
     >
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
         role="alert"
       >
         Click the Close button to hide the Alert
         <button
           aria-label="close"
-          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
           type="button"
         >
           <svg
@@ -590,13 +590,13 @@ Object {
         dir="rtl"
       >
         <div
-          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
           role="alert"
         >
           Alert with close
           <button
             aria-label="close"
-            class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+            class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
             type="button"
           >
             <svg
@@ -621,7 +621,7 @@ Object {
           </button>
         </div>
         <div
-          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
           role="alert"
         >
           <p
@@ -636,7 +636,7 @@ Object {
           </p>
           <button
             aria-label="close"
-            class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+            class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
             type="button"
           >
             <svg
@@ -668,13 +668,13 @@ Object {
       dir="rtl"
     >
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
         role="alert"
       >
         Alert with close
         <button
           aria-label="close"
-          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
           type="button"
         >
           <svg
@@ -699,7 +699,7 @@ Object {
         </button>
       </div>
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
         role="alert"
       >
         <p
@@ -714,7 +714,7 @@ Object {
         </p>
         <button
           aria-label="close"
-          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
           type="button"
         >
           <svg
@@ -980,7 +980,7 @@ Object {
         dir="rtl"
       >
         <div
-          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
           role="alert"
         >
           <p
@@ -1004,7 +1004,7 @@ Object {
           </p>
           <button
             aria-label="close"
-            class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+            class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
             type="button"
           >
             <svg
@@ -1029,7 +1029,7 @@ Object {
           </button>
         </div>
         <div
-          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
           role="alert"
         >
           <p
@@ -1058,7 +1058,7 @@ Object {
           </p>
           <button
             aria-label="close"
-            class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+            class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
             type="button"
           >
             <svg
@@ -1090,7 +1090,7 @@ Object {
       dir="rtl"
     >
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
         role="alert"
       >
         <p
@@ -1114,7 +1114,7 @@ Object {
         </p>
         <button
           aria-label="close"
-          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
           type="button"
         >
           <svg
@@ -1139,7 +1139,7 @@ Object {
         </button>
       </div>
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
         role="alert"
       >
         <p
@@ -1168,7 +1168,7 @@ Object {
         </p>
         <button
           aria-label="close"
-          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
           type="button"
         >
           <svg
@@ -1355,7 +1355,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
         role="alert"
       >
         <p
@@ -1379,7 +1379,7 @@ Object {
         </p>
         <button
           aria-label="close"
-          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
           type="button"
         >
           <svg
@@ -1404,7 +1404,7 @@ Object {
         </button>
       </div>
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px] bg-transparent outline outline-1 outline-offset-[-1px] outline-roshi"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm text-moon-14 text-bulma pe-14 bg-transparent outline outline-1 outline-offset-[-1px] outline-roshi"
         role="alert"
       >
         <p
@@ -1428,7 +1428,7 @@ Object {
         </p>
         <button
           aria-label="close"
-          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
           type="button"
         >
           <svg
@@ -1453,7 +1453,7 @@ Object {
         </button>
       </div>
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px] bg-roshi-10"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm text-moon-14 text-bulma pe-14 bg-roshi-10"
         role="alert"
       >
         <p
@@ -1477,7 +1477,7 @@ Object {
         </p>
         <button
           aria-label="close"
-          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
           type="button"
         >
           <svg
@@ -1505,7 +1505,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
       role="alert"
     >
       <p
@@ -1529,7 +1529,7 @@ Object {
       </p>
       <button
         aria-label="close"
-        class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+        class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
         type="button"
       >
         <svg
@@ -1554,7 +1554,7 @@ Object {
       </button>
     </div>
     <div
-      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px] bg-transparent outline outline-1 outline-offset-[-1px] outline-roshi"
+      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm text-moon-14 text-bulma pe-14 bg-transparent outline outline-1 outline-offset-[-1px] outline-roshi"
       role="alert"
     >
       <p
@@ -1578,7 +1578,7 @@ Object {
       </p>
       <button
         aria-label="close"
-        class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+        class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
         type="button"
       >
         <svg
@@ -1603,7 +1603,7 @@ Object {
       </button>
     </div>
     <div
-      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px] bg-roshi-10"
+      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm text-moon-14 text-bulma pe-14 bg-roshi-10"
       role="alert"
     >
       <p
@@ -1627,7 +1627,7 @@ Object {
       </p>
       <button
         aria-label="close"
-        class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+        class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
         type="button"
       >
         <svg
@@ -1787,13 +1787,13 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
         role="alert"
       >
         Click the Close button to hide the Alert
         <button
           aria-label="close"
-          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
           type="button"
         >
           <svg
@@ -1821,13 +1821,13 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
       role="alert"
     >
       Click the Close button to hide the Alert
       <button
         aria-label="close"
-        class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+        class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
         type="button"
       >
         <svg
@@ -1912,13 +1912,13 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
         role="alert"
       >
         Alert with close
         <button
           aria-label="close"
-          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
           type="button"
         >
           <svg
@@ -1943,7 +1943,7 @@ Object {
         </button>
       </div>
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
         role="alert"
       >
         <p
@@ -1958,7 +1958,7 @@ Object {
         </p>
         <button
           aria-label="close"
-          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
           type="button"
         >
           <svg
@@ -1986,13 +1986,13 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
       role="alert"
     >
       Alert with close
       <button
         aria-label="close"
-        class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+        class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
         type="button"
       >
         <svg
@@ -2017,7 +2017,7 @@ Object {
       </button>
     </div>
     <div
-      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
       role="alert"
     >
       <p
@@ -2032,7 +2032,7 @@ Object {
       </p>
       <button
         aria-label="close"
-        class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+        class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
         type="button"
       >
         <svg
@@ -2286,7 +2286,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
         role="alert"
       >
         <p
@@ -2310,7 +2310,7 @@ Object {
         </p>
         <button
           aria-label="close"
-          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
           type="button"
         >
           <svg
@@ -2335,7 +2335,7 @@ Object {
         </button>
       </div>
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
         role="alert"
       >
         <p
@@ -2364,7 +2364,7 @@ Object {
         </p>
         <button
           aria-label="close"
-          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
           type="button"
         >
           <svg
@@ -2392,7 +2392,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
       role="alert"
     >
       <p
@@ -2416,7 +2416,7 @@ Object {
       </p>
       <button
         aria-label="close"
-        class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+        class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
         type="button"
       >
         <svg
@@ -2441,7 +2441,7 @@ Object {
       </button>
     </div>
     <div
-      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
       role="alert"
     >
       <p
@@ -2470,7 +2470,7 @@ Object {
       </p>
       <button
         aria-label="close"
-        class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+        class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
         type="button"
       >
         <svg

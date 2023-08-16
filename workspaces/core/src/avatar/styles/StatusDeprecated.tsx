@@ -1,7 +1,7 @@
 import React from 'react';
 import mergeClassnames from '../../mergeClassnames/mergeClassnames';
-import setStatusDeprecatedSize from '../private/utils/setStatusDeprecatedSize';
 import type AvatarProps from '../private/types/AvatarProps';
+import setStatusDeprecatedSize from '../private/utils/setStatusDeprecatedSize';
 
 const StatusDeprecated = ({ size, statusOrigin }: AvatarProps) => (
   <div
@@ -9,12 +9,8 @@ const StatusDeprecated = ({ size, statusOrigin }: AvatarProps) => (
       'absolute border-solid border-goku rounded-full bg-roshi',
       statusOrigin && statusOrigin.vertical === 'top' && 'top-0',
       statusOrigin && statusOrigin.vertical === 'bottom' && 'bottom-0',
-      statusOrigin &&
-        statusOrigin.horizontal === 'left' &&
-        'ltr:left-0 rtl:right-0',
-      statusOrigin &&
-        statusOrigin.horizontal === 'right' &&
-        'ltr:right-0 rtl:left-0',
+      statusOrigin && statusOrigin.horizontal === 'left' && 'start-0',
+      statusOrigin && statusOrigin.horizontal === 'right' && 'end-0',
       setStatusDeprecatedSize(size)
     )}
   />

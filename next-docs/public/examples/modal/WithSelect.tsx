@@ -1,5 +1,11 @@
-import React, { useState } from 'react';
-import { Modal, Button, Dropdown, MenuItem } from '@heathmont/moon-core-tw';
+import { useState } from 'react';
+import {
+  Modal,
+  Button,
+  Dropdown,
+  MenuItem,
+  IconButton,
+} from '@heathmont/moon-core-tw';
 import { ControlsCloseSmall } from '@heathmont/moon-icons-tw';
 
 type Options = {
@@ -42,12 +48,14 @@ const Example = () => {
         <Modal.Panel>
           <div className="border-b-[0.063rem] border-beerus pt-5 pb-4 px-6 relative">
             <h3 className="text-moon-18 text-bulma font-medium">Modal title</h3>
-            <span
-              className="absolute top-5 ltr:right-5 rtl:left-5 cursor-pointer"
+            <IconButton
+              variant="ghost"
+              size="sm"
+              className="absolute top-4 end-5"
               onClick={closeModal}
             >
               <ControlsCloseSmall className="text-moon-24" />
-            </span>
+            </IconButton>
           </div>
           <div className="px-6 py-4 flex flex-col gap-3">
             <Dropdown value={size} onChange={setSize} size="xl">

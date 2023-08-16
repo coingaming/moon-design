@@ -1,4 +1,5 @@
 import React, { useRef, useState, useEffect } from 'react';
+import { mergeClassnames } from '@heathmont/moon-core-tw';
 import {
   useTable,
   useResizeColumns,
@@ -15,10 +16,6 @@ import {
   TableOptions,
 } from 'react-table';
 import { useSticky } from 'react-table-sticky';
-import useRowSpan from '../private/hooks/useRowSpan';
-import useScrollState from '../private/hooks/useScrollState';
-import renderRows from '../private/utils/renderRows';
-import renderSpanRows from '../private/utils/renderSpanRows';
 import Body from './Body';
 import Footer from './Footer';
 import Header from './Header';
@@ -27,8 +24,12 @@ import HiddenTR from './HiddenTR';
 import Minimap from './Minimap';
 import TableWrapper from './TableWrapper';
 import TH from './TH';
+import useRowSpan from '../private/hooks/useRowSpan';
+import useScrollState from '../private/hooks/useScrollState';
 import type RowSpanHeaderProps from '../private/types/RowSpanHeaderProps';
 import type TableProps from '../private/types/TableProps';
+import renderRows from '../private/utils/renderRows';
+import renderSpanRows from '../private/utils/renderSpanRows';
 
 const Table = ({
   columns,
@@ -151,9 +152,11 @@ const Table = ({
         {column.render('Header')}
         <div
           {...resizingColumn.getResizerProps()}
-          className={`inline-block w-px h-full absolute top-0 right-0 z-1 after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%] after:right-0 ${
-            resizingColumn.isResizing ? 'after:bg-piccolo' : ''
-          }`}
+          className={mergeClassnames(
+            'inline-block w-px h-full absolute top-0 end-0 z-1 after:content-none after:absolute',
+            'after:w-px after:h-[70%] after:bottom-[15%] after:end-0',
+            resizingColumn.isResizing && 'after:bg-piccolo'
+          )}
         />
       </TH>
     );
@@ -182,9 +185,11 @@ const Table = ({
 
         <div
           {...resizingColumn.getResizerProps()}
-          className={`resizer inline-block cursor-ew-resize w-2 h-full absolute top-0 right-0 z-1 after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%] after:right-0 ${
-            resizingColumn.isResizing ? 'isResizing after:bg-piccolo' : ''
-          }`}
+          className={mergeClassnames(
+            'resizer inline-block cursor-ew-resize w-2 h-full absolute top-0 end-0 z-1 after:end-0',
+            'after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%]',
+            resizingColumn.isResizing && 'isResizing after:bg-piccolo'
+          )}
         />
       </TH>
     );
