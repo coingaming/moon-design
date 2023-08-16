@@ -22,9 +22,11 @@ const getAction = () => {
     for (const elem of tree) {
       const section = parent || '';
       const action = {
-        id: `${section}${elem.name}`,
+        id: section ? `${section}/${elem.name}` : elem.name,
         name: elem.name,
-        perform: () => router.push(elem.href),
+        perform: parent === 'components'
+          ? () => router.push(`${section}/${elem.name.toLowerCase()}`)
+          : () => router.push(elem.href),
       };
       if (section) {
         actions.push({ ...action, section: section });
