@@ -1,5 +1,11 @@
 # @heathmont/moon-themes-tw
 
+## 10.5.0
+
+### Minor Changes
+
+- Bump version to 10.5.0
+
 ## 10.4.0
 
 ### Minor Changes

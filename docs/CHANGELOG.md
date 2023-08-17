@@ -1,5 +1,17 @@
 # docs
 
+## 0.3.0
+
+### Minor Changes
+
+- Bump version to 10.5.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @heathmont/moon-base-tw@10.5.0
+  - @heathmont/moon-core-tw@10.5.0
+
 ## 0.2.0
 
 ### Minor Changes
