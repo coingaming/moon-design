@@ -14,9 +14,7 @@ const CardFront: React.FC<CardFrontProps> = ({
     <div className="theme-moon-dark flex flex-col items-center bg-goku text-bulma rounded-moon-s-lg gap-14 p-2">
       <div className="flex flex-col gap-14 max-w-lg items-end">
         <Image src={headerImage} alt={altHeaderImage} />
-        <p className="text-moon-16 max-w-md text-right text-trunks">
-          {subtext}
-        </p>
+        <p className="text-moon-16 max-w-md text-end text-trunks">{subtext}</p>
       </div>
       <div className="flex flex-col rounded-moon-s-md py-6 px-8 gap-6 bg-gohan">
         <p className="text-moon-32">{innerCardText}</p>

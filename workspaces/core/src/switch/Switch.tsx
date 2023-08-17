@@ -1,11 +1,11 @@
 import React, { useState, useEffect, forwardRef } from 'react';
 import { Switch as HeadlessSwitch } from '@headlessui/react';
-import mergeClassnames from '../mergeClassnames/mergeClassnames';
+import type SwitchProps from './private/types/SwitchProps';
 import getIconSize from './private/utils/getIconSize';
 import getSwitchSize from './private/utils/getSwitchSize';
 import getTogglePosition from './private/utils/getTogglePosition';
 import getToggleSize from './private/utils/getToggleSize';
-import type SwitchProps from './private/types/SwitchProps';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
 const Switch = forwardRef<HTMLButtonElement, SwitchProps>(
   (
@@ -56,7 +56,7 @@ const Switch = forwardRef<HTMLButtonElement, SwitchProps>(
           {onIcon && (
             <span
               className={mergeClassnames(
-                'z-1 absolute ltr:left-0 rtl:right-0 top-1/2 -translate-y-1/2 transition-opacity',
+                'z-1 absolute start-0 top-1/2 -translate-y-1/2 transition-opacity',
                 'text-goten',
                 getIconSize(size),
                 enabled ? 'opacity-100' : 'opacity-0'
@@ -69,7 +69,7 @@ const Switch = forwardRef<HTMLButtonElement, SwitchProps>(
           {offIcon && (
             <span
               className={mergeClassnames(
-                'z-1 absolute ltr:right-0 rtl:left-0 top-1/2 -translate-y-1/2 transition-opacity',
+                'z-1 absolute end-0 top-1/2 -translate-y-1/2 transition-opacity',
                 'text-bulma',
                 getIconSize(size),
                 enabled ? 'opacity-0' : 'opacity-100'
@@ -85,7 +85,7 @@ const Switch = forwardRef<HTMLButtonElement, SwitchProps>(
               'slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full',
               'bg-goten transition-all',
               getToggleSize(size),
-              enabled ? getTogglePosition(size) : 'ltr:left-0 rtl:right-0'
+              enabled ? getTogglePosition(size) : 'start-0'
             )}
           />
         </span>

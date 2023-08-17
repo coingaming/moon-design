@@ -69,7 +69,7 @@ const SingleThemeExample = () => (
   --opacity-moon: 0.6;
 
   /* fonts */
-  --averta: 'Averta Std';
+  --dm-sans: 'DM Sans';
 
   /* box-shadow */
   --shadow-xs: 0 4px 12px -6px rgb(0 0 0 / 0.06);

@@ -29,19 +29,19 @@ const CardArcticle: React.FC<Props> = ({
         target="_blank"
         rel="noreferrer"
         className={mergeClassnames(
-          `group relative w-72 h-96 flex flex-col justify-end p-6 bg-goku rounded-moon-s-lg`,
+          `group relative w-72 h-96 flex flex-col justify-end p-6 bg-goku rounded-moon-s-lg text-moon-16 font-medium`,
           variant && variant in variants ? variants[variant] : variants.default
         )}
       >
-        <p className="list-item absolute top-10 ltr:left-10 rtl:right-10 transform -rotate-90 origin-bottom-left text-moon-16 font-medium">
+        <p className="list-item absolute ltr:top-8 rtl:top-0 ltr:start-10 rtl:start-6 -rotate-90 ltr:origin-bottom-left rtl:origin-bottom-right">
           {section}
         </p>
         {author && (
-          <p className="absolute top-0 ltr:right-6 rtl:left-6 transform -rotate-90 origin-bottom-right text-moon-16 font-medium">
+          <p className="absolute whitespace-nowrap ltr:top-0 rtl:top-6 ltr:end-10 rtl:start-full -rotate-90 ltr:origin-bottom-right rtl:origin-top-right rtl:translate-x-10">
             {author}
           </p>
         )}
-        <p className="text-moon-24 font-medium">{title}</p>
+        <p className="text-moon-24">{title}</p>
       </a>
     </li>
   );

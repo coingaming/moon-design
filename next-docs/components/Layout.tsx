@@ -37,7 +37,7 @@ const Layout = ({ children, title }: Props) => {
         <aside className="hidden fixed z-10 h-screen lg:flex lg:flex-shrink-0 flex-col">
           <Sidebar />
         </aside>
-        <div className="min-h-screen lg:ms-80 bg-gohan flex-1 w-0 flex flex-col ltr:lg:rounded-tl-3xl rtl:lg:rounded-tr-3xl px-5 xl:px-20 2xl:px-32 lg:pt-12 xl:pb-52">
+        <div className="min-h-screen lg:ms-80 bg-gohan flex-1 w-0 flex flex-col lg:rounded-ss-3xl px-5 xl:px-20 2xl:px-32 lg:pt-12 xl:pb-52">
           <div className="flex flex-col grow max-w-screen-xl">
             {/* Opens sidebar on mobile */}
             <Header openSidebar={openSidebar} />

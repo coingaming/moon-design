@@ -98,7 +98,7 @@ const Cell = ({ children, className, ...props }: CellProps) => (
   <td
     className={mergeClassnames(
       className,
-      'text-start text-bulma bg-gohan first:rounded-tl-moon-s-sm first:rounded-bl-moon-s-sm last:rounded-tr-moon-s-sm last:rounded-br-moon-s-sm'
+      'text-start text-bulma bg-gohan first:rounded-s-moon-s-sm last:rounded-e-moon-s-sm'
     )}
     {...props}
   >

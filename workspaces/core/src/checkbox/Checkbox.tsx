@@ -1,8 +1,8 @@
 import React, { forwardRef, useEffect, useState } from 'react';
+import type CheckboxProps from './private/types/CheckboxProps';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import ControlsMinus from '../private/icons/ControlsMinus';
 import GenericCheckAlternative from '../private/icons/GenericCheckAlternative';
-import type CheckboxProps from './private/types/CheckboxProps';
 
 const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
   (
@@ -63,7 +63,7 @@ const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
         />
         <span
           className={mergeClassnames(
-            'absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten',
+            'absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten',
             (isChecked || indeterminate) && bgColor,
             indeterminate && 'shadow-none',
             className && className

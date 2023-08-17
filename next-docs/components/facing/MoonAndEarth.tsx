@@ -1,4 +1,3 @@
-import React from 'react';
 import { useScroll, useTransform, motion } from 'framer-motion';
 import Image from 'next/image';
 import imageEarth from '../../public/earth.png';
@@ -17,7 +16,6 @@ const MoonAndEarthAnimation = () => {
   );
   const { rtlEnabled } = useRtl();
   const position = useTransform(scrollYProgress, [0, 1], [-500, -700]);
-  const className = rtlEnabled ? 'origin-top-right' : 'origin-top-left';
   const xPosition = rtlEnabled
     ? { left: position, right: 'auto' }
     : { right: position, left: 'auto' };
@@ -26,7 +24,7 @@ const MoonAndEarthAnimation = () => {
       {/* Earth background image */}
       <motion.div
         style={{ scale: earthScale, ...xPosition }}
-        className={`${className} fixed z-1 top-72 w-5/12`}
+        className="ltr:origin-top-left rtl:origin-top-right fixed z-1 top-72 w-5/12"
       >
         <Image src={imageEarth} alt="Earth" />
       </motion.div>
@@ -34,7 +32,7 @@ const MoonAndEarthAnimation = () => {
       {/* Moon background image */}
       <motion.div
         style={{ scale: moonScale, ...xPosition }}
-        className={`${className} fixed top-60 w-5/12`}
+        className="ltr:origin-top-left rtl:origin-top-right fixed top-60 w-5/12"
       >
         <Image src={imageMoon} alt="Moon" />
       </motion.div>

@@ -2243,6 +2243,7 @@ video {
   --border-i-width: 0.125rem;
   --opacity-moon: 0.6;
   --averta: 'Averta Std';
+  --dm-sans: 'DM Sans';
 }
 .theme-sb-dark,
 :root.theme-sb-dark {
@@ -2309,6 +2310,7 @@ video {
   --border-i-width: 0.125rem;
   --opacity-moon: 0.6;
   --averta: 'Averta Std';
+  --dm-sans: 'DM Sans';
 }
 .theme-bitcasino-dark,
 :root.theme-bitcasino-dark {
@@ -2372,6 +2374,7 @@ video {
   --border-i-width: 0.125rem;
   --opacity-moon: 0.6;
   --averta: 'Averta Std';
+  --dm-sans: 'DM Sans';
 }
 .theme-betadda-dark,
 :root.theme-betadda-dark {
@@ -2435,6 +2438,7 @@ video {
   --border-i-width: 0.125rem;
   --opacity-moon: 0.6;
   --averta: 'Averta Std';
+  --dm-sans: 'DM Sans';
 }
 .theme-livecasino-dark,
 :root.theme-livecasino-dark {

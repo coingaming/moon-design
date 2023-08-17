@@ -304,7 +304,7 @@ Object {
           >
             <span
               aria-hidden="true"
-              class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-0 rtl:right-0"
+              class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 start-0"
             />
           </span>
         </button>
@@ -353,7 +353,7 @@ Object {
         >
           <span
             aria-hidden="true"
-            class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-0 rtl:right-0"
+            class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 start-0"
           />
         </span>
       </button>
@@ -758,7 +758,7 @@ Object {
           >
             <span
               aria-hidden="true"
-              class="z-1 absolute ltr:left-0 rtl:right-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-12 opacity-100"
+              class="z-1 absolute start-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-12 opacity-100"
             >
               <svg
                 fill="none"
@@ -783,7 +783,7 @@ Object {
             </span>
             <span
               aria-hidden="true"
-              class="z-1 absolute ltr:right-0 rtl:left-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-12 opacity-0"
+              class="z-1 absolute end-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-12 opacity-0"
             >
               <svg
                 fill="none"
@@ -824,7 +824,7 @@ Object {
           >
             <span
               aria-hidden="true"
-              class="z-1 absolute ltr:left-0 rtl:right-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-16 opacity-100"
+              class="z-1 absolute start-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-16 opacity-100"
             >
               <svg
                 fill="none"
@@ -849,7 +849,7 @@ Object {
             </span>
             <span
               aria-hidden="true"
-              class="z-1 absolute ltr:right-0 rtl:left-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-16 opacity-0"
+              class="z-1 absolute end-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-16 opacity-0"
             >
               <svg
                 fill="none"
@@ -890,7 +890,7 @@ Object {
           >
             <span
               aria-hidden="true"
-              class="z-1 absolute ltr:left-0 rtl:right-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-24 opacity-100"
+              class="z-1 absolute start-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-24 opacity-100"
             >
               <svg
                 fill="none"
@@ -915,7 +915,7 @@ Object {
             </span>
             <span
               aria-hidden="true"
-              class="z-1 absolute ltr:right-0 rtl:left-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-24 opacity-0"
+              class="z-1 absolute end-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-24 opacity-0"
             >
               <svg
                 fill="none"
@@ -963,7 +963,7 @@ Object {
         >
           <span
             aria-hidden="true"
-            class="z-1 absolute ltr:left-0 rtl:right-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-12 opacity-100"
+            class="z-1 absolute start-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-12 opacity-100"
           >
             <svg
               fill="none"
@@ -988,7 +988,7 @@ Object {
           </span>
           <span
             aria-hidden="true"
-            class="z-1 absolute ltr:right-0 rtl:left-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-12 opacity-0"
+            class="z-1 absolute end-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-12 opacity-0"
           >
             <svg
               fill="none"
@@ -1029,7 +1029,7 @@ Object {
         >
           <span
             aria-hidden="true"
-            class="z-1 absolute ltr:left-0 rtl:right-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-16 opacity-100"
+            class="z-1 absolute start-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-16 opacity-100"
           >
             <svg
               fill="none"
@@ -1054,7 +1054,7 @@ Object {
           </span>
           <span
             aria-hidden="true"
-            class="z-1 absolute ltr:right-0 rtl:left-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-16 opacity-0"
+            class="z-1 absolute end-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-16 opacity-0"
           >
             <svg
               fill="none"
@@ -1095,7 +1095,7 @@ Object {
         >
           <span
             aria-hidden="true"
-            class="z-1 absolute ltr:left-0 rtl:right-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-24 opacity-100"
+            class="z-1 absolute start-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-24 opacity-100"
           >
             <svg
               fill="none"
@@ -1120,7 +1120,7 @@ Object {
           </span>
           <span
             aria-hidden="true"
-            class="z-1 absolute ltr:right-0 rtl:left-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-24 opacity-0"
+            class="z-1 absolute end-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-24 opacity-0"
           >
             <svg
               fill="none"
@@ -1600,7 +1600,7 @@ Object {
         >
           <span
             aria-hidden="true"
-            class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-0 rtl:right-0"
+            class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 start-0"
           />
         </span>
       </button>
@@ -1645,7 +1645,7 @@ Object {
       >
         <span
           aria-hidden="true"
-          class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-0 rtl:right-0"
+          class="slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 start-0"
         />
       </span>
     </button>
@@ -2030,7 +2030,7 @@ Object {
         >
           <span
             aria-hidden="true"
-            class="z-1 absolute ltr:left-0 rtl:right-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-12 opacity-100"
+            class="z-1 absolute start-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-12 opacity-100"
           >
             <svg
               fill="none"
@@ -2055,7 +2055,7 @@ Object {
           </span>
           <span
             aria-hidden="true"
-            class="z-1 absolute ltr:right-0 rtl:left-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-12 opacity-0"
+            class="z-1 absolute end-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-12 opacity-0"
           >
             <svg
               fill="none"
@@ -2096,7 +2096,7 @@ Object {
         >
           <span
             aria-hidden="true"
-            class="z-1 absolute ltr:left-0 rtl:right-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-16 opacity-100"
+            class="z-1 absolute start-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-16 opacity-100"
           >
             <svg
               fill="none"
@@ -2121,7 +2121,7 @@ Object {
           </span>
           <span
             aria-hidden="true"
-            class="z-1 absolute ltr:right-0 rtl:left-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-16 opacity-0"
+            class="z-1 absolute end-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-16 opacity-0"
           >
             <svg
               fill="none"
@@ -2162,7 +2162,7 @@ Object {
         >
           <span
             aria-hidden="true"
-            class="z-1 absolute ltr:left-0 rtl:right-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-24 opacity-100"
+            class="z-1 absolute start-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-24 opacity-100"
           >
             <svg
               fill="none"
@@ -2187,7 +2187,7 @@ Object {
           </span>
           <span
             aria-hidden="true"
-            class="z-1 absolute ltr:right-0 rtl:left-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-24 opacity-0"
+            class="z-1 absolute end-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-24 opacity-0"
           >
             <svg
               fill="none"
@@ -2231,7 +2231,7 @@ Object {
       >
         <span
           aria-hidden="true"
-          class="z-1 absolute ltr:left-0 rtl:right-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-12 opacity-100"
+          class="z-1 absolute start-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-12 opacity-100"
         >
           <svg
             fill="none"
@@ -2256,7 +2256,7 @@ Object {
         </span>
         <span
           aria-hidden="true"
-          class="z-1 absolute ltr:right-0 rtl:left-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-12 opacity-0"
+          class="z-1 absolute end-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-12 opacity-0"
         >
           <svg
             fill="none"
@@ -2297,7 +2297,7 @@ Object {
       >
         <span
           aria-hidden="true"
-          class="z-1 absolute ltr:left-0 rtl:right-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-16 opacity-100"
+          class="z-1 absolute start-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-16 opacity-100"
         >
           <svg
             fill="none"
@@ -2322,7 +2322,7 @@ Object {
         </span>
         <span
           aria-hidden="true"
-          class="z-1 absolute ltr:right-0 rtl:left-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-16 opacity-0"
+          class="z-1 absolute end-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-16 opacity-0"
         >
           <svg
             fill="none"
@@ -2363,7 +2363,7 @@ Object {
       >
         <span
           aria-hidden="true"
-          class="z-1 absolute ltr:left-0 rtl:right-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-24 opacity-100"
+          class="z-1 absolute start-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-24 opacity-100"
         >
           <svg
             fill="none"
@@ -2388,7 +2388,7 @@ Object {
         </span>
         <span
           aria-hidden="true"
-          class="z-1 absolute ltr:right-0 rtl:left-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-24 opacity-0"
+          class="z-1 absolute end-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-24 opacity-0"
         >
           <svg
             fill="none"
