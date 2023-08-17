@@ -1,5 +1,19 @@
 # Change Log
 
+## 10.5.0
+
+### Minor Changes
+
+- Bump version to 10.5.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @heathmont/moon-components@10.5.0
+  - @heathmont/moon-core@10.5.0
+  - @heathmont/moon-themes@10.5.0
+  - @heathmont/moon-utils@10.5.0
+
 ## 10.4.0
 
 ### Minor Changes
