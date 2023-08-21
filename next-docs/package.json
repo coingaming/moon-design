@@ -19,6 +19,7 @@
     "@heathmont/moon-assets": "workspace:^10.5.0",
     "@heathmont/moon-charts": "workspace:^10.5.0",
     "@heathmont/moon-components": "workspace:^10.5.0",
+    "@heathmont/moon-cmdk-tw": "workspace:^10.5.0",
     "@heathmont/moon-core": "workspace:^10.5.0",
     "@heathmont/moon-core-tw": "workspace:^10.5.0",
     "@heathmont/moon-datepicker": "workspace:^10.5.0",

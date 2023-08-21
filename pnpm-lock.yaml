@@ -216,6 +216,9 @@ importers:
       '@heathmont/moon-charts':
         specifier: workspace:^10.5.0
         version: link:../packages/charts
+      '@heathmont/moon-cmdk-tw':
+        specifier: workspace:^10.5.0
+        version: link:../workspaces/cmdk
       '@heathmont/moon-components':
         specifier: workspace:^10.5.0
         version: link:../packages/components
@@ -975,6 +978,30 @@ importers:
         specifier: 1.14.0
         version: 1.14.0
 
+  workspaces/cmdk:
+    dependencies:
+      '@headlessui/react':
+        specifier: 1.7.16
+        version: 1.7.16(react-dom@18.2.0)(react@18.2.0)
+      '@heathmont/moon-core-tw':
+        specifier: workspace:^10.5.0
+        version: link:../core
+      cmdk:
+        specifier: 0.2.0
+        version: 0.2.0(@types/react-dom@18.2.7)(@types/react@18.2.19)(react-dom@18.2.0)(react@18.2.0)
+      react:
+        specifier: '>= 18.2.0'
+        version: 18.2.0
+      react-dom:
+        specifier: '>= 18.2.0'
+        version: 18.2.0(react@18.2.0)
+      tailwind-merge:
+        specifier: 1.14.0
+        version: 1.14.0
+      tailwindcss-radix:
+        specifier: 2.8.0
+        version: 2.8.0
+
   workspaces/core:
     dependencies:
       '@headlessui/react':
@@ -992,9 +1019,6 @@ importers:
       '@radix-ui/react-tooltip':
         specifier: 1.0.6
         version: 1.0.6(@types/react-dom@18.2.7)(@types/react@18.2.19)(react-dom@18.2.0)(react@18.2.0)
-      cmdk:
-        specifier: 0.2.0
-        version: 0.2.0(@types/react-dom@18.2.7)(@types/react@18.2.19)(react-dom@18.2.0)(react@18.2.0)
       react:
         specifier: '>= 18.2.0'
         version: 18.2.0

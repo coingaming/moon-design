@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { SearchCmdk } from '@heathmont/moon-core-tw';
+import { SearchCmdk } from '@heathmont/moon-cmdk-tw';
 
 type Item = {
   label: string
