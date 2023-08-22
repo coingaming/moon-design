@@ -1,16 +1,26 @@
 import components from './components';
 
-export type ComponentNames = typeof components[number]['name'] | 'Typography';
+export type ComponentNames = (typeof components)[number]['name'] | 'Typography';
 
-const getComponent = (name: ComponentNames) => {
+export const camelCaseName = (name: ComponentNames) =>
+  name.replace(/^[a-zA-Z]/, (l) => l.toLowerCase());
+
+type GetComponentProps = {
+  name?: ComponentNames;
+  camelCaseName: string;
+  text?: string;
+  href: string;
+  image: string;
+};
+
+const getComponent = (name: ComponentNames): GetComponentProps => {
   const component = components.find((component) => component.name === name);
   const image = `/components/${name?.toLowerCase()}.png`;
-  const camelCaseName = name.replace(/^[a-zA-Z]/, (l) => l.toLowerCase());
-  const href = `/components/${camelCaseName}`;
+  const href = `/components/${camelCaseName(name)}`;
   return {
     name: component?.name,
-    camelCaseName,
-    text: component?.text as string,
+    camelCaseName: camelCaseName(name),
+    text: component?.text,
     href,
     image,
   };
