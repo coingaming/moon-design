@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
-import { MenuItem, SearchCmdk } from '@heathmont/moon-core-tw';
+import { MenuItem } from '@heathmont/moon-core-tw';
+import { SearchCmdk } from '@heathmont/moon-cmdk-tw';
 import getAction, { Action } from './utils/getActions';
 import { SearchContext } from './SearchProvider';
 
