@@ -1,5 +1,5 @@
 {
-  "name": "@heathmont/moon-accordion",
+  "name": "@heathmont/moon-cmdk-tw",
   "sideEffects": false,
   "version": "10.6.0",
   "files": [
@@ -20,15 +20,14 @@
     "chokidar": "chokidar \"**/*.tsx\" \"**/*.ts\" -i \"lib/**/*.d.ts\" -c \"pnpm run build:code\" "
   },
   "dependencies": {
-    "@heathmont/moon-components": "workspace:^10.6.0",
-    "@heathmont/moon-core": "workspace:^10.6.0",
-    "@heathmont/moon-icons": "workspace:^10.6.0",
-    "@heathmont/moon-themes": "workspace:^10.6.0",
-    "@heathmont/moon-utils": "workspace:^10.6.0"
+    "@headlessui/react": "1.7.16",
+    "@heathmont/moon-core-tw": "workspace:^10.6.0",
+    "cmdk": "0.2.0",
+    "tailwind-merge": "1.14.0",
+    "tailwindcss-radix": "2.8.0"
   },
   "peerDependencies": {
     "react": ">= 18.2.0",
-    "react-dom": ">= 18.2.0",
-    "styled-components": ">= 5.3.5"
+    "react-dom": ">= 18.2.0"
   }
 }
