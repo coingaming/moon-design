@@ -1,5 +1,6 @@
 import { useRouter } from 'next/router';
 import component from '../../components';
+import getComponent from '../../getComponent';
 import navigation from '../../sidebar/navigation';
 
 export type Action = {
@@ -8,7 +9,8 @@ export type Action = {
   perform: () => Promise<boolean>;
   section?: string;
 };
-const getAction = () => {
+
+const getAction = (): Action[] => {
   const router = useRouter();
   let actions: Action[] = [
     {
@@ -17,16 +19,16 @@ const getAction = () => {
       perform: () => router.push('/'),
     },
   ];
-
   const mapNavigation = (tree: any[], parent?: string) => {
     for (const elem of tree) {
       const section = parent || '';
       const action = {
-        id: section ? `${section}/${elem.name}` : elem.name,
+        id: `${section}${elem.name}`,
         name: elem.name,
-        perform: parent === 'components'
-          ? () => router.push(`${section}/${elem.name.toLowerCase()}`)
-          : () => router.push(elem.href),
+        perform: () =>
+          router.push(
+            'href' in elem ? elem.href : getComponent(elem.name).href
+          ),
       };
       if (section) {
         actions.push({ ...action, section: section });
@@ -35,7 +37,6 @@ const getAction = () => {
       }
     }
   };
-
   const components = [...component];
   mapNavigation(navigation);
   mapNavigation(components, 'components');
