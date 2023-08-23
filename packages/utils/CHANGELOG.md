@@ -1,5 +1,13 @@
 # Change Log
 
+## 10.6.2
+
+### Patch Changes
+
+- Deploy 10.6.2
+- Updated dependencies
+  - @heathmont/moon-themes@10.6.2
+
 ## 10.6.1
 
 ### Patch Changes
