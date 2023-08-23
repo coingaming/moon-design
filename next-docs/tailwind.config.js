@@ -4,6 +4,7 @@ module.exports = {
     './pages/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
     './node_modules/@heathmont/moon-core-tw/**/*.{js,ts,jsx,tsx}',
+    './node_modules/@heathmont/moon-cmdx-tw/**/*.{js,ts,jsx,tsx}',
     './node_modules/@heathmont/moon-table-tw/**/*.{js,ts,jsx,tsx}',
   ],
   presets: [
