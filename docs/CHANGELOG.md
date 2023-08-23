@@ -1,5 +1,14 @@
 # docs
 
+## 0.4.1
+
+### Patch Changes
+
+- Deploy
+- Updated dependencies
+  - @heathmont/moon-base-tw@10.6.1
+  - @heathmont/moon-core-tw@10.6.1
+
 ## 0.4.0
 
 ### Minor Changes
