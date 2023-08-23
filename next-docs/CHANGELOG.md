@@ -1,5 +1,31 @@
 # Change Log
 
+## 10.6.1
+
+### Patch Changes
+
+- Deploy
+- Updated dependencies
+  - @heathmont/moon-cmdk-tw@10.6.1
+  - @heathmont/moon-accordion@10.6.1
+  - @heathmont/moon-assets@10.6.1
+  - @heathmont/moon-charts@10.6.1
+  - @heathmont/moon-components@10.6.1
+  - @heathmont/moon-core@10.6.1
+  - @heathmont/moon-datepicker@10.6.1
+  - @heathmont/moon-draggabletable@10.6.1
+  - @heathmont/moon-icons@10.6.1
+  - @heathmont/moon-pagination@10.6.1
+  - @heathmont/moon-popover@10.6.1
+  - @heathmont/moon-select@10.6.1
+  - @heathmont/moon-sidebar@10.6.1
+  - @heathmont/moon-table@10.6.1
+  - @heathmont/moon-themes@10.6.1
+  - @heathmont/moon-utils@10.6.1
+  - @heathmont/moon-core-tw@10.6.1
+  - @heathmont/moon-table-tw@10.6.1
+  - @heathmont/moon-themes-tw@10.6.1
+
 ## 10.6.0
 
 ### Minor Changes
