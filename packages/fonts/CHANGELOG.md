@@ -1,5 +1,11 @@
 # Change Log
 
+## 10.6.3
+
+### Patch Changes
+
+- Deploy 10.6.3
+
 ## 10.6.2
 
 ### Patch Changes

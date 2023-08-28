@@ -1,5 +1,18 @@
 # Change Log
 
+## 10.6.3
+
+### Patch Changes
+
+- Deploy 10.6.3
+- Updated dependencies
+  - @heathmont/moon-assets@10.6.3
+  - @heathmont/moon-components@10.6.3
+  - @heathmont/moon-core@10.6.3
+  - @heathmont/moon-icons@10.6.3
+  - @heathmont/moon-themes@10.6.3
+  - @heathmont/moon-utils@10.6.3
+
 ## 10.6.2
 
 ### Patch Changes
