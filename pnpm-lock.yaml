@@ -244,8 +244,8 @@ importers:
         specifier: workspace:^10.6.3
         version: link:../packages/icons
       '@heathmont/moon-icons-tw':
-        specifier: 9.28.4
-        version: 9.28.4(react-dom@18.2.0)(react@18.2.0)
+        specifier: 9.28.5
+        version: 9.28.5(react-dom@18.2.0)(react@18.2.0)
       '@heathmont/moon-pagination':
         specifier: workspace:^10.6.3
         version: link:../packages/pagination
@@ -2956,6 +2956,16 @@ packages:
 
   /@heathmont/moon-icons-tw@9.28.4(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-6MZaRqF7ujwe6R1O1edeGKJb1jB9NizMITv6NDxKZspPTWoIfRaArc+4C9XihFRQylcfyzIn3j4111o0UOjDPg==}
+    peerDependencies:
+      react: '>= 18.2.0'
+      react-dom: '>= 18.2.0'
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+    dev: false
+
+  /@heathmont/moon-icons-tw@9.28.5(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-M4rf6Fvy4SeHkYTPYhcT3LPUnXIUErChzs6XjhlVy4O8Csa2TtweyUz/tzwxWKgsuepGCc6mGErE/dzZLKDEWQ==}
     peerDependencies:
       react: '>= 18.2.0'
       react-dom: '>= 18.2.0'
