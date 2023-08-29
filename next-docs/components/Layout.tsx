@@ -20,10 +20,7 @@ const Layout = ({ children, title }: Props) => {
   return (
     <>
       <Head>
-        <title>
-          {SITE_TITLE}
-          {title && ` | ${title}`}
-        </title>
+        <title>{title ? `${SITE_TITLE} | ${title}` : SITE_TITLE}</title>
       </Head>
       <div className="layout bg-goku text-bulma flex">
         {/* Dynamic sidebar with transition for mobile */}
