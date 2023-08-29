@@ -24,7 +24,6 @@ const PageAuthCode = () => {
       <ComponentPageDescription
         title={name}
         image={image}
-        isInProgress
         isAriaSupport
         isRtlSupport
       >
