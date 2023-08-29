@@ -2,50 +2,13 @@ import React, {
   forwardRef,
   useEffect,
   useImperativeHandle,
-  useState,
   useRef,
 } from 'react';
+import type AuthCodeProps from './private/types/AuthCodeProps';
+import type AuthCodeRef from './private/types/AuthCodeTypes';
+import allowedCharactersValues from './private/utils/allowedCharactersValues';
+import propsMap from './private/utils/propsMap';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
-import {
-  AuthCodeProps,
-  allowedCharactersValues,
-} from './private/types/AuthCodeProps';
-import { AuthCodeRef } from './private/types/AuthCodeTypes';
-import getInputSizes from './private/utils/getInputSizes';
-
-type InputMode = 'text' | 'numeric';
-
-type InputType = 'text' | 'tel' | 'password';
-
-type InputProps = {
-  type: InputType;
-  inputMode: InputMode;
-  pattern: string;
-  min?: string;
-  max?: string;
-};
-
-const propsMap: { [key: string]: InputProps } = {
-  alpha: {
-    type: 'text',
-    inputMode: 'text',
-    pattern: '[\\w]{1}',
-  },
-
-  alphanumeric: {
-    type: 'text',
-    inputMode: 'text',
-    pattern: '[\\w\\d]{1}',
-  },
-
-  numeric: {
-    type: 'tel',
-    inputMode: 'numeric',
-    pattern: '[0-9]{1}',
-    min: '0',
-    max: '9',
-  },
-};
 
 const AuthCode = forwardRef<AuthCodeRef, AuthCodeProps>(
   (
@@ -54,11 +17,7 @@ const AuthCode = forwardRef<AuthCodeRef, AuthCodeProps>(
       ariaLabel,
       autoFocus = false,
       className,
-      stretch = false, // TODO Deprecated.
-      expandable = false, // TODO Deprecated.
       disabled,
-      inputClassName, // TODO Deprecated.
-      inputSize = 'lg',
       isPassword = false,
       length = 6,
       placeholder,
@@ -196,24 +155,20 @@ const AuthCode = forwardRef<AuthCodeRef, AuthCodeProps>(
           }}
           maxLength={1}
           className={mergeClassnames(
-            'h-14 w-[2.875rem] rounded-xl bg-gohan',
-            getInputSizes(inputSize),
-            'm-0 py-3 appearance-none text-bulma box-border text-center',
-            'shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none',
-            'focus-visible::shadow-input-focus focus-visible::outline-none',
+            'h-[72px] w-full max-w-[48px] rounded-moon-i-sm bg-gohan text-moon-24 appearance-none',
+            'text-bulma text-center shadow-input hover:shadow-input-hov transition-shadow py-4',
+            'focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus',
+            'focus-visible::outline-none',
             !isValid &&
               'text-chichi shadow-input-err hover:shadow-input-err focus:shadow-input-err',
             disabled &&
-              'opacity-60 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed',
-            stretch && 'flex', // TODO Deprecated.
-            stretch && expandable && 'grow', // TODO Deprecated.
-            inputClassName // TODO Deprecated.
+              'opacity-60 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed'
           )}
           autoComplete={i === 0 ? 'one-time-code' : 'off'}
           aria-label={
             ariaLabel
-              ? `${ariaLabel}. Character ${i + 1}.`
-              : `Character ${i + 1}.`
+              ? `${ariaLabel}. Character ${i + 1}`
+              : `Character ${i + 1}`
           }
           disabled={disabled}
           placeholder={placeholder && placeholder[i]}
@@ -222,15 +177,7 @@ const AuthCode = forwardRef<AuthCodeRef, AuthCodeProps>(
     }
 
     return (
-      <div
-        className={mergeClassnames(
-          'flex flex-row justify-center gap-2',
-          stretch && 'justify-between', // TODO Deprecated.
-          className
-        )}
-      >
-        {inputs}
-      </div>
+      <div className={mergeClassnames('flex gap-2', className)}>{inputs}</div>
     );
   }
 );

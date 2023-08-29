@@ -7,7 +7,6 @@ type Props = {
   isAriaSupport?: boolean;
   isRtlSupport?: boolean;
   isInProgress?: boolean;
-  isInDevelopment?: boolean;
   isDeprecated?: boolean;
   children: React.ReactNode;
 };
@@ -18,7 +17,6 @@ const ComponentPageDescription: React.FC<Props> = ({
   isAriaSupport,
   isRtlSupport,
   isInProgress,
-  isInDevelopment,
   isDeprecated,
   children,
 }) => {
@@ -39,11 +37,6 @@ const ComponentPageDescription: React.FC<Props> = ({
               {isInProgress && (
                 <Tag size="2xs" className="bg-krillin text-popo">
                   In progress
-                </Tag>
-              )}
-              {isInDevelopment && (
-                <Tag size="2xs" className="bg-chichi text-popo">
-                  In Development - Do not use in production
                 </Tag>
               )}
               {isAriaSupport && (
