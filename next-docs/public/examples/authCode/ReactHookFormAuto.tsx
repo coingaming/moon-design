@@ -5,7 +5,9 @@ import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
 
 const schema = z.object({
-  authCode: z.string().length(6, { message: 'Must be exactly 6 characters long' }),
+  authCode: z
+    .string()
+    .length(6, { message: 'Must be exactly 6 characters long' }),
 });
 
 type ValidationSchema = z.infer<typeof schema>;
@@ -15,31 +17,27 @@ const Example = () => {
     defaultValues: {
       authCode: '',
     },
-    resolver: zodResolver(schema)
+    resolver: zodResolver(schema),
   });
-
   const onSubmit: SubmitHandler<ValidationSchema> = ({ authCode }) => {
     if (authCode.length === 6) {
       alert(`Code sent: "${authCode}"`);
     }
   };
-
   return (
-    <Form
-      onSubmit={handleSubmit(onSubmit)}
-    >
+    <Form onSubmit={handleSubmit(onSubmit)}>
       <Controller
-        name='authCode'
+        name="authCode"
         control={control}
-        render={({ field }) =>
+        render={({ field }) => (
           <AuthCode
             {...field}
-            onChange={
-              (value: string) => {
-                field.onChange(value);
-                onSubmit({ authCode: value });
-              }}
-          />}
+            onChange={(value: string) => {
+              field.onChange(value);
+              onSubmit({ authCode: value });
+            }}
+          />
+        )}
       />
     </Form>
   );

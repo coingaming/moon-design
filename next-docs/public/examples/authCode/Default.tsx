@@ -6,8 +6,7 @@ const Example = () => {
   const handleOnChange = (res: string) => {
     setResult(res);
   };
-
   return <AuthCode onChange={handleOnChange} />;
-}
+};
 
 export default Example;

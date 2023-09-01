@@ -9,11 +9,10 @@ import ReactHookForm from '../ReactHookForm';
 import ReactHookFormAuto from '../ReactHookFormAuto';
 import AllowedCharacters from '../AllowedCharacters';
 import FourChars from '../FourChars';
-import Expandable from '../Expandable';
 import IsPassword from '../IsPassword';
+import Gaps from '../Gaps';
 import Placeholder from '../Placeholder';
-import Sizes from '../Sizes';
-import Stretch from '../Stretch';
+import Hint from '../Hint';
 
 const withRtl = (component: JSX.Element) => <div dir="rtl">{component}</div>;
 
@@ -43,24 +42,20 @@ describe('AuthCode', () => {
     const tree = render(<ErrorState />);
     expect(tree).toMatchSnapshot();
   });
-  it('renders Placeholder', () => {
-    const tree = render(<Placeholder />);
+  it('renders Hint', () => {
+    const tree = render(<Hint />);
     expect(tree).toMatchSnapshot();
   });
-  it('renders Sizes', () => {
-    const tree = render(<Sizes />);
+  it('renders Placeholder', () => {
+    const tree = render(<Placeholder />);
     expect(tree).toMatchSnapshot();
   });
   it('renders IsPassword', () => {
     const tree = render(<IsPassword />);
     expect(tree).toMatchSnapshot();
   });
-  it('renders Stretch', () => {
-    const tree = render(<Stretch />);
-    expect(tree).toMatchSnapshot();
-  });
-  it('renders Expandable', () => {
-    const tree = render(<Expandable />);
+  it('renders Gaps', () => {
+    const tree = render(<Gaps />);
     expect(tree).toMatchSnapshot();
   });
 });
@@ -91,24 +86,20 @@ describe('AuthCode in RTL', () => {
     const tree = render(withRtl(<ErrorState />));
     expect(tree).toMatchSnapshot();
   });
-  it('renders Placeholder', () => {
-    const tree = render(withRtl(<Placeholder />));
+  it('renders Hint', () => {
+    const tree = render(withRtl(<Hint />));
     expect(tree).toMatchSnapshot();
   });
-  it('renders Sizes', () => {
-    const tree = render(withRtl(<Sizes />));
+  it('renders Placeholder', () => {
+    const tree = render(withRtl(<Placeholder />));
     expect(tree).toMatchSnapshot();
   });
   it('renders IsPassword', () => {
     const tree = render(withRtl(<IsPassword />));
     expect(tree).toMatchSnapshot();
   });
-  it('renders Stretch', () => {
-    const tree = render(withRtl(<Stretch />));
-    expect(tree).toMatchSnapshot();
-  });
-  it('renders Expandable', () => {
-    const tree = render(withRtl(<Expandable />));
+  it('renders Gaps', () => {
+    const tree = render(withRtl(<Gaps />));
     expect(tree).toMatchSnapshot();
   });
 });

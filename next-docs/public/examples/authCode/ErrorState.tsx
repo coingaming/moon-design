@@ -11,39 +11,41 @@ const schema = z.object({
 type ValidationSchema = z.infer<typeof schema>;
 
 const Example = () => {
-  const { control, handleSubmit, formState: { isValid, errors }, trigger } = useForm({
+  const {
+    control,
+    handleSubmit,
+    formState: { isValid, errors },
+    trigger,
+  } = useForm({
     defaultValues: {
       authCode: '',
     },
-    resolver: zodResolver(schema)
+    resolver: zodResolver(schema),
   });
-
-  const onSubmit: SubmitHandler<ValidationSchema> =
-    (data: ValidationSchema) => console.log('onSubmit: ', data);
-
+  const onSubmit: SubmitHandler<ValidationSchema> = (data: ValidationSchema) =>
+    console.log('onSubmit: ', data);
   // Trigger validation for this example
   useEffect(() => {
-    trigger('authCode')
-  }, [])
-
+    trigger('authCode');
+  }, []);
   return (
     <Form
       onSubmit={handleSubmit(onSubmit)}
+      className="flex items-center flex-col"
     >
       <Controller
-        name='authCode'
+        name="authCode"
         control={control}
-        render={({ field }) =>
-          <div className='flex flex-col gap-2'>
-            <AuthCode
-              {...field}
-              isValid={isValid}
-            />
-            {!isValid && <Hint error className='!p-0'>
-             {errors.authCode?.message}
-            </Hint>}
-          </div>
-        }
+        render={({ field }) => (
+          <>
+            <AuthCode {...field} isValid={isValid} />
+            {!isValid && (
+              <Hint error className="!ps-0">
+                {errors.authCode?.message}
+              </Hint>
+            )}
+          </>
+        )}
       />
     </Form>
   );

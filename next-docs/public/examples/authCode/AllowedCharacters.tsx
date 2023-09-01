@@ -6,11 +6,7 @@ const Example = () => {
   const handleOnChange = (res: string) => {
     setResult(res);
   };
-
-  return <AuthCode
-    allowedCharacters='numeric'
-    onChange={handleOnChange}
-  />;
+  return <AuthCode allowedCharacters="numeric" onChange={handleOnChange} />;
 };
 
 export default Example;
