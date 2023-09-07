@@ -3,7 +3,7 @@ import { Checkbox, Loader, Button } from '@heathmont/moon-core-tw';
 import useTransform from './hooks/useTransform';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { camelCase, upperFirst } from 'lodash';
-import { GenericClose } from '@heathmont/moon-icons';
+import { GenericClose } from '@heathmont/moon-icons-tw';
 import CodeSnippet from '../../components/codePreview/CodeSnippet';
 
 const DEFAULT_NAME = 'SvgComponent';
@@ -48,10 +48,10 @@ const IconPreview: React.FC<IconPreviewProps> = ({
     setCopied(false);
   }, [file]);
 
-  if (error)
+  if (!error)
     return (
       <div className="flex flex-col gap-6 text-chichi">
-        <GenericClose fontSize="2rem" />
+        <GenericClose className="text-moon-32" />
         <span className="text-moon-16">
           Corrupted file or file type is not supported
         </span>
