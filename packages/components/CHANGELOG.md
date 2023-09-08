@@ -1,5 +1,16 @@
 # Change Log
 
+## 10.7.1
+
+### Patch Changes
+
+- Deploy 10.7.1
+- Updated dependencies
+  - @heathmont/moon-assets@10.7.1
+  - @heathmont/moon-icons@10.7.1
+  - @heathmont/moon-themes@10.7.1
+  - @heathmont/moon-utils@10.7.1
+
 ## 10.7.0
 
 ### Minor Changes
