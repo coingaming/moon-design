@@ -21,6 +21,7 @@ type Themes = {
   tradeart: ColorModes;
   tradeartMiniBetting: ColorModes;
   travel: ColorModes;
+  pay: ColorModes;
 };
 
 export const themes: Themes = {
@@ -79,6 +80,10 @@ export const themes: Themes = {
   travel: {
     dark: 'theme-travel-light',
     light: 'theme-travel-light',
+  },
+  pay: {
+    dark: 'theme-pay-light',
+    light: 'theme-pay-light',
   },
 };
 
