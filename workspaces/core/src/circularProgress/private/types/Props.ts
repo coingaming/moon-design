@@ -1,10 +1,11 @@
 import type Sizes from './Sizes';
 
-type Props = {
+type Props = React.HTMLAttributes<SVGElement> & {
   size?: Sizes;
   value?: number;
-  bgColor?: string;
-  progressColor?: string;
+  bgColor?: string; // deprecated
+  progressColor?: string; // deprecated
+  className?: string;
 };
 
 export default Props;
