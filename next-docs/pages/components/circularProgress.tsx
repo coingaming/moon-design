@@ -19,7 +19,6 @@ const PageCircularProgress = () => {
       <ComponentPageDescription
         title={name}
         image={image}
-        isInProgress
         isRtlSupport
         isAriaSupport
       >
