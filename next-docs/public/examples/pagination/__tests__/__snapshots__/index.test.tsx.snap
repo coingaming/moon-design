@@ -483,7 +483,7 @@ Object {
         <div
           class="flex justify-center items-center w-full select-none"
         >
-          <div
+          <a
             aria-disabled="true"
             class=""
             disabled=""
@@ -514,7 +514,7 @@ Object {
                 class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
               />
             </button>
-          </div>
+          </a>
           <nav
             aria-label="pagination"
             class="flex gap-1 items-center justify-center w-full h-10 text-moon-14 flex-grow"
@@ -522,7 +522,7 @@ Object {
             <a
               aria-label="page 1"
               class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-goten bg-piccolo font-medium"
-              href="#"
+              href="#?1"
               tabindex="0"
             >
               1
@@ -530,7 +530,7 @@ Object {
             <a
               aria-label="page 2"
               class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
-              href="#"
+              href="#?2"
               tabindex="0"
             >
               2
@@ -538,7 +538,7 @@ Object {
             <a
               aria-label="page 3"
               class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
-              href="#"
+              href="#?3"
               tabindex="0"
             >
               3
@@ -551,15 +551,16 @@ Object {
             <a
               aria-label="page 10"
               class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
-              href="#"
+              href="#?10"
               tabindex="0"
             >
               10
             </a>
           </nav>
-          <div
+          <a
             aria-disabled="false"
             class=""
+            href="#?2"
           >
             <button
               aria-label="Next"
@@ -586,7 +587,7 @@ Object {
                 class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
               />
             </button>
-          </div>
+          </a>
         </div>
       </div>
     </div>
@@ -598,7 +599,7 @@ Object {
       <div
         class="flex justify-center items-center w-full select-none"
       >
-        <div
+        <a
           aria-disabled="true"
           class=""
           disabled=""
@@ -629,7 +630,7 @@ Object {
               class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
             />
           </button>
-        </div>
+        </a>
         <nav
           aria-label="pagination"
           class="flex gap-1 items-center justify-center w-full h-10 text-moon-14 flex-grow"
@@ -637,7 +638,7 @@ Object {
           <a
             aria-label="page 1"
             class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-goten bg-piccolo font-medium"
-            href="#"
+            href="#?1"
             tabindex="0"
           >
             1
@@ -645,7 +646,7 @@ Object {
           <a
             aria-label="page 2"
             class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
-            href="#"
+            href="#?2"
             tabindex="0"
           >
             2
@@ -653,7 +654,7 @@ Object {
           <a
             aria-label="page 3"
             class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
-            href="#"
+            href="#?3"
             tabindex="0"
           >
             3
@@ -666,15 +667,16 @@ Object {
           <a
             aria-label="page 10"
             class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
-            href="#"
+            href="#?10"
             tabindex="0"
           >
             10
           </a>
         </nav>
-        <div
+        <a
           aria-disabled="false"
           class=""
+          href="#?2"
         >
           <button
             aria-label="Next"
@@ -701,7 +703,7 @@ Object {
               class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
             />
           </button>
-        </div>
+        </a>
       </div>
     </div>
   </div>,
@@ -1223,7 +1225,7 @@ Object {
       <div
         class="flex justify-center items-center w-full select-none"
       >
-        <div
+        <a
           aria-disabled="true"
           class=""
           disabled=""
@@ -1254,7 +1256,7 @@ Object {
               class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
             />
           </button>
-        </div>
+        </a>
         <nav
           aria-label="pagination"
           class="flex gap-1 items-center justify-center w-full h-10 text-moon-14 flex-grow"
@@ -1262,7 +1264,7 @@ Object {
           <a
             aria-label="page 1"
             class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-goten bg-piccolo font-medium"
-            href="#"
+            href="#?1"
             tabindex="0"
           >
             1
@@ -1270,7 +1272,7 @@ Object {
           <a
             aria-label="page 2"
             class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
-            href="#"
+            href="#?2"
             tabindex="0"
           >
             2
@@ -1278,7 +1280,7 @@ Object {
           <a
             aria-label="page 3"
             class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
-            href="#"
+            href="#?3"
             tabindex="0"
           >
             3
@@ -1291,15 +1293,16 @@ Object {
           <a
             aria-label="page 10"
             class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
-            href="#"
+            href="#?10"
             tabindex="0"
           >
             10
           </a>
         </nav>
-        <div
+        <a
           aria-disabled="false"
           class=""
+          href="#?2"
         >
           <button
             aria-label="Next"
@@ -1326,7 +1329,7 @@ Object {
               class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
             />
           </button>
-        </div>
+        </a>
       </div>
     </div>
   </body>,
@@ -1334,7 +1337,7 @@ Object {
     <div
       class="flex justify-center items-center w-full select-none"
     >
-      <div
+      <a
         aria-disabled="true"
         class=""
         disabled=""
@@ -1365,7 +1368,7 @@ Object {
             class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
           />
         </button>
-      </div>
+      </a>
       <nav
         aria-label="pagination"
         class="flex gap-1 items-center justify-center w-full h-10 text-moon-14 flex-grow"
@@ -1373,7 +1376,7 @@ Object {
         <a
           aria-label="page 1"
           class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-goten bg-piccolo font-medium"
-          href="#"
+          href="#?1"
           tabindex="0"
         >
           1
@@ -1381,7 +1384,7 @@ Object {
         <a
           aria-label="page 2"
           class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
-          href="#"
+          href="#?2"
           tabindex="0"
         >
           2
@@ -1389,7 +1392,7 @@ Object {
         <a
           aria-label="page 3"
           class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
-          href="#"
+          href="#?3"
           tabindex="0"
         >
           3
@@ -1402,15 +1405,16 @@ Object {
         <a
           aria-label="page 10"
           class="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none transition-colors text-bulma hover:bg-jiren focus:bg-jiren"
-          href="#"
+          href="#?10"
           tabindex="0"
         >
           10
         </a>
       </nav>
-      <div
+      <a
         aria-disabled="false"
         class=""
+        href="#?2"
       >
         <button
           aria-label="Next"
@@ -1437,7 +1441,7 @@ Object {
             class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
           />
         </button>
-      </div>
+      </a>
     </div>
   </div>,
   "debug": [Function],
