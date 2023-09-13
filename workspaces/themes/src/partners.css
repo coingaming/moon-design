@@ -1,6 +1,6 @@
 :root.theme-partners-light,
 .theme-partners-light {
-  --piccolo: 66 150 89; /* #429659 */
+  --piccolo: 0 0 0; /* #000000 */
   --hit: 70 99 163; /* #4663a3 */
   --beerus: 224 224 225; /* #e0e0e1 */
   --gohan: 255 255 255; /* #ffffff */
