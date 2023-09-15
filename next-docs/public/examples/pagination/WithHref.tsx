@@ -5,7 +5,18 @@ import {
   ControlsChevronRightSmall,
 } from '@heathmont/moon-icons-tw';
 
-const hrefsArray = ['#', '#', '#', '#', '#', '#', '#', '#', '#', '#'];
+const hrefsArray = [
+  '#?1',
+  '#?2',
+  '#?3',
+  '#?4',
+  '#?5',
+  '#?6',
+  '#?7',
+  '#?8',
+  '#?9',
+  '#?10',
+];
 
 const Example = () => {
   const [page, setPage] = useState<number>(0);
@@ -20,7 +31,7 @@ const Example = () => {
         currentPage={page}
         setCurrentPage={handlePageChange}
       >
-        <Pagination.PrevButton as="div">
+        <Pagination.PrevButton as="a" href={hrefsArray[page - 1]}>
           {({ disabled }) => (
             <IconButton
               icon={<ControlsChevronLeftSmall className="rtl:rotate-180" />}
@@ -32,7 +43,7 @@ const Example = () => {
           )}
         </Pagination.PrevButton>
         <Pagination.Pages />
-        <Pagination.NextButton as="div">
+        <Pagination.NextButton as="a" href={hrefsArray[page + 1]}>
           {({ disabled }) => (
             <IconButton
               icon={<ControlsChevronRightSmall className="rtl:rotate-180" />}

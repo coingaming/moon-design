@@ -1,5 +1,14 @@
 # docs
 
+## 0.5.2
+
+### Patch Changes
+
+- Deploy 10.7.2
+- Updated dependencies
+  - @heathmont/moon-core-tw@10.7.2
+  - @heathmont/moon-base-tw@10.7.2
+
 ## 0.5.1
 
 ### Patch Changes
