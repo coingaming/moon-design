@@ -1,9 +1,9 @@
-import components from '../components';
-import getComponent from '../getComponent';
-import SearchButton from '../search/SearchButton';
 import Link from './Link';
 import LogoLink from './LogoLink';
 import navigation from './navigation';
+import components from '../components';
+import getComponent from '../getComponent';
+import SearchButton from '../search/SearchButton';
 
 const Sidebar = ({ closeSidebar }: { closeSidebar?: () => void }) => (
   <div className="z-10 fixed top-0 h-screen w-80 flex flex-col flex-grow gap-6 pt-12 pb-28 lg:pb-20 px-5 lg:px-8 bg-goku overflow-y-scroll">

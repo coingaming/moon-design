@@ -41,7 +41,7 @@ Object {
                   value=""
                 />
                 <button
-                  class="cursor-pointer text-trunks text-moon-14 transition absolute ltr:right-4 rtl:left-4 top-1/2 transform -translate-y-1/2"
+                  class="cursor-pointer text-trunks text-moon-14 transition absolute end-4 top-1/2 transform -translate-y-1/2"
                   tabindex="-1"
                   type="button"
                 >
@@ -91,7 +91,7 @@ Object {
                 value=""
               />
               <button
-                class="cursor-pointer text-trunks text-moon-14 transition absolute ltr:right-4 rtl:left-4 top-1/2 transform -translate-y-1/2"
+                class="cursor-pointer text-trunks text-moon-14 transition absolute end-4 top-1/2 transform -translate-y-1/2"
                 tabindex="-1"
                 type="button"
               >
@@ -195,7 +195,7 @@ Object {
                 value=""
               />
               <button
-                class="cursor-pointer text-trunks text-moon-14 transition absolute ltr:right-4 rtl:left-4 top-1/2 transform -translate-y-1/2"
+                class="cursor-pointer text-trunks text-moon-14 transition absolute end-4 top-1/2 transform -translate-y-1/2"
                 tabindex="-1"
                 type="button"
               >
@@ -241,7 +241,7 @@ Object {
               value=""
             />
             <button
-              class="cursor-pointer text-trunks text-moon-14 transition absolute ltr:right-4 rtl:left-4 top-1/2 transform -translate-y-1/2"
+              class="cursor-pointer text-trunks text-moon-14 transition absolute end-4 top-1/2 transform -translate-y-1/2"
               tabindex="-1"
               type="button"
             >
@@ -344,7 +344,7 @@ Object {
                 value=""
               />
               <button
-                class="cursor-pointer text-trunks text-moon-14 transition absolute ltr:right-4 rtl:left-4 top-1/2 transform -translate-y-1/2"
+                class="cursor-pointer text-trunks text-moon-14 transition absolute end-4 top-1/2 transform -translate-y-1/2"
                 tabindex="-1"
                 type="button"
               >
@@ -390,7 +390,7 @@ Object {
               value=""
             />
             <button
-              class="cursor-pointer text-trunks text-moon-14 transition absolute ltr:right-4 rtl:left-4 top-1/2 transform -translate-y-1/2"
+              class="cursor-pointer text-trunks text-moon-14 transition absolute end-4 top-1/2 transform -translate-y-1/2"
               tabindex="-1"
               type="button"
             >
@@ -493,7 +493,7 @@ Object {
                 value=""
               />
               <button
-                class="cursor-pointer text-trunks text-moon-14 transition absolute ltr:right-4 rtl:left-4 top-1/2 transform -translate-y-1/2"
+                class="cursor-pointer text-trunks text-moon-14 transition absolute end-4 top-1/2 transform -translate-y-1/2"
                 tabindex="-1"
                 type="button"
               >
@@ -539,7 +539,7 @@ Object {
               value=""
             />
             <button
-              class="cursor-pointer text-trunks text-moon-14 transition absolute ltr:right-4 rtl:left-4 top-1/2 transform -translate-y-1/2"
+              class="cursor-pointer text-trunks text-moon-14 transition absolute end-4 top-1/2 transform -translate-y-1/2"
               tabindex="-1"
               type="button"
             >

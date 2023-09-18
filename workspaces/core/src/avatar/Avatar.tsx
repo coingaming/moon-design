@@ -1,12 +1,12 @@
 import React from 'react';
-import mergeClassnames from '../mergeClassnames/mergeClassnames';
-import GenericUser from '../private/icons/GenericUser';
+import type AvatarProps from './private/types/AvatarProps';
+import type StatusProps from './private/types/StatusProps';
 import setIconSize from './private/utils/setIconSize';
 import setStatusSize from './private/utils/setStatusSize';
 import StatusDeprecated from './styles/StatusDeprecated'; // deprecated
 import Wrapper from './styles/Wrapper';
-import type AvatarProps from './private/types/AvatarProps';
-import type StatusProps from './private/types/StatusProps';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
+import GenericUser from '../private/icons/GenericUser';
 
 const AvatarRoot = ({
   name, // deprecated
@@ -54,8 +54,8 @@ const Status = ({
       'absolute border-solid border-goku rounded-full bg-roshi',
       position && position.vertical === 'top' && 'top-0',
       position && position.vertical === 'bottom' && 'bottom-0',
-      position && position.horizontal === 'left' && 'ltr:left-0 rtl:right-0',
-      position && position.horizontal === 'right' && 'ltr:right-0 rtl:left-0',
+      position && position.horizontal === 'left' && 'start-0',
+      position && position.horizontal === 'right' && 'end-0',
       className
     )}
   />

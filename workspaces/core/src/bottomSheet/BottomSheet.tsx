@@ -1,16 +1,16 @@
 import React, { ReactNode, useCallback, useEffect, useReducer } from 'react';
 import { Dialog, Transition } from '@headlessui/react';
-import Backdrop from '../backdrop/Backdrop';
-import mergeClassnames from '../mergeClassnames/mergeClassnames';
+import type BottomSheetRootProps from './private/types/BottomSheetRootProps';
+import type DraghandleProps from './private/types/DraghandleProps';
+import type PanelProps from './private/types/PanelProps';
+import type TitleProps from './private/types/TitleProps';
 import BottomSheetContext, {
   useBottomSheetContext,
 } from './private/utils/context';
 import stateReducer from './private/utils/stateReducer';
 import useDrag from './private/utils/useDrag';
-import type BottomSheetRootProps from './private/types/BottomSheetRootProps';
-import type DraghandleProps from './private/types/DraghandleProps';
-import type PanelProps from './private/types/PanelProps';
-import type TitleProps from './private/types/TitleProps';
+import Backdrop from '../backdrop/Backdrop';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
 const BottomSheetRoot = ({
   open,

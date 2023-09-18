@@ -416,7 +416,7 @@ Object {
                       <span
                         aria-checked="false"
                         aria-label="Radio option"
-                        class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                        class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                         role="radio"
                       />
                     </span>
@@ -444,7 +444,7 @@ Object {
                       <span
                         aria-checked="false"
                         aria-label="Radio option"
-                        class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                        class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                         role="radio"
                       />
                     </span>
@@ -472,7 +472,7 @@ Object {
                       <span
                         aria-checked="false"
                         aria-label="Radio option"
-                        class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                        class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                         role="radio"
                       />
                     </span>
@@ -500,7 +500,7 @@ Object {
                       <span
                         aria-checked="false"
                         aria-label="Radio option"
-                        class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                        class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                         role="radio"
                       />
                     </span>
@@ -528,7 +528,7 @@ Object {
                       <span
                         aria-checked="false"
                         aria-label="Radio option"
-                        class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                        class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                         role="radio"
                       />
                     </span>
@@ -556,7 +556,7 @@ Object {
                       <span
                         aria-checked="false"
                         aria-label="Radio option"
-                        class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                        class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                         role="radio"
                       />
                     </span>
@@ -674,7 +674,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Radio option"
-                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                       role="radio"
                     />
                   </span>
@@ -702,7 +702,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Radio option"
-                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                       role="radio"
                     />
                   </span>
@@ -730,7 +730,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Radio option"
-                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                       role="radio"
                     />
                   </span>
@@ -758,7 +758,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Radio option"
-                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                       role="radio"
                     />
                   </span>
@@ -786,7 +786,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Radio option"
-                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                       role="radio"
                     />
                   </span>
@@ -814,7 +814,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Radio option"
-                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                       role="radio"
                     />
                   </span>
@@ -989,7 +989,7 @@ Object {
                       <span
                         aria-checked="false"
                         aria-label="Checkbox"
-                        class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                        class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                         role="checkbox"
                       >
                         <svg
@@ -1033,7 +1033,7 @@ Object {
                       <span
                         aria-checked="false"
                         aria-label="Checkbox"
-                        class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                        class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                         role="checkbox"
                       >
                         <svg
@@ -1077,7 +1077,7 @@ Object {
                       <span
                         aria-checked="false"
                         aria-label="Checkbox"
-                        class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                        class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                         role="checkbox"
                       >
                         <svg
@@ -1121,7 +1121,7 @@ Object {
                       <span
                         aria-checked="false"
                         aria-label="Checkbox"
-                        class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                        class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                         role="checkbox"
                       >
                         <svg
@@ -1165,7 +1165,7 @@ Object {
                       <span
                         aria-checked="false"
                         aria-label="Checkbox"
-                        class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                        class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                         role="checkbox"
                       >
                         <svg
@@ -1209,7 +1209,7 @@ Object {
                       <span
                         aria-checked="false"
                         aria-label="Checkbox"
-                        class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                        class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                         role="checkbox"
                       >
                         <svg
@@ -1343,7 +1343,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Checkbox"
-                      class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                      class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                       role="checkbox"
                     >
                       <svg
@@ -1387,7 +1387,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Checkbox"
-                      class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                      class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                       role="checkbox"
                     >
                       <svg
@@ -1431,7 +1431,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Checkbox"
-                      class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                      class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                       role="checkbox"
                     >
                       <svg
@@ -1475,7 +1475,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Checkbox"
-                      class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                      class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                       role="checkbox"
                     >
                       <svg
@@ -1519,7 +1519,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Checkbox"
-                      class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                      class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                       role="checkbox"
                     >
                       <svg
@@ -1563,7 +1563,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Checkbox"
-                      class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                      class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                       role="checkbox"
                     >
                       <svg
@@ -1753,7 +1753,7 @@ Object {
                       <span
                         aria-checked="false"
                         aria-label="Radio option"
-                        class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                        class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                         role="radio"
                       />
                     </span>
@@ -1781,7 +1781,7 @@ Object {
                       <span
                         aria-checked="false"
                         aria-label="Radio option"
-                        class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                        class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                         role="radio"
                       />
                     </span>
@@ -1809,7 +1809,7 @@ Object {
                       <span
                         aria-checked="false"
                         aria-label="Radio option"
-                        class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                        class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                         role="radio"
                       />
                     </span>
@@ -1837,7 +1837,7 @@ Object {
                       <span
                         aria-checked="false"
                         aria-label="Radio option"
-                        class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                        class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                         role="radio"
                       />
                     </span>
@@ -1865,7 +1865,7 @@ Object {
                       <span
                         aria-checked="false"
                         aria-label="Radio option"
-                        class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                        class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                         role="radio"
                       />
                     </span>
@@ -1893,7 +1893,7 @@ Object {
                       <span
                         aria-checked="false"
                         aria-label="Radio option"
-                        class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                        class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                         role="radio"
                       />
                     </span>
@@ -2010,7 +2010,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Radio option"
-                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                       role="radio"
                     />
                   </span>
@@ -2038,7 +2038,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Radio option"
-                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                       role="radio"
                     />
                   </span>
@@ -2066,7 +2066,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Radio option"
-                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                       role="radio"
                     />
                   </span>
@@ -2094,7 +2094,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Radio option"
-                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                       role="radio"
                     />
                   </span>
@@ -2122,7 +2122,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Radio option"
-                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                       role="radio"
                     />
                   </span>
@@ -2150,7 +2150,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Radio option"
-                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                       role="radio"
                     />
                   </span>
@@ -3088,7 +3088,7 @@ Object {
                       <span
                         aria-checked="false"
                         aria-label="Checkbox"
-                        class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                        class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                         role="checkbox"
                       >
                         <svg
@@ -3132,7 +3132,7 @@ Object {
                       <span
                         aria-checked="false"
                         aria-label="Checkbox"
-                        class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                        class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                         role="checkbox"
                       >
                         <svg
@@ -3176,7 +3176,7 @@ Object {
                       <span
                         aria-checked="false"
                         aria-label="Checkbox"
-                        class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                        class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                         role="checkbox"
                       >
                         <svg
@@ -3220,7 +3220,7 @@ Object {
                       <span
                         aria-checked="false"
                         aria-label="Checkbox"
-                        class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                        class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                         role="checkbox"
                       >
                         <svg
@@ -3264,7 +3264,7 @@ Object {
                       <span
                         aria-checked="false"
                         aria-label="Checkbox"
-                        class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                        class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                         role="checkbox"
                       >
                         <svg
@@ -3308,7 +3308,7 @@ Object {
                       <span
                         aria-checked="false"
                         aria-label="Checkbox"
-                        class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                        class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                         role="checkbox"
                       >
                         <svg
@@ -3567,7 +3567,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Checkbox"
-                      class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                      class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                       role="checkbox"
                     >
                       <svg
@@ -3611,7 +3611,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Checkbox"
-                      class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                      class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                       role="checkbox"
                     >
                       <svg
@@ -3655,7 +3655,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Checkbox"
-                      class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                      class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                       role="checkbox"
                     >
                       <svg
@@ -3699,7 +3699,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Checkbox"
-                      class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                      class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                       role="checkbox"
                     >
                       <svg
@@ -3743,7 +3743,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Checkbox"
-                      class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                      class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                       role="checkbox"
                     >
                       <svg
@@ -3787,7 +3787,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Checkbox"
-                      class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                      class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                       role="checkbox"
                     >
                       <svg
@@ -4591,7 +4591,7 @@ Object {
                       <span
                         aria-checked="false"
                         aria-label="Radio option"
-                        class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                        class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                         role="radio"
                       />
                     </span>
@@ -4619,7 +4619,7 @@ Object {
                       <span
                         aria-checked="false"
                         aria-label="Radio option"
-                        class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                        class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                         role="radio"
                       />
                     </span>
@@ -4647,7 +4647,7 @@ Object {
                       <span
                         aria-checked="false"
                         aria-label="Radio option"
-                        class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                        class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                         role="radio"
                       />
                     </span>
@@ -4675,7 +4675,7 @@ Object {
                       <span
                         aria-checked="false"
                         aria-label="Radio option"
-                        class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                        class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                         role="radio"
                       />
                     </span>
@@ -4703,7 +4703,7 @@ Object {
                       <span
                         aria-checked="false"
                         aria-label="Radio option"
-                        class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                        class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                         role="radio"
                       />
                     </span>
@@ -4731,7 +4731,7 @@ Object {
                       <span
                         aria-checked="false"
                         aria-label="Radio option"
-                        class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                        class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                         role="radio"
                       />
                     </span>
@@ -4960,7 +4960,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Radio option"
-                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                       role="radio"
                     />
                   </span>
@@ -4988,7 +4988,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Radio option"
-                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                       role="radio"
                     />
                   </span>
@@ -5016,7 +5016,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Radio option"
-                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                       role="radio"
                     />
                   </span>
@@ -5044,7 +5044,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Radio option"
-                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                       role="radio"
                     />
                   </span>
@@ -5072,7 +5072,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Radio option"
-                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                       role="radio"
                     />
                   </span>
@@ -5100,7 +5100,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Radio option"
-                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                       role="radio"
                     />
                   </span>
@@ -6879,7 +6879,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Radio option"
-                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                       role="radio"
                     />
                   </span>
@@ -6907,7 +6907,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Radio option"
-                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                       role="radio"
                     />
                   </span>
@@ -6935,7 +6935,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Radio option"
-                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                       role="radio"
                     />
                   </span>
@@ -6963,7 +6963,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Radio option"
-                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                       role="radio"
                     />
                   </span>
@@ -6991,7 +6991,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Radio option"
-                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                       role="radio"
                     />
                   </span>
@@ -7019,7 +7019,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Radio option"
-                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                       role="radio"
                     />
                   </span>
@@ -7133,7 +7133,7 @@ Object {
                   <span
                     aria-checked="false"
                     aria-label="Radio option"
-                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                     role="radio"
                   />
                 </span>
@@ -7161,7 +7161,7 @@ Object {
                   <span
                     aria-checked="false"
                     aria-label="Radio option"
-                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                     role="radio"
                   />
                 </span>
@@ -7189,7 +7189,7 @@ Object {
                   <span
                     aria-checked="false"
                     aria-label="Radio option"
-                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                     role="radio"
                   />
                 </span>
@@ -7217,7 +7217,7 @@ Object {
                   <span
                     aria-checked="false"
                     aria-label="Radio option"
-                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                     role="radio"
                   />
                 </span>
@@ -7245,7 +7245,7 @@ Object {
                   <span
                     aria-checked="false"
                     aria-label="Radio option"
-                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                     role="radio"
                   />
                 </span>
@@ -7273,7 +7273,7 @@ Object {
                   <span
                     aria-checked="false"
                     aria-label="Radio option"
-                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                     role="radio"
                   />
                 </span>
@@ -7444,7 +7444,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Checkbox"
-                      class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                      class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                       role="checkbox"
                     >
                       <svg
@@ -7488,7 +7488,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Checkbox"
-                      class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                      class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                       role="checkbox"
                     >
                       <svg
@@ -7532,7 +7532,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Checkbox"
-                      class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                      class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                       role="checkbox"
                     >
                       <svg
@@ -7576,7 +7576,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Checkbox"
-                      class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                      class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                       role="checkbox"
                     >
                       <svg
@@ -7620,7 +7620,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Checkbox"
-                      class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                      class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                       role="checkbox"
                     >
                       <svg
@@ -7664,7 +7664,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Checkbox"
-                      class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                      class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                       role="checkbox"
                     >
                       <svg
@@ -7794,7 +7794,7 @@ Object {
                   <span
                     aria-checked="false"
                     aria-label="Checkbox"
-                    class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                    class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                     role="checkbox"
                   >
                     <svg
@@ -7838,7 +7838,7 @@ Object {
                   <span
                     aria-checked="false"
                     aria-label="Checkbox"
-                    class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                    class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                     role="checkbox"
                   >
                     <svg
@@ -7882,7 +7882,7 @@ Object {
                   <span
                     aria-checked="false"
                     aria-label="Checkbox"
-                    class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                    class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                     role="checkbox"
                   >
                     <svg
@@ -7926,7 +7926,7 @@ Object {
                   <span
                     aria-checked="false"
                     aria-label="Checkbox"
-                    class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                    class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                     role="checkbox"
                   >
                     <svg
@@ -7970,7 +7970,7 @@ Object {
                   <span
                     aria-checked="false"
                     aria-label="Checkbox"
-                    class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                    class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                     role="checkbox"
                   >
                     <svg
@@ -8014,7 +8014,7 @@ Object {
                   <span
                     aria-checked="false"
                     aria-label="Checkbox"
-                    class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                    class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                     role="checkbox"
                   >
                     <svg
@@ -8200,7 +8200,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Radio option"
-                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                       role="radio"
                     />
                   </span>
@@ -8228,7 +8228,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Radio option"
-                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                       role="radio"
                     />
                   </span>
@@ -8256,7 +8256,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Radio option"
-                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                       role="radio"
                     />
                   </span>
@@ -8284,7 +8284,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Radio option"
-                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                       role="radio"
                     />
                   </span>
@@ -8312,7 +8312,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Radio option"
-                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                       role="radio"
                     />
                   </span>
@@ -8340,7 +8340,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Radio option"
-                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                       role="radio"
                     />
                   </span>
@@ -8453,7 +8453,7 @@ Object {
                   <span
                     aria-checked="false"
                     aria-label="Radio option"
-                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                     role="radio"
                   />
                 </span>
@@ -8481,7 +8481,7 @@ Object {
                   <span
                     aria-checked="false"
                     aria-label="Radio option"
-                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                     role="radio"
                   />
                 </span>
@@ -8509,7 +8509,7 @@ Object {
                   <span
                     aria-checked="false"
                     aria-label="Radio option"
-                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                     role="radio"
                   />
                 </span>
@@ -8537,7 +8537,7 @@ Object {
                   <span
                     aria-checked="false"
                     aria-label="Radio option"
-                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                     role="radio"
                   />
                 </span>
@@ -8565,7 +8565,7 @@ Object {
                   <span
                     aria-checked="false"
                     aria-label="Radio option"
-                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                     role="radio"
                   />
                 </span>
@@ -8593,7 +8593,7 @@ Object {
                   <span
                     aria-checked="false"
                     aria-label="Radio option"
-                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                     role="radio"
                   />
                 </span>
@@ -9519,7 +9519,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Checkbox"
-                      class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                      class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                       role="checkbox"
                     >
                       <svg
@@ -9563,7 +9563,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Checkbox"
-                      class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                      class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                       role="checkbox"
                     >
                       <svg
@@ -9607,7 +9607,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Checkbox"
-                      class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                      class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                       role="checkbox"
                     >
                       <svg
@@ -9651,7 +9651,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Checkbox"
-                      class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                      class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                       role="checkbox"
                     >
                       <svg
@@ -9695,7 +9695,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Checkbox"
-                      class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                      class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                       role="checkbox"
                     >
                       <svg
@@ -9739,7 +9739,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Checkbox"
-                      class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                      class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                       role="checkbox"
                     >
                       <svg
@@ -9994,7 +9994,7 @@ Object {
                   <span
                     aria-checked="false"
                     aria-label="Checkbox"
-                    class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                    class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                     role="checkbox"
                   >
                     <svg
@@ -10038,7 +10038,7 @@ Object {
                   <span
                     aria-checked="false"
                     aria-label="Checkbox"
-                    class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                    class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                     role="checkbox"
                   >
                     <svg
@@ -10082,7 +10082,7 @@ Object {
                   <span
                     aria-checked="false"
                     aria-label="Checkbox"
-                    class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                    class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                     role="checkbox"
                   >
                     <svg
@@ -10126,7 +10126,7 @@ Object {
                   <span
                     aria-checked="false"
                     aria-label="Checkbox"
-                    class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                    class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                     role="checkbox"
                   >
                     <svg
@@ -10170,7 +10170,7 @@ Object {
                   <span
                     aria-checked="false"
                     aria-label="Checkbox"
-                    class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                    class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                     role="checkbox"
                   >
                     <svg
@@ -10214,7 +10214,7 @@ Object {
                   <span
                     aria-checked="false"
                     aria-label="Checkbox"
-                    class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                    class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                     role="checkbox"
                   >
                     <svg
@@ -11006,7 +11006,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Radio option"
-                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                       role="radio"
                     />
                   </span>
@@ -11034,7 +11034,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Radio option"
-                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                       role="radio"
                     />
                   </span>
@@ -11062,7 +11062,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Radio option"
-                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                       role="radio"
                     />
                   </span>
@@ -11090,7 +11090,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Radio option"
-                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                       role="radio"
                     />
                   </span>
@@ -11118,7 +11118,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Radio option"
-                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                       role="radio"
                     />
                   </span>
@@ -11146,7 +11146,7 @@ Object {
                     <span
                       aria-checked="false"
                       aria-label="Radio option"
-                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                      class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                       role="radio"
                     />
                   </span>
@@ -11371,7 +11371,7 @@ Object {
                   <span
                     aria-checked="false"
                     aria-label="Radio option"
-                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                     role="radio"
                   />
                 </span>
@@ -11399,7 +11399,7 @@ Object {
                   <span
                     aria-checked="false"
                     aria-label="Radio option"
-                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                     role="radio"
                   />
                 </span>
@@ -11427,7 +11427,7 @@ Object {
                   <span
                     aria-checked="false"
                     aria-label="Radio option"
-                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                     role="radio"
                   />
                 </span>
@@ -11455,7 +11455,7 @@ Object {
                   <span
                     aria-checked="false"
                     aria-label="Radio option"
-                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                     role="radio"
                   />
                 </span>
@@ -11483,7 +11483,7 @@ Object {
                   <span
                     aria-checked="false"
                     aria-label="Radio option"
-                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                     role="radio"
                   />
                 </span>
@@ -11511,7 +11511,7 @@ Object {
                   <span
                     aria-checked="false"
                     aria-label="Radio option"
-                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+                    class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
                     role="radio"
                   />
                 </span>

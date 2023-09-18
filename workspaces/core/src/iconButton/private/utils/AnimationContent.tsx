@@ -12,7 +12,7 @@ const AnimationContent = ({
   size,
 }: IconButtonSettingsProps) => (
   <span className="block relative h-full pointer-events-none">
-    <span className="flex absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] content-center justify-center">
+    <span className="flex absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 content-center justify-center">
       {animation === 'progress' && (
         <Loader color="currentColor" size={getLoaderSize(size)} />
       )}

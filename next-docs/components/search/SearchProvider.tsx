@@ -1,5 +1,5 @@
 import React, { createContext, useState } from 'react';
-import { SearchCmdk } from '@heathmont/moon-core-tw';
+import { SearchCmdk } from '@heathmont/moon-cmdk-tw';
 import useSearch from './hooks/useSearch';
 import RenderResult from './RenderResults';
 

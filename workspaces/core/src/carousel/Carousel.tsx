@@ -142,7 +142,7 @@ const LeftArrow = ({ children, className, ...rest }: SubcomponentProps) => {
       size="sm"
       className={mergeClassnames(
         'max-sm:hidden shadow-moon-sm bg-gohan text-bulma',
-        'absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -left-4',
+        'absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4',
         className
       )}
       onClick={scrollLeftToStep}
@@ -164,7 +164,7 @@ const RightArrow = ({ children, className, ...rest }: SubcomponentProps) => {
       size="sm"
       className={mergeClassnames(
         'max-sm:hidden shadow-moon-sm bg-gohan text-bulma',
-        'absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -right-4',
+        'absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4',
         className
       )}
       onClick={scrollRightToStep}

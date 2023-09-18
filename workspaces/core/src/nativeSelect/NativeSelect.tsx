@@ -1,9 +1,9 @@
 import React, { ReactNode, forwardRef } from 'react';
+import getSizeStyles from './prvate/getSizeStyles';
 import useFormContext from '../form/private/utils/useFormContext';
 import useFormItemContext from '../form/private/utils/useFormItemContext';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import ControlsChevronDownSmall from '../private/icons/ControlsChevronDownSmall';
-import getSizeStyles from './prvate/getSizeStyles';
 
 type WithChildren<T = {}> = T & { children?: ReactNode };
 
@@ -71,7 +71,7 @@ const NativeSelect = forwardRef<
         </select>
         <ControlsChevronDownSmall
           className={mergeClassnames(
-            'absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none',
+            'absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none',
             'text-trunks flex-shrink-0 transition-transform',
             size === 'sm' ? 'text-moon-16' : 'text-moon-24'
           )}

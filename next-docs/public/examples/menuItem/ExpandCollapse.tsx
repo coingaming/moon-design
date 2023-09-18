@@ -66,7 +66,7 @@ const Example = () => {
 
       <div className="w-56 bg-gohan flex flex-col gap-2 rounded-moon-s-lg p-4">
         <MenuItem>
-          <span className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center">
+          <span className="bg-goku w-6 h-6 rounded-full flex justify-center items-center">
             <p className="font-medium text-moon-10">B</p>
           </span>
           <MenuItem.Title>
@@ -74,7 +74,7 @@ const Example = () => {
           </MenuItem.Title>
         </MenuItem>
         <MenuItem className="ps-6" onClick={toggleClick}>
-          <span className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center">
+          <span className="bg-goku w-6 h-6 rounded-full flex justify-center items-center">
             <p className="font-medium text-moon-10">CX</p>
           </span>
           <MenuItem.Title> Customer...</MenuItem.Title>
@@ -84,13 +84,13 @@ const Example = () => {
         {isOpen && (
           <div className="ps-10">
             <MenuItem>
-              <span className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center">
+              <span className="bg-goku w-6 h-6 rounded-full flex justify-center items-center">
                 <p className="font-medium text-moon-10">S</p>
               </span>
               <MenuItem.Title>Sub nested item</MenuItem.Title>
             </MenuItem>
             <MenuItem>
-              <span className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center">
+              <span className="bg-goku w-6 h-6 rounded-full flex justify-center items-center">
                 <p className="font-medium text-moon-10">S</p>
               </span>
               <MenuItem.Title>Sub nested item</MenuItem.Title>
@@ -99,26 +99,26 @@ const Example = () => {
         )}
 
         <MenuItem className="ps-6">
-          <span className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center">
+          <span className="bg-goku w-6 h-6 rounded-full flex justify-center items-center">
             <p className="font-medium text-moon-10">CX</p>
           </span>
           <MenuItem.Title>Quality...</MenuItem.Title>
         </MenuItem>
         <MenuItem className="ps-6">
-          <span className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center">
+          <span className="bg-goku w-6 h-6 rounded-full flex justify-center items-center">
             <p className="font-medium text-moon-10">RG</p>
           </span>
           <MenuItem.Title>Responsible...</MenuItem.Title>
         </MenuItem>
         <MenuItem className="ps-6">
-          <span className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center">
+          <span className="bg-goku w-6 h-6 rounded-full flex justify-center items-center">
             <p className="font-medium text-moon-10">RG</p>
           </span>
           <MenuItem.Title>Responsible...</MenuItem.Title>
         </MenuItem>
         <div className="flex flex-col gap-2 rounded-moon-s-lg">
           <MenuItem>
-            <span className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center">
+            <span className="bg-goku w-6 h-6 rounded-full flex justify-center items-center">
               <p className="font-medium text-moon-10">S</p>
             </span>
             <MenuItem.Title>
@@ -126,19 +126,19 @@ const Example = () => {
             </MenuItem.Title>
           </MenuItem>
           <MenuItem className="ps-6">
-            <span className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center">
+            <span className="bg-goku w-6 h-6 rounded-full flex justify-center items-center">
               <p className="font-medium text-moon-10">RG</p>
             </span>
             <MenuItem.Title>Customer...</MenuItem.Title>
           </MenuItem>
           <MenuItem className="ps-6">
-            <span className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center">
+            <span className="bg-goku w-6 h-6 rounded-full flex justify-center items-center">
               <p className="font-medium text-moon-10">CX</p>
             </span>
             <MenuItem.Title>Quality...</MenuItem.Title>
           </MenuItem>
           <MenuItem className="ps-6">
-            <span className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center">
+            <span className="bg-goku w-6 h-6 rounded-full flex justify-center items-center">
               <p className="font-medium text-moon-10">RG</p>
             </span>
             <MenuItem.Title>Responsible...</MenuItem.Title>
@@ -146,7 +146,7 @@ const Example = () => {
         </div>
         <div className="flex flex-col gap-2 rounded-moon-s-lg ">
           <MenuItem>
-            <span className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center">
+            <span className="bg-goku w-6 h-6 rounded-full flex justify-center items-center">
               <p className="font-medium text-moon-10">L</p>
             </span>
             <MenuItem.Title>
@@ -154,7 +154,7 @@ const Example = () => {
             </MenuItem.Title>
           </MenuItem>
           <MenuItem className="ps-6">
-            <span className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center">
+            <span className="bg-goku w-6 h-6 rounded-full flex justify-center items-center">
               <p className="font-medium text-moon-10">RG</p>
             </span>
             <MenuItem.Title>Customer...</MenuItem.Title>

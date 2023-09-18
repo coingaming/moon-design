@@ -1,5 +1,53 @@
 # @heathmont/moon-core-tw
 
+## 10.7.2
+
+### Patch Changes
+
+- Deploy 10.7.2
+
+## 10.7.1
+
+### Patch Changes
+
+- Deploy 10.7.1
+
+## 10.7.0
+
+### Minor Changes
+
+- Deploy 10.7.1
+
+## 10.6.3
+
+### Patch Changes
+
+- Deploy 10.6.3
+
+## 10.6.2
+
+### Patch Changes
+
+- Deploy 10.6.2
+
+## 10.6.1
+
+### Patch Changes
+
+- Deploy
+
+## 10.6.0
+
+### Minor Changes
+
+- Deploy 10.6.0
+
+## 10.5.0
+
+### Minor Changes
+
+- Bump version to 10.5.0
+
 ## 10.4.0
 
 ### Minor Changes

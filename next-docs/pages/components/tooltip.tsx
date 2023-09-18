@@ -1,7 +1,7 @@
-import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import type { ComponentNames } from '../../components/getComponent';
 import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import ArrowPositions from '../../public/examples/tooltip/ArrowPositions';
@@ -9,7 +9,6 @@ import Customization from '../../public/examples/tooltip/Customization';
 import Default from '../../public/examples/tooltip/Default';
 import NotPortal from '../../public/examples/tooltip/NotPortal';
 import useComponent from '../../utils/useComponent';
-import type { ComponentNames } from '../../components/getComponent';
 
 const COMPONENT_NAME: ComponentNames = 'Tooltip';
 
@@ -22,6 +21,7 @@ const PageTooltip = () => {
         image={image}
         isInProgress
         isAriaSupport
+        isRtlSupport
       >
         <p>{text}</p>
         <p>
@@ -121,7 +121,7 @@ const PageTooltip = () => {
   );
 };
 
-PageTooltip.getLayout = function getLayout(page: ReactNode) {
+PageTooltip.getLayout = function getLayout(page: React.ReactNode) {
   return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
 };
 

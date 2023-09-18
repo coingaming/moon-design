@@ -21,7 +21,7 @@ Object {
           />
           <span
             aria-hidden="true"
-            class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
+            class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
           >
             <svg
               class="transition-opacity opacity-100"
@@ -61,7 +61,7 @@ Object {
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
         >
           <svg
             class="transition-opacity opacity-100"
@@ -156,7 +156,7 @@ Object {
           />
           <span
             aria-hidden="true"
-            class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+            class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
           >
             <svg
               class="transition-opacity opacity-0"
@@ -186,7 +186,7 @@ Object {
           />
           <span
             aria-hidden="true"
-            class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 shadow-trunks peer-checked:shadow-none text-goten rounded-none"
+            class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 shadow-trunks peer-checked:shadow-none text-goten rounded-none"
           >
             <svg
               class="transition-opacity opacity-0"
@@ -216,7 +216,7 @@ Object {
           />
           <span
             aria-hidden="true"
-            class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs peer-checked:shadow-none text-goten shadow-krillin"
+            class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs peer-checked:shadow-none text-goten shadow-krillin"
           >
             <svg
               class="transition-opacity opacity-0"
@@ -246,7 +246,7 @@ Object {
           />
           <span
             aria-hidden="true"
-            class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-krillin-60"
+            class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-krillin-60"
           >
             <svg
               class="transition-opacity opacity-0"
@@ -283,7 +283,7 @@ Object {
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
         >
           <svg
             class="transition-opacity opacity-0"
@@ -313,7 +313,7 @@ Object {
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 shadow-trunks peer-checked:shadow-none text-goten rounded-none"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 shadow-trunks peer-checked:shadow-none text-goten rounded-none"
         >
           <svg
             class="transition-opacity opacity-0"
@@ -343,7 +343,7 @@ Object {
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs peer-checked:shadow-none text-goten shadow-krillin"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs peer-checked:shadow-none text-goten shadow-krillin"
         >
           <svg
             class="transition-opacity opacity-0"
@@ -373,7 +373,7 @@ Object {
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-krillin-60"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-krillin-60"
         >
           <svg
             class="transition-opacity opacity-0"
@@ -467,7 +467,7 @@ Object {
           />
           <span
             aria-hidden="true"
-            class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+            class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
           >
             <svg
               class="transition-opacity opacity-0"
@@ -504,7 +504,7 @@ Object {
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
         >
           <svg
             class="transition-opacity opacity-0"
@@ -600,7 +600,7 @@ Object {
           />
           <span
             aria-hidden="true"
-            class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+            class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
           >
             <svg
               class="transition-opacity opacity-0"
@@ -634,7 +634,7 @@ Object {
           />
           <span
             aria-hidden="true"
-            class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
+            class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
           >
             <svg
               class="transition-opacity opacity-100"
@@ -674,7 +674,7 @@ Object {
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
         >
           <svg
             class="transition-opacity opacity-0"
@@ -708,7 +708,7 @@ Object {
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
         >
           <svg
             class="transition-opacity opacity-100"
@@ -805,7 +805,7 @@ Object {
             />
             <span
               aria-hidden="true"
-              class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+              class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
             >
               <svg
                 class="transition-opacity opacity-0"
@@ -838,7 +838,7 @@ Object {
               />
               <span
                 aria-hidden="true"
-                class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+                class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
               >
                 <svg
                   class="transition-opacity opacity-0"
@@ -868,7 +868,7 @@ Object {
               />
               <span
                 aria-hidden="true"
-                class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+                class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
               >
                 <svg
                   class="transition-opacity opacity-0"
@@ -910,7 +910,7 @@ Object {
           />
           <span
             aria-hidden="true"
-            class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+            class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
           >
             <svg
               class="transition-opacity opacity-0"
@@ -943,7 +943,7 @@ Object {
             />
             <span
               aria-hidden="true"
-              class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+              class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
             >
               <svg
                 class="transition-opacity opacity-0"
@@ -973,7 +973,7 @@ Object {
             />
             <span
               aria-hidden="true"
-              class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+              class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
             >
               <svg
                 class="transition-opacity opacity-0"
@@ -1072,7 +1072,7 @@ Object {
           />
           <span
             aria-hidden="true"
-            class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+            class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
           >
             <svg
               class="transition-opacity opacity-0"
@@ -1106,7 +1106,7 @@ Object {
           />
           <span
             aria-hidden="true"
-            class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
+            class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
           >
             <svg
               class="transition-opacity opacity-100"
@@ -1146,7 +1146,7 @@ Object {
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
         >
           <svg
             class="transition-opacity opacity-0"
@@ -1180,7 +1180,7 @@ Object {
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
         >
           <svg
             class="transition-opacity opacity-100"
@@ -1276,7 +1276,7 @@ Object {
           />
           <span
             aria-hidden="true"
-            class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+            class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
           >
             <svg
               class="transition-opacity opacity-0"
@@ -1315,7 +1315,7 @@ Object {
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
         >
           <svg
             class="transition-opacity opacity-0"
@@ -1409,7 +1409,7 @@ Object {
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
         >
           <svg
             class="transition-opacity opacity-100"
@@ -1445,7 +1445,7 @@ Object {
       />
       <span
         aria-hidden="true"
-        class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
+        class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
       >
         <svg
           class="transition-opacity opacity-100"
@@ -1536,7 +1536,7 @@ Object {
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
         >
           <svg
             class="transition-opacity opacity-0"
@@ -1566,7 +1566,7 @@ Object {
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 shadow-trunks peer-checked:shadow-none text-goten rounded-none"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 shadow-trunks peer-checked:shadow-none text-goten rounded-none"
         >
           <svg
             class="transition-opacity opacity-0"
@@ -1596,7 +1596,7 @@ Object {
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs peer-checked:shadow-none text-goten shadow-krillin"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs peer-checked:shadow-none text-goten shadow-krillin"
         >
           <svg
             class="transition-opacity opacity-0"
@@ -1626,7 +1626,7 @@ Object {
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-krillin-60"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-krillin-60"
         >
           <svg
             class="transition-opacity opacity-0"
@@ -1659,7 +1659,7 @@ Object {
       />
       <span
         aria-hidden="true"
-        class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+        class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
       >
         <svg
           class="transition-opacity opacity-0"
@@ -1689,7 +1689,7 @@ Object {
       />
       <span
         aria-hidden="true"
-        class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 shadow-trunks peer-checked:shadow-none text-goten rounded-none"
+        class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 shadow-trunks peer-checked:shadow-none text-goten rounded-none"
       >
         <svg
           class="transition-opacity opacity-0"
@@ -1719,7 +1719,7 @@ Object {
       />
       <span
         aria-hidden="true"
-        class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs peer-checked:shadow-none text-goten shadow-krillin"
+        class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs peer-checked:shadow-none text-goten shadow-krillin"
       >
         <svg
           class="transition-opacity opacity-0"
@@ -1749,7 +1749,7 @@ Object {
       />
       <span
         aria-hidden="true"
-        class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-krillin-60"
+        class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-krillin-60"
       >
         <svg
           class="transition-opacity opacity-0"
@@ -1839,7 +1839,7 @@ Object {
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
         >
           <svg
             class="transition-opacity opacity-0"
@@ -1872,7 +1872,7 @@ Object {
       />
       <span
         aria-hidden="true"
-        class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+        class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
       >
         <svg
           class="transition-opacity opacity-0"
@@ -1964,7 +1964,7 @@ Object {
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
         >
           <svg
             class="transition-opacity opacity-0"
@@ -1998,7 +1998,7 @@ Object {
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
         >
           <svg
             class="transition-opacity opacity-100"
@@ -2034,7 +2034,7 @@ Object {
       />
       <span
         aria-hidden="true"
-        class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+        class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
       >
         <svg
           class="transition-opacity opacity-0"
@@ -2068,7 +2068,7 @@ Object {
       />
       <span
         aria-hidden="true"
-        class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
+        class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
       >
         <svg
           class="transition-opacity opacity-100"
@@ -2161,7 +2161,7 @@ Object {
           />
           <span
             aria-hidden="true"
-            class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+            class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
           >
             <svg
               class="transition-opacity opacity-0"
@@ -2194,7 +2194,7 @@ Object {
             />
             <span
               aria-hidden="true"
-              class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+              class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
             >
               <svg
                 class="transition-opacity opacity-0"
@@ -2224,7 +2224,7 @@ Object {
             />
             <span
               aria-hidden="true"
-              class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+              class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
             >
               <svg
                 class="transition-opacity opacity-0"
@@ -2262,7 +2262,7 @@ Object {
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
         >
           <svg
             class="transition-opacity opacity-0"
@@ -2295,7 +2295,7 @@ Object {
           />
           <span
             aria-hidden="true"
-            class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+            class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
           >
             <svg
               class="transition-opacity opacity-0"
@@ -2325,7 +2325,7 @@ Object {
           />
           <span
             aria-hidden="true"
-            class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+            class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
           >
             <svg
               class="transition-opacity opacity-0"
@@ -2420,7 +2420,7 @@ Object {
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
         >
           <svg
             class="transition-opacity opacity-0"
@@ -2454,7 +2454,7 @@ Object {
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
         >
           <svg
             class="transition-opacity opacity-100"
@@ -2490,7 +2490,7 @@ Object {
       />
       <span
         aria-hidden="true"
-        class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+        class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
       >
         <svg
           class="transition-opacity opacity-0"
@@ -2524,7 +2524,7 @@ Object {
       />
       <span
         aria-hidden="true"
-        class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
+        class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
       >
         <svg
           class="transition-opacity opacity-100"
@@ -2616,7 +2616,7 @@ Object {
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
         >
           <svg
             class="transition-opacity opacity-0"
@@ -2651,7 +2651,7 @@ Object {
       />
       <span
         aria-hidden="true"
-        class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+        class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
       >
         <svg
           class="transition-opacity opacity-0"

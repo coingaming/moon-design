@@ -1,7 +1,7 @@
-import { ReactNode } from 'react';
 import Link from 'next/link';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import type { ComponentNames } from '../../components/getComponent';
 import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Bg from '../../public/examples/nativeSelect/Bg';
@@ -9,7 +9,6 @@ import Default from '../../public/examples/nativeSelect/Default';
 import Sizes from '../../public/examples/nativeSelect/Sizes';
 import States from '../../public/examples/nativeSelect/States';
 import useComponent from '../../utils/useComponent';
-import type { ComponentNames } from '../../components/getComponent';
 
 const COMPONENT_NAME: ComponentNames = 'NativeSelect';
 
@@ -17,7 +16,12 @@ const PageNativeSelect = () => {
   const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
-      <ComponentPageDescription title={name} image={image} isAriaSupport>
+      <ComponentPageDescription
+        title={name}
+        image={image}
+        isAriaSupport
+        isRtlSupport
+      >
         <p>{text}</p>
         <p>
           When collapsed it shows the currently selected option and when
@@ -91,7 +95,7 @@ const PageNativeSelect = () => {
   );
 };
 
-PageNativeSelect.getLayout = function getLayout(page: ReactNode) {
+PageNativeSelect.getLayout = function getLayout(page: React.ReactNode) {
   return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
 };
 

@@ -13,3 +13,4 @@ import './bombayClub.css';
 import './hub88.css';
 import './travel.css';
 import './comms.css';
+import './pay.css';

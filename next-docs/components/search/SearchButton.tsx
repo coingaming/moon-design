@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { SearchCmdk } from '@heathmont/moon-core-tw';
+import { SearchCmdk } from '@heathmont/moon-cmdk-tw';
 import { SearchContext } from '../../components/search/SearchProvider';
 
 const SearchButton: React.FC = () => {

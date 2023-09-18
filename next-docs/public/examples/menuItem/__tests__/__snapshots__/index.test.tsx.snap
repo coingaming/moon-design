@@ -101,7 +101,7 @@ Object {
             <span
               aria-checked="false"
               aria-label="Checkbox"
-              class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+              class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
               role="checkbox"
             >
               <svg
@@ -142,7 +142,7 @@ Object {
             <span
               aria-checked="false"
               aria-label="Checkbox"
-              class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 text-goten moon-checked:shadow-none rounded-none shadow-roshi moon-checked:bg-roshi"
+              class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 text-goten moon-checked:shadow-none rounded-none shadow-roshi moon-checked:bg-roshi"
               role="checkbox"
             >
               <svg
@@ -180,7 +180,7 @@ Object {
           <span
             aria-checked="false"
             aria-label="Checkbox"
-            class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+            class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
             role="checkbox"
           >
             <svg
@@ -221,7 +221,7 @@ Object {
           <span
             aria-checked="false"
             aria-label="Checkbox"
-            class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 text-goten moon-checked:shadow-none rounded-none shadow-roshi moon-checked:bg-roshi"
+            class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 text-goten moon-checked:shadow-none rounded-none shadow-roshi moon-checked:bg-roshi"
             role="checkbox"
           >
             <svg
@@ -521,7 +521,7 @@ Object {
               type="button"
             >
               <span
-                class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+                class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
               >
                 <p
                   class="font-medium text-moon-10"
@@ -544,7 +544,7 @@ Object {
               type="button"
             >
               <span
-                class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+                class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
               >
                 <p
                   class="font-medium text-moon-10"
@@ -581,7 +581,7 @@ Object {
                 type="button"
               >
                 <span
-                  class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+                  class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
                 >
                   <p
                     class="font-medium text-moon-10"
@@ -600,7 +600,7 @@ Object {
                 type="button"
               >
                 <span
-                  class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+                  class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
                 >
                   <p
                     class="font-medium text-moon-10"
@@ -620,7 +620,7 @@ Object {
               type="button"
             >
               <span
-                class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+                class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
               >
                 <p
                   class="font-medium text-moon-10"
@@ -639,7 +639,7 @@ Object {
               type="button"
             >
               <span
-                class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+                class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
               >
                 <p
                   class="font-medium text-moon-10"
@@ -658,7 +658,7 @@ Object {
               type="button"
             >
               <span
-                class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+                class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
               >
                 <p
                   class="font-medium text-moon-10"
@@ -680,7 +680,7 @@ Object {
                 type="button"
               >
                 <span
-                  class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+                  class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
                 >
                   <p
                     class="font-medium text-moon-10"
@@ -703,7 +703,7 @@ Object {
                 type="button"
               >
                 <span
-                  class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+                  class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
                 >
                   <p
                     class="font-medium text-moon-10"
@@ -722,7 +722,7 @@ Object {
                 type="button"
               >
                 <span
-                  class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+                  class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
                 >
                   <p
                     class="font-medium text-moon-10"
@@ -741,7 +741,7 @@ Object {
                 type="button"
               >
                 <span
-                  class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+                  class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
                 >
                   <p
                     class="font-medium text-moon-10"
@@ -764,7 +764,7 @@ Object {
                 type="button"
               >
                 <span
-                  class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+                  class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
                 >
                   <p
                     class="font-medium text-moon-10"
@@ -787,7 +787,7 @@ Object {
                 type="button"
               >
                 <span
-                  class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+                  class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
                 >
                   <p
                     class="font-medium text-moon-10"
@@ -943,7 +943,7 @@ Object {
             type="button"
           >
             <span
-              class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+              class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
             >
               <p
                 class="font-medium text-moon-10"
@@ -966,7 +966,7 @@ Object {
             type="button"
           >
             <span
-              class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+              class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
             >
               <p
                 class="font-medium text-moon-10"
@@ -1003,7 +1003,7 @@ Object {
               type="button"
             >
               <span
-                class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+                class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
               >
                 <p
                   class="font-medium text-moon-10"
@@ -1022,7 +1022,7 @@ Object {
               type="button"
             >
               <span
-                class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+                class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
               >
                 <p
                   class="font-medium text-moon-10"
@@ -1042,7 +1042,7 @@ Object {
             type="button"
           >
             <span
-              class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+              class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
             >
               <p
                 class="font-medium text-moon-10"
@@ -1061,7 +1061,7 @@ Object {
             type="button"
           >
             <span
-              class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+              class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
             >
               <p
                 class="font-medium text-moon-10"
@@ -1080,7 +1080,7 @@ Object {
             type="button"
           >
             <span
-              class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+              class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
             >
               <p
                 class="font-medium text-moon-10"
@@ -1102,7 +1102,7 @@ Object {
               type="button"
             >
               <span
-                class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+                class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
               >
                 <p
                   class="font-medium text-moon-10"
@@ -1125,7 +1125,7 @@ Object {
               type="button"
             >
               <span
-                class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+                class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
               >
                 <p
                   class="font-medium text-moon-10"
@@ -1144,7 +1144,7 @@ Object {
               type="button"
             >
               <span
-                class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+                class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
               >
                 <p
                   class="font-medium text-moon-10"
@@ -1163,7 +1163,7 @@ Object {
               type="button"
             >
               <span
-                class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+                class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
               >
                 <p
                   class="font-medium text-moon-10"
@@ -1186,7 +1186,7 @@ Object {
               type="button"
             >
               <span
-                class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+                class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
               >
                 <p
                   class="font-medium text-moon-10"
@@ -1209,7 +1209,7 @@ Object {
               type="button"
             >
               <span
-                class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+                class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
               >
                 <p
                   class="font-medium text-moon-10"
@@ -1298,11 +1298,10 @@ Object {
             type="button"
           >
             <span
-              class="bg-piccolo/20 rounded-lg w-10 h-10 flex justify-center items-center"
+              class="bg-piccolo/10 rounded-moon-i-sm w-10 h-10 flex justify-center items-center"
             >
               <svg
-                class="text-moon-24"
-                color="#4E46B4"
+                class="text-moon-24 text-piccolo"
                 fill="none"
                 height="1em"
                 viewBox="0 0 32 32"
@@ -1342,11 +1341,10 @@ Object {
             type="button"
           >
             <span
-              class="bg-[#3448F01F]/20 rounded-lg w-10 h-10 flex justify-center items-center"
+              class="bg-piccolo/10 rounded-moon-i-sm w-10 h-10 flex justify-center items-center"
             >
               <svg
-                class="text-moon-24"
-                color="#3448F0"
+                class="text-moon-24 text-piccolo"
                 fill="none"
                 height="1em"
                 viewBox="0 0 32 32"
@@ -1382,18 +1380,17 @@ Object {
             </span>
           </button>
           <hr
-            class="w-80 border-px border-solid border-beerus left-6 top-40  self-stretch"
+            class="border-top border-beerus"
           />
           <button
             class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
             type="button"
           >
             <span
-              class="bg-[#FFB3191F]/20 rounded-lg w-10 h-10 flex justify-center items-center"
+              class="bg-krillin-10 rounded-moon-i-sm w-10 h-10 flex justify-center items-center"
             >
               <svg
-                class="text-moon-24"
-                color="#FFB319"
+                class="text-moon-24 text-krillin"
                 fill="none"
                 height="1em"
                 viewBox="0 0 32 32"
@@ -1433,11 +1430,10 @@ Object {
             type="button"
           >
             <span
-              class="bg-[#FF4E641F]/20 rounded-lg w-10 h-10 flex justify-center items-center"
+              class="bg-chichi-10 rounded-moon-i-sm w-10 h-10 flex justify-center items-center"
             >
               <svg
-                class="text-moon-24"
-                color="#FF4E64"
+                class="text-moon-24 text-chichi"
                 fill="none"
                 height="1em"
                 viewBox="0 0 32 32"
@@ -1488,11 +1484,10 @@ Object {
           type="button"
         >
           <span
-            class="bg-piccolo/20 rounded-lg w-10 h-10 flex justify-center items-center"
+            class="bg-piccolo/10 rounded-moon-i-sm w-10 h-10 flex justify-center items-center"
           >
             <svg
-              class="text-moon-24"
-              color="#4E46B4"
+              class="text-moon-24 text-piccolo"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -1532,11 +1527,10 @@ Object {
           type="button"
         >
           <span
-            class="bg-[#3448F01F]/20 rounded-lg w-10 h-10 flex justify-center items-center"
+            class="bg-piccolo/10 rounded-moon-i-sm w-10 h-10 flex justify-center items-center"
           >
             <svg
-              class="text-moon-24"
-              color="#3448F0"
+              class="text-moon-24 text-piccolo"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -1572,18 +1566,17 @@ Object {
           </span>
         </button>
         <hr
-          class="w-80 border-px border-solid border-beerus left-6 top-40  self-stretch"
+          class="border-top border-beerus"
         />
         <button
           class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
           type="button"
         >
           <span
-            class="bg-[#FFB3191F]/20 rounded-lg w-10 h-10 flex justify-center items-center"
+            class="bg-krillin-10 rounded-moon-i-sm w-10 h-10 flex justify-center items-center"
           >
             <svg
-              class="text-moon-24"
-              color="#FFB319"
+              class="text-moon-24 text-krillin"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -1623,11 +1616,10 @@ Object {
           type="button"
         >
           <span
-            class="bg-[#FF4E641F]/20 rounded-lg w-10 h-10 flex justify-center items-center"
+            class="bg-chichi-10 rounded-moon-i-sm w-10 h-10 flex justify-center items-center"
           >
             <svg
-              class="text-moon-24"
-              color="#FF4E64"
+              class="text-moon-24 text-chichi"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -1824,7 +1816,7 @@ Object {
               <span
                 aria-checked="false"
                 aria-label="Checkbox"
-                class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+                class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
                 role="checkbox"
               >
                 <svg
@@ -1950,7 +1942,7 @@ Object {
             <span
               aria-checked="false"
               aria-label="Checkbox"
-              class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+              class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
               role="checkbox"
             >
               <svg
@@ -2046,7 +2038,7 @@ Object {
             <span
               aria-checked="false"
               aria-label="Radio option"
-              class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+              class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
               role="radio"
             />
           </span>
@@ -2071,7 +2063,7 @@ Object {
             <span
               aria-checked="false"
               aria-label="Radio option"
-              class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:transition-transform after:scale-0 moon-checked:after:scale-100 moon-checked:shadow-hit after:bg-hit"
+              class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:transition-transform after:scale-0 moon-checked:after:scale-100 moon-checked:shadow-hit after:bg-hit"
               role="radio"
             />
           </span>
@@ -2093,7 +2085,7 @@ Object {
           <span
             aria-checked="false"
             aria-label="Radio option"
-            class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+            class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
             role="radio"
           />
         </span>
@@ -2118,7 +2110,7 @@ Object {
           <span
             aria-checked="false"
             aria-label="Radio option"
-            class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:transition-transform after:scale-0 moon-checked:after:scale-100 moon-checked:shadow-hit after:bg-hit"
+            class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:transition-transform after:scale-0 moon-checked:after:scale-100 moon-checked:shadow-hit after:bg-hit"
             role="radio"
           />
         </span>
@@ -2595,7 +2587,7 @@ Object {
           <span
             aria-checked="false"
             aria-label="Checkbox"
-            class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+            class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
             role="checkbox"
           >
             <svg
@@ -2636,7 +2628,7 @@ Object {
           <span
             aria-checked="false"
             aria-label="Checkbox"
-            class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 text-goten moon-checked:shadow-none rounded-none shadow-roshi moon-checked:bg-roshi"
+            class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 text-goten moon-checked:shadow-none rounded-none shadow-roshi moon-checked:bg-roshi"
             role="checkbox"
           >
             <svg
@@ -2670,7 +2662,7 @@ Object {
         <span
           aria-checked="false"
           aria-label="Checkbox"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
           role="checkbox"
         >
           <svg
@@ -2711,7 +2703,7 @@ Object {
         <span
           aria-checked="false"
           aria-label="Checkbox"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 text-goten moon-checked:shadow-none rounded-none shadow-roshi moon-checked:bg-roshi"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 text-goten moon-checked:shadow-none rounded-none shadow-roshi moon-checked:bg-roshi"
           role="checkbox"
         >
           <svg
@@ -2999,7 +2991,7 @@ Object {
             type="button"
           >
             <span
-              class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+              class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
             >
               <p
                 class="font-medium text-moon-10"
@@ -3022,7 +3014,7 @@ Object {
             type="button"
           >
             <span
-              class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+              class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
             >
               <p
                 class="font-medium text-moon-10"
@@ -3059,7 +3051,7 @@ Object {
               type="button"
             >
               <span
-                class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+                class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
               >
                 <p
                   class="font-medium text-moon-10"
@@ -3078,7 +3070,7 @@ Object {
               type="button"
             >
               <span
-                class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+                class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
               >
                 <p
                   class="font-medium text-moon-10"
@@ -3098,7 +3090,7 @@ Object {
             type="button"
           >
             <span
-              class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+              class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
             >
               <p
                 class="font-medium text-moon-10"
@@ -3117,7 +3109,7 @@ Object {
             type="button"
           >
             <span
-              class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+              class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
             >
               <p
                 class="font-medium text-moon-10"
@@ -3136,7 +3128,7 @@ Object {
             type="button"
           >
             <span
-              class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+              class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
             >
               <p
                 class="font-medium text-moon-10"
@@ -3158,7 +3150,7 @@ Object {
               type="button"
             >
               <span
-                class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+                class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
               >
                 <p
                   class="font-medium text-moon-10"
@@ -3181,7 +3173,7 @@ Object {
               type="button"
             >
               <span
-                class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+                class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
               >
                 <p
                   class="font-medium text-moon-10"
@@ -3200,7 +3192,7 @@ Object {
               type="button"
             >
               <span
-                class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+                class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
               >
                 <p
                   class="font-medium text-moon-10"
@@ -3219,7 +3211,7 @@ Object {
               type="button"
             >
               <span
-                class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+                class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
               >
                 <p
                   class="font-medium text-moon-10"
@@ -3242,7 +3234,7 @@ Object {
               type="button"
             >
               <span
-                class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+                class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
               >
                 <p
                   class="font-medium text-moon-10"
@@ -3265,7 +3257,7 @@ Object {
               type="button"
             >
               <span
-                class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+                class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
               >
                 <p
                   class="font-medium text-moon-10"
@@ -3417,7 +3409,7 @@ Object {
           type="button"
         >
           <span
-            class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+            class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
           >
             <p
               class="font-medium text-moon-10"
@@ -3440,7 +3432,7 @@ Object {
           type="button"
         >
           <span
-            class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+            class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
           >
             <p
               class="font-medium text-moon-10"
@@ -3477,7 +3469,7 @@ Object {
             type="button"
           >
             <span
-              class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+              class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
             >
               <p
                 class="font-medium text-moon-10"
@@ -3496,7 +3488,7 @@ Object {
             type="button"
           >
             <span
-              class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+              class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
             >
               <p
                 class="font-medium text-moon-10"
@@ -3516,7 +3508,7 @@ Object {
           type="button"
         >
           <span
-            class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+            class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
           >
             <p
               class="font-medium text-moon-10"
@@ -3535,7 +3527,7 @@ Object {
           type="button"
         >
           <span
-            class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+            class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
           >
             <p
               class="font-medium text-moon-10"
@@ -3554,7 +3546,7 @@ Object {
           type="button"
         >
           <span
-            class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+            class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
           >
             <p
               class="font-medium text-moon-10"
@@ -3576,7 +3568,7 @@ Object {
             type="button"
           >
             <span
-              class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+              class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
             >
               <p
                 class="font-medium text-moon-10"
@@ -3599,7 +3591,7 @@ Object {
             type="button"
           >
             <span
-              class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+              class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
             >
               <p
                 class="font-medium text-moon-10"
@@ -3618,7 +3610,7 @@ Object {
             type="button"
           >
             <span
-              class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+              class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
             >
               <p
                 class="font-medium text-moon-10"
@@ -3637,7 +3629,7 @@ Object {
             type="button"
           >
             <span
-              class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+              class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
             >
               <p
                 class="font-medium text-moon-10"
@@ -3660,7 +3652,7 @@ Object {
             type="button"
           >
             <span
-              class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+              class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
             >
               <p
                 class="font-medium text-moon-10"
@@ -3683,7 +3675,7 @@ Object {
             type="button"
           >
             <span
-              class="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+              class="bg-goku w-6 h-6 rounded-full flex justify-center items-center"
             >
               <p
                 class="font-medium text-moon-10"
@@ -3768,11 +3760,10 @@ Object {
           type="button"
         >
           <span
-            class="bg-piccolo/20 rounded-lg w-10 h-10 flex justify-center items-center"
+            class="bg-piccolo/10 rounded-moon-i-sm w-10 h-10 flex justify-center items-center"
           >
             <svg
-              class="text-moon-24"
-              color="#4E46B4"
+              class="text-moon-24 text-piccolo"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -3812,11 +3803,10 @@ Object {
           type="button"
         >
           <span
-            class="bg-[#3448F01F]/20 rounded-lg w-10 h-10 flex justify-center items-center"
+            class="bg-piccolo/10 rounded-moon-i-sm w-10 h-10 flex justify-center items-center"
           >
             <svg
-              class="text-moon-24"
-              color="#3448F0"
+              class="text-moon-24 text-piccolo"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -3852,18 +3842,17 @@ Object {
           </span>
         </button>
         <hr
-          class="w-80 border-px border-solid border-beerus left-6 top-40  self-stretch"
+          class="border-top border-beerus"
         />
         <button
           class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
           type="button"
         >
           <span
-            class="bg-[#FFB3191F]/20 rounded-lg w-10 h-10 flex justify-center items-center"
+            class="bg-krillin-10 rounded-moon-i-sm w-10 h-10 flex justify-center items-center"
           >
             <svg
-              class="text-moon-24"
-              color="#FFB319"
+              class="text-moon-24 text-krillin"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -3903,11 +3892,10 @@ Object {
           type="button"
         >
           <span
-            class="bg-[#FF4E641F]/20 rounded-lg w-10 h-10 flex justify-center items-center"
+            class="bg-chichi-10 rounded-moon-i-sm w-10 h-10 flex justify-center items-center"
           >
             <svg
-              class="text-moon-24"
-              color="#FF4E64"
+              class="text-moon-24 text-chichi"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -3954,11 +3942,10 @@ Object {
         type="button"
       >
         <span
-          class="bg-piccolo/20 rounded-lg w-10 h-10 flex justify-center items-center"
+          class="bg-piccolo/10 rounded-moon-i-sm w-10 h-10 flex justify-center items-center"
         >
           <svg
-            class="text-moon-24"
-            color="#4E46B4"
+            class="text-moon-24 text-piccolo"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -3998,11 +3985,10 @@ Object {
         type="button"
       >
         <span
-          class="bg-[#3448F01F]/20 rounded-lg w-10 h-10 flex justify-center items-center"
+          class="bg-piccolo/10 rounded-moon-i-sm w-10 h-10 flex justify-center items-center"
         >
           <svg
-            class="text-moon-24"
-            color="#3448F0"
+            class="text-moon-24 text-piccolo"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -4038,18 +4024,17 @@ Object {
         </span>
       </button>
       <hr
-        class="w-80 border-px border-solid border-beerus left-6 top-40  self-stretch"
+        class="border-top border-beerus"
       />
       <button
         class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
         type="button"
       >
         <span
-          class="bg-[#FFB3191F]/20 rounded-lg w-10 h-10 flex justify-center items-center"
+          class="bg-krillin-10 rounded-moon-i-sm w-10 h-10 flex justify-center items-center"
         >
           <svg
-            class="text-moon-24"
-            color="#FFB319"
+            class="text-moon-24 text-krillin"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -4089,11 +4074,10 @@ Object {
         type="button"
       >
         <span
-          class="bg-[#FF4E641F]/20 rounded-lg w-10 h-10 flex justify-center items-center"
+          class="bg-chichi-10 rounded-moon-i-sm w-10 h-10 flex justify-center items-center"
         >
           <svg
-            class="text-moon-24"
-            color="#FF4E64"
+            class="text-moon-24 text-chichi"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -4286,7 +4270,7 @@ Object {
             <span
               aria-checked="false"
               aria-label="Checkbox"
-              class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+              class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
               role="checkbox"
             >
               <svg
@@ -4408,7 +4392,7 @@ Object {
           <span
             aria-checked="false"
             aria-label="Checkbox"
-            class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+            class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
             role="checkbox"
           >
             <svg
@@ -4500,7 +4484,7 @@ Object {
           <span
             aria-checked="false"
             aria-label="Radio option"
-            class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+            class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
             role="radio"
           />
         </span>
@@ -4525,7 +4509,7 @@ Object {
           <span
             aria-checked="false"
             aria-label="Radio option"
-            class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:transition-transform after:scale-0 moon-checked:after:scale-100 moon-checked:shadow-hit after:bg-hit"
+            class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:transition-transform after:scale-0 moon-checked:after:scale-100 moon-checked:shadow-hit after:bg-hit"
             role="radio"
           />
         </span>
@@ -4543,7 +4527,7 @@ Object {
         <span
           aria-checked="false"
           aria-label="Radio option"
-          class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+          class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
           role="radio"
         />
       </span>
@@ -4568,7 +4552,7 @@ Object {
         <span
           aria-checked="false"
           aria-label="Radio option"
-          class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:transition-transform after:scale-0 moon-checked:after:scale-100 moon-checked:shadow-hit after:bg-hit"
+          class="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2 after:transition-transform after:scale-0 moon-checked:after:scale-100 moon-checked:shadow-hit after:bg-hit"
           role="radio"
         />
       </span>

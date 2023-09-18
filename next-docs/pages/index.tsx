@@ -1,4 +1,3 @@
-import { ReactNode } from 'react';
 import { Tag } from '@heathmont/moon-core-tw';
 import dynamic from 'next/dynamic';
 import Contributors from '../components/facing/Contributors';
@@ -21,7 +20,7 @@ const PageHome = () => (
       </Tag>
       <div className="flex flex-col gap-16">
         <PageTitle />
-        <div className="flex flex-col lg:flex-row gap-4 3xl:fixed 3xl:top-12 ltr:3xl:right-12 rtl:3xl:left-12 3xl:z-10">
+        <div className="flex flex-col lg:flex-row gap-4 3xl:fixed 3xl:top-12 3xl:end-12 3xl:z-10">
           <ForDevelopers />
           <ForDesigners />
         </div>
@@ -34,7 +33,7 @@ const PageHome = () => (
   </>
 );
 
-PageHome.getLayout = function getLayout(page: ReactNode) {
+PageHome.getLayout = function getLayout(page: React.ReactNode) {
   return <Layout>{page}</Layout>;
 };
 
