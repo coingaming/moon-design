@@ -1,3 +1,9 @@
-type ButtonVariants = 'primary' | 'secondary' | 'tertiary' | 'ghost';
+type ButtonVariants =
+  | 'primary'
+  | 'secondary'
+  | 'tertiary'
+  | 'fill'
+  | 'outline'
+  | 'ghost';
 
 export default ButtonVariants;

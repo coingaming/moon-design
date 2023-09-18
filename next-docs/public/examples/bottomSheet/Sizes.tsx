@@ -26,7 +26,7 @@ const Example = () => {
   return (
     <>
       <div>
-        <Button variant="secondary" onClick={openSmallBottomSheet}>
+        <Button variant="outline" onClick={openSmallBottomSheet}>
           Default small BottomSheet
         </Button>
         <BottomSheet open={isSmallOpen} onClose={closeSmallBottomSheet}>
@@ -40,7 +40,7 @@ const Example = () => {
         </BottomSheet>
       </div>
       <div>
-        <Button variant="secondary" onClick={openMediumBottomSheet}>
+        <Button variant="outline" onClick={openMediumBottomSheet}>
           Medium BottomSheet
         </Button>
         <BottomSheet open={isMediumOpen} onClose={closeMediumBottomSheet}>
@@ -54,7 +54,7 @@ const Example = () => {
         </BottomSheet>
       </div>
       <div>
-        <Button variant="secondary" onClick={openFullBottomSheet}>
+        <Button variant="outline" onClick={openFullBottomSheet}>
           Fullscreen BottomSheet
         </Button>
         <BottomSheet open={isFullOpen} onClose={closeFullBottomSheet}>

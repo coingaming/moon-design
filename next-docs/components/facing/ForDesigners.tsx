@@ -36,22 +36,22 @@ const ForDesigners = () => (
         href="https://www.figma.com/community/file/1002945721703152933"
         target="_blank"
         rel="noreferrer"
-        variant="secondary"
+        variant="outline"
       >
         Figma
       </Button>
       <Link href="/gettingStarted" passHref legacyBehavior>
-        <Button as="a" variant="secondary">
+        <Button as="a" variant="outline">
           Getting Started
         </Button>
       </Link>
       <Link href="/typography" passHref legacyBehavior>
-        <Button as="a" variant="secondary">
+        <Button as="a" variant="outline">
           Typography
         </Button>
       </Link>
       <Link href="/colours" passHref legacyBehavior>
-        <Button as="a" variant="secondary">
+        <Button as="a" variant="outline">
           Colour Convention
         </Button>
       </Link>

@@ -21,7 +21,7 @@ const PreviewSwitch = ({
       {!isPreviewActive && (
         <IconButton
           icon={<FilesCopy className="text-moon-24" />}
-          variant="secondary"
+          variant="outline"
           onClick={copyCode}
           size="lg"
           aria-label="Copy code"
