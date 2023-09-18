@@ -8,6 +8,7 @@ type Options = {
   scrollStep?: number;
   scrollInContainer?: boolean;
   scrollTo?: number;
+  isRtl?: boolean;
 };
 
 const findLastVisibleIndex = (childRefs: any[]): any => {
@@ -29,13 +30,15 @@ const scrollToIndex = (
   itemRef: HTMLElement,
   scrollIntoViewSmoothly: any,
   containerRef?: any,
-  scrollStep?: number
+  scrollStep?: number,
+  isNotSmooth?: boolean,
+  isRtl?: boolean
 ) => {
   if (itemRef) {
     scrollIntoViewSmoothly(itemRef, {
       block: 'nearest',
       inline: scrollStep === 1 ? 'center' : 'nearest',
-      behavior: 'smooth',
+      behavior: isNotSmooth ? undefined : 'smooth',
       boundary: containerRef,
     });
   }
@@ -130,7 +133,7 @@ export const withHorizontalScroll = (options: Options): any => {
   const [itemsCount, setItemsCount] = React.useState(0);
   const containerRef = React.useRef(null);
 
-  const { scrollStep, scrollInContainer, scrollTo } = options;
+  const { scrollStep, scrollInContainer, scrollTo, isRtl } = options;
 
   const itemRefs: HTMLElement[] = [];
   let scrollIntoViewSmoothly: any = scrollIntoView;
@@ -184,27 +187,50 @@ export const withHorizontalScroll = (options: Options): any => {
     setItemsCount(itemRefs.length);
   };
 
+  //If RTL is enabled, scroll to the last element of the items array
+  React.useEffect(() => {
+    if (!itemRefs.length) return;
+    setItemsCount(itemRefs.length);
+    if (isRtl) {
+      scrollToIndex(
+        itemRefs[itemRefs.length - 1],
+        scrollIntoViewSmoothly,
+        scrollInContainer && containerRef && containerRef.current,
+        undefined,
+        true
+      );
+    }
+  }, []);
+
   React.useEffect(() => {
     if (!scrollTo || !itemRefs.length) {
       return;
     }
+    const revertSrollTo = itemRefs.length - scrollTo - 1;
+    const currentScrollTo = isRtl ? revertSrollTo : scrollTo;
     // We scroll for another extra item because we defined our THRESHOLD = 0.75;
     // It means that item will be visible for 75%.
     // We scroll one more to guarantee 100% visibility.
     // "items.length - 1" because indices start from 0.
-    if (scrollTo && scrollTo < itemRefs.length - 1) {
+    if (currentScrollTo && currentScrollTo < itemRefs.length - 1) {
       scrollToIndex(
-        itemRefs[scrollTo + 1],
+        itemRefs[currentScrollTo + 1],
         scrollIntoViewSmoothly,
-        scrollInContainer && containerRef && containerRef.current
+        scrollInContainer && containerRef && containerRef.current,
+        undefined,
+        false,
+        isRtl
       );
     }
     // No point for scroll another extra item because that's the last one
-    if (scrollTo && scrollTo === itemRefs.length - 1) {
+    if (currentScrollTo && currentScrollTo === itemRefs.length - 1) {
       scrollToIndex(
-        itemRefs[scrollTo],
+        itemRefs[currentScrollTo],
         scrollIntoViewSmoothly,
-        scrollInContainer && containerRef && containerRef.current
+        scrollInContainer && containerRef && containerRef.current,
+        undefined,
+        false,
+        isRtl
       );
     }
   }, []);

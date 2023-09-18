@@ -4,6 +4,7 @@ type CarouselRootProps = {
   step?: number;
   selectedIndex?: number;
   autoSlideDelay?: number;
+  isRtl?: boolean;
   children?:
     | React.ReactNode
     | ((data: {

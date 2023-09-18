@@ -11,8 +11,7 @@ import VisibleIndex from '../VisibleIndex';
 import Indicators from '../Indicators';
 import SelectIndex from '../SelectIndex';
 import Autoslide from '../Autoslide';
-
-const withRtl = (component: JSX.Element) => <div dir="rtl">{component}</div>;
+import Rtl from '../Rtl';
 
 describe('Carousel', () => {
   afterEach(cleanup);
@@ -44,36 +43,8 @@ describe('Carousel', () => {
     const tree = render(<Autoslide />);
     expect(tree).toMatchSnapshot();
   });
-});
-
-describe('Carousel in RTL', () => {
-  afterEach(cleanup);
-  it('renders Default', () => {
-    const tree = render(withRtl(<Default />));
-    expect(tree).toMatchSnapshot();
-  });
-  it('renders Spaces', () => {
-    const tree = render(withRtl(<Spaces />));
-    expect(tree).toMatchSnapshot();
-  });
-  it('renders CustomizedArrow', () => {
-    const tree = render(withRtl(<CustomizedArrow />));
-    expect(tree).toMatchSnapshot();
-  });
-  it('renders VisibleIndex', () => {
-    const tree = render(withRtl(<VisibleIndex />));
-    expect(tree).toMatchSnapshot();
-  });
-  it('renders Indicators', () => {
-    const tree = render(withRtl(<Indicators />));
-    expect(tree).toMatchSnapshot();
-  });
-  it('renders SelectIndex', () => {
-    const tree = render(withRtl(<SelectIndex />));
-    expect(tree).toMatchSnapshot();
-  });
-  it('renders Autoslide', () => {
-    const tree = render(withRtl(<Autoslide />));
+  it('renders in RTL', () => {
+    const tree = render(<Rtl />);
     expect(tree).toMatchSnapshot();
   });
 });
