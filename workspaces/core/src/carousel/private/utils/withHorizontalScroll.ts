@@ -31,8 +31,7 @@ const scrollToIndex = (
   scrollIntoViewSmoothly: any,
   containerRef?: any,
   scrollStep?: number,
-  isNotSmooth?: boolean,
-  isRtl?: boolean
+  isNotSmooth?: boolean
 ) => {
   if (itemRef) {
     scrollIntoViewSmoothly(itemRef, {
@@ -218,8 +217,7 @@ export const withHorizontalScroll = (options: Options): any => {
         scrollIntoViewSmoothly,
         scrollInContainer && containerRef && containerRef.current,
         undefined,
-        false,
-        isRtl
+        false
       );
     }
     // No point for scroll another extra item because that's the last one
@@ -229,8 +227,7 @@ export const withHorizontalScroll = (options: Options): any => {
         scrollIntoViewSmoothly,
         scrollInContainer && containerRef && containerRef.current,
         undefined,
-        false,
-        isRtl
+        false
       );
     }
   }, []);
