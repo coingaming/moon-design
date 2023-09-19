@@ -42,7 +42,7 @@ const CarouselRoot = ({
       if (canScrollLeft) {
         scrollLeftToStep();
       } else {
-        scrollToIndex(0);
+        scrollToIndex(itemsCount - 1);
       }
     } else {
       if (canScrollRight) {
