@@ -11,7 +11,7 @@ const Example = () => {
   };
   return (
     <>
-      <Button variant="secondary" onClick={openBottomSheet}>
+      <Button variant="outline" onClick={openBottomSheet}>
         Customized BottomSheet
       </Button>
       <BottomSheet open={isOpen} onClose={closeBottomSheet}>

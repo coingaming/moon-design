@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import Hover from '../button/styles/Hover';
+import type IconButtonProps from './private/types/IconButtonProps';
 import AnimationContent from './private/utils/AnimationContent';
 import getAriaLabel from './private/utils/getAriaLabel';
 import IconButtonComponent from './styles/IconButtonComponent';
 import type ButtonVariants from '../button/private/types/ButtonVariants';
-import type IconButtonProps from './private/types/IconButtonProps';
+import Hover from '../button/styles/Hover';
 
 type Props<C extends React.ElementType> = React.PropsWithChildren<
   IconButtonProps<C>
@@ -13,7 +13,7 @@ type Props<C extends React.ElementType> = React.PropsWithChildren<
 
 const IconButton = <C extends React.ElementType = 'button'>({
   children,
-  variant = 'primary',
+  variant = 'fill',
   size = 'md',
   icon,
   disabled,

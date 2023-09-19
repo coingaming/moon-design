@@ -35,7 +35,7 @@ const Example = () => {
           {({ disabled }) => (
             <IconButton
               icon={<ControlsChevronLeftSmall className="rtl:rotate-180" />}
-              variant="secondary"
+              variant="outline"
               size="sm"
               disabled={disabled}
               aria-label="Previous"
@@ -47,7 +47,7 @@ const Example = () => {
           {({ disabled }) => (
             <IconButton
               icon={<ControlsChevronRightSmall className="rtl:rotate-180" />}
-              variant="secondary"
+              variant="outline"
               size="sm"
               disabled={disabled}
               aria-label="Next"

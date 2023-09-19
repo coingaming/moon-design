@@ -707,7 +707,7 @@ Object {
         >
           <button
             aria-label="Scroll left"
-            class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4"
             disabled=""
             type="button"
           >
@@ -861,7 +861,7 @@ Object {
           </ul>
           <button
             aria-label="Scroll right"
-            class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4"
             disabled=""
             type="button"
           >
@@ -897,7 +897,7 @@ Object {
       >
         <button
           aria-label="Scroll left"
-          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4"
           disabled=""
           type="button"
         >
@@ -1051,7 +1051,7 @@ Object {
         </ul>
         <button
           aria-label="Scroll right"
-          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4"
           disabled=""
           type="button"
         >
@@ -1144,7 +1144,7 @@ Object {
         >
           <button
             aria-label="Scroll left"
-            class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4"
             disabled=""
             type="button"
           >
@@ -1198,7 +1198,7 @@ Object {
           </ul>
           <button
             aria-label="Scroll right"
-            class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4"
             disabled=""
             type="button"
           >
@@ -1253,7 +1253,7 @@ Object {
       >
         <button
           aria-label="Scroll left"
-          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4"
           disabled=""
           type="button"
         >
@@ -1307,7 +1307,7 @@ Object {
         </ul>
         <button
           aria-label="Scroll right"
-          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4"
           disabled=""
           type="button"
         >
@@ -1632,7 +1632,7 @@ Object {
         >
           <button
             aria-label="Scroll left"
-            class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4"
             disabled=""
             type="button"
           >
@@ -1686,7 +1686,7 @@ Object {
           </ul>
           <button
             aria-label="Scroll right"
-            class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4"
             disabled=""
             type="button"
           >
@@ -1722,7 +1722,7 @@ Object {
       >
         <button
           aria-label="Scroll left"
-          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4"
           disabled=""
           type="button"
         >
@@ -1776,7 +1776,7 @@ Object {
         </ul>
         <button
           aria-label="Scroll right"
-          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4"
           disabled=""
           type="button"
         >
@@ -1869,7 +1869,7 @@ Object {
         >
           <button
             aria-label="Scroll left"
-            class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4"
             disabled=""
             type="button"
           >
@@ -2023,7 +2023,7 @@ Object {
           </ul>
           <button
             aria-label="Scroll right"
-            class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4"
             disabled=""
             type="button"
           >
@@ -2059,7 +2059,7 @@ Object {
       >
         <button
           aria-label="Scroll left"
-          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4"
           disabled=""
           type="button"
         >
@@ -2213,7 +2213,7 @@ Object {
         </ul>
         <button
           aria-label="Scroll right"
-          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4"
           disabled=""
           type="button"
         >
@@ -2981,7 +2981,7 @@ Object {
       >
         <button
           aria-label="Scroll left"
-          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4"
           disabled=""
           type="button"
         >
@@ -3135,7 +3135,7 @@ Object {
         </ul>
         <button
           aria-label="Scroll right"
-          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4"
           disabled=""
           type="button"
         >
@@ -3167,7 +3167,7 @@ Object {
     >
       <button
         aria-label="Scroll left"
-        class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4"
+        class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4"
         disabled=""
         type="button"
       >
@@ -3321,7 +3321,7 @@ Object {
       </ul>
       <button
         aria-label="Scroll right"
-        class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4"
+        class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4"
         disabled=""
         type="button"
       >
@@ -3410,7 +3410,7 @@ Object {
       >
         <button
           aria-label="Scroll left"
-          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4"
           disabled=""
           type="button"
         >
@@ -3464,7 +3464,7 @@ Object {
         </ul>
         <button
           aria-label="Scroll right"
-          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4"
           disabled=""
           type="button"
         >
@@ -3515,7 +3515,7 @@ Object {
     >
       <button
         aria-label="Scroll left"
-        class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4"
+        class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4"
         disabled=""
         type="button"
       >
@@ -3569,7 +3569,7 @@ Object {
       </ul>
       <button
         aria-label="Scroll right"
-        class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4"
+        class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4"
         disabled=""
         type="button"
       >
@@ -3882,7 +3882,7 @@ Object {
       >
         <button
           aria-label="Scroll left"
-          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4"
           disabled=""
           type="button"
         >
@@ -3936,7 +3936,7 @@ Object {
         </ul>
         <button
           aria-label="Scroll right"
-          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4"
           disabled=""
           type="button"
         >
@@ -3968,7 +3968,7 @@ Object {
     >
       <button
         aria-label="Scroll left"
-        class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4"
+        class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4"
         disabled=""
         type="button"
       >
@@ -4022,7 +4022,7 @@ Object {
       </ul>
       <button
         aria-label="Scroll right"
-        class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4"
+        class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4"
         disabled=""
         type="button"
       >
@@ -4111,7 +4111,7 @@ Object {
       >
         <button
           aria-label="Scroll left"
-          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4"
           disabled=""
           type="button"
         >
@@ -4265,7 +4265,7 @@ Object {
         </ul>
         <button
           aria-label="Scroll right"
-          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4"
           disabled=""
           type="button"
         >
@@ -4297,7 +4297,7 @@ Object {
     >
       <button
         aria-label="Scroll left"
-        class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4"
+        class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4"
         disabled=""
         type="button"
       >
@@ -4451,7 +4451,7 @@ Object {
       </ul>
       <button
         aria-label="Scroll right"
-        class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4"
+        class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4"
         disabled=""
         type="button"
       >
