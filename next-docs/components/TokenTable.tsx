@@ -45,7 +45,7 @@ const TokenTable = ({ data, title }: TokenTableProps) => (
         </thead>
         <tbody>
           {data.map((prop: Data) => (
-            <tr key={prop.className} className="bg-goku">
+            <tr key={prop.className} className="bg-gohan">
               <td className="px-3 py-2 whitespace-nowrap text-moon-14 rounded-s-lg">
                 {prop.name}
               </td>

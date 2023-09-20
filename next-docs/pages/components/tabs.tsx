@@ -2,6 +2,7 @@ import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import type { ComponentNames } from '../../components/getComponent';
 import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/tabs/Default';
@@ -12,7 +13,6 @@ import Sizes from '../../public/examples/tabs/Sizes';
 import WithCustomStyles from '../../public/examples/tabs/WithCustomStyles';
 import WithHandler from '../../public/examples/tabs/WithHandler';
 import useComponent from '../../utils/useComponent';
-import type { ComponentNames } from '../../components/getComponent';
 
 const COMPONENT_NAME: ComponentNames = 'Tabs';
 
@@ -84,7 +84,7 @@ const PageTabs = () => {
         title="Segment control view"
         preview={<Segment />}
         code={examples ? examples.Segment : 'Loading'}
-        className="bg-gohan border border-beerus"
+        className="bg-goku border border-beerus"
       />
       <Preview
         title="Sizes"

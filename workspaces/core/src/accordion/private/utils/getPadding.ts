@@ -1,6 +1,6 @@
 import type AccordionSizes from '../types/AccordionSizes';
 
-const setPadding = (isContentInside?: boolean, size?: AccordionSizes) => {
+const getPadding = (isContentInside?: boolean, size?: AccordionSizes) => {
   if (isContentInside) {
     switch (size) {
       case 'xl':
@@ -16,4 +16,4 @@ const setPadding = (isContentInside?: boolean, size?: AccordionSizes) => {
   return '';
 };
 
-export default setPadding;
+export default getPadding;

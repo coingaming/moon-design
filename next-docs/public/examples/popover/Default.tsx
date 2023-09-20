@@ -8,7 +8,7 @@ const Example = () => {
       <Popover.Trigger>
         <Button>Toggle Popover</Button>
       </Popover.Trigger>
-      <Popover.Panel>
+      <Popover.Panel className="p-2 flex flex-col gap-1">
         <Content />
       </Popover.Panel>
     </Popover>
@@ -16,9 +16,9 @@ const Example = () => {
 };
 
 const Content: React.FC = () => (
-  <div className="p-6 flex flex-col gap-6">
+  <>
     <MenuItem>
-      <span className="flex w-11 h-11 bg-goku items-center justify-center rounded-lg">
+      <span className="flex w-11 h-11 bg-gohan items-center justify-center rounded-lg">
         <OtherFrame className="text-bulma text-moon-24" />
       </span>
       <MenuItem.MultiTitle
@@ -27,7 +27,7 @@ const Content: React.FC = () => (
       />
     </MenuItem>
     <MenuItem>
-      <span className="flex w-11 h-11 bg-goku items-center justify-center">
+      <span className="flex w-11 h-11 bg-gohan items-center justify-center">
         <OtherFrame className="text-bulma text-moon-24" />
       </span>
       <MenuItem.MultiTitle
@@ -36,7 +36,7 @@ const Content: React.FC = () => (
       />
     </MenuItem>
     <MenuItem>
-      <span className="flex w-11 h-11 bg-goku items-center justify-center">
+      <span className="flex w-11 h-11 bg-gohan items-center justify-center">
         <OtherFrame className="text-bulma text-moon-24" />
       </span>
       <MenuItem.MultiTitle
@@ -44,7 +44,7 @@ const Content: React.FC = () => (
         text={<span> Your favourite games</span>}
       />
     </MenuItem>
-  </div>
+  </>
 );
 
 export default Example;

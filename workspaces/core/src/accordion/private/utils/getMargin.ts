@@ -1,6 +1,6 @@
 import type AccordionSizes from '../types/AccordionSizes';
 
-const setMargin = (size?: AccordionSizes) => {
+const getMargin = (size?: AccordionSizes) => {
   switch (size) {
     case 'xl':
       return 'mt-4';
@@ -11,4 +11,4 @@ const setMargin = (size?: AccordionSizes) => {
   }
 };
 
-export default setMargin;
+export default getMargin;

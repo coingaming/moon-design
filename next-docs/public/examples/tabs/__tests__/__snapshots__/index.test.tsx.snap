@@ -221,7 +221,7 @@ Object {
           <button
             aria-controls="headlessui-tabs-panel-:r2b:"
             aria-selected="true"
-            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
             data-headlessui-state="selected"
             id="headlessui-tabs-tab-:r28:"
             role="tab"
@@ -233,7 +233,7 @@ Object {
           <button
             aria-controls="headlessui-tabs-panel-:r2c:"
             aria-selected="false"
-            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:r29:"
             role="tab"
@@ -245,7 +245,7 @@ Object {
           <button
             aria-controls="headlessui-tabs-panel-:r2d:"
             aria-selected="false"
-            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:r2a:"
             role="tab"
@@ -295,7 +295,7 @@ Object {
         <button
           aria-controls="headlessui-tabs-panel-:r2b:"
           aria-selected="true"
-          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
           data-headlessui-state="selected"
           id="headlessui-tabs-tab-:r28:"
           role="tab"
@@ -307,7 +307,7 @@ Object {
         <button
           aria-controls="headlessui-tabs-panel-:r2c:"
           aria-selected="false"
-          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
           data-headlessui-state=""
           id="headlessui-tabs-tab-:r29:"
           role="tab"
@@ -319,7 +319,7 @@ Object {
         <button
           aria-controls="headlessui-tabs-panel-:r2d:"
           aria-selected="false"
-          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
           data-headlessui-state=""
           id="headlessui-tabs-tab-:r2a:"
           role="tab"
@@ -467,7 +467,7 @@ Object {
           >
             <button
               aria-selected="true"
-              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
               data-headlessui-state="selected"
               id="headlessui-tabs-tab-:r2h:"
               role="tab"
@@ -478,7 +478,7 @@ Object {
             </button>
             <button
               aria-selected="false"
-              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
               data-headlessui-state=""
               id="headlessui-tabs-tab-:r2i:"
               role="tab"
@@ -489,7 +489,7 @@ Object {
             </button>
             <button
               aria-selected="false"
-              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
               data-headlessui-state=""
               id="headlessui-tabs-tab-:r2j:"
               role="tab"
@@ -556,7 +556,7 @@ Object {
         >
           <button
             aria-selected="true"
-            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
             data-headlessui-state="selected"
             id="headlessui-tabs-tab-:r2h:"
             role="tab"
@@ -567,7 +567,7 @@ Object {
           </button>
           <button
             aria-selected="false"
-            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:r2i:"
             role="tab"
@@ -578,7 +578,7 @@ Object {
           </button>
           <button
             aria-selected="false"
-            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:r2j:"
             role="tab"
@@ -655,12 +655,12 @@ Object {
       >
         <div
           aria-orientation="horizontal"
-          class="flex items-center justify-center w-fit gap-1 p-1 bg-goku rounded-moon-s-sm"
+          class="flex items-center justify-center w-fit gap-1 p-1 bg-gohan rounded-moon-s-sm"
           role="tablist"
         >
           <button
             aria-selected="true"
-            class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+            class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
             data-headlessui-state="selected"
             id="headlessui-tabs-tab-:r1m:"
             role="tab"
@@ -671,7 +671,7 @@ Object {
           </button>
           <button
             aria-selected="false"
-            class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+            class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:r1n:"
             role="tab"
@@ -682,7 +682,7 @@ Object {
           </button>
           <button
             aria-selected="false"
-            class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+            class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:r1o:"
             role="tab"
@@ -694,12 +694,12 @@ Object {
         </div>
         <div
           aria-orientation="horizontal"
-          class="flex items-center justify-center w-fit gap-1 p-1 bg-goku rounded-moon-s-md"
+          class="flex items-center justify-center w-fit gap-1 p-1 bg-gohan rounded-moon-s-md"
           role="tablist"
         >
           <button
             aria-selected="true"
-            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
             data-headlessui-state="selected"
             id="headlessui-tabs-tab-:r1p:"
             role="tab"
@@ -710,7 +710,7 @@ Object {
           </button>
           <button
             aria-selected="false"
-            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:r1q:"
             role="tab"
@@ -721,7 +721,7 @@ Object {
           </button>
           <button
             aria-selected="false"
-            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:r1r:"
             role="tab"
@@ -740,12 +740,12 @@ Object {
     >
       <div
         aria-orientation="horizontal"
-        class="flex items-center justify-center w-fit gap-1 p-1 bg-goku rounded-moon-s-sm"
+        class="flex items-center justify-center w-fit gap-1 p-1 bg-gohan rounded-moon-s-sm"
         role="tablist"
       >
         <button
           aria-selected="true"
-          class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+          class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
           data-headlessui-state="selected"
           id="headlessui-tabs-tab-:r1m:"
           role="tab"
@@ -756,7 +756,7 @@ Object {
         </button>
         <button
           aria-selected="false"
-          class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+          class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
           data-headlessui-state=""
           id="headlessui-tabs-tab-:r1n:"
           role="tab"
@@ -767,7 +767,7 @@ Object {
         </button>
         <button
           aria-selected="false"
-          class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+          class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
           data-headlessui-state=""
           id="headlessui-tabs-tab-:r1o:"
           role="tab"
@@ -779,12 +779,12 @@ Object {
       </div>
       <div
         aria-orientation="horizontal"
-        class="flex items-center justify-center w-fit gap-1 p-1 bg-goku rounded-moon-s-md"
+        class="flex items-center justify-center w-fit gap-1 p-1 bg-gohan rounded-moon-s-md"
         role="tablist"
       >
         <button
           aria-selected="true"
-          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
           data-headlessui-state="selected"
           id="headlessui-tabs-tab-:r1p:"
           role="tab"
@@ -795,7 +795,7 @@ Object {
         </button>
         <button
           aria-selected="false"
-          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
           data-headlessui-state=""
           id="headlessui-tabs-tab-:r1q:"
           role="tab"
@@ -806,7 +806,7 @@ Object {
         </button>
         <button
           aria-selected="false"
-          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
           data-headlessui-state=""
           id="headlessui-tabs-tab-:r1r:"
           role="tab"
@@ -975,7 +975,7 @@ Object {
             >
               <button
                 aria-selected="true"
-                class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+                class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
                 data-headlessui-state="selected"
                 id="headlessui-tabs-tab-:r22:"
                 role="tab"
@@ -986,7 +986,7 @@ Object {
               </button>
               <button
                 aria-selected="false"
-                class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+                class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
                 data-headlessui-state=""
                 id="headlessui-tabs-tab-:r23:"
                 role="tab"
@@ -997,7 +997,7 @@ Object {
               </button>
               <button
                 aria-selected="false"
-                class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+                class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
                 data-headlessui-state=""
                 id="headlessui-tabs-tab-:r24:"
                 role="tab"
@@ -1014,7 +1014,7 @@ Object {
             >
               <button
                 aria-selected="true"
-                class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+                class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
                 data-headlessui-state="selected"
                 id="headlessui-tabs-tab-:r25:"
                 role="tab"
@@ -1025,7 +1025,7 @@ Object {
               </button>
               <button
                 aria-selected="false"
-                class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+                class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
                 data-headlessui-state=""
                 id="headlessui-tabs-tab-:r26:"
                 role="tab"
@@ -1036,7 +1036,7 @@ Object {
               </button>
               <button
                 aria-selected="false"
-                class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+                class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
                 data-headlessui-state=""
                 id="headlessui-tabs-tab-:r27:"
                 role="tab"
@@ -1150,7 +1150,7 @@ Object {
           >
             <button
               aria-selected="true"
-              class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+              class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
               data-headlessui-state="selected"
               id="headlessui-tabs-tab-:r22:"
               role="tab"
@@ -1161,7 +1161,7 @@ Object {
             </button>
             <button
               aria-selected="false"
-              class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+              class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
               data-headlessui-state=""
               id="headlessui-tabs-tab-:r23:"
               role="tab"
@@ -1172,7 +1172,7 @@ Object {
             </button>
             <button
               aria-selected="false"
-              class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+              class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
               data-headlessui-state=""
               id="headlessui-tabs-tab-:r24:"
               role="tab"
@@ -1189,7 +1189,7 @@ Object {
           >
             <button
               aria-selected="true"
-              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
               data-headlessui-state="selected"
               id="headlessui-tabs-tab-:r25:"
               role="tab"
@@ -1200,7 +1200,7 @@ Object {
             </button>
             <button
               aria-selected="false"
-              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
               data-headlessui-state=""
               id="headlessui-tabs-tab-:r26:"
               role="tab"
@@ -1211,7 +1211,7 @@ Object {
             </button>
             <button
               aria-selected="false"
-              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
               data-headlessui-state=""
               id="headlessui-tabs-tab-:r27:"
               role="tab"
@@ -1336,7 +1336,7 @@ Object {
           >
             <button
               aria-selected="true"
-              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer focus:outline-none bg-gohan hover:bg-hit/30 moon-selected:bg-hit/30"
+              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer focus:outline-none bg-goku hover:bg-hit/30 moon-selected:bg-hit/30"
               data-headlessui-state="selected"
               id="headlessui-tabs-tab-:r2n:"
               role="tab"
@@ -1437,7 +1437,7 @@ Object {
         >
           <button
             aria-selected="true"
-            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer focus:outline-none bg-gohan hover:bg-hit/30 moon-selected:bg-hit/30"
+            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer focus:outline-none bg-goku hover:bg-hit/30 moon-selected:bg-hit/30"
             data-headlessui-state="selected"
             id="headlessui-tabs-tab-:r2n:"
             role="tab"
@@ -1953,7 +1953,7 @@ Object {
         <button
           aria-controls="headlessui-tabs-panel-:rr:"
           aria-selected="true"
-          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
           data-headlessui-state="selected"
           id="headlessui-tabs-tab-:ro:"
           role="tab"
@@ -1965,7 +1965,7 @@ Object {
         <button
           aria-controls="headlessui-tabs-panel-:rs:"
           aria-selected="false"
-          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
           data-headlessui-state=""
           id="headlessui-tabs-tab-:rp:"
           role="tab"
@@ -1977,7 +1977,7 @@ Object {
         <button
           aria-controls="headlessui-tabs-panel-:rt:"
           aria-selected="false"
-          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
           data-headlessui-state=""
           id="headlessui-tabs-tab-:rq:"
           role="tab"
@@ -2023,7 +2023,7 @@ Object {
       <button
         aria-controls="headlessui-tabs-panel-:rr:"
         aria-selected="true"
-        class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+        class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
         data-headlessui-state="selected"
         id="headlessui-tabs-tab-:ro:"
         role="tab"
@@ -2035,7 +2035,7 @@ Object {
       <button
         aria-controls="headlessui-tabs-panel-:rs:"
         aria-selected="false"
-        class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+        class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
         data-headlessui-state=""
         id="headlessui-tabs-tab-:rp:"
         role="tab"
@@ -2047,7 +2047,7 @@ Object {
       <button
         aria-controls="headlessui-tabs-panel-:rt:"
         aria-selected="false"
-        class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+        class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
         data-headlessui-state=""
         id="headlessui-tabs-tab-:rq:"
         role="tab"
@@ -2191,7 +2191,7 @@ Object {
         >
           <button
             aria-selected="true"
-            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
             data-headlessui-state="selected"
             id="headlessui-tabs-tab-:r11:"
             role="tab"
@@ -2202,7 +2202,7 @@ Object {
           </button>
           <button
             aria-selected="false"
-            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:r12:"
             role="tab"
@@ -2213,7 +2213,7 @@ Object {
           </button>
           <button
             aria-selected="false"
-            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:r13:"
             role="tab"
@@ -2276,7 +2276,7 @@ Object {
       >
         <button
           aria-selected="true"
-          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
           data-headlessui-state="selected"
           id="headlessui-tabs-tab-:r11:"
           role="tab"
@@ -2287,7 +2287,7 @@ Object {
         </button>
         <button
           aria-selected="false"
-          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
           data-headlessui-state=""
           id="headlessui-tabs-tab-:r12:"
           role="tab"
@@ -2298,7 +2298,7 @@ Object {
         </button>
         <button
           aria-selected="false"
-          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
           data-headlessui-state=""
           id="headlessui-tabs-tab-:r13:"
           role="tab"
@@ -2371,12 +2371,12 @@ Object {
     <div>
       <div
         aria-orientation="horizontal"
-        class="flex items-center justify-center w-fit gap-1 p-1 bg-goku rounded-moon-s-sm"
+        class="flex items-center justify-center w-fit gap-1 p-1 bg-gohan rounded-moon-s-sm"
         role="tablist"
       >
         <button
           aria-selected="true"
-          class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+          class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
           data-headlessui-state="selected"
           id="headlessui-tabs-tab-:r6:"
           role="tab"
@@ -2387,7 +2387,7 @@ Object {
         </button>
         <button
           aria-selected="false"
-          class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+          class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
           data-headlessui-state=""
           id="headlessui-tabs-tab-:r7:"
           role="tab"
@@ -2398,7 +2398,7 @@ Object {
         </button>
         <button
           aria-selected="false"
-          class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+          class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
           data-headlessui-state=""
           id="headlessui-tabs-tab-:r8:"
           role="tab"
@@ -2410,12 +2410,12 @@ Object {
       </div>
       <div
         aria-orientation="horizontal"
-        class="flex items-center justify-center w-fit gap-1 p-1 bg-goku rounded-moon-s-md"
+        class="flex items-center justify-center w-fit gap-1 p-1 bg-gohan rounded-moon-s-md"
         role="tablist"
       >
         <button
           aria-selected="true"
-          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
           data-headlessui-state="selected"
           id="headlessui-tabs-tab-:r9:"
           role="tab"
@@ -2426,7 +2426,7 @@ Object {
         </button>
         <button
           aria-selected="false"
-          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
           data-headlessui-state=""
           id="headlessui-tabs-tab-:ra:"
           role="tab"
@@ -2437,7 +2437,7 @@ Object {
         </button>
         <button
           aria-selected="false"
-          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
           data-headlessui-state=""
           id="headlessui-tabs-tab-:rb:"
           role="tab"
@@ -2452,12 +2452,12 @@ Object {
   "container": <div>
     <div
       aria-orientation="horizontal"
-      class="flex items-center justify-center w-fit gap-1 p-1 bg-goku rounded-moon-s-sm"
+      class="flex items-center justify-center w-fit gap-1 p-1 bg-gohan rounded-moon-s-sm"
       role="tablist"
     >
       <button
         aria-selected="true"
-        class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+        class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
         data-headlessui-state="selected"
         id="headlessui-tabs-tab-:r6:"
         role="tab"
@@ -2468,7 +2468,7 @@ Object {
       </button>
       <button
         aria-selected="false"
-        class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+        class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
         data-headlessui-state=""
         id="headlessui-tabs-tab-:r7:"
         role="tab"
@@ -2479,7 +2479,7 @@ Object {
       </button>
       <button
         aria-selected="false"
-        class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+        class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
         data-headlessui-state=""
         id="headlessui-tabs-tab-:r8:"
         role="tab"
@@ -2491,12 +2491,12 @@ Object {
     </div>
     <div
       aria-orientation="horizontal"
-      class="flex items-center justify-center w-fit gap-1 p-1 bg-goku rounded-moon-s-md"
+      class="flex items-center justify-center w-fit gap-1 p-1 bg-gohan rounded-moon-s-md"
       role="tablist"
     >
       <button
         aria-selected="true"
-        class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+        class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
         data-headlessui-state="selected"
         id="headlessui-tabs-tab-:r9:"
         role="tab"
@@ -2507,7 +2507,7 @@ Object {
       </button>
       <button
         aria-selected="false"
-        class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+        class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
         data-headlessui-state=""
         id="headlessui-tabs-tab-:ra:"
         role="tab"
@@ -2518,7 +2518,7 @@ Object {
       </button>
       <button
         aria-selected="false"
-        class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+        class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
         data-headlessui-state=""
         id="headlessui-tabs-tab-:rb:"
         role="tab"
@@ -2683,7 +2683,7 @@ Object {
           >
             <button
               aria-selected="true"
-              class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+              class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
               data-headlessui-state="selected"
               id="headlessui-tabs-tab-:ri:"
               role="tab"
@@ -2694,7 +2694,7 @@ Object {
             </button>
             <button
               aria-selected="false"
-              class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+              class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
               data-headlessui-state=""
               id="headlessui-tabs-tab-:rj:"
               role="tab"
@@ -2705,7 +2705,7 @@ Object {
             </button>
             <button
               aria-selected="false"
-              class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+              class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
               data-headlessui-state=""
               id="headlessui-tabs-tab-:rk:"
               role="tab"
@@ -2722,7 +2722,7 @@ Object {
           >
             <button
               aria-selected="true"
-              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
               data-headlessui-state="selected"
               id="headlessui-tabs-tab-:rl:"
               role="tab"
@@ -2733,7 +2733,7 @@ Object {
             </button>
             <button
               aria-selected="false"
-              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
               data-headlessui-state=""
               id="headlessui-tabs-tab-:rm:"
               role="tab"
@@ -2744,7 +2744,7 @@ Object {
             </button>
             <button
               aria-selected="false"
-              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
               data-headlessui-state=""
               id="headlessui-tabs-tab-:rn:"
               role="tab"
@@ -2854,7 +2854,7 @@ Object {
         >
           <button
             aria-selected="true"
-            class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+            class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
             data-headlessui-state="selected"
             id="headlessui-tabs-tab-:ri:"
             role="tab"
@@ -2865,7 +2865,7 @@ Object {
           </button>
           <button
             aria-selected="false"
-            class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+            class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:rj:"
             role="tab"
@@ -2876,7 +2876,7 @@ Object {
           </button>
           <button
             aria-selected="false"
-            class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+            class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:rk:"
             role="tab"
@@ -2893,7 +2893,7 @@ Object {
         >
           <button
             aria-selected="true"
-            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
             data-headlessui-state="selected"
             id="headlessui-tabs-tab-:rl:"
             role="tab"
@@ -2904,7 +2904,7 @@ Object {
           </button>
           <button
             aria-selected="false"
-            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:rm:"
             role="tab"
@@ -2915,7 +2915,7 @@ Object {
           </button>
           <button
             aria-selected="false"
-            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:rn:"
             role="tab"
@@ -3036,7 +3036,7 @@ Object {
         >
           <button
             aria-selected="true"
-            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer focus:outline-none bg-gohan hover:bg-hit/30 moon-selected:bg-hit/30"
+            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer focus:outline-none bg-goku hover:bg-hit/30 moon-selected:bg-hit/30"
             data-headlessui-state="selected"
             id="headlessui-tabs-tab-:r17:"
             role="tab"
@@ -3133,7 +3133,7 @@ Object {
       >
         <button
           aria-selected="true"
-          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer focus:outline-none bg-gohan hover:bg-hit/30 moon-selected:bg-hit/30"
+          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer focus:outline-none bg-goku hover:bg-hit/30 moon-selected:bg-hit/30"
           data-headlessui-state="selected"
           id="headlessui-tabs-tab-:r17:"
           role="tab"

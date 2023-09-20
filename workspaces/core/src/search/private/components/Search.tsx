@@ -8,13 +8,13 @@ import React, {
   useState,
 } from 'react';
 import { Transition as HeadlessTransition } from '@headlessui/react';
-import mergeClassnames from '../../../mergeClassnames/mergeClassnames';
-import useClickOutside from '../../../private/hooks/useClickOutside';
-import { SearchContext, SelectContext } from '../utils/context';
 import { Input } from './Input';
 import NoResults from './NoResults';
 import ResultItem from './ResultItem';
+import mergeClassnames from '../../../mergeClassnames/mergeClassnames';
+import useClickOutside from '../../../private/hooks/useClickOutside';
 import type SearchProps from '../types/SearchProps';
+import { SearchContext, SelectContext } from '../utils/context';
 
 const SearchRoot = ({
   selected: selectedParent,
@@ -139,7 +139,7 @@ const SearchRoot = ({
     <div ref={ref} onKeyDown={onKeyDown}>
       <div
         className={mergeClassnames(
-          'relative w-full h-full bg-gohan flex flex-col border border-beerus',
+          'relative w-full h-full bg-goku flex flex-col border border-beerus',
           isOpen ? 'rounded-t-moon-s-sm' : 'rounded-moon-s-sm',
           '[&_.moon-search-result]:top-10',
           '[&_.moon-search-transition>.moon-search-result]:top-0',
@@ -199,7 +199,7 @@ const Result = ({
     <div
       className={mergeClassnames(
         'moon-search-result',
-        'absolute w-full flex-1 focus:outline-none p-2 space-y-4 bg-gohan shadow-moon-md ',
+        'absolute w-full flex-1 focus:outline-none p-2 space-y-4 bg-goku shadow-moon-md ',
         isOpen ? 'rounded-b-moon-s-sm' : 'rounded-moon-s-sm',
         className
       )}
