@@ -1,5 +1,16 @@
 # Change Log
 
+## 10.7.4
+
+### Patch Changes
+
+- Bump version 10.7.4
+- Updated dependencies
+  - @heathmont/moon-table-tw@10.7.4
+  - @heathmont/moon-core-tw@10.7.4
+  - @heathmont/moon-cmdk-tw@10.7.4
+  - @heathmont/moon-themes-tw@10.7.4
+
 ## 10.7.3
 
 ### Patch Changes
