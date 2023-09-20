@@ -8,13 +8,13 @@ import React, {
   useState,
 } from 'react';
 import { Transition as HeadlessTransition } from '@headlessui/react';
-import mergeClassnames from '../../../mergeClassnames/mergeClassnames';
-import useClickOutside from '../../../private/hooks/useClickOutside';
-import { SearchContext, SelectContext } from '../utils/context';
 import { Input } from './Input';
 import NoResults from './NoResults';
 import ResultItem from './ResultItem';
+import mergeClassnames from '../../../mergeClassnames/mergeClassnames';
+import useClickOutside from '../../../private/hooks/useClickOutside';
 import type SearchProps from '../types/SearchProps';
+import { SearchContext, SelectContext } from '../utils/context';
 
 const SearchRoot = ({
   selected: selectedParent,
@@ -135,8 +135,10 @@ const SearchRoot = ({
     }
   });
 
+  const openSearch = useCallback(() => onChangeOpen(true), []);
+
   return (
-    <div ref={ref} onKeyDown={onKeyDown}>
+    <div ref={ref} onKeyDown={onKeyDown} onClick={openSearch}>
       <div
         className={mergeClassnames(
           'relative w-full h-full bg-gohan flex flex-col border border-beerus',
