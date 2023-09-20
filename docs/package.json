@@ -1,6 +1,6 @@
 {
   "name": "docs",
-  "version": "10.7.3",
+  "version": "10.7.4",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,8 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@heathmont/moon-base-tw": "workspace:^10.7.3",
-    "@heathmont/moon-core-tw": "workspace:^10.7.3",
+    "@heathmont/moon-base-tw": "workspace:^10.7.4",
+    "@heathmont/moon-core-tw": "workspace:^10.7.4",
     "@heathmont/moon-icons-tw": "9.28.4",
     "@types/node": "20.4.9",
     "@types/react": "18.2.19",
