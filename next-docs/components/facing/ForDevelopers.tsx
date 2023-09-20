@@ -39,17 +39,17 @@ const ForDevelopers = () => {
           href="https://github.com/coingaming/moon-design"
           target="_blank"
           rel="noreferrer"
-          variant="secondary"
+          variant="outline"
         >
           Github
         </Button>
         <Link href="/gettingStarted" passHref legacyBehavior>
-          <Button as="a" variant="secondary">
+          <Button as="a" variant="outline">
             Getting Started
           </Button>
         </Link>
         <Link href="/tokens" passHref legacyBehavior>
-          <Button as="a" variant="secondary">
+          <Button as="a" variant="outline">
             Design Tokens
           </Button>
         </Link>
@@ -58,7 +58,7 @@ const ForDevelopers = () => {
           href="https://github.com/coingaming/moon-design/blob/develop/packages/themes/src/moonDesignDark/moonDesignDark.ts"
           target="_blank"
           rel="noreferrer"
-          variant="secondary"
+          variant="outline"
         >
           Creating Themes
         </Button>
@@ -67,12 +67,12 @@ const ForDevelopers = () => {
           href="https://github.com/coingaming/moon-design/blob/develop/CONTRIBUTING.md"
           target="_blank"
           rel="noreferrer"
-          variant="secondary"
+          variant="outline"
         >
           Contribution
         </Button>
         <Link href="/components/accordion" passHref legacyBehavior>
-          <Button as="a" variant="secondary">
+          <Button as="a" variant="outline">
             Components
           </Button>
         </Link>

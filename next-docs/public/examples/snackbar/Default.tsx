@@ -20,10 +20,7 @@ const Example = () => {
 
   return (
     <div>
-      <Button
-        variant="secondary"
-        onClick={() => openSnackbarHandler('default')}
-      >
+      <Button variant="outline" onClick={() => openSnackbarHandler('default')}>
         Default
       </Button>
       <Snackbar isOpen={snackbar === 'default'} onOpenChange={setSnackbar}>

@@ -23,7 +23,7 @@ const Example = () => {
     <>
       <div>
         <Button
-          variant="secondary"
+          variant="outline"
           onClick={() => openSnackbarHandler('mutliline')}
         >
           Multi Line
@@ -39,7 +39,7 @@ const Example = () => {
       </div>
       <div>
         <Button
-          variant="secondary"
+          variant="outline"
           onClick={() => openSnackbarHandler('with-header')}
         >
           With Header
@@ -56,7 +56,7 @@ const Example = () => {
       </div>
       <div>
         <Button
-          variant="secondary"
+          variant="outline"
           onClick={() => openSnackbarHandler('with-close')}
         >
           With Close
@@ -68,7 +68,7 @@ const Example = () => {
       </div>
       <div>
         <Button
-          variant="secondary"
+          variant="outline"
           onClick={() => openSnackbarHandler('with-icon')}
         >
           With Icon
@@ -82,7 +82,7 @@ const Example = () => {
       </div>
       <div>
         <Button
-          variant="secondary"
+          variant="outline"
           onClick={() => openSnackbarHandler('multiline-with-icon')}
         >
           Multi Line with Icon
@@ -104,7 +104,7 @@ const Example = () => {
       </div>
       <div>
         <Button
-          variant="secondary"
+          variant="outline"
           onClick={() => openSnackbarHandler('with-close-and-icon')}
         >
           With Close and Icon

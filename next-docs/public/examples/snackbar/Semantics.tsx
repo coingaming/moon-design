@@ -23,7 +23,7 @@ const Example = () => {
     <>
       <div>
         <Button
-          variant="secondary"
+          variant="outline"
           onClick={() => openSnackbarHandler('success')}
         >
           Success
@@ -41,7 +41,7 @@ const Example = () => {
       </div>
       <div>
         <Button
-          variant="secondary"
+          variant="outline"
           onClick={() => openSnackbarHandler('warning')}
         >
           Warning
@@ -58,10 +58,7 @@ const Example = () => {
         </Snackbar>
       </div>
       <div>
-        <Button
-          variant="secondary"
-          onClick={() => openSnackbarHandler('error')}
-        >
+        <Button variant="outline" onClick={() => openSnackbarHandler('error')}>
           Error
         </Button>
         <Snackbar isOpen={snackbar === 'error'} onOpenChange={setSnackbar}>

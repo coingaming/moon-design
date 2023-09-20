@@ -10,13 +10,13 @@ const Example = () => {
   const handleBottomClick = () => setIsBottomOpen(true);
   return (
     <>
-      <Button variant="secondary" onClick={handleStartClick}>
+      <Button variant="outline" onClick={handleStartClick}>
         Show Drawer at start of screen
       </Button>
-      <Button variant="secondary" onClick={handleTopClick}>
+      <Button variant="outline" onClick={handleTopClick}>
         Show Drawer at top of screen
       </Button>
-      <Button variant="secondary" onClick={handleBottomClick}>
+      <Button variant="outline" onClick={handleBottomClick}>
         Show Drawer at bottom of screen
       </Button>
       <Drawer open={isStartOpen} setOpen={setIsStartOpen}>

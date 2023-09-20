@@ -6,7 +6,7 @@ const Example = () => {
   const handleClick = () => setIsOpen(true);
   return (
     <>
-      <Button variant="secondary" onClick={handleClick}>
+      <Button variant="outline" onClick={handleClick}>
         Show default Drawer
       </Button>
       <Drawer open={isOpen} setOpen={setIsOpen}>
