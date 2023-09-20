@@ -1,5 +1,16 @@
 # Change Log
 
+## 10.7.3
+
+### Patch Changes
+
+- Deploy 10.7.3
+- Updated dependencies
+  - @heathmont/moon-core-tw@10.7.3
+  - @heathmont/moon-cmdk-tw@10.7.3
+  - @heathmont/moon-table-tw@10.7.3
+  - @heathmont/moon-themes-tw@10.7.3
+
 ## 10.7.2
 
 ### Patch Changes
