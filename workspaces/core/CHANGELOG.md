@@ -1,5 +1,11 @@
 # @heathmont/moon-core-tw
 
+## 10.7.5
+
+### Patch Changes
+
+- Fix table with long data
+
 ## 10.7.4
 
 ### Patch Changes
