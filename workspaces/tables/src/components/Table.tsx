@@ -54,6 +54,7 @@ const Table = ({
   isSorting,
   selectable,
   useCheckbox,
+  textClip,
   renderRowSubComponent,
   getOnRowClickHandler,
   getOnRowSelect,
@@ -278,6 +279,7 @@ const Table = ({
               useCheckbox,
               rowSize,
               isCellBorder,
+              textClip,
             })}
       </Body>
 
