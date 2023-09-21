@@ -17,6 +17,7 @@ const renderRows = ({
   useCheckbox,
   rowSize,
   isCellBorder,
+  textClip,
 }: RenderRowsProps) => {
   const [hoveredRow, setHoveredRow] = useState('');
   const [selectedRows, setSelectedRows] = useState<{ [key: string]: boolean }>(
@@ -141,6 +142,7 @@ const renderRows = ({
                 fontColor={fontColor}
                 rowSize={rowSize}
                 isCellBorder={isCellBorder}
+                textClip={textClip}
               >
                 {cell.render('Cell')}
               </TD>

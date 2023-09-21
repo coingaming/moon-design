@@ -16,6 +16,7 @@ const BodyTR = forwardRef<HTMLDivElement, BodyTRProps>(
       fontColor,
       isHovered,
       role = 'row',
+      textClip,
     },
     ref
   ) => (

@@ -1,3 +1,4 @@
+import ClipProps from './ClipProps';
 import type RowSizes from './RowSizes';
 import type TableVariant from './TableVariant';
 
@@ -21,6 +22,7 @@ type TDProps = {
   rowSize?: RowSizes;
   isCellBorder?: boolean;
   role?: string;
+  textClip?: ClipProps;
 };
 
 export default TDProps;
