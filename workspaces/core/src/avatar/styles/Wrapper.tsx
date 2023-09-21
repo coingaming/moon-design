@@ -1,8 +1,8 @@
 import React from 'react';
 import mergeClassnames from '../../mergeClassnames/mergeClassnames';
-import setBorderRadius from '../private/utils/setBorderRadius';
-import setWrapperSize from '../private/utils/setWrapperSize';
 import type AvatarProps from '../private/types/AvatarProps';
+import getBorderRadius from '../private/utils/getBorderRadius';
+import getWrapperSize from '../private/utils/getWrapperSize';
 
 const Wrapper = ({
   children,
@@ -16,11 +16,11 @@ const Wrapper = ({
   <div
     className={mergeClassnames(
       'relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover',
-      'text-bulma bg-gohan',
+      'text-bulma bg-goku',
       color && color,
       bgColor && bgColor,
-      setWrapperSize(size),
-      setBorderRadius(size, isRounded),
+      getWrapperSize(size),
+      getBorderRadius(size, isRounded),
       className
     )}
     style={{ backgroundImage: `url('${imageUrl}')` }}

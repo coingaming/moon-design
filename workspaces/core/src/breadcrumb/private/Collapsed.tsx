@@ -45,11 +45,11 @@ const Collapsed = ({ breadcrumbs, divider }: Props) => {
               aria-label="Show more breadcrumbs"
             />
             {isOpen && (
-              <ol className="absolute start-0 top-full bg-gohan p-1 mt-3 flex flex-col gap-2 shadow-moon-lg rounded-moon-s-md z-10000 min-w-[8.5rem]">
+              <ol className="absolute start-0 top-full bg-goku p-1 mt-3 flex flex-col gap-2 shadow-moon-lg rounded-moon-s-md z-10000 min-w-[8.5rem]">
                 {restBreadcrumbs.map((crumb, index) => (
                   <li
                     key={'innercrumb' + index}
-                    className="flex flex-col items-stretch text-bulma text-moon-14 p-2 rounded-moon-i-xs cursor-pointer transition-colors hover:bg-goku"
+                    className="flex flex-col items-stretch text-bulma text-moon-14 p-2 rounded-moon-i-xs cursor-pointer transition-colors hover:bg-heles"
                   >
                     {crumb}
                   </li>
