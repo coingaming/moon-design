@@ -135,8 +135,10 @@ const SearchRoot = ({
     }
   });
 
+  const openSearch = useCallback(() => onChangeOpen(true), []);
+
   return (
-    <div ref={ref} onKeyDown={onKeyDown}>
+    <div ref={ref} onKeyDown={onKeyDown} onClick={openSearch}>
       <div
         className={mergeClassnames(
           'relative w-full h-full bg-goku flex flex-col border border-beerus',

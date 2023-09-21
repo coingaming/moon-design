@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 import {
   Combobox as HeadlessCombobox,
   Transition as HeadlessTransition,
@@ -105,11 +105,13 @@ const ComboboxRoot = ({
   );
 };
 
-const Trigger = ({
+const Trigger = forwardRef<HTMLDivElement, WithChildren<SelectProps>>(({
   children,
   className,
   innerLabel,
-}: WithChildren<SelectProps>) => {
+},
+  ref
+) => {
   const { size, input, popper, disabled, isError } =
     useComboboxContext('Combobox.Trigger');
 
@@ -136,7 +138,7 @@ const Trigger = ({
       {children}
     </div>
   );
-};
+});
 
 const Input = ({
   displayValue,
@@ -153,7 +155,6 @@ const Input = ({
       onChange={({ target: { value } }) => {
         onQueryChange ? onQueryChange(value) : () => {};
       }}
-      ref={popper?.setAnchor}
       as={NativeInput}
       displayValue={displayValue}
       placeholder={placeholder}
@@ -165,11 +166,12 @@ const Input = ({
         className
       )}
       disabled={disabled}
-      isError={isError}
+      error={isError}
       onFocus={() => input?.setIsFocused(true)}
       onBlur={() => input?.setIsFocused(false)}
       aria-label={rest['aria-label']}
       {...rest}
+      ref={popper?.setAnchor}
     />
   );
 };
@@ -190,7 +192,6 @@ const InsetInput = ({
         onChange={({ target: { value } }) => {
           onQueryChange ? onQueryChange(value) : () => {};
         }}
-        ref={popper?.setAnchor}
         as={NativeInput}
         displayValue={displayValue}
         placeholder={placeholder === undefined ? '' : `${placeholder}`}
@@ -208,11 +209,12 @@ const InsetInput = ({
           className,
           'leading-5'
         )}
-        isError={isError}
+        error={isError}
         onFocus={() => input?.setIsFocused(true)}
         onBlur={() => input?.setIsFocused(false)}
         aria-label={rest['aria-label']}
         {...rest}
+        ref={popper?.setAnchor}
       />
       <InputInset.Label className="w-auto -top-0.5 !inset-x-0 whitespace-nowrap overflow-x-hidden">
         {label}

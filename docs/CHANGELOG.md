@@ -1,5 +1,23 @@
 # docs
 
+## 10.7.4
+
+### Patch Changes
+
+- Bump version 10.7.4
+- Updated dependencies
+  - @heathmont/moon-core-tw@10.7.4
+  - @heathmont/moon-base-tw@10.7.4
+
+## 10.7.3
+
+### Patch Changes
+
+- Deploy 10.7.3
+- Updated dependencies
+  - @heathmont/moon-core-tw@10.7.3
+  - @heathmont/moon-base-tw@10.7.3
+
 ## 0.5.2
 
 ### Patch Changes

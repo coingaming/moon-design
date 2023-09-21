@@ -1,5 +1,17 @@
 # @heathmont/moon-themes-tw
 
+## 10.7.4
+
+### Patch Changes
+
+- Bump version 10.7.4
+
+## 10.7.3
+
+### Patch Changes
+
+- Deploy 10.7.3
+
 ## 10.7.2
 
 ### Patch Changes
