@@ -68,9 +68,12 @@ const Example = () => {
 
   const defaultColumn = React.useMemo(
     () => ({
-      minWidth: 100,
+      minWidth: 10,
       width: 150,
-      maxWidth: 400,
+
+      /* The next prop is commented to provide an opportunity
+        to expand any table column as much as possible */
+      /* maxWidth: 400, */
     }),
     []
   );
