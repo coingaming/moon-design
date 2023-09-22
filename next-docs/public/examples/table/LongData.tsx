@@ -70,7 +70,10 @@ const Example = () => {
     () => ({
       minWidth: 100,
       width: 150,
-      maxWidth: 400,
+
+      /* The next prop is commented to provide an opportunity
+        to expand any table column as much as possible */
+      /* maxWidth: 400, */
     }),
     []
   );
