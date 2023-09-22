@@ -153,9 +153,9 @@ const PageButton = () => {
           },
           {
             name: 'variant',
-            type: 'primary | secondary | tertiary | ghost',
+            type: 'fill | outline | ghost',
             required: false,
-            default: 'primary',
+            default: 'fill',
             description: 'Visual/Logical variant of button',
           },
         ]}
