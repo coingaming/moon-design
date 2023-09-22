@@ -26,6 +26,7 @@ const TD = forwardRef<HTMLDivElement, TDProps>(
       rowSize,
       isCellBorder,
       role = 'cell',
+      textClip = '',
     },
     ref
   ) => (
@@ -35,6 +36,8 @@ const TD = forwardRef<HTMLDivElement, TDProps>(
       role={role}
       className={mergeClassnames(
         'relative box-border justify-between items-center text-start',
+        textClip === 'clip' && 'break-all truncate',
+        textClip === 'break' && 'break-all text-clip',
         getFontSize(rowSize),
         getPadding(rowSize),
         isFirstColumn && 'rounded-s-lg',
@@ -51,7 +54,7 @@ const TD = forwardRef<HTMLDivElement, TDProps>(
         stickySide === 'right' &&
           'before:absolute before:w-px before:bg-beerus before:h-[70%] before:bottom-[15%] before:start-0 before:-ms-2',
         isSelected || isHovered
-          ? 'border-piccolo cursor-pointer bg-goku'
+          ? 'border-piccolo cursor-pointer bg-beerus'
           : `bg-${backgroundColor} border-${backgroundColor}`,
         selectable &&
           'ps-2 text-bulma border-t-1 border-t-transparent border-b-1 border-b-transparent',

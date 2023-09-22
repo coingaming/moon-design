@@ -1,6 +1,7 @@
 import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import type { ComponentNames } from '../../components/getComponent';
 import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Calendar from '../../public/examples/table/Calendar';
@@ -12,6 +13,7 @@ import DeepTable from '../../public/examples/table/DeepTable';
 import Default from '../../public/examples/table/Default';
 import Editable from '../../public/examples/table/Editable';
 import ExpandedRows from '../../public/examples/table/ExpandedRows';
+import LongData from '../../public/examples/table/LongData';
 import MiniMap from '../../public/examples/table/MiniMap';
 import RowGaps from '../../public/examples/table/RowGaps';
 import RowSizes from '../../public/examples/table/RowSizes';
@@ -20,7 +22,6 @@ import SelectableRows from '../../public/examples/table/SelectableRows';
 import Sorting from '../../public/examples/table/Sorting';
 import Zebra from '../../public/examples/table/Zebra';
 import useComponent from '../../utils/useComponent';
-import type { ComponentNames } from '../../components/getComponent';
 
 const COMPONENT_NAME: ComponentNames = 'Table';
 
@@ -128,6 +129,11 @@ const PageTable = () => {
         preview={<Zebra />}
         code={examples ? examples.Zebra : 'Loading'}
       />
+      <Preview
+        title="Long data table (with data clipping)"
+        preview={<LongData />}
+        code={examples ? examples.LongData : 'Loading'}
+      />
       <PropsTable
         title="Table props"
         data={[
@@ -193,6 +199,13 @@ const PageTable = () => {
             required: false,
             default: '-',
             description: 'Allow rows to be selected',
+          },
+          {
+            name: 'textClip',
+            type: 'clip | break',
+            required: false,
+            default: '-',
+            description: 'Sets the type of clipping of long data inside a table cell',
           },
           {
             name: 'width',
