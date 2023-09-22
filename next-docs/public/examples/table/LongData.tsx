@@ -68,7 +68,7 @@ const Example = () => {
 
   const defaultColumn = React.useMemo(
     () => ({
-      minWidth: 100,
+      minWidth: 10,
       width: 150,
 
       /* The next prop is commented to provide an opportunity
