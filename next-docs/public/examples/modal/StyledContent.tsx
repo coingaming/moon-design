@@ -28,7 +28,7 @@ const Example = () => {
             </div>
           </div>
           <div className="p-4 flex items-center justify-center">
-            <Button variant="secondary" onClick={closeModal}>
+            <Button variant="outline" onClick={closeModal}>
               Got it, thanks!
             </Button>
           </div>

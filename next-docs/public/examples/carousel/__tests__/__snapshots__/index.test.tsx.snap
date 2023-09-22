@@ -684,6 +684,2275 @@ Object {
   "baseElement": <body>
     <div>
       <div
+        dir="rtl"
+      >
+        <div
+          class="relative w-full"
+        >
+          <button
+            aria-label="Scroll left"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4"
+            disabled=""
+            type="button"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 22L13 16L19 10"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span
+              aria-hidden="true"
+              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
+          <ul
+            class="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse"
+          >
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              0
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              1
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              2
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              3
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              4
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              5
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              6
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              7
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              8
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              9
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              10
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              11
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              12
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              13
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              14
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              15
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              16
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              17
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              18
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              19
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              20
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              21
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              22
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              23
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              24
+            </li>
+          </ul>
+          <button
+            aria-label="Scroll right"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4"
+            disabled=""
+            type="button"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M13 10L19 16L13 22"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span
+              aria-hidden="true"
+              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <div
+        class="relative w-full"
+      >
+        <button
+          aria-label="Scroll left"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4"
+          disabled=""
+          type="button"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19 22L13 16L19 10"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <span
+            aria-hidden="true"
+            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
+        </button>
+        <ul
+          class="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse"
+        >
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            0
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            1
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            2
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            3
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            4
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            5
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            6
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            7
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            8
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            9
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            10
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            11
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            12
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            13
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            14
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            15
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            16
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            17
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            18
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            19
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            20
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            21
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            22
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            23
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            24
+          </li>
+        </ul>
+        <button
+          aria-label="Scroll right"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4"
+          disabled=""
+          type="button"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13 10L19 16L13 22"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <span
+            aria-hidden="true"
+            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
+        </button>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Carousel renders Indicators 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        dir="rtl"
+      >
+        <div
+          class="relative w-[320px]"
+        >
+          <button
+            aria-label="Scroll left"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4"
+            disabled=""
+            type="button"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 22L13 16L19 10"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span
+              aria-hidden="true"
+              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
+          <ul
+            class="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse"
+          >
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              0
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              1
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              2
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              3
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              4
+            </li>
+          </ul>
+          <button
+            aria-label="Scroll right"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4"
+            disabled=""
+            type="button"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M13 10L19 16L13 22"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span
+              aria-hidden="true"
+              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
+          <div
+            class="flex absolute bottom-8 left-1/2 -translate-x-1/2 rtl:flex-row-reverse"
+          >
+            <div
+              class="w-2 h-2 mx-1 rounded-full bg-beerus"
+            />
+            <div
+              class="w-2 h-2 mx-1 rounded-full bg-beerus"
+            />
+            <div
+              class="w-2 h-2 mx-1 rounded-full bg-beerus"
+            />
+            <div
+              class="w-2 h-2 mx-1 rounded-full bg-beerus"
+            />
+            <div
+              class="w-2 h-2 mx-1 rounded-full bg-beerus"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <div
+        class="relative w-[320px]"
+      >
+        <button
+          aria-label="Scroll left"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4"
+          disabled=""
+          type="button"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19 22L13 16L19 10"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <span
+            aria-hidden="true"
+            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
+        </button>
+        <ul
+          class="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse"
+        >
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            0
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            1
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            2
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            3
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            4
+          </li>
+        </ul>
+        <button
+          aria-label="Scroll right"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4"
+          disabled=""
+          type="button"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13 10L19 16L13 22"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <span
+            aria-hidden="true"
+            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
+        </button>
+        <div
+          class="flex absolute bottom-8 left-1/2 -translate-x-1/2 rtl:flex-row-reverse"
+        >
+          <div
+            class="w-2 h-2 mx-1 rounded-full bg-beerus"
+          />
+          <div
+            class="w-2 h-2 mx-1 rounded-full bg-beerus"
+          />
+          <div
+            class="w-2 h-2 mx-1 rounded-full bg-beerus"
+          />
+          <div
+            class="w-2 h-2 mx-1 rounded-full bg-beerus"
+          />
+          <div
+            class="w-2 h-2 mx-1 rounded-full bg-beerus"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Carousel renders SelectIndex 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex flex-col items-center gap-4"
+      >
+        <div
+          class="flex gap-1"
+        >
+          <button
+            class="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04] px-4"
+            type="button"
+          >
+            0
+          </button>
+          <button
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full px-4"
+            type="button"
+          >
+            1
+          </button>
+          <button
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full px-4"
+            type="button"
+          >
+            2
+          </button>
+          <button
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full px-4"
+            type="button"
+          >
+            3
+          </button>
+          <button
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full px-4"
+            type="button"
+          >
+            4
+          </button>
+        </div>
+        <div
+          class="relative w-[320px]"
+        >
+          <ul
+            class="flex overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse overflow-x-hidden"
+          >
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              0
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              1
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              2
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              3
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              4
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex flex-col items-center gap-4"
+    >
+      <div
+        class="flex gap-1"
+      >
+        <button
+          class="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04] px-4"
+          type="button"
+        >
+          0
+        </button>
+        <button
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full px-4"
+          type="button"
+        >
+          1
+        </button>
+        <button
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full px-4"
+          type="button"
+        >
+          2
+        </button>
+        <button
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full px-4"
+          type="button"
+        >
+          3
+        </button>
+        <button
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full px-4"
+          type="button"
+        >
+          4
+        </button>
+      </div>
+      <div
+        class="relative w-[320px]"
+      >
+        <ul
+          class="flex overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse overflow-x-hidden"
+        >
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            0
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            1
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            2
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            3
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            4
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Carousel renders Spaces 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        dir="rtl"
+      >
+        <div
+          class="relative w-full"
+        >
+          <button
+            aria-label="Scroll left"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4"
+            disabled=""
+            type="button"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 22L13 16L19 10"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span
+              aria-hidden="true"
+              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
+          <ul
+            class="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse gap-10"
+          >
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              0
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              1
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              2
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              3
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              4
+            </li>
+          </ul>
+          <button
+            aria-label="Scroll right"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4"
+            disabled=""
+            type="button"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M13 10L19 16L13 22"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span
+              aria-hidden="true"
+              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <div
+        class="relative w-full"
+      >
+        <button
+          aria-label="Scroll left"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4"
+          disabled=""
+          type="button"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19 22L13 16L19 10"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <span
+            aria-hidden="true"
+            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
+        </button>
+        <ul
+          class="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse gap-10"
+        >
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            0
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            1
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            2
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            3
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            4
+          </li>
+        </ul>
+        <button
+          aria-label="Scroll right"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4"
+          disabled=""
+          type="button"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13 10L19 16L13 22"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <span
+            aria-hidden="true"
+            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
+        </button>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Carousel renders VisibleIndex 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        dir="rtl"
+      >
+        <div
+          class="relative w-full"
+        >
+          <button
+            aria-label="Scroll left"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4"
+            disabled=""
+            type="button"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M19 22L13 16L19 10"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span
+              aria-hidden="true"
+              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
+          <ul
+            class="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse"
+          >
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              -1--1
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              -1--1
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              -1--1
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              -1--1
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              -1--1
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              -1--1
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              -1--1
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              -1--1
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              -1--1
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              -1--1
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              -1--1
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              -1--1
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              -1--1
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              -1--1
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              -1--1
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              -1--1
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              -1--1
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              -1--1
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              -1--1
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              -1--1
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              -1--1
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              -1--1
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              -1--1
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              -1--1
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              -1--1
+            </li>
+          </ul>
+          <button
+            aria-label="Scroll right"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4"
+            disabled=""
+            type="button"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M13 10L19 16L13 22"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span
+              aria-hidden="true"
+              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <div
+        class="relative w-full"
+      >
+        <button
+          aria-label="Scroll left"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4"
+          disabled=""
+          type="button"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M19 22L13 16L19 10"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <span
+            aria-hidden="true"
+            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
+        </button>
+        <ul
+          class="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse"
+        >
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            -1--1
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            -1--1
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            -1--1
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            -1--1
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            -1--1
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            -1--1
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            -1--1
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            -1--1
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            -1--1
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            -1--1
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            -1--1
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            -1--1
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            -1--1
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            -1--1
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            -1--1
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            -1--1
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            -1--1
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            -1--1
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            -1--1
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            -1--1
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            -1--1
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            -1--1
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            -1--1
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            -1--1
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            -1--1
+          </li>
+        </ul>
+        <button
+          aria-label="Scroll right"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary text-moon-24 max-sm:hidden shadow-moon-sm bg-gohan text-bulma absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4"
+          disabled=""
+          type="button"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13 10L19 16L13 22"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <span
+            aria-hidden="true"
+            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
+        </button>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Carousel renders Autoslide 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="relative w-full"
+      >
+        <ul
+          class="flex overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse overflow-x-hidden"
+        >
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            0
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            1
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            2
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            3
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            4
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            5
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            6
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            7
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            8
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            9
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            10
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            11
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            12
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            13
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            14
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            15
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            16
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            17
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            18
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            19
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            20
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            21
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            22
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            23
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            24
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="relative w-full"
+    >
+      <ul
+        class="flex overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse overflow-x-hidden"
+      >
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          0
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          1
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          2
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          3
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          4
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          5
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          6
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          7
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          8
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          9
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          10
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          11
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          12
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          13
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          14
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          15
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          16
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          17
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          18
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          19
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          20
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          21
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          22
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          23
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          24
+        </li>
+      </ul>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Carousel renders CustomizedArrow 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="relative w-full"
+      >
+        <button
+          disabled=""
+        >
+          Scroll to left
+        </button>
+        <ul
+          class="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse"
+        >
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            0
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            1
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            2
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            3
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            4
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            5
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            6
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            7
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            8
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            9
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            10
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            11
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            12
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            13
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            14
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            15
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            16
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            17
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            18
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            19
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            20
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            21
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            22
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            23
+          </li>
+          <li
+            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+          >
+            24
+          </li>
+        </ul>
+        <button
+          disabled=""
+        >
+          Scroll to Right
+        </button>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="relative w-full"
+    >
+      <button
+        disabled=""
+      >
+        Scroll to left
+      </button>
+      <ul
+        class="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse"
+      >
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          0
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          1
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          2
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          3
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          4
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          5
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          6
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          7
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          8
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          9
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          10
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          11
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          12
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          13
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          14
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          15
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          16
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          17
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          18
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          19
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          20
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          21
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          22
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          23
+        </li>
+        <li
+          class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          24
+        </li>
+      </ul>
+      <button
+        disabled=""
+      >
+        Scroll to Right
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Carousel renders Default 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
         class="relative w-full"
       >
         <button
@@ -1381,6 +3650,7 @@ Object {
     <div>
       <div
         class="flex flex-col items-center gap-4"
+        dir="rtl"
       >
         <div
           class="flex gap-1"
@@ -1425,17 +3695,7 @@ Object {
             <li
               class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
             >
-              0
-            </li>
-            <li
-              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
-            >
-              1
-            </li>
-            <li
-              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
-            >
-              2
+              4
             </li>
             <li
               class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
@@ -1445,7 +3705,17 @@ Object {
             <li
               class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
             >
-              4
+              2
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              1
+            </li>
+            <li
+              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+            >
+              0
             </li>
           </ul>
         </div>
@@ -1455,6 +3725,7 @@ Object {
   "container": <div>
     <div
       class="flex flex-col items-center gap-4"
+      dir="rtl"
     >
       <div
         class="flex gap-1"
@@ -1499,12 +3770,12 @@ Object {
           <li
             class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
           >
-            0
+            4
           </li>
           <li
             class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
           >
-            1
+            3
           </li>
           <li
             class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
@@ -2181,213 +4452,6 @@ Object {
           class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
         />
       </button>
-    </div>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
-`;
-
-exports[`Carousel renders in RTL 1`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": <body>
-    <div>
-      <div
-        class="flex flex-col items-center gap-4"
-        dir="rtl"
-      >
-        <div
-          class="flex gap-1"
-        >
-          <button
-            class="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04] px-4"
-            type="button"
-          >
-            0
-          </button>
-          <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full px-4"
-            type="button"
-          >
-            1
-          </button>
-          <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full px-4"
-            type="button"
-          >
-            2
-          </button>
-          <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full px-4"
-            type="button"
-          >
-            3
-          </button>
-          <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full px-4"
-            type="button"
-          >
-            4
-          </button>
-        </div>
-        <div
-          class="relative w-[320px]"
-        >
-          <ul
-            class="flex overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse overflow-x-hidden"
-          >
-            <li
-              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
-            >
-              4
-            </li>
-            <li
-              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
-            >
-              3
-            </li>
-            <li
-              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
-            >
-              2
-            </li>
-            <li
-              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
-            >
-              1
-            </li>
-            <li
-              class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
-            >
-              0
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      class="flex flex-col items-center gap-4"
-      dir="rtl"
-    >
-      <div
-        class="flex gap-1"
-      >
-        <button
-          class="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04] px-4"
-          type="button"
-        >
-          0
-        </button>
-        <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full px-4"
-          type="button"
-        >
-          1
-        </button>
-        <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full px-4"
-          type="button"
-        >
-          2
-        </button>
-        <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full px-4"
-          type="button"
-        >
-          3
-        </button>
-        <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full px-4"
-          type="button"
-        >
-          4
-        </button>
-      </div>
-      <div
-        class="relative w-[320px]"
-      >
-        <ul
-          class="flex overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse overflow-x-hidden"
-        >
-          <li
-            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
-          >
-            4
-          </li>
-          <li
-            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
-          >
-            3
-          </li>
-          <li
-            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
-          >
-            2
-          </li>
-          <li
-            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
-          >
-            1
-          </li>
-          <li
-            class="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
-          >
-            0
-          </li>
-        </ul>
-      </div>
     </div>
   </div>,
   "debug": [Function],

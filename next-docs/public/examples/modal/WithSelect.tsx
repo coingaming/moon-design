@@ -138,7 +138,7 @@ const Example = () => {
             </Dropdown>
           </div>
           <div className="flex gap-2 p-4 justify-end pt-2">
-            <Button variant="secondary" onClick={closeModal}>
+            <Button variant="outline" onClick={closeModal}>
               Cancel
             </Button>
             <Button onClick={closeModal}>Create</Button>

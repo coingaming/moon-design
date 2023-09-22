@@ -19,7 +19,7 @@ const Example = () => {
   return (
     <>
       <div>
-        <Button variant="secondary" onClick={openTitleBottomSheet}>
+        <Button variant="outline" onClick={openTitleBottomSheet}>
           BottomSheet with Title
         </Button>
         <BottomSheet open={isTitleOpen} onClose={closeTitleBottomSheet}>
@@ -33,7 +33,7 @@ const Example = () => {
         </BottomSheet>
       </div>
       <div>
-        <Button variant="secondary" onClick={openMediumBottomSheet}>
+        <Button variant="outline" onClick={openMediumBottomSheet}>
           BottomSheet with Title and Draghandle
         </Button>
         <BottomSheet open={isMediumOpen} onClose={closeMediumBottomSheet}>

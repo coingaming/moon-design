@@ -22,7 +22,7 @@ const Example = () => {
     <>
       <div>
         <Button
-          variant="secondary"
+          variant="outline"
           onClick={() => openSnackbarHandler('top-left')}
         >
           Top left
@@ -39,7 +39,7 @@ const Example = () => {
       </div>
       <div>
         <Button
-          variant="secondary"
+          variant="outline"
           onClick={() => openSnackbarHandler('top-center')}
         >
           Top center
@@ -56,7 +56,7 @@ const Example = () => {
       </div>
       <div>
         <Button
-          variant="secondary"
+          variant="outline"
           onClick={() => openSnackbarHandler('top-right')}
         >
           Top right
@@ -69,7 +69,7 @@ const Example = () => {
       </div>
       <div>
         <Button
-          variant="secondary"
+          variant="outline"
           onClick={() => openSnackbarHandler('bottom-left')}
         >
           Bottom left
@@ -86,7 +86,7 @@ const Example = () => {
       </div>
       <div>
         <Button
-          variant="secondary"
+          variant="outline"
           onClick={() => openSnackbarHandler('bottom-center')}
         >
           Bottom center
@@ -103,7 +103,7 @@ const Example = () => {
       </div>
       <div>
         <Button
-          variant="secondary"
+          variant="outline"
           onClick={() => openSnackbarHandler('bottom-right')}
         >
           Bottom right

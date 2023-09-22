@@ -22,7 +22,7 @@ const Example = () => {
     <>
       <div>
         <Button
-          variant="secondary"
+          variant="outline"
           onClick={() => openSnackbarHandler('one-sec')}
         >
           Close after 1 sec
@@ -37,7 +37,7 @@ const Example = () => {
       </div>
       <div>
         <Button
-          variant="secondary"
+          variant="outline"
           onClick={() => openSnackbarHandler('three-sec')}
         >
           Close after 3 sec

@@ -319,22 +319,6 @@ module.exports = {
     require('tailwindcss-radix')(),
     plugin(function ({ addComponents }) {
       addComponents({
-        '.btn-primary': {
-          color: 'rgb(var(--goten))',
-          backgroundColor: `rgb(var(--piccolo))`,
-        },
-        '.btn-secondary': {
-          color: 'rgb(var(--bulma))',
-          background: 'none',
-          boxShadow: `inset 0 0 0 1px rgb(var(--trunks)/1)`,
-          '&:hover': {
-            boxShadow: `inset 0 0 0 1px rgb(var(--bulma))`,
-          },
-        },
-        '.btn-tertiary': {
-          color: 'rgb(var(--goten))',
-          backgroundColor: 'rgb(var(--hit))',
-        },
         '.anim-error': {
           transform: 'translate3d(0, 0, 0)',
           backfaceVisibility: 'hidden',

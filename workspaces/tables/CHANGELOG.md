@@ -1,5 +1,37 @@
 # @heathmont/moon-table-tw
 
+## 10.7.6
+
+### Patch Changes
+
+- Deploy 10.7.6
+- Updated dependencies
+  - @heathmont/moon-core-tw@10.7.6
+
+## 10.7.5
+
+### Patch Changes
+
+- Fix table with long data
+- Updated dependencies
+  - @heathmont/moon-core-tw@10.7.5
+
+## 10.7.4
+
+### Patch Changes
+
+- Bump version 10.7.4
+- Updated dependencies
+  - @heathmont/moon-core-tw@10.7.4
+
+## 10.7.3
+
+### Patch Changes
+
+- Deploy 10.7.3
+- Updated dependencies
+  - @heathmont/moon-core-tw@10.7.3
+
 ## 10.7.2
 
 ### Patch Changes

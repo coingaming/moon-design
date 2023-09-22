@@ -19,6 +19,7 @@ import MiniMap from '../MiniMap';
 import Calendar from '../Calendar';
 import Editable from '../Editable';
 import Zebra from '../Zebra';
+import LongData from '../LongData';
 
 const withRtl = (component: JSX.Element) => <div dir="rtl">{component}</div>;
 
@@ -88,6 +89,10 @@ describe('Table', () => {
     const tree = render(<Zebra />);
     expect(tree).toMatchSnapshot();
   });
+  it('renders LongData', () => {
+    const tree = render(<LongData />);
+    expect(tree).toMatchSnapshot();
+  });
 });
 
 describe('Table in RTL', () => {
@@ -154,6 +159,10 @@ describe('Table in RTL', () => {
   });
   it('renders Zebra', () => {
     const tree = render(withRtl(<Zebra />));
+    expect(tree).toMatchSnapshot();
+  });
+  it('renders LongData', () => {
+    const tree = render(withRtl(<LongData />));
     expect(tree).toMatchSnapshot();
   });
 });

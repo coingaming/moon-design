@@ -4,12 +4,12 @@ import type ButtonSettingsProps from '../../types/ButtonSettingsProps';
 const getButtonVariants = ({
   variant,
   disabled,
-}: ButtonSettingsProps): string => {
-  if (variant === 'secondary') {
-    return 'btn-secondary';
+}: Pick<ButtonSettingsProps, 'variant' | 'disabled'>): string => {
+  if (variant === 'secondary' || variant === 'outline') {
+    return 'text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma';
   }
   if (variant === 'tertiary') {
-    return 'btn-tertiary';
+    return 'text-goten bg-hit';
   }
   if (variant === 'ghost') {
     return mergeClassnames(
@@ -17,7 +17,10 @@ const getButtonVariants = ({
       !disabled && 'hover:text-bulma'
     );
   }
-  return 'btn-primary';
+  if (variant === 'primary' || variant === 'fill') {
+    return 'text-goten bg-piccolo';
+  }
+  return '';
 };
 
 export default getButtonVariants;

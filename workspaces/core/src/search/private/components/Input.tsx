@@ -55,6 +55,9 @@ const InnerInput = forwardRef(
           'focus:ring-0 bg-transparent placeholder-bulma text-bulma',
           className
         )}
+        onClick={() => {
+          onChangeOpen(true);
+        }}
         onChange={(e) => {
           onChangeSearch(e.currentTarget.value);
         }}

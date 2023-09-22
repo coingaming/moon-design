@@ -203,7 +203,7 @@ Object {
           >
             <button
               aria-label="Previous"
-              class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-secondary text-moon-24"
+              class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma text-moon-24"
               disabled=""
               type="button"
             >
@@ -276,7 +276,7 @@ Object {
           >
             <button
               aria-label="Next"
-              class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary text-moon-24"
+              class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma text-moon-24"
               type="button"
             >
               <svg
@@ -318,7 +318,7 @@ Object {
         >
           <button
             aria-label="Previous"
-            class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-secondary text-moon-24"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma text-moon-24"
             disabled=""
             type="button"
           >
@@ -391,7 +391,7 @@ Object {
         >
           <button
             aria-label="Next"
-            class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary text-moon-24"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma text-moon-24"
             type="button"
           >
             <svg
@@ -490,7 +490,7 @@ Object {
           >
             <button
               aria-label="Previous"
-              class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-secondary text-moon-24"
+              class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma text-moon-24"
               disabled=""
               type="button"
             >
@@ -564,7 +564,7 @@ Object {
           >
             <button
               aria-label="Next"
-              class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary text-moon-24"
+              class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma text-moon-24"
               type="button"
             >
               <svg
@@ -606,7 +606,7 @@ Object {
         >
           <button
             aria-label="Previous"
-            class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-secondary text-moon-24"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma text-moon-24"
             disabled=""
             type="button"
           >
@@ -680,7 +680,7 @@ Object {
         >
           <button
             aria-label="Next"
-            class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary text-moon-24"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma text-moon-24"
             type="button"
           >
             <svg
@@ -953,7 +953,7 @@ Object {
         >
           <button
             aria-label="Previous"
-            class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-secondary text-moon-24"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma text-moon-24"
             disabled=""
             type="button"
           >
@@ -1026,7 +1026,7 @@ Object {
         >
           <button
             aria-label="Next"
-            class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary text-moon-24"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma text-moon-24"
             type="button"
           >
             <svg
@@ -1064,7 +1064,7 @@ Object {
       >
         <button
           aria-label="Previous"
-          class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-secondary text-moon-24"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma text-moon-24"
           disabled=""
           type="button"
         >
@@ -1137,7 +1137,7 @@ Object {
       >
         <button
           aria-label="Next"
-          class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary text-moon-24"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma text-moon-24"
           type="button"
         >
           <svg
@@ -1232,7 +1232,7 @@ Object {
         >
           <button
             aria-label="Previous"
-            class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-secondary text-moon-24"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma text-moon-24"
             disabled=""
             type="button"
           >
@@ -1306,7 +1306,7 @@ Object {
         >
           <button
             aria-label="Next"
-            class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary text-moon-24"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma text-moon-24"
             type="button"
           >
             <svg
@@ -1344,7 +1344,7 @@ Object {
       >
         <button
           aria-label="Previous"
-          class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-secondary text-moon-24"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma text-moon-24"
           disabled=""
           type="button"
         >
@@ -1418,7 +1418,7 @@ Object {
       >
         <button
           aria-label="Next"
-          class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary text-moon-24"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma text-moon-24"
           type="button"
         >
           <svg
