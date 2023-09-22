@@ -1,15 +1,15 @@
 import React, { Fragment, forwardRef } from 'react';
 import { Listbox } from '@headlessui/react';
 import { usePopper } from 'react-popper';
-import { SelectButton } from '../index';
-import mergeClassnames from '../mergeClassnames/mergeClassnames';
-import DropdownContext from './private/utils/DropdownContext';
-import useDropdownContext from './private/utils/useDropdownContext';
 import type DropdownRootProps from './private/types/DropdownRootProps';
 import type OptionProps from './private/types/OptionProps';
 import type OptionsProps from './private/types/OptionsProps';
 import type SelectProps from './private/types/SelectProps';
 import type WithChildren from './private/types/WithChildren';
+import DropdownContext from './private/utils/DropdownContext';
+import useDropdownContext from './private/utils/useDropdownContext';
+import { SelectButton } from '../index';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
 const DropdownRoot = ({
   children,
@@ -94,7 +94,7 @@ const Options = ({
       {...pooper?.attributes?.popper}
       className={mergeClassnames(
         menuWidth ? menuWidth : 'w-full min-w-[18.75rem]',
-        'z-5 absolute p-1 my-2 rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none',
+        'z-5 absolute p-1 my-2 rounded-moon-s-md box-border bg-goku shadow-moon-lg overflow-y-auto focus:outline-none',
         className && className
       )}
       {...rest}

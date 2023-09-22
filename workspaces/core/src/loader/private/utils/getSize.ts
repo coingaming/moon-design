@@ -1,6 +1,6 @@
 import type LoaderSize from '../types/LoaderSize';
 
-const setSize = (size?: LoaderSize) => {
+const getSize = (size?: LoaderSize) => {
   switch (size) {
     case '2xs':
       return 'w-4 h-4';
@@ -15,4 +15,4 @@ const setSize = (size?: LoaderSize) => {
   }
 };
 
-export default setSize;
+export default getSize;

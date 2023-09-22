@@ -1,5 +1,5 @@
 import mergeClassnames from '../../../mergeClassnames/mergeClassnames';
-import { Size } from '../types/size';
+import type Size from '../types/Size';
 
 const getSizeStyles = (size?: string, innerLabel?: boolean) => {
   const isLabel = innerLabel !== undefined && innerLabel;

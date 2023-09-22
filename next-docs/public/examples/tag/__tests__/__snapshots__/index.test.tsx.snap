@@ -9,12 +9,12 @@ Object {
         dir="rtl"
       >
         <div
-          class="flex items-center gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium rounded-none"
+          class="flex items-center gap-1 select-none text-goku bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium rounded-none"
         >
           Customized
         </div>
         <div
-          class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan py-1 px-2 h-6 text-moon-10-caption uppercase font-medium bg-roshi"
+          class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku py-1 px-2 h-6 text-moon-10-caption uppercase font-medium bg-roshi"
         >
           Customized
         </div>
@@ -31,12 +31,12 @@ Object {
       dir="rtl"
     >
       <div
-        class="flex items-center gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium rounded-none"
+        class="flex items-center gap-1 select-none text-goku bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium rounded-none"
       >
         Customized
       </div>
       <div
-        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan py-1 px-2 h-6 text-moon-10-caption uppercase font-medium bg-roshi"
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku py-1 px-2 h-6 text-moon-10-caption uppercase font-medium bg-roshi"
       >
         Customized
       </div>
@@ -110,7 +110,7 @@ Object {
         dir="rtl"
       >
         <div
-          class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
+          class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
         >
           Default
         </div>
@@ -122,7 +122,7 @@ Object {
       dir="rtl"
     >
       <div
-        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
       >
         Default
       </div>
@@ -191,7 +191,7 @@ Object {
         dir="rtl"
       >
         <div
-          class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 ps-1 pe-2 h-6 text-moon-10-caption uppercase font-medium"
+          class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-1 pe-2 h-6 text-moon-10-caption uppercase font-medium"
         >
           <span
             class="text-moon-16"
@@ -213,7 +213,7 @@ Object {
           Left icon
         </div>
         <div
-          class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
+          class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
         >
           Right icon
           <span
@@ -236,7 +236,7 @@ Object {
           </span>
         </div>
         <div
-          class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma p-1 h-6 text-moon-10-caption uppercase font-medium"
+          class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma p-1 h-6 text-moon-10-caption uppercase font-medium"
         >
           <span
             class="text-moon-16"
@@ -283,7 +283,7 @@ Object {
       dir="rtl"
     >
       <div
-        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 ps-1 pe-2 h-6 text-moon-10-caption uppercase font-medium"
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-1 pe-2 h-6 text-moon-10-caption uppercase font-medium"
       >
         <span
           class="text-moon-16"
@@ -305,7 +305,7 @@ Object {
         Left icon
       </div>
       <div
-        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
       >
         Right icon
         <span
@@ -328,7 +328,7 @@ Object {
         </span>
       </div>
       <div
-        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma p-1 h-6 text-moon-10-caption uppercase font-medium"
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma p-1 h-6 text-moon-10-caption uppercase font-medium"
       >
         <span
           class="text-moon-16"
@@ -432,12 +432,12 @@ Object {
         dir="rtl"
       >
         <div
-          class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
+          class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
         >
           Default
         </div>
         <div
-          class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-12"
+          class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 px-2 h-6 text-moon-12"
         >
           Lowercase
         </div>
@@ -449,12 +449,12 @@ Object {
       dir="rtl"
     >
       <div
-        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
       >
         Default
       </div>
       <div
-        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-12"
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 px-2 h-6 text-moon-12"
       >
         Lowercase
       </div>
@@ -523,12 +523,12 @@ Object {
         dir="rtl"
       >
         <div
-          class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-0 px-2 h-4 text-moon-9-caption uppercase font-medium"
+          class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-0 px-2 h-4 text-moon-9-caption uppercase font-medium"
         >
           2XS size
         </div>
         <div
-          class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
+          class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
         >
           XS size
         </div>
@@ -540,12 +540,12 @@ Object {
       dir="rtl"
     >
       <div
-        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-0 px-2 h-4 text-moon-9-caption uppercase font-medium"
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-0 px-2 h-4 text-moon-9-caption uppercase font-medium"
       >
         2XS size
       </div>
       <div
-        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
       >
         XS size
       </div>
@@ -611,12 +611,12 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="flex items-center gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium rounded-none"
+        class="flex items-center gap-1 select-none text-goku bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium rounded-none"
       >
         Customized
       </div>
       <div
-        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan py-1 px-2 h-6 text-moon-10-caption uppercase font-medium bg-roshi"
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku py-1 px-2 h-6 text-moon-10-caption uppercase font-medium bg-roshi"
       >
         Customized
       </div>
@@ -629,12 +629,12 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="flex items-center gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium rounded-none"
+      class="flex items-center gap-1 select-none text-goku bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium rounded-none"
     >
       Customized
     </div>
     <div
-      class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan py-1 px-2 h-6 text-moon-10-caption uppercase font-medium bg-roshi"
+      class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku py-1 px-2 h-6 text-moon-10-caption uppercase font-medium bg-roshi"
     >
       Customized
     </div>
@@ -704,7 +704,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
       >
         Default
       </div>
@@ -712,7 +712,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
+      class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
     >
       Default
     </div>
@@ -777,7 +777,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 ps-1 pe-2 h-6 text-moon-10-caption uppercase font-medium"
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-1 pe-2 h-6 text-moon-10-caption uppercase font-medium"
       >
         <span
           class="text-moon-16"
@@ -799,7 +799,7 @@ Object {
         Left icon
       </div>
       <div
-        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
       >
         Right icon
         <span
@@ -822,7 +822,7 @@ Object {
         </span>
       </div>
       <div
-        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma p-1 h-6 text-moon-10-caption uppercase font-medium"
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma p-1 h-6 text-moon-10-caption uppercase font-medium"
       >
         <span
           class="text-moon-16"
@@ -865,7 +865,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 ps-1 pe-2 h-6 text-moon-10-caption uppercase font-medium"
+      class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-1 pe-2 h-6 text-moon-10-caption uppercase font-medium"
     >
       <span
         class="text-moon-16"
@@ -887,7 +887,7 @@ Object {
       Left icon
     </div>
     <div
-      class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
+      class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
     >
       Right icon
       <span
@@ -910,7 +910,7 @@ Object {
       </span>
     </div>
     <div
-      class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma p-1 h-6 text-moon-10-caption uppercase font-medium"
+      class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma p-1 h-6 text-moon-10-caption uppercase font-medium"
     >
       <span
         class="text-moon-16"
@@ -1010,12 +1010,12 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
       >
         Default
       </div>
       <div
-        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-12"
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 px-2 h-6 text-moon-12"
       >
         Lowercase
       </div>
@@ -1023,12 +1023,12 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
+      class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
     >
       Default
     </div>
     <div
-      class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-12"
+      class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 px-2 h-6 text-moon-12"
     >
       Lowercase
     </div>
@@ -1093,12 +1093,12 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-0 px-2 h-4 text-moon-9-caption uppercase font-medium"
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-0 px-2 h-4 text-moon-9-caption uppercase font-medium"
       >
         2XS size
       </div>
       <div
-        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
       >
         XS size
       </div>
@@ -1106,12 +1106,12 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-0 px-2 h-4 text-moon-9-caption uppercase font-medium"
+      class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-0 px-2 h-4 text-moon-9-caption uppercase font-medium"
     >
       2XS size
     </div>
     <div
-      class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
+      class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
     >
       XS size
     </div>

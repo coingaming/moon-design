@@ -1,3 +1,5 @@
+import type Size from './Size';
+
 interface FormProps
   extends Omit<
     React.DetailedHTMLProps<
@@ -6,7 +8,7 @@ interface FormProps
     >,
     'size'
   > {
-  size?: 'sm' | 'md' | 'lg';
+  size?: Size;
   className?: string;
   onSubmit?: () => void;
 }

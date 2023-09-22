@@ -109,7 +109,7 @@ const Item = ({ children, className, ...rest }: SubcomponentProps) => {
   return (
     <li
       className={mergeClassnames(
-        'snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center',
+        'snap-center flex bg-goku rounded-moon-s-sm items-center justify-center',
         className
       )}
       ref={itemRef}
@@ -127,7 +127,7 @@ const LeftArrow = ({ children, className, ...rest }: SubcomponentProps) => {
     <IconButton
       size="sm"
       className={mergeClassnames(
-        'max-sm:hidden shadow-moon-sm bg-gohan text-bulma',
+        'max-sm:hidden shadow-moon-sm bg-goku text-bulma',
         'absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -start-4',
         className
       )}
@@ -149,7 +149,7 @@ const RightArrow = ({ children, className, ...rest }: SubcomponentProps) => {
     <IconButton
       size="sm"
       className={mergeClassnames(
-        'max-sm:hidden shadow-moon-sm bg-gohan text-bulma',
+        'max-sm:hidden shadow-moon-sm bg-goku text-bulma',
         'absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 -end-4',
         className
       )}

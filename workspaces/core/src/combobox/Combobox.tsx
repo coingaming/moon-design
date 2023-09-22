@@ -105,40 +105,36 @@ const ComboboxRoot = ({
   );
 };
 
-const Trigger = forwardRef<HTMLDivElement, WithChildren<SelectProps>>(({
-  children,
-  className,
-  innerLabel,
-},
-  ref
-) => {
-  const { size, input, popper, disabled, isError } =
-    useComboboxContext('Combobox.Trigger');
+const Trigger = forwardRef<HTMLDivElement, WithChildren<SelectProps>>(
+  ({ children, className, innerLabel }, ref) => {
+    const { size, input, popper, disabled, isError } =
+      useComboboxContext('Combobox.Trigger');
 
-  return (
-    <div
-      tabIndex={-1}
-      className={mergeClassnames(
-        'relative',
-        'flex flex-nowrap w-full align-middle items-center rounded-lg py-2 px-3 bg-gohan gap-x-2',
-        getSizeStyles(size as string, innerLabel as boolean),
-        input?.isFocused
-          ? 'shadow-input-focus hover:shadow-input-focus'
-          : 'shadow-input hover:shadow-input-hov',
-        'focus:shadow-input-focus focus:outline-none',
-        'focus-visible::shadow-input-focus focus-visible::outline-none',
-        isError &&
-          'shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err',
-        disabled &&
-          'opacity-60 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed',
-        className
-      )}
-      ref={popper?.setAnchor}
-    >
-      {children}
-    </div>
-  );
-});
+    return (
+      <div
+        tabIndex={-1}
+        className={mergeClassnames(
+          'relative',
+          'flex flex-nowrap w-full align-middle items-center rounded-lg py-2 px-3 bg-goku gap-x-2',
+          getSizeStyles(size as string, innerLabel as boolean),
+          input?.isFocused
+            ? 'shadow-input-focus hover:shadow-input-focus'
+            : 'shadow-input hover:shadow-input-hov',
+          'focus:shadow-input-focus focus:outline-none',
+          'focus-visible::shadow-input-focus focus-visible::outline-none',
+          isError &&
+            'shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err',
+          disabled &&
+            'opacity-60 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed',
+          className
+        )}
+        ref={popper?.setAnchor}
+      >
+        {children}
+      </div>
+    );
+  }
+);
 
 const Input = ({
   displayValue,
@@ -266,7 +262,7 @@ const Options = ({
       className={mergeClassnames(
         menuWidth
           ? menuWidth
-          : 'w-full max-h-[18.75rem] py-2 px-1 my-1 rounded-moon-s-md box-border bg-gohan shadow-moon-lg z-10 absolute',
+          : 'w-full max-h-[18.75rem] py-2 px-1 my-1 rounded-moon-s-md box-border bg-goku shadow-moon-lg z-10 absolute',
         'overflow-y-auto focus:outline-none',
         className
       )}

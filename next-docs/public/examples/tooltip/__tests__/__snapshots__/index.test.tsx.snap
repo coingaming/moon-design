@@ -13,28 +13,28 @@ Object {
         >
           <button
             aria-describedby="radix-:rf:"
-            class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+            class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
             data-state="instant-open"
             type="button"
           >
             Trigger
           </button>
           <button
-            class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+            class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
             data-state="closed"
             type="button"
           >
             Trigger
           </button>
           <button
-            class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+            class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
             data-state="closed"
             type="button"
           >
             Trigger
           </button>
           <button
-            class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+            class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
             data-state="closed"
             type="button"
           >
@@ -45,28 +45,28 @@ Object {
           class="flex flex-wrap items-center justify-around gap-2 w-full"
         >
           <button
-            class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+            class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
             data-state="closed"
             type="button"
           >
             Trigger
           </button>
           <button
-            class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+            class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
             data-state="closed"
             type="button"
           >
             Trigger
           </button>
           <button
-            class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+            class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
             data-state="closed"
             type="button"
           >
             Trigger
           </button>
           <button
-            class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+            class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
             data-state="closed"
             type="button"
           >
@@ -80,7 +80,7 @@ Object {
       style="position: fixed; left: 0px; top: 0px; transform: translate(0px, -4px); min-width: max-content; --radix-popper-available-width: 0px; --radix-popper-available-height: -4px; --radix-popper-anchor-width: 0px; --radix-popper-anchor-height: 0px; --radix-popper-transform-origin: 0px 0px;"
     >
       <div
-        class="p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-gohan shadow-[0_6px_6px_-6px_rgba(0,0,0,0.16)] drop-shadow-[0_0_1px_rgba(0,0,0,0.4)]"
+        class="p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-goku shadow-[0_6px_6px_-6px_rgba(0,0,0,0.16)] drop-shadow-[0_0_1px_rgba(0,0,0,0.4)]"
         data-align="start"
         data-side="top"
         data-state="instant-open"
@@ -91,7 +91,7 @@ Object {
           style="position: absolute; bottom: 0px; transform: translateY(100%); left: 0px;"
         >
           <div
-            class="relative top-[-7px] rotate-45 w-3 h-3 rounded-sm bg-gohan"
+            class="relative top-[-7px] rotate-45 w-3 h-3 rounded-sm bg-goku"
             height="5"
             preserveaspectratio="none"
             style="display: block;"
@@ -118,28 +118,28 @@ Object {
       >
         <button
           aria-describedby="radix-:rf:"
-          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
           data-state="instant-open"
           type="button"
         >
           Trigger
         </button>
         <button
-          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
           data-state="closed"
           type="button"
         >
           Trigger
         </button>
         <button
-          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
           data-state="closed"
           type="button"
         >
           Trigger
         </button>
         <button
-          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
           data-state="closed"
           type="button"
         >
@@ -150,28 +150,28 @@ Object {
         class="flex flex-wrap items-center justify-around gap-2 w-full"
       >
         <button
-          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
           data-state="closed"
           type="button"
         >
           Trigger
         </button>
         <button
-          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
           data-state="closed"
           type="button"
         >
           Trigger
         </button>
         <button
-          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
           data-state="closed"
           type="button"
         >
           Trigger
         </button>
         <button
-          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
           data-state="closed"
           type="button"
         >
@@ -244,28 +244,28 @@ Object {
       >
         <button
           aria-describedby="radix-:rn:"
-          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
           data-state="instant-open"
           type="button"
         >
           Trigger
         </button>
         <button
-          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
           data-state="closed"
           type="button"
         >
           Trigger
         </button>
         <button
-          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
           data-state="closed"
           type="button"
         >
           Trigger
         </button>
         <button
-          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
           data-state="closed"
           type="button"
         >
@@ -313,28 +313,28 @@ Object {
     >
       <button
         aria-describedby="radix-:rn:"
-        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
         data-state="instant-open"
         type="button"
       >
         Trigger
       </button>
       <button
-        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
         data-state="closed"
         type="button"
       >
         Trigger
       </button>
       <button
-        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
         data-state="closed"
         type="button"
       >
         Trigger
       </button>
       <button
-        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
         data-state="closed"
         type="button"
       >
@@ -406,7 +406,7 @@ Object {
       >
         <button
           aria-describedby="radix-:re:"
-          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
           data-state="instant-open"
           type="button"
         >
@@ -419,7 +419,7 @@ Object {
       style="position: fixed; left: 0px; top: 0px; transform: translate(0px, -4px); min-width: max-content; --radix-popper-available-width: 0px; --radix-popper-available-height: -4px; --radix-popper-anchor-width: 0px; --radix-popper-anchor-height: 0px; --radix-popper-transform-origin: 0px 0px;"
     >
       <div
-        class="p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-gohan shadow-[0_6px_6px_-6px_rgba(0,0,0,0.16)] drop-shadow-[0_0_1px_rgba(0,0,0,0.4)]"
+        class="p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-goku shadow-[0_6px_6px_-6px_rgba(0,0,0,0.16)] drop-shadow-[0_0_1px_rgba(0,0,0,0.4)]"
         data-align="center"
         data-side="top"
         data-state="instant-open"
@@ -430,7 +430,7 @@ Object {
           style="position: absolute; bottom: 0px; transform: translateY(100%); left: 0px;"
         >
           <div
-            class="relative top-[-7px] rotate-45 w-3 h-3 rounded-sm bg-gohan"
+            class="relative top-[-7px] rotate-45 w-3 h-3 rounded-sm bg-goku"
             height="5"
             preserveaspectratio="none"
             style="display: block;"
@@ -454,7 +454,7 @@ Object {
     >
       <button
         aria-describedby="radix-:re:"
-        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
         data-state="instant-open"
         type="button"
       >
@@ -529,7 +529,7 @@ Object {
         >
           <button
             aria-describedby="radix-:rr:"
-            class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+            class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
             data-state="instant-open"
             type="button"
           >
@@ -540,7 +540,7 @@ Object {
             style="position: fixed; left: 0px; top: 0px; transform: translate(0px, -4px); min-width: max-content; --radix-popper-available-width: 0px; --radix-popper-available-height: -4px; --radix-popper-anchor-width: 0px; --radix-popper-anchor-height: 0px; --radix-popper-transform-origin: 0px 0px;"
           >
             <div
-              class="p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-gohan shadow-[0_6px_6px_-6px_rgba(0,0,0,0.16)] drop-shadow-[0_0_1px_rgba(0,0,0,0.4)]"
+              class="p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-goku shadow-[0_6px_6px_-6px_rgba(0,0,0,0.16)] drop-shadow-[0_0_1px_rgba(0,0,0,0.4)]"
               data-align="center"
               data-side="top"
               data-state="instant-open"
@@ -551,7 +551,7 @@ Object {
                 style="position: absolute; bottom: 0px; transform: translateY(100%); left: 0px;"
               >
                 <div
-                  class="relative top-[-7px] rotate-45 w-3 h-3 rounded-sm bg-gohan"
+                  class="relative top-[-7px] rotate-45 w-3 h-3 rounded-sm bg-goku"
                   height="5"
                   preserveaspectratio="none"
                   style="display: block;"
@@ -581,7 +581,7 @@ Object {
       >
         <button
           aria-describedby="radix-:rr:"
-          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
           data-state="instant-open"
           type="button"
         >
@@ -592,7 +592,7 @@ Object {
           style="position: fixed; left: 0px; top: 0px; transform: translate(0px, -4px); min-width: max-content; --radix-popper-available-width: 0px; --radix-popper-available-height: -4px; --radix-popper-anchor-width: 0px; --radix-popper-anchor-height: 0px; --radix-popper-transform-origin: 0px 0px;"
         >
           <div
-            class="p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-gohan shadow-[0_6px_6px_-6px_rgba(0,0,0,0.16)] drop-shadow-[0_0_1px_rgba(0,0,0,0.4)]"
+            class="p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-goku shadow-[0_6px_6px_-6px_rgba(0,0,0,0.16)] drop-shadow-[0_0_1px_rgba(0,0,0,0.4)]"
             data-align="center"
             data-side="top"
             data-state="instant-open"
@@ -603,7 +603,7 @@ Object {
               style="position: absolute; bottom: 0px; transform: translateY(100%); left: 0px;"
             >
               <div
-                class="relative top-[-7px] rotate-45 w-3 h-3 rounded-sm bg-gohan"
+                class="relative top-[-7px] rotate-45 w-3 h-3 rounded-sm bg-goku"
                 height="5"
                 preserveaspectratio="none"
                 style="display: block;"
@@ -687,28 +687,28 @@ Object {
       >
         <button
           aria-describedby="radix-:r1:"
-          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
           data-state="instant-open"
           type="button"
         >
           Trigger
         </button>
         <button
-          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
           data-state="closed"
           type="button"
         >
           Trigger
         </button>
         <button
-          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
           data-state="closed"
           type="button"
         >
           Trigger
         </button>
         <button
-          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
           data-state="closed"
           type="button"
         >
@@ -719,28 +719,28 @@ Object {
         class="flex flex-wrap items-center justify-around gap-2 w-full"
       >
         <button
-          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
           data-state="closed"
           type="button"
         >
           Trigger
         </button>
         <button
-          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
           data-state="closed"
           type="button"
         >
           Trigger
         </button>
         <button
-          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
           data-state="closed"
           type="button"
         >
           Trigger
         </button>
         <button
-          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
           data-state="closed"
           type="button"
         >
@@ -753,7 +753,7 @@ Object {
       style="position: fixed; left: 0px; top: 0px; transform: translate(0px, -4px); min-width: max-content; --radix-popper-available-width: 0px; --radix-popper-available-height: -4px; --radix-popper-anchor-width: 0px; --radix-popper-anchor-height: 0px; --radix-popper-transform-origin: 0px 0px;"
     >
       <div
-        class="p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-gohan shadow-[0_6px_6px_-6px_rgba(0,0,0,0.16)] drop-shadow-[0_0_1px_rgba(0,0,0,0.4)]"
+        class="p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-goku shadow-[0_6px_6px_-6px_rgba(0,0,0,0.16)] drop-shadow-[0_0_1px_rgba(0,0,0,0.4)]"
         data-align="start"
         data-side="top"
         data-state="instant-open"
@@ -764,7 +764,7 @@ Object {
           style="position: absolute; bottom: 0px; transform: translateY(100%); left: 0px;"
         >
           <div
-            class="relative top-[-7px] rotate-45 w-3 h-3 rounded-sm bg-gohan"
+            class="relative top-[-7px] rotate-45 w-3 h-3 rounded-sm bg-goku"
             height="5"
             preserveaspectratio="none"
             style="display: block;"
@@ -788,28 +788,28 @@ Object {
     >
       <button
         aria-describedby="radix-:r1:"
-        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
         data-state="instant-open"
         type="button"
       >
         Trigger
       </button>
       <button
-        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
         data-state="closed"
         type="button"
       >
         Trigger
       </button>
       <button
-        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
         data-state="closed"
         type="button"
       >
         Trigger
       </button>
       <button
-        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
         data-state="closed"
         type="button"
       >
@@ -820,28 +820,28 @@ Object {
       class="flex flex-wrap items-center justify-around gap-2 w-full"
     >
       <button
-        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
         data-state="closed"
         type="button"
       >
         Trigger
       </button>
       <button
-        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
         data-state="closed"
         type="button"
       >
         Trigger
       </button>
       <button
-        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
         data-state="closed"
         type="button"
       >
         Trigger
       </button>
       <button
-        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
         data-state="closed"
         type="button"
       >
@@ -910,28 +910,28 @@ Object {
     <div>
       <button
         aria-describedby="radix-:r9:"
-        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
         data-state="instant-open"
         type="button"
       >
         Trigger
       </button>
       <button
-        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
         data-state="closed"
         type="button"
       >
         Trigger
       </button>
       <button
-        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
         data-state="closed"
         type="button"
       >
         Trigger
       </button>
       <button
-        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
         data-state="closed"
         type="button"
       >
@@ -975,28 +975,28 @@ Object {
   "container": <div>
     <button
       aria-describedby="radix-:r9:"
-      class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+      class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
       data-state="instant-open"
       type="button"
     >
       Trigger
     </button>
     <button
-      class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+      class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
       data-state="closed"
       type="button"
     >
       Trigger
     </button>
     <button
-      class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+      class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
       data-state="closed"
       type="button"
     >
       Trigger
     </button>
     <button
-      class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+      class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
       data-state="closed"
       type="button"
     >
@@ -1064,7 +1064,7 @@ Object {
     <div>
       <button
         aria-describedby="radix-:r0:"
-        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
         data-state="instant-open"
         type="button"
       >
@@ -1076,7 +1076,7 @@ Object {
       style="position: fixed; left: 0px; top: 0px; transform: translate(0px, -4px); min-width: max-content; --radix-popper-available-width: 0px; --radix-popper-available-height: -4px; --radix-popper-anchor-width: 0px; --radix-popper-anchor-height: 0px; --radix-popper-transform-origin: 0px 0px;"
     >
       <div
-        class="p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-gohan shadow-[0_6px_6px_-6px_rgba(0,0,0,0.16)] drop-shadow-[0_0_1px_rgba(0,0,0,0.4)]"
+        class="p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-goku shadow-[0_6px_6px_-6px_rgba(0,0,0,0.16)] drop-shadow-[0_0_1px_rgba(0,0,0,0.4)]"
         data-align="center"
         data-side="top"
         data-state="instant-open"
@@ -1087,7 +1087,7 @@ Object {
           style="position: absolute; bottom: 0px; transform: translateY(100%); left: 0px;"
         >
           <div
-            class="relative top-[-7px] rotate-45 w-3 h-3 rounded-sm bg-gohan"
+            class="relative top-[-7px] rotate-45 w-3 h-3 rounded-sm bg-goku"
             height="5"
             preserveaspectratio="none"
             style="display: block;"
@@ -1108,7 +1108,7 @@ Object {
   "container": <div>
     <button
       aria-describedby="radix-:r0:"
-      class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+      class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
       data-state="instant-open"
       type="button"
     >
@@ -1179,7 +1179,7 @@ Object {
       >
         <button
           aria-describedby="radix-:rd:"
-          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+          class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
           data-state="instant-open"
           type="button"
         >
@@ -1190,7 +1190,7 @@ Object {
           style="position: fixed; left: 0px; top: 0px; transform: translate(0px, -4px); min-width: max-content; --radix-popper-available-width: 0px; --radix-popper-available-height: -4px; --radix-popper-anchor-width: 0px; --radix-popper-anchor-height: 0px; --radix-popper-transform-origin: 0px 0px;"
         >
           <div
-            class="p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-gohan shadow-[0_6px_6px_-6px_rgba(0,0,0,0.16)] drop-shadow-[0_0_1px_rgba(0,0,0,0.4)]"
+            class="p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-goku shadow-[0_6px_6px_-6px_rgba(0,0,0,0.16)] drop-shadow-[0_0_1px_rgba(0,0,0,0.4)]"
             data-align="center"
             data-side="top"
             data-state="instant-open"
@@ -1201,7 +1201,7 @@ Object {
               style="position: absolute; bottom: 0px; transform: translateY(100%); left: 0px;"
             >
               <div
-                class="relative top-[-7px] rotate-45 w-3 h-3 rounded-sm bg-gohan"
+                class="relative top-[-7px] rotate-45 w-3 h-3 rounded-sm bg-goku"
                 height="5"
                 preserveaspectratio="none"
                 style="display: block;"
@@ -1227,7 +1227,7 @@ Object {
     >
       <button
         aria-describedby="radix-:rd:"
-        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma"
+        class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren hover:text-piccolo user-select-none space-between h-10 gap-2 py-2 px-3 bg-goku text-bulma"
         data-state="instant-open"
         type="button"
       >
@@ -1238,7 +1238,7 @@ Object {
         style="position: fixed; left: 0px; top: 0px; transform: translate(0px, -4px); min-width: max-content; --radix-popper-available-width: 0px; --radix-popper-available-height: -4px; --radix-popper-anchor-width: 0px; --radix-popper-anchor-height: 0px; --radix-popper-transform-origin: 0px 0px;"
       >
         <div
-          class="p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-gohan shadow-[0_6px_6px_-6px_rgba(0,0,0,0.16)] drop-shadow-[0_0_1px_rgba(0,0,0,0.4)]"
+          class="p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-goku shadow-[0_6px_6px_-6px_rgba(0,0,0,0.16)] drop-shadow-[0_0_1px_rgba(0,0,0,0.4)]"
           data-align="center"
           data-side="top"
           data-state="instant-open"
@@ -1249,7 +1249,7 @@ Object {
             style="position: absolute; bottom: 0px; transform: translateY(100%); left: 0px;"
           >
             <div
-              class="relative top-[-7px] rotate-45 w-3 h-3 rounded-sm bg-gohan"
+              class="relative top-[-7px] rotate-45 w-3 h-3 rounded-sm bg-goku"
               height="5"
               preserveaspectratio="none"
               style="display: block;"

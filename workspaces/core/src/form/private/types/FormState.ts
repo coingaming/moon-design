@@ -1,5 +1,7 @@
+import type Size from './Size';
+
 type FormState = {
-  size?: 'sm' | 'md' | 'lg';
+  size?: Size;
 };
 
 export default FormState;

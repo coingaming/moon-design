@@ -50,7 +50,7 @@ Object {
                 class="flex min-h-full items-center justify-center p-4"
               >
                 <div
-                  class="w-full max-w-sm inline-block rounded-xl bg-gohan align-middle shadow-moon-lg transition-all transition duration-300 ease-out transform scale-95 opacity-0"
+                  class="w-full max-w-sm inline-block rounded-xl bg-goku align-middle shadow-moon-lg transition-all transition duration-300 ease-out transform scale-95 opacity-0"
                   data-headlessui-state="open"
                   id="headlessui-dialog-panel-:rk:"
                 >
@@ -243,7 +243,7 @@ Object {
                 class="flex min-h-full items-center justify-center p-4"
               >
                 <div
-                  class="w-full max-w-sm inline-block rounded-xl bg-gohan align-middle shadow-moon-lg transition-all transition duration-300 ease-out transform scale-95 opacity-0"
+                  class="w-full max-w-sm inline-block rounded-xl bg-goku align-middle shadow-moon-lg transition-all transition duration-300 ease-out transform scale-95 opacity-0"
                   data-headlessui-state="open"
                   id="headlessui-dialog-panel-:ri:"
                 >
@@ -664,7 +664,7 @@ Object {
                 class="flex min-h-full items-center justify-center p-4"
               >
                 <div
-                  class="w-full max-w-sm inline-block rounded-xl bg-gohan align-middle shadow-moon-lg transition-all transition duration-300 ease-out transform scale-95 opacity-0"
+                  class="w-full max-w-sm inline-block rounded-xl bg-goku align-middle shadow-moon-lg transition-all transition duration-300 ease-out transform scale-95 opacity-0"
                   data-headlessui-state="open"
                   id="headlessui-dialog-panel-:ro:"
                 >
@@ -725,7 +725,7 @@ Object {
                             aria-expanded="false"
                             aria-haspopup="listbox"
                             aria-labelledby="headlessui-listbox-label-:rp: headlessui-listbox-button-:rq:"
-                            class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                            class="flex items-center justify-between gap-2 w-full bg-goku border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                             data-headlessui-state=""
                             data-test="data-test"
                             id="headlessui-listbox-button-:rq:"
@@ -778,7 +778,7 @@ Object {
                             aria-expanded="false"
                             aria-haspopup="listbox"
                             aria-labelledby="headlessui-listbox-label-:rs: headlessui-listbox-button-:rt:"
-                            class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                            class="flex items-center justify-between gap-2 w-full bg-goku border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                             data-headlessui-state=""
                             data-test="data-test"
                             id="headlessui-listbox-button-:rt:"
@@ -831,7 +831,7 @@ Object {
                             aria-expanded="false"
                             aria-haspopup="listbox"
                             aria-labelledby="headlessui-listbox-label-:rv: headlessui-listbox-button-:r10:"
-                            class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                            class="flex items-center justify-between gap-2 w-full bg-goku border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                             data-headlessui-state=""
                             data-test="data-test"
                             id="headlessui-listbox-button-:r10:"
@@ -1037,7 +1037,7 @@ Object {
                 class="flex min-h-full items-center justify-center p-4"
               >
                 <div
-                  class="w-full max-w-sm inline-block rounded-xl bg-gohan align-middle shadow-moon-lg transition-all transition duration-300 ease-out transform scale-95 opacity-0"
+                  class="w-full max-w-sm inline-block rounded-xl bg-goku align-middle shadow-moon-lg transition-all transition duration-300 ease-out transform scale-95 opacity-0"
                   data-headlessui-state="open"
                   id="headlessui-dialog-panel-:r3:"
                 >
@@ -1227,7 +1227,7 @@ Object {
                 class="flex min-h-full items-center justify-center p-4"
               >
                 <div
-                  class="w-full max-w-sm inline-block rounded-xl bg-gohan align-middle shadow-moon-lg transition-all transition duration-300 ease-out transform scale-95 opacity-0"
+                  class="w-full max-w-sm inline-block rounded-xl bg-goku align-middle shadow-moon-lg transition-all transition duration-300 ease-out transform scale-95 opacity-0"
                   data-headlessui-state="open"
                   id="headlessui-dialog-panel-:r1:"
                 >
@@ -1591,7 +1591,7 @@ Object {
                 class="flex min-h-full items-center justify-center p-4"
               >
                 <div
-                  class="w-full max-w-sm inline-block rounded-xl bg-gohan align-middle shadow-moon-lg transition-all transition duration-300 ease-out transform scale-95 opacity-0"
+                  class="w-full max-w-sm inline-block rounded-xl bg-goku align-middle shadow-moon-lg transition-all transition duration-300 ease-out transform scale-95 opacity-0"
                   data-headlessui-state="open"
                   id="headlessui-dialog-panel-:r7:"
                 >
@@ -1652,7 +1652,7 @@ Object {
                             aria-expanded="false"
                             aria-haspopup="listbox"
                             aria-labelledby="headlessui-listbox-label-:r8: headlessui-listbox-button-:r9:"
-                            class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                            class="flex items-center justify-between gap-2 w-full bg-goku border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                             data-headlessui-state=""
                             data-test="data-test"
                             id="headlessui-listbox-button-:r9:"
@@ -1705,7 +1705,7 @@ Object {
                             aria-expanded="false"
                             aria-haspopup="listbox"
                             aria-labelledby="headlessui-listbox-label-:rb: headlessui-listbox-button-:rc:"
-                            class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                            class="flex items-center justify-between gap-2 w-full bg-goku border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                             data-headlessui-state=""
                             data-test="data-test"
                             id="headlessui-listbox-button-:rc:"
@@ -1758,7 +1758,7 @@ Object {
                             aria-expanded="false"
                             aria-haspopup="listbox"
                             aria-labelledby="headlessui-listbox-label-:re: headlessui-listbox-button-:rf:"
-                            class="flex items-center justify-between gap-2 w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                            class="flex items-center justify-between gap-2 w-full bg-goku border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                             data-headlessui-state=""
                             data-test="data-test"
                             id="headlessui-listbox-button-:rf:"

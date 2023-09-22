@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Listbox } from '@headlessui/react';
 import { usePopper } from 'react-popper';
-import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import HintText from './private/HintText';
 import InputBtn from './private/InputBtn';
 import Options from './private/Options';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
 export type BaseOptionType = {
   id?: number;

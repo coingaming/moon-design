@@ -1,7 +1,7 @@
 import React, { forwardRef } from 'react';
+import type TextareaProps from './private/types/TextareaProps';
 import useFormItemContext from '../form/private/utils/useFormItemContext';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
-import type TextareaProps from './private/types/TextareaProps';
 
 const Textarea = forwardRef<HTMLTextAreaElement, TextareaProps>(
   ({ className, error: textareaError, ...rest }, ref) => {
@@ -20,7 +20,7 @@ const Textarea = forwardRef<HTMLTextAreaElement, TextareaProps>(
         ref={ref}
         disabled={rest.disabled || formItemDisabled}
         className={mergeClassnames(
-          'block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan',
+          'block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku',
           'rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea',
           'hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none',
           error &&

@@ -58,8 +58,6 @@ export { default as Modal } from './modal/Modal';
 export * from './modal/Modal';
 export { default as NativeSelect } from './nativeSelect/NativeSelect';
 export * from './nativeSelect/NativeSelect';
-export { default as getSizeStyles } from './nativeSelect/prvate/getSizeStyles';
-export * from './nativeSelect/prvate/getSizeStyles';
 export { default as Pagination } from './pagination/Pagination';
 export * from './pagination/Pagination';
 export { default as Popover } from './popover/Popover';

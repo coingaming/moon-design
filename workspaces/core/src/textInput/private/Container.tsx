@@ -1,6 +1,6 @@
 import React from 'react';
-import mergeClassnames from '../../mergeClassnames/mergeClassnames';
 import getBorderRadius from './utils/getBorderRadius';
+import mergeClassnames from '../../mergeClassnames/mergeClassnames';
 
 type Props = {
   disabled?: boolean;

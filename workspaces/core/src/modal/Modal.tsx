@@ -39,7 +39,7 @@ const Panel = ({ children, className }: WithChildren<PanelProps>) => (
       >
         <Dialog.Panel
           className={mergeClassnames(
-            'w-full max-w-sm inline-block transform rounded-xl bg-gohan align-middle shadow-moon-lg transition-all',
+            'w-full max-w-sm inline-block transform rounded-xl bg-goku align-middle shadow-moon-lg transition-all',
             className
           )}
         >
