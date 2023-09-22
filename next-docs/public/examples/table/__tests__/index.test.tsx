@@ -162,7 +162,7 @@ describe('Table in RTL', () => {
     expect(tree).toMatchSnapshot();
   });
   it('renders LongData', () => {
-    const tree = render(<LongData />);
+    const tree = render(withRtl(<LongData />));
     expect(tree).toMatchSnapshot();
   });
 });
