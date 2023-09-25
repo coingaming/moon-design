@@ -46,12 +46,14 @@ export async function hasSubfolders(_path: string) {
   }
 }
 
+type FilesTypes = Record<string, string>;
+
 export async function processFiles(
   dirPath: string,
-  processCallback: (filePath: string) => Promise<Record<string, string | undefined>>
+  processCallback: (filePath: string) => Promise<FilesTypes>
 ) {
   const files = await fs.readdir(dirPath);
-  const result: Record<string, Record<string, unknown> | string[]> = {};
+  const result: Record<string, Record<string, unknown> | string[] | string> = {};
 
   for (const file of files) {
     const filePath = path.join(dirPath, file);
@@ -63,6 +65,15 @@ export async function processFiles(
         result[file] = await processFiles(filePath, processCallback);
       } else {
         result[file] = await processCallback(filePath);
+      }
+    }
+    if (stats.isFile()) {
+      const extname = path.extname(filePath).toLowerCase();
+      const fileName = path.basename(filePath);
+      const fileNameWithoutExtension = path.parse(fileName).name
+
+      if (extname === '.md') {
+        result[fileNameWithoutExtension] = 'string';
       }
     }
   }
@@ -77,8 +88,7 @@ export const getTemplate = (content: string) => {
 
 const getFilesTypes = async (dirPath: string) => {
   const files = await fs.readdir(dirPath);
-  // TODO type
-  const result: Record<string, string | undefined> = {};
+  const result: FilesTypes = {};
 
   for (const file of files) {
     const filePath = path.join(dirPath, file);

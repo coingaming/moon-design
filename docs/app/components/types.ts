@@ -1,25 +1,13 @@
 export interface Examples {
-  "button": {
-    "examples": {
-      "client": {},
-      "server": {}
-    }
-  },
   "client": {
     "accordion": {
-      "description": {
-        "main": "string",
-        "page": "string"
-      },
+      "description": "string",
       "examples": {
         "Default": "string"
-      },
-      "tests": {}
+      }
     },
     "button": {
-      "description": {
-        "main": "string"
-      },
+      "description": "string",
       "examples": {
         "Default": "string"
       }
@@ -27,18 +15,14 @@ export interface Examples {
   },
   "server": {
     "avatar": {
-      "description": {
-        "main": "string"
-      },
+      "description": "string",
       "examples": {
         "Active": "string",
         "Default": "string"
       }
     },
     "tag": {
-      "description": {
-        "main": "string"
-      },
+      "description": "string",
       "examples": {
         "Default": "string"
       }

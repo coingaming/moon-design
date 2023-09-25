@@ -6,7 +6,6 @@ export function MDX({ markdown }: { markdown: string }) {
     "'MDXRemote' cannot be used as a JSX component."
     https://github.com/hashicorp/next-mdx-remote/issues/366
   */
-  // @ts-expect-error Async Server Component
   return <MDXRemote source={markdown} />
 }
 

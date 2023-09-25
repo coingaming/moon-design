@@ -11,7 +11,7 @@ export default async function Home() {
     <div className="flex flex-col gap-4 text-moon-14">
       <h1>Avatar</h1>
 
-      <MDX markdown={server.avatar.description.main} />
+      <MDX markdown={server.avatar.description} />
 
       <div className="space-y-2">
         <h2>Default</h2>

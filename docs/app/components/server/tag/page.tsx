@@ -9,7 +9,7 @@ export default async function Home() {
     <div className="flex flex-col gap-4 text-moon-14">
       <h1>Tag</h1>
 
-      <MDX markdown={server.tag.description.main} />
+      <MDX markdown={server.tag.description} />
 
       <div className="space-y-2">
         <h2>Default</h2>

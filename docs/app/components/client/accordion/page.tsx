@@ -1,6 +1,6 @@
+import { Default } from "./examples/Default";
 import { getExamples } from "@/app/utils/getExamples";
 import { MDX } from "@/components/MDX";
-import { Default } from "./examples/Default";
 
 export default async function Home() {
   const { client } = await getExamples()
@@ -8,7 +8,7 @@ export default async function Home() {
     <div className="flex flex-col gap-4 text-moon-14">
       <h1>Accordion</h1>
 
-      <MDX markdown={client.accordion.description.main} />
+      {/* <MDX markdown={client.accordion.description} /> */}
 
       <div className="space-y-2">
         <h2>Default</h2>

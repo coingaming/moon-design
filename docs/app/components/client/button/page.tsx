@@ -8,7 +8,7 @@ export default async function Home() {
     <div className="flex flex-col gap-4 text-moon-14">
       <h1>Button</h1>
 
-      <MDX markdown={client.button.description.main} />
+      <MDX markdown={client.button.description} />
 
       <div className="space-y-2">
         <h2>Default</h2>

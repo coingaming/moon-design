@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useEffect, useState } from "react";
-import SearchCmdk from '@heathmont/moon-core-tw/lib/es/searchCmdk/SearchCmdk';
+// import SearchCmdk from '@heathmont/moon-core-tw/lib/es/searchCmdk/SearchCmdk';
 import { getExamples } from "@/app/utils/getExamples";
 
 type Item = {
@@ -39,6 +39,8 @@ export function CommandMenu({ items }: { items: Item[] }) {
   const filterItems = (values: Item[], search: string) => { return values.filter(({ label }) => +label.toLowerCase().includes(search)); }
   const filteredItems = filterItems(items, search.toLowerCase());
 
+  return <p>SearchCmdk</p>;
+  /*
   return (
     <>
       <SearchCmdk.Trigger onClick={() => { setOpen(true) }}>
@@ -87,6 +89,7 @@ export function CommandMenu({ items }: { items: Item[] }) {
       </SearchCmdk>
     </>
   );
+  */
 }
 
 

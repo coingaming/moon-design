@@ -1,5 +1,5 @@
-import { CommandMenu } from "@/components/Search";
 import { getExamples } from "./utils/getExamples";
+import { CommandMenu } from "@/components/Search";
 
 export default async function Home() {
   const examples = await getExamples();
@@ -18,7 +18,7 @@ export default async function Home() {
       <CommandMenu items={items} />
 
       <p>
-        {JSON.stringify(examples.client.button.description.main, null, 2)}
+        {JSON.stringify(examples.client.button.description, null, 2)}
       </p>
     </div>
   )
