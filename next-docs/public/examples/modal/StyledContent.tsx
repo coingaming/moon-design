@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import { Modal, Button } from '@heathmont/moon-core-tw';
-import { ControlsClose } from '@heathmont/moon-icons-tw';
+import { useState } from 'react';
+import { Modal, Button, IconButton } from '@heathmont/moon-core-tw';
+import { ControlsCloseSmall } from '@heathmont/moon-icons-tw';
 
 const Example = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,12 +12,14 @@ const Example = () => {
       <Modal open={isOpen} onClose={closeModal}>
         <Modal.Backdrop />
         <Modal.Panel className="lg:max-w-md bg-roshi text-goten rounded-none">
-          <span
-            className="absolute top-5 ltr:right-5 rtl:left-5 cursor-pointer"
+          <IconButton
+            variant="ghost"
+            size="sm"
+            className="absolute top-4 end-5 text-goten"
             onClick={closeModal}
           >
-            <ControlsClose className="text-moon-24" />
-          </span>
+            <ControlsCloseSmall className="text-moon-24" />
+          </IconButton>
           <div className=" p-4 pt-11">
             <div className="mt-2">
               <h3 className="text-moon-24 text-goten font-medium text-center">
@@ -26,7 +28,7 @@ const Example = () => {
             </div>
           </div>
           <div className="p-4 flex items-center justify-center">
-            <Button variant="secondary" onClick={closeModal}>
+            <Button variant="outline" onClick={closeModal}>
               Got it, thanks!
             </Button>
           </div>

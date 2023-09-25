@@ -28,7 +28,7 @@ const CardContributor: React.FC<Props> = ({
         variant && variant in variants ? variants[variant] : variants.default
       )}
     >
-      <p className="list-item absolute bottom-12 pb-2 ltr:left-full rtl:right-full whitespace-nowrap text-goten text-moon-24 transform origin-bottom-left -rotate-90 z-10 font-medium drop-shadow-sm">
+      <p className="list-item absolute bottom-8 ltr:start-full rtl:end-10 whitespace-nowrap text-goten text-moon-24 ltr:origin-bottom-left rtl:origin-bottom-left -rotate-90 z-10 font-medium drop-shadow-sm">
         {title}
       </p>
       <Image

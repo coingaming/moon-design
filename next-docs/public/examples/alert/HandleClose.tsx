@@ -12,7 +12,7 @@ const Example = () => {
       </Alert>
     );
   return (
-    <Button variant="secondary" onClick={handleClick}>
+    <Button variant="outline" onClick={handleClick}>
       Show Alert
     </Button>
   );

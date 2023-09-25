@@ -1,3 +1,5 @@
+import ClipProps from "./ClipProps";
+
 type BodyTRProps = {
   reactTableProps?: any;
   onClick?: any;
@@ -7,7 +9,6 @@ type BodyTRProps = {
   isExpanded?: boolean;
   hasChildren?: boolean;
   hasParent?: boolean;
-  isLastRow?: boolean;
   isLastNestedRow?: boolean;
   isSelected?: boolean | string;
   backgroundColor?: string;
@@ -16,6 +17,7 @@ type BodyTRProps = {
   selectable?: boolean;
   isHovered?: boolean;
   role?: string;
+  textClip?: ClipProps;
 };
 
 export default BodyTRProps;

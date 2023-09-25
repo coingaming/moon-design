@@ -1,9 +1,9 @@
 import React, { Fragment, useState } from 'react';
 import { Checkbox } from '@heathmont/moon-core-tw';
+import type { Cell, Row, UseExpandedRowProps } from 'react-table';
 import BodyTR from '../../components/BodyTR';
 import TD from '../../components/TD';
 import type RenderRowsProps from '../types/RenderRowsProps';
-import type { Cell, Row, UseExpandedRowProps } from 'react-table';
 
 const renderRows = ({
   rows,
@@ -17,6 +17,7 @@ const renderRows = ({
   useCheckbox,
   rowSize,
   isCellBorder,
+  textClip,
 }: RenderRowsProps) => {
   const [hoveredRow, setHoveredRow] = useState('');
   const [selectedRows, setSelectedRows] = useState<{ [key: string]: boolean }>(
@@ -49,7 +50,6 @@ const renderRows = ({
         : defaultRowBackgroundColor;
       const fontColor = row.original?.fontColor;
       const isLastNestedRow = rowId.length > nextRowId.length;
-      const isLastRow = nextRowId.length === 0 || nextRowId.length === 1;
       const expandedRow = row as unknown as UseExpandedRowProps<{}>;
       const resolveRowClick = () => {
         const invokeClickHandler = () => {
@@ -90,7 +90,6 @@ const renderRows = ({
             hasChildren={expandedRow.canExpand}
             hasParent={!!expandedRow.depth}
             isLastNestedRow={isLastNestedRow}
-            isLastRow={isLastRow}
             isSelected={selectedRows[`${row.id}-${rowProps.key}`]}
             isHovered={hoveredRow === `${row.id}-${rowProps.key}`}
             backgroundColor={backgroundColor}
@@ -107,7 +106,6 @@ const renderRows = ({
               <TD
                 selectable={true}
                 isExpanded={expandedRow.isExpanded}
-                isLastRow={isLastRow}
                 hasParent={!!expandedRow.depth}
                 backgroundColor={backgroundColor}
                 fontColor={fontColor}
@@ -120,7 +118,7 @@ const renderRows = ({
                 isCellBorder={isCellBorder}
                 role="cell"
               >
-                <div className="flex items-center h-full w-full justify-center pl-2">
+                <div className="flex items-center h-full w-full justify-center ps-2">
                   <Checkbox
                     id={row.id}
                     checked={selectedRows[`${row.id}-${rowProps.key}`]}
@@ -144,6 +142,7 @@ const renderRows = ({
                 fontColor={fontColor}
                 rowSize={rowSize}
                 isCellBorder={isCellBorder}
+                textClip={textClip}
               >
                 {cell.render('Cell')}
               </TD>

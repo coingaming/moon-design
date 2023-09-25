@@ -43,12 +43,12 @@ Object {
                 </option>
               </select>
               <label
-                class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3 pointer-events-none"
+                class="absolute text-trunks transition-all ease-in-out duration-200 start-4 text-moon-12 top-3 pointer-events-none"
               >
                 Country / Region
               </label>
               <svg
-                class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+                class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
                 fill="none"
                 height="1em"
                 viewBox="0 0 32 32"
@@ -113,12 +113,12 @@ Object {
               </option>
             </select>
             <label
-              class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3 pointer-events-none"
+              class="absolute text-trunks transition-all ease-in-out duration-200 start-4 text-moon-12 top-3 pointer-events-none"
             >
               Country / Region
             </label>
             <svg
-              class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+              class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -233,12 +233,12 @@ Object {
             </option>
           </select>
           <label
-            class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3 pointer-events-none"
+            class="absolute text-trunks transition-all ease-in-out duration-200 start-4 text-moon-12 top-3 pointer-events-none"
           >
             Country / Region
           </label>
           <svg
-            class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+            class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -288,12 +288,12 @@ Object {
           </option>
         </select>
         <label
-          class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3 pointer-events-none"
+          class="absolute text-trunks transition-all ease-in-out duration-200 start-4 text-moon-12 top-3 pointer-events-none"
         >
           Country / Region
         </label>
         <svg
-          class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+          class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -408,12 +408,12 @@ Object {
                 </option>
               </select>
               <label
-                class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3 pointer-events-none"
+                class="absolute text-trunks transition-all ease-in-out duration-200 start-4 text-moon-12 top-3 pointer-events-none"
               >
                 Disabled
               </label>
               <svg
-                class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+                class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
                 fill="none"
                 height="1em"
                 viewBox="0 0 32 32"
@@ -467,12 +467,12 @@ Object {
                 </option>
               </select>
               <label
-                class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3 pointer-events-none"
+                class="absolute text-trunks transition-all ease-in-out duration-200 start-4 text-moon-12 top-3 pointer-events-none"
               >
                 Error
               </label>
               <svg
-                class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+                class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
                 fill="none"
                 height="1em"
                 viewBox="0 0 32 32"
@@ -527,12 +527,12 @@ Object {
                 </option>
               </select>
               <label
-                class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3 pointer-events-none"
+                class="absolute text-trunks transition-all ease-in-out duration-200 start-4 text-moon-12 top-3 pointer-events-none"
               >
                 Read only
               </label>
               <svg
-                class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+                class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
                 fill="none"
                 height="1em"
                 viewBox="0 0 32 32"
@@ -598,12 +598,12 @@ Object {
               </option>
             </select>
             <label
-              class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3 pointer-events-none"
+              class="absolute text-trunks transition-all ease-in-out duration-200 start-4 text-moon-12 top-3 pointer-events-none"
             >
               Disabled
             </label>
             <svg
-              class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+              class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -657,12 +657,12 @@ Object {
               </option>
             </select>
             <label
-              class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3 pointer-events-none"
+              class="absolute text-trunks transition-all ease-in-out duration-200 start-4 text-moon-12 top-3 pointer-events-none"
             >
               Error
             </label>
             <svg
-              class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+              class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -717,12 +717,12 @@ Object {
               </option>
             </select>
             <label
-              class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3 pointer-events-none"
+              class="absolute text-trunks transition-all ease-in-out duration-200 start-4 text-moon-12 top-3 pointer-events-none"
             >
               Read only
             </label>
             <svg
-              class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+              class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -841,12 +841,12 @@ Object {
               </option>
             </select>
             <label
-              class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3 pointer-events-none"
+              class="absolute text-trunks transition-all ease-in-out duration-200 start-4 text-moon-12 top-3 pointer-events-none"
             >
               Country / Region
             </label>
             <svg
-              class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+              class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -907,12 +907,12 @@ Object {
             </option>
           </select>
           <label
-            class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3 pointer-events-none"
+            class="absolute text-trunks transition-all ease-in-out duration-200 start-4 text-moon-12 top-3 pointer-events-none"
           >
             Country / Region
           </label>
           <svg
-            class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+            class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -1023,12 +1023,12 @@ Object {
           </option>
         </select>
         <label
-          class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3 pointer-events-none"
+          class="absolute text-trunks transition-all ease-in-out duration-200 start-4 text-moon-12 top-3 pointer-events-none"
         >
           Country / Region
         </label>
         <svg
-          class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+          class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -1074,12 +1074,12 @@ Object {
         </option>
       </select>
       <label
-        class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3 pointer-events-none"
+        class="absolute text-trunks transition-all ease-in-out duration-200 start-4 text-moon-12 top-3 pointer-events-none"
       >
         Country / Region
       </label>
       <svg
-        class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+        class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -1190,12 +1190,12 @@ Object {
               </option>
             </select>
             <label
-              class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3 pointer-events-none"
+              class="absolute text-trunks transition-all ease-in-out duration-200 start-4 text-moon-12 top-3 pointer-events-none"
             >
               Disabled
             </label>
             <svg
-              class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+              class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -1249,12 +1249,12 @@ Object {
               </option>
             </select>
             <label
-              class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3 pointer-events-none"
+              class="absolute text-trunks transition-all ease-in-out duration-200 start-4 text-moon-12 top-3 pointer-events-none"
             >
               Error
             </label>
             <svg
-              class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+              class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -1309,12 +1309,12 @@ Object {
               </option>
             </select>
             <label
-              class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3 pointer-events-none"
+              class="absolute text-trunks transition-all ease-in-out duration-200 start-4 text-moon-12 top-3 pointer-events-none"
             >
               Read only
             </label>
             <svg
-              class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+              class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -1376,12 +1376,12 @@ Object {
             </option>
           </select>
           <label
-            class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3 pointer-events-none"
+            class="absolute text-trunks transition-all ease-in-out duration-200 start-4 text-moon-12 top-3 pointer-events-none"
           >
             Disabled
           </label>
           <svg
-            class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+            class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -1435,12 +1435,12 @@ Object {
             </option>
           </select>
           <label
-            class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3 pointer-events-none"
+            class="absolute text-trunks transition-all ease-in-out duration-200 start-4 text-moon-12 top-3 pointer-events-none"
           >
             Error
           </label>
           <svg
-            class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+            class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -1495,12 +1495,12 @@ Object {
             </option>
           </select>
           <label
-            class="absolute text-trunks transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-moon-12 top-3 pointer-events-none"
+            class="absolute text-trunks transition-all ease-in-out duration-200 start-4 text-moon-12 top-3 pointer-events-none"
           >
             Read only
           </label>
           <svg
-            class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+            class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"

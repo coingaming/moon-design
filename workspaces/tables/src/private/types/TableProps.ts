@@ -1,9 +1,10 @@
+import type { Column, Row } from 'react-table';
+import ClipProps from './ClipProps';
 import type RowGaps from './RowGaps';
 import type RowSizes from './RowSizes';
 import type RowSubComponentProps from './RowSubComponentProps';
 import type TableLayout from './TableLayout';
 import type TableVariant from './TableVariant';
-import type { Column, Row } from 'react-table';
 
 type TableProps<D extends object = {}> = {
   columns: ReadonlyArray<Column<D>>;
@@ -28,6 +29,7 @@ type TableProps<D extends object = {}> = {
   isSorting?: boolean;
   selectable?: boolean;
   useCheckbox?: boolean;
+  textClip?: ClipProps;
   renderRowSubComponent?: (props: RowSubComponentProps) => JSX.Element;
   getOnRowClickHandler?: (row: Row<D>) => (row: Row<D>) => void | (() => void);
   getOnRowSelect?: () => (rows: Row<D>[]) => void | (() => void);

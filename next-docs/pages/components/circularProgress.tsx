@@ -1,6 +1,7 @@
 import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import type { ComponentNames } from '../../components/getComponent';
 import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Colors from '../../public/examples/circularProgress/Colors';
@@ -8,7 +9,6 @@ import Default from '../../public/examples/circularProgress/Default';
 import Sizes from '../../public/examples/circularProgress/Sizes';
 import Values from '../../public/examples/circularProgress/Values';
 import useComponent from '../../utils/useComponent';
-import type { ComponentNames } from '../../components/getComponent';
 
 const COMPONENT_NAME: ComponentNames = 'CircularProgress';
 
@@ -19,7 +19,6 @@ const PageCircularProgress = () => {
       <ComponentPageDescription
         title={name}
         image={image}
-        isInProgress
         isRtlSupport
         isAriaSupport
       >
@@ -49,18 +48,11 @@ const PageCircularProgress = () => {
         title="Progress props"
         data={[
           {
-            name: 'bgColor',
+            name: 'className',
             type: 'string',
             required: false,
-            default: 'stroke-trunks/[.24]',
-            description: 'Background colour',
-          },
-          {
-            name: 'progressColor',
-            type: 'string',
-            required: false,
-            default: 'stroke-piccolo',
-            description: 'Progress bar colour',
+            default: '-',
+            description: 'Tailwind classes for custom styles.',
           },
           {
             name: 'size',

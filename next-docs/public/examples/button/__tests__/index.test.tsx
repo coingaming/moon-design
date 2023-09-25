@@ -11,6 +11,7 @@ import FullWidth from '../FullWidth';
 import Disabled from '../Disabled';
 import Animations from '../Animations';
 import AsLink from '../AsLink';
+import Multiline from '../Multiline';
 
 const withRtl = (component: JSX.Element) => <div dir="rtl">{component}</div>;
 
@@ -48,6 +49,10 @@ describe('Button', () => {
     const tree = render(<Animations />);
     expect(tree).toMatchSnapshot();
   });
+  it('renders Multiline', () => {
+    const tree = render(<Multiline />);
+    expect(tree).toMatchSnapshot();
+  });
 });
 
 describe('Button in RTL', () => {
@@ -82,6 +87,10 @@ describe('Button in RTL', () => {
   });
   it('renders Animations', () => {
     const tree = render(withRtl(<Animations />));
+    expect(tree).toMatchSnapshot();
+  });
+  it('renders Multiline', () => {
+    const tree = render(withRtl(<Multiline />));
     expect(tree).toMatchSnapshot();
   });
 });

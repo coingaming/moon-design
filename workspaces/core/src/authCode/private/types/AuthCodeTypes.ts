@@ -1,6 +1,6 @@
-export type AuthCodeTextSizes = 'sm' | 'md' | 'lg' | 'xl' | string;
-
-export type AuthCodeRef = {
+type AuthCodeRef = {
   focus: () => void;
   clear: () => void;
 };
+
+export default AuthCodeRef;

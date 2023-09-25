@@ -9,14 +9,14 @@ Object {
         dir="rtl"
       >
         <button
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
           type="button"
         >
           <span
             class="block h-full pointer-events-none"
           >
             <span
-              class="flex absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] content-center justify-center"
+              class="flex absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 content-center justify-center"
             >
               <div
                 aria-busy="true"
@@ -57,14 +57,14 @@ Object {
           />
         </button>
         <button
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
           type="button"
         >
           <span
             class="block h-full pointer-events-none"
           >
             <span
-              class="flex absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] content-center justify-center"
+              class="flex absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 content-center justify-center"
             >
               <svg
                 aria-label="Success"
@@ -95,7 +95,7 @@ Object {
           />
         </button>
         <button
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary bg-chichi text-goten animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both] anim-error"
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-chichi text-goten animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both] anim-error"
           type="button"
         >
           Error
@@ -105,7 +105,7 @@ Object {
           />
         </button>
         <button
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary anim-pulse animate-[pulse2_1.5s_infinite]"
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo anim-pulse animate-[pulse2_1.5s_infinite]"
           type="button"
         >
           Pulse
@@ -122,14 +122,14 @@ Object {
       dir="rtl"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
         type="button"
       >
         <span
           class="block h-full pointer-events-none"
         >
           <span
-            class="flex absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] content-center justify-center"
+            class="flex absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 content-center justify-center"
           >
             <div
               aria-busy="true"
@@ -170,14 +170,14 @@ Object {
         />
       </button>
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
         type="button"
       >
         <span
           class="block h-full pointer-events-none"
         >
           <span
-            class="flex absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] content-center justify-center"
+            class="flex absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 content-center justify-center"
           >
             <svg
               aria-label="Success"
@@ -208,7 +208,7 @@ Object {
         />
       </button>
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary bg-chichi text-goten animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both] anim-error"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-chichi text-goten animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both] anim-error"
         type="button"
       >
         Error
@@ -218,7 +218,7 @@ Object {
         />
       </button>
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary anim-pulse animate-[pulse2_1.5s_infinite]"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo anim-pulse animate-[pulse2_1.5s_infinite]"
         type="button"
       >
         Pulse
@@ -292,7 +292,7 @@ Object {
         dir="rtl"
       >
         <a
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
           href="/components/button"
         >
           Link HTML element
@@ -309,7 +309,7 @@ Object {
       dir="rtl"
     >
       <a
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
         href="/components/button"
       >
         Link HTML element
@@ -383,7 +383,7 @@ Object {
         dir="rtl"
       >
         <button
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
           type="button"
         >
           Default
@@ -400,7 +400,7 @@ Object {
       dir="rtl"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
         type="button"
       >
         Default
@@ -474,7 +474,7 @@ Object {
         dir="rtl"
       >
         <button
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary"
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-goten bg-piccolo"
           disabled=""
           type="button"
         >
@@ -492,7 +492,7 @@ Object {
       dir="rtl"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-goten bg-piccolo"
         disabled=""
         type="button"
       >
@@ -567,7 +567,7 @@ Object {
         dir="rtl"
       >
         <button
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary w-full"
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo w-full"
           type="button"
         >
           Full width
@@ -602,7 +602,7 @@ Object {
       dir="rtl"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary w-full"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo w-full"
         type="button"
       >
         Full width
@@ -694,7 +694,7 @@ Object {
         dir="rtl"
       >
         <button
-          class="ps-2 pe-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+          class="ps-2 pe-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
           type="button"
         >
           <span
@@ -722,7 +722,7 @@ Object {
           />
         </button>
         <button
-          class="ps-4 pe-2 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+          class="ps-4 pe-2 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
           type="button"
         >
           IconRight
@@ -757,7 +757,7 @@ Object {
       dir="rtl"
     >
       <button
-        class="ps-2 pe-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        class="ps-2 pe-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
         type="button"
       >
         <span
@@ -785,7 +785,7 @@ Object {
         />
       </button>
       <button
-        class="ps-4 pe-2 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        class="ps-4 pe-2 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
         type="button"
       >
         IconRight
@@ -868,6 +868,123 @@ Object {
 }
 `;
 
+exports[`Button in RTL renders Multiline 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        dir="rtl"
+      >
+        <button
+          class="px-6 h-14 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo py-3"
+          type="button"
+        >
+          <span
+            class="flex flex-col gap-1"
+          >
+            <span
+              class="leading-none"
+            >
+              Button text
+            </span>
+            <span
+              class="text-moon-9 font-normal leading-[12px]"
+            >
+              Placeholder text
+            </span>
+          </span>
+          <span
+            aria-hidden="true"
+            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
+        </button>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <button
+        class="px-6 h-14 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo py-3"
+        type="button"
+      >
+        <span
+          class="flex flex-col gap-1"
+        >
+          <span
+            class="leading-none"
+          >
+            Button text
+          </span>
+          <span
+            class="text-moon-9 font-normal leading-[12px]"
+          >
+            Placeholder text
+          </span>
+        </span>
+        <span
+          aria-hidden="true"
+          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        />
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
 exports[`Button in RTL renders Sizes 1`] = `
 Object {
   "asFragment": [Function],
@@ -877,7 +994,7 @@ Object {
         dir="rtl"
       >
         <button
-          class="ps-1 pe-2 h-6 py-1 gap-1 text-moon-12 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+          class="ps-1 pe-2 h-6 py-1 gap-1 text-moon-12 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
           type="button"
         >
           <span
@@ -905,7 +1022,7 @@ Object {
           />
         </button>
         <button
-          class="ps-1 pe-3 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+          class="ps-1 pe-3 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
           type="button"
         >
           <span
@@ -933,7 +1050,7 @@ Object {
           />
         </button>
         <button
-          class="ps-2 pe-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+          class="ps-2 pe-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
           type="button"
         >
           <span
@@ -961,7 +1078,7 @@ Object {
           />
         </button>
         <button
-          class="ps-3 pe-4 h-12 py-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+          class="ps-3 pe-4 h-12 py-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
           type="button"
         >
           <span
@@ -989,7 +1106,7 @@ Object {
           />
         </button>
         <button
-          class="ps-4 pe-6 h-14 py-4 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+          class="ps-4 pe-6 h-14 py-4 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
           type="button"
         >
           <span
@@ -1024,7 +1141,7 @@ Object {
       dir="rtl"
     >
       <button
-        class="ps-1 pe-2 h-6 py-1 gap-1 text-moon-12 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        class="ps-1 pe-2 h-6 py-1 gap-1 text-moon-12 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
         type="button"
       >
         <span
@@ -1052,7 +1169,7 @@ Object {
         />
       </button>
       <button
-        class="ps-1 pe-3 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        class="ps-1 pe-3 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
         type="button"
       >
         <span
@@ -1080,7 +1197,7 @@ Object {
         />
       </button>
       <button
-        class="ps-2 pe-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        class="ps-2 pe-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
         type="button"
       >
         <span
@@ -1108,7 +1225,7 @@ Object {
         />
       </button>
       <button
-        class="ps-3 pe-4 h-12 py-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        class="ps-3 pe-4 h-12 py-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
         type="button"
       >
         <span
@@ -1136,7 +1253,7 @@ Object {
         />
       </button>
       <button
-        class="ps-4 pe-6 h-14 py-4 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        class="ps-4 pe-6 h-14 py-4 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
         type="button"
       >
         <span
@@ -1228,30 +1345,20 @@ Object {
         dir="rtl"
       >
         <button
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
           type="button"
         >
-          Primary is default
+          Fill is default
           <span
             aria-hidden="true"
             class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
           />
         </button>
         <button
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary"
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
           type="button"
         >
-          Secondary
-          <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-          />
-        </button>
-        <button
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-tertiary"
-          type="button"
-        >
-          Tertiary
+          Outline
           <span
             aria-hidden="true"
             class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
@@ -1275,30 +1382,20 @@ Object {
       dir="rtl"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
         type="button"
       >
-        Primary is default
+        Fill is default
         <span
           aria-hidden="true"
           class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
         />
       </button>
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
         type="button"
       >
-        Secondary
-        <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-        />
-      </button>
-      <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-tertiary"
-        type="button"
-      >
-        Tertiary
+        Outline
         <span
           aria-hidden="true"
           class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
@@ -1376,14 +1473,14 @@ Object {
   "baseElement": <body>
     <div>
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
         type="button"
       >
         <span
           class="block h-full pointer-events-none"
         >
           <span
-            class="flex absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] content-center justify-center"
+            class="flex absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 content-center justify-center"
           >
             <div
               aria-busy="true"
@@ -1424,14 +1521,14 @@ Object {
         />
       </button>
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
         type="button"
       >
         <span
           class="block h-full pointer-events-none"
         >
           <span
-            class="flex absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] content-center justify-center"
+            class="flex absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 content-center justify-center"
           >
             <svg
               aria-label="Success"
@@ -1462,7 +1559,7 @@ Object {
         />
       </button>
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary bg-chichi text-goten animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both] anim-error"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-chichi text-goten animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both] anim-error"
         type="button"
       >
         Error
@@ -1472,7 +1569,7 @@ Object {
         />
       </button>
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary anim-pulse animate-[pulse2_1.5s_infinite]"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo anim-pulse animate-[pulse2_1.5s_infinite]"
         type="button"
       >
         Pulse
@@ -1485,14 +1582,14 @@ Object {
   </body>,
   "container": <div>
     <button
-      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
       type="button"
     >
       <span
         class="block h-full pointer-events-none"
       >
         <span
-          class="flex absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] content-center justify-center"
+          class="flex absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 content-center justify-center"
         >
           <div
             aria-busy="true"
@@ -1533,14 +1630,14 @@ Object {
       />
     </button>
     <button
-      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
       type="button"
     >
       <span
         class="block h-full pointer-events-none"
       >
         <span
-          class="flex absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] content-center justify-center"
+          class="flex absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 content-center justify-center"
         >
           <svg
             aria-label="Success"
@@ -1571,7 +1668,7 @@ Object {
       />
     </button>
     <button
-      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary bg-chichi text-goten animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both] anim-error"
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-chichi text-goten animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both] anim-error"
       type="button"
     >
       Error
@@ -1581,7 +1678,7 @@ Object {
       />
     </button>
     <button
-      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary anim-pulse animate-[pulse2_1.5s_infinite]"
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo anim-pulse animate-[pulse2_1.5s_infinite]"
       type="button"
     >
       Pulse
@@ -1651,7 +1748,7 @@ Object {
   "baseElement": <body>
     <div>
       <a
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
         href="/components/button"
       >
         Link HTML element
@@ -1664,7 +1761,7 @@ Object {
   </body>,
   "container": <div>
     <a
-      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
       href="/components/button"
     >
       Link HTML element
@@ -1734,7 +1831,7 @@ Object {
   "baseElement": <body>
     <div>
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
         type="button"
       >
         Default
@@ -1747,7 +1844,7 @@ Object {
   </body>,
   "container": <div>
     <button
-      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
       type="button"
     >
       Default
@@ -1817,7 +1914,7 @@ Object {
   "baseElement": <body>
     <div>
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-goten bg-piccolo"
         disabled=""
         type="button"
       >
@@ -1831,7 +1928,7 @@ Object {
   </body>,
   "container": <div>
     <button
-      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed btn-primary"
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-goten bg-piccolo"
       disabled=""
       type="button"
     >
@@ -1902,7 +1999,7 @@ Object {
   "baseElement": <body>
     <div>
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary w-full"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo w-full"
         type="button"
       >
         Full width
@@ -1933,7 +2030,7 @@ Object {
   </body>,
   "container": <div>
     <button
-      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary w-full"
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo w-full"
       type="button"
     >
       Full width
@@ -2021,7 +2118,7 @@ Object {
   "baseElement": <body>
     <div>
       <button
-        class="ps-2 pe-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        class="ps-2 pe-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
         type="button"
       >
         <span
@@ -2049,7 +2146,7 @@ Object {
         />
       </button>
       <button
-        class="ps-4 pe-2 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        class="ps-4 pe-2 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
         type="button"
       >
         IconRight
@@ -2080,7 +2177,7 @@ Object {
   </body>,
   "container": <div>
     <button
-      class="ps-2 pe-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+      class="ps-2 pe-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
       type="button"
     >
       <span
@@ -2108,7 +2205,7 @@ Object {
       />
     </button>
     <button
-      class="ps-4 pe-2 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+      class="ps-4 pe-2 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
       type="button"
     >
       IconRight
@@ -2190,13 +2287,122 @@ Object {
 }
 `;
 
+exports[`Button renders Multiline 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <button
+        class="px-6 h-14 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo py-3"
+        type="button"
+      >
+        <span
+          class="flex flex-col gap-1"
+        >
+          <span
+            class="leading-none"
+          >
+            Button text
+          </span>
+          <span
+            class="text-moon-9 font-normal leading-[12px]"
+          >
+            Placeholder text
+          </span>
+        </span>
+        <span
+          aria-hidden="true"
+          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        />
+      </button>
+    </div>
+  </body>,
+  "container": <div>
+    <button
+      class="px-6 h-14 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo py-3"
+      type="button"
+    >
+      <span
+        class="flex flex-col gap-1"
+      >
+        <span
+          class="leading-none"
+        >
+          Button text
+        </span>
+        <span
+          class="text-moon-9 font-normal leading-[12px]"
+        >
+          Placeholder text
+        </span>
+      </span>
+      <span
+        aria-hidden="true"
+        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
 exports[`Button renders Sizes 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <button
-        class="ps-1 pe-2 h-6 py-1 gap-1 text-moon-12 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        class="ps-1 pe-2 h-6 py-1 gap-1 text-moon-12 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
         type="button"
       >
         <span
@@ -2224,7 +2430,7 @@ Object {
         />
       </button>
       <button
-        class="ps-1 pe-3 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        class="ps-1 pe-3 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
         type="button"
       >
         <span
@@ -2252,7 +2458,7 @@ Object {
         />
       </button>
       <button
-        class="ps-2 pe-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        class="ps-2 pe-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
         type="button"
       >
         <span
@@ -2280,7 +2486,7 @@ Object {
         />
       </button>
       <button
-        class="ps-3 pe-4 h-12 py-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        class="ps-3 pe-4 h-12 py-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
         type="button"
       >
         <span
@@ -2308,7 +2514,7 @@ Object {
         />
       </button>
       <button
-        class="ps-4 pe-6 h-14 py-4 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        class="ps-4 pe-6 h-14 py-4 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
         type="button"
       >
         <span
@@ -2339,7 +2545,7 @@ Object {
   </body>,
   "container": <div>
     <button
-      class="ps-1 pe-2 h-6 py-1 gap-1 text-moon-12 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+      class="ps-1 pe-2 h-6 py-1 gap-1 text-moon-12 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
       type="button"
     >
       <span
@@ -2367,7 +2573,7 @@ Object {
       />
     </button>
     <button
-      class="ps-1 pe-3 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+      class="ps-1 pe-3 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
       type="button"
     >
       <span
@@ -2395,7 +2601,7 @@ Object {
       />
     </button>
     <button
-      class="ps-2 pe-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+      class="ps-2 pe-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
       type="button"
     >
       <span
@@ -2423,7 +2629,7 @@ Object {
       />
     </button>
     <button
-      class="ps-3 pe-4 h-12 py-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+      class="ps-3 pe-4 h-12 py-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
       type="button"
     >
       <span
@@ -2451,7 +2657,7 @@ Object {
       />
     </button>
     <button
-      class="ps-4 pe-6 h-14 py-4 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+      class="ps-4 pe-6 h-14 py-4 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
       type="button"
     >
       <span
@@ -2539,30 +2745,20 @@ Object {
   "baseElement": <body>
     <div>
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
         type="button"
       >
-        Primary is default
+        Fill is default
         <span
           aria-hidden="true"
           class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
         />
       </button>
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
         type="button"
       >
-        Secondary
-        <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-        />
-      </button>
-      <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-tertiary"
-        type="button"
-      >
-        Tertiary
+        Outline
         <span
           aria-hidden="true"
           class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
@@ -2582,30 +2778,20 @@ Object {
   </body>,
   "container": <div>
     <button
-      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
       type="button"
     >
-      Primary is default
+      Fill is default
       <span
         aria-hidden="true"
         class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
     </button>
     <button
-      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary"
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
       type="button"
     >
-      Secondary
-      <span
-        aria-hidden="true"
-        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-      />
-    </button>
-    <button
-      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-tertiary"
-      type="button"
-    >
-      Tertiary
+      Outline
       <span
         aria-hidden="true"
         class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"

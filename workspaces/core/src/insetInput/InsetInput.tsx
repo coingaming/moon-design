@@ -1,11 +1,11 @@
 import React, { forwardRef, useEffect } from 'react';
+import type InsetInputProps from './private/types/InsetInputProps';
+import type LabelProps from './private/types/LabelProps';
+import InsetInputContext from './private/utils/InsetInputContext';
+import useInsetInputContext from './private/utils/useInsetInputContext';
 import useFormItemContext from '../form/private/utils/useFormItemContext';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import useRegisterChild from '../private/utils/useRegisterChild';
-import InsetInputContext from './private/utils/InsetInputContext';
-import useInsetInputContext from './private/utils/useInsetInputContext';
-import type InsetInputProps from './private/types/InsetInputProps';
-import type LabelProps from './private/types/LabelProps';
 
 const InsetInputRoot = forwardRef<HTMLInputElement, InsetInputProps>(
   ({ className, error: inputError, children, ...rest }, ref) => {
@@ -69,8 +69,9 @@ const Label = ({ children, className }: LabelProps) => {
   return (
     <label
       className={mergeClassnames(
-        'absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4',
-        className && className
+        'absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200',
+        'start-4',
+        className
       )}
     >
       {children}

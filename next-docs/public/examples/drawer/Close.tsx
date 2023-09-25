@@ -8,7 +8,7 @@ const Example = () => {
   const handleClose = () => setIsOpen(false);
   return (
     <>
-      <Button variant="secondary" onClick={handleClick}>
+      <Button variant="outline" onClick={handleClick}>
         Show Drawer with Close button
       </Button>
       <Drawer open={isOpen} setOpen={setIsOpen}>

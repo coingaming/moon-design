@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
+import type ButtonProps from './private/types/ButtonProps';
+import type ButtonVariants from './private/types/ButtonVariants';
 import AnimationContent from './private/utils/buttonAnimations/AnimationContent';
 import ButtonComponent from './styles/ButtonComponent';
 import Hover from './styles/Hover';
 import IconLeft from './styles/IconLeft';
 import IconRight from './styles/IconRight';
-import type ButtonProps from './private/types/ButtonProps';
-import type ButtonVariants from './private/types/ButtonVariants';
 
 export type Props<C extends React.ElementType> = React.PropsWithChildren<
   ButtonProps<C>
@@ -14,7 +14,7 @@ export type Props<C extends React.ElementType> = React.PropsWithChildren<
 
 const Button = <C extends React.ElementType = 'button'>({
   children,
-  variant = 'primary',
+  variant = 'fill',
   size = 'md',
   icon, // deprecated
   iconLeft, // not boolean anymore
@@ -33,7 +33,7 @@ const Button = <C extends React.ElementType = 'button'>({
   return (
     <ButtonComponent
       size={size}
-      variant={variant as ButtonVariants}
+      variant={variant}
       icon={icon}
       iconLeft={iconLeft}
       iconRight={iconRight}

@@ -13,6 +13,7 @@ import {
   SecurityUnlock,
   SecurityVerified,
   SecurityVerifiedFace,
+  SecurityPassword,
 } from '@heathmont/moon-icons-tw';
 import Icon from './Icon';
 import type Props from './Props';
@@ -60,6 +61,9 @@ const Example = ({ wrapperProps, props }: Props) => (
     </Icon>
     <Icon {...wrapperProps} name="SecurityVerifiedFace">
       <SecurityVerifiedFace {...props} />
+    </Icon>
+    <Icon {...wrapperProps} name="SecurityPassword">
+      <SecurityPassword {...props} />
     </Icon>
   </>
 );

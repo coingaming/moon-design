@@ -10,7 +10,13 @@ import {
   GenericTrophy,
 } from '@heathmont/moon-icons-tw';
 
-const navigation = [
+type NavigationProps = {
+  name: string;
+  href: string;
+  icon: JSX.Element;
+};
+
+const navigation: NavigationProps[] = [
   {
     name: 'Vision',
     href: '/vision',

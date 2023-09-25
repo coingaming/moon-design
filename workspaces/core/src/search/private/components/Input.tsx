@@ -55,6 +55,9 @@ const InnerInput = forwardRef(
           'focus:ring-0 bg-transparent placeholder-bulma text-bulma',
           className
         )}
+        onClick={() => {
+          onChangeOpen(true);
+        }}
         onChange={(e) => {
           onChangeSearch(e.currentTarget.value);
         }}
@@ -93,7 +96,7 @@ export const ButtonClear = ({
       tabIndex={-1}
       type="button"
       className={mergeClassnames(
-        'cursor-pointer text-trunks text-moon-14 transition absolute ltr:right-4 rtl:left-4',
+        'cursor-pointer text-trunks text-moon-14 transition absolute end-4',
         'top-1/2 transform -translate-y-1/2',
         className
       )}

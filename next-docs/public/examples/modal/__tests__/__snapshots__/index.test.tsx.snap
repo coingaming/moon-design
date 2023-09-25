@@ -76,7 +76,7 @@ Object {
                     class="p-4 border-t-2 border-beerus"
                   >
                     <button
-                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
                       type="button"
                     >
                       Got it, thanks!
@@ -106,7 +106,7 @@ Object {
         dir="rtl"
       >
         <button
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
           type="button"
         >
           Open dialog
@@ -128,7 +128,7 @@ Object {
       dir="rtl"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
         type="button"
       >
         Open dialog
@@ -269,7 +269,7 @@ Object {
                     class="p-4 border-t-2 border-beerus"
                   >
                     <button
-                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
                       type="button"
                     >
                       Got it, thanks!
@@ -299,7 +299,7 @@ Object {
         dir="rtl"
       >
         <button
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
           type="button"
         >
           Open dialog
@@ -321,7 +321,7 @@ Object {
       dir="rtl"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
         type="button"
       >
         Open dialog
@@ -446,8 +446,10 @@ Object {
                   data-headlessui-state="open"
                   id="headlessui-dialog-panel-:rm:"
                 >
-                  <span
-                    class="absolute top-5 ltr:right-5 rtl:left-5 cursor-pointer"
+                  <button
+                    aria-label="IconButton"
+                    class="h-8 p-1 gap-1 rounded-moon-i-sm z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma text-moon-24 absolute top-4 end-5 text-goten"
+                    type="button"
                   >
                     <svg
                       class="text-moon-24"
@@ -458,13 +460,17 @@ Object {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
+                        d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
                       />
                     </svg>
-                  </span>
+                    <span
+                      aria-hidden="true"
+                      class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                    />
+                  </button>
                   <div
                     class=" p-4 pt-11"
                   >
@@ -482,7 +488,7 @@ Object {
                     class="p-4 flex items-center justify-center"
                   >
                     <button
-                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary"
+                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
                       type="button"
                     >
                       Got it, thanks!
@@ -512,7 +518,7 @@ Object {
         dir="rtl"
       >
         <button
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
           type="button"
         >
           Open dialog
@@ -534,7 +540,7 @@ Object {
       dir="rtl"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
         type="button"
       >
         Open dialog
@@ -670,8 +676,10 @@ Object {
                     >
                       Modal title
                     </h3>
-                    <span
-                      class="absolute top-5 ltr:right-5 rtl:left-5 cursor-pointer"
+                    <button
+                      aria-label="IconButton"
+                      class="h-8 p-1 gap-1 rounded-moon-i-sm z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma text-moon-24 absolute top-4 end-5"
+                      type="button"
                     >
                       <svg
                         class="text-moon-24"
@@ -688,7 +696,11 @@ Object {
                           stroke-linejoin="round"
                         />
                       </svg>
-                    </span>
+                      <span
+                        aria-hidden="true"
+                        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                      />
+                    </button>
                   </div>
                   <div
                     class="px-6 py-4 flex flex-col gap-3"
@@ -857,7 +869,7 @@ Object {
                     class="flex gap-2 p-4 justify-end pt-2"
                   >
                     <button
-                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary"
+                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
                       type="button"
                     >
                       Cancel
@@ -867,7 +879,7 @@ Object {
                       />
                     </button>
                     <button
-                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
                       type="button"
                     >
                       Create
@@ -897,7 +909,7 @@ Object {
         dir="rtl"
       >
         <button
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
           type="button"
         >
           Open dialog
@@ -919,7 +931,7 @@ Object {
       dir="rtl"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
         type="button"
       >
         Open dialog
@@ -1051,7 +1063,7 @@ Object {
                     class="p-4 border-t-2 border-beerus"
                   >
                     <button
-                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
                       type="button"
                     >
                       Got it, thanks!
@@ -1078,7 +1090,7 @@ Object {
       aria-hidden="true"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
         type="button"
       >
         Open dialog
@@ -1096,7 +1108,7 @@ Object {
     aria-hidden="true"
   >
     <button
-      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
       type="button"
     >
       Open dialog
@@ -1171,7 +1183,7 @@ Object {
       aria-hidden="true"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
         type="button"
       >
         Open dialog
@@ -1241,7 +1253,7 @@ Object {
                     class="p-4 border-t-2 border-beerus"
                   >
                     <button
-                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
                       type="button"
                     >
                       Got it, thanks!
@@ -1269,7 +1281,7 @@ Object {
     aria-hidden="true"
   >
     <button
-      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
       type="button"
     >
       Open dialog
@@ -1381,8 +1393,10 @@ Object {
                   data-headlessui-state="open"
                   id="headlessui-dialog-panel-:r5:"
                 >
-                  <span
-                    class="absolute top-5 ltr:right-5 rtl:left-5 cursor-pointer"
+                  <button
+                    aria-label="IconButton"
+                    class="h-8 p-1 gap-1 rounded-moon-i-sm z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma text-moon-24 absolute top-4 end-5 text-goten"
+                    type="button"
                   >
                     <svg
                       class="text-moon-24"
@@ -1393,13 +1407,17 @@ Object {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
+                        d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
                       />
                     </svg>
-                  </span>
+                    <span
+                      aria-hidden="true"
+                      class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                    />
+                  </button>
                   <div
                     class=" p-4 pt-11"
                   >
@@ -1417,7 +1435,7 @@ Object {
                     class="p-4 flex items-center justify-center"
                   >
                     <button
-                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary"
+                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
                       type="button"
                     >
                       Got it, thanks!
@@ -1444,7 +1462,7 @@ Object {
       aria-hidden="true"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
         type="button"
       >
         Open dialog
@@ -1462,7 +1480,7 @@ Object {
     aria-hidden="true"
   >
     <button
-      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
       type="button"
     >
       Open dialog
@@ -1585,8 +1603,10 @@ Object {
                     >
                       Modal title
                     </h3>
-                    <span
-                      class="absolute top-5 ltr:right-5 rtl:left-5 cursor-pointer"
+                    <button
+                      aria-label="IconButton"
+                      class="h-8 p-1 gap-1 rounded-moon-i-sm z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma text-moon-24 absolute top-4 end-5"
+                      type="button"
                     >
                       <svg
                         class="text-moon-24"
@@ -1603,7 +1623,11 @@ Object {
                           stroke-linejoin="round"
                         />
                       </svg>
-                    </span>
+                      <span
+                        aria-hidden="true"
+                        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                      />
+                    </button>
                   </div>
                   <div
                     class="px-6 py-4 flex flex-col gap-3"
@@ -1772,7 +1796,7 @@ Object {
                     class="flex gap-2 p-4 justify-end pt-2"
                   >
                     <button
-                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary"
+                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
                       type="button"
                     >
                       Cancel
@@ -1782,7 +1806,7 @@ Object {
                       />
                     </button>
                     <button
-                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
                       type="button"
                     >
                       Create
@@ -1809,7 +1833,7 @@ Object {
       aria-hidden="true"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
         type="button"
       >
         Open dialog
@@ -1827,7 +1851,7 @@ Object {
     aria-hidden="true"
   >
     <button
-      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
       type="button"
     >
       Open dialog

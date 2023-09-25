@@ -1,9 +1,9 @@
 import React, { forwardRef } from 'react';
 import { mergeClassnames } from '@heathmont/moon-core-tw';
+import type THProps from '../private/types/THProps';
 import getCellBorder from '../private/utils/getCellBorder';
 import getFontSize from '../private/utils/getFontSize';
 import getPadding from '../private/utils/getPadding';
-import type THProps from '../private/types/THProps';
 
 const TH = forwardRef<HTMLDivElement, THProps>(
   (
@@ -30,7 +30,7 @@ const TH = forwardRef<HTMLDivElement, THProps>(
         `bg-${headerBackgroundColor}`,
         variant === 'calendar' && 'first:after:hidden',
         stickySide === 'right' &&
-          'before:content-[""] before:absolute before:w-px before:bg-beerus before:h-[70%] before:bottom-[15%] before:left-0 before:-margin-l-2'
+          'before:absolute before:w-px before:bg-beerus before:h-[70%] before:bottom-[15%] before:start-0 before:-ms-2'
       )}
     >
       {children}

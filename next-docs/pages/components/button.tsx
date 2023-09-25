@@ -1,6 +1,7 @@
 import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import type { ComponentNames } from '../../components/getComponent';
 import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Animations from '../../public/examples/button/Animations';
@@ -9,10 +10,10 @@ import Default from '../../public/examples/button/Default';
 import Disabled from '../../public/examples/button/Disabled';
 import FullWidth from '../../public/examples/button/FullWidth';
 import Icons from '../../public/examples/button/Icons';
+import Multiline from '../../public/examples/button/Multiline';
 import Sizes from '../../public/examples/button/Sizes';
 import Variants from '../../public/examples/button/Variants';
 import useComponent from '../../utils/useComponent';
-import type { ComponentNames } from '../../components/getComponent';
 
 const COMPONENT_NAME: ComponentNames = 'Button';
 
@@ -23,7 +24,6 @@ const PageButton = () => {
       <ComponentPageDescription
         title={name}
         image={image}
-        isInProgress
         isRtlSupport
         isAriaSupport
       >
@@ -78,6 +78,12 @@ const PageButton = () => {
         title="Animations"
         preview={<Animations />}
         code={examples ? examples.Animations : 'Loading'}
+      />
+      <Preview
+        title="Multiline"
+        description="Multiline button exists in XL size only. Please copy and paste the code below to see the result."
+        preview={<Multiline />}
+        code={examples ? examples.Multiline : 'Loading'}
       />
       <PropsTable
         title="Button props"

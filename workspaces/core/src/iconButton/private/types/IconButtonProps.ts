@@ -1,6 +1,6 @@
 import React from 'react';
-import ButtonSizes from '../../../button/private/types/ButtonSizes';
 import type ButtonAnimations from '../../../button/private/types/ButtonAnimations';
+import ButtonSizes from '../../../button/private/types/ButtonSizes';
 import type ButtonVariants from '../../../button/private/types/ButtonVariants';
 
 export type IconButtonSettingsProps = {

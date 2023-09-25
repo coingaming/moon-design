@@ -9,7 +9,6 @@ const BodyTR = forwardRef<HTMLDivElement, BodyTRProps>(
       onClick,
       onHoverToggle,
       isExpanded,
-      isLastRow,
       isSelected,
       selectable,
       children,
@@ -17,6 +16,7 @@ const BodyTR = forwardRef<HTMLDivElement, BodyTRProps>(
       fontColor,
       isHovered,
       role = 'row',
+      textClip,
     },
     ref
   ) => (
@@ -26,9 +26,7 @@ const BodyTR = forwardRef<HTMLDivElement, BodyTRProps>(
       role={role}
       className={mergeClassnames(
         'relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors',
-        isExpanded && 'first:rounded-bl-0 last:rounded-br-0',
-        isLastRow &&
-          'first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0',
+        isExpanded && 'first:rounded-es-none last:rounded-ee-none',
         isSelected
           ? 'text-bulma bg-bulma/[.04]'
           : fontColor
@@ -37,8 +35,7 @@ const BodyTR = forwardRef<HTMLDivElement, BodyTRProps>(
         isSelected || isHovered
           ? 'bg-bulma/[.04] border-piccolo/10 cursor-pointer'
           : `bg-${backgroundColor} border-${backgroundColor}`,
-        selectable &&
-          'pl-2 text-bulma border-t-1 border-t-transparent border-b-1 border-b-transparent bg-bulma/[.04]'
+        selectable && 'ps-2 text-bulma bg-heles'
       )}
       onMouseEnter={onHoverToggle ? () => onHoverToggle(true) : null}
       onMouseLeave={onHoverToggle ? () => onHoverToggle(false) : null}

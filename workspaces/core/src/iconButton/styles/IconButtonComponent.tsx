@@ -4,8 +4,8 @@ import getIconSize from '../../button/private/utils/buttonSizes/getIconSize';
 import getButtonCommonStyles from '../../button/private/utils/buttonStyles/getButtonCommonStyles';
 import getButtonVariants from '../../button/private/utils/buttonStyles/getButtonVariants';
 import mergeClassnames from '../../mergeClassnames/mergeClassnames';
-import getButtonSize from '../private/utils/getButtonSize';
 import type IconButtonProps from '../private/types/IconButtonProps';
+import getButtonSize from '../private/utils/getButtonSize';
 
 const IconButtonComponent = <C extends React.ElementType>({
   variant,

@@ -1,21 +1,19 @@
-import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import type { ComponentNames } from '../../components/getComponent';
 import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import AllowedCharacters from '../../public/examples/authCode/AllowedCharacters';
 import Default from '../../public/examples/authCode/Default';
 import ErrorState from '../../public/examples/authCode/ErrorState';
-import Expandable from '../../public/examples/authCode/Expandable';
 import FourChars from '../../public/examples/authCode/FourChars';
+import Gaps from '../../public/examples/authCode/Gaps';
+import Hint from '../../public/examples/authCode/Hint';
 import IsPassword from '../../public/examples/authCode/IsPassword';
 import Placeholder from '../../public/examples/authCode/Placeholder';
 import ReactHookForm from '../../public/examples/authCode/ReactHookForm';
 import ReactHookFormAuto from '../../public/examples/authCode/ReactHookFormAuto';
-import Sizes from '../../public/examples/authCode/Sizes';
-import Stretch from '../../public/examples/authCode/Stretch';
 import useComponent from '../../utils/useComponent';
-import type { ComponentNames } from '../../components/getComponent';
 
 const COMPONENT_NAME: ComponentNames = 'AuthCode';
 
@@ -26,8 +24,8 @@ const PageAuthCode = () => {
       <ComponentPageDescription
         title={name}
         image={image}
-        isInProgress
         isAriaSupport
+        isRtlSupport
       >
         <p>{text}</p>
       </ComponentPageDescription>
@@ -63,14 +61,14 @@ const PageAuthCode = () => {
         code={examples ? examples.ErrorState : 'Loading'}
       />
       <Preview
+        title="Hint message"
+        preview={<Hint />}
+        code={examples ? examples.Hint : 'Loading'}
+      />
+      <Preview
         title="Placeholder"
         preview={<Placeholder />}
         code={examples ? examples.Placeholder : 'Loading'}
-      />
-      <Preview
-        title="Sizes"
-        preview={<Sizes />}
-        code={examples ? examples.Sizes : 'Loading'}
       />
       <Preview
         title="Password"
@@ -78,14 +76,9 @@ const PageAuthCode = () => {
         code={examples ? examples.IsPassword : 'Loading'}
       />
       <Preview
-        title="Stretch"
-        preview={<Stretch />}
-        code={examples ? examples.Stretch : 'Loading'}
-      />
-      <Preview
-        title="Expandable"
-        preview={<Expandable />}
-        code={examples ? examples.Expandable : 'Loading'}
+        title="Different gaps"
+        preview={<Gaps />}
+        code={examples ? examples.Gaps : 'Loading'}
       />
       <PropsTable
         title="Props"
@@ -151,13 +144,6 @@ const PageAuthCode = () => {
               'Puts element in error state and displays the message.',
           },
           {
-            name: 'inputSize',
-            type: 'sm | md | lg | xl',
-            required: false,
-            default: 'lg',
-            description: 'Specifies the size of input characters.',
-          },
-          {
             name: 'className',
             type: 'string',
             required: false,
@@ -173,36 +159,13 @@ const PageAuthCode = () => {
             description:
               'Specifies the common of the aria phrase for input elements.',
           },
-          {
-            name: 'Deprecated props',
-            type: '',
-            required: undefined,
-            default: '',
-            description: '',
-          },
-          {
-            name: 'stretch',
-            type: 'boolean',
-            required: false,
-            default: 'false',
-            description:
-              'If true, inputs would get stretched to fill the available width.',
-          },
-          {
-            name: 'expandable',
-            type: 'boolean',
-            required: false,
-            default: 'false',
-            description:
-              'Defines whether or not the input cells can be stretched to fill the available space between them in the stretchable Auth code component. Matters only with the "stretch" parameter is being set to true.',
-          },
         ]}
       />
     </>
   );
 };
 
-PageAuthCode.getLayout = function getLayout(page: ReactNode) {
+PageAuthCode.getLayout = function getLayout(page: React.ReactNode) {
   return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
 };
 

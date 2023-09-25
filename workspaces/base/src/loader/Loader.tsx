@@ -1,8 +1,8 @@
 import React from 'react';
-import mergeClassnames from '../mergeClassnames/mergeClassnames';
+import type LoaderProps from './private/types/LoaderProps';
 import setDivBorder from './private/utils/setDivBorder';
 import setSize from './private/utils/setSize';
-import type LoaderProps from './private/types/LoaderProps';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
 const Loader = ({
   color = 'border-hit',
@@ -19,7 +19,7 @@ const Loader = ({
       className={mergeClassnames(
         setDivBorder(size),
         color,
-        'block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent'
+        'absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent'
       )}
       style={{ animationDelay: '-0.45s' }}
       role="presentation"
@@ -28,7 +28,7 @@ const Loader = ({
       className={mergeClassnames(
         setDivBorder(size),
         color,
-        'block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent'
+        'absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent'
       )}
       style={{ animationDelay: '-0.3s' }}
       role="presentation"
@@ -37,7 +37,7 @@ const Loader = ({
       className={mergeClassnames(
         setDivBorder(size),
         color,
-        'block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent'
+        'absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent'
       )}
       style={{ animationDelay: '-0.15s' }}
       role="presentation"
@@ -46,7 +46,7 @@ const Loader = ({
       className={mergeClassnames(
         setDivBorder(size),
         color,
-        'block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent'
+        'absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent'
       )}
       role="presentation"
     />

@@ -1,6 +1,7 @@
+import type { Row } from 'react-table';
+import ClipProps from './ClipProps';
 import type RowSizes from './RowSizes';
 import type RowSubComponentProps from './RowSubComponentProps';
-import type { Row } from 'react-table';
 
 type RenderRowsProps<D extends object = {}> = {
   rows: Row<D>[];
@@ -18,6 +19,7 @@ type RenderRowsProps<D extends object = {}> = {
   useCheckbox?: boolean;
   rowSize?: RowSizes;
   isCellBorder?: boolean;
+  textClip?: ClipProps;
 };
 
 export default RenderRowsProps;

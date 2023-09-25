@@ -22,7 +22,7 @@ const Example = () => {
     <>
       <div>
         <Button
-          variant="secondary"
+          variant="outline"
           onClick={() => openSnackbarHandler('border-radius')}
         >
           Border radius
@@ -37,7 +37,7 @@ const Example = () => {
       </div>
       <div>
         <Button
-          variant="secondary"
+          variant="outline"
           onClick={() => openSnackbarHandler('background')}
         >
           Background
@@ -51,10 +51,7 @@ const Example = () => {
         </Snackbar>
       </div>
       <div>
-        <Button
-          variant="secondary"
-          onClick={() => openSnackbarHandler('width')}
-        >
+        <Button variant="outline" onClick={() => openSnackbarHandler('width')}>
           Width
         </Button>
         <Snackbar
@@ -67,7 +64,7 @@ const Example = () => {
       </div>
       <div>
         <Button
-          variant="secondary"
+          variant="outline"
           onClick={() => openSnackbarHandler('always-light')}
         >
           Always light
@@ -82,7 +79,7 @@ const Example = () => {
       </div>
       <div>
         <Button
-          variant="secondary"
+          variant="outline"
           onClick={() => openSnackbarHandler('always-dark')}
         >
           Always dark
@@ -96,10 +93,7 @@ const Example = () => {
         </Snackbar>
       </div>
       <div>
-        <Button
-          variant="secondary"
-          onClick={() => openSnackbarHandler('fonts')}
-        >
+        <Button variant="outline" onClick={() => openSnackbarHandler('fonts')}>
           Fonts
         </Button>
         <Snackbar isOpen={snackbar === 'fonts'} onOpenChange={setSnackbar}>
