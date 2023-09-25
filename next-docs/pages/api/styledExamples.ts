@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from 'next';
+import useFilteredRequestQuery, { filterAllowedSymbolsOnly, filterAlphaNumericOnly, filterSafePath } from '../../utils/useFilteredRequestQuery';
 
 type Data = {
   examples: Object;
@@ -59,7 +60,7 @@ export default async (req: NextApiRequest, res: NextApiResponse<Data>) => {
   const dirPath = path.resolve(
     './public',
     dirRelativeToPublicFolder,
-    component as string
+    useFilteredRequestQuery(component as string, filterAlphaNumericOnly)
   );
 
   const examples = await getFilesFromDirectory(dirPath);
