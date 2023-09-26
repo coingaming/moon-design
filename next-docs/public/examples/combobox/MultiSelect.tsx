@@ -57,6 +57,7 @@ const Example = () => {
               counter={selected0.length}
               placeholder="Choose an option"
               displayValue={({ label }) => label}
+              onClose={console.log}
             >
               <ControlsChevronDownSmall />
             </Combobox.MultiSelect>
@@ -101,6 +102,7 @@ const Example = () => {
               counter={selected1.length}
               placeholder="Choose an option"
               displayValue={({ label }) => label}
+              onClose={console.log}
             >
               <ControlsChevronDownSmall />
             </Combobox.MultiSelect>
@@ -146,6 +148,7 @@ const Example = () => {
               counter={selected2.length}
               placeholder="Choose an option"
               displayValue={({ label }) => label}
+              onClose={console.log}
             >
               <ControlsChevronDownSmall />
             </Combobox.MultiSelect>

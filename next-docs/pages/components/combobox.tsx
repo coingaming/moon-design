@@ -2,6 +2,7 @@ import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import type { ComponentNames } from '../../components/getComponent';
 import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/combobox/Default';
@@ -12,7 +13,6 @@ import MultiSelect from '../../public/examples/combobox/MultiSelect';
 import Select from '../../public/examples/combobox/Select';
 import SelectStates from '../../public/examples/combobox/SelectStates';
 import useComponent from '../../utils/useComponent';
-import type { ComponentNames } from '../../components/getComponent';
 
 const COMPONENT_NAME: ComponentNames = 'Combobox';
 
@@ -242,6 +242,13 @@ const PageCombobox = () => {
             default: '-',
             description: 'Tailwind classes for custom styles.',
           },
+          {
+            name: 'onClose',
+            type: '(value: unknown) => void;',
+            required: false,
+            default: '-',
+            description: 'Called when the Combobox is dismissed.',
+          },
         ]}
       />
 
@@ -457,6 +464,13 @@ const PageCombobox = () => {
             default: '-',
             description: 'Whether or not the Listbox is open.',
           },
+          {
+            name: 'onClose',
+            type: '(value: unknown) => void;',
+            required: false,
+            default: '-',
+            description: 'Called when the Combobox is dismissed.',
+          },
         ]}
       />
 
@@ -526,6 +540,13 @@ const PageCombobox = () => {
             required: false,
             default: '-',
             description: 'Whether or not the Listbox is open.',
+          },
+          {
+            name: 'onClose',
+            type: '(value: unknown) => void;',
+            required: false,
+            default: '-',
+            description: 'Called when the Combobox is dismissed.',
           },
         ]}
       />
