@@ -185,6 +185,20 @@ module.exports = {
           '70%': { transform: 'scale(1)', boxShadow: '0 0 0 30px transparent' },
           '100%': { transform: 'scale(1)', boxShadow: '0 0 0 0 transparent' },
         },
+        loader: {
+          '0%': {
+            transform: 'rotate(0deg)',
+            strokeDashoffset: '(0.66 * $spinnerSize)',
+          },
+          '50%': {
+            transform: 'rotate(720deg)',
+            strokeDashoffset: '(3.14 * $spinnerSize)',
+          },
+          '100%': {
+            transform: 'rotate(1080deg)',
+            strokeDashoffset: '(0.66 * $spinnerSize)',
+          },
+        },
         // Toast
         'toast-hide': {
           '0%': { opacity: 1 },
