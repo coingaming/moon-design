@@ -22,12 +22,14 @@ export async function hasSubfolders(_path: string) {
   }
 }
 
+type FilesContent = Record<string, string | undefined>;
+
 export async function processFiles(
   dirPath: string,
-  processCallback: (filePath: string) => Promise<Record<string, string | undefined>>
+  processCallback: (filePath: string) => Promise<FilesContent>
 ) {
   const files = await fs.readdir(dirPath);
-  const result: Record<string, Record<string, unknown> | string[]> = {};
+  const result: Record<string, Record<string, unknown> | string[] > | FilesContent = {};
 
   for (const file of files) {
     const filePath = path.join(dirPath, file);
@@ -41,6 +43,17 @@ export async function processFiles(
         result[file] = await processCallback(filePath);
       }
     }
+
+    if (stats.isFile()) {
+      const extname = path.extname(filePath).toLowerCase();
+      const fileName = path.basename(filePath);
+      const fileNameWithoutExtension = path.parse(fileName).name
+
+      if (extname === '.md') {
+        const content = await readFromFile(filePath);
+        result[fileNameWithoutExtension] = content;
+      }
+    }
   }
 
   return result;
@@ -48,7 +61,7 @@ export async function processFiles(
 
 const getFilesContent = async (dirPath: string) => {
   const files = await fs.readdir(dirPath);
-  const result: Record<string, string | undefined> = {};
+  const result: FilesContent = {};
 
   for (const file of files) {
     const filePath = path.join(dirPath, file);
@@ -73,7 +86,6 @@ export async function readFromFile(pathToFile: string) {
 }
 
 export async function getExamples() {
-  // TODO zod
   const components = (
     await processFiles('./app/components/', getFilesContent)
   ) as unknown as Examples;

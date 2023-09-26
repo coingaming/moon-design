@@ -1,23 +1,11 @@
 'use client'
 
 import React, { useEffect, useState } from "react";
-// import SearchCmdk from '@heathmont/moon-core-tw/lib/es/searchCmdk/SearchCmdk';
-import { getExamples } from "@/app/utils/getExamples";
+import SearchCmdk from '@heathmont/moon-cmdk-tw/lib/es/searchCmdk/SearchCmdk';
 
 type Item = {
   label: string
 }
-
-// type t = React.ComponentPropsWithoutRef<typeof SearchCmdk>
-
-// const items = [
-//   { label: "Aurum" },
-//   { label: "Argentum" },
-//   { label: "Zink" },
-//   { label: "Plumbum" }
-// ];
-
-
 
 export function CommandMenu({ items }: { items: Item[] }) {
   const [open, setOpen] = useState(false);
@@ -36,11 +24,11 @@ export function CommandMenu({ items }: { items: Item[] }) {
     return () => document.removeEventListener("keydown", down);
   }, []);
 
-  const filterItems = (values: Item[], search: string) => { return values.filter(({ label }) => +label.toLowerCase().includes(search)); }
+  const filterItems = (values: Item[], search: string) => {
+    return values.filter(({ label }) => +label.toLowerCase().includes(search));
+  }
   const filteredItems = filterItems(items, search.toLowerCase());
 
-  return <p>SearchCmdk</p>;
-  /*
   return (
     <>
       <SearchCmdk.Trigger onClick={() => { setOpen(true) }}>
@@ -89,7 +77,6 @@ export function CommandMenu({ items }: { items: Item[] }) {
       </SearchCmdk>
     </>
   );
-  */
 }
 
 

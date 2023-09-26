@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@heathmont/moon-base-tw": "workspace:^10.7.6",
+    "@heathmont/moon-cmdk-tw": "workspace:^10.7.6",
     "@heathmont/moon-core-tw": "workspace:^10.7.6",
     "@heathmont/moon-icons-tw": "9.28.4",
     "@types/node": "20.4.9",

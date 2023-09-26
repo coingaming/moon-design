@@ -8,7 +8,7 @@ export default async function Home() {
     <div className="flex flex-col gap-4 text-moon-14">
       <h1>Accordion</h1>
 
-      {/* <MDX markdown={client.accordion.description} /> */}
+      <MDX markdown={client.accordion.description} />
 
       <div className="space-y-2">
         <h2>Default</h2>

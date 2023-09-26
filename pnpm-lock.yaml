@@ -165,6 +165,9 @@ importers:
       '@heathmont/moon-base-tw':
         specifier: workspace:^10.7.6
         version: link:../workspaces/base
+      '@heathmont/moon-cmdk-tw':
+        specifier: workspace:^10.7.6
+        version: link:../workspaces/cmdk
       '@heathmont/moon-core-tw':
         specifier: workspace:^10.7.6
         version: link:../workspaces/core

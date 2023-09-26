@@ -1,4 +1,5 @@
 import { getExamples } from "./utils/getExamples";
+import { MDX } from "@/components/MDX";
 import { CommandMenu } from "@/components/Search";
 
 export default async function Home() {
@@ -16,10 +17,7 @@ export default async function Home() {
     <div className="">
       Moon Design System
       <CommandMenu items={items} />
-
-      <p>
-        {JSON.stringify(examples.client.button.description, null, 2)}
-      </p>
+      <MDX markdown={examples.client.button.description} />
     </div>
   )
 }
