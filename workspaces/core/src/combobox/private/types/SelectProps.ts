@@ -7,6 +7,7 @@ type SelectProps = {
   className?: string;
   multiple?: boolean;
   counter?: number;
+  onClose?: (value: undefined) => void;
 };
 
 export default SelectProps

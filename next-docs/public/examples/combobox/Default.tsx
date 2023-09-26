@@ -35,6 +35,27 @@ const Example = () => {
   const filteredPeople0 = filter(query0, people);
   const filteredPeople1 = filter(query1, people);
 
+  const onClose0 = (value: undefined) => {
+    const v = value as unknown;
+    console.log('State on close:');
+    for (const [key, val] of Object.entries(v as Object)) {
+      console.log(`${key}: ${val}`);
+    }
+  }
+
+  const onClose1 = (value: undefined) => {
+    const v = value as unknown;
+    if (v === null) {
+      console.log('State on close: nothing is selected');
+    } else {
+      console.log('State on close:');
+      for (const [key, val] of Object.entries(v as Object)) {
+        console.log(`${key}: ${val}`);
+      }
+    }
+  }
+
+
   return (
     <div className="flex flex-col lg:flex-row lg:justify-center items-center w-full gap-4">
       <Combobox
@@ -45,7 +66,7 @@ const Example = () => {
       >
         {({ open }) => (
           <>
-            <Combobox.Trigger open={open} className="min-w-[18.75rem]">
+            <Combobox.Trigger open={open} onClose={onClose0} className="min-w-[18.75rem]">
               <Combobox.Input
                 open={open}
                 placeholder={'Choose a name...'}
@@ -90,7 +111,7 @@ const Example = () => {
       >
         {({ open }) => (
           <>
-            <Combobox.Trigger open={open} className="min-w-[18.75rem]">
+            <Combobox.Trigger open={open} onClose={onClose1} className="min-w-[18.75rem]">
               <Combobox.Input
                 open={open}
                 placeholder={'Choose a name...'}
