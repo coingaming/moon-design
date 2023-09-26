@@ -45,7 +45,7 @@ const Example = () => {
       >
         {({ open }) => (
           <>
-            <Combobox.Trigger open={open} className="min-w-[18.75rem]">
+            <Combobox.Trigger open={open} className="min-w-[18.75rem]" onClose={console.log}>
               <Combobox.Input
                 open={open}
                 placeholder={'Choose a name...'}
@@ -90,7 +90,7 @@ const Example = () => {
       >
         {({ open }) => (
           <>
-            <Combobox.Trigger open={open} className="min-w-[18.75rem]">
+            <Combobox.Trigger open={open} className="min-w-[18.75rem]" onClose={console.log}>
               <Combobox.Input
                 open={open}
                 placeholder={'Choose a name...'}
