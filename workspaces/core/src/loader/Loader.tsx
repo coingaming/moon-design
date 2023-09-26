@@ -1,11 +1,11 @@
 import React from 'react';
-import mergeClassnames from '../mergeClassnames/mergeClassnames';
+import type LoaderProps from './private/types/LoaderProps';
 import setDivBorder from './private/utils/setDivBorder';
 import setSize from './private/utils/setSize';
-import type LoaderProps from './private/types/LoaderProps';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
 const commonStyles =
-  'absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent';
+  'loader absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent';
 
 const Loader = ({
   color = 'border-hit',

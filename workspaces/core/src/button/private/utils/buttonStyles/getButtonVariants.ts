@@ -4,23 +4,36 @@ import type ButtonSettingsProps from '../../types/ButtonSettingsProps';
 const getButtonVariants = ({
   variant,
   disabled,
-}: Pick<ButtonSettingsProps, 'variant' | 'disabled'>): string => {
+  animation,
+}: Pick<ButtonSettingsProps, 'variant' | 'disabled' | 'animation'>): string => {
   if (variant === 'secondary' || variant === 'outline') {
-    return 'text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma';
+    return animation === 'error'
+      ? mergeClassnames(
+          'text-chichi bg-transparent ring-inset ring-1 ring-chichi',
+          !disabled && 'hover:bg-chichi-10'
+        )
+      : mergeClassnames(
+          'text-bulma bg-transparent ring-inset ring-1 ring-trunks [&_.loader]:border-chichi',
+          !disabled && 'hover:ring-bulma'
+        );
   }
   if (variant === 'tertiary') {
-    return 'text-goten bg-hit';
+    return animation === 'error' ? 'text-goten bg-chichi' : 'text-goten bg-hit';
   }
   if (variant === 'ghost') {
-    return mergeClassnames(
-      'text-trunks bg-transparent',
-      !disabled && 'hover:text-bulma'
-    );
+    return animation === 'error'
+      ? mergeClassnames(
+          'text-chichi bg-transparent',
+          !disabled && 'hover:bg-chichi-10'
+        )
+      : mergeClassnames(
+          'text-trunks bg-transparent',
+          !disabled && 'hover:text-bulma'
+        );
   }
-  if (variant === 'primary' || variant === 'fill') {
-    return 'text-goten bg-piccolo';
-  }
-  return '';
+  return animation === 'error'
+    ? 'text-goten bg-chichi'
+    : 'text-goten bg-piccolo';
 };
 
 export default getButtonVariants;

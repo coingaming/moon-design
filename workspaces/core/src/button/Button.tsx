@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import type ButtonProps from './private/types/ButtonProps';
-import type ButtonVariants from './private/types/ButtonVariants';
 import AnimationContent from './private/utils/buttonAnimations/AnimationContent';
 import ButtonComponent from './styles/ButtonComponent';
 import Hover from './styles/Hover';
@@ -56,6 +55,8 @@ const Button = <C extends React.ElementType = 'button'>({
           animation={animation}
           size={size}
           fullWidth={fullWidth}
+          variant={variant}
+          disabled={disabled}
         />
       ) : (
         <>

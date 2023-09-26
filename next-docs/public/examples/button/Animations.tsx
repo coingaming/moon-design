@@ -2,10 +2,18 @@ import { Button } from '@heathmont/moon-core-tw';
 
 const Example = () => (
   <>
-    <Button animation="progress">Progress</Button>
-    <Button animation="success">Success</Button>
-    <Button animation="error">Error</Button>
-    <Button animation="pulse">Pulse</Button>
+    <Button animation="progress" variant="outline">
+      Progress
+    </Button>
+    <Button animation="success" variant="outline">
+      Success
+    </Button>
+    <Button animation="error" variant="outline">
+      Error
+    </Button>
+    <Button animation="pulse" variant="outline">
+      Pulse
+    </Button>
   </>
 );
 

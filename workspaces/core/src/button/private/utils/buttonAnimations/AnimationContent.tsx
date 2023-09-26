@@ -24,9 +24,7 @@ const AnimationContent = ({
         'justify-center'
       )}
     >
-      {animation === 'progress' && (
-        <Loader color="currentColor" size={getLoaderSize(size)} />
-      )}
+      {animation === 'progress' && <Loader size={getLoaderSize(size)} />}
       {animation === 'success' && (
         <GenericCheckAlternative
           aria-label="Success"
