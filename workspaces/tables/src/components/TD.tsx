@@ -52,7 +52,7 @@ const TD = forwardRef<HTMLDivElement, TDProps>(
           ? `text-${fontColor}`
           : 'text-bulma',
         stickySide === 'right' &&
-          'before:absolute before:w-px before:bg-beerus before:h-[70%] before:bottom-[15%] before:start-0 before:-ms-2',
+          'before:absolute before:w-px before:bg-beerus before:h-[70%] before:bottom-[15%] before:start-0',
         isSelected || isHovered
           ? 'border-piccolo cursor-pointer bg-beerus'
           : `bg-${backgroundColor} border-${backgroundColor}`,

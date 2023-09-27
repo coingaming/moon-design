@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { useBottomSheetContext } from './context';
 
-const useDrag = (onClose?: () => void) => {
+const useDrag = (onClose?: () => void, isDragable?: boolean) => {
   const draghandleRef = useRef<HTMLDivElement>(null);
   const panelRef = useRef<HTMLDivElement>(null);
   const contentRef = useRef<HTMLDivElement>(null);
@@ -23,7 +23,7 @@ const useDrag = (onClose?: () => void) => {
 
   const onTouchEnd = () => {
     const ref = panelRef?.current;
-    if (!ref) {
+    if (!ref || !isDragable) {
       return;
     }
     if (delta > ref.clientHeight / 2) {
@@ -38,9 +38,22 @@ const useDrag = (onClose?: () => void) => {
     }
   };
 
+  const clickOutsideClose = () => {
+    const ref = panelRef?.current;
+    if (!ref || !isDragable) {
+      return;
+    }
+    ref.style.transform = `translateY(${ref.clientHeight}px)`;
+    setIsClosing(true);
+    setTimeout(() => {
+      onClose && onClose();
+    }, 210);
+  };
+
   useEffect(() => {
     const ref = draghandleRef?.current;
-    if (!ref) {
+
+    if (!ref || !isDragable) {
       return;
     }
     ref.addEventListener('touchstart', onTouchStart);
@@ -55,7 +68,7 @@ const useDrag = (onClose?: () => void) => {
 
   useEffect(() => {
     const ref = panelRef?.current;
-    if (!ref) {
+    if (!ref || !isDragable) {
       return;
     }
     if (delta > 0) {
@@ -90,6 +103,7 @@ const useDrag = (onClose?: () => void) => {
     panelRef,
     contentRef,
     hasDraghandle,
+    clickOutsideClose,
   };
 };
 

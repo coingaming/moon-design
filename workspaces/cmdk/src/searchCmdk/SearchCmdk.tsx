@@ -1,6 +1,6 @@
 import React from 'react';
-import { Command } from 'cmdk';
 import { mergeClassnames } from '@heathmont/moon-core-tw';
+import { Command } from 'cmdk';
 import GenericSearch from './private/icons/GenericSearch';
 
 const SearchCmdkRoot = ({
