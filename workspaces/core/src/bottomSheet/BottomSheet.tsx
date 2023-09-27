@@ -31,12 +31,7 @@ const BottomSheetRoot = ({
       value={{ ...state, size, registerChild, dispatch }}
     >
       <Transition appear show={open} as={React.Fragment}>
-        <Dialog
-          as="div"
-          open={open}
-          className="fixed inset-0 z-50"
-          onClose={onClose}
-        >
+        <Dialog as="div" className="fixed inset-0 z-50" onClose={onClose}>
           {React.Children.map<ReactNode, ReactNode>(children, (child) => {
             if (React.isValidElement(child)) {
               let extraProps = {};
@@ -62,11 +57,14 @@ const Panel = ({
   hasShadow, // deprecated
   onClose,
 }: PanelProps) => {
-  const { size } = useBottomSheetContext('BottomSheet.Panel'); // deprecated
+  const { size, bottomSheetChildren } =
+    useBottomSheetContext('BottomSheet.Panel'); // deprecated
+  const isDragable = bottomSheetChildren?.find((name) => name === 'Draghandle');
   const {
     isTransition, // deprecated
     panelRef,
-  } = useDrag(onClose);
+    clickOutsideClose,
+  } = useDrag(onClose, isDragable);
   let height;
   switch (size) {
     case 'lg':
@@ -83,6 +81,9 @@ const Panel = ({
   }
   return (
     <Transition.Child
+      beforeLeave={() => {
+        clickOutsideClose();
+      }}
       as={React.Fragment}
       enter="ease-out duration-300 transition-transform"
       enterFrom="translate-y-full"
