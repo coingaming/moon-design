@@ -1,6 +1,8 @@
 import React from 'react';
 import { Table } from '@heathmont/moon-table-tw';
 import ClipProps from '@heathmont/moon-table-tw/lib/private/types/ClipProps';
+import { Chip, Tooltip } from '@heathmont/moon-core-tw';
+import { IconShare } from '@heathmont/moon-assets';
 
 const Example = () => {
   const columnsInitial = [
@@ -41,27 +43,58 @@ const Example = () => {
         {
           'Header': 'Amount',
           'accessor': 'amount',
+          'maxWidth': 100,
           'Footer': '',
         },
         {
           'Header': 'Currency',
           'accessor': 'currency',
+          'maxWidth': 100,
+          'Footer': '',
+        },
+        {
+          'Header': 'Status',
+          'accessor': 'status',
+          'maxWidth': 200,
           'Footer': '',
         },
       ],
     },
     {
-      'Header': 'Status',
+      'Header': 'Actions',
       'sticky': 'right',
       'columns': [
         {
-          'Header': 'Status',
-          'accessor': 'status',
+          'Header': 'Actions',
+          'accessor': 'actions',
           'Footer': '',
         },
       ]
     }
   ];
+
+  const tooltip = (className: string) => {
+    return (
+      <Tooltip>
+        <Tooltip.Trigger>
+          <Chip
+            className='bg-transparent hover:bg-transparent'
+          >
+            <IconShare />
+          </Chip>
+        </Tooltip.Trigger>
+        <Tooltip.Content
+          position="top-start"
+          className={className}
+        >
+          Round details
+          <Tooltip.Arrow
+            className={className}
+          />
+        </Tooltip.Content>
+      </Tooltip>
+    );
+  };
 
   const makeData = (length: number) => {
     return Array.from('_'.repeat(length)).map((_, index) => {
@@ -73,7 +106,12 @@ const Example = () => {
         gameNameAndProvider: 'Pragmatic Play',
         amount: 22.97,
         currency: 'USD',
-        status: 'SUCCESS'
+        status: 'SUCCESS',
+
+        /**
+         * The expression below sets a tooltip with transparent background in the second row only.
+         */
+        actions: index === 1 ? tooltip('bg-transparent') : tooltip('bg-goku'),
       };
     });
   };
@@ -82,10 +120,6 @@ const Example = () => {
     () => ({
       minWidth: 10,
       width: 150,
-
-      /* The next prop is commented to provide an opportunity
-        to expand any table column as much as possible */
-      /* maxWidth: 400, */
     }),
     []
   );
@@ -103,6 +137,7 @@ const Example = () => {
       height={400}
       withFooter={false}
       textClip={textClip}
+      getOnRowClickHandler={(row: { id: any }) => () => {}}
     />
   );
 };
