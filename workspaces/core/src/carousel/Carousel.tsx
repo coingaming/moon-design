@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { Children, useEffect } from 'react';
 import type CarouselRootProps from './private/types/CarouselRootProps';
 import type SubcomponentProps from './private/types/SubcomponentProps';
 import CarouselContext from './private/utils/CarouselContext';
@@ -15,6 +15,7 @@ const CarouselRoot = ({
   step,
   selectedIndex,
   autoSlideDelay,
+  isRtl,
   ...rest
 }: CarouselRootProps) => {
   const {
@@ -30,24 +31,33 @@ const CarouselRoot = ({
     lastVisibleIndex,
   } = withHorizontalScroll({
     scrollStep: step || 5,
-    scrollTo,
+    scrollTo: scrollTo,
     scrollInContainer: true,
+    isRtl,
   });
 
   useInterval(() => {
     if (!autoSlideDelay) return;
-    if (canScrollRight) {
-      scrollRightToStep();
+    if (isRtl) {
+      if (canScrollLeft) {
+        scrollLeftToStep();
+      } else {
+        scrollToIndex(itemsCount - 1);
+      }
     } else {
-      scrollToIndex(0);
+      if (canScrollRight) {
+        scrollRightToStep();
+      } else {
+        scrollToIndex(0);
+      }
     }
   }, autoSlideDelay as number);
 
   useEffect(() => {
     if (selectedIndex !== undefined) {
-      scrollToIndex(selectedIndex);
+      scrollToIndex(isRtl ? itemsCount - selectedIndex - 1 : selectedIndex);
     }
-  }, [selectedIndex]);
+  }, [selectedIndex, isRtl, itemsCount]);
 
   return (
     <CarouselContext.Provider
@@ -63,6 +73,7 @@ const CarouselRoot = ({
         firstVisibleIndex,
         lastVisibleIndex,
         autoSlideDelay,
+        isRtl,
       }}
     >
       <div className={mergeClassnames('relative w-full', className)} {...rest}>
@@ -82,7 +93,10 @@ const CarouselRoot = ({
 };
 
 const Reel = ({ children, className, ...rest }: SubcomponentProps) => {
-  const { containerRef, autoSlideDelay } = useCarouselContext('Carousel.Reel');
+  const { containerRef, autoSlideDelay, isRtl } =
+    useCarouselContext('Carousel.Reel');
+  const arrayChildren = Children.toArray(children);
+  const revertChildren = arrayChildren.reverse();
   return (
     <ul
       className={mergeClassnames(
@@ -98,7 +112,7 @@ const Reel = ({ children, className, ...rest }: SubcomponentProps) => {
       ref={containerRef}
       {...rest}
     >
-      {children}
+      {isRtl ? revertChildren : children}
     </ul>
   );
 };
