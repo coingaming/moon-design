@@ -1,4 +1,4 @@
-import React, { forwardRef } from 'react';
+import React, { forwardRef, useEffect, useState } from 'react';
 import {
   Combobox as HeadlessCombobox,
   Transition as HeadlessTransition,
@@ -106,9 +106,15 @@ const ComboboxRoot = ({
 };
 
 const Trigger = forwardRef<HTMLDivElement, WithChildren<SelectProps>>(
-  ({ children, className, innerLabel }, ref) => {
-    const { size, input, popper, disabled, isError } =
+  ({ children, className, innerLabel, open, onClose }, ref) => {
+    const { value, size, input, popper, disabled, isError } =
       useComboboxContext('Combobox.Trigger');
+
+    useEffect(() => {
+      if (!open && typeof onClose === 'function') {
+        onClose(value);
+      }
+    }, [open, value]);
 
     return (
       <div
