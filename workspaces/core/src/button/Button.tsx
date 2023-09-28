@@ -56,7 +56,6 @@ const Button = <C extends React.ElementType = 'button'>({
           size={size}
           fullWidth={fullWidth}
           variant={variant}
-          disabled={disabled}
         />
       ) : (
         <>

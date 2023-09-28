@@ -5,7 +5,7 @@ import setSize from './private/utils/setSize';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
 const commonStyles =
-  'loader absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent';
+  'absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent';
 
 const Loader = ({
   color = 'border-hit',
@@ -21,9 +21,25 @@ const Loader = ({
       'relative rounded-full rtl:-scale-x-100'
     )}
   >
-    <svg>
-      <circle cx="20" cy="20" r="18"></circle>
-    </svg>
+    <div
+      className={mergeClassnames(setDivBorder(size), color, commonStyles)}
+      style={{ animationDelay: '-0.45s' }}
+      role="presentation"
+    />
+    <div
+      className={mergeClassnames(setDivBorder(size), color, commonStyles)}
+      style={{ animationDelay: '-0.3s' }}
+      role="presentation"
+    />
+    <div
+      className={mergeClassnames(setDivBorder(size), color, commonStyles)}
+      style={{ animationDelay: '-0.15s' }}
+      role="presentation"
+    />
+    <div
+      className={mergeClassnames(setDivBorder(size), color, commonStyles)}
+      role="presentation"
+    />
   </div>
 );
 

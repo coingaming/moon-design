@@ -7,6 +7,7 @@ import IconRight from '../../../styles/IconRight';
 import type ButtonSettingsProps from '../../types/ButtonSettingsProps';
 import getIconSize from '../buttonSizes/getIconSize';
 import getLoaderSize from '../buttonSizes/getLoaderSize';
+import getLoaderColor from '../buttonStyles/getLoaderColor';
 
 const AnimationContent = ({
   children,
@@ -16,6 +17,7 @@ const AnimationContent = ({
   animation,
   size,
   fullWidth,
+  variant,
 }: ButtonSettingsProps) => (
   <span className="block h-full pointer-events-none">
     <span
@@ -24,7 +26,9 @@ const AnimationContent = ({
         'justify-center'
       )}
     >
-      {animation === 'progress' && <Loader size={getLoaderSize(size)} />}
+      {animation === 'progress' && (
+        <Loader size={getLoaderSize(size)} color={getLoaderColor(variant)} />
+      )}
       {animation === 'success' && (
         <GenericCheckAlternative
           aria-label="Success"

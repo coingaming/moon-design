@@ -34,7 +34,9 @@ const ButtonComponent = <C extends React.ElementType>({
         }),
         getButtonCommonStyles({ disabled }),
         getButtonVariants({ variant, disabled, animation }),
-        animation === 'pulse' && getAnimation('pulse'),
+        animation === 'pulse' &&
+          (variant === 'fill' || variant === 'primary') &&
+          getAnimation('pulse'),
         animation === 'error' && getAnimation('error'),
         fullWidth && !iconOnly && 'w-full',
         customClassName

@@ -13,7 +13,7 @@ const getButtonVariants = ({
           !disabled && 'hover:bg-chichi-10'
         )
       : mergeClassnames(
-          'text-bulma bg-transparent ring-inset ring-1 ring-trunks [&_.loader]:border-chichi',
+          'text-bulma bg-transparent ring-inset ring-1 ring-trunks',
           !disabled && 'hover:ring-bulma'
         );
   }

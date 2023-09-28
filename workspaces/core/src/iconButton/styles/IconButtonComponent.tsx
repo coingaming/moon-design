@@ -23,8 +23,10 @@ const IconButtonComponent = <C extends React.ElementType>({
       className={mergeClassnames(
         getButtonSize(size),
         getButtonCommonStyles({ disabled }),
-        getButtonVariants({ variant, disabled }),
-        animation === 'pulse' && getAnimation('pulse'),
+        getButtonVariants({ variant, disabled, animation }),
+        animation === 'pulse' &&
+          (variant === 'fill' || variant === 'primary') &&
+          getAnimation('pulse'),
         animation === 'error' && getAnimation('error'),
         getIconSize(size),
         customClassName
