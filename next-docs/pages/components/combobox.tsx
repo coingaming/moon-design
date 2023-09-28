@@ -12,6 +12,7 @@ import InsetSelectStates from '../../public/examples/combobox/InsetSelectStates'
 import MultiSelect from '../../public/examples/combobox/MultiSelect';
 import Select from '../../public/examples/combobox/Select';
 import SelectStates from '../../public/examples/combobox/SelectStates';
+import VisualMultiSelect from '../../public/examples/combobox/VisualMultiSelect';
 import useComponent from '../../utils/useComponent';
 
 const COMPONENT_NAME: ComponentNames = 'Combobox';
@@ -131,6 +132,22 @@ const PageCombobox = () => {
         title="MultiSelect with inner label"
         preview={<InsetMultiSelect />}
         code={examples ? examples.InsetMultiSelect : 'Loading'}
+      />
+
+    <ComponentAnatomy>
+        {`<Combobox>
+  <Combobox.VisualMultiSelect>...</Combobox.VisualMultiSelect>
+  <Combobox.Options>
+    <Combobox.Option>...</Combobox.Option>
+  </Combobox.Options>
+  <Combobox.Hint>...</Combobox.Hint>
+</Combobox>`}
+      </ComponentAnatomy>
+
+      <Preview
+        title="VisualMultiSelect"
+        preview={<VisualMultiSelect />}
+        code={examples ? examples.VisualMultiSelect : 'Loading'}
       />
 
       <PropsTable

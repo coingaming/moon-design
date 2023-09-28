@@ -11,6 +11,7 @@ import InputProps from './private/types/InputProps';
 import type OptionProps from './private/types/OptionProps';
 import type OptionsProps from './private/types/OptionsProps';
 import SelectProps from './private/types/SelectProps';
+import VisualMultiSelectProps from './private/types/VisualMultiSelectProps';
 import WithChildren from './private/types/WithChildren';
 import { getSizeStyles, getTextSizes } from './private/utils/getSizeStyles';
 import {
@@ -231,6 +232,52 @@ const InsetInput = ({
   );
 };
 
+const VisualSelectInput = ({
+  displayValue,
+  placeholder,
+  type,
+  className,
+  label,
+  onRemoveItem,
+  ...rest
+}: InputProps & VisualMultiSelectProps) => {
+  const { size, popper, disabled, isError, /*input,*/ onQueryChange } = useComboboxContext('Combobox.VisualSelectInput');
+
+  return (
+    <span className='w-full flex flex-col gap-y-0.5'>
+      <SelectionDisplay onRemoveItem={onRemoveItem} />
+      <HeadlessCombobox.Input
+        onChange={({ target: { value } }) => {
+          onQueryChange ? onQueryChange(value) : () => {};
+        }}
+        as={NativeInput}
+        displayValue={displayValue}
+        placeholder={placeholder === undefined ? '' : `${placeholder}`}
+        type={type ? type : 'text'}
+        disabled={disabled}
+        className={mergeClassnames(
+          'flex-grow w-full h-full border-0 !rounded-none bg-transparent px-0',
+          '!shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none',
+          label !== undefined &&
+            label.length > 0 &&
+            (placeholder === undefined || placeholder.length === 0) &&
+            'input-xl',
+          label !== undefined && label.length > 0 && 'pt-3 input-xl-dt-label',
+          getTextSizes(size),
+          className,
+          'leading-5'
+        )}
+        error={isError}
+        /* onFocus={() => input?.setIsFocused(true)}
+        onBlur={() => input?.setIsFocused(false)} */
+        aria-label={rest['aria-label']}
+        {...rest}
+        ref={popper?.setAnchor}
+      />
+    </span>
+  );
+}
+
 const Button = ({
   open,
   children,
@@ -320,6 +367,50 @@ const Counter = ({ open, className, counter, ...rest }: SelectProps) => {
         </SelectButton.Value>
       </SelectButton>
     </span>
+  );
+};
+
+const Vidget = ({
+  index,
+  label,
+  onRemoveItem,
+  ...rest
+}: { index: number | string, label: number | string} & VisualMultiSelectProps) => {
+  const { size, isError, disabled } =
+    useComboboxContext('Combobox.Counter');
+
+  const onClear = () => {
+    onRemoveItem && onRemoveItem(index);
+  }
+
+  return (
+    <span
+      className='flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center'
+    >
+      <SelectButton
+        size={size}
+        isError={isError}
+        idDisabled={disabled}
+        {...rest}
+      >
+        <SelectButton.Value>
+          <SelectButton.Chip onClear={onClear}>{label}</SelectButton.Chip>
+        </SelectButton.Value>
+      </SelectButton>
+    </span>
+  );
+}
+
+const SelectionDisplay = ({ onRemoveItem }: VisualMultiSelectProps) => {
+  const { value } = useComboboxContext('Combobox.SelectionDisplay');
+  const val = value as [];
+
+  return (
+    <div className='flex flex-wrap justify-start items-start gap-0.5'>
+      { val.map(({id, label}) => {
+        return <Vidget index={id} label={label} onRemoveItem={onRemoveItem} />
+      }) }
+    </div>
   );
 };
 
@@ -500,6 +591,48 @@ const InsetMultiSelect = ({
   );
 };
 
+const VisualMultiSelect = ({
+  open,
+  label,
+  placeholder,
+  children,
+  className,
+  multiple = true,
+  counter,
+  displayValue,
+  onRemoveItem,
+  ...rest
+}: WithChildren<SelectProps & InputProps & VisualMultiSelectProps>) => {
+  const { size, popper, disabled } = useComboboxContext('Combobox.VisualMultiSelect');
+
+  return (
+    <Listbox>
+       {label && (
+        <SelectButton.Label labelSize={size} idDisabled={disabled}>
+          {label}
+        </SelectButton.Label>
+      )}
+      <Listbox.Button
+        open={open}
+        as={Trigger}
+        ref={popper?.setAnchor}
+        className={className}
+        multiple={multiple}
+        {...rest}
+      >
+        <VisualSelectInput
+          open={open}
+          placeholder={placeholder}
+          onRemoveItem={onRemoveItem}
+          displayValue={displayValue}
+          aria-label={rest['aria-label']}
+        />
+        <Button open={open}>{children}</Button>
+      </Listbox.Button>
+    </Listbox>
+  );
+};
+
 const Hint = ({
   children,
   className,
@@ -536,6 +669,7 @@ const Combobox = Object.assign(ComboboxRoot, {
   MultiSelect,
   InsetSelect,
   InsetMultiSelect,
+  VisualMultiSelect,
 });
 
 export default Combobox;
