@@ -292,7 +292,7 @@ Object {
         dir="rtl"
       >
         <div
-          class="flex w-full max-w-xs items-center"
+          class="flex w-full max-w-xs justify-center items-center"
         >
           <div
             class="w-full relative"
@@ -363,7 +363,7 @@ Object {
       dir="rtl"
     >
       <div
-        class="flex w-full max-w-xs items-center"
+        class="flex w-full max-w-xs justify-center items-center"
       >
         <div
           class="w-full relative"
@@ -2910,7 +2910,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="flex w-full max-w-xs items-center"
+        class="flex w-full max-w-xs justify-center items-center"
       >
         <div
           class="w-full relative"
@@ -2977,7 +2977,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="flex w-full max-w-xs items-center"
+      class="flex w-full max-w-xs justify-center items-center"
     >
       <div
         class="w-full relative"

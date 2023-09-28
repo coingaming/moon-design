@@ -96,7 +96,7 @@ Object {
           type="button"
         >
           <span
-            class="flex w-6 h-6 justify-center items-center relative"
+            class="flex w-6 min-w-[24px] h-6 min-h-[24px] justify-center items-center relative"
           >
             <span
               aria-checked="false"
@@ -137,7 +137,7 @@ Object {
             Your value
           </span>
           <span
-            class="flex w-6 h-6 justify-center items-center relative"
+            class="flex w-6 min-w-[24px] h-6 min-h-[24px] justify-center items-center relative"
           >
             <span
               aria-checked="false"
@@ -175,7 +175,7 @@ Object {
         type="button"
       >
         <span
-          class="flex w-6 h-6 justify-center items-center relative"
+          class="flex w-6 min-w-[24px] h-6 min-h-[24px] justify-center items-center relative"
         >
           <span
             aria-checked="false"
@@ -216,7 +216,7 @@ Object {
           Your value
         </span>
         <span
-          class="flex w-6 h-6 justify-center items-center relative"
+          class="flex w-6 min-w-[24px] h-6 min-h-[24px] justify-center items-center relative"
         >
           <span
             aria-checked="false"
@@ -1811,7 +1811,7 @@ Object {
             class="px-2"
           >
             <span
-              class="flex w-6 h-6 justify-center items-center relative"
+              class="flex w-6 min-w-[24px] h-6 min-h-[24px] justify-center items-center relative"
             >
               <span
                 aria-checked="false"
@@ -1937,7 +1937,7 @@ Object {
           class="px-2"
         >
           <span
-            class="flex w-6 h-6 justify-center items-center relative"
+            class="flex w-6 min-w-[24px] h-6 min-h-[24px] justify-center items-center relative"
           >
             <span
               aria-checked="false"
@@ -2033,7 +2033,7 @@ Object {
           type="button"
         >
           <span
-            class="flex w-6 h-6 justify-center items-center"
+            class="flex w-6 min-w-[24px] h-6 min-h-[24px] justify-center items-center"
           >
             <span
               aria-checked="false"
@@ -2058,7 +2058,7 @@ Object {
             Your value
           </span>
           <span
-            class="flex w-6 h-6 justify-center items-center"
+            class="flex w-6 min-w-[24px] h-6 min-h-[24px] justify-center items-center"
           >
             <span
               aria-checked="false"
@@ -2080,7 +2080,7 @@ Object {
         type="button"
       >
         <span
-          class="flex w-6 h-6 justify-center items-center"
+          class="flex w-6 min-w-[24px] h-6 min-h-[24px] justify-center items-center"
         >
           <span
             aria-checked="false"
@@ -2105,7 +2105,7 @@ Object {
           Your value
         </span>
         <span
-          class="flex w-6 h-6 justify-center items-center"
+          class="flex w-6 min-w-[24px] h-6 min-h-[24px] justify-center items-center"
         >
           <span
             aria-checked="false"
@@ -2582,7 +2582,7 @@ Object {
         type="button"
       >
         <span
-          class="flex w-6 h-6 justify-center items-center relative"
+          class="flex w-6 min-w-[24px] h-6 min-h-[24px] justify-center items-center relative"
         >
           <span
             aria-checked="false"
@@ -2623,7 +2623,7 @@ Object {
           Your value
         </span>
         <span
-          class="flex w-6 h-6 justify-center items-center relative"
+          class="flex w-6 min-w-[24px] h-6 min-h-[24px] justify-center items-center relative"
         >
           <span
             aria-checked="false"
@@ -2657,7 +2657,7 @@ Object {
       type="button"
     >
       <span
-        class="flex w-6 h-6 justify-center items-center relative"
+        class="flex w-6 min-w-[24px] h-6 min-h-[24px] justify-center items-center relative"
       >
         <span
           aria-checked="false"
@@ -2698,7 +2698,7 @@ Object {
         Your value
       </span>
       <span
-        class="flex w-6 h-6 justify-center items-center relative"
+        class="flex w-6 min-w-[24px] h-6 min-h-[24px] justify-center items-center relative"
       >
         <span
           aria-checked="false"
@@ -4265,7 +4265,7 @@ Object {
           class="px-2"
         >
           <span
-            class="flex w-6 h-6 justify-center items-center relative"
+            class="flex w-6 min-w-[24px] h-6 min-h-[24px] justify-center items-center relative"
           >
             <span
               aria-checked="false"
@@ -4387,7 +4387,7 @@ Object {
         class="px-2"
       >
         <span
-          class="flex w-6 h-6 justify-center items-center relative"
+          class="flex w-6 min-w-[24px] h-6 min-h-[24px] justify-center items-center relative"
         >
           <span
             aria-checked="false"
@@ -4479,7 +4479,7 @@ Object {
         type="button"
       >
         <span
-          class="flex w-6 h-6 justify-center items-center"
+          class="flex w-6 min-w-[24px] h-6 min-h-[24px] justify-center items-center"
         >
           <span
             aria-checked="false"
@@ -4504,7 +4504,7 @@ Object {
           Your value
         </span>
         <span
-          class="flex w-6 h-6 justify-center items-center"
+          class="flex w-6 min-w-[24px] h-6 min-h-[24px] justify-center items-center"
         >
           <span
             aria-checked="false"
@@ -4522,7 +4522,7 @@ Object {
       type="button"
     >
       <span
-        class="flex w-6 h-6 justify-center items-center"
+        class="flex w-6 min-w-[24px] h-6 min-h-[24px] justify-center items-center"
       >
         <span
           aria-checked="false"
@@ -4547,7 +4547,7 @@ Object {
         Your value
       </span>
       <span
-        class="flex w-6 h-6 justify-center items-center"
+        class="flex w-6 min-w-[24px] h-6 min-h-[24px] justify-center items-center"
       >
         <span
           aria-checked="false"

@@ -187,7 +187,7 @@ const Example = () => {
             </Combobox.InsetSelect>
             <Combobox.Transition>
               <Combobox.Options
-                menuWidth="w-40"
+                menuWidth="w-36"
                 className="z-5 rounded-moon-s-md box-border bg-gohan shadow-moon-lg py-2 px-1 my-2"
               >
                 {filteredPeople3.length === 0 && query3 !== '' ? (
@@ -199,7 +199,7 @@ const Example = () => {
                     <Combobox.Option value={person} key={index}>
                       {({ selected, active }) => (
                         <MenuItem isActive={active} isSelected={selected}>
-                          <MenuItem.Title>{person.label}</MenuItem.Title>
+                          <MenuItem.Title textClip={true}>{person.label}</MenuItem.Title>
                           <MenuItem.Radio isSelected={selected} />
                         </MenuItem>
                       )}

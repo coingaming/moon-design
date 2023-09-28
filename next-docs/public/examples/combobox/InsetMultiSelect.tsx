@@ -32,7 +32,7 @@ const Example = () => {
   const filteredPeople = filter(query, people);
 
   return (
-    <div className="flex w-full max-w-xs items-center">
+    <div className="flex w-full max-w-xs justify-center items-center">
       <Combobox
         value={selected}
         onChange={setSelected}

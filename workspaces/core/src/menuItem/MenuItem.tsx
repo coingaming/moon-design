@@ -8,6 +8,9 @@ import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import GenericCheckAlternative from '../private/icons/GenericCheckAlternative';
 import useRegisterChild from '../private/utils/useRegisterChild';
 
+// TODO: Move this type determination into MenuItemsProps file
+type PolymorphicRef<C extends React.ElementType> = React.ComponentPropsWithRef<C>['button']
+
 const MenuItemRoot = React.forwardRef(
   <C extends React.ElementType = 'button'>(
     {
@@ -53,13 +56,16 @@ const MenuItemRoot = React.forwardRef(
   }
 );
 
-const Title = ({ children }: { children?: ReactNode }) => {
+const Title = ({ children, textClip = false }: { children?: ReactNode, textClip?: boolean }) => {
   const { registerChild } = useMenuItemContext('MenuItem.Title');
   useEffect(() => {
     registerChild && registerChild('Title');
   }, []);
   return (
-    <span className="block grow text-start text-bulma overflow-hidden">
+    <span className={mergeClassnames(
+      "block grow text-start text-bulma overflow-hidden",
+      textClip && "break-all truncate"
+    )}>
       {children}
     </span>
   );
@@ -92,7 +98,7 @@ const Radio = ({
   }, []);
   const ariaLabelValue = ariaLabel ? ariaLabel : 'Radio option';
   return (
-    <span className="flex w-6 h-6 justify-center items-center">
+    <span className="flex w-6 min-w-[24px] h-6 min-h-[24px] justify-center items-center">
       <span
         role="radio"
         aria-checked={selected}
@@ -122,7 +128,7 @@ const Checkbox = ({
   }, []);
   const ariaLabelValue = ariaLabel ? ariaLabel : 'Checkbox';
   return (
-    <span className="flex w-6 h-6 justify-center items-center relative">
+    <span className="flex w-6 min-w-[24px] h-6 min-h-[24px] justify-center items-center relative">
       <span
         role="checkbox"
         aria-checked={selected}
