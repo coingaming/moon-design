@@ -11,7 +11,6 @@ import InputProps from './private/types/InputProps';
 import type OptionProps from './private/types/OptionProps';
 import type OptionsProps from './private/types/OptionsProps';
 import SelectProps from './private/types/SelectProps';
-import VisualMultiSelectProps from './private/types/VisualMultiSelectProps';
 import WithChildren from './private/types/WithChildren';
 import { getSizeStyles, getTextSizes } from './private/utils/getSizeStyles';
 import {
@@ -238,14 +237,18 @@ const VisualSelectInput = ({
   type,
   className,
   label,
-  onRemoveItem,
   ...rest
-}: InputProps & VisualMultiSelectProps) => {
-  const { size, popper, disabled, isError, /*input,*/ onQueryChange } = useComboboxContext('Combobox.VisualSelectInput');
+}: InputProps) => {
+  const { value, size, popper, disabled, isError, onQueryChange } = useComboboxContext('Combobox.VisualSelectInput');
+  const selected = value as [];
 
   return (
     <span className='w-full flex flex-col gap-y-0.5'>
-      <SelectionDisplay onRemoveItem={onRemoveItem} />
+      <div className='flex flex-wrap justify-start items-start gap-0.5'>
+        { selected.map(({id, label}) => {
+          return <Vidget index={id} label={label} />
+        }) }
+      </div>
       <HeadlessCombobox.Input
         onChange={({ target: { value } }) => {
           onQueryChange ? onQueryChange(value) : () => {};
@@ -268,8 +271,6 @@ const VisualSelectInput = ({
           'leading-5'
         )}
         error={isError}
-        /* onFocus={() => input?.setIsFocused(true)}
-        onBlur={() => input?.setIsFocused(false)} */
         aria-label={rest['aria-label']}
         {...rest}
         ref={popper?.setAnchor}
@@ -371,48 +372,43 @@ const Counter = ({ open, className, counter, ...rest }: SelectProps) => {
 };
 
 const Vidget = ({
+  open,
+  className,
   index,
   label,
-  onRemoveItem,
   ...rest
-}: { index: number | string, label: number | string} & VisualMultiSelectProps) => {
-  const { size, isError, disabled } =
+}: {
+  index: number | string,
+  label: number | string
+} & SelectProps) => {
+  const { size, isError, disabled, onClear } =
     useComboboxContext('Combobox.Counter');
-
-  const onClear = () => {
-    onRemoveItem && onRemoveItem(index);
-  }
 
   return (
     <span
-      className='flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center'
+      className={mergeClassnames(
+        'flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center',
+        className
+      )}
     >
       <SelectButton
         size={size}
+        open={open}
         isError={isError}
         idDisabled={disabled}
         {...rest}
       >
         <SelectButton.Value>
-          <SelectButton.Chip onClear={onClear}>{label}</SelectButton.Chip>
+          <SelectButton.Chip
+            onClear={() => onClear && onClear(index)}
+          >
+            {label}
+          </SelectButton.Chip>
         </SelectButton.Value>
       </SelectButton>
     </span>
   );
 }
-
-const SelectionDisplay = ({ onRemoveItem }: VisualMultiSelectProps) => {
-  const { value } = useComboboxContext('Combobox.SelectionDisplay');
-  const val = value as [];
-
-  return (
-    <div className='flex flex-wrap justify-start items-start gap-0.5'>
-      { val.map(({id, label}) => {
-        return <Vidget index={id} label={label} onRemoveItem={onRemoveItem} />
-      }) }
-    </div>
-  );
-};
 
 const Transition = ({ children, ...rest }: WithChildren) => {
   const { onQueryChange } = useComboboxContext('Combobox.Counter');
@@ -600,9 +596,8 @@ const VisualMultiSelect = ({
   multiple = true,
   counter,
   displayValue,
-  onRemoveItem,
   ...rest
-}: WithChildren<SelectProps & InputProps & VisualMultiSelectProps>) => {
+}: WithChildren<SelectProps & InputProps>) => {
   const { size, popper, disabled } = useComboboxContext('Combobox.VisualMultiSelect');
 
   return (
@@ -623,7 +618,6 @@ const VisualMultiSelect = ({
         <VisualSelectInput
           open={open}
           placeholder={placeholder}
-          onRemoveItem={onRemoveItem}
           displayValue={displayValue}
           aria-label={rest['aria-label']}
         />
@@ -658,11 +652,13 @@ const Hint = ({
 const Combobox = Object.assign(ComboboxRoot, {
   Input,
   InsetInput,
+  VisualSelectInput,
   Button,
   Options,
   Option,
   Trigger,
   Counter,
+  Vidget,
   Transition,
   Hint,
   Select,

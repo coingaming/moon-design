@@ -31,7 +31,7 @@ const Example = () => {
 
   const filteredPeople = filter(query, people);
 
-  const onRemoveItem = (index: number | string) => {
+  const onRemoveItem = (index?: number | string) => {
     setSelected(selected.filter(({ id }) => id !== index ));
   };
 
@@ -41,7 +41,7 @@ const Example = () => {
         value={selected}
         onChange={setSelected}
         onQueryChange={setQuery}
-        onClear={useCallback(() => setSelected([]), [setSelected])}
+        onClear={(index?: number | string) => onRemoveItem(index)}
         multiple
       >
         {({ open }) => (
@@ -51,7 +51,6 @@ const Example = () => {
               label="Select label"
               placeholder="Choose an option"
               displayValue={({ label }) => label}
-              onRemoveItem={(index: number | string) => onRemoveItem(index)}
             >
               <ControlsChevronDownSmall />
             </Combobox.VisualMultiSelect>

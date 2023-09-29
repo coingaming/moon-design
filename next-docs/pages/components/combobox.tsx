@@ -177,7 +177,7 @@ const PageCombobox = () => {
           },
           {
             name: 'onClear',
-            type: '() => void',
+            type: '(index?: number | string) => void',
             required: false,
             default: '-',
             description:
@@ -270,7 +270,7 @@ const PageCombobox = () => {
       />
 
       <PropsTable
-        title="Combobox.Input | Combobox.InsetInput"
+        title="Combobox.Input | Combobox.InsetInput | VisualSelectInput"
         data={[
           {
             name: 'onChange',
@@ -492,7 +492,7 @@ const PageCombobox = () => {
       />
 
       <PropsTable
-        title="Combobox.MultiSelect | Combobox.InsetMultiSelect"
+        title="Combobox.MultiSelect | Combobox.InsetMultiSelect | Combobox.VisualMultiSelect"
         data={[
           {
             name: 'onChange',
@@ -573,10 +573,51 @@ const PageCombobox = () => {
         data={[
           {
             name: 'counter',
-            type: 'Number',
+            type: 'number',
             required: true,
             default: '-',
             description: 'Number of selected options',
+          },
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Tailwind classes for custom styles.',
+          },
+          {
+            name: 'Render Props: ',
+            type: '',
+            required: undefined,
+            default: '',
+            description: '',
+          },
+          {
+            name: 'open',
+            type: 'boolean',
+            required: false,
+            default: '-',
+            description: 'Whether or not the Listbox is open.',
+          },
+        ]}
+      />
+
+      <PropsTable
+        title="Combobox.Vidget"
+        data={[
+          {
+            name: 'index',
+            type: 'number | string',
+            required: true,
+            default: '-',
+            description: 'Index of the selected item',
+          },
+          {
+            name: 'label',
+            type: 'number | string',
+            required: true,
+            default: '-',
+            description: 'Displayed label of the selected item',
           },
           {
             name: 'className',

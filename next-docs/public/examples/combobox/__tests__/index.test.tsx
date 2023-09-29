@@ -10,6 +10,7 @@ import InsetSelectStates from '../InsetSelectStates';
 import MultiSelect from '../MultiSelect';
 import Select from '../Select';
 import SelectStates from '../SelectStates';
+import VisualMultiSelect from '../VisualMultiSelect';
 
 const withRtl = (component: JSX.Element) => <div dir="rtl">{component}</div>;
 
@@ -43,6 +44,10 @@ describe('Combobox', () => {
     const tree = render(<SelectStates />);
     expect(tree).toMatchSnapshot();
   });
+  it('renders VisualMultiSelect', () => {
+    const tree = render(<VisualMultiSelect />);
+    expect(tree).toMatchSnapshot();
+  });
 });
 
 describe('Combobox in RTL', () => {
@@ -73,6 +78,10 @@ describe('Combobox in RTL', () => {
   });
   it('renders SelectStates', () => {
     const tree = render(withRtl(<SelectStates />));
+    expect(tree).toMatchSnapshot();
+  });
+  it('renders VisualMultiSelect', () => {
+    const tree = render(withRtl(<VisualMultiSelect />));
     expect(tree).toMatchSnapshot();
   });
 });
