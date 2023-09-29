@@ -22,7 +22,7 @@ Object {
       >
         <button
           aria-label="Search"
-          class="flex gap-2 h-10 cursor-text items-center text-trunks hover:border-trunks w-full rounded-moon-i-sm border border-beerus bg-goku px-2 text-moon-14"
+          class="flex gap-2 h-10 cursor-text items-center text-trunks rounded-moon-i-sm border border-beerus bg-gohan px-2 text-moon-14 hover:border-trunks w-full"
         >
           <svg
             class="text-moon-24 text-trunks"
@@ -50,7 +50,7 @@ Object {
           </kbd>
         </button>
         <div
-          class="fixed w-screen inset-0 bg-zeno transition-opacity z-[55]"
+          class="fixed w-screen inset-0 bg-goku/75 transition-opacity z-[55]"
         />
       </div>
     </div>
@@ -73,7 +73,7 @@ Object {
       tabindex="-1"
     >
       <div
-        class="z-[60] fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full bg-goku sm:max-w-lg md:max-w-xl shadow-moon-md rounded-moon-s-md flex flex-col overflow-hidden"
+        class="z-[60] fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full bg-gohan sm:max-w-lg md:max-w-xl shadow-moon-md rounded-moon-s-md flex flex-col overflow-hidden"
         cmdk-root=""
         loop=""
       >
@@ -132,7 +132,7 @@ Object {
         <div
           aria-label="Suggestions"
           aria-labelledby=":rf:"
-          class="w-full max-h-[50vh] overflow-y-auto p-2 space-y-1 bg-goku shadow-moon-md"
+          class="w-full max-h-[50vh] overflow-y-auto p-2 space-y-1 bg-gohan shadow-moon-md"
           cmdk-list=""
           id=":rd:"
           role="listbox"
@@ -143,7 +143,7 @@ Object {
           >
             <div
               aria-selected="true"
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition data-[selected=true]:bg-heles"
+              class="p-2 cursor-pointer focus:outline-none hover:bg-goku select-none text-bulma data-[selected=true]:bg-goku"
               cmdk-item=""
               data-selected="true"
               data-value="aurum"
@@ -152,7 +152,7 @@ Object {
               Aurum
             </div>
             <div
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition data-[selected=true]:bg-heles"
+              class="p-2 cursor-pointer focus:outline-none hover:bg-goku select-none text-bulma data-[selected=true]:bg-goku"
               cmdk-item=""
               data-value="argentum"
               role="option"
@@ -160,7 +160,7 @@ Object {
               Argentum
             </div>
             <div
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition data-[selected=true]:bg-heles"
+              class="p-2 cursor-pointer focus:outline-none hover:bg-goku select-none text-bulma data-[selected=true]:bg-goku"
               cmdk-item=""
               data-value="zink"
               role="option"
@@ -168,7 +168,7 @@ Object {
               Zink
             </div>
             <div
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition data-[selected=true]:bg-heles"
+              class="p-2 cursor-pointer focus:outline-none hover:bg-goku select-none text-bulma data-[selected=true]:bg-goku"
               cmdk-item=""
               data-value="plumbum"
               role="option"
@@ -196,7 +196,7 @@ Object {
     >
       <button
         aria-label="Search"
-        class="flex gap-2 h-10 cursor-text items-center text-trunks hover:border-trunks w-full rounded-moon-i-sm border border-beerus bg-goku px-2 text-moon-14"
+        class="flex gap-2 h-10 cursor-text items-center text-trunks rounded-moon-i-sm border border-beerus bg-gohan px-2 text-moon-14 hover:border-trunks w-full"
       >
         <svg
           class="text-moon-24 text-trunks"
@@ -224,7 +224,7 @@ Object {
         </kbd>
       </button>
       <div
-        class="fixed w-screen inset-0 bg-zeno transition-opacity z-[55]"
+        class="fixed w-screen inset-0 bg-goku/75 transition-opacity z-[55]"
       />
     </div>
   </div>,
@@ -301,7 +301,7 @@ Object {
     >
       <button
         aria-label="Search"
-        class="flex gap-2 h-10 cursor-text items-center text-trunks hover:border-trunks w-full rounded-moon-i-sm border border-beerus bg-goku px-2 text-moon-14"
+        class="flex gap-2 h-10 cursor-text items-center text-trunks rounded-moon-i-sm border border-beerus bg-gohan px-2 text-moon-14 hover:border-trunks w-full"
       >
         <svg
           class="text-moon-24 text-trunks"
@@ -329,7 +329,7 @@ Object {
         </kbd>
       </button>
       <div
-        class="fixed w-screen inset-0 bg-zeno transition-opacity z-[55]"
+        class="fixed w-screen inset-0 bg-goku/75 transition-opacity z-[55]"
       />
     </div>
     <div
@@ -351,7 +351,7 @@ Object {
       tabindex="-1"
     >
       <div
-        class="z-[60] fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full bg-goku sm:max-w-lg md:max-w-xl shadow-moon-md rounded-moon-s-md flex flex-col overflow-hidden"
+        class="z-[60] fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full bg-gohan sm:max-w-lg md:max-w-xl shadow-moon-md rounded-moon-s-md flex flex-col overflow-hidden"
         cmdk-root=""
         loop=""
       >
@@ -410,7 +410,7 @@ Object {
         <div
           aria-label="Suggestions"
           aria-labelledby=":r5:"
-          class="w-full max-h-[50vh] overflow-y-auto p-2 space-y-1 bg-goku shadow-moon-md"
+          class="w-full max-h-[50vh] overflow-y-auto p-2 space-y-1 bg-gohan shadow-moon-md"
           cmdk-list=""
           id=":r3:"
           role="listbox"
@@ -421,7 +421,7 @@ Object {
           >
             <div
               aria-selected="true"
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition data-[selected=true]:bg-heles"
+              class="p-2 cursor-pointer focus:outline-none hover:bg-goku select-none text-bulma data-[selected=true]:bg-goku"
               cmdk-item=""
               data-selected="true"
               data-value="aurum"
@@ -430,7 +430,7 @@ Object {
               Aurum
             </div>
             <div
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition data-[selected=true]:bg-heles"
+              class="p-2 cursor-pointer focus:outline-none hover:bg-goku select-none text-bulma data-[selected=true]:bg-goku"
               cmdk-item=""
               data-value="argentum"
               role="option"
@@ -438,7 +438,7 @@ Object {
               Argentum
             </div>
             <div
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition data-[selected=true]:bg-heles"
+              class="p-2 cursor-pointer focus:outline-none hover:bg-goku select-none text-bulma data-[selected=true]:bg-goku"
               cmdk-item=""
               data-value="zink"
               role="option"
@@ -446,7 +446,7 @@ Object {
               Zink
             </div>
             <div
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition data-[selected=true]:bg-heles"
+              class="p-2 cursor-pointer focus:outline-none hover:bg-goku select-none text-bulma data-[selected=true]:bg-goku"
               cmdk-item=""
               data-value="plumbum"
               role="option"
@@ -471,7 +471,7 @@ Object {
   >
     <button
       aria-label="Search"
-      class="flex gap-2 h-10 cursor-text items-center text-trunks hover:border-trunks w-full rounded-moon-i-sm border border-beerus bg-goku px-2 text-moon-14"
+      class="flex gap-2 h-10 cursor-text items-center text-trunks rounded-moon-i-sm border border-beerus bg-gohan px-2 text-moon-14 hover:border-trunks w-full"
     >
       <svg
         class="text-moon-24 text-trunks"
@@ -499,7 +499,7 @@ Object {
       </kbd>
     </button>
     <div
-      class="fixed w-screen inset-0 bg-zeno transition-opacity z-[55]"
+      class="fixed w-screen inset-0 bg-goku/75 transition-opacity z-[55]"
     />
   </div>,
   "debug": [Function],

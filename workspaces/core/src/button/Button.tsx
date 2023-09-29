@@ -73,7 +73,7 @@ const Button = <C extends React.ElementType = 'button'>({
           {iconOnly}
         </>
       )}
-      <Hover isHover={isHover} />
+      <Hover isHover={isHover} variant={variant} />
     </ButtonComponent>
   );
 };
