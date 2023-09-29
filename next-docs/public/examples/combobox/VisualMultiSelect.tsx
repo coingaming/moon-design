@@ -31,9 +31,9 @@ const Example = () => {
 
   const filteredPeople = filter(query, people);
 
-  const onRemoveItem = (index?: number | string) => {
-    setSelected(selected.filter(({ id }) => id !== index ));
-  };
+  const onRemoveItem = useCallback((index?: number | string) => {
+    setSelected(selected.filter(({ id }) => id !== index));
+  }, [selected]);
 
   return (
     <div className="flex w-full max-w-xs items-center">
@@ -41,7 +41,7 @@ const Example = () => {
         value={selected}
         onChange={setSelected}
         onQueryChange={setQuery}
-        onClear={(index?: number | string) => onRemoveItem(index)}
+        onClear={onRemoveItem}
         multiple
       >
         {({ open }) => (

@@ -251,7 +251,7 @@ const VisualSelectInput = ({
     >
       <div className='flex flex-wrap justify-start items-start gap-1'>
         { selected.map(({id, label}) => {
-          return <Vidget index={id} label={label} />
+          return <SelectedItem index={id} label={label} />
         }) }
       </div>
       <HeadlessCombobox.Input
@@ -376,7 +376,7 @@ const Counter = ({ open, className, counter, ...rest }: SelectProps) => {
   );
 };
 
-const Vidget = ({
+const SelectedItem = ({
   open,
   className,
   index,
@@ -663,7 +663,7 @@ const Combobox = Object.assign(ComboboxRoot, {
   Option,
   Trigger,
   Counter,
-  Vidget,
+  SelectedItem,
   Transition,
   Hint,
   Select,

@@ -603,7 +603,7 @@ const PageCombobox = () => {
       />
 
       <PropsTable
-        title="Combobox.Vidget"
+        title="Combobox.SelectedItem"
         data={[
           {
             name: 'index',
