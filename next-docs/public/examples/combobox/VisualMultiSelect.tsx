@@ -31,7 +31,7 @@ const Example = () => {
 
   const filteredPeople = filter(query, people);
 
-  const onRemoveItem = useCallback((index?: number | string) => {
+  const onRemoveItem = useCallback((index: unknown) => {
     setSelected(selected.filter(({ id }) => id !== index));
   }, [selected]);
 
