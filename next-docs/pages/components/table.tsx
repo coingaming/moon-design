@@ -20,6 +20,7 @@ import RowSizes from '../../public/examples/table/RowSizes';
 import SelectableCheckboxes from '../../public/examples/table/SelectableCheckboxes';
 import SelectableRows from '../../public/examples/table/SelectableRows';
 import Sorting from '../../public/examples/table/Sorting';
+import Tooltips from '../../public/examples/table/Tooltips';
 import Zebra from '../../public/examples/table/Zebra';
 import useComponent from '../../utils/useComponent';
 
@@ -133,6 +134,11 @@ const PageTable = () => {
         title="Long data table (with data clipping)"
         preview={<LongData />}
         code={examples ? examples.LongData : 'Loading'}
+      />
+      <Preview
+        title="Tooltips (with a transparent one in the second row)"
+        preview={<Tooltips />}
+        code={examples ? examples.Tooltips : 'Loading'}
       />
       <PropsTable
         title="Table props"
