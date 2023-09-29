@@ -243,8 +243,13 @@ const VisualSelectInput = ({
   const selected = value as [];
 
   return (
-    <span className='w-full flex flex-col gap-y-0.5'>
-      <div className='flex flex-wrap justify-start items-start gap-0.5'>
+    <span
+      className={mergeClassnames(
+        'w-full flex flex-col',
+        !selected.length ? 'gap-y-0' : 'gap-y-1'
+      )}
+    >
+      <div className='flex flex-wrap justify-start items-start gap-1'>
         { selected.map(({id, label}) => {
           return <Vidget index={id} label={label} />
         }) }

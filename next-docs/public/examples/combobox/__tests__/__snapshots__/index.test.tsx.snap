@@ -2655,10 +2655,10 @@ Object {
               tabindex="-1"
             >
               <span
-                class="w-full flex flex-col gap-y-0.5"
+                class="w-full flex flex-col gap-y-0"
               >
                 <div
-                  class="flex flex-wrap justify-start items-start gap-0.5"
+                  class="flex flex-wrap justify-start items-start gap-1"
                 />
                 <input
                   aria-autocomplete="list"
@@ -2731,10 +2731,10 @@ Object {
             tabindex="-1"
           >
             <span
-              class="w-full flex flex-col gap-y-0.5"
+              class="w-full flex flex-col gap-y-0"
             >
               <div
-                class="flex flex-wrap justify-start items-start gap-0.5"
+                class="flex flex-wrap justify-start items-start gap-1"
               />
               <input
                 aria-autocomplete="list"
@@ -5434,10 +5434,10 @@ Object {
             tabindex="-1"
           >
             <span
-              class="w-full flex flex-col gap-y-0.5"
+              class="w-full flex flex-col gap-y-0"
             >
               <div
-                class="flex flex-wrap justify-start items-start gap-0.5"
+                class="flex flex-wrap justify-start items-start gap-1"
               />
               <input
                 aria-autocomplete="list"
@@ -5506,10 +5506,10 @@ Object {
           tabindex="-1"
         >
           <span
-            class="w-full flex flex-col gap-y-0.5"
+            class="w-full flex flex-col gap-y-0"
           >
             <div
-              class="flex flex-wrap justify-start items-start gap-0.5"
+              class="flex flex-wrap justify-start items-start gap-1"
             />
             <input
               aria-autocomplete="list"
