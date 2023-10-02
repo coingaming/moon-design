@@ -1,21 +1,5 @@
 # @heathmont/moon-cmdk-tw
 
-## 10.7.9
-
-### Patch Changes
-
-- Deploy 10.7.9
-- Updated dependencies
-  - @heathmont/moon-core-tw@10.7.9
-
-## 10.7.8
-
-### Patch Changes
-
-- Deploy 10.7.8
-- Updated dependencies
-  - @heathmont/moon-core-tw@10.7.8
-
 ## 10.7.7
 
 ### Patch Changes

@@ -1,17 +1,5 @@
 # @heathmont/moon-themes-tw
 
-## 10.7.9
-
-### Patch Changes
-
-- Deploy 10.7.9
-
-## 10.7.8
-
-### Patch Changes
-
-- Deploy 10.7.8
-
 ## 10.7.7
 
 ### Patch Changes
