@@ -1,6 +1,6 @@
 {
   "name": "docs",
-  "version": "10.7.9",
+  "version": "10.8.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -11,9 +11,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@heathmont/moon-base-tw": "workspace:^10.7.9",
-    "@heathmont/moon-cmdk-tw": "workspace:^10.7.9",
-    "@heathmont/moon-core-tw": "workspace:^10.7.9",
+    "@heathmont/moon-base-tw": "workspace:^10.8.0",
+    "@heathmont/moon-cmdk-tw": "workspace:^10.8.0",
+    "@heathmont/moon-core-tw": "workspace:^10.8.0",
     "@heathmont/moon-icons-tw": "9.28.4",
     "@types/node": "20.4.9",
     "@types/react": "18.2.19",
