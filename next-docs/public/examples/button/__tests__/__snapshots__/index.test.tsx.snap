@@ -25,22 +25,22 @@ Object {
                 role="alert"
               >
                 <div
-                  class="border-2 currentColor absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
+                  class="border-2 border-goten absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
                   role="presentation"
                   style="animation-delay: -0.45s;"
                 />
                 <div
-                  class="border-2 currentColor absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
+                  class="border-2 border-goten absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
                   role="presentation"
                   style="animation-delay: -0.3s;"
                 />
                 <div
-                  class="border-2 currentColor absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
+                  class="border-2 border-goten absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
                   role="presentation"
                   style="animation-delay: -0.15s;"
                 />
                 <div
-                  class="border-2 currentColor absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
+                  class="border-2 border-goten absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
                   role="presentation"
                 />
               </div>
@@ -95,7 +95,7 @@ Object {
           />
         </button>
         <button
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-chichi text-goten animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both] anim-error"
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-chichi anim-error animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both]"
           type="button"
         >
           Error
@@ -138,22 +138,22 @@ Object {
               role="alert"
             >
               <div
-                class="border-2 currentColor absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
+                class="border-2 border-goten absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
                 role="presentation"
                 style="animation-delay: -0.45s;"
               />
               <div
-                class="border-2 currentColor absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
+                class="border-2 border-goten absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
                 role="presentation"
                 style="animation-delay: -0.3s;"
               />
               <div
-                class="border-2 currentColor absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
+                class="border-2 border-goten absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
                 role="presentation"
                 style="animation-delay: -0.15s;"
               />
               <div
-                class="border-2 currentColor absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
+                class="border-2 border-goten absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
                 role="presentation"
               />
             </div>
@@ -208,7 +208,7 @@ Object {
         />
       </button>
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-chichi text-goten animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both] anim-error"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-chichi anim-error animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both]"
         type="button"
       >
         Error
@@ -573,7 +573,7 @@ Object {
           Full width
           <span
             aria-hidden="true"
-            class="text-moon-24 absolute block top-1/2 translate-y-[-50%] ltr:right-2 rtl:left-2"
+            class="text-moon-24 absolute block top-1/2 translate-y-[-50%] end-2"
           >
             <svg
               fill="none"
@@ -608,7 +608,7 @@ Object {
         Full width
         <span
           aria-hidden="true"
-          class="text-moon-24 absolute block top-1/2 translate-y-[-50%] ltr:right-2 rtl:left-2"
+          class="text-moon-24 absolute block top-1/2 translate-y-[-50%] end-2"
         >
           <svg
             fill="none"
@@ -1489,22 +1489,22 @@ Object {
               role="alert"
             >
               <div
-                class="border-2 currentColor absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
+                class="border-2 border-goten absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
                 role="presentation"
                 style="animation-delay: -0.45s;"
               />
               <div
-                class="border-2 currentColor absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
+                class="border-2 border-goten absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
                 role="presentation"
                 style="animation-delay: -0.3s;"
               />
               <div
-                class="border-2 currentColor absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
+                class="border-2 border-goten absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
                 role="presentation"
                 style="animation-delay: -0.15s;"
               />
               <div
-                class="border-2 currentColor absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
+                class="border-2 border-goten absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
                 role="presentation"
               />
             </div>
@@ -1559,7 +1559,7 @@ Object {
         />
       </button>
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-chichi text-goten animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both] anim-error"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-chichi anim-error animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both]"
         type="button"
       >
         Error
@@ -1598,22 +1598,22 @@ Object {
             role="alert"
           >
             <div
-              class="border-2 currentColor absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
+              class="border-2 border-goten absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
               role="presentation"
               style="animation-delay: -0.45s;"
             />
             <div
-              class="border-2 currentColor absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
+              class="border-2 border-goten absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
               role="presentation"
               style="animation-delay: -0.3s;"
             />
             <div
-              class="border-2 currentColor absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
+              class="border-2 border-goten absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
               role="presentation"
               style="animation-delay: -0.15s;"
             />
             <div
-              class="border-2 currentColor absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
+              class="border-2 border-goten absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent"
               role="presentation"
             />
           </div>
@@ -1668,7 +1668,7 @@ Object {
       />
     </button>
     <button
-      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-chichi text-goten animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both] anim-error"
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-chichi anim-error animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both]"
       type="button"
     >
       Error
@@ -2005,7 +2005,7 @@ Object {
         Full width
         <span
           aria-hidden="true"
-          class="text-moon-24 absolute block top-1/2 translate-y-[-50%] ltr:right-2 rtl:left-2"
+          class="text-moon-24 absolute block top-1/2 translate-y-[-50%] end-2"
         >
           <svg
             fill="none"
@@ -2036,7 +2036,7 @@ Object {
       Full width
       <span
         aria-hidden="true"
-        class="text-moon-24 absolute block top-1/2 translate-y-[-50%] ltr:right-2 rtl:left-2"
+        class="text-moon-24 absolute block top-1/2 translate-y-[-50%] end-2"
       >
         <svg
           fill="none"
