@@ -76,6 +76,7 @@ const PageButton = () => {
       />
       <Preview
         title="Animations"
+        description='Pulse animation is available only for "fill" variant only.'
         preview={<Animations />}
         code={examples ? examples.Animations : 'Loading'}
       />

@@ -38,17 +38,27 @@ const Example = () => {
           'accessor': 'gameNameAndProvider',
           'Footer': '',
         },
-      ],
-    },
-    {
-      'Header': 'Amount',
-      'sticky': 'right',
-      'columns': [
         {
           'Header': 'Amount',
           'accessor': 'amount',
           'Footer': '',
-        }
+        },
+        {
+          'Header': 'Currency',
+          'accessor': 'currency',
+          'Footer': '',
+        },
+      ],
+    },
+    {
+      'Header': 'Status',
+      'sticky': 'right',
+      'columns': [
+        {
+          'Header': 'Status',
+          'accessor': 'status',
+          'Footer': '',
+        },
       ]
     }
   ];
@@ -61,7 +71,9 @@ const Example = () => {
         processTime: '2023-09-19T14:31:46.105Z',
         client: 'Bender (old) Coingaming',
         gameNameAndProvider: 'Pragmatic Play',
-        amount: 22.90748093020859,
+        amount: 22.97,
+        currency: 'USD',
+        status: 'SUCCESS'
       };
     });
   };
@@ -87,7 +99,7 @@ const Example = () => {
       columns={columns}
       data={data}
       defaultColumn={defaultColumn}
-      width={800}
+      width={900}
       height={400}
       withFooter={false}
       textClip={textClip}

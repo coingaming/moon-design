@@ -55,6 +55,7 @@ const Button = <C extends React.ElementType = 'button'>({
           animation={animation}
           size={size}
           fullWidth={fullWidth}
+          variant={variant}
         />
       ) : (
         <>
@@ -72,7 +73,7 @@ const Button = <C extends React.ElementType = 'button'>({
           {iconOnly}
         </>
       )}
-      <Hover isHover={isHover} />
+      <Hover isHover={isHover} variant={variant} />
     </ButtonComponent>
   );
 };
