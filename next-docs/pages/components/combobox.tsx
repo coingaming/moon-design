@@ -270,7 +270,7 @@ const PageCombobox = () => {
       />
 
       <PropsTable
-        title="Combobox.Input | Combobox.InsetInput | VisualSelectInput"
+        title="Combobox.Input | Combobox.InsetInput | Combobox.VisualSelectInput"
         data={[
           {
             name: 'onChange',
