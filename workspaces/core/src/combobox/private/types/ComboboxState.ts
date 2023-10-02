@@ -6,7 +6,7 @@ type ComboboxState = {
   value?: InputValue;
   isError?: boolean;
   disabled?: boolean;
-  onClear?: () => void;
+  onClear?: (index?: number | string) => void;
   onQueryChange?: (value: string) => void;
   displayValue?: (value: InputValue) => string;
   input?: {

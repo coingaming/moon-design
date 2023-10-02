@@ -231,6 +231,59 @@ const InsetInput = ({
   );
 };
 
+const VisualSelectInput = ({
+  displayValue,
+  placeholder,
+  type,
+  className,
+  label,
+  ...rest
+}: InputProps) => {
+  const { value, size, popper, disabled, isError, onQueryChange } = useComboboxContext('Combobox.VisualSelectInput');
+  const selected = value as [];
+
+  return (
+    <span
+      className={mergeClassnames(
+        'w-full flex flex-col',
+        !selected.length ? 'gap-y-0' : 'gap-y-1'
+      )}
+    >
+      <div className='flex flex-wrap justify-start items-start gap-1'>
+        { selected.map(({id, label}) => {
+          return <SelectedItem index={id} label={label} />
+        }) }
+      </div>
+      <HeadlessCombobox.Input
+        onChange={({ target: { value } }) => {
+          onQueryChange ? onQueryChange(value) : () => {};
+        }}
+        as={NativeInput}
+        displayValue={displayValue}
+        placeholder={placeholder === undefined ? '' : `${placeholder}`}
+        type={type ? type : 'text'}
+        disabled={disabled}
+        className={mergeClassnames(
+          'flex-grow w-full h-full border-0 !rounded-none bg-transparent px-0',
+          '!shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none',
+          label !== undefined &&
+            label.length > 0 &&
+            (placeholder === undefined || placeholder.length === 0) &&
+            'input-xl',
+          label !== undefined && label.length > 0 && 'pt-3 input-xl-dt-label',
+          getTextSizes(size),
+          className,
+          'leading-5'
+        )}
+        error={isError}
+        aria-label={rest['aria-label']}
+        {...rest}
+        ref={popper?.setAnchor}
+      />
+    </span>
+  );
+}
+
 const Button = ({
   open,
   children,
@@ -322,6 +375,45 @@ const Counter = ({ open, className, counter, ...rest }: SelectProps) => {
     </span>
   );
 };
+
+const SelectedItem = ({
+  open,
+  className,
+  index,
+  label,
+  ...rest
+}: {
+  index: number | string,
+  label: number | string
+} & SelectProps) => {
+  const { size, isError, disabled, onClear } =
+    useComboboxContext('Combobox.Counter');
+
+  return (
+    <span
+      className={mergeClassnames(
+        'flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center',
+        className
+      )}
+    >
+      <SelectButton
+        size={size}
+        open={open}
+        isError={isError}
+        idDisabled={disabled}
+        {...rest}
+      >
+        <SelectButton.Value>
+          <SelectButton.Chip
+            onClear={() => onClear && onClear(index)}
+          >
+            {label}
+          </SelectButton.Chip>
+        </SelectButton.Value>
+      </SelectButton>
+    </span>
+  );
+}
 
 const Transition = ({ children, ...rest }: WithChildren) => {
   const { onQueryChange } = useComboboxContext('Combobox.Counter');
@@ -500,6 +592,46 @@ const InsetMultiSelect = ({
   );
 };
 
+const VisualMultiSelect = ({
+  open,
+  label,
+  placeholder,
+  children,
+  className,
+  multiple = true,
+  counter,
+  displayValue,
+  ...rest
+}: WithChildren<SelectProps & InputProps>) => {
+  const { size, popper, disabled } = useComboboxContext('Combobox.VisualMultiSelect');
+
+  return (
+    <Listbox>
+       {label && (
+        <SelectButton.Label labelSize={size} idDisabled={disabled}>
+          {label}
+        </SelectButton.Label>
+      )}
+      <Listbox.Button
+        open={open}
+        as={Trigger}
+        ref={popper?.setAnchor}
+        className={className}
+        multiple={multiple}
+        {...rest}
+      >
+        <VisualSelectInput
+          open={open}
+          placeholder={placeholder}
+          displayValue={displayValue}
+          aria-label={rest['aria-label']}
+        />
+        <Button open={open}>{children}</Button>
+      </Listbox.Button>
+    </Listbox>
+  );
+};
+
 const Hint = ({
   children,
   className,
@@ -525,17 +657,20 @@ const Hint = ({
 const Combobox = Object.assign(ComboboxRoot, {
   Input,
   InsetInput,
+  VisualSelectInput,
   Button,
   Options,
   Option,
   Trigger,
   Counter,
+  SelectedItem,
   Transition,
   Hint,
   Select,
   MultiSelect,
   InsetSelect,
   InsetMultiSelect,
+  VisualMultiSelect,
 });
 
 export default Combobox;

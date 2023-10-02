@@ -76,6 +76,7 @@ const PageButton = () => {
       />
       <Preview
         title="Animations"
+        description='Pulse animation is available only for "fill" variant only.'
         preview={<Animations />}
         code={examples ? examples.Animations : 'Loading'}
       />
@@ -153,9 +154,9 @@ const PageButton = () => {
           },
           {
             name: 'variant',
-            type: 'primary | secondary | tertiary | ghost',
+            type: 'fill | outline | ghost',
             required: false,
-            default: 'primary',
+            default: 'fill',
             description: 'Visual/Logical variant of button',
           },
         ]}

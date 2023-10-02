@@ -20,6 +20,7 @@ import Calendar from '../Calendar';
 import Editable from '../Editable';
 import Zebra from '../Zebra';
 import LongData from '../LongData';
+import Tooltips from '../Tooltips';
 
 const withRtl = (component: JSX.Element) => <div dir="rtl">{component}</div>;
 
@@ -93,6 +94,10 @@ describe('Table', () => {
     const tree = render(<LongData />);
     expect(tree).toMatchSnapshot();
   });
+  it('renders Tooltips', () => {
+    const tree = render(<Tooltips />);
+    expect(tree).toMatchSnapshot();
+  });
 });
 
 describe('Table in RTL', () => {
@@ -163,6 +168,10 @@ describe('Table in RTL', () => {
   });
   it('renders LongData', () => {
     const tree = render(withRtl(<LongData />));
+    expect(tree).toMatchSnapshot();
+  });
+  it('renders Tooltips', () => {
+    const tree = render(withRtl(<Tooltips />));
     expect(tree).toMatchSnapshot();
   });
 });
