@@ -11,7 +11,7 @@ export interface ComboboxRootProps
   displayValue?: (value: InputValue) => string;
   onChange(value: unknown): void;
   onQueryChange(value: string): void;
-  onClear?: (index?: number) => void;
+  onClear?: (index?: number | string) => void;
   isError?: boolean;
   disabled?: boolean;
   size?: Size;
