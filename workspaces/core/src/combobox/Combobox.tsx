@@ -350,6 +350,12 @@ const Option = ({ children, value }: OptionProps) => {
   );
 };
 
+const AllSelectableOptions = () => {
+  return (
+    <></>
+  );
+}
+
 const Counter = ({ open, className, counter, ...rest }: SelectProps) => {
   const { size, isError, disabled, onClear } =
     useComboboxContext('Combobox.Counter');
