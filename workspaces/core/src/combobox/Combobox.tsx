@@ -383,8 +383,8 @@ const SelectedItem = ({
   label,
   ...rest
 }: {
-  index: number | string,
-  label: number | string
+  index: number,
+  label: string
 } & SelectProps) => {
   const { size, isError, disabled, onClear } =
     useComboboxContext('Combobox.Counter');
