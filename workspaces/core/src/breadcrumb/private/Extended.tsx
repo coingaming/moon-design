@@ -1,7 +1,7 @@
 import React from 'react';
+import type Props from './types/Props';
 import mergeClassnames from '../../mergeClassnames/mergeClassnames';
 import ArrowsRight from '../../private/icons/ArrowsRight';
-import type Props from './types/Props';
 
 const Extended = ({ breadcrumbs, divider }: Props) => (
   <nav aria-label="Breadcrumb">

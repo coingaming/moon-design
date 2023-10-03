@@ -13,7 +13,7 @@ Object {
         >
           <div>
             <div
-              class="relative w-full h-full bg-gohan flex flex-col border border-beerus rounded-moon-s-sm [&_.moon-search-result]:top-10 [&_.moon-search-transition>.moon-search-result]:top-0"
+              class="relative w-full h-full bg-goku flex flex-col border border-beerus rounded-moon-s-sm [&_.moon-search-result]:top-10 [&_.moon-search-transition>.moon-search-result]:top-0"
             >
               <div
                 class="flex items-center ps-3 gap-2 moon-search-input"
@@ -63,7 +63,7 @@ Object {
       >
         <div>
           <div
-            class="relative w-full h-full bg-gohan flex flex-col border border-beerus rounded-moon-s-sm [&_.moon-search-result]:top-10 [&_.moon-search-transition>.moon-search-result]:top-0"
+            class="relative w-full h-full bg-goku flex flex-col border border-beerus rounded-moon-s-sm [&_.moon-search-result]:top-10 [&_.moon-search-transition>.moon-search-result]:top-0"
           >
             <div
               class="flex items-center ps-3 gap-2 moon-search-input"
@@ -167,7 +167,7 @@ Object {
       >
         <div>
           <div
-            class="relative w-full h-full bg-gohan flex flex-col border border-beerus rounded-moon-s-sm [&_.moon-search-result]:top-10 [&_.moon-search-transition>.moon-search-result]:top-0"
+            class="relative w-full h-full bg-goku flex flex-col border border-beerus rounded-moon-s-sm [&_.moon-search-result]:top-10 [&_.moon-search-transition>.moon-search-result]:top-0"
           >
             <div
               class="flex items-center ps-3 gap-2 moon-search-input"
@@ -213,7 +213,7 @@ Object {
     >
       <div>
         <div
-          class="relative w-full h-full bg-gohan flex flex-col border border-beerus rounded-moon-s-sm [&_.moon-search-result]:top-10 [&_.moon-search-transition>.moon-search-result]:top-0"
+          class="relative w-full h-full bg-goku flex flex-col border border-beerus rounded-moon-s-sm [&_.moon-search-result]:top-10 [&_.moon-search-transition>.moon-search-result]:top-0"
         >
           <div
             class="flex items-center ps-3 gap-2 moon-search-input"
@@ -316,7 +316,7 @@ Object {
       >
         <div>
           <div
-            class="relative w-full h-full bg-gohan flex flex-col border border-beerus rounded-moon-s-sm [&_.moon-search-result]:top-10 [&_.moon-search-transition>.moon-search-result]:top-0"
+            class="relative w-full h-full bg-goku flex flex-col border border-beerus rounded-moon-s-sm [&_.moon-search-result]:top-10 [&_.moon-search-transition>.moon-search-result]:top-0"
           >
             <div
               class="flex items-center ps-3 gap-2 moon-search-input"
@@ -362,7 +362,7 @@ Object {
     >
       <div>
         <div
-          class="relative w-full h-full bg-gohan flex flex-col border border-beerus rounded-moon-s-sm [&_.moon-search-result]:top-10 [&_.moon-search-transition>.moon-search-result]:top-0"
+          class="relative w-full h-full bg-goku flex flex-col border border-beerus rounded-moon-s-sm [&_.moon-search-result]:top-10 [&_.moon-search-transition>.moon-search-result]:top-0"
         >
           <div
             class="flex items-center ps-3 gap-2 moon-search-input"
@@ -465,7 +465,7 @@ Object {
       >
         <div>
           <div
-            class="relative w-full h-full bg-gohan flex flex-col border border-beerus rounded-moon-s-sm [&_.moon-search-result]:top-10 [&_.moon-search-transition>.moon-search-result]:top-0"
+            class="relative w-full h-full bg-goku flex flex-col border border-beerus rounded-moon-s-sm [&_.moon-search-result]:top-10 [&_.moon-search-transition>.moon-search-result]:top-0"
           >
             <div
               class="flex items-center ps-3 gap-2 moon-search-input"
@@ -511,7 +511,7 @@ Object {
     >
       <div>
         <div
-          class="relative w-full h-full bg-gohan flex flex-col border border-beerus rounded-moon-s-sm [&_.moon-search-result]:top-10 [&_.moon-search-transition>.moon-search-result]:top-0"
+          class="relative w-full h-full bg-goku flex flex-col border border-beerus rounded-moon-s-sm [&_.moon-search-result]:top-10 [&_.moon-search-transition>.moon-search-result]:top-0"
         >
           <div
             class="flex items-center ps-3 gap-2 moon-search-input"

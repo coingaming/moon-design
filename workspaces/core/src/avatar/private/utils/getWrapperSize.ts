@@ -1,6 +1,6 @@
 import type SizeProps from '../types/SizeProps';
 
-const setWrapperSize = (size?: SizeProps) => {
+const getWrapperSize = (size?: SizeProps) => {
   if (size === 'xs') {
     return 'h-6 w-6 text-moon-10-caption';
   }
@@ -19,4 +19,4 @@ const setWrapperSize = (size?: SizeProps) => {
   return 'h-16 w-16 text-moon-20';
 };
 
-export default setWrapperSize;
+export default getWrapperSize;

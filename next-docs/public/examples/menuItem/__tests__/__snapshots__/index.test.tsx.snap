@@ -9,7 +9,7 @@ Object {
         dir="rtl"
       >
         <a
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
           href="#"
         >
           Menu item text
@@ -22,7 +22,7 @@ Object {
       dir="rtl"
     >
       <a
-        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
         href="#"
       >
         Menu item text
@@ -92,7 +92,7 @@ Object {
         dir="rtl"
       >
         <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
           type="button"
         >
           <span
@@ -128,7 +128,7 @@ Object {
           </span>
         </button>
         <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
           type="button"
         >
           <span
@@ -171,7 +171,7 @@ Object {
       dir="rtl"
     >
       <button
-        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
         type="button"
       >
         <span
@@ -207,7 +207,7 @@ Object {
         </span>
       </button>
       <button
-        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
         type="button"
       >
         <span
@@ -307,7 +307,7 @@ Object {
         dir="rtl"
       >
         <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
           type="button"
         >
           Menu item text
@@ -320,7 +320,7 @@ Object {
       dir="rtl"
     >
       <button
-        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
         type="button"
       >
         Menu item text
@@ -396,49 +396,49 @@ Object {
             class="w-56 bg-gohan flex flex-col gap-2 rounded-moon-s-lg p-4"
           >
             <a
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
               href="/"
             >
               Vision
             </a>
             <a
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
               href="/"
             >
               Getting started
             </a>
             <a
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
               href="/"
             >
               How to contribute?
             </a>
             <a
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
               href="/"
             >
               Colours palette
             </a>
             <a
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
               href="/"
             >
               Tokens
             </a>
             <a
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
               href="/"
             >
               Transform SVG
             </a>
             <a
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
               href="/"
             >
               Manifest
             </a>
             <button
-              class="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04]"
+              class="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full bg-heles"
               type="button"
             >
               Tailwind
@@ -462,7 +462,7 @@ Object {
               class="ps-6"
             >
               <a
-                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
                 href="/"
               >
                 <span
@@ -472,7 +472,7 @@ Object {
                 </span>
               </a>
               <a
-                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
                 href="/"
               >
                 <span
@@ -482,7 +482,7 @@ Object {
                 </span>
               </a>
               <a
-                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
                 href="/"
               >
                 <span
@@ -492,7 +492,7 @@ Object {
                 </span>
               </a>
               <a
-                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
                 href="/"
               >
                 <span
@@ -502,7 +502,7 @@ Object {
                 </span>
               </a>
               <a
-                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
                 href="/"
               >
                 <span
@@ -517,7 +517,7 @@ Object {
             class="w-56 bg-gohan flex flex-col gap-2 rounded-moon-s-lg p-4"
           >
             <button
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
               type="button"
             >
               <span
@@ -540,7 +540,7 @@ Object {
               </span>
             </button>
             <button
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full ps-6"
               type="button"
             >
               <span
@@ -577,7 +577,7 @@ Object {
               class="ps-10"
             >
               <button
-                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
                 type="button"
               >
                 <span
@@ -596,7 +596,7 @@ Object {
                 </span>
               </button>
               <button
-                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
                 type="button"
               >
                 <span
@@ -616,7 +616,7 @@ Object {
               </button>
             </div>
             <button
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full ps-6"
               type="button"
             >
               <span
@@ -635,7 +635,7 @@ Object {
               </span>
             </button>
             <button
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full ps-6"
               type="button"
             >
               <span
@@ -654,7 +654,7 @@ Object {
               </span>
             </button>
             <button
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full ps-6"
               type="button"
             >
               <span
@@ -676,7 +676,7 @@ Object {
               class="flex flex-col gap-2 rounded-moon-s-lg"
             >
               <button
-                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
                 type="button"
               >
                 <span
@@ -699,7 +699,7 @@ Object {
                 </span>
               </button>
               <button
-                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full ps-6"
                 type="button"
               >
                 <span
@@ -718,7 +718,7 @@ Object {
                 </span>
               </button>
               <button
-                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full ps-6"
                 type="button"
               >
                 <span
@@ -737,7 +737,7 @@ Object {
                 </span>
               </button>
               <button
-                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full ps-6"
                 type="button"
               >
                 <span
@@ -760,7 +760,7 @@ Object {
               class="flex flex-col gap-2 rounded-moon-s-lg "
             >
               <button
-                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
                 type="button"
               >
                 <span
@@ -783,7 +783,7 @@ Object {
                 </span>
               </button>
               <button
-                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full ps-6"
                 type="button"
               >
                 <span
@@ -818,49 +818,49 @@ Object {
           class="w-56 bg-gohan flex flex-col gap-2 rounded-moon-s-lg p-4"
         >
           <a
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
             href="/"
           >
             Vision
           </a>
           <a
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
             href="/"
           >
             Getting started
           </a>
           <a
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
             href="/"
           >
             How to contribute?
           </a>
           <a
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
             href="/"
           >
             Colours palette
           </a>
           <a
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
             href="/"
           >
             Tokens
           </a>
           <a
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
             href="/"
           >
             Transform SVG
           </a>
           <a
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
             href="/"
           >
             Manifest
           </a>
           <button
-            class="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04]"
+            class="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full bg-heles"
             type="button"
           >
             Tailwind
@@ -884,7 +884,7 @@ Object {
             class="ps-6"
           >
             <a
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
               href="/"
             >
               <span
@@ -894,7 +894,7 @@ Object {
               </span>
             </a>
             <a
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
               href="/"
             >
               <span
@@ -904,7 +904,7 @@ Object {
               </span>
             </a>
             <a
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
               href="/"
             >
               <span
@@ -914,7 +914,7 @@ Object {
               </span>
             </a>
             <a
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
               href="/"
             >
               <span
@@ -924,7 +924,7 @@ Object {
               </span>
             </a>
             <a
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
               href="/"
             >
               <span
@@ -939,7 +939,7 @@ Object {
           class="w-56 bg-gohan flex flex-col gap-2 rounded-moon-s-lg p-4"
         >
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
             type="button"
           >
             <span
@@ -962,7 +962,7 @@ Object {
             </span>
           </button>
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full ps-6"
             type="button"
           >
             <span
@@ -999,7 +999,7 @@ Object {
             class="ps-10"
           >
             <button
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
               type="button"
             >
               <span
@@ -1018,7 +1018,7 @@ Object {
               </span>
             </button>
             <button
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
               type="button"
             >
               <span
@@ -1038,7 +1038,7 @@ Object {
             </button>
           </div>
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full ps-6"
             type="button"
           >
             <span
@@ -1057,7 +1057,7 @@ Object {
             </span>
           </button>
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full ps-6"
             type="button"
           >
             <span
@@ -1076,7 +1076,7 @@ Object {
             </span>
           </button>
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full ps-6"
             type="button"
           >
             <span
@@ -1098,7 +1098,7 @@ Object {
             class="flex flex-col gap-2 rounded-moon-s-lg"
           >
             <button
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
               type="button"
             >
               <span
@@ -1121,7 +1121,7 @@ Object {
               </span>
             </button>
             <button
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full ps-6"
               type="button"
             >
               <span
@@ -1140,7 +1140,7 @@ Object {
               </span>
             </button>
             <button
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full ps-6"
               type="button"
             >
               <span
@@ -1159,7 +1159,7 @@ Object {
               </span>
             </button>
             <button
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full ps-6"
               type="button"
             >
               <span
@@ -1182,7 +1182,7 @@ Object {
             class="flex flex-col gap-2 rounded-moon-s-lg "
           >
             <button
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
               type="button"
             >
               <span
@@ -1205,7 +1205,7 @@ Object {
               </span>
             </button>
             <button
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full ps-6"
               type="button"
             >
               <span
@@ -1294,7 +1294,7 @@ Object {
           class="w-94 bg-gohan flex flex-col gap-3 rounded-moon-s-lg p-6"
         >
           <button
-            class="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04]"
+            class="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full bg-heles"
             type="button"
           >
             <span
@@ -1337,7 +1337,7 @@ Object {
             </span>
           </button>
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
             type="button"
           >
             <span
@@ -1383,7 +1383,7 @@ Object {
             class="border-top border-beerus"
           />
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
             type="button"
           >
             <span
@@ -1426,7 +1426,7 @@ Object {
             </span>
           </button>
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
             type="button"
           >
             <span
@@ -1480,7 +1480,7 @@ Object {
         class="w-94 bg-gohan flex flex-col gap-3 rounded-moon-s-lg p-6"
       >
         <button
-          class="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04]"
+          class="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full bg-heles"
           type="button"
         >
           <span
@@ -1523,7 +1523,7 @@ Object {
           </span>
         </button>
         <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
           type="button"
         >
           <span
@@ -1569,7 +1569,7 @@ Object {
           class="border-top border-beerus"
         />
         <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
           type="button"
         >
           <span
@@ -1612,7 +1612,7 @@ Object {
           </span>
         </button>
         <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
           type="button"
         >
           <span
@@ -1720,7 +1720,7 @@ Object {
         dir="rtl"
       >
         <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
           type="button"
         >
           <span>
@@ -1766,7 +1766,7 @@ Object {
           </span>
         </button>
         <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
           type="button"
         >
           <span
@@ -1846,7 +1846,7 @@ Object {
       dir="rtl"
     >
       <button
-        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
         type="button"
       >
         <span>
@@ -1892,7 +1892,7 @@ Object {
         </span>
       </button>
       <button
-        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
         type="button"
       >
         <span
@@ -2029,7 +2029,7 @@ Object {
         dir="rtl"
       >
         <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
           type="button"
         >
           <span
@@ -2049,7 +2049,7 @@ Object {
           </span>
         </button>
         <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
           type="button"
         >
           <span
@@ -2076,7 +2076,7 @@ Object {
       dir="rtl"
     >
       <button
-        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
         type="button"
       >
         <span
@@ -2096,7 +2096,7 @@ Object {
         </span>
       </button>
       <button
-        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
         type="button"
       >
         <span
@@ -2180,7 +2180,7 @@ Object {
         dir="rtl"
       >
         <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
           type="button"
         >
           <svg
@@ -2204,7 +2204,7 @@ Object {
           </span>
         </button>
         <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
           type="button"
         >
           <span
@@ -2235,7 +2235,7 @@ Object {
       dir="rtl"
     >
       <button
-        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
         type="button"
       >
         <svg
@@ -2259,7 +2259,7 @@ Object {
         </span>
       </button>
       <button
-        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
         type="button"
       >
         <span
@@ -2347,7 +2347,7 @@ Object {
         dir="rtl"
       >
         <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
           type="button"
         >
           <span
@@ -2362,7 +2362,7 @@ Object {
           </span>
         </button>
         <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
           type="button"
         >
           <svg
@@ -2398,7 +2398,7 @@ Object {
       dir="rtl"
     >
       <button
-        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
         type="button"
       >
         <span
@@ -2413,7 +2413,7 @@ Object {
         </span>
       </button>
       <button
-        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
         type="button"
       >
         <svg
@@ -2503,7 +2503,7 @@ Object {
   "baseElement": <body>
     <div>
       <a
-        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
         href="#"
       >
         Menu item text
@@ -2512,7 +2512,7 @@ Object {
   </body>,
   "container": <div>
     <a
-      class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+      class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
       href="#"
     >
       Menu item text
@@ -2578,7 +2578,7 @@ Object {
   "baseElement": <body>
     <div>
       <button
-        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
         type="button"
       >
         <span
@@ -2614,7 +2614,7 @@ Object {
         </span>
       </button>
       <button
-        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
         type="button"
       >
         <span
@@ -2653,7 +2653,7 @@ Object {
   </body>,
   "container": <div>
     <button
-      class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+      class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
       type="button"
     >
       <span
@@ -2689,7 +2689,7 @@ Object {
       </span>
     </button>
     <button
-      class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+      class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
       type="button"
     >
       <span
@@ -2785,7 +2785,7 @@ Object {
   "baseElement": <body>
     <div>
       <button
-        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
         type="button"
       >
         Menu item text
@@ -2794,7 +2794,7 @@ Object {
   </body>,
   "container": <div>
     <button
-      class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
       type="button"
     >
       Menu item text
@@ -2866,49 +2866,49 @@ Object {
           class="w-56 bg-gohan flex flex-col gap-2 rounded-moon-s-lg p-4"
         >
           <a
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
             href="/"
           >
             Vision
           </a>
           <a
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
             href="/"
           >
             Getting started
           </a>
           <a
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
             href="/"
           >
             How to contribute?
           </a>
           <a
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
             href="/"
           >
             Colours palette
           </a>
           <a
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
             href="/"
           >
             Tokens
           </a>
           <a
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
             href="/"
           >
             Transform SVG
           </a>
           <a
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
             href="/"
           >
             Manifest
           </a>
           <button
-            class="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04]"
+            class="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full bg-heles"
             type="button"
           >
             Tailwind
@@ -2932,7 +2932,7 @@ Object {
             class="ps-6"
           >
             <a
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
               href="/"
             >
               <span
@@ -2942,7 +2942,7 @@ Object {
               </span>
             </a>
             <a
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
               href="/"
             >
               <span
@@ -2952,7 +2952,7 @@ Object {
               </span>
             </a>
             <a
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
               href="/"
             >
               <span
@@ -2962,7 +2962,7 @@ Object {
               </span>
             </a>
             <a
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
               href="/"
             >
               <span
@@ -2972,7 +2972,7 @@ Object {
               </span>
             </a>
             <a
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
               href="/"
             >
               <span
@@ -2987,7 +2987,7 @@ Object {
           class="w-56 bg-gohan flex flex-col gap-2 rounded-moon-s-lg p-4"
         >
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
             type="button"
           >
             <span
@@ -3010,7 +3010,7 @@ Object {
             </span>
           </button>
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full ps-6"
             type="button"
           >
             <span
@@ -3047,7 +3047,7 @@ Object {
             class="ps-10"
           >
             <button
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
               type="button"
             >
               <span
@@ -3066,7 +3066,7 @@ Object {
               </span>
             </button>
             <button
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
               type="button"
             >
               <span
@@ -3086,7 +3086,7 @@ Object {
             </button>
           </div>
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full ps-6"
             type="button"
           >
             <span
@@ -3105,7 +3105,7 @@ Object {
             </span>
           </button>
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full ps-6"
             type="button"
           >
             <span
@@ -3124,7 +3124,7 @@ Object {
             </span>
           </button>
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full ps-6"
             type="button"
           >
             <span
@@ -3146,7 +3146,7 @@ Object {
             class="flex flex-col gap-2 rounded-moon-s-lg"
           >
             <button
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
               type="button"
             >
               <span
@@ -3169,7 +3169,7 @@ Object {
               </span>
             </button>
             <button
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full ps-6"
               type="button"
             >
               <span
@@ -3188,7 +3188,7 @@ Object {
               </span>
             </button>
             <button
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full ps-6"
               type="button"
             >
               <span
@@ -3207,7 +3207,7 @@ Object {
               </span>
             </button>
             <button
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full ps-6"
               type="button"
             >
               <span
@@ -3230,7 +3230,7 @@ Object {
             class="flex flex-col gap-2 rounded-moon-s-lg "
           >
             <button
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
               type="button"
             >
               <span
@@ -3253,7 +3253,7 @@ Object {
               </span>
             </button>
             <button
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full ps-6"
               type="button"
             >
               <span
@@ -3284,49 +3284,49 @@ Object {
         class="w-56 bg-gohan flex flex-col gap-2 rounded-moon-s-lg p-4"
       >
         <a
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
           href="/"
         >
           Vision
         </a>
         <a
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
           href="/"
         >
           Getting started
         </a>
         <a
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
           href="/"
         >
           How to contribute?
         </a>
         <a
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
           href="/"
         >
           Colours palette
         </a>
         <a
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
           href="/"
         >
           Tokens
         </a>
         <a
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
           href="/"
         >
           Transform SVG
         </a>
         <a
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
           href="/"
         >
           Manifest
         </a>
         <button
-          class="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04]"
+          class="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full bg-heles"
           type="button"
         >
           Tailwind
@@ -3350,7 +3350,7 @@ Object {
           class="ps-6"
         >
           <a
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
             href="/"
           >
             <span
@@ -3360,7 +3360,7 @@ Object {
             </span>
           </a>
           <a
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
             href="/"
           >
             <span
@@ -3370,7 +3370,7 @@ Object {
             </span>
           </a>
           <a
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
             href="/"
           >
             <span
@@ -3380,7 +3380,7 @@ Object {
             </span>
           </a>
           <a
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
             href="/"
           >
             <span
@@ -3390,7 +3390,7 @@ Object {
             </span>
           </a>
           <a
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
             href="/"
           >
             <span
@@ -3405,7 +3405,7 @@ Object {
         class="w-56 bg-gohan flex flex-col gap-2 rounded-moon-s-lg p-4"
       >
         <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
           type="button"
         >
           <span
@@ -3428,7 +3428,7 @@ Object {
           </span>
         </button>
         <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full ps-6"
           type="button"
         >
           <span
@@ -3465,7 +3465,7 @@ Object {
           class="ps-10"
         >
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
             type="button"
           >
             <span
@@ -3484,7 +3484,7 @@ Object {
             </span>
           </button>
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
             type="button"
           >
             <span
@@ -3504,7 +3504,7 @@ Object {
           </button>
         </div>
         <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full ps-6"
           type="button"
         >
           <span
@@ -3523,7 +3523,7 @@ Object {
           </span>
         </button>
         <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full ps-6"
           type="button"
         >
           <span
@@ -3542,7 +3542,7 @@ Object {
           </span>
         </button>
         <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full ps-6"
           type="button"
         >
           <span
@@ -3564,7 +3564,7 @@ Object {
           class="flex flex-col gap-2 rounded-moon-s-lg"
         >
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
             type="button"
           >
             <span
@@ -3587,7 +3587,7 @@ Object {
             </span>
           </button>
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full ps-6"
             type="button"
           >
             <span
@@ -3606,7 +3606,7 @@ Object {
             </span>
           </button>
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full ps-6"
             type="button"
           >
             <span
@@ -3625,7 +3625,7 @@ Object {
             </span>
           </button>
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full ps-6"
             type="button"
           >
             <span
@@ -3648,7 +3648,7 @@ Object {
           class="flex flex-col gap-2 rounded-moon-s-lg "
         >
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
             type="button"
           >
             <span
@@ -3671,7 +3671,7 @@ Object {
             </span>
           </button>
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full ps-6"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full ps-6"
             type="button"
           >
             <span
@@ -3756,7 +3756,7 @@ Object {
         class="w-94 bg-gohan flex flex-col gap-3 rounded-moon-s-lg p-6"
       >
         <button
-          class="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04]"
+          class="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full bg-heles"
           type="button"
         >
           <span
@@ -3799,7 +3799,7 @@ Object {
           </span>
         </button>
         <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
           type="button"
         >
           <span
@@ -3845,7 +3845,7 @@ Object {
           class="border-top border-beerus"
         />
         <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
           type="button"
         >
           <span
@@ -3888,7 +3888,7 @@ Object {
           </span>
         </button>
         <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
           type="button"
         >
           <span
@@ -3938,7 +3938,7 @@ Object {
       class="w-94 bg-gohan flex flex-col gap-3 rounded-moon-s-lg p-6"
     >
       <button
-        class="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04]"
+        class="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full bg-heles"
         type="button"
       >
         <span
@@ -3981,7 +3981,7 @@ Object {
         </span>
       </button>
       <button
-        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
         type="button"
       >
         <span
@@ -4027,7 +4027,7 @@ Object {
         class="border-top border-beerus"
       />
       <button
-        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
         type="button"
       >
         <span
@@ -4070,7 +4070,7 @@ Object {
         </span>
       </button>
       <button
-        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
         type="button"
       >
         <span
@@ -4174,7 +4174,7 @@ Object {
   "baseElement": <body>
     <div>
       <button
-        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
         type="button"
       >
         <span>
@@ -4220,7 +4220,7 @@ Object {
         </span>
       </button>
       <button
-        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
         type="button"
       >
         <span
@@ -4296,7 +4296,7 @@ Object {
   </body>,
   "container": <div>
     <button
-      class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+      class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
       type="button"
     >
       <span>
@@ -4342,7 +4342,7 @@ Object {
       </span>
     </button>
     <button
-      class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+      class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
       type="button"
     >
       <span
@@ -4475,7 +4475,7 @@ Object {
   "baseElement": <body>
     <div>
       <button
-        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
         type="button"
       >
         <span
@@ -4495,7 +4495,7 @@ Object {
         </span>
       </button>
       <button
-        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
         type="button"
       >
         <span
@@ -4518,7 +4518,7 @@ Object {
   </body>,
   "container": <div>
     <button
-      class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+      class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
       type="button"
     >
       <span
@@ -4538,7 +4538,7 @@ Object {
       </span>
     </button>
     <button
-      class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+      class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
       type="button"
     >
       <span
@@ -4618,7 +4618,7 @@ Object {
   "baseElement": <body>
     <div>
       <button
-        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
         type="button"
       >
         <svg
@@ -4642,7 +4642,7 @@ Object {
         </span>
       </button>
       <button
-        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
         type="button"
       >
         <span
@@ -4669,7 +4669,7 @@ Object {
   </body>,
   "container": <div>
     <button
-      class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+      class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
       type="button"
     >
       <svg
@@ -4693,7 +4693,7 @@ Object {
       </span>
     </button>
     <button
-      class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+      class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
       type="button"
     >
       <span
@@ -4777,7 +4777,7 @@ Object {
   "baseElement": <body>
     <div>
       <button
-        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
         type="button"
       >
         <span
@@ -4792,7 +4792,7 @@ Object {
         </span>
       </button>
       <button
-        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
         type="button"
       >
         <svg
@@ -4824,7 +4824,7 @@ Object {
   </body>,
   "container": <div>
     <button
-      class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+      class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
       type="button"
     >
       <span
@@ -4839,7 +4839,7 @@ Object {
       </span>
     </button>
     <button
-      class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-56"
+      class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-56"
       type="button"
     >
       <svg

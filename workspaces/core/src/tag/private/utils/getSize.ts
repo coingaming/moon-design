@@ -1,6 +1,6 @@
 import type TagProps from '../types/TagProps';
 
-const setSpacing = ({ size, iconRight, iconLeft }: TagProps) => {
+const getSize = ({ size, iconRight, iconLeft }: TagProps) => {
   if (size === '2xs') {
     if (iconLeft && !iconRight) {
       return 'py-0 ps-0.5 pe-2 h-4';
@@ -25,4 +25,4 @@ const setSpacing = ({ size, iconRight, iconLeft }: TagProps) => {
   return 'py-1 px-2 h-6';
 };
 
-export default setSpacing;
+export default getSize;

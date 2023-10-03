@@ -43,7 +43,7 @@ Object {
             role="dialog"
           >
             <div
-              class="fixed bg-gohan text-bulma shadow-moon-xl inset-y-0 ltr:right-0 rtl:left-0 w-5/6 max-w-md ease-out duration-300 transition-transform ltr:translate-x-full rtl:-translate-x-full"
+              class="fixed bg-goku text-bulma shadow-moon-xl inset-y-0 ltr:right-0 rtl:left-0 w-5/6 max-w-md ease-out duration-300 transition-transform ltr:translate-x-full rtl:-translate-x-full"
               data-headlessui-state="open"
               id="headlessui-dialog-panel-:rd:"
             >
@@ -217,7 +217,7 @@ Object {
             role="dialog"
           >
             <div
-              class="fixed bg-gohan text-bulma shadow-moon-xl inset-y-0 ltr:right-0 rtl:left-0 w-5/6 max-w-md ease-out duration-300 transition-transform ltr:translate-x-full rtl:-translate-x-full"
+              class="fixed bg-goku text-bulma shadow-moon-xl inset-y-0 ltr:right-0 rtl:left-0 w-5/6 max-w-md ease-out duration-300 transition-transform ltr:translate-x-full rtl:-translate-x-full"
               data-headlessui-state="open"
               id="headlessui-dialog-panel-:rf:"
             >
@@ -402,7 +402,7 @@ Object {
             role="dialog"
           >
             <div
-              class="fixed bg-gohan text-bulma shadow-moon-xl inset-y-0 ltr:right-0 rtl:left-0 w-5/6 max-w-md ease-out duration-300 transition-transform ltr:translate-x-full rtl:-translate-x-full"
+              class="fixed bg-goku text-bulma shadow-moon-xl inset-y-0 ltr:right-0 rtl:left-0 w-5/6 max-w-md ease-out duration-300 transition-transform ltr:translate-x-full rtl:-translate-x-full"
               data-headlessui-state="open"
               id="headlessui-dialog-panel-:r9:"
             >
@@ -555,7 +555,7 @@ Object {
             role="dialog"
           >
             <div
-              class="fixed bg-gohan text-bulma shadow-moon-xl inset-y-0 ltr:left-0 rtl:right-0 w-5/6 max-w-md ease-out duration-300 transition-transform ltr:-translate-x-full rtl:translate-x-full"
+              class="fixed bg-goku text-bulma shadow-moon-xl inset-y-0 ltr:left-0 rtl:right-0 w-5/6 max-w-md ease-out duration-300 transition-transform ltr:-translate-x-full rtl:translate-x-full"
               data-headlessui-state="open"
               id="headlessui-dialog-panel-:rb:"
             >
@@ -750,7 +750,7 @@ Object {
             role="dialog"
           >
             <div
-              class="fixed bg-gohan text-bulma shadow-moon-xl inset-y-0 ltr:right-0 rtl:left-0 w-5/6 max-w-md ease-out duration-300 transition-transform ltr:translate-x-full rtl:-translate-x-full"
+              class="fixed bg-goku text-bulma shadow-moon-xl inset-y-0 ltr:right-0 rtl:left-0 w-5/6 max-w-md ease-out duration-300 transition-transform ltr:translate-x-full rtl:-translate-x-full"
               data-headlessui-state="open"
               id="headlessui-dialog-panel-:r5:"
             >
@@ -904,7 +904,7 @@ Object {
             role="dialog"
           >
             <div
-              class="fixed bg-gohan text-bulma shadow-moon-xl inset-y-0 ltr:right-0 rtl:left-0 w-5/6 max-w-md ease-out duration-300 transition-transform ltr:translate-x-full rtl:-translate-x-full"
+              class="fixed bg-goku text-bulma shadow-moon-xl inset-y-0 ltr:right-0 rtl:left-0 w-5/6 max-w-md ease-out duration-300 transition-transform ltr:translate-x-full rtl:-translate-x-full"
               data-headlessui-state="open"
               id="headlessui-dialog-panel-:r7:"
             >
@@ -1086,7 +1086,7 @@ Object {
             role="dialog"
           >
             <div
-              class="fixed bg-gohan text-bulma shadow-moon-xl inset-y-0 ltr:right-0 rtl:left-0 w-5/6 max-w-md ease-out duration-300 transition-transform ltr:translate-x-full rtl:-translate-x-full"
+              class="fixed bg-goku text-bulma shadow-moon-xl inset-y-0 ltr:right-0 rtl:left-0 w-5/6 max-w-md ease-out duration-300 transition-transform ltr:translate-x-full rtl:-translate-x-full"
               data-headlessui-state="open"
               id="headlessui-dialog-panel-:r1:"
             >
@@ -1202,7 +1202,7 @@ Object {
             role="dialog"
           >
             <div
-              class="fixed bg-gohan text-bulma shadow-moon-xl inset-y-0 ltr:left-0 rtl:right-0 w-5/6 max-w-md ease-out duration-300 transition-transform ltr:-translate-x-full rtl:translate-x-full"
+              class="fixed bg-goku text-bulma shadow-moon-xl inset-y-0 ltr:left-0 rtl:right-0 w-5/6 max-w-md ease-out duration-300 transition-transform ltr:-translate-x-full rtl:translate-x-full"
               data-headlessui-state="open"
               id="headlessui-dialog-panel-:r3:"
             >

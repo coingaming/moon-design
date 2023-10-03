@@ -1,6 +1,6 @@
-import React from "react";
-import InputValue from "./InputValue";
-import type { Size } from "./size";
+import React from 'react';
+import InputValue from './InputValue';
+import type Size from './Size';
 
 type ComboboxState = {
   value?: InputValue;
@@ -17,9 +17,11 @@ type ComboboxState = {
     styles?: { [key: string]: React.CSSProperties };
     attributes?: { [key: string]: { [key: string]: string } | undefined };
     setAnchor: React.Dispatch<React.SetStateAction<Element | null | undefined>>;
-    setPopper: React.Dispatch<React.SetStateAction<HTMLElement | null | undefined>>;
+    setPopper: React.Dispatch<
+      React.SetStateAction<HTMLElement | null | undefined>
+    >;
   };
-  size?: Size
+  size?: Size;
 };
 
-export default ComboboxState
+export default ComboboxState;

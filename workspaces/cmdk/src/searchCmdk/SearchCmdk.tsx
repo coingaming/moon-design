@@ -13,7 +13,7 @@ const SearchCmdkRoot = ({
 }: React.ComponentProps<typeof Command.Dialog>) => (
   <Command.Dialog
     className={mergeClassnames(
-      'z-[60] fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full bg-gohan',
+      'z-[60] fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full bg-goku',
       'sm:max-w-lg md:max-w-xl shadow-moon-md rounded-moon-s-md flex flex-col overflow-hidden',
       className
     )}
@@ -94,7 +94,7 @@ const Overlay = ({
 }: React.HTMLAttributes<HTMLDivElement>) => (
   <div
     className={mergeClassnames(
-      'fixed w-screen inset-0 bg-goku/75 transition-opacity z-[55]',
+      'fixed w-screen inset-0 bg-zeno transition-opacity z-[55]',
       className
     )}
     {...props}
@@ -117,7 +117,7 @@ const Group = ({
 }: React.ComponentProps<typeof Command.Group>) => (
   <Command.Group
     className={mergeClassnames(
-      'w-full max-h-[50vh] overflow-y-auto p-2 space-y-1 bg-gohan shadow-none',
+      'w-full max-h-[50vh] overflow-y-auto p-2 space-y-1 bg-goku shadow-none',
       className
     )}
     {...props}
@@ -138,7 +138,7 @@ const Result = ({
       scrollPaddingBlockEnd: '0.5rem',
     }}
     className={mergeClassnames(
-      'w-full max-h-[50vh] overflow-y-auto p-2 space-y-1 bg-gohan shadow-moon-md',
+      'w-full max-h-[50vh] overflow-y-auto p-2 space-y-1 bg-goku shadow-moon-md',
       className
     )}
     {...props}
@@ -153,7 +153,7 @@ const NoResults = ({
 }: React.ComponentProps<typeof Command.Empty>) => (
   <Command.Empty
     className={mergeClassnames(
-      'p-3 text-moon-14 text-trunks flex items-center space-x-2 font-bold',
+      'p-3 text-moon-14 text-trunks flex items-center space-x-2 font-medium',
       className
     )}
   >
@@ -169,8 +169,9 @@ const ResultItem = ({
 }: React.ComponentProps<typeof Command.Item>) => (
   <Command.Item
     className={mergeClassnames(
-      'p-2 cursor-pointer focus:outline-none hover:bg-goku select-none text-bulma',
-      'data-[selected=true]:bg-goku',
+      'flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm',
+      'text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer',
+      'hover:bg-heles transition data-[selected=true]:bg-heles',
       className
     )}
     onSelect={onSelect}
@@ -188,9 +189,8 @@ const Trigger = ({
   <button
     aria-label="Search"
     className={mergeClassnames(
-      'flex gap-2 h-10 cursor-text items-center text-trunks',
-      'rounded-moon-i-sm border border-beerus bg-gohan px-2 text-moon-14',
-      'hover:border-trunks w-full'
+      'flex gap-2 h-10 cursor-text items-center text-trunks hover:border-trunks w-full',
+      'rounded-moon-i-sm border border-beerus bg-goku px-2 text-moon-14'
     )}
     {...props}
   >

@@ -1,5 +1,18 @@
 # docs
 
+## 10.9.0
+
+### Minor Changes
+
+- Flip coku/gohan colours
+
+### Patch Changes
+
+- Updated dependencies
+  - @heathmont/moon-cmdk-tw@10.9.0
+  - @heathmont/moon-core-tw@10.9.0
+  - @heathmont/moon-base-tw@10.9.0
+
 ## 10.8.0
 
 ### Minor Changes

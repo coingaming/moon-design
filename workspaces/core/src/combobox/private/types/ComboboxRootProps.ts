@@ -1,6 +1,6 @@
-import InputValue from "./InputValue";
-import Placement from "./Placement";
-import type { Size } from "./size";
+import InputValue from './InputValue';
+import Placement from './Placement';
+import Size from './Size';
 
 export interface ComboboxRootProps
   extends Omit<

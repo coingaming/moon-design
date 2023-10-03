@@ -53,7 +53,7 @@ const PropsTable = ({ data, title }: TableProps) => (
         </thead>
         <tbody>
           {data.map((prop: Data) => (
-            <tr key={prop.name} className="bg-goku">
+            <tr key={prop.name} className="bg-gohan">
               <td className="px-3 py-2 whitespace-nowrap text-moon-14 rounded-s-lg">
                 {prop.name}
               </td>

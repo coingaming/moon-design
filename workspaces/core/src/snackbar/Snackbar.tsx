@@ -43,7 +43,7 @@ const SnackbarRoot = ({
     >
       <div
         className={mergeClassnames(
-          'flex w-fit max-w-xs items-center gap-4 p-4 bg-gohan shadow-moon-lg rounded-moon-s-sm',
+          'flex w-fit max-w-xs items-center gap-4 p-4 bg-goku shadow-moon-lg rounded-moon-s-sm',
           className
         )}
       >

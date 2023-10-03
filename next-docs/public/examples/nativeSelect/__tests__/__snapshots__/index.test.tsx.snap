@@ -24,7 +24,7 @@ Object {
               class="block relative w-full [&_select]:bg-beerus [&_select]:text-piccolo [&_svg]:text-piccolo"
             >
               <select
-                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
                 id="c-1"
                 placeholder="Placeholder"
               >
@@ -96,7 +96,7 @@ Object {
             class="block relative w-full [&_select]:bg-beerus [&_select]:text-piccolo [&_svg]:text-piccolo"
           >
             <select
-              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
               id="c-1"
               placeholder="Placeholder"
             >
@@ -213,7 +213,7 @@ Object {
           class="block relative w-full"
         >
           <select
-            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
           >
             <option
               value="Italy"
@@ -263,7 +263,7 @@ Object {
         class="block relative w-full"
       >
         <select
-          class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+          class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
         >
           <option
             value="Italy"
@@ -382,7 +382,7 @@ Object {
               class="block relative w-full"
             >
               <select
-                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-8 leading-8 rounded-moon-i-xs rtl:[&:not([disabled])]:hover:rounded-moon-i-xs rtl:[&:not([disabled])]:focus:rounded-moon-i-xs rtl:invalid:rounded-moon-i-xs ltr:[&:not([disabled])]:hover:rounded-moon-i-xs ltr:[&:not([disabled])]:focus:rounded-moon-i-xs ltr:invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-8 leading-8 rounded-moon-i-xs rtl:[&:not([disabled])]:hover:rounded-moon-i-xs rtl:[&:not([disabled])]:focus:rounded-moon-i-xs rtl:invalid:rounded-moon-i-xs ltr:[&:not([disabled])]:hover:rounded-moon-i-xs ltr:[&:not([disabled])]:focus:rounded-moon-i-xs ltr:invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
                 id="test-1"
               >
                 <option
@@ -436,7 +436,7 @@ Object {
               class="block relative w-full"
             >
               <select
-                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
                 id="test-2"
               >
                 <option
@@ -490,7 +490,7 @@ Object {
               class="block relative w-full"
             >
               <select
-                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
                 id="test-3"
               >
                 <option
@@ -555,7 +555,7 @@ Object {
             class="block relative w-full"
           >
             <select
-              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-8 leading-8 rounded-moon-i-xs rtl:[&:not([disabled])]:hover:rounded-moon-i-xs rtl:[&:not([disabled])]:focus:rounded-moon-i-xs rtl:invalid:rounded-moon-i-xs ltr:[&:not([disabled])]:hover:rounded-moon-i-xs ltr:[&:not([disabled])]:focus:rounded-moon-i-xs ltr:invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-8 leading-8 rounded-moon-i-xs rtl:[&:not([disabled])]:hover:rounded-moon-i-xs rtl:[&:not([disabled])]:focus:rounded-moon-i-xs rtl:invalid:rounded-moon-i-xs ltr:[&:not([disabled])]:hover:rounded-moon-i-xs ltr:[&:not([disabled])]:focus:rounded-moon-i-xs ltr:invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
               id="test-1"
             >
               <option
@@ -609,7 +609,7 @@ Object {
             class="block relative w-full"
           >
             <select
-              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
               id="test-2"
             >
               <option
@@ -663,7 +663,7 @@ Object {
             class="block relative w-full"
           >
             <select
-              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
               id="test-3"
             >
               <option
@@ -785,7 +785,7 @@ Object {
               class="block relative w-full opacity-60 cursor-not-allowed"
             >
               <select
-                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-gohan shadow-input focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 cursor-not-allowed hover:shadow-input"
+                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 cursor-not-allowed hover:shadow-input"
                 disabled=""
                 id="dis-1"
               >
@@ -846,7 +846,7 @@ Object {
               class="block relative w-full"
             >
               <select
-                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
                 id="err-1"
               >
                 <option
@@ -906,7 +906,7 @@ Object {
               class="block relative w-full cursor-not-allowed"
             >
               <select
-                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-gohan shadow-input focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 cursor-not-allowed hover:shadow-input"
+                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 cursor-not-allowed hover:shadow-input"
                 disabled=""
                 id="ro-1"
               >
@@ -978,7 +978,7 @@ Object {
             class="block relative w-full opacity-60 cursor-not-allowed"
           >
             <select
-              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-gohan shadow-input focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 cursor-not-allowed hover:shadow-input"
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 cursor-not-allowed hover:shadow-input"
               disabled=""
               id="dis-1"
             >
@@ -1039,7 +1039,7 @@ Object {
             class="block relative w-full"
           >
             <select
-              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
               id="err-1"
             >
               <option
@@ -1099,7 +1099,7 @@ Object {
             class="block relative w-full cursor-not-allowed"
           >
             <select
-              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-gohan shadow-input focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 cursor-not-allowed hover:shadow-input"
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 cursor-not-allowed hover:shadow-input"
               disabled=""
               id="ro-1"
             >
@@ -1225,7 +1225,7 @@ Object {
             class="block relative w-full [&_select]:bg-beerus [&_select]:text-piccolo [&_svg]:text-piccolo"
           >
             <select
-              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
               id="c-1"
               placeholder="Placeholder"
             >
@@ -1293,7 +1293,7 @@ Object {
           class="block relative w-full [&_select]:bg-beerus [&_select]:text-piccolo [&_svg]:text-piccolo"
         >
           <select
-            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
             id="c-1"
             placeholder="Placeholder"
           >
@@ -1406,7 +1406,7 @@ Object {
         class="block relative w-full"
       >
         <select
-          class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+          class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
         >
           <option
             value="Italy"
@@ -1452,7 +1452,7 @@ Object {
       class="block relative w-full"
     >
       <select
-        class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+        class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
       >
         <option
           value="Italy"
@@ -1567,7 +1567,7 @@ Object {
             class="block relative w-full"
           >
             <select
-              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-8 leading-8 rounded-moon-i-xs rtl:[&:not([disabled])]:hover:rounded-moon-i-xs rtl:[&:not([disabled])]:focus:rounded-moon-i-xs rtl:invalid:rounded-moon-i-xs ltr:[&:not([disabled])]:hover:rounded-moon-i-xs ltr:[&:not([disabled])]:focus:rounded-moon-i-xs ltr:invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-8 leading-8 rounded-moon-i-xs rtl:[&:not([disabled])]:hover:rounded-moon-i-xs rtl:[&:not([disabled])]:focus:rounded-moon-i-xs rtl:invalid:rounded-moon-i-xs ltr:[&:not([disabled])]:hover:rounded-moon-i-xs ltr:[&:not([disabled])]:focus:rounded-moon-i-xs ltr:invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
               id="test-1"
             >
               <option
@@ -1621,7 +1621,7 @@ Object {
             class="block relative w-full"
           >
             <select
-              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
               id="test-2"
             >
               <option
@@ -1675,7 +1675,7 @@ Object {
             class="block relative w-full"
           >
             <select
-              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
               id="test-3"
             >
               <option
@@ -1736,7 +1736,7 @@ Object {
           class="block relative w-full"
         >
           <select
-            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-8 leading-8 rounded-moon-i-xs rtl:[&:not([disabled])]:hover:rounded-moon-i-xs rtl:[&:not([disabled])]:focus:rounded-moon-i-xs rtl:invalid:rounded-moon-i-xs ltr:[&:not([disabled])]:hover:rounded-moon-i-xs ltr:[&:not([disabled])]:focus:rounded-moon-i-xs ltr:invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-8 leading-8 rounded-moon-i-xs rtl:[&:not([disabled])]:hover:rounded-moon-i-xs rtl:[&:not([disabled])]:focus:rounded-moon-i-xs rtl:invalid:rounded-moon-i-xs ltr:[&:not([disabled])]:hover:rounded-moon-i-xs ltr:[&:not([disabled])]:focus:rounded-moon-i-xs ltr:invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
             id="test-1"
           >
             <option
@@ -1790,7 +1790,7 @@ Object {
           class="block relative w-full"
         >
           <select
-            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
             id="test-2"
           >
             <option
@@ -1844,7 +1844,7 @@ Object {
           class="block relative w-full"
         >
           <select
-            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
             id="test-3"
           >
             <option
@@ -1962,7 +1962,7 @@ Object {
             class="block relative w-full opacity-60 cursor-not-allowed"
           >
             <select
-              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-gohan shadow-input focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 cursor-not-allowed hover:shadow-input"
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 cursor-not-allowed hover:shadow-input"
               disabled=""
               id="dis-1"
             >
@@ -2023,7 +2023,7 @@ Object {
             class="block relative w-full"
           >
             <select
-              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
               id="err-1"
             >
               <option
@@ -2083,7 +2083,7 @@ Object {
             class="block relative w-full cursor-not-allowed"
           >
             <select
-              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-gohan shadow-input focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 cursor-not-allowed hover:shadow-input"
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 cursor-not-allowed hover:shadow-input"
               disabled=""
               id="ro-1"
             >
@@ -2151,7 +2151,7 @@ Object {
           class="block relative w-full opacity-60 cursor-not-allowed"
         >
           <select
-            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-gohan shadow-input focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 cursor-not-allowed hover:shadow-input"
+            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 cursor-not-allowed hover:shadow-input"
             disabled=""
             id="dis-1"
           >
@@ -2212,7 +2212,7 @@ Object {
           class="block relative w-full"
         >
           <select
-            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
             id="err-1"
           >
             <option
@@ -2272,7 +2272,7 @@ Object {
           class="block relative w-full cursor-not-allowed"
         >
           <select
-            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-gohan shadow-input focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 cursor-not-allowed hover:shadow-input"
+            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 cursor-not-allowed hover:shadow-input"
             disabled=""
             id="ro-1"
           >

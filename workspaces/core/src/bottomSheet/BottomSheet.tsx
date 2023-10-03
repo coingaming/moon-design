@@ -94,7 +94,7 @@ const Panel = ({
     >
       <Dialog.Panel
         className={mergeClassnames(
-          'absolute flex flex-col inset-x-0 bottom-0 rounded-t-moon-i-md bg-gohan p-2 h-1/3',
+          'absolute flex flex-col inset-x-0 bottom-0 rounded-t-moon-i-md bg-goku p-2 h-1/3',
           height, // deprecated
           hasShadow && 'shadow-moon-lg', // deprecated
           isTransition && 'duration-200 transition-all', // deprecated

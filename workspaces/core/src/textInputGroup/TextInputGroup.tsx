@@ -1,14 +1,14 @@
 import React from 'react';
+import type TextInputGroupProps from './private/types/TextInputGroupProps';
 import Container from './styles/Container';
 import TextGroupEnd from './styles/TextGroupEnd';
 import TextGroupStart from './styles/TextGroupStart';
-import type TextInputGroupProps from './private/types/TextInputGroupProps';
 
 const TextInputGroup = ({
   orientation = 'horizontal',
   inputProps,
   isRtl,
-  backgroundColor = 'bg-gohan',
+  backgroundColor = 'bg-goku',
 }: TextInputGroupProps) => {
   const dir = isRtl ? 'rtl' : 'ltr';
   const isXLarge =

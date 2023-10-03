@@ -9,7 +9,7 @@ Object {
         dir="rtl"
       >
         <div
-          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
+          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
           role="alert"
         >
           <p
@@ -163,7 +163,7 @@ Object {
       dir="rtl"
     >
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
         role="alert"
       >
         <p
@@ -374,7 +374,7 @@ Object {
         dir="rtl"
       >
         <div
-          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma"
           role="alert"
         >
           Default alert
@@ -387,7 +387,7 @@ Object {
       dir="rtl"
     >
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma"
         role="alert"
       >
         Default alert
@@ -457,7 +457,7 @@ Object {
         dir="rtl"
       >
         <div
-          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
+          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
           role="alert"
         >
           Click the Close button to hide the Alert
@@ -495,7 +495,7 @@ Object {
       dir="rtl"
     >
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
         role="alert"
       >
         Click the Close button to hide the Alert
@@ -590,7 +590,7 @@ Object {
         dir="rtl"
       >
         <div
-          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
+          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
           role="alert"
         >
           Alert with close
@@ -621,7 +621,7 @@ Object {
           </button>
         </div>
         <div
-          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
+          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
           role="alert"
         >
           <p
@@ -668,7 +668,7 @@ Object {
       dir="rtl"
     >
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
         role="alert"
       >
         Alert with close
@@ -699,7 +699,7 @@ Object {
         </button>
       </div>
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
         role="alert"
       >
         <p
@@ -803,7 +803,7 @@ Object {
         dir="rtl"
       >
         <div
-          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma"
           role="alert"
         >
           <p
@@ -827,7 +827,7 @@ Object {
           </p>
         </div>
         <div
-          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma"
           role="alert"
         >
           <p
@@ -863,7 +863,7 @@ Object {
       dir="rtl"
     >
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma"
         role="alert"
       >
         <p
@@ -887,7 +887,7 @@ Object {
         </p>
       </div>
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma"
         role="alert"
       >
         <p
@@ -980,7 +980,7 @@ Object {
         dir="rtl"
       >
         <div
-          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
+          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
           role="alert"
         >
           <p
@@ -1029,7 +1029,7 @@ Object {
           </button>
         </div>
         <div
-          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
+          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
           role="alert"
         >
           <p
@@ -1090,7 +1090,7 @@ Object {
       dir="rtl"
     >
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
         role="alert"
       >
         <p
@@ -1139,7 +1139,7 @@ Object {
         </button>
       </div>
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
         role="alert"
       >
         <p
@@ -1257,7 +1257,7 @@ Object {
         dir="rtl"
       >
         <div
-          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma"
           role="alert"
         >
           <p
@@ -1279,7 +1279,7 @@ Object {
       dir="rtl"
     >
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma"
         role="alert"
       >
         <p
@@ -1355,7 +1355,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
         role="alert"
       >
         <p
@@ -1505,7 +1505,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
+      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
       role="alert"
     >
       <p
@@ -1712,7 +1712,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma"
         role="alert"
       >
         Default alert
@@ -1721,7 +1721,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma"
       role="alert"
     >
       Default alert
@@ -1787,7 +1787,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
         role="alert"
       >
         Click the Close button to hide the Alert
@@ -1821,7 +1821,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
+      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
       role="alert"
     >
       Click the Close button to hide the Alert
@@ -1912,7 +1912,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
         role="alert"
       >
         Alert with close
@@ -1943,7 +1943,7 @@ Object {
         </button>
       </div>
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
         role="alert"
       >
         <p
@@ -1986,7 +1986,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
+      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
       role="alert"
     >
       Alert with close
@@ -2017,7 +2017,7 @@ Object {
       </button>
     </div>
     <div
-      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
+      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
       role="alert"
     >
       <p
@@ -2117,7 +2117,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma"
         role="alert"
       >
         <p
@@ -2141,7 +2141,7 @@ Object {
         </p>
       </div>
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma"
         role="alert"
       >
         <p
@@ -2173,7 +2173,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma"
       role="alert"
     >
       <p
@@ -2197,7 +2197,7 @@ Object {
       </p>
     </div>
     <div
-      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma"
       role="alert"
     >
       <p
@@ -2286,7 +2286,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
         role="alert"
       >
         <p
@@ -2335,7 +2335,7 @@ Object {
         </button>
       </div>
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
         role="alert"
       >
         <p
@@ -2392,7 +2392,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
+      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
       role="alert"
     >
       <p
@@ -2441,7 +2441,7 @@ Object {
       </button>
     </div>
     <div
-      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma pe-14"
+      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
       role="alert"
     >
       <p
@@ -2555,7 +2555,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma"
         role="alert"
       >
         <p
@@ -2573,7 +2573,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma"
       role="alert"
     >
       <p

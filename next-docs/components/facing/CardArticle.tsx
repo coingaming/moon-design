@@ -29,7 +29,7 @@ const CardArcticle: React.FC<Props> = ({
         target="_blank"
         rel="noreferrer"
         className={mergeClassnames(
-          `group relative w-72 h-96 flex flex-col justify-end p-6 bg-goku rounded-moon-s-lg text-moon-16 font-medium`,
+          `group relative w-72 h-96 flex flex-col justify-end p-6 bg-gohan rounded-moon-s-lg text-moon-16 font-medium`,
           variant && variant in variants ? variants[variant] : variants.default
         )}
       >

@@ -1,6 +1,6 @@
 import type SizeProps from '../types/SizeProps';
 
-const setStatusDeprecatedSize = (size?: SizeProps) => {
+const getStatusDeprecatedSize = (size?: SizeProps) => {
   if (size === 'xs') {
     return 'w-2 h-2 border';
   }
@@ -10,4 +10,4 @@ const setStatusDeprecatedSize = (size?: SizeProps) => {
   return 'w-4 h-4 border-2';
 };
 
-export default setStatusDeprecatedSize;
+export default getStatusDeprecatedSize;

@@ -225,7 +225,7 @@ Object {
             role="dialog"
           >
             <div
-              class="absolute flex flex-col inset-x-0 bottom-0 rounded-t-moon-i-md bg-gohan p-2 h-1/3 transition-all ease-out duration-300 transition-transform translate-y-full"
+              class="absolute flex flex-col inset-x-0 bottom-0 rounded-t-moon-i-md bg-goku p-2 h-1/3 transition-all ease-out duration-300 transition-transform translate-y-full"
               data-headlessui-state="open"
               id="headlessui-dialog-panel-:rd:"
             >
@@ -389,7 +389,7 @@ Object {
             role="dialog"
           >
             <div
-              class="absolute inset-x-0 bottom-0 rounded-t-moon-i-md bg-gohan p-2 h-1/3 transition-all flex flex-col gap-2 items-center ease-out duration-300 transition-transform translate-y-full"
+              class="absolute inset-x-0 bottom-0 rounded-t-moon-i-md bg-goku p-2 h-1/3 transition-all flex flex-col gap-2 items-center ease-out duration-300 transition-transform translate-y-full"
               data-headlessui-state="open"
               id="headlessui-dialog-panel-:rf:"
             >
@@ -618,7 +618,7 @@ Object {
             role="dialog"
           >
             <div
-              class="absolute flex flex-col inset-x-0 bottom-0 rounded-t-moon-i-md bg-gohan p-2 h-1/3 transition-all ease-out duration-300 transition-transform translate-y-full"
+              class="absolute flex flex-col inset-x-0 bottom-0 rounded-t-moon-i-md bg-goku p-2 h-1/3 transition-all ease-out duration-300 transition-transform translate-y-full"
               data-headlessui-state="open"
               id="headlessui-dialog-panel-:rh:"
             >
@@ -792,7 +792,7 @@ Object {
             role="dialog"
           >
             <div
-              class="absolute flex flex-col inset-x-0 bottom-0 rounded-t-moon-i-md bg-gohan p-2 h-1/3 transition-all ease-out duration-300 transition-transform translate-y-full"
+              class="absolute flex flex-col inset-x-0 bottom-0 rounded-t-moon-i-md bg-goku p-2 h-1/3 transition-all ease-out duration-300 transition-transform translate-y-full"
               data-headlessui-state="open"
               id="headlessui-dialog-panel-:rj:"
             >
@@ -1152,7 +1152,7 @@ Object {
             role="dialog"
           >
             <div
-              class="absolute flex flex-col inset-x-0 bottom-0 rounded-t-moon-i-md bg-gohan p-2 h-1/3 transition-all ease-out duration-300 transition-transform translate-y-full"
+              class="absolute flex flex-col inset-x-0 bottom-0 rounded-t-moon-i-md bg-goku p-2 h-1/3 transition-all ease-out duration-300 transition-transform translate-y-full"
               data-headlessui-state="open"
               id="headlessui-dialog-panel-:r1:"
             >
@@ -1276,7 +1276,7 @@ Object {
             role="dialog"
           >
             <div
-              class="absolute inset-x-0 bottom-0 rounded-t-moon-i-md bg-gohan p-2 h-1/3 transition-all flex flex-col gap-2 items-center ease-out duration-300 transition-transform translate-y-full"
+              class="absolute inset-x-0 bottom-0 rounded-t-moon-i-md bg-goku p-2 h-1/3 transition-all flex flex-col gap-2 items-center ease-out duration-300 transition-transform translate-y-full"
               data-headlessui-state="open"
               id="headlessui-dialog-panel-:r3:"
             >
@@ -1482,7 +1482,7 @@ Object {
             role="dialog"
           >
             <div
-              class="absolute flex flex-col inset-x-0 bottom-0 rounded-t-moon-i-md bg-gohan p-2 h-1/3 transition-all ease-out duration-300 transition-transform translate-y-full"
+              class="absolute flex flex-col inset-x-0 bottom-0 rounded-t-moon-i-md bg-goku p-2 h-1/3 transition-all ease-out duration-300 transition-transform translate-y-full"
               data-headlessui-state="open"
               id="headlessui-dialog-panel-:r5:"
             >
@@ -1633,7 +1633,7 @@ Object {
             role="dialog"
           >
             <div
-              class="absolute flex flex-col inset-x-0 bottom-0 rounded-t-moon-i-md bg-gohan p-2 h-1/3 transition-all ease-out duration-300 transition-transform translate-y-full"
+              class="absolute flex flex-col inset-x-0 bottom-0 rounded-t-moon-i-md bg-goku p-2 h-1/3 transition-all ease-out duration-300 transition-transform translate-y-full"
               data-headlessui-state="open"
               id="headlessui-dialog-panel-:r7:"
             >

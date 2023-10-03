@@ -1,9 +1,9 @@
 import React, { forwardRef } from 'react';
-import mergeClassnames from '../../mergeClassnames/mergeClassnames';
 import Container from './Container';
 import HintText from './HintText';
 import Input from './Input';
 import getLabelSize from './utils/getLabelSize';
+import mergeClassnames from '../../mergeClassnames/mergeClassnames';
 import type TextInputProps from '../private/types/TextInputProps';
 
 const TextInputBasic = forwardRef<HTMLInputElement, TextInputProps>(
@@ -24,7 +24,7 @@ const TextInputBasic = forwardRef<HTMLInputElement, TextInputProps>(
       isSharpBottomSide,
       isTopBottomBorderHidden,
       isSideBorderHidden,
-      bgColor = 'bg-gohan',
+      bgColor = 'bg-goku',
       ...rest
     } = props;
     const inputProps = {

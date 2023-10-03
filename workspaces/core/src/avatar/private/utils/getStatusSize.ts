@@ -1,6 +1,6 @@
 import type SizeProps from '../types/SizeProps';
 
-const setStatusSize = (size?: SizeProps) => {
+const getStatusSize = (size?: SizeProps) => {
   if (size === 'xs') {
     return '[&_.status]:w-2 [&_.status]:h-2 [&_.status]:border';
   }
@@ -10,4 +10,4 @@ const setStatusSize = (size?: SizeProps) => {
   return '[&_.status]:w-4 [&_.status]:h-4 [&_.status]:border-2';
 };
 
-export default setStatusSize;
+export default getStatusSize;

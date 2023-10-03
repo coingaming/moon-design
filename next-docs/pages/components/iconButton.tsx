@@ -1,6 +1,7 @@
 import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import type { ComponentNames } from '../../components/getComponent';
 import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Animations from '../../public/examples/iconButton/Animations';
@@ -10,7 +11,6 @@ import Disabled from '../../public/examples/iconButton/Disabled';
 import Sizes from '../../public/examples/iconButton/Sizes';
 import Variants from '../../public/examples/iconButton/Variants';
 import useComponent from '../../utils/useComponent';
-import type { ComponentNames } from '../../components/getComponent';
 
 const COMPONENT_NAME: ComponentNames = 'IconButton';
 

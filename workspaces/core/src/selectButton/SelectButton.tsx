@@ -1,15 +1,15 @@
 import React, { Ref, forwardRef, useCallback } from 'react';
 import { Listbox } from '@headlessui/react';
-import mergeClassnames from '../mergeClassnames/mergeClassnames';
-import ControlsChevronDownSmall from '../private/icons/ControlsChevronDownSmall';
-import ControlsCloseSmall from '../private/icons/ControlsCloseSmall';
-import getSelectSize from './private/utils/getSelectSize';
-import SelectButtonContext from './private/utils/SelectButtonContext';
-import useSelectButtonContext from './private/utils/useSelectButtonContext';
 import type ChipProps from './private/types/ChipProps';
 import type InputProps from './private/types/InputProps';
 import type LabelProps from './private/types/LabelProps';
 import type SelectButtonProps from './private/types/SelectButtonProps';
+import getSelectSize from './private/utils/getSelectSize';
+import SelectButtonContext from './private/utils/SelectButtonContext';
+import useSelectButtonContext from './private/utils/useSelectButtonContext';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
+import ControlsChevronDownSmall from '../private/icons/ControlsChevronDownSmall';
+import ControlsCloseSmall from '../private/icons/ControlsCloseSmall';
 
 const SelectButtonRoot = forwardRef(
   (
@@ -50,7 +50,7 @@ const Input = ({ children, className }: InputProps) => {
       {...rest}
       className={mergeClassnames(
         'flex items-center justify-between gap-2',
-        'w-full bg-gohan border-beerus',
+        'w-full bg-goku border-beerus',
         'shadow-input hover:shadow-input-hov transition-shadow duration-200 ',
         'focus:shadow-input-focus focus:outline-none',
         getSelectSize(size),
@@ -76,7 +76,7 @@ const InsetInput = ({ children, className }: InputProps) => {
       {...rest}
       className={mergeClassnames(
         'flex items-center justify-between',
-        'w-full bg-gohan border-beerus',
+        'w-full bg-goku border-beerus',
         'shadow-input hover:shadow-input-hov transition-shadow duration-200 ',
         'focus:shadow-input-focus focus:outline-none',
         'h-14 py-2 px-4 rounded-moon-i-md',
@@ -170,7 +170,7 @@ const Chip = ({ children, onClear }: ChipProps) => {
     <span
       onClick={cliclHandler}
       className={mergeClassnames(
-        'chip bg-bulma text-gohan flex items-center justify-center rounded-moon-s-xs cursor-pointer',
+        'chip bg-bulma text-trunks flex items-center justify-center rounded-moon-s-xs cursor-pointer',
         size === 'sm' ? 'text-moon-12 h-4 px-0.5' : 'text-moon-14 h-6 px-1'
       )}
     >
@@ -179,7 +179,7 @@ const Chip = ({ children, onClear }: ChipProps) => {
       </span>
       <ControlsCloseSmall
         className={mergeClassnames(
-          'text-gohan',
+          'text-trunks',
           size === 'sm' ? 'text-moon-12' : 'text-moon-14'
         )}
       />

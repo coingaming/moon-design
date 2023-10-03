@@ -303,7 +303,7 @@ Object {
             data-state="closed"
           >
             <h3
-              class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none"
+              class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none"
               data-orientation="vertical"
               data-state="closed"
             >
@@ -431,7 +431,7 @@ Object {
           data-state="closed"
         >
           <h3
-            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none"
+            class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none"
             data-orientation="vertical"
             data-state="closed"
           >
@@ -616,7 +616,7 @@ Object {
             data-state="closed"
           >
             <h3
-              class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+              class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
               data-orientation="vertical"
               data-state="closed"
             >
@@ -679,7 +679,7 @@ Object {
           data-state="closed"
         >
           <h3
-            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+            class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
             data-orientation="vertical"
             data-state="closed"
           >
@@ -799,7 +799,7 @@ Object {
             data-state="closed"
           >
             <h3
-              class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+              class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
               data-orientation="vertical"
               data-state="closed"
             >
@@ -855,7 +855,7 @@ Object {
             data-state="closed"
           >
             <h3
-              class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+              class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
               data-orientation="vertical"
               data-state="closed"
             >
@@ -911,7 +911,7 @@ Object {
             data-state="closed"
           >
             <h3
-              class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+              class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
               data-orientation="vertical"
               data-state="closed"
             >
@@ -967,7 +967,7 @@ Object {
             data-state="closed"
           >
             <h3
-              class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+              class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
               data-orientation="vertical"
               data-state="closed"
             >
@@ -1030,7 +1030,7 @@ Object {
           data-state="closed"
         >
           <h3
-            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+            class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
             data-orientation="vertical"
             data-state="closed"
           >
@@ -1086,7 +1086,7 @@ Object {
           data-state="closed"
         >
           <h3
-            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+            class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
             data-orientation="vertical"
             data-state="closed"
           >
@@ -1142,7 +1142,7 @@ Object {
           data-state="closed"
         >
           <h3
-            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+            class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
             data-orientation="vertical"
             data-state="closed"
           >
@@ -1198,7 +1198,7 @@ Object {
           data-state="closed"
         >
           <h3
-            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+            class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
             data-orientation="vertical"
             data-state="closed"
           >
@@ -1331,7 +1331,7 @@ Object {
               data-state="open"
             >
               <h3
-                class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+                class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
                 data-orientation="vertical"
                 data-state="open"
               >
@@ -1367,7 +1367,7 @@ Object {
               </h3>
               <div
                 aria-labelledby="radix-:r2c:"
-                class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+                class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
                 data-orientation="vertical"
                 data-state="open"
                 id="radix-:r2d:"
@@ -1383,7 +1383,7 @@ Object {
               data-state="closed"
             >
               <h3
-                class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+                class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
                 data-orientation="vertical"
                 data-state="closed"
               >
@@ -1419,7 +1419,7 @@ Object {
               </h3>
               <div
                 aria-labelledby="radix-:r2e:"
-                class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+                class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
                 data-orientation="vertical"
                 data-state="closed"
                 hidden=""
@@ -1460,7 +1460,7 @@ Object {
             data-state="open"
           >
             <h3
-              class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+              class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
               data-orientation="vertical"
               data-state="open"
             >
@@ -1496,7 +1496,7 @@ Object {
             </h3>
             <div
               aria-labelledby="radix-:r2c:"
-              class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+              class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
               data-orientation="vertical"
               data-state="open"
               id="radix-:r2d:"
@@ -1512,7 +1512,7 @@ Object {
             data-state="closed"
           >
             <h3
-              class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+              class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
               data-orientation="vertical"
               data-state="closed"
             >
@@ -1548,7 +1548,7 @@ Object {
             </h3>
             <div
               aria-labelledby="radix-:r2e:"
-              class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+              class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
               data-orientation="vertical"
               data-state="closed"
               hidden=""
@@ -1633,7 +1633,7 @@ Object {
             data-state="closed"
           >
             <h3
-              class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+              class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
               data-orientation="vertical"
               data-state="closed"
             >
@@ -1669,7 +1669,7 @@ Object {
             </h3>
             <div
               aria-labelledby="radix-:r18:"
-              class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+              class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
               data-orientation="vertical"
               data-state="closed"
               hidden=""
@@ -1684,7 +1684,7 @@ Object {
             data-state="closed"
           >
             <h3
-              class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+              class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
               data-orientation="vertical"
               data-state="closed"
             >
@@ -1720,7 +1720,7 @@ Object {
             </h3>
             <div
               aria-labelledby="radix-:r1a:"
-              class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+              class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
               data-orientation="vertical"
               data-state="closed"
               hidden=""
@@ -1747,7 +1747,7 @@ Object {
           data-state="closed"
         >
           <h3
-            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+            class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
             data-orientation="vertical"
             data-state="closed"
           >
@@ -1783,7 +1783,7 @@ Object {
           </h3>
           <div
             aria-labelledby="radix-:r18:"
-            class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+            class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
             data-orientation="vertical"
             data-state="closed"
             hidden=""
@@ -1798,7 +1798,7 @@ Object {
           data-state="closed"
         >
           <h3
-            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+            class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
             data-orientation="vertical"
             data-state="closed"
           >
@@ -1834,7 +1834,7 @@ Object {
           </h3>
           <div
             aria-labelledby="radix-:r1a:"
-            class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+            class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
             data-orientation="vertical"
             data-state="closed"
             hidden=""
@@ -1919,7 +1919,7 @@ Object {
             data-state="closed"
           >
             <h3
-              class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+              class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
               data-disabled=""
               data-orientation="vertical"
               data-state="closed"
@@ -1958,7 +1958,7 @@ Object {
             </h3>
             <div
               aria-labelledby="radix-:r1i:"
-              class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+              class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
               data-disabled=""
               data-orientation="vertical"
               data-state="closed"
@@ -1987,7 +1987,7 @@ Object {
           data-state="closed"
         >
           <h3
-            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+            class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
             data-disabled=""
             data-orientation="vertical"
             data-state="closed"
@@ -2026,7 +2026,7 @@ Object {
           </h3>
           <div
             aria-labelledby="radix-:r1i:"
-            class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+            class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
             data-disabled=""
             data-orientation="vertical"
             data-state="closed"
@@ -2111,7 +2111,7 @@ Object {
             data-state="open"
           >
             <h3
-              class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+              class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
               data-orientation="vertical"
               data-state="open"
             >
@@ -2147,7 +2147,7 @@ Object {
             </h3>
             <div
               aria-labelledby="radix-:r1c:"
-              class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+              class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
               data-orientation="vertical"
               data-state="open"
               id="radix-:r1d:"
@@ -2175,7 +2175,7 @@ Object {
           data-state="open"
         >
           <h3
-            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+            class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
             data-orientation="vertical"
             data-state="open"
           >
@@ -2211,7 +2211,7 @@ Object {
           </h3>
           <div
             aria-labelledby="radix-:r1c:"
-            class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+            class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
             data-orientation="vertical"
             data-state="open"
             id="radix-:r1d:"
@@ -2296,7 +2296,7 @@ Object {
             data-state="closed"
           >
             <h3
-              class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+              class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
               data-orientation="vertical"
               data-state="closed"
             >
@@ -2332,7 +2332,7 @@ Object {
             </h3>
             <div
               aria-labelledby="radix-:r1e:"
-              class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+              class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
               data-orientation="vertical"
               data-state="closed"
               hidden=""
@@ -2347,7 +2347,7 @@ Object {
             data-state="closed"
           >
             <h3
-              class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+              class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
               data-orientation="vertical"
               data-state="closed"
             >
@@ -2383,7 +2383,7 @@ Object {
             </h3>
             <div
               aria-labelledby="radix-:r1g:"
-              class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+              class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
               data-orientation="vertical"
               data-state="closed"
               hidden=""
@@ -2410,7 +2410,7 @@ Object {
           data-state="closed"
         >
           <h3
-            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+            class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
             data-orientation="vertical"
             data-state="closed"
           >
@@ -2446,7 +2446,7 @@ Object {
           </h3>
           <div
             aria-labelledby="radix-:r1e:"
-            class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+            class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
             data-orientation="vertical"
             data-state="closed"
             hidden=""
@@ -2461,7 +2461,7 @@ Object {
           data-state="closed"
         >
           <h3
-            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+            class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
             data-orientation="vertical"
             data-state="closed"
           >
@@ -2497,7 +2497,7 @@ Object {
           </h3>
           <div
             aria-labelledby="radix-:r1g:"
-            class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+            class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
             data-orientation="vertical"
             data-state="closed"
             hidden=""
@@ -2581,7 +2581,7 @@ Object {
             data-state="closed"
           >
             <h3
-              class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+              class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
               data-orientation="vertical"
               data-state="closed"
             >
@@ -2617,7 +2617,7 @@ Object {
             </h3>
             <div
               aria-labelledby="radix-:r1o:"
-              class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+              class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
               data-orientation="vertical"
               data-state="closed"
               hidden=""
@@ -2637,7 +2637,7 @@ Object {
             data-state="closed"
           >
             <h3
-              class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+              class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
               data-orientation="vertical"
               data-state="closed"
             >
@@ -2673,7 +2673,7 @@ Object {
             </h3>
             <div
               aria-labelledby="radix-:r1q:"
-              class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+              class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
               data-orientation="vertical"
               data-state="closed"
               hidden=""
@@ -2693,7 +2693,7 @@ Object {
             data-state="closed"
           >
             <h3
-              class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+              class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
               data-orientation="vertical"
               data-state="closed"
             >
@@ -2729,7 +2729,7 @@ Object {
             </h3>
             <div
               aria-labelledby="radix-:r1s:"
-              class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+              class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
               data-orientation="vertical"
               data-state="closed"
               hidden=""
@@ -2749,7 +2749,7 @@ Object {
             data-state="closed"
           >
             <h3
-              class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+              class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
               data-orientation="vertical"
               data-state="closed"
             >
@@ -2785,7 +2785,7 @@ Object {
             </h3>
             <div
               aria-labelledby="radix-:r1u:"
-              class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+              class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
               data-orientation="vertical"
               data-state="closed"
               hidden=""
@@ -2812,7 +2812,7 @@ Object {
           data-state="closed"
         >
           <h3
-            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+            class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
             data-orientation="vertical"
             data-state="closed"
           >
@@ -2848,7 +2848,7 @@ Object {
           </h3>
           <div
             aria-labelledby="radix-:r1o:"
-            class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+            class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
             data-orientation="vertical"
             data-state="closed"
             hidden=""
@@ -2868,7 +2868,7 @@ Object {
           data-state="closed"
         >
           <h3
-            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+            class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
             data-orientation="vertical"
             data-state="closed"
           >
@@ -2904,7 +2904,7 @@ Object {
           </h3>
           <div
             aria-labelledby="radix-:r1q:"
-            class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+            class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
             data-orientation="vertical"
             data-state="closed"
             hidden=""
@@ -2924,7 +2924,7 @@ Object {
           data-state="closed"
         >
           <h3
-            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+            class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
             data-orientation="vertical"
             data-state="closed"
           >
@@ -2960,7 +2960,7 @@ Object {
           </h3>
           <div
             aria-labelledby="radix-:r1s:"
-            class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+            class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
             data-orientation="vertical"
             data-state="closed"
             hidden=""
@@ -2980,7 +2980,7 @@ Object {
           data-state="closed"
         >
           <h3
-            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+            class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
             data-orientation="vertical"
             data-state="closed"
           >
@@ -3016,7 +3016,7 @@ Object {
           </h3>
           <div
             aria-labelledby="radix-:r1u:"
-            class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+            class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
             data-orientation="vertical"
             data-state="closed"
             hidden=""
@@ -3374,7 +3374,7 @@ Object {
           data-state="closed"
         >
           <h3
-            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none"
+            class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none"
             data-orientation="vertical"
             data-state="closed"
           >
@@ -3498,7 +3498,7 @@ Object {
         data-state="closed"
       >
         <h3
-          class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none"
+          class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none"
           data-orientation="vertical"
           data-state="closed"
         >
@@ -3679,7 +3679,7 @@ Object {
           data-state="closed"
         >
           <h3
-            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+            class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
             data-orientation="vertical"
             data-state="closed"
           >
@@ -3738,7 +3738,7 @@ Object {
         data-state="closed"
       >
         <h3
-          class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+          class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
           data-orientation="vertical"
           data-state="closed"
         >
@@ -3854,7 +3854,7 @@ Object {
           data-state="closed"
         >
           <h3
-            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+            class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
             data-orientation="vertical"
             data-state="closed"
           >
@@ -3910,7 +3910,7 @@ Object {
           data-state="closed"
         >
           <h3
-            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+            class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
             data-orientation="vertical"
             data-state="closed"
           >
@@ -3966,7 +3966,7 @@ Object {
           data-state="closed"
         >
           <h3
-            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+            class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
             data-orientation="vertical"
             data-state="closed"
           >
@@ -4022,7 +4022,7 @@ Object {
           data-state="closed"
         >
           <h3
-            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+            class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
             data-orientation="vertical"
             data-state="closed"
           >
@@ -4081,7 +4081,7 @@ Object {
         data-state="closed"
       >
         <h3
-          class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+          class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
           data-orientation="vertical"
           data-state="closed"
         >
@@ -4137,7 +4137,7 @@ Object {
         data-state="closed"
       >
         <h3
-          class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+          class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
           data-orientation="vertical"
           data-state="closed"
         >
@@ -4193,7 +4193,7 @@ Object {
         data-state="closed"
       >
         <h3
-          class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+          class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
           data-orientation="vertical"
           data-state="closed"
         >
@@ -4249,7 +4249,7 @@ Object {
         data-state="closed"
       >
         <h3
-          class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+          class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
           data-orientation="vertical"
           data-state="closed"
         >
@@ -4378,7 +4378,7 @@ Object {
             data-state="open"
           >
             <h3
-              class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+              class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
               data-orientation="vertical"
               data-state="open"
             >
@@ -4414,7 +4414,7 @@ Object {
             </h3>
             <div
               aria-labelledby="radix-:r14:"
-              class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+              class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
               data-orientation="vertical"
               data-state="open"
               id="radix-:r15:"
@@ -4430,7 +4430,7 @@ Object {
             data-state="closed"
           >
             <h3
-              class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+              class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
               data-orientation="vertical"
               data-state="closed"
             >
@@ -4466,7 +4466,7 @@ Object {
             </h3>
             <div
               aria-labelledby="radix-:r16:"
-              class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+              class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
               data-orientation="vertical"
               data-state="closed"
               hidden=""
@@ -4503,7 +4503,7 @@ Object {
           data-state="open"
         >
           <h3
-            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+            class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
             data-orientation="vertical"
             data-state="open"
           >
@@ -4539,7 +4539,7 @@ Object {
           </h3>
           <div
             aria-labelledby="radix-:r14:"
-            class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+            class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
             data-orientation="vertical"
             data-state="open"
             id="radix-:r15:"
@@ -4555,7 +4555,7 @@ Object {
           data-state="closed"
         >
           <h3
-            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+            class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
             data-orientation="vertical"
             data-state="closed"
           >
@@ -4591,7 +4591,7 @@ Object {
           </h3>
           <div
             aria-labelledby="radix-:r16:"
-            class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+            class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
             data-orientation="vertical"
             data-state="closed"
             hidden=""
@@ -4672,7 +4672,7 @@ Object {
           data-state="closed"
         >
           <h3
-            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+            class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
             data-orientation="vertical"
             data-state="closed"
           >
@@ -4708,7 +4708,7 @@ Object {
           </h3>
           <div
             aria-labelledby="radix-:r0:"
-            class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+            class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
             data-orientation="vertical"
             data-state="closed"
             hidden=""
@@ -4723,7 +4723,7 @@ Object {
           data-state="closed"
         >
           <h3
-            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+            class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
             data-orientation="vertical"
             data-state="closed"
           >
@@ -4759,7 +4759,7 @@ Object {
           </h3>
           <div
             aria-labelledby="radix-:r2:"
-            class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+            class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
             data-orientation="vertical"
             data-state="closed"
             hidden=""
@@ -4782,7 +4782,7 @@ Object {
         data-state="closed"
       >
         <h3
-          class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+          class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
           data-orientation="vertical"
           data-state="closed"
         >
@@ -4818,7 +4818,7 @@ Object {
         </h3>
         <div
           aria-labelledby="radix-:r0:"
-          class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+          class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
           data-orientation="vertical"
           data-state="closed"
           hidden=""
@@ -4833,7 +4833,7 @@ Object {
         data-state="closed"
       >
         <h3
-          class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+          class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
           data-orientation="vertical"
           data-state="closed"
         >
@@ -4869,7 +4869,7 @@ Object {
         </h3>
         <div
           aria-labelledby="radix-:r2:"
-          class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+          class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
           data-orientation="vertical"
           data-state="closed"
           hidden=""
@@ -4950,7 +4950,7 @@ Object {
           data-state="closed"
         >
           <h3
-            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+            class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
             data-disabled=""
             data-orientation="vertical"
             data-state="closed"
@@ -4989,7 +4989,7 @@ Object {
           </h3>
           <div
             aria-labelledby="radix-:ra:"
-            class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+            class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
             data-disabled=""
             data-orientation="vertical"
             data-state="closed"
@@ -5014,7 +5014,7 @@ Object {
         data-state="closed"
       >
         <h3
-          class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+          class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
           data-disabled=""
           data-orientation="vertical"
           data-state="closed"
@@ -5053,7 +5053,7 @@ Object {
         </h3>
         <div
           aria-labelledby="radix-:ra:"
-          class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+          class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
           data-disabled=""
           data-orientation="vertical"
           data-state="closed"
@@ -5134,7 +5134,7 @@ Object {
           data-state="open"
         >
           <h3
-            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+            class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
             data-orientation="vertical"
             data-state="open"
           >
@@ -5170,7 +5170,7 @@ Object {
           </h3>
           <div
             aria-labelledby="radix-:r4:"
-            class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+            class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
             data-orientation="vertical"
             data-state="open"
             id="radix-:r5:"
@@ -5194,7 +5194,7 @@ Object {
         data-state="open"
       >
         <h3
-          class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+          class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
           data-orientation="vertical"
           data-state="open"
         >
@@ -5230,7 +5230,7 @@ Object {
         </h3>
         <div
           aria-labelledby="radix-:r4:"
-          class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+          class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
           data-orientation="vertical"
           data-state="open"
           id="radix-:r5:"
@@ -5311,7 +5311,7 @@ Object {
           data-state="closed"
         >
           <h3
-            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+            class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
             data-orientation="vertical"
             data-state="closed"
           >
@@ -5347,7 +5347,7 @@ Object {
           </h3>
           <div
             aria-labelledby="radix-:r6:"
-            class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+            class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
             data-orientation="vertical"
             data-state="closed"
             hidden=""
@@ -5362,7 +5362,7 @@ Object {
           data-state="closed"
         >
           <h3
-            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+            class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
             data-orientation="vertical"
             data-state="closed"
           >
@@ -5398,7 +5398,7 @@ Object {
           </h3>
           <div
             aria-labelledby="radix-:r8:"
-            class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+            class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
             data-orientation="vertical"
             data-state="closed"
             hidden=""
@@ -5421,7 +5421,7 @@ Object {
         data-state="closed"
       >
         <h3
-          class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+          class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
           data-orientation="vertical"
           data-state="closed"
         >
@@ -5457,7 +5457,7 @@ Object {
         </h3>
         <div
           aria-labelledby="radix-:r6:"
-          class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+          class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
           data-orientation="vertical"
           data-state="closed"
           hidden=""
@@ -5472,7 +5472,7 @@ Object {
         data-state="closed"
       >
         <h3
-          class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+          class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
           data-orientation="vertical"
           data-state="closed"
         >
@@ -5508,7 +5508,7 @@ Object {
         </h3>
         <div
           aria-labelledby="radix-:r8:"
-          class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+          class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
           data-orientation="vertical"
           data-state="closed"
           hidden=""
@@ -5588,7 +5588,7 @@ Object {
           data-state="closed"
         >
           <h3
-            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+            class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
             data-orientation="vertical"
             data-state="closed"
           >
@@ -5624,7 +5624,7 @@ Object {
           </h3>
           <div
             aria-labelledby="radix-:rg:"
-            class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+            class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
             data-orientation="vertical"
             data-state="closed"
             hidden=""
@@ -5644,7 +5644,7 @@ Object {
           data-state="closed"
         >
           <h3
-            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+            class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
             data-orientation="vertical"
             data-state="closed"
           >
@@ -5680,7 +5680,7 @@ Object {
           </h3>
           <div
             aria-labelledby="radix-:ri:"
-            class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+            class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
             data-orientation="vertical"
             data-state="closed"
             hidden=""
@@ -5700,7 +5700,7 @@ Object {
           data-state="closed"
         >
           <h3
-            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+            class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
             data-orientation="vertical"
             data-state="closed"
           >
@@ -5736,7 +5736,7 @@ Object {
           </h3>
           <div
             aria-labelledby="radix-:rk:"
-            class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+            class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
             data-orientation="vertical"
             data-state="closed"
             hidden=""
@@ -5756,7 +5756,7 @@ Object {
           data-state="closed"
         >
           <h3
-            class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+            class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
             data-orientation="vertical"
             data-state="closed"
           >
@@ -5792,7 +5792,7 @@ Object {
           </h3>
           <div
             aria-labelledby="radix-:rm:"
-            class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+            class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
             data-orientation="vertical"
             data-state="closed"
             hidden=""
@@ -5815,7 +5815,7 @@ Object {
         data-state="closed"
       >
         <h3
-          class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+          class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
           data-orientation="vertical"
           data-state="closed"
         >
@@ -5851,7 +5851,7 @@ Object {
         </h3>
         <div
           aria-labelledby="radix-:rg:"
-          class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+          class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
           data-orientation="vertical"
           data-state="closed"
           hidden=""
@@ -5871,7 +5871,7 @@ Object {
         data-state="closed"
       >
         <h3
-          class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+          class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
           data-orientation="vertical"
           data-state="closed"
         >
@@ -5907,7 +5907,7 @@ Object {
         </h3>
         <div
           aria-labelledby="radix-:ri:"
-          class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+          class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
           data-orientation="vertical"
           data-state="closed"
           hidden=""
@@ -5927,7 +5927,7 @@ Object {
         data-state="closed"
       >
         <h3
-          class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+          class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
           data-orientation="vertical"
           data-state="closed"
         >
@@ -5963,7 +5963,7 @@ Object {
         </h3>
         <div
           aria-labelledby="radix-:rk:"
-          class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+          class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
           data-orientation="vertical"
           data-state="closed"
           hidden=""
@@ -5983,7 +5983,7 @@ Object {
         data-state="closed"
       >
         <h3
-          class="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
+          class="w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
           data-orientation="vertical"
           data-state="closed"
         >
@@ -6019,7 +6019,7 @@ Object {
         </h3>
         <div
           aria-labelledby="radix-:rm:"
-          class="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
+          class="moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus text-moon-14 w-full text-bulma"
           data-orientation="vertical"
           data-state="closed"
           hidden=""

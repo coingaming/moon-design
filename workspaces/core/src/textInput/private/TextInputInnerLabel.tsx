@@ -24,7 +24,7 @@ const TextInputInnerLabel = forwardRef<HTMLInputElement, TextInputProps>(
       isSharpBottomSide,
       isTopBottomBorderHidden,
       isSideBorderHidden,
-      bgColor = 'bg-gohan',
+      bgColor = 'bg-goku',
       ...rest
     } = props;
     const inputProps = {

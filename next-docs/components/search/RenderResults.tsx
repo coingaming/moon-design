@@ -28,12 +28,10 @@ const RenderResults = ({
             }
           }}
         >
-          <MenuItem onClick={() => item.perform()} className="hover:bg-goku">
-            <MenuItem.Title>{item.name}</MenuItem.Title>
-            {item.section && (
-              <span className="text-moon-14 text-piccolo">{item.section}</span>
-            )}
-          </MenuItem>
+          <span className="text-moon-14">{item.name}</span>
+          {item.section && (
+            <span className="text-moon-14 text-piccolo">{item.section}</span>
+          )}
         </SearchCmdk.ResultItem>
       ))}
     </SearchCmdk.Result>

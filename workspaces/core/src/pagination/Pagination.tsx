@@ -1,5 +1,4 @@
 import React from 'react';
-import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import usePagination from './private/hooks/usePagination';
 import usePaginationContext from './private/hooks/usePaginationContext';
 import PaginationContext from './private/types/PaginationContext';
@@ -9,6 +8,7 @@ import type PolymorphicPagesProps from './private/types/PolymorphicPagesProps';
 import type TruncableElementProps from './private/types/TruncableElementProps';
 import type UsePagination from './private/types/UsePagination';
 import type WithChildren from './private/types/WithChildren';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
 const PaginationRoot = ({
   children,
