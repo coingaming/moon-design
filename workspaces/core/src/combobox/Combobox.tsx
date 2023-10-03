@@ -1,4 +1,4 @@
-import React, { forwardRef, useEffect, useState } from 'react';
+import React, { ReactNode, forwardRef, useEffect, useState } from 'react';
 import {
   Combobox as HeadlessCombobox,
   Transition as HeadlessTransition,
@@ -349,12 +349,6 @@ const Option = ({ children, value }: OptionProps) => {
     </HeadlessCombobox.Option>
   );
 };
-
-const AllSelectableOptions = () => {
-  return (
-    <></>
-  );
-}
 
 const Counter = ({ open, className, counter, ...rest }: SelectProps) => {
   const { size, isError, disabled, onClear } =

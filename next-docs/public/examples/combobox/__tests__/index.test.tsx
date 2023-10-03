@@ -7,6 +7,7 @@ import Default from '../Default';
 import InsetMultiSelect from '../InsetMultiSelect';
 import InsetSelect from '../InsetSelect';
 import InsetSelectStates from '../InsetSelectStates';
+import MultiAllSelect from '../MultiAllSelect';
 import MultiSelect from '../MultiSelect';
 import Select from '../Select';
 import SelectStates from '../SelectStates';
@@ -34,6 +35,10 @@ describe('Combobox', () => {
   });
   it('renders MultiSelect', () => {
     const tree = render(<MultiSelect />);
+    expect(tree).toMatchSnapshot();
+  });
+  it('renders MultiAllSelect', () => {
+    const tree = render(<MultiAllSelect />);
     expect(tree).toMatchSnapshot();
   });
   it('renders Select', () => {
@@ -70,6 +75,10 @@ describe('Combobox in RTL', () => {
   });
   it('renders MultiSelect', () => {
     const tree = render(withRtl(<MultiSelect />));
+    expect(tree).toMatchSnapshot();
+  });
+  it('renders MultiAllSelect', () => {
+    const tree = render(withRtl(<MultiAllSelect />));
     expect(tree).toMatchSnapshot();
   });
   it('renders Select', () => {
