@@ -1,7 +1,7 @@
 import React from 'react';
+import type HintProps from './private/types/HintProps';
 import useFormItemContext from '../form/private/utils/useFormItemContext';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
-import type HintProps from './private/types/HintProps';
 
 const Hint = ({
   children,

@@ -1,6 +1,6 @@
 import type AccordionSizes from '../types/AccordionSizes';
 
-const setFont = (size?: AccordionSizes) => {
+const getFont = (size?: AccordionSizes) => {
   switch (size) {
     case 'xl':
       return `text-moon-16`;
@@ -11,4 +11,4 @@ const setFont = (size?: AccordionSizes) => {
   }
 };
 
-export default setFont;
+export default getFont;

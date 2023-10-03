@@ -41,7 +41,7 @@ const Segment = ({ children, className, size = 'md' }: ListProps) => {
     <TabsContext.Provider value={states}>
       <HeadlesssTab.List
         className={mergeClassnames(
-          'flex items-center justify-center w-fit gap-1 p-1 bg-goku',
+          'flex items-center justify-center w-fit gap-1 p-1 bg-gohan',
           size === 'md' ? 'rounded-moon-s-md' : 'rounded-moon-s-sm',
           className
         )}
@@ -96,9 +96,9 @@ const Pill = React.forwardRef(
           mergeClassnames(
             getTabSize(size),
             'flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma',
-            'font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan',
+            'font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku',
             'focus:outline-none',
-            selected && 'bg-gohan',
+            selected && 'bg-goku',
             isDisabled && 'opacity-60 hover:bg-transparent cursor-not-allowed',
             typeof className === 'function'
               ? className({ selected: selected })

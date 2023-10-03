@@ -1,6 +1,6 @@
 import type SizeProps from '../types/SizeProps';
 
-const setWrapperSize = (size?: SizeProps, isRounded?: boolean) => {
+const getWrapperSize = (size?: SizeProps, isRounded?: boolean) => {
   if (isRounded) {
     return 'rounded-full';
   }
@@ -13,4 +13,4 @@ const setWrapperSize = (size?: SizeProps, isRounded?: boolean) => {
   return 'rounded-moon-i-sm';
 };
 
-export default setWrapperSize;
+export default getWrapperSize;

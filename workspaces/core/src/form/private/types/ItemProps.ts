@@ -1,5 +1,7 @@
+import type Size from './Size';
+
 type ItemProps = {
-  size?: 'sm' | 'md' | 'lg';
+  size?: Size;
   disabled?: boolean;
   error?: boolean;
   className?: string;

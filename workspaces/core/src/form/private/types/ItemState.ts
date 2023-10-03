@@ -1,5 +1,7 @@
+import type Size from './Size';
+
 type ItemState = {
-  size?: 'sm' | 'md' | 'lg';
+  size?: Size;
   disabled?: boolean;
   error?: boolean;
 };

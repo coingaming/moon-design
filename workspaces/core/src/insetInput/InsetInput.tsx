@@ -19,7 +19,7 @@ const InsetInputRoot = forwardRef<HTMLInputElement, InsetInputProps>(
       <InsetInputContext.Provider value={{ ...state, registerChild }}>
         <div
           className={mergeClassnames(
-            'w-full max-w-full relative rounded-moon-i-sm bg-gohan',
+            'w-full max-w-full relative rounded-moon-i-sm bg-goku',
             disabled && 'opacity-60 cursor-not-allowed',
             className && className
           )}

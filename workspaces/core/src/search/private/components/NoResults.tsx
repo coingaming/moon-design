@@ -1,8 +1,8 @@
 import React, { useContext } from 'react';
-import mergeClassnames from '../../../mergeClassnames/mergeClassnames';
-import { SearchContext } from '../utils/context';
 import ListItem from './ResultItem';
+import mergeClassnames from '../../../mergeClassnames/mergeClassnames';
 import type FreeSearchActionProps from '../types/FreeSearchActionProps';
+import { SearchContext } from '../utils/context';
 
 const NoResults = ({
   label = 'Search for',

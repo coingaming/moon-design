@@ -38,9 +38,9 @@ const MenuItemRoot = React.forwardRef(
           className={mergeClassnames(
             'flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm',
             'text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer',
-            'hover:bg-bulma/[0.04] transition',
+            'hover:bg-heles transition',
             width ? width : 'w-full',
-            (innerSelected || isActive) && 'bg-bulma/[0.04]',
+            (innerSelected || isActive) && 'bg-heles',
             className && className
           )}
           {...((!as || as === 'button') && { type: 'button' })}

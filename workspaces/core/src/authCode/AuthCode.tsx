@@ -155,7 +155,7 @@ const AuthCode = forwardRef<AuthCodeRef, AuthCodeProps>(
           }}
           maxLength={1}
           className={mergeClassnames(
-            'h-[72px] w-full max-w-[48px] rounded-moon-i-sm bg-gohan text-moon-24 appearance-none',
+            'h-[72px] w-full max-w-[48px] rounded-moon-i-sm bg-goku text-moon-24 appearance-none',
             'text-bulma text-center shadow-input hover:shadow-input-hov transition-shadow py-4',
             'focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus',
             'focus-visible::outline-none',

@@ -20,7 +20,7 @@ const AlertRoot = ({ className, children }: Props) => {
       <div
         role="alert"
         className={mergeClassnames(
-          'relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan',
+          'relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku',
           'text-moon-14 text-bulma',
           isClose && 'pe-14',
           className

@@ -1,8 +1,8 @@
 import React, { useContext } from 'react';
 import mergeClassnames from '../../../mergeClassnames/mergeClassnames';
-import { OpenContext, SelectContext } from '../utils/context';
 import type ButtonProps from '../types/ButtonProps';
 import type LinkProps from '../types/LinkProps';
+import { OpenContext, SelectContext } from '../utils/context';
 
 const commonClasses = 'moon-search-list-item w-full';
 

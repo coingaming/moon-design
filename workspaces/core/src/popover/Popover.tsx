@@ -1,13 +1,13 @@
 import React from 'react';
 import { Popover as HeadlessPopover } from '@headlessui/react';
 import { usePopper } from 'react-popper';
-import mergeClassnames from '../mergeClassnames/mergeClassnames';
-import PopoverContext from './private/utils/PopoverContext';
-import usePopoverContext from './private/utils/usePopoverContext';
 import type CallableChildren from './private/types/CallableChildren';
 import type GroupProps from './private/types/GroupProps';
 import type PanelProps from './private/types/PanelProps';
 import type PopoverRootProps from './private/types/PopoverRootProps';
+import PopoverContext from './private/utils/PopoverContext';
+import usePopoverContext from './private/utils/usePopoverContext';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
 const PopoverRoot = ({
   children,
@@ -80,7 +80,7 @@ const Panel = ({ children, className }: PanelProps) => {
       style={popper?.styles?.popper}
       {...popper?.attributes?.popper}
       className={mergeClassnames(
-        'w-72 z-[999999] rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto',
+        'w-72 z-[999999] rounded-moon-s-md box-border bg-goku shadow-moon-lg overflow-y-auto',
         'focus:outline-none',
         className && className
       )}

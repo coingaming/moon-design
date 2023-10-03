@@ -1,11 +1,11 @@
 import React, { forwardRef } from 'react';
-import mergeClassnames from '../mergeClassnames/mergeClassnames';
-import FormContext from './private/utils/FormContext';
-import ItemContext from './private/utils/ItemContext';
-import useFormContext from './private/utils/useFormContext';
 import type FormProps from './private/types/FormProps';
 import type ItemProps from './private/types/ItemProps';
 import type WithChildren from './private/types/WithChildren';
+import FormContext from './private/utils/FormContext';
+import ItemContext from './private/utils/ItemContext';
+import useFormContext from './private/utils/useFormContext';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
 const FormRoot = forwardRef<HTMLFormElement, WithChildren<FormProps>>(
   ({ children, size = 'md', className, onSubmit, ...rest }, ref) => {

@@ -1,7 +1,7 @@
 import React from 'react';
 import type LoaderProps from './private/types/LoaderProps';
-import setDivBorder from './private/utils/setDivBorder';
-import setSize from './private/utils/setSize';
+import getDivBorder from './private/utils/getDivBorder';
+import getSize from './private/utils/getSize';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
 const commonStyles =
@@ -17,27 +17,27 @@ const Loader = ({
     role="alert"
     aria-busy="true"
     className={mergeClassnames(
-      setSize(size),
+      getSize(size),
       'relative rounded-full rtl:-scale-x-100'
     )}
   >
     <div
-      className={mergeClassnames(setDivBorder(size), color, commonStyles)}
+      className={mergeClassnames(getDivBorder(size), color, commonStyles)}
       style={{ animationDelay: '-0.45s' }}
       role="presentation"
     />
     <div
-      className={mergeClassnames(setDivBorder(size), color, commonStyles)}
+      className={mergeClassnames(getDivBorder(size), color, commonStyles)}
       style={{ animationDelay: '-0.3s' }}
       role="presentation"
     />
     <div
-      className={mergeClassnames(setDivBorder(size), color, commonStyles)}
+      className={mergeClassnames(getDivBorder(size), color, commonStyles)}
       style={{ animationDelay: '-0.15s' }}
       role="presentation"
     />
     <div
-      className={mergeClassnames(setDivBorder(size), color, commonStyles)}
+      className={mergeClassnames(getDivBorder(size), color, commonStyles)}
       role="presentation"
     />
   </div>

@@ -32,7 +32,7 @@ const GroupRoot: GroupComponentProps = ({
     <GroupContext.Provider value={states}>
       <div
         className={mergeClassnames(
-          'flex border-none shadow-input relative h-fit bg-gohan',
+          'flex border-none shadow-input relative h-fit bg-goku',
           orientation === 'horizontal' ? 'flex-row' : 'flex-col',
           size === 'sm' ? 'rounded-moon-i-xs' : 'rounded-moon-i-sm',
           error &&

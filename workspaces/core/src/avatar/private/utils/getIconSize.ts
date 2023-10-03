@@ -1,6 +1,6 @@
 import type SizeProps from '../types/SizeProps';
 
-const setIconSize = (size?: SizeProps) => {
+const getIconSize = (size?: SizeProps) => {
   if (size === 'xs') {
     return 'text-moon-16';
   }
@@ -10,4 +10,4 @@ const setIconSize = (size?: SizeProps) => {
   return 'text-moon-24';
 };
 
-export default setIconSize;
+export default getIconSize;
