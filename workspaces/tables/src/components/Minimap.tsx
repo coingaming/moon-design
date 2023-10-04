@@ -57,7 +57,7 @@ const Minimap = ({ tableRef, footerRef, numberOfColumns }: MinimapProps) => {
   return (
     <div
       className={mergeClassnames(
-        'absolute bottom-4 shadow-md end-10 w-auto h-14 z-1 bg-gohan rounded-moon-s-sm p-1',
+        'absolute bottom-4 shadow-md end-10 w-auto h-14 z-1 bg-goku rounded-moon-s-sm p-1',
         'pointer-events-none transition-opacity',
         visible ? 'opacity-1' : 'opacity-0'
       )}
@@ -69,7 +69,7 @@ const Minimap = ({ tableRef, footerRef, numberOfColumns }: MinimapProps) => {
         />
         {[...new Array(numberOfColumns)].map((_, index) => (
           <div
-            className="h-full w-2 bg-goku/80 rounded-moon-s-sm"
+            className="h-full w-2 bg-gohan rounded-moon-s-sm"
             key={index}
             children={''}
           />
