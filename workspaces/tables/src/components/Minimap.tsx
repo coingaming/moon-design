@@ -59,7 +59,7 @@ const Minimap = ({ tableRef, footerRef, numberOfColumns }: MinimapProps) => {
       className={mergeClassnames(
         'absolute bottom-4 shadow-md end-10 w-auto h-14 z-1 bg-goku rounded-moon-s-sm p-1',
         'pointer-events-none transition-opacity',
-        visible ? 'opacity-1' : 'opacity-1'
+        visible ? 'opacity-1' : 'opacity-0'
       )}
     >
       <div className="grid grid-flow-col h-full gap-1 relative auto-cols-[minmax(0,_2fr)]">
