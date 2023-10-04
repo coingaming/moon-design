@@ -1261,7 +1261,7 @@ Object {
             class="relative w-full max-w-xs"
           >
             <div
-              class="relative flex flex-nowrap w-full align-middle items-center rounded-lg py-2 px-3 bg-gohan gap-x-2 shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+              class="relative flex flex-nowrap w-full align-middle items-center rounded-lg py-2 px-3 bg-goku gap-x-2 shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
               tabindex="-1"
             >
               <input
@@ -1323,7 +1323,7 @@ Object {
           class="relative w-full max-w-xs"
         >
           <div
-            class="relative flex flex-nowrap w-full align-middle items-center rounded-lg py-2 px-3 bg-gohan gap-x-2 shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            class="relative flex flex-nowrap w-full align-middle items-center rounded-lg py-2 px-3 bg-goku gap-x-2 shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
             tabindex="-1"
           >
             <input
@@ -4245,7 +4245,7 @@ Object {
           class="relative w-full max-w-xs"
         >
           <div
-            class="relative flex flex-nowrap w-full align-middle items-center rounded-lg py-2 px-3 bg-gohan gap-x-2 shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            class="relative flex flex-nowrap w-full align-middle items-center rounded-lg py-2 px-3 bg-goku gap-x-2 shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
             tabindex="-1"
           >
             <input
@@ -4303,7 +4303,7 @@ Object {
         class="relative w-full max-w-xs"
       >
         <div
-          class="relative flex flex-nowrap w-full align-middle items-center rounded-lg py-2 px-3 bg-gohan gap-x-2 shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+          class="relative flex flex-nowrap w-full align-middle items-center rounded-lg py-2 px-3 bg-goku gap-x-2 shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
           tabindex="-1"
         >
           <input
