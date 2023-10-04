@@ -2,99 +2,91 @@ import React from 'react';
 import { Table } from '@heathmont/moon-table-tw';
 import ClipProps from '@heathmont/moon-table-tw/lib/private/types/ClipProps';
 import { Chip, Tooltip } from '@heathmont/moon-core-tw';
-import { IconShare } from '@heathmont/moon-assets';
+import { OtherFrame } from '@heathmont/moon-icons-tw';
 
 const Example = () => {
   const columnsInitial = [
     {
-      'Header': 'Transactions',
-      'sticky': 'left',
+      Header: 'Transactions',
+      sticky: 'left',
       columns: [
         {
-          'Header': 'Transaction UUID',
-          'accessor': 'uuid',
-          'Footer': '',
+          Header: 'Transaction UUID',
+          accessor: 'uuid',
+          Footer: '',
         },
         {
-          'Header': 'User & Supplier user',
-          'accessor': 'user',
-          'Footer': '',
+          Header: 'User & Supplier user',
+          accessor: 'user',
+          Footer: '',
         },
       ],
     },
     {
-      'Header': 'Info',
-      'columns': [
+      Header: 'Info',
+      columns: [
         {
-          'Header': 'Process time',
-          'accessor': 'processTime',
-          'Footer': '',
+          Header: 'Process time',
+          accessor: 'processTime',
+          Footer: '',
         },
         {
-          'Header': 'Client',
-          'accessor': 'client',
-          'Footer': '',
+          Header: 'Client',
+          accessor: 'client',
+          Footer: '',
         },
         {
-          'Header': 'Game name & provider',
-          'accessor': 'gameNameAndProvider',
-          'Footer': '',
+          Header: 'Game name & provider',
+          accessor: 'gameNameAndProvider',
+          Footer: '',
         },
         {
-          'Header': 'Amount',
-          'accessor': 'amount',
-          'maxWidth': 100,
-          'Footer': '',
+          Header: 'Amount',
+          accessor: 'amount',
+          maxWidth: 100,
+          Footer: '',
         },
         {
-          'Header': 'Currency',
-          'accessor': 'currency',
-          'maxWidth': 100,
-          'Footer': '',
+          Header: 'Currency',
+          accessor: 'currency',
+          maxWidth: 100,
+          Footer: '',
         },
         {
-          'Header': 'Status',
-          'accessor': 'status',
-          'maxWidth': 200,
-          'Footer': '',
+          Header: 'Status',
+          accessor: 'status',
+          maxWidth: 200,
+          Footer: '',
         },
       ],
     },
     {
-      'Header': 'Actions',
-      'sticky': 'right',
-      'columns': [
+      Header: 'Actions',
+      sticky: 'right',
+      columns: [
         {
-          'Header': 'Actions',
-          'accessor': 'actions',
-          'Footer': '',
+          Header: 'Actions',
+          accessor: 'actions',
+          Footer: '',
         },
-      ]
-    }
+      ],
+    },
   ];
 
-  const tooltip = (className: string) => {
-    return (
-      <Tooltip>
-        <Tooltip.Trigger>
-          <Chip
-            className='bg-transparent hover:bg-transparent'
-          >
-            <IconShare />
-          </Chip>
-        </Tooltip.Trigger>
-        <Tooltip.Content
-          position="top-start"
-          className={className}
-        >
-          Round details
-          <Tooltip.Arrow
-            className={className}
-          />
-        </Tooltip.Content>
-      </Tooltip>
-    );
-  };
+  const tooltip = () => (
+    <Tooltip>
+      <Tooltip.Trigger>
+        <Chip
+          variant="ghost"
+          iconOnly={<OtherFrame className="text-moon-24" />}
+        />
+      </Tooltip.Trigger>
+      <Tooltip.Content position="top-start">
+        Round details
+        <Tooltip.Arrow />
+      </Tooltip.Content>
+    </Tooltip>
+  );
 
   const makeData = (length: number) => {
     return Array.from('_'.repeat(length)).map((_, index) => {
@@ -111,7 +103,7 @@ const Example = () => {
         /**
          * The expression below sets a tooltip with transparent background in the second row only.
          */
-        actions: index === 1 ? tooltip('bg-transparent') : tooltip('bg-goku'),
+        actions: tooltip(),
       };
     });
   };
