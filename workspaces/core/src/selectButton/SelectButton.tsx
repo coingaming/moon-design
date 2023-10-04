@@ -10,6 +10,7 @@ import useSelectButtonContext from './private/utils/useSelectButtonContext';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import ControlsChevronDownSmall from '../private/icons/ControlsChevronDownSmall';
 import ControlsCloseSmall from '../private/icons/ControlsCloseSmall';
+import Tag from '../tag/Tag';
 
 const SelectButtonRoot = forwardRef(
   (
@@ -167,23 +168,14 @@ const Chip = ({ children, onClear }: ChipProps) => {
     [onClear]
   );
   return (
-    <span
-      onClick={cliclHandler}
-      className={mergeClassnames(
-        'chip bg-bulma text-trunks flex items-center justify-center rounded-moon-s-xs cursor-pointer',
-        size === 'sm' ? 'text-moon-12 h-4 px-0.5' : 'text-moon-14 h-6 px-1'
-      )}
+    <Tag
+      size={size === 'sm' ? '2xs' : 'xs'}
+      iconRight={
+        <ControlsCloseSmall onClick={cliclHandler} className="cursor-pointer" />
+      }
     >
-      <span className={mergeClassnames(size === 'sm' ? 'px-0.5' : 'px-1')}>
-        {children}
-      </span>
-      <ControlsCloseSmall
-        className={mergeClassnames(
-          'text-trunks',
-          size === 'sm' ? 'text-moon-12' : 'text-moon-14'
-        )}
-      />
-    </span>
+      {children}
+    </Tag>
   );
 };
 
