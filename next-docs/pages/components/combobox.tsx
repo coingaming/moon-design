@@ -9,6 +9,7 @@ import Default from '../../public/examples/combobox/Default';
 import InsetMultiSelect from '../../public/examples/combobox/InsetMultiSelect';
 import InsetSelect from '../../public/examples/combobox/InsetSelect';
 import InsetSelectStates from '../../public/examples/combobox/InsetSelectStates';
+import MultiAllSelect from '../../public/examples/combobox/MultiAllSelect';
 import MultiSelect from '../../public/examples/combobox/MultiSelect';
 import Select from '../../public/examples/combobox/Select';
 import SelectStates from '../../public/examples/combobox/SelectStates';
@@ -116,6 +117,12 @@ const PageCombobox = () => {
         title="MultiSelect"
         preview={<MultiSelect />}
         code={examples ? examples.MultiSelect : 'Loading'}
+      />
+
+      <Preview
+        title='MultiSelect with "Select all" option'
+        preview={<MultiAllSelect />}
+        code={examples ? examples.MultiAllSelect : 'Loading'}
       />
 
       <ComponentAnatomy>

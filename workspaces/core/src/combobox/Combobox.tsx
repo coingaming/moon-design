@@ -1,4 +1,4 @@
-import React, { forwardRef, useEffect, useState } from 'react';
+import React, { ReactNode, forwardRef, useEffect, useState } from 'react';
 import {
   Combobox as HeadlessCombobox,
   Transition as HeadlessTransition,
