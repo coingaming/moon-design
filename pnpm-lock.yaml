@@ -172,8 +172,8 @@ importers:
         specifier: workspace:^10.9.0
         version: link:../workspaces/core
       '@heathmont/moon-icons-tw':
-        specifier: 9.28.4
-        version: 9.28.4(react-dom@18.2.0)(react@18.2.0)
+        specifier: 9.28.6
+        version: 9.28.6(react-dom@18.2.0)(react@18.2.0)
       '@types/node':
         specifier: 20.4.9
         version: 20.4.9
@@ -253,8 +253,8 @@ importers:
         specifier: workspace:^10.7.1
         version: link:../packages/icons
       '@heathmont/moon-icons-tw':
-        specifier: 9.28.5
-        version: 9.28.5(react-dom@18.2.0)(react@18.2.0)
+        specifier: 9.28.6
+        version: 9.28.6(react-dom@18.2.0)(react@18.2.0)
       '@heathmont/moon-pagination':
         specifier: workspace:^10.7.1
         version: link:../packages/pagination
@@ -2970,18 +2970,8 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@heathmont/moon-icons-tw@9.28.4(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-6MZaRqF7ujwe6R1O1edeGKJb1jB9NizMITv6NDxKZspPTWoIfRaArc+4C9XihFRQylcfyzIn3j4111o0UOjDPg==}
-    peerDependencies:
-      react: '>= 18.2.0'
-      react-dom: '>= 18.2.0'
-    dependencies:
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
-    dev: false
-
-  /@heathmont/moon-icons-tw@9.28.5(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-M4rf6Fvy4SeHkYTPYhcT3LPUnXIUErChzs6XjhlVy4O8Csa2TtweyUz/tzwxWKgsuepGCc6mGErE/dzZLKDEWQ==}
+  /@heathmont/moon-icons-tw@9.28.6(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-cDA7WO4Z07Sfm0Mv+/fBFRBGIMJonGrutcaYRLr6zl6OSfiUOxlsMjRSSivYOb/45WxUjpnbGxTA1AZGhXBFRA==}
     peerDependencies:
       react: '>= 18.2.0'
       react-dom: '>= 18.2.0'
