@@ -1,5 +1,6 @@
-import React, { EventHandler, KeyboardEventHandler, SyntheticEvent, forwardRef, useEffect, useState } from "react";
+import React, { EventHandler, KeyboardEventHandler, SyntheticEvent, createContext, forwardRef, useEffect, useState } from "react";
 import { Input  as NativeInput, SelectButton, mergeClassnames } from "../index";
+import { usePopper } from "react-popper";
 
 type Size = 'sm' | 'md' | 'lg' | 'xl';
 
@@ -21,7 +22,7 @@ type TagsInputProps = {
   isError?: boolean;
   type?: string;
   size?: Size;
-  onEnter?: (e: React.KeyboardEvent<HTMLInputElement>) => void;
+  onEnter?: (value: string) => void;
   onClear?: (index: number) => void;
   popper?: {
     styles?: { [key: string]: React.CSSProperties };
@@ -33,9 +34,24 @@ type TagsInputProps = {
   };
 };
 
+type TagsInputState = {
+  value?: unknown;
+  popper?:  {
+    styles?: { [key: string]: React.CSSProperties };
+    attributes?: { [key: string]: { [key: string]: string } | undefined };
+    setAnchor: React.Dispatch<React.SetStateAction<Element | null | undefined>>;
+    setPopper: React.Dispatch<
+      React.SetStateAction<HTMLElement | null | undefined>
+    >;
+  };
+};
+
+const TagsInputContext = createContext<TagsInputState>({});
+TagsInputContext.displayName = 'TagsInputContext';
+
 const TagsInput = forwardRef<HTMLSpanElement, TagsInputProps>(({
   selected = [],
-  type,
+  type = 'text',
   size = 'md',
   className,
   placeholder,
@@ -43,58 +59,83 @@ const TagsInput = forwardRef<HTMLSpanElement, TagsInputProps>(({
   isError,
   onEnter,
   onClear,
+  popper,
 },
   ref
 ) => {
   const [isFocused, setIsFocused] = useState(false);
+  const [anchorEl, setAnchorEl] = React.useState<Element | null>();
+  const [popperEl, setPopperEl] = React.useState<HTMLElement | null>();
+
+  let { styles, attributes } = usePopper(anchorEl, popperEl);
+
+  const states = {
+    value: selected,
+    popper: {
+        styles: styles,
+        attributes: attributes,
+        setAnchor: setAnchorEl,
+        setPopper: setPopperEl,
+    }
+  }
 
   return (
-    <span
-      tabIndex={-1}
-      className={mergeClassnames(
-        'w-full flex flex-col justify-between',
-        'rounded-lg py-2 px-3 bg-goku',
-        selected.length ? 'gap-y-1' : 'gap-y-0',
-        isFocused
-          ? 'shadow-input-focus hover:shadow-input-focus'
-          : 'shadow-input hover:shadow-input-hov',
-        'focus:shadow-input-focus focus:outline-none',
-        'focus-visible::shadow-input-focus focus-visible::outline-none',
-        isError &&
-          'shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err',
-        disabled &&
-          'opacity-60 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed',
-        className
-      )}
-    >
-      <div className='flex flex-wrap justify-start items-start gap-1'>
-        {selected.map((text, index) => {
-          return <SelectedItem
-                  index={index}
-                  label={text}
-                  size={size}
-                  disabled={disabled}
-                  isError={isError}
-                  onClear={onClear}
-                />
-        })}
-      </div>
-      <NativeInput
+    <TagsInputContext.Provider value={states}>
+      <span
+        tabIndex={-1}
         className={mergeClassnames(
-          'flex-grow h-full border-0 !rounded-none bg-transparent px-0',
-          '!shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none',
-          getTextSizes(size),
+          'w-full flex flex-col justify-between',
+          'rounded-lg py-2 px-3 bg-goku',
+          states.value.length ? 'gap-y-1' : 'gap-y-0',
+          isFocused
+            ? 'shadow-input-focus hover:shadow-input-focus'
+            : 'shadow-input hover:shadow-input-hov',
+          'focus:shadow-input-focus focus:outline-none',
+          'focus-visible::shadow-input-focus focus-visible::outline-none',
+          isError &&
+            'shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err',
+          disabled &&
+            'opacity-60 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed',
+          className
         )}
-        placeholder={placeholder}
-        error={isError}
-        disabled={disabled}
-        type={type ? type : 'text'}
-        onKeyDown={(e) => { onEnter && onEnter(e)} }
-        onFocus={() => setIsFocused(true)}
-        onBlur={() => setIsFocused(false)}
-        /*ref={popper?.setAnchor}*/
-      />
-    </span>
+        ref={ref}
+      >
+        <div className='flex flex-wrap justify-start items-start gap-1'>
+          {states.value.map((text, index) => {
+            return <SelectedItem
+                    index={index}
+                    label={text}
+                    size={size}
+                    disabled={disabled}
+                    isError={isError}
+                    onClear={onClear}
+                  />
+          })}
+        </div>
+        <NativeInput
+          className={mergeClassnames(
+            'flex-grow h-full border-0 !rounded-none bg-transparent px-0',
+            '!shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none',
+            getTextSizes(size),
+          )}
+          placeholder={placeholder}
+          error={isError}
+          disabled={disabled}
+          type={type}
+          onKeyDown={(e) => {
+            e.code === 'Enter'
+              && (e.target as HTMLInputElement).value.length
+              && onEnter
+              && onEnter((e.target as HTMLInputElement).value);
+            e.code === 'Enter'
+              && ((e.target as HTMLInputElement).value = '')
+          }}
+          onFocus={() => setIsFocused(true)}
+          onBlur={() => setIsFocused(false)}
+          ref={states.popper?.setAnchor}
+        />
+      </span>
+    </TagsInputContext.Provider>
   );
 });
 
@@ -137,17 +178,6 @@ const SelectedItem = ({
     </span>
   );
 }
-
-const getSizeStyles = (size?: string, innerLabel?: boolean) => {
-  const isLabel = innerLabel !== undefined && innerLabel;
-
-  return mergeClassnames(
-    size === 'sm' && 'py-1.5 px-2 rounded-moon-i-xs',
-    (size === 'sm' || isLabel) && 'py-2 px-3 rounded-moon-i-xs gap-x-3',
-    size === 'lg' && 'py-3 px-3 rounded-moon-i-sm',
-    (size === 'xl' || isLabel) && 'py-3 px-4 rounded-moon-i-sm gap-x-4'
-  );
-};
 
 const getTextSizes = (size: Size = 'md') => {
   return (

@@ -1,19 +1,13 @@
 import { TagsInput } from "@heathmont/moon-core-tw";
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 
 const Example = () => {
   const [selected, setSelected] = useState<string[]>([]);
 
-  const onEnter = useCallback((event: React.KeyboardEvent<HTMLInputElement>) => {
-    if (event.code === 'Enter') {
-      const input = event.target as HTMLInputElement;
-      if (input.value.length) {
-        const items = selected;
-        items.push(input.value);
-        setSelected(items);
-        input.value = '';
-      }
-    }
+  const onEnter = useCallback((value: string) => {
+      const items = selected;
+      items.push(value);
+      setSelected(items);
   }, []);
 
   const onClear = useCallback((index: number) => {

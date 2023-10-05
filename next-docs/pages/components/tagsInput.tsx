@@ -2,7 +2,7 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import type { ComponentNames } from '../../components/getComponent';
 import Layout from '../../components/Layout';
-/*import PropsTable from '../../components/PropsTable';*/
+import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/tagsInput/Default';
 import useComponent from '../../utils/useComponent';
 
@@ -34,11 +34,11 @@ const PageTagsInput = () => {
         preview={<Default />}
         code={examples ? examples.Default : 'Loading'}
       />
-{/*
+
       <PropsTable
-        title="Input props"
+        title="TagsInput props"
         data={[
-          {
+/*          {
             name: 'size',
             type: 'sm | md | lg',
             required: false,
@@ -86,10 +86,9 @@ const PageTagsInput = () => {
             required: false,
             default: '-',
             description: 'Tailwind classes for customization',
-          },
+          }, */
         ]}
       />
-      */}
     </>
   );
 };
