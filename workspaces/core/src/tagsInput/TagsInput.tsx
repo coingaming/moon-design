@@ -1,6 +1,6 @@
-import React, { EventHandler, KeyboardEventHandler, SyntheticEvent, createContext, forwardRef, useEffect, useState } from "react";
-import { Input  as NativeInput, SelectButton, mergeClassnames } from "../index";
+import React, { createContext, forwardRef, useContext, useState } from "react";
 import { usePopper } from "react-popper";
+import { Input  as NativeInput, SelectButton, mergeClassnames } from "../index";
 
 type Size = 'sm' | 'md' | 'lg' | 'xl';
 
@@ -8,13 +8,10 @@ type SelectedItemProps = {
   index: number;
   label: string;
   className?: string;
-  disabled?: boolean;
-  isError?: boolean;
-  size?: Size;
-  onClear?: (index: number) => void;
 }
 
 type TagsInputProps = {
+  children?: React.ReactNode;
   selected?: string[];
   className?: string;
   placeholder?: string;
@@ -36,6 +33,10 @@ type TagsInputProps = {
 
 type TagsInputState = {
   value?: unknown;
+  size?: Size;
+  disabled?: boolean;
+  isError?: boolean;
+  onClear?: (index: number) => void;
   popper?:  {
     styles?: { [key: string]: React.CSSProperties };
     attributes?: { [key: string]: { [key: string]: string } | undefined };
@@ -49,7 +50,19 @@ type TagsInputState = {
 const TagsInputContext = createContext<TagsInputState>({});
 TagsInputContext.displayName = 'TagsInputContext';
 
-const TagsInput = forwardRef<HTMLSpanElement, TagsInputProps>(({
+const useTagsInputContext = (component: string) => {
+  const context = useContext(TagsInputContext);
+  if (context === null) {
+    const err = new Error(
+      `<${component}> is missing a parent <TagsInput /> component.`
+    );
+    throw err;
+  }
+  return context;
+};
+
+const TagsInputRoot = forwardRef<HTMLSpanElement, TagsInputProps>(({
+  children,
   selected = [],
   type = 'text',
   size = 'md',
@@ -71,6 +84,10 @@ const TagsInput = forwardRef<HTMLSpanElement, TagsInputProps>(({
 
   const states = {
     value: selected,
+    size: size,
+    disabled: disabled,
+    isError: isError,
+    onClear: onClear,
     popper: {
         styles: styles,
         attributes: attributes,
@@ -101,16 +118,7 @@ const TagsInput = forwardRef<HTMLSpanElement, TagsInputProps>(({
         ref={ref}
       >
         <div className='flex flex-wrap justify-start items-start gap-1'>
-          {states.value.map((text, index) => {
-            return <SelectedItem
-                    index={index}
-                    label={text}
-                    size={size}
-                    disabled={disabled}
-                    isError={isError}
-                    onClear={onClear}
-                  />
-          })}
+          {children}
         </div>
         <NativeInput
           className={mergeClassnames(
@@ -143,13 +151,9 @@ const SelectedItem = ({
   className,
   index,
   label,
-  size,
-  disabled,
-  isError,
-  onClear,
   ...rest
 }: SelectedItemProps) => {
-
+  const { size, disabled, isError, onClear } = useTagsInputContext('TagstInput.SelectedItem');
   return (
     <span
       className={mergeClassnames(
@@ -165,7 +169,7 @@ const SelectedItem = ({
       >
         <SelectButton.Value>
           <SelectButton.Chip
-            onClear={() => onClear && onClear(index)}
+            onClear={() => !disabled && onClear && onClear(index)}
           >
             <span
               className="break-all truncate"
@@ -189,5 +193,9 @@ const getTextSizes = (size: Size = 'md') => {
     }[size] || 'text-moon-16 leading-5'
   );
 };
+
+const TagsInput = Object.assign(TagsInputRoot, {
+  SelectedItem,
+});
 
 export default TagsInput;
