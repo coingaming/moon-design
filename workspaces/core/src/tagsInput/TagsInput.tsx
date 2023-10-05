@@ -21,6 +21,7 @@ type TagsInputProps = {
   isError?: boolean;
   type?: string;
   size?: Size;
+  onEnter?: (e: React.KeyboardEvent<HTMLInputElement>) => void;
   onClear?: (index: number) => void;
   popper?: {
     styles?: { [key: string]: React.CSSProperties };
@@ -40,6 +41,7 @@ const TagsInput = forwardRef<HTMLSpanElement, TagsInputProps>(({
   placeholder,
   disabled,
   isError,
+  onEnter,
   onClear,
 },
   ref
@@ -87,6 +89,7 @@ const TagsInput = forwardRef<HTMLSpanElement, TagsInputProps>(({
         error={isError}
         disabled={disabled}
         type={type ? type : 'text'}
+        onKeyDown={(e) => { onEnter && onEnter(e)} }
         onFocus={() => setIsFocused(true)}
         onBlur={() => setIsFocused(false)}
         /*ref={popper?.setAnchor}*/
