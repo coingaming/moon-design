@@ -25,7 +25,7 @@ const PageTagsInput = () => {
           These selected text entries are being dispalyed as tags. Tags represent a set of interactive keywords that help organise and categorise objects.
         </p>
         <p>
-          Tags can be added or removed from an input element.
+          Tags can be added by pressing the Enter key or removed by the mouse click from the input element.
         </p>
       </ComponentPageDescription>
 
@@ -38,7 +38,21 @@ const PageTagsInput = () => {
       <PropsTable
         title="TagsInput props"
         data={[
-/*          {
+          {
+            name: 'selected',
+            type: 'string[]',
+            required: true,
+            default: '-',
+            description: 'The selected dataset',
+          },
+          {
+            name: 'label',
+            type: 'string | undefined',
+            required: false,
+            default: '-',
+            description: 'Label title',
+          },
+          {
             name: 'size',
             type: 'sm | md | lg',
             required: false,
@@ -60,7 +74,7 @@ const PageTagsInput = () => {
             description: 'Placeholder for input',
           },
           {
-            name: 'error',
+            name: 'isError',
             type: 'boolean',
             required: false,
             default: 'false',
@@ -74,19 +88,61 @@ const PageTagsInput = () => {
             description: 'Set disabled/non-disabled',
           },
           {
-            name: 'dir',
-            type: 'ltr | rtl | auto',
+            name: 'className',
+            type: 'string',
             required: false,
             default: '-',
-            description: 'RTL/LTR direction of label',
+            description: 'Tailwind classes for customization',
           },
+          {
+            name: 'tagsCase',
+            type: 'normal | lower | capitalize',
+            required: false,
+            default: '-',
+            description: 'Sets the case of the tag`s text. By default, it is set to upper case.',
+          },
+          {
+            name: 'onEnter',
+            type: '(value: string) => void;',
+            required: false,
+            default: '-',
+            description: 'The function to select the text and append it to the tag set.',
+          },
+          {
+            name: 'onClear',
+            type: '(index: number) => void',
+            required: false,
+            default: '-',
+            description:
+              'The function to remove the selected tag.',
+          },
+        ]}
+      />
+
+      <PropsTable
+        title="TagsInput.SelectedItem"
+        data={[
           {
             name: 'className',
             type: 'string',
             required: false,
             default: '-',
             description: 'Tailwind classes for customization',
-          }, */
+          },
+          {
+            name: 'index',
+            type: 'number',
+            required: true,
+            default: '-',
+            description: 'This data spcifies the key value of the item',
+          },
+          {
+            name: 'label',
+            type: 'string',
+            required: true,
+            default: '-',
+            description: 'The text selected as tag',
+          },
         ]}
       />
     </>

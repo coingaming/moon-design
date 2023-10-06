@@ -1,67 +1,15 @@
-import React, { createContext, forwardRef, useContext, useState } from "react";
+import React, { forwardRef, useState } from "react";
 import { usePopper } from "react-popper";
 import { Input  as NativeInput, SelectButton, mergeClassnames } from "../index";
+import { TagsInputContext, useTagsInputContext } from "./private/utils/useTagsInputContext";
+import { TagsInputRootProps } from "./private/types/TagsInputRootProps";
+import SelectedItemProps from "./private/types/SelectedItemProps";
+import getTextSizes from "./private/utils/useTextSizes";
+import getTextCase from "./private/utils/useTextCase";
+import { Listbox } from "@headlessui/react";
 
-type Size = 'sm' | 'md' | 'lg' | 'xl';
-
-type SelectedItemProps = {
-  index: number;
-  label: string;
-  className?: string;
-}
-
-type TagsInputProps = {
-  children?: React.ReactNode;
-  selected?: string[];
-  className?: string;
-  placeholder?: string;
-  disabled?: boolean;
-  isError?: boolean;
-  type?: string;
-  size?: Size;
-  onEnter?: (value: string) => void;
-  onClear?: (index: number) => void;
-  popper?: {
-    styles?: { [key: string]: React.CSSProperties };
-    attributes?: { [key: string]: { [key: string]: string } | undefined };
-    setAnchor: React.Dispatch<React.SetStateAction<Element | null | undefined>>;
-    setPopper: React.Dispatch<
-      React.SetStateAction<HTMLElement | null | undefined>
-    >;
-  };
-};
-
-type TagsInputState = {
-  value?: unknown;
-  size?: Size;
-  disabled?: boolean;
-  isError?: boolean;
-  onClear?: (index: number) => void;
-  popper?:  {
-    styles?: { [key: string]: React.CSSProperties };
-    attributes?: { [key: string]: { [key: string]: string } | undefined };
-    setAnchor: React.Dispatch<React.SetStateAction<Element | null | undefined>>;
-    setPopper: React.Dispatch<
-      React.SetStateAction<HTMLElement | null | undefined>
-    >;
-  };
-};
-
-const TagsInputContext = createContext<TagsInputState>({});
-TagsInputContext.displayName = 'TagsInputContext';
-
-const useTagsInputContext = (component: string) => {
-  const context = useContext(TagsInputContext);
-  if (context === null) {
-    const err = new Error(
-      `<${component}> is missing a parent <TagsInput /> component.`
-    );
-    throw err;
-  }
-  return context;
-};
-
-const TagsInputRoot = forwardRef<HTMLSpanElement, TagsInputProps>(({
+const TagsInputRoot = forwardRef<HTMLSpanElement, TagsInputRootProps>(({
+  label,
   children,
   selected = [],
   type = 'text',
@@ -72,6 +20,7 @@ const TagsInputRoot = forwardRef<HTMLSpanElement, TagsInputProps>(({
   isError,
   onEnter,
   onClear,
+  tagsCase,
   popper,
 },
   ref
@@ -88,6 +37,7 @@ const TagsInputRoot = forwardRef<HTMLSpanElement, TagsInputProps>(({
     disabled: disabled,
     isError: isError,
     onClear: onClear,
+    tagsCase: tagsCase,
     popper: {
         styles: styles,
         attributes: attributes,
@@ -98,51 +48,58 @@ const TagsInputRoot = forwardRef<HTMLSpanElement, TagsInputProps>(({
 
   return (
     <TagsInputContext.Provider value={states}>
-      <span
-        tabIndex={-1}
-        className={mergeClassnames(
-          'w-full flex flex-col justify-between',
-          'rounded-lg py-2 px-3 bg-goku',
-          states.value.length ? 'gap-y-1' : 'gap-y-0',
-          isFocused
-            ? 'shadow-input-focus hover:shadow-input-focus'
-            : 'shadow-input hover:shadow-input-hov',
-          'focus:shadow-input-focus focus:outline-none',
-          'focus-visible::shadow-input-focus focus-visible::outline-none',
-          isError &&
-            'shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err',
-          disabled &&
-            'opacity-60 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed',
-          className
+      <Listbox horizontal={false}>
+        {label && (
+          <SelectButton.Label labelSize={size} idDisabled={disabled}>
+            {label}
+          </SelectButton.Label>
         )}
-        ref={ref}
-      >
-        <div className='flex flex-wrap justify-start items-start gap-1'>
-          {children}
-        </div>
-        <NativeInput
+        <span
+          tabIndex={-1}
           className={mergeClassnames(
-            'flex-grow h-full border-0 !rounded-none bg-transparent px-0',
-            '!shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none',
-            getTextSizes(size),
+            'w-full flex flex-col justify-between',
+            'rounded-lg py-2 px-3 bg-goku',
+            states.value.length ? 'gap-y-1' : 'gap-y-0',
+            isFocused
+              ? 'shadow-input-focus hover:shadow-input-focus'
+              : 'shadow-input hover:shadow-input-hov',
+            'focus:shadow-input-focus focus:outline-none',
+            'focus-visible::shadow-input-focus focus-visible::outline-none',
+            isError &&
+              'shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err',
+            disabled &&
+              'opacity-60 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed',
+            className
           )}
-          placeholder={placeholder}
-          error={isError}
-          disabled={disabled}
-          type={type}
-          onKeyDown={(e) => {
-            e.code === 'Enter'
-              && (e.target as HTMLInputElement).value.length
-              && onEnter
-              && onEnter((e.target as HTMLInputElement).value);
-            e.code === 'Enter'
-              && ((e.target as HTMLInputElement).value = '')
-          }}
-          onFocus={() => setIsFocused(true)}
-          onBlur={() => setIsFocused(false)}
-          ref={states.popper?.setAnchor}
-        />
-      </span>
+          ref={ref}
+        >
+          <div className='flex flex-wrap justify-start items-start gap-1'>
+            {children}
+          </div>
+          <NativeInput
+            className={mergeClassnames(
+              'flex-grow h-full border-0 !rounded-none bg-transparent px-0',
+              '!shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none',
+              getTextSizes(size),
+            )}
+            placeholder={placeholder}
+            error={isError}
+            disabled={disabled}
+            type={type}
+            onKeyDown={(e) => {
+              e.code === 'Enter'
+                && (e.target as HTMLInputElement).value.length
+                && onEnter
+                && onEnter((e.target as HTMLInputElement).value);
+              e.code === 'Enter'
+                && ((e.target as HTMLInputElement).value = '');
+            }}
+            onFocus={() => setIsFocused(true)}
+            onBlur={() => setIsFocused(false)}
+            ref={states.popper?.setAnchor}
+          />
+        </span>
+      </Listbox>
     </TagsInputContext.Provider>
   );
 });
@@ -153,11 +110,13 @@ const SelectedItem = ({
   label,
   ...rest
 }: SelectedItemProps) => {
-  const { size, disabled, isError, onClear } = useTagsInputContext('TagstInput.SelectedItem');
+  const { size, disabled, isError, tagsCase, onClear } = useTagsInputContext('TagstInput.SelectedItem');
   return (
     <span
+      key={index}
       className={mergeClassnames(
         'flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full',
+        getTextCase(tagsCase),
         className
       )}
     >
@@ -182,17 +141,6 @@ const SelectedItem = ({
     </span>
   );
 }
-
-const getTextSizes = (size: Size = 'md') => {
-  return (
-    {
-      sm: 'text-moon-14 leading-4',
-      md: 'text-moon-16 leading-5',
-      lg: 'text-moon-18 leading-5',
-      xl: 'text-moon-20 leading-5',
-    }[size] || 'text-moon-16 leading-5'
-  );
-};
 
 const TagsInput = Object.assign(TagsInputRoot, {
   SelectedItem,
