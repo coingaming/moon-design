@@ -5,7 +5,7 @@ const ComponentAnatomy: React.FC<{ children?: React.ReactNode }> = ({
   children,
 }) => (
   <PageSection title="Anatomy">
-    <pre className="flex w-full p-4 bg-gohan rounded-moon-s-sm overflow-scroll text-moon-14 text-bulma">
+    <pre className="flex w-full p-4 bg-gohan rounded-moon-s-sm overflow-x-auto text-moon-14 text-bulma">
       {children}
     </pre>
   </PageSection>

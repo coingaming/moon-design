@@ -476,6 +476,7 @@ Object {
             <input
               aria-label="date"
               class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible:shadow-input-focus focus-visible::outline-none h-14 leading-[3.5rem] rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus-visible:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus-visible:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input ltr:input-d rtl:input-d-rtl input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err"
+              max="9999-12-31"
               type="date"
             />
             <label
@@ -508,6 +509,7 @@ Object {
             <input
               aria-label="datetime-local"
               class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible:shadow-input-focus focus-visible::outline-none h-14 leading-[3.5rem] rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus-visible:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus-visible:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input ltr:input-d rtl:input-dt-local-rtl input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err"
+              max="9999-12-31T23:59"
               type="datetime-local"
             />
             <label
@@ -621,6 +623,7 @@ Object {
           <input
             aria-label="date"
             class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible:shadow-input-focus focus-visible::outline-none h-14 leading-[3.5rem] rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus-visible:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus-visible:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input ltr:input-d rtl:input-d-rtl input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err"
+            max="9999-12-31"
             type="date"
           />
           <label
@@ -653,6 +656,7 @@ Object {
           <input
             aria-label="datetime-local"
             class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible:shadow-input-focus focus-visible::outline-none h-14 leading-[3.5rem] rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus-visible:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus-visible:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input ltr:input-d rtl:input-dt-local-rtl input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err"
+            max="9999-12-31T23:59"
             type="datetime-local"
           />
           <label
@@ -1241,6 +1245,7 @@ Object {
           <input
             aria-label="date"
             class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible:shadow-input-focus focus-visible::outline-none h-14 leading-[3.5rem] rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus-visible:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus-visible:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input ltr:input-d rtl:input-d-rtl input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err"
+            max="9999-12-31"
             type="date"
           />
           <label
@@ -1273,6 +1278,7 @@ Object {
           <input
             aria-label="datetime-local"
             class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible:shadow-input-focus focus-visible::outline-none h-14 leading-[3.5rem] rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus-visible:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus-visible:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input ltr:input-d rtl:input-dt-local-rtl input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err"
+            max="9999-12-31T23:59"
             type="datetime-local"
           />
           <label
@@ -1382,6 +1388,7 @@ Object {
         <input
           aria-label="date"
           class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible:shadow-input-focus focus-visible::outline-none h-14 leading-[3.5rem] rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus-visible:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus-visible:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input ltr:input-d rtl:input-d-rtl input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err"
+          max="9999-12-31"
           type="date"
         />
         <label
@@ -1414,6 +1421,7 @@ Object {
         <input
           aria-label="datetime-local"
           class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible:shadow-input-focus focus-visible::outline-none h-14 leading-[3.5rem] rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus-visible:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus-visible:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input ltr:input-d rtl:input-dt-local-rtl input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err"
+          max="9999-12-31T23:59"
           type="datetime-local"
         />
         <label
