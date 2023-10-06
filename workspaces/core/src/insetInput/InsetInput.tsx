@@ -4,6 +4,7 @@ import type LabelProps from './private/types/LabelProps';
 import InsetInputContext from './private/utils/InsetInputContext';
 import useInsetInputContext from './private/utils/useInsetInputContext';
 import useFormItemContext from '../form/private/utils/useFormItemContext';
+import getMaxDate from '../input/private/utils/getMaxDate';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import useRegisterChild from '../private/utils/useRegisterChild';
 
@@ -29,6 +30,7 @@ const InsetInputRoot = forwardRef<HTMLInputElement, InsetInputProps>(
             type={rest.type}
             id={rest.id}
             disabled={disabled}
+            max={getMaxDate(rest.type)}
             className={mergeClassnames(
               'block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2]',
               'bg-transparent shadow-input hover:shadow-input-hov',

@@ -322,7 +322,7 @@ Object {
             class="w-full relative"
           >
             <textarea
-              class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none pb-0 border-b-[4.5rem] border-b-gohan border-solid"
+              class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none pb-0 border-b-[4.5rem] border-b-goku border-solid"
               placeholder="Text area with button"
               rows="3"
             />
@@ -341,7 +341,7 @@ Object {
             class="w-full relative"
           >
             <textarea
-              class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none resize-y pb-0 border-b-[4.5rem] border-b-gohan border-solid"
+              class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none resize-y pb-0 border-b-[4.5rem] border-b-goku border-solid"
               placeholder="Text area with scaling and button"
               rows="3"
             />
@@ -371,7 +371,7 @@ Object {
           class="w-full relative"
         >
           <textarea
-            class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none pb-0 border-b-[4.5rem] border-b-gohan border-solid"
+            class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none pb-0 border-b-[4.5rem] border-b-goku border-solid"
             placeholder="Text area with button"
             rows="3"
           />
@@ -390,7 +390,7 @@ Object {
           class="w-full relative"
         >
           <textarea
-            class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none resize-y pb-0 border-b-[4.5rem] border-b-gohan border-solid"
+            class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none resize-y pb-0 border-b-[4.5rem] border-b-goku border-solid"
             placeholder="Text area with scaling and button"
             rows="3"
           />
@@ -757,7 +757,7 @@ Object {
           class="w-full relative"
         >
           <textarea
-            class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none pb-0 border-b-[4.5rem] border-b-gohan border-solid"
+            class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none pb-0 border-b-[4.5rem] border-b-goku border-solid"
             placeholder="Text area with button"
             rows="3"
           />
@@ -776,7 +776,7 @@ Object {
           class="w-full relative"
         >
           <textarea
-            class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none resize-y pb-0 border-b-[4.5rem] border-b-gohan border-solid"
+            class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none resize-y pb-0 border-b-[4.5rem] border-b-goku border-solid"
             placeholder="Text area with scaling and button"
             rows="3"
           />
@@ -802,7 +802,7 @@ Object {
         class="w-full relative"
       >
         <textarea
-          class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none pb-0 border-b-[4.5rem] border-b-gohan border-solid"
+          class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none pb-0 border-b-[4.5rem] border-b-goku border-solid"
           placeholder="Text area with button"
           rows="3"
         />
@@ -821,7 +821,7 @@ Object {
         class="w-full relative"
       >
         <textarea
-          class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none resize-y pb-0 border-b-[4.5rem] border-b-gohan border-solid"
+          class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none resize-y pb-0 border-b-[4.5rem] border-b-goku border-solid"
           placeholder="Text area with scaling and button"
           rows="3"
         />
