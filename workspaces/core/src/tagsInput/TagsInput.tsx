@@ -98,10 +98,10 @@ const SelectedItem = ({
 }: SelectedItemProps) => {
   const { size, disabled, isError, onClear } = useTagsInputContext('TagstInput.SelectedItem');
   return (
-    <span
+    <div
       key={index}
       className={mergeClassnames(
-        'flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full',
+        'flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full',
         className
       )}
     >
@@ -124,7 +124,7 @@ const SelectedItem = ({
           </SelectButton.Chip>
         </SelectButton.Value>
       </SelectButton>
-    </span>
+    </div>
   );
 }
 

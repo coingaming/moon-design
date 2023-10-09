@@ -359,8 +359,8 @@ Object {
                 <div
                   class="flex flex-wrap justify-start items-start gap-1"
                 >
-                  <span
-                    class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full"
+                  <div
+                    class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
                   >
                     <div
                       class="relative"
@@ -398,7 +398,7 @@ Object {
                         </div>
                       </span>
                     </div>
-                  </span>
+                  </div>
                 </div>
                 <input
                   class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16 leading-5"
@@ -423,8 +423,8 @@ Object {
                 <div
                   class="flex flex-wrap justify-start items-start gap-1"
                 >
-                  <span
-                    class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full"
+                  <div
+                    class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
                   >
                     <div
                       class="relative"
@@ -462,7 +462,7 @@ Object {
                         </div>
                       </span>
                     </div>
-                  </span>
+                  </div>
                 </div>
                 <input
                   class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err opacity-60 cursor-not-allowed flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16 leading-5"
@@ -488,8 +488,8 @@ Object {
                 <div
                   class="flex flex-wrap justify-start items-start gap-1"
                 >
-                  <span
-                    class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full"
+                  <div
+                    class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
                   >
                     <div
                       class="relative"
@@ -527,7 +527,7 @@ Object {
                         </div>
                       </span>
                     </div>
-                  </span>
+                  </div>
                 </div>
                 <input
                   class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16 leading-5"
@@ -568,8 +568,8 @@ Object {
               <div
                 class="flex flex-wrap justify-start items-start gap-1"
               >
-                <span
-                  class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full"
+                <div
+                  class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
                 >
                   <div
                     class="relative"
@@ -607,7 +607,7 @@ Object {
                       </div>
                     </span>
                   </div>
-                </span>
+                </div>
               </div>
               <input
                 class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16 leading-5"
@@ -632,8 +632,8 @@ Object {
               <div
                 class="flex flex-wrap justify-start items-start gap-1"
               >
-                <span
-                  class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full"
+                <div
+                  class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
                 >
                   <div
                     class="relative"
@@ -671,7 +671,7 @@ Object {
                       </div>
                     </span>
                   </div>
-                </span>
+                </div>
               </div>
               <input
                 class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err opacity-60 cursor-not-allowed flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16 leading-5"
@@ -697,8 +697,8 @@ Object {
               <div
                 class="flex flex-wrap justify-start items-start gap-1"
               >
-                <span
-                  class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full"
+                <div
+                  class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
                 >
                   <div
                     class="relative"
@@ -736,7 +736,7 @@ Object {
                       </div>
                     </span>
                   </div>
-                </span>
+                </div>
               </div>
               <input
                 class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16 leading-5"
@@ -834,8 +834,8 @@ Object {
                 <div
                   class="flex flex-wrap justify-start items-start gap-1"
                 >
-                  <span
-                    class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full"
+                  <div
+                    class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
                   >
                     <div
                       class="relative"
@@ -873,7 +873,7 @@ Object {
                         </div>
                       </span>
                     </div>
-                  </span>
+                  </div>
                 </div>
                 <input
                   class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16 leading-5"
@@ -898,8 +898,8 @@ Object {
                 <div
                   class="flex flex-wrap justify-start items-start gap-1"
                 >
-                  <span
-                    class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full"
+                  <div
+                    class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
                   >
                     <div
                       class="relative"
@@ -937,7 +937,7 @@ Object {
                         </div>
                       </span>
                     </div>
-                  </span>
+                  </div>
                 </div>
                 <input
                   class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16 leading-5"
@@ -977,8 +977,8 @@ Object {
               <div
                 class="flex flex-wrap justify-start items-start gap-1"
               >
-                <span
-                  class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full"
+                <div
+                  class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
                 >
                   <div
                     class="relative"
@@ -1016,7 +1016,7 @@ Object {
                       </div>
                     </span>
                   </div>
-                </span>
+                </div>
               </div>
               <input
                 class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16 leading-5"
@@ -1041,8 +1041,8 @@ Object {
               <div
                 class="flex flex-wrap justify-start items-start gap-1"
               >
-                <span
-                  class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full"
+                <div
+                  class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
                 >
                   <div
                     class="relative"
@@ -1080,7 +1080,7 @@ Object {
                       </div>
                     </span>
                   </div>
-                </span>
+                </div>
               </div>
               <input
                 class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16 leading-5"
@@ -1486,8 +1486,8 @@ Object {
               <div
                 class="flex flex-wrap justify-start items-start gap-1"
               >
-                <span
-                  class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full"
+                <div
+                  class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
                 >
                   <div
                     class="relative"
@@ -1525,7 +1525,7 @@ Object {
                       </div>
                     </span>
                   </div>
-                </span>
+                </div>
               </div>
               <input
                 class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16 leading-5"
@@ -1550,8 +1550,8 @@ Object {
               <div
                 class="flex flex-wrap justify-start items-start gap-1"
               >
-                <span
-                  class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full"
+                <div
+                  class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
                 >
                   <div
                     class="relative"
@@ -1589,7 +1589,7 @@ Object {
                       </div>
                     </span>
                   </div>
-                </span>
+                </div>
               </div>
               <input
                 class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err opacity-60 cursor-not-allowed flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16 leading-5"
@@ -1615,8 +1615,8 @@ Object {
               <div
                 class="flex flex-wrap justify-start items-start gap-1"
               >
-                <span
-                  class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full"
+                <div
+                  class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
                 >
                   <div
                     class="relative"
@@ -1654,7 +1654,7 @@ Object {
                       </div>
                     </span>
                   </div>
-                </span>
+                </div>
               </div>
               <input
                 class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16 leading-5"
@@ -1691,8 +1691,8 @@ Object {
             <div
               class="flex flex-wrap justify-start items-start gap-1"
             >
-              <span
-                class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full"
+              <div
+                class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
               >
                 <div
                   class="relative"
@@ -1730,7 +1730,7 @@ Object {
                     </div>
                   </span>
                 </div>
-              </span>
+              </div>
             </div>
             <input
               class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16 leading-5"
@@ -1755,8 +1755,8 @@ Object {
             <div
               class="flex flex-wrap justify-start items-start gap-1"
             >
-              <span
-                class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full"
+              <div
+                class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
               >
                 <div
                   class="relative"
@@ -1794,7 +1794,7 @@ Object {
                     </div>
                   </span>
                 </div>
-              </span>
+              </div>
             </div>
             <input
               class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err opacity-60 cursor-not-allowed flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16 leading-5"
@@ -1820,8 +1820,8 @@ Object {
             <div
               class="flex flex-wrap justify-start items-start gap-1"
             >
-              <span
-                class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full"
+              <div
+                class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
               >
                 <div
                   class="relative"
@@ -1859,7 +1859,7 @@ Object {
                     </div>
                   </span>
                 </div>
-              </span>
+              </div>
             </div>
             <input
               class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16 leading-5"
@@ -1953,8 +1953,8 @@ Object {
               <div
                 class="flex flex-wrap justify-start items-start gap-1"
               >
-                <span
-                  class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full"
+                <div
+                  class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
                 >
                   <div
                     class="relative"
@@ -1992,7 +1992,7 @@ Object {
                       </div>
                     </span>
                   </div>
-                </span>
+                </div>
               </div>
               <input
                 class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16 leading-5"
@@ -2017,8 +2017,8 @@ Object {
               <div
                 class="flex flex-wrap justify-start items-start gap-1"
               >
-                <span
-                  class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full"
+                <div
+                  class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
                 >
                   <div
                     class="relative"
@@ -2056,7 +2056,7 @@ Object {
                       </div>
                     </span>
                   </div>
-                </span>
+                </div>
               </div>
               <input
                 class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16 leading-5"
@@ -2092,8 +2092,8 @@ Object {
             <div
               class="flex flex-wrap justify-start items-start gap-1"
             >
-              <span
-                class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full"
+              <div
+                class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
               >
                 <div
                   class="relative"
@@ -2131,7 +2131,7 @@ Object {
                     </div>
                   </span>
                 </div>
-              </span>
+              </div>
             </div>
             <input
               class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16 leading-5"
@@ -2156,8 +2156,8 @@ Object {
             <div
               class="flex flex-wrap justify-start items-start gap-1"
             >
-              <span
-                class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full"
+              <div
+                class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
               >
                 <div
                   class="relative"
@@ -2195,7 +2195,7 @@ Object {
                     </div>
                   </span>
                 </div>
-              </span>
+              </div>
             </div>
             <input
               class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16 leading-5"
