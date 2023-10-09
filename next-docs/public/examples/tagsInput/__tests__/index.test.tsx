@@ -6,7 +6,7 @@ import { cleanup, render } from '@testing-library/react';
 import Default from '../Default';
 import Sizes from '../Sizes';
 import States from '../States';
-import TagsCases from '../TagsCases';
+import TagsCases from '../LowerCase';
 
 const withRtl = (component: JSX.Element) => <div dir="rtl">{component}</div>;
 

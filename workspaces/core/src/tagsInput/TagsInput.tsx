@@ -1,12 +1,10 @@
 import React, { forwardRef, useState } from "react";
-import { usePopper } from "react-popper";
-import { Input  as NativeInput, SelectButton, mergeClassnames } from "../index";
-import { TagsInputContext, useTagsInputContext } from "./private/utils/useTagsInputContext";
-import { TagsInputRootProps } from "./private/types/TagsInputRootProps";
-import SelectedItemProps from "./private/types/SelectedItemProps";
-import getTextSizes from "./private/utils/useTextSizes";
-import getTextCase from "./private/utils/useTextCase";
 import { Listbox } from "@headlessui/react";
+import SelectedItemProps from "./private/types/SelectedItemProps";
+import { TagsInputRootProps } from "./private/types/TagsInputRootProps";
+import { TagsInputContext, useTagsInputContext } from "./private/utils/useTagsInputContext";
+import getTextSizes from "./private/utils/useTextSizes";
+import { Input  as NativeInput, SelectButton, mergeClassnames } from "../index";
 
 const TagsInputRoot = forwardRef<HTMLSpanElement, TagsInputRootProps>(({
   label,
@@ -20,30 +18,18 @@ const TagsInputRoot = forwardRef<HTMLSpanElement, TagsInputRootProps>(({
   isError,
   onEnter,
   onClear,
-  tagsCase,
-  popper,
+  isUppercase,
 },
   ref
 ) => {
   const [isFocused, setIsFocused] = useState(false);
-  const [anchorEl, setAnchorEl] = React.useState<Element | null>();
-  const [popperEl, setPopperEl] = React.useState<HTMLElement | null>();
-
-  let { styles, attributes } = usePopper(anchorEl, popperEl);
-
   const states = {
+    isUppercase,
     value: selected,
     size: size,
     disabled: disabled,
     isError: isError,
     onClear: onClear,
-    tagsCase: tagsCase,
-    popper: {
-        styles: styles,
-        attributes: attributes,
-        setAnchor: setAnchorEl,
-        setPopper: setPopperEl,
-    }
   }
 
   return (
@@ -96,7 +82,6 @@ const TagsInputRoot = forwardRef<HTMLSpanElement, TagsInputRootProps>(({
             }}
             onFocus={() => setIsFocused(true)}
             onBlur={() => setIsFocused(false)}
-            ref={states.popper?.setAnchor}
           />
         </span>
       </Listbox>
@@ -108,15 +93,15 @@ const SelectedItem = ({
   className,
   index,
   label,
+  isUppercase,
   ...rest
 }: SelectedItemProps) => {
-  const { size, disabled, isError, tagsCase, onClear } = useTagsInputContext('TagstInput.SelectedItem');
+  const { size, disabled, isError, onClear } = useTagsInputContext('TagstInput.SelectedItem');
   return (
     <span
       key={index}
       className={mergeClassnames(
-        'flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full',
-        getTextCase(tagsCase),
+        'flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full',
         className
       )}
     >
@@ -128,6 +113,7 @@ const SelectedItem = ({
       >
         <SelectButton.Value>
           <SelectButton.Chip
+            isUppercase={isUppercase}
             onClear={() => !disabled && onClear && onClear(index)}
           >
             <span

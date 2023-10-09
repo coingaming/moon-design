@@ -2,13 +2,8 @@ import { TagsInput } from "@heathmont/moon-core-tw";
 import { useCallback, useState } from "react";
 
 const Example = () => {
-  const [selected0, setSelected0] = useState<string[]>(['Preset data']);
   const [selected1, setSelected1] = useState<string[]>(['Preset data']);
   const [selected2, setSelected2] = useState<string[]>(['Preset data']);
-
-  const onEnter0 = useCallback((value: string) => {
-    setSelected0([...selected0, value]);
-  }, [selected0, setSelected0]);
 
   const onEnter1 = useCallback((value: string) => {
     setSelected1([...selected1, value]);
@@ -17,10 +12,6 @@ const Example = () => {
   const onEnter2 = useCallback((value: string) => {
     setSelected2([...selected2, value]);
   }, [selected2, setSelected2]);
-
-  const onClear0 = useCallback((index: number) => {
-    setSelected0(selected0.filter((item, id) => id !== index));
-  }, [selected0, setSelected0]);
 
   const onClear1 = useCallback((index: number) => {
     setSelected1(selected1.filter((item, id) => id !== index));
@@ -35,28 +26,13 @@ const Example = () => {
       <div className="flex flex-col items-center lg:flex-row lg:justify-center lg:items-start w-full gap-4">
         <div className="flex flex-col w-full max-w-xs">
           <TagsInput
-            selected={selected0}
-            label="Normal"
-            tagsCase="normal"
-            onEnter={onEnter0}
-            onClear={onClear0}
-          >
-            {selected0.map((text, index) => (
-              <TagsInput.SelectedItem index={index} label={text} />
-            ))}
-          </TagsInput>
-        </div>
-
-        <div className="flex flex-col w-full max-w-xs">
-          <TagsInput
             selected={selected1}
             label="Lower"
-            tagsCase="lower"
             onEnter={onEnter1}
             onClear={onClear1}
           >
             {selected1.map((text, index) => (
-              <TagsInput.SelectedItem index={index} label={text} />
+              <TagsInput.SelectedItem isUppercase={false} index={index} label={text} />
             ))}
           </TagsInput>
         </div>
@@ -65,7 +41,6 @@ const Example = () => {
           <TagsInput
             selected={selected2}
             label="Capitalized"
-            tagsCase="capitalize"
             onEnter={onEnter2}
             onClear={onClear2}
           >

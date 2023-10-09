@@ -22,6 +22,7 @@ const SelectButtonRoot = forwardRef(
       idDisabled,
       open,
       children,
+      isUppercase,
       ...rest
     }: SelectButtonProps,
     ref: Ref<HTMLInputElement>
@@ -158,9 +159,9 @@ const Control = () => {
   );
 };
 
-const Chip = ({ children, onClear }: ChipProps) => {
+const Chip = ({ children, onClear, isUppercase, ...rest }: ChipProps) => {
   const { size } = useSelectButtonContext('SelectButton.Control');
-  const cliclHandler = useCallback(
+  const clickHandler = useCallback(
     (e: any) => {
       e.preventDefault();
       onClear && onClear();
@@ -171,8 +172,10 @@ const Chip = ({ children, onClear }: ChipProps) => {
     <Tag
       size={size === 'sm' ? '2xs' : 'xs'}
       iconRight={
-        <ControlsCloseSmall onClick={cliclHandler} className="cursor-pointer" />
+        <ControlsCloseSmall onClick={clickHandler} className="cursor-pointer" />
       }
+      isUppercase={isUppercase}
+      {...rest}
     >
       {children}
     </Tag>
