@@ -4,6 +4,9 @@ import type { ComponentNames } from '../../components/getComponent';
 import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/tagsInput/Default';
+import Sizes from '../../public/examples/tagsInput/Sizes';
+import States from '../../public/examples/tagsInput/States';
+import TagsCases from '../../public/examples/tagsInput/TagsCases';
 import useComponent from '../../utils/useComponent';
 
 const COMPONENT_NAME: ComponentNames = 'TagsInput';
@@ -33,6 +36,24 @@ const PageTagsInput = () => {
         title="Default"
         preview={<Default />}
         code={examples ? examples.Default : 'Loading'}
+      />
+
+      <Preview
+        title="Different sizes"
+        preview={<Sizes />}
+        code={examples ? examples.Sizes : 'Loading'}
+      />
+
+      <Preview
+        title="States"
+        preview={<States />}
+        code={examples ? examples.States : 'Loading'}
+      />
+
+      <Preview
+        title="Tags cases"
+        preview={<TagsCases />}
+        code={examples ? examples.TagsCases : 'Loading'}
       />
 
       <PropsTable
