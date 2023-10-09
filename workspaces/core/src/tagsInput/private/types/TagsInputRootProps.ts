@@ -1,4 +1,3 @@
-import Case from "./Case";
 import Size from "./Size";
 
 export interface TagsInputRootProps
