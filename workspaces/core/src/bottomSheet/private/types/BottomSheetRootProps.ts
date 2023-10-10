@@ -6,6 +6,8 @@ type BottomSheetRootProps = {
   hasShadow?: boolean;
   size?: Size;
   children?: React.ReactNode;
+  className?: string;
+  rootId?: string;
 };
 
 export default BottomSheetRootProps;
