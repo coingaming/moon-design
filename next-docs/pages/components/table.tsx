@@ -13,6 +13,7 @@ import DeepTable from '../../public/examples/table/DeepTable';
 import Default from '../../public/examples/table/Default';
 import Editable from '../../public/examples/table/Editable';
 import ExpandedRows from '../../public/examples/table/ExpandedRows';
+import ExpandedWithModals from '../../public/examples/table/ExpandedWithModals';
 import LongData from '../../public/examples/table/LongData';
 import MiniMap from '../../public/examples/table/MiniMap';
 import RowGaps from '../../public/examples/table/RowGaps';
@@ -68,7 +69,7 @@ const PageTable = () => {
       <Preview
         title="Different row sizes"
         preview={<RowSizes />}
-        code={examples ? examples.RowSizes : 'Loading'}
+        code={examples ? examples.RowSizes : 'Lofoading'}
       />
       <Preview
         title="Clickable rows"
@@ -104,6 +105,11 @@ const PageTable = () => {
         title="Expanded Rows with deep nesting"
         preview={<DeepTable />}
         code={examples ? examples.DeepTable : 'Loading'}
+      />
+      <Preview
+        title="Expanded Rows with calls the modal windows"
+        preview={<ExpandedWithModals />}
+        code={examples ? examples.ExpandedWithModals : 'Loading'}
       />
       <Preview
         title="Expanded rows with custom content"
