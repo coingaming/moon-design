@@ -69,7 +69,7 @@ const PageTable = () => {
       <Preview
         title="Different row sizes"
         preview={<RowSizes />}
-        code={examples ? examples.RowSizes : 'Lofoading'}
+        code={examples ? examples.RowSizes : 'Loading'}
       />
       <Preview
         title="Clickable rows"
