@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import React from 'react';
 import Accordion from '@heathmont/moon-core-tw/lib/es/accordion/Accordion';
