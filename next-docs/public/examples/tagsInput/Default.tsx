@@ -13,10 +13,9 @@ const Example = () => {
   }, [selected, setSelected]);
 
   return (
-    <div className="flex flex-col lg:flex-row lg:justify-center items-center w-full gap-4">
+    <div className="flex flex-col lg:flex-row lg:justify-center items-center w-full max-w-xs gap-4">
       <TagsInput
         selected={selected}
-        className="max-w-xs"
         onEnter={onEnter}
         onClear={onClear}
       >

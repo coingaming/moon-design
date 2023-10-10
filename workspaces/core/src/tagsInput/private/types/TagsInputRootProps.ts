@@ -6,7 +6,7 @@ export interface TagsInputRootProps
     'children' | 'ref'
   > {
   children?: React.ReactNode;
-  label?: string;
+  label?: JSX.Element | string;
   selected: string[];
   className?: string;
   placeholder?: string;
