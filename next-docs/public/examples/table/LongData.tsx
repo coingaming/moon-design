@@ -1,6 +1,7 @@
 import React from 'react';
 import { Table } from '@heathmont/moon-table-tw';
 import ClipProps from '@heathmont/moon-table-tw/lib/private/types/ClipProps';
+import { Tag } from '@heathmont/moon-core-tw';
 
 const Example = () => {
   const columnsInitial = [
@@ -47,6 +48,8 @@ const Example = () => {
           'Header': 'Currency',
           'accessor': 'currency',
           'Footer': '',
+          /*'maxWidth': Number.MAX_SAFE_INTEGER,
+          'width': 80 */
         },
       ],
     },
@@ -72,8 +75,8 @@ const Example = () => {
         client: 'Bender (old) Coingaming',
         gameNameAndProvider: 'Pragmatic Play',
         amount: 22.97,
-        currency: 'USD',
-        status: 'SUCCESS'
+        currency: <Tag className="bg-gray-100 text-lg text-gray-600 max-w-fit">USD</Tag>,
+        status: <Tag className="bg-roshi-10 text-lg text-roshi max-w-fit">SUCCESS</Tag>,
       };
     });
   };
@@ -82,10 +85,7 @@ const Example = () => {
     () => ({
       minWidth: 10,
       width: 150,
-
-      /* The next prop is commented to provide an opportunity
-        to expand any table column as much as possible */
-      /* maxWidth: 400, */
+      maxWidth: Number.MAX_SAFE_INTEGER,
     }),
     []
   );

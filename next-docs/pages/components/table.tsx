@@ -8,6 +8,7 @@ import Calendar from '../../public/examples/table/Calendar';
 import CellBorder from '../../public/examples/table/CellBorder';
 import ClickableRows from '../../public/examples/table/ClickableRows';
 import CustomColors from '../../public/examples/table/CustomColors';
+import CustomColumnWidths from '../../public/examples/table/CustomColumnWidths';
 import CustomContent from '../../public/examples/table/CustomContent';
 import DeepTable from '../../public/examples/table/DeepTable';
 import Default from '../../public/examples/table/Default';
@@ -142,9 +143,14 @@ const PageTable = () => {
         code={examples ? examples.LongData : 'Loading'}
       />
       <Preview
-        title="Tooltips (with a transparent one in the second row)"
+        title="Tooltips"
         preview={<Tooltips />}
         code={examples ? examples.Tooltips : 'Loading'}
+      />
+      <Preview
+        title="Long data table (with custom column widths)"
+        preview={<CustomColumnWidths />}
+        code={examples ? examples.CustomColumnWidths : 'Loading'}
       />
       <PropsTable
         title="Table props"
