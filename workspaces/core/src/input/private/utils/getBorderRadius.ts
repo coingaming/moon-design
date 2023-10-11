@@ -1,4 +1,6 @@
-const getBorderRadius = (size?: string) => {
+import type InputProps from '../types/InputProps';
+
+const getBorderRadius = (size?: InputProps['size'] | 'xl'): string => {
   switch (size) {
     case 'xl':
     case 'lg':

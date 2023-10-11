@@ -1,4 +1,6 @@
-const getSizeStyles = (size?: string) => {
+import type InputProps from '../types/InputProps';
+
+const getSizeStyles = (size?: InputProps['size'] | 'xl'): string => {
   switch (size) {
     case 'xl':
       return 'h-14 leading-[3.5rem] rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm';
