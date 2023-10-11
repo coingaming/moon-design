@@ -12,6 +12,7 @@ import SelectableRows from '../SelectableRows';
 import SelectableCheckboxes from '../SelectableCheckboxes';
 import CustomColors from '../CustomColors';
 import ExpandedRows from '../ExpandedRows';
+import ExpandedWithModals from '../ExpandedWithModals';
 import Sorting from '../Sorting';
 import DeepTable from '../DeepTable';
 import CustomContent from '../CustomContent';
@@ -68,6 +69,10 @@ describe('Table', () => {
   });
   it('renders DeepTable', () => {
     const tree = render(<DeepTable />);
+    expect(tree).toMatchSnapshot();
+  });
+  it('renders ExpandedWithModals', () => {
+    const tree = render(<ExpandedWithModals />);
     expect(tree).toMatchSnapshot();
   });
   it('renders CustomContent', () => {
@@ -144,6 +149,10 @@ describe('Table in RTL', () => {
   });
   it('renders DeepTable', () => {
     const tree = render(withRtl(<DeepTable />));
+    expect(tree).toMatchSnapshot();
+  });
+  it('renders ExpandedWithModals', () => {
+    const tree = render(withRtl(<ExpandedWithModals />));
     expect(tree).toMatchSnapshot();
   });
   it('renders CustomContent', () => {
