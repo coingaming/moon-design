@@ -5,6 +5,7 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
     './node_modules/@heathmont/moon-core-tw/**/*.{js,ts,jsx,tsx}',
+    './node_modules/@heathmont/moon-base-tw/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
     extend: {},
@@ -13,4 +14,4 @@ module.exports = {
     require('@heathmont/moon-core-tw/lib/private/presets/ds-moon-preset'),
   ],
   // TODO rtl-plugin
-}
+};
