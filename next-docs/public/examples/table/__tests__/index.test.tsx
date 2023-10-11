@@ -21,6 +21,7 @@ import Editable from '../Editable';
 import Zebra from '../Zebra';
 import LongData from '../LongData';
 import Tooltips from '../Tooltips';
+import CustomColumnWidths from '../CustomColumnWidths';
 
 const withRtl = (component: JSX.Element) => <div dir="rtl">{component}</div>;
 
@@ -98,6 +99,10 @@ describe('Table', () => {
     const tree = render(<Tooltips />);
     expect(tree).toMatchSnapshot();
   });
+  it('renders CustomColumnWidths', () => {
+    const tree = render(<CustomColumnWidths />);
+    expect(tree).toMatchSnapshot();
+  });
 });
 
 describe('Table in RTL', () => {
@@ -172,6 +177,10 @@ describe('Table in RTL', () => {
   });
   it('renders Tooltips', () => {
     const tree = render(withRtl(<Tooltips />));
+    expect(tree).toMatchSnapshot();
+  });
+  it('renders CustomColumnWidths', () => {
+    const tree = render(withRtl(<CustomColumnWidths />));
     expect(tree).toMatchSnapshot();
   });
 });
