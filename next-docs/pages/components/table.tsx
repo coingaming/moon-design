@@ -13,6 +13,7 @@ import CustomContent from '../../public/examples/table/CustomContent';
 import DeepTable from '../../public/examples/table/DeepTable';
 import Default from '../../public/examples/table/Default';
 import Editable from '../../public/examples/table/Editable';
+import ExpandableCheckboxes from '../../public/examples/table/ExpandableCheckboxes';
 import ExpandedRows from '../../public/examples/table/ExpandedRows';
 import ExpandedWithModals from '../../public/examples/table/ExpandedWithModals';
 import LongData from '../../public/examples/table/LongData';
@@ -108,9 +109,14 @@ const PageTable = () => {
         code={examples ? examples.DeepTable : 'Loading'}
       />
       <Preview
-        title="Expanded Rows with calls the modal windows"
+        title="Expanded rows with calls the modal windows"
         preview={<ExpandedWithModals />}
         code={examples ? examples.ExpandedWithModals : 'Loading'}
+      />
+      <Preview
+        title="Expanded selectable rows with checkboxes"
+        preview={<ExpandableCheckboxes />}
+        code={examples ? examples.ExpandableCheckboxes : 'Loading'}
       />
       <Preview
         title="Expanded rows with custom content"
