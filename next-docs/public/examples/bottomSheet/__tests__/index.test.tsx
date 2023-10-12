@@ -9,6 +9,7 @@ import Default from '../Default';
 import Customization from '../Customization';
 import WithDraghandle from '../WithDraghandle';
 import WithTitle from '../WithTitle';
+import RootPortal from '../RootPortal';
 
 const withRtl = (component: JSX.Element) => <div dir="rtl">{component}</div>;
 
@@ -39,6 +40,11 @@ describe('BottomSheet', () => {
     await act(() => fireEvent.click(tree.getByRole('button')));
     expect(tree).toMatchSnapshot();
   });
+  it('renders custom root', async () => {
+    const tree = render(<RootPortal />);
+    await act(() => fireEvent.click(tree.getByRole('button')));
+    expect(tree).toMatchSnapshot();
+  });
 });
 
 describe('BottomSheet in RTL', () => {
@@ -65,6 +71,11 @@ describe('BottomSheet in RTL', () => {
   });
   it('renders Customization', async () => {
     const tree = render(withRtl(<Customization />));
+    await act(() => fireEvent.click(tree.getByRole('button')));
+    expect(tree).toMatchSnapshot();
+  });
+  it('renders custom root', async () => {
+    const tree = render(withRtl(<RootPortal />));
     await act(() => fireEvent.click(tree.getByRole('button')));
     expect(tree).toMatchSnapshot();
   });

@@ -7,6 +7,7 @@ import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Customization from '../../public/examples/bottomSheet/Customization';
 import Default from '../../public/examples/bottomSheet/Default';
+import RootPortal from '../../public/examples/bottomSheet/RootPortal';
 import Sizes from '../../public/examples/bottomSheet/Sizes';
 import WithDraghandle from '../../public/examples/bottomSheet/WithDraghandle';
 import WithTitle from '../../public/examples/bottomSheet/WithTitle';
@@ -41,6 +42,30 @@ const PageBottomSheet = () => {
           </a>
           .
         </p>
+        <h6 className="font-medium text-moon-18">Custom root element.</h6>
+        <p>
+          If it is necessary to insert a component inside the shadow root
+          instead of the document.body, follow these steps:
+        </p>
+        <ul>
+          <li>
+            1. Add the following HTML code in the location where the component
+            should be rendered:{' '}
+            <pre className="flex w-full p-2 bg-gohan rounded-moon-s-sm overflow-scroll text-moon-14 text-bulma">
+              {`<div id="headlessui-portal-root"><div /></div>`}
+            </pre>
+          </li>
+          <li>
+            2. Set a prop <b>rootId</b> to the {`<BottomSheet>`} component with
+            the id of the root element. Example:
+            <pre className="flex w-full p-2 bg-gohan rounded-moon-s-sm overflow-scroll text-moon-14 text-bulma">
+              {`<BottomSheet rootId="__next">...</BottomSheet>`}
+            </pre>
+            By doing this, the "inert" attribute that was added to an ancestor
+            will be removed automatically, and the BottomSheet will become
+            interactive.
+          </li>
+        </ul>
       </ComponentPageDescription>
       <ComponentAnatomy>
         {`<BottomSheet>
@@ -78,6 +103,12 @@ const PageBottomSheet = () => {
         preview={<Customization />}
         code={examples ? examples.Customization : 'Loading'}
       />
+      <Preview
+        title="Custom root element"
+        preview={<RootPortal />}
+        code={examples ? examples.RootPortal : 'Loading'}
+        description="*Please find additional information in description above"
+      />
       <PropsTable
         title="BottomSheet"
         data={[
@@ -94,6 +125,20 @@ const PageBottomSheet = () => {
             required: true,
             default: '-',
             description: 'Whether the BottomSheet is open or not',
+          },
+          {
+            name: 'rootId',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Root element id with inert attribute',
+          },
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Tailwind classes for customization',
           },
         ]}
       />
