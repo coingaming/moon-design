@@ -18,6 +18,8 @@ const BottomSheetRoot = ({
   hasShadow, // deprecated
   size, // deprecated
   children,
+  className,
+  rootId,
 }: BottomSheetRootProps) => {
   const [state, dispatch] = useReducer(stateReducer, {
     bottomSheetChildren: [],
@@ -26,12 +28,32 @@ const BottomSheetRoot = ({
     dispatch?.({ type: 'RegisterChild', children: child });
     return () => dispatch?.({ type: 'UnregisterChild', children: child });
   }, []);
+
+  const onCloseHandler = () => {
+    if (!onClose) return;
+    onClose();
+  };
+
+  useEffect(() => {
+    if (!rootId) return;
+    if (open) {
+      setTimeout(() => {
+        const rootNode = document.getElementById(rootId);
+        if (rootNode) rootNode.inert = false;
+      }, 100);
+    }
+  }, [open]);
+
   return (
     <BottomSheetContext.Provider
       value={{ ...state, size, registerChild, dispatch }}
     >
       <Transition appear show={open} as={React.Fragment}>
-        <Dialog as="div" className="fixed inset-0 z-50" onClose={onClose}>
+        <Dialog
+          as="div"
+          className={mergeClassnames('fixed inset-0 z-50', className)}
+          onClose={onCloseHandler}
+        >
           {React.Children.map<ReactNode, ReactNode>(children, (child) => {
             if (React.isValidElement(child)) {
               let extraProps = {};
