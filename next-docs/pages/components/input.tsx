@@ -4,6 +4,7 @@ import type { ComponentNames } from '../../components/getComponent';
 import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Bg from '../../public/examples/input/Bg';
+import CustomDate from '../../public/examples/input/CustomDate';
 import Default from '../../public/examples/input/Default';
 import Sizes from '../../public/examples/input/Sizes';
 import States from '../../public/examples/input/States';
@@ -53,6 +54,11 @@ const PageInput = () => {
         title="TextInput types"
         preview={<Types />}
         code={examples ? examples.Types : 'Loading'}
+      />
+      <Preview
+        title="Input type date customisation"
+        preview={<CustomDate />}
+        code={examples ? examples.CustomDate : 'Loading'}
       />
       <PropsTable
         title="Input props"

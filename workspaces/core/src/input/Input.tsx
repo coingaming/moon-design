@@ -48,7 +48,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
           'placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75',
           'read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input',
           type === 'number' && 'input-number-clear',
-          type === 'date' && 'input-d',
+          '[&[type="date"]::-webkit-calendar-picker-indicator]:right-[0.875rem]',
           type === 'date' && isRtl && 'input-d-rtl',
           type === 'time' && 'input-t',
           type === 'time' && isRtl && 'input-t-rtl',
