@@ -1,5 +1,19 @@
 # Change Log
 
+## 10.10.0
+
+### Minor Changes
+
+- Deploy 10.10.0
+
+### Patch Changes
+
+- Updated dependencies
+  - @heathmont/moon-core-tw@10.10.0
+  - @heathmont/moon-cmdk-tw@10.10.0
+  - @heathmont/moon-table-tw@10.10.0
+  - @heathmont/moon-themes-tw@10.10.0
+
 ## 10.9.1
 
 ### Patch Changes
