@@ -15,6 +15,33 @@ import useComponent from '../../utils/useComponent';
 
 const COMPONENT_NAME: ComponentNames = 'BottomSheet';
 
+const CustomRootDescription = () => (
+  <>
+    <p>
+      By default, BottomSheet content is inserted as a portal directly into the
+      document.body. If it's necessary to insert a component into a custom DOM
+      node, follow these steps:
+    </p>
+    <ul>
+      <li>
+        1. Add the following HTML code in the location where the component
+        should be rendered:{' '}
+        <pre className="flex w-full p-2 bg-gohan rounded-moon-s-sm overflow-scroll text-moon-14 text-bulma">
+          {`<div id="headlessui-portal-root"><div /></div>`}
+        </pre>
+      </li>
+      <li>
+        2. Set a prop <b>rootId</b> to the {`<BottomSheet>`} component with the
+        id of the root element. Example:
+        <pre className="flex w-full p-2 bg-gohan rounded-moon-s-sm overflow-scroll text-moon-14 text-bulma">
+          {`<BottomSheet rootId="__next">...</BottomSheet>`}
+        </pre>
+        By doing this, the "inert" attribute that was added to an ancestor will
+        be removed automatically, and the BottomSheet will become interactive.
+      </li>
+    </ul>
+  </>
+);
 const PageBottomSheet = () => {
   const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
@@ -42,30 +69,6 @@ const PageBottomSheet = () => {
           </a>
           .
         </p>
-        <h6 className="font-medium text-moon-18">Custom root element.</h6>
-        <p>
-          If it is necessary to insert a component inside the shadow root
-          instead of the document.body, follow these steps:
-        </p>
-        <ul>
-          <li>
-            1. Add the following HTML code in the location where the component
-            should be rendered:{' '}
-            <pre className="flex w-full p-2 bg-gohan rounded-moon-s-sm overflow-scroll text-moon-14 text-bulma">
-              {`<div id="headlessui-portal-root"><div /></div>`}
-            </pre>
-          </li>
-          <li>
-            2. Set a prop <b>rootId</b> to the {`<BottomSheet>`} component with
-            the id of the root element. Example:
-            <pre className="flex w-full p-2 bg-gohan rounded-moon-s-sm overflow-scroll text-moon-14 text-bulma">
-              {`<BottomSheet rootId="__next">...</BottomSheet>`}
-            </pre>
-            By doing this, the "inert" attribute that was added to an ancestor
-            will be removed automatically, and the BottomSheet will become
-            interactive.
-          </li>
-        </ul>
       </ComponentPageDescription>
       <ComponentAnatomy>
         {`<BottomSheet>
@@ -107,7 +110,7 @@ const PageBottomSheet = () => {
         title="Custom root element"
         preview={<RootPortal />}
         code={examples ? examples.RootPortal : 'Loading'}
-        description="*Please find additional information in description above"
+        description={<CustomRootDescription />}
       />
       <PropsTable
         title="BottomSheet"

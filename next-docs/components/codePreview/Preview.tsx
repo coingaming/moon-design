@@ -7,7 +7,7 @@ type Props = {
   title?: string;
   preview: React.ReactNode;
   code?: string;
-  description?: string;
+  description?: string | React.ReactNode;
   className?: string;
 };
 
