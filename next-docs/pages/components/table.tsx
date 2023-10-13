@@ -8,11 +8,13 @@ import Calendar from '../../public/examples/table/Calendar';
 import CellBorder from '../../public/examples/table/CellBorder';
 import ClickableRows from '../../public/examples/table/ClickableRows';
 import CustomColors from '../../public/examples/table/CustomColors';
+import CustomColumnWidths from '../../public/examples/table/CustomColumnWidths';
 import CustomContent from '../../public/examples/table/CustomContent';
 import DeepTable from '../../public/examples/table/DeepTable';
 import Default from '../../public/examples/table/Default';
 import Editable from '../../public/examples/table/Editable';
 import ExpandedRows from '../../public/examples/table/ExpandedRows';
+import ExpandedWithModals from '../../public/examples/table/ExpandedWithModals';
 import LongData from '../../public/examples/table/LongData';
 import MiniMap from '../../public/examples/table/MiniMap';
 import RowGaps from '../../public/examples/table/RowGaps';
@@ -106,6 +108,11 @@ const PageTable = () => {
         code={examples ? examples.DeepTable : 'Loading'}
       />
       <Preview
+        title="Expanded Rows with calls the modal windows"
+        preview={<ExpandedWithModals />}
+        code={examples ? examples.ExpandedWithModals : 'Loading'}
+      />
+      <Preview
         title="Expanded rows with custom content"
         preview={<CustomContent />}
         code={examples ? examples.CustomContent : 'Loading'}
@@ -136,9 +143,14 @@ const PageTable = () => {
         code={examples ? examples.LongData : 'Loading'}
       />
       <Preview
-        title="Tooltips (with a transparent one in the second row)"
+        title="Tooltips"
         preview={<Tooltips />}
         code={examples ? examples.Tooltips : 'Loading'}
+      />
+      <Preview
+        title="Long data table (with custom column widths)"
+        preview={<CustomColumnWidths />}
+        code={examples ? examples.CustomColumnWidths : 'Loading'}
       />
       <PropsTable
         title="Table props"

@@ -12,6 +12,7 @@ import SelectableRows from '../SelectableRows';
 import SelectableCheckboxes from '../SelectableCheckboxes';
 import CustomColors from '../CustomColors';
 import ExpandedRows from '../ExpandedRows';
+import ExpandedWithModals from '../ExpandedWithModals';
 import Sorting from '../Sorting';
 import DeepTable from '../DeepTable';
 import CustomContent from '../CustomContent';
@@ -21,6 +22,7 @@ import Editable from '../Editable';
 import Zebra from '../Zebra';
 import LongData from '../LongData';
 import Tooltips from '../Tooltips';
+import CustomColumnWidths from '../CustomColumnWidths';
 
 const withRtl = (component: JSX.Element) => <div dir="rtl">{component}</div>;
 
@@ -70,6 +72,10 @@ describe('Table', () => {
     const tree = render(<DeepTable />);
     expect(tree).toMatchSnapshot();
   });
+  it('renders ExpandedWithModals', () => {
+    const tree = render(<ExpandedWithModals />);
+    expect(tree).toMatchSnapshot();
+  });
   it('renders CustomContent', () => {
     const tree = render(<CustomContent />);
     expect(tree).toMatchSnapshot();
@@ -96,6 +102,10 @@ describe('Table', () => {
   });
   it('renders Tooltips', () => {
     const tree = render(<Tooltips />);
+    expect(tree).toMatchSnapshot();
+  });
+  it('renders CustomColumnWidths', () => {
+    const tree = render(<CustomColumnWidths />);
     expect(tree).toMatchSnapshot();
   });
 });
@@ -146,6 +156,10 @@ describe('Table in RTL', () => {
     const tree = render(withRtl(<DeepTable />));
     expect(tree).toMatchSnapshot();
   });
+  it('renders ExpandedWithModals', () => {
+    const tree = render(withRtl(<ExpandedWithModals />));
+    expect(tree).toMatchSnapshot();
+  });
   it('renders CustomContent', () => {
     const tree = render(withRtl(<CustomContent />));
     expect(tree).toMatchSnapshot();
@@ -172,6 +186,10 @@ describe('Table in RTL', () => {
   });
   it('renders Tooltips', () => {
     const tree = render(withRtl(<Tooltips />));
+    expect(tree).toMatchSnapshot();
+  });
+  it('renders CustomColumnWidths', () => {
+    const tree = render(withRtl(<CustomColumnWidths />));
     expect(tree).toMatchSnapshot();
   });
 });

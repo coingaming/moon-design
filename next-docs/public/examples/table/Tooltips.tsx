@@ -1,7 +1,7 @@
 import React from 'react';
 import { Table } from '@heathmont/moon-table-tw';
 import ClipProps from '@heathmont/moon-table-tw/lib/private/types/ClipProps';
-import { Chip, Tooltip } from '@heathmont/moon-core-tw';
+import { Chip, Tag, Tooltip } from '@heathmont/moon-core-tw';
 import { OtherFrame } from '@heathmont/moon-icons-tw';
 
 const Example = () => {
@@ -75,10 +75,10 @@ const Example = () => {
 
   const tooltip = () => (
     <Tooltip>
-      <Tooltip.Trigger>
+      <Tooltip.Trigger className="max-h-6">
         <Chip
           variant="ghost"
-          iconOnly={<OtherFrame className="text-moon-24" />}
+          iconOnly={<OtherFrame className="text-moon-24 max-h-6" />}
         />
       </Tooltip.Trigger>
       <Tooltip.Content position="top-start">
@@ -97,12 +97,8 @@ const Example = () => {
         client: 'Bender (old) Coingaming',
         gameNameAndProvider: 'Pragmatic Play',
         amount: 22.97,
-        currency: 'USD',
-        status: 'SUCCESS',
-
-        /**
-         * The expression below sets a tooltip with transparent background in the second row only.
-         */
+        currency: <Tag className="bg-gray-100 text-lg text-gray-600 max-w-fit">USD</Tag>,
+        status: <Tag className="bg-roshi-10 text-lg text-roshi max-w-fit">SUCCESS</Tag>,
         actions: tooltip(),
       };
     });
@@ -112,6 +108,7 @@ const Example = () => {
     () => ({
       minWidth: 10,
       width: 150,
+      maxWidth: Number.MAX_SAFE_INTEGER,
     }),
     []
   );

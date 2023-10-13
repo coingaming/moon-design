@@ -80,6 +80,8 @@ export { default as Tabs } from './tabs/Tabs';
 export * from './tabs/Tabs';
 export { default as Tag } from './tag/Tag';
 export * from './tag/Tag';
+export { default as TagsInput } from './tagsInput/TagsInput';
+export * from './tagsInput/TagsInput';
 export { default as TextInput } from './textInput/TextInput';
 export * from './textInput/TextInput';
 export { default as TextInputGroup } from './textInputGroup/TextInputGroup';
