@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from 'react';
-import { mergeClassnames } from '@heathmont/moon-core-tw';
+import { Checkbox, mergeClassnames } from '@heathmont/moon-core-tw';
 import {
   useTable,
   useResizeColumns,
@@ -30,6 +30,7 @@ import type RowSpanHeaderProps from '../private/types/RowSpanHeaderProps';
 import type TableProps from '../private/types/TableProps';
 import renderRows from '../private/utils/renderRows';
 import renderSpanRows from '../private/utils/renderSpanRows';
+import TD from './TD';
 
 const Table = ({
   columns,
@@ -219,7 +220,7 @@ const Table = ({
         selectable={useCheckbox}
         headerBackgroundColor={headerBackgroundColor}
       >
-        {headerGroups.map((headerGroup: HeaderGroup<object>) => (
+        {headerGroups.map((headerGroup: HeaderGroup<object>, index) => (
           <HeaderTR
             reactTableProps={{ ...headerGroup.getHeaderGroupProps() }}
             key={headerGroup.getHeaderGroupProps().key}

@@ -1,6 +1,6 @@
 import React, { Fragment, useState } from 'react';
 import { Checkbox } from '@heathmont/moon-core-tw';
-import type { Cell, Row, UseExpandedRowProps } from 'react-table';
+import type { Cell, Column, Row, UseExpandedRowProps } from 'react-table';
 import BodyTR from '../../components/BodyTR';
 import TD from '../../components/TD';
 import type RenderRowsProps from '../types/RenderRowsProps';
@@ -120,7 +120,7 @@ const renderRows = ({
               >
                 <div className="flex items-center h-full w-full justify-center ps-2">
                   <Checkbox
-                    id={row.id}
+                    id={ row.id }
                     checked={selectedRows[`${row.id}-${rowProps.key}`]}
                     onClick={(e: any) => e.stopPropagation()}
                   />
