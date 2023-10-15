@@ -151,6 +151,16 @@ const Table = ({
         isLastColumn={isLastColumn}
         rowSize={rowSize}
         isCellBorder={isCellBorder}
+        onClick={(e) => {
+          if ((e.target as HTMLElement).closest('label') !== null) {
+            const checkbox = (e.target as HTMLElement).closest('label')?.querySelector('input[type="checkbox"]') as HTMLInputElement;
+            if (checkbox?.checked) {
+              setSelectedRows([]);
+            } else {
+              setSelectedRows(Object.values(rowsById));
+            }
+          }
+        }}
       >
         {column.render('Header')}
         <div
@@ -230,10 +240,19 @@ const Table = ({
         alreadySelectedRows = alreadySelectedRows.filter(
           (selectedRow) => row.id !== selectedRow.id
         );
-
-        // TODO: Check parent node;
       } else {
         alreadySelectedRows.push(row);
+      }
+    }
+
+    if (alreadySelectedRows) {
+      let depth = xRow.depth;
+      while (depth >= 0) {
+        const mask = row.id.split('.').slice(0, depth).join('.');
+        if (!alreadySelectedRows.some(({ id }) => id.indexOf(mask) === 0 && id !== mask)) {
+          alreadySelectedRows = alreadySelectedRows.filter(({ id }) => id !== mask);
+        }
+        depth--;
       }
     }
 
