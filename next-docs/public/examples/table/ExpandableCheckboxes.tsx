@@ -1,9 +1,11 @@
 import { Checkbox, mergeClassnames } from "@heathmont/moon-core-tw";
 import { Table } from "@heathmont/moon-table-tw";
-import React, { useEffect, useState } from "react";
-import { boolean } from "zod";
+import { check } from "prettier";
+import React, { useEffect, useMemo, useState } from "react";
 
 interface HeaderProps {
+  rows: [];
+  rowsById: { [key: string]: boolean };
   isAllRowsExpanded: boolean;
   getToggleAllRowsExpandedProps: () => React.HTMLAttributes<HTMLSpanElement>;
 }
@@ -25,9 +27,19 @@ const Example = () => {
     return shiftMap[depth];
   }
 
-  useEffect(() => {
-    console.log(selected);
-  }, [selected]);
+  const checkIfSelected = (id: string, canExpand: boolean, rowsById: { [key: string]: boolean }) => {
+    return canExpand
+      ? Object.keys(rowsById)
+      .filter((rowId) => rowId.indexOf(id) === 0 && rowId !== id)
+      .every((rowId) => selected[rowId] === true)
+      : selected[id] === true;
+  }
+
+  const checkIfIndeterminate = (id: string, rowsById: { [key: string]: boolean }) => {
+    const matches =  Object.keys(rowsById)
+      .filter((rowId) => rowId.indexOf(id) === 0 && rowId !== id);
+      return !matches.every((rowId) => selected[rowId] === true) && matches.some((rowId) => selected[rowId] === true);
+  }
 
   const columnsInitial = [
     {
@@ -37,6 +49,8 @@ const Example = () => {
         {
           'id': 'expsel',
           Header: ({
+            rows,
+            rowsById,
             getToggleAllRowsExpandedProps,
             isAllRowsExpanded,
           }: HeaderProps) => (
@@ -44,39 +58,41 @@ const Example = () => {
               <div className="flex items-center h-full">
                 <Checkbox
                   id={ PREFIX && PREFIX.length ? `${PREFIX}_root` : 'root'}
-                  checked={false} //** TODO: gather state info about all the rest checkboxes
-                  indeterminate={false}
-                  onClick={(e: any) => e.stopPropagation()}
+                  checked={(Object.keys(rowsById).length === Object.keys(selected).length)}
+                  indeterminate={!!Object.keys(selected).length && Object.keys(selected).length < Object.keys(rowsById).length}
+                  onClick={(e: any) => { e.stopPropagation() }}
                 />
               </div>
-              <span {...getToggleAllRowsExpandedProps()}>
+              {<span {...getToggleAllRowsExpandedProps()}>
                 {isAllRowsExpanded ? '👇' : '👉'}
-              </span>
+              </span>}
             </div>
           ),
-          Cell: ({ row }: any) =>
-            <div className={mergeClassnames(
-                  "flex items-center gap-x-1",
-                  columnShift(row.depth),
-                )}
-              onClick={(e) => {
-                if ((e.target as unknown as HTMLElement).tagName === 'SPAN') e.stopPropagation();
-              }}
-            >
-              <div className="flex items-center h-full">
-                <Checkbox
-                  id={ PREFIX && PREFIX.length ? `${PREFIX}_${row.id}` : row.id}
-                  checked={false}
-                  indeterminate={false}
-                  onClick={(e: any) => e.stopPropagation()}
-                />
+          Cell: ({ row, rowsById }: any) => {
+            return (
+              <div className={mergeClassnames(
+                    "flex items-center gap-x-1",
+                    columnShift(row.depth),
+                  )}
+                onClick={(e) => {
+                  if ((e.target as unknown as HTMLElement).tagName === 'SPAN') e.stopPropagation();
+                }}
+              >
+                <div className="flex items-center h-full">
+                  <Checkbox
+                    id={ PREFIX && PREFIX.length ? `${PREFIX}_${row.id}` : row.id}
+                    checked={checkIfSelected(row.id, row.canExpand, rowsById)}
+                    indeterminate={checkIfIndeterminate(row.id, rowsById)}
+                    onClick={(e: any) => e.stopPropagation()}
+                  />
+                </div>
+                { row.canExpand ? (
+                  <span {...row.getToggleRowExpandedProps()}>
+                    {row.isExpanded ? '👇' : '👉'}
+                  </span>
+                ) : null }
               </div>
-              { row.canExpand ? (
-                <span {...row.getToggleRowExpandedProps()}>
-                  {row.isExpanded ? '👇' : '👉'}
-                </span>
-              ) : null }
-            </div>
+          )}
         },
       ],
     },
@@ -238,7 +254,7 @@ const Example = () => {
     }
   ];
 
-  const columns = React.useMemo(() => columnsInitial, []);
+  const columns = React.useMemo(() => columnsInitial, [selected]);
   const data = React.useMemo(() => makeData(), []);
 
   const defaultColumn = React.useMemo(
@@ -256,6 +272,7 @@ const Example = () => {
       width={800}
       height={400}
       selectable={true}
+      useCheckbox={true}
       expandedByDefault={true}
       getOnRowSelect={() => (rows: any) => {
         setSelected(rows.reduce((acc: {[key: string]: boolean}, item: any) => {

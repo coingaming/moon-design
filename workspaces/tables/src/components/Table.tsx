@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from 'react';
-import { Checkbox, mergeClassnames } from '@heathmont/moon-core-tw';
+import { mergeClassnames } from '@heathmont/moon-core-tw';
 import {
   useTable,
   useResizeColumns,
@@ -14,6 +14,7 @@ import {
   UseResizeColumnsColumnProps,
   UseSortByColumnProps,
   TableOptions,
+  UseExpandedRowProps,
 } from 'react-table';
 import { useSticky } from 'react-table-sticky';
 import Body from './Body';
@@ -30,7 +31,6 @@ import type RowSpanHeaderProps from '../private/types/RowSpanHeaderProps';
 import type TableProps from '../private/types/TableProps';
 import renderRows from '../private/utils/renderRows';
 import renderSpanRows from '../private/utils/renderSpanRows';
-import TD from './TD';
 
 const Table = ({
   columns,
@@ -76,6 +76,7 @@ const Table = ({
     headerGroups,
     footerGroups,
     rows,
+    rowsById,
     prepareRow,
     visibleColumns,
     toggleAllRowsExpanded,
@@ -197,6 +198,73 @@ const Table = ({
     );
   };
 
+  const selectCheckableRow = (selectedRow: any, callback?: () => React.Dispatch<React.SetStateAction<{[key: string]: boolean;}>>) => {
+    const row = selectedRow as Row<{}>;
+    const xRow = selectedRow as UseExpandedRowProps<{}>
+
+    let alreadySelectedRows = [...selectedRows];
+    const alreadySelectedRow = alreadySelectedRows.filter(
+      (selectedRow) => row.id === selectedRow.id
+    )[0];
+
+    if (xRow.canExpand) {
+      const selectedIndexes = alreadySelectedRows.map((item: Row<{}>) => item.id);
+      const allSelected = Object.keys(rowsById)
+        .filter((id) => id.indexOf(row.id) === 0)
+        .every((id) => ~selectedIndexes.indexOf(id));
+
+      if (alreadySelectedRow && allSelected) {
+        alreadySelectedRows = alreadySelectedRows.filter(({ id }) => id.indexOf(row.id) !== 0);
+      } else {
+        alreadySelectedRows = Object.values(rowsById)
+          .reduce((acc: Row<{}>[], item: Row<{}>) => {
+            if (item.id.indexOf(row.id) === 0
+              && selectedIndexes.indexOf(item.id) === -1
+            )
+              acc.push(item);
+            return acc;
+          }, alreadySelectedRows);
+      }
+    } else {
+      if (alreadySelectedRow) {
+        alreadySelectedRows = alreadySelectedRows.filter(
+          (selectedRow) => row.id !== selectedRow.id
+        );
+      } else {
+        alreadySelectedRows.push(row);
+      }
+    }
+
+    const setRowsSelectState = callback && callback() as React.Dispatch<React.SetStateAction<{[key: string]: boolean;}>>;
+    setRowsSelectState && setRowsSelectState(
+      alreadySelectedRows.reduce((acc: { [key: string]: boolean }, item) => {
+        const key = item.getRowProps && item.getRowProps().key || undefined;
+        key && (acc[`${item.id}-${key}`] = true);
+        return acc;
+      }, {}) || {}
+    );
+
+    setSelectedRows(alreadySelectedRows);
+  }
+
+  const selectCommonRow = (selectedRow: any) => {
+    const row = selectedRow as Row<{}>;
+    let alreadySelectedRows = [...selectedRows];
+    const alreadySelectedRow = alreadySelectedRows.filter(
+      (selectedRow) => row.id === selectedRow.id
+    )[0];
+
+    if (alreadySelectedRow) {
+      alreadySelectedRows = alreadySelectedRows.filter(
+        (selectedRow) => row.id !== selectedRow.id
+      );
+    } else {
+      alreadySelectedRows.push(row);
+    }
+
+    setSelectedRows(alreadySelectedRows);
+  }
+
   const renderTableComponent = () => (
     <TableWrapper
       reactTableProps={{ ...getTableProps() }}
@@ -257,22 +325,10 @@ const Table = ({
               getOnRowClickHandler,
               getOnRowSelectHandler: !selectable
                 ? undefined
-                : (row) => () => {
-                    let alreadySelectedRows = [...selectedRows];
-                    const alreadySelectedRow = alreadySelectedRows.filter(
-                      (selectedRow) => row.id === selectedRow.id
-                    )[0];
+                : useCheckbox
+                  ? (row) => selectCheckableRow
+                  : (row) => selectCommonRow,
 
-                    if (alreadySelectedRow) {
-                      alreadySelectedRows = alreadySelectedRows.filter(
-                        (selectedRow) => row.id !== selectedRow.id
-                      );
-                    } else {
-                      alreadySelectedRows.push(row);
-                    }
-
-                    setSelectedRows(alreadySelectedRows);
-                  },
               evenRowBackgroundColor,
               defaultRowBackgroundColor,
               renderRowSubComponent,

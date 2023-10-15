@@ -62,12 +62,15 @@ const renderRows = ({
           const selectHandlerInvoked = getOnRowSelectHandler
             ? getOnRowSelectHandler(row)
             : undefined;
-          if (selectHandlerInvoked) selectHandlerInvoked(row);
-          setSelectedRows({
-            ...selectedRows,
-            [`${row.id}-${rowProps.key}`]:
-              !selectedRows[`${row.id}-${rowProps.key}`],
-          });
+
+          if (selectHandlerInvoked) selectHandlerInvoked(row, () => setSelectedRows);
+          if (!selectable || !useCheckbox) {
+            setSelectedRows({
+              ...selectedRows,
+              [`${row.id}-${rowProps.key}`]:
+                !selectedRows[`${row.id}-${rowProps.key}`],
+            });
+          }
         };
 
         if (!selectable && getOnRowClickHandler) {
@@ -90,7 +93,7 @@ const renderRows = ({
             hasChildren={expandedRow.canExpand}
             hasParent={!!expandedRow.depth}
             isLastNestedRow={isLastNestedRow}
-            isSelected={selectedRows[`${row.id}-${rowProps.key}`]}
+            isSelected={selectedRows[`${row.id}-${rowProps.key}`] === true}
             isHovered={hoveredRow === `${row.id}-${rowProps.key}`}
             backgroundColor={backgroundColor}
             fontColor={fontColor}
@@ -102,7 +105,7 @@ const renderRows = ({
             }
             onClick={() => resolveRowClick()}
           >
-            {useCheckbox && (
+            {/*useCheckbox && (
               <TD
                 selectable={true}
                 isExpanded={expandedRow.isExpanded}
@@ -126,7 +129,7 @@ const renderRows = ({
                   />
                 </div>
               </TD>
-            )}
+            )*/}
 
             {row.cells.map((cell: Cell<{}>, index) => (
               <TD
