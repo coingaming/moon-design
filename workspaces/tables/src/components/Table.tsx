@@ -230,6 +230,8 @@ const Table = ({
         alreadySelectedRows = alreadySelectedRows.filter(
           (selectedRow) => row.id !== selectedRow.id
         );
+
+        // TODO: Check parent node;
       } else {
         alreadySelectedRows.push(row);
       }
@@ -238,8 +240,7 @@ const Table = ({
     const setRowsSelectState = callback && callback() as React.Dispatch<React.SetStateAction<{[key: string]: boolean;}>>;
     setRowsSelectState && setRowsSelectState(
       alreadySelectedRows.reduce((acc: { [key: string]: boolean }, item) => {
-        const key = item.getRowProps && item.getRowProps().key || undefined;
-        key && (acc[`${item.id}-${key}`] = true);
+        acc[`${item.id}-`] = true
         return acc;
       }, {}) || {}
     );
