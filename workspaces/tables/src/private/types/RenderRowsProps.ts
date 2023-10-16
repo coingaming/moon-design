@@ -13,7 +13,7 @@ type RenderRowsProps<D extends object = {}> = {
   ) => ((row: Row<D>) => void | (() => void)) | undefined;
   getOnRowSelectHandler?: (
     row: Row<D>
-  ) => ((row: Row<D>) => void | (() => void)) | undefined;
+  ) => ((row: Row<D>, target?: HTMLElement) => void | (() => void)) | undefined;
   renderRowSubComponent?: (props: RowSubComponentProps) => JSX.Element;
   setForceUpdateRowSelectedState?: (callback: () => React.Dispatch<React.SetStateAction<{[key: string]: boolean;}>>) => void;
   selectable?: boolean;

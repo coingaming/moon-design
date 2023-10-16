@@ -154,7 +154,7 @@ const Table = ({
         rowSize={rowSize}
         isCellBorder={isCellBorder}
         onClick={(e) => {
-          if ((e.target as HTMLElement).closest('label') !== null) {
+          if ((e.target as HTMLElement).closest('label[for$="root"]') !== null) {
             const checkbox = (e.target as HTMLElement).closest('label')?.querySelector('input[type="checkbox"]') as HTMLInputElement;
             if (checkbox?.checked) {
               setSelectedRows([]);
@@ -221,9 +221,13 @@ const Table = ({
     updateRowSelectState = callback;
   }
 
-  const selectCheckableRow = (selectedRow: any) => {
+  const selectCheckableRow = (selectedRow: any, target?: HTMLElement) => {
     const row = selectedRow as Row<{}>;
     const xRow = selectedRow as UseExpandedRowProps<{}>
+
+    if (target && target?.closest(`label[for$="${row.id}"]`) === null) {
+      return;
+    }
 
     let alreadySelectedRows = [...selectedRows];
     const alreadySelectedRow = alreadySelectedRows.filter(
@@ -259,7 +263,7 @@ const Table = ({
     }
 
     /** Rising up checking wether a branch is completely checked/unchecked after an item toggle */
-    if (alreadySelectedRows) {
+    if (selectable && alreadySelectedRows) {
       let depth = xRow.depth;
       while (depth > 0) {
         const mask = row.id.split('.').slice(0, depth).join('.');
@@ -290,7 +294,7 @@ const Table = ({
     setSelectedRows(alreadySelectedRows);
   }
 
-  const selectCommonRow = (selectedRow: any) => {
+  const selectCommonRow = (selectedRow: any, target?: HTMLElement) => {
     const row = selectedRow as Row<{}>;
     let alreadySelectedRows = [...selectedRows];
     const alreadySelectedRow = alreadySelectedRows.filter(

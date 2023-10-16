@@ -57,7 +57,7 @@ const renderRows = ({
       const fontColor = row.original?.fontColor;
       const isLastNestedRow = rowId.length > nextRowId.length;
       const expandedRow = row as unknown as UseExpandedRowProps<{}>;
-      const resolveRowClick = () => {
+      const resolveRowClick = (target: HTMLElement) => {
         const invokeClickHandler = () => {
           const clickHandlerInvoked = getOnRowClickHandler
             ? getOnRowClickHandler(row)
@@ -69,7 +69,7 @@ const renderRows = ({
             ? getOnRowSelectHandler(row)
             : undefined;
 
-          if (selectHandlerInvoked) selectHandlerInvoked(row);
+          if (selectHandlerInvoked) selectHandlerInvoked(row, target);
           if (!selectable || !useCheckbox) {
             setSelectedRows({
               ...selectedRows,
@@ -111,7 +111,7 @@ const renderRows = ({
                     setHoveredRow(hover ? `${row.id}`/*-${rowProps.key}`*/ : '')
                 : undefined
             }
-            onClick={() => resolveRowClick()}
+            onClick={(target: HTMLElement) => resolveRowClick(target)}
           >
             {/*useCheckbox && (
               <TD
