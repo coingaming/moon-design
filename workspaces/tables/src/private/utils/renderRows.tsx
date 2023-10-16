@@ -145,7 +145,7 @@ const renderRows = ({
                 reactTableProps={{ ...cell.getCellProps() }}
                 // @ts-ignore
                 stickySide={cell?.column?.parent?.sticky}
-                isFirstColumn={!useCheckbox && index === 0}
+                isFirstColumn={index === 0}
                 isLastColumn={index === row.cells.length - 1}
                 isSelected={selectedRows[`${row.id}`/*-${rowProps.key}`*/]}
                 isHovered={hoveredRow === `${row.id}`/*-${rowProps.key}`*/}

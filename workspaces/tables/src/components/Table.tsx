@@ -258,20 +258,22 @@ const Table = ({
       }
     }
 
-    /** Rising up checking if branch is checked/unchecked after an item toggle */
+    /** Rising up checking wether a branch is completely checked/unchecked after an item toggle */
     if (alreadySelectedRows) {
       let depth = xRow.depth;
-      while (depth >= 0) {
+      while (depth > 0) {
         const mask = row.id.split('.').slice(0, depth).join('.');
         if (!alreadySelectedRows.some(({ id }) => id.indexOf(mask) === 0 && id !== mask)) {
           alreadySelectedRows = alreadySelectedRows.filter(({ id }) => id !== mask);
-        } /*else {
-          if (alreadySelectedRows.every(({ id }) => id.indexOf(mask) === 0 && id !== mask)) {
-            if (!alreadySelectedRows.filter(({ id }) => id === mask).length) {
-              alreadySelectedRows.push(rowsById[mask]);
-            }
+        } else {
+          if (alreadySelectedRows
+            .filter(({ id }) => id.split('.').length === (depth + 1) && id.indexOf(mask) === 0 && id !== mask)
+            .every(Boolean)) {
+              if (!alreadySelectedRows.filter(({ id }) => id === mask).length) {
+                alreadySelectedRows.push(rowsById[mask]);
+              }
           }
-        }*/
+        }
         depth--;
       }
     }
