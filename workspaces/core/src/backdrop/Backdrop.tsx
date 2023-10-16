@@ -2,7 +2,13 @@ import React from 'react';
 import { Transition } from '@headlessui/react';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
-const Backdrop = ({ className }: { className?: string }) => (
+const Backdrop = ({
+  className,
+  onClose,
+}: {
+  className?: string;
+  onClose?: () => void;
+}) => (
   <Transition.Child
     as={React.Fragment}
     enter="ease-out duration-300 transition-opacity"
@@ -15,6 +21,7 @@ const Backdrop = ({ className }: { className?: string }) => (
     <div
       className={mergeClassnames('fixed -z-1 inset-0 bg-zeno', className)}
       aria-hidden="true"
+      onClick={onClose}
     />
   </Transition.Child>
 );
