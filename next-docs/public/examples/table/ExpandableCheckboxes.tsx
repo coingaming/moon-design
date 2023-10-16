@@ -1,7 +1,7 @@
-import { Checkbox, mergeClassnames } from "@heathmont/moon-core-tw";
+import { Checkbox, Chip, Tooltip, mergeClassnames } from "@heathmont/moon-core-tw";
+import { OtherFrame } from "@heathmont/moon-icons-tw";
 import { Table } from "@heathmont/moon-table-tw";
-import { check } from "prettier";
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useMemo, useState } from "react";
 
 interface HeaderProps {
   rows: [];
@@ -147,6 +147,21 @@ const Example = () => {
     },
   ];
 
+  const tooltip = () => (
+    <Tooltip>
+      <Tooltip.Trigger className="max-h-6">
+        <Chip
+          variant="ghost"
+          iconOnly={<OtherFrame className="text-moon-24 max-h-6" />}
+        />
+      </Tooltip.Trigger>
+      <Tooltip.Content position="top-start">
+        Round details
+        <Tooltip.Arrow />
+      </Tooltip.Content>
+    </Tooltip>
+  );
+
   const makeData = () => [
     {
       firstName: 'Test lvl1',
@@ -155,6 +170,7 @@ const Example = () => {
       progress: <span>20</span>,
       status: 19,
       activity: 54,
+      actions: tooltip(),
       subRows: [
         {
           firstName: 'Sub test lvl2',
@@ -163,6 +179,7 @@ const Example = () => {
           progress: <span>2</span>,
           status: 97,
           activity: 23,
+          actions: tooltip(),
           subRows: [
             {
               firstName: 'Sub test lvl3',
@@ -171,6 +188,7 @@ const Example = () => {
               progress: <span>59</span>,
               status: 52,
               activity: 46,
+              actions: tooltip(),
             },
             {
               firstName: 'Sub test lvl3',
@@ -179,6 +197,7 @@ const Example = () => {
               progress: <span>78</span>,
               status: 65,
               activity: 5,
+              actions: tooltip(),
             },
             {
               firstName: 'Sub test lvl3',
@@ -187,6 +206,7 @@ const Example = () => {
               progress: <span>44</span>,
               status: 98,
               activity: 5,
+              actions: tooltip(),
             },
           ],
         },
@@ -197,6 +217,7 @@ const Example = () => {
           progress: <span>1</span>,
           status: 86,
           activity: 2,
+          actions: tooltip(),
           subRows: [
             {
               firstName: 'Sub test lvl3',
@@ -205,6 +226,7 @@ const Example = () => {
               progress: <span>54</span>,
               status: 24,
               activity: 43,
+              actions: tooltip(),
             },
             {
               firstName: 'Sub test lvl3',
@@ -213,6 +235,7 @@ const Example = () => {
               progress: <span>25</span>,
               status: 97,
               activity: 35,
+              actions: tooltip(),
             },
             {
               firstName: 'Sub test lvl3',
@@ -221,6 +244,7 @@ const Example = () => {
               progress: <span>24</span>,
               status: 56,
               activity: 33,
+              actions: tooltip(),
             },
           ],
         },
@@ -231,6 +255,7 @@ const Example = () => {
           progress: <span>24</span>,
           status: 48,
           activity: 3,
+          actions: tooltip(),
           subRows: [
             {
               firstName: 'Sub test lvl3',
@@ -239,6 +264,7 @@ const Example = () => {
               progress: <span>36</span>,
               status: 44,
               activity: 43,
+              actions: tooltip(),
             },
             {
               firstName: 'Sub test lvl3',
@@ -247,6 +273,7 @@ const Example = () => {
               progress: <span>454</span>,
               status: 35,
               activity: 4,
+              actions: tooltip(),
             },
           ],
         },

@@ -1,8 +1,67 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Table } from '@heathmont/moon-table-tw';
+import { Checkbox } from '@heathmont/moon-core-tw';
+
+interface HeaderProps {
+  rows: [];
+  rowsById: { [key: string]: boolean };
+}
 
 const Example = () => {
+  const PREFIX = "selectable";
+
+  const [selected, setSelected] = useState<{ [key: string]: boolean }>({});
+
+  const checkIfSelected = (id: string, canExpand: boolean, rowsById: { [key: string]: boolean }) => {
+    return canExpand
+      ? Object.keys(rowsById)
+      .filter((rowId) => rowId.indexOf(id) === 0 && rowId !== id)
+      .every((rowId) => selected[rowId] === true)
+      : selected[id] === true;
+  }
+
+  const checkIfIndeterminate = (id: string, rowsById: { [key: string]: boolean }) => {
+    const matches =  Object.keys(rowsById)
+      .filter((rowId) => rowId.indexOf(id) === 0 && rowId !== id);
+      return !matches.every((rowId) => selected[rowId] === true) && matches.some((rowId) => selected[rowId] === true);
+  }
+
   const columnsInitial = [
+    {
+      'Header': 'Select',
+      'sticky': 'left',
+      'Footer': '',
+      columns: [
+        {
+          'id': 'cbsel',
+          Header: ({
+            rows,
+            rowsById,
+          }: HeaderProps) => (
+            <div className="flex items-center h-full">
+              <Checkbox
+                id={ PREFIX && PREFIX.length ? `${PREFIX}_root` : 'root'}
+                checked={(Object.keys(rowsById).length === Object.keys(selected).length)}
+                indeterminate={!!Object.keys(selected).length && Object.keys(selected).length < Object.keys(rowsById).length}
+                onClick={(e: any) => { e.stopPropagation() }}
+              />
+            </div>
+          ),
+          Cell: ({ row, rowsById }: any) => {
+            return (
+              <div className="flex items-center h-full">
+                <Checkbox
+                  id={ PREFIX && PREFIX.length ? `${PREFIX}_${row.id}` : row.id}
+                  checked={checkIfSelected(row.id, row.canExpand, rowsById)}
+                  indeterminate={false}
+                  onClick={(e: any) => e.stopPropagation()}
+                />
+              </div>
+          )},
+          Footer: '',
+        },
+      ],
+    },
     {
       Header: 'Name',
       sticky: 'left',
@@ -72,7 +131,7 @@ const Example = () => {
         progress: <span>{Math.floor(index * 100)}</span>,
         status: Math.floor(index * 100),
         activity: Math.floor(index * 100),
-        isSelected: index === 3,
+        //isSelected: index === 3,
       };
     });
   };
@@ -86,7 +145,7 @@ const Example = () => {
     []
   );
 
-  const columns = React.useMemo(() => columnsInitial, []);
+  const columns = React.useMemo(() => columnsInitial, [selected]);
   const data = React.useMemo(() => makeData(40), []);
 
   return (
@@ -101,6 +160,11 @@ const Example = () => {
       useCheckbox={true}
       getOnRowSelect={() => (rows: any) => {
         console.log(`IDs of selected rows - ${rows.map((row: any) => row.id)}`);
+        setSelected(rows.reduce((acc: {[key: string]: boolean}, item: any) => {
+          acc[`${item.id}`] = true;
+          return acc;
+        }, {})
+      );
       }}
     />
   );

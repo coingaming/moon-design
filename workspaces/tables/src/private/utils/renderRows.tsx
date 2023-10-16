@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from 'react';
+import React, { Fragment, useEffect, useState } from 'react';
 import { Checkbox } from '@heathmont/moon-core-tw';
 import type { Cell, Column, Row, UseExpandedRowProps } from 'react-table';
 import BodyTR from '../../components/BodyTR';
@@ -13,6 +13,7 @@ const renderRows = ({
   getOnRowClickHandler,
   getOnRowSelectHandler,
   renderRowSubComponent,
+  setForceUpdateRowSelectedState,
   selectable,
   useCheckbox,
   rowSize,
@@ -24,7 +25,12 @@ const renderRows = ({
     {}
   );
 
-  if (!rows) return;
+  useEffect(() => {
+    selectable
+    && useCheckbox
+    && setForceUpdateRowSelectedState
+    && setForceUpdateRowSelectedState(() => setSelectedRows);
+  });
 
   return rows.map(
     (
@@ -63,12 +69,12 @@ const renderRows = ({
             ? getOnRowSelectHandler(row)
             : undefined;
 
-          if (selectHandlerInvoked) selectHandlerInvoked(row, () => setSelectedRows);
+          if (selectHandlerInvoked) selectHandlerInvoked(row);
           if (!selectable || !useCheckbox) {
             setSelectedRows({
               ...selectedRows,
-              [`${row.id}-`/*${rowProps.key}`*/]:
-                !selectedRows[`${row.id}-`/*${rowProps.key}`*/],
+              [`${row.id}`/*-${rowProps.key}`*/]:
+            !selectedRows[`${row.id}`/*-${rowProps.key}`*/],
             });
           }
         };
@@ -95,14 +101,14 @@ const renderRows = ({
             isLastNestedRow={isLastNestedRow}
             //isSelected={selectedRows[`${row.id}-${rowProps.key}`] === true}
             //isHovered={hoveredRow === `${row.id}-${rowProps.key}`}
-            isSelected={selectedRows[`${row.id}-`] === true}
-            isHovered={hoveredRow === `${row.id}-`}
+            isSelected={selectedRows[`${row.id}`] === true}
+            isHovered={hoveredRow === `${row.id}`}
             backgroundColor={backgroundColor}
             fontColor={fontColor}
             onHoverToggle={
               getOnRowClickHandler || getOnRowSelectHandler
                 ? (hover?: boolean) =>
-                    setHoveredRow(hover ? `${row.id}-`/*${rowProps.key}`*/ : '')
+                    setHoveredRow(hover ? `${row.id}`/*-${rowProps.key}`*/ : '')
                 : undefined
             }
             onClick={() => resolveRowClick()}
@@ -141,8 +147,8 @@ const renderRows = ({
                 stickySide={cell?.column?.parent?.sticky}
                 isFirstColumn={!useCheckbox && index === 0}
                 isLastColumn={index === row.cells.length - 1}
-                isSelected={selectedRows[`${row.id}-`/*${rowProps.key}`*/]}
-                isHovered={hoveredRow === `${row.id}-`/*${rowProps.key}`*/}
+                isSelected={selectedRows[`${row.id}`/*-${rowProps.key}`*/]}
+                isHovered={hoveredRow === `${row.id}`/*-${rowProps.key}`*/}
                 backgroundColor={backgroundColor}
                 fontColor={fontColor}
                 rowSize={rowSize}

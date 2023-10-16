@@ -103,6 +103,8 @@ const Table = ({
   const { scrollState, handleScroll } = useScrollState(tableRef);
   const [selectedRows, setSelectedRows] = useState<Row<{}>[]>([]);
 
+  let updateRowSelectState: (() => React.Dispatch<React.SetStateAction<{ [key: string]: boolean }>>) | undefined = undefined;
+
   useEffect(() => {
     if (expandedByDefault === undefined || !data || !data.length) return;
     toggleAllRowsExpanded(expandedByDefault);
@@ -156,8 +158,15 @@ const Table = ({
             const checkbox = (e.target as HTMLElement).closest('label')?.querySelector('input[type="checkbox"]') as HTMLInputElement;
             if (checkbox?.checked) {
               setSelectedRows([]);
+              updateRowSelectState && updateRowSelectState()({});
             } else {
               setSelectedRows(Object.values(rowsById));
+              updateRowSelectState && updateRowSelectState()(
+                Object.keys(rowsById).reduce((acc: { [key: string]: boolean }, item: string) => {
+                  acc[`${item}`] = true;
+                  return acc;
+                }, {})
+              );
             }
           }
         }}
@@ -208,7 +217,11 @@ const Table = ({
     );
   };
 
-  const selectCheckableRow = (selectedRow: any, callback?: () => React.Dispatch<React.SetStateAction<{[key: string]: boolean;}>>) => {
+  const setForceUpdateRowSelectedState = (callback: () => React.Dispatch<React.SetStateAction<{[key: string]: boolean;}>>) => {
+    updateRowSelectState = callback;
+  }
+
+  const selectCheckableRow = (selectedRow: any) => {
     const row = selectedRow as Row<{}>;
     const xRow = selectedRow as UseExpandedRowProps<{}>
 
@@ -245,25 +258,33 @@ const Table = ({
       }
     }
 
+    /** Rising up checking if branch is checked/unchecked after an item toggle */
     if (alreadySelectedRows) {
       let depth = xRow.depth;
       while (depth >= 0) {
         const mask = row.id.split('.').slice(0, depth).join('.');
         if (!alreadySelectedRows.some(({ id }) => id.indexOf(mask) === 0 && id !== mask)) {
           alreadySelectedRows = alreadySelectedRows.filter(({ id }) => id !== mask);
-        }
+        } /*else {
+          if (alreadySelectedRows.every(({ id }) => id.indexOf(mask) === 0 && id !== mask)) {
+            if (!alreadySelectedRows.filter(({ id }) => id === mask).length) {
+              alreadySelectedRows.push(rowsById[mask]);
+            }
+          }
+        }*/
         depth--;
       }
     }
 
-    const setRowsSelectState = callback && callback() as React.Dispatch<React.SetStateAction<{[key: string]: boolean;}>>;
-    setRowsSelectState && setRowsSelectState(
+    /** Toggling the "hover" state for the affected rows */
+    updateRowSelectState && updateRowSelectState()(
       alreadySelectedRows.reduce((acc: { [key: string]: boolean }, item) => {
-        acc[`${item.id}-`] = true
+        acc[`${item.id}`] = true
         return acc;
       }, {}) || {}
     );
 
+    /** Toggling state for the affected checkboxes */
     setSelectedRows(alreadySelectedRows);
   }
 
@@ -352,6 +373,7 @@ const Table = ({
               evenRowBackgroundColor,
               defaultRowBackgroundColor,
               renderRowSubComponent,
+              setForceUpdateRowSelectedState,
               selectable,
               useCheckbox,
               rowSize,
