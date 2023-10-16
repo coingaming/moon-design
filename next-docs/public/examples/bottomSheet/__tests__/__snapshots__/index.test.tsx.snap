@@ -1026,6 +1026,9 @@ Object {
               id="headlessui-dialog-panel-:rr:"
             >
               <div
+                class="relative flex items-center justify-center pb-2 after:absolute after:-top-1 after:left-1/2 after:rounded-full after:-translate-x-1/2 after:w-10 after:h-1 after:bg-beerus [&_.bottomsheet-title]:pt-2"
+              />
+              <div
                 class="flex grow items-center justify-center bg-jiren text-piccolo"
               >
                 BottomSheet content
@@ -2037,6 +2040,9 @@ Object {
               data-headlessui-state="open"
               id="headlessui-dialog-panel-:rd:"
             >
+              <div
+                class="relative flex items-center justify-center pb-2 after:absolute after:-top-1 after:left-1/2 after:rounded-full after:-translate-x-1/2 after:w-10 after:h-1 after:bg-beerus [&_.bottomsheet-title]:pt-2"
+              />
               <div
                 class="flex grow items-center justify-center bg-jiren text-piccolo"
               >
