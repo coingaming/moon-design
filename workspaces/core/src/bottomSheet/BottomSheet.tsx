@@ -61,7 +61,7 @@ const BottomSheetRoot = ({
                 typeof child.type !== 'string' &&
                 child.type.name === 'Panel'
               ) {
-                extraProps = { onClose, hasShadow };
+                extraProps = !onClose ? { hasShadow } : { onClose, hasShadow };
               }
               return React.cloneElement(child, extraProps);
             }
