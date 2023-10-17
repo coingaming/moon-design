@@ -9,7 +9,7 @@ type Props = {
 
 const ExampleSection = async ({ title, component, code }: Props) => (
   <div className="space-y-2">
-    <h2 className="text-moon-24 font-medium">{title}</h2>
+    <h2 id={title} className="text-moon-24 font-medium">{title}</h2>
     <ComponentPreview component={component} />
     <CodePreview code={code} />
   </div>
