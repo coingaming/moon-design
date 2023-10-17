@@ -12,20 +12,6 @@ const Example = () => {
 
   const [selected, setSelected] = useState<{ [key: string]: boolean }>({});
 
-  const checkIfSelected = (id: string, canExpand: boolean, rowsById: { [key: string]: boolean }) => {
-    return canExpand
-      ? Object.keys(rowsById)
-      .filter((rowId) => rowId.indexOf(id) === 0 && rowId !== id)
-      .every((rowId) => selected[rowId] === true)
-      : selected[id] === true;
-  }
-
-  const checkIfIndeterminate = (id: string, rowsById: { [key: string]: boolean }) => {
-    const matches =  Object.keys(rowsById)
-      .filter((rowId) => rowId.indexOf(id) === 0 && rowId !== id);
-      return !matches.every((rowId) => selected[rowId] === true) && matches.some((rowId) => selected[rowId] === true);
-  }
-
   const columnsInitial = [
     {
       'Header': 'Select',
@@ -40,24 +26,22 @@ const Example = () => {
           }: HeaderProps) => (
             <div className="flex items-center h-full">
               <Checkbox
-                id={ PREFIX && PREFIX.length ? `${PREFIX}_root` : 'root'}
+                id={ PREFIX && PREFIX.length ? `${PREFIX}_root` : 'root' }
                 checked={(Object.keys(rowsById).length === Object.keys(selected).length)}
                 indeterminate={!!Object.keys(selected).length && Object.keys(selected).length < Object.keys(rowsById).length}
                 onClick={(e: any) => { e.stopPropagation() }}
               />
             </div>
           ),
-          Cell: ({ row, rowsById }: any) => {
-            return (
+          Cell: ({ row, rowsById }: any) => (
               <div className="flex items-center h-full">
                 <Checkbox
-                  id={ PREFIX && PREFIX.length ? `${PREFIX}_${row.id}` : row.id}
-                  checked={checkIfSelected(row.id, row.canExpand, rowsById)}
-                  indeterminate={false}
+                  id={ PREFIX && PREFIX.length ? `${PREFIX}_${row.id}` : row.id }
+                  checked={selected[row.id] === true}
                   onClick={(e: any) => e.stopPropagation()}
                 />
               </div>
-          )},
+          ),
           Footer: '',
         },
       ],

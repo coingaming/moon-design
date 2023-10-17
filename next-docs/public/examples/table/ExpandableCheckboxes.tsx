@@ -68,8 +68,7 @@ const Example = () => {
               </span>}
             </div>
           ),
-          Cell: ({ row, rowsById }: any) => {
-            return (
+          Cell: ({ row, rowsById }: any) => (
               <div className={mergeClassnames(
                     "flex items-center gap-x-1",
                     columnShift(row.depth),
@@ -92,7 +91,7 @@ const Example = () => {
                   </span>
                 ) : null }
               </div>
-          )}
+          )
         },
       ],
     },
