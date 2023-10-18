@@ -219,7 +219,7 @@ const Table = ({
     );
   };
 
-  const setForceUpdateRowSelectedState = (callback: () => React.Dispatch<React.SetStateAction<{[key: string]: boolean;}>>) => {
+  const setForceUpdateRowSelectedState = (callback: () => React.Dispatch<React.SetStateAction<{[key: string]: boolean}>>) => {
     updateRowSelectState = callback;
   }
 

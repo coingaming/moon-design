@@ -8,7 +8,12 @@ interface HeaderProps {
 }
 
 const Example = () => {
-  const PREFIX = "selectable";
+  /**
+   *  The PREFIX is necessary if you use several different tables with checkboxes on the same page.
+   *  Each table should have its own unique PREFIX to avoid assigning identical indexes to elements.
+   *  When using only one table, the PREFIX can be omitted.
+   */
+  const PREFIX = "any_unique_string_for_each_table";
 
   const [selected, setSelected] = useState<{ [key: string]: boolean }>({});
 
@@ -29,7 +34,7 @@ const Example = () => {
                 id={ PREFIX && PREFIX.length ? `${PREFIX}_root` : 'root' }
                 checked={(Object.keys(rowsById).length === Object.keys(selected).length)}
                 indeterminate={!!Object.keys(selected).length && Object.keys(selected).length < Object.keys(rowsById).length}
-                onClick={(e: any) => { e.stopPropagation() }}
+                onClick={(e) => { e.stopPropagation() }}
               />
             </div>
           ),
@@ -38,7 +43,7 @@ const Example = () => {
                 <Checkbox
                   id={ PREFIX && PREFIX.length ? `${PREFIX}_${row.id}` : row.id }
                   checked={selected[row.id] === true}
-                  onClick={(e: any) => e.stopPropagation()}
+                  onClick={(e) => e.stopPropagation()}
                 />
               </div>
           ),
@@ -115,7 +120,6 @@ const Example = () => {
         progress: <span>{Math.floor(index * 100)}</span>,
         status: Math.floor(index * 100),
         activity: Math.floor(index * 100),
-        //isSelected: index === 3,
       };
     });
   };
@@ -142,7 +146,7 @@ const Example = () => {
       withFooter={true}
       selectable={true}
       useCheckbox={true}
-      getOnRowSelect={() => (rows: any) => {
+      getOnRowSelect={() => (rows) => {
         console.log(`IDs of selected rows - ${rows.map((row: any) => row.id)}`);
         setSelected(rows.reduce((acc: {[key: string]: boolean}, item: any) => {
           acc[item.id] = true;

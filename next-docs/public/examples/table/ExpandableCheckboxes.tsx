@@ -1,7 +1,7 @@
 import { Checkbox, Chip, Tooltip, mergeClassnames } from "@heathmont/moon-core-tw";
 import { OtherFrame } from "@heathmont/moon-icons-tw";
 import { Table } from "@heathmont/moon-table-tw";
-import React, { useMemo, useState } from "react";
+import React, { useState } from "react";
 
 interface HeaderProps {
   rows: [];
@@ -11,17 +11,20 @@ interface HeaderProps {
 }
 
 const Example = () => {
-  const PREFIX = "expsel";
+  /**
+   *  The PREFIX is necessary if you use several different tables with checkboxes on the same page.
+   *  Each table should have its own unique PREFIX to avoid assigning identical indexes to elements.
+   *  When using only one table, the PREFIX can be omitted.
+   */
+  const PREFIX = "any__unique__string__for__each__table";
 
   const [selected, setSelected] = useState<{ [key: string]: boolean }>({});
 
   const columnShift = (depth: number) => {
-    const shiftMap: { [key: number]: string } = [
+    const shiftMap: { [key: number]: string }  = [
       'ps-0',
-      'ps-[25px]',
-      'ps-[50px]',
-      'ps-[75px]',
-      'ps-[100px]',
+      'ps-6',
+      'ps-12',
     ];
 
     return shiftMap[depth];
@@ -30,15 +33,15 @@ const Example = () => {
   const checkIfSelected = (id: string, canExpand: boolean, rowsById: { [key: string]: boolean }) => {
     return canExpand
       ? Object.keys(rowsById)
-        .filter((rowId) => rowId.indexOf(id) === 0 && rowId !== id)
-        .every((rowId) => selected[rowId] === true)
+      .filter((rowId) => rowId.indexOf(id) === 0 && rowId !== id)
+      .every((rowId) => selected[rowId] === true)
       : selected[id] === true;
   }
 
   const checkIfIndeterminate = (id: string, rowsById: { [key: string]: boolean }) => {
-    const matches = Object.keys(rowsById)
+    const matches =  Object.keys(rowsById)
       .filter((rowId) => rowId.indexOf(id) === 0 && rowId !== id);
-    return !matches.every((rowId) => selected[rowId] === true) && matches.some((rowId) => selected[rowId] === true);
+      return !matches.every((rowId) => selected[rowId] === true) && matches.some((rowId) => selected[rowId] === true);
   }
 
   const columnsInitial = [
@@ -57,10 +60,10 @@ const Example = () => {
             <div className="flex items-center gap-x-1">
               <div className="flex items-center h-full">
                 <Checkbox
-                  id={PREFIX && PREFIX.length ? `${PREFIX}_root` : 'root'}
+                  id={ PREFIX && PREFIX.length ? `${PREFIX}_root` : 'root'}
                   checked={(Object.keys(rowsById).length === Object.keys(selected).length)}
                   indeterminate={!!Object.keys(selected).length && Object.keys(selected).length < Object.keys(rowsById).length}
-                  onClick={(e: any) => { e.stopPropagation() }}
+                  onClick={(e) => { e.stopPropagation() }}
                 />
               </div>
               {<span {...getToggleAllRowsExpandedProps()}>
@@ -69,28 +72,28 @@ const Example = () => {
             </div>
           ),
           Cell: ({ row, rowsById }: any) => (
-            <div className={mergeClassnames(
-              "flex items-center gap-x-1",
-              columnShift(row.depth),
-            )}
-              onClick={(e) => {
-                if ((e.target as unknown as HTMLElement).tagName === 'SPAN') e.stopPropagation();
-              }}
-            >
-              <div className="flex items-center h-full">
-                <Checkbox
-                  id={PREFIX && PREFIX.length ? `${PREFIX}_${row.id}` : row.id}
-                  checked={checkIfSelected(row.id, row.canExpand, rowsById)}
-                  indeterminate={checkIfIndeterminate(row.id, rowsById)}
-                  onClick={(e: any) => e.stopPropagation()}
-                />
+              <div className={mergeClassnames(
+                    "flex items-center gap-x-1",
+                    columnShift(row.depth),
+                  )}
+                onClick={(e) => {
+                  if ((e.target as unknown as HTMLElement).tagName === 'SPAN') e.stopPropagation();
+                }}
+              >
+                <div className="flex items-center h-full">
+                  <Checkbox
+                    id={ PREFIX && PREFIX.length ? `${PREFIX}_${row.id}` : row.id}
+                    checked={checkIfSelected(row.id, row.canExpand, rowsById)}
+                    indeterminate={checkIfIndeterminate(row.id, rowsById)}
+                    onClick={(e) => e.stopPropagation()}
+                  />
+                </div>
+                { row.canExpand ? (
+                  <span {...row.getToggleRowExpandedProps()}>
+                    {row.isExpanded ? '👇' : '👉'}
+                  </span>
+                ) : null }
               </div>
-              {row.canExpand ? (
-                <span {...row.getToggleRowExpandedProps()}>
-                  {row.isExpanded ? '👇' : '👉'}
-                </span>
-              ) : null}
-            </div>
           )
         },
       ],
@@ -302,7 +305,7 @@ const Example = () => {
       expandedByDefault={true}
       getOnRowSelect={() => (rows) => {
         setSelected(rows.reduce((acc: {[key: string]: boolean}, item: any) => {
-            acc[`${item.id}`] = true;
+            acc[item.id] = true;
             return acc;
           }, {})
         );

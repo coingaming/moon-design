@@ -1,6 +1,5 @@
 import React, { Fragment, useEffect, useState } from 'react';
-import { Checkbox } from '@heathmont/moon-core-tw';
-import type { Cell, Column, Row, UseExpandedRowProps } from 'react-table';
+import type { Cell, Row, UseExpandedRowProps } from 'react-table';
 import BodyTR from '../../components/BodyTR';
 import TD from '../../components/TD';
 import type RenderRowsProps from '../types/RenderRowsProps';
