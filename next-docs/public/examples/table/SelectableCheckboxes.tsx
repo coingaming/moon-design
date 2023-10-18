@@ -148,7 +148,7 @@ const Example = () => {
       useCheckbox={true}
       getOnRowSelect={() => (rows) => {
         console.log(`IDs of selected rows - ${rows.map((row: any) => row.id)}`);
-        setSelected(rows.reduce((acc: {[key: string]: boolean}, item: any) => {
+        setSelected(rows.reduce((acc: {[key: string]: boolean}, item) => {
           acc[item.id] = true;
           return acc;
         }, {})
