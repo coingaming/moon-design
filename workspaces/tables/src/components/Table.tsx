@@ -165,7 +165,7 @@ const Table = ({
               updateRowSelectState && updateRowSelectState()(
                 Object.keys(rowsById)
                   .reduce((acc: { [key: string]: boolean }, item: string) => {
-                    acc[`${item}`] = true;
+                    acc[item] = true;
                     return acc;
                   }, {})
               );
@@ -299,7 +299,7 @@ const Table = ({
     /** Toggling the "hover" state for the affected rows */
     updateRowSelectState && updateRowSelectState()(
       alreadySelectedRows.reduce((acc: { [key: string]: boolean }, item) => {
-        acc[`${item.id}`] = true
+        acc[item.id] = true
         return acc;
       }, {}) || {}
     );
