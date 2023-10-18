@@ -73,8 +73,7 @@ const renderRows = ({
           if (!selectable || !useCheckbox) {
             setSelectedRows({
               ...selectedRows,
-              [`${row.id}`/*-${rowProps.key}`*/]:
-            !selectedRows[`${row.id}`/*-${rowProps.key}`*/],
+              [row.id]: !selectedRows[row.id],
             });
           }
         };
@@ -99,46 +98,18 @@ const renderRows = ({
             hasChildren={expandedRow.canExpand}
             hasParent={!!expandedRow.depth}
             isLastNestedRow={isLastNestedRow}
-            //isSelected={selectedRows[`${row.id}-${rowProps.key}`] === true}
-            //isHovered={hoveredRow === `${row.id}-${rowProps.key}`}
-            isSelected={selectedRows[`${row.id}`] === true}
-            isHovered={hoveredRow === `${row.id}`}
+            isSelected={selectedRows[row.id] === true}
+            isHovered={hoveredRow === row.id}
             backgroundColor={backgroundColor}
             fontColor={fontColor}
             onHoverToggle={
               getOnRowClickHandler || getOnRowSelectHandler
                 ? (hover?: boolean) =>
-                    setHoveredRow(hover ? `${row.id}`/*-${rowProps.key}`*/ : '')
+                    setHoveredRow(hover ? row.id : '')
                 : undefined
             }
             onClick={(target: HTMLElement) => resolveRowClick(target)}
           >
-            {/*useCheckbox && (
-              <TD
-                selectable={true}
-                isExpanded={expandedRow.isExpanded}
-                hasParent={!!expandedRow.depth}
-                backgroundColor={backgroundColor}
-                fontColor={fontColor}
-                isSelected={selectedRows[`${row.id}-${rowProps.key}`]}
-                isFirstColumn={true}
-                isHovered={hoveredRow === `${row.id}-${rowProps.key}`}
-                // @ts-ignore
-                stickySide={row.cells[0].parent?.sticky ? 'left' : ''}
-                rowSize={rowSize}
-                isCellBorder={isCellBorder}
-                role="cell"
-              >
-                <div className="flex items-center h-full w-full justify-center ps-2">
-                  <Checkbox
-                    id={ row.id }
-                    checked={selectedRows[`${row.id}-${rowProps.key}`]}
-                    onClick={(e: any) => e.stopPropagation()}
-                  />
-                </div>
-              </TD>
-            )*/}
-
             {row.cells.map((cell: Cell<{}>, index) => (
               <TD
                 key={cell.getCellProps().key}
@@ -147,8 +118,8 @@ const renderRows = ({
                 stickySide={cell?.column?.parent?.sticky}
                 isFirstColumn={index === 0}
                 isLastColumn={index === row.cells.length - 1}
-                isSelected={selectedRows[`${row.id}`/*-${rowProps.key}`*/]}
-                isHovered={hoveredRow === `${row.id}`/*-${rowProps.key}`*/}
+                isSelected={selectedRows[row.id]}
+                isHovered={hoveredRow === row.id}
                 backgroundColor={backgroundColor}
                 fontColor={fontColor}
                 rowSize={rowSize}

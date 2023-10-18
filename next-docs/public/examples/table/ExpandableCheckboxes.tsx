@@ -300,11 +300,11 @@ const Example = () => {
       selectable={true}
       useCheckbox={true}
       expandedByDefault={true}
-      getOnRowSelect={() => (rows: any) => {
-        setSelected(rows.reduce((acc: { [key: string]: boolean }, item: any) => {
-          acc[`${item.id}`] = true;
-          return acc;
-        }, {})
+      getOnRowSelect={() => (rows) => {
+        setSelected(rows.reduce((acc: {[key: string]: boolean}, item: any) => {
+            acc[`${item.id}`] = true;
+            return acc;
+          }, {})
         );
       }}
     />

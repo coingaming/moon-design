@@ -154,18 +154,20 @@ const Table = ({
         rowSize={rowSize}
         isCellBorder={isCellBorder}
         onClick={(e) => {
-          if ((e.target as HTMLElement).closest('label[for$="root"]') !== null) {
-            const checkbox = (e.target as HTMLElement).closest('label')?.querySelector('input[type="checkbox"]') as HTMLInputElement;
-            if (checkbox?.checked) {
+          const isTargetCheckbox = (e.target as HTMLElement).closest('label[for$="root"]');
+          if (isTargetCheckbox !== null) {
+            const checkboxInput = isTargetCheckbox?.querySelector('input[type="checkbox"]') as HTMLInputElement;
+            if (checkboxInput?.checked) {
               setSelectedRows([]);
               updateRowSelectState && updateRowSelectState()({});
             } else {
               setSelectedRows(Object.values(rowsById));
               updateRowSelectState && updateRowSelectState()(
-                Object.keys(rowsById).reduce((acc: { [key: string]: boolean }, item: string) => {
-                  acc[`${item}`] = true;
-                  return acc;
-                }, {})
+                Object.keys(rowsById)
+                  .reduce((acc: { [key: string]: boolean }, item: string) => {
+                    acc[`${item}`] = true;
+                    return acc;
+                  }, {})
               );
             }
           }
@@ -224,8 +226,9 @@ const Table = ({
   const selectCheckableRow = (selectedRow: any, target?: HTMLElement) => {
     const row = selectedRow as Row<{}>;
     const xRow = selectedRow as UseExpandedRowProps<{}>
+    const isTargetCheckbox = target && target?.closest(`label[for$="${row.id}"]`);
 
-    if (target && target?.closest(`label[for$="${row.id}"]`) === null) {
+    if (isTargetCheckbox === null) {
       return;
     }
 
@@ -235,14 +238,17 @@ const Table = ({
     )[0];
 
     if (xRow.canExpand) {
+      /** Handling an expandable node */
       const selectedIndexes = alreadySelectedRows.map((item: Row<{}>) => item.id);
       const allSelected = Object.keys(rowsById)
         .filter((id) => id.indexOf(row.id) === 0)
-        .every((id) => ~selectedIndexes.indexOf(id));
+        .every((id) => selectedIndexes.indexOf(id) > -1);
 
       if (alreadySelectedRow && allSelected) {
+        /** Removing the selected row */
         alreadySelectedRows = alreadySelectedRows.filter(({ id }) => id.indexOf(row.id) !== 0);
       } else {
+        /** Appending the selected row */
         alreadySelectedRows = Object.values(rowsById)
           .reduce((acc: Row<{}>[], item: Row<{}>) => {
             if (item.id.indexOf(row.id) === 0
@@ -253,6 +259,7 @@ const Table = ({
           }, alreadySelectedRows);
       }
     } else {
+      /** Handling a simple row */
       if (alreadySelectedRow) {
         alreadySelectedRows = alreadySelectedRows.filter(
           (selectedRow) => row.id !== selectedRow.id
@@ -267,13 +274,20 @@ const Table = ({
       let depth = xRow.depth;
       while (depth > 0) {
         const mask = row.id.split('.').slice(0, depth).join('.');
-        if (!alreadySelectedRows.some(({ id }) => id.indexOf(mask) === 0 && id !== mask)) {
+        const branchRowsAtSpecifiedDepth = alreadySelectedRows
+          .filter(({ id }) => id.split('.').length === (depth + 1) && id.indexOf(mask) === 0 && id !== mask);
+
+        const areThereAnySelectedRowsAtThisBranch = branchRowsAtSpecifiedDepth
+          .some(({ id }) => id.indexOf(mask) === 0 && id !== mask);
+
+        if (!areThereAnySelectedRowsAtThisBranch) {
           alreadySelectedRows = alreadySelectedRows.filter(({ id }) => id !== mask);
         } else {
-          if (alreadySelectedRows
-            .filter(({ id }) => id.split('.').length === (depth + 1) && id.indexOf(mask) === 0 && id !== mask)
-            .every(Boolean)) {
-              if (!alreadySelectedRows.filter(({ id }) => id === mask).length) {
+          const isAllRowsSelectedAtThisBranch = branchRowsAtSpecifiedDepth.every(Boolean);
+
+          if (isAllRowsSelectedAtThisBranch) {
+              const isNodeRowAlreadyAffected = alreadySelectedRows.filter(({ id }) => id === mask).length;
+              if (!isNodeRowAlreadyAffected) {
                 alreadySelectedRows.push(rowsById[mask]);
               }
           }

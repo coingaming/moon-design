@@ -145,7 +145,7 @@ const Example = () => {
       getOnRowSelect={() => (rows: any) => {
         console.log(`IDs of selected rows - ${rows.map((row: any) => row.id)}`);
         setSelected(rows.reduce((acc: {[key: string]: boolean}, item: any) => {
-          acc[`${item.id}`] = true;
+          acc[item.id] = true;
           return acc;
         }, {})
       );
