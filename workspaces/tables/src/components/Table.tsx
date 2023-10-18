@@ -116,8 +116,8 @@ const Table = ({
     setSelectedRows(
       rows?.length
         ? rows.filter((row: Row<{ isSelected?: boolean }>) => {
-            return row.original?.isSelected;
-          })
+          return row.original?.isSelected;
+        })
         : []
     );
   }, []);
@@ -143,12 +143,12 @@ const Table = ({
         stickySide={
           // @ts-ignore
           (column.sticky === 'left' || column.parent?.sticky === 'left') &&
-          scrollState.scrolledToRight
+            scrollState.scrolledToRight
             ? 'left'
             : // @ts-ignore
             column.sticky === 'right' || column.parent?.sticky === 'right'
-            ? 'right'
-            : ''
+              ? 'right'
+              : ''
         }
         isLastColumn={isLastColumn}
         rowSize={rowSize}
@@ -199,8 +199,8 @@ const Table = ({
             ? 'left'
             : // @ts-ignore
             column.sticky === 'right' && scrollState.scrolledToLeft
-            ? 'right'
-            : ''
+              ? 'right'
+              : ''
         }
         rowSize={rowSize}
         isCellBorder={isCellBorder}
@@ -219,7 +219,7 @@ const Table = ({
     );
   };
 
-  const setForceUpdateRowSelectedState = (callback: () => React.Dispatch<React.SetStateAction<{[key: string]: boolean}>>) => {
+  const setForceUpdateRowSelectedState = (callback: () => React.Dispatch<React.SetStateAction<{ [key: string]: boolean }>>) => {
     updateRowSelectState = callback;
   }
 
@@ -286,10 +286,10 @@ const Table = ({
           const isAllRowsSelectedAtThisBranch = branchRowsAtSpecifiedDepth.every(Boolean);
 
           if (isAllRowsSelectedAtThisBranch) {
-              const isNodeRowAlreadyAffected = alreadySelectedRows.filter(({ id }) => id === mask).length;
-              if (!isNodeRowAlreadyAffected) {
-                alreadySelectedRows.push(rowsById[mask]);
-              }
+            const isNodeRowAlreadyAffected = alreadySelectedRows.filter(({ id }) => id === mask).length;
+            if (!isNodeRowAlreadyAffected) {
+              alreadySelectedRows.push(rowsById[mask]);
+            }
           }
         }
         depth--;
@@ -369,37 +369,37 @@ const Table = ({
       <Body reactTableProps={{ ...getTableBodyProps() }} rowGap={rowGap}>
         {variant === 'calendar'
           ? renderSpanRows({
-              rows,
-              prepareRow,
-              getOnRowClickHandler,
-              evenRowBackgroundColor,
-              defaultRowBackgroundColor,
-              rowSpanHeaders,
-              selectable,
-              useCheckbox,
-              rowSize,
-              isCellBorder,
-            })
+            rows,
+            prepareRow,
+            getOnRowClickHandler,
+            evenRowBackgroundColor,
+            defaultRowBackgroundColor,
+            rowSpanHeaders,
+            selectable,
+            useCheckbox,
+            rowSize,
+            isCellBorder,
+          })
           : renderRows({
-              rows,
-              prepareRow,
-              getOnRowClickHandler,
-              getOnRowSelectHandler: !selectable
-                ? undefined
-                : useCheckbox
-                  ? (row) => selectCheckableRow
-                  : (row) => selectCommonRow,
+            rows,
+            prepareRow,
+            getOnRowClickHandler,
+            getOnRowSelectHandler: !selectable
+              ? undefined
+              : useCheckbox
+                ? (row) => selectCheckableRow
+                : (row) => selectCommonRow,
 
-              evenRowBackgroundColor,
-              defaultRowBackgroundColor,
-              renderRowSubComponent,
-              setForceUpdateRowSelectedState,
-              selectable,
-              useCheckbox,
-              rowSize,
-              isCellBorder,
-              textClip,
-            })}
+            evenRowBackgroundColor,
+            defaultRowBackgroundColor,
+            renderRowSubComponent,
+            setForceUpdateRowSelectedState,
+            selectable,
+            useCheckbox,
+            rowSize,
+            isCellBorder,
+            textClip,
+          })}
       </Body>
 
       {withFooter && (

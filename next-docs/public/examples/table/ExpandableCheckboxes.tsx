@@ -21,7 +21,7 @@ const Example = () => {
   const [selected, setSelected] = useState<{ [key: string]: boolean }>({});
 
   const columnShift = (depth: number) => {
-    const shiftMap: { [key: number]: string }  = [
+    const shiftMap: { [key: number]: string } = [
       'ps-0',
       'ps-6',
       'ps-12',
@@ -33,15 +33,15 @@ const Example = () => {
   const checkIfSelected = (id: string, canExpand: boolean, rowsById: { [key: string]: boolean }) => {
     return canExpand
       ? Object.keys(rowsById)
-      .filter((rowId) => rowId.indexOf(id) === 0 && rowId !== id)
-      .every((rowId) => selected[rowId] === true)
+        .filter((rowId) => rowId.indexOf(id) === 0 && rowId !== id)
+        .every((rowId) => selected[rowId] === true)
       : selected[id] === true;
   }
 
   const checkIfIndeterminate = (id: string, rowsById: { [key: string]: boolean }) => {
-    const matches =  Object.keys(rowsById)
+    const matches = Object.keys(rowsById)
       .filter((rowId) => rowId.indexOf(id) === 0 && rowId !== id);
-      return !matches.every((rowId) => selected[rowId] === true) && matches.some((rowId) => selected[rowId] === true);
+    return !matches.every((rowId) => selected[rowId] === true) && matches.some((rowId) => selected[rowId] === true);
   }
 
   const columnsInitial = [
@@ -60,7 +60,7 @@ const Example = () => {
             <div className="flex items-center gap-x-1">
               <div className="flex items-center h-full">
                 <Checkbox
-                  id={ PREFIX && PREFIX.length ? `${PREFIX}_root` : 'root'}
+                  id={PREFIX && PREFIX.length ? `${PREFIX}_root` : 'root'}
                   checked={(Object.keys(rowsById).length === Object.keys(selected).length)}
                   indeterminate={!!Object.keys(selected).length && Object.keys(selected).length < Object.keys(rowsById).length}
                   onClick={(e) => { e.stopPropagation() }}
@@ -72,28 +72,28 @@ const Example = () => {
             </div>
           ),
           Cell: ({ row, rowsById }: any) => (
-              <div className={mergeClassnames(
-                    "flex items-center gap-x-1",
-                    columnShift(row.depth),
-                  )}
-                onClick={(e) => {
-                  if ((e.target as unknown as HTMLElement).tagName === 'SPAN') e.stopPropagation();
-                }}
-              >
-                <div className="flex items-center h-full">
-                  <Checkbox
-                    id={ PREFIX && PREFIX.length ? `${PREFIX}_${row.id}` : row.id}
-                    checked={checkIfSelected(row.id, row.canExpand, rowsById)}
-                    indeterminate={checkIfIndeterminate(row.id, rowsById)}
-                    onClick={(e) => e.stopPropagation()}
-                  />
-                </div>
-                { row.canExpand ? (
-                  <span {...row.getToggleRowExpandedProps()}>
-                    {row.isExpanded ? '👇' : '👉'}
-                  </span>
-                ) : null }
+            <div className={mergeClassnames(
+              "flex items-center gap-x-1",
+              columnShift(row.depth),
+            )}
+              onClick={(e) => {
+                if ((e.target as unknown as HTMLElement).tagName === 'SPAN') e.stopPropagation();
+              }}
+            >
+              <div className="flex items-center h-full">
+                <Checkbox
+                  id={PREFIX && PREFIX.length ? `${PREFIX}_${row.id}` : row.id}
+                  checked={checkIfSelected(row.id, row.canExpand, rowsById)}
+                  indeterminate={checkIfIndeterminate(row.id, rowsById)}
+                  onClick={(e) => e.stopPropagation()}
+                />
               </div>
+              {row.canExpand ? (
+                <span {...row.getToggleRowExpandedProps()}>
+                  {row.isExpanded ? '👇' : '👉'}
+                </span>
+              ) : null}
+            </div>
           )
         },
       ],
@@ -304,10 +304,10 @@ const Example = () => {
       useCheckbox={true}
       expandedByDefault={true}
       getOnRowSelect={() => (rows) => {
-        setSelected(rows.reduce((acc: {[key: string]: boolean}, item) => {
-            acc[item.id] = true;
-            return acc;
-          }, {})
+        setSelected(rows.reduce((acc: { [key: string]: boolean }, item) => {
+          acc[item.id] = true;
+          return acc;
+        }, {})
         );
       }}
     />
