@@ -33,7 +33,8 @@ const Example = () => {
         BottomSheet
       </Button>
       <BottomSheet open={isOpen} rootId="__next">
-        <BottomSheet.Panel>
+        <BottomSheet.Panel onClose={closeBottomSheet}>
+          <BottomSheet.Draghandle />
           <div className="flex grow items-center justify-center bg-jiren text-piccolo">
             BottomSheet content
           </div>
