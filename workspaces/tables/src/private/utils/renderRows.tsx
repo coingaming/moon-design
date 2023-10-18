@@ -1,5 +1,4 @@
-import React, { Fragment, useState } from 'react';
-import { Checkbox } from '@heathmont/moon-core-tw';
+import React, { Fragment, useEffect, useState } from 'react';
 import type { Cell, Row, UseExpandedRowProps } from 'react-table';
 import BodyTR from '../../components/BodyTR';
 import TD from '../../components/TD';
@@ -13,6 +12,7 @@ const renderRows = ({
   getOnRowClickHandler,
   getOnRowSelectHandler,
   renderRowSubComponent,
+  setForceUpdateRowSelectedState,
   selectable,
   useCheckbox,
   rowSize,
@@ -24,7 +24,12 @@ const renderRows = ({
     {}
   );
 
-  if (!rows) return;
+  useEffect(() => {
+    selectable
+    && useCheckbox
+    && setForceUpdateRowSelectedState
+    && setForceUpdateRowSelectedState(() => setSelectedRows);
+  });
 
   return rows.map(
     (
@@ -51,7 +56,7 @@ const renderRows = ({
       const fontColor = row.original?.fontColor;
       const isLastNestedRow = rowId.length > nextRowId.length;
       const expandedRow = row as unknown as UseExpandedRowProps<{}>;
-      const resolveRowClick = () => {
+      const resolveRowClick = (target: HTMLElement) => {
         const invokeClickHandler = () => {
           const clickHandlerInvoked = getOnRowClickHandler
             ? getOnRowClickHandler(row)
@@ -62,12 +67,14 @@ const renderRows = ({
           const selectHandlerInvoked = getOnRowSelectHandler
             ? getOnRowSelectHandler(row)
             : undefined;
-          if (selectHandlerInvoked) selectHandlerInvoked(row);
-          setSelectedRows({
-            ...selectedRows,
-            [`${row.id}-${rowProps.key}`]:
-              !selectedRows[`${row.id}-${rowProps.key}`],
-          });
+
+          if (selectHandlerInvoked) selectHandlerInvoked(row, target);
+          if (!selectable || !useCheckbox) {
+            setSelectedRows({
+              ...selectedRows,
+              [row.id]: !selectedRows[row.id],
+            });
+          }
         };
 
         if (!selectable && getOnRowClickHandler) {
@@ -90,54 +97,28 @@ const renderRows = ({
             hasChildren={expandedRow.canExpand}
             hasParent={!!expandedRow.depth}
             isLastNestedRow={isLastNestedRow}
-            isSelected={selectedRows[`${row.id}-${rowProps.key}`]}
-            isHovered={hoveredRow === `${row.id}-${rowProps.key}`}
+            isSelected={selectedRows[row.id] === true}
+            isHovered={hoveredRow === row.id}
             backgroundColor={backgroundColor}
             fontColor={fontColor}
             onHoverToggle={
               getOnRowClickHandler || getOnRowSelectHandler
                 ? (hover?: boolean) =>
-                    setHoveredRow(hover ? `${row.id}-${rowProps.key}` : '')
+                    setHoveredRow(hover ? row.id : '')
                 : undefined
             }
-            onClick={() => resolveRowClick()}
+            onClick={(target: HTMLElement) => resolveRowClick(target)}
           >
-            {useCheckbox && (
-              <TD
-                selectable={true}
-                isExpanded={expandedRow.isExpanded}
-                hasParent={!!expandedRow.depth}
-                backgroundColor={backgroundColor}
-                fontColor={fontColor}
-                isSelected={selectedRows[`${row.id}-${rowProps.key}`]}
-                isFirstColumn={true}
-                isHovered={hoveredRow === `${row.id}-${rowProps.key}`}
-                // @ts-ignore
-                stickySide={row.cells[0].parent?.sticky ? 'left' : ''}
-                rowSize={rowSize}
-                isCellBorder={isCellBorder}
-                role="cell"
-              >
-                <div className="flex items-center h-full w-full justify-center ps-2">
-                  <Checkbox
-                    id={row.id}
-                    checked={selectedRows[`${row.id}-${rowProps.key}`]}
-                    onClick={(e: any) => e.stopPropagation()}
-                  />
-                </div>
-              </TD>
-            )}
-
             {row.cells.map((cell: Cell<{}>, index) => (
               <TD
                 key={cell.getCellProps().key}
                 reactTableProps={{ ...cell.getCellProps() }}
                 // @ts-ignore
                 stickySide={cell?.column?.parent?.sticky}
-                isFirstColumn={!useCheckbox && index === 0}
+                isFirstColumn={index === 0}
                 isLastColumn={index === row.cells.length - 1}
-                isSelected={selectedRows[`${row.id}-${rowProps.key}`]}
-                isHovered={hoveredRow === `${row.id}-${rowProps.key}`}
+                isSelected={selectedRows[row.id]}
+                isHovered={hoveredRow === row.id}
                 backgroundColor={backgroundColor}
                 fontColor={fontColor}
                 rowSize={rowSize}
