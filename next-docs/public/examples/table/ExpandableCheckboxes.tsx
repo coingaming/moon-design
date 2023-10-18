@@ -50,7 +50,7 @@ const Example = () => {
       'sticky': 'left',
       columns: [
         {
-          'id': 'expsel',
+          'id': 'any_unique_string_required',
           Header: ({
             rows,
             rowsById,

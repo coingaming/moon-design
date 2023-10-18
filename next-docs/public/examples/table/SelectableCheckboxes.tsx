@@ -24,7 +24,7 @@ const Example = () => {
       'Footer': '',
       columns: [
         {
-          'id': 'cbsel',
+          'id': '_any_unique_string_required',
           Header: ({
             rows,
             rowsById,
