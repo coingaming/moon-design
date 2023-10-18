@@ -4,7 +4,7 @@ import type { ComponentNames } from '../../components/getComponent';
 import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Bg from '../../public/examples/input/Bg';
-import CustomDate from '../../public/examples/input/CustomDate';
+import Controled from '../../public/examples/input/Controled';
 import Default from '../../public/examples/input/Default';
 import Sizes from '../../public/examples/input/Sizes';
 import States from '../../public/examples/input/States';
@@ -56,9 +56,9 @@ const PageInput = () => {
         code={examples ? examples.Types : 'Loading'}
       />
       <Preview
-        title="Input type date customisation"
-        preview={<CustomDate />}
-        code={examples ? examples.CustomDate : 'Loading'}
+        title="Controlling an input with a state variable"
+        preview={<Controled />}
+        code={examples ? examples.Controled : 'Loading'}
       />
       <PropsTable
         title="Input props"
