@@ -10,7 +10,7 @@ const getButtonCommonStyles = (
     disabled
       ? 'opacity-60 cursor-not-allowed'
       : 'active:scale-90 [&_+_span]:active:scale-90',
-    '[&_.hover]:hover:bg-bulma/[.07]'
+    '[&_.hover]:hover:bg-heles'
   );
 
 export default getButtonCommonStyles;

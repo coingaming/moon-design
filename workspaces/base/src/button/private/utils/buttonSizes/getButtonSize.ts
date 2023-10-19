@@ -1,9 +1,9 @@
-import mergeClassnames from '../../../../mergeClassnames/mergeClassnames';
 import getLgPadding from './getLgPadding';
 import getMdPadding from './getMdPadding';
 import getSmPadding from './getSmPadding';
 import getXlPadding from './getXlPadding';
 import getXsPadding from './getXsPadding';
+import mergeClassnames from '../../../../mergeClassnames/mergeClassnames';
 import type ButtonSettingsProps from '../../types/ButtonSettingsProps';
 
 const getButtonSize = ({
