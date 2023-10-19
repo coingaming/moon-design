@@ -1,13 +1,13 @@
 import React from 'react';
-import mergeClassnames from '../mergeClassnames/mergeClassnames';
+import type ButtonProps from './private/types/ButtonProps';
+import type ButtonVariants from './private/types/ButtonVariants';
 import AnimationContent from './private/utils/buttonAnimations/AnimationContent';
 import getButtonSize from './private/utils/buttonSizes/getButtonSize';
 import ButtonComponent from './styles/ButtonComponent';
 import Hover from './styles/Hover';
 import IconLeft from './styles/IconLeft';
 import IconRight from './styles/IconRight';
-import type ButtonProps from './private/types/ButtonProps';
-import type ButtonVariants from './private/types/ButtonVariants';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
 export type Props<C extends React.ElementType> = React.PropsWithChildren<
   ButtonProps<C>
@@ -16,7 +16,7 @@ export type Props<C extends React.ElementType> = React.PropsWithChildren<
 
 const Button = <C extends React.ElementType = 'button'>({
   children,
-  variant = 'primary',
+  variant = 'fill',
   size = 'md',
   iconLeft,
   iconRight,
@@ -31,7 +31,7 @@ const Button = <C extends React.ElementType = 'button'>({
     animation === 'progress' || animation === 'success';
   if (!children) {
     return (
-      <span className="relative cursor-pointer [&_.hover]:hover:bg-bulma/[.07]">
+      <span className="relative cursor-pointer [&_.hover]:hover:bg-heles">
         <ButtonComponent
           size={size}
           variant={variant as ButtonVariants}
@@ -79,6 +79,7 @@ const Button = <C extends React.ElementType = 'button'>({
           animation={animation}
           size={size}
           fullWidth={fullWidth}
+          variant={variant}
         />
       ) : (
         <>

@@ -10,7 +10,7 @@ const Hover = ({ className }: HoverProps) => (
     className={mergeClassnames(
       'hover z-[-1] block absolute inset-0 pointer-events-none',
       'transition-[background-color_0.2s_ease-in-out]',
-      'hover:bg-bulma/[.07]',
+      'hover:bg-heles',
       className
     )}
   />

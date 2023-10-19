@@ -1,4 +1,4 @@
-import ButtonAnimations from './ButtonAnimations';
+import type ButtonAnimations from './ButtonAnimations';
 import type ButtonSizes from './ButtonSizes';
 import type ButtonVariants from './ButtonVariants';
 

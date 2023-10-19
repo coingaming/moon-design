@@ -1,10 +1,10 @@
 import React from 'react';
 import mergeClassnames from '../../mergeClassnames/mergeClassnames';
+import type ButtonProps from '../private/types/ButtonProps';
 import getAnimation from '../private/utils/buttonAnimations/getAnimation';
 import getButtonSize from '../private/utils/buttonSizes/getButtonSize';
 import getButtonCommonStyles from '../private/utils/buttonStyles/getButtonCommonStyles';
 import getButtonVariants from '../private/utils/buttonStyles/getButtonVariants';
-import type ButtonProps from '../private/types/ButtonProps';
 
 const ButtonComponent = <C extends React.ElementType>({
   variant,
