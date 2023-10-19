@@ -1,8 +1,56 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Table } from '@heathmont/moon-table-tw';
+import { Checkbox } from '@heathmont/moon-core-tw';
+
+interface HeaderProps {
+  rows: [];
+  rowsById: { [key: string]: boolean };
+}
 
 const Example = () => {
+  /**
+   *  The PREFIX is necessary if you use several different tables with checkboxes on the same page.
+   *  Each table should have its own unique PREFIX to avoid assigning identical indexes to elements.
+   *  When using only one table, the PREFIX can be omitted.
+   */
+  const PREFIX = "any_unique_string_for_each_table";
+
+  const [selected, setSelected] = useState<{ [key: string]: boolean }>({});
+
   const columnsInitial = [
+    {
+      'Header': 'Select',
+      'sticky': 'left',
+      'Footer': '',
+      columns: [
+        {
+          'id': '_any_unique_string_required',
+          Header: ({
+            rows,
+            rowsById,
+          }: HeaderProps) => (
+            <div className="flex items-center h-full">
+              <Checkbox
+                id={ PREFIX && PREFIX.length ? `${PREFIX}_root` : 'root' }
+                checked={(Object.keys(rowsById).length === Object.keys(selected).length)}
+                indeterminate={!!Object.keys(selected).length && Object.keys(selected).length < Object.keys(rowsById).length}
+                onClick={(e) => { e.stopPropagation() }}
+              />
+            </div>
+          ),
+          Cell: ({ row, rowsById }: any) => (
+              <div className="flex items-center h-full">
+                <Checkbox
+                  id={ PREFIX && PREFIX.length ? `${PREFIX}_${row.id}` : row.id }
+                  checked={selected[row.id] === true}
+                  onClick={(e) => e.stopPropagation()}
+                />
+              </div>
+          ),
+          Footer: '',
+        },
+      ],
+    },
     {
       Header: 'Name',
       sticky: 'left',
@@ -72,7 +120,6 @@ const Example = () => {
         progress: <span>{Math.floor(index * 100)}</span>,
         status: Math.floor(index * 100),
         activity: Math.floor(index * 100),
-        isSelected: index === 3,
       };
     });
   };
@@ -86,7 +133,7 @@ const Example = () => {
     []
   );
 
-  const columns = React.useMemo(() => columnsInitial, []);
+  const columns = React.useMemo(() => columnsInitial, [selected]);
   const data = React.useMemo(() => makeData(40), []);
 
   return (
@@ -99,8 +146,13 @@ const Example = () => {
       withFooter={true}
       selectable={true}
       useCheckbox={true}
-      getOnRowSelect={() => (rows: any) => {
+      getOnRowSelect={() => (rows) => {
         console.log(`IDs of selected rows - ${rows.map((row: any) => row.id)}`);
+        setSelected(rows.reduce((acc: {[key: string]: boolean}, item) => {
+          acc[item.id] = true;
+          return acc;
+        }, {})
+      );
       }}
     />
   );

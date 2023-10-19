@@ -14,6 +14,7 @@ import {
   UseResizeColumnsColumnProps,
   UseSortByColumnProps,
   TableOptions,
+  UseExpandedRowProps,
 } from 'react-table';
 import { useSticky } from 'react-table-sticky';
 import Body from './Body';
@@ -75,6 +76,7 @@ const Table = ({
     headerGroups,
     footerGroups,
     rows,
+    rowsById,
     prepareRow,
     visibleColumns,
     toggleAllRowsExpanded,
@@ -101,6 +103,8 @@ const Table = ({
   const { scrollState, handleScroll } = useScrollState(tableRef);
   const [selectedRows, setSelectedRows] = useState<Row<{}>[]>([]);
 
+  let updateRowSelectState: (() => React.Dispatch<React.SetStateAction<{ [key: string]: boolean }>>) | undefined = undefined;
+
   useEffect(() => {
     if (expandedByDefault === undefined || !data || !data.length) return;
     toggleAllRowsExpanded(expandedByDefault);
@@ -112,8 +116,8 @@ const Table = ({
     setSelectedRows(
       rows?.length
         ? rows.filter((row: Row<{ isSelected?: boolean }>) => {
-            return row.original?.isSelected;
-          })
+          return row.original?.isSelected;
+        })
         : []
     );
   }, []);
@@ -139,16 +143,35 @@ const Table = ({
         stickySide={
           // @ts-ignore
           (column.sticky === 'left' || column.parent?.sticky === 'left') &&
-          scrollState.scrolledToRight
+            scrollState.scrolledToRight
             ? 'left'
             : // @ts-ignore
             column.sticky === 'right' || column.parent?.sticky === 'right'
-            ? 'right'
-            : ''
+              ? 'right'
+              : ''
         }
         isLastColumn={isLastColumn}
         rowSize={rowSize}
         isCellBorder={isCellBorder}
+        onClick={(e) => {
+          const isTargetCheckbox = (e.target as HTMLElement).closest('label[for$="root"]');
+          if (isTargetCheckbox !== null) {
+            const checkboxInput = isTargetCheckbox?.querySelector('input[type="checkbox"]') as HTMLInputElement;
+            if (checkboxInput?.checked) {
+              setSelectedRows([]);
+              updateRowSelectState && updateRowSelectState()({});
+            } else {
+              setSelectedRows(Object.values(rowsById));
+              updateRowSelectState && updateRowSelectState()(
+                Object.keys(rowsById)
+                  .reduce((acc: { [key: string]: boolean }, item: string) => {
+                    acc[item] = true;
+                    return acc;
+                  }, {})
+              );
+            }
+          }
+        }}
       >
         {column.render('Header')}
         <div
@@ -176,8 +199,8 @@ const Table = ({
             ? 'left'
             : // @ts-ignore
             column.sticky === 'right' && scrollState.scrolledToLeft
-            ? 'right'
-            : ''
+              ? 'right'
+              : ''
         }
         rowSize={rowSize}
         isCellBorder={isCellBorder}
@@ -195,6 +218,113 @@ const Table = ({
       </TH>
     );
   };
+
+  const setForceUpdateRowSelectedState = (callback: () => React.Dispatch<React.SetStateAction<{ [key: string]: boolean }>>) => {
+    updateRowSelectState = callback;
+  }
+
+  const selectCheckableRow = (selectedRow: any, target?: HTMLElement) => {
+    const row = selectedRow as Row<{}>;
+    const xRow = selectedRow as UseExpandedRowProps<{}>
+    const isTargetCheckbox = target && target?.closest(`label[for$="${row.id}"]`);
+
+    if (isTargetCheckbox === null) {
+      return;
+    }
+
+    let alreadySelectedRows = [...selectedRows];
+    const alreadySelectedRow = alreadySelectedRows.filter(
+      (selectedRow) => row.id === selectedRow.id
+    )[0];
+
+    if (xRow.canExpand) {
+      /** Handling an expandable node */
+      const selectedIndexes = alreadySelectedRows.map((item: Row<{}>) => item.id);
+      const allSelected = Object.keys(rowsById)
+        .filter((id) => id.indexOf(row.id) === 0)
+        .every((id) => selectedIndexes.indexOf(id) > -1);
+
+      if (alreadySelectedRow && allSelected) {
+        /** Removing the selected row */
+        alreadySelectedRows = alreadySelectedRows.filter(({ id }) => id.indexOf(row.id) !== 0);
+      } else {
+        /** Appending the selected row */
+        alreadySelectedRows = Object.values(rowsById)
+          .reduce((acc: Row<{}>[], item: Row<{}>) => {
+            if (item.id.indexOf(row.id) === 0
+              && selectedIndexes.indexOf(item.id) === -1
+            )
+              acc.push(item);
+            return acc;
+          }, alreadySelectedRows);
+      }
+    } else {
+      /** Handling a simple row */
+      if (alreadySelectedRow) {
+        alreadySelectedRows = alreadySelectedRows.filter(
+          (selectedRow) => row.id !== selectedRow.id
+        );
+      } else {
+        alreadySelectedRows.push(row);
+      }
+    }
+
+    /** Rising up checking wether a branch is completely checked/unchecked after an item toggle */
+    if (selectable && alreadySelectedRows) {
+      let depth = xRow.depth;
+      while (depth > 0) {
+        const mask = row.id.split('.').slice(0, depth).join('.');
+        const branchRowsAtSpecifiedDepth = alreadySelectedRows
+          .filter(({ id }) => id.split('.').length === (depth + 1) && id.indexOf(mask) === 0 && id !== mask);
+
+        const areThereAnySelectedRowsAtThisBranch = branchRowsAtSpecifiedDepth
+          .some(({ id }) => id.indexOf(mask) === 0 && id !== mask);
+
+        if (!areThereAnySelectedRowsAtThisBranch) {
+          alreadySelectedRows = alreadySelectedRows.filter(({ id }) => id !== mask);
+        } else {
+          const isAllRowsSelectedAtThisBranch = branchRowsAtSpecifiedDepth.every(Boolean);
+
+          if (isAllRowsSelectedAtThisBranch) {
+            const isNodeRowAlreadyAffected = alreadySelectedRows.filter(({ id }) => id === mask).length;
+            if (!isNodeRowAlreadyAffected) {
+              alreadySelectedRows.push(rowsById[mask]);
+            }
+          }
+        }
+        depth--;
+      }
+    }
+
+    /** Toggling the "hover" state for the affected rows */
+    updateRowSelectState && updateRowSelectState()(
+      alreadySelectedRows.reduce((acc: { [key: string]: boolean }, item) => {
+        acc[item.id] = true
+        return acc;
+      }, {}) || {}
+    );
+
+    /** Toggling state for the affected checkboxes */
+    setSelectedRows(alreadySelectedRows);
+  }
+
+  const selectCommonRow = (selectedRow: any, target?: HTMLElement) => {
+    const row = selectedRow as Row<{}>;
+    let alreadySelectedRows = [...selectedRows];
+    const alreadySelectedRow = alreadySelectedRows.filter(
+      (selectedRow) => row.id === selectedRow.id
+    )[0];
+
+    if (alreadySelectedRow) {
+      alreadySelectedRows = alreadySelectedRows.filter(
+        (selectedRow) => row.id !== selectedRow.id
+      );
+    } else {
+      alreadySelectedRows.push(row);
+    }
+
+    setSelectedRows(alreadySelectedRows);
+  }
 
   const renderTableComponent = () => (
     <TableWrapper
@@ -219,7 +349,7 @@ const Table = ({
         selectable={useCheckbox}
         headerBackgroundColor={headerBackgroundColor}
       >
-        {headerGroups.map((headerGroup: HeaderGroup<object>) => (
+        {headerGroups.map((headerGroup: HeaderGroup<object>, index) => (
           <HeaderTR
             reactTableProps={{ ...headerGroup.getHeaderGroupProps() }}
             key={headerGroup.getHeaderGroupProps().key}
@@ -239,48 +369,37 @@ const Table = ({
       <Body reactTableProps={{ ...getTableBodyProps() }} rowGap={rowGap}>
         {variant === 'calendar'
           ? renderSpanRows({
-              rows,
-              prepareRow,
-              getOnRowClickHandler,
-              evenRowBackgroundColor,
-              defaultRowBackgroundColor,
-              rowSpanHeaders,
-              selectable,
-              useCheckbox,
-              rowSize,
-              isCellBorder,
-            })
+            rows,
+            prepareRow,
+            getOnRowClickHandler,
+            evenRowBackgroundColor,
+            defaultRowBackgroundColor,
+            rowSpanHeaders,
+            selectable,
+            useCheckbox,
+            rowSize,
+            isCellBorder,
+          })
           : renderRows({
-              rows,
-              prepareRow,
-              getOnRowClickHandler,
-              getOnRowSelectHandler: !selectable
-                ? undefined
-                : (row) => () => {
-                    let alreadySelectedRows = [...selectedRows];
-                    const alreadySelectedRow = alreadySelectedRows.filter(
-                      (selectedRow) => row.id === selectedRow.id
-                    )[0];
+            rows,
+            prepareRow,
+            getOnRowClickHandler,
+            getOnRowSelectHandler: !selectable
+              ? undefined
+              : useCheckbox
+                ? (row) => selectCheckableRow
+                : (row) => selectCommonRow,
 
-                    if (alreadySelectedRow) {
-                      alreadySelectedRows = alreadySelectedRows.filter(
-                        (selectedRow) => row.id !== selectedRow.id
-                      );
-                    } else {
-                      alreadySelectedRows.push(row);
-                    }
-
-                    setSelectedRows(alreadySelectedRows);
-                  },
-              evenRowBackgroundColor,
-              defaultRowBackgroundColor,
-              renderRowSubComponent,
-              selectable,
-              useCheckbox,
-              rowSize,
-              isCellBorder,
-              textClip,
-            })}
+            evenRowBackgroundColor,
+            defaultRowBackgroundColor,
+            renderRowSubComponent,
+            setForceUpdateRowSelectedState,
+            selectable,
+            useCheckbox,
+            rowSize,
+            isCellBorder,
+            textClip,
+          })}
       </Body>
 
       {withFooter && (
