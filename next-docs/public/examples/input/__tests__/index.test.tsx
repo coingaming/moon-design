@@ -8,6 +8,7 @@ import Default from '../Default';
 import Sizes from '../Sizes';
 import Types from '../Types';
 import States from '../States';
+import Controled from '../Controled';
 
 const withRtl = (component: JSX.Element) => <div dir="rtl">{component}</div>;
 
@@ -33,6 +34,10 @@ describe('Input', () => {
     const tree = render(<Types />);
     expect(tree).toMatchSnapshot();
   });
+  it('renders Controled', () => {
+    const tree = render(<Controled />);
+    expect(tree).toMatchSnapshot();
+  });
 });
 
 describe('Input in RTL', () => {
@@ -55,6 +60,10 @@ describe('Input in RTL', () => {
   });
   it('renders Types', () => {
     const tree = render(withRtl(<Types />));
+    expect(tree).toMatchSnapshot();
+  });
+  it('renders Controled', () => {
+    const tree = render(withRtl(<Controled />));
     expect(tree).toMatchSnapshot();
   });
 });

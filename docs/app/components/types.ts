@@ -17,16 +17,28 @@ export interface Examples {
     accordion: {
       description: 'string';
       examples: {
+        ContentOutsideSizes: 'string';
         Default: 'string';
         Disabled: 'string';
         Sizes: 'string';
-        ContentOutsideSizes: 'string';
       };
     };
-    avatar: {
+    button: {
       description: 'string';
       examples: {
-        Active: 'string';
+        Default: 'string';
+        Sizes: 'string';
+        Variants: 'string';
+        Icons: 'string';
+        FullWidth: 'string';
+        Disabled: 'string';
+        Animations: 'string';
+        Multiline: 'string';
+      };
+    };
+    checkbox: {
+      description: 'string';
+      examples: {
         Default: 'string';
       };
     };
@@ -35,6 +47,12 @@ export interface Examples {
       examples: {
         Default: 'string';
       };
+    };
+  };
+  shared: {
+    fonts: {
+      'DMSans-Regular': 'string';
+      'DMSans-Semibold': 'string';
     };
   };
 }

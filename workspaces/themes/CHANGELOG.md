@@ -1,5 +1,11 @@
 # @heathmont/moon-themes-tw
 
+## 10.10.2
+
+### Patch Changes
+
+- Deploy 10.10.2
+
 ## 10.10.1
 
 ### Patch Changes

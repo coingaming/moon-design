@@ -1,4 +1,4 @@
-import React, { forwardRef, useEffect, useState } from 'react';
+import React, { forwardRef } from 'react';
 import type CheckboxProps from './private/types/CheckboxProps';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import ControlsMinus from '../private/icons/ControlsMinus';

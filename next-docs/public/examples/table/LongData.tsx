@@ -48,8 +48,6 @@ const Example = () => {
           'Header': 'Currency',
           'accessor': 'currency',
           'Footer': '',
-          /*'maxWidth': Number.MAX_SAFE_INTEGER,
-          'width': 80 */
         },
       ],
     },

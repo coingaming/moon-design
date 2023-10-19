@@ -11,6 +11,7 @@ import ClickableRows from '../ClickableRows';
 import SelectableRows from '../SelectableRows';
 import SelectableCheckboxes from '../SelectableCheckboxes';
 import CustomColors from '../CustomColors';
+import ExpandableCheckboxes from '../ExpandableCheckboxes';
 import ExpandedRows from '../ExpandedRows';
 import ExpandedWithModals from '../ExpandedWithModals';
 import Sorting from '../Sorting';
@@ -74,6 +75,10 @@ describe('Table', () => {
   });
   it('renders ExpandedWithModals', () => {
     const tree = render(<ExpandedWithModals />);
+    expect(tree).toMatchSnapshot();
+  });
+  it('renders ExpandableCheckboxes', () => {
+    const tree = render(<ExpandableCheckboxes />);
     expect(tree).toMatchSnapshot();
   });
   it('renders CustomContent', () => {
@@ -158,6 +163,10 @@ describe('Table in RTL', () => {
   });
   it('renders ExpandedWithModals', () => {
     const tree = render(withRtl(<ExpandedWithModals />));
+    expect(tree).toMatchSnapshot();
+  });
+  it('renders ExpandableCheckboxes', () => {
+    const tree = render(withRtl(<ExpandableCheckboxes />));
     expect(tree).toMatchSnapshot();
   });
   it('renders CustomContent', () => {

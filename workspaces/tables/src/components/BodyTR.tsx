@@ -39,7 +39,7 @@ const BodyTR = forwardRef<HTMLDivElement, BodyTRProps>(
       )}
       onMouseEnter={onHoverToggle ? () => onHoverToggle(true) : null}
       onMouseLeave={onHoverToggle ? () => onHoverToggle(false) : null}
-      onClick={() => (onClick ? onClick() : null)}
+      onClick={(e) => (onClick ? onClick(e.target) : null)}
     >
       {children}
     </div>
