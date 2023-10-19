@@ -2,7 +2,6 @@ import React, { ReactNode, useState } from 'react';
 import { Table } from '@heathmont/moon-table-tw';
 import { Button, Chip, Modal, Tooltip } from '@heathmont/moon-core-tw';
 import { OtherFrame } from '@heathmont/moon-icons-tw';
-import { number } from 'zod';
 
 interface HeaderProps {
   isAllRowsExpanded: boolean;
@@ -107,7 +106,8 @@ const Example = () => {
           onClick={() => {
             setTitle(modal.title);
             setPanel(modal.panel);
-            openModal(); }}
+            openModal();
+          }}
         />
       </Tooltip.Trigger>
       <Tooltip.Content position="top-start">
@@ -128,7 +128,7 @@ const Example = () => {
           <li>Activity: {Math.floor(index * 100)}</li>
           <li>Actions: {Math.floor(index * 100)}</li>
         </ul>
-        )
+      )
     };
   }
 

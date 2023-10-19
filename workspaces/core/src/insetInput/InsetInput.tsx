@@ -5,6 +5,7 @@ import InsetInputContext from './private/utils/InsetInputContext';
 import useInsetInputContext from './private/utils/useInsetInputContext';
 import useFormItemContext from '../form/private/utils/useFormItemContext';
 import getMaxDate from '../input/private/utils/getMaxDate';
+import getTypeStyles from '../input/private/utils/getTypeStyles';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import useRegisterChild from '../private/utils/useRegisterChild';
 
@@ -32,26 +33,21 @@ const InsetInputRoot = forwardRef<HTMLInputElement, InsetInputProps>(
             disabled={disabled}
             max={getMaxDate(rest.type)}
             className={mergeClassnames(
-              'block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2]',
-              'bg-transparent shadow-input hover:shadow-input-hov',
-              'focus:shadow-input-focus focus:outline-none',
+              'block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma',
+              'transition-shadow box-border relative z-[2] bg-transparent shadow-input',
+              'hover:shadow-input-hov focus:shadow-input-focus focus:outline-none',
               'focus-visible:shadow-input-focus focus-visible::outline-none',
               error &&
                 'shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err',
-              'h-14 leading-[3.5rem] rounded-moon-i-sm',
-              'rtl:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus-visible:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm',
-              'ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus-visible:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm',
-              'before:box-border after:box-border',
-              'placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75',
-              'read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input',
-              rest.type === 'number' && 'input-number-clear',
-              rest.type === 'date' && 'ltr:input-d rtl:input-d-rtl',
-              rest.type === 'time' && 'ltr:input-t rtl:input-t-rtl',
-              rest.type === 'datetime-local' &&
-                'ltr:input-d rtl:input-dt-local-rtl',
-              'input-xl-dt-shared',
+              'h-14 leading-[3.5rem] rounded-moon-i-sm before:box-border after:box-border',
+              'placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity',
+              'placeholder:delay-75 read-only:outline-0 read-only:border-none',
+              'read-only:cursor-not-allowed read-only:hover:shadow-input',
+              'read-only:focus:shadow-input read-only:focus-visible:shadow-input',
+              'invalid:shadow-input-err invalid:hover:shadow-input-err input-xl-dt-shared',
+              'invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err',
+              getTypeStyles(rest.type),
               isLabel && 'input-xl pt-[1.125rem] input-xl-dt-label',
-              'invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err',
               disabled && 'opacity-60 cursor-not-allowed'
             )}
             {...rest}
@@ -71,7 +67,7 @@ const Label = ({ children, className }: LabelProps) => {
   return (
     <label
       className={mergeClassnames(
-        'absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200',
+        'absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200',
         'start-4',
         className
       )}
