@@ -36,10 +36,9 @@ export interface Examples {
         Multiline: 'string';
       };
     };
-    avatar: {
+    checkbox: {
       description: 'string';
       examples: {
-        Active: 'string';
         Default: 'string';
       };
     };
