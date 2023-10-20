@@ -6,7 +6,10 @@ type PopoverState = {
     setPopper: React.Dispatch<
       React.SetStateAction<HTMLElement | null | undefined>
     >;
+    setArrow: React.Dispatch<React.SetStateAction<HTMLElement | null>>;
   };
+  registerChild?: (child: string) => () => void;
+  childrens?: string[];
 };
 
 export default PopoverState;
