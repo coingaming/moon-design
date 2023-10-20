@@ -7,6 +7,7 @@ import Default from '../Default';
 import InsetMultiSelect from '../InsetMultiSelect';
 import InsetSelect from '../InsetSelect';
 import InsetSelectStates from '../InsetSelectStates';
+import LongNameOptions from '../LongNameOptions';
 import MultiAllSelect from '../MultiAllSelect';
 import MultiSelect from '../MultiSelect';
 import Select from '../Select';
@@ -53,6 +54,10 @@ describe('Combobox', () => {
     const tree = render(<VisualMultiSelect />);
     expect(tree).toMatchSnapshot();
   });
+  it('renders LongNameOptions', () => {
+    const tree = render(<LongNameOptions />);
+    expect(tree).toMatchSnapshot();
+  });
 });
 
 describe('Combobox in RTL', () => {
@@ -91,6 +96,10 @@ describe('Combobox in RTL', () => {
   });
   it('renders VisualMultiSelect', () => {
     const tree = render(withRtl(<VisualMultiSelect />));
+    expect(tree).toMatchSnapshot();
+  });
+  it('renders LongNameOptions', () => {
+    const tree = render(withRtl(<LongNameOptions />));
     expect(tree).toMatchSnapshot();
   });
 });
