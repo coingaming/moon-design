@@ -30,12 +30,12 @@ const Minimap = ({ tableRef, footerRef, numberOfColumns }: MinimapProps) => {
       borderColor: 'rgb(var(--piccolo))',
     });
 
-    setVisible(true);
+    setVisible(false);
 
     if (timeoutId) clearTimeout(timeoutId);
 
     timeoutId = setTimeout(() => {
-      setVisible(false);
+      setVisible(true);
     }, TIMEOUT);
   }, [tableRef]);
   useEffect(() => {
@@ -61,6 +61,7 @@ const Minimap = ({ tableRef, footerRef, numberOfColumns }: MinimapProps) => {
         'pointer-events-none transition-opacity',
         visible ? 'opacity-1' : 'opacity-0'
       )}
+      ref={(tab: HTMLDivElement) => { tableRef.current = tab }}
     >
       <div className="grid grid-flow-col h-full gap-1 relative auto-cols-[minmax(0,_2fr)]">
         <div
