@@ -46,6 +46,7 @@ const ComboboxRoot = ({
   const [anchorEl, setAnchorEl] = React.useState<Element | null>();
   const [popperEl, setPopperEl] = React.useState<HTMLElement | null>();
   const [isInputFocused, setIsInputFocused] = React.useState<boolean>(false);
+  const [isTrackingState, setIsTrackingState] = React.useState<boolean>(false);
 
   let { styles, attributes } = usePopper(anchorEl, popperEl, {
     placement: position,
@@ -60,6 +61,10 @@ const ComboboxRoot = ({
     input: {
       isFocused: isInputFocused,
       setIsFocused: setIsInputFocused,
+    },
+    tracking: {
+      isTrackingState: isTrackingState,
+      setIsTrackingState: setIsTrackingState,
     },
     multiple: multiple,
     onClear: onClear,
@@ -410,13 +415,20 @@ const SelectedItem = ({
 }
 
 const Transition = ({ children, ...rest }: WithChildren) => {
-  const { onQueryChange } = useComboboxContext('Combobox.Counter');
+  const [isShowing, setIsShowing] = useState(false);
+  const { value, onQueryChange, tracking } = useComboboxContext('Combobox.Counter');
+
+  useEffect(() => {
+    setIsShowing(false);
+    setTimeout(() => (setIsShowing(true)), 50);
+  }, [value]);
 
   return (
     <HeadlessTransition
       as={'div'}
-      leave="transition ease-in duration-100"
-      leaveFrom="opacity-100"
+      show={tracking?.isTrackingState ? isShowing : undefined}
+      leave={tracking?.isTrackingState ? "transition ease-in duration-0" : "transition ease-in duration-100"}
+      leaveFrom={tracking?.isTrackingState ? "opacity-0" : "opacity-100"}
       leaveTo="opacity-0"
       afterLeave={onQueryChange ? () => onQueryChange('') : () => {}}
       {...rest}
@@ -595,9 +607,14 @@ const VisualMultiSelect = ({
   multiple = true,
   counter,
   displayValue,
+  withTracking = false,
   ...rest
-}: WithChildren<SelectProps & InputProps>) => {
-  const { size, popper, disabled } = useComboboxContext('Combobox.VisualMultiSelect');
+}: WithChildren<SelectProps & InputProps> & { withTracking?: boolean }) => {
+  const { size, popper, disabled, tracking } = useComboboxContext('Combobox.VisualMultiSelect');
+
+  useEffect(() => {
+    tracking?.setIsTrackingState((withTracking && open) || false);
+  }, [open, withTracking]);
 
   return (
     <Listbox>

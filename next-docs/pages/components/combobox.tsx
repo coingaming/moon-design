@@ -340,6 +340,19 @@ const PageCombobox = () => {
       />
 
       <PropsTable
+        title="Combobox.VisualSelectInput"
+        data={[
+          {
+            name: 'withTracking',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description: 'Wether the list of options should track changes in the state of the input element.',
+          },
+        ]}
+      />
+
+      <PropsTable
         title="Combobox.Button"
         data={[
           {

@@ -13,6 +13,10 @@ type ComboboxState = {
     isFocused?: boolean;
     setIsFocused: React.Dispatch<React.SetStateAction<boolean>>;
   };
+  tracking?: {
+    isTrackingState?: boolean;
+    setIsTrackingState: React.Dispatch<React.SetStateAction<boolean>>;
+  };
   popper?: {
     styles?: { [key: string]: React.CSSProperties };
     attributes?: { [key: string]: { [key: string]: string } | undefined };
