@@ -420,7 +420,10 @@ const Transition = ({ children, ...rest }: WithChildren) => {
 
   useEffect(() => {
     setIsShowing(false);
-    setTimeout(() => (setIsShowing(true)), 50);
+    /** For reliable operation in desktop systems, a delay of 50 ms is sufficient.
+     *  For mobile devices, a delay of at least 150 ms is required.
+     */
+    setTimeout(() => (setIsShowing(true)), 150);
   }, [value]);
 
   return (
