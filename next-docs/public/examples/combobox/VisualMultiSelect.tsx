@@ -102,7 +102,7 @@ const Example = () => {
               label=""
               placeholder="Choose an option"
               displayValue={({ label }) => label}
-              withTracking={true}
+              useTrackingDelay={75}
             >
               <ControlsChevronDownSmall />
             </Combobox.VisualMultiSelect>

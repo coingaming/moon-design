@@ -46,7 +46,7 @@ const ComboboxRoot = ({
   const [anchorEl, setAnchorEl] = React.useState<Element | null>();
   const [popperEl, setPopperEl] = React.useState<HTMLElement | null>();
   const [isInputFocused, setIsInputFocused] = React.useState<boolean>(false);
-  const [isTrackingState, setIsTrackingState] = React.useState<boolean>(false);
+  const [trackingDelay, setTrackingDelay] = React.useState<number | undefined>();
 
   let { styles, attributes } = usePopper(anchorEl, popperEl, {
     placement: position,
@@ -63,8 +63,8 @@ const ComboboxRoot = ({
       setIsFocused: setIsInputFocused,
     },
     tracking: {
-      isTrackingState: isTrackingState,
-      setIsTrackingState: setIsTrackingState,
+      trackingDelay: trackingDelay,
+      setTrackingDelay: setTrackingDelay,
     },
     multiple: multiple,
     onClear: onClear,
@@ -419,19 +419,21 @@ const Transition = ({ children, ...rest }: WithChildren) => {
   const { value, onQueryChange, tracking } = useComboboxContext('Combobox.Counter');
 
   useEffect(() => {
-    setIsShowing(false);
-    /** For reliable operation in desktop systems, a delay of 50 ms is sufficient.
-     *  For mobile devices, a delay of at least 150 ms is required.
-     */
-    setTimeout(() => (setIsShowing(true)), 150);
-  }, [value]);
+    if (tracking?.trackingDelay !== undefined) {
+      setIsShowing(false);
+      /** For reliable operation in desktop systems, a delay of 50 ms is sufficient.
+       *  For mobile devices, a delay of at least 200 ms is required.
+       */
+      setTimeout(() => (setIsShowing(true)), tracking.trackingDelay);
+    }
+  }, [value, tracking?.trackingDelay]);
 
   return (
     <HeadlessTransition
       as={'div'}
-      show={tracking?.isTrackingState ? isShowing : undefined}
-      leave={tracking?.isTrackingState ? "transition ease-in duration-0" : "transition ease-in duration-100"}
-      leaveFrom={tracking?.isTrackingState ? "opacity-0" : "opacity-100"}
+      show={tracking?.trackingDelay ? isShowing : undefined}
+      leave={tracking?.trackingDelay ? "transition ease-in duration-0" : "transition ease-in duration-100"}
+      leaveFrom={tracking?.trackingDelay ? "opacity-0" : "opacity-100"}
       leaveTo="opacity-0"
       afterLeave={onQueryChange ? () => onQueryChange('') : () => {}}
       {...rest}
@@ -610,14 +612,15 @@ const VisualMultiSelect = ({
   multiple = true,
   counter,
   displayValue,
-  withTracking = false,
+  useTrackingDelay,
   ...rest
-}: WithChildren<SelectProps & InputProps> & { withTracking?: boolean }) => {
+}: WithChildren<SelectProps & InputProps> & { useTrackingDelay?: number }) => {
   const { size, popper, disabled, tracking } = useComboboxContext('Combobox.VisualMultiSelect');
 
   useEffect(() => {
-    tracking?.setIsTrackingState((withTracking && open) || false);
-  }, [open, withTracking]);
+    const delay = useTrackingDelay && open ? useTrackingDelay : undefined;
+    useTrackingDelay && tracking?.setTrackingDelay(delay);
+  }, [open, useTrackingDelay]);
 
   return (
     <Listbox>

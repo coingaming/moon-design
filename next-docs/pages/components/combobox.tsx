@@ -340,19 +340,6 @@ const PageCombobox = () => {
       />
 
       <PropsTable
-        title="Combobox.VisualSelectInput"
-        data={[
-          {
-            name: 'withTracking',
-            type: 'boolean',
-            required: false,
-            default: 'false',
-            description: 'Wether the list of options should track changes in the state of the input element.',
-          },
-        ]}
-      />
-
-      <PropsTable
         title="Combobox.Button"
         data={[
           {
@@ -591,6 +578,19 @@ const PageCombobox = () => {
             required: false,
             default: '-',
             description: 'Called when the Combobox is dismissed.',
+          },
+        ]}
+      />
+
+      <PropsTable
+        title="Combobox.VisualMultiSelect"
+        data={[
+          {
+            name: 'useTrackingDelay',
+            type: 'number',
+            required: false,
+            default: '-',
+            description: 'If you need to align the list of options properly on each select/deselect set the "trackingDelay" property. The reasonable value range is between 50 and 200 (ms)',
           },
         ]}
       />
