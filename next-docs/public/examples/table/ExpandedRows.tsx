@@ -1,5 +1,7 @@
 import React from 'react';
 import { Table } from '@heathmont/moon-table-tw';
+import { ControlsChevronDown } from '@heathmont/moon-icons';
+import { ControlsChevronRight } from '@heathmont/moon-icons-tw';
 
 interface HeaderProps {
   isAllRowsExpanded: boolean;
@@ -19,7 +21,7 @@ const Example = () => {
             isAllRowsExpanded,
           }: HeaderProps) => (
             <span {...getToggleAllRowsExpandedProps()}>
-              {isAllRowsExpanded ? '👇' : '👉'}
+              {isAllRowsExpanded ? <ControlsChevronDown/> : <ControlsChevronRight/>}
             </span>
           ),
           Cell: ({ row }: any) =>
@@ -31,7 +33,7 @@ const Example = () => {
                   },
                 })}
               >
-                {row.isExpanded ? '👇' : '👉'}
+                {row.isExpanded ? <ControlsChevronDown/> : <ControlsChevronRight/>}
               </span>
             ) : null,
         },

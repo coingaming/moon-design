@@ -1,3 +1,4 @@
+import { ControlsChevronDown, ControlsChevronRight } from '@heathmont/moon-icons-tw';
 import { BodyTR, TD, Table } from '@heathmont/moon-table-tw';
 import React from 'react';
 
@@ -9,10 +10,10 @@ const Example = () => {
       Header: ({ getToggleAllRowsExpandedProps, isAllRowsExpanded }: any) => (
         <span {...getToggleAllRowsExpandedProps()}>
           Expand
-          {isAllRowsExpanded ? '👇' : '👉'}
+          {isAllRowsExpanded ? <ControlsChevronDown/> : <ControlsChevronRight/>}
         </span>
       ),
-      Cell: ({ row }: any) => <span>{row.isExpanded ? '👇' : '👉'}</span>,
+      Cell: ({ row }: any) => <span>{row.isExpanded ? <ControlsChevronDown/> : <ControlsChevronRight/>}</span>,
     },
     {
       Header: 'First Name',

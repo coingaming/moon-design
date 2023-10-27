@@ -1,3 +1,4 @@
+import { ControlsChevronDown, ControlsChevronRight } from '@heathmont/moon-icons-tw';
 import { Table } from '@heathmont/moon-table-tw';
 import React from 'react';
 
@@ -8,13 +9,13 @@ const Example = () => {
       width: 60,
       Header: ({ getToggleAllRowsExpandedProps, isAllRowsExpanded }: any) => (
         <span {...getToggleAllRowsExpandedProps()}>
-          {isAllRowsExpanded ? '👇' : '👉'}
+          {isAllRowsExpanded ? <ControlsChevronDown/> : <ControlsChevronRight/>}
         </span>
       ),
       Cell: ({ row }: any) =>
         row.canExpand ? (
           <span style={{ paddingLeft: `${row.depth * 2}rem` }}>
-            {row.isExpanded ? '👇' : '👉'}
+            {row.isExpanded ? <ControlsChevronDown/> : <ControlsChevronRight/>}
           </span>
         ) : null,
     },

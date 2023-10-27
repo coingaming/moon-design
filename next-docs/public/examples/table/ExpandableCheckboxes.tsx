@@ -1,5 +1,5 @@
 import { Checkbox, Chip, Tooltip, mergeClassnames } from "@heathmont/moon-core-tw";
-import { OtherFrame } from "@heathmont/moon-icons-tw";
+import { ControlsChevronDown, ControlsChevronRight, OtherFrame } from "@heathmont/moon-icons-tw";
 import { Table } from "@heathmont/moon-table-tw";
 import React, { useState } from "react";
 
@@ -67,7 +67,7 @@ const Example = () => {
                 />
               </div>
               {<span {...getToggleAllRowsExpandedProps()}>
-                {isAllRowsExpanded ? '👇' : '👉'}
+                {isAllRowsExpanded ? <ControlsChevronDown/> : <ControlsChevronRight/>}
               </span>}
             </div>
           ),
@@ -90,7 +90,7 @@ const Example = () => {
               </div>
               {row.canExpand ? (
                 <span {...row.getToggleRowExpandedProps()}>
-                  {row.isExpanded ? '👇' : '👉'}
+                  {row.isExpanded ? <ControlsChevronDown/> : <ControlsChevronRight/>}
                 </span>
               ) : null}
             </div>
