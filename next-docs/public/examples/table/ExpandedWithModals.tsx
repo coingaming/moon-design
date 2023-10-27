@@ -21,7 +21,7 @@ const Example = () => {
             isAllRowsExpanded,
           }: HeaderProps) => (
             <span {...getToggleAllRowsExpandedProps()}>
-              {isAllRowsExpanded ? <ControlsChevronDown/> : <ControlsChevronRight/>}
+              {isAllRowsExpanded ? <ControlsChevronDown /> : <ControlsChevronRight />}
             </span>
           ),
           Cell: ({ row }: any) =>
@@ -33,7 +33,7 @@ const Example = () => {
                   },
                 })}
               >
-                {row.isExpanded ? <ControlsChevronDown/> : <ControlsChevronRight/>}
+                {row.isExpanded ? <ControlsChevronDown /> : <ControlsChevronRight />}
               </span>
             ) : null,
         },

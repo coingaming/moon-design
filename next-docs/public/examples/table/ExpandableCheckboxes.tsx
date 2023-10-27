@@ -67,7 +67,7 @@ const Example = () => {
                 />
               </div>
               {<span {...getToggleAllRowsExpandedProps()}>
-                {isAllRowsExpanded ? <ControlsChevronDown/> : <ControlsChevronRight/>}
+                {isAllRowsExpanded ? <ControlsChevronDown /> : <ControlsChevronRight />}
               </span>}
             </div>
           ),
@@ -90,7 +90,7 @@ const Example = () => {
               </div>
               {row.canExpand ? (
                 <span {...row.getToggleRowExpandedProps()}>
-                  {row.isExpanded ? <ControlsChevronDown/> : <ControlsChevronRight/>}
+                  {row.isExpanded ? <ControlsChevronDown /> : <ControlsChevronRight />}
                 </span>
               ) : null}
             </div>

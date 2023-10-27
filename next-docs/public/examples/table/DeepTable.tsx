@@ -9,13 +9,13 @@ const Example = () => {
       width: 60,
       Header: ({ getToggleAllRowsExpandedProps, isAllRowsExpanded }: any) => (
         <span {...getToggleAllRowsExpandedProps()}>
-          {isAllRowsExpanded ? <ControlsChevronDown/> : <ControlsChevronRight/>}
+          {isAllRowsExpanded ? <ControlsChevronDown /> : <ControlsChevronRight />}
         </span>
       ),
       Cell: ({ row }: any) =>
         row.canExpand ? (
           <span style={{ paddingLeft: `${row.depth * 2}rem` }}>
-            {row.isExpanded ? <ControlsChevronDown/> : <ControlsChevronRight/>}
+            {row.isExpanded ? <ControlsChevronDown /> : <ControlsChevronRight />}
           </span>
         ) : null,
     },

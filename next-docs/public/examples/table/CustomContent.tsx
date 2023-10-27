@@ -10,10 +10,10 @@ const Example = () => {
       Header: ({ getToggleAllRowsExpandedProps, isAllRowsExpanded }: any) => (
         <span {...getToggleAllRowsExpandedProps()}>
           Expand
-          {isAllRowsExpanded ? <ControlsChevronDown/> : <ControlsChevronRight/>}
+          {isAllRowsExpanded ? <ControlsChevronDown /> : <ControlsChevronRight />}
         </span>
       ),
-      Cell: ({ row }: any) => <span>{row.isExpanded ? <ControlsChevronDown/> : <ControlsChevronRight/>}</span>,
+      Cell: ({ row }: any) => <span>{row.isExpanded ? <ControlsChevronDown /> : <ControlsChevronRight />}</span>,
     },
     {
       Header: 'First Name',
