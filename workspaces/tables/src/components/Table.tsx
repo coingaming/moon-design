@@ -56,6 +56,7 @@ const Table = ({
   selectable,
   useCheckbox,
   textClip,
+  keptStates,
   renderRowSubComponent,
   getOnRowClickHandler,
   getOnRowSelect,
@@ -80,6 +81,7 @@ const Table = ({
     prepareRow,
     visibleColumns,
     toggleAllRowsExpanded,
+    toggleRowExpanded,
     rowSpanHeaders,
   } = useTable(
     {
@@ -91,6 +93,7 @@ const Table = ({
     ...plugins
   ) as TableInstance<object> & {
     toggleAllRowsExpanded: (isExpanded?: boolean) => void;
+    toggleRowExpanded: (rowId: string,  isExpanded?: boolean) => void;
     rowSpanHeaders: RowSpanHeaderProps[];
   };
   const lastHeaderGroup = headerGroups[headerGroups.length - 1];
@@ -105,6 +108,20 @@ const Table = ({
 
   let updateRowSelectState: (() => React.Dispatch<React.SetStateAction<{ [key: string]: boolean }>>) | undefined = undefined;
 
+  useEffect(() => {
+    const preExpandedState = keptStates?.expandedRows;
+    if (preExpandedState && preExpandedState.length) {
+      const selectableRows = (rows as unknown[] as UseExpandedRowProps<{}>[])
+        .filter(({ canExpand }) => canExpand);
+      if (selectableRows.length === preExpandedState.length) {
+        toggleAllRowsExpanded(true);
+      } else {
+        preExpandedState.forEach((record) => {
+          toggleRowExpanded(Object.keys(record)[0] as string, true)
+        });
+      }
+    }
+  }, [keptStates, toggleRowExpanded, toggleAllRowsExpanded]);
   useEffect(() => {
     if (expandedByDefault === undefined || !data || !data.length) return;
     toggleAllRowsExpanded(expandedByDefault);
