@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
-import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import getSizeStyles from './private/getSizeStyles';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
 export interface InputProps
   extends Omit<React.InputHTMLAttributes<HTMLInputElement>, 'size'> {
@@ -23,7 +23,7 @@ const InputPure = forwardRef<HTMLInputElement, InputProps>(
         disabled={disabled}
         className={mergeClassnames(
           'block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2]',
-          'bg-gohan shadow-input hover:shadow-input-hov',
+          'bg-goku shadow-input hover:shadow-input-hov',
           'focus:shadow-input-focus focus:outline-none',
           'focus-visible::shadow-input-focus focus-visible::outline-none',
           error &&

@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
 import type ChipProps from './private/types/ChipProps';
-import setPadding from './private/utils/setPadding';
+import getPadding from './private/utils/getPadding';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
 const Chip = forwardRef<HTMLButtonElement, ChipProps>(
@@ -28,7 +28,7 @@ const Chip = forwardRef<HTMLButtonElement, ChipProps>(
         'hover:text-piccolo user-select-none',
         iconOnly ? 'center' : 'space-between',
         size === 'sm' ? 'h-8 gap-1' : 'h-10 gap-2',
-        setPadding({ size, iconLeft, iconRight, iconOnly }),
+        getPadding({ size, iconLeft, iconRight, iconOnly }),
         variant === 'ghost' ? '' : 'bg-gohan',
         isActive ? 'bg-jiren text-piccolo' : 'text-bulma',
         isStroke && 'hover:shadow-interactive',
