@@ -203,7 +203,7 @@ const FirstInsetInputRoot = forwardRef<
     );
   }
 );
-//[&_input:read-only:hover]:input-bbb-clip-path
+
 const LastInsetInputRoot = forwardRef<
   HTMLInputElement,
   WithChildren<InsetInputProps>
