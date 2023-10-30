@@ -427,23 +427,35 @@ module.exports = {
         },
         '.input-rsb-hidden': {
           '&:not(:hover):not(:focus):not(:invalid)': {
-            clipPath: `inset(calc(var(--border-i-width) * -1) 0.125rem calc(var(--border-i-width) * -1) 0)`,
+            clipPath: `inset(calc(var(--border-i-width) * -1) 0.15rem calc(var(--border-i-width) * -1) 0)`,
           },
         },
         '.input-lsb-hidden': {
           '&:not(:hover):not(:focus):not(:invalid)': {
-            clipPath: `inset(calc(var(--border-i-width) * -1) 0 calc(var(--border-i-width) * -1) 0.125rem)`,
+            clipPath: `inset(calc(var(--border-i-width) * -1) 0 calc(var(--border-i-width) * -1) 0.15rem)`,
           },
         },
         '.input-tbb-hidden': {
           '&:not(:hover):not(:focus):not(:invalid)': {
-            clipPath: `inset(0.125rem calc(var(--border-i-width) * -1) 0 calc(var(--border-i-width) * -1))`,
+            clipPath: `inset(0.15rem calc(var(--border-i-width) * -1) 0 calc(var(--border-i-width) * -1))`,
           },
         },
         '.input-bbb-hidden': {
           '&:not(:hover):not(:focus):not(:invalid)': {
-            clipPath: `inset(0 calc(var(--border-i-width) * -1) 0.125rem calc(var(--border-i-width) * -1))`,
+            clipPath: `inset(0 calc(var(--border-i-width) * -1) 0.15rem calc(var(--border-i-width) * -1))`,
           },
+        },
+        '.input-rsb-clip-path': {
+          clipPath: `inset(calc(var(--border-i-width) * -1) 0.15rem calc(var(--border-i-width) * -1) 0)`,
+        },
+        '.input-lsb-clip-path': {
+          clipPath: `inset(calc(var(--border-i-width) * -1) 0 calc(var(--border-i-width) * -1) 0.15rem)`,
+        },
+        '.input-tbb-clip-path': {
+          clipPath: `inset(0.15rem calc(var(--border-i-width) * -1) 0 calc(var(--border-i-width) * -1))`,
+        },
+        '.input-bbb-clip-path': {
+          clipPath: `inset(0 calc(var(--border-i-width) * -1) 0.15rem calc(var(--border-i-width) * -1))`,
         },
         '.brcrumb-li': {
           '& a, & span': {
