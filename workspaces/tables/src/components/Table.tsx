@@ -110,22 +110,26 @@ const Table = ({
 
   useEffect(() => {
     const preExpandedState = keptStates?.expandedRows;
-    if (preExpandedState && preExpandedState.length) {
+    if (preExpandedState) {
+      /** TODO: possibly it`s need to MUTE the expandedByDefault variable
+       * instead of direct data setting.
+       */
+      expandedByDefault === undefined;
       const selectableRows = (rows as unknown[] as UseExpandedRowProps<{}>[])
         .filter(({ canExpand }) => canExpand);
       if (selectableRows.length === preExpandedState.length) {
         toggleAllRowsExpanded(true);
       } else {
+        toggleAllRowsExpanded(false);
         preExpandedState.forEach((record) => {
           toggleRowExpanded(Object.keys(record)[0] as string, true)
         });
       }
+    } else {
+      if (expandedByDefault === undefined || !data || !data.length) return;
+      toggleAllRowsExpanded(expandedByDefault);
     }
-  }, [keptStates, toggleRowExpanded, toggleAllRowsExpanded]);
-  useEffect(() => {
-    if (expandedByDefault === undefined || !data || !data.length) return;
-    toggleAllRowsExpanded(expandedByDefault);
-  }, [expandedByDefault, data, toggleAllRowsExpanded]);
+  }, [keptStates, expandedByDefault, data, toggleRowExpanded, toggleAllRowsExpanded]);
   useEffect(() => {
     if (onRowSelectHandler) onRowSelectHandler(selectedRows);
   }, [selectedRows]);
