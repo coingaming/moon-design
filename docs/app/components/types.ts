@@ -60,6 +60,12 @@ export interface Examples {
         Default: 'string';
       };
     };
+    nativeSelect: {
+      description: 'string';
+      examples: {
+        Default: 'string';
+      };
+    };
     tag: {
       description: 'string';
       examples: {
