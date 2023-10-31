@@ -31,16 +31,18 @@ const Example = () => {
   }
 
   const checkIfSelected = (id: string, canExpand: boolean, rowsById: { [key: string]: boolean }) => {
+    const match = new RegExp(`(^${id}[\\.]|^${id}$)`, "");
     return canExpand
       ? Object.keys(rowsById)
-        .filter((rowId) => rowId.indexOf(id) === 0 && rowId !== id)
+        .filter((rowId) => match.test(rowId) && rowId !== id)
         .every((rowId) => selected[rowId] === true)
       : selected[id] === true;
   }
 
   const checkIfIndeterminate = (id: string, rowsById: { [key: string]: boolean }) => {
+    const match = new RegExp(`(^${id}[\\.]|^${id}$)`, "");
     const matches = Object.keys(rowsById)
-      .filter((rowId) => rowId.indexOf(id) === 0 && rowId !== id);
+      .filter((rowId) => match.test(rowId) && rowId !== id);
     return !matches.every((rowId) => selected[rowId] === true) && matches.some((rowId) => selected[rowId] === true);
   }
 
@@ -279,6 +281,325 @@ const Example = () => {
             },
           ],
         },
+        /** ------------------ Start of extra data --------------------- */
+        {
+          firstName: 'Sub test lvl2',
+          age: <span>96</span>,
+          visits: <span>8</span>,
+          progress: <span>2</span>,
+          status: 97,
+          activity: 23,
+          actions: tooltip(),
+          subRows: [
+            {
+              firstName: 'Sub test lvl3',
+              age: <span>63</span>,
+              visits: <span>82</span>,
+              progress: <span>59</span>,
+              status: 52,
+              activity: 46,
+              actions: tooltip(),
+            },
+            {
+              firstName: 'Sub test lvl3',
+              age: <span>64</span>,
+              visits: <span>35</span>,
+              progress: <span>78</span>,
+              status: 65,
+              activity: 5,
+              actions: tooltip(),
+            },
+            {
+              firstName: 'Sub test lvl3',
+              age: <span>12</span>,
+              visits: <span>4</span>,
+              progress: <span>44</span>,
+              status: 98,
+              activity: 5,
+              actions: tooltip(),
+            },
+          ],
+        },
+        {
+          firstName: 'Sub test lvl2',
+          age: <span>74</span>,
+          visits: <span>5</span>,
+          progress: <span>1</span>,
+          status: 86,
+          activity: 2,
+          actions: tooltip(),
+          subRows: [
+            {
+              firstName: 'Sub test lvl3',
+              age: <span>89</span>,
+              visits: <span>98</span>,
+              progress: <span>54</span>,
+              status: 24,
+              activity: 43,
+              actions: tooltip(),
+            },
+            {
+              firstName: 'Sub test lvl3',
+              age: <span>52</span>,
+              visits: <span>25</span>,
+              progress: <span>25</span>,
+              status: 97,
+              activity: 35,
+              actions: tooltip(),
+            },
+            {
+              firstName: 'Sub test lvl3',
+              age: <span>55</span>,
+              visits: <span>54</span>,
+              progress: <span>24</span>,
+              status: 56,
+              activity: 33,
+              actions: tooltip(),
+            },
+          ],
+        },
+        {
+          firstName: 'Sub test lvl2',
+          age: <span>53</span>,
+          visits: <span>63</span>,
+          progress: <span>24</span>,
+          status: 48,
+          activity: 3,
+          actions: tooltip(),
+          subRows: [
+            {
+              firstName: 'Sub test lvl3',
+              age: <span>4</span>,
+              visits: <span>653</span>,
+              progress: <span>36</span>,
+              status: 44,
+              activity: 43,
+              actions: tooltip(),
+            },
+            {
+              firstName: 'Sub test lvl3',
+              age: <span>49</span>,
+              visits: <span>45</span>,
+              progress: <span>454</span>,
+              status: 35,
+              activity: 4,
+              actions: tooltip(),
+            },
+          ],
+        },
+        /** ------------------------------------------------- */
+        {
+          firstName: 'Sub test lvl2',
+          age: <span>96</span>,
+          visits: <span>8</span>,
+          progress: <span>2</span>,
+          status: 97,
+          activity: 23,
+          actions: tooltip(),
+          subRows: [
+            {
+              firstName: 'Sub test lvl3',
+              age: <span>63</span>,
+              visits: <span>82</span>,
+              progress: <span>59</span>,
+              status: 52,
+              activity: 46,
+              actions: tooltip(),
+            },
+            {
+              firstName: 'Sub test lvl3',
+              age: <span>64</span>,
+              visits: <span>35</span>,
+              progress: <span>78</span>,
+              status: 65,
+              activity: 5,
+              actions: tooltip(),
+            },
+            {
+              firstName: 'Sub test lvl3',
+              age: <span>12</span>,
+              visits: <span>4</span>,
+              progress: <span>44</span>,
+              status: 98,
+              activity: 5,
+              actions: tooltip(),
+            },
+          ],
+        },
+        {
+          firstName: 'Sub test lvl2',
+          age: <span>74</span>,
+          visits: <span>5</span>,
+          progress: <span>1</span>,
+          status: 86,
+          activity: 2,
+          actions: tooltip(),
+          subRows: [
+            {
+              firstName: 'Sub test lvl3',
+              age: <span>89</span>,
+              visits: <span>98</span>,
+              progress: <span>54</span>,
+              status: 24,
+              activity: 43,
+              actions: tooltip(),
+            },
+            {
+              firstName: 'Sub test lvl3',
+              age: <span>52</span>,
+              visits: <span>25</span>,
+              progress: <span>25</span>,
+              status: 97,
+              activity: 35,
+              actions: tooltip(),
+            },
+            {
+              firstName: 'Sub test lvl3',
+              age: <span>55</span>,
+              visits: <span>54</span>,
+              progress: <span>24</span>,
+              status: 56,
+              activity: 33,
+              actions: tooltip(),
+            },
+          ],
+        },
+        {
+          firstName: 'Sub test lvl2',
+          age: <span>53</span>,
+          visits: <span>63</span>,
+          progress: <span>24</span>,
+          status: 48,
+          activity: 3,
+          actions: tooltip(),
+          subRows: [
+            {
+              firstName: 'Sub test lvl3',
+              age: <span>4</span>,
+              visits: <span>653</span>,
+              progress: <span>36</span>,
+              status: 44,
+              activity: 43,
+              actions: tooltip(),
+            },
+            {
+              firstName: 'Sub test lvl3',
+              age: <span>49</span>,
+              visits: <span>45</span>,
+              progress: <span>454</span>,
+              status: 35,
+              activity: 4,
+              actions: tooltip(),
+            },
+          ],
+        },
+        /** ----------------------------------------------- */
+        {
+          firstName: 'Sub test lvl2',
+          age: <span>96</span>,
+          visits: <span>8</span>,
+          progress: <span>2</span>,
+          status: 97,
+          activity: 23,
+          actions: tooltip(),
+          subRows: [
+            {
+              firstName: 'Sub test lvl3',
+              age: <span>63</span>,
+              visits: <span>82</span>,
+              progress: <span>59</span>,
+              status: 52,
+              activity: 46,
+              actions: tooltip(),
+            },
+            {
+              firstName: 'Sub test lvl3',
+              age: <span>64</span>,
+              visits: <span>35</span>,
+              progress: <span>78</span>,
+              status: 65,
+              activity: 5,
+              actions: tooltip(),
+            },
+            {
+              firstName: 'Sub test lvl3',
+              age: <span>12</span>,
+              visits: <span>4</span>,
+              progress: <span>44</span>,
+              status: 98,
+              activity: 5,
+              actions: tooltip(),
+            },
+          ],
+        },
+        {
+          firstName: 'Sub test lvl2',
+          age: <span>74</span>,
+          visits: <span>5</span>,
+          progress: <span>1</span>,
+          status: 86,
+          activity: 2,
+          actions: tooltip(),
+          subRows: [
+            {
+              firstName: 'Sub test lvl3',
+              age: <span>89</span>,
+              visits: <span>98</span>,
+              progress: <span>54</span>,
+              status: 24,
+              activity: 43,
+              actions: tooltip(),
+            },
+            {
+              firstName: 'Sub test lvl3',
+              age: <span>52</span>,
+              visits: <span>25</span>,
+              progress: <span>25</span>,
+              status: 97,
+              activity: 35,
+              actions: tooltip(),
+            },
+            {
+              firstName: 'Sub test lvl3',
+              age: <span>55</span>,
+              visits: <span>54</span>,
+              progress: <span>24</span>,
+              status: 56,
+              activity: 33,
+              actions: tooltip(),
+            },
+          ],
+        },
+        {
+          firstName: 'Sub test lvl2',
+          age: <span>53</span>,
+          visits: <span>63</span>,
+          progress: <span>24</span>,
+          status: 48,
+          activity: 3,
+          actions: tooltip(),
+          subRows: [
+            {
+              firstName: 'Sub test lvl3',
+              age: <span>4</span>,
+              visits: <span>653</span>,
+              progress: <span>36</span>,
+              status: 44,
+              activity: 43,
+              actions: tooltip(),
+            },
+            {
+              firstName: 'Sub test lvl3',
+              age: <span>49</span>,
+              visits: <span>45</span>,
+              progress: <span>454</span>,
+              status: 35,
+              activity: 4,
+              actions: tooltip(),
+            },
+          ],
+        },
+        /** ------------------ End of extra data --------------  */
       ],
     }
   ];
