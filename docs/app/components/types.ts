@@ -48,6 +48,12 @@ export interface Examples {
         Default: 'string';
       };
     };
+    input: {
+      description: 'string';
+      examples: {
+        Default: 'string';
+      };
+    };
     loader: {
       description: 'string';
       examples: {

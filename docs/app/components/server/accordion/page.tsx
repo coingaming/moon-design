@@ -7,7 +7,7 @@ import QuickNav from '@/app/components/shared/QuickNav';
 import { getExamples } from '@/app/utils/getExamples';
 import { MDX } from '@/components/MDX';
 
-export default async function Home() {
+export default async function Accordion() {
   const { server } = await getExamples();
   const examplesList = Object.keys(server.accordion.examples);
   return (
