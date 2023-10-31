@@ -1,10 +1,10 @@
 import React from 'react';
-import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import getPageInfo from './getPageInfo';
 import type PolymorphicNextPrevButtonProps from './private/type/NextPrevButton';
 import type PolymorphicPagesProps from './private/type/PageProps';
 import type PagesProps from './private/type/PagesProps';
 import type WithStyledChildren from './private/type/WithStyledChildren';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
 const PaginationRoot = ({
   className,
