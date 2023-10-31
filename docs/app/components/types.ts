@@ -66,6 +66,12 @@ export interface Examples {
         Default: 'string';
       };
     };
+    pagination: {
+      description: 'string';
+      examples: {
+        Default: 'string';
+      };
+    };
     tag: {
       description: 'string';
       examples: {
