@@ -29,7 +29,7 @@ const Chip = forwardRef<HTMLButtonElement, ChipProps>(
         iconOnly ? 'center' : 'space-between',
         size === 'sm' ? 'h-8 gap-1' : 'h-10 gap-2',
         getPadding({ size, iconLeft, iconRight, iconOnly }),
-        variant === 'ghost' ? '' : 'bg-gohan',
+        variant === 'ghost' ? '' : 'bg-goku',
         isActive ? 'bg-jiren text-piccolo' : 'text-bulma',
         isStroke && 'hover:shadow-interactive',
         isActive && isStroke && 'shadow-interactive',
