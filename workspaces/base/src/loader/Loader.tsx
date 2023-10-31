@@ -1,7 +1,7 @@
 import React from 'react';
 import type LoaderProps from './private/types/LoaderProps';
-import setDivBorder from './private/utils/setDivBorder';
-import setSize from './private/utils/setSize';
+import getDivBorder from './private/utils/getDivBorder';
+import getSize from './private/utils/getSize';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
 const Loader = ({
@@ -13,11 +13,11 @@ const Loader = ({
     aria-label={ariaLabel}
     role="alert"
     aria-busy="true"
-    className={mergeClassnames(setSize(size), 'relative rounded-full')}
+    className={mergeClassnames(getSize(size), 'relative rounded-full')}
   >
     <div
       className={mergeClassnames(
-        setDivBorder(size),
+        getDivBorder(size),
         color,
         'absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent'
       )}
@@ -26,7 +26,7 @@ const Loader = ({
     />
     <div
       className={mergeClassnames(
-        setDivBorder(size),
+        getDivBorder(size),
         color,
         'absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent'
       )}
@@ -35,7 +35,7 @@ const Loader = ({
     />
     <div
       className={mergeClassnames(
-        setDivBorder(size),
+        getDivBorder(size),
         color,
         'absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent'
       )}
@@ -44,7 +44,7 @@ const Loader = ({
     />
     <div
       className={mergeClassnames(
-        setDivBorder(size),
+        getDivBorder(size),
         color,
         'absolute w-full h-full rounded-full animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-x-transparent border-b-transparent'
       )}

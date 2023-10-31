@@ -1,6 +1,6 @@
 import type LoaderSize from '../types/LoaderSize';
 
-const setDivBorder = (size?: LoaderSize) => {
+const getDivBorder = (size?: LoaderSize) => {
   switch (size) {
     case '2xs':
     case 'xs':
@@ -11,4 +11,4 @@ const setDivBorder = (size?: LoaderSize) => {
   }
 };
 
-export default setDivBorder;
+export default getDivBorder;
