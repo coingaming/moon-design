@@ -13,7 +13,7 @@ import SelectableCheckboxes from '../SelectableCheckboxes';
 import CustomColors from '../CustomColors';
 import ExpandableCheckboxes from '../ExpandableCheckboxes';
 import ExpandedRows from '../ExpandedRows';
-import ExpandedWithModals from '../ExpandedWithModals';
+import ExpandedWithKeepState from '../ExpandedWithKeepState';
 import Sorting from '../Sorting';
 import DeepTable from '../DeepTable';
 import CustomContent from '../CustomContent';
@@ -73,8 +73,8 @@ describe('Table', () => {
     const tree = render(<DeepTable />);
     expect(tree).toMatchSnapshot();
   });
-  it('renders ExpandedWithModals', () => {
-    const tree = render(<ExpandedWithModals />);
+  it('renders ExpandedWithKeepState', () => {
+    const tree = render(<ExpandedWithKeepState />);
     expect(tree).toMatchSnapshot();
   });
   it('renders ExpandableCheckboxes', () => {
@@ -161,8 +161,8 @@ describe('Table in RTL', () => {
     const tree = render(withRtl(<DeepTable />));
     expect(tree).toMatchSnapshot();
   });
-  it('renders ExpandedWithModals', () => {
-    const tree = render(withRtl(<ExpandedWithModals />));
+  it('renders ExpandedWithKeepState', () => {
+    const tree = render(withRtl(<ExpandedWithKeepState />));
     expect(tree).toMatchSnapshot();
   });
   it('renders ExpandableCheckboxes', () => {

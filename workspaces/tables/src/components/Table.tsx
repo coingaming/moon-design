@@ -56,6 +56,7 @@ const Table = ({
   selectable,
   useCheckbox,
   textClip,
+  keptStates,
   renderRowSubComponent,
   getOnRowClickHandler,
   getOnRowSelect,
@@ -79,7 +80,9 @@ const Table = ({
     rowsById,
     prepareRow,
     visibleColumns,
+    isAllRowsExpanded,
     toggleAllRowsExpanded,
+    toggleRowExpanded,
     rowSpanHeaders,
   } = useTable(
     {
@@ -90,7 +93,9 @@ const Table = ({
     } as TableOptions<object>,
     ...plugins
   ) as TableInstance<object> & {
+    isAllRowsExpanded: boolean;
     toggleAllRowsExpanded: (isExpanded?: boolean) => void;
+    toggleRowExpanded: (rowId: string,  isExpanded?: boolean) => void;
     rowSpanHeaders: RowSpanHeaderProps[];
   };
   const lastHeaderGroup = headerGroups[headerGroups.length - 1];
@@ -106,9 +111,38 @@ const Table = ({
   let updateRowSelectState: (() => React.Dispatch<React.SetStateAction<{ [key: string]: boolean }>>) | undefined = undefined;
 
   useEffect(() => {
-    if (expandedByDefault === undefined || !data || !data.length) return;
-    toggleAllRowsExpanded(expandedByDefault);
-  }, [expandedByDefault, data, toggleAllRowsExpanded]);
+    const preExpandedState = keptStates?.expandedRows;
+    if (preExpandedState) {
+      /** TODO: possibly it needs to MUTE the expandedByDefault variable
+       * instead of direct data setting.
+       */
+      expandedByDefault === undefined;
+      const selectableRows = (rows as unknown[] as (UseExpandedRowProps<{}> & {id: string})[])
+        .filter(({ canExpand }) => canExpand);
+      if (selectableRows.length === preExpandedState.length) {
+        toggleAllRowsExpanded(true);
+      } else {
+        if (isAllRowsExpanded) {
+          /** All rows expanded by default. This collapses unselected rows then. */
+          const preExpandedSet = preExpandedState.reduce((acc, item) => {
+            acc[Object.keys(item)[0] as string] = true;
+            return acc;
+          }, {});
+          selectableRows.forEach(({ id }) => {
+            toggleRowExpanded(id, preExpandedSet[id] === true)
+          });
+        } else {
+          /** No rows expanded by default. This expands selected rows then. */
+          preExpandedState.forEach((record) => {
+            toggleRowExpanded(Object.keys(record)[0] as string, true)
+          });
+        }
+      }
+    } else {
+      if (expandedByDefault === undefined || !data || !data.length) return;
+      toggleAllRowsExpanded(expandedByDefault);
+    }
+  }, [keptStates, expandedByDefault, data, toggleRowExpanded, toggleAllRowsExpanded]);
   useEffect(() => {
     if (onRowSelectHandler) onRowSelectHandler(selectedRows);
   }, [selectedRows]);
