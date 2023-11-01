@@ -239,19 +239,20 @@ const Table = ({
 
     if (xRow.canExpand) {
       /** Handling an expandable node */
+      const match = new RegExp(`(^${row.id}[\\.]|^${row.id}$)`, "");
       const selectedIndexes = alreadySelectedRows.map((item: Row<{}>) => item.id);
       const allSelected = Object.keys(rowsById)
-        .filter((id) => id.indexOf(row.id) === 0)
+        .filter((id) => match.test(id))
         .every((id) => selectedIndexes.indexOf(id) > -1);
 
       if (alreadySelectedRow && allSelected) {
         /** Removing the selected row */
-        alreadySelectedRows = alreadySelectedRows.filter(({ id }) => id.indexOf(row.id) !== 0);
+        alreadySelectedRows = alreadySelectedRows.filter(({ id }) => !match.test(id));
       } else {
         /** Appending the selected row */
         alreadySelectedRows = Object.values(rowsById)
           .reduce((acc: Row<{}>[], item: Row<{}>) => {
-            if (item.id.indexOf(row.id) === 0
+            if (match.test(item.id)
               && selectedIndexes.indexOf(item.id) === -1
             )
               acc.push(item);
@@ -274,11 +275,12 @@ const Table = ({
       let depth = xRow.depth;
       while (depth > 0) {
         const mask = row.id.split('.').slice(0, depth).join('.');
+        const match = new RegExp(`(^${mask}[\\.]|^${mask}$)`, "");
         const branchRowsAtSpecifiedDepth = alreadySelectedRows
-          .filter(({ id }) => id.split('.').length === (depth + 1) && id.indexOf(mask) === 0 && id !== mask);
+          .filter(({ id }) => id.split('.').length === (depth + 1) && match.test(id) && id !== mask);
 
         const areThereAnySelectedRowsAtThisBranch = branchRowsAtSpecifiedDepth
-          .some(({ id }) => id.indexOf(mask) === 0 && id !== mask);
+          .some(({ id }) => match.test(id) && id !== mask);
 
         if (!areThereAnySelectedRowsAtThisBranch) {
           alreadySelectedRows = alreadySelectedRows.filter(({ id }) => id !== mask);
