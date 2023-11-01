@@ -72,6 +72,12 @@ export interface Examples {
         Default: 'string';
       };
     };
+    table: {
+      description: 'string';
+      examples: {
+        Default: 'string';
+      };
+    };
     tag: {
       description: 'string';
       examples: {
