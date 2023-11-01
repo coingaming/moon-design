@@ -67,7 +67,7 @@ const Label = ({ children, className }: LabelProps) => {
   return (
     <label
       className={mergeClassnames(
-        'absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200',
+        'absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200',
         'start-4',
         className
       )}

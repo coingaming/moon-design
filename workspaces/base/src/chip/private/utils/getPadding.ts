@@ -1,6 +1,6 @@
 import type ChipProps from '../types/ChipProps';
 
-const setPadding = ({
+const getPadding = ({
   size,
   iconLeft,
   iconRight,
@@ -30,4 +30,4 @@ const setPadding = ({
   return `p-2`;
 };
 
-export default setPadding;
+export default getPadding;

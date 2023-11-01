@@ -18,8 +18,6 @@ export { default as mergeClassnames } from './mergeClassnames/mergeClassnames';
 export * from './mergeClassnames/mergeClassnames';
 export { default as NativeSelect } from './nativeSelect/NativeSelect';
 export * from './nativeSelect/NativeSelect';
-export { default as getSizeStyles } from './nativeSelect/prvate/getSizeStyles';
-export * from './nativeSelect/prvate/getSizeStyles';
 export { default as Pagination } from './pagination/Pagination';
 export * from './pagination/Pagination';
 export { default as getPageInfo } from './pagination/getPageInfo';

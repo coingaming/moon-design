@@ -6,6 +6,7 @@ import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/popover/Default';
 import Position from '../../public/examples/popover/Position';
+import TooltipView from '../../public/examples/popover/TooltipView';
 import TriggerElements from '../../public/examples/popover/TriggerElements';
 import WithClose from '../../public/examples/popover/WithClose';
 import useComponent from '../../utils/useComponent';
@@ -64,6 +65,12 @@ const PagePopover = () => {
         title="With close button"
         preview={<WithClose />}
         code={examples ? examples.WithClose : 'Loading'}
+      />
+
+      <Preview
+        title="Tooltip view example"
+        preview={<TooltipView />}
+        code={examples ? examples.TooltipView : 'Loading'}
       />
 
       <PropsTable

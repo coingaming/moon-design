@@ -9,6 +9,7 @@ import Default from '../../public/examples/combobox/Default';
 import InsetMultiSelect from '../../public/examples/combobox/InsetMultiSelect';
 import InsetSelect from '../../public/examples/combobox/InsetSelect';
 import InsetSelectStates from '../../public/examples/combobox/InsetSelectStates';
+import LongNameOptions from '../../public/examples/combobox/LongNameOptions';
 import MultiAllSelect from '../../public/examples/combobox/MultiAllSelect';
 import MultiSelect from '../../public/examples/combobox/MultiSelect';
 import Select from '../../public/examples/combobox/Select';
@@ -155,6 +156,12 @@ const PageCombobox = () => {
         title="VisualMultiSelect"
         preview={<VisualMultiSelect />}
         code={examples ? examples.VisualMultiSelect : 'Loading'}
+      />
+
+      <Preview
+        title="Alignment of controls for options with long names"
+        preview={<LongNameOptions />}
+        code={examples ? examples.LongNameOptions : 'Loading'}
       />
 
       <PropsTable
