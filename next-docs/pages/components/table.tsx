@@ -16,6 +16,7 @@ import Editable from '../../public/examples/table/Editable';
 import ExpandableCheckboxes from '../../public/examples/table/ExpandableCheckboxes';
 import ExpandedRows from '../../public/examples/table/ExpandedRows';
 import ExpandedWithModals from '../../public/examples/table/ExpandedWithModals';
+import ExtraLongDataView from '../../public/examples/table/ExtraLongDataView';
 import LongData from '../../public/examples/table/LongData';
 import MiniMap from '../../public/examples/table/MiniMap';
 import RowGaps from '../../public/examples/table/RowGaps';
@@ -157,6 +158,11 @@ const PageTable = () => {
         title="Long data table (with custom column widths)"
         preview={<CustomColumnWidths />}
         code={examples ? examples.CustomColumnWidths : 'Loading'}
+      />
+      <Preview
+        title="Extra long data viewing"
+        preview={<ExtraLongDataView />}
+        code={examples ? examples.ExtraLongDataView : 'Loading'}
       />
       <PropsTable
         title="Table props"
