@@ -1,10 +1,10 @@
-import { ElementType } from 'react';
+import type Props from './Props';
+import type Size from './Size';
 
-type TabProps = {
-  disabled?: boolean;
-  as?: ElementType<any>;
-  className?: string | (({ selected }: { selected: boolean }) => string);
-  children?: React.ReactNode;
+type TabProps = Props & {
+  isDisabled?: boolean;
+  selected?: boolean;
+  size?: Size;
 };
 
 export default TabProps;
