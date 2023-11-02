@@ -78,6 +78,12 @@ export interface Examples {
         Default: 'string';
       };
     };
+    tabs: {
+      description: 'string';
+      examples: {
+        Default: 'string';
+      };
+    };
     tag: {
       description: 'string';
       examples: {
