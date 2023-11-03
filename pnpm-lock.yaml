@@ -166,19 +166,19 @@ importers:
   docs:
     dependencies:
       '@heathmont/moon-base-tw':
-        specifier: workspace:^10.10.3
+        specifier: workspace:^10.10.4
         version: link:../workspaces/base
       '@heathmont/moon-cmdk-tw':
-        specifier: workspace:^10.10.3
+        specifier: workspace:^10.10.4
         version: link:../workspaces/cmdk
       '@heathmont/moon-core-tw':
-        specifier: workspace:^10.10.3
+        specifier: workspace:^10.10.4
         version: link:../workspaces/core
       '@heathmont/moon-icons-tw':
         specifier: 9.28.6
         version: 9.28.6(react-dom@18.2.0)(react@18.2.0)
       '@heathmont/moon-themes-tw':
-        specifier: workspace:^10.10.3
+        specifier: workspace:^10.10.4
         version: link:../workspaces/themes
       '@types/node':
         specifier: 20.4.9
@@ -238,7 +238,7 @@ importers:
         specifier: workspace:^10.7.1
         version: link:../packages/charts
       '@heathmont/moon-cmdk-tw':
-        specifier: workspace:^10.10.3
+        specifier: workspace:^10.10.4
         version: link:../workspaces/cmdk
       '@heathmont/moon-components':
         specifier: workspace:^10.7.1
@@ -247,7 +247,7 @@ importers:
         specifier: workspace:^10.7.1
         version: link:../packages/core
       '@heathmont/moon-core-tw':
-        specifier: workspace:^10.10.3
+        specifier: workspace:^10.10.4
         version: link:../workspaces/core
       '@heathmont/moon-datepicker':
         specifier: workspace:^10.7.1
@@ -277,13 +277,13 @@ importers:
         specifier: workspace:^10.7.1
         version: link:../packages/table
       '@heathmont/moon-table-tw':
-        specifier: workspace:^10.10.3
+        specifier: workspace:^10.10.4
         version: link:../workspaces/tables
       '@heathmont/moon-themes':
         specifier: workspace:^10.7.1
         version: link:../packages/themes
       '@heathmont/moon-themes-tw':
-        specifier: workspace:^10.10.3
+        specifier: workspace:^10.10.4
         version: link:../workspaces/themes
       '@heathmont/moon-utils':
         specifier: workspace:^10.7.1
@@ -1005,7 +1005,7 @@ importers:
         specifier: 1.7.16
         version: 1.7.16(react-dom@18.2.0)(react@18.2.0)
       '@heathmont/moon-core-tw':
-        specifier: workspace:^10.10.3
+        specifier: workspace:^10.10.4
         version: link:../core
       cmdk:
         specifier: 0.2.0
@@ -1065,7 +1065,7 @@ importers:
   workspaces/tables:
     dependencies:
       '@heathmont/moon-core-tw':
-        specifier: workspace:^10.10.3
+        specifier: workspace:^10.10.4
         version: link:../core
       react:
         specifier: 18.2.0
