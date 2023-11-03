@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Table } from "@heathmont/moon-table-tw";
-import { Button, Chip, Modal } from "@heathmont/moon-core-tw";
-import { ControlsClose, FilesExternalLink, TimeCalendarDate } from "@heathmont/moon-icons-tw";
+import { Button, Chip, Modal, Tag, Tooltip } from "@heathmont/moon-core-tw";
+import { ControlsClose, FilesExternalLink, Other3DotsHorizontal, TimeCalendarDate } from "@heathmont/moon-icons-tw";
 
 const Example = () => {
   const columnsInitial = [
@@ -30,16 +30,41 @@ const Example = () => {
             return (
               <div className="flex h-full items-center gap-x-1">
                 <span>Deals</span>
-                <FilesExternalLink
-                  key="dealsExpand"
-                  className="text-moon-20 cursor-pointer"
-                  onClick={(e) => { expandDeals() }}
-                />
+                <Tooltip open={showTip}>
+                  <Tooltip.Trigger className="max-h-6">
+                    <Chip
+                      variant={showTip ? undefined : "ghost"}
+                      iconOnly={<FilesExternalLink
+                        key="dealsExpand"
+                        className="text-moon-20 cursor-pointer"
+                        onClick={(e) => { expandDeals() }}
+                      />}
+                    />
+                  </Tooltip.Trigger>
+                    <Tooltip.Content position="top-start">
+                      Click to open view
+                    <Tooltip.Arrow />
+                  </Tooltip.Content>
+                </Tooltip>
               </div>
           )},
           accessor: 'deals',
           Footer: '',
-        }
+        },
+        {
+          Header: 'Amount',
+          accessor: 'amount',
+          Footer: '',
+          maxWidth: 90,
+          width: 90,
+        },
+        {
+          Header: 'Currency',
+          accessor: 'currency',
+          Footer: '',
+          maxWidth: 90,
+          width: 90,
+        },
       ],
     },
     {
@@ -52,16 +77,16 @@ const Example = () => {
           Header: 'Date range',
           accessor: 'daterange',
           Footer: '',
-          minWidth: 90,
-          width: 90,
+          minWidth: 150,
+          width: 150,
         },
         {
           id: 'extraLongData_3',
           Header: 'Actions',
           accessor: 'actions',
           Footer: '',
-          minWidth: 50,
-          width: 50,
+          minWidth: 70,
+          width: 70,
         },
       ],
     },
@@ -117,13 +142,20 @@ const Example = () => {
   const [view, setView] = useState<React.JSX.Element | undefined>();
   const [isExpanded, setIsExpanded] = useState(false);
 
+  /** This service variable is being used to show/hide the tip
+   * that pays attention to the call view icon at the page start.
+   */
+  const [showTip, setShowTip] = useState(true);
+
   const expandDeals = () => {
+    setShowTip(false);
     setTitle('Deals view');
     setView(<Table
         columns={dealExpandedColumns}
         data={data}
         width={1200}
-        height={500}
+        height={400}
+        selectable={true}
         withFooter={false}
       />);
     setIsExpanded(true);
@@ -136,44 +168,58 @@ const Example = () => {
       {
         location: 'Lithuania',
         deals: '',
-        daterange: <Chip size="sm" iconLeft={<TimeCalendarDate className="text-moon-24" />}>23.10.01 - 23.10.31</Chip>,
-        actions: '',
+        daterange: <Chip size="sm" className="bg-transparent" iconLeft={<TimeCalendarDate className="text-moon-24" />}>23.10.01 - 23.10.31</Chip>,
+        amount: 22.97,
+        currency: <Tag className="bg-gray-100 text-lg text-gray-600 max-w-fit">USD</Tag>,
+        actions: tooltip(),
       },
       {
         location: 'AMD',
         deals: '',
-        daterange: <Chip size="sm" iconLeft={<TimeCalendarDate className="text-moon-24" />}>23.10.01 - 23.10.31</Chip>,
-        actions: '',
+        daterange: <Chip size="sm" className="bg-transparent" iconLeft={<TimeCalendarDate className="text-moon-24" />}>23.10.01 - 23.10.31</Chip>,
+        amount: 22.97,
+        currency: <Tag className="bg-gray-100 text-lg text-gray-600 max-w-fit">USD</Tag>,
+        actions: tooltip(),
       },
       {
         location: 'Europe',
         deals: rearrangeData([{'10.0': { start: '10000', end: '20000' }}, {'9.0': { start: '20000', end: '30000' }}, {'8.0': { start: '30000', end: '40000' }}, {'7.0': { start: '40000', end: '50000' }}, {'6.0': { start: '50000', end: '60000' }}]),
-        daterange: <Chip size="sm" iconLeft={<TimeCalendarDate className="text-moon-24" />}>23.10.01 - 23.10.31</Chip>,
-        actions: '',
+        daterange: <Chip size="sm" className="bg-transparent" iconLeft={<TimeCalendarDate className="text-moon-24" />}>23.10.01 - 23.10.31</Chip>,
+        amount: 22.97,
+        currency: <Tag className="bg-gray-100 text-lg text-gray-600 max-w-fit">USD</Tag>,
+        actions: tooltip(),
       },
       {
         location: 'Europe',
         deals: rearrangeData([{'5.0': { start: '2', end: '3' }}]),
-        daterange: <Chip size="sm" iconLeft={<TimeCalendarDate className="text-moon-24" />}>23.12.01 -</Chip>,
-        actions: '',
+        daterange: <Chip size="sm" className="bg-transparent" iconLeft={<TimeCalendarDate className="text-moon-24" />}>23.12.01 -</Chip>,
+        amount: 22.97,
+        currency: <Tag className="bg-gray-100 text-lg text-gray-600 max-w-fit">USD</Tag>,
+        actions: tooltip(),
       },
       {
         location: 'Europe',
         deals: rearrangeData([{'0.0': { start: '0' }}]),
-        daterange: <Chip size="sm" iconLeft={<TimeCalendarDate className="text-moon-24" />}>23.11.01 - 23.11.30</Chip>,
-        actions: '',
+        daterange: <Chip size="sm" className="bg-transparent" iconLeft={<TimeCalendarDate className="text-moon-24" />}>23.11.01 - 23.11.30</Chip>,
+        amount: 22.97,
+        currency: <Tag className="bg-gray-100 text-lg text-gray-600 max-w-fit">USD</Tag>,
+        actions: tooltip(),
       },
       {
         location: 'Asia',
         deals: rearrangeData([{'6.0': { start: '3', end: '4' }}]),
-        daterange: <Chip size="sm" iconLeft={<TimeCalendarDate className="text-moon-24" />}>23.11.01 -</Chip>,
-        actions: '',
+        daterange: <Chip size="sm" className="bg-transparent" iconLeft={<TimeCalendarDate className="text-moon-24" />}>23.11.01 -</Chip>,
+        amount: 22.97,
+        currency: <Tag className="bg-gray-100 text-lg text-gray-600 max-w-fit">USD</Tag>,
+        actions: tooltip(),
       },
       {
         location: 'Asia',
         deals: rearrangeData([{'5.0': { start: '0', end: '150000' }}, {'4.0': { start: '150000', end: '500000' }}]),
-        daterange: <Chip size="sm" iconLeft={<TimeCalendarDate className="text-moon-24" />}>23.05.01 - 23.10.31</Chip>,
-        actions: '',
+        daterange: <Chip size="sm" className="bg-transparent" iconLeft={<TimeCalendarDate className="text-moon-24" />}>23.05.01 - 23.10.31</Chip>,
+        amount: 22.97,
+        currency: <Tag className="bg-gray-100 text-lg text-gray-600 max-w-fit">USD</Tag>,
+        actions: tooltip(),
       },
     ];
   }
@@ -193,11 +239,26 @@ const Example = () => {
     });
 
     return (
-      <div className="px-3 text-moon-14 flex items-center overflow-clip">
+      <div className="px-3 text-moon-14 flex items-center overflow-x-auto">
         {deals}
       </div>
     );
   }
+
+  const tooltip = () => (
+    <Tooltip>
+      <Tooltip.Trigger className="max-h-6">
+        <Chip
+          variant="default"
+          iconOnly={<Other3DotsHorizontal className="text-moon-24 max-h-6" />}
+        />
+      </Tooltip.Trigger>
+        <Tooltip.Content position="top-start">
+          Any activity
+        <Tooltip.Arrow />
+      </Tooltip.Content>
+    </Tooltip>
+  );
 
   const defaultColumn = React.useMemo(
     () => ({
@@ -208,7 +269,7 @@ const Example = () => {
     []
   );
 
-  const columns = React.useMemo(() => columnsInitial, []);
+  const columns = React.useMemo(() => columnsInitial, [showTip]);
   const dealExpandedColumns = React.useMemo(() => columnsExpandedDeals, [])
   const data = React.useMemo(() => makeData(), []);
 
@@ -237,7 +298,7 @@ const Example = () => {
                 <ControlsClose className="text-moon-32"/>
               </Button>
             </div>
-            <div className="w-full bg-beerus rounded-md p-0">
+            <div className="w-full bg-gohan rounded-md px-1 py-0.5">
               {view}
             </div>
           </div>
