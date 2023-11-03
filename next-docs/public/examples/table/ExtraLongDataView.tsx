@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import { Table } from "@heathmont/moon-table-tw";
-import { Chip } from "@heathmont/moon-core-tw";
-import { TimeCalendarDate } from "@heathmont/moon-icons-tw";
+import { Button, Chip, Modal } from "@heathmont/moon-core-tw";
+import { ControlsClose, FilesExternalLink, TimeCalendarDate } from "@heathmont/moon-icons-tw";
 
 const Example = () => {
   const columnsInitial = [
@@ -26,7 +26,17 @@ const Example = () => {
       columns: [
         {
           id: 'extraLongData_1',
-          Header: 'Deals',
+          Header: () => {
+            return (
+              <div className="flex h-full items-center gap-x-1">
+                <span>Deals</span>
+                <FilesExternalLink
+                  key="dealsExpand"
+                  className="text-moon-20 cursor-pointer"
+                  onClick={(e) => { expandDeals() }}
+                />
+              </div>
+          )},
           accessor: 'deals',
           Footer: '',
         }
@@ -56,6 +66,70 @@ const Example = () => {
       ],
     },
   ];
+
+  const columnsExpandedDeals = [
+    {
+      id: 'deLeftSticky',
+      Header: '',
+      sticky: 'left',
+      columns: [
+        {
+          id: 'de_0',
+          Header: 'Location',
+          accessor: 'location',
+          Footer: '',
+          minWidth: 100,
+          maxWidth: 100,
+        },
+      ],
+    },
+    {
+      id: 'deExtraLongData',
+      Header: '',
+      columns: [
+        {
+          id: 'de_1',
+          Header: 'Deals',
+          accessor: 'deals',
+          Footer: '',
+          width: 900,
+        }
+      ],
+    },
+    {
+      id: 'deRightSticky',
+      Header: '',
+      sticky: 'right',
+      columns: [
+        {
+          id: 'de_2',
+          Header: 'Date range',
+          accessor: 'daterange',
+          Footer: '',
+          minWidth: 200,
+          maxWidth: 200,
+        }
+      ],
+    },
+  ];
+
+  const [title, setTitle] = useState('');
+  const [view, setView] = useState<React.JSX.Element | undefined>();
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const expandDeals = () => {
+    setTitle('Deals view');
+    setView(<Table
+        columns={dealExpandedColumns}
+        data={data}
+        width={1200}
+        height={500}
+        withFooter={false}
+      />);
+    setIsExpanded(true);
+  }
+
+  const collapseExpanded = () => setIsExpanded(false);
 
   const makeData = () => {
     return [
@@ -135,17 +209,41 @@ const Example = () => {
   );
 
   const columns = React.useMemo(() => columnsInitial, []);
+  const dealExpandedColumns = React.useMemo(() => columnsExpandedDeals, [])
   const data = React.useMemo(() => makeData(), []);
 
   return (
-    <Table
-      columns={columns}
-      data={data}
-      defaultColumn={defaultColumn}
-      width={900}
-      height={400}
-      withFooter={false}
-    />
+    <>
+      <Table
+        columns={columns}
+        data={data}
+        defaultColumn={defaultColumn}
+        width={900}
+        height={400}
+        withFooter={false}
+      />
+      <Modal open={isExpanded} onClose={collapseExpanded}>
+        <Modal.Backdrop />
+        <Modal.Panel className="bg-zeno w-auto max-w-fit max-h-screen">
+          <div className="px-4 pt-2 pb-4">
+            <div className="flex justify-between items-center gap-x-4 w-full mb-3">
+              <h3 className="text-moon-20 text-beerus font-light">
+                {title}
+              </h3>
+              <Button
+                className="bg-transparent p-0 outline-none"
+                onClick={collapseExpanded}
+              >
+                <ControlsClose className="text-moon-32"/>
+              </Button>
+            </div>
+            <div className="w-full bg-beerus rounded-md p-0">
+              {view}
+            </div>
+          </div>
+        </Modal.Panel>
+      </Modal>
+    </>
   );
 };
 
