@@ -15,12 +15,13 @@ export default async function Button() {
   const { server } = await getExamples();
   const examplesList = Object.keys(server.button.examples);
   return (
-    <div className="w-full max-w-7xl flex flex-col gap-4 text-moon-14">
+    <div className="w-full max-w-7xl flex flex-col gap-8 text-moon-14">
       <h1 className="font-medium text-moon-32">Button</h1>
       <MDX markdown={server.button.description} />
       <QuickNav items={examplesList} />
       <ExampleSection
         title="Default"
+        description="Buttons in moon.io have specific functions and their appearance indicates those functions to the user. To ensure that the buttons communicate the right actions, it is essential to use the appropriate variants consistently across products."
         component={<Default />}
         code={server.button.examples.Default}
       />
