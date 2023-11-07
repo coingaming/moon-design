@@ -1,18 +1,9 @@
-import React, { ReactNode, forwardRef } from 'react';
-import getSizeStyles from './prvate/getSizeStyles';
+import React, { forwardRef } from 'react';
+import getSizeStyles from './private/getSizeStyles';
+import type NativeSelectProps from './private/types/NativeSelectProps';
+import type WithChildren from './private/types/WithChildren';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import ControlsChevronDownSmall from '../private/icons/ControlsChevronDownSmall';
-
-type WithChildren<T = {}> = T & { children?: ReactNode };
-
-export interface NativeSelectProps
-  extends Omit<React.SelectHTMLAttributes<HTMLSelectElement>, 'size'> {
-  className?: string;
-  size?: 'sm' | 'md' | 'lg';
-  error?: boolean;
-  disabled?: boolean;
-  readOnly?: boolean;
-}
 
 const NativeSelectPure = forwardRef<
   HTMLSelectElement,
@@ -32,7 +23,7 @@ const NativeSelectPure = forwardRef<
         disabled={disabled || readOnly}
         className={mergeClassnames(
           'block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] cursor-pointer',
-          'bg-gohan shadow-input hover:shadow-input-hov',
+          'bg-goku shadow-input hover:shadow-input-hov',
           'focus:shadow-input-focus focus:outline-none',
           error &&
             'shadow-input-err hover:shadow-input-err focus:shadow-input-err',

@@ -1,6 +1,7 @@
-type PanelProps = {
-  className?: string;
-  children?: React.ReactNode;
+import type Props from './Props';
+
+type PanelProps = Props & {
+  id: string;
 };
 
 export default PanelProps;
