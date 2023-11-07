@@ -15,7 +15,7 @@ export default async function Button() {
   const { server } = await getExamples();
   const examplesList = Object.keys(server.button.examples);
   return (
-    <div className="w-full max-w-7xl flex flex-col gap-8 text-moon-14">
+    <div className="w-full max-w-3xl flex flex-col gap-12 text-moon-14">
       <h1 className="font-medium text-moon-32">Button</h1>
       <MDX markdown={server.button.description} />
       <QuickNav items={examplesList} />

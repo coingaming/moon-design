@@ -1,6 +1,6 @@
 import { useState, useCallback } from 'react';
 import { IconButton, Snackbar } from '@heathmont/moon-core-tw';
-import { FilesCopy } from '@heathmont/moon-icons-tw';
+import { FilesCopy, GenericCheckAlternative } from '@heathmont/moon-icons-tw';
 
 const CodeCopy = ({ code }: { code: string }) => {
   const [snackbar, setSnackbar] = useState('');
@@ -23,7 +23,7 @@ const CodeCopy = ({ code }: { code: string }) => {
     console.log('copyCode', code);
     if (navigator?.clipboard) {
       navigator.clipboard.writeText(code ? code : '');
-      openSnackbarHandler('bottom-center');
+      openSnackbarHandler('top-right');
     }
   };
   return (
@@ -36,11 +36,14 @@ const CodeCopy = ({ code }: { code: string }) => {
         />
       </span>
       <Snackbar
-        isOpen={snackbar === 'bottom-center'}
+        isOpen={snackbar === 'top-right'}
         onOpenChange={setSnackbar}
-        position="bottom-center"
+        position="top-right"
       >
-        <Snackbar.Message>Copy code</Snackbar.Message>
+        <Snackbar.Message className="flex gap-2">
+          <GenericCheckAlternative className="text-moon-24 text-roshi stroke-2" />
+          Copy code
+        </Snackbar.Message>
       </Snackbar>
     </>
   );
