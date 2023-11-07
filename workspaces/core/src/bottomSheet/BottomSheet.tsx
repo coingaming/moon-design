@@ -20,6 +20,7 @@ const BottomSheetRoot = ({
   children,
   className,
   rootId,
+  ...rest
 }: BottomSheetRootProps) => {
   const [state, dispatch] = useReducer(stateReducer, {
     bottomSheetChildren: [],
@@ -53,6 +54,7 @@ const BottomSheetRoot = ({
           as="div"
           className={mergeClassnames('fixed inset-0 z-50', className)}
           onClose={onCloseHandler}
+          {...rest}
         >
           {React.Children.map<ReactNode, ReactNode>(children, (child) => {
             if (React.isValidElement(child)) {

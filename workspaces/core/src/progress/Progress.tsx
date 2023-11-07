@@ -13,6 +13,7 @@ const ProgressRoot = ({
   progressColor, // deprecated
   className,
   children,
+  ...rest
 }: Props) => (
   <ProgressContext.Provider value={{ value, size }}>
     <div
@@ -27,6 +28,7 @@ const ProgressRoot = ({
       aria-valuenow={value}
       role="progressbar"
       aria-label={`${value}%`}
+      {...rest}
     >
       <div
         style={{ width: `${value}%` }}

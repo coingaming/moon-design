@@ -11,6 +11,7 @@ const Loader = ({
   color = 'border-hit',
   size = 'md',
   ariaLabel = 'Loading',
+  ...rest
 }: LoaderProps) => (
   <div
     aria-label={ariaLabel}
@@ -20,6 +21,7 @@ const Loader = ({
       getSize(size),
       'relative rounded-full rtl:-scale-x-100'
     )}
+    {...rest}
   >
     <div
       className={mergeClassnames(getDivBorder(size), color, commonStyles)}

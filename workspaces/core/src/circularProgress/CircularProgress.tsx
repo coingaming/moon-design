@@ -11,6 +11,7 @@ const CircularProgress = ({
   bgColor, // deprecated
   progressColor, // deprecated
   className,
+  ...rest
 }: Props) => {
   const PATH_RADIUS = 46;
   const pathRatio = getPathRatio(value);
@@ -22,6 +23,7 @@ const CircularProgress = ({
       aria-valuenow={value}
       role="progressbar"
       className={mergeClassnames(getSize(size), className)}
+      {...rest}
     >
       <Path
         dashRatio={1}

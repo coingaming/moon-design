@@ -9,7 +9,7 @@ import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import ControlsClose from '../private/icons/ControlsClose';
 import useRegisterChild from '../private/utils/useRegisterChild';
 
-const AlertRoot = ({ className, children }: Props) => {
+const AlertRoot = ({ className, children, ...rest }: Props) => {
   const states = {
     withClose: false,
   };
@@ -25,6 +25,7 @@ const AlertRoot = ({ className, children }: Props) => {
           isClose && 'pe-14',
           className
         )}
+        {...rest}
       >
         {children}
       </div>

@@ -12,6 +12,7 @@ const Wrapper = ({
   bgColor,
   isRounded,
   className,
+  ...rest
 }: AvatarProps) => (
   <div
     className={mergeClassnames(
@@ -23,7 +24,8 @@ const Wrapper = ({
       getBorderRadius(size, isRounded),
       className
     )}
-    style={{ backgroundImage: `url('${imageUrl}')` }}
+    style={imageUrl ? { backgroundImage: `url('${imageUrl}')` } : undefined}
+    {...rest}
   >
     {children}
   </div>

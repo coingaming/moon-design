@@ -19,6 +19,7 @@ const AvatarRoot = ({
   isRounded, // deprecated
   className,
   children,
+  ...rest
 }: AvatarProps) => {
   return (
     <Wrapper
@@ -28,6 +29,7 @@ const AvatarRoot = ({
       bgColor={bgColor} // deprecated
       isRounded={isRounded} // deprecated
       className={mergeClassnames(getStatusSize(size), className)}
+      {...rest}
     >
       {!imageUrl && !name && !children && (
         <GenericUser

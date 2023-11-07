@@ -25,6 +25,7 @@ const SearchRoot = ({
   isOpen,
   className,
   search,
+  ...rest
 }: SearchProps) => {
   const [ref, hasClickedOutside] = useClickOutside();
   const inputRef = useRef<MutableRefObject<HTMLInputElement>>(null);
@@ -138,24 +139,26 @@ const SearchRoot = ({
   const openSearch = useCallback(() => onChangeOpen(true), []);
 
   return (
-    <div ref={ref} onKeyDown={onKeyDown} onClick={openSearch}>
-      <div
-        className={mergeClassnames(
-          'relative w-full h-full bg-goku flex flex-col border border-beerus',
-          isOpen ? 'rounded-t-moon-s-sm' : 'rounded-moon-s-sm',
-          '[&_.moon-search-result]:top-10',
-          '[&_.moon-search-transition>.moon-search-result]:top-0',
-          className
-        )}
+    <div
+      ref={ref}
+      onKeyDown={onKeyDown}
+      onClick={openSearch}
+      className={mergeClassnames(
+        'relative w-full h-full bg-goku flex flex-col border border-beerus',
+        isOpen ? 'rounded-t-moon-s-sm' : 'rounded-moon-s-sm',
+        '[&_.moon-search-result]:top-10',
+        '[&_.moon-search-transition>.moon-search-result]:top-0',
+        className
+      )}
+      {...rest}
+    >
+      <SearchContext.Provider
+        value={{ search, onChangeOpen, onChangeSearch, inputRef, isOpen }}
       >
-        <SearchContext.Provider
-          value={{ search, onChangeOpen, onChangeSearch, inputRef, isOpen }}
-        >
-          <SelectContext.Provider value={{ selected }}>
-            {children}
-          </SelectContext.Provider>
-        </SearchContext.Provider>
-      </div>
+        <SelectContext.Provider value={{ selected }}>
+          {children}
+        </SelectContext.Provider>
+      </SearchContext.Provider>
     </div>
   );
 };

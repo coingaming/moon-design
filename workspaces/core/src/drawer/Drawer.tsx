@@ -12,18 +12,25 @@ const DrawerRoot = ({
   className,
   open,
   setOpen,
+  ...rest
 }: DrawerRootProps) => (
   <Transition appear show={open} as={React.Fragment}>
     <Dialog
       onClose={setOpen}
       className={mergeClassnames('fixed z-50 inset-0', className)}
+      {...rest}
     >
       {children}
     </Dialog>
   </Transition>
 );
 
-const Panel = ({ children, className, position = 'end' }: PanelProps) => (
+const Panel = ({
+  children,
+  className,
+  position = 'end',
+  ...rest
+}: PanelProps) => (
   <Transition.Child
     as={React.Fragment}
     enter="ease-out duration-300 transition-transform"
@@ -39,6 +46,7 @@ const Panel = ({ children, className, position = 'end' }: PanelProps) => (
         getPositionStyles(position),
         className
       )}
+      {...rest}
     >
       {children}
     </Dialog.Panel>

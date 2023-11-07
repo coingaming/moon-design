@@ -19,6 +19,7 @@ const PaginationRoot = ({
   hrefsArray,
   edgePageCount = 1,
   middlePagesSiblingCount,
+  ...rest
 }: WithChildren<PaginationProps>) => {
   const pagination = usePagination({
     currentPage,
@@ -35,6 +36,7 @@ const PaginationRoot = ({
           'flex justify-center items-center w-full select-none',
           className
         )}
+        {...rest}
       >
         {children}
       </div>
