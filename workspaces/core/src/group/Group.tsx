@@ -21,7 +21,6 @@ const GroupRoot: GroupComponentProps = ({
   className,
   disabled,
   readOnly,
-  ...rest
 }) => {
   const states = {
     orientation,
@@ -41,7 +40,6 @@ const GroupRoot: GroupComponentProps = ({
             'shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-error',
           className && className
         )}
-        {...rest}
       >
         {children}
       </div>

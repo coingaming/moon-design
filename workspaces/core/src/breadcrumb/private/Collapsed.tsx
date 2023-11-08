@@ -6,7 +6,7 @@ import useClickOutside from '../../private/hooks/useClickOutside';
 import ArrowsRight from '../../private/icons/ArrowsRight';
 import Other3DotsHorizontal from '../../private/icons/Other3DotsHorizontal';
 
-const Collapsed = ({ breadcrumbs, divider, ...rest }: Props) => {
+const Collapsed = ({ breadcrumbs, divider }: Props) => {
   const [isOpen, toggleDropdown] = useState(false);
   const [ref, hasClickedOutside] = useClickOutside();
   const restBreadcrumbs: React.ReactNode[] = [];
@@ -27,7 +27,7 @@ const Collapsed = ({ breadcrumbs, divider, ...rest }: Props) => {
     }
   });
   return (
-    <nav aria-label="Breadcrumb" {...rest}>
+    <nav aria-label="Breadcrumb">
       <ol className="flex flex-wrap gap-2 items-center text-moon-14">
         <li key={'crumb' + 0} className="flex items-center gap-2 text-trunks">
           <span className="text-trunks transition-colors duration-200 hover:text-bulma">

@@ -14,7 +14,6 @@ const Tag = ({
   size = 'xs',
   isUppercase = true,
   className,
-  ...rest
 }: TagProps) => (
   <div
     className={mergeClassnames(
@@ -25,7 +24,6 @@ const Tag = ({
       bgColor,
       className
     )}
-    {...rest}
   >
     {iconLeft && <span className={getIconSize(size)}>{iconLeft}</span>}
     {children}

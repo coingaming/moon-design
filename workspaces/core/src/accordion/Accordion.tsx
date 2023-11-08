@@ -40,7 +40,7 @@ const AccordionRoot = ({
   );
 };
 
-const Item = ({ children, value, className, disabled, ...rest }: ItemProps) => {
+const Item = ({ children, value, className, disabled }: ItemProps) => {
   const { itemSize } = useAccordionContext('Accordion.Item');
   const contentElement = useRef<HTMLDivElement>(null);
   return (
@@ -49,7 +49,6 @@ const Item = ({ children, value, className, disabled, ...rest }: ItemProps) => {
       className={mergeClassnames('w-full', className)}
       key={value}
       disabled={disabled}
-      {...rest}
     >
       <AccordionItemContext.Provider
         value={{ size: itemSize, contentElement, disabled }}

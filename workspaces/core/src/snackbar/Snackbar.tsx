@@ -14,7 +14,6 @@ const SnackbarRoot = ({
   className,
   isOpen,
   onOpenChange,
-  ...rest
 }: WithChildren<SnackbarProps>) => (
   <ToastPrimitive.Provider swipeDirection="right" duration={autoClose}>
     <ToastPrimitive.Root
@@ -41,7 +40,6 @@ const SnackbarRoot = ({
         position === 'bottom-right' &&
           'justify-end bottom-4 end-4 ltr:radix-state-open:animate-toast-slide-in-right lrtltr:radix-state-open:animate-toast-slide-in-left'
       )}
-      {...rest}
     >
       <div
         className={mergeClassnames(

@@ -3,8 +3,8 @@ import type Props from './types/Props';
 import mergeClassnames from '../../mergeClassnames/mergeClassnames';
 import ArrowsRight from '../../private/icons/ArrowsRight';
 
-const Extended = ({ breadcrumbs, divider, ...rest }: Props) => (
-  <nav aria-label="Breadcrumb" {...rest}>
+const Extended = ({ breadcrumbs, divider }: Props) => (
+  <nav aria-label="Breadcrumb">
     <ol className="flex flex-wrap gap-2 items-center text-moon-14">
       {breadcrumbs.length > 0 &&
         breadcrumbs.map((crumb, index) => (

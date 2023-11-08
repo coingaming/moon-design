@@ -14,14 +14,9 @@ type ModalComponentProps = (
   props: WithChildren<ModalRootProps>
 ) => React.ReactElement | null;
 
-const ModalRoot: ModalComponentProps = ({
-  open,
-  onClose,
-  children,
-  ...rest
-}) => (
+const ModalRoot: ModalComponentProps = ({ open, onClose, children }) => (
   <Transition appear show={open} as={React.Fragment}>
-    <Dialog as="div" className="relative z-10" onClose={onClose} {...rest}>
+    <Dialog as="div" className="relative z-10" onClose={onClose}>
       {children}
     </Dialog>
   </Transition>
@@ -30,8 +25,8 @@ const ModalRoot: ModalComponentProps = ({
 type PanelProps = {
   className?: string;
 };
-const Panel = ({ children, className, ...rest }: WithChildren<PanelProps>) => (
-  <div className="fixed inset-0 overflow-y-auto" {...rest}>
+const Panel = ({ children, className }: WithChildren<PanelProps>) => (
+  <div className="fixed inset-0 overflow-y-auto">
     <div className="flex min-h-full items-center justify-center p-4">
       <Transition.Child
         enter="transition duration-300 ease-out"
