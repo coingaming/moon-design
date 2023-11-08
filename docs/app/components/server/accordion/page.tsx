@@ -2,7 +2,7 @@ import { ContentOutsideSizes } from '@/app/components/server/accordion/examples/
 import { Default } from '@/app/components/server/accordion/examples/Default';
 import { Disabled } from '@/app/components/server/accordion/examples/Disabled';
 import { Sizes } from '@/app/components/server/accordion/examples/Sizes';
-import ExampleSection from '@/app/components/shared/exampleSection/ExampleSection';
+import ExampleSection from '@/app/components/shared/exampleSection';
 import QuickNav from '@/app/components/shared/QuickNav';
 import { getExamples } from '@/app/utils/getExamples';
 import { MDX } from '@/components/MDX';
