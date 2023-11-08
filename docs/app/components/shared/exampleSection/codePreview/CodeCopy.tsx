@@ -20,7 +20,6 @@ const CodeCopy = ({ code }: { code: string }) => {
   );
 
   const copyCode = () => {
-    console.log('copyCode', code);
     if (navigator?.clipboard) {
       navigator.clipboard.writeText(code ? code : '');
       openSnackbarHandler('top-right');

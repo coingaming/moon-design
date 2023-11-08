@@ -1,5 +1,5 @@
 import { Default } from '@/app/components/server/loader/examples/Default';
-import ExampleSection from '@/app/components/shared/ExampleSection';
+import ExampleSection from '@/app/components/shared/exampleSection/ExampleSection';
 import QuickNav from '@/app/components/shared/QuickNav';
 import { getExamples } from '@/app/utils/getExamples';
 import { MDX } from '@/components/MDX';

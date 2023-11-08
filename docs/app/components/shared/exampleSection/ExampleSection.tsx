@@ -1,7 +1,7 @@
 import { mergeClassnames } from '@heathmont/moon-base-tw';
-import { GenericLink } from '@heathmont/moon-icons-tw';
-import CodePreview from './CodePreview';
+import CodePreview from './codePreview/CodePreview';
 import ComponentPreview from './ComponentPreview';
+import HeaderSection from './HeaderSection';
 
 type Props = {
   title: string;
@@ -17,18 +17,7 @@ const ExampleSection: SC<Props> = async ({
   code,
 }) => (
   <div className={mergeClassnames('flex flex-col gap-4 relative')}>
-    <h2 id={title} className="text-moon-20 font-medium ">
-      <a
-        href={`#${title}`}
-        className="flex items-center gap-3 [&:hover_svg]:opacity-100 cursor-pointer"
-      >
-        {title}
-        <GenericLink className="text-piccolo text-moon-16 opacity-0 transition-opacity" />
-      </a>
-    </h2>
-    {description && (
-      <div className="text-moon-16 text-bulma">{description}</div>
-    )}
+    <HeaderSection title={title} description={description} />
     <div className="bg-gohan rounded-moon-i-sm overflow-hidden mt-2">
       <ComponentPreview component={component} />
       <CodePreview code={code} />

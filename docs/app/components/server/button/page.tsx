@@ -6,7 +6,7 @@ import { Icons } from '@/app/components/server/button/examples/Icons';
 import { Multiline } from '@/app/components/server/button/examples/Multiline';
 import { Sizes } from '@/app/components/server/button/examples/Sizes';
 import { Variants } from '@/app/components/server/button/examples/Variants';
-import ExampleSection from '@/app/components/shared/ExampleSection';
+import ExampleSection from '@/app/components/shared/exampleSection/ExampleSection';
 import QuickNav from '@/app/components/shared/QuickNav';
 import { getExamples } from '@/app/utils/getExamples';
 import { MDX } from '@/components/MDX';
