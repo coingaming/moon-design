@@ -8,14 +8,12 @@ const Loader = ({
   color = 'border-hit',
   size = 'md',
   ariaLabel = 'Loading',
-  ...rest
 }: LoaderProps) => (
   <div
     aria-label={ariaLabel}
     role="alert"
     aria-busy="true"
     className={mergeClassnames(getSize(size), 'relative rounded-full')}
-    {...rest}
   >
     <div
       className={mergeClassnames(

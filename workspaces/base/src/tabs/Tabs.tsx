@@ -5,10 +5,8 @@ import type TabPolymorphicProps from './private/types/TabPolymorphicProps';
 import getTabSize from './private/utils/getTabSize';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
-const TabsRoot = ({ className, children, ...rest }: Props) => (
-  <div className={className} {...rest}>
-    {children}
-  </div>
+const TabsRoot = ({ className, children }: Props) => (
+  <div className={className}>{children}</div>
 );
 
 const List = ({ className, children }: Props) => (
