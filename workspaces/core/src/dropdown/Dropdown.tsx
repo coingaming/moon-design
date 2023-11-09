@@ -8,6 +8,8 @@ import type SelectProps from './private/types/SelectProps';
 import type WithChildren from './private/types/WithChildren';
 import DropdownContext from './private/utils/DropdownContext';
 import useDropdownContext from './private/utils/useDropdownContext';
+import useFormContext from '../form/private/utils/useFormContext';
+import useFormItemContext from '../form/private/utils/useFormItemContext';
 import GenericHint from '../hint/Hint';
 import { SelectButton } from '../index';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
@@ -16,9 +18,9 @@ const DropdownRoot = ({
   children,
   value,
   onChange,
-  isError,
-  disabled,
-  size = 'md',
+  isError: dropdownError,
+  disabled: dropdownDisabled,
+  size: dropdownSize = 'md',
   className,
   onClear,
   position = 'bottom-start',
@@ -26,6 +28,16 @@ const DropdownRoot = ({
 }: DropdownRootProps) => {
   const [anchorEl, setAnchorEl] = React.useState<Element | null>();
   const [popperEl, setPopperEl] = React.useState<HTMLElement | null>();
+
+  const { size: formSize } = useFormContext('Input');
+  const {
+    size: formItemSize,
+    disabled: formItemDisabled,
+    error: formItemError,
+  } = useFormItemContext('Input');
+  const size = dropdownSize || formItemSize || formSize;
+  const disabled = dropdownDisabled || formItemDisabled;
+  const isError = dropdownError || formItemError;
 
   let { styles, attributes } = usePopper(anchorEl, popperEl, {
     placement: position,
