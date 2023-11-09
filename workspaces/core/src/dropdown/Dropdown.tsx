@@ -8,6 +8,7 @@ import type SelectProps from './private/types/SelectProps';
 import type WithChildren from './private/types/WithChildren';
 import DropdownContext from './private/utils/DropdownContext';
 import useDropdownContext from './private/utils/useDropdownContext';
+import GenericHint from '../hint/Hint';
 import { SelectButton } from '../index';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
@@ -305,17 +306,9 @@ const Hint = ({
 }: WithChildren<{ className?: string }>) => {
   const { isError, disabled } = useDropdownContext('Dropdown.Input');
   return (
-    <p
-      role="alert"
-      className={mergeClassnames(
-        'inline-block mt-2 ps-4 text-moon-12',
-        isError ? 'text-chichi' : 'text-trunks',
-        disabled && 'opacity-60 cursor-not-allowed',
-        className && className
-      )}
-    >
+    <GenericHint error={isError} disabled={disabled} className={className}>
       {children}
-    </p>
+    </GenericHint>
   );
 };
 

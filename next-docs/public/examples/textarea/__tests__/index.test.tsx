@@ -4,7 +4,7 @@
 
 import { cleanup, render } from '@testing-library/react';
 import Default from '../Default';
-import Disabled from '../Disabled';
+import States from '../States';
 import Customization from '../Customization';
 import WithBtn from '../WithBtn';
 
@@ -16,8 +16,8 @@ describe('Textarea', () => {
     const tree = render(<Default />);
     expect(tree).toMatchSnapshot();
   });
-  it('renders Disabled', () => {
-    const tree = render(<Disabled />);
+  it('renders States', () => {
+    const tree = render(<States />);
     expect(tree).toMatchSnapshot();
   });
   it('renders Customization', () => {
@@ -36,8 +36,8 @@ describe('Textarea in RTL', () => {
     const tree = render(withRtl(<Default />));
     expect(tree).toMatchSnapshot();
   });
-  it('renders Disabled', () => {
-    const tree = render(withRtl(<Disabled />));
+  it('renders States', () => {
+    const tree = render(withRtl(<States />));
     expect(tree).toMatchSnapshot();
   });
   it('renders Customization', () => {

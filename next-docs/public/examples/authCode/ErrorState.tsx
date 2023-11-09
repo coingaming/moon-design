@@ -3,6 +3,7 @@ import { AuthCode, Form, Hint } from '@heathmont/moon-core-tw';
 import { Controller, useForm, SubmitHandler } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
+import { GenericInfo } from '@heathmont/moon-icons-tw';
 
 const schema = z.object({
   authCode: z.string().min(3, { message: 'Must be 3 or more characters long' }),
@@ -40,7 +41,8 @@ const Example = () => {
           <>
             <AuthCode {...field} isValid={isValid} />
             {!isValid && (
-              <Hint error className="!ps-0">
+              <Hint error>
+                <GenericInfo />
                 {errors.authCode?.message}
               </Hint>
             )}
