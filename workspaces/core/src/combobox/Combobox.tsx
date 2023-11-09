@@ -47,9 +47,8 @@ const ComboboxRoot = ({
   const [anchorEl, setAnchorEl] = React.useState<Element | null>();
   const [popperEl, setPopperEl] = React.useState<HTMLElement | null>();
   const [isInputFocused, setIsInputFocused] = React.useState<boolean>(false);
-  const [trackingDelay, setTrackingDelay] = React.useState<number | undefined>();
 
-  let { styles, attributes } = usePopper(anchorEl, popperEl, {
+  let { styles, attributes, forceUpdate } = usePopper(anchorEl, popperEl, {
     placement: position,
   });
 
@@ -63,16 +62,13 @@ const ComboboxRoot = ({
       isFocused: isInputFocused,
       setIsFocused: setIsInputFocused,
     },
-    tracking: {
-      trackingDelay: trackingDelay,
-      setTrackingDelay: setTrackingDelay,
-    },
     multiple: multiple,
     onClear: onClear,
     onQueryChange: onQueryChange,
     popper: {
-      styles: styles,
-      attributes: attributes,
+      forceUpdate,
+      styles,
+      attributes,
       setAnchor: setAnchorEl,
       setPopper: setPopperEl,
     },
@@ -415,25 +411,13 @@ const SelectedItem = ({
 };
 
 const Transition = ({ children, ...rest }: WithChildren) => {
-  const [isShowing, setIsShowing] = useState(false);
-  const { value, onQueryChange, tracking } = useComboboxContext('Combobox.Counter');
-
-  useEffect(() => {
-    if (tracking?.trackingDelay !== undefined) {
-      setIsShowing(false);
-      /** For reliable operation in desktop systems, a delay of 50 ms is sufficient.
-       *  For mobile devices, a delay of at least 200 ms is required.
-       */
-      setTimeout(() => (setIsShowing(true)), tracking.trackingDelay);
-    }
-  }, [value, tracking?.trackingDelay]);
+  const { onQueryChange } = useComboboxContext('Combobox.Counter');
 
   return (
     <HeadlessTransition
-      as={'div'}
-      show={tracking?.trackingDelay ? isShowing : undefined}
-      leave={tracking?.trackingDelay ? "transition ease-in duration-0" : "transition ease-in duration-100"}
-      leaveFrom={tracking?.trackingDelay ? "opacity-0" : "opacity-100"}
+      as="div"
+      leave="transition ease-in duration-100"
+      leaveFrom="opacity-100"
       leaveTo="opacity-0"
       afterLeave={onQueryChange ? () => onQueryChange('') : () => { }}
       {...rest}
@@ -612,15 +596,20 @@ const VisualMultiSelect = ({
   multiple = true,
   counter,
   displayValue,
-  useTrackingDelay,
+  forceUpdate,
   ...rest
-}: WithChildren<SelectProps & InputProps> & { useTrackingDelay?: number }) => {
-  const { size, popper, disabled, tracking } = useComboboxContext('Combobox.VisualMultiSelect');
+}: WithChildren<SelectProps & InputProps> & { forceUpdate?: boolean }) => {
+  const { size, popper, disabled, value } = useComboboxContext('Combobox.VisualMultiSelect');
 
   useEffect(() => {
-    const delay = useTrackingDelay && open ? useTrackingDelay : undefined;
-    useTrackingDelay && tracking?.setTrackingDelay(delay);
-  }, [open, useTrackingDelay]);
+    // Do nothing if forceUpdate is false.
+    if (!forceUpdate) {
+      return;
+    }
+    if (typeof popper?.forceUpdate === 'function') {
+      popper.forceUpdate();
+    }
+  }, [value]);
 
   return (
     <Listbox>

@@ -586,11 +586,11 @@ const PageCombobox = () => {
         title="Combobox.VisualMultiSelect"
         data={[
           {
-            name: 'useTrackingDelay',
-            type: 'number',
+            name: 'forceUpdate',
+            type: 'boolean',
             required: false,
             default: '-',
-            description: 'If you need to align the list of options properly on each select/deselect set the "trackingDelay" property. The reasonable value range is between 50 and 200 (ms)',
+            description: 'If you need to align the list of options properly on each select/deselect set the "boolean" property.',
           },
         ]}
       />

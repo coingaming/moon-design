@@ -13,11 +13,8 @@ type ComboboxState = {
     isFocused?: boolean;
     setIsFocused: React.Dispatch<React.SetStateAction<boolean>>;
   };
-  tracking?: {
-    trackingDelay?: number;
-    setTrackingDelay: React.Dispatch<React.SetStateAction<number | undefined>>;
-  };
   popper?: {
+    forceUpdate: (() => void) | null
     styles?: { [key: string]: React.CSSProperties };
     attributes?: { [key: string]: { [key: string]: string } | undefined };
     setAnchor: React.Dispatch<React.SetStateAction<Element | null | undefined>>;

@@ -102,7 +102,7 @@ const Example = () => {
               label=""
               placeholder="Choose an option"
               displayValue={({ label }) => label}
-              useTrackingDelay={75}
+              forceUpdate
             >
               <ControlsChevronDownSmall />
             </Combobox.VisualMultiSelect>
@@ -126,7 +126,7 @@ const Example = () => {
                 )}
               </Combobox.Options>
             </Combobox.Transition>
-            <Combobox.Hint>With tracking the state of the input field</Combobox.Hint>
+            <Combobox.Hint>When the state of the input field changes, use `forceUpdate`.</Combobox.Hint>
           </>
         )}
       </Combobox>
