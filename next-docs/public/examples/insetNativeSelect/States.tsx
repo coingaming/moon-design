@@ -1,4 +1,5 @@
 import { InsetNativeSelect, Hint } from '@heathmont/moon-core-tw';
+import { GenericInfo } from '@heathmont/moon-icons-tw';
 
 const Example = () => (
   <div className="flex flex-col lg:flex-row justify-around items-end w-full gap-2">
@@ -18,7 +19,10 @@ const Example = () => (
         <option value="China">China</option>
         <option value="Germany">Germany</option>
       </InsetNativeSelect>
-      <Hint error>Error message</Hint>
+      <Hint error>
+        <GenericInfo />
+        Informative message holder
+      </Hint>
     </div>
     <div className="w-full">
       <InsetNativeSelect label="Read only" id="ro-1" readOnly>

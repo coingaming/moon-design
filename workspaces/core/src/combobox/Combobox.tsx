@@ -1,4 +1,4 @@
-import React, { ReactNode, forwardRef, useEffect, useState } from 'react';
+import React, { forwardRef, useEffect } from 'react';
 import {
   Combobox as HeadlessCombobox,
   Transition as HeadlessTransition,
@@ -17,6 +17,7 @@ import {
   useComboboxContext,
   ComboboxContext,
 } from './private/utils/useComboboxContext';
+import GenericHint from '../hint/Hint';
 import {
   InsetInput as InputInset,
   SelectButton,
@@ -233,7 +234,8 @@ const VisualSelectInput = ({
   label,
   ...rest
 }: InputProps) => {
-  const { value, size, popper, disabled, isError, onQueryChange } = useComboboxContext('Combobox.VisualSelectInput');
+  const { value, size, popper, disabled, isError, onQueryChange } =
+    useComboboxContext('Combobox.VisualSelectInput');
   const selected = value as [];
 
   return (
@@ -243,10 +245,10 @@ const VisualSelectInput = ({
         !selected.length ? 'gap-y-0' : 'gap-y-1'
       )}
     >
-      <div className='flex flex-wrap justify-start items-start gap-1'>
-        { selected.map(({id, label}) => {
-          return <SelectedItem index={id} label={label} />
-        }) }
+      <div className="flex flex-wrap justify-start items-start gap-1">
+        {selected.map(({ id, label }) => {
+          return <SelectedItem index={id} label={label} />;
+        })}
       </div>
       <HeadlessCombobox.Input
         onChange={({ target: { value } }) => {
@@ -276,7 +278,7 @@ const VisualSelectInput = ({
       />
     </span>
   );
-}
+};
 
 const Button = ({
   open,
@@ -377,8 +379,8 @@ const SelectedItem = ({
   label,
   ...rest
 }: {
-  index: number | string,
-  label: number | string
+  index: number | string;
+  label: number | string;
 } & SelectProps) => {
   const { size, isError, disabled, onClear } =
     useComboboxContext('Combobox.Counter');
@@ -398,16 +400,14 @@ const SelectedItem = ({
         {...rest}
       >
         <SelectButton.Value>
-          <SelectButton.Chip
-            onClear={() => onClear && onClear(index)}
-          >
+          <SelectButton.Chip onClear={() => onClear && onClear(index)}>
             {label}
           </SelectButton.Chip>
         </SelectButton.Value>
       </SelectButton>
     </span>
   );
-}
+};
 
 const Transition = ({ children, ...rest }: WithChildren) => {
   const { onQueryChange } = useComboboxContext('Combobox.Counter');
@@ -597,11 +597,13 @@ const VisualMultiSelect = ({
   displayValue,
   ...rest
 }: WithChildren<SelectProps & InputProps>) => {
-  const { size, popper, disabled } = useComboboxContext('Combobox.VisualMultiSelect');
+  const { size, popper, disabled } = useComboboxContext(
+    'Combobox.VisualMultiSelect'
+  );
 
   return (
     <Listbox>
-       {label && (
+      {label && (
         <SelectButton.Label labelSize={size} idDisabled={disabled}>
           {label}
         </SelectButton.Label>
@@ -633,18 +635,9 @@ const Hint = ({
 }: WithChildren<{ className?: string }>) => {
   const { isError, disabled } = useComboboxContext('Combobox.Input');
   return (
-    <p
-      role="alert"
-      className={mergeClassnames(
-        'inline-block mt-2 ps-4 text-moon-12',
-        isError ? 'text-chichi' : 'text-trunks',
-        disabled && 'opacity-60 cursor-not-allowed',
-        className
-      )}
-      {...rest}
-    >
+    <GenericHint error={isError} disabled={disabled} className={className}>
       {children}
-    </p>
+    </GenericHint>
   );
 };
 

@@ -7,6 +7,7 @@ import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/popover/Default';
 import Position from '../../public/examples/popover/Position';
 import TooltipView from '../../public/examples/popover/TooltipView';
+import TooltipViewOpen from '../../public/examples/popover/TooltipViewOpen';
 import TriggerElements from '../../public/examples/popover/TriggerElements';
 import WithClose from '../../public/examples/popover/WithClose';
 import useComponent from '../../utils/useComponent';
@@ -73,6 +74,12 @@ const PagePopover = () => {
         code={examples ? examples.TooltipView : 'Loading'}
       />
 
+      <Preview
+        title="Tooltip view example with always open state"
+        preview={<TooltipViewOpen />}
+        code={examples ? examples.TooltipView : 'Loading'}
+      />
+
       <PropsTable
         title="Popover"
         data={[
@@ -109,6 +116,14 @@ const PagePopover = () => {
             required: false,
             default: '-',
             description: 'Tailwind classes for custom styles.',
+          },
+          {
+            name: 'isStatic',
+            type: 'boolean',
+            required: false,
+            default: '-',
+            description:
+              'Whether the component should be always open and ignore the internally managed open/closed state.',
           },
           {
             name: 'Render Props: ',

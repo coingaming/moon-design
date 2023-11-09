@@ -76,7 +76,7 @@ const Trigger = ({ children, ...rest }: { children?: React.ReactNode }) => {
   );
 };
 
-const Panel = ({ children, className }: PanelProps) => {
+const Panel = ({ children, className, isStatic }: PanelProps) => {
   const { popper, childrens: registerChildrens } =
     usePopoverContext('Popover.Trigger');
   const isArrow = registerChildrens?.find((name) => name === 'Arrow');
@@ -95,6 +95,7 @@ const Panel = ({ children, className }: PanelProps) => {
         'focus:outline-none',
         className && className
       )}
+      static={isStatic}
     >
       {({ open, close }) => (
         <>

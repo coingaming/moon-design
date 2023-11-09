@@ -1,15 +1,11 @@
 //TODO: Ask Oladetoun Temitayo Micheal:
 //why onOpenChange: (value: sting) => void, and not onOpenChange: (value: boolean) => void
 
+import type Position from './Position';
+
 type SnackbarProps = {
   autoClose?: number;
-  position?:
-    | 'top-left'
-    | 'top-center'
-    | 'top-right'
-    | 'bottom-left'
-    | 'bottom-center'
-    | 'bottom-right';
+  position?: Position;
   ref?: null;
   className?: string;
   isOpen: boolean;

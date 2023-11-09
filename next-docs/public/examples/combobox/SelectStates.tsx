@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { Combobox, MenuItem } from '@heathmont/moon-core-tw';
-import { ControlsChevronDownSmall } from '@heathmont/moon-icons-tw';
+import {
+  ControlsChevronDownSmall,
+  GenericInfo,
+} from '@heathmont/moon-icons-tw';
 
 const people = [
   { id: 1, label: 'Wade Cooper', value: 'Wade Cooper' },
@@ -79,7 +82,10 @@ const Example = () => {
                 )}
               </Combobox.Options>
             </Combobox.Transition>
-            <Combobox.Hint>Informative message holder</Combobox.Hint>
+            <Combobox.Hint>
+              <GenericInfo />
+              Informative message holder
+            </Combobox.Hint>
           </>
         )}
       </Combobox>
@@ -159,6 +165,7 @@ const Example = () => {
                 )}
               </Combobox.Options>
             </Combobox.Transition>
+            <Combobox.Hint>Informative message holder</Combobox.Hint>
           </>
         )}
       </Combobox>
