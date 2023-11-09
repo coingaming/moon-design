@@ -3284,10 +3284,10 @@ Object {
               </button>
             </div>
             <p
-              class="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+              class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-trunks"
               role="alert"
             >
-              With tracking the state of the input field
+              When the state of the input field changes, use \`forceUpdate\`.
             </p>
           </div>
         </div>
@@ -3411,10 +3411,10 @@ Object {
             </button>
           </div>
           <p
-            class="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+            class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-trunks"
             role="alert"
           >
-            With tracking the state of the input field
+            When the state of the input field changes, use \`forceUpdate\`.
           </p>
         </div>
       </div>
@@ -6683,10 +6683,10 @@ Object {
             </button>
           </div>
           <p
-            class="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+            class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-trunks"
             role="alert"
           >
-            With tracking the state of the input field
+            When the state of the input field changes, use \`forceUpdate\`.
           </p>
         </div>
       </div>
@@ -6806,10 +6806,10 @@ Object {
           </button>
         </div>
         <p
-          class="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+          class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-trunks"
           role="alert"
         >
-          With tracking the state of the input field
+          When the state of the input field changes, use \`forceUpdate\`.
         </p>
       </div>
     </div>
