@@ -440,8 +440,172 @@ Object {
         dir="rtl"
       >
         <div
-          class="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+          class="flex flex-col lg:flex-row justify-around items-start w-full gap-2"
         >
+          <div>
+            <div
+              class="flex border-none relative h-fit bg-goku flex-col rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-error"
+            >
+              <input
+                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err [&:not(:read-only):not(:disabled)_+_.last-element:before]:hover:opacity-0 [&:not(:read-only):not(:disabled)_+_.last-element:before]:focus:opacity-0 [&_+_.last-element:before]:opacity-0 rounded-b-none read-only:hover:input-bbb-clip-path read-only:focus:input-bbb-clip-path"
+                placeholder="Username"
+              />
+              <div
+                class="relative last-element before:absolute before:block before:bg-beerus before:transition-opacity before:h-px before:top-0 before:inset-x-0 before:opacity-0"
+              >
+                <input
+                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err rounded-t-none"
+                  placeholder="Password"
+                  type="password"
+                />
+              </div>
+            </div>
+            <p
+              class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-chichi"
+              role="alert"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16 21.2778V14.9444M16 12.3056V10.7222M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              Informative message holder
+            </p>
+            <p
+              class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-chichi"
+              role="alert"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16 21.2778V14.9444M16 12.3056V10.7222M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              Informative message holder
+            </p>
+          </div>
+          <div>
+            <div
+              class="flex border-none shadow-input relative h-fit bg-goku flex-col rounded-moon-i-sm"
+            >
+              <input
+                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err [&:not(:read-only):not(:disabled)_+_.last-element:before]:hover:opacity-0 [&:not(:read-only):not(:disabled)_+_.last-element:before]:focus:opacity-0 [&_+_.last-element:before]:opacity-0 rounded-b-none read-only:hover:input-bbb-clip-path read-only:focus:input-bbb-clip-path"
+                placeholder="Username"
+              />
+              <div
+                class="relative last-element before:absolute before:block before:bg-beerus before:transition-opacity before:h-px before:top-0 before:inset-x-0"
+              >
+                <input
+                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared rounded-t-none input-tbb-hidden"
+                  placeholder="Password"
+                  type="password"
+                />
+              </div>
+            </div>
+            <p
+              class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-chichi"
+              role="alert"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16 21.2778V14.9444M16 12.3056V10.7222M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              Informative message holder
+            </p>
+          </div>
+          <div>
+            <div
+              class="flex border-none shadow-input relative h-fit bg-goku flex-col rounded-moon-i-sm"
+            >
+              <input
+                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared opacity-60 cursor-not-allowed [&:not(:read-only):not(:disabled)_+_.last-element:before]:hover:opacity-0 [&:not(:read-only):not(:disabled)_+_.last-element:before]:focus:opacity-0 rounded-b-none read-only:hover:input-bbb-clip-path read-only:focus:input-bbb-clip-path input-bbb-hidden"
+                disabled=""
+                placeholder="Username"
+              />
+              <div
+                class="relative last-element before:absolute before:block before:bg-beerus before:transition-opacity before:h-px before:top-0 before:inset-x-0"
+              >
+                <input
+                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared opacity-60 cursor-not-allowed rounded-t-none input-tbb-hidden"
+                  disabled=""
+                  placeholder="Password"
+                  type="password"
+                />
+              </div>
+            </div>
+            <p
+              class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-trunks opacity-60 cursor-not-allowed"
+              role="alert"
+            >
+              Informative message holder
+            </p>
+          </div>
+          <div>
+            <div
+              class="flex border-none shadow-input relative h-fit bg-goku flex-col rounded-moon-i-sm"
+            >
+              <input
+                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared [&:not(:read-only):not(:disabled)_+_.last-element:before]:hover:opacity-0 [&:not(:read-only):not(:disabled)_+_.last-element:before]:focus:opacity-0 rounded-b-none read-only:hover:input-bbb-clip-path read-only:focus:input-bbb-clip-path input-bbb-hidden"
+                placeholder="Username"
+                readonly=""
+              />
+              <div
+                class="relative last-element before:absolute before:block before:bg-beerus before:transition-opacity before:h-px before:top-0 before:inset-x-0"
+              >
+                <input
+                  class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared rounded-t-none input-tbb-hidden"
+                  placeholder="Password"
+                  readonly=""
+                  type="password"
+                />
+              </div>
+            </div>
+            <p
+              class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-trunks"
+              role="alert"
+            >
+              Informative message holder
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <div
+        class="flex flex-col lg:flex-row justify-around items-start w-full gap-2"
+      >
+        <div>
           <div
             class="flex border-none relative h-fit bg-goku flex-col rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-error"
           >
@@ -459,6 +623,48 @@ Object {
               />
             </div>
           </div>
+          <p
+            class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-chichi"
+            role="alert"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16 21.2778V14.9444M16 12.3056V10.7222M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            Informative message holder
+          </p>
+          <p
+            class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-chichi"
+            role="alert"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16 21.2778V14.9444M16 12.3056V10.7222M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            Informative message holder
+          </p>
+        </div>
+        <div>
           <div
             class="flex border-none shadow-input relative h-fit bg-goku flex-col rounded-moon-i-sm"
           >
@@ -476,6 +682,28 @@ Object {
               />
             </div>
           </div>
+          <p
+            class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-chichi"
+            role="alert"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16 21.2778V14.9444M16 12.3056V10.7222M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            Informative message holder
+          </p>
+        </div>
+        <div>
           <div
             class="flex border-none shadow-input relative h-fit bg-goku flex-col rounded-moon-i-sm"
           >
@@ -495,6 +723,14 @@ Object {
               />
             </div>
           </div>
+          <p
+            class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-trunks opacity-60 cursor-not-allowed"
+            role="alert"
+          >
+            Informative message holder
+          </p>
+        </div>
+        <div>
           <div
             class="flex border-none shadow-input relative h-fit bg-goku flex-col rounded-moon-i-sm"
           >
@@ -514,88 +750,12 @@ Object {
               />
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      dir="rtl"
-    >
-      <div
-        class="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
-      >
-        <div
-          class="flex border-none relative h-fit bg-goku flex-col rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-error"
-        >
-          <input
-            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err [&:not(:read-only):not(:disabled)_+_.last-element:before]:hover:opacity-0 [&:not(:read-only):not(:disabled)_+_.last-element:before]:focus:opacity-0 [&_+_.last-element:before]:opacity-0 rounded-b-none read-only:hover:input-bbb-clip-path read-only:focus:input-bbb-clip-path"
-            placeholder="Username"
-          />
-          <div
-            class="relative last-element before:absolute before:block before:bg-beerus before:transition-opacity before:h-px before:top-0 before:inset-x-0 before:opacity-0"
+          <p
+            class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-trunks"
+            role="alert"
           >
-            <input
-              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err rounded-t-none"
-              placeholder="Password"
-              type="password"
-            />
-          </div>
-        </div>
-        <div
-          class="flex border-none shadow-input relative h-fit bg-goku flex-col rounded-moon-i-sm"
-        >
-          <input
-            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err [&:not(:read-only):not(:disabled)_+_.last-element:before]:hover:opacity-0 [&:not(:read-only):not(:disabled)_+_.last-element:before]:focus:opacity-0 [&_+_.last-element:before]:opacity-0 rounded-b-none read-only:hover:input-bbb-clip-path read-only:focus:input-bbb-clip-path"
-            placeholder="Username"
-          />
-          <div
-            class="relative last-element before:absolute before:block before:bg-beerus before:transition-opacity before:h-px before:top-0 before:inset-x-0"
-          >
-            <input
-              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared rounded-t-none input-tbb-hidden"
-              placeholder="Password"
-              type="password"
-            />
-          </div>
-        </div>
-        <div
-          class="flex border-none shadow-input relative h-fit bg-goku flex-col rounded-moon-i-sm"
-        >
-          <input
-            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared opacity-60 cursor-not-allowed [&:not(:read-only):not(:disabled)_+_.last-element:before]:hover:opacity-0 [&:not(:read-only):not(:disabled)_+_.last-element:before]:focus:opacity-0 rounded-b-none read-only:hover:input-bbb-clip-path read-only:focus:input-bbb-clip-path input-bbb-hidden"
-            disabled=""
-            placeholder="Username"
-          />
-          <div
-            class="relative last-element before:absolute before:block before:bg-beerus before:transition-opacity before:h-px before:top-0 before:inset-x-0"
-          >
-            <input
-              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared opacity-60 cursor-not-allowed rounded-t-none input-tbb-hidden"
-              disabled=""
-              placeholder="Password"
-              type="password"
-            />
-          </div>
-        </div>
-        <div
-          class="flex border-none shadow-input relative h-fit bg-goku flex-col rounded-moon-i-sm"
-        >
-          <input
-            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared [&:not(:read-only):not(:disabled)_+_.last-element:before]:hover:opacity-0 [&:not(:read-only):not(:disabled)_+_.last-element:before]:focus:opacity-0 rounded-b-none read-only:hover:input-bbb-clip-path read-only:focus:input-bbb-clip-path input-bbb-hidden"
-            placeholder="Username"
-            readonly=""
-          />
-          <div
-            class="relative last-element before:absolute before:block before:bg-beerus before:transition-opacity before:h-px before:top-0 before:inset-x-0"
-          >
-            <input
-              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared rounded-t-none input-tbb-hidden"
-              placeholder="Password"
-              readonly=""
-              type="password"
-            />
-          </div>
+            Informative message holder
+          </p>
         </div>
       </div>
     </div>
@@ -1742,8 +1902,168 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+        class="flex flex-col lg:flex-row justify-around items-start w-full gap-2"
       >
+        <div>
+          <div
+            class="flex border-none relative h-fit bg-goku flex-col rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-error"
+          >
+            <input
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err [&:not(:read-only):not(:disabled)_+_.last-element:before]:hover:opacity-0 [&:not(:read-only):not(:disabled)_+_.last-element:before]:focus:opacity-0 [&_+_.last-element:before]:opacity-0 rounded-b-none read-only:hover:input-bbb-clip-path read-only:focus:input-bbb-clip-path"
+              placeholder="Username"
+            />
+            <div
+              class="relative last-element before:absolute before:block before:bg-beerus before:transition-opacity before:h-px before:top-0 before:inset-x-0 before:opacity-0"
+            >
+              <input
+                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err rounded-t-none"
+                placeholder="Password"
+                type="password"
+              />
+            </div>
+          </div>
+          <p
+            class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-chichi"
+            role="alert"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16 21.2778V14.9444M16 12.3056V10.7222M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            Informative message holder
+          </p>
+          <p
+            class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-chichi"
+            role="alert"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16 21.2778V14.9444M16 12.3056V10.7222M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            Informative message holder
+          </p>
+        </div>
+        <div>
+          <div
+            class="flex border-none shadow-input relative h-fit bg-goku flex-col rounded-moon-i-sm"
+          >
+            <input
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err [&:not(:read-only):not(:disabled)_+_.last-element:before]:hover:opacity-0 [&:not(:read-only):not(:disabled)_+_.last-element:before]:focus:opacity-0 [&_+_.last-element:before]:opacity-0 rounded-b-none read-only:hover:input-bbb-clip-path read-only:focus:input-bbb-clip-path"
+              placeholder="Username"
+            />
+            <div
+              class="relative last-element before:absolute before:block before:bg-beerus before:transition-opacity before:h-px before:top-0 before:inset-x-0"
+            >
+              <input
+                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared rounded-t-none input-tbb-hidden"
+                placeholder="Password"
+                type="password"
+              />
+            </div>
+          </div>
+          <p
+            class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-chichi"
+            role="alert"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16 21.2778V14.9444M16 12.3056V10.7222M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            Informative message holder
+          </p>
+        </div>
+        <div>
+          <div
+            class="flex border-none shadow-input relative h-fit bg-goku flex-col rounded-moon-i-sm"
+          >
+            <input
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared opacity-60 cursor-not-allowed [&:not(:read-only):not(:disabled)_+_.last-element:before]:hover:opacity-0 [&:not(:read-only):not(:disabled)_+_.last-element:before]:focus:opacity-0 rounded-b-none read-only:hover:input-bbb-clip-path read-only:focus:input-bbb-clip-path input-bbb-hidden"
+              disabled=""
+              placeholder="Username"
+            />
+            <div
+              class="relative last-element before:absolute before:block before:bg-beerus before:transition-opacity before:h-px before:top-0 before:inset-x-0"
+            >
+              <input
+                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared opacity-60 cursor-not-allowed rounded-t-none input-tbb-hidden"
+                disabled=""
+                placeholder="Password"
+                type="password"
+              />
+            </div>
+          </div>
+          <p
+            class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-trunks opacity-60 cursor-not-allowed"
+            role="alert"
+          >
+            Informative message holder
+          </p>
+        </div>
+        <div>
+          <div
+            class="flex border-none shadow-input relative h-fit bg-goku flex-col rounded-moon-i-sm"
+          >
+            <input
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared [&:not(:read-only):not(:disabled)_+_.last-element:before]:hover:opacity-0 [&:not(:read-only):not(:disabled)_+_.last-element:before]:focus:opacity-0 rounded-b-none read-only:hover:input-bbb-clip-path read-only:focus:input-bbb-clip-path input-bbb-hidden"
+              placeholder="Username"
+              readonly=""
+            />
+            <div
+              class="relative last-element before:absolute before:block before:bg-beerus before:transition-opacity before:h-px before:top-0 before:inset-x-0"
+            >
+              <input
+                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared rounded-t-none input-tbb-hidden"
+                placeholder="Password"
+                readonly=""
+                type="password"
+              />
+            </div>
+          </div>
+          <p
+            class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-trunks"
+            role="alert"
+          >
+            Informative message holder
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex flex-col lg:flex-row justify-around items-start w-full gap-2"
+    >
+      <div>
         <div
           class="flex border-none relative h-fit bg-goku flex-col rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-error"
         >
@@ -1761,6 +2081,48 @@ Object {
             />
           </div>
         </div>
+        <p
+          class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-chichi"
+          role="alert"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16 21.2778V14.9444M16 12.3056V10.7222M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          Informative message holder
+        </p>
+        <p
+          class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-chichi"
+          role="alert"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16 21.2778V14.9444M16 12.3056V10.7222M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          Informative message holder
+        </p>
+      </div>
+      <div>
         <div
           class="flex border-none shadow-input relative h-fit bg-goku flex-col rounded-moon-i-sm"
         >
@@ -1778,6 +2140,28 @@ Object {
             />
           </div>
         </div>
+        <p
+          class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-chichi"
+          role="alert"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16 21.2778V14.9444M16 12.3056V10.7222M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          Informative message holder
+        </p>
+      </div>
+      <div>
         <div
           class="flex border-none shadow-input relative h-fit bg-goku flex-col rounded-moon-i-sm"
         >
@@ -1797,6 +2181,14 @@ Object {
             />
           </div>
         </div>
+        <p
+          class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-trunks opacity-60 cursor-not-allowed"
+          role="alert"
+        >
+          Informative message holder
+        </p>
+      </div>
+      <div>
         <div
           class="flex border-none shadow-input relative h-fit bg-goku flex-col rounded-moon-i-sm"
         >
@@ -1816,84 +2208,12 @@ Object {
             />
           </div>
         </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      class="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
-    >
-      <div
-        class="flex border-none relative h-fit bg-goku flex-col rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-error"
-      >
-        <input
-          class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err [&:not(:read-only):not(:disabled)_+_.last-element:before]:hover:opacity-0 [&:not(:read-only):not(:disabled)_+_.last-element:before]:focus:opacity-0 [&_+_.last-element:before]:opacity-0 rounded-b-none read-only:hover:input-bbb-clip-path read-only:focus:input-bbb-clip-path"
-          placeholder="Username"
-        />
-        <div
-          class="relative last-element before:absolute before:block before:bg-beerus before:transition-opacity before:h-px before:top-0 before:inset-x-0 before:opacity-0"
+        <p
+          class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-trunks"
+          role="alert"
         >
-          <input
-            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err rounded-t-none"
-            placeholder="Password"
-            type="password"
-          />
-        </div>
-      </div>
-      <div
-        class="flex border-none shadow-input relative h-fit bg-goku flex-col rounded-moon-i-sm"
-      >
-        <input
-          class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err [&:not(:read-only):not(:disabled)_+_.last-element:before]:hover:opacity-0 [&:not(:read-only):not(:disabled)_+_.last-element:before]:focus:opacity-0 [&_+_.last-element:before]:opacity-0 rounded-b-none read-only:hover:input-bbb-clip-path read-only:focus:input-bbb-clip-path"
-          placeholder="Username"
-        />
-        <div
-          class="relative last-element before:absolute before:block before:bg-beerus before:transition-opacity before:h-px before:top-0 before:inset-x-0"
-        >
-          <input
-            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared rounded-t-none input-tbb-hidden"
-            placeholder="Password"
-            type="password"
-          />
-        </div>
-      </div>
-      <div
-        class="flex border-none shadow-input relative h-fit bg-goku flex-col rounded-moon-i-sm"
-      >
-        <input
-          class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared opacity-60 cursor-not-allowed [&:not(:read-only):not(:disabled)_+_.last-element:before]:hover:opacity-0 [&:not(:read-only):not(:disabled)_+_.last-element:before]:focus:opacity-0 rounded-b-none read-only:hover:input-bbb-clip-path read-only:focus:input-bbb-clip-path input-bbb-hidden"
-          disabled=""
-          placeholder="Username"
-        />
-        <div
-          class="relative last-element before:absolute before:block before:bg-beerus before:transition-opacity before:h-px before:top-0 before:inset-x-0"
-        >
-          <input
-            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared opacity-60 cursor-not-allowed rounded-t-none input-tbb-hidden"
-            disabled=""
-            placeholder="Password"
-            type="password"
-          />
-        </div>
-      </div>
-      <div
-        class="flex border-none shadow-input relative h-fit bg-goku flex-col rounded-moon-i-sm"
-      >
-        <input
-          class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared [&:not(:read-only):not(:disabled)_+_.last-element:before]:hover:opacity-0 [&:not(:read-only):not(:disabled)_+_.last-element:before]:focus:opacity-0 rounded-b-none read-only:hover:input-bbb-clip-path read-only:focus:input-bbb-clip-path input-bbb-hidden"
-          placeholder="Username"
-          readonly=""
-        />
-        <div
-          class="relative last-element before:absolute before:block before:bg-beerus before:transition-opacity before:h-px before:top-0 before:inset-x-0"
-        >
-          <input
-            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared rounded-t-none input-tbb-hidden"
-            placeholder="Password"
-            readonly=""
-            type="password"
-          />
-        </div>
+          Informative message holder
+        </p>
       </div>
     </div>
   </div>,

@@ -1,4 +1,4 @@
-import React, { ReactNode, forwardRef, useEffect, useState } from 'react';
+import React, { forwardRef, useEffect, useState } from 'react';
 import {
   Combobox as HeadlessCombobox,
   Transition as HeadlessTransition,
@@ -17,6 +17,7 @@ import {
   useComboboxContext,
   ComboboxContext,
 } from './private/utils/useComboboxContext';
+import GenericHint from '../hint/Hint';
 import {
   InsetInput as InputInset,
   SelectButton,
@@ -134,9 +135,9 @@ const Trigger = forwardRef<HTMLDivElement, WithChildren<SelectProps>>(
           'focus:shadow-input-focus focus:outline-none',
           'focus-visible::shadow-input-focus focus-visible::outline-none',
           isError &&
-            'shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err',
+          'shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err',
           disabled &&
-            'opacity-60 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed',
+          'opacity-60 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed',
           className
         )}
         ref={popper?.setAnchor}
@@ -160,7 +161,7 @@ const Input = ({
   return (
     <HeadlessCombobox.Input
       onChange={({ target: { value } }) => {
-        onQueryChange ? onQueryChange(value) : () => {};
+        onQueryChange ? onQueryChange(value) : () => { };
       }}
       as={NativeInput}
       displayValue={displayValue}
@@ -197,7 +198,7 @@ const InsetInput = ({
     <span className={mergeClassnames('relative', 'flex flex-grow w-full')}>
       <HeadlessCombobox.Input
         onChange={({ target: { value } }) => {
-          onQueryChange ? onQueryChange(value) : () => {};
+          onQueryChange ? onQueryChange(value) : () => { };
         }}
         as={NativeInput}
         displayValue={displayValue}
@@ -208,9 +209,9 @@ const InsetInput = ({
           'flex-grow h-full border-0 !rounded-none bg-transparent px-0',
           '!shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none',
           label !== undefined &&
-            label.length > 0 &&
-            (placeholder === undefined || placeholder.length === 0) &&
-            'input-xl',
+          label.length > 0 &&
+          (placeholder === undefined || placeholder.length === 0) &&
+          'input-xl',
           label !== undefined && label.length > 0 && 'pt-3 input-xl-dt-label',
           getTextSizes(size),
           className,
@@ -238,7 +239,8 @@ const VisualSelectInput = ({
   label,
   ...rest
 }: InputProps) => {
-  const { value, size, popper, disabled, isError, onQueryChange } = useComboboxContext('Combobox.VisualSelectInput');
+  const { value, size, popper, disabled, isError, onQueryChange } =
+    useComboboxContext('Combobox.VisualSelectInput');
   const selected = value as [];
 
   return (
@@ -248,14 +250,14 @@ const VisualSelectInput = ({
         !selected.length ? 'gap-y-0' : 'gap-y-1'
       )}
     >
-      <div className='flex flex-wrap justify-start items-start gap-1'>
-        { selected.map(({id, label}) => {
-          return <SelectedItem index={id} label={label} />
-        }) }
+      <div className="flex flex-wrap justify-start items-start gap-1">
+        {selected.map(({ id, label }) => {
+          return <SelectedItem index={id} label={label} />;
+        })}
       </div>
       <HeadlessCombobox.Input
         onChange={({ target: { value } }) => {
-          onQueryChange ? onQueryChange(value) : () => {};
+          onQueryChange ? onQueryChange(value) : () => { };
         }}
         as={NativeInput}
         displayValue={displayValue}
@@ -266,9 +268,9 @@ const VisualSelectInput = ({
           'flex-grow w-full h-full border-0 !rounded-none bg-transparent px-0',
           '!shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none',
           label !== undefined &&
-            label.length > 0 &&
-            (placeholder === undefined || placeholder.length === 0) &&
-            'input-xl',
+          label.length > 0 &&
+          (placeholder === undefined || placeholder.length === 0) &&
+          'input-xl',
           label !== undefined && label.length > 0 && 'pt-3 input-xl-dt-label',
           getTextSizes(size),
           className,
@@ -281,7 +283,7 @@ const VisualSelectInput = ({
       />
     </span>
   );
-}
+};
 
 const Button = ({
   open,
@@ -382,8 +384,8 @@ const SelectedItem = ({
   label,
   ...rest
 }: {
-  index: number | string,
-  label: number | string
+  index: number | string;
+  label: number | string;
 } & SelectProps) => {
   const { size, isError, disabled, onClear } =
     useComboboxContext('Combobox.Counter');
@@ -403,16 +405,14 @@ const SelectedItem = ({
         {...rest}
       >
         <SelectButton.Value>
-          <SelectButton.Chip
-            onClear={() => onClear && onClear(index)}
-          >
+          <SelectButton.Chip onClear={() => onClear && onClear(index)}>
             {label}
           </SelectButton.Chip>
         </SelectButton.Value>
       </SelectButton>
     </span>
   );
-}
+};
 
 const Transition = ({ children, ...rest }: WithChildren) => {
   const [isShowing, setIsShowing] = useState(false);
@@ -435,7 +435,7 @@ const Transition = ({ children, ...rest }: WithChildren) => {
       leave={tracking?.trackingDelay ? "transition ease-in duration-0" : "transition ease-in duration-100"}
       leaveFrom={tracking?.trackingDelay ? "opacity-0" : "opacity-100"}
       leaveTo="opacity-0"
-      afterLeave={onQueryChange ? () => onQueryChange('') : () => {}}
+      afterLeave={onQueryChange ? () => onQueryChange('') : () => { }}
       {...rest}
     >
       {children}
@@ -624,7 +624,7 @@ const VisualMultiSelect = ({
 
   return (
     <Listbox>
-       {label && (
+      {label && (
         <SelectButton.Label labelSize={size} idDisabled={disabled}>
           {label}
         </SelectButton.Label>
@@ -656,18 +656,9 @@ const Hint = ({
 }: WithChildren<{ className?: string }>) => {
   const { isError, disabled } = useComboboxContext('Combobox.Input');
   return (
-    <p
-      role="alert"
-      className={mergeClassnames(
-        'inline-block mt-2 ps-4 text-moon-12',
-        isError ? 'text-chichi' : 'text-trunks',
-        disabled && 'opacity-60 cursor-not-allowed',
-        className
-      )}
-      {...rest}
-    >
+    <GenericHint error={isError} disabled={disabled} className={className}>
       {children}
-    </p>
+    </GenericHint>
   );
 };
 

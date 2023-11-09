@@ -1,4 +1,5 @@
 import { Input, Label, Hint } from '@heathmont/moon-core-tw';
+import { GenericInfo } from '@heathmont/moon-icons-tw';
 
 const Example = () => (
   <div className="flex flex-col lg:flex-row justify-around items-end w-full gap-2">
@@ -12,7 +13,10 @@ const Example = () => (
     <div className="w-full">
       <Label htmlFor="error-state">Label</Label>
       <Input type="text" placeholder="Error" id="error-state" error />
-      <Hint error>Error message</Hint>
+      <Hint error>
+        <GenericInfo />
+        Informative message holder
+      </Hint>
     </div>
     <div className="w-full">
       <Label htmlFor="readonly-state">Label</Label>

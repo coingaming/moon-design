@@ -7,6 +7,7 @@ interface PanelProps
     'children'
   > {
   className?: string;
+  isStatic?: boolean;
   children?:
     | React.ReactNode
     | ((data: { open?: boolean; close: () => void }) => React.ReactNode);

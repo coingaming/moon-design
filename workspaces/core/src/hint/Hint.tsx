@@ -15,7 +15,7 @@ const Hint = ({
     <p
       role="alert"
       className={mergeClassnames(
-        'inline-block mt-2 ps-4 text-moon-12',
+        'flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16',
         error ? 'text-chichi' : 'text-trunks',
         disabled && 'opacity-60 cursor-not-allowed',
         className

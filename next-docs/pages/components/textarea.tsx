@@ -1,14 +1,14 @@
 import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import type { ComponentNames } from '../../components/getComponent';
 import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Customization from '../../public/examples/textarea/Customization';
 import Default from '../../public/examples/textarea/Default';
-import Disabled from '../../public/examples/textarea/Disabled';
+import States from '../../public/examples/textarea/States';
 import WithBtn from '../../public/examples/textarea/WithBtn';
 import useComponent from '../../utils/useComponent';
-import type { ComponentNames } from '../../components/getComponent';
 
 const COMPONENT_NAME: ComponentNames = 'Textarea';
 
@@ -30,9 +30,9 @@ const PageTextarea = () => {
         code={examples ? examples.Default : 'Loading'}
       />
       <Preview
-        title="Disabled"
-        preview={<Disabled />}
-        code={examples ? examples.Disabled : 'Loading'}
+        title="States"
+        preview={<States />}
+        code={examples ? examples.States : 'Loading'}
       />
       <Preview
         title="Customization"
