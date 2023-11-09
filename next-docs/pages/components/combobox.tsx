@@ -583,6 +583,19 @@ const PageCombobox = () => {
       />
 
       <PropsTable
+        title="Combobox.VisualMultiSelect"
+        data={[
+          {
+            name: 'forceUpdate',
+            type: 'boolean',
+            required: false,
+            default: '-',
+            description: 'If you need to align the list of options properly on each select/deselect set the "boolean" property.',
+          },
+        ]}
+      />
+
+      <PropsTable
         title="Combobox.Counter"
         data={[
           {
