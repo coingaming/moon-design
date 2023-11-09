@@ -6,6 +6,7 @@ import {
   Textarea,
   Button,
 } from '@heathmont/moon-core-tw';
+import { GenericInfo } from '@heathmont/moon-icons-tw';
 
 const Example = () => {
   return (
@@ -22,7 +23,10 @@ const Example = () => {
         >
           <InsetInput.Label>Username</InsetInput.Label>
         </InsetInput>
-        <Hint>Field is required</Hint>
+        <Hint error>
+          <GenericInfo />
+          Informative message holder
+        </Hint>
       </Form.Item>
       <Form.Item>
         <InsetInput

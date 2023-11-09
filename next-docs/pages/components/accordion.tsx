@@ -2,6 +2,7 @@ import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import type { ComponentNames } from '../../components/getComponent';
 import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Background from '../../public/examples/accordion/Background';
@@ -15,7 +16,6 @@ import OpenDefault from '../../public/examples/accordion/OpenDefault';
 import Single from '../../public/examples/accordion/Single';
 import Sizes from '../../public/examples/accordion/Sizes';
 import useComponent from '../../utils/useComponent';
-import type { ComponentNames } from '../../components/getComponent';
 
 const COMPONENT_NAME: ComponentNames = 'Accordion';
 
@@ -51,12 +51,6 @@ const PageAccordion = () => {
     </Accordion.Header>
     <Accordion.Content>...</Accordion.Content>
   </Accordion.Item>
-  <Accordion.Item>
-    <Accordion.Header>
-      <Accordion.Button>...</Accordion.Button>
-    </Accordion.Header>
-    <Accordion.ContentOutside>...</Accordion.ContentOutside>
-  </Accordion.Item>
 </Accordion>`}
       </ComponentAnatomy>
 
@@ -81,11 +75,6 @@ const PageAccordion = () => {
         code={examples ? examples.Disabled : 'Loading'}
       />
       <Preview
-        title="Content outside"
-        preview={<ContentOutside />}
-        code={examples ? examples.ContentOutside : 'Loading'}
-      />
-      <Preview
         title="Header content"
         preview={<ContentHeader />}
         code={examples ? examples.ContentHeader : 'Loading'}
@@ -94,11 +83,6 @@ const PageAccordion = () => {
         title="Sizes"
         preview={<Sizes />}
         code={examples ? examples.Sizes : 'Loading'}
-      />
-      <Preview
-        title="Sizes: content outside"
-        preview={<ContentOutsideSizes />}
-        code={examples ? examples.ContentOutsideSizes : 'Loading'}
       />
       <Preview
         title="Custom background"

@@ -8,32 +8,6 @@ Object {
       <div
         dir="rtl"
       >
-        <div
-          class="flex flex-col lg:flex-row lg:justify-center items-center w-full max-w-xs gap-4"
-        >
-          <span
-            class="w-full flex flex-col justify-between rounded-lg py-2 px-3 bg-goku gap-y-0 shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-            tabindex="-1"
-          >
-            <div
-              class="flex flex-wrap justify-start items-start gap-1"
-            />
-            <input
-              class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16 leading-5"
-              type="text"
-            />
-          </span>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      dir="rtl"
-    >
-      <div
-        class="flex flex-col lg:flex-row lg:justify-center items-center w-full max-w-xs gap-4"
-      >
         <span
           class="w-full flex flex-col justify-between rounded-lg py-2 px-3 bg-goku gap-y-0 shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
           tabindex="-1"
@@ -47,6 +21,24 @@ Object {
           />
         </span>
       </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <span
+        class="w-full flex flex-col justify-between rounded-lg py-2 px-3 bg-goku gap-y-0 shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+        tabindex="-1"
+      >
+        <div
+          class="flex flex-wrap justify-start items-start gap-1"
+        />
+        <input
+          class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16 leading-5"
+          type="text"
+        />
+      </span>
     </div>
   </div>,
   "debug": [Function],
@@ -115,15 +107,15 @@ Object {
           class="flex flex-col items-center w-full h-50"
         >
           <div
-            class="flex flex-col items-center lg:flex-row lg:justify-center lg:items-end w-full gap-4"
+            class="flex flex-col items-center lg:flex-row lg:justify-center lg:items-end w-full gap-2"
           >
             <div
-              class="flex flex-col w-full max-w-xs"
+              class="flex flex-col w-full"
             >
               <label
                 class="block text-bulma pb-2 text-moon-14"
                 data-headlessui-state=""
-                id="headlessui-listbox-label-:r8:"
+                id="headlessui-listbox-label-:r7:"
               >
                 Small
               </label>
@@ -141,12 +133,12 @@ Object {
               </span>
             </div>
             <div
-              class="flex flex-col w-full max-w-xs"
+              class="flex flex-col w-full"
             >
               <label
                 class="block text-bulma pb-2 text-moon-16"
                 data-headlessui-state=""
-                id="headlessui-listbox-label-:r9:"
+                id="headlessui-listbox-label-:r8:"
               >
                 Medium (default)
               </label>
@@ -164,12 +156,12 @@ Object {
               </span>
             </div>
             <div
-              class="flex flex-col w-full max-w-xs"
+              class="flex flex-col w-full"
             >
               <label
                 class="block text-bulma pb-2 text-moon-16"
                 data-headlessui-state=""
-                id="headlessui-listbox-label-:ra:"
+                id="headlessui-listbox-label-:r9:"
               >
                 Large
               </label>
@@ -199,15 +191,15 @@ Object {
         class="flex flex-col items-center w-full h-50"
       >
         <div
-          class="flex flex-col items-center lg:flex-row lg:justify-center lg:items-end w-full gap-4"
+          class="flex flex-col items-center lg:flex-row lg:justify-center lg:items-end w-full gap-2"
         >
           <div
-            class="flex flex-col w-full max-w-xs"
+            class="flex flex-col w-full"
           >
             <label
               class="block text-bulma pb-2 text-moon-14"
               data-headlessui-state=""
-              id="headlessui-listbox-label-:r8:"
+              id="headlessui-listbox-label-:r7:"
             >
               Small
             </label>
@@ -225,12 +217,12 @@ Object {
             </span>
           </div>
           <div
-            class="flex flex-col w-full max-w-xs"
+            class="flex flex-col w-full"
           >
             <label
               class="block text-bulma pb-2 text-moon-16"
               data-headlessui-state=""
-              id="headlessui-listbox-label-:r9:"
+              id="headlessui-listbox-label-:r8:"
             >
               Medium (default)
             </label>
@@ -248,12 +240,12 @@ Object {
             </span>
           </div>
           <div
-            class="flex flex-col w-full max-w-xs"
+            class="flex flex-col w-full"
           >
             <label
               class="block text-bulma pb-2 text-moon-16"
               data-headlessui-state=""
-              id="headlessui-listbox-label-:ra:"
+              id="headlessui-listbox-label-:r9:"
             >
               Large
             </label>
@@ -340,10 +332,81 @@ Object {
           class="flex flex-col items-center w-full h-50"
         >
           <div
-            class="flex flex-col items-center lg:flex-row lg:justify-center lg:items-start w-full gap-4"
+            class="flex flex-col items-center lg:flex-row lg:justify-center lg:items-start w-full gap-2"
           >
             <div
-              class="flex flex-col w-full max-w-xs"
+              class="flex flex-col w-full"
+            >
+              <label
+                class="block text-bulma pb-2 text-moon-16 opacity-60 cursor-not-allowed"
+                data-headlessui-state=""
+                id="headlessui-listbox-label-:ra:"
+              >
+                Disabled
+              </label>
+              <span
+                class="w-full flex flex-col justify-between rounded-lg py-2 px-3 bg-goku gap-y-1 focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none opacity-60 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed"
+                tabindex="-1"
+              >
+                <div
+                  class="flex flex-wrap justify-start items-start gap-1"
+                >
+                  <div
+                    class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <span
+                        class="text-moon-16 w-full text-bulma truncate"
+                      >
+                        <div
+                          class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
+                        >
+                          <span
+                            class="break-all truncate"
+                          >
+                            Preset data
+                          </span>
+                          <span
+                            class="text-moon-16"
+                          >
+                            <svg
+                              class="cursor-pointer"
+                              fill="none"
+                              height="1em"
+                              viewBox="0 0 32 32"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                          </span>
+                        </div>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <input
+                  class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared opacity-60 cursor-not-allowed flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16 leading-5"
+                  disabled=""
+                  type="text"
+                />
+              </span>
+              <p
+                class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-trunks opacity-60 cursor-not-allowed"
+                role="alert"
+              >
+                Informative message holder
+              </p>
+            </div>
+            <div
+              class="flex flex-col w-full"
             >
               <label
                 class="block text-bulma pb-2 text-moon-16"
@@ -405,136 +468,26 @@ Object {
                   type="text"
                 />
               </span>
-            </div>
-            <div
-              class="flex flex-col w-full max-w-xs"
-            >
-              <label
-                class="block text-bulma pb-2 text-moon-16 opacity-60 cursor-not-allowed"
-                data-headlessui-state=""
-                id="headlessui-listbox-label-:rc:"
+              <p
+                class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-chichi"
+                role="alert"
               >
-                Disabled
-              </label>
-              <span
-                class="w-full flex flex-col justify-between rounded-lg py-2 px-3 bg-goku gap-y-1 focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none opacity-60 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed"
-                tabindex="-1"
-              >
-                <div
-                  class="flex flex-wrap justify-start items-start gap-1"
+                <svg
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
-                  <div
-                    class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
-                  >
-                    <div
-                      class="relative"
-                    >
-                      <span
-                        class="text-moon-16 w-full text-bulma truncate"
-                      >
-                        <div
-                          class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
-                        >
-                          <span
-                            class="break-all truncate"
-                          >
-                            Preset data
-                          </span>
-                          <span
-                            class="text-moon-16"
-                          >
-                            <svg
-                              class="cursor-pointer"
-                              fill="none"
-                              height="1em"
-                              viewBox="0 0 32 32"
-                              width="1em"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
-                                stroke="currentColor"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                              />
-                            </svg>
-                          </span>
-                        </div>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <input
-                  class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared opacity-60 cursor-not-allowed flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16 leading-5"
-                  disabled=""
-                  type="text"
-                />
-              </span>
-            </div>
-            <div
-              class="flex flex-col w-full max-w-xs"
-            >
-              <label
-                class="block text-bulma pb-2 text-moon-16"
-                data-headlessui-state=""
-                id="headlessui-listbox-label-:rd:"
-              >
-                Placeholder
-              </label>
-              <span
-                class="w-full flex flex-col justify-between rounded-lg py-2 px-3 bg-goku gap-y-1 shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-                tabindex="-1"
-              >
-                <div
-                  class="flex flex-wrap justify-start items-start gap-1"
-                >
-                  <div
-                    class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
-                  >
-                    <div
-                      class="relative"
-                    >
-                      <span
-                        class="text-moon-16 w-full text-bulma truncate"
-                      >
-                        <div
-                          class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
-                        >
-                          <span
-                            class="break-all truncate"
-                          >
-                            Preset data
-                          </span>
-                          <span
-                            class="text-moon-16"
-                          >
-                            <svg
-                              class="cursor-pointer"
-                              fill="none"
-                              height="1em"
-                              viewBox="0 0 32 32"
-                              width="1em"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
-                                stroke="currentColor"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                              />
-                            </svg>
-                          </span>
-                        </div>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <input
-                  class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16 leading-5"
-                  placeholder="Enter your data here"
-                  type="text"
-                />
-              </span>
+                  <path
+                    d="M16 21.2778V14.9444M16 12.3056V10.7222M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                Informative message holder
+              </p>
             </div>
           </div>
         </div>
@@ -549,10 +502,81 @@ Object {
         class="flex flex-col items-center w-full h-50"
       >
         <div
-          class="flex flex-col items-center lg:flex-row lg:justify-center lg:items-start w-full gap-4"
+          class="flex flex-col items-center lg:flex-row lg:justify-center lg:items-start w-full gap-2"
         >
           <div
-            class="flex flex-col w-full max-w-xs"
+            class="flex flex-col w-full"
+          >
+            <label
+              class="block text-bulma pb-2 text-moon-16 opacity-60 cursor-not-allowed"
+              data-headlessui-state=""
+              id="headlessui-listbox-label-:ra:"
+            >
+              Disabled
+            </label>
+            <span
+              class="w-full flex flex-col justify-between rounded-lg py-2 px-3 bg-goku gap-y-1 focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none opacity-60 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed"
+              tabindex="-1"
+            >
+              <div
+                class="flex flex-wrap justify-start items-start gap-1"
+              >
+                <div
+                  class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
+                >
+                  <div
+                    class="relative"
+                  >
+                    <span
+                      class="text-moon-16 w-full text-bulma truncate"
+                    >
+                      <div
+                        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
+                      >
+                        <span
+                          class="break-all truncate"
+                        >
+                          Preset data
+                        </span>
+                        <span
+                          class="text-moon-16"
+                        >
+                          <svg
+                            class="cursor-pointer"
+                            fill="none"
+                            height="1em"
+                            viewBox="0 0 32 32"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
+                              stroke="currentColor"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <input
+                class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared opacity-60 cursor-not-allowed flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16 leading-5"
+                disabled=""
+                type="text"
+              />
+            </span>
+            <p
+              class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-trunks opacity-60 cursor-not-allowed"
+              role="alert"
+            >
+              Informative message holder
+            </p>
+          </div>
+          <div
+            class="flex flex-col w-full"
           >
             <label
               class="block text-bulma pb-2 text-moon-16"
@@ -614,136 +638,26 @@ Object {
                 type="text"
               />
             </span>
-          </div>
-          <div
-            class="flex flex-col w-full max-w-xs"
-          >
-            <label
-              class="block text-bulma pb-2 text-moon-16 opacity-60 cursor-not-allowed"
-              data-headlessui-state=""
-              id="headlessui-listbox-label-:rc:"
+            <p
+              class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-chichi"
+              role="alert"
             >
-              Disabled
-            </label>
-            <span
-              class="w-full flex flex-col justify-between rounded-lg py-2 px-3 bg-goku gap-y-1 focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none opacity-60 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed"
-              tabindex="-1"
-            >
-              <div
-                class="flex flex-wrap justify-start items-start gap-1"
+              <svg
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <div
-                  class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
-                >
-                  <div
-                    class="relative"
-                  >
-                    <span
-                      class="text-moon-16 w-full text-bulma truncate"
-                    >
-                      <div
-                        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
-                      >
-                        <span
-                          class="break-all truncate"
-                        >
-                          Preset data
-                        </span>
-                        <span
-                          class="text-moon-16"
-                        >
-                          <svg
-                            class="cursor-pointer"
-                            fill="none"
-                            height="1em"
-                            viewBox="0 0 32 32"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
-                              stroke="currentColor"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                            />
-                          </svg>
-                        </span>
-                      </div>
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <input
-                class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared opacity-60 cursor-not-allowed flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16 leading-5"
-                disabled=""
-                type="text"
-              />
-            </span>
-          </div>
-          <div
-            class="flex flex-col w-full max-w-xs"
-          >
-            <label
-              class="block text-bulma pb-2 text-moon-16"
-              data-headlessui-state=""
-              id="headlessui-listbox-label-:rd:"
-            >
-              Placeholder
-            </label>
-            <span
-              class="w-full flex flex-col justify-between rounded-lg py-2 px-3 bg-goku gap-y-1 shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-              tabindex="-1"
-            >
-              <div
-                class="flex flex-wrap justify-start items-start gap-1"
-              >
-                <div
-                  class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
-                >
-                  <div
-                    class="relative"
-                  >
-                    <span
-                      class="text-moon-16 w-full text-bulma truncate"
-                    >
-                      <div
-                        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
-                      >
-                        <span
-                          class="break-all truncate"
-                        >
-                          Preset data
-                        </span>
-                        <span
-                          class="text-moon-16"
-                        >
-                          <svg
-                            class="cursor-pointer"
-                            fill="none"
-                            height="1em"
-                            viewBox="0 0 32 32"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
-                              stroke="currentColor"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                            />
-                          </svg>
-                        </span>
-                      </div>
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <input
-                class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16 leading-5"
-                placeholder="Enter your data here"
-                type="text"
-              />
-            </span>
+                <path
+                  d="M16 21.2778V14.9444M16 12.3056V10.7222M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              Informative message holder
+            </p>
           </div>
         </div>
       </div>
@@ -815,15 +729,15 @@ Object {
           class="flex flex-col items-center w-full h-50"
         >
           <div
-            class="flex flex-col items-center lg:flex-row lg:justify-center lg:items-start w-full gap-4"
+            class="flex flex-col items-center lg:flex-row lg:justify-center lg:items-start w-full gap-2"
           >
             <div
-              class="flex flex-col w-full max-w-xs"
+              class="flex flex-col w-full"
             >
               <label
                 class="block text-bulma pb-2 text-moon-16"
                 data-headlessui-state=""
-                id="headlessui-listbox-label-:re:"
+                id="headlessui-listbox-label-:rc:"
               >
                 Lower
               </label>
@@ -882,12 +796,12 @@ Object {
               </span>
             </div>
             <div
-              class="flex flex-col w-full max-w-xs"
+              class="flex flex-col w-full"
             >
               <label
                 class="block text-bulma pb-2 text-moon-16"
                 data-headlessui-state=""
-                id="headlessui-listbox-label-:rf:"
+                id="headlessui-listbox-label-:rd:"
               >
                 Capitalized
               </label>
@@ -958,15 +872,15 @@ Object {
         class="flex flex-col items-center w-full h-50"
       >
         <div
-          class="flex flex-col items-center lg:flex-row lg:justify-center lg:items-start w-full gap-4"
+          class="flex flex-col items-center lg:flex-row lg:justify-center lg:items-start w-full gap-2"
         >
           <div
-            class="flex flex-col w-full max-w-xs"
+            class="flex flex-col w-full"
           >
             <label
               class="block text-bulma pb-2 text-moon-16"
               data-headlessui-state=""
-              id="headlessui-listbox-label-:re:"
+              id="headlessui-listbox-label-:rc:"
             >
               Lower
             </label>
@@ -1025,12 +939,12 @@ Object {
             </span>
           </div>
           <div
-            class="flex flex-col w-full max-w-xs"
+            class="flex flex-col w-full"
           >
             <label
               class="block text-bulma pb-2 text-moon-16"
               data-headlessui-state=""
-              id="headlessui-listbox-label-:rf:"
+              id="headlessui-listbox-label-:rd:"
             >
               Capitalized
             </label>
@@ -1151,28 +1065,6 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
-        class="flex flex-col lg:flex-row lg:justify-center items-center w-full max-w-xs gap-4"
-      >
-        <span
-          class="w-full flex flex-col justify-between rounded-lg py-2 px-3 bg-goku gap-y-0 shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
-          tabindex="-1"
-        >
-          <div
-            class="flex flex-wrap justify-start items-start gap-1"
-          />
-          <input
-            class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16 leading-5"
-            type="text"
-          />
-        </span>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      class="flex flex-col lg:flex-row lg:justify-center items-center w-full max-w-xs gap-4"
-    >
       <span
         class="w-full flex flex-col justify-between rounded-lg py-2 px-3 bg-goku gap-y-0 shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
         tabindex="-1"
@@ -1186,6 +1078,20 @@ Object {
         />
       </span>
     </div>
+  </body>,
+  "container": <div>
+    <span
+      class="w-full flex flex-col justify-between rounded-lg py-2 px-3 bg-goku gap-y-0 shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+      tabindex="-1"
+    >
+      <div
+        class="flex flex-wrap justify-start items-start gap-1"
+      />
+      <input
+        class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16 leading-5"
+        type="text"
+      />
+    </span>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
@@ -1250,10 +1156,10 @@ Object {
         class="flex flex-col items-center w-full h-50"
       >
         <div
-          class="flex flex-col items-center lg:flex-row lg:justify-center lg:items-end w-full gap-4"
+          class="flex flex-col items-center lg:flex-row lg:justify-center lg:items-end w-full gap-2"
         >
           <div
-            class="flex flex-col w-full max-w-xs"
+            class="flex flex-col w-full"
           >
             <label
               class="block text-bulma pb-2 text-moon-14"
@@ -1276,7 +1182,7 @@ Object {
             </span>
           </div>
           <div
-            class="flex flex-col w-full max-w-xs"
+            class="flex flex-col w-full"
           >
             <label
               class="block text-bulma pb-2 text-moon-16"
@@ -1299,7 +1205,7 @@ Object {
             </span>
           </div>
           <div
-            class="flex flex-col w-full max-w-xs"
+            class="flex flex-col w-full"
           >
             <label
               class="block text-bulma pb-2 text-moon-16"
@@ -1330,10 +1236,10 @@ Object {
       class="flex flex-col items-center w-full h-50"
     >
       <div
-        class="flex flex-col items-center lg:flex-row lg:justify-center lg:items-end w-full gap-4"
+        class="flex flex-col items-center lg:flex-row lg:justify-center lg:items-end w-full gap-2"
       >
         <div
-          class="flex flex-col w-full max-w-xs"
+          class="flex flex-col w-full"
         >
           <label
             class="block text-bulma pb-2 text-moon-14"
@@ -1356,7 +1262,7 @@ Object {
           </span>
         </div>
         <div
-          class="flex flex-col w-full max-w-xs"
+          class="flex flex-col w-full"
         >
           <label
             class="block text-bulma pb-2 text-moon-16"
@@ -1379,7 +1285,7 @@ Object {
           </span>
         </div>
         <div
-          class="flex flex-col w-full max-w-xs"
+          class="flex flex-col w-full"
         >
           <label
             class="block text-bulma pb-2 text-moon-16"
@@ -1467,79 +1373,15 @@ Object {
         class="flex flex-col items-center w-full h-50"
       >
         <div
-          class="flex flex-col items-center lg:flex-row lg:justify-center lg:items-start w-full gap-4"
+          class="flex flex-col items-center lg:flex-row lg:justify-center lg:items-start w-full gap-2"
         >
           <div
-            class="flex flex-col w-full max-w-xs"
-          >
-            <label
-              class="block text-bulma pb-2 text-moon-16"
-              data-headlessui-state=""
-              id="headlessui-listbox-label-:r3:"
-            >
-              Error
-            </label>
-            <span
-              class="w-full flex flex-col justify-between rounded-lg py-2 px-3 bg-goku gap-y-1 focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err"
-              tabindex="-1"
-            >
-              <div
-                class="flex flex-wrap justify-start items-start gap-1"
-              >
-                <div
-                  class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
-                >
-                  <div
-                    class="relative"
-                  >
-                    <span
-                      class="text-moon-16 w-full text-bulma truncate"
-                    >
-                      <div
-                        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
-                      >
-                        <span
-                          class="break-all truncate"
-                        >
-                          Preset data
-                        </span>
-                        <span
-                          class="text-moon-16"
-                        >
-                          <svg
-                            class="cursor-pointer"
-                            fill="none"
-                            height="1em"
-                            viewBox="0 0 32 32"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
-                              stroke="currentColor"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                            />
-                          </svg>
-                        </span>
-                      </div>
-                    </span>
-                  </div>
-                </div>
-              </div>
-              <input
-                class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16 leading-5"
-                type="text"
-              />
-            </span>
-          </div>
-          <div
-            class="flex flex-col w-full max-w-xs"
+            class="flex flex-col w-full"
           >
             <label
               class="block text-bulma pb-2 text-moon-16 opacity-60 cursor-not-allowed"
               data-headlessui-state=""
-              id="headlessui-listbox-label-:r4:"
+              id="headlessui-listbox-label-:r3:"
             >
               Disabled
             </label>
@@ -1597,19 +1439,25 @@ Object {
                 type="text"
               />
             </span>
+            <p
+              class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-trunks opacity-60 cursor-not-allowed"
+              role="alert"
+            >
+              Informative message holder
+            </p>
           </div>
           <div
-            class="flex flex-col w-full max-w-xs"
+            class="flex flex-col w-full"
           >
             <label
               class="block text-bulma pb-2 text-moon-16"
               data-headlessui-state=""
-              id="headlessui-listbox-label-:r5:"
+              id="headlessui-listbox-label-:r4:"
             >
-              Placeholder
+              Error
             </label>
             <span
-              class="w-full flex flex-col justify-between rounded-lg py-2 px-3 bg-goku gap-y-1 shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+              class="w-full flex flex-col justify-between rounded-lg py-2 px-3 bg-goku gap-y-1 focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err"
               tabindex="-1"
             >
               <div
@@ -1657,11 +1505,30 @@ Object {
                 </div>
               </div>
               <input
-                class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16 leading-5"
-                placeholder="Enter your data here"
+                class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16 leading-5"
                 type="text"
               />
             </span>
+            <p
+              class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-chichi"
+              role="alert"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16 21.2778V14.9444M16 12.3056V10.7222M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              Informative message holder
+            </p>
           </div>
         </div>
       </div>
@@ -1672,79 +1539,15 @@ Object {
       class="flex flex-col items-center w-full h-50"
     >
       <div
-        class="flex flex-col items-center lg:flex-row lg:justify-center lg:items-start w-full gap-4"
+        class="flex flex-col items-center lg:flex-row lg:justify-center lg:items-start w-full gap-2"
       >
         <div
-          class="flex flex-col w-full max-w-xs"
-        >
-          <label
-            class="block text-bulma pb-2 text-moon-16"
-            data-headlessui-state=""
-            id="headlessui-listbox-label-:r3:"
-          >
-            Error
-          </label>
-          <span
-            class="w-full flex flex-col justify-between rounded-lg py-2 px-3 bg-goku gap-y-1 focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err"
-            tabindex="-1"
-          >
-            <div
-              class="flex flex-wrap justify-start items-start gap-1"
-            >
-              <div
-                class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
-              >
-                <div
-                  class="relative"
-                >
-                  <span
-                    class="text-moon-16 w-full text-bulma truncate"
-                  >
-                    <div
-                      class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
-                    >
-                      <span
-                        class="break-all truncate"
-                      >
-                        Preset data
-                      </span>
-                      <span
-                        class="text-moon-16"
-                      >
-                        <svg
-                          class="cursor-pointer"
-                          fill="none"
-                          height="1em"
-                          viewBox="0 0 32 32"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
-                            stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          />
-                        </svg>
-                      </span>
-                    </div>
-                  </span>
-                </div>
-              </div>
-            </div>
-            <input
-              class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16 leading-5"
-              type="text"
-            />
-          </span>
-        </div>
-        <div
-          class="flex flex-col w-full max-w-xs"
+          class="flex flex-col w-full"
         >
           <label
             class="block text-bulma pb-2 text-moon-16 opacity-60 cursor-not-allowed"
             data-headlessui-state=""
-            id="headlessui-listbox-label-:r4:"
+            id="headlessui-listbox-label-:r3:"
           >
             Disabled
           </label>
@@ -1802,19 +1605,25 @@ Object {
               type="text"
             />
           </span>
+          <p
+            class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-trunks opacity-60 cursor-not-allowed"
+            role="alert"
+          >
+            Informative message holder
+          </p>
         </div>
         <div
-          class="flex flex-col w-full max-w-xs"
+          class="flex flex-col w-full"
         >
           <label
             class="block text-bulma pb-2 text-moon-16"
             data-headlessui-state=""
-            id="headlessui-listbox-label-:r5:"
+            id="headlessui-listbox-label-:r4:"
           >
-            Placeholder
+            Error
           </label>
           <span
-            class="w-full flex flex-col justify-between rounded-lg py-2 px-3 bg-goku gap-y-1 shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none"
+            class="w-full flex flex-col justify-between rounded-lg py-2 px-3 bg-goku gap-y-1 focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err"
             tabindex="-1"
           >
             <div
@@ -1862,11 +1671,30 @@ Object {
               </div>
             </div>
             <input
-              class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16 leading-5"
-              placeholder="Enter your data here"
+              class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err flex-grow h-full border-0 !rounded-none bg-transparent px-0 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16 leading-5"
               type="text"
             />
           </span>
+          <p
+            class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-chichi"
+            role="alert"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16 21.2778V14.9444M16 12.3056V10.7222M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            Informative message holder
+          </p>
         </div>
       </div>
     </div>
@@ -1934,15 +1762,15 @@ Object {
         class="flex flex-col items-center w-full h-50"
       >
         <div
-          class="flex flex-col items-center lg:flex-row lg:justify-center lg:items-start w-full gap-4"
+          class="flex flex-col items-center lg:flex-row lg:justify-center lg:items-start w-full gap-2"
         >
           <div
-            class="flex flex-col w-full max-w-xs"
+            class="flex flex-col w-full"
           >
             <label
               class="block text-bulma pb-2 text-moon-16"
               data-headlessui-state=""
-              id="headlessui-listbox-label-:r6:"
+              id="headlessui-listbox-label-:r5:"
             >
               Lower
             </label>
@@ -2001,12 +1829,12 @@ Object {
             </span>
           </div>
           <div
-            class="flex flex-col w-full max-w-xs"
+            class="flex flex-col w-full"
           >
             <label
               class="block text-bulma pb-2 text-moon-16"
               data-headlessui-state=""
-              id="headlessui-listbox-label-:r7:"
+              id="headlessui-listbox-label-:r6:"
             >
               Capitalized
             </label>
@@ -2073,15 +1901,15 @@ Object {
       class="flex flex-col items-center w-full h-50"
     >
       <div
-        class="flex flex-col items-center lg:flex-row lg:justify-center lg:items-start w-full gap-4"
+        class="flex flex-col items-center lg:flex-row lg:justify-center lg:items-start w-full gap-2"
       >
         <div
-          class="flex flex-col w-full max-w-xs"
+          class="flex flex-col w-full"
         >
           <label
             class="block text-bulma pb-2 text-moon-16"
             data-headlessui-state=""
-            id="headlessui-listbox-label-:r6:"
+            id="headlessui-listbox-label-:r5:"
           >
             Lower
           </label>
@@ -2140,12 +1968,12 @@ Object {
           </span>
         </div>
         <div
-          class="flex flex-col w-full max-w-xs"
+          class="flex flex-col w-full"
         >
           <label
             class="block text-bulma pb-2 text-moon-16"
             data-headlessui-state=""
-            id="headlessui-listbox-label-:r7:"
+            id="headlessui-listbox-label-:r6:"
           >
             Capitalized
           </label>

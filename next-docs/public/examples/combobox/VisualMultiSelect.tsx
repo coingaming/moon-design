@@ -26,29 +26,37 @@ const filter = (
 };
 
 const Example = () => {
-  const [selected, setSelected] = useState([]);
-  const [query, setQuery] = useState<string>('');
+  const [selected1, setSelected1] = useState([]);
+  const [selected2, setSelected2] = useState([]);
+  const [query1, setQuery1] = useState<string>('');
+  const [query2, setQuery2] = useState<string>('');
 
-  const filteredPeople = filter(query, people);
+  const filteredPeople1 = filter(query1, people);
+  const filteredPeople2 = filter(query2, people);
 
-  const onRemoveItem = useCallback((index: unknown) => {
-    setSelected(selected.filter(({ id }) => id !== index));
-  }, [selected]);
+  const onRemoveItem1 = useCallback((index: unknown) => {
+    setSelected1(selected1.filter(({ id }) => id !== index));
+  }, [selected1]);
+
+  const onRemoveItem2 = useCallback((index: unknown) => {
+    setSelected2(selected2.filter(({ id }) => id !== index));
+  }, [selected2]);
 
   return (
-    <div className="flex w-full max-w-xs items-center">
+    <div className="flex flex-col lg:flex-row lg:justify-center items-center w-full gap-4">
       <Combobox
-        value={selected}
-        onChange={setSelected}
-        onQueryChange={setQuery}
-        onClear={onRemoveItem}
+        value={selected1}
+        onChange={setSelected1}
+        onQueryChange={setQuery1}
+        onClear={onRemoveItem1}
+        className="w-full max-w-xs"
         multiple
       >
         {({ open }) => (
           <>
             <Combobox.VisualMultiSelect
               open={open}
-              label="Select label"
+              label=""
               placeholder="Choose an option"
               displayValue={({ label }) => label}
             >
@@ -56,12 +64,12 @@ const Example = () => {
             </Combobox.VisualMultiSelect>
             <Combobox.Transition>
               <Combobox.Options>
-                {filteredPeople.length === 0 && query !== '' ? (
+                {filteredPeople1.length === 0 && query1 !== '' ? (
                   <div className="relative cursor-default select-none py-2 px-4 text-trunks">
                     Nothing found.
                   </div>
                 ) : (
-                  filteredPeople.map((person, index) => (
+                  filteredPeople1.map((person, index) => (
                     <Combobox.Option value={person} key={index}>
                       {({ selected, active }) => (
                         <MenuItem isActive={active} isSelected={selected}>
@@ -74,7 +82,51 @@ const Example = () => {
                 )}
               </Combobox.Options>
             </Combobox.Transition>
-            <Combobox.Hint>Informative message holder</Combobox.Hint>
+            <Combobox.Hint>Without tracking the state of the input field</Combobox.Hint>
+          </>
+        )}
+      </Combobox>
+
+      <Combobox
+        value={selected2}
+        onChange={setSelected2}
+        onQueryChange={setQuery2}
+        onClear={onRemoveItem2}
+        className="w-full max-w-xs"
+        multiple
+      >
+        {({ open }) => (
+          <>
+            <Combobox.VisualMultiSelect
+              open={open}
+              label=""
+              placeholder="Choose an option"
+              displayValue={({ label }) => label}
+              forceUpdate
+            >
+              <ControlsChevronDownSmall />
+            </Combobox.VisualMultiSelect>
+            <Combobox.Transition>
+              <Combobox.Options>
+                {filteredPeople2.length === 0 && query2 !== '' ? (
+                  <div className="relative cursor-default select-none py-2 px-4 text-trunks">
+                    Nothing found.
+                  </div>
+                ) : (
+                  filteredPeople2.map((person, index) => (
+                    <Combobox.Option value={person} key={index}>
+                      {({ selected, active }) => (
+                        <MenuItem isActive={active} isSelected={selected}>
+                          <MenuItem.Title>{person.label}</MenuItem.Title>
+                          <MenuItem.Checkbox isSelected={selected} />
+                        </MenuItem>
+                      )}
+                    </Combobox.Option>
+                  ))
+                )}
+              </Combobox.Options>
+            </Combobox.Transition>
+            <Combobox.Hint>When the state of the input field changes, use `forceUpdate`.</Combobox.Hint>
           </>
         )}
       </Combobox>

@@ -1,45 +1,24 @@
 import React from 'react';
-import type Size from './private/types/Size';
+import type PanelProps from './private/types/PanelProps';
+import type Props from './private/types/Props';
+import type TabPolymorphicProps from './private/types/TabPolymorphicProps';
 import getTabSize from './private/utils/getTabSize';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
-type TabsRootProps = {
-  className?: string;
-  children?: React.ReactNode;
-};
-const TabsRoot = ({ className, children }: TabsRootProps) => (
-  <div className={mergeClassnames(className)}>{children}</div>
+const TabsRoot = ({ className, children }: Props) => (
+  <div className={className}>{children}</div>
 );
 
-type ListProps = {
-  className?: string;
-  children?: React.ReactNode;
-};
-const List = ({ className, children }: ListProps) => (
+const List = ({ className, children }: Props) => (
   <div
     className={mergeClassnames(
-      className,
-      'flex items-center justify-center w-fit gap-2'
+      'flex items-center justify-center w-fit gap-2',
+      className
     )}
   >
     {children}
   </div>
 );
-
-type TabProps = {
-  className?: string;
-  children?: React.ReactNode;
-  isDisabled?: boolean;
-  selected?: boolean;
-  size?: Size;
-};
-
-type TabPolymorphicProps<C extends React.ElementType> =
-  PolymorphicComponentPropWithRef<C, TabProps>;
-
-type TabComponentProps = <C extends React.ElementType = 'a'>(
-  props: TabPolymorphicProps<C>
-) => React.ReactElement | null;
 
 const Tab = React.forwardRef(
   <C extends React.ElementType = 'a'>(
@@ -67,9 +46,10 @@ const Tab = React.forwardRef(
           'after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right',
           'after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left',
           'rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo',
-          'focus:outline-none',
+          'focus:outline-none ltr:[&:local-link]:after:origin-top-left',
+          'rtl:[&:local-link]:after:origin-top-right [&:local-link]:after:scale-x-100',
+          '[&:local-link]:text-piccolo',
           isDisabled && 'opacity-30 hover:after:scale-0 cursor-not-allowed',
-          'ltr:[&:local-link]:after:origin-top-left rtl:[&:local-link]:after:origin-top-right [&:local-link]:after:scale-x-100 [&:local-link]:text-piccolo',
           selected &&
             'ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-100 text-piccolo',
           className
@@ -109,8 +89,9 @@ const Pill = React.forwardRef(
           'after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0',
           'after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right',
           'hover:after:scale-100 hover:text-piccolo focus:outline-none',
+          'ltr:[&:local-link]:after:origin-top-left rtl:[&:local-link]:after:origin-top-right',
+          '[&:local-link]:after:scale-x-100 [&:local-link]:text-piccolo',
           isDisabled && 'opacity-30 hover:after:scale-0 cursor-not-allowed',
-          'ltr:[&:local-link]:after:origin-top-left rtl:[&:local-link]:after:origin-top-right [&:local-link]:after:scale-x-100 [&:local-link]:text-piccolo',
           selected &&
             'ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-100 text-piccolo',
           className
@@ -144,9 +125,9 @@ const Pill = React.forwardRef(
 //         className={mergeClassnames(
 //           getTabSize(size),
 //           'flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma',
-//           'font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan',
+//           'font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku',
 //           'focus:outline-none',
-//           selected && 'bg-gohan',
+//           selected && 'bg-goku',
 //           isDisabled && 'opacity-30 hover:bg-transparent cursor-not-allowed'
 //         )}
 //         ref={ref}
@@ -159,25 +140,17 @@ const Pill = React.forwardRef(
 //   }
 // );
 
-type PanelsProps = {
-  className?: string;
-  children?: React.ReactNode;
-};
-
-const Panels = ({ children }: PanelsProps) => (
-  <div className=" relative">{children}</div>
+const Panels = ({ children, className }: Props) => (
+  <div className={mergeClassnames('relative', className)}>{children}</div>
 );
 
-type PanelProps = {
-  id: string;
-  className?: string;
-  children?: React.ReactNode;
-};
-
-const Panel = ({ children, id }: PanelProps) => (
+const Panel = ({ children, id, className }: PanelProps) => (
   <div
     id={id}
-    className=" absolute w-full p-5  [&:not(:target)]:hidden target:block"
+    className={mergeClassnames(
+      'absolute w-full p-5 [&:not(:target)]:hidden target:block',
+      className
+    )}
   >
     {children}
   </div>

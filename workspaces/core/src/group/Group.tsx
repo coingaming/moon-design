@@ -78,10 +78,15 @@ const FirstInput = forwardRef<HTMLInputElement, InputProps>(
         size={size}
         placeholder="Placeholder"
         className={mergeClassnames(
-          '[&_+_.last-element:before]:hover:opacity-0 [&_+_.last-element:before]:focus:opacity-0',
-          isVertical && 'rounded-b-none input-bbb-hidden',
+          '[&:not(:read-only):not(:disabled)_+_.last-element:before]:hover:opacity-0',
+          '[&:not(:read-only):not(:disabled)_+_.last-element:before]:focus:opacity-0',
+          error && '[&_+_.last-element:before]:opacity-0',
+          isVertical &&
+            'rounded-b-none read-only:hover:input-bbb-clip-path read-only:focus:input-bbb-clip-path',
+          isVertical && !error && 'input-bbb-hidden',
           isHorizontal &&
-            'rounded-e-none rtl:input-lsb-hidden ltr:input-rsb-hidden flex-1 basis-1/2',
+            'rounded-e-none flex-1 basis-1/2 rtl:read-only:hover:input-lsb-clip-path ltr:read-only:hover:input-rsb-clip-path rtl:read-only:focus:input-lsb-clip-path ltr:read-only:focus:input-rsb-clip-path',
+          isHorizontal && !error && 'rtl:input-lsb-hidden ltr:input-rsb-hidden',
           className && className
         )}
         ref={ref}
@@ -117,10 +122,10 @@ const LastInput = forwardRef<HTMLInputElement, InputProps>(
     return (
       <div
         className={mergeClassnames(
-          'relative last-element before:absolute before:block before:bg-beerus hover:before:hidden before:transition-opacity',
+          'relative last-element before:absolute before:block before:bg-beerus  before:transition-opacity',
           isVertical && 'before:h-px before:top-0 before:inset-x-0',
           isHorizontal && 'before:w-px before:start-0 before:inset-y-0',
-          error && 'before:bg-chichi'
+          error && 'before:opacity-0'
         )}
       >
         <Input
@@ -129,9 +134,12 @@ const LastInput = forwardRef<HTMLInputElement, InputProps>(
           readOnly={readOnly}
           size={size}
           className={mergeClassnames(
-            isVertical && 'rounded-t-none input-tbb-hidden',
+            isVertical && 'rounded-t-none',
+            isVertical && !error && 'input-tbb-hidden',
+            isHorizontal && 'rounded-s-none flex-1 basis-1/2',
             isHorizontal &&
-              'rounded-s-none rtl:input-rsb-hidden ltr:input-lsb-hidden flex-1 basis-1/2',
+              !error &&
+              'rtl:input-rsb-hidden ltr:input-lsb-hidden',
             className && className
           )}
           ref={ref}
@@ -174,13 +182,17 @@ const FirstInsetInputRoot = forwardRef<
         disabled={disabled}
         readOnly={readOnly}
         className={mergeClassnames(
-          '[&_+_.last-element:before]:hover:opacity-0',
+          '[&:has(input:not(:disabled):not(:read-only):hover)_+_.last-element:before]:opacity-0',
+          '[&:has(input:not(:disabled):not(:read-only):focus)_+_.last-element:before]:opacity-0',
+          error && '[&_+_.last-element:before]:opacity-0',
           isVertical &&
-            !error &&
-            '[&_input]:rounded-b-none [&_input]:input-bbb-hidden',
+            '[&_input]:rounded-b-none [&_input:read-only:hover]:input-bbb-clip-path [&_input:read-only:focus]:input-bbb-clip-path',
+          isVertical && !error && '[&_input]:input-bbb-hidden',
+          isHorizontal &&
+            'flex-1 basis-1/2 [&_input]:rounded-e-none rtl:[&_input:read-only:hover]:input-lsb-clip-path rtl:[&_input:read-only:focus]:input-lsb-clip-path ltr:[&_input:read-only:hover]:input-rsb-clip-path ltr:[&_input:read-only:focus]:input-rsb-clip-path',
           isHorizontal &&
             !error &&
-            '[&_input]:rounded-e-none rtl:[&_input]:input-lsb-hidden ltr:[&_input]:input-rsb-hidden flex-1 basis-1/2',
+            'rtl:[&_input]:input-lsb-hidden ltr:[&_input]:input-rsb-hidden',
           className && className
         )}
         ref={ref}
@@ -224,13 +236,16 @@ const LastInsetInputRoot = forwardRef<
         disabled={disabled}
         readOnly={readOnly}
         className={mergeClassnames(
-          'last-element before:absolute before:block before:bg-beerus hover:before:hidden before:transition-opacity',
+          'last-element before:absolute before:block before:bg-beerus before:transition-opacity',
           isVertical &&
             !error &&
-            '[&_input]:rounded-t-none [&_input]:input-tbb-hidden before:h-px before:top-0 before:inset-x-0',
+            ' [&_input]:input-tbb-hidden before:h-px before:top-0 before:inset-x-0',
+          isVertical && '[&_input]:rounded-t-none',
           isHorizontal &&
             !error &&
-            '[&_input]:rounded-s-none rtl:[&_input]:input-rsb-hidden ltr:[&_input]:input-lsb-hidden flex-1 basis-1/2 before:w-px before:start-0 before:inset-y-0',
+            ' rtl:[&_input]:input-rsb-hidden ltr:[&_input]:input-lsb-hidden',
+          isHorizontal &&
+            '[&_input]:rounded-s-none flex-1 basis-1/2 before:w-px before:start-0 before:inset-y-0',
           className && className
         )}
         ref={ref}
@@ -280,13 +295,17 @@ const FirstSelect = forwardRef<
         readOnly={readOnly}
         size={size}
         className={mergeClassnames(
-          '[&_+_.last-element:before]:hover:opacity-0',
+          '[&:has(select:not(:disabled):hover)_+_.last-element:before]:opacity-0',
+          '[&:has(select:not(:disabled):focus)_+_.last-element:before]:opacity-0',
+          error && '[&_+_.last-element:before]:opacity-0',
           isVertical &&
-            !error &&
-            '[&_select]:rounded-b-none [&_select]:input-bbb-hidden before:h-px',
+            '[&_select]:!rounded-b-none [&_select:disabled:hover]:input-bbb-clip-path [&_select:disabled:focus]:input-bbb-clip-path',
+          isVertical && !error && '[&_select]:!input-bbb-hidden before:h-px',
+          isHorizontal &&
+            '[&_select]:!rounded-e-none flex-1 basis-1/2 rtl:[&_select:disabled:hover]:input-lsb-clip-path rtl:[&_select:disabled:focus]:input-lsb-clip-path ltr:[&_select:disabled:hover]:input-rsb-clip-path ltr:[&_select:disabled:focus]:input-rsb-clip-path',
           isHorizontal &&
             !error &&
-            '[&_select]:rounded-e-none rtl:[&_select]:input-lsb-hidden ltr:[&_select]:input-rsb-hidden flex-1 basis-1/2',
+            'rtl:[&_select]:input-lsb-hidden ltr:[&_select]:input-rsb-hidden ',
           className && className
         )}
         ref={ref}
@@ -332,13 +351,15 @@ const LastSelect = forwardRef<
         readOnly={readOnly}
         size={size}
         className={mergeClassnames(
-          'last-element before:absolute before:block before:bg-beerus hover:before:hidden before:transition-opacity',
+          'last-element before:absolute before:block before:bg-beerus before:transition-opacity',
           isVertical &&
-            !error &&
-            '[&_select]:rounded-t-none [&_select]:input-tbb-hidden before:h-px before:top-0 before:inset-x-0',
+            '[&_select]:!rounded-t-none before:h-px before:top-0 before:inset-x-0',
+          isVertical && !error && '[&_select]:input-tbb-hidden',
+          isHorizontal &&
+            '[&_select]:!rounded-s-none flex-1 basis-1/2 before:w-px before:start-0 before:inset-y-0',
           isHorizontal &&
             !error &&
-            '[&_select]:rounded-s-none rtl:[&_select]:input-rsb-hidden ltr:[&_select]:input-lsb-hidden flex-1 basis-1/2 before:w-px before:start-0 before:inset-y-0',
+            'rtl:[&_select]:input-rsb-hidden ltr:[&_select]:input-lsb-hidden',
           className && className
         )}
         ref={ref}
@@ -382,13 +403,17 @@ const FirstInsetSelect = forwardRef<
         disabled={disabled}
         readOnly={readOnly}
         className={mergeClassnames(
-          '[&_+_.last-element:before]:hover:opacity-0',
+          '[&:has(select:not(:disabled):hover)_+_.last-element:before]:opacity-0',
+          '[&:has(select:not(:disabled):focus)_+_.last-element:before]:opacity-0',
+          error && '[&_+_.last-element:before]:opacity-0',
           isVertical &&
-            !error &&
-            '[&_select]:rounded-b-none [&_select]:input-bbb-hidden',
+            '[&_select]:!rounded-b-none [&_select:disabled:hover]:input-bbb-clip-path [&_select:disabled:focus]:input-bbb-clip-path',
+          isVertical && !error && '[&_select]:!input-bbb-hidden',
+          isHorizontal &&
+            '[&_select]:!rounded-e-none flex-1 basis-1/2 rtl:[&_select:disabled:hover]:input-lsb-clip-path rtl:[&_select:disabled:focus]:input-lsb-clip-path ltr:[&_select:disabled:hover]:input-rsb-clip-path ltr:[&_select:disabled:focus]:input-rsb-clip-path',
           isHorizontal &&
             !error &&
-            '[&_select]:rounded-e-none rtl:[&_select]:input-lsb-hidden ltr:[&_select]:input-rsb-hidden flex-1 basis-1/2',
+            ' rtl:[&_select]:input-lsb-hidden ltr:[&_select]:input-rsb-hidden ',
           className && className
         )}
         ref={ref}
@@ -432,13 +457,15 @@ const LastInsetSelect = forwardRef<
         disabled={disabled}
         readOnly={readOnly}
         className={mergeClassnames(
-          'last-element before:absolute before:block before:bg-beerus hover:before:hidden before:transition-opacity',
+          'last-element before:absolute before:block before:bg-beerus before:transition-opacity',
           isVertical &&
-            !error &&
-            '[&_select]:rounded-t-none [&_select]:input-tbb-hidden before:h-px before:top-0 before:inset-x-0',
+            '[&_select]:!rounded-t-none before:h-px before:top-0 before:inset-x-0',
+          isVertical && !error && '[&_select]:input-tbb-hidden',
+          isHorizontal &&
+            '[&_select]:!rounded-s-none flex-1 basis-1/2 before:w-px before:start-0 before:inset-y-0',
           isHorizontal &&
             !error &&
-            '[&_select]:rounded-s-none rtl:[&_select]:input-rsb-hidden ltr:[&_select]:input-lsb-hidden flex-1 basis-1/2 before:w-px before:start-0 before:inset-y-0',
+            'rtl:[&_select]:input-rsb-hidden ltr:[&_select]:input-lsb-hidden',
           className && className
         )}
         ref={ref}

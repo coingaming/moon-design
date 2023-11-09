@@ -9,7 +9,7 @@ const Example = () => {
   return (
     <div className="flex items-center flex-col">
       <AuthCode onChange={handleOnChange} />
-      <Hint className="!ps-0">Hint message</Hint>
+      <Hint>Hint message</Hint>
     </div>
   );
 };

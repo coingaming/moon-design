@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Dropdown, MenuItem } from '@heathmont/moon-core-tw';
+import { GenericInfo } from '@heathmont/moon-icons-tw';
 
 type People = {
   name: string;
@@ -38,7 +39,10 @@ const Example = () => {
                 </Dropdown.Option>
               ))}
             </Dropdown.Options>
-            <Dropdown.Hint>Informative message holder</Dropdown.Hint>
+            <Dropdown.Hint>
+              <GenericInfo />
+              Informative message holder
+            </Dropdown.Hint>
           </>
         )}
       </Dropdown>
@@ -85,6 +89,7 @@ const Example = () => {
                 </Dropdown.Option>
               ))}
             </Dropdown.Options>
+            <Dropdown.Hint>Informative message holder</Dropdown.Hint>
           </>
         )}
       </Dropdown>

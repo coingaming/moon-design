@@ -22,13 +22,13 @@ Object {
                 placeholder="Placeholder"
               />
               <label
-                class="absolute text-moon-12 top-3 z-[2] transition-all ease-in-out duration-200 start-4 text-piccolo"
+                class="absolute text-moon-12 top-3 z-[1] transition-all ease-in-out duration-200 start-4 text-piccolo"
               >
                 Label
               </label>
             </div>
             <p
-              class="inline-block mt-2 ps-4 text-moon-12 text-piccolo"
+              class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-piccolo"
               role="alert"
             >
               Informative message holder
@@ -56,13 +56,13 @@ Object {
               placeholder="Placeholder"
             />
             <label
-              class="absolute text-moon-12 top-3 z-[2] transition-all ease-in-out duration-200 start-4 text-piccolo"
+              class="absolute text-moon-12 top-3 z-[1] transition-all ease-in-out duration-200 start-4 text-piccolo"
             >
               Label
             </label>
           </div>
           <p
-            class="inline-block mt-2 ps-4 text-moon-12 text-piccolo"
+            class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-piccolo"
             role="alert"
           >
             Informative message holder
@@ -142,7 +142,7 @@ Object {
             placeholder="Placeholder"
           />
           <label
-            class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+            class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
           >
             Label
           </label>
@@ -163,7 +163,7 @@ Object {
           placeholder="Placeholder"
         />
         <label
-          class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+          class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
         >
           Label
         </label>
@@ -247,13 +247,13 @@ Object {
                 placeholder="Placeholder"
               />
               <label
-                class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+                class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
               >
                 Label
               </label>
             </div>
             <p
-              class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-60 cursor-not-allowed"
+              class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-trunks opacity-60 cursor-not-allowed"
               role="alert"
             >
               Informative message holder
@@ -270,16 +270,30 @@ Object {
                 placeholder="Placeholder"
               />
               <label
-                class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+                class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
               >
                 Label
               </label>
             </div>
             <p
-              class="inline-block mt-2 ps-4 text-moon-12 text-chichi"
+              class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-chichi"
               role="alert"
             >
-              Error message
+              <svg
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16 21.2778V14.9444M16 12.3056V10.7222M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              Informative message holder
             </p>
           </div>
           <div
@@ -295,13 +309,13 @@ Object {
                 value="Read only text"
               />
               <label
-                class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+                class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
               >
                 Label
               </label>
             </div>
             <p
-              class="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+              class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-trunks"
               role="alert"
             >
               Informative message holder
@@ -330,13 +344,13 @@ Object {
               placeholder="Placeholder"
             />
             <label
-              class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+              class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
             >
               Label
             </label>
           </div>
           <p
-            class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-60 cursor-not-allowed"
+            class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-trunks opacity-60 cursor-not-allowed"
             role="alert"
           >
             Informative message holder
@@ -353,16 +367,30 @@ Object {
               placeholder="Placeholder"
             />
             <label
-              class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+              class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
             >
               Label
             </label>
           </div>
           <p
-            class="inline-block mt-2 ps-4 text-moon-12 text-chichi"
+            class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-chichi"
             role="alert"
           >
-            Error message
+            <svg
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16 21.2778V14.9444M16 12.3056V10.7222M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            Informative message holder
           </p>
         </div>
         <div
@@ -378,13 +406,13 @@ Object {
               value="Read only text"
             />
             <label
-              class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+              class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
             >
               Label
             </label>
           </div>
           <p
-            class="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+            class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-trunks"
             role="alert"
           >
             Informative message holder
@@ -467,7 +495,7 @@ Object {
               type="number"
             />
             <label
-              class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+              class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
             >
               Number
             </label>
@@ -482,7 +510,7 @@ Object {
               type="date"
             />
             <label
-              class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+              class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
             >
               Date
             </label>
@@ -496,7 +524,7 @@ Object {
               type="time"
             />
             <label
-              class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+              class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
             >
               Time
             </label>
@@ -515,7 +543,7 @@ Object {
               type="datetime-local"
             />
             <label
-              class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+              class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
             >
               Datetime local
             </label>
@@ -529,7 +557,7 @@ Object {
               type="email"
             />
             <label
-              class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+              class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
             >
               Email
             </label>
@@ -543,7 +571,7 @@ Object {
               type="password"
             />
             <label
-              class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+              class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
             >
               Password
             </label>
@@ -561,7 +589,7 @@ Object {
               type="search"
             />
             <label
-              class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+              class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
             >
               Search
             </label>
@@ -575,7 +603,7 @@ Object {
               type="tel"
             />
             <label
-              class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+              class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
             >
               Tel
             </label>
@@ -589,7 +617,7 @@ Object {
               type="url"
             />
             <label
-              class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+              class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
             >
               Url
             </label>
@@ -614,7 +642,7 @@ Object {
             type="number"
           />
           <label
-            class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+            class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
           >
             Number
           </label>
@@ -629,7 +657,7 @@ Object {
             type="date"
           />
           <label
-            class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+            class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
           >
             Date
           </label>
@@ -643,7 +671,7 @@ Object {
             type="time"
           />
           <label
-            class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+            class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
           >
             Time
           </label>
@@ -662,7 +690,7 @@ Object {
             type="datetime-local"
           />
           <label
-            class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+            class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
           >
             Datetime local
           </label>
@@ -676,7 +704,7 @@ Object {
             type="email"
           />
           <label
-            class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+            class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
           >
             Email
           </label>
@@ -690,7 +718,7 @@ Object {
             type="password"
           />
           <label
-            class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+            class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
           >
             Password
           </label>
@@ -708,7 +736,7 @@ Object {
             type="search"
           />
           <label
-            class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+            class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
           >
             Search
           </label>
@@ -722,7 +750,7 @@ Object {
             type="tel"
           />
           <label
-            class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+            class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
           >
             Tel
           </label>
@@ -736,7 +764,7 @@ Object {
             type="url"
           />
           <label
-            class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+            class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
           >
             Url
           </label>
@@ -817,13 +845,13 @@ Object {
               placeholder="Placeholder"
             />
             <label
-              class="absolute text-moon-12 top-3 z-[2] transition-all ease-in-out duration-200 start-4 text-piccolo"
+              class="absolute text-moon-12 top-3 z-[1] transition-all ease-in-out duration-200 start-4 text-piccolo"
             >
               Label
             </label>
           </div>
           <p
-            class="inline-block mt-2 ps-4 text-moon-12 text-piccolo"
+            class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-piccolo"
             role="alert"
           >
             Informative message holder
@@ -847,13 +875,13 @@ Object {
             placeholder="Placeholder"
           />
           <label
-            class="absolute text-moon-12 top-3 z-[2] transition-all ease-in-out duration-200 start-4 text-piccolo"
+            class="absolute text-moon-12 top-3 z-[1] transition-all ease-in-out duration-200 start-4 text-piccolo"
           >
             Label
           </label>
         </div>
         <p
-          class="inline-block mt-2 ps-4 text-moon-12 text-piccolo"
+          class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-piccolo"
           role="alert"
         >
           Informative message holder
@@ -929,7 +957,7 @@ Object {
           placeholder="Placeholder"
         />
         <label
-          class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+          class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
         >
           Label
         </label>
@@ -946,7 +974,7 @@ Object {
         placeholder="Placeholder"
       />
       <label
-        class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+        class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
       >
         Label
       </label>
@@ -1026,13 +1054,13 @@ Object {
               placeholder="Placeholder"
             />
             <label
-              class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+              class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
             >
               Label
             </label>
           </div>
           <p
-            class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-60 cursor-not-allowed"
+            class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-trunks opacity-60 cursor-not-allowed"
             role="alert"
           >
             Informative message holder
@@ -1049,16 +1077,30 @@ Object {
               placeholder="Placeholder"
             />
             <label
-              class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+              class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
             >
               Label
             </label>
           </div>
           <p
-            class="inline-block mt-2 ps-4 text-moon-12 text-chichi"
+            class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-chichi"
             role="alert"
           >
-            Error message
+            <svg
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16 21.2778V14.9444M16 12.3056V10.7222M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            Informative message holder
           </p>
         </div>
         <div
@@ -1074,13 +1116,13 @@ Object {
               value="Read only text"
             />
             <label
-              class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+              class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
             >
               Label
             </label>
           </div>
           <p
-            class="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+            class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-trunks"
             role="alert"
           >
             Informative message holder
@@ -1105,13 +1147,13 @@ Object {
             placeholder="Placeholder"
           />
           <label
-            class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+            class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
           >
             Label
           </label>
         </div>
         <p
-          class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-60 cursor-not-allowed"
+          class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-trunks opacity-60 cursor-not-allowed"
           role="alert"
         >
           Informative message holder
@@ -1128,16 +1170,30 @@ Object {
             placeholder="Placeholder"
           />
           <label
-            class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+            class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
           >
             Label
           </label>
         </div>
         <p
-          class="inline-block mt-2 ps-4 text-moon-12 text-chichi"
+          class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-chichi"
           role="alert"
         >
-          Error message
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16 21.2778V14.9444M16 12.3056V10.7222M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          Informative message holder
         </p>
       </div>
       <div
@@ -1153,13 +1209,13 @@ Object {
             value="Read only text"
           />
           <label
-            class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+            class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
           >
             Label
           </label>
         </div>
         <p
-          class="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+          class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-trunks"
           role="alert"
         >
           Informative message holder
@@ -1238,7 +1294,7 @@ Object {
             type="number"
           />
           <label
-            class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+            class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
           >
             Number
           </label>
@@ -1253,7 +1309,7 @@ Object {
             type="date"
           />
           <label
-            class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+            class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
           >
             Date
           </label>
@@ -1267,7 +1323,7 @@ Object {
             type="time"
           />
           <label
-            class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+            class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
           >
             Time
           </label>
@@ -1286,7 +1342,7 @@ Object {
             type="datetime-local"
           />
           <label
-            class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+            class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
           >
             Datetime local
           </label>
@@ -1300,7 +1356,7 @@ Object {
             type="email"
           />
           <label
-            class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+            class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
           >
             Email
           </label>
@@ -1314,7 +1370,7 @@ Object {
             type="password"
           />
           <label
-            class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+            class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
           >
             Password
           </label>
@@ -1332,7 +1388,7 @@ Object {
             type="search"
           />
           <label
-            class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+            class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
           >
             Search
           </label>
@@ -1346,7 +1402,7 @@ Object {
             type="tel"
           />
           <label
-            class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+            class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
           >
             Tel
           </label>
@@ -1360,7 +1416,7 @@ Object {
             type="url"
           />
           <label
-            class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+            class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
           >
             Url
           </label>
@@ -1381,7 +1437,7 @@ Object {
           type="number"
         />
         <label
-          class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+          class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
         >
           Number
         </label>
@@ -1396,7 +1452,7 @@ Object {
           type="date"
         />
         <label
-          class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+          class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
         >
           Date
         </label>
@@ -1410,7 +1466,7 @@ Object {
           type="time"
         />
         <label
-          class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+          class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
         >
           Time
         </label>
@@ -1429,7 +1485,7 @@ Object {
           type="datetime-local"
         />
         <label
-          class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+          class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
         >
           Datetime local
         </label>
@@ -1443,7 +1499,7 @@ Object {
           type="email"
         />
         <label
-          class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+          class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
         >
           Email
         </label>
@@ -1457,7 +1513,7 @@ Object {
           type="password"
         />
         <label
-          class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+          class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
         >
           Password
         </label>
@@ -1475,7 +1531,7 @@ Object {
           type="search"
         />
         <label
-          class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+          class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
         >
           Search
         </label>
@@ -1489,7 +1545,7 @@ Object {
           type="tel"
         />
         <label
-          class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+          class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
         >
           Tel
         </label>
@@ -1503,7 +1559,7 @@ Object {
           type="url"
         />
         <label
-          class="absolute text-moon-12 text-trunks top-3 z-[2] transition-all ease-in-out duration-200 start-4"
+          class="absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 start-4"
         >
           Url
         </label>

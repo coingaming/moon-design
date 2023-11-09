@@ -9,6 +9,7 @@ import Position from '../Position';
 import TriggerElements from '../TriggerElements';
 import WithClose from '../WithClose';
 import TooltipView from '../TooltipView';
+import TooltipViewOpen from '../TooltipViewOpen';
 
 const withRtl = (component: JSX.Element) => <div dir="rtl">{component}</div>;
 
@@ -39,6 +40,10 @@ describe('Popover', () => {
     await act(() => fireEvent.click(tree.getAllByRole('button')[0]));
     expect(tree).toMatchSnapshot();
   });
+  it('renders TooltipViewOpen', async () => {
+    const tree = render(<TooltipViewOpen />);
+    expect(tree).toMatchSnapshot();
+  });
 });
 
 describe('Popover in RTL', () => {
@@ -66,6 +71,10 @@ describe('Popover in RTL', () => {
   it('renders TooltipView', async () => {
     const tree = render(withRtl(<TooltipView />));
     await act(() => fireEvent.click(tree.getAllByRole('button')[0]));
+    expect(tree).toMatchSnapshot();
+  });
+  it('renders TooltipViewOpen', async () => {
+    const tree = render(withRtl(<TooltipViewOpen />));
     expect(tree).toMatchSnapshot();
   });
 });

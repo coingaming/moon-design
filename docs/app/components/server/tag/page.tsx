@@ -1,24 +1,22 @@
-import { Default } from "@/app/components/server/tag/examples/Default";
-import { getExamples } from "@/app/utils/getExamples";
-import { MDX } from "@/components/MDX";
+import { Default } from '@/app/components/server/tag/examples/Default';
+import ExampleSection from '@/app/components/shared/exampleSection';
+import QuickNav from '@/app/components/shared/QuickNav';
+import { getExamples } from '@/app/utils/getExamples';
+import { MDX } from '@/components/MDX';
 
-export default async function Home() {
+export default async function Tag() {
   const { server } = await getExamples();
-
+  const examplesList = Object.keys(server.tag.examples);
   return (
-    <div className="flex flex-col gap-4 text-moon-14">
-      <h1>Tag</h1>
-
+    <div className="w-full max-w-3xl flex flex-col gap-12 text-moon-14">
+      <h1 className="font-medium text-moon-32">Tag</h1>
       <MDX markdown={server.tag.description} />
-
-      <div className="space-y-2">
-        <h2>Default</h2>
-        <div className={'flex flex-wrap items-center justify-around p-4 gap-2 w-full bg-goku rounded-moon-s-sm'}>
-          <Default />
-        </div>
-        <pre className="bg-goku rounded-moon-s-sm p-4">{server.tag.examples.Default}</pre>
-      </div>
+      <QuickNav items={examplesList} />
+      <ExampleSection
+        title="Default"
+        component={<Default />}
+        code={server.tag.examples.Default}
+      />
     </div>
-  )
+  );
 }
-
