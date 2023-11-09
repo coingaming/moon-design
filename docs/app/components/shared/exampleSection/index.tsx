@@ -1,7 +1,7 @@
 import { mergeClassnames } from '@heathmont/moon-base-tw';
 import CodePreview from './codePreview/CodePreview';
 import ComponentPreview from './ComponentPreview';
-import HeaderSection from './HeaderSection';
+import HeaderSection from '../HeaderSection';
 
 type Props = {
   title: string;
