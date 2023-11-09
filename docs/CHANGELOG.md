@@ -1,5 +1,16 @@
 # docs
 
+## 10.10.5
+
+### Patch Changes
+
+- Deploy 10.10.5
+- Updated dependencies
+  - @heathmont/moon-core-tw@10.10.5
+  - @heathmont/moon-base-tw@10.10.5
+  - @heathmont/moon-cmdk-tw@10.10.5
+  - @heathmont/moon-themes-tw@10.10.5
+
 ## 10.10.4
 
 ### Patch Changes
