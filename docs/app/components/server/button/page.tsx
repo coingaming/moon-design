@@ -16,7 +16,7 @@ export default async function Button() {
   const { server } = await getExamples();
   const examplesList = Object.keys(server.button.examples);
   return (
-    <div className="w-full max-w-3xl flex flex-col gap-12 text-moon-14">
+    <div className="w-full max-w-3xl flex flex-col gap-12 text-moon-14 px-6 md:px-0">
       <h1 className="font-medium text-moon-32">Button</h1>
       <MDX markdown={server.button.description} />
       <QuickNav items={examplesList} />
@@ -67,61 +67,61 @@ export default async function Button() {
           {
             name: 'animation',
             type: "'progress' | 'success' | 'error' | 'pulse' | boolean",
-            default: '-',
+            defaultState: '-',
             description: 'Animation of button',
           },
           {
             name: 'as',
             type: 'a | button',
-            default: 'button',
+            defaultState: 'button',
             description: 'Rendered HTML element',
           },
           {
             name: 'children',
             type: 'React.ReactNode',
-            default: '-',
+            defaultState: '-',
             description: 'Children content',
           },
           {
             name: 'className',
             type: 'string',
-            default: '-',
+            defaultState: '-',
             description: 'Tailwind classes for customization',
           },
           {
             name: 'disabled',
             type: 'boolean',
-            default: 'false',
+            defaultState: 'false',
             description: 'Disabled button',
           },
           {
             name: 'fullWidth',
             type: 'boolean',
-            default: 'false',
+            defaultState: 'false',
             description: 'Full width button',
           },
           {
             name: 'iconLeft',
             type: 'JSX.Element',
-            default: '-',
+            defaultState: '-',
             description: 'Left icon',
           },
           {
             name: 'iconRight',
             type: 'JSX.Element',
-            default: '-',
+            defaultState: '-',
             description: 'Right icon',
           },
           {
             name: 'size',
             type: 'xs | sm | md | lg | xl',
-            default: 'md',
+            defaultState: 'md',
             description: 'Size of button',
           },
           {
             name: 'variant',
             type: 'fill | outline | ghost',
-            default: 'fill',
+            defaultState: 'fill',
             description: 'Visual/Logical variant of button',
           },
         ]}
