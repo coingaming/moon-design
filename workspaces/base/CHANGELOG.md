@@ -1,5 +1,11 @@
 # @heathmont/moon-base-tw
 
+## 10.10.6
+
+### Patch Changes
+
+- Deploy 10.10.6
+
 ## 10.10.5
 
 ### Patch Changes
