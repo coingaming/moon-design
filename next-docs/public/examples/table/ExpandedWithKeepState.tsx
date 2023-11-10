@@ -2,7 +2,7 @@ import React, { ReactNode, useEffect, useState } from 'react';
 import { Table } from '@heathmont/moon-table-tw';
 import { Button, Chip, Modal, Tooltip } from '@heathmont/moon-core-tw';
 import { ControlsChevronDown, ControlsChevronRight, OtherFrame } from '@heathmont/moon-icons-tw';
-import KeptStateProps from '@heathmont/moon-table-tw/lib/private/types/KeptStateProps';
+import KeepStateProps from '@heathmont/moon-table-tw/lib/private/types/KeepStateProps';
 
 interface HeaderProps {
   rowsById: { [key: string]: { id: string, canExpand: boolean } },
@@ -127,7 +127,7 @@ const Example = () => {
   const [expandedRows, setExpandedRows] = useState<{[key: string]: boolean}[] | undefined>();
   const [allExpandableRowSet, setAllExpandableRowSet] = useState<{[key: string]: boolean}[] | undefined>();
   const [allRowsExpandedState, setAllRowsExpandedState] = useState(false);
-  const [keptState, setKeptState] = useState<KeptStateProps>({});
+  const [keepState, setKeepState] = useState<KeepStateProps>({});
   const closeModal = () => {
     setIsOpen(false);
     storeTableState(PREFIX, { expandedRows: expandedRows });
@@ -185,7 +185,7 @@ const Example = () => {
       const states = JSON.parse(storedData);
       if (states.expandedRows) {
         setExpandedRows(states.expandedRows);
-        setKeptState({expandedRows: states.expandedRows});
+        setKeepState({expandedRows: states.expandedRows});
       }
     } catch (e) {
     } finally {
@@ -293,7 +293,7 @@ const Example = () => {
         defaultColumn={defaultColumn}
         width={800}
         height={400}
-        keptState={keptState}
+        keepState={keepState}
         /* expandedByDefault={true} */
       />
       <Modal open={isOpen} onClose={closeModal}>
