@@ -56,7 +56,7 @@ const Table = ({
   selectable,
   useCheckbox,
   textClip,
-  keptStates,
+  keptState,
   renderRowSubComponent,
   getOnRowClickHandler,
   getOnRowSelect,
@@ -109,7 +109,7 @@ const Table = ({
   let updateRowSelectState: (() => React.Dispatch<React.SetStateAction<{ [key: string]: boolean }>>) | undefined = undefined;
 
   useEffect(() => {
-    const preExpandedState = keptStates?.expandedRows;
+    const preExpandedState = keptState?.expandedRows;
     if (preExpandedState) {
       /** TODO: possibly it`s need to MUTE the expandedByDefault variable
        * instead of direct data setting.
@@ -129,7 +129,7 @@ const Table = ({
       if (expandedByDefault === undefined || !data || !data.length) return;
       toggleAllRowsExpanded(expandedByDefault);
     }
-  }, [keptStates, expandedByDefault, data, toggleRowExpanded, toggleAllRowsExpanded]);
+  }, [keptState, expandedByDefault, data, toggleRowExpanded, toggleAllRowsExpanded]);
   useEffect(() => {
     if (onRowSelectHandler) onRowSelectHandler(selectedRows);
   }, [selectedRows]);

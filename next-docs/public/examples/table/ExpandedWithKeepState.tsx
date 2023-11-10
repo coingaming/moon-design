@@ -1,8 +1,7 @@
-import React, { ReactNode, useEffect, useMemo, useState } from 'react';
-import { useRouter } from 'next/router';
+import React, { ReactNode, useEffect, useState } from 'react';
 import { Table } from '@heathmont/moon-table-tw';
 import { Button, Chip, Modal, Tooltip } from '@heathmont/moon-core-tw';
-import { ArrowsRefreshRound, ControlsChevronDown, ControlsChevronRight } from '@heathmont/moon-icons-tw';
+import { ControlsChevronDown, ControlsChevronRight, OtherFrame } from '@heathmont/moon-icons-tw';
 import KeptStateProps from '@heathmont/moon-table-tw/lib/private/types/KeptStateProps';
 
 interface HeaderProps {
@@ -34,14 +33,13 @@ const Example = () => {
               setAllExpandableRowSet(
                 Object.values(rowsById)
                 .filter(({ canExpand }) => canExpand)
-                .map(({ id }) => ({[id]: true}))
-            )}, []);
-            setAllRowsExpandedState(isAllRowsExpanded);
+                .map(({ id }) => ({[id]: isAllRowsExpanded}))
+            )}, [rowsById, isAllRowsExpanded]);
             return (
               <div
                 className="flex h-full items-center"
                 onClick={(e) => {
-                  (e.target as HTMLElement).closest('span') !== null && toggleAllRowsExpandedState(isAllRowsExpanded)
+                  (e.target as HTMLElement).closest('span') !== null && toggleAllRowsExpandedState(allRowsExpandedState)
                 }}
               >
                 <span {...getToggleAllRowsExpandedProps()}>
@@ -51,24 +49,24 @@ const Example = () => {
             )
           },
           Cell: ({ row }: any) =>
-            <div
-              className="flex h-full items-center"
-              onClick={(e) => {
-                (e.target as HTMLElement).closest('span') !== null && toggleRowExpandedState(row)
-              }}
-            >
-              {row.canExpand ? (
-                <span
-                  {...row.getToggleRowExpandedProps({
-                    style: {
-                      paddingLeft: `${row.depth * 2}rem`,
-                    },
-                  })}
-                >
-                  {row.isExpanded ? <ControlsChevronDown /> : <ControlsChevronRight />}
-                </span>
-              ) : null}
-            </div>
+          <div
+            className="flex h-full items-center"
+            onClick={(e) => {
+              (e.target as HTMLElement).closest('span') !== null && toggleRowExpandedState(row)
+            }}
+          >
+            {row.canExpand ? (
+              <span
+                {...row.getToggleRowExpandedProps({
+                  style: {
+                    paddingLeft: `${row.depth * 2}rem`,
+                  },
+                })}
+              >
+                {row.isExpanded ? <ControlsChevronDown /> : <ControlsChevronRight />}
+              </span>
+            ) : null}
+          </div>
         },
       ],
     },
@@ -123,37 +121,34 @@ const Example = () => {
     },
   ];
 
-  const router = useRouter();
-
   const [isOpen, setIsOpen] = useState(false);
   const [title, setTitle] = useState('');
   const [panel, setPanel] = useState<ReactNode>();
-  const [expandedRows, setExpandedRows] = useState<{[key: string]: boolean}[]>([]);
-  const [allExpandableRowSet, setAllExpandableRowSet] = useState<{[key: string]: boolean}[]>([]);
+  const [expandedRows, setExpandedRows] = useState<{[key: string]: boolean}[] | undefined>();
+  const [allExpandableRowSet, setAllExpandableRowSet] = useState<{[key: string]: boolean}[] | undefined>();
   const [allRowsExpandedState, setAllRowsExpandedState] = useState(false);
-  const [keptStates, setKeptStates] = useState<KeptStateProps>({});
+  const [keptState, setKeptState] = useState<KeptStateProps>({});
   const closeModal = () => {
     setIsOpen(false);
-    storeTableState(PREFIX, { expandedRows: allRowsExpandedState ? allExpandableRowSet : expandedRows });
-    router.reload();
+    storeTableState(PREFIX, { expandedRows: expandedRows });
+    document.location.reload();
   };
   const openModal = () => setIsOpen(true);
 
   const toggleRowExpandedState = (
-  {
-    id,
-    canExpand,
-    isExpanded,
-  }: { id: string, canExpand: boolean, isExpanded: boolean }
+    {
+      id,
+      canExpand,
+      isExpanded,
+    }: { id: string, canExpand: boolean, isExpanded: boolean }
   ) => {
     if (canExpand) {
       setExpandedRows((er) => {
-        const expanded = isExpanded ? er.filter(item => !item[id]) : [...er, {[id]: true}];
-        setAllExpandableRowSet((ers) => {
-          setAllRowsExpandedState(ers.length === expanded.length);
-          return ers;
-        });
-        return expanded;
+        return isExpanded
+          ? er?.filter(item => !item[id])
+          : er
+            ? [...er, {[id]: true}]
+            : [{[id]: true}];
       });
     }
   };
@@ -165,13 +160,12 @@ const Example = () => {
       if (allExpanded) {
         setExpandedRows([]);
       } else {
-        setExpandedRows(ers.map(item => item));
+        setExpandedRows(ers?.map(item => item));
       }
 
       return ers;
     });
   }
-
 
   /** This saves the table state into the LocalStorage */
   const storeTableState = (
@@ -191,7 +185,7 @@ const Example = () => {
       const states = JSON.parse(storedData);
       if (states.expandedRows) {
         setExpandedRows(states.expandedRows);
-        setKeptStates({expandedRows: states.expandedRows});
+        setKeptState({expandedRows: states.expandedRows});
       }
     } catch (e) {
     } finally {
@@ -200,7 +194,16 @@ const Example = () => {
   }
 
   useEffect(() => { restoreTableState(PREFIX) }, []);
-  useEffect(() => { console.log(allRowsExpandedState); }, [allRowsExpandedState]);
+  useEffect(() => {
+    allRowsExpandedState && setExpandedRows(allExpandableRowSet?.map(item => item))
+  }, [allRowsExpandedState]);
+
+  useEffect(() => {
+    if (allExpandableRowSet) {
+      expandedRows && setAllRowsExpandedState(allExpandableRowSet.length === expandedRows.length);
+      !expandedRows && setAllRowsExpandedState(allExpandableRowSet.every(row => Object.values(row)[0]));
+    }
+  }, [expandedRows, allExpandableRowSet]);
 
   const tooltip = (tip: string, modal: { title: string; panel: () => ReactNode }) => (
     <Tooltip>
@@ -208,11 +211,11 @@ const Example = () => {
         <Chip
           className='max-h-6'
           variant="ghost"
-          iconOnly={<ArrowsRefreshRound className="text-moon-24" />}
+          iconOnly={<OtherFrame className="text-moon-24" />}
           onClick={() => {
             setTitle(modal.title);
             setPanel(modal.panel);
-            router.push('/components/table', '/components/table#expandableKeepState');
+            document.location.assign('/components/table#expandableKeepState');
             openModal();
           }}
         />
@@ -290,8 +293,8 @@ const Example = () => {
         defaultColumn={defaultColumn}
         width={800}
         height={400}
-        keptStates={keptStates}
-        expandedByDefault={true}
+        keptState={keptState}
+        /* expandedByDefault={true} */
       />
       <Modal open={isOpen} onClose={closeModal}>
         <Modal.Backdrop />
@@ -305,7 +308,7 @@ const Example = () => {
             {panel}
           </div>
           <div className="p-4 border-t-2 border-beerus">
-            <Button onClick={closeModal}>Close and reload page</Button>
+            <Button onClick={closeModal}>Got it, thanks!</Button>
           </div>
         </Modal.Panel>
       </Modal>

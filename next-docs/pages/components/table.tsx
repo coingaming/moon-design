@@ -191,7 +191,7 @@ const PageTable = () => {
             description: 'Divider between cells',
           },
           {
-            name: 'keptStates',
+            name: 'keptState',
             type: '{ expandedRows: {[key: string]: boolean; }[] }',
             required: false,
             default: '-',
