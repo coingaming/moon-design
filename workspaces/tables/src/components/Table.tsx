@@ -111,8 +111,8 @@ const Table = ({
   useEffect(() => {
     const preExpandedState = keptState?.expandedRows;
     if (preExpandedState) {
-      /** TODO: possibly it`s need to MUTE the expandedByDefault variable
-       * instead of direct data setting.
+      /** TODO: Possibly, it needs to mute the expandedByDefault variable
+       * instead of directly setting the data.
        */
       expandedByDefault === undefined;
       const selectableRows = (rows as unknown[] as UseExpandedRowProps<{}>[])
