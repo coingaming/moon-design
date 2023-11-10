@@ -1,5 +1,6 @@
 import type { Column, Row } from 'react-table';
 import ClipProps from './ClipProps';
+import KeepStateProps from './KeepStateProps';
 import type RowGaps from './RowGaps';
 import type RowSizes from './RowSizes';
 import type RowSubComponentProps from './RowSubComponentProps';
@@ -30,6 +31,7 @@ type TableProps<D extends object = {}> = {
   selectable?: boolean;
   useCheckbox?: boolean;
   textClip?: ClipProps;
+  keepState?: KeepStateProps;
   renderRowSubComponent?: (props: RowSubComponentProps) => JSX.Element;
   getOnRowClickHandler?: (row: Row<D>) => (row: Row<D>) => void | (() => void);
   getOnRowSelect?: () => (rows: Row<D>[]) => void | (() => void);

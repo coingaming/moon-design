@@ -15,7 +15,7 @@ import Default from '../../public/examples/table/Default';
 import Editable from '../../public/examples/table/Editable';
 import ExpandableCheckboxes from '../../public/examples/table/ExpandableCheckboxes';
 import ExpandedRows from '../../public/examples/table/ExpandedRows';
-import ExpandedWithModals from '../../public/examples/table/ExpandedWithModals';
+import ExpandedWithKeepState from '../../public/examples/table/ExpandedWithKeepState';
 import LongData from '../../public/examples/table/LongData';
 import MiniMap from '../../public/examples/table/MiniMap';
 import RowGaps from '../../public/examples/table/RowGaps';
@@ -108,10 +108,11 @@ const PageTable = () => {
         preview={<DeepTable />}
         code={examples ? examples.DeepTable : 'Loading'}
       />
+      <div id="expandableKeepState"></div>
       <Preview
-        title="Expanded rows with calls the modal windows"
-        preview={<ExpandedWithModals />}
-        code={examples ? examples.ExpandedWithModals : 'Loading'}
+        title="Expanded rows with state keeping"
+        preview={<ExpandedWithKeepState />}
+        code={examples ? examples.ExpandedWithKeepState : 'Loading'}
       />
       <Preview
         title="Expanded selectable rows with checkboxes"
@@ -188,6 +189,13 @@ const PageTable = () => {
             required: false,
             default: 'false',
             description: 'Divider between cells',
+          },
+          {
+            name: 'keepState',
+            type: '{ expandedRows: {[key: string]: boolean; }[] }',
+            required: false,
+            default: '-',
+            description: 'A list of previously expanded rows to restore the state of the table after the page reloading',
           },
           {
             name: 'maxHeight',

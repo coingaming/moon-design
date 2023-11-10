@@ -56,6 +56,7 @@ const Table = ({
   selectable,
   useCheckbox,
   textClip,
+  keepState,
   renderRowSubComponent,
   getOnRowClickHandler,
   getOnRowSelect,
@@ -80,6 +81,7 @@ const Table = ({
     prepareRow,
     visibleColumns,
     toggleAllRowsExpanded,
+    toggleRowExpanded,
     rowSpanHeaders,
   } = useTable(
     {
@@ -91,6 +93,7 @@ const Table = ({
     ...plugins
   ) as TableInstance<object> & {
     toggleAllRowsExpanded: (isExpanded?: boolean) => void;
+    toggleRowExpanded: (rowId: string, isExpanded?: boolean) => void;
     rowSpanHeaders: RowSpanHeaderProps[];
   };
   const lastHeaderGroup = headerGroups[headerGroups.length - 1];
@@ -106,9 +109,27 @@ const Table = ({
   let updateRowSelectState: (() => React.Dispatch<React.SetStateAction<{ [key: string]: boolean }>>) | undefined = undefined;
 
   useEffect(() => {
-    if (expandedByDefault === undefined || !data || !data.length) return;
-    toggleAllRowsExpanded(expandedByDefault);
-  }, [expandedByDefault, data, toggleAllRowsExpanded]);
+    const preExpandedState = keepState?.expandedRows;
+    if (preExpandedState) {
+      /** TODO: Possibly, it needs to mute the expandedByDefault variable
+       * instead of directly setting the data.
+       */
+      expandedByDefault === undefined;
+      const selectableRows = (rows as unknown[] as UseExpandedRowProps<{}>[])
+        .filter(({ canExpand }) => canExpand);
+      if (selectableRows.length === preExpandedState.length) {
+        toggleAllRowsExpanded(true);
+      } else {
+        toggleAllRowsExpanded(false);
+        preExpandedState.forEach((record) => {
+          toggleRowExpanded(Object.keys(record)[0] as string, true)
+        });
+      }
+    } else {
+      if (expandedByDefault === undefined || !data || !data.length) return;
+      toggleAllRowsExpanded(expandedByDefault);
+    }
+  }, [keepState, expandedByDefault, data, toggleRowExpanded, toggleAllRowsExpanded]);
   useEffect(() => {
     if (onRowSelectHandler) onRowSelectHandler(selectedRows);
   }, [selectedRows]);
