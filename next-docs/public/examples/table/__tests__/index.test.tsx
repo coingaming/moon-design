@@ -14,6 +14,7 @@ import CustomColors from '../CustomColors';
 import ExpandableCheckboxes from '../ExpandableCheckboxes';
 import ExpandedRows from '../ExpandedRows';
 import ExpandedWithKeepState from '../ExpandedWithKeepState';
+import ExtraLongDataView from '../ExtraLongDataView';
 import Sorting from '../Sorting';
 import DeepTable from '../DeepTable';
 import CustomContent from '../CustomContent';
@@ -113,6 +114,11 @@ describe('Table', () => {
     const tree = render(<CustomColumnWidths />);
     expect(tree).toMatchSnapshot();
   });
+  /** Temporarily commented */
+  /* it('renders ExtraLongDataView', () => {
+    const tree = render(<ExtraLongDataView />);
+    expect(tree).toMatchSnapshot();
+  }); */
 });
 
 describe('Table in RTL', () => {
@@ -201,4 +207,9 @@ describe('Table in RTL', () => {
     const tree = render(withRtl(<CustomColumnWidths />));
     expect(tree).toMatchSnapshot();
   });
+  /** Temporarily commented */
+  /* it('renders ExtraLongDataView', () => {
+    const tree = render(withRtl(<ExtraLongDataView />));
+    expect(tree).toMatchSnapshot();
+  }); */
 });
