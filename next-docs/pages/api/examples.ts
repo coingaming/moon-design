@@ -1,8 +1,8 @@
 import fs from 'fs';
 import path from 'path';
+import DOMPurify from 'isomorphic-dompurify';
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import type { NextApiRequest, NextApiResponse } from 'next';
-import useFilteredRequestQuery, { filterAllowedSymbolsOnly, filterAlphaNumericOnly, filterSafePath } from '../../utils/useFilteredRequestQuery';
 
 type Data = {
   examples: Object;
@@ -60,7 +60,7 @@ export default async (req: NextApiRequest, res: NextApiResponse<Data>) => {
   const dirPath = path.resolve(
     './public',
     dirRelativeToPublicFolder,
-    useFilteredRequestQuery(component as string, filterAlphaNumericOnly)
+    DOMPurify.sanitize(component as string)
   );
 
   const examples = await getFilesFromDirectory(dirPath);
