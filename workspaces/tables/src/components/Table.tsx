@@ -80,6 +80,7 @@ const Table = ({
     rowsById,
     prepareRow,
     visibleColumns,
+    isAllRowsExpanded,
     toggleAllRowsExpanded,
     toggleRowExpanded,
     rowSpanHeaders,
@@ -92,6 +93,7 @@ const Table = ({
     } as TableOptions<object>,
     ...plugins
   ) as TableInstance<object> & {
+    isAllRowsExpanded: boolean;
     toggleAllRowsExpanded: (isExpanded?: boolean) => void;
     toggleRowExpanded: (rowId: string, isExpanded?: boolean) => void;
     rowSpanHeaders: RowSpanHeaderProps[];
@@ -115,15 +117,26 @@ const Table = ({
        * instead of directly setting the data.
        */
       expandedByDefault === undefined;
-      const selectableRows = (rows as unknown[] as UseExpandedRowProps<{}>[])
+      const selectableRows = (rows as unknown[] as (UseExpandedRowProps<{}> & {id: string})[])
         .filter(({ canExpand }) => canExpand);
       if (selectableRows.length === preExpandedState.length) {
         toggleAllRowsExpanded(true);
       } else {
-        toggleAllRowsExpanded(false);
-        preExpandedState.forEach((record) => {
-          toggleRowExpanded(Object.keys(record)[0] as string, true)
-        });
+        if (isAllRowsExpanded) {
+          /** All rows expanded by default. This collapses unselected rows then. */
+          const preExpandedSet = preExpandedState.reduce((acc, item) => {
+            acc[Object.keys(item)[0] as string] = true;
+            return acc;
+          }, {});
+          selectableRows.forEach(({ id }) => {
+            toggleRowExpanded(id, preExpandedSet[id] === true)
+          });
+        } else {
+          /** No rows expanded by default. This expands selected rows then. */
+          preExpandedState.forEach((record) => {
+            toggleRowExpanded(Object.keys(record)[0] as string, true)
+          });
+        }
       }
     } else {
       if (expandedByDefault === undefined || !data || !data.length) return;
