@@ -357,38 +357,34 @@ Object {
                     <div
                       class="relative"
                     >
-                      <span
-                        class="text-moon-16 w-full text-bulma truncate"
+                      <div
+                        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
                       >
-                        <div
-                          class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
+                        <span
+                          class="break-all truncate"
                         >
-                          <span
-                            class="break-all truncate"
+                          Preset data
+                        </span>
+                        <span
+                          class="text-moon-16"
+                        >
+                          <svg
+                            class="cursor-pointer"
+                            fill="none"
+                            height="1em"
+                            viewBox="0 0 32 32"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
                           >
-                            Preset data
-                          </span>
-                          <span
-                            class="text-moon-16"
-                          >
-                            <svg
-                              class="cursor-pointer"
-                              fill="none"
-                              height="1em"
-                              viewBox="0 0 32 32"
-                              width="1em"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
-                                stroke="currentColor"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                              />
-                            </svg>
-                          </span>
-                        </div>
-                      </span>
+                            <path
+                              d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
+                              stroke="currentColor"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                        </span>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -428,38 +424,34 @@ Object {
                     <div
                       class="relative"
                     >
-                      <span
-                        class="text-moon-16 w-full text-bulma truncate"
+                      <div
+                        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
                       >
-                        <div
-                          class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
+                        <span
+                          class="break-all truncate"
                         >
-                          <span
-                            class="break-all truncate"
+                          Preset data
+                        </span>
+                        <span
+                          class="text-moon-16"
+                        >
+                          <svg
+                            class="cursor-pointer"
+                            fill="none"
+                            height="1em"
+                            viewBox="0 0 32 32"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
                           >
-                            Preset data
-                          </span>
-                          <span
-                            class="text-moon-16"
-                          >
-                            <svg
-                              class="cursor-pointer"
-                              fill="none"
-                              height="1em"
-                              viewBox="0 0 32 32"
-                              width="1em"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
-                                stroke="currentColor"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                              />
-                            </svg>
-                          </span>
-                        </div>
-                      </span>
+                            <path
+                              d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
+                              stroke="currentColor"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                        </span>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -527,38 +519,34 @@ Object {
                   <div
                     class="relative"
                   >
-                    <span
-                      class="text-moon-16 w-full text-bulma truncate"
+                    <div
+                      class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
                     >
-                      <div
-                        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
+                      <span
+                        class="break-all truncate"
                       >
-                        <span
-                          class="break-all truncate"
+                        Preset data
+                      </span>
+                      <span
+                        class="text-moon-16"
+                      >
+                        <svg
+                          class="cursor-pointer"
+                          fill="none"
+                          height="1em"
+                          viewBox="0 0 32 32"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
                         >
-                          Preset data
-                        </span>
-                        <span
-                          class="text-moon-16"
-                        >
-                          <svg
-                            class="cursor-pointer"
-                            fill="none"
-                            height="1em"
-                            viewBox="0 0 32 32"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
-                              stroke="currentColor"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                            />
-                          </svg>
-                        </span>
-                      </div>
-                    </span>
+                          <path
+                            d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </span>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -598,38 +586,34 @@ Object {
                   <div
                     class="relative"
                   >
-                    <span
-                      class="text-moon-16 w-full text-bulma truncate"
+                    <div
+                      class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
                     >
-                      <div
-                        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
+                      <span
+                        class="break-all truncate"
                       >
-                        <span
-                          class="break-all truncate"
+                        Preset data
+                      </span>
+                      <span
+                        class="text-moon-16"
+                      >
+                        <svg
+                          class="cursor-pointer"
+                          fill="none"
+                          height="1em"
+                          viewBox="0 0 32 32"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
                         >
-                          Preset data
-                        </span>
-                        <span
-                          class="text-moon-16"
-                        >
-                          <svg
-                            class="cursor-pointer"
-                            fill="none"
-                            height="1em"
-                            viewBox="0 0 32 32"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
-                              stroke="currentColor"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                            />
-                          </svg>
-                        </span>
-                      </div>
-                    </span>
+                          <path
+                            d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </span>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -754,38 +738,34 @@ Object {
                     <div
                       class="relative"
                     >
-                      <span
-                        class="text-moon-16 w-full text-bulma truncate"
+                      <div
+                        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-12"
                       >
-                        <div
-                          class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-12"
+                        <span
+                          class="break-all truncate"
                         >
-                          <span
-                            class="break-all truncate"
+                          Preset data
+                        </span>
+                        <span
+                          class="text-moon-16"
+                        >
+                          <svg
+                            class="cursor-pointer"
+                            fill="none"
+                            height="1em"
+                            viewBox="0 0 32 32"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
                           >
-                            Preset data
-                          </span>
-                          <span
-                            class="text-moon-16"
-                          >
-                            <svg
-                              class="cursor-pointer"
-                              fill="none"
-                              height="1em"
-                              viewBox="0 0 32 32"
-                              width="1em"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
-                                stroke="currentColor"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                              />
-                            </svg>
-                          </span>
-                        </div>
-                      </span>
+                            <path
+                              d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
+                              stroke="currentColor"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                        </span>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -818,38 +798,34 @@ Object {
                     <div
                       class="relative"
                     >
-                      <span
-                        class="text-moon-16 w-full text-bulma truncate"
+                      <div
+                        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
                       >
-                        <div
-                          class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
+                        <span
+                          class="break-all truncate"
                         >
-                          <span
-                            class="break-all truncate"
+                          Preset data
+                        </span>
+                        <span
+                          class="text-moon-16"
+                        >
+                          <svg
+                            class="cursor-pointer"
+                            fill="none"
+                            height="1em"
+                            viewBox="0 0 32 32"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
                           >
-                            Preset data
-                          </span>
-                          <span
-                            class="text-moon-16"
-                          >
-                            <svg
-                              class="cursor-pointer"
-                              fill="none"
-                              height="1em"
-                              viewBox="0 0 32 32"
-                              width="1em"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
-                                stroke="currentColor"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                              />
-                            </svg>
-                          </span>
-                        </div>
-                      </span>
+                            <path
+                              d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
+                              stroke="currentColor"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                        </span>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -897,38 +873,34 @@ Object {
                   <div
                     class="relative"
                   >
-                    <span
-                      class="text-moon-16 w-full text-bulma truncate"
+                    <div
+                      class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-12"
                     >
-                      <div
-                        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-12"
+                      <span
+                        class="break-all truncate"
                       >
-                        <span
-                          class="break-all truncate"
+                        Preset data
+                      </span>
+                      <span
+                        class="text-moon-16"
+                      >
+                        <svg
+                          class="cursor-pointer"
+                          fill="none"
+                          height="1em"
+                          viewBox="0 0 32 32"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
                         >
-                          Preset data
-                        </span>
-                        <span
-                          class="text-moon-16"
-                        >
-                          <svg
-                            class="cursor-pointer"
-                            fill="none"
-                            height="1em"
-                            viewBox="0 0 32 32"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
-                              stroke="currentColor"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                            />
-                          </svg>
-                        </span>
-                      </div>
-                    </span>
+                          <path
+                            d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </span>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -961,38 +933,34 @@ Object {
                   <div
                     class="relative"
                   >
-                    <span
-                      class="text-moon-16 w-full text-bulma truncate"
+                    <div
+                      class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
                     >
-                      <div
-                        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
+                      <span
+                        class="break-all truncate"
                       >
-                        <span
-                          class="break-all truncate"
+                        Preset data
+                      </span>
+                      <span
+                        class="text-moon-16"
+                      >
+                        <svg
+                          class="cursor-pointer"
+                          fill="none"
+                          height="1em"
+                          viewBox="0 0 32 32"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
                         >
-                          Preset data
-                        </span>
-                        <span
-                          class="text-moon-16"
-                        >
-                          <svg
-                            class="cursor-pointer"
-                            fill="none"
-                            height="1em"
-                            viewBox="0 0 32 32"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
-                              stroke="currentColor"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                            />
-                          </svg>
-                        </span>
-                      </div>
-                    </span>
+                          <path
+                            d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </span>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1398,38 +1366,34 @@ Object {
                   <div
                     class="relative"
                   >
-                    <span
-                      class="text-moon-16 w-full text-bulma truncate"
+                    <div
+                      class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
                     >
-                      <div
-                        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
+                      <span
+                        class="break-all truncate"
                       >
-                        <span
-                          class="break-all truncate"
+                        Preset data
+                      </span>
+                      <span
+                        class="text-moon-16"
+                      >
+                        <svg
+                          class="cursor-pointer"
+                          fill="none"
+                          height="1em"
+                          viewBox="0 0 32 32"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
                         >
-                          Preset data
-                        </span>
-                        <span
-                          class="text-moon-16"
-                        >
-                          <svg
-                            class="cursor-pointer"
-                            fill="none"
-                            height="1em"
-                            viewBox="0 0 32 32"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
-                              stroke="currentColor"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                            />
-                          </svg>
-                        </span>
-                      </div>
-                    </span>
+                          <path
+                            d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </span>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1469,38 +1433,34 @@ Object {
                   <div
                     class="relative"
                   >
-                    <span
-                      class="text-moon-16 w-full text-bulma truncate"
+                    <div
+                      class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
                     >
-                      <div
-                        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
+                      <span
+                        class="break-all truncate"
                       >
-                        <span
-                          class="break-all truncate"
+                        Preset data
+                      </span>
+                      <span
+                        class="text-moon-16"
+                      >
+                        <svg
+                          class="cursor-pointer"
+                          fill="none"
+                          height="1em"
+                          viewBox="0 0 32 32"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
                         >
-                          Preset data
-                        </span>
-                        <span
-                          class="text-moon-16"
-                        >
-                          <svg
-                            class="cursor-pointer"
-                            fill="none"
-                            height="1em"
-                            viewBox="0 0 32 32"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
-                              stroke="currentColor"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                            />
-                          </svg>
-                        </span>
-                      </div>
-                    </span>
+                          <path
+                            d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </span>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1564,38 +1524,34 @@ Object {
                 <div
                   class="relative"
                 >
-                  <span
-                    class="text-moon-16 w-full text-bulma truncate"
+                  <div
+                    class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
                   >
-                    <div
-                      class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
+                    <span
+                      class="break-all truncate"
                     >
-                      <span
-                        class="break-all truncate"
+                      Preset data
+                    </span>
+                    <span
+                      class="text-moon-16"
+                    >
+                      <svg
+                        class="cursor-pointer"
+                        fill="none"
+                        height="1em"
+                        viewBox="0 0 32 32"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
                       >
-                        Preset data
-                      </span>
-                      <span
-                        class="text-moon-16"
-                      >
-                        <svg
-                          class="cursor-pointer"
-                          fill="none"
-                          height="1em"
-                          viewBox="0 0 32 32"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
-                            stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          />
-                        </svg>
-                      </span>
-                    </div>
-                  </span>
+                        <path
+                          d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -1635,38 +1591,34 @@ Object {
                 <div
                   class="relative"
                 >
-                  <span
-                    class="text-moon-16 w-full text-bulma truncate"
+                  <div
+                    class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
                   >
-                    <div
-                      class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
+                    <span
+                      class="break-all truncate"
                     >
-                      <span
-                        class="break-all truncate"
+                      Preset data
+                    </span>
+                    <span
+                      class="text-moon-16"
+                    >
+                      <svg
+                        class="cursor-pointer"
+                        fill="none"
+                        height="1em"
+                        viewBox="0 0 32 32"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
                       >
-                        Preset data
-                      </span>
-                      <span
-                        class="text-moon-16"
-                      >
-                        <svg
-                          class="cursor-pointer"
-                          fill="none"
-                          height="1em"
-                          viewBox="0 0 32 32"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
-                            stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          />
-                        </svg>
-                      </span>
-                    </div>
-                  </span>
+                        <path
+                          d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -1787,38 +1739,34 @@ Object {
                   <div
                     class="relative"
                   >
-                    <span
-                      class="text-moon-16 w-full text-bulma truncate"
+                    <div
+                      class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-12"
                     >
-                      <div
-                        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-12"
+                      <span
+                        class="break-all truncate"
                       >
-                        <span
-                          class="break-all truncate"
+                        Preset data
+                      </span>
+                      <span
+                        class="text-moon-16"
+                      >
+                        <svg
+                          class="cursor-pointer"
+                          fill="none"
+                          height="1em"
+                          viewBox="0 0 32 32"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
                         >
-                          Preset data
-                        </span>
-                        <span
-                          class="text-moon-16"
-                        >
-                          <svg
-                            class="cursor-pointer"
-                            fill="none"
-                            height="1em"
-                            viewBox="0 0 32 32"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
-                              stroke="currentColor"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                            />
-                          </svg>
-                        </span>
-                      </div>
-                    </span>
+                          <path
+                            d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </span>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1851,38 +1799,34 @@ Object {
                   <div
                     class="relative"
                   >
-                    <span
-                      class="text-moon-16 w-full text-bulma truncate"
+                    <div
+                      class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
                     >
-                      <div
-                        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
+                      <span
+                        class="break-all truncate"
                       >
-                        <span
-                          class="break-all truncate"
+                        Preset data
+                      </span>
+                      <span
+                        class="text-moon-16"
+                      >
+                        <svg
+                          class="cursor-pointer"
+                          fill="none"
+                          height="1em"
+                          viewBox="0 0 32 32"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
                         >
-                          Preset data
-                        </span>
-                        <span
-                          class="text-moon-16"
-                        >
-                          <svg
-                            class="cursor-pointer"
-                            fill="none"
-                            height="1em"
-                            viewBox="0 0 32 32"
-                            width="1em"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
-                              stroke="currentColor"
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                            />
-                          </svg>
-                        </span>
-                      </div>
-                    </span>
+                          <path
+                            d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </span>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1926,38 +1870,34 @@ Object {
                 <div
                   class="relative"
                 >
-                  <span
-                    class="text-moon-16 w-full text-bulma truncate"
+                  <div
+                    class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-12"
                   >
-                    <div
-                      class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-12"
+                    <span
+                      class="break-all truncate"
                     >
-                      <span
-                        class="break-all truncate"
+                      Preset data
+                    </span>
+                    <span
+                      class="text-moon-16"
+                    >
+                      <svg
+                        class="cursor-pointer"
+                        fill="none"
+                        height="1em"
+                        viewBox="0 0 32 32"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
                       >
-                        Preset data
-                      </span>
-                      <span
-                        class="text-moon-16"
-                      >
-                        <svg
-                          class="cursor-pointer"
-                          fill="none"
-                          height="1em"
-                          viewBox="0 0 32 32"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
-                            stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          />
-                        </svg>
-                      </span>
-                    </div>
-                  </span>
+                        <path
+                          d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -1990,38 +1930,34 @@ Object {
                 <div
                   class="relative"
                 >
-                  <span
-                    class="text-moon-16 w-full text-bulma truncate"
+                  <div
+                    class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
                   >
-                    <div
-                      class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
+                    <span
+                      class="break-all truncate"
                     >
-                      <span
-                        class="break-all truncate"
+                      Preset data
+                    </span>
+                    <span
+                      class="text-moon-16"
+                    >
+                      <svg
+                        class="cursor-pointer"
+                        fill="none"
+                        height="1em"
+                        viewBox="0 0 32 32"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
                       >
-                        Preset data
-                      </span>
-                      <span
-                        class="text-moon-16"
-                      >
-                        <svg
-                          class="cursor-pointer"
-                          fill="none"
-                          height="1em"
-                          viewBox="0 0 32 32"
-                          width="1em"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
-                            stroke="currentColor"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          />
-                        </svg>
-                      </span>
-                    </div>
-                  </span>
+                        <path
+                          d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                  </div>
                 </div>
               </div>
             </div>
