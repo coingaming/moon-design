@@ -7,6 +7,7 @@ import KeepStateProps from '@heathmont/moon-table-tw/lib/private/types/KeepState
 interface HeaderProps {
   rowsById: { [key: string]: { id: string, canExpand: boolean } },
   isAllRowsExpanded: boolean;
+  toggleAllRowsExpanded: (isExpanded?: boolean) => void;
   getToggleAllRowsExpandedProps: () => React.HTMLAttributes<HTMLSpanElement>;
 }
 
@@ -27,6 +28,7 @@ const Example = () => {
           Header: ({
             rowsById,
             getToggleAllRowsExpandedProps,
+            toggleAllRowsExpanded,
             isAllRowsExpanded,
           }: HeaderProps) => {
             useEffect (() => {
@@ -36,25 +38,22 @@ const Example = () => {
                 .map(({ id }) => ({[id]: isAllRowsExpanded}))
             )}, [rowsById, isAllRowsExpanded]);
             return (
-              <div
-                className="flex h-full items-center"
-                onClick={(e) => {
-                  (e.target as HTMLElement).closest('span') !== null && toggleAllRowsExpandedState(allRowsExpandedState)
-                }}
-              >
-                <span {...getToggleAllRowsExpandedProps()}>
+              <div className="flex h-full items-center">
+                <span
+                  {...getToggleAllRowsExpandedProps()}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    toggleAllRowsExpanded(!allRowsExpandedState);
+                    toggleAllRowsExpandedState(allRowsExpandedState);
+                  }}
+                >
                   {allRowsExpandedState ?  <ControlsChevronDown /> : <ControlsChevronRight />}
                 </span>
               </div>
             )
           },
-          Cell: ({ row }: any) =>
-          <div
-            className="flex h-full items-center"
-            onClick={(e) => {
-              (e.target as HTMLElement).closest('span') !== null && toggleRowExpandedState(row)
-            }}
-          >
+          Cell: ({ row, toggleRowExpanded }: any) =>
+          <div className="flex h-full items-center">
             {row.canExpand ? (
               <span
                 {...row.getToggleRowExpandedProps({
@@ -62,6 +61,11 @@ const Example = () => {
                     paddingLeft: `${row.depth * 2}rem`,
                   },
                 })}
+                onClick={(e) => {
+                  e.preventDefault();
+                  toggleRowExpanded(row.id, row.isExpanded !== true);
+                  toggleRowExpandedState(row);
+                }}
               >
                 {row.isExpanded ? <ControlsChevronDown /> : <ControlsChevronRight />}
               </span>
@@ -160,7 +164,7 @@ const Example = () => {
       if (allExpanded) {
         setExpandedRows([]);
       } else {
-        setExpandedRows(ers?.map(item => item));
+        setExpandedRows(ers?.map(item => { const key = Object.keys(item)[0]; return {[key]: true} }));
       }
 
       return ers;
@@ -195,7 +199,7 @@ const Example = () => {
 
   useEffect(() => { restoreTableState(PREFIX) }, []);
   useEffect(() => {
-    allRowsExpandedState && setExpandedRows(allExpandableRowSet?.map(item => item))
+    allRowsExpandedState && setExpandedRows(allExpandableRowSet?.map(item => { const key = Object.keys(item)[0]; return {[key]: true} }))
   }, [allRowsExpandedState]);
 
   useEffect(() => {
