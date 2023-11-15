@@ -1,4 +1,12 @@
-import React, { ReactNode, useCallback, useEffect, useReducer } from 'react';
+import React, {
+  ReactNode,
+  useCallback,
+  useEffect,
+  useReducer,
+  useRef,
+  MutableRefObject,
+  useState,
+} from 'react';
 import { Dialog, Transition } from '@headlessui/react';
 import type BottomSheetRootProps from './private/types/BottomSheetRootProps';
 import type DraghandleProps from './private/types/DraghandleProps';
@@ -20,7 +28,17 @@ const BottomSheetRoot = ({
   children,
   className,
   rootId,
+  initialFocus,
+  ...rest
 }: BottomSheetRootProps) => {
+  const defFocus = useRef(null);
+  const [focusElRef, setFocusElRef] =
+    useState<MutableRefObject<HTMLElement | null>>();
+
+  useEffect(() => {
+    initialFocus ? setFocusElRef(initialFocus) : setFocusElRef(defFocus);
+  }, [initialFocus]);
+
   const [state, dispatch] = useReducer(stateReducer, {
     bottomSheetChildren: [],
   });
@@ -53,6 +71,8 @@ const BottomSheetRoot = ({
           as="div"
           className={mergeClassnames('fixed inset-0 z-50', className)}
           onClose={onCloseHandler}
+          initialFocus={focusElRef}
+          {...rest}
         >
           {React.Children.map<ReactNode, ReactNode>(children, (child) => {
             if (React.isValidElement(child)) {
