@@ -8,6 +8,7 @@ type BottomSheetRootProps = {
   children?: React.ReactNode;
   className?: string;
   rootId?: string;
+  initialFocus?: React.MutableRefObject<HTMLElement | null>;
 };
 
 export default BottomSheetRootProps;
