@@ -31,12 +31,13 @@ const Example = () => {
             toggleAllRowsExpanded,
             isAllRowsExpanded,
           }: HeaderProps) => {
-            useEffect (() => {
+            useEffect(() => {
               setAllExpandableRowSet(
                 Object.values(rowsById)
-                .filter(({ canExpand }) => canExpand)
-                .map(({ id }) => ({[id]: isAllRowsExpanded}))
-            )}, [rowsById, isAllRowsExpanded]);
+                  .filter(({ canExpand }) => canExpand)
+                  .map(({ id }) => ({ [id]: isAllRowsExpanded }))
+              )
+            }, [rowsById, isAllRowsExpanded]);
             return (
               <div className="flex h-full items-center">
                 <span
@@ -47,30 +48,30 @@ const Example = () => {
                     toggleAllRowsExpandedState(allRowsExpandedState);
                   }}
                 >
-                  {allRowsExpandedState ?  <ControlsChevronDown /> : <ControlsChevronRight />}
+                  {allRowsExpandedState ? <ControlsChevronDown /> : <ControlsChevronRight />}
                 </span>
               </div>
             )
           },
           Cell: ({ row, toggleRowExpanded }: any) =>
-          <div className="flex h-full items-center">
-            {row.canExpand ? (
-              <span
-                {...row.getToggleRowExpandedProps({
-                  style: {
-                    paddingLeft: `${row.depth * 2}rem`,
-                  },
-                })}
-                onClick={(e) => {
-                  e.preventDefault();
-                  toggleRowExpanded(row.id, row.isExpanded !== true);
-                  toggleRowExpandedState(row);
-                }}
-              >
-                {row.isExpanded ? <ControlsChevronDown /> : <ControlsChevronRight />}
-              </span>
-            ) : null}
-          </div>
+            <div className="flex h-full items-center">
+              {row.canExpand ? (
+                <span
+                  {...row.getToggleRowExpandedProps({
+                    style: {
+                      paddingLeft: `${row.depth * 2}rem`,
+                    },
+                  })}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    toggleRowExpanded(row.id, row.isExpanded !== true);
+                    toggleRowExpandedState(row);
+                  }}
+                >
+                  {row.isExpanded ? <ControlsChevronDown /> : <ControlsChevronRight />}
+                </span>
+              ) : null}
+            </div>
         },
       ],
     },
@@ -128,8 +129,8 @@ const Example = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [title, setTitle] = useState('');
   const [panel, setPanel] = useState<ReactNode>();
-  const [expandedRows, setExpandedRows] = useState<{[key: string]: boolean}[] | undefined>();
-  const [allExpandableRowSet, setAllExpandableRowSet] = useState<{[key: string]: boolean}[] | undefined>();
+  const [expandedRows, setExpandedRows] = useState<{ [key: string]: boolean }[] | undefined>();
+  const [allExpandableRowSet, setAllExpandableRowSet] = useState<{ [key: string]: boolean }[] | undefined>();
   const [allRowsExpandedState, setAllRowsExpandedState] = useState(false);
   const [keepState, setKeepState] = useState<KeepStateProps>({});
   const closeModal = () => {
@@ -151,8 +152,8 @@ const Example = () => {
         return isExpanded
           ? er?.filter(item => !item[id])
           : er
-            ? [...er, {[id]: true}]
-            : [{[id]: true}];
+            ? [...er, { [id]: true }]
+            : [{ [id]: true }];
       });
     }
   };
@@ -164,7 +165,7 @@ const Example = () => {
       if (allExpanded) {
         setExpandedRows([]);
       } else {
-        setExpandedRows(ers?.map(item => { const key = Object.keys(item)[0]; return {[key]: true} }));
+        setExpandedRows(ers?.map(item => { const key = Object.keys(item)[0]; return { [key]: true } }));
       }
 
       return ers;
@@ -189,7 +190,7 @@ const Example = () => {
       const states = JSON.parse(storedData);
       if (states.expandedRows) {
         setExpandedRows(states.expandedRows);
-        setKeepState({expandedRows: states.expandedRows});
+        setKeepState({ expandedRows: states.expandedRows });
       }
     } catch (e) {
     } finally {
@@ -199,7 +200,7 @@ const Example = () => {
 
   useEffect(() => { restoreTableState(PREFIX) }, []);
   useEffect(() => {
-    allRowsExpandedState && setExpandedRows(allExpandableRowSet?.map(item => { const key = Object.keys(item)[0]; return {[key]: true} }))
+    allRowsExpandedState && setExpandedRows(allExpandableRowSet?.map(item => { const key = Object.keys(item)[0]; return { [key]: true } }))
   }, [allRowsExpandedState]);
 
   useEffect(() => {
@@ -298,7 +299,7 @@ const Example = () => {
         width={800}
         height={400}
         keepState={keepState}
-        /* expandedByDefault={true} */
+      /* expandedByDefault={true} */
       />
       <Modal open={isOpen} onClose={closeModal}>
         <Modal.Backdrop />
