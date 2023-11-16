@@ -1,4 +1,4 @@
-import { createContext, useContext } from "react";
+import { createContext, useContext } from 'react';
 import TagsInputState from '../types/TagsInputState';
 
 const TagsInputContext = createContext<TagsInputState>({});
@@ -15,4 +15,4 @@ const useTagsInputContext = (component: string) => {
   return context;
 };
 
-export { useTagsInputContext, TagsInputContext }
+export { useTagsInputContext, TagsInputContext };
