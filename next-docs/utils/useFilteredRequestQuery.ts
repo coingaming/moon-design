@@ -2,6 +2,21 @@ export type Patterns = {
   [K: string]: (path: string) => string;
 }
 
+/* Denies: spaces/semicolons,
+  dollar/plus/asterisk symbols,
+  greater and less symbols,
+  any quotation marks,
+  parentheses/braces.
+  Returns: resulting string.
+*/
+
+export const filterStrippedTags: Patterns = {
+  removeUnallowedSymbols: (path: string) => {
+    const pattern = new RegExp('([\\s;\\"\\`\\\'\\[\\]\\{\\}<>\\$\\+\\*]+)', 'g');
+    return path.replace(pattern, '');
+  }
+}
+
 /* Allows letters, digits, dashes, dots, slashes.
   Denies: leading/trailing/multiple dots,
   leading/trailing/multiple slashes,
