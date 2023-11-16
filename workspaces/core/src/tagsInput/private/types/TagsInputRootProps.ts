@@ -1,4 +1,4 @@
-import Size from "./Size";
+import type Size from './Size';
 
 export interface TagsInputRootProps
   extends Omit<
@@ -17,4 +17,4 @@ export interface TagsInputRootProps
   onEnter?: (value: string) => void;
   onClear?: (index: number) => void;
   isUppercase?: boolean;
-};
+}

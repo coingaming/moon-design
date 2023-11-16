@@ -12,6 +12,7 @@
     "build:legacy": "pnpm --filter \"./packages/**\" -r run build",
     "build:tailwind": "pnpm --filter \"./workspaces/**\" -r run build ",
     "build:core": "pnpm --filter \"./workspaces/core/**\" -r run build ",
+    "build:table": "pnpm --filter \"./workspaces/tables/**\" -r run build ",
     "clean": "rimraf packages/**/lib && pnpm run clean:docs",
     "clean:docs": "rimraf next-docs/{lib,dist,.cache}",
     "nuke": "pnpm run clean && rimraf next-docs/.next/ && rimraf packages/**/node_modules/ && rimraf next-docs/node_modules/ && rimraf node_modules/",

@@ -5,6 +5,7 @@ import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { camelCase, upperFirst } from 'lodash';
 import { GenericClose } from '@heathmont/moon-icons-tw';
 import CodeSnippet from '../../components/codePreview/CodeSnippet';
+import useFilteredRequestQuery, { filterStrippedTags } from '../../utils/useFilteredRequestQuery';
 
 const DEFAULT_NAME = 'SvgComponent';
 
@@ -23,7 +24,7 @@ const IconPreview: React.FC<IconPreviewProps> = ({
   setError,
 }) => {
   const name = file?.name || DEFAULT_NAME;
-  const iconSrc = URL.createObjectURL(file as File);
+  const iconSrc = useFilteredRequestQuery(URL.createObjectURL(file as File), filterStrippedTags);
   const [copied, setCopied] = useState(false);
   const [isDimensions, toggleDimensions] = useState(false);
   const handleDimensionsClick = useCallback(
