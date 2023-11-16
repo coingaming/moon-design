@@ -1,15 +1,16 @@
 import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import type { ComponentNames } from '../../components/getComponent';
 import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Customisation from '../../public/examples/progress/Customisation';
 import Default from '../../public/examples/progress/Default';
 import Sizes from '../../public/examples/progress/Sizes';
 import Values from '../../public/examples/progress/Values';
+import WithLabels from '../../public/examples/progress/WithLabels';
 import WithPin from '../../public/examples/progress/WithPin';
 import useComponent from '../../utils/useComponent';
-import type { ComponentNames } from '../../components/getComponent';
 
 const COMPONENT_NAME: ComponentNames = 'Progress';
 
@@ -49,6 +50,11 @@ const PageProgress = () => {
         title="Progress with Pin"
         preview={<WithPin />}
         code={examples ? examples.WithPin : 'Loading'}
+      />
+      <Preview
+        title="Progress with Labels"
+        preview={<WithLabels />}
+        code={examples ? examples.WithLabels : 'Loading'}
       />
       <PropsTable
         title="Progress props"

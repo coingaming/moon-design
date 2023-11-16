@@ -17,7 +17,7 @@ const ProgressRoot = ({
   <ProgressContext.Provider value={{ value, size }}>
     <div
       className={mergeClassnames(
-        'w-full relative rounded-full bg-trunks/[.24]',
+        'w-full rounded-full bg-beerus',
         bgColor,
         getSize(size),
         className
@@ -31,7 +31,7 @@ const ProgressRoot = ({
       <div
         style={{ width: `${value}%` }}
         className={mergeClassnames(
-          'progress absolute h-full rounded-full start-0 transition-all bg-piccolo',
+          'progress relative h-full rounded-full start-0 transition-all bg-piccolo',
           progressColor
         )}
       >
@@ -49,9 +49,8 @@ const Pin = ({ className }: PinProps) => {
       className={mergeClassnames(
         'absolute box-content flex items-center justify-center w-8 h-8 border-2 font-medium',
         'text-moon-10-caption uppercase text-goten bg-popo border-goten rounded-full',
-        'shadow-[0_2px_8px_0_rgba(0,0,0,0.16)]',
+        'shadow-[0_2px_8px_0_rgba(0,0,0,0.16)] before:shadow-[0_2px_8px_0_rgba(0,0,0,0.16)]',
         'before:absolute before:bg-goten before:rounded-full',
-        'before:shadow-[0_2px_8px_0_rgba(0,0,0,0.16)]',
         'after:absolute after:w-0 after:h-0 after:border-x-4 after:border-x-transparent',
         'after:-bottom-[6px] after:border-t-[6px] after:border-t-goten',
         getPinStyle(size),

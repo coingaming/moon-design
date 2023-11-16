@@ -13,11 +13,11 @@ Object {
           aria-valuemax="100"
           aria-valuemin="0"
           aria-valuenow="75"
-          class="w-full relative rounded-full h-4 bg-trunks"
+          class="w-full rounded-full h-4 bg-trunks"
           role="progressbar"
         >
           <div
-            class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+            class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
             style="width: 75%;"
           />
         </div>
@@ -26,11 +26,11 @@ Object {
           aria-valuemax="100"
           aria-valuemin="0"
           aria-valuenow="75"
-          class="w-full relative rounded-full h-4 bg-whis [&_.progress]:bg-dodoria"
+          class="w-full rounded-full h-4 bg-whis [&_.progress]:bg-dodoria"
           role="progressbar"
         >
           <div
-            class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+            class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
             style="width: 75%;"
           />
         </div>
@@ -39,11 +39,11 @@ Object {
           aria-valuemax="100"
           aria-valuemin="0"
           aria-valuenow="75"
-          class="w-full relative rounded-full bg-trunks/[.24] h-4 [&_.progress]:bg-roshi"
+          class="w-full rounded-full bg-beerus h-4 [&_.progress]:bg-roshi"
           role="progressbar"
         >
           <div
-            class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+            class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
             style="width: 75%;"
           />
         </div>
@@ -59,11 +59,11 @@ Object {
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="75"
-        class="w-full relative rounded-full h-4 bg-trunks"
+        class="w-full rounded-full h-4 bg-trunks"
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+          class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 75%;"
         />
       </div>
@@ -72,11 +72,11 @@ Object {
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="75"
-        class="w-full relative rounded-full h-4 bg-whis [&_.progress]:bg-dodoria"
+        class="w-full rounded-full h-4 bg-whis [&_.progress]:bg-dodoria"
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+          class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 75%;"
         />
       </div>
@@ -85,11 +85,11 @@ Object {
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="75"
-        class="w-full relative rounded-full bg-trunks/[.24] h-4 [&_.progress]:bg-roshi"
+        class="w-full rounded-full bg-beerus h-4 [&_.progress]:bg-roshi"
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+          class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 75%;"
         />
       </div>
@@ -162,11 +162,11 @@ Object {
           aria-valuemax="100"
           aria-valuemin="0"
           aria-valuenow="0"
-          class="w-full relative rounded-full bg-trunks/[.24] h-4"
+          class="w-full rounded-full bg-beerus h-4"
           role="progressbar"
         >
           <div
-            class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+            class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
             style="width: 0%;"
           />
         </div>
@@ -182,11 +182,11 @@ Object {
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="0"
-        class="w-full relative rounded-full bg-trunks/[.24] h-4"
+        class="w-full rounded-full bg-beerus h-4"
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+          class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 0%;"
         />
       </div>
@@ -259,11 +259,11 @@ Object {
           aria-valuemax="100"
           aria-valuemin="0"
           aria-valuenow="75"
-          class="w-full relative rounded-full bg-trunks/[.24] h-0.5"
+          class="w-full rounded-full bg-beerus h-0.5"
           role="progressbar"
         >
           <div
-            class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+            class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
             style="width: 75%;"
           />
         </div>
@@ -272,11 +272,11 @@ Object {
           aria-valuemax="100"
           aria-valuemin="0"
           aria-valuenow="75"
-          class="w-full relative rounded-full bg-trunks/[.24] h-1"
+          class="w-full rounded-full bg-beerus h-1"
           role="progressbar"
         >
           <div
-            class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+            class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
             style="width: 75%;"
           />
         </div>
@@ -285,11 +285,11 @@ Object {
           aria-valuemax="100"
           aria-valuemin="0"
           aria-valuenow="75"
-          class="w-full relative rounded-full bg-trunks/[.24] h-2"
+          class="w-full rounded-full bg-beerus h-2"
           role="progressbar"
         >
           <div
-            class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+            class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
             style="width: 75%;"
           />
         </div>
@@ -298,11 +298,11 @@ Object {
           aria-valuemax="100"
           aria-valuemin="0"
           aria-valuenow="75"
-          class="w-full relative rounded-full bg-trunks/[.24] h-3"
+          class="w-full rounded-full bg-beerus h-3"
           role="progressbar"
         >
           <div
-            class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+            class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
             style="width: 75%;"
           />
         </div>
@@ -311,11 +311,11 @@ Object {
           aria-valuemax="100"
           aria-valuemin="0"
           aria-valuenow="75"
-          class="w-full relative rounded-full bg-trunks/[.24] h-4"
+          class="w-full rounded-full bg-beerus h-4"
           role="progressbar"
         >
           <div
-            class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+            class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
             style="width: 75%;"
           />
         </div>
@@ -331,11 +331,11 @@ Object {
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="75"
-        class="w-full relative rounded-full bg-trunks/[.24] h-0.5"
+        class="w-full rounded-full bg-beerus h-0.5"
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+          class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 75%;"
         />
       </div>
@@ -344,11 +344,11 @@ Object {
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="75"
-        class="w-full relative rounded-full bg-trunks/[.24] h-1"
+        class="w-full rounded-full bg-beerus h-1"
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+          class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 75%;"
         />
       </div>
@@ -357,11 +357,11 @@ Object {
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="75"
-        class="w-full relative rounded-full bg-trunks/[.24] h-2"
+        class="w-full rounded-full bg-beerus h-2"
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+          class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 75%;"
         />
       </div>
@@ -370,11 +370,11 @@ Object {
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="75"
-        class="w-full relative rounded-full bg-trunks/[.24] h-3"
+        class="w-full rounded-full bg-beerus h-3"
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+          class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 75%;"
         />
       </div>
@@ -383,11 +383,11 @@ Object {
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="75"
-        class="w-full relative rounded-full bg-trunks/[.24] h-4"
+        class="w-full rounded-full bg-beerus h-4"
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+          class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 75%;"
         />
       </div>
@@ -460,11 +460,11 @@ Object {
           aria-valuemax="100"
           aria-valuemin="0"
           aria-valuenow="25"
-          class="w-full relative rounded-full bg-trunks/[.24] h-4"
+          class="w-full rounded-full bg-beerus h-4"
           role="progressbar"
         >
           <div
-            class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+            class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
             style="width: 25%;"
           />
         </div>
@@ -473,11 +473,11 @@ Object {
           aria-valuemax="100"
           aria-valuemin="0"
           aria-valuenow="50"
-          class="w-full relative rounded-full bg-trunks/[.24] h-4"
+          class="w-full rounded-full bg-beerus h-4"
           role="progressbar"
         >
           <div
-            class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+            class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
             style="width: 50%;"
           />
         </div>
@@ -486,11 +486,11 @@ Object {
           aria-valuemax="100"
           aria-valuemin="0"
           aria-valuenow="75"
-          class="w-full relative rounded-full bg-trunks/[.24] h-4"
+          class="w-full rounded-full bg-beerus h-4"
           role="progressbar"
         >
           <div
-            class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+            class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
             style="width: 75%;"
           />
         </div>
@@ -499,11 +499,11 @@ Object {
           aria-valuemax="100"
           aria-valuemin="0"
           aria-valuenow="100"
-          class="w-full relative rounded-full bg-trunks/[.24] h-4"
+          class="w-full rounded-full bg-beerus h-4"
           role="progressbar"
         >
           <div
-            class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+            class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
             style="width: 100%;"
           />
         </div>
@@ -519,11 +519,11 @@ Object {
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="25"
-        class="w-full relative rounded-full bg-trunks/[.24] h-4"
+        class="w-full rounded-full bg-beerus h-4"
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+          class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 25%;"
         />
       </div>
@@ -532,11 +532,11 @@ Object {
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="50"
-        class="w-full relative rounded-full bg-trunks/[.24] h-4"
+        class="w-full rounded-full bg-beerus h-4"
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+          class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 50%;"
         />
       </div>
@@ -545,11 +545,11 @@ Object {
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="75"
-        class="w-full relative rounded-full bg-trunks/[.24] h-4"
+        class="w-full rounded-full bg-beerus h-4"
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+          class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 75%;"
         />
       </div>
@@ -558,13 +558,148 @@ Object {
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="100"
-        class="w-full relative rounded-full bg-trunks/[.24] h-4"
+        class="w-full rounded-full bg-beerus h-4"
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+          class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 100%;"
         />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Progress in RTL renders WithLabels 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        dir="rtl"
+      >
+        <div
+          class="flex flex-col w-full gap-1 text-moon-10-caption font-medium uppercase"
+        >
+          <div
+            class="flex gap-1 justify-between"
+          >
+            <span>
+              0%
+            </span>
+            <span>
+              100%
+            </span>
+          </div>
+          <div
+            aria-label="75%"
+            aria-valuemax="100"
+            aria-valuemin="0"
+            aria-valuenow="75"
+            class="w-full rounded-full bg-beerus h-4"
+            role="progressbar"
+          >
+            <div
+              class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
+              style="width: 75%;"
+            />
+          </div>
+          <span
+            class="text-center"
+          >
+            Progress Title
+          </span>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <div
+        class="flex flex-col w-full gap-1 text-moon-10-caption font-medium uppercase"
+      >
+        <div
+          class="flex gap-1 justify-between"
+        >
+          <span>
+            0%
+          </span>
+          <span>
+            100%
+          </span>
+        </div>
+        <div
+          aria-label="75%"
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="75"
+          class="w-full rounded-full bg-beerus h-4"
+          role="progressbar"
+        >
+          <div
+            class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
+            style="width: 75%;"
+          />
+        </div>
+        <span
+          class="text-center"
+        >
+          Progress Title
+        </span>
       </div>
     </div>
   </div>,
@@ -635,15 +770,15 @@ Object {
           aria-valuemax="100"
           aria-valuemin="0"
           aria-valuenow="75"
-          class="w-full relative rounded-full bg-trunks/[.24] h-4"
+          class="w-full rounded-full bg-beerus h-4"
           role="progressbar"
         >
           <div
-            class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+            class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
             style="width: 75%;"
           >
             <div
-              class="absolute box-content flex items-center justify-center w-8 h-8 border-2 font-medium text-moon-10-caption uppercase text-goten bg-popo border-goten rounded-full shadow-[0_2px_8px_0_rgba(0,0,0,0.16)] before:absolute before:bg-goten before:rounded-full before:shadow-[0_2px_8px_0_rgba(0,0,0,0.16)] after:absolute after:w-0 after:h-0 after:border-x-4 after:border-x-transparent after:-bottom-[6px] after:border-t-[6px] after:border-t-goten bottom-8 ltr:-right-[10px] rtl:-left-[10px] before:w-4 before:h-4 before:-bottom-[34px]"
+              class="absolute box-content flex items-center justify-center w-8 h-8 border-2 font-medium text-moon-10-caption uppercase text-goten bg-popo border-goten rounded-full shadow-[0_2px_8px_0_rgba(0,0,0,0.16)] before:shadow-[0_2px_8px_0_rgba(0,0,0,0.16)] before:absolute before:bg-goten before:rounded-full after:absolute after:w-0 after:h-0 after:border-x-4 after:border-x-transparent after:-bottom-[6px] after:border-t-[6px] after:border-t-goten bottom-8 -end-2.5 before:w-4 before:h-4 before:-bottom-[34px]"
             >
               75%
             </div>
@@ -661,15 +796,15 @@ Object {
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="75"
-        class="w-full relative rounded-full bg-trunks/[.24] h-4"
+        class="w-full rounded-full bg-beerus h-4"
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+          class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 75%;"
         >
           <div
-            class="absolute box-content flex items-center justify-center w-8 h-8 border-2 font-medium text-moon-10-caption uppercase text-goten bg-popo border-goten rounded-full shadow-[0_2px_8px_0_rgba(0,0,0,0.16)] before:absolute before:bg-goten before:rounded-full before:shadow-[0_2px_8px_0_rgba(0,0,0,0.16)] after:absolute after:w-0 after:h-0 after:border-x-4 after:border-x-transparent after:-bottom-[6px] after:border-t-[6px] after:border-t-goten bottom-8 ltr:-right-[10px] rtl:-left-[10px] before:w-4 before:h-4 before:-bottom-[34px]"
+            class="absolute box-content flex items-center justify-center w-8 h-8 border-2 font-medium text-moon-10-caption uppercase text-goten bg-popo border-goten rounded-full shadow-[0_2px_8px_0_rgba(0,0,0,0.16)] before:shadow-[0_2px_8px_0_rgba(0,0,0,0.16)] before:absolute before:bg-goten before:rounded-full after:absolute after:w-0 after:h-0 after:border-x-4 after:border-x-transparent after:-bottom-[6px] after:border-t-[6px] after:border-t-goten bottom-8 -end-2.5 before:w-4 before:h-4 before:-bottom-[34px]"
           >
             75%
           </div>
@@ -741,11 +876,11 @@ Object {
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="75"
-        class="w-full relative rounded-full h-4 bg-trunks"
+        class="w-full rounded-full h-4 bg-trunks"
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+          class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 75%;"
         />
       </div>
@@ -754,11 +889,11 @@ Object {
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="75"
-        class="w-full relative rounded-full h-4 bg-whis [&_.progress]:bg-dodoria"
+        class="w-full rounded-full h-4 bg-whis [&_.progress]:bg-dodoria"
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+          class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 75%;"
         />
       </div>
@@ -767,11 +902,11 @@ Object {
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="75"
-        class="w-full relative rounded-full bg-trunks/[.24] h-4 [&_.progress]:bg-roshi"
+        class="w-full rounded-full bg-beerus h-4 [&_.progress]:bg-roshi"
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+          class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 75%;"
         />
       </div>
@@ -783,11 +918,11 @@ Object {
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="75"
-      class="w-full relative rounded-full h-4 bg-trunks"
+      class="w-full rounded-full h-4 bg-trunks"
       role="progressbar"
     >
       <div
-        class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+        class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
         style="width: 75%;"
       />
     </div>
@@ -796,11 +931,11 @@ Object {
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="75"
-      class="w-full relative rounded-full h-4 bg-whis [&_.progress]:bg-dodoria"
+      class="w-full rounded-full h-4 bg-whis [&_.progress]:bg-dodoria"
       role="progressbar"
     >
       <div
-        class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+        class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
         style="width: 75%;"
       />
     </div>
@@ -809,11 +944,11 @@ Object {
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="75"
-      class="w-full relative rounded-full bg-trunks/[.24] h-4 [&_.progress]:bg-roshi"
+      class="w-full rounded-full bg-beerus h-4 [&_.progress]:bg-roshi"
       role="progressbar"
     >
       <div
-        class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+        class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
         style="width: 75%;"
       />
     </div>
@@ -882,11 +1017,11 @@ Object {
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="0"
-        class="w-full relative rounded-full bg-trunks/[.24] h-4"
+        class="w-full rounded-full bg-beerus h-4"
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+          class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 0%;"
         />
       </div>
@@ -898,11 +1033,11 @@ Object {
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="0"
-      class="w-full relative rounded-full bg-trunks/[.24] h-4"
+      class="w-full rounded-full bg-beerus h-4"
       role="progressbar"
     >
       <div
-        class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+        class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
         style="width: 0%;"
       />
     </div>
@@ -971,11 +1106,11 @@ Object {
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="75"
-        class="w-full relative rounded-full bg-trunks/[.24] h-0.5"
+        class="w-full rounded-full bg-beerus h-0.5"
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+          class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 75%;"
         />
       </div>
@@ -984,11 +1119,11 @@ Object {
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="75"
-        class="w-full relative rounded-full bg-trunks/[.24] h-1"
+        class="w-full rounded-full bg-beerus h-1"
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+          class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 75%;"
         />
       </div>
@@ -997,11 +1132,11 @@ Object {
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="75"
-        class="w-full relative rounded-full bg-trunks/[.24] h-2"
+        class="w-full rounded-full bg-beerus h-2"
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+          class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 75%;"
         />
       </div>
@@ -1010,11 +1145,11 @@ Object {
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="75"
-        class="w-full relative rounded-full bg-trunks/[.24] h-3"
+        class="w-full rounded-full bg-beerus h-3"
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+          class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 75%;"
         />
       </div>
@@ -1023,11 +1158,11 @@ Object {
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="75"
-        class="w-full relative rounded-full bg-trunks/[.24] h-4"
+        class="w-full rounded-full bg-beerus h-4"
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+          class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 75%;"
         />
       </div>
@@ -1039,11 +1174,11 @@ Object {
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="75"
-      class="w-full relative rounded-full bg-trunks/[.24] h-0.5"
+      class="w-full rounded-full bg-beerus h-0.5"
       role="progressbar"
     >
       <div
-        class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+        class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
         style="width: 75%;"
       />
     </div>
@@ -1052,11 +1187,11 @@ Object {
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="75"
-      class="w-full relative rounded-full bg-trunks/[.24] h-1"
+      class="w-full rounded-full bg-beerus h-1"
       role="progressbar"
     >
       <div
-        class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+        class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
         style="width: 75%;"
       />
     </div>
@@ -1065,11 +1200,11 @@ Object {
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="75"
-      class="w-full relative rounded-full bg-trunks/[.24] h-2"
+      class="w-full rounded-full bg-beerus h-2"
       role="progressbar"
     >
       <div
-        class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+        class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
         style="width: 75%;"
       />
     </div>
@@ -1078,11 +1213,11 @@ Object {
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="75"
-      class="w-full relative rounded-full bg-trunks/[.24] h-3"
+      class="w-full rounded-full bg-beerus h-3"
       role="progressbar"
     >
       <div
-        class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+        class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
         style="width: 75%;"
       />
     </div>
@@ -1091,11 +1226,11 @@ Object {
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="75"
-      class="w-full relative rounded-full bg-trunks/[.24] h-4"
+      class="w-full rounded-full bg-beerus h-4"
       role="progressbar"
     >
       <div
-        class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+        class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
         style="width: 75%;"
       />
     </div>
@@ -1164,11 +1299,11 @@ Object {
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="25"
-        class="w-full relative rounded-full bg-trunks/[.24] h-4"
+        class="w-full rounded-full bg-beerus h-4"
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+          class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 25%;"
         />
       </div>
@@ -1177,11 +1312,11 @@ Object {
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="50"
-        class="w-full relative rounded-full bg-trunks/[.24] h-4"
+        class="w-full rounded-full bg-beerus h-4"
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+          class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 50%;"
         />
       </div>
@@ -1190,11 +1325,11 @@ Object {
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="75"
-        class="w-full relative rounded-full bg-trunks/[.24] h-4"
+        class="w-full rounded-full bg-beerus h-4"
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+          class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 75%;"
         />
       </div>
@@ -1203,11 +1338,11 @@ Object {
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="100"
-        class="w-full relative rounded-full bg-trunks/[.24] h-4"
+        class="w-full rounded-full bg-beerus h-4"
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+          class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 100%;"
         />
       </div>
@@ -1219,11 +1354,11 @@ Object {
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="25"
-      class="w-full relative rounded-full bg-trunks/[.24] h-4"
+      class="w-full rounded-full bg-beerus h-4"
       role="progressbar"
     >
       <div
-        class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+        class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
         style="width: 25%;"
       />
     </div>
@@ -1232,11 +1367,11 @@ Object {
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="50"
-      class="w-full relative rounded-full bg-trunks/[.24] h-4"
+      class="w-full rounded-full bg-beerus h-4"
       role="progressbar"
     >
       <div
-        class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+        class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
         style="width: 50%;"
       />
     </div>
@@ -1245,11 +1380,11 @@ Object {
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="75"
-      class="w-full relative rounded-full bg-trunks/[.24] h-4"
+      class="w-full rounded-full bg-beerus h-4"
       role="progressbar"
     >
       <div
-        class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+        class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
         style="width: 75%;"
       />
     </div>
@@ -1258,13 +1393,140 @@ Object {
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="100"
-      class="w-full relative rounded-full bg-trunks/[.24] h-4"
+      class="w-full rounded-full bg-beerus h-4"
       role="progressbar"
     >
       <div
-        class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+        class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
         style="width: 100%;"
       />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Progress renders WithLabels 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex flex-col w-full gap-1 text-moon-10-caption font-medium uppercase"
+      >
+        <div
+          class="flex gap-1 justify-between"
+        >
+          <span>
+            0%
+          </span>
+          <span>
+            100%
+          </span>
+        </div>
+        <div
+          aria-label="75%"
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="75"
+          class="w-full rounded-full bg-beerus h-4"
+          role="progressbar"
+        >
+          <div
+            class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
+            style="width: 75%;"
+          />
+        </div>
+        <span
+          class="text-center"
+        >
+          Progress Title
+        </span>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex flex-col w-full gap-1 text-moon-10-caption font-medium uppercase"
+    >
+      <div
+        class="flex gap-1 justify-between"
+      >
+        <span>
+          0%
+        </span>
+        <span>
+          100%
+        </span>
+      </div>
+      <div
+        aria-label="75%"
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="75"
+        class="w-full rounded-full bg-beerus h-4"
+        role="progressbar"
+      >
+        <div
+          class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
+          style="width: 75%;"
+        />
+      </div>
+      <span
+        class="text-center"
+      >
+        Progress Title
+      </span>
     </div>
   </div>,
   "debug": [Function],
@@ -1331,15 +1593,15 @@ Object {
         aria-valuemax="100"
         aria-valuemin="0"
         aria-valuenow="75"
-        class="w-full relative rounded-full bg-trunks/[.24] h-4"
+        class="w-full rounded-full bg-beerus h-4"
         role="progressbar"
       >
         <div
-          class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+          class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
           style="width: 75%;"
         >
           <div
-            class="absolute box-content flex items-center justify-center w-8 h-8 border-2 font-medium text-moon-10-caption uppercase text-goten bg-popo border-goten rounded-full shadow-[0_2px_8px_0_rgba(0,0,0,0.16)] before:absolute before:bg-goten before:rounded-full before:shadow-[0_2px_8px_0_rgba(0,0,0,0.16)] after:absolute after:w-0 after:h-0 after:border-x-4 after:border-x-transparent after:-bottom-[6px] after:border-t-[6px] after:border-t-goten bottom-8 ltr:-right-[10px] rtl:-left-[10px] before:w-4 before:h-4 before:-bottom-[34px]"
+            class="absolute box-content flex items-center justify-center w-8 h-8 border-2 font-medium text-moon-10-caption uppercase text-goten bg-popo border-goten rounded-full shadow-[0_2px_8px_0_rgba(0,0,0,0.16)] before:shadow-[0_2px_8px_0_rgba(0,0,0,0.16)] before:absolute before:bg-goten before:rounded-full after:absolute after:w-0 after:h-0 after:border-x-4 after:border-x-transparent after:-bottom-[6px] after:border-t-[6px] after:border-t-goten bottom-8 -end-2.5 before:w-4 before:h-4 before:-bottom-[34px]"
           >
             75%
           </div>
@@ -1353,15 +1615,15 @@ Object {
       aria-valuemax="100"
       aria-valuemin="0"
       aria-valuenow="75"
-      class="w-full relative rounded-full bg-trunks/[.24] h-4"
+      class="w-full rounded-full bg-beerus h-4"
       role="progressbar"
     >
       <div
-        class="progress absolute h-full rounded-full start-0 transition-all bg-piccolo"
+        class="progress relative h-full rounded-full start-0 transition-all bg-piccolo"
         style="width: 75%;"
       >
         <div
-          class="absolute box-content flex items-center justify-center w-8 h-8 border-2 font-medium text-moon-10-caption uppercase text-goten bg-popo border-goten rounded-full shadow-[0_2px_8px_0_rgba(0,0,0,0.16)] before:absolute before:bg-goten before:rounded-full before:shadow-[0_2px_8px_0_rgba(0,0,0,0.16)] after:absolute after:w-0 after:h-0 after:border-x-4 after:border-x-transparent after:-bottom-[6px] after:border-t-[6px] after:border-t-goten bottom-8 ltr:-right-[10px] rtl:-left-[10px] before:w-4 before:h-4 before:-bottom-[34px]"
+          class="absolute box-content flex items-center justify-center w-8 h-8 border-2 font-medium text-moon-10-caption uppercase text-goten bg-popo border-goten rounded-full shadow-[0_2px_8px_0_rgba(0,0,0,0.16)] before:shadow-[0_2px_8px_0_rgba(0,0,0,0.16)] before:absolute before:bg-goten before:rounded-full after:absolute after:w-0 after:h-0 after:border-x-4 after:border-x-transparent after:-bottom-[6px] after:border-t-[6px] after:border-t-goten bottom-8 -end-2.5 before:w-4 before:h-4 before:-bottom-[34px]"
         >
           75%
         </div>
