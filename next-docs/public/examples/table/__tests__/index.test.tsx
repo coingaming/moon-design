@@ -28,7 +28,15 @@ import CustomColumnWidths from '../CustomColumnWidths';
 
 const withRtl = (component: JSX.Element) => <div dir="rtl">{component}</div>;
 
+class ResizeObserver {
+  observe() {}
+  unobserve() {}
+  disconnect() {}
+}
+
 describe('Table', () => {
+  window.ResizeObserver = ResizeObserver;
+
   afterEach(cleanup);
   it('renders Default', () => {
     const tree = render(<Default />);
@@ -114,14 +122,15 @@ describe('Table', () => {
     const tree = render(<CustomColumnWidths />);
     expect(tree).toMatchSnapshot();
   });
-  /** Temporarily commented */
-  /* it('renders ExtraLongDataView', () => {
+  it('renders ExtraLongDataView', () => {
     const tree = render(<ExtraLongDataView />);
     expect(tree).toMatchSnapshot();
-  }); */
+  });
 });
 
 describe('Table in RTL', () => {
+  window.ResizeObserver = ResizeObserver;
+
   afterEach(cleanup);
   it('renders Default', () => {
     const tree = render(withRtl(<Default />));
@@ -207,9 +216,8 @@ describe('Table in RTL', () => {
     const tree = render(withRtl(<CustomColumnWidths />));
     expect(tree).toMatchSnapshot();
   });
-  /** Temporarily commented */
-  /* it('renders ExtraLongDataView', () => {
+  it('renders ExtraLongDataView', () => {
     const tree = render(withRtl(<ExtraLongDataView />));
     expect(tree).toMatchSnapshot();
-  }); */
+  });
 });
