@@ -7,6 +7,7 @@ import Default from '../Default';
 import Customisation from '../Customisation';
 import Values from '../Values';
 import Sizes from '../Sizes';
+import WithLabels from '../WithLabels';
 import WithPin from '../WithPin';
 
 const withRtl = (component: JSX.Element) => <div dir="rtl">{component}</div>;
@@ -33,6 +34,10 @@ describe('Progress', () => {
     const tree = render(<WithPin />);
     expect(tree).toMatchSnapshot();
   });
+  it('renders WithLabels', () => {
+    const tree = render(<WithLabels />);
+    expect(tree).toMatchSnapshot();
+  });
 });
 
 describe('Progress in RTL', () => {
@@ -55,6 +60,10 @@ describe('Progress in RTL', () => {
   });
   it('renders WithPin', () => {
     const tree = render(withRtl(<WithPin />));
+    expect(tree).toMatchSnapshot();
+  });
+  it('renders WithLabels', () => {
+    const tree = render(withRtl(<WithLabels />));
     expect(tree).toMatchSnapshot();
   });
 });
