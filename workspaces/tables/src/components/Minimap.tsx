@@ -13,14 +13,14 @@ const Minimap = ({ tableRef, footerRef, numberOfColumns }: MinimapProps) => {
   const handleUpdateViewport = useCallback(() => {
     if (!tableRef.current) return {};
 
-    const fullHeight = tableRef.current.scrollHeight;
-    const fullWidth = tableRef.current.scrollWidth;
+    const fullHeight = (tableRef.current.previousSibling as HTMLElement).scrollHeight;
+    const fullWidth = (tableRef.current.previousSibling as HTMLElement).scrollWidth;
 
-    const viewportHeight = tableRef.current.clientHeight;
-    const viewportWidth = tableRef.current.clientWidth;
+    const viewportHeight = (tableRef.current.previousSibling as HTMLElement).clientHeight;
+    const viewportWidth = (tableRef.current.previousSibling as HTMLElement).clientWidth;
 
-    const scrollTop = tableRef.current.scrollTop;
-    const scrollLeft = tableRef.current.scrollLeft;
+    const scrollTop = (tableRef.current.previousSibling as HTMLElement).scrollTop;
+    const scrollLeft = (tableRef.current.previousSibling as HTMLElement).scrollLeft;
 
     setStyles({
       height: `${(viewportHeight / fullHeight) * 100}%`,
@@ -44,7 +44,7 @@ const Minimap = ({ tableRef, footerRef, numberOfColumns }: MinimapProps) => {
   }, [footerRef, setFooterHeight]);
   useEffect(() => {
     if (!tableRef || !tableRef.current) return;
-    const current = tableRef.current;
+    const current = tableRef.current.previousSibling as HTMLElement;
 
     handleUpdateViewport();
     current.addEventListener('scroll', handleUpdateViewport, { passive: true });
