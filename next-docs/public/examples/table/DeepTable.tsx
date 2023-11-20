@@ -12,12 +12,24 @@ const Example = () => {
           {isAllRowsExpanded ? <ControlsChevronDown /> : <ControlsChevronRight />}
         </span>
       ),
-      Cell: ({ row }: any) =>
-        row.canExpand ? (
-          <span style={{ paddingLeft: `${row.depth * 2}rem` }}>
+      Cell: ({ row, toggleRowExpanded }: any) =>
+      <div className="flex h-full items-center">
+        {row.canExpand ? (
+          <span
+            {...row.getToggleRowExpandedProps({
+              style: {
+                paddingLeft: `${row.depth * 2}rem`,
+              },
+            })}
+            onClick={(e) => {
+              e.preventDefault();
+              toggleRowExpanded(row.id, row.isExpanded !== true);
+            }}
+          >
             {row.isExpanded ? <ControlsChevronDown /> : <ControlsChevronRight />}
           </span>
-        ) : null,
+        ) : null}
+      </div>
     },
     {
       Header: 'Name',
