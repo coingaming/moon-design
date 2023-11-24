@@ -1,10 +1,12 @@
 import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import type { ComponentNames } from '../../components/getComponent';
 import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Active from '../../public/examples/chip/Active';
 import Default from '../../public/examples/chip/Default';
+import Disabled from '../../public/examples/chip/Disabled';
 import Icons from '../../public/examples/chip/Icons';
 import IsStroke from '../../public/examples/chip/IsStroke';
 import IsStrokeIcons from '../../public/examples/chip/IsStrokeIcons';
@@ -12,7 +14,6 @@ import OnClick from '../../public/examples/chip/OnClick';
 import Sizes from '../../public/examples/chip/Sizes';
 import Variants from '../../public/examples/chip/Variants';
 import useComponent from '../../utils/useComponent';
-import type { ComponentNames } from '../../components/getComponent';
 
 const COMPONENT_NAME: ComponentNames = 'Chip';
 
@@ -49,6 +50,11 @@ const PageChip = () => {
         code={examples ? examples.Active : 'Loading'}
       />
       <Preview
+        title="Disabled"
+        preview={<Disabled />}
+        code={examples ? examples.Disabled : 'Loading'}
+      />
+      <Preview
         title="Icons"
         preview={<Icons />}
         code={examples ? examples.Icons : 'Loading'}
@@ -77,6 +83,13 @@ const PageChip = () => {
             required: false,
             default: '-',
             description: 'Children content',
+          },
+          {
+            name: 'disabled',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description: 'Disabled Chip',
           },
           {
             name: 'iconLeft',
@@ -118,14 +131,14 @@ const PageChip = () => {
             type: 'sm | md',
             required: false,
             default: 'md',
-            description: 'Size of chip',
+            description: 'Size of Chip',
           },
           {
             name: 'variant',
             type: 'default | ghost',
             required: false,
             default: 'default',
-            description: 'Visual/Logical variant of chip',
+            description: 'Visual/Logical variant of Chip',
           },
         ]}
       />

@@ -19,15 +19,15 @@ const getPadding = ({
     return 'p-1';
   }
   if (iconLeft && !iconRight) {
-    return `py-2 ps-2 pe-3`;
+    return 'py-2 ps-2 pe-3';
   }
   if (iconRight && !iconLeft) {
-    return `py-2 ps-3 pe-2`;
+    return 'py-2 ps-3 pe-2';
   }
   if (!iconRight && !iconLeft && !iconOnly) {
     return 'py-2 px-3';
   }
-  return `p-2`;
+  return 'p-2';
 };
 
 export default getPadding;

@@ -1,5 +1,7 @@
 import React, { forwardRef } from 'react';
 import type ChipProps from './private/types/ChipProps';
+import getActive from './private/utils/getActive';
+import getDisabled from './private/utils/getDisabled';
 import getPadding from './private/utils/getPadding';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
@@ -24,15 +26,12 @@ const Chip = forwardRef<HTMLButtonElement, ChipProps>(
       {...rest}
       className={mergeClassnames(
         'z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative',
-        'rounded-moon-i-sm cursor-pointer transition duration-200 hover:bg-jiren',
-        'hover:text-piccolo user-select-none',
-        iconOnly ? 'center' : 'space-between',
+        'rounded-moon-i-sm cursor-pointer transition duration-200 user-select-none space-between',
         size === 'sm' ? 'h-8 gap-1' : 'h-10 gap-2',
+        variant === 'default' && 'bg-goku',
         getPadding({ size, iconLeft, iconRight, iconOnly }),
-        variant === 'ghost' ? '' : 'bg-goku',
-        isActive ? 'bg-jiren text-piccolo' : 'text-bulma',
-        isStroke && 'hover:shadow-interactive',
-        isActive && isStroke && 'shadow-interactive',
+        getActive({ isActive, isStroke }),
+        getDisabled({ disabled: rest.disabled, isStroke }),
         className
       )}
       type="button"
