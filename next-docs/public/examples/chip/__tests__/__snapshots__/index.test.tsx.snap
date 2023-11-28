@@ -188,14 +188,12 @@ Object {
       >
         <button
           class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm transition duration-200 user-select-none space-between h-10 gap-2 py-2 px-3 text-bulma opacity-60 cursor-not-allowed"
-          disabled=""
           type="button"
         >
           Ghost variant
         </button>
         <button
           class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm transition duration-200 user-select-none space-between h-10 gap-2 bg-goku py-2 px-3 text-bulma opacity-60 cursor-not-allowed"
-          disabled=""
           type="button"
         >
           Default variant
@@ -209,14 +207,12 @@ Object {
     >
       <button
         class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm transition duration-200 user-select-none space-between h-10 gap-2 py-2 px-3 text-bulma opacity-60 cursor-not-allowed"
-        disabled=""
         type="button"
       >
         Ghost variant
       </button>
       <button
         class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm transition duration-200 user-select-none space-between h-10 gap-2 bg-goku py-2 px-3 text-bulma opacity-60 cursor-not-allowed"
-        disabled=""
         type="button"
       >
         Default variant
@@ -2012,14 +2008,12 @@ Object {
     <div>
       <button
         class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm transition duration-200 user-select-none space-between h-10 gap-2 py-2 px-3 text-bulma opacity-60 cursor-not-allowed"
-        disabled=""
         type="button"
       >
         Ghost variant
       </button>
       <button
         class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm transition duration-200 user-select-none space-between h-10 gap-2 bg-goku py-2 px-3 text-bulma opacity-60 cursor-not-allowed"
-        disabled=""
         type="button"
       >
         Default variant
@@ -2029,14 +2023,12 @@ Object {
   "container": <div>
     <button
       class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm transition duration-200 user-select-none space-between h-10 gap-2 py-2 px-3 text-bulma opacity-60 cursor-not-allowed"
-      disabled=""
       type="button"
     >
       Ghost variant
     </button>
     <button
       class="z-0 overflow-hidden flex flex-row items-center justify-center text-moon-14 relative rounded-moon-i-sm transition duration-200 user-select-none space-between h-10 gap-2 bg-goku py-2 px-3 text-bulma opacity-60 cursor-not-allowed"
-      disabled=""
       type="button"
     >
       Default variant
