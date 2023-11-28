@@ -6,6 +6,8 @@ import type { ComponentNames } from '../../components/getComponent';
 import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/tabs/Default';
+import SelectedIndex from '../../public/examples/tabs/SelectedIndex';
+import SelectedIndexSegment from '../../public/examples/tabs/SelectedIndexSegment';
 import DefaultPills from '../../public/examples/tabs/DefaultPills';
 import NoPanels from '../../public/examples/tabs/NoPanels';
 import Segment from '../../public/examples/tabs/Segment';
@@ -74,6 +76,16 @@ const PageTabs = () => {
         title="Default"
         preview={<DefaultPills />}
         code={examples ? examples.DefaultPills : 'Loading'}
+      />
+      <Preview
+        title="Selected Index"
+        preview={<SelectedIndex />}
+        code={examples ? examples.SelectedIndex : 'Loading'}
+      />
+      <Preview
+        title="Selected Index - Segment control view"
+        preview={<SelectedIndexSegment />}
+        code={examples ? examples.SelectedIndexSegment : 'Loading'}
       />
       <Preview
         title="Tabs only view"
