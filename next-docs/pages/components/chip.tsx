@@ -6,6 +6,7 @@ import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Active from '../../public/examples/chip/Active';
 import States from '../../public/examples/chip/States';
+import Customization from '../../public/examples/chip/Customization';
 import Default from '../../public/examples/chip/Default';
 import Disabled from '../../public/examples/chip/Disabled';
 import Icons from '../../public/examples/chip/Icons';
@@ -46,9 +47,14 @@ const PageChip = () => {
         code={examples ? examples.Variants : 'Loading'}
       />
       <Preview
-        title="States"
+        title="Maintain state on click"
         preview={<States />}
         code={examples ? examples.States : 'Loading'}
+      />
+      <Preview
+        title="Customization"
+        preview={<Customization />}
+        code={examples ? examples.Customization : 'Loading'}
       />
       <Preview
         title="Active"
