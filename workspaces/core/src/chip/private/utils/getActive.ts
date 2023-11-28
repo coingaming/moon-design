@@ -11,6 +11,3 @@ const getActive = ({
     : 'text-bulma';
 
 export default getActive;
-
-// isActive ? 'bg-jiren text-piccolo' : 'text-bulma',
-// isActive && isStroke && 'shadow-interactive',)

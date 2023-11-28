@@ -7,7 +7,7 @@ const getDisabled = ({
   disabled
     ? 'opacity-60 cursor-not-allowed'
     : isStroke
-    ? 'hover:shadow-interactive hover:text-piccolo hover:bg-jiren'
-    : 'hover:text-piccolo hover:bg-jiren';
+      ? 'hover:shadow-interactive hover:text-piccolo hover:bg-jiren'
+      : 'hover:text-piccolo hover:bg-jiren';
 
 export default getDisabled;

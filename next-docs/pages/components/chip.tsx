@@ -5,6 +5,7 @@ import type { ComponentNames } from '../../components/getComponent';
 import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Active from '../../public/examples/chip/Active';
+import States from '../../public/examples/chip/States';
 import Default from '../../public/examples/chip/Default';
 import Disabled from '../../public/examples/chip/Disabled';
 import Icons from '../../public/examples/chip/Icons';
@@ -43,6 +44,11 @@ const PageChip = () => {
         title="Variants"
         preview={<Variants />}
         code={examples ? examples.Variants : 'Loading'}
+      />
+      <Preview
+        title="States"
+        preview={<States />}
+        code={examples ? examples.States : 'Loading'}
       />
       <Preview
         title="Active"

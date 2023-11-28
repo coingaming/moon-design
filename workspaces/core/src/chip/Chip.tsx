@@ -17,6 +17,7 @@ const Chip = forwardRef<HTMLButtonElement, ChipProps>(
       isStroke,
       variant = 'default',
       className,
+      disabled,
       ...rest
     },
     ref
@@ -31,7 +32,7 @@ const Chip = forwardRef<HTMLButtonElement, ChipProps>(
         variant === 'default' && 'bg-goku',
         getPadding({ size, iconLeft, iconRight, iconOnly }),
         getActive({ isActive, isStroke }),
-        getDisabled({ disabled: rest.disabled, isStroke }),
+        getDisabled({ disabled, isStroke }),
         className
       )}
       type="button"
