@@ -14,6 +14,7 @@ const PopoverRoot = ({
   children,
   position = 'bottom',
   className,
+  autoPositionDisable = false,
 }: PopoverRootProps) => {
   const [anchorEl, setAnchorEl] = React.useState<Element | null>();
   const [popperEl, setPopperEl] = React.useState<HTMLElement | null>();
@@ -22,17 +23,31 @@ const PopoverRoot = ({
   const isArrow = state.childrens?.find((name) => name === 'Arrow');
   const offset = isArrow ? 16 : 8;
 
+  const defaultModifiers = [
+    {
+      name: 'offset',
+      options: {
+        offset: [0, offset],
+      },
+    },
+    { name: 'arrow', options: { element: arrowEl } },
+  ];
+
+  const modifiers = autoPositionDisable
+    ? [
+        ...defaultModifiers,
+        {
+          name: 'flip',
+          options: {
+            fallbackPlacements: [],
+          },
+        },
+      ]
+    : defaultModifiers;
+
   let { styles, attributes } = usePopper(anchorEl, popperEl, {
     placement: position,
-    modifiers: [
-      {
-        name: 'offset',
-        options: {
-          offset: [0, offset],
-        },
-      },
-      { name: 'arrow', options: { element: arrowEl } },
-    ],
+    modifiers: modifiers,
   });
   const states = {
     popper: {
