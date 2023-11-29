@@ -4,6 +4,7 @@ import ComponentPageDescription from '../../components/ComponentPageDescription'
 import type { ComponentNames } from '../../components/getComponent';
 import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
+import AutoPositionDisable from '../../public/examples/popover/AutoPositionDisable';
 import Default from '../../public/examples/popover/Default';
 import Position from '../../public/examples/popover/Position';
 import TooltipView from '../../public/examples/popover/TooltipView';
@@ -80,6 +81,12 @@ const PagePopover = () => {
         code={examples ? examples.TooltipView : 'Loading'}
       />
 
+      <Preview
+        title="Disable flip on component"
+        preview={<AutoPositionDisable />}
+        code={examples ? examples.AutoPositionDisable : 'Loading'}
+      />
+
       <PropsTable
         title="Popover"
         data={[
@@ -89,6 +96,13 @@ const PagePopover = () => {
             required: false,
             default: 'bottom',
             description: 'Set placement for popover',
+          },
+          {
+            name: 'autoPositionDisable',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description: 'Disable flip on component',
           },
           {
             name: 'Render Props: ',

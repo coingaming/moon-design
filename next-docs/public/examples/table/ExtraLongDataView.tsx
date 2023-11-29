@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Table } from "@heathmont/moon-table-tw";
 import { Button, Chip, Modal, Tag, Tooltip } from "@heathmont/moon-core-tw";
 import { ControlsClose, FilesExternalLink, Other3DotsHorizontal, TimeCalendarDate } from "@heathmont/moon-icons-tw";
@@ -145,7 +145,10 @@ const Example = () => {
   /** This service variable is being used to show/hide the tip
    * that pays attention to the call view icon at the page start.
    */
-  const [showTip, setShowTip] = useState(true);
+  const [showTip, setShowTip] = useState(false);
+  useEffect(() => {
+    setShowTip(true);
+  }, [setShowTip]);
 
   const expandDeals = () => {
     setShowTip(false);
