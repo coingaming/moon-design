@@ -11,20 +11,23 @@
     "test:update": "jest -u",
     "test:ci": "jest -w 1 --ci",
     "build:template:css": "npx tailwindcss -i ./styles/globals.css -o ./styles/output.css",
-    "analyze": "env ANALYZE=true next build"
+    "analyze": "env ANALYZE=true next build",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "@headlessui/react": "1.7.16",
     "@heathmont/moon-accordion": "workspace:^10.7.1",
     "@heathmont/moon-assets": "workspace:^10.7.1",
     "@heathmont/moon-charts": "workspace:^10.7.1",
-    "@heathmont/moon-components": "workspace:^10.7.1",
     "@heathmont/moon-cmdk-tw": "workspace:^10.11.0",
+    "@heathmont/moon-components": "workspace:^10.7.1",
     "@heathmont/moon-core": "workspace:^10.7.1",
     "@heathmont/moon-core-tw": "workspace:^10.11.0",
     "@heathmont/moon-datepicker": "workspace:^10.7.1",
     "@heathmont/moon-draggabletable": "workspace:^10.7.1",
     "@heathmont/moon-icons": "workspace:^10.7.1",
+    "@heathmont/moon-icons-tw": "9.28.6",
     "@heathmont/moon-pagination": "workspace:^10.7.1",
     "@heathmont/moon-popover": "workspace:^10.7.1",
     "@heathmont/moon-select": "workspace:^10.7.1",
@@ -33,8 +36,8 @@
     "@heathmont/moon-table-tw": "workspace:^10.11.0",
     "@heathmont/moon-themes": "workspace:^10.7.1",
     "@heathmont/moon-themes-tw": "workspace:^10.11.0",
+    "@heathmont/moon-base-tw": "workspace:^10.11.0",
     "@heathmont/moon-utils": "workspace:^10.7.1",
-    "@heathmont/moon-icons-tw": "9.28.6",
     "@hookform/resolvers": "3.2.0",
     "@jest/globals": "27.5.1",
     "@next/bundle-analyzer": "13.4.13",
@@ -68,12 +71,22 @@
     "zod": "3.21.4"
   },
   "devDependencies": {
+    "@storybook/addon-essentials": "^7.6.0",
+    "@storybook/addon-interactions": "^7.6.0",
+    "@storybook/addon-links": "^7.6.0",
+    "@storybook/addon-onboarding": "^1.0.8",
+    "@storybook/addon-designs": "7.0.5",
+    "@storybook/blocks": "^7.6.0",
+    "@storybook/nextjs": "^7.6.0",
+    "@storybook/react": "^7.6.0",
+    "@storybook/test": "^7.6.0",
     "@svgr/core": "6.5.1",
     "@svgr/plugin-jsx": "6.5.1",
     "@svgr/plugin-prettier": "6.5.1",
     "@types/lodash": "4.14.196",
     "@types/react-syntax-highlighter": "15.5.7",
     "duplicate-package-checker-webpack-plugin": "3.0.0",
-    "snapshot-diff": "0.10.0"
+    "snapshot-diff": "0.10.0",
+    "storybook": "^7.6.0"
   }
 }
