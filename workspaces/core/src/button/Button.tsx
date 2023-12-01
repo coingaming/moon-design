@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useCallback, useState } from 'react';
 import type ButtonProps from './private/types/ButtonProps';
 import AnimationContent from './private/utils/buttonAnimations/AnimationContent';
 import ButtonComponent from './styles/ButtonComponent';
@@ -29,6 +29,9 @@ const Button = <C extends React.ElementType = 'button'>({
   const [isHover, setIsHover] = useState(false);
   const hasAnimationContent =
     animation === 'progress' || animation === 'success';
+  const onMouseEnter = useCallback(() => setIsHover(true), [setIsHover]);
+  const onMouseLeave = useCallback(() => setIsHover(false), [setIsHover]);
+
   return (
     <ButtonComponent
       size={size}
@@ -41,8 +44,8 @@ const Button = <C extends React.ElementType = 'button'>({
       disabled={disabled}
       animation={animation}
       as={as}
-      onMouseEnter={() => setIsHover(true)}
-      onMouseLeave={() => setIsHover(false)}
+      onMouseEnter={onMouseEnter}
+      onMouseLeave={onMouseLeave}
       customClassName={className}
       {...rest}
     >
