@@ -11,6 +11,7 @@ import RootPortal from '../../public/examples/bottomSheet/RootPortal';
 import Sizes from '../../public/examples/bottomSheet/Sizes';
 import WithDraghandle from '../../public/examples/bottomSheet/WithDraghandle';
 import WithTitle from '../../public/examples/bottomSheet/WithTitle';
+import Nested from '../../public/examples/bottomSheet/Nested';
 import useComponent from '../../utils/useComponent';
 
 const COMPONENT_NAME: ComponentNames = 'BottomSheet';
@@ -111,6 +112,11 @@ const PageBottomSheet = () => {
         preview={<RootPortal />}
         code={examples ? examples.RootPortal : 'Loading'}
         description={<CustomRootDescription />}
+      />
+      <Preview
+        title="Nested"
+        preview={<Nested />}
+        code={examples ? examples.Nested : 'Loading'}
       />
       <PropsTable
         title="BottomSheet"
