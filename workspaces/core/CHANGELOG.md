@@ -1,5 +1,11 @@
 # @heathmont/moon-core-tw
 
+## 10.11.1
+
+### Patch Changes
+
+- Bump 10.11.1
+
 ## 10.11.0
 
 ### Minor Changes

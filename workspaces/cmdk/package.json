@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/moon-cmdk-tw",
   "sideEffects": false,
-  "version": "10.11.0",
+  "version": "10.11.1",
   "files": [
     "lib"
   ],
@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@headlessui/react": "1.7.16",
-    "@heathmont/moon-core-tw": "workspace:^10.11.0",
+    "@heathmont/moon-core-tw": "workspace:^10.11.1",
     "cmdk": "0.2.0",
     "tailwind-merge": "1.14.0",
     "tailwindcss-radix": "2.8.0"
