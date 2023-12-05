@@ -14,7 +14,7 @@ interface LabelProps
     >,
     'size'
   > {
-  className?: string;
+  className?: string;p
   type?: React.HTMLInputTypeAttribute;
   size?: 'sm' | 'md' | 'lg';
   disabled?: boolean;
