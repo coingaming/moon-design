@@ -56,7 +56,7 @@ const Switch = forwardRef<HTMLButtonElement, SwitchProps>(
           {onIcon && (
             <span
               className={mergeClassnames(
-                'z-1 absolute start-0 top-1/2 -translate-y-1/2 transition-opacity',
+                'absolute start-0 top-1/2 -translate-y-1/2 transition-opacity',
                 'text-goten',
                 getIconSize(size),
                 enabled ? 'opacity-100' : 'opacity-0'
@@ -69,7 +69,7 @@ const Switch = forwardRef<HTMLButtonElement, SwitchProps>(
           {offIcon && (
             <span
               className={mergeClassnames(
-                'z-1 absolute end-0 top-1/2 -translate-y-1/2 transition-opacity',
+                'absolute end-0 top-1/2 -translate-y-1/2 transition-opacity',
                 'text-bulma',
                 getIconSize(size),
                 enabled ? 'opacity-0' : 'opacity-100'
@@ -82,7 +82,7 @@ const Switch = forwardRef<HTMLButtonElement, SwitchProps>(
           <span
             aria-hidden="true"
             className={mergeClassnames(
-              'slider z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full',
+              'slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full',
               'bg-goten transition-all',
               getToggleSize(size),
               enabled ? getTogglePosition(size) : 'start-0'
