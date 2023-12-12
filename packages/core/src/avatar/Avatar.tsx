@@ -9,7 +9,7 @@ import type AvatarProps from './private/types/AvatarProps';
 
 const Avatar: React.FC<AvatarProps> = ({
   name,
-  imageUrl = '',
+  imageUrl = undefined,
   color = 'bulma.100',
   backgroundColor = 'gohan.100',
   size = Size.MEDIUM,
