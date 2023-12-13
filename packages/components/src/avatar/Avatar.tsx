@@ -35,7 +35,7 @@ const AvatarWrapper = styled.div<AvatarProps>(
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
-      backgroundImage: `url(${imageUrl})`,
+      backgroundImage: imageUrl ? `url(${imageUrl})`: 'none',
       backgroundSize: 'cover',
     },
     size === 'xsmall' && {
