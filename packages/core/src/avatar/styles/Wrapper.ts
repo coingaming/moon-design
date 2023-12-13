@@ -14,7 +14,7 @@ const Wrapper = styled.div<AvatarProps>(
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
-      backgroundImage: `url(${imageUrl})`,
+      ...(imageUrl ? {backgroundImage: `url(${imageUrl})`}: {}),
       backgroundSize: 'cover',
     },
     setWrapperSize(size),
