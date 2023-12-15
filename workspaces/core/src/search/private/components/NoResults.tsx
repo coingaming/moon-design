@@ -12,11 +12,9 @@ const NoResults = ({
   const { search } = useContext(SearchContext);
   return (
     <ListItem index={0} showType={false} {...props}>
-      <span
-        className={mergeClassnames('max-w-md truncate text-bulma', className)}
-      >
+      <p className={mergeClassnames('truncate text-bulma', className)}>
         {label} <span className="font-medium">"{search}"</span>
-      </span>
+      </p>
     </ListItem>
   );
 };
