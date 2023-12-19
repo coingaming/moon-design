@@ -32,10 +32,7 @@ const InputWrapper = ({
   ...props
 }: React.HTMLAttributes<HTMLDivElement>) => (
   <div
-    className={mergeClassnames(
-      'relative flex items-center gap-2 ps-3 py-4',
-      className
-    )}
+    className={mergeClassnames('flex items-center gap-2 px-3 py-4', className)}
     {...props}
   >
     {children}
@@ -51,7 +48,7 @@ const Input = ({
     placeholder={placeholder}
     className={mergeClassnames(
       'py-2 px-0 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent',
-      'placeholder-bulma text-bulma',
+      'placeholder-trunks text-bulma',
       className
     )}
     {...props}
@@ -78,8 +75,8 @@ const Kbd = ({
 }: React.HTMLAttributes<HTMLDivElement>) => (
   <kbd
     className={mergeClassnames(
-      'select-none hover:cursor-pointer text-trunks text-moon-10 transition absolute end-4',
-      'top-1/2 transform -translate-y-1/2 border border-trunks rounded-md p-1',
+      'select-none hover:cursor-pointer text-trunks text-moon-10 transition transform border',
+      'border-trunks rounded-md p-1',
       className
     )}
     {...props}

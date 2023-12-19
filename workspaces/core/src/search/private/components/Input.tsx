@@ -10,7 +10,7 @@ const Wrapper = ({
 }: React.HTMLAttributes<HTMLDivElement>) => (
   <div
     className={mergeClassnames(
-      'flex items-center ps-3 gap-2 moon-search-input',
+      'flex items-center px-3 gap-2 moon-search-input',
       className
     )}
     {...props}
@@ -96,8 +96,7 @@ export const ButtonClear = ({
       tabIndex={-1}
       type="button"
       className={mergeClassnames(
-        'cursor-pointer text-trunks text-moon-14 transition absolute end-4',
-        'top-1/2 transform -translate-y-1/2',
+        'cursor-pointer text-trunks text-moon-14 transition transform',
         className
       )}
       onClick={(e) => {
