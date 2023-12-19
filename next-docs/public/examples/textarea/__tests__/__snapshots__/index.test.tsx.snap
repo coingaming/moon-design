@@ -12,17 +12,17 @@ Object {
           class="flex flex-wrap md:flex-nowrap items-center justify-around gap-2 w-full"
         >
           <textarea
-            class="block appearance-none resize-none w-full p-4 text-moon-16 bg-goku rounded-moon-s-sm transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none text-krillin placeholder:text-whis"
+            class="block appearance-none resize-none w-full p-4 text-moon-16 bg-goku rounded-moon-s-sm transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea text-krillin placeholder:text-whis"
             placeholder="Custom text colour"
             rows="1"
           />
           <textarea
-            class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none outline-chichi hover:outline-piccolo focus:outline-krillin"
+            class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea outline-chichi hover:outline-piccolo focus:outline-krillin"
             placeholder="Custom border colour"
             rows="1"
           />
           <textarea
-            class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none bg-roshi-10"
+            class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea bg-roshi-10"
             placeholder="Custom background colour"
             rows="1"
           />
@@ -31,17 +31,17 @@ Object {
           class="flex flex-wrap md:flex-nowrap items-center justify-around gap-2 w-full"
         >
           <textarea
-            class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none resize-y"
+            class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea resize-y"
             placeholder="Resize vertically"
             rows="3"
           />
           <textarea
-            class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none resize-x"
+            class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea resize-x"
             placeholder="Resize horizontally"
             rows="3"
           />
           <textarea
-            class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none resize"
+            class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea resize"
             placeholder="Resize vertically and horizontally"
             rows="3"
           />
@@ -57,17 +57,17 @@ Object {
         class="flex flex-wrap md:flex-nowrap items-center justify-around gap-2 w-full"
       >
         <textarea
-          class="block appearance-none resize-none w-full p-4 text-moon-16 bg-goku rounded-moon-s-sm transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none text-krillin placeholder:text-whis"
+          class="block appearance-none resize-none w-full p-4 text-moon-16 bg-goku rounded-moon-s-sm transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea text-krillin placeholder:text-whis"
           placeholder="Custom text colour"
           rows="1"
         />
         <textarea
-          class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none outline-chichi hover:outline-piccolo focus:outline-krillin"
+          class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea outline-chichi hover:outline-piccolo focus:outline-krillin"
           placeholder="Custom border colour"
           rows="1"
         />
         <textarea
-          class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none bg-roshi-10"
+          class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea bg-roshi-10"
           placeholder="Custom background colour"
           rows="1"
         />
@@ -76,17 +76,17 @@ Object {
         class="flex flex-wrap md:flex-nowrap items-center justify-around gap-2 w-full"
       >
         <textarea
-          class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none resize-y"
+          class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea resize-y"
           placeholder="Resize vertically"
           rows="3"
         />
         <textarea
-          class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none resize-x"
+          class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea resize-x"
           placeholder="Resize horizontally"
           rows="3"
         />
         <textarea
-          class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none resize"
+          class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea resize"
           placeholder="Resize vertically and horizontally"
           rows="3"
         />
@@ -157,7 +157,7 @@ Object {
       >
         <textarea
           aria-label="Textarea"
-          class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none"
+          class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea"
         />
       </div>
     </div>
@@ -168,7 +168,7 @@ Object {
     >
       <textarea
         aria-label="Textarea"
-        class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none"
+        class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea"
       />
     </div>
   </div>,
@@ -241,7 +241,7 @@ Object {
             class="w-full"
           >
             <textarea
-              class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none opacity-60 cursor-not-allowed"
+              class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea opacity-60 cursor-not-allowed"
               disabled=""
               placeholder="Disabled"
             />
@@ -256,7 +256,7 @@ Object {
             class="w-full"
           >
             <textarea
-              class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow focus:outline-none shadow-textarea-err hover:shadow-textarea-err focus:shadow-textarea-err"
+              class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea shadow-textarea-err hover:shadow-textarea-err focus:shadow-textarea-err"
               placeholder="Error"
             />
             <p
@@ -284,7 +284,7 @@ Object {
             class="w-full"
           >
             <textarea
-              class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none"
+              class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea"
               placeholder="Read only"
               readonly=""
             />
@@ -310,7 +310,7 @@ Object {
           class="w-full"
         >
           <textarea
-            class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none opacity-60 cursor-not-allowed"
+            class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea opacity-60 cursor-not-allowed"
             disabled=""
             placeholder="Disabled"
           />
@@ -325,7 +325,7 @@ Object {
           class="w-full"
         >
           <textarea
-            class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow focus:outline-none shadow-textarea-err hover:shadow-textarea-err focus:shadow-textarea-err"
+            class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea shadow-textarea-err hover:shadow-textarea-err focus:shadow-textarea-err"
             placeholder="Error"
           />
           <p
@@ -353,7 +353,7 @@ Object {
           class="w-full"
         >
           <textarea
-            class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none"
+            class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea"
             placeholder="Read only"
             readonly=""
           />
@@ -436,7 +436,7 @@ Object {
             class="w-full relative"
           >
             <textarea
-              class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none pb-0 border-b-[4.5rem] border-b-goku border-solid"
+              class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea pb-0 border-b-[4.5rem] border-b-goku border-solid"
               placeholder="Text area with button"
               rows="3"
             />
@@ -455,7 +455,7 @@ Object {
             class="w-full relative"
           >
             <textarea
-              class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none resize-y pb-0 border-b-[4.5rem] border-b-goku border-solid"
+              class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea resize-y pb-0 border-b-[4.5rem] border-b-goku border-solid"
               placeholder="Text area with scaling and button"
               rows="3"
             />
@@ -485,7 +485,7 @@ Object {
           class="w-full relative"
         >
           <textarea
-            class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none pb-0 border-b-[4.5rem] border-b-goku border-solid"
+            class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea pb-0 border-b-[4.5rem] border-b-goku border-solid"
             placeholder="Text area with button"
             rows="3"
           />
@@ -504,7 +504,7 @@ Object {
           class="w-full relative"
         >
           <textarea
-            class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none resize-y pb-0 border-b-[4.5rem] border-b-goku border-solid"
+            class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea resize-y pb-0 border-b-[4.5rem] border-b-goku border-solid"
             placeholder="Text area with scaling and button"
             rows="3"
           />
@@ -585,17 +585,17 @@ Object {
         class="flex flex-wrap md:flex-nowrap items-center justify-around gap-2 w-full"
       >
         <textarea
-          class="block appearance-none resize-none w-full p-4 text-moon-16 bg-goku rounded-moon-s-sm transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none text-krillin placeholder:text-whis"
+          class="block appearance-none resize-none w-full p-4 text-moon-16 bg-goku rounded-moon-s-sm transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea text-krillin placeholder:text-whis"
           placeholder="Custom text colour"
           rows="1"
         />
         <textarea
-          class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none outline-chichi hover:outline-piccolo focus:outline-krillin"
+          class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea outline-chichi hover:outline-piccolo focus:outline-krillin"
           placeholder="Custom border colour"
           rows="1"
         />
         <textarea
-          class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none bg-roshi-10"
+          class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea bg-roshi-10"
           placeholder="Custom background colour"
           rows="1"
         />
@@ -604,17 +604,17 @@ Object {
         class="flex flex-wrap md:flex-nowrap items-center justify-around gap-2 w-full"
       >
         <textarea
-          class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none resize-y"
+          class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea resize-y"
           placeholder="Resize vertically"
           rows="3"
         />
         <textarea
-          class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none resize-x"
+          class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea resize-x"
           placeholder="Resize horizontally"
           rows="3"
         />
         <textarea
-          class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none resize"
+          class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea resize"
           placeholder="Resize vertically and horizontally"
           rows="3"
         />
@@ -626,17 +626,17 @@ Object {
       class="flex flex-wrap md:flex-nowrap items-center justify-around gap-2 w-full"
     >
       <textarea
-        class="block appearance-none resize-none w-full p-4 text-moon-16 bg-goku rounded-moon-s-sm transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none text-krillin placeholder:text-whis"
+        class="block appearance-none resize-none w-full p-4 text-moon-16 bg-goku rounded-moon-s-sm transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea text-krillin placeholder:text-whis"
         placeholder="Custom text colour"
         rows="1"
       />
       <textarea
-        class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none outline-chichi hover:outline-piccolo focus:outline-krillin"
+        class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea outline-chichi hover:outline-piccolo focus:outline-krillin"
         placeholder="Custom border colour"
         rows="1"
       />
       <textarea
-        class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none bg-roshi-10"
+        class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea bg-roshi-10"
         placeholder="Custom background colour"
         rows="1"
       />
@@ -645,17 +645,17 @@ Object {
       class="flex flex-wrap md:flex-nowrap items-center justify-around gap-2 w-full"
     >
       <textarea
-        class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none resize-y"
+        class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea resize-y"
         placeholder="Resize vertically"
         rows="3"
       />
       <textarea
-        class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none resize-x"
+        class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea resize-x"
         placeholder="Resize horizontally"
         rows="3"
       />
       <textarea
-        class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none resize"
+        class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea resize"
         placeholder="Resize vertically and horizontally"
         rows="3"
       />
@@ -722,14 +722,14 @@ Object {
     <div>
       <textarea
         aria-label="Textarea"
-        class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none"
+        class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea"
       />
     </div>
   </body>,
   "container": <div>
     <textarea
       aria-label="Textarea"
-      class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none"
+      class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea"
     />
   </div>,
   "debug": [Function],
@@ -798,7 +798,7 @@ Object {
           class="w-full"
         >
           <textarea
-            class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none opacity-60 cursor-not-allowed"
+            class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea opacity-60 cursor-not-allowed"
             disabled=""
             placeholder="Disabled"
           />
@@ -813,7 +813,7 @@ Object {
           class="w-full"
         >
           <textarea
-            class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow focus:outline-none shadow-textarea-err hover:shadow-textarea-err focus:shadow-textarea-err"
+            class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea shadow-textarea-err hover:shadow-textarea-err focus:shadow-textarea-err"
             placeholder="Error"
           />
           <p
@@ -841,7 +841,7 @@ Object {
           class="w-full"
         >
           <textarea
-            class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none"
+            class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea"
             placeholder="Read only"
             readonly=""
           />
@@ -863,7 +863,7 @@ Object {
         class="w-full"
       >
         <textarea
-          class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none opacity-60 cursor-not-allowed"
+          class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea opacity-60 cursor-not-allowed"
           disabled=""
           placeholder="Disabled"
         />
@@ -878,7 +878,7 @@ Object {
         class="w-full"
       >
         <textarea
-          class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow focus:outline-none shadow-textarea-err hover:shadow-textarea-err focus:shadow-textarea-err"
+          class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea shadow-textarea-err hover:shadow-textarea-err focus:shadow-textarea-err"
           placeholder="Error"
         />
         <p
@@ -906,7 +906,7 @@ Object {
         class="w-full"
       >
         <textarea
-          class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none"
+          class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea"
           placeholder="Read only"
           readonly=""
         />
@@ -985,7 +985,7 @@ Object {
           class="w-full relative"
         >
           <textarea
-            class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none pb-0 border-b-[4.5rem] border-b-goku border-solid"
+            class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea pb-0 border-b-[4.5rem] border-b-goku border-solid"
             placeholder="Text area with button"
             rows="3"
           />
@@ -1004,7 +1004,7 @@ Object {
           class="w-full relative"
         >
           <textarea
-            class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none resize-y pb-0 border-b-[4.5rem] border-b-goku border-solid"
+            class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea resize-y pb-0 border-b-[4.5rem] border-b-goku border-solid"
             placeholder="Text area with scaling and button"
             rows="3"
           />
@@ -1030,7 +1030,7 @@ Object {
         class="w-full relative"
       >
         <textarea
-          class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none pb-0 border-b-[4.5rem] border-b-goku border-solid"
+          class="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea pb-0 border-b-[4.5rem] border-b-goku border-solid"
           placeholder="Text area with button"
           rows="3"
         />
@@ -1049,7 +1049,7 @@ Object {
         class="w-full relative"
       >
         <textarea
-          class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none resize-y pb-0 border-b-[4.5rem] border-b-goku border-solid"
+          class="block appearance-none w-full p-4 text-moon-16 text-bulma bg-goku rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-textarea read-only:focus:shadow-textarea read-only:focus-visible:shadow-textarea resize-y pb-0 border-b-[4.5rem] border-b-goku border-solid"
           placeholder="Text area with scaling and button"
           rows="3"
         />

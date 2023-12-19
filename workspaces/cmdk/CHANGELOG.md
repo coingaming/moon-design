@@ -1,5 +1,16 @@
 # @heathmont/moon-cmdk-tw
 
+## 10.12.0
+
+### Minor Changes
+
+- Hub88 fixes - Search
+
+### Patch Changes
+
+- Updated dependencies
+  - @heathmont/moon-core-tw@10.12.0
+
 ## 10.11.2
 
 ### Patch Changes

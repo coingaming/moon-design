@@ -86,7 +86,7 @@ Object {
           Command Menu
         </label>
         <div
-          class="relative flex items-center gap-2 ps-3 py-4"
+          class="flex items-center gap-2 px-3 py-4"
         >
           <svg
             class="w-6 h-6 pointer-events-none text-bulma"
@@ -109,7 +109,7 @@ Object {
             aria-labelledby=":re:"
             autocomplete="off"
             autocorrect="off"
-            class="py-2 px-0 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent placeholder-bulma text-bulma"
+            class="py-2 px-0 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent placeholder-trunks text-bulma"
             cmdk-input=""
             id=":rf:"
             placeholder="Search for a component"
@@ -119,7 +119,7 @@ Object {
             value=""
           />
           <kbd
-            class="select-none hover:cursor-pointer text-trunks text-moon-10 transition absolute end-4 top-1/2 transform -translate-y-1/2 border border-trunks rounded-md p-1"
+            class="select-none hover:cursor-pointer text-trunks text-moon-10 transition transform border border-trunks rounded-md p-1"
           >
             Esc
           </kbd>
@@ -364,7 +364,7 @@ Object {
           Command Menu
         </label>
         <div
-          class="relative flex items-center gap-2 ps-3 py-4"
+          class="flex items-center gap-2 px-3 py-4"
         >
           <svg
             class="w-6 h-6 pointer-events-none text-bulma"
@@ -387,7 +387,7 @@ Object {
             aria-labelledby=":r4:"
             autocomplete="off"
             autocorrect="off"
-            class="py-2 px-0 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent placeholder-bulma text-bulma"
+            class="py-2 px-0 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent placeholder-trunks text-bulma"
             cmdk-input=""
             id=":r5:"
             placeholder="Search for a component"
@@ -397,7 +397,7 @@ Object {
             value=""
           />
           <kbd
-            class="select-none hover:cursor-pointer text-trunks text-moon-10 transition absolute end-4 top-1/2 transform -translate-y-1/2 border border-trunks rounded-md p-1"
+            class="select-none hover:cursor-pointer text-trunks text-moon-10 transition transform border border-trunks rounded-md p-1"
           >
             Esc
           </kbd>
