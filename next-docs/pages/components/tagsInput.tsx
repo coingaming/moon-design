@@ -25,10 +25,13 @@ const PageTagsInput = () => {
       >
         <p>{text}</p>
         <p>
-          These selected text entries are being dispalyed as tags. Tags represent a set of interactive keywords that help organise and categorise objects.
+          These selected text entries are being displayed as tags. Tags
+          represent a set of interactive keywords that help organize and
+          categorize objects.
         </p>
         <p>
-          Tags can be added by pressing the Enter key or removed by the mouse click from the input element.
+          Tags can be added by pressing the Enter key or removed by Backspace
+          key or the mouse click from the input element.
         </p>
       </ComponentPageDescription>
 
@@ -120,15 +123,15 @@ const PageTagsInput = () => {
             type: '(value: string) => void;',
             required: false,
             default: '-',
-            description: 'The function to select the text and append it to the tag set.',
+            description:
+              'The function to select the text and append it to the tag set.',
           },
           {
             name: 'onClear',
             type: '(index: number) => void',
             required: false,
             default: '-',
-            description:
-              'The function to remove the selected tag.',
+            description: 'The function to remove the selected tag.',
           },
         ]}
       />
