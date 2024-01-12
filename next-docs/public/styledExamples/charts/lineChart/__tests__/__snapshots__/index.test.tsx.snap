@@ -2,7 +2,7 @@
 
 exports[`Line Chart renders 1`] = `
 <div
-  className="sc-gHZGBh dvFXZJ"
+  className="sc-eDknUU hcpnpQ"
   style={
     Object {
       "height": 526,
@@ -10,14 +10,14 @@ exports[`Line Chart renders 1`] = `
   }
 >
   <div
-    className="sc-kbMABK dnuCHp"
+    className="sc-dhHMav lFNNO"
   >
     <button
-      className="sc-eNVtYQ dvhexz"
+      className="sc-kfrMjd eDdATj"
       onClick={[Function]}
     >
       <svg
-        className="sc-bBrHrO sc-GvdFf  eTPCza"
+        className="sc-fHjqPf sc-iUVXli  iPpPzF"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -32,11 +32,11 @@ exports[`Line Chart renders 1`] = `
     </button>
     <div />
     <button
-      className="sc-eNVtYQ fJFfEx"
+      className="sc-kfrMjd elMmsp"
       onClick={[Function]}
     >
       <svg
-        className="sc-fmrZth"
+        className="sc-cVzyXs"
         fill="none"
         fontSize="1.5rem"
         height="1em"
@@ -53,11 +53,11 @@ exports[`Line Chart renders 1`] = `
       </svg>
     </button>
     <button
-      className="sc-eNVtYQ fJFfEx"
+      className="sc-kfrMjd elMmsp"
       onClick={[Function]}
     >
       <svg
-        className="sc-olbas"
+        className="sc-iHbSHJ"
         fill="none"
         fontSize="1.5rem"
         height="1em"
@@ -75,10 +75,10 @@ exports[`Line Chart renders 1`] = `
     </button>
   </div>
   <div
-    className="sc-dwOrSJ csjpmC"
+    className="sc-fjtNA kUFXiz"
   >
     <div
-      className="sc-WywnD fAcKcD"
+      className="sc-hPbuba bRaXBd"
     >
       <svg
         fill="none"
@@ -146,29 +146,29 @@ exports[`Line Chart renders 1`] = `
       </svg>
     </div>
     <p
-      className="sc-fIiyQQ sc-jPzPiz bNNRsz eQkglR"
+      className="sc-fxLEgV sc-gLjfqm dhlkZH ftsoyk"
       size={20}
     >
       KPI Overview
     </p>
     <div
-      className="sc-fsquOa"
+      className="sc-gPPVPr"
     >
       <div
-        className="sc-kTipSN dvTdCl"
+        className="sc-iUjJOc kouNPr"
       >
         <button
-          className="sc-jmpIuw dZafbA"
+          className="sc-lSAGt bpbSPx"
           onClick={[Function]}
         >
           <p
-            className="sc-fIiyQQ sc-isSunH gQihTb eQUlhz"
+            className="sc-fxLEgV sc-foGaCG eetmPL hRHMAP"
             size={14}
           >
             by all devices
           </p>
           <svg
-            className="sc-jOrMOR"
+            className="sc-fXSgeo"
             fill="none"
             fontSize="1.5rem"
             height="1em"
@@ -188,102 +188,102 @@ exports[`Line Chart renders 1`] = `
     </div>
   </div>
   <div
-    className="sc-epHXCM lmoQFY"
+    className="sc-gPdIsl dWFjb"
   >
     <div
-      className="sc-fhHfFj kdwgBO"
+      className="sc-QFgvm hOMLZk"
     >
       <button
-        className="sc-jDzefG hjCuHa"
+        className="sc-lgPrIz jnZkvh"
         onClick={[Function]}
       >
         <div
-          className="sc-bqxtXh fLYZpz"
+          className="sc-jkSlrA kDLxfU"
           color="frieza.100"
         />
         <div
-          className="sc-fMpsxE drVSXx"
+          className="sc-ilGNfR bkunXV"
         >
           Active players
         </div>
         <div
-          className="sc-iulJQu cIFCNs"
+          className="sc-gkKXDf cOsEEq"
         >
           3,174
         </div>
       </button>
       <button
-        className="sc-jDzefG hjCuHa"
+        className="sc-lgPrIz jnZkvh"
         onClick={[Function]}
       >
         <div
-          className="sc-bqxtXh kOngKV"
+          className="sc-jkSlrA euBRuO"
           color="krillin.100"
         />
         <div
-          className="sc-fMpsxE drVSXx"
+          className="sc-ilGNfR bkunXV"
         >
           Turnover
         </div>
         <div
-          className="sc-iulJQu cIFCNs"
+          className="sc-gkKXDf cOsEEq"
         >
           12,174.23
         </div>
       </button>
       <button
-        className="sc-jDzefG cwa-Dkw"
+        className="sc-lgPrIz dMaqXD"
         onClick={[Function]}
       >
         <div
-          className="sc-bqxtXh igOnwD"
+          className="sc-jkSlrA jMvNXU"
           color="roshi.100"
         />
         <div
-          className="sc-fMpsxE drVSXx"
+          className="sc-ilGNfR bkunXV"
         >
           GGR
         </div>
         <div
-          className="sc-iulJQu cIFCNs"
+          className="sc-gkKXDf cOsEEq"
         >
           12,174.23
         </div>
       </button>
       <button
-        className="sc-jDzefG hjCuHa"
+        className="sc-lgPrIz jnZkvh"
         onClick={[Function]}
       >
         <div
-          className="sc-bqxtXh eIwcfq"
+          className="sc-jkSlrA fJpcBN"
           color="whis.100"
         />
         <div
-          className="sc-fMpsxE drVSXx"
+          className="sc-ilGNfR bkunXV"
         >
           Bets
         </div>
         <div
-          className="sc-iulJQu cIFCNs"
+          className="sc-gkKXDf cOsEEq"
         >
           3,174
         </div>
       </button>
       <button
-        className="sc-jDzefG cwa-Dkw"
+        className="sc-lgPrIz dMaqXD"
         onClick={[Function]}
       >
         <div
-          className="sc-bqxtXh MsZzX"
+          className="sc-jkSlrA hqIjkQ"
           color="chiChi.100"
         />
         <div
-          className="sc-fMpsxE drVSXx"
+          className="sc-ilGNfR bkunXV"
         >
           Margin
         </div>
         <div
-          className="sc-iulJQu cIFCNs"
+          className="sc-gkKXDf cOsEEq"
         >
           5.38%
         </div>
@@ -291,7 +291,7 @@ exports[`Line Chart renders 1`] = `
     </div>
   </div>
   <div
-    className="recharts-responsive-container sc-kberoL wVcOr"
+    className="recharts-responsive-container sc-dDGxlS dWQLGj"
     style={
       Object {
         "height": "100%",
@@ -310,7 +310,7 @@ exports[`Line Chart renders Loading 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-gHZGBh dvFXZJ"
+    className="sc-eDknUU hcpnpQ"
     style={
       Object {
         "height": 526,
@@ -318,14 +318,14 @@ exports[`Line Chart renders Loading 1`] = `
     }
   >
     <div
-      className="sc-kbMABK dnuCHp"
+      className="sc-dhHMav lFNNO"
     >
       <button
-        className="sc-eNVtYQ dvhexz"
+        className="sc-kfrMjd eDdATj"
         onClick={[Function]}
       >
         <svg
-          className="sc-bBrHrO sc-GvdFf  eTPCza"
+          className="sc-fHjqPf sc-iUVXli  iPpPzF"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -340,11 +340,11 @@ exports[`Line Chart renders Loading 1`] = `
       </button>
       <div />
       <button
-        className="sc-eNVtYQ fJFfEx"
+        className="sc-kfrMjd elMmsp"
         onClick={[Function]}
       >
         <svg
-          className="sc-fmrZth"
+          className="sc-cVzyXs"
           fill="none"
           fontSize="1.5rem"
           height="1em"
@@ -361,11 +361,11 @@ exports[`Line Chart renders Loading 1`] = `
         </svg>
       </button>
       <button
-        className="sc-eNVtYQ fJFfEx"
+        className="sc-kfrMjd elMmsp"
         onClick={[Function]}
       >
         <svg
-          className="sc-olbas"
+          className="sc-iHbSHJ"
           fill="none"
           fontSize="1.5rem"
           height="1em"
@@ -383,10 +383,10 @@ exports[`Line Chart renders Loading 1`] = `
       </button>
     </div>
     <div
-      className="sc-dwOrSJ csjpmC"
+      className="sc-fjtNA kUFXiz"
     >
       <div
-        className="sc-WywnD fAcKcD"
+        className="sc-hPbuba bRaXBd"
       >
         <svg
           fill="none"
@@ -454,29 +454,29 @@ exports[`Line Chart renders Loading 1`] = `
         </svg>
       </div>
       <p
-        className="sc-fIiyQQ sc-jPzPiz bNNRsz eQkglR"
+        className="sc-fxLEgV sc-gLjfqm dhlkZH ftsoyk"
         size={20}
       >
         KPI Overview
       </p>
       <div
-        className="sc-fsquOa"
+        className="sc-gPPVPr"
       >
         <div
-          className="sc-kTipSN dvTdCl"
+          className="sc-iUjJOc kouNPr"
         >
           <button
-            className="sc-jmpIuw dZafbA"
+            className="sc-lSAGt bpbSPx"
             onClick={[Function]}
           >
             <p
-              className="sc-fIiyQQ sc-isSunH gQihTb eQUlhz"
+              className="sc-fxLEgV sc-foGaCG eetmPL hRHMAP"
               size={14}
             >
               by all devices
             </p>
             <svg
-              className="sc-jOrMOR"
+              className="sc-fXSgeo"
               fill="none"
               fontSize="1.5rem"
               height="1em"
@@ -496,7 +496,7 @@ exports[`Line Chart renders Loading 1`] = `
       </div>
     </div>
     <div
-      className="sc-bujudj kIUEEL"
+      className="sc-bcgPVu gzPiiB"
     >
       <svg
         fill="none"
@@ -514,7 +514,7 @@ exports[`Line Chart renders Loading 1`] = `
         />
       </svg>
       <p
-        className="sc-fIiyQQ sc-hSGqtg icZmog hgCdOh"
+        className="sc-fxLEgV sc-kvtFaN cyXxjU juQQBG"
         color="trunks.100"
         size={14}
       >
@@ -523,7 +523,7 @@ exports[`Line Chart renders Loading 1`] = `
     </div>
   </div>
   <div
-    className="sc-gHZGBh dvFXZJ"
+    className="sc-eDknUU hcpnpQ"
     style={
       Object {
         "height": 526,
@@ -531,14 +531,14 @@ exports[`Line Chart renders Loading 1`] = `
     }
   >
     <div
-      className="sc-kbMABK dnuCHp"
+      className="sc-dhHMav lFNNO"
     >
       <button
-        className="sc-eNVtYQ dvhexz"
+        className="sc-kfrMjd eDdATj"
         onClick={[Function]}
       >
         <svg
-          className="sc-bBrHrO sc-GvdFf  eTPCza"
+          className="sc-fHjqPf sc-iUVXli  iPpPzF"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -553,11 +553,11 @@ exports[`Line Chart renders Loading 1`] = `
       </button>
       <div />
       <button
-        className="sc-eNVtYQ fJFfEx"
+        className="sc-kfrMjd elMmsp"
         onClick={[Function]}
       >
         <svg
-          className="sc-fmrZth"
+          className="sc-cVzyXs"
           fill="none"
           fontSize="1.5rem"
           height="1em"
@@ -574,11 +574,11 @@ exports[`Line Chart renders Loading 1`] = `
         </svg>
       </button>
       <button
-        className="sc-eNVtYQ fJFfEx"
+        className="sc-kfrMjd elMmsp"
         onClick={[Function]}
       >
         <svg
-          className="sc-olbas"
+          className="sc-iHbSHJ"
           fill="none"
           fontSize="1.5rem"
           height="1em"
@@ -596,10 +596,10 @@ exports[`Line Chart renders Loading 1`] = `
       </button>
     </div>
     <div
-      className="sc-dwOrSJ csjpmC"
+      className="sc-fjtNA kUFXiz"
     >
       <div
-        className="sc-WywnD fAcKcD"
+        className="sc-hPbuba bRaXBd"
       >
         <svg
           fill="none"
@@ -667,29 +667,29 @@ exports[`Line Chart renders Loading 1`] = `
         </svg>
       </div>
       <p
-        className="sc-fIiyQQ sc-jPzPiz bNNRsz eQkglR"
+        className="sc-fxLEgV sc-gLjfqm dhlkZH ftsoyk"
         size={20}
       >
         KPI Overview
       </p>
       <div
-        className="sc-fsquOa"
+        className="sc-gPPVPr"
       >
         <div
-          className="sc-kTipSN dvTdCl"
+          className="sc-iUjJOc kouNPr"
         >
           <button
-            className="sc-jmpIuw dZafbA"
+            className="sc-lSAGt bpbSPx"
             onClick={[Function]}
           >
             <p
-              className="sc-fIiyQQ sc-isSunH gQihTb eQUlhz"
+              className="sc-fxLEgV sc-foGaCG eetmPL hRHMAP"
               size={14}
             >
               by all devices
             </p>
             <svg
-              className="sc-jOrMOR"
+              className="sc-fXSgeo"
               fill="none"
               fontSize="1.5rem"
               height="1em"
@@ -709,102 +709,102 @@ exports[`Line Chart renders Loading 1`] = `
       </div>
     </div>
     <div
-      className="sc-epHXCM lmoQFY"
+      className="sc-gPdIsl dWFjb"
     >
       <div
-        className="sc-fhHfFj kdwgBO"
+        className="sc-QFgvm hOMLZk"
       >
         <button
-          className="sc-jDzefG hjCuHa"
+          className="sc-lgPrIz jnZkvh"
           onClick={[Function]}
         >
           <div
-            className="sc-bqxtXh fLYZpz"
+            className="sc-jkSlrA kDLxfU"
             color="frieza.100"
           />
           <div
-            className="sc-fMpsxE drVSXx"
+            className="sc-ilGNfR bkunXV"
           >
             Active players
           </div>
           <div
-            className="sc-iulJQu cIFCNs"
+            className="sc-gkKXDf cOsEEq"
           >
             3,174
           </div>
         </button>
         <button
-          className="sc-jDzefG hjCuHa"
+          className="sc-lgPrIz jnZkvh"
           onClick={[Function]}
         >
           <div
-            className="sc-bqxtXh kOngKV"
+            className="sc-jkSlrA euBRuO"
             color="krillin.100"
           />
           <div
-            className="sc-fMpsxE drVSXx"
+            className="sc-ilGNfR bkunXV"
           >
             Turnover
           </div>
           <div
-            className="sc-iulJQu cIFCNs"
+            className="sc-gkKXDf cOsEEq"
           >
             12,174.23
           </div>
         </button>
         <button
-          className="sc-jDzefG cwa-Dkw"
+          className="sc-lgPrIz dMaqXD"
           onClick={[Function]}
         >
           <div
-            className="sc-bqxtXh igOnwD"
+            className="sc-jkSlrA jMvNXU"
             color="roshi.100"
           />
           <div
-            className="sc-fMpsxE drVSXx"
+            className="sc-ilGNfR bkunXV"
           >
             GGR
           </div>
           <div
-            className="sc-iulJQu cIFCNs"
+            className="sc-gkKXDf cOsEEq"
           >
             12,174.23
           </div>
         </button>
         <button
-          className="sc-jDzefG hjCuHa"
+          className="sc-lgPrIz jnZkvh"
           onClick={[Function]}
         >
           <div
-            className="sc-bqxtXh eIwcfq"
+            className="sc-jkSlrA fJpcBN"
             color="whis.100"
           />
           <div
-            className="sc-fMpsxE drVSXx"
+            className="sc-ilGNfR bkunXV"
           >
             Bets
           </div>
           <div
-            className="sc-iulJQu cIFCNs"
+            className="sc-gkKXDf cOsEEq"
           >
             3,174
           </div>
         </button>
         <button
-          className="sc-jDzefG cwa-Dkw"
+          className="sc-lgPrIz dMaqXD"
           onClick={[Function]}
         >
           <div
-            className="sc-bqxtXh MsZzX"
+            className="sc-jkSlrA hqIjkQ"
             color="chiChi.100"
           />
           <div
-            className="sc-fMpsxE drVSXx"
+            className="sc-ilGNfR bkunXV"
           >
             Margin
           </div>
           <div
-            className="sc-iulJQu cIFCNs"
+            className="sc-gkKXDf cOsEEq"
           >
             5.38%
           </div>
@@ -812,7 +812,7 @@ exports[`Line Chart renders Loading 1`] = `
       </div>
     </div>
     <div
-      className="recharts-responsive-container sc-kberoL wVcOr"
+      className="recharts-responsive-container sc-dDGxlS dWQLGj"
       style={
         Object {
           "height": "100%",
