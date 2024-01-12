@@ -2,7 +2,7 @@
 
 exports[`Dialog Overlay renders 1`] = `
 <button
-  className="sc-llyFOc iorgxe"
+  className="sc-iqWOwV eLLZwp"
   onClick={[Function]}
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
@@ -10,7 +10,7 @@ exports[`Dialog Overlay renders 1`] = `
 >
   Open Dialog
   <div
-    className="sc-dbbhXq cSfsSC"
+    className="sc-jFAnKH dccpLO"
   />
 </button>
 `;
