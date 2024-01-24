@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from 'react';
+import React, { useRef, useState, useEffect, useMemo, useCallback } from 'react';
 import { mergeClassnames } from '@heathmont/moon-core-tw';
 import {
   useTable,
@@ -169,31 +169,37 @@ const Table = ({
       isSorting ? sortingColumn.getSortByToggleProps : undefined
     );
 
-    const defaultTrackHeaderClick = reactTableProps.onClick;
+    const defaultHeaderClickHandler = reactTableProps.onClick;
 
-    const trackHeaderClick = (event: MouseEvent) => {
-      const isTargetCheckbox = (event.target as HTMLElement).closest('label[for$="root"]');
-      if (isTargetCheckbox !== null) {
-        const checkboxInput = isTargetCheckbox?.querySelector('input[type="checkbox"]') as HTMLInputElement;
-        if (checkboxInput?.checked) {
-          setSelectedRows([]);
-          updateRowSelectState && updateRowSelectState()({});
-        } else {
-          setSelectedRows(Object.values(rowsById));
-          updateRowSelectState && updateRowSelectState()(
-            Object.keys(rowsById)
-              .reduce((acc: { [key: string]: boolean }, item: string) => {
-                acc[item] = true;
-                return acc;
-              }, {})
-          );
-        }
+    const handleHeaderCheckboxClick = useCallback((isChecked: boolean) => {
+      if (isChecked) {
+        setSelectedRows([]);
+        updateRowSelectState && updateRowSelectState()({});
       } else {
-        defaultTrackHeaderClick && defaultTrackHeaderClick(event);
+        setSelectedRows(Object.values(rowsById));
+        updateRowSelectState && updateRowSelectState()(
+          Object.keys(rowsById)
+            .reduce((acc: { [key: string]: boolean }, item: string) => {
+              acc[item] = true;
+              return acc;
+            }, {})
+        );
       }
-    }
+    }, [setSelectedRows, updateRowSelectState, rowsById]);
 
-    reactTableProps.onClick = trackHeaderClick;
+    const handleHeaderClick = useCallback((event: MouseEvent) => {
+      const headerCheckbox = (event.target as HTMLElement)
+        .closest('label[for$="root"]')
+        ?.querySelector('input[type="checkbox"]') as HTMLInputElement;
+
+      if (headerCheckbox) {
+        headerCheckbox && handleHeaderCheckboxClick(headerCheckbox.checked);
+      } else {
+        defaultHeaderClickHandler && defaultHeaderClickHandler(event);
+      }
+    }, [defaultHeaderClickHandler]);
+
+    reactTableProps.onClick = handleHeaderClick;
 
     return (
       <TH
