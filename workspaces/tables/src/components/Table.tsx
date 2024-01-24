@@ -165,14 +165,40 @@ const Table = ({
     const resizingColumn =
       column as unknown as UseResizeColumnsColumnProps<object>;
 
+    const reactTableProps: object & { onClick?: (event: MouseEvent) => void } = column.getHeaderProps(
+      isSorting ? sortingColumn.getSortByToggleProps : undefined
+    );
+
+    const defaultTrackHeaderClick = reactTableProps.onClick;
+
+    const trackHeaderClick = (event: MouseEvent) => {
+      const isTargetCheckbox = (event.target as HTMLElement).closest('label[for$="root"]');
+      if (isTargetCheckbox !== null) {
+        const checkboxInput = isTargetCheckbox?.querySelector('input[type="checkbox"]') as HTMLInputElement;
+        if (checkboxInput?.checked) {
+          setSelectedRows([]);
+          updateRowSelectState && updateRowSelectState()({});
+        } else {
+          setSelectedRows(Object.values(rowsById));
+          updateRowSelectState && updateRowSelectState()(
+            Object.keys(rowsById)
+              .reduce((acc: { [key: string]: boolean }, item: string) => {
+                acc[item] = true;
+                return acc;
+              }, {})
+          );
+        }
+      } else {
+        defaultTrackHeaderClick && defaultTrackHeaderClick(event);
+      }
+    }
+
+    reactTableProps.onClick = trackHeaderClick;
+
     return (
       <TH
         key={column.id}
-        reactTableProps={{
-          ...column.getHeaderProps(
-            isSorting ? sortingColumn.getSortByToggleProps : undefined
-          ),
-        }}
+        reactTableProps={reactTableProps}
         headerBackgroundColor={headerBackgroundColor}
         stickySide={
           // @ts-ignore
@@ -187,25 +213,6 @@ const Table = ({
         isLastColumn={isLastColumn}
         rowSize={rowSize}
         isCellBorder={isCellBorder}
-        onClick={(e) => {
-          const isTargetCheckbox = (e.target as HTMLElement).closest('label[for$="root"]');
-          if (isTargetCheckbox !== null) {
-            const checkboxInput = isTargetCheckbox?.querySelector('input[type="checkbox"]') as HTMLInputElement;
-            if (checkboxInput?.checked) {
-              setSelectedRows([]);
-              updateRowSelectState && updateRowSelectState()({});
-            } else {
-              setSelectedRows(Object.values(rowsById));
-              updateRowSelectState && updateRowSelectState()(
-                Object.keys(rowsById)
-                  .reduce((acc: { [key: string]: boolean }, item: string) => {
-                    acc[item] = true;
-                    return acc;
-                  }, {})
-              );
-            }
-          }
-        }}
       >
         {column.render('Header')}
         <div
