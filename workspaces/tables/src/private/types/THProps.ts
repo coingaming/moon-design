@@ -10,7 +10,6 @@ type THProps = {
   variant?: TableVariant;
   rowSize?: RowSizes;
   isCellBorder?: boolean;
-  onClick?: (e: any) => void;
 };
 
 export default THProps;
