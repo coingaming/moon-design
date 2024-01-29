@@ -50,7 +50,7 @@ const Example = () => {
     <Table
       columns={columns}
       data={data}
-      evenRowBackgroundColor="goku"
+      evenRowBackgroundColor="gohan"
       rowGap="gap-0"
     />
   );

@@ -16,7 +16,6 @@ const TH = forwardRef<HTMLDivElement, THProps>(
       variant,
       rowSize,
       isCellBorder,
-      onClick,
     },
     ref
   ) => (
@@ -33,7 +32,6 @@ const TH = forwardRef<HTMLDivElement, THProps>(
         stickySide === 'right' &&
           'before:absolute before:w-px before:bg-beerus before:h-[70%] before:bottom-[15%] before:start-0'
       )}
-      onClick={onClick}
     >
       {children}
     </div>

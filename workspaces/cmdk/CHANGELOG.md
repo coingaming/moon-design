@@ -1,5 +1,21 @@
 # @heathmont/moon-cmdk-tw
 
+## 10.12.2
+
+### Patch Changes
+
+- Deploy 10.12.2
+- Updated dependencies
+  - @heathmont/moon-core-tw@10.12.2
+
+## 10.12.1
+
+### Patch Changes
+
+- Deploy 10.12.1
+- Updated dependencies
+  - @heathmont/moon-core-tw@10.12.1
+
 ## 10.12.0
 
 ### Minor Changes
