@@ -86,6 +86,7 @@ const TagsInputRoot = forwardRef<HTMLSpanElement, TagsInputRootProps>(
                 e.code === 'Enter' &&
                   ((e.target as HTMLInputElement).value = '');
                 e.code === 'Backspace' &&
+                  (e.target as HTMLInputElement).value === '' &&
                   selected.length !== 0 &&
                   onClear &&
                   onClear(selected.length - 1);
