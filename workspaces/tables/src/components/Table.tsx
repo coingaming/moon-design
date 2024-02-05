@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect, useMemo, useCallback } from 'react';
+import React, { useRef, useState, useEffect, useCallback } from 'react';
 import { mergeClassnames } from '@heathmont/moon-core-tw';
 import {
   useTable,
@@ -57,6 +57,7 @@ const Table = ({
   useCheckbox,
   textClip,
   keepState,
+  className = '',
   renderRowSubComponent,
   getOnRowClickHandler,
   getOnRowSelect,
@@ -108,7 +109,9 @@ const Table = ({
   const { scrollState, handleScroll } = useScrollState(tableRef);
   const [selectedRows, setSelectedRows] = useState<Row<{}>[]>([]);
 
-  let updateRowSelectState: (() => React.Dispatch<React.SetStateAction<{ [key: string]: boolean }>>) | undefined = undefined;
+  let updateRowSelectState:
+    | (() => React.Dispatch<React.SetStateAction<{ [key: string]: boolean }>>)
+    | undefined = undefined;
 
   useEffect(() => {
     const preExpandedState = keepState?.expandedRows;
@@ -117,8 +120,9 @@ const Table = ({
        * instead of directly setting the data.
        */
       expandedByDefault === undefined;
-      const selectableRows = (rows as unknown[] as (UseExpandedRowProps<{}> & {id: string})[])
-        .filter(({ canExpand }) => canExpand);
+      const selectableRows = (
+        rows as unknown[] as (UseExpandedRowProps<{}> & { id: string })[]
+      ).filter(({ canExpand }) => canExpand);
       if (selectableRows.length === preExpandedState.length) {
         toggleAllRowsExpanded(true);
       } else {
@@ -129,12 +133,12 @@ const Table = ({
             return acc;
           }, {});
           selectableRows.forEach(({ id }) => {
-            toggleRowExpanded(id, preExpandedSet[id] === true)
+            toggleRowExpanded(id, preExpandedSet[id] === true);
           });
         } else {
           /** No rows expanded by default. This expands selected rows then. */
           preExpandedState.forEach((record) => {
-            toggleRowExpanded(Object.keys(record)[0] as string, true)
+            toggleRowExpanded(Object.keys(record)[0] as string, true);
           });
         }
       }
@@ -142,7 +146,13 @@ const Table = ({
       if (expandedByDefault === undefined || !data || !data.length) return;
       toggleAllRowsExpanded(expandedByDefault);
     }
-  }, [keepState, expandedByDefault, data, toggleRowExpanded, toggleAllRowsExpanded]);
+  }, [
+    keepState,
+    expandedByDefault,
+    data,
+    toggleRowExpanded,
+    toggleAllRowsExpanded,
+  ]);
   useEffect(() => {
     if (onRowSelectHandler) onRowSelectHandler(selectedRows);
   }, [selectedRows]);
@@ -150,8 +160,8 @@ const Table = ({
     setSelectedRows(
       rows?.length
         ? rows.filter((row: Row<{ isSelected?: boolean }>) => {
-          return row.original?.isSelected;
-        })
+            return row.original?.isSelected;
+          })
         : []
     );
   }, []);
@@ -165,39 +175,49 @@ const Table = ({
     const resizingColumn =
       column as unknown as UseResizeColumnsColumnProps<object>;
 
-    const reactTableProps: object & { onClick?: (event: MouseEvent) => void } = column.getHeaderProps(
-      isSorting ? sortingColumn.getSortByToggleProps : undefined
-    );
+    const reactTableProps: object & { onClick?: (event: MouseEvent) => void } =
+      column.getHeaderProps(
+        isSorting ? sortingColumn.getSortByToggleProps : undefined
+      );
 
     const defaultHeaderClickHandler = reactTableProps.onClick;
 
-    const handleHeaderCheckboxClick = useCallback((isChecked: boolean) => {
-      if (isChecked) {
-        setSelectedRows([]);
-        updateRowSelectState && updateRowSelectState()({});
-      } else {
-        setSelectedRows(Object.values(rowsById));
-        updateRowSelectState && updateRowSelectState()(
-          Object.keys(rowsById)
-            .reduce((acc: { [key: string]: boolean }, item: string) => {
-              acc[item] = true;
-              return acc;
-            }, {})
-        );
-      }
-    }, [setSelectedRows, updateRowSelectState, rowsById]);
+    const handleHeaderCheckboxClick = useCallback(
+      (isChecked: boolean) => {
+        if (isChecked) {
+          setSelectedRows([]);
+          updateRowSelectState && updateRowSelectState()({});
+        } else {
+          setSelectedRows(Object.values(rowsById));
+          updateRowSelectState &&
+            updateRowSelectState()(
+              Object.keys(rowsById).reduce(
+                (acc: { [key: string]: boolean }, item: string) => {
+                  acc[item] = true;
+                  return acc;
+                },
+                {}
+              )
+            );
+        }
+      },
+      [setSelectedRows, updateRowSelectState, rowsById]
+    );
 
-    const handleHeaderClick = useCallback((event: MouseEvent) => {
-      const headerCheckbox = (event.target as HTMLElement)
-        .closest('label[for$="root"]')
-        ?.querySelector('input[type="checkbox"]') as HTMLInputElement;
+    const handleHeaderClick = useCallback(
+      (event: MouseEvent) => {
+        const headerCheckbox = (event.target as HTMLElement)
+          .closest('label[for$="root"]')
+          ?.querySelector('input[type="checkbox"]') as HTMLInputElement;
 
-      if (headerCheckbox) {
-        headerCheckbox && handleHeaderCheckboxClick(headerCheckbox.checked);
-      } else {
-        defaultHeaderClickHandler && defaultHeaderClickHandler(event);
-      }
-    }, [defaultHeaderClickHandler]);
+        if (headerCheckbox) {
+          headerCheckbox && handleHeaderCheckboxClick(headerCheckbox.checked);
+        } else {
+          defaultHeaderClickHandler && defaultHeaderClickHandler(event);
+        }
+      },
+      [defaultHeaderClickHandler]
+    );
 
     reactTableProps.onClick = handleHeaderClick;
 
@@ -209,12 +229,12 @@ const Table = ({
         stickySide={
           // @ts-ignore
           (column.sticky === 'left' || column.parent?.sticky === 'left') &&
-            scrollState.scrolledToRight
+          scrollState.scrolledToRight
             ? 'left'
             : // @ts-ignore
             column.sticky === 'right' || column.parent?.sticky === 'right'
-              ? 'right'
-              : ''
+            ? 'right'
+            : ''
         }
         isLastColumn={isLastColumn}
         rowSize={rowSize}
@@ -246,8 +266,8 @@ const Table = ({
             ? 'left'
             : // @ts-ignore
             column.sticky === 'right' && scrollState.scrolledToLeft
-              ? 'right'
-              : ''
+            ? 'right'
+            : ''
         }
         rowSize={rowSize}
         isCellBorder={isCellBorder}
@@ -266,14 +286,19 @@ const Table = ({
     );
   };
 
-  const setForceUpdateRowSelectedState = (callback: () => React.Dispatch<React.SetStateAction<{ [key: string]: boolean }>>) => {
+  const setForceUpdateRowSelectedState = (
+    callback: () => React.Dispatch<
+      React.SetStateAction<{ [key: string]: boolean }>
+    >
+  ) => {
     updateRowSelectState = callback;
-  }
+  };
 
   const selectCheckableRow = (selectedRow: any, target?: HTMLElement) => {
     const row = selectedRow as Row<{}>;
-    const xRow = selectedRow as UseExpandedRowProps<{}>
-    const isTargetCheckbox = target && target?.closest(`label[for$="${row.id}"]`);
+    const xRow = selectedRow as UseExpandedRowProps<{}>;
+    const isTargetCheckbox =
+      target && target?.closest(`label[for$="${row.id}"]`);
 
     if (isTargetCheckbox === null) {
       return;
@@ -286,25 +311,29 @@ const Table = ({
 
     if (xRow.canExpand) {
       /** Handling an expandable node */
-      const match = new RegExp(`(^${row.id}[\\.]|^${row.id}$)`, "");
-      const selectedIndexes = alreadySelectedRows.map((item: Row<{}>) => item.id);
+      const match = new RegExp(`(^${row.id}[\\.]|^${row.id}$)`, '');
+      const selectedIndexes = alreadySelectedRows.map(
+        (item: Row<{}>) => item.id
+      );
       const allSelected = Object.keys(rowsById)
         .filter((id) => match.test(id))
         .every((id) => selectedIndexes.indexOf(id) > -1);
 
       if (alreadySelectedRow && allSelected) {
         /** Removing the selected row */
-        alreadySelectedRows = alreadySelectedRows.filter(({ id }) => !match.test(id));
+        alreadySelectedRows = alreadySelectedRows.filter(
+          ({ id }) => !match.test(id)
+        );
       } else {
         /** Appending the selected row */
-        alreadySelectedRows = Object.values(rowsById)
-          .reduce((acc: Row<{}>[], item: Row<{}>) => {
-            if (match.test(item.id)
-              && selectedIndexes.indexOf(item.id) === -1
-            )
+        alreadySelectedRows = Object.values(rowsById).reduce(
+          (acc: Row<{}>[], item: Row<{}>) => {
+            if (match.test(item.id) && selectedIndexes.indexOf(item.id) === -1)
               acc.push(item);
             return acc;
-          }, alreadySelectedRows);
+          },
+          alreadySelectedRows
+        );
       }
     } else {
       /** Handling a simple row */
@@ -322,20 +351,29 @@ const Table = ({
       let depth = xRow.depth;
       while (depth > 0) {
         const mask = row.id.split('.').slice(0, depth).join('.');
-        const match = new RegExp(`(^${mask}[\\.]|^${mask}$)`, "");
-        const branchRowsAtSpecifiedDepth = alreadySelectedRows
-          .filter(({ id }) => id.split('.').length === (depth + 1) && match.test(id) && id !== mask);
+        const match = new RegExp(`(^${mask}[\\.]|^${mask}$)`, '');
+        const branchRowsAtSpecifiedDepth = alreadySelectedRows.filter(
+          ({ id }) =>
+            id.split('.').length === depth + 1 && match.test(id) && id !== mask
+        );
 
-        const areThereAnySelectedRowsAtThisBranch = branchRowsAtSpecifiedDepth
-          .some(({ id }) => match.test(id) && id !== mask);
+        const areThereAnySelectedRowsAtThisBranch =
+          branchRowsAtSpecifiedDepth.some(
+            ({ id }) => match.test(id) && id !== mask
+          );
 
         if (!areThereAnySelectedRowsAtThisBranch) {
-          alreadySelectedRows = alreadySelectedRows.filter(({ id }) => id !== mask);
+          alreadySelectedRows = alreadySelectedRows.filter(
+            ({ id }) => id !== mask
+          );
         } else {
-          const isAllRowsSelectedAtThisBranch = branchRowsAtSpecifiedDepth.every(Boolean);
+          const isAllRowsSelectedAtThisBranch =
+            branchRowsAtSpecifiedDepth.every(Boolean);
 
           if (isAllRowsSelectedAtThisBranch) {
-            const isNodeRowAlreadyAffected = alreadySelectedRows.filter(({ id }) => id === mask).length;
+            const isNodeRowAlreadyAffected = alreadySelectedRows.filter(
+              ({ id }) => id === mask
+            ).length;
             if (!isNodeRowAlreadyAffected) {
               alreadySelectedRows.push(rowsById[mask]);
             }
@@ -346,16 +384,17 @@ const Table = ({
     }
 
     /** Toggling the "hover" state for the affected rows */
-    updateRowSelectState && updateRowSelectState()(
-      alreadySelectedRows.reduce((acc: { [key: string]: boolean }, item) => {
-        acc[item.id] = true
-        return acc;
-      }, {}) || {}
-    );
+    updateRowSelectState &&
+      updateRowSelectState()(
+        alreadySelectedRows.reduce((acc: { [key: string]: boolean }, item) => {
+          acc[item.id] = true;
+          return acc;
+        }, {}) || {}
+      );
 
     /** Toggling state for the affected checkboxes */
     setSelectedRows(alreadySelectedRows);
-  }
+  };
 
   const selectCommonRow = (selectedRow: any, target?: HTMLElement) => {
     const row = selectedRow as Row<{}>;
@@ -371,16 +410,15 @@ const Table = ({
     } else {
       alreadySelectedRows.push(row);
     }
-
     setSelectedRows(alreadySelectedRows);
-  }
+  };
 
-  const renderTableComponent = () => (
+  const renderTableComponent = (className?: string) => (
     <TableWrapper
       reactTableProps={{ ...getTableProps() }}
       tableRef={tableRef}
       onScroll={handleScroll}
-      className={isSticky ? 'sticky' : ''}
+      className={isSticky ? `sticky ${className}` : className}
       isScrolledToLeft={scrollState.scrolledToLeft}
       isScrolledToRight={scrollState.scrolledToRight}
       style={{
@@ -418,37 +456,37 @@ const Table = ({
       <Body reactTableProps={{ ...getTableBodyProps() }} rowGap={rowGap}>
         {variant === 'calendar'
           ? renderSpanRows({
-            rows,
-            prepareRow,
-            getOnRowClickHandler,
-            evenRowBackgroundColor,
-            defaultRowBackgroundColor,
-            rowSpanHeaders,
-            selectable,
-            useCheckbox,
-            rowSize,
-            isCellBorder,
-          })
+              rows,
+              prepareRow,
+              getOnRowClickHandler,
+              evenRowBackgroundColor,
+              defaultRowBackgroundColor,
+              rowSpanHeaders,
+              selectable,
+              useCheckbox,
+              rowSize,
+              isCellBorder,
+            })
           : renderRows({
-            rows,
-            prepareRow,
-            getOnRowClickHandler,
-            getOnRowSelectHandler: !selectable
-              ? undefined
-              : useCheckbox
+              rows,
+              prepareRow,
+              getOnRowClickHandler,
+              getOnRowSelectHandler: !selectable
+                ? undefined
+                : useCheckbox
                 ? (row) => selectCheckableRow
                 : (row) => selectCommonRow,
 
-            evenRowBackgroundColor,
-            defaultRowBackgroundColor,
-            renderRowSubComponent,
-            setForceUpdateRowSelectedState,
-            selectable,
-            useCheckbox,
-            rowSize,
-            isCellBorder,
-            textClip,
-          })}
+              evenRowBackgroundColor,
+              defaultRowBackgroundColor,
+              renderRowSubComponent,
+              setForceUpdateRowSelectedState,
+              selectable,
+              useCheckbox,
+              rowSize,
+              isCellBorder,
+              textClip,
+            })}
       </Body>
 
       {withFooter && (
@@ -475,7 +513,7 @@ const Table = ({
   if (withMinimap) {
     return (
       <div className="relative h-full w-full overflow-auto">
-        {renderTableComponent()}
+        {renderTableComponent(className)}
         <Minimap
           numberOfColumns={visibleColumns.length}
           tableRef={tableRef}
@@ -485,7 +523,7 @@ const Table = ({
     );
   }
 
-  return renderTableComponent();
+  return renderTableComponent(className);
 };
 
 export default Table;
