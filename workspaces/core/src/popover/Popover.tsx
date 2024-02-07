@@ -105,10 +105,10 @@ const Panel = ({ children, className, isStatic }: PanelProps) => {
       style={popper?.styles?.popper}
       {...popper?.attributes?.popper}
       className={mergeClassnames(
-        'w-72 z-[999999] rounded-moon-s-md box-border bg-goku shadow-moon-lg overflow-y-auto',
+        'flex flex-col gap-2 p-1 w-72 max-h-72 z-[999999] rounded-moon-s-md bg-goku',
+        'shadow-moon-lg overflow-y-auto focus:outline-none',
         isArrow && 'shadow-none drop-shadow-[0_0_1px_rgba(0,0,0,0.4)]',
-        'focus:outline-none',
-        className && className
+        className
       )}
       static={isStatic}
     >

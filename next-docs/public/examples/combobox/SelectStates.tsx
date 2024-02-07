@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Combobox, MenuItem } from '@heathmont/moon-core-tw';
 import {
   ControlsChevronDownSmall,
@@ -32,17 +32,14 @@ const Example = () => {
   const [selected0, setSelected0] = useState(people[2]);
   const [selected1, setSelected1] = useState(people[0]);
   const [selected2, setSelected2] = useState({});
-  const [selected3, setSelected3] = useState({});
 
   const [query0, setQuery0] = useState<string>('');
   const [query1, setQuery1] = useState<string>('');
   const [query2, setQuery2] = useState<string>('');
-  const [query3, setQuery3] = useState<string>('');
 
   const filteredPeople0 = filter(query0, people);
   const filteredPeople1 = filter(query1, people);
   const filteredPeople2 = filter(query2, people);
-  const filteredPeople3 = filter(query3, people);
 
   return (
     <div className="flex flex-col items-center lg:flex-row lg:justify-center w-full gap-4">
@@ -154,49 +151,6 @@ const Example = () => {
                   </div>
                 ) : (
                   filteredPeople2.map((person, index) => (
-                    <Combobox.Option value={person} key={index}>
-                      {({ selected, active }) => (
-                        <MenuItem isActive={active} isSelected={selected}>
-                          <MenuItem.Title>{person.label}</MenuItem.Title>
-                        </MenuItem>
-                      )}
-                    </Combobox.Option>
-                  ))
-                )}
-              </Combobox.Options>
-            </Combobox.Transition>
-            <Combobox.Hint>Informative message holder</Combobox.Hint>
-          </>
-        )}
-      </Combobox>
-
-      <Combobox
-        value={selected3}
-        onChange={setSelected3}
-        onQueryChange={setQuery3}
-        className="w-full max-w-xs"
-      >
-        {({ open }) => (
-          <>
-            <Combobox.Select
-              open={open}
-              label="List options width"
-              placeholder="Choose an option"
-              displayValue={({ label }) => label}
-            >
-              <ControlsChevronDownSmall />
-            </Combobox.Select>
-            <Combobox.Transition>
-              <Combobox.Options
-                menuWidth="w-40"
-                className="z-5 rounded-moon-s-md box-border bg-gohan shadow-moon-lg py-2 px-1 my-2"
-              >
-                {filteredPeople3.length === 0 && query3 !== '' ? (
-                  <div className="relative cursor-default select-none py-2 px-4 text-trunks">
-                    Nothing found.
-                  </div>
-                ) : (
-                  filteredPeople3.map((person, index) => (
                     <Combobox.Option value={person} key={index}>
                       {({ selected, active }) => (
                         <MenuItem isActive={active} isSelected={selected}>

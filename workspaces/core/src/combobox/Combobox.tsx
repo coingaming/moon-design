@@ -1,4 +1,4 @@
-import React, { forwardRef, useEffect, useState } from 'react';
+import React, { forwardRef, useEffect } from 'react';
 import {
   Combobox as HeadlessCombobox,
   Transition as HeadlessTransition,
@@ -131,9 +131,9 @@ const Trigger = forwardRef<HTMLDivElement, WithChildren<SelectProps>>(
           'focus:shadow-input-focus focus:outline-none',
           'focus-visible::shadow-input-focus focus-visible::outline-none',
           isError &&
-          'shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err',
+            'shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err',
           disabled &&
-          'opacity-60 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed',
+            'opacity-60 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed',
           className
         )}
         ref={popper?.setAnchor}
@@ -157,7 +157,7 @@ const Input = ({
   return (
     <HeadlessCombobox.Input
       onChange={({ target: { value } }) => {
-        onQueryChange ? onQueryChange(value) : () => { };
+        onQueryChange ? onQueryChange(value) : () => {};
       }}
       as={NativeInput}
       displayValue={displayValue}
@@ -194,7 +194,7 @@ const InsetInput = ({
     <span className={mergeClassnames('relative', 'flex flex-grow w-full')}>
       <HeadlessCombobox.Input
         onChange={({ target: { value } }) => {
-          onQueryChange ? onQueryChange(value) : () => { };
+          onQueryChange ? onQueryChange(value) : () => {};
         }}
         as={NativeInput}
         displayValue={displayValue}
@@ -205,9 +205,9 @@ const InsetInput = ({
           'flex-grow h-full border-0 !rounded-none bg-transparent px-0',
           '!shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none',
           label !== undefined &&
-          label.length > 0 &&
-          (placeholder === undefined || placeholder.length === 0) &&
-          'input-xl',
+            label.length > 0 &&
+            (placeholder === undefined || placeholder.length === 0) &&
+            'input-xl',
           label !== undefined && label.length > 0 && 'pt-3 input-xl-dt-label',
           getTextSizes(size),
           className,
@@ -253,7 +253,7 @@ const VisualSelectInput = ({
       </div>
       <HeadlessCombobox.Input
         onChange={({ target: { value } }) => {
-          onQueryChange ? onQueryChange(value) : () => { };
+          onQueryChange ? onQueryChange(value) : () => {};
         }}
         as={NativeInput}
         displayValue={displayValue}
@@ -264,9 +264,9 @@ const VisualSelectInput = ({
           'flex-grow w-full h-full border-0 !rounded-none bg-transparent px-0',
           '!shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none',
           label !== undefined &&
-          label.length > 0 &&
-          (placeholder === undefined || placeholder.length === 0) &&
-          'input-xl',
+            label.length > 0 &&
+            (placeholder === undefined || placeholder.length === 0) &&
+            'input-xl',
           label !== undefined && label.length > 0 && 'pt-3 input-xl-dt-label',
           getTextSizes(size),
           className,
@@ -311,7 +311,7 @@ const Button = ({
 
 const Options = ({
   children,
-  menuWidth,
+  menuWidth, // deprecated
   className,
   ...rest
 }: WithChildren<OptionsProps>) => {
@@ -322,10 +322,9 @@ const Options = ({
       style={popper?.styles?.popper}
       {...popper?.attributes?.popper}
       className={mergeClassnames(
-        menuWidth
-          ? menuWidth
-          : 'w-full max-h-[18.75rem] py-2 px-1 my-1 rounded-moon-s-md box-border bg-goku shadow-moon-lg z-10 absolute',
-        'overflow-y-auto focus:outline-none',
+        'w-full min-w-72 z-5 absolute max-h-72 p-1 mt-2 rounded-moon-s-md box-border',
+        'bg-goku shadow-moon-lg overflow-y-auto focus:outline-none',
+        menuWidth, // deprecated
         className
       )}
       {...rest}
@@ -335,17 +334,15 @@ const Options = ({
   );
 };
 
-const Option = ({ children, value }: OptionProps) => {
-  return (
-    <HeadlessCombobox.Option as="span" value={value}>
-      {({ selected, disabled, active }) =>
-        typeof children === 'function'
-          ? children({ selected, disabled, active })
-          : children
-      }
-    </HeadlessCombobox.Option>
-  );
-};
+const Option = ({ children, value }: OptionProps) => (
+  <HeadlessCombobox.Option as="li" value={value}>
+    {({ selected, disabled, active }) =>
+      typeof children === 'function'
+        ? children({ selected, disabled, active })
+        : children
+    }
+  </HeadlessCombobox.Option>
+);
 
 const Counter = ({ open, className, counter, ...rest }: SelectProps) => {
   const { size, isError, disabled, onClear } =
@@ -419,7 +416,7 @@ const Transition = ({ children, ...rest }: WithChildren) => {
       leave="transition ease-in duration-100"
       leaveFrom="opacity-100"
       leaveTo="opacity-0"
-      afterLeave={onQueryChange ? () => onQueryChange('') : () => { }}
+      afterLeave={onQueryChange ? () => onQueryChange('') : () => {}}
       {...rest}
     >
       {children}
@@ -599,7 +596,9 @@ const VisualMultiSelect = ({
   forceUpdate,
   ...rest
 }: WithChildren<SelectProps & InputProps> & { forceUpdate?: boolean }) => {
-  const { size, popper, disabled, value } = useComboboxContext('Combobox.VisualMultiSelect');
+  const { size, popper, disabled, value } = useComboboxContext(
+    'Combobox.VisualMultiSelect'
+  );
 
   useEffect(() => {
     // Do nothing if forceUpdate is false.

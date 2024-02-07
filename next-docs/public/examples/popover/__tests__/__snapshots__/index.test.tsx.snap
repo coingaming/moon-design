@@ -152,7 +152,7 @@ Object {
             </button>
           </div>
           <div
-            class="w-72 z-[999999] rounded-moon-s-md box-border bg-goku shadow-moon-lg overflow-y-auto focus:outline-none p-2 flex flex-col gap-1"
+            class="flex flex-col gap-2 p-1 w-72 max-h-72 z-[999999] rounded-moon-s-md bg-goku shadow-moon-lg overflow-y-auto focus:outline-none"
             data-headlessui-state="open"
             data-popper-escaped="true"
             data-popper-placement="bottom"
@@ -162,133 +162,22 @@ Object {
             tabindex="-1"
           >
             <button
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
               type="button"
             >
-              <span
-                class="flex w-11 h-11 bg-gohan items-center justify-center rounded-lg"
-              >
-                <svg
-                  class="text-bulma text-moon-24"
-                  fill="none"
-                  height="1em"
-                  viewBox="0 0 32 32"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                  />
-                </svg>
-              </span>
-              <span
-                class="block grow text-start text-bulma overflow-hidden"
-              >
-                <span
-                  class="block text-bulma text-moon-14"
-                >
-                  Tournaments
-                </span>
-                <span
-                  class="flex text-trunks text-moon-12"
-                >
-                  <span
-                    class="flex-1 truncate"
-                  >
-                    <span>
-                      Best tournaments with streamers
-                    </span>
-                  </span>
-                </span>
-              </span>
+              Menu Item
             </button>
             <button
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
               type="button"
             >
-              <span
-                class="flex w-11 h-11 bg-gohan items-center justify-center"
-              >
-                <svg
-                  class="text-bulma text-moon-24"
-                  fill="none"
-                  height="1em"
-                  viewBox="0 0 32 32"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                  />
-                </svg>
-              </span>
-              <span
-                class="block grow text-start text-bulma overflow-hidden"
-              >
-                <span
-                  class="block text-bulma text-moon-14"
-                >
-                  Promotions
-                </span>
-                <span
-                  class="flex text-trunks text-moon-12"
-                >
-                  <span
-                    class="flex-1 truncate"
-                  >
-                    <span>
-                       Your favourite games
-                    </span>
-                  </span>
-                </span>
-              </span>
+              Menu Item
             </button>
             <button
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
               type="button"
             >
-              <span
-                class="flex w-11 h-11 bg-gohan items-center justify-center"
-              >
-                <svg
-                  class="text-bulma text-moon-24"
-                  fill="none"
-                  height="1em"
-                  viewBox="0 0 32 32"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                  />
-                </svg>
-              </span>
-              <span
-                class="block grow text-start text-bulma overflow-hidden"
-              >
-                <span
-                  class="block text-bulma text-moon-14"
-                >
-                  Providers
-                </span>
-                <span
-                  class="flex text-trunks text-moon-12"
-                >
-                  <span
-                    class="flex-1 truncate"
-                  >
-                    <span>
-                       Your favourite games
-                    </span>
-                  </span>
-                </span>
-              </span>
+              Menu Item
             </button>
           </div>
         </div>
@@ -325,7 +214,7 @@ Object {
           </button>
         </div>
         <div
-          class="w-72 z-[999999] rounded-moon-s-md box-border bg-goku shadow-moon-lg overflow-y-auto focus:outline-none p-2 flex flex-col gap-1"
+          class="flex flex-col gap-2 p-1 w-72 max-h-72 z-[999999] rounded-moon-s-md bg-goku shadow-moon-lg overflow-y-auto focus:outline-none"
           data-headlessui-state="open"
           data-popper-escaped="true"
           data-popper-placement="bottom"
@@ -335,133 +224,22 @@ Object {
           tabindex="-1"
         >
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
             type="button"
           >
-            <span
-              class="flex w-11 h-11 bg-gohan items-center justify-center rounded-lg"
-            >
-              <svg
-                class="text-bulma text-moon-24"
-                fill="none"
-                height="1em"
-                viewBox="0 0 32 32"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                />
-              </svg>
-            </span>
-            <span
-              class="block grow text-start text-bulma overflow-hidden"
-            >
-              <span
-                class="block text-bulma text-moon-14"
-              >
-                Tournaments
-              </span>
-              <span
-                class="flex text-trunks text-moon-12"
-              >
-                <span
-                  class="flex-1 truncate"
-                >
-                  <span>
-                    Best tournaments with streamers
-                  </span>
-                </span>
-              </span>
-            </span>
+            Menu Item
           </button>
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
             type="button"
           >
-            <span
-              class="flex w-11 h-11 bg-gohan items-center justify-center"
-            >
-              <svg
-                class="text-bulma text-moon-24"
-                fill="none"
-                height="1em"
-                viewBox="0 0 32 32"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                />
-              </svg>
-            </span>
-            <span
-              class="block grow text-start text-bulma overflow-hidden"
-            >
-              <span
-                class="block text-bulma text-moon-14"
-              >
-                Promotions
-              </span>
-              <span
-                class="flex text-trunks text-moon-12"
-              >
-                <span
-                  class="flex-1 truncate"
-                >
-                  <span>
-                     Your favourite games
-                  </span>
-                </span>
-              </span>
-            </span>
+            Menu Item
           </button>
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
             type="button"
           >
-            <span
-              class="flex w-11 h-11 bg-gohan items-center justify-center"
-            >
-              <svg
-                class="text-bulma text-moon-24"
-                fill="none"
-                height="1em"
-                viewBox="0 0 32 32"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                />
-              </svg>
-            </span>
-            <span
-              class="block grow text-start text-bulma overflow-hidden"
-            >
-              <span
-                class="block text-bulma text-moon-14"
-              >
-                Providers
-              </span>
-              <span
-                class="flex text-trunks text-moon-12"
-              >
-                <span
-                  class="flex-1 truncate"
-                >
-                  <span>
-                     Your favourite games
-                  </span>
-                </span>
-              </span>
-            </span>
+            Menu Item
           </button>
         </div>
       </div>
@@ -572,7 +350,7 @@ Object {
               type="button"
             />
             <div
-              class="w-72 z-[999999] rounded-moon-s-md box-border bg-goku shadow-moon-lg overflow-y-auto focus:outline-none"
+              class="flex flex-col gap-2 p-1 w-72 max-h-72 z-[999999] rounded-moon-s-md bg-goku shadow-moon-lg overflow-y-auto focus:outline-none"
               data-headlessui-state="open"
               data-popper-escaped="true"
               data-popper-placement="top"
@@ -581,11 +359,24 @@ Object {
               style="position: absolute; left: 0px; top: 0px; bottom: 0px; transform: translate(0px, -8px);"
               tabindex="-1"
             >
-              <p
-                class="p-4 text-moon-14"
+              <button
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+                type="button"
               >
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              </p>
+                Menu Item
+              </button>
+              <button
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+                type="button"
+              >
+                Menu Item
+              </button>
+              <button
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+                type="button"
+              >
+                Menu Item
+              </button>
             </div>
             <button
               aria-hidden="true"
@@ -696,7 +487,7 @@ Object {
             type="button"
           />
           <div
-            class="w-72 z-[999999] rounded-moon-s-md box-border bg-goku shadow-moon-lg overflow-y-auto focus:outline-none"
+            class="flex flex-col gap-2 p-1 w-72 max-h-72 z-[999999] rounded-moon-s-md bg-goku shadow-moon-lg overflow-y-auto focus:outline-none"
             data-headlessui-state="open"
             data-popper-escaped="true"
             data-popper-placement="top"
@@ -705,11 +496,24 @@ Object {
             style="position: absolute; left: 0px; top: 0px; bottom: 0px; transform: translate(0px, -8px);"
             tabindex="-1"
           >
-            <p
-              class="p-4 text-moon-14"
+            <button
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+              type="button"
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
+              Menu Item
+            </button>
+            <button
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+              type="button"
+            >
+              Menu Item
+            </button>
+            <button
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+              type="button"
+            >
+              Menu Item
+            </button>
           </div>
           <button
             aria-hidden="true"
@@ -870,7 +674,7 @@ Object {
             type="button"
           />
           <div
-            class="z-[999999] box-border shadow-moon-lg shadow-none drop-shadow-[0_0_1px_rgba(0,0,0,0.4)] focus:outline-none w-auto min-w-[12rem] overflow-y-visible p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-goku"
+            class="flex flex-col gap-2 max-h-72 z-[999999] shadow-moon-lg focus:outline-none shadow-none drop-shadow-[0_0_1px_rgba(0,0,0,0.4)] w-auto min-w-[12rem] overflow-y-visible p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-goku"
             data-headlessui-state="open"
             data-popper-escaped="true"
             data-popper-placement="top"
@@ -941,7 +745,7 @@ Object {
           type="button"
         />
         <div
-          class="z-[999999] box-border shadow-moon-lg shadow-none drop-shadow-[0_0_1px_rgba(0,0,0,0.4)] focus:outline-none w-auto min-w-[12rem] overflow-y-visible p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-goku"
+          class="flex flex-col gap-2 max-h-72 z-[999999] shadow-moon-lg focus:outline-none shadow-none drop-shadow-[0_0_1px_rgba(0,0,0,0.4)] w-auto min-w-[12rem] overflow-y-visible p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-goku"
           data-headlessui-state="open"
           data-popper-escaped="true"
           data-popper-placement="top"
@@ -1055,7 +859,7 @@ Object {
             </button>
           </div>
           <div
-            class="z-[999999] box-border shadow-moon-lg shadow-none drop-shadow-[0_0_1px_rgba(0,0,0,0.4)] focus:outline-none w-auto min-w-[12rem] overflow-y-visible p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-goku"
+            class="flex flex-col gap-2 max-h-72 z-[999999] shadow-moon-lg focus:outline-none shadow-none drop-shadow-[0_0_1px_rgba(0,0,0,0.4)] w-auto min-w-[12rem] overflow-y-visible p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-goku"
             data-headlessui-state=""
             id="headlessui-popover-panel-:r36:"
             style="position: absolute; left: 0px; top: 0px;"
@@ -1102,7 +906,7 @@ Object {
           </button>
         </div>
         <div
-          class="z-[999999] box-border shadow-moon-lg shadow-none drop-shadow-[0_0_1px_rgba(0,0,0,0.4)] focus:outline-none w-auto min-w-[12rem] overflow-y-visible p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-goku"
+          class="flex flex-col gap-2 max-h-72 z-[999999] shadow-moon-lg focus:outline-none shadow-none drop-shadow-[0_0_1px_rgba(0,0,0,0.4)] w-auto min-w-[12rem] overflow-y-visible p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-goku"
           data-headlessui-state=""
           id="headlessui-popover-panel-:r36:"
           style="position: absolute; left: 0px; top: 0px;"
@@ -1213,7 +1017,7 @@ Object {
               </button>
             </div>
             <div
-              class="w-72 z-[999999] rounded-moon-s-md box-border bg-goku shadow-moon-lg overflow-y-auto focus:outline-none p-2 flex flex-col gap-1"
+              class="flex flex-col gap-2 p-1 w-72 max-h-72 z-[999999] rounded-moon-s-md bg-goku shadow-moon-lg overflow-y-auto focus:outline-none"
               data-headlessui-state="open"
               data-popper-escaped="true"
               data-popper-placement="bottom"
@@ -1224,19 +1028,19 @@ Object {
             >
               <div>
                 <button
-                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
                   type="button"
                 >
                   Tournaments
                 </button>
                 <button
-                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
                   type="button"
                 >
                   Promotions
                 </button>
                 <button
-                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
                   type="button"
                 >
                   Providers
@@ -1337,7 +1141,7 @@ Object {
             </button>
           </div>
           <div
-            class="w-72 z-[999999] rounded-moon-s-md box-border bg-goku shadow-moon-lg overflow-y-auto focus:outline-none p-2 flex flex-col gap-1"
+            class="flex flex-col gap-2 p-1 w-72 max-h-72 z-[999999] rounded-moon-s-md bg-goku shadow-moon-lg overflow-y-auto focus:outline-none"
             data-headlessui-state="open"
             data-popper-escaped="true"
             data-popper-placement="bottom"
@@ -1348,19 +1152,19 @@ Object {
           >
             <div>
               <button
-                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
                 type="button"
               >
                 Tournaments
               </button>
               <button
-                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
                 type="button"
               >
                 Promotions
               </button>
               <button
-                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
                 type="button"
               >
                 Providers
@@ -1515,7 +1319,7 @@ Object {
             </button>
           </div>
           <div
-            class="w-72 z-[999999] rounded-moon-s-md box-border bg-goku shadow-moon-lg overflow-y-auto focus:outline-none p-2 flex flex-col gap-1"
+            class="flex flex-col gap-2 p-1 w-72 max-h-72 z-[999999] rounded-moon-s-md bg-goku shadow-moon-lg overflow-y-auto focus:outline-none"
             data-headlessui-state="open"
             data-popper-escaped="true"
             data-popper-placement="bottom"
@@ -1525,133 +1329,22 @@ Object {
             tabindex="-1"
           >
             <button
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
               type="button"
             >
-              <span
-                class="flex w-11 h-11 bg-gohan items-center justify-center rounded-lg"
-              >
-                <svg
-                  class="text-bulma text-moon-24"
-                  fill="none"
-                  height="1em"
-                  viewBox="0 0 32 32"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                  />
-                </svg>
-              </span>
-              <span
-                class="block grow text-start text-bulma overflow-hidden"
-              >
-                <span
-                  class="block text-bulma text-moon-14"
-                >
-                  Tournaments
-                </span>
-                <span
-                  class="flex text-trunks text-moon-12"
-                >
-                  <span
-                    class="flex-1 truncate"
-                  >
-                    <span>
-                      Best tournaments with streamers
-                    </span>
-                  </span>
-                </span>
-              </span>
+              Menu Item
             </button>
             <button
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
               type="button"
             >
-              <span
-                class="flex w-11 h-11 bg-gohan items-center justify-center"
-              >
-                <svg
-                  class="text-bulma text-moon-24"
-                  fill="none"
-                  height="1em"
-                  viewBox="0 0 32 32"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                  />
-                </svg>
-              </span>
-              <span
-                class="block grow text-start text-bulma overflow-hidden"
-              >
-                <span
-                  class="block text-bulma text-moon-14"
-                >
-                  Promotions
-                </span>
-                <span
-                  class="flex text-trunks text-moon-12"
-                >
-                  <span
-                    class="flex-1 truncate"
-                  >
-                    <span>
-                       Your favourite games
-                    </span>
-                  </span>
-                </span>
-              </span>
+              Menu Item
             </button>
             <button
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
               type="button"
             >
-              <span
-                class="flex w-11 h-11 bg-gohan items-center justify-center"
-              >
-                <svg
-                  class="text-bulma text-moon-24"
-                  fill="none"
-                  height="1em"
-                  viewBox="0 0 32 32"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                  />
-                </svg>
-              </span>
-              <span
-                class="block grow text-start text-bulma overflow-hidden"
-              >
-                <span
-                  class="block text-bulma text-moon-14"
-                >
-                  Providers
-                </span>
-                <span
-                  class="flex text-trunks text-moon-12"
-                >
-                  <span
-                    class="flex-1 truncate"
-                  >
-                    <span>
-                       Your favourite games
-                    </span>
-                  </span>
-                </span>
-              </span>
+              Menu Item
             </button>
             <button
               class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
@@ -1698,7 +1391,7 @@ Object {
           </button>
         </div>
         <div
-          class="w-72 z-[999999] rounded-moon-s-md box-border bg-goku shadow-moon-lg overflow-y-auto focus:outline-none p-2 flex flex-col gap-1"
+          class="flex flex-col gap-2 p-1 w-72 max-h-72 z-[999999] rounded-moon-s-md bg-goku shadow-moon-lg overflow-y-auto focus:outline-none"
           data-headlessui-state="open"
           data-popper-escaped="true"
           data-popper-placement="bottom"
@@ -1708,133 +1401,22 @@ Object {
           tabindex="-1"
         >
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
             type="button"
           >
-            <span
-              class="flex w-11 h-11 bg-gohan items-center justify-center rounded-lg"
-            >
-              <svg
-                class="text-bulma text-moon-24"
-                fill="none"
-                height="1em"
-                viewBox="0 0 32 32"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                />
-              </svg>
-            </span>
-            <span
-              class="block grow text-start text-bulma overflow-hidden"
-            >
-              <span
-                class="block text-bulma text-moon-14"
-              >
-                Tournaments
-              </span>
-              <span
-                class="flex text-trunks text-moon-12"
-              >
-                <span
-                  class="flex-1 truncate"
-                >
-                  <span>
-                    Best tournaments with streamers
-                  </span>
-                </span>
-              </span>
-            </span>
+            Menu Item
           </button>
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
             type="button"
           >
-            <span
-              class="flex w-11 h-11 bg-gohan items-center justify-center"
-            >
-              <svg
-                class="text-bulma text-moon-24"
-                fill="none"
-                height="1em"
-                viewBox="0 0 32 32"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                />
-              </svg>
-            </span>
-            <span
-              class="block grow text-start text-bulma overflow-hidden"
-            >
-              <span
-                class="block text-bulma text-moon-14"
-              >
-                Promotions
-              </span>
-              <span
-                class="flex text-trunks text-moon-12"
-              >
-                <span
-                  class="flex-1 truncate"
-                >
-                  <span>
-                     Your favourite games
-                  </span>
-                </span>
-              </span>
-            </span>
+            Menu Item
           </button>
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
             type="button"
           >
-            <span
-              class="flex w-11 h-11 bg-gohan items-center justify-center"
-            >
-              <svg
-                class="text-bulma text-moon-24"
-                fill="none"
-                height="1em"
-                viewBox="0 0 32 32"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                />
-              </svg>
-            </span>
-            <span
-              class="block grow text-start text-bulma overflow-hidden"
-            >
-              <span
-                class="block text-bulma text-moon-14"
-              >
-                Providers
-              </span>
-              <span
-                class="flex text-trunks text-moon-12"
-              >
-                <span
-                  class="flex-1 truncate"
-                >
-                  <span>
-                     Your favourite games
-                  </span>
-                </span>
-              </span>
-            </span>
+            Menu Item
           </button>
           <button
             class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
@@ -2048,7 +1630,7 @@ Object {
           </button>
         </div>
         <div
-          class="w-72 z-[999999] rounded-moon-s-md box-border bg-goku shadow-moon-lg overflow-y-auto focus:outline-none p-2 flex flex-col gap-1"
+          class="flex flex-col gap-2 p-1 w-72 max-h-72 z-[999999] rounded-moon-s-md bg-goku shadow-moon-lg overflow-y-auto focus:outline-none"
           data-headlessui-state="open"
           data-popper-escaped="true"
           data-popper-placement="bottom"
@@ -2058,133 +1640,22 @@ Object {
           tabindex="-1"
         >
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
             type="button"
           >
-            <span
-              class="flex w-11 h-11 bg-gohan items-center justify-center rounded-lg"
-            >
-              <svg
-                class="text-bulma text-moon-24"
-                fill="none"
-                height="1em"
-                viewBox="0 0 32 32"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                />
-              </svg>
-            </span>
-            <span
-              class="block grow text-start text-bulma overflow-hidden"
-            >
-              <span
-                class="block text-bulma text-moon-14"
-              >
-                Tournaments
-              </span>
-              <span
-                class="flex text-trunks text-moon-12"
-              >
-                <span
-                  class="flex-1 truncate"
-                >
-                  <span>
-                    Best tournaments with streamers
-                  </span>
-                </span>
-              </span>
-            </span>
+            Menu Item
           </button>
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
             type="button"
           >
-            <span
-              class="flex w-11 h-11 bg-gohan items-center justify-center"
-            >
-              <svg
-                class="text-bulma text-moon-24"
-                fill="none"
-                height="1em"
-                viewBox="0 0 32 32"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                />
-              </svg>
-            </span>
-            <span
-              class="block grow text-start text-bulma overflow-hidden"
-            >
-              <span
-                class="block text-bulma text-moon-14"
-              >
-                Promotions
-              </span>
-              <span
-                class="flex text-trunks text-moon-12"
-              >
-                <span
-                  class="flex-1 truncate"
-                >
-                  <span>
-                     Your favourite games
-                  </span>
-                </span>
-              </span>
-            </span>
+            Menu Item
           </button>
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
             type="button"
           >
-            <span
-              class="flex w-11 h-11 bg-gohan items-center justify-center"
-            >
-              <svg
-                class="text-bulma text-moon-24"
-                fill="none"
-                height="1em"
-                viewBox="0 0 32 32"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                />
-              </svg>
-            </span>
-            <span
-              class="block grow text-start text-bulma overflow-hidden"
-            >
-              <span
-                class="block text-bulma text-moon-14"
-              >
-                Providers
-              </span>
-              <span
-                class="flex text-trunks text-moon-12"
-              >
-                <span
-                  class="flex-1 truncate"
-                >
-                  <span>
-                     Your favourite games
-                  </span>
-                </span>
-              </span>
-            </span>
+            Menu Item
           </button>
         </div>
       </div>
@@ -2217,7 +1688,7 @@ Object {
         </button>
       </div>
       <div
-        class="w-72 z-[999999] rounded-moon-s-md box-border bg-goku shadow-moon-lg overflow-y-auto focus:outline-none p-2 flex flex-col gap-1"
+        class="flex flex-col gap-2 p-1 w-72 max-h-72 z-[999999] rounded-moon-s-md bg-goku shadow-moon-lg overflow-y-auto focus:outline-none"
         data-headlessui-state="open"
         data-popper-escaped="true"
         data-popper-placement="bottom"
@@ -2227,133 +1698,22 @@ Object {
         tabindex="-1"
       >
         <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
           type="button"
         >
-          <span
-            class="flex w-11 h-11 bg-gohan items-center justify-center rounded-lg"
-          >
-            <svg
-              class="text-bulma text-moon-24"
-              fill="none"
-              height="1em"
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
-                stroke="currentColor"
-                stroke-linecap="round"
-              />
-            </svg>
-          </span>
-          <span
-            class="block grow text-start text-bulma overflow-hidden"
-          >
-            <span
-              class="block text-bulma text-moon-14"
-            >
-              Tournaments
-            </span>
-            <span
-              class="flex text-trunks text-moon-12"
-            >
-              <span
-                class="flex-1 truncate"
-              >
-                <span>
-                  Best tournaments with streamers
-                </span>
-              </span>
-            </span>
-          </span>
+          Menu Item
         </button>
         <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
           type="button"
         >
-          <span
-            class="flex w-11 h-11 bg-gohan items-center justify-center"
-          >
-            <svg
-              class="text-bulma text-moon-24"
-              fill="none"
-              height="1em"
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
-                stroke="currentColor"
-                stroke-linecap="round"
-              />
-            </svg>
-          </span>
-          <span
-            class="block grow text-start text-bulma overflow-hidden"
-          >
-            <span
-              class="block text-bulma text-moon-14"
-            >
-              Promotions
-            </span>
-            <span
-              class="flex text-trunks text-moon-12"
-            >
-              <span
-                class="flex-1 truncate"
-              >
-                <span>
-                   Your favourite games
-                </span>
-              </span>
-            </span>
-          </span>
+          Menu Item
         </button>
         <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
           type="button"
         >
-          <span
-            class="flex w-11 h-11 bg-gohan items-center justify-center"
-          >
-            <svg
-              class="text-bulma text-moon-24"
-              fill="none"
-              height="1em"
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
-                stroke="currentColor"
-                stroke-linecap="round"
-              />
-            </svg>
-          </span>
-          <span
-            class="block grow text-start text-bulma overflow-hidden"
-          >
-            <span
-              class="block text-bulma text-moon-14"
-            >
-              Providers
-            </span>
-            <span
-              class="flex text-trunks text-moon-12"
-            >
-              <span
-                class="flex-1 truncate"
-              >
-                <span>
-                   Your favourite games
-                </span>
-              </span>
-            </span>
-          </span>
+          Menu Item
         </button>
       </div>
     </div>
@@ -2460,7 +1820,7 @@ Object {
             type="button"
           />
           <div
-            class="w-72 z-[999999] rounded-moon-s-md box-border bg-goku shadow-moon-lg overflow-y-auto focus:outline-none"
+            class="flex flex-col gap-2 p-1 w-72 max-h-72 z-[999999] rounded-moon-s-md bg-goku shadow-moon-lg overflow-y-auto focus:outline-none"
             data-headlessui-state="open"
             data-popper-escaped="true"
             data-popper-placement="top"
@@ -2469,11 +1829,24 @@ Object {
             style="position: absolute; left: 0px; top: 0px; bottom: 0px; transform: translate(0px, -8px);"
             tabindex="-1"
           >
-            <p
-              class="p-4 text-moon-14"
+            <button
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+              type="button"
             >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
+              Menu Item
+            </button>
+            <button
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+              type="button"
+            >
+              Menu Item
+            </button>
+            <button
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+              type="button"
+            >
+              Menu Item
+            </button>
           </div>
           <button
             aria-hidden="true"
@@ -2580,7 +1953,7 @@ Object {
           type="button"
         />
         <div
-          class="w-72 z-[999999] rounded-moon-s-md box-border bg-goku shadow-moon-lg overflow-y-auto focus:outline-none"
+          class="flex flex-col gap-2 p-1 w-72 max-h-72 z-[999999] rounded-moon-s-md bg-goku shadow-moon-lg overflow-y-auto focus:outline-none"
           data-headlessui-state="open"
           data-popper-escaped="true"
           data-popper-placement="top"
@@ -2589,11 +1962,24 @@ Object {
           style="position: absolute; left: 0px; top: 0px; bottom: 0px; transform: translate(0px, -8px);"
           tabindex="-1"
         >
-          <p
-            class="p-4 text-moon-14"
+          <button
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+            type="button"
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          </p>
+            Menu Item
+          </button>
+          <button
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+            type="button"
+          >
+            Menu Item
+          </button>
+          <button
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+            type="button"
+          >
+            Menu Item
+          </button>
         </div>
         <button
           aria-hidden="true"
@@ -2750,7 +2136,7 @@ Object {
           type="button"
         />
         <div
-          class="z-[999999] box-border shadow-moon-lg shadow-none drop-shadow-[0_0_1px_rgba(0,0,0,0.4)] focus:outline-none w-auto min-w-[12rem] overflow-y-visible p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-goku"
+          class="flex flex-col gap-2 max-h-72 z-[999999] shadow-moon-lg focus:outline-none shadow-none drop-shadow-[0_0_1px_rgba(0,0,0,0.4)] w-auto min-w-[12rem] overflow-y-visible p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-goku"
           data-headlessui-state="open"
           data-popper-escaped="true"
           data-popper-placement="top"
@@ -2817,7 +2203,7 @@ Object {
         type="button"
       />
       <div
-        class="z-[999999] box-border shadow-moon-lg shadow-none drop-shadow-[0_0_1px_rgba(0,0,0,0.4)] focus:outline-none w-auto min-w-[12rem] overflow-y-visible p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-goku"
+        class="flex flex-col gap-2 max-h-72 z-[999999] shadow-moon-lg focus:outline-none shadow-none drop-shadow-[0_0_1px_rgba(0,0,0,0.4)] w-auto min-w-[12rem] overflow-y-visible p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-goku"
         data-headlessui-state="open"
         data-popper-escaped="true"
         data-popper-placement="top"
@@ -2927,7 +2313,7 @@ Object {
           </button>
         </div>
         <div
-          class="z-[999999] box-border shadow-moon-lg shadow-none drop-shadow-[0_0_1px_rgba(0,0,0,0.4)] focus:outline-none w-auto min-w-[12rem] overflow-y-visible p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-goku"
+          class="flex flex-col gap-2 max-h-72 z-[999999] shadow-moon-lg focus:outline-none shadow-none drop-shadow-[0_0_1px_rgba(0,0,0,0.4)] w-auto min-w-[12rem] overflow-y-visible p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-goku"
           data-headlessui-state=""
           id="headlessui-popover-panel-:r1f:"
           style="position: absolute; left: 0px; top: 0px;"
@@ -2970,7 +2356,7 @@ Object {
         </button>
       </div>
       <div
-        class="z-[999999] box-border shadow-moon-lg shadow-none drop-shadow-[0_0_1px_rgba(0,0,0,0.4)] focus:outline-none w-auto min-w-[12rem] overflow-y-visible p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-goku"
+        class="flex flex-col gap-2 max-h-72 z-[999999] shadow-moon-lg focus:outline-none shadow-none drop-shadow-[0_0_1px_rgba(0,0,0,0.4)] w-auto min-w-[12rem] overflow-y-visible p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-goku"
         data-headlessui-state=""
         id="headlessui-popover-panel-:r1f:"
         style="position: absolute; left: 0px; top: 0px;"
@@ -3077,7 +2463,7 @@ Object {
             </button>
           </div>
           <div
-            class="w-72 z-[999999] rounded-moon-s-md box-border bg-goku shadow-moon-lg overflow-y-auto focus:outline-none p-2 flex flex-col gap-1"
+            class="flex flex-col gap-2 p-1 w-72 max-h-72 z-[999999] rounded-moon-s-md bg-goku shadow-moon-lg overflow-y-auto focus:outline-none"
             data-headlessui-state="open"
             data-popper-escaped="true"
             data-popper-placement="bottom"
@@ -3088,19 +2474,19 @@ Object {
           >
             <div>
               <button
-                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
                 type="button"
               >
                 Tournaments
               </button>
               <button
-                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
                 type="button"
               >
                 Promotions
               </button>
               <button
-                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
                 type="button"
               >
                 Providers
@@ -3197,7 +2583,7 @@ Object {
           </button>
         </div>
         <div
-          class="w-72 z-[999999] rounded-moon-s-md box-border bg-goku shadow-moon-lg overflow-y-auto focus:outline-none p-2 flex flex-col gap-1"
+          class="flex flex-col gap-2 p-1 w-72 max-h-72 z-[999999] rounded-moon-s-md bg-goku shadow-moon-lg overflow-y-auto focus:outline-none"
           data-headlessui-state="open"
           data-popper-escaped="true"
           data-popper-placement="bottom"
@@ -3208,19 +2594,19 @@ Object {
         >
           <div>
             <button
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
               type="button"
             >
               Tournaments
             </button>
             <button
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
               type="button"
             >
               Promotions
             </button>
             <button
-              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
               type="button"
             >
               Providers
@@ -3371,7 +2757,7 @@ Object {
           </button>
         </div>
         <div
-          class="w-72 z-[999999] rounded-moon-s-md box-border bg-goku shadow-moon-lg overflow-y-auto focus:outline-none p-2 flex flex-col gap-1"
+          class="flex flex-col gap-2 p-1 w-72 max-h-72 z-[999999] rounded-moon-s-md bg-goku shadow-moon-lg overflow-y-auto focus:outline-none"
           data-headlessui-state="open"
           data-popper-escaped="true"
           data-popper-placement="bottom"
@@ -3381,133 +2767,22 @@ Object {
           tabindex="-1"
         >
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
             type="button"
           >
-            <span
-              class="flex w-11 h-11 bg-gohan items-center justify-center rounded-lg"
-            >
-              <svg
-                class="text-bulma text-moon-24"
-                fill="none"
-                height="1em"
-                viewBox="0 0 32 32"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                />
-              </svg>
-            </span>
-            <span
-              class="block grow text-start text-bulma overflow-hidden"
-            >
-              <span
-                class="block text-bulma text-moon-14"
-              >
-                Tournaments
-              </span>
-              <span
-                class="flex text-trunks text-moon-12"
-              >
-                <span
-                  class="flex-1 truncate"
-                >
-                  <span>
-                    Best tournaments with streamers
-                  </span>
-                </span>
-              </span>
-            </span>
+            Menu Item
           </button>
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
             type="button"
           >
-            <span
-              class="flex w-11 h-11 bg-gohan items-center justify-center"
-            >
-              <svg
-                class="text-bulma text-moon-24"
-                fill="none"
-                height="1em"
-                viewBox="0 0 32 32"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                />
-              </svg>
-            </span>
-            <span
-              class="block grow text-start text-bulma overflow-hidden"
-            >
-              <span
-                class="block text-bulma text-moon-14"
-              >
-                Promotions
-              </span>
-              <span
-                class="flex text-trunks text-moon-12"
-              >
-                <span
-                  class="flex-1 truncate"
-                >
-                  <span>
-                     Your favourite games
-                  </span>
-                </span>
-              </span>
-            </span>
+            Menu Item
           </button>
           <button
-            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+            class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
             type="button"
           >
-            <span
-              class="flex w-11 h-11 bg-gohan items-center justify-center"
-            >
-              <svg
-                class="text-bulma text-moon-24"
-                fill="none"
-                height="1em"
-                viewBox="0 0 32 32"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                />
-              </svg>
-            </span>
-            <span
-              class="block grow text-start text-bulma overflow-hidden"
-            >
-              <span
-                class="block text-bulma text-moon-14"
-              >
-                Providers
-              </span>
-              <span
-                class="flex text-trunks text-moon-12"
-              >
-                <span
-                  class="flex-1 truncate"
-                >
-                  <span>
-                     Your favourite games
-                  </span>
-                </span>
-              </span>
-            </span>
+            Menu Item
           </button>
           <button
             class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
@@ -3550,7 +2825,7 @@ Object {
         </button>
       </div>
       <div
-        class="w-72 z-[999999] rounded-moon-s-md box-border bg-goku shadow-moon-lg overflow-y-auto focus:outline-none p-2 flex flex-col gap-1"
+        class="flex flex-col gap-2 p-1 w-72 max-h-72 z-[999999] rounded-moon-s-md bg-goku shadow-moon-lg overflow-y-auto focus:outline-none"
         data-headlessui-state="open"
         data-popper-escaped="true"
         data-popper-placement="bottom"
@@ -3560,133 +2835,22 @@ Object {
         tabindex="-1"
       >
         <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
           type="button"
         >
-          <span
-            class="flex w-11 h-11 bg-gohan items-center justify-center rounded-lg"
-          >
-            <svg
-              class="text-bulma text-moon-24"
-              fill="none"
-              height="1em"
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
-                stroke="currentColor"
-                stroke-linecap="round"
-              />
-            </svg>
-          </span>
-          <span
-            class="block grow text-start text-bulma overflow-hidden"
-          >
-            <span
-              class="block text-bulma text-moon-14"
-            >
-              Tournaments
-            </span>
-            <span
-              class="flex text-trunks text-moon-12"
-            >
-              <span
-                class="flex-1 truncate"
-              >
-                <span>
-                  Best tournaments with streamers
-                </span>
-              </span>
-            </span>
-          </span>
+          Menu Item
         </button>
         <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
           type="button"
         >
-          <span
-            class="flex w-11 h-11 bg-gohan items-center justify-center"
-          >
-            <svg
-              class="text-bulma text-moon-24"
-              fill="none"
-              height="1em"
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
-                stroke="currentColor"
-                stroke-linecap="round"
-              />
-            </svg>
-          </span>
-          <span
-            class="block grow text-start text-bulma overflow-hidden"
-          >
-            <span
-              class="block text-bulma text-moon-14"
-            >
-              Promotions
-            </span>
-            <span
-              class="flex text-trunks text-moon-12"
-            >
-              <span
-                class="flex-1 truncate"
-              >
-                <span>
-                   Your favourite games
-                </span>
-              </span>
-            </span>
-          </span>
+          Menu Item
         </button>
         <button
-          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
+          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition w-full"
           type="button"
         >
-          <span
-            class="flex w-11 h-11 bg-gohan items-center justify-center"
-          >
-            <svg
-              class="text-bulma text-moon-24"
-              fill="none"
-              height="1em"
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
-                stroke="currentColor"
-                stroke-linecap="round"
-              />
-            </svg>
-          </span>
-          <span
-            class="block grow text-start text-bulma overflow-hidden"
-          >
-            <span
-              class="block text-bulma text-moon-14"
-            >
-              Providers
-            </span>
-            <span
-              class="flex text-trunks text-moon-12"
-            >
-              <span
-                class="flex-1 truncate"
-              >
-                <span>
-                   Your favourite games
-                </span>
-              </span>
-            </span>
-          </span>
+          Menu Item
         </button>
         <button
           class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"

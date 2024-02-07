@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Dropdown, MenuItem } from '@heathmont/moon-core-tw';
 
 type People = {
   name: string;
 };
+
 const people = [
   { name: 'Wade Cooper' },
   { name: 'Arlene Mccoy' },

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Combobox, MenuItem } from '@heathmont/moon-core-tw';
 import { ControlsChevronDownSmall } from '@heathmont/moon-icons-tw';
 
@@ -45,7 +45,11 @@ const Example = () => {
       >
         {({ open }) => (
           <>
-            <Combobox.Trigger open={open} className="min-w-[18.75rem]" onClose={console.log}>
+            <Combobox.Trigger
+              open={open}
+              className="min-w-[18.75rem]"
+              onClose={console.log}
+            >
               <Combobox.Input
                 open={open}
                 placeholder={'Choose a name...'}
@@ -56,7 +60,7 @@ const Example = () => {
               </Combobox.Button>
             </Combobox.Trigger>
             <Combobox.Transition>
-              <Combobox.Options className={'min-w-[18.75rem] z-50'}>
+              <Combobox.Options>
                 {filteredPeople0.length === 0 && query0 !== '' ? (
                   <div className="relative cursor-default select-none py-2 px-4 text-trunks">
                     Nothing found.
@@ -90,7 +94,11 @@ const Example = () => {
       >
         {({ open }) => (
           <>
-            <Combobox.Trigger open={open} className="min-w-[18.75rem]" onClose={console.log}>
+            <Combobox.Trigger
+              open={open}
+              className="min-w-[18.75rem]"
+              onClose={console.log}
+            >
               <Combobox.Input
                 open={open}
                 placeholder={'Choose a name...'}
@@ -101,7 +109,7 @@ const Example = () => {
               </Combobox.Button>
             </Combobox.Trigger>
             <Combobox.Transition>
-              <Combobox.Options className={'min-w-[18.75rem] z-50'}>
+              <Combobox.Options>
                 {filteredPeople1.length === 0 && query1 !== '' ? (
                   <div className="relative cursor-default select-none py-2 px-4 text-trunks">
                     Nothing found.

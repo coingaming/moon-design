@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Dropdown, MenuItem, Chip } from '@heathmont/moon-core-tw';
 import {
   OtherWater,

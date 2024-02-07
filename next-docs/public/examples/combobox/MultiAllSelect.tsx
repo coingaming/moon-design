@@ -1,7 +1,6 @@
-import React, { useCallback, useState } from 'react';
+import { useCallback, useState } from 'react';
 import { Combobox, MenuItem } from '@heathmont/moon-core-tw';
 import { ControlsChevronDownSmall } from '@heathmont/moon-icons-tw';
-import { boolean } from 'zod';
 
 const people = [
   { id: 1, label: 'Wade Cooper', value: 'Wade Cooper' },
@@ -33,25 +32,28 @@ const Example = () => {
 
   const filteredPeople = filter(query, people);
 
-  const onChange = useCallback((value: unknown) => {
-    const selectedItems = value as [];
-    const allSelected = selectedItems.filter((item) => {
-      return Array.isArray(item);
-    });
+  const onChange = useCallback(
+    (value: unknown) => {
+      const selectedItems = value as [];
+      const allSelected = selectedItems.filter((item) => {
+        return Array.isArray(item);
+      });
 
-    if (allSelected.length > 0) {
-      const items = (allSelected.at(0) as unknown) as [];
-      if (isAllSelected) {
-        setSelected([]);
+      if (allSelected.length > 0) {
+        const items = allSelected.at(0) as unknown as [];
+        if (isAllSelected) {
+          setSelected([]);
+        } else {
+          setSelected(items);
+        }
+        setIsAllSelected(!isAllSelected);
       } else {
-        setSelected(items);
+        setSelected(selectedItems);
+        setIsAllSelected(selectedItems.length === people.length);
       }
-      setIsAllSelected(!isAllSelected);
-    } else {
-      setSelected(selectedItems);
-      setIsAllSelected(selectedItems.length === people.length);
-    }
-  }, [setSelected, isAllSelected]);
+    },
+    [setSelected, isAllSelected]
+  );
 
   const onClear = useCallback(() => {
     setSelected([]);

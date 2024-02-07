@@ -2,6 +2,7 @@ import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import type { ComponentNames } from '../../components/getComponent';
 import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/dropdown/Default';
@@ -15,7 +16,6 @@ import Select from '../../public/examples/dropdown/Select';
 import SelectStates from '../../public/examples/dropdown/SelectStates';
 import TriggerElements from '../../public/examples/dropdown/TriggerElements';
 import useComponent from '../../utils/useComponent';
-import type { ComponentNames } from '../../components/getComponent';
 
 const COMPONENT_NAME: ComponentNames = 'Dropdown';
 
@@ -227,13 +227,6 @@ const PageDropdown = () => {
       <PropsTable
         title="Dropdown.Options"
         data={[
-          {
-            name: 'menuWidth',
-            type: 'string',
-            required: false,
-            default: '-',
-            description: 'Tailwind class for custom options container width.',
-          },
           {
             name: 'className',
             type: 'string',

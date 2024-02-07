@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Dropdown, MenuItem } from '@heathmont/moon-core-tw';
 
 type People = {

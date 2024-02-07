@@ -9,7 +9,6 @@ import Default from '../../public/examples/combobox/Default';
 import InsetMultiSelect from '../../public/examples/combobox/InsetMultiSelect';
 import InsetSelect from '../../public/examples/combobox/InsetSelect';
 import InsetSelectStates from '../../public/examples/combobox/InsetSelectStates';
-import LongNameOptions from '../../public/examples/combobox/LongNameOptions';
 import MultiAllSelect from '../../public/examples/combobox/MultiAllSelect';
 import MultiSelect from '../../public/examples/combobox/MultiSelect';
 import Select from '../../public/examples/combobox/Select';
@@ -142,7 +141,7 @@ const PageCombobox = () => {
         code={examples ? examples.InsetMultiSelect : 'Loading'}
       />
 
-    <ComponentAnatomy>
+      <ComponentAnatomy>
         {`<Combobox>
   <Combobox.VisualMultiSelect>...</Combobox.VisualMultiSelect>
   <Combobox.Options>
@@ -157,13 +156,6 @@ const PageCombobox = () => {
         preview={<VisualMultiSelect />}
         code={examples ? examples.VisualMultiSelect : 'Loading'}
       />
-
-      <Preview
-        title="Alignment of controls for options with long names"
-        preview={<LongNameOptions />}
-        code={examples ? examples.LongNameOptions : 'Loading'}
-      />
-
       <PropsTable
         title="Combobox"
         data={[
@@ -369,13 +361,6 @@ const PageCombobox = () => {
       <PropsTable
         title="Combobox.Options"
         data={[
-          {
-            name: 'menuWidth',
-            type: 'string',
-            required: false,
-            default: '-',
-            description: 'Tailwind class for custom options container width.',
-          },
           {
             name: 'className',
             type: 'string',
@@ -590,7 +575,8 @@ const PageCombobox = () => {
             type: 'boolean',
             required: false,
             default: '-',
-            description: 'If you need to align the list of options properly on each select/deselect set the "boolean" property.',
+            description:
+              'If you need to align the list of options properly on each select/deselect set the "boolean" property.',
           },
         ]}
       />

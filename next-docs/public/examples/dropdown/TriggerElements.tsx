@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Dropdown, MenuItem, Chip, Button } from '@heathmont/moon-core-tw';
 import {
   ControlsChevronDown,
