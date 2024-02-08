@@ -42,8 +42,8 @@ function CommandMenu() {
         }}
       >
         <SearchCmdk.TriggerIcon />
-        <span className="text-moon-16">Search...</span>
-        <SearchCmdk.TriggerKbd>⌘K</SearchCmdk.TriggerKbd>
+        <span>Search...</span>
+        <SearchCmdk.TriggerKbd>⌘+K</SearchCmdk.TriggerKbd>
       </SearchCmdk.Trigger>
 
       {open && <SearchCmdk.Overlay />}
