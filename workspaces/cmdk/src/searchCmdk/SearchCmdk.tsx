@@ -188,7 +188,8 @@ const Trigger = ({
     aria-label="Search"
     className={mergeClassnames(
       'flex gap-2 h-10 cursor-text items-center text-trunks w-full',
-      'rounded-moon-i-sm border border-beerus bg-goku px-2 text-moon-14'
+      'rounded-moon-i-sm border border-beerus bg-goku px-2 text-moon-14',
+      className
     )}
     {...props}
   >
