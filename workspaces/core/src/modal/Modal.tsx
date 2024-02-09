@@ -30,10 +30,9 @@ const ModalRoot: ModalComponentProps = ({
   const defFocus = useRef(null);
   const [focusElRef, setFocusElRef] =
     useState<MutableRefObject<HTMLElement | null>>();
-
   useEffect(() => {
-    initialFocus ? setFocusElRef(initialFocus) : setFocusElRef(defFocus);
-  }, [initialFocus]);
+    setFocusElRef(initialFocus ? initialFocus : defFocus);
+  }, [initialFocus, defFocus]);
   return (
     <Transition appear show={open} as={React.Fragment}>
       <Dialog
