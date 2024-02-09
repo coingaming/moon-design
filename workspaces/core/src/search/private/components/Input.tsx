@@ -10,7 +10,7 @@ const Wrapper = ({
 }: React.HTMLAttributes<HTMLDivElement>) => (
   <div
     className={mergeClassnames(
-      'flex items-center px-3 gap-2 moon-search-input',
+      'flex items-center px-2 gap-2 moon-search-input',
       className
     )}
     {...props}
@@ -24,13 +24,15 @@ const Icon = ({
   className,
   ...props
 }: React.ComponentProps<typeof GenericSearch>) => (
-  <GenericSearch
-    className={mergeClassnames(
-      'w-6 h-6 pointer-events-none text-bulma',
-      className
-    )}
-    {...props}
-  />
+  <div>
+    <GenericSearch
+      className={mergeClassnames(
+        'pointer-events-none text-bulma text-moon-24',
+        className
+      )}
+      {...props}
+    />
+  </div>
 );
 
 const InnerInput = forwardRef(
@@ -52,7 +54,7 @@ const InnerInput = forwardRef(
         spellCheck={false}
         className={mergeClassnames(
           'moon-search-input py-2 px-0 border-0 w-full focus:outline-none focus:border-0',
-          'focus:ring-0 bg-transparent placeholder-bulma text-bulma',
+          'focus:ring-0 bg-transparent placeholder-bulma text-bulma text-moon-14',
           className
         )}
         onClick={() => {

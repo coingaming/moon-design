@@ -22,10 +22,10 @@ Object {
       >
         <button
           aria-label="Search"
-          class="flex gap-2 h-10 cursor-text items-center text-trunks hover:border-trunks w-full rounded-moon-i-sm border border-beerus bg-goku px-2 text-moon-14"
+          class="flex gap-2 h-10 cursor-text items-center text-trunks w-full rounded-moon-i-sm border border-beerus bg-goku px-2 text-moon-14"
         >
           <svg
-            class="text-moon-24 text-trunks"
+            class="text-moon-24 text-bulma"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -38,15 +38,13 @@ Object {
               stroke-linecap="round"
             />
           </svg>
-          <span
-            class="text-moon-16"
-          >
+          <span>
             Search...
           </span>
           <kbd
-            class="inline-block whitespace-nowrap rounded px-1.5 font-medium tracking-wide text-moon-14 border border-beerus text-trunks ms-auto"
+            class="text-moon-12 text-trunks ms-auto"
           >
-            ⌘K
+            ⌘+K
           </kbd>
         </button>
         <div
@@ -86,22 +84,24 @@ Object {
           Command Menu
         </label>
         <div
-          class="flex items-center gap-2 px-3 py-4"
+          class="flex items-center gap-4 px-4"
         >
-          <svg
-            class="w-6 h-6 pointer-events-none text-bulma"
-            fill="none"
-            height="1em"
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25 25L20.5871 20.5953M20.5871 20.5953C22.0303 19.1542 22.9231 17.1621 22.9231 14.9615C22.9231 10.5645 19.3586 7 14.9615 7C10.5645 7 7 10.5645 7 14.9615C7 19.3586 10.5645 22.9231 14.9615 22.9231C17.158 22.9231 19.1467 22.0336 20.5871 20.5953Z"
-              stroke="currentColor"
-              stroke-linecap="round"
-            />
-          </svg>
+          <div>
+            <svg
+              class="pointer-events-none text-bulma text-moon-24"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 25L20.5871 20.5953M20.5871 20.5953C22.0303 19.1542 22.9231 17.1621 22.9231 14.9615C22.9231 10.5645 19.3586 7 14.9615 7C10.5645 7 7 10.5645 7 14.9615C7 19.3586 10.5645 22.9231 14.9615 22.9231C17.158 22.9231 19.1467 22.0336 20.5871 20.5953Z"
+                stroke="currentColor"
+                stroke-linecap="round"
+              />
+            </svg>
+          </div>
           <input
             aria-autocomplete="list"
             aria-controls=":rd:"
@@ -109,7 +109,7 @@ Object {
             aria-labelledby=":re:"
             autocomplete="off"
             autocorrect="off"
-            class="py-2 px-0 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent placeholder-trunks text-bulma"
+            class="py-4 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent placeholder-trunks text-bulma text-moon-16"
             cmdk-input=""
             id=":rf:"
             placeholder="Search for a component"
@@ -119,7 +119,7 @@ Object {
             value=""
           />
           <kbd
-            class="select-none hover:cursor-pointer text-trunks text-moon-10 transition transform border border-trunks rounded-md p-1"
+            class="select-none hover:cursor-pointer text-trunks text-moon-14"
           >
             Esc
           </kbd>
@@ -196,10 +196,10 @@ Object {
     >
       <button
         aria-label="Search"
-        class="flex gap-2 h-10 cursor-text items-center text-trunks hover:border-trunks w-full rounded-moon-i-sm border border-beerus bg-goku px-2 text-moon-14"
+        class="flex gap-2 h-10 cursor-text items-center text-trunks w-full rounded-moon-i-sm border border-beerus bg-goku px-2 text-moon-14"
       >
         <svg
-          class="text-moon-24 text-trunks"
+          class="text-moon-24 text-bulma"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -212,15 +212,13 @@ Object {
             stroke-linecap="round"
           />
         </svg>
-        <span
-          class="text-moon-16"
-        >
+        <span>
           Search...
         </span>
         <kbd
-          class="inline-block whitespace-nowrap rounded px-1.5 font-medium tracking-wide text-moon-14 border border-beerus text-trunks ms-auto"
+          class="text-moon-12 text-trunks ms-auto"
         >
-          ⌘K
+          ⌘+K
         </kbd>
       </button>
       <div
@@ -301,10 +299,10 @@ Object {
     >
       <button
         aria-label="Search"
-        class="flex gap-2 h-10 cursor-text items-center text-trunks hover:border-trunks w-full rounded-moon-i-sm border border-beerus bg-goku px-2 text-moon-14"
+        class="flex gap-2 h-10 cursor-text items-center text-trunks w-full rounded-moon-i-sm border border-beerus bg-goku px-2 text-moon-14"
       >
         <svg
-          class="text-moon-24 text-trunks"
+          class="text-moon-24 text-bulma"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -317,15 +315,13 @@ Object {
             stroke-linecap="round"
           />
         </svg>
-        <span
-          class="text-moon-16"
-        >
+        <span>
           Search...
         </span>
         <kbd
-          class="inline-block whitespace-nowrap rounded px-1.5 font-medium tracking-wide text-moon-14 border border-beerus text-trunks ms-auto"
+          class="text-moon-12 text-trunks ms-auto"
         >
-          ⌘K
+          ⌘+K
         </kbd>
       </button>
       <div
@@ -364,22 +360,24 @@ Object {
           Command Menu
         </label>
         <div
-          class="flex items-center gap-2 px-3 py-4"
+          class="flex items-center gap-4 px-4"
         >
-          <svg
-            class="w-6 h-6 pointer-events-none text-bulma"
-            fill="none"
-            height="1em"
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25 25L20.5871 20.5953M20.5871 20.5953C22.0303 19.1542 22.9231 17.1621 22.9231 14.9615C22.9231 10.5645 19.3586 7 14.9615 7C10.5645 7 7 10.5645 7 14.9615C7 19.3586 10.5645 22.9231 14.9615 22.9231C17.158 22.9231 19.1467 22.0336 20.5871 20.5953Z"
-              stroke="currentColor"
-              stroke-linecap="round"
-            />
-          </svg>
+          <div>
+            <svg
+              class="pointer-events-none text-bulma text-moon-24"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 25L20.5871 20.5953M20.5871 20.5953C22.0303 19.1542 22.9231 17.1621 22.9231 14.9615C22.9231 10.5645 19.3586 7 14.9615 7C10.5645 7 7 10.5645 7 14.9615C7 19.3586 10.5645 22.9231 14.9615 22.9231C17.158 22.9231 19.1467 22.0336 20.5871 20.5953Z"
+                stroke="currentColor"
+                stroke-linecap="round"
+              />
+            </svg>
+          </div>
           <input
             aria-autocomplete="list"
             aria-controls=":r3:"
@@ -387,7 +385,7 @@ Object {
             aria-labelledby=":r4:"
             autocomplete="off"
             autocorrect="off"
-            class="py-2 px-0 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent placeholder-trunks text-bulma"
+            class="py-4 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent placeholder-trunks text-bulma text-moon-16"
             cmdk-input=""
             id=":r5:"
             placeholder="Search for a component"
@@ -397,7 +395,7 @@ Object {
             value=""
           />
           <kbd
-            class="select-none hover:cursor-pointer text-trunks text-moon-10 transition transform border border-trunks rounded-md p-1"
+            class="select-none hover:cursor-pointer text-trunks text-moon-14"
           >
             Esc
           </kbd>
@@ -471,10 +469,10 @@ Object {
   >
     <button
       aria-label="Search"
-      class="flex gap-2 h-10 cursor-text items-center text-trunks hover:border-trunks w-full rounded-moon-i-sm border border-beerus bg-goku px-2 text-moon-14"
+      class="flex gap-2 h-10 cursor-text items-center text-trunks w-full rounded-moon-i-sm border border-beerus bg-goku px-2 text-moon-14"
     >
       <svg
-        class="text-moon-24 text-trunks"
+        class="text-moon-24 text-bulma"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -487,15 +485,13 @@ Object {
           stroke-linecap="round"
         />
       </svg>
-      <span
-        class="text-moon-16"
-      >
+      <span>
         Search...
       </span>
       <kbd
-        class="inline-block whitespace-nowrap rounded px-1.5 font-medium tracking-wide text-moon-14 border border-beerus text-trunks ms-auto"
+        class="text-moon-12 text-trunks ms-auto"
       >
-        ⌘K
+        ⌘+K
       </kbd>
     </button>
     <div
