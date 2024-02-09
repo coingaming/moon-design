@@ -21,7 +21,7 @@ const InsetInputRoot = forwardRef<HTMLInputElement, InsetInputProps>(
       <InsetInputContext.Provider value={{ ...state, registerChild }}>
         <div
           className={mergeClassnames(
-            'w-full max-w-full relative rounded-moon-i-sm bg-goku',
+            'w-full relative rounded-moon-i-sm bg-goku',
             disabled && 'opacity-60 cursor-not-allowed',
             className && className
           )}
@@ -33,22 +33,21 @@ const InsetInputRoot = forwardRef<HTMLInputElement, InsetInputProps>(
             disabled={disabled}
             max={getMaxDate(rest.type)}
             className={mergeClassnames(
-              'block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma',
+              'block w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma',
               'transition-shadow box-border relative z-[2] bg-transparent shadow-input',
               'hover:shadow-input-hov focus:shadow-input-focus focus:outline-none',
               'focus-visible:shadow-input-focus focus-visible::outline-none',
-              error &&
-                'shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err',
-              'h-14 leading-[3.5rem] rounded-moon-i-sm before:box-border after:box-border',
-              'placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity',
-              'placeholder:delay-75 read-only:outline-0 read-only:border-none',
-              'read-only:cursor-not-allowed read-only:hover:shadow-input',
+              'focus-visible:shadow-input-err h-14 leading-[3.5rem] rounded-moon-i-sm',
+              'before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100',
+              'placeholder:transition-opacity placeholder:delay-75 read-only:outline-0',
+              'read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input',
               'read-only:focus:shadow-input read-only:focus-visible:shadow-input',
               'invalid:shadow-input-err invalid:hover:shadow-input-err input-xl-dt-shared',
               'invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err',
+              error &&
+                'shadow-input-err hover:shadow-input-err focus:shadow-input-err',
               getTypeStyles(rest.type),
-              isLabel && 'input-xl pt-[1.125rem] input-xl-dt-label',
-              disabled && 'opacity-60 cursor-not-allowed'
+              isLabel && 'input-xl pt-[1.125rem] input-xl-dt-label'
             )}
             {...rest}
           />
@@ -67,8 +66,7 @@ const Label = ({ children, className }: LabelProps) => {
   return (
     <label
       className={mergeClassnames(
-        'absolute text-moon-12 text-trunks top-3 z-[1] transition-all ease-in-out duration-200',
-        'start-4',
+        'absolute text-moon-12 text-trunks top-3 start-4 z-[1] transition-all',
         className
       )}
     >

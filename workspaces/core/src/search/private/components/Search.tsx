@@ -141,10 +141,9 @@ const SearchRoot = ({
     <div ref={ref} onKeyDown={onKeyDown} onClick={openSearch}>
       <div
         className={mergeClassnames(
-          'relative w-full h-full bg-goku flex flex-col border border-beerus',
+          'relative w-full h-full bg-goku flex flex-col border border-beerus transition-all',
+          '[&_.moon-search-result]:top-10 [&_.moon-search-transition>.moon-search-result]:top-0',
           isOpen ? 'rounded-t-moon-s-sm' : 'rounded-moon-s-sm',
-          '[&_.moon-search-result]:top-10',
-          '[&_.moon-search-transition>.moon-search-result]:top-0',
           className
         )}
       >

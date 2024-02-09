@@ -32,6 +32,7 @@ type TableProps<D extends object = {}> = {
   useCheckbox?: boolean;
   textClip?: ClipProps;
   keepState?: KeepStateProps;
+  className?: string;
   renderRowSubComponent?: (props: RowSubComponentProps) => JSX.Element;
   getOnRowClickHandler?: (row: Row<D>) => (row: Row<D>) => void | (() => void);
   getOnRowSelect?: () => (rows: Row<D>[]) => void | (() => void);
