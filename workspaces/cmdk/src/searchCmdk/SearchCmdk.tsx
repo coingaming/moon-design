@@ -32,7 +32,7 @@ const InputWrapper = ({
   ...props
 }: React.HTMLAttributes<HTMLDivElement>) => (
   <div
-    className={mergeClassnames('flex items-center gap-2 px-3 py-4', className)}
+    className={mergeClassnames('flex items-center gap-4 px-4', className)}
     {...props}
   >
     {children}
@@ -47,8 +47,8 @@ const Input = ({
   <Command.Input
     placeholder={placeholder}
     className={mergeClassnames(
-      'py-2 px-0 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent',
-      'placeholder-trunks text-bulma',
+      'py-4 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent',
+      'placeholder-trunks text-bulma text-moon-16',
       className
     )}
     {...props}
@@ -59,13 +59,15 @@ const Icon = ({
   className,
   ...props
 }: React.ComponentProps<typeof GenericSearch>) => (
-  <GenericSearch
-    className={mergeClassnames(
-      'w-6 h-6 pointer-events-none text-bulma',
-      className
-    )}
-    {...props}
-  />
+  <div>
+    <GenericSearch
+      className={mergeClassnames(
+        'pointer-events-none text-bulma text-moon-24',
+        className
+      )}
+      {...props}
+    />
+  </div>
 );
 
 const Kbd = ({
@@ -75,8 +77,7 @@ const Kbd = ({
 }: React.HTMLAttributes<HTMLDivElement>) => (
   <kbd
     className={mergeClassnames(
-      'select-none hover:cursor-pointer text-trunks text-moon-10 transition transform border',
-      'border-trunks rounded-md p-1',
+      'select-none hover:cursor-pointer text-trunks text-moon-14',
       className
     )}
     {...props}
@@ -150,7 +151,7 @@ const NoResults = ({
 }: React.ComponentProps<typeof Command.Empty>) => (
   <Command.Empty
     className={mergeClassnames(
-      'p-3 text-moon-14 text-trunks flex items-center space-x-2 font-medium',
+      'p-3 text-moon-14 text-trunks flex items-center',
       className
     )}
   >
@@ -186,7 +187,7 @@ const Trigger = ({
   <button
     aria-label="Search"
     className={mergeClassnames(
-      'flex gap-2 h-10 cursor-text items-center text-trunks hover:border-trunks w-full',
+      'flex gap-2 h-10 cursor-text items-center text-trunks w-full',
       'rounded-moon-i-sm border border-beerus bg-goku px-2 text-moon-14',
       className
     )}
@@ -201,7 +202,7 @@ const TriggerIcon = ({
   ...props
 }: React.ComponentProps<typeof GenericSearch>) => (
   <GenericSearch
-    className={mergeClassnames('text-moon-24 text-trunks', className)}
+    className={mergeClassnames('text-moon-24 text-bulma', className)}
     {...props}
   />
 );
@@ -212,11 +213,7 @@ const TriggerKbd = ({
   ...props
 }: React.HTMLAttributes<HTMLDivElement>) => (
   <kbd
-    className={mergeClassnames(
-      'inline-block whitespace-nowrap rounded px-1.5 font-medium tracking-wide text-moon-14 border',
-      'border-beerus text-trunks ms-auto',
-      className
-    )}
+    className={mergeClassnames('text-moon-12 text-trunks ms-auto', className)}
     {...props}
   >
     {children}
