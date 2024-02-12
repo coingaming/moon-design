@@ -1,7 +1,7 @@
 import { themed } from '@heathmont/moon-utils';
 import styled from 'styled-components';
-import type AvatarProps from '../private/types/AvatarProps';
 import setWrapperSize from '../private/utils/setWrapperSize';
+import type AvatarProps from '../private/types/AvatarProps';
 
 const Wrapper = styled.div<AvatarProps>(
   ({ size, imageUrl, color, backgroundColor, theme }) => [
@@ -14,7 +14,7 @@ const Wrapper = styled.div<AvatarProps>(
       display: 'flex',
       alignItems: 'center',
       justifyContent: 'center',
-      backgroundImage: imageUrl ? `url(${imageUrl})` : 'none',
+      backgroundImage: `url(${imageUrl})`,
       backgroundSize: 'cover',
     },
     setWrapperSize(size),

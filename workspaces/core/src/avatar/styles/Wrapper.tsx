@@ -23,7 +23,7 @@ const Wrapper = ({
       getBorderRadius(size, isRounded),
       className
     )}
-    style={{ backgroundImage: imageUrl ? `url('${imageUrl}')` : 'none' }}
+    style={{ backgroundImage: `url('${imageUrl}')` }}
   >
     {children}
   </div>
