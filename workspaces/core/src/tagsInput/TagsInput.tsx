@@ -85,6 +85,11 @@ const TagsInputRoot = forwardRef<HTMLSpanElement, TagsInputRootProps>(
                   onEnter((e.target as HTMLInputElement).value);
                 e.code === 'Enter' &&
                   ((e.target as HTMLInputElement).value = '');
+                e.code === 'Backspace' &&
+                  (e.target as HTMLInputElement).value === '' &&
+                  selected.length !== 0 &&
+                  onClear &&
+                  onClear(selected.length - 1);
               }}
               onFocus={() => setIsFocused(true)}
               onBlur={() => setIsFocused(false)}
