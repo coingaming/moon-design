@@ -14,7 +14,7 @@ const IconButtonComponent = <C extends React.ElementType>({
   disabled,
   animation,
   as,
-  customClassName,
+  className,
   ...rest
 }: IconButtonProps<C>) => {
   const Component = as || 'button';
@@ -29,7 +29,7 @@ const IconButtonComponent = <C extends React.ElementType>({
           getAnimation('pulse'),
         animation === 'error' && getAnimation('error'),
         getIconSize(size),
-        customClassName
+        className
       )}
       {...((!as || as === 'button') && { type: 'button' })}
       {...(disabled && { disabled })}

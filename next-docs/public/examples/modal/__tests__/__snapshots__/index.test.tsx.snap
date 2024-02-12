@@ -76,13 +76,12 @@ Object {
                     class="p-4 border-t-2 border-beerus"
                   >
                     <button
-                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
                       type="button"
                     >
                       Got it, thanks!
                       <span
-                        aria-hidden="true"
-                        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
                       />
                     </button>
                   </div>
@@ -106,13 +105,12 @@ Object {
         dir="rtl"
       >
         <button
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
           type="button"
         >
           Open dialog
           <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
           />
         </button>
         <div
@@ -128,13 +126,12 @@ Object {
       dir="rtl"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
         type="button"
       >
         Open dialog
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <div
@@ -269,13 +266,12 @@ Object {
                     class="p-4 border-t-2 border-beerus"
                   >
                     <button
-                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
                       type="button"
                     >
                       Got it, thanks!
                       <span
-                        aria-hidden="true"
-                        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
                       />
                     </button>
                   </div>
@@ -299,13 +295,12 @@ Object {
         dir="rtl"
       >
         <button
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
           type="button"
         >
           Open dialog
           <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
           />
         </button>
         <div
@@ -321,13 +316,12 @@ Object {
       dir="rtl"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
         type="button"
       >
         Open dialog
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <div
@@ -448,7 +442,7 @@ Object {
                 >
                   <button
                     aria-label="IconButton"
-                    class="h-8 p-1 gap-1 rounded-moon-i-sm z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma text-moon-24 absolute top-4 end-5 text-goten"
+                    class="h-8 p-1 gap-1 rounded-moon-i-sm z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover-supported:hover:text-bulma hover-supported:[&>.hover]:hover:bg-jiren text-moon-24 absolute top-4 end-5 text-goten"
                     type="button"
                   >
                     <svg
@@ -467,8 +461,7 @@ Object {
                       />
                     </svg>
                     <span
-                      aria-hidden="true"
-                      class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                      class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
                     />
                   </button>
                   <div
@@ -488,13 +481,12 @@ Object {
                     class="p-4 flex items-center justify-center"
                   >
                     <button
-                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
+                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover-supported:hover:ring-bulma hover-supported:[&>.hover]:hover:bg-heles"
                       type="button"
                     >
                       Got it, thanks!
                       <span
-                        aria-hidden="true"
-                        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
                       />
                     </button>
                   </div>
@@ -518,13 +510,12 @@ Object {
         dir="rtl"
       >
         <button
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
           type="button"
         >
           Open dialog
           <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
           />
         </button>
         <div
@@ -540,13 +531,12 @@ Object {
       dir="rtl"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
         type="button"
       >
         Open dialog
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <div
@@ -678,7 +668,7 @@ Object {
                     </h3>
                     <button
                       aria-label="IconButton"
-                      class="h-8 p-1 gap-1 rounded-moon-i-sm z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma text-moon-24 absolute top-4 end-5"
+                      class="h-8 p-1 gap-1 rounded-moon-i-sm z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover-supported:hover:text-bulma hover-supported:[&>.hover]:hover:bg-jiren text-moon-24 absolute top-4 end-5"
                       type="button"
                     >
                       <svg
@@ -697,8 +687,7 @@ Object {
                         />
                       </svg>
                       <span
-                        aria-hidden="true"
-                        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
                       />
                     </button>
                   </div>
@@ -869,23 +858,21 @@ Object {
                     class="flex gap-2 p-4 justify-end pt-2"
                   >
                     <button
-                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
+                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover-supported:hover:ring-bulma hover-supported:[&>.hover]:hover:bg-heles"
                       type="button"
                     >
                       Cancel
                       <span
-                        aria-hidden="true"
-                        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
                       />
                     </button>
                     <button
-                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
                       type="button"
                     >
                       Create
                       <span
-                        aria-hidden="true"
-                        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
                       />
                     </button>
                   </div>
@@ -909,13 +896,12 @@ Object {
         dir="rtl"
       >
         <button
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
           type="button"
         >
           Open dialog
           <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
           />
         </button>
         <div
@@ -931,13 +917,12 @@ Object {
       dir="rtl"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
         type="button"
       >
         Open dialog
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <div
@@ -1063,13 +1048,12 @@ Object {
                     class="p-4 border-t-2 border-beerus"
                   >
                     <button
-                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
                       type="button"
                     >
                       Got it, thanks!
                       <span
-                        aria-hidden="true"
-                        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
                       />
                     </button>
                   </div>
@@ -1090,13 +1074,12 @@ Object {
       aria-hidden="true"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
         type="button"
       >
         Open dialog
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <div
@@ -1108,13 +1091,12 @@ Object {
     aria-hidden="true"
   >
     <button
-      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
       type="button"
     >
       Open dialog
       <span
-        aria-hidden="true"
-        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
       />
     </button>
     <div
@@ -1183,13 +1165,12 @@ Object {
       aria-hidden="true"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
         type="button"
       >
         Open dialog
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <div
@@ -1253,13 +1234,12 @@ Object {
                     class="p-4 border-t-2 border-beerus"
                   >
                     <button
-                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
                       type="button"
                     >
                       Got it, thanks!
                       <span
-                        aria-hidden="true"
-                        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
                       />
                     </button>
                   </div>
@@ -1281,13 +1261,12 @@ Object {
     aria-hidden="true"
   >
     <button
-      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
       type="button"
     >
       Open dialog
       <span
-        aria-hidden="true"
-        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
       />
     </button>
     <div
@@ -1395,7 +1374,7 @@ Object {
                 >
                   <button
                     aria-label="IconButton"
-                    class="h-8 p-1 gap-1 rounded-moon-i-sm z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma text-moon-24 absolute top-4 end-5 text-goten"
+                    class="h-8 p-1 gap-1 rounded-moon-i-sm z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover-supported:hover:text-bulma hover-supported:[&>.hover]:hover:bg-jiren text-moon-24 absolute top-4 end-5 text-goten"
                     type="button"
                   >
                     <svg
@@ -1414,8 +1393,7 @@ Object {
                       />
                     </svg>
                     <span
-                      aria-hidden="true"
-                      class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                      class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
                     />
                   </button>
                   <div
@@ -1435,13 +1413,12 @@ Object {
                     class="p-4 flex items-center justify-center"
                   >
                     <button
-                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
+                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover-supported:hover:ring-bulma hover-supported:[&>.hover]:hover:bg-heles"
                       type="button"
                     >
                       Got it, thanks!
                       <span
-                        aria-hidden="true"
-                        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
                       />
                     </button>
                   </div>
@@ -1462,13 +1439,12 @@ Object {
       aria-hidden="true"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
         type="button"
       >
         Open dialog
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <div
@@ -1480,13 +1456,12 @@ Object {
     aria-hidden="true"
   >
     <button
-      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
       type="button"
     >
       Open dialog
       <span
-        aria-hidden="true"
-        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
       />
     </button>
     <div
@@ -1605,7 +1580,7 @@ Object {
                     </h3>
                     <button
                       aria-label="IconButton"
-                      class="h-8 p-1 gap-1 rounded-moon-i-sm z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma text-moon-24 absolute top-4 end-5"
+                      class="h-8 p-1 gap-1 rounded-moon-i-sm z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover-supported:hover:text-bulma hover-supported:[&>.hover]:hover:bg-jiren text-moon-24 absolute top-4 end-5"
                       type="button"
                     >
                       <svg
@@ -1624,8 +1599,7 @@ Object {
                         />
                       </svg>
                       <span
-                        aria-hidden="true"
-                        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
                       />
                     </button>
                   </div>
@@ -1796,23 +1770,21 @@ Object {
                     class="flex gap-2 p-4 justify-end pt-2"
                   >
                     <button
-                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
+                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover-supported:hover:ring-bulma hover-supported:[&>.hover]:hover:bg-heles"
                       type="button"
                     >
                       Cancel
                       <span
-                        aria-hidden="true"
-                        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
                       />
                     </button>
                     <button
-                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
                       type="button"
                     >
                       Create
                       <span
-                        aria-hidden="true"
-                        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
                       />
                     </button>
                   </div>
@@ -1833,13 +1805,12 @@ Object {
       aria-hidden="true"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
         type="button"
       >
         Open dialog
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <div
@@ -1851,13 +1822,12 @@ Object {
     aria-hidden="true"
   >
     <button
-      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
       type="button"
     >
       Open dialog
       <span
-        aria-hidden="true"
-        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
       />
     </button>
     <div

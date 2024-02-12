@@ -9,7 +9,7 @@ Object {
         dir="rtl"
       >
         <button
-          class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo text-moon-24"
+          class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
           type="button"
         >
           <span
@@ -64,12 +64,11 @@ Object {
             </span>
           </span>
           <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
           />
         </button>
         <button
-          class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo text-moon-24"
+          class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
           type="button"
         >
           <span
@@ -114,8 +113,7 @@ Object {
             </span>
           </span>
           <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
           />
         </button>
         <button
@@ -137,13 +135,12 @@ Object {
             />
           </svg>
           <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
           />
         </button>
         <button
           aria-label="IconButton"
-          class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo anim-pulse animate-[pulse2_1.5s_infinite] text-moon-24"
+          class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles anim-pulse animate-[pulse2_1.5s_infinite] text-moon-24"
           type="button"
         >
           <svg
@@ -160,8 +157,7 @@ Object {
             />
           </svg>
           <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
           />
         </button>
       </div>
@@ -172,7 +168,7 @@ Object {
       dir="rtl"
     >
       <button
-        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo text-moon-24"
+        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
         type="button"
       >
         <span
@@ -227,12 +223,11 @@ Object {
           </span>
         </span>
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <button
-        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo text-moon-24"
+        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
         type="button"
       >
         <span
@@ -277,8 +272,7 @@ Object {
           </span>
         </span>
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <button
@@ -300,13 +294,12 @@ Object {
           />
         </svg>
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <button
         aria-label="IconButton"
-        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo anim-pulse animate-[pulse2_1.5s_infinite] text-moon-24"
+        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles anim-pulse animate-[pulse2_1.5s_infinite] text-moon-24"
         type="button"
       >
         <svg
@@ -323,8 +316,7 @@ Object {
           />
         </svg>
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
     </div>
@@ -393,7 +385,7 @@ Object {
       >
         <a
           aria-label="IconButton"
-          class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo text-moon-24"
+          class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
           href="/components/button"
         >
           <svg
@@ -410,8 +402,7 @@ Object {
             />
           </svg>
           <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
           />
         </a>
       </div>
@@ -423,7 +414,7 @@ Object {
     >
       <a
         aria-label="IconButton"
-        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo text-moon-24"
+        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
         href="/components/button"
       >
         <svg
@@ -440,8 +431,7 @@ Object {
           />
         </svg>
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </a>
     </div>
@@ -510,7 +500,7 @@ Object {
       >
         <button
           aria-label="IconButton"
-          class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo text-moon-24"
+          class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
           type="button"
         >
           <svg
@@ -527,8 +517,7 @@ Object {
             />
           </svg>
           <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
           />
         </button>
       </div>
@@ -540,7 +529,7 @@ Object {
     >
       <button
         aria-label="IconButton"
-        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo text-moon-24"
+        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
         type="button"
       >
         <svg
@@ -557,8 +546,7 @@ Object {
           />
         </svg>
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
     </div>
@@ -627,7 +615,7 @@ Object {
       >
         <button
           aria-label="IconButton"
-          class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-goten bg-piccolo text-moon-24"
+          class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
           disabled=""
           type="button"
         >
@@ -645,8 +633,7 @@ Object {
             />
           </svg>
           <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
           />
         </button>
       </div>
@@ -658,7 +645,7 @@ Object {
     >
       <button
         aria-label="IconButton"
-        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-goten bg-piccolo text-moon-24"
+        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
         disabled=""
         type="button"
       >
@@ -676,8 +663,7 @@ Object {
           />
         </svg>
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
     </div>
@@ -746,7 +732,7 @@ Object {
       >
         <button
           aria-label="IconButton"
-          class="h-6 p-1 gap-1 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo text-moon-16"
+          class="h-6 p-1 gap-1 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-16"
           type="button"
         >
           <svg
@@ -763,13 +749,12 @@ Object {
             />
           </svg>
           <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
           />
         </button>
         <button
           aria-label="IconButton"
-          class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo text-moon-24"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
           type="button"
         >
           <svg
@@ -786,13 +771,12 @@ Object {
             />
           </svg>
           <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
           />
         </button>
         <button
           aria-label="IconButton"
-          class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo text-moon-24"
+          class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
           type="button"
         >
           <svg
@@ -809,13 +793,12 @@ Object {
             />
           </svg>
           <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
           />
         </button>
         <button
           aria-label="IconButton"
-          class="h-12 p-3 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo text-moon-24"
+          class="h-12 p-3 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
           type="button"
         >
           <svg
@@ -832,13 +815,12 @@ Object {
             />
           </svg>
           <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
           />
         </button>
         <button
           aria-label="IconButton"
-          class="h-14 p-4 gap-2 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo text-moon-24"
+          class="h-14 p-4 gap-2 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
           type="button"
         >
           <svg
@@ -855,8 +837,7 @@ Object {
             />
           </svg>
           <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
           />
         </button>
       </div>
@@ -868,7 +849,7 @@ Object {
     >
       <button
         aria-label="IconButton"
-        class="h-6 p-1 gap-1 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo text-moon-16"
+        class="h-6 p-1 gap-1 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-16"
         type="button"
       >
         <svg
@@ -885,13 +866,12 @@ Object {
           />
         </svg>
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <button
         aria-label="IconButton"
-        class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo text-moon-24"
+        class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
         type="button"
       >
         <svg
@@ -908,13 +888,12 @@ Object {
           />
         </svg>
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <button
         aria-label="IconButton"
-        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo text-moon-24"
+        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
         type="button"
       >
         <svg
@@ -931,13 +910,12 @@ Object {
           />
         </svg>
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <button
         aria-label="IconButton"
-        class="h-12 p-3 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo text-moon-24"
+        class="h-12 p-3 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
         type="button"
       >
         <svg
@@ -954,13 +932,12 @@ Object {
           />
         </svg>
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <button
         aria-label="IconButton"
-        class="h-14 p-4 gap-2 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo text-moon-24"
+        class="h-14 p-4 gap-2 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
         type="button"
       >
         <svg
@@ -977,8 +954,7 @@ Object {
           />
         </svg>
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
     </div>
@@ -1047,7 +1023,7 @@ Object {
       >
         <button
           aria-label="IconButton"
-          class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo text-moon-24"
+          class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
           type="button"
         >
           <svg
@@ -1064,13 +1040,12 @@ Object {
             />
           </svg>
           <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
           />
         </button>
         <button
           aria-label="IconButton"
-          class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma text-moon-24"
+          class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover-supported:hover:ring-bulma hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
           type="button"
         >
           <svg
@@ -1087,13 +1062,12 @@ Object {
             />
           </svg>
           <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
           />
         </button>
         <button
           aria-label="IconButton"
-          class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma text-moon-24"
+          class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover-supported:hover:text-bulma hover-supported:[&>.hover]:hover:bg-jiren text-moon-24"
           type="button"
         >
           <svg
@@ -1110,8 +1084,7 @@ Object {
             />
           </svg>
           <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
           />
         </button>
       </div>
@@ -1123,7 +1096,7 @@ Object {
     >
       <button
         aria-label="IconButton"
-        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo text-moon-24"
+        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
         type="button"
       >
         <svg
@@ -1140,13 +1113,12 @@ Object {
           />
         </svg>
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <button
         aria-label="IconButton"
-        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma text-moon-24"
+        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover-supported:hover:ring-bulma hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
         type="button"
       >
         <svg
@@ -1163,13 +1135,12 @@ Object {
           />
         </svg>
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <button
         aria-label="IconButton"
-        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma text-moon-24"
+        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover-supported:hover:text-bulma hover-supported:[&>.hover]:hover:bg-jiren text-moon-24"
         type="button"
       >
         <svg
@@ -1186,8 +1157,7 @@ Object {
           />
         </svg>
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
     </div>
@@ -1252,7 +1222,7 @@ Object {
   "baseElement": <body>
     <div>
       <button
-        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo text-moon-24"
+        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
         type="button"
       >
         <span
@@ -1307,12 +1277,11 @@ Object {
           </span>
         </span>
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <button
-        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo text-moon-24"
+        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
         type="button"
       >
         <span
@@ -1357,8 +1326,7 @@ Object {
           </span>
         </span>
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <button
@@ -1380,13 +1348,12 @@ Object {
           />
         </svg>
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <button
         aria-label="IconButton"
-        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo anim-pulse animate-[pulse2_1.5s_infinite] text-moon-24"
+        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles anim-pulse animate-[pulse2_1.5s_infinite] text-moon-24"
         type="button"
       >
         <svg
@@ -1403,15 +1370,14 @@ Object {
           />
         </svg>
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
     </div>
   </body>,
   "container": <div>
     <button
-      class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo text-moon-24"
+      class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
       type="button"
     >
       <span
@@ -1466,12 +1432,11 @@ Object {
         </span>
       </span>
       <span
-        aria-hidden="true"
-        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
       />
     </button>
     <button
-      class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo text-moon-24"
+      class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
       type="button"
     >
       <span
@@ -1516,8 +1481,7 @@ Object {
         </span>
       </span>
       <span
-        aria-hidden="true"
-        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
       />
     </button>
     <button
@@ -1539,13 +1503,12 @@ Object {
         />
       </svg>
       <span
-        aria-hidden="true"
-        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
       />
     </button>
     <button
       aria-label="IconButton"
-      class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo anim-pulse animate-[pulse2_1.5s_infinite] text-moon-24"
+      class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles anim-pulse animate-[pulse2_1.5s_infinite] text-moon-24"
       type="button"
     >
       <svg
@@ -1562,8 +1525,7 @@ Object {
         />
       </svg>
       <span
-        aria-hidden="true"
-        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
       />
     </button>
   </div>,
@@ -1628,7 +1590,7 @@ Object {
     <div>
       <a
         aria-label="IconButton"
-        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo text-moon-24"
+        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
         href="/components/button"
       >
         <svg
@@ -1645,8 +1607,7 @@ Object {
           />
         </svg>
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </a>
     </div>
@@ -1654,7 +1615,7 @@ Object {
   "container": <div>
     <a
       aria-label="IconButton"
-      class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo text-moon-24"
+      class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
       href="/components/button"
     >
       <svg
@@ -1671,8 +1632,7 @@ Object {
         />
       </svg>
       <span
-        aria-hidden="true"
-        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
       />
     </a>
   </div>,
@@ -1737,7 +1697,7 @@ Object {
     <div>
       <button
         aria-label="IconButton"
-        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo text-moon-24"
+        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
         type="button"
       >
         <svg
@@ -1754,8 +1714,7 @@ Object {
           />
         </svg>
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
     </div>
@@ -1763,7 +1722,7 @@ Object {
   "container": <div>
     <button
       aria-label="IconButton"
-      class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo text-moon-24"
+      class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
       type="button"
     >
       <svg
@@ -1780,8 +1739,7 @@ Object {
         />
       </svg>
       <span
-        aria-hidden="true"
-        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
       />
     </button>
   </div>,
@@ -1846,7 +1804,7 @@ Object {
     <div>
       <button
         aria-label="IconButton"
-        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-goten bg-piccolo text-moon-24"
+        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
         disabled=""
         type="button"
       >
@@ -1864,8 +1822,7 @@ Object {
           />
         </svg>
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
     </div>
@@ -1873,7 +1830,7 @@ Object {
   "container": <div>
     <button
       aria-label="IconButton"
-      class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-goten bg-piccolo text-moon-24"
+      class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
       disabled=""
       type="button"
     >
@@ -1891,8 +1848,7 @@ Object {
         />
       </svg>
       <span
-        aria-hidden="true"
-        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
       />
     </button>
   </div>,
@@ -1957,7 +1913,7 @@ Object {
     <div>
       <button
         aria-label="IconButton"
-        class="h-6 p-1 gap-1 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo text-moon-16"
+        class="h-6 p-1 gap-1 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-16"
         type="button"
       >
         <svg
@@ -1974,13 +1930,12 @@ Object {
           />
         </svg>
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <button
         aria-label="IconButton"
-        class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo text-moon-24"
+        class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
         type="button"
       >
         <svg
@@ -1997,13 +1952,12 @@ Object {
           />
         </svg>
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <button
         aria-label="IconButton"
-        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo text-moon-24"
+        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
         type="button"
       >
         <svg
@@ -2020,13 +1974,12 @@ Object {
           />
         </svg>
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <button
         aria-label="IconButton"
-        class="h-12 p-3 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo text-moon-24"
+        class="h-12 p-3 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
         type="button"
       >
         <svg
@@ -2043,13 +1996,12 @@ Object {
           />
         </svg>
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <button
         aria-label="IconButton"
-        class="h-14 p-4 gap-2 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo text-moon-24"
+        class="h-14 p-4 gap-2 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
         type="button"
       >
         <svg
@@ -2066,8 +2018,7 @@ Object {
           />
         </svg>
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
     </div>
@@ -2075,7 +2026,7 @@ Object {
   "container": <div>
     <button
       aria-label="IconButton"
-      class="h-6 p-1 gap-1 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo text-moon-16"
+      class="h-6 p-1 gap-1 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-16"
       type="button"
     >
       <svg
@@ -2092,13 +2043,12 @@ Object {
         />
       </svg>
       <span
-        aria-hidden="true"
-        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
       />
     </button>
     <button
       aria-label="IconButton"
-      class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo text-moon-24"
+      class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
       type="button"
     >
       <svg
@@ -2115,13 +2065,12 @@ Object {
         />
       </svg>
       <span
-        aria-hidden="true"
-        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
       />
     </button>
     <button
       aria-label="IconButton"
-      class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo text-moon-24"
+      class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
       type="button"
     >
       <svg
@@ -2138,13 +2087,12 @@ Object {
         />
       </svg>
       <span
-        aria-hidden="true"
-        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
       />
     </button>
     <button
       aria-label="IconButton"
-      class="h-12 p-3 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo text-moon-24"
+      class="h-12 p-3 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
       type="button"
     >
       <svg
@@ -2161,13 +2109,12 @@ Object {
         />
       </svg>
       <span
-        aria-hidden="true"
-        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
       />
     </button>
     <button
       aria-label="IconButton"
-      class="h-14 p-4 gap-2 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo text-moon-24"
+      class="h-14 p-4 gap-2 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
       type="button"
     >
       <svg
@@ -2184,8 +2131,7 @@ Object {
         />
       </svg>
       <span
-        aria-hidden="true"
-        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
       />
     </button>
   </div>,
@@ -2250,7 +2196,7 @@ Object {
     <div>
       <button
         aria-label="IconButton"
-        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo text-moon-24"
+        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
         type="button"
       >
         <svg
@@ -2267,13 +2213,12 @@ Object {
           />
         </svg>
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <button
         aria-label="IconButton"
-        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma text-moon-24"
+        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover-supported:hover:ring-bulma hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
         type="button"
       >
         <svg
@@ -2290,13 +2235,12 @@ Object {
           />
         </svg>
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <button
         aria-label="IconButton"
-        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma text-moon-24"
+        class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover-supported:hover:text-bulma hover-supported:[&>.hover]:hover:bg-jiren text-moon-24"
         type="button"
       >
         <svg
@@ -2313,8 +2257,7 @@ Object {
           />
         </svg>
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
     </div>
@@ -2322,7 +2265,7 @@ Object {
   "container": <div>
     <button
       aria-label="IconButton"
-      class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo text-moon-24"
+      class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
       type="button"
     >
       <svg
@@ -2339,13 +2282,12 @@ Object {
         />
       </svg>
       <span
-        aria-hidden="true"
-        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
       />
     </button>
     <button
       aria-label="IconButton"
-      class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma text-moon-24"
+      class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover-supported:hover:ring-bulma hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
       type="button"
     >
       <svg
@@ -2362,13 +2304,12 @@ Object {
         />
       </svg>
       <span
-        aria-hidden="true"
-        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
       />
     </button>
     <button
       aria-label="IconButton"
-      class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma text-moon-24"
+      class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover-supported:hover:text-bulma hover-supported:[&>.hover]:hover:bg-jiren text-moon-24"
       type="button"
     >
       <svg
@@ -2385,8 +2326,7 @@ Object {
         />
       </svg>
       <span
-        aria-hidden="true"
-        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
       />
     </button>
   </div>,

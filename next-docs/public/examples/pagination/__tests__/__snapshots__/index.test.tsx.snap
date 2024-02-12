@@ -223,8 +223,7 @@ Object {
                 />
               </svg>
               <span
-                aria-hidden="true"
-                class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
               />
             </button>
           </div>
@@ -276,7 +275,7 @@ Object {
           >
             <button
               aria-label="Next"
-              class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma text-moon-24"
+              class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover-supported:hover:ring-bulma hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
               type="button"
             >
               <svg
@@ -295,8 +294,7 @@ Object {
                 />
               </svg>
               <span
-                aria-hidden="true"
-                class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
               />
             </button>
           </div>
@@ -338,8 +336,7 @@ Object {
               />
             </svg>
             <span
-              aria-hidden="true"
-              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+              class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
             />
           </button>
         </div>
@@ -391,7 +388,7 @@ Object {
         >
           <button
             aria-label="Next"
-            class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma text-moon-24"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover-supported:hover:ring-bulma hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
             type="button"
           >
             <svg
@@ -410,8 +407,7 @@ Object {
               />
             </svg>
             <span
-              aria-hidden="true"
-              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+              class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
             />
           </button>
         </div>
@@ -510,8 +506,7 @@ Object {
                 />
               </svg>
               <span
-                aria-hidden="true"
-                class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
               />
             </button>
           </a>
@@ -564,7 +559,7 @@ Object {
           >
             <button
               aria-label="Next"
-              class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma text-moon-24"
+              class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover-supported:hover:ring-bulma hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
               type="button"
             >
               <svg
@@ -583,8 +578,7 @@ Object {
                 />
               </svg>
               <span
-                aria-hidden="true"
-                class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
               />
             </button>
           </a>
@@ -626,8 +620,7 @@ Object {
               />
             </svg>
             <span
-              aria-hidden="true"
-              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+              class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
             />
           </button>
         </a>
@@ -680,7 +673,7 @@ Object {
         >
           <button
             aria-label="Next"
-            class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma text-moon-24"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover-supported:hover:ring-bulma hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
             type="button"
           >
             <svg
@@ -699,8 +692,7 @@ Object {
               />
             </svg>
             <span
-              aria-hidden="true"
-              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+              class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
             />
           </button>
         </a>
@@ -973,8 +965,7 @@ Object {
               />
             </svg>
             <span
-              aria-hidden="true"
-              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+              class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
             />
           </button>
         </div>
@@ -1026,7 +1017,7 @@ Object {
         >
           <button
             aria-label="Next"
-            class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma text-moon-24"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover-supported:hover:ring-bulma hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
             type="button"
           >
             <svg
@@ -1045,8 +1036,7 @@ Object {
               />
             </svg>
             <span
-              aria-hidden="true"
-              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+              class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
             />
           </button>
         </div>
@@ -1084,8 +1074,7 @@ Object {
             />
           </svg>
           <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
           />
         </button>
       </div>
@@ -1137,7 +1126,7 @@ Object {
       >
         <button
           aria-label="Next"
-          class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma text-moon-24"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover-supported:hover:ring-bulma hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
           type="button"
         >
           <svg
@@ -1156,8 +1145,7 @@ Object {
             />
           </svg>
           <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
           />
         </button>
       </div>
@@ -1252,8 +1240,7 @@ Object {
               />
             </svg>
             <span
-              aria-hidden="true"
-              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+              class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
             />
           </button>
         </a>
@@ -1306,7 +1293,7 @@ Object {
         >
           <button
             aria-label="Next"
-            class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma text-moon-24"
+            class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover-supported:hover:ring-bulma hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
             type="button"
           >
             <svg
@@ -1325,8 +1312,7 @@ Object {
               />
             </svg>
             <span
-              aria-hidden="true"
-              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+              class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
             />
           </button>
         </a>
@@ -1364,8 +1350,7 @@ Object {
             />
           </svg>
           <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
           />
         </button>
       </a>
@@ -1418,7 +1403,7 @@ Object {
       >
         <button
           aria-label="Next"
-          class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma text-moon-24"
+          class="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover-supported:hover:ring-bulma hover-supported:[&>.hover]:hover:bg-heles text-moon-24"
           type="button"
         >
           <svg
@@ -1437,8 +1422,7 @@ Object {
             />
           </svg>
           <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
           />
         </button>
       </a>

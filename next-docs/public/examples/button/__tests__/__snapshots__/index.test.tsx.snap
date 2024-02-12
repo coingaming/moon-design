@@ -9,7 +9,7 @@ Object {
         dir="rtl"
       >
         <button
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
           type="button"
         >
           <span
@@ -52,12 +52,11 @@ Object {
             </span>
           </span>
           <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
           />
         </button>
         <button
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
           type="button"
         >
           <span
@@ -90,8 +89,7 @@ Object {
             </span>
           </span>
           <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
           />
         </button>
         <button
@@ -100,18 +98,16 @@ Object {
         >
           Error
           <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
           />
         </button>
         <button
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo anim-pulse animate-[pulse2_1.5s_infinite]"
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles anim-pulse animate-[pulse2_1.5s_infinite]"
           type="button"
         >
           Pulse
           <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
           />
         </button>
       </div>
@@ -122,7 +118,7 @@ Object {
       dir="rtl"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
         type="button"
       >
         <span
@@ -165,12 +161,11 @@ Object {
           </span>
         </span>
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
         type="button"
       >
         <span
@@ -203,8 +198,7 @@ Object {
           </span>
         </span>
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <button
@@ -213,18 +207,16 @@ Object {
       >
         Error
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo anim-pulse animate-[pulse2_1.5s_infinite]"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles anim-pulse animate-[pulse2_1.5s_infinite]"
         type="button"
       >
         Pulse
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
     </div>
@@ -292,13 +284,12 @@ Object {
         dir="rtl"
       >
         <a
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
           href="/components/button"
         >
           Link HTML element
           <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
           />
         </a>
       </div>
@@ -309,13 +300,12 @@ Object {
       dir="rtl"
     >
       <a
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
         href="/components/button"
       >
         Link HTML element
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </a>
     </div>
@@ -383,13 +373,12 @@ Object {
         dir="rtl"
       >
         <button
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-chichi bg-transparent ring-inset ring-1 ring-chichi hover-supported:hover:bg-chichi-10 anim-error animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both]"
           type="button"
         >
           Default
           <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
           />
         </button>
       </div>
@@ -400,13 +389,12 @@ Object {
       dir="rtl"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-chichi bg-transparent ring-inset ring-1 ring-chichi hover-supported:hover:bg-chichi-10 anim-error animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both]"
         type="button"
       >
         Default
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
     </div>
@@ -474,14 +462,13 @@ Object {
         dir="rtl"
       >
         <button
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-goten bg-piccolo"
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
           disabled=""
           type="button"
         >
           Disabled
           <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
           />
         </button>
       </div>
@@ -492,14 +479,13 @@ Object {
       dir="rtl"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-goten bg-piccolo"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
         disabled=""
         type="button"
       >
         Disabled
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
     </div>
@@ -567,7 +553,7 @@ Object {
         dir="rtl"
       >
         <button
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo w-full"
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles w-full"
           type="button"
         >
           Full width
@@ -590,8 +576,7 @@ Object {
             </svg>
           </span>
           <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
           />
         </button>
       </div>
@@ -602,7 +587,7 @@ Object {
       dir="rtl"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo w-full"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles w-full"
         type="button"
       >
         Full width
@@ -625,8 +610,7 @@ Object {
           </svg>
         </span>
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
     </div>
@@ -694,7 +678,7 @@ Object {
         dir="rtl"
       >
         <button
-          class="ps-2 pe-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+          class="ps-2 pe-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
           type="button"
         >
           <span
@@ -717,12 +701,11 @@ Object {
           </span>
           IconLeft
           <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
           />
         </button>
         <button
-          class="ps-4 pe-2 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+          class="ps-4 pe-2 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
           type="button"
         >
           IconRight
@@ -745,8 +728,7 @@ Object {
             </svg>
           </span>
           <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
           />
         </button>
       </div>
@@ -757,7 +739,7 @@ Object {
       dir="rtl"
     >
       <button
-        class="ps-2 pe-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+        class="ps-2 pe-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
         type="button"
       >
         <span
@@ -780,12 +762,11 @@ Object {
         </span>
         IconLeft
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <button
-        class="ps-4 pe-2 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+        class="ps-4 pe-2 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
         type="button"
       >
         IconRight
@@ -808,8 +789,7 @@ Object {
           </svg>
         </span>
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
     </div>
@@ -877,7 +857,7 @@ Object {
         dir="rtl"
       >
         <button
-          class="px-6 h-14 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo py-3"
+          class="px-6 h-14 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles py-3"
           type="button"
         >
           <span
@@ -895,8 +875,7 @@ Object {
             </span>
           </span>
           <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
           />
         </button>
       </div>
@@ -907,7 +886,7 @@ Object {
       dir="rtl"
     >
       <button
-        class="px-6 h-14 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo py-3"
+        class="px-6 h-14 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles py-3"
         type="button"
       >
         <span
@@ -925,8 +904,7 @@ Object {
           </span>
         </span>
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
     </div>
@@ -994,7 +972,7 @@ Object {
         dir="rtl"
       >
         <button
-          class="ps-1 pe-2 h-6 py-1 gap-1 text-moon-12 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+          class="ps-1 pe-2 h-6 py-1 gap-1 text-moon-12 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
           type="button"
         >
           <span
@@ -1017,12 +995,11 @@ Object {
           </span>
           XS Button
           <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
           />
         </button>
         <button
-          class="ps-1 pe-3 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+          class="ps-1 pe-3 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
           type="button"
         >
           <span
@@ -1045,12 +1022,11 @@ Object {
           </span>
           SM Button
           <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
           />
         </button>
         <button
-          class="ps-2 pe-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+          class="ps-2 pe-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
           type="button"
         >
           <span
@@ -1073,12 +1049,11 @@ Object {
           </span>
           MD Button is default
           <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
           />
         </button>
         <button
-          class="ps-3 pe-4 h-12 py-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+          class="ps-3 pe-4 h-12 py-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
           type="button"
         >
           <span
@@ -1101,12 +1076,11 @@ Object {
           </span>
           LG Button
           <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
           />
         </button>
         <button
-          class="ps-4 pe-6 h-14 py-4 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+          class="ps-4 pe-6 h-14 py-4 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
           type="button"
         >
           <span
@@ -1129,8 +1103,7 @@ Object {
           </span>
           XL Button
           <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
           />
         </button>
       </div>
@@ -1141,7 +1114,7 @@ Object {
       dir="rtl"
     >
       <button
-        class="ps-1 pe-2 h-6 py-1 gap-1 text-moon-12 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+        class="ps-1 pe-2 h-6 py-1 gap-1 text-moon-12 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
         type="button"
       >
         <span
@@ -1164,12 +1137,11 @@ Object {
         </span>
         XS Button
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <button
-        class="ps-1 pe-3 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+        class="ps-1 pe-3 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
         type="button"
       >
         <span
@@ -1192,12 +1164,11 @@ Object {
         </span>
         SM Button
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <button
-        class="ps-2 pe-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+        class="ps-2 pe-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
         type="button"
       >
         <span
@@ -1220,12 +1191,11 @@ Object {
         </span>
         MD Button is default
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <button
-        class="ps-3 pe-4 h-12 py-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+        class="ps-3 pe-4 h-12 py-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
         type="button"
       >
         <span
@@ -1248,12 +1218,11 @@ Object {
         </span>
         LG Button
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <button
-        class="ps-4 pe-6 h-14 py-4 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+        class="ps-4 pe-6 h-14 py-4 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
         type="button"
       >
         <span
@@ -1276,8 +1245,7 @@ Object {
         </span>
         XL Button
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
     </div>
@@ -1345,33 +1313,30 @@ Object {
         dir="rtl"
       >
         <button
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
           type="button"
         >
           Fill is default
           <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
           />
         </button>
         <button
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover-supported:hover:ring-bulma hover-supported:[&>.hover]:hover:bg-heles"
           type="button"
         >
           Outline
           <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
           />
         </button>
         <button
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma"
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover-supported:hover:text-bulma hover-supported:[&>.hover]:hover:bg-jiren"
           type="button"
         >
           Ghost
           <span
-            aria-hidden="true"
-            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
           />
         </button>
       </div>
@@ -1382,33 +1347,30 @@ Object {
       dir="rtl"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
         type="button"
       >
         Fill is default
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover-supported:hover:ring-bulma hover-supported:[&>.hover]:hover:bg-heles"
         type="button"
       >
         Outline
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover-supported:hover:text-bulma hover-supported:[&>.hover]:hover:bg-jiren"
         type="button"
       >
         Ghost
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
     </div>
@@ -1473,7 +1435,7 @@ Object {
   "baseElement": <body>
     <div>
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
         type="button"
       >
         <span
@@ -1516,12 +1478,11 @@ Object {
           </span>
         </span>
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
         type="button"
       >
         <span
@@ -1554,8 +1515,7 @@ Object {
           </span>
         </span>
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <button
@@ -1564,25 +1524,23 @@ Object {
       >
         Error
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo anim-pulse animate-[pulse2_1.5s_infinite]"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles anim-pulse animate-[pulse2_1.5s_infinite]"
         type="button"
       >
         Pulse
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
     </div>
   </body>,
   "container": <div>
     <button
-      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
       type="button"
     >
       <span
@@ -1625,12 +1583,11 @@ Object {
         </span>
       </span>
       <span
-        aria-hidden="true"
-        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
       />
     </button>
     <button
-      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
       type="button"
     >
       <span
@@ -1663,8 +1620,7 @@ Object {
         </span>
       </span>
       <span
-        aria-hidden="true"
-        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
       />
     </button>
     <button
@@ -1673,18 +1629,16 @@ Object {
     >
       Error
       <span
-        aria-hidden="true"
-        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
       />
     </button>
     <button
-      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo anim-pulse animate-[pulse2_1.5s_infinite]"
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles anim-pulse animate-[pulse2_1.5s_infinite]"
       type="button"
     >
       Pulse
       <span
-        aria-hidden="true"
-        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
       />
     </button>
   </div>,
@@ -1748,26 +1702,24 @@ Object {
   "baseElement": <body>
     <div>
       <a
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
         href="/components/button"
       >
         Link HTML element
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </a>
     </div>
   </body>,
   "container": <div>
     <a
-      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
       href="/components/button"
     >
       Link HTML element
       <span
-        aria-hidden="true"
-        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
       />
     </a>
   </div>,
@@ -1831,26 +1783,24 @@ Object {
   "baseElement": <body>
     <div>
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-chichi bg-transparent ring-inset ring-1 ring-chichi hover-supported:hover:bg-chichi-10 anim-error animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both]"
         type="button"
       >
         Default
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
     </div>
   </body>,
   "container": <div>
     <button
-      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-chichi bg-transparent ring-inset ring-1 ring-chichi hover-supported:hover:bg-chichi-10 anim-error animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both]"
       type="button"
     >
       Default
       <span
-        aria-hidden="true"
-        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
       />
     </button>
   </div>,
@@ -1914,28 +1864,26 @@ Object {
   "baseElement": <body>
     <div>
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-goten bg-piccolo"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
         disabled=""
         type="button"
       >
         Disabled
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
     </div>
   </body>,
   "container": <div>
     <button
-      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-goten bg-piccolo"
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-60 cursor-not-allowed text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
       disabled=""
       type="button"
     >
       Disabled
       <span
-        aria-hidden="true"
-        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
       />
     </button>
   </div>,
@@ -1999,7 +1947,7 @@ Object {
   "baseElement": <body>
     <div>
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo w-full"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles w-full"
         type="button"
       >
         Full width
@@ -2022,15 +1970,14 @@ Object {
           </svg>
         </span>
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
     </div>
   </body>,
   "container": <div>
     <button
-      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo w-full"
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles w-full"
       type="button"
     >
       Full width
@@ -2053,8 +2000,7 @@ Object {
         </svg>
       </span>
       <span
-        aria-hidden="true"
-        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
       />
     </button>
   </div>,
@@ -2118,7 +2064,7 @@ Object {
   "baseElement": <body>
     <div>
       <button
-        class="ps-2 pe-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+        class="ps-2 pe-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
         type="button"
       >
         <span
@@ -2141,12 +2087,11 @@ Object {
         </span>
         IconLeft
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <button
-        class="ps-4 pe-2 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+        class="ps-4 pe-2 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
         type="button"
       >
         IconRight
@@ -2169,15 +2114,14 @@ Object {
           </svg>
         </span>
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
     </div>
   </body>,
   "container": <div>
     <button
-      class="ps-2 pe-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+      class="ps-2 pe-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
       type="button"
     >
       <span
@@ -2200,12 +2144,11 @@ Object {
       </span>
       IconLeft
       <span
-        aria-hidden="true"
-        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
       />
     </button>
     <button
-      class="ps-4 pe-2 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+      class="ps-4 pe-2 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
       type="button"
     >
       IconRight
@@ -2228,8 +2171,7 @@ Object {
         </svg>
       </span>
       <span
-        aria-hidden="true"
-        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
       />
     </button>
   </div>,
@@ -2293,7 +2235,7 @@ Object {
   "baseElement": <body>
     <div>
       <button
-        class="px-6 h-14 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo py-3"
+        class="px-6 h-14 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles py-3"
         type="button"
       >
         <span
@@ -2311,15 +2253,14 @@ Object {
           </span>
         </span>
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
     </div>
   </body>,
   "container": <div>
     <button
-      class="px-6 h-14 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo py-3"
+      class="px-6 h-14 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles py-3"
       type="button"
     >
       <span
@@ -2337,8 +2278,7 @@ Object {
         </span>
       </span>
       <span
-        aria-hidden="true"
-        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
       />
     </button>
   </div>,
@@ -2402,7 +2342,7 @@ Object {
   "baseElement": <body>
     <div>
       <button
-        class="ps-1 pe-2 h-6 py-1 gap-1 text-moon-12 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+        class="ps-1 pe-2 h-6 py-1 gap-1 text-moon-12 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
         type="button"
       >
         <span
@@ -2425,12 +2365,11 @@ Object {
         </span>
         XS Button
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <button
-        class="ps-1 pe-3 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+        class="ps-1 pe-3 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
         type="button"
       >
         <span
@@ -2453,12 +2392,11 @@ Object {
         </span>
         SM Button
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <button
-        class="ps-2 pe-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+        class="ps-2 pe-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
         type="button"
       >
         <span
@@ -2481,12 +2419,11 @@ Object {
         </span>
         MD Button is default
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <button
-        class="ps-3 pe-4 h-12 py-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+        class="ps-3 pe-4 h-12 py-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
         type="button"
       >
         <span
@@ -2509,12 +2446,11 @@ Object {
         </span>
         LG Button
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <button
-        class="ps-4 pe-6 h-14 py-4 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+        class="ps-4 pe-6 h-14 py-4 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
         type="button"
       >
         <span
@@ -2537,15 +2473,14 @@ Object {
         </span>
         XL Button
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
     </div>
   </body>,
   "container": <div>
     <button
-      class="ps-1 pe-2 h-6 py-1 gap-1 text-moon-12 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+      class="ps-1 pe-2 h-6 py-1 gap-1 text-moon-12 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
       type="button"
     >
       <span
@@ -2568,12 +2503,11 @@ Object {
       </span>
       XS Button
       <span
-        aria-hidden="true"
-        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
       />
     </button>
     <button
-      class="ps-1 pe-3 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+      class="ps-1 pe-3 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
       type="button"
     >
       <span
@@ -2596,12 +2530,11 @@ Object {
       </span>
       SM Button
       <span
-        aria-hidden="true"
-        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
       />
     </button>
     <button
-      class="ps-2 pe-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+      class="ps-2 pe-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
       type="button"
     >
       <span
@@ -2624,12 +2557,11 @@ Object {
       </span>
       MD Button is default
       <span
-        aria-hidden="true"
-        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
       />
     </button>
     <button
-      class="ps-3 pe-4 h-12 py-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+      class="ps-3 pe-4 h-12 py-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
       type="button"
     >
       <span
@@ -2652,12 +2584,11 @@ Object {
       </span>
       LG Button
       <span
-        aria-hidden="true"
-        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
       />
     </button>
     <button
-      class="ps-4 pe-6 h-14 py-4 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+      class="ps-4 pe-6 h-14 py-4 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
       type="button"
     >
       <span
@@ -2680,8 +2611,7 @@ Object {
       </span>
       XL Button
       <span
-        aria-hidden="true"
-        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
       />
     </button>
   </div>,
@@ -2745,66 +2675,60 @@ Object {
   "baseElement": <body>
     <div>
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
         type="button"
       >
         Fill is default
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover-supported:hover:ring-bulma hover-supported:[&>.hover]:hover:bg-heles"
         type="button"
       >
         Outline
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover-supported:hover:text-bulma hover-supported:[&>.hover]:hover:bg-jiren"
         type="button"
       >
         Ghost
         <span
-          aria-hidden="true"
-          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
         />
       </button>
     </div>
   </body>,
   "container": <div>
     <button
-      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
       type="button"
     >
       Fill is default
       <span
-        aria-hidden="true"
-        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
       />
     </button>
     <button
-      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover-supported:hover:ring-bulma hover-supported:[&>.hover]:hover:bg-heles"
       type="button"
     >
       Outline
       <span
-        aria-hidden="true"
-        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
       />
     </button>
     <button
-      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma"
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover-supported:hover:text-bulma hover-supported:[&>.hover]:hover:bg-jiren"
       type="button"
     >
       Ghost
       <span
-        aria-hidden="true"
-        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
       />
     </button>
   </div>,

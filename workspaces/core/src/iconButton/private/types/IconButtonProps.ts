@@ -14,7 +14,7 @@ export type IconButtonSettingsProps = {
 
 type IconButtonProps<C extends React.ElementType> = {
   as?: C;
-  customClassName?: string;
+  className?: string;
 } & IconButtonSettingsProps;
 
 type PolymorphicComponentProp<C extends React.ElementType, Props = {}> = {};
