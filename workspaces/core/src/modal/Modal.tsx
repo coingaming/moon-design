@@ -1,4 +1,10 @@
-import React, { ReactNode } from 'react';
+import React, {
+  ReactNode,
+  useRef,
+  useState,
+  useEffect,
+  MutableRefObject,
+} from 'react';
 import { Dialog, Transition } from '@headlessui/react';
 import Backdrop from '../backdrop/Backdrop';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
@@ -8,19 +14,38 @@ type WithChildren<T = {}> = T & { children?: ReactNode };
 type ModalRootProps = {
   open: boolean;
   onClose: () => void;
+  initialFocus?: React.MutableRefObject<HTMLElement | null>;
 };
 
 type ModalComponentProps = (
   props: WithChildren<ModalRootProps>
 ) => React.ReactElement | null;
 
-const ModalRoot: ModalComponentProps = ({ open, onClose, children }) => (
-  <Transition appear show={open} as={React.Fragment}>
-    <Dialog as="div" className="relative z-10" onClose={onClose}>
-      {children}
-    </Dialog>
-  </Transition>
-);
+const ModalRoot: ModalComponentProps = ({
+  open,
+  onClose,
+  children,
+  initialFocus,
+}) => {
+  const defFocus = useRef(null);
+  const [focusElRef, setFocusElRef] =
+    useState<MutableRefObject<HTMLElement | null>>();
+  useEffect(() => {
+    setFocusElRef(initialFocus ? initialFocus : defFocus);
+  }, [initialFocus, defFocus]);
+  return (
+    <Transition appear show={open} as={React.Fragment}>
+      <Dialog
+        as="div"
+        className="relative z-10"
+        onClose={onClose}
+        initialFocus={focusElRef}
+      >
+        {children}
+      </Dialog>
+    </Transition>
+  );
+};
 
 type PanelProps = {
   className?: string;
