@@ -373,7 +373,7 @@ Object {
         dir="rtl"
       >
         <button
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-chichi bg-transparent ring-inset ring-1 ring-chichi hover-supported:hover:bg-chichi-10 anim-error animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both]"
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
           type="button"
         >
           Default
@@ -389,7 +389,7 @@ Object {
       dir="rtl"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-chichi bg-transparent ring-inset ring-1 ring-chichi hover-supported:hover:bg-chichi-10 anim-error animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both]"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
         type="button"
       >
         Default
@@ -1783,7 +1783,7 @@ Object {
   "baseElement": <body>
     <div>
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-chichi bg-transparent ring-inset ring-1 ring-chichi hover-supported:hover:bg-chichi-10 anim-error animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both]"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
         type="button"
       >
         Default
@@ -1795,7 +1795,7 @@ Object {
   </body>,
   "container": <div>
     <button
-      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-chichi bg-transparent ring-inset ring-1 ring-chichi hover-supported:hover:bg-chichi-10 anim-error animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both]"
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo hover-supported:[&>.hover]:hover:bg-heles"
       type="button"
     >
       Default

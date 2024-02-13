@@ -17,13 +17,13 @@ const Wrapper = ({
     className={mergeClassnames(
       'relative overflow-hidden uppercase font-medium flex items-center justify-center bg-cover',
       'text-bulma bg-goku',
-      color && color,
-      bgColor && bgColor,
+      color,
+      bgColor,
       getWrapperSize(size),
       getBorderRadius(size, isRounded),
       className
     )}
-    style={{ backgroundImage: imageUrl ? `url('${imageUrl}')` : 'none' }}
+    style={{ backgroundImage: imageUrl && `url('${imageUrl}')` }}
   >
     {children}
   </div>

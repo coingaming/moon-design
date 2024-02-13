@@ -1,9 +1,5 @@
 import { Button } from '@heathmont/moon-core-tw';
 
-const Example = () => (
-  <Button variant="outline" animation="error">
-    Default
-  </Button>
-);
+const Example = () => <Button>Default</Button>;
 
 export default Example;
