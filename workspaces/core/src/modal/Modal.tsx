@@ -8,15 +8,16 @@ type WithChildren<T = {}> = T & { children?: ReactNode };
 type ModalRootProps = {
   open: boolean;
   onClose: () => void;
+  className?: string;
 };
 
 type ModalComponentProps = (
   props: WithChildren<ModalRootProps>
 ) => React.ReactElement | null;
 
-const ModalRoot: ModalComponentProps = ({ open, onClose, children }) => (
+const ModalRoot: ModalComponentProps = ({ open, onClose, children, className }) => (
   <Transition appear show={open} as={React.Fragment}>
-    <Dialog as="div" className="relative z-10" onClose={onClose}>
+    <Dialog as="div" className={mergeClassnames("relative z-10", className)} onClose={onClose}>
       {children}
     </Dialog>
   </Transition>
@@ -52,11 +53,15 @@ const Panel: React.FC<WithChildren<PanelProps>> = ({ children, className }) => {
   );
 };
 
-const Title: React.FC<{ children?: ReactNode }> = ({ children }) => {
+type TitleProps = {
+  children?: ReactNode; 
+  className?: string;
+}
+const Title: React.FC<TitleProps> = ({ children, className }) => {
   return (
     <Dialog.Title
       as="h3"
-      className="text-lg font-medium leading-6 text-gray-900"
+      className={mergeClassnames("text-lg font-medium leading-6 text-gray-900", className)}
     >
       {children}
     </Dialog.Title>
