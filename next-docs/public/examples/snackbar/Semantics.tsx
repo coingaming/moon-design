@@ -1,5 +1,5 @@
 import { Snackbar, Button } from '@heathmont/moon-core-tw';
-import { GenericInfo } from '@heathmont/moon-icons-tw';
+import { OtherFrame } from '@heathmont/moon-icons-tw';
 import { useCallback, useState } from 'react';
 
 const Example = () => {
@@ -23,14 +23,14 @@ const Example = () => {
     <>
       <div>
         <Button
-          variant="secondary"
+          variant="outline"
           onClick={() => openSnackbarHandler('success')}
         >
           Success
         </Button>
         <Snackbar isOpen={snackbar === 'success'} onOpenChange={setSnackbar}>
           <Snackbar.Icon className="h-10 bg-roshi-10 text-roshi">
-            <GenericInfo />
+            <OtherFrame />
           </Snackbar.Icon>
           <Snackbar.Content>
             <Snackbar.Header>Success</Snackbar.Header>
@@ -41,14 +41,14 @@ const Example = () => {
       </div>
       <div>
         <Button
-          variant="secondary"
+          variant="outline"
           onClick={() => openSnackbarHandler('warning')}
         >
           Warning
         </Button>
         <Snackbar isOpen={snackbar === 'warning'} onOpenChange={setSnackbar}>
           <Snackbar.Icon className="h-10 bg-krillin-10 text-krillin">
-            <GenericInfo />
+            <OtherFrame />
           </Snackbar.Icon>
           <Snackbar.Content>
             <Snackbar.Header>Warning</Snackbar.Header>
@@ -58,15 +58,12 @@ const Example = () => {
         </Snackbar>
       </div>
       <div>
-        <Button
-          variant="secondary"
-          onClick={() => openSnackbarHandler('error')}
-        >
+        <Button variant="outline" onClick={() => openSnackbarHandler('error')}>
           Error
         </Button>
         <Snackbar isOpen={snackbar === 'error'} onOpenChange={setSnackbar}>
           <Snackbar.Icon className="h-10 bg-chichi-10 text-chichi">
-            <GenericInfo />
+            <OtherFrame />
           </Snackbar.Icon>
           <Snackbar.Content>
             <Snackbar.Header>Error</Snackbar.Header>

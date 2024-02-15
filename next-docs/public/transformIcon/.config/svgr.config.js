@@ -1,4 +1,4 @@
-const template = require('./templates/template.svgrrc.js');
+const template = require('./templates/template_tw.svgrrc.js');
 const dimensions = require('./transform/dimensions');
 
 module.exports = {
@@ -6,5 +6,10 @@ module.exports = {
   replaceAttrValues: { '#DE1E7E': 'currentColor' },
   template,
   plugins: ['@svgr/plugin-jsx', '@svgr/plugin-prettier'],
+  jsx: {
+    babelConfig: {
+      plugins: [dimensions],
+    },
+  },
   typescript: true,
 };

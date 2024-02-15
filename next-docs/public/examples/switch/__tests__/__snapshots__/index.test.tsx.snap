@@ -1,1132 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Switch in Light Theme renders CustomBg 1`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": <body>
-    <div>
-      <button
-        aria-checked="true"
-        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-chichi"
-        data-headlessui-state="checked"
-        id="headlessui-switch-:r4:"
-        role="switch"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="block relative h-full w-full"
-        >
-          <span
-            aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
-          />
-        </span>
-      </button>
-      <button
-        aria-checked="true"
-        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-roshi"
-        data-headlessui-state="checked"
-        id="headlessui-switch-:r5:"
-        role="switch"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="block relative h-full w-full"
-        >
-          <span
-            aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
-          />
-        </span>
-      </button>
-    </div>
-  </body>,
-  "container": <div>
-    <button
-      aria-checked="true"
-      class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-chichi"
-      data-headlessui-state="checked"
-      id="headlessui-switch-:r4:"
-      role="switch"
-      tabindex="0"
-      type="button"
-    >
-      <span
-        class="block relative h-full w-full"
-      >
-        <span
-          aria-hidden="true"
-          class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
-        />
-      </span>
-    </button>
-    <button
-      aria-checked="true"
-      class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-roshi"
-      data-headlessui-state="checked"
-      id="headlessui-switch-:r5:"
-      role="switch"
-      tabindex="0"
-      type="button"
-    >
-      <span
-        class="block relative h-full w-full"
-      >
-        <span
-          aria-hidden="true"
-          class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
-        />
-      </span>
-    </button>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
-`;
-
-exports[`Switch in Light Theme renders Default 1`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": <body>
-    <div>
-      <button
-        aria-checked="true"
-        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
-        data-headlessui-state="checked"
-        data-tests="test-id"
-        id="headlessui-switch-:r0:"
-        role="switch"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="block relative h-full w-full"
-        >
-          <span
-            aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
-          />
-        </span>
-      </button>
-    </div>
-  </body>,
-  "container": <div>
-    <button
-      aria-checked="true"
-      class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
-      data-headlessui-state="checked"
-      data-tests="test-id"
-      id="headlessui-switch-:r0:"
-      role="switch"
-      tabindex="0"
-      type="button"
-    >
-      <span
-        class="block relative h-full w-full"
-      >
-        <span
-          aria-hidden="true"
-          class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
-        />
-      </span>
-    </button>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
-`;
-
-exports[`Switch in Light Theme renders Disabled 1`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": <body>
-    <div>
-      <button
-        aria-checked="true"
-        class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo opacity-30 cursor-not-allowed select-none"
-        data-headlessui-state="checked"
-        disabled=""
-        id="headlessui-switch-:r7:"
-        role="switch"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="block relative h-full w-full"
-        >
-          <span
-            aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
-          />
-        </span>
-      </button>
-      <button
-        aria-checked="false"
-        class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus opacity-30 cursor-not-allowed select-none"
-        data-headlessui-state=""
-        disabled=""
-        id="headlessui-switch-:r8:"
-        role="switch"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="block relative h-full w-full"
-        >
-          <span
-            aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-0 rtl:right-0"
-          />
-        </span>
-      </button>
-    </div>
-  </body>,
-  "container": <div>
-    <button
-      aria-checked="true"
-      class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo opacity-30 cursor-not-allowed select-none"
-      data-headlessui-state="checked"
-      disabled=""
-      id="headlessui-switch-:r7:"
-      role="switch"
-      tabindex="0"
-      type="button"
-    >
-      <span
-        class="block relative h-full w-full"
-      >
-        <span
-          aria-hidden="true"
-          class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
-        />
-      </span>
-    </button>
-    <button
-      aria-checked="false"
-      class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus opacity-30 cursor-not-allowed select-none"
-      data-headlessui-state=""
-      disabled=""
-      id="headlessui-switch-:r8:"
-      role="switch"
-      tabindex="0"
-      type="button"
-    >
-      <span
-        class="block relative h-full w-full"
-      >
-        <span
-          aria-hidden="true"
-          class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-0 rtl:right-0"
-        />
-      </span>
-    </button>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
-`;
-
-exports[`Switch in Light Theme renders Form 1`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": <body>
-    <div>
-      <form
-        action="/notification-settings"
-        method="post"
-      >
-        <input
-          checked=""
-          hidden=""
-          name="notification"
-          readonly=""
-          style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px; display: none;"
-          type="checkbox"
-          value="on"
-        />
-        <button
-          aria-checked="true"
-          class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
-          data-headlessui-state="checked"
-          id="headlessui-switch-:r6:"
-          role="switch"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="block relative h-full w-full"
-          >
-            <span
-              aria-hidden="true"
-              class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
-            />
-          </span>
-        </button>
-      </form>
-    </div>
-  </body>,
-  "container": <div>
-    <form
-      action="/notification-settings"
-      method="post"
-    >
-      <input
-        checked=""
-        hidden=""
-        name="notification"
-        readonly=""
-        style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px; display: none;"
-        type="checkbox"
-        value="on"
-      />
-      <button
-        aria-checked="true"
-        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
-        data-headlessui-state="checked"
-        id="headlessui-switch-:r6:"
-        role="switch"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="block relative h-full w-full"
-        >
-          <span
-            aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
-          />
-        </span>
-      </button>
-    </form>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
-`;
-
-exports[`Switch in Light Theme renders Sizes 1`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": <body>
-    <div>
-      <button
-        aria-checked="true"
-        class="block cursor-pointer rounded-full transition w-7 h-4 p-0.5 bg-piccolo"
-        data-headlessui-state="checked"
-        id="headlessui-switch-:r1:"
-        role="switch"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="block relative h-full w-full"
-        >
-          <span
-            aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-3 h-3 ltr:left-[calc(100%-12px)] rtl:right-[calc(100%-12px)]"
-          />
-        </span>
-      </button>
-      <button
-        aria-checked="true"
-        class="block cursor-pointer rounded-full transition w-11 h-6 p-1 bg-piccolo"
-        data-headlessui-state="checked"
-        id="headlessui-switch-:r2:"
-        role="switch"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="block relative h-full w-full"
-        >
-          <span
-            aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-4 h-4 ltr:left-[calc(100%-16px)] rtl:right-[calc(100%-16px)]"
-          />
-        </span>
-      </button>
-      <button
-        aria-checked="true"
-        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
-        data-headlessui-state="checked"
-        id="headlessui-switch-:r3:"
-        role="switch"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="block relative h-full w-full"
-        >
-          <span
-            aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
-          />
-        </span>
-      </button>
-    </div>
-  </body>,
-  "container": <div>
-    <button
-      aria-checked="true"
-      class="block cursor-pointer rounded-full transition w-7 h-4 p-0.5 bg-piccolo"
-      data-headlessui-state="checked"
-      id="headlessui-switch-:r1:"
-      role="switch"
-      tabindex="0"
-      type="button"
-    >
-      <span
-        class="block relative h-full w-full"
-      >
-        <span
-          aria-hidden="true"
-          class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-3 h-3 ltr:left-[calc(100%-12px)] rtl:right-[calc(100%-12px)]"
-        />
-      </span>
-    </button>
-    <button
-      aria-checked="true"
-      class="block cursor-pointer rounded-full transition w-11 h-6 p-1 bg-piccolo"
-      data-headlessui-state="checked"
-      id="headlessui-switch-:r2:"
-      role="switch"
-      tabindex="0"
-      type="button"
-    >
-      <span
-        class="block relative h-full w-full"
-      >
-        <span
-          aria-hidden="true"
-          class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-4 h-4 ltr:left-[calc(100%-16px)] rtl:right-[calc(100%-16px)]"
-        />
-      </span>
-    </button>
-    <button
-      aria-checked="true"
-      class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
-      data-headlessui-state="checked"
-      id="headlessui-switch-:r3:"
-      role="switch"
-      tabindex="0"
-      type="button"
-    >
-      <span
-        class="block relative h-full w-full"
-      >
-        <span
-          aria-hidden="true"
-          class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
-        />
-      </span>
-    </button>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
-`;
-
-exports[`Switch in Light Theme renders WithIcons 1`] = `
-Object {
-  "asFragment": [Function],
-  "baseElement": <body>
-    <div>
-      <button
-        aria-checked="true"
-        class="block cursor-pointer rounded-full transition w-7 h-4 p-0.5 bg-piccolo"
-        data-headlessui-state="checked"
-        id="headlessui-switch-:r9:"
-        role="switch"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="block relative h-full w-full"
-        >
-          <span
-            aria-hidden="true"
-            class="z-1 absolute ltr:left-0 rtl:right-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-12 opacity-100"
-          >
-            <svg
-              fill="none"
-              height="1em"
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M25.5 16a9.5 9.5 0 11-19 0 9.5 9.5 0 0119 0z"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M11 15l4 4.5 5.222-6.667"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </span>
-          <span
-            aria-hidden="true"
-            class="z-1 absolute ltr:right-0 rtl:left-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-12 opacity-0"
-          >
-            <svg
-              fill="none"
-              height="1em"
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M25.5 16a9.5 9.5 0 11-19 0 9.5 9.5 0 0119 0z"
-                stroke="currentColor"
-              />
-              <path
-                d="M19.7 12.346l-3.7 3.7m0 0l-3.7 3.699m3.7-3.7l3.7 3.7m-3.7-3.7l-3.7-3.699"
-                stroke="currentColor"
-                stroke-linecap="round"
-              />
-            </svg>
-          </span>
-          <span
-            aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-3 h-3 ltr:left-[calc(100%-12px)] rtl:right-[calc(100%-12px)]"
-          />
-        </span>
-      </button>
-      <button
-        aria-checked="true"
-        class="block cursor-pointer rounded-full transition w-11 h-6 p-1 bg-piccolo"
-        data-headlessui-state="checked"
-        id="headlessui-switch-:ra:"
-        role="switch"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="block relative h-full w-full"
-        >
-          <span
-            aria-hidden="true"
-            class="z-1 absolute ltr:left-0 rtl:right-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-16 opacity-100"
-          >
-            <svg
-              fill="none"
-              height="1em"
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M25.5 16a9.5 9.5 0 11-19 0 9.5 9.5 0 0119 0z"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M11 15l4 4.5 5.222-6.667"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </span>
-          <span
-            aria-hidden="true"
-            class="z-1 absolute ltr:right-0 rtl:left-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-16 opacity-0"
-          >
-            <svg
-              fill="none"
-              height="1em"
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M25.5 16a9.5 9.5 0 11-19 0 9.5 9.5 0 0119 0z"
-                stroke="currentColor"
-              />
-              <path
-                d="M19.7 12.346l-3.7 3.7m0 0l-3.7 3.699m3.7-3.7l3.7 3.7m-3.7-3.7l-3.7-3.699"
-                stroke="currentColor"
-                stroke-linecap="round"
-              />
-            </svg>
-          </span>
-          <span
-            aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-4 h-4 ltr:left-[calc(100%-16px)] rtl:right-[calc(100%-16px)]"
-          />
-        </span>
-      </button>
-      <button
-        aria-checked="true"
-        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
-        data-headlessui-state="checked"
-        id="headlessui-switch-:rb:"
-        role="switch"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="block relative h-full w-full"
-        >
-          <span
-            aria-hidden="true"
-            class="z-1 absolute ltr:left-0 rtl:right-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-24 opacity-100"
-          >
-            <svg
-              fill="none"
-              height="1em"
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M25.5 16a9.5 9.5 0 11-19 0 9.5 9.5 0 0119 0z"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M11 15l4 4.5 5.222-6.667"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </span>
-          <span
-            aria-hidden="true"
-            class="z-1 absolute ltr:right-0 rtl:left-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-24 opacity-0"
-          >
-            <svg
-              fill="none"
-              height="1em"
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M25.5 16a9.5 9.5 0 11-19 0 9.5 9.5 0 0119 0z"
-                stroke="currentColor"
-              />
-              <path
-                d="M19.7 12.346l-3.7 3.7m0 0l-3.7 3.699m3.7-3.7l3.7 3.7m-3.7-3.7l-3.7-3.699"
-                stroke="currentColor"
-                stroke-linecap="round"
-              />
-            </svg>
-          </span>
-          <span
-            aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
-          />
-        </span>
-      </button>
-    </div>
-  </body>,
-  "container": <div>
-    <button
-      aria-checked="true"
-      class="block cursor-pointer rounded-full transition w-7 h-4 p-0.5 bg-piccolo"
-      data-headlessui-state="checked"
-      id="headlessui-switch-:r9:"
-      role="switch"
-      tabindex="0"
-      type="button"
-    >
-      <span
-        class="block relative h-full w-full"
-      >
-        <span
-          aria-hidden="true"
-          class="z-1 absolute ltr:left-0 rtl:right-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-12 opacity-100"
-        >
-          <svg
-            fill="none"
-            height="1em"
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25.5 16a9.5 9.5 0 11-19 0 9.5 9.5 0 0119 0z"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M11 15l4 4.5 5.222-6.667"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg>
-        </span>
-        <span
-          aria-hidden="true"
-          class="z-1 absolute ltr:right-0 rtl:left-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-12 opacity-0"
-        >
-          <svg
-            fill="none"
-            height="1em"
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25.5 16a9.5 9.5 0 11-19 0 9.5 9.5 0 0119 0z"
-              stroke="currentColor"
-            />
-            <path
-              d="M19.7 12.346l-3.7 3.7m0 0l-3.7 3.699m3.7-3.7l3.7 3.7m-3.7-3.7l-3.7-3.699"
-              stroke="currentColor"
-              stroke-linecap="round"
-            />
-          </svg>
-        </span>
-        <span
-          aria-hidden="true"
-          class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-3 h-3 ltr:left-[calc(100%-12px)] rtl:right-[calc(100%-12px)]"
-        />
-      </span>
-    </button>
-    <button
-      aria-checked="true"
-      class="block cursor-pointer rounded-full transition w-11 h-6 p-1 bg-piccolo"
-      data-headlessui-state="checked"
-      id="headlessui-switch-:ra:"
-      role="switch"
-      tabindex="0"
-      type="button"
-    >
-      <span
-        class="block relative h-full w-full"
-      >
-        <span
-          aria-hidden="true"
-          class="z-1 absolute ltr:left-0 rtl:right-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-16 opacity-100"
-        >
-          <svg
-            fill="none"
-            height="1em"
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25.5 16a9.5 9.5 0 11-19 0 9.5 9.5 0 0119 0z"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M11 15l4 4.5 5.222-6.667"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg>
-        </span>
-        <span
-          aria-hidden="true"
-          class="z-1 absolute ltr:right-0 rtl:left-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-16 opacity-0"
-        >
-          <svg
-            fill="none"
-            height="1em"
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25.5 16a9.5 9.5 0 11-19 0 9.5 9.5 0 0119 0z"
-              stroke="currentColor"
-            />
-            <path
-              d="M19.7 12.346l-3.7 3.7m0 0l-3.7 3.699m3.7-3.7l3.7 3.7m-3.7-3.7l-3.7-3.699"
-              stroke="currentColor"
-              stroke-linecap="round"
-            />
-          </svg>
-        </span>
-        <span
-          aria-hidden="true"
-          class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-4 h-4 ltr:left-[calc(100%-16px)] rtl:right-[calc(100%-16px)]"
-        />
-      </span>
-    </button>
-    <button
-      aria-checked="true"
-      class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
-      data-headlessui-state="checked"
-      id="headlessui-switch-:rb:"
-      role="switch"
-      tabindex="0"
-      type="button"
-    >
-      <span
-        class="block relative h-full w-full"
-      >
-        <span
-          aria-hidden="true"
-          class="z-1 absolute ltr:left-0 rtl:right-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-24 opacity-100"
-        >
-          <svg
-            fill="none"
-            height="1em"
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25.5 16a9.5 9.5 0 11-19 0 9.5 9.5 0 0119 0z"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M11 15l4 4.5 5.222-6.667"
-              stroke="currentColor"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg>
-        </span>
-        <span
-          aria-hidden="true"
-          class="z-1 absolute ltr:right-0 rtl:left-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-24 opacity-0"
-        >
-          <svg
-            fill="none"
-            height="1em"
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25.5 16a9.5 9.5 0 11-19 0 9.5 9.5 0 0119 0z"
-              stroke="currentColor"
-            />
-            <path
-              d="M19.7 12.346l-3.7 3.7m0 0l-3.7 3.699m3.7-3.7l3.7 3.7m-3.7-3.7l-3.7-3.699"
-              stroke="currentColor"
-              stroke-linecap="round"
-            />
-          </svg>
-        </span>
-        <span
-          aria-hidden="true"
-          class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
-        />
-      </span>
-    </button>
-  </div>,
-  "debug": [Function],
-  "findAllByAltText": [Function],
-  "findAllByDisplayValue": [Function],
-  "findAllByLabelText": [Function],
-  "findAllByPlaceholderText": [Function],
-  "findAllByRole": [Function],
-  "findAllByTestId": [Function],
-  "findAllByText": [Function],
-  "findAllByTitle": [Function],
-  "findByAltText": [Function],
-  "findByDisplayValue": [Function],
-  "findByLabelText": [Function],
-  "findByPlaceholderText": [Function],
-  "findByRole": [Function],
-  "findByTestId": [Function],
-  "findByText": [Function],
-  "findByTitle": [Function],
-  "getAllByAltText": [Function],
-  "getAllByDisplayValue": [Function],
-  "getAllByLabelText": [Function],
-  "getAllByPlaceholderText": [Function],
-  "getAllByRole": [Function],
-  "getAllByTestId": [Function],
-  "getAllByText": [Function],
-  "getAllByTitle": [Function],
-  "getByAltText": [Function],
-  "getByDisplayValue": [Function],
-  "getByLabelText": [Function],
-  "getByPlaceholderText": [Function],
-  "getByRole": [Function],
-  "getByTestId": [Function],
-  "getByText": [Function],
-  "getByTitle": [Function],
-  "queryAllByAltText": [Function],
-  "queryAllByDisplayValue": [Function],
-  "queryAllByLabelText": [Function],
-  "queryAllByPlaceholderText": [Function],
-  "queryAllByRole": [Function],
-  "queryAllByTestId": [Function],
-  "queryAllByText": [Function],
-  "queryAllByTitle": [Function],
-  "queryByAltText": [Function],
-  "queryByDisplayValue": [Function],
-  "queryByLabelText": [Function],
-  "queryByPlaceholderText": [Function],
-  "queryByRole": [Function],
-  "queryByTestId": [Function],
-  "queryByText": [Function],
-  "queryByTitle": [Function],
-  "rerender": [Function],
-  "unmount": [Function],
-}
-`;
-
-exports[`Switch in RTL renders CustomBg 1`] = `
+exports[`Switch in RTL renders Customization 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
@@ -1136,9 +10,10 @@ Object {
       >
         <button
           aria-checked="true"
-          class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-chichi"
+          aria-label="Switch with custom styles"
+          class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-nappa moon-checked:bg-roshi"
           data-headlessui-state="checked"
-          id="headlessui-switch-:rg:"
+          id="headlessui-switch-:ri:"
           role="switch"
           tabindex="0"
           type="button"
@@ -1148,15 +23,16 @@ Object {
           >
             <span
               aria-hidden="true"
-              class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+              class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
             />
           </span>
         </button>
         <button
           aria-checked="true"
-          class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-roshi"
+          aria-label="Switch with custom styles"
+          class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-krillin moon-checked:bg-chichi"
           data-headlessui-state="checked"
-          id="headlessui-switch-:rh:"
+          id="headlessui-switch-:rj:"
           role="switch"
           tabindex="0"
           type="button"
@@ -1166,7 +42,7 @@ Object {
           >
             <span
               aria-hidden="true"
-              class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+              class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
             />
           </span>
         </button>
@@ -1179,9 +55,10 @@ Object {
     >
       <button
         aria-checked="true"
-        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-chichi"
+        aria-label="Switch with custom styles"
+        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-nappa moon-checked:bg-roshi"
         data-headlessui-state="checked"
-        id="headlessui-switch-:rg:"
+        id="headlessui-switch-:ri:"
         role="switch"
         tabindex="0"
         type="button"
@@ -1191,15 +68,16 @@ Object {
         >
           <span
             aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+            class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
           />
         </span>
       </button>
       <button
         aria-checked="true"
-        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-roshi"
+        aria-label="Switch with custom styles"
+        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-krillin moon-checked:bg-chichi"
         data-headlessui-state="checked"
-        id="headlessui-switch-:rh:"
+        id="headlessui-switch-:rj:"
         role="switch"
         tabindex="0"
         type="button"
@@ -1209,7 +87,7 @@ Object {
         >
           <span
             aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+            class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
           />
         </span>
       </button>
@@ -1279,10 +157,11 @@ Object {
       >
         <button
           aria-checked="true"
-          class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
+          aria-label="Default Switch"
+          class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
           data-headlessui-state="checked"
           data-tests="test-id"
-          id="headlessui-switch-:rc:"
+          id="headlessui-switch-:re:"
           role="switch"
           tabindex="0"
           type="button"
@@ -1292,7 +171,7 @@ Object {
           >
             <span
               aria-hidden="true"
-              class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+              class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
             />
           </span>
         </button>
@@ -1305,10 +184,11 @@ Object {
     >
       <button
         aria-checked="true"
-        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
+        aria-label="Default Switch"
+        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
         data-headlessui-state="checked"
         data-tests="test-id"
-        id="headlessui-switch-:rc:"
+        id="headlessui-switch-:re:"
         role="switch"
         tabindex="0"
         type="button"
@@ -1318,7 +198,7 @@ Object {
         >
           <span
             aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+            class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
           />
         </span>
       </button>
@@ -1388,10 +268,12 @@ Object {
       >
         <button
           aria-checked="true"
-          class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo opacity-30 cursor-not-allowed select-none"
+          aria-label="Disabled Switch"
+          aria-readonly="true"
+          class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo opacity-60 cursor-not-allowed select-none"
           data-headlessui-state="checked"
           disabled=""
-          id="headlessui-switch-:rj:"
+          id="headlessui-switch-:rl:"
           role="switch"
           tabindex="0"
           type="button"
@@ -1401,16 +283,18 @@ Object {
           >
             <span
               aria-hidden="true"
-              class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+              class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
             />
           </span>
         </button>
         <button
           aria-checked="false"
-          class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus opacity-30 cursor-not-allowed select-none"
+          aria-label="Disabled Switch"
+          aria-readonly="true"
+          class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo opacity-60 cursor-not-allowed select-none"
           data-headlessui-state=""
           disabled=""
-          id="headlessui-switch-:rk:"
+          id="headlessui-switch-:rm:"
           role="switch"
           tabindex="0"
           type="button"
@@ -1420,7 +304,7 @@ Object {
           >
             <span
               aria-hidden="true"
-              class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-0 rtl:right-0"
+              class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 start-0"
             />
           </span>
         </button>
@@ -1433,10 +317,12 @@ Object {
     >
       <button
         aria-checked="true"
-        class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo opacity-30 cursor-not-allowed select-none"
+        aria-label="Disabled Switch"
+        aria-readonly="true"
+        class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo opacity-60 cursor-not-allowed select-none"
         data-headlessui-state="checked"
         disabled=""
-        id="headlessui-switch-:rj:"
+        id="headlessui-switch-:rl:"
         role="switch"
         tabindex="0"
         type="button"
@@ -1446,16 +332,18 @@ Object {
         >
           <span
             aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+            class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
           />
         </span>
       </button>
       <button
         aria-checked="false"
-        class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus opacity-30 cursor-not-allowed select-none"
+        aria-label="Disabled Switch"
+        aria-readonly="true"
+        class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo opacity-60 cursor-not-allowed select-none"
         data-headlessui-state=""
         disabled=""
-        id="headlessui-switch-:rk:"
+        id="headlessui-switch-:rm:"
         role="switch"
         tabindex="0"
         type="button"
@@ -1465,7 +353,7 @@ Object {
         >
           <span
             aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-0 rtl:right-0"
+            class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 start-0"
           />
         </span>
       </button>
@@ -1540,7 +428,7 @@ Object {
           <input
             checked=""
             hidden=""
-            name="notification"
+            name="Notification"
             readonly=""
             style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px; display: none;"
             type="checkbox"
@@ -1548,9 +436,10 @@ Object {
           />
           <button
             aria-checked="true"
-            class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
+            aria-label="Notification"
+            class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
             data-headlessui-state="checked"
-            id="headlessui-switch-:ri:"
+            id="headlessui-switch-:rk:"
             role="switch"
             tabindex="0"
             type="button"
@@ -1560,7 +449,7 @@ Object {
             >
               <span
                 aria-hidden="true"
-                class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+                class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
               />
             </span>
           </button>
@@ -1579,7 +468,7 @@ Object {
         <input
           checked=""
           hidden=""
-          name="notification"
+          name="Notification"
           readonly=""
           style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px; display: none;"
           type="checkbox"
@@ -1587,9 +476,10 @@ Object {
         />
         <button
           aria-checked="true"
-          class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
+          aria-label="Notification"
+          class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
           data-headlessui-state="checked"
-          id="headlessui-switch-:ri:"
+          id="headlessui-switch-:rk:"
           role="switch"
           tabindex="0"
           type="button"
@@ -1599,7 +489,7 @@ Object {
           >
             <span
               aria-hidden="true"
-              class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+              class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
             />
           </span>
         </button>
@@ -1670,43 +560,8 @@ Object {
       >
         <button
           aria-checked="true"
-          class="block cursor-pointer rounded-full transition w-7 h-4 p-0.5 bg-piccolo"
-          data-headlessui-state="checked"
-          id="headlessui-switch-:rd:"
-          role="switch"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="block relative h-full w-full"
-          >
-            <span
-              aria-hidden="true"
-              class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-3 h-3 ltr:left-[calc(100%-12px)] rtl:right-[calc(100%-12px)]"
-            />
-          </span>
-        </button>
-        <button
-          aria-checked="true"
-          class="block cursor-pointer rounded-full transition w-11 h-6 p-1 bg-piccolo"
-          data-headlessui-state="checked"
-          id="headlessui-switch-:re:"
-          role="switch"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="block relative h-full w-full"
-          >
-            <span
-              aria-hidden="true"
-              class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-4 h-4 ltr:left-[calc(100%-16px)] rtl:right-[calc(100%-16px)]"
-            />
-          </span>
-        </button>
-        <button
-          aria-checked="true"
-          class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
+          aria-label="Switch with 2xs size"
+          class="block cursor-pointer rounded-full transition w-7 h-4 p-0.5 bg-beerus moon-checked:bg-piccolo"
           data-headlessui-state="checked"
           id="headlessui-switch-:rf:"
           role="switch"
@@ -1718,7 +573,45 @@ Object {
           >
             <span
               aria-hidden="true"
-              class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+              class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-3 h-3 ltr:left-[calc(100%-12px)] rtl:right-[calc(100%-12px)]"
+            />
+          </span>
+        </button>
+        <button
+          aria-checked="true"
+          aria-label="Switch with xs size"
+          class="block cursor-pointer rounded-full transition w-11 h-6 p-1 bg-beerus moon-checked:bg-piccolo"
+          data-headlessui-state="checked"
+          id="headlessui-switch-:rg:"
+          role="switch"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="block relative h-full w-full"
+          >
+            <span
+              aria-hidden="true"
+              class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-4 h-4 ltr:left-[calc(100%-16px)] rtl:right-[calc(100%-16px)]"
+            />
+          </span>
+        </button>
+        <button
+          aria-checked="true"
+          aria-label="Switch with sm size"
+          class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
+          data-headlessui-state="checked"
+          id="headlessui-switch-:rh:"
+          role="switch"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="block relative h-full w-full"
+          >
+            <span
+              aria-hidden="true"
+              class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
             />
           </span>
         </button>
@@ -1731,43 +624,8 @@ Object {
     >
       <button
         aria-checked="true"
-        class="block cursor-pointer rounded-full transition w-7 h-4 p-0.5 bg-piccolo"
-        data-headlessui-state="checked"
-        id="headlessui-switch-:rd:"
-        role="switch"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="block relative h-full w-full"
-        >
-          <span
-            aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-3 h-3 ltr:left-[calc(100%-12px)] rtl:right-[calc(100%-12px)]"
-          />
-        </span>
-      </button>
-      <button
-        aria-checked="true"
-        class="block cursor-pointer rounded-full transition w-11 h-6 p-1 bg-piccolo"
-        data-headlessui-state="checked"
-        id="headlessui-switch-:re:"
-        role="switch"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="block relative h-full w-full"
-        >
-          <span
-            aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-4 h-4 ltr:left-[calc(100%-16px)] rtl:right-[calc(100%-16px)]"
-          />
-        </span>
-      </button>
-      <button
-        aria-checked="true"
-        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
+        aria-label="Switch with 2xs size"
+        class="block cursor-pointer rounded-full transition w-7 h-4 p-0.5 bg-beerus moon-checked:bg-piccolo"
         data-headlessui-state="checked"
         id="headlessui-switch-:rf:"
         role="switch"
@@ -1779,7 +637,45 @@ Object {
         >
           <span
             aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+            class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-3 h-3 ltr:left-[calc(100%-12px)] rtl:right-[calc(100%-12px)]"
+          />
+        </span>
+      </button>
+      <button
+        aria-checked="true"
+        aria-label="Switch with xs size"
+        class="block cursor-pointer rounded-full transition w-11 h-6 p-1 bg-beerus moon-checked:bg-piccolo"
+        data-headlessui-state="checked"
+        id="headlessui-switch-:rg:"
+        role="switch"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="block relative h-full w-full"
+        >
+          <span
+            aria-hidden="true"
+            class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-4 h-4 ltr:left-[calc(100%-16px)] rtl:right-[calc(100%-16px)]"
+          />
+        </span>
+      </button>
+      <button
+        aria-checked="true"
+        aria-label="Switch with sm size"
+        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
+        data-headlessui-state="checked"
+        id="headlessui-switch-:rh:"
+        role="switch"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="block relative h-full w-full"
+        >
+          <span
+            aria-hidden="true"
+            class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
           />
         </span>
       </button>
@@ -1849,137 +745,8 @@ Object {
       >
         <button
           aria-checked="true"
-          class="block cursor-pointer rounded-full transition w-7 h-4 p-0.5 bg-piccolo"
-          data-headlessui-state="checked"
-          id="headlessui-switch-:rl:"
-          role="switch"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="block relative h-full w-full"
-          >
-            <span
-              aria-hidden="true"
-              class="z-1 absolute ltr:left-0 rtl:right-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-12 opacity-100"
-            >
-              <svg
-                fill="none"
-                height="1em"
-                viewBox="0 0 32 32"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M25.5 16a9.5 9.5 0 11-19 0 9.5 9.5 0 0119 0z"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M11 15l4 4.5 5.222-6.667"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </span>
-            <span
-              aria-hidden="true"
-              class="z-1 absolute ltr:right-0 rtl:left-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-12 opacity-0"
-            >
-              <svg
-                fill="none"
-                height="1em"
-                viewBox="0 0 32 32"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M25.5 16a9.5 9.5 0 11-19 0 9.5 9.5 0 0119 0z"
-                  stroke="currentColor"
-                />
-                <path
-                  d="M19.7 12.346l-3.7 3.7m0 0l-3.7 3.699m3.7-3.7l3.7 3.7m-3.7-3.7l-3.7-3.699"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                />
-              </svg>
-            </span>
-            <span
-              aria-hidden="true"
-              class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-3 h-3 ltr:left-[calc(100%-12px)] rtl:right-[calc(100%-12px)]"
-            />
-          </span>
-        </button>
-        <button
-          aria-checked="true"
-          class="block cursor-pointer rounded-full transition w-11 h-6 p-1 bg-piccolo"
-          data-headlessui-state="checked"
-          id="headlessui-switch-:rm:"
-          role="switch"
-          tabindex="0"
-          type="button"
-        >
-          <span
-            class="block relative h-full w-full"
-          >
-            <span
-              aria-hidden="true"
-              class="z-1 absolute ltr:left-0 rtl:right-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-16 opacity-100"
-            >
-              <svg
-                fill="none"
-                height="1em"
-                viewBox="0 0 32 32"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M25.5 16a9.5 9.5 0 11-19 0 9.5 9.5 0 0119 0z"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M11 15l4 4.5 5.222-6.667"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </span>
-            <span
-              aria-hidden="true"
-              class="z-1 absolute ltr:right-0 rtl:left-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-16 opacity-0"
-            >
-              <svg
-                fill="none"
-                height="1em"
-                viewBox="0 0 32 32"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M25.5 16a9.5 9.5 0 11-19 0 9.5 9.5 0 0119 0z"
-                  stroke="currentColor"
-                />
-                <path
-                  d="M19.7 12.346l-3.7 3.7m0 0l-3.7 3.699m3.7-3.7l3.7 3.7m-3.7-3.7l-3.7-3.699"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                />
-              </svg>
-            </span>
-            <span
-              aria-hidden="true"
-              class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-4 h-4 ltr:left-[calc(100%-16px)] rtl:right-[calc(100%-16px)]"
-            />
-          </span>
-        </button>
-        <button
-          aria-checked="true"
-          class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
+          aria-label="Switch with icons"
+          class="block cursor-pointer rounded-full transition w-7 h-4 p-0.5 bg-beerus moon-checked:bg-piccolo"
           data-headlessui-state="checked"
           id="headlessui-switch-:rn:"
           role="switch"
@@ -1991,7 +758,7 @@ Object {
           >
             <span
               aria-hidden="true"
-              class="z-1 absolute ltr:left-0 rtl:right-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-24 opacity-100"
+              class="absolute start-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-12 opacity-100"
             >
               <svg
                 fill="none"
@@ -2001,13 +768,13 @@ Object {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="M25.5 16a9.5 9.5 0 11-19 0 9.5 9.5 0 0119 0z"
+                  d="M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
                   stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                 />
                 <path
-                  d="M11 15l4 4.5 5.222-6.667"
+                  d="M11 15L15 19.5L20.2222 12.8334"
                   stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
@@ -2016,7 +783,7 @@ Object {
             </span>
             <span
               aria-hidden="true"
-              class="z-1 absolute ltr:right-0 rtl:left-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-24 opacity-0"
+              class="absolute end-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-12 opacity-0"
             >
               <svg
                 fill="none"
@@ -2026,11 +793,11 @@ Object {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="M25.5 16a9.5 9.5 0 11-19 0 9.5 9.5 0 0119 0z"
+                  d="M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
                   stroke="currentColor"
                 />
                 <path
-                  d="M19.7 12.346l-3.7 3.7m0 0l-3.7 3.699m3.7-3.7l3.7 3.7m-3.7-3.7l-3.7-3.699"
+                  d="M19.6993 12.3462L16 16.0455M16 16.0455L12.3007 19.7448M16 16.0455L19.6993 19.7448M16 16.0455L12.3007 12.3462"
                   stroke="currentColor"
                   stroke-linecap="round"
                 />
@@ -2038,7 +805,139 @@ Object {
             </span>
             <span
               aria-hidden="true"
-              class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+              class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-3 h-3 ltr:left-[calc(100%-12px)] rtl:right-[calc(100%-12px)]"
+            />
+          </span>
+        </button>
+        <button
+          aria-checked="true"
+          aria-label="Switch with icons"
+          class="block cursor-pointer rounded-full transition w-11 h-6 p-1 bg-beerus moon-checked:bg-piccolo"
+          data-headlessui-state="checked"
+          id="headlessui-switch-:ro:"
+          role="switch"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="block relative h-full w-full"
+          >
+            <span
+              aria-hidden="true"
+              class="absolute start-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-16 opacity-100"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M11 15L15 19.5L20.2222 12.8334"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+            <span
+              aria-hidden="true"
+              class="absolute end-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-16 opacity-0"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+                  stroke="currentColor"
+                />
+                <path
+                  d="M19.6993 12.3462L16 16.0455M16 16.0455L12.3007 19.7448M16 16.0455L19.6993 19.7448M16 16.0455L12.3007 12.3462"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </span>
+            <span
+              aria-hidden="true"
+              class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-4 h-4 ltr:left-[calc(100%-16px)] rtl:right-[calc(100%-16px)]"
+            />
+          </span>
+        </button>
+        <button
+          aria-checked="true"
+          aria-label="Switch with icons"
+          class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
+          data-headlessui-state="checked"
+          id="headlessui-switch-:rp:"
+          role="switch"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="block relative h-full w-full"
+          >
+            <span
+              aria-hidden="true"
+              class="absolute start-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-24 opacity-100"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M11 15L15 19.5L20.2222 12.8334"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+            <span
+              aria-hidden="true"
+              class="absolute end-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-24 opacity-0"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+                  stroke="currentColor"
+                />
+                <path
+                  d="M19.6993 12.3462L16 16.0455M16 16.0455L12.3007 19.7448M16 16.0455L19.6993 19.7448M16 16.0455L12.3007 12.3462"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </span>
+            <span
+              aria-hidden="true"
+              class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
             />
           </span>
         </button>
@@ -2051,137 +950,8 @@ Object {
     >
       <button
         aria-checked="true"
-        class="block cursor-pointer rounded-full transition w-7 h-4 p-0.5 bg-piccolo"
-        data-headlessui-state="checked"
-        id="headlessui-switch-:rl:"
-        role="switch"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="block relative h-full w-full"
-        >
-          <span
-            aria-hidden="true"
-            class="z-1 absolute ltr:left-0 rtl:right-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-12 opacity-100"
-          >
-            <svg
-              fill="none"
-              height="1em"
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M25.5 16a9.5 9.5 0 11-19 0 9.5 9.5 0 0119 0z"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M11 15l4 4.5 5.222-6.667"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </span>
-          <span
-            aria-hidden="true"
-            class="z-1 absolute ltr:right-0 rtl:left-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-12 opacity-0"
-          >
-            <svg
-              fill="none"
-              height="1em"
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M25.5 16a9.5 9.5 0 11-19 0 9.5 9.5 0 0119 0z"
-                stroke="currentColor"
-              />
-              <path
-                d="M19.7 12.346l-3.7 3.7m0 0l-3.7 3.699m3.7-3.7l3.7 3.7m-3.7-3.7l-3.7-3.699"
-                stroke="currentColor"
-                stroke-linecap="round"
-              />
-            </svg>
-          </span>
-          <span
-            aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-3 h-3 ltr:left-[calc(100%-12px)] rtl:right-[calc(100%-12px)]"
-          />
-        </span>
-      </button>
-      <button
-        aria-checked="true"
-        class="block cursor-pointer rounded-full transition w-11 h-6 p-1 bg-piccolo"
-        data-headlessui-state="checked"
-        id="headlessui-switch-:rm:"
-        role="switch"
-        tabindex="0"
-        type="button"
-      >
-        <span
-          class="block relative h-full w-full"
-        >
-          <span
-            aria-hidden="true"
-            class="z-1 absolute ltr:left-0 rtl:right-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-16 opacity-100"
-          >
-            <svg
-              fill="none"
-              height="1em"
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M25.5 16a9.5 9.5 0 11-19 0 9.5 9.5 0 0119 0z"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M11 15l4 4.5 5.222-6.667"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </span>
-          <span
-            aria-hidden="true"
-            class="z-1 absolute ltr:right-0 rtl:left-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-16 opacity-0"
-          >
-            <svg
-              fill="none"
-              height="1em"
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M25.5 16a9.5 9.5 0 11-19 0 9.5 9.5 0 0119 0z"
-                stroke="currentColor"
-              />
-              <path
-                d="M19.7 12.346l-3.7 3.7m0 0l-3.7 3.699m3.7-3.7l3.7 3.7m-3.7-3.7l-3.7-3.699"
-                stroke="currentColor"
-                stroke-linecap="round"
-              />
-            </svg>
-          </span>
-          <span
-            aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-4 h-4 ltr:left-[calc(100%-16px)] rtl:right-[calc(100%-16px)]"
-          />
-        </span>
-      </button>
-      <button
-        aria-checked="true"
-        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
+        aria-label="Switch with icons"
+        class="block cursor-pointer rounded-full transition w-7 h-4 p-0.5 bg-beerus moon-checked:bg-piccolo"
         data-headlessui-state="checked"
         id="headlessui-switch-:rn:"
         role="switch"
@@ -2193,7 +963,7 @@ Object {
         >
           <span
             aria-hidden="true"
-            class="z-1 absolute ltr:left-0 rtl:right-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-24 opacity-100"
+            class="absolute start-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-12 opacity-100"
           >
             <svg
               fill="none"
@@ -2203,13 +973,13 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M25.5 16a9.5 9.5 0 11-19 0 9.5 9.5 0 0119 0z"
+                d="M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
               />
               <path
-                d="M11 15l4 4.5 5.222-6.667"
+                d="M11 15L15 19.5L20.2222 12.8334"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -2218,7 +988,7 @@ Object {
           </span>
           <span
             aria-hidden="true"
-            class="z-1 absolute ltr:right-0 rtl:left-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-24 opacity-0"
+            class="absolute end-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-12 opacity-0"
           >
             <svg
               fill="none"
@@ -2228,11 +998,11 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M25.5 16a9.5 9.5 0 11-19 0 9.5 9.5 0 0119 0z"
+                d="M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
                 stroke="currentColor"
               />
               <path
-                d="M19.7 12.346l-3.7 3.7m0 0l-3.7 3.699m3.7-3.7l3.7 3.7m-3.7-3.7l-3.7-3.699"
+                d="M19.6993 12.3462L16 16.0455M16 16.0455L12.3007 19.7448M16 16.0455L19.6993 19.7448M16 16.0455L12.3007 12.3462"
                 stroke="currentColor"
                 stroke-linecap="round"
               />
@@ -2240,11 +1010,1515 @@ Object {
           </span>
           <span
             aria-hidden="true"
-            class="z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+            class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-3 h-3 ltr:left-[calc(100%-12px)] rtl:right-[calc(100%-12px)]"
+          />
+        </span>
+      </button>
+      <button
+        aria-checked="true"
+        aria-label="Switch with icons"
+        class="block cursor-pointer rounded-full transition w-11 h-6 p-1 bg-beerus moon-checked:bg-piccolo"
+        data-headlessui-state="checked"
+        id="headlessui-switch-:ro:"
+        role="switch"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="block relative h-full w-full"
+        >
+          <span
+            aria-hidden="true"
+            class="absolute start-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-16 opacity-100"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M11 15L15 19.5L20.2222 12.8334"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+          <span
+            aria-hidden="true"
+            class="absolute end-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-16 opacity-0"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+                stroke="currentColor"
+              />
+              <path
+                d="M19.6993 12.3462L16 16.0455M16 16.0455L12.3007 19.7448M16 16.0455L19.6993 19.7448M16 16.0455L12.3007 12.3462"
+                stroke="currentColor"
+                stroke-linecap="round"
+              />
+            </svg>
+          </span>
+          <span
+            aria-hidden="true"
+            class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-4 h-4 ltr:left-[calc(100%-16px)] rtl:right-[calc(100%-16px)]"
+          />
+        </span>
+      </button>
+      <button
+        aria-checked="true"
+        aria-label="Switch with icons"
+        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
+        data-headlessui-state="checked"
+        id="headlessui-switch-:rp:"
+        role="switch"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="block relative h-full w-full"
+        >
+          <span
+            aria-hidden="true"
+            class="absolute start-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-24 opacity-100"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M11 15L15 19.5L20.2222 12.8334"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+          <span
+            aria-hidden="true"
+            class="absolute end-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-24 opacity-0"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+                stroke="currentColor"
+              />
+              <path
+                d="M19.6993 12.3462L16 16.0455M16 16.0455L12.3007 19.7448M16 16.0455L19.6993 19.7448M16 16.0455L12.3007 12.3462"
+                stroke="currentColor"
+                stroke-linecap="round"
+              />
+            </svg>
+          </span>
+          <span
+            aria-hidden="true"
+            class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
           />
         </span>
       </button>
     </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Switch in RTL renders WithTooltip 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        dir="rtl"
+      >
+        <button
+          aria-checked="true"
+          aria-label="Switch with Tooltip"
+          class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
+          data-headlessui-state="checked"
+          data-state="closed"
+          data-tests="test-id"
+          id="headlessui-switch-:rr:"
+          role="switch"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="block relative h-full w-full"
+          >
+            <span
+              aria-hidden="true"
+              class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+            />
+          </span>
+        </button>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <button
+        aria-checked="true"
+        aria-label="Switch with Tooltip"
+        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
+        data-headlessui-state="checked"
+        data-state="closed"
+        data-tests="test-id"
+        id="headlessui-switch-:rr:"
+        role="switch"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="block relative h-full w-full"
+        >
+          <span
+            aria-hidden="true"
+            class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+          />
+        </span>
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Switch renders Customization 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <button
+        aria-checked="true"
+        aria-label="Switch with custom styles"
+        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-nappa moon-checked:bg-roshi"
+        data-headlessui-state="checked"
+        id="headlessui-switch-:r4:"
+        role="switch"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="block relative h-full w-full"
+        >
+          <span
+            aria-hidden="true"
+            class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+          />
+        </span>
+      </button>
+      <button
+        aria-checked="true"
+        aria-label="Switch with custom styles"
+        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-krillin moon-checked:bg-chichi"
+        data-headlessui-state="checked"
+        id="headlessui-switch-:r5:"
+        role="switch"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="block relative h-full w-full"
+        >
+          <span
+            aria-hidden="true"
+            class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+          />
+        </span>
+      </button>
+    </div>
+  </body>,
+  "container": <div>
+    <button
+      aria-checked="true"
+      aria-label="Switch with custom styles"
+      class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-nappa moon-checked:bg-roshi"
+      data-headlessui-state="checked"
+      id="headlessui-switch-:r4:"
+      role="switch"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="block relative h-full w-full"
+      >
+        <span
+          aria-hidden="true"
+          class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+        />
+      </span>
+    </button>
+    <button
+      aria-checked="true"
+      aria-label="Switch with custom styles"
+      class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-krillin moon-checked:bg-chichi"
+      data-headlessui-state="checked"
+      id="headlessui-switch-:r5:"
+      role="switch"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="block relative h-full w-full"
+      >
+        <span
+          aria-hidden="true"
+          class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+        />
+      </span>
+    </button>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Switch renders Default 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <button
+        aria-checked="true"
+        aria-label="Default Switch"
+        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
+        data-headlessui-state="checked"
+        data-tests="test-id"
+        id="headlessui-switch-:r0:"
+        role="switch"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="block relative h-full w-full"
+        >
+          <span
+            aria-hidden="true"
+            class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+          />
+        </span>
+      </button>
+    </div>
+  </body>,
+  "container": <div>
+    <button
+      aria-checked="true"
+      aria-label="Default Switch"
+      class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
+      data-headlessui-state="checked"
+      data-tests="test-id"
+      id="headlessui-switch-:r0:"
+      role="switch"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="block relative h-full w-full"
+      >
+        <span
+          aria-hidden="true"
+          class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+        />
+      </span>
+    </button>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Switch renders Disabled 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <button
+        aria-checked="true"
+        aria-label="Disabled Switch"
+        aria-readonly="true"
+        class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo opacity-60 cursor-not-allowed select-none"
+        data-headlessui-state="checked"
+        disabled=""
+        id="headlessui-switch-:r7:"
+        role="switch"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="block relative h-full w-full"
+        >
+          <span
+            aria-hidden="true"
+            class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+          />
+        </span>
+      </button>
+      <button
+        aria-checked="false"
+        aria-label="Disabled Switch"
+        aria-readonly="true"
+        class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo opacity-60 cursor-not-allowed select-none"
+        data-headlessui-state=""
+        disabled=""
+        id="headlessui-switch-:r8:"
+        role="switch"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="block relative h-full w-full"
+        >
+          <span
+            aria-hidden="true"
+            class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 start-0"
+          />
+        </span>
+      </button>
+    </div>
+  </body>,
+  "container": <div>
+    <button
+      aria-checked="true"
+      aria-label="Disabled Switch"
+      aria-readonly="true"
+      class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo opacity-60 cursor-not-allowed select-none"
+      data-headlessui-state="checked"
+      disabled=""
+      id="headlessui-switch-:r7:"
+      role="switch"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="block relative h-full w-full"
+      >
+        <span
+          aria-hidden="true"
+          class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+        />
+      </span>
+    </button>
+    <button
+      aria-checked="false"
+      aria-label="Disabled Switch"
+      aria-readonly="true"
+      class="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo opacity-60 cursor-not-allowed select-none"
+      data-headlessui-state=""
+      disabled=""
+      id="headlessui-switch-:r8:"
+      role="switch"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="block relative h-full w-full"
+      >
+        <span
+          aria-hidden="true"
+          class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 start-0"
+        />
+      </span>
+    </button>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Switch renders Form 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <form
+        action="/notification-settings"
+        method="post"
+      >
+        <input
+          checked=""
+          hidden=""
+          name="Notification"
+          readonly=""
+          style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px; display: none;"
+          type="checkbox"
+          value="on"
+        />
+        <button
+          aria-checked="true"
+          aria-label="Notification"
+          class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
+          data-headlessui-state="checked"
+          id="headlessui-switch-:r6:"
+          role="switch"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="block relative h-full w-full"
+          >
+            <span
+              aria-hidden="true"
+              class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+            />
+          </span>
+        </button>
+      </form>
+    </div>
+  </body>,
+  "container": <div>
+    <form
+      action="/notification-settings"
+      method="post"
+    >
+      <input
+        checked=""
+        hidden=""
+        name="Notification"
+        readonly=""
+        style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px; display: none;"
+        type="checkbox"
+        value="on"
+      />
+      <button
+        aria-checked="true"
+        aria-label="Notification"
+        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
+        data-headlessui-state="checked"
+        id="headlessui-switch-:r6:"
+        role="switch"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="block relative h-full w-full"
+        >
+          <span
+            aria-hidden="true"
+            class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+          />
+        </span>
+      </button>
+    </form>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Switch renders Sizes 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <button
+        aria-checked="true"
+        aria-label="Switch with 2xs size"
+        class="block cursor-pointer rounded-full transition w-7 h-4 p-0.5 bg-beerus moon-checked:bg-piccolo"
+        data-headlessui-state="checked"
+        id="headlessui-switch-:r1:"
+        role="switch"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="block relative h-full w-full"
+        >
+          <span
+            aria-hidden="true"
+            class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-3 h-3 ltr:left-[calc(100%-12px)] rtl:right-[calc(100%-12px)]"
+          />
+        </span>
+      </button>
+      <button
+        aria-checked="true"
+        aria-label="Switch with xs size"
+        class="block cursor-pointer rounded-full transition w-11 h-6 p-1 bg-beerus moon-checked:bg-piccolo"
+        data-headlessui-state="checked"
+        id="headlessui-switch-:r2:"
+        role="switch"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="block relative h-full w-full"
+        >
+          <span
+            aria-hidden="true"
+            class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-4 h-4 ltr:left-[calc(100%-16px)] rtl:right-[calc(100%-16px)]"
+          />
+        </span>
+      </button>
+      <button
+        aria-checked="true"
+        aria-label="Switch with sm size"
+        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
+        data-headlessui-state="checked"
+        id="headlessui-switch-:r3:"
+        role="switch"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="block relative h-full w-full"
+        >
+          <span
+            aria-hidden="true"
+            class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+          />
+        </span>
+      </button>
+    </div>
+  </body>,
+  "container": <div>
+    <button
+      aria-checked="true"
+      aria-label="Switch with 2xs size"
+      class="block cursor-pointer rounded-full transition w-7 h-4 p-0.5 bg-beerus moon-checked:bg-piccolo"
+      data-headlessui-state="checked"
+      id="headlessui-switch-:r1:"
+      role="switch"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="block relative h-full w-full"
+      >
+        <span
+          aria-hidden="true"
+          class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-3 h-3 ltr:left-[calc(100%-12px)] rtl:right-[calc(100%-12px)]"
+        />
+      </span>
+    </button>
+    <button
+      aria-checked="true"
+      aria-label="Switch with xs size"
+      class="block cursor-pointer rounded-full transition w-11 h-6 p-1 bg-beerus moon-checked:bg-piccolo"
+      data-headlessui-state="checked"
+      id="headlessui-switch-:r2:"
+      role="switch"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="block relative h-full w-full"
+      >
+        <span
+          aria-hidden="true"
+          class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-4 h-4 ltr:left-[calc(100%-16px)] rtl:right-[calc(100%-16px)]"
+        />
+      </span>
+    </button>
+    <button
+      aria-checked="true"
+      aria-label="Switch with sm size"
+      class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
+      data-headlessui-state="checked"
+      id="headlessui-switch-:r3:"
+      role="switch"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="block relative h-full w-full"
+      >
+        <span
+          aria-hidden="true"
+          class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+        />
+      </span>
+    </button>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Switch renders WithIcons 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <button
+        aria-checked="true"
+        aria-label="Switch with icons"
+        class="block cursor-pointer rounded-full transition w-7 h-4 p-0.5 bg-beerus moon-checked:bg-piccolo"
+        data-headlessui-state="checked"
+        id="headlessui-switch-:r9:"
+        role="switch"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="block relative h-full w-full"
+        >
+          <span
+            aria-hidden="true"
+            class="absolute start-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-12 opacity-100"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M11 15L15 19.5L20.2222 12.8334"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+          <span
+            aria-hidden="true"
+            class="absolute end-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-12 opacity-0"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+                stroke="currentColor"
+              />
+              <path
+                d="M19.6993 12.3462L16 16.0455M16 16.0455L12.3007 19.7448M16 16.0455L19.6993 19.7448M16 16.0455L12.3007 12.3462"
+                stroke="currentColor"
+                stroke-linecap="round"
+              />
+            </svg>
+          </span>
+          <span
+            aria-hidden="true"
+            class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-3 h-3 ltr:left-[calc(100%-12px)] rtl:right-[calc(100%-12px)]"
+          />
+        </span>
+      </button>
+      <button
+        aria-checked="true"
+        aria-label="Switch with icons"
+        class="block cursor-pointer rounded-full transition w-11 h-6 p-1 bg-beerus moon-checked:bg-piccolo"
+        data-headlessui-state="checked"
+        id="headlessui-switch-:ra:"
+        role="switch"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="block relative h-full w-full"
+        >
+          <span
+            aria-hidden="true"
+            class="absolute start-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-16 opacity-100"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M11 15L15 19.5L20.2222 12.8334"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+          <span
+            aria-hidden="true"
+            class="absolute end-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-16 opacity-0"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+                stroke="currentColor"
+              />
+              <path
+                d="M19.6993 12.3462L16 16.0455M16 16.0455L12.3007 19.7448M16 16.0455L19.6993 19.7448M16 16.0455L12.3007 12.3462"
+                stroke="currentColor"
+                stroke-linecap="round"
+              />
+            </svg>
+          </span>
+          <span
+            aria-hidden="true"
+            class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-4 h-4 ltr:left-[calc(100%-16px)] rtl:right-[calc(100%-16px)]"
+          />
+        </span>
+      </button>
+      <button
+        aria-checked="true"
+        aria-label="Switch with icons"
+        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
+        data-headlessui-state="checked"
+        id="headlessui-switch-:rb:"
+        role="switch"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="block relative h-full w-full"
+        >
+          <span
+            aria-hidden="true"
+            class="absolute start-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-24 opacity-100"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M11 15L15 19.5L20.2222 12.8334"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+          <span
+            aria-hidden="true"
+            class="absolute end-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-24 opacity-0"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+                stroke="currentColor"
+              />
+              <path
+                d="M19.6993 12.3462L16 16.0455M16 16.0455L12.3007 19.7448M16 16.0455L19.6993 19.7448M16 16.0455L12.3007 12.3462"
+                stroke="currentColor"
+                stroke-linecap="round"
+              />
+            </svg>
+          </span>
+          <span
+            aria-hidden="true"
+            class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+          />
+        </span>
+      </button>
+    </div>
+  </body>,
+  "container": <div>
+    <button
+      aria-checked="true"
+      aria-label="Switch with icons"
+      class="block cursor-pointer rounded-full transition w-7 h-4 p-0.5 bg-beerus moon-checked:bg-piccolo"
+      data-headlessui-state="checked"
+      id="headlessui-switch-:r9:"
+      role="switch"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="block relative h-full w-full"
+      >
+        <span
+          aria-hidden="true"
+          class="absolute start-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-12 opacity-100"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M11 15L15 19.5L20.2222 12.8334"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </span>
+        <span
+          aria-hidden="true"
+          class="absolute end-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-12 opacity-0"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+              stroke="currentColor"
+            />
+            <path
+              d="M19.6993 12.3462L16 16.0455M16 16.0455L12.3007 19.7448M16 16.0455L19.6993 19.7448M16 16.0455L12.3007 12.3462"
+              stroke="currentColor"
+              stroke-linecap="round"
+            />
+          </svg>
+        </span>
+        <span
+          aria-hidden="true"
+          class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-3 h-3 ltr:left-[calc(100%-12px)] rtl:right-[calc(100%-12px)]"
+        />
+      </span>
+    </button>
+    <button
+      aria-checked="true"
+      aria-label="Switch with icons"
+      class="block cursor-pointer rounded-full transition w-11 h-6 p-1 bg-beerus moon-checked:bg-piccolo"
+      data-headlessui-state="checked"
+      id="headlessui-switch-:ra:"
+      role="switch"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="block relative h-full w-full"
+      >
+        <span
+          aria-hidden="true"
+          class="absolute start-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-16 opacity-100"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M11 15L15 19.5L20.2222 12.8334"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </span>
+        <span
+          aria-hidden="true"
+          class="absolute end-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-16 opacity-0"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+              stroke="currentColor"
+            />
+            <path
+              d="M19.6993 12.3462L16 16.0455M16 16.0455L12.3007 19.7448M16 16.0455L19.6993 19.7448M16 16.0455L12.3007 12.3462"
+              stroke="currentColor"
+              stroke-linecap="round"
+            />
+          </svg>
+        </span>
+        <span
+          aria-hidden="true"
+          class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-4 h-4 ltr:left-[calc(100%-16px)] rtl:right-[calc(100%-16px)]"
+        />
+      </span>
+    </button>
+    <button
+      aria-checked="true"
+      aria-label="Switch with icons"
+      class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
+      data-headlessui-state="checked"
+      id="headlessui-switch-:rb:"
+      role="switch"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="block relative h-full w-full"
+      >
+        <span
+          aria-hidden="true"
+          class="absolute start-0 top-1/2 -translate-y-1/2 transition-opacity text-goten text-moon-24 opacity-100"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M11 15L15 19.5L20.2222 12.8334"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </span>
+        <span
+          aria-hidden="true"
+          class="absolute end-0 top-1/2 -translate-y-1/2 transition-opacity text-bulma text-moon-24 opacity-0"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+              stroke="currentColor"
+            />
+            <path
+              d="M19.6993 12.3462L16 16.0455M16 16.0455L12.3007 19.7448M16 16.0455L19.6993 19.7448M16 16.0455L12.3007 12.3462"
+              stroke="currentColor"
+              stroke-linecap="round"
+            />
+          </svg>
+        </span>
+        <span
+          aria-hidden="true"
+          class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+        />
+      </span>
+    </button>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Switch renders WithTooltip 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <button
+        aria-checked="true"
+        aria-label="Switch with Tooltip"
+        class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
+        data-headlessui-state="checked"
+        data-state="closed"
+        data-tests="test-id"
+        id="headlessui-switch-:rd:"
+        role="switch"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="block relative h-full w-full"
+        >
+          <span
+            aria-hidden="true"
+            class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+          />
+        </span>
+      </button>
+    </div>
+  </body>,
+  "container": <div>
+    <button
+      aria-checked="true"
+      aria-label="Switch with Tooltip"
+      class="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus moon-checked:bg-piccolo"
+      data-headlessui-state="checked"
+      data-state="closed"
+      data-tests="test-id"
+      id="headlessui-switch-:rd:"
+      role="switch"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="block relative h-full w-full"
+      >
+        <span
+          aria-hidden="true"
+          class="slider absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all w-6 h-6 ltr:left-[calc(100%-24px)] rtl:right-[calc(100%-24px)]"
+        />
+      </span>
+    </button>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

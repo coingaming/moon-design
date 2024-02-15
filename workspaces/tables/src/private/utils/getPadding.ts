@@ -1,9 +1,7 @@
 import type RowSizes from '../types/RowSizes';
 
-const getPadding = (rowSize: RowSizes) => {
+const getPadding = (rowSize?: RowSizes) => {
   switch (rowSize) {
-    case '2xs':
-      return 'px-2 py-0';
     case 'xs':
       return 'px-2 py-1';
     case 'sm':

@@ -21,7 +21,7 @@ Object {
           />
           <span
             aria-hidden="true"
-            class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
+            class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
           >
             <svg
               class="transition-opacity opacity-100"
@@ -32,7 +32,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M7 14.941L13.667 22 25 10"
+                d="M7 14.9412L13.6667 22L25 10"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -61,7 +61,7 @@ Object {
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
         >
           <svg
             class="transition-opacity opacity-100"
@@ -72,7 +72,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 14.941L13.667 22 25 10"
+              d="M7 14.9412L13.6667 22L25 10"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -150,12 +150,13 @@ Object {
         >
           <input
             aria-checked="false"
+            aria-label="Checkbox"
             class="peer appearance-none h-6 w-6 outline-none align-top select-none"
             type="checkbox"
           />
           <span
             aria-hidden="true"
-            class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+            class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
           >
             <svg
               class="transition-opacity opacity-0"
@@ -166,7 +167,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M7 14.941L13.667 22 25 10"
+                d="M7 14.9412L13.6667 22L25 10"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -179,12 +180,13 @@ Object {
         >
           <input
             aria-checked="false"
+            aria-label="Checkbox"
             class="peer appearance-none h-6 w-6 outline-none align-top select-none"
             type="checkbox"
           />
           <span
             aria-hidden="true"
-            class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 shadow-trunks peer-checked:shadow-none text-goten rounded-none"
+            class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 shadow-trunks peer-checked:shadow-none text-goten rounded-none"
           >
             <svg
               class="transition-opacity opacity-0"
@@ -195,7 +197,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M7 14.941L13.667 22 25 10"
+                d="M7 14.9412L13.6667 22L25 10"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -208,12 +210,13 @@ Object {
         >
           <input
             aria-checked="false"
+            aria-label="Checkbox"
             class="peer appearance-none h-6 w-6 outline-none align-top select-none"
             type="checkbox"
           />
           <span
             aria-hidden="true"
-            class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs peer-checked:shadow-none text-goten shadow-krillin"
+            class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs peer-checked:shadow-none text-goten shadow-krillin"
           >
             <svg
               class="transition-opacity opacity-0"
@@ -224,7 +227,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M7 14.941L13.667 22 25 10"
+                d="M7 14.9412L13.6667 22L25 10"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -237,12 +240,13 @@ Object {
         >
           <input
             aria-checked="false"
+            aria-label="Checkbox"
             class="peer appearance-none h-6 w-6 outline-none align-top select-none"
             type="checkbox"
           />
           <span
             aria-hidden="true"
-            class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-krillin-60"
+            class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-krillin-60"
           >
             <svg
               class="transition-opacity opacity-0"
@@ -253,7 +257,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M7 14.941L13.667 22 25 10"
+                d="M7 14.9412L13.6667 22L25 10"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -273,12 +277,13 @@ Object {
       >
         <input
           aria-checked="false"
+          aria-label="Checkbox"
           class="peer appearance-none h-6 w-6 outline-none align-top select-none"
           type="checkbox"
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
         >
           <svg
             class="transition-opacity opacity-0"
@@ -289,7 +294,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 14.941L13.667 22 25 10"
+              d="M7 14.9412L13.6667 22L25 10"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -302,12 +307,13 @@ Object {
       >
         <input
           aria-checked="false"
+          aria-label="Checkbox"
           class="peer appearance-none h-6 w-6 outline-none align-top select-none"
           type="checkbox"
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 shadow-trunks peer-checked:shadow-none text-goten rounded-none"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 shadow-trunks peer-checked:shadow-none text-goten rounded-none"
         >
           <svg
             class="transition-opacity opacity-0"
@@ -318,7 +324,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 14.941L13.667 22 25 10"
+              d="M7 14.9412L13.6667 22L25 10"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -331,12 +337,13 @@ Object {
       >
         <input
           aria-checked="false"
+          aria-label="Checkbox"
           class="peer appearance-none h-6 w-6 outline-none align-top select-none"
           type="checkbox"
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs peer-checked:shadow-none text-goten shadow-krillin"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs peer-checked:shadow-none text-goten shadow-krillin"
         >
           <svg
             class="transition-opacity opacity-0"
@@ -347,7 +354,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 14.941L13.667 22 25 10"
+              d="M7 14.9412L13.6667 22L25 10"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -360,12 +367,13 @@ Object {
       >
         <input
           aria-checked="false"
+          aria-label="Checkbox"
           class="peer appearance-none h-6 w-6 outline-none align-top select-none"
           type="checkbox"
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-krillin-60"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-krillin-60"
         >
           <svg
             class="transition-opacity opacity-0"
@@ -376,7 +384,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 14.941L13.667 22 25 10"
+              d="M7 14.9412L13.6667 22L25 10"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -453,12 +461,13 @@ Object {
         >
           <input
             aria-checked="false"
+            aria-label="Checkbox"
             class="peer appearance-none h-6 w-6 outline-none align-top select-none"
             type="checkbox"
           />
           <span
             aria-hidden="true"
-            class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+            class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
           >
             <svg
               class="transition-opacity opacity-0"
@@ -469,7 +478,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M7 14.941L13.667 22 25 10"
+                d="M7 14.9412L13.6667 22L25 10"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -489,12 +498,13 @@ Object {
       >
         <input
           aria-checked="false"
+          aria-label="Checkbox"
           class="peer appearance-none h-6 w-6 outline-none align-top select-none"
           type="checkbox"
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
         >
           <svg
             class="transition-opacity opacity-0"
@@ -505,7 +515,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 14.941L13.667 22 25 10"
+              d="M7 14.9412L13.6667 22L25 10"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -578,7 +588,7 @@ Object {
         dir="rtl"
       >
         <label
-          class="relative flex items-center gap-2 text-moon-14 text-bulma opacity-30 cursor-not-allowed select-none"
+          class="relative flex items-center gap-2 text-moon-14 text-bulma opacity-60 cursor-not-allowed select-none"
           for="disabled1"
         >
           <input
@@ -590,7 +600,7 @@ Object {
           />
           <span
             aria-hidden="true"
-            class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+            class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
           >
             <svg
               class="transition-opacity opacity-0"
@@ -601,7 +611,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M7 14.941L13.667 22 25 10"
+                d="M7 14.9412L13.6667 22L25 10"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -611,7 +621,7 @@ Object {
           Disabled
         </label>
         <label
-          class="relative flex items-center gap-2 text-moon-14 text-bulma opacity-30 cursor-not-allowed select-none"
+          class="relative flex items-center gap-2 text-moon-14 text-bulma opacity-60 cursor-not-allowed select-none"
           for="disabled2"
         >
           <input
@@ -624,7 +634,7 @@ Object {
           />
           <span
             aria-hidden="true"
-            class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
+            class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
           >
             <svg
               class="transition-opacity opacity-100"
@@ -635,7 +645,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M7 14.941L13.667 22 25 10"
+                d="M7 14.9412L13.6667 22L25 10"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -652,7 +662,7 @@ Object {
       dir="rtl"
     >
       <label
-        class="relative flex items-center gap-2 text-moon-14 text-bulma opacity-30 cursor-not-allowed select-none"
+        class="relative flex items-center gap-2 text-moon-14 text-bulma opacity-60 cursor-not-allowed select-none"
         for="disabled1"
       >
         <input
@@ -664,7 +674,7 @@ Object {
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
         >
           <svg
             class="transition-opacity opacity-0"
@@ -675,7 +685,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 14.941L13.667 22 25 10"
+              d="M7 14.9412L13.6667 22L25 10"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -685,7 +695,7 @@ Object {
         Disabled
       </label>
       <label
-        class="relative flex items-center gap-2 text-moon-14 text-bulma opacity-30 cursor-not-allowed select-none"
+        class="relative flex items-center gap-2 text-moon-14 text-bulma opacity-60 cursor-not-allowed select-none"
         for="disabled2"
       >
         <input
@@ -698,7 +708,7 @@ Object {
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
         >
           <svg
             class="transition-opacity opacity-100"
@@ -709,7 +719,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 14.941L13.667 22 25 10"
+              d="M7 14.9412L13.6667 22L25 10"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -718,6 +728,273 @@ Object {
         </span>
         Disabled Checked
       </label>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Checkbox in RTL renders PartiallySelected 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        dir="rtl"
+      >
+        <div
+          class="flex flex-col gap-2"
+        >
+          <label
+            class="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+          >
+            <input
+              aria-checked="false"
+              class="peer appearance-none h-6 w-6 outline-none align-top select-none"
+              type="checkbox"
+            />
+            <span
+              aria-hidden="true"
+              class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+            >
+              <svg
+                class="transition-opacity opacity-0"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 14.9412L13.6667 22L25 10"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+            Parent 
+          </label>
+          <div
+            class="flex flex-col ps-4"
+          >
+            <label
+              class="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+            >
+              <input
+                aria-checked="false"
+                class="peer appearance-none h-6 w-6 outline-none align-top select-none"
+                type="checkbox"
+              />
+              <span
+                aria-hidden="true"
+                class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+              >
+                <svg
+                  class="transition-opacity opacity-0"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M7 14.9412L13.6667 22L25 10"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+              Child 1
+            </label>
+            <label
+              class="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+            >
+              <input
+                aria-checked="false"
+                class="peer appearance-none h-6 w-6 outline-none align-top select-none"
+                type="checkbox"
+              />
+              <span
+                aria-hidden="true"
+                class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+              >
+                <svg
+                  class="transition-opacity opacity-0"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M7 14.9412L13.6667 22L25 10"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </span>
+              Child 2
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <div
+        class="flex flex-col gap-2"
+      >
+        <label
+          class="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+        >
+          <input
+            aria-checked="false"
+            class="peer appearance-none h-6 w-6 outline-none align-top select-none"
+            type="checkbox"
+          />
+          <span
+            aria-hidden="true"
+            class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+          >
+            <svg
+              class="transition-opacity opacity-0"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7 14.9412L13.6667 22L25 10"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+          Parent 
+        </label>
+        <div
+          class="flex flex-col ps-4"
+        >
+          <label
+            class="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+          >
+            <input
+              aria-checked="false"
+              class="peer appearance-none h-6 w-6 outline-none align-top select-none"
+              type="checkbox"
+            />
+            <span
+              aria-hidden="true"
+              class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+            >
+              <svg
+                class="transition-opacity opacity-0"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 14.9412L13.6667 22L25 10"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+            Child 1
+          </label>
+          <label
+            class="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+          >
+            <input
+              aria-checked="false"
+              class="peer appearance-none h-6 w-6 outline-none align-top select-none"
+              type="checkbox"
+            />
+            <span
+              aria-hidden="true"
+              class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+            >
+              <svg
+                class="transition-opacity opacity-0"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 14.9412L13.6667 22L25 10"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+            Child 2
+          </label>
+        </div>
+      </div>
     </div>
   </div>,
   "debug": [Function],
@@ -795,7 +1072,7 @@ Object {
           />
           <span
             aria-hidden="true"
-            class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+            class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
           >
             <svg
               class="transition-opacity opacity-0"
@@ -806,7 +1083,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M7 14.941L13.667 22 25 10"
+                d="M7 14.9412L13.6667 22L25 10"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -829,7 +1106,7 @@ Object {
           />
           <span
             aria-hidden="true"
-            class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
+            class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
           >
             <svg
               class="transition-opacity opacity-100"
@@ -840,7 +1117,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M7 14.941L13.667 22 25 10"
+                d="M7 14.9412L13.6667 22L25 10"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -869,7 +1146,7 @@ Object {
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
         >
           <svg
             class="transition-opacity opacity-0"
@@ -880,7 +1157,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 14.941L13.667 22 25 10"
+              d="M7 14.9412L13.6667 22L25 10"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -903,7 +1180,7 @@ Object {
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
         >
           <svg
             class="transition-opacity opacity-100"
@@ -914,7 +1191,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 14.941L13.667 22 25 10"
+              d="M7 14.9412L13.6667 22L25 10"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -999,7 +1276,7 @@ Object {
           />
           <span
             aria-hidden="true"
-            class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+            class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
           >
             <svg
               class="transition-opacity opacity-0"
@@ -1010,7 +1287,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M7 14.941L13.667 22 25 10"
+                d="M7 14.9412L13.6667 22L25 10"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -1038,7 +1315,7 @@ Object {
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
         >
           <svg
             class="transition-opacity opacity-0"
@@ -1049,7 +1326,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 14.941L13.667 22 25 10"
+              d="M7 14.9412L13.6667 22L25 10"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -1132,7 +1409,7 @@ Object {
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
         >
           <svg
             class="transition-opacity opacity-100"
@@ -1143,7 +1420,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 14.941L13.667 22 25 10"
+              d="M7 14.9412L13.6667 22L25 10"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -1168,7 +1445,7 @@ Object {
       />
       <span
         aria-hidden="true"
-        class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
+        class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
       >
         <svg
           class="transition-opacity opacity-100"
@@ -1179,7 +1456,7 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M7 14.941L13.667 22 25 10"
+            d="M7 14.9412L13.6667 22L25 10"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -1253,12 +1530,13 @@ Object {
       >
         <input
           aria-checked="false"
+          aria-label="Checkbox"
           class="peer appearance-none h-6 w-6 outline-none align-top select-none"
           type="checkbox"
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
         >
           <svg
             class="transition-opacity opacity-0"
@@ -1269,7 +1547,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 14.941L13.667 22 25 10"
+              d="M7 14.9412L13.6667 22L25 10"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -1282,12 +1560,13 @@ Object {
       >
         <input
           aria-checked="false"
+          aria-label="Checkbox"
           class="peer appearance-none h-6 w-6 outline-none align-top select-none"
           type="checkbox"
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 shadow-trunks peer-checked:shadow-none text-goten rounded-none"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 shadow-trunks peer-checked:shadow-none text-goten rounded-none"
         >
           <svg
             class="transition-opacity opacity-0"
@@ -1298,7 +1577,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 14.941L13.667 22 25 10"
+              d="M7 14.9412L13.6667 22L25 10"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -1311,12 +1590,13 @@ Object {
       >
         <input
           aria-checked="false"
+          aria-label="Checkbox"
           class="peer appearance-none h-6 w-6 outline-none align-top select-none"
           type="checkbox"
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs peer-checked:shadow-none text-goten shadow-krillin"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs peer-checked:shadow-none text-goten shadow-krillin"
         >
           <svg
             class="transition-opacity opacity-0"
@@ -1327,7 +1607,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 14.941L13.667 22 25 10"
+              d="M7 14.9412L13.6667 22L25 10"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -1340,12 +1620,13 @@ Object {
       >
         <input
           aria-checked="false"
+          aria-label="Checkbox"
           class="peer appearance-none h-6 w-6 outline-none align-top select-none"
           type="checkbox"
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-krillin-60"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-krillin-60"
         >
           <svg
             class="transition-opacity opacity-0"
@@ -1356,7 +1637,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 14.941L13.667 22 25 10"
+              d="M7 14.9412L13.6667 22L25 10"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -1372,12 +1653,13 @@ Object {
     >
       <input
         aria-checked="false"
+        aria-label="Checkbox"
         class="peer appearance-none h-6 w-6 outline-none align-top select-none"
         type="checkbox"
       />
       <span
         aria-hidden="true"
-        class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+        class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
       >
         <svg
           class="transition-opacity opacity-0"
@@ -1388,7 +1670,7 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M7 14.941L13.667 22 25 10"
+            d="M7 14.9412L13.6667 22L25 10"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -1401,12 +1683,13 @@ Object {
     >
       <input
         aria-checked="false"
+        aria-label="Checkbox"
         class="peer appearance-none h-6 w-6 outline-none align-top select-none"
         type="checkbox"
       />
       <span
         aria-hidden="true"
-        class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 shadow-trunks peer-checked:shadow-none text-goten rounded-none"
+        class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 shadow-trunks peer-checked:shadow-none text-goten rounded-none"
       >
         <svg
           class="transition-opacity opacity-0"
@@ -1417,7 +1700,7 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M7 14.941L13.667 22 25 10"
+            d="M7 14.9412L13.6667 22L25 10"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -1430,12 +1713,13 @@ Object {
     >
       <input
         aria-checked="false"
+        aria-label="Checkbox"
         class="peer appearance-none h-6 w-6 outline-none align-top select-none"
         type="checkbox"
       />
       <span
         aria-hidden="true"
-        class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs peer-checked:shadow-none text-goten shadow-krillin"
+        class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs peer-checked:shadow-none text-goten shadow-krillin"
       >
         <svg
           class="transition-opacity opacity-0"
@@ -1446,7 +1730,7 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M7 14.941L13.667 22 25 10"
+            d="M7 14.9412L13.6667 22L25 10"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -1459,12 +1743,13 @@ Object {
     >
       <input
         aria-checked="false"
+        aria-label="Checkbox"
         class="peer appearance-none h-6 w-6 outline-none align-top select-none"
         type="checkbox"
       />
       <span
         aria-hidden="true"
-        class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-krillin-60"
+        class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-krillin-60"
       >
         <svg
           class="transition-opacity opacity-0"
@@ -1475,7 +1760,7 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M7 14.941L13.667 22 25 10"
+            d="M7 14.9412L13.6667 22L25 10"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -1548,12 +1833,13 @@ Object {
       >
         <input
           aria-checked="false"
+          aria-label="Checkbox"
           class="peer appearance-none h-6 w-6 outline-none align-top select-none"
           type="checkbox"
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
         >
           <svg
             class="transition-opacity opacity-0"
@@ -1564,7 +1850,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 14.941L13.667 22 25 10"
+              d="M7 14.9412L13.6667 22L25 10"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -1580,12 +1866,13 @@ Object {
     >
       <input
         aria-checked="false"
+        aria-label="Checkbox"
         class="peer appearance-none h-6 w-6 outline-none align-top select-none"
         type="checkbox"
       />
       <span
         aria-hidden="true"
-        class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+        class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
       >
         <svg
           class="transition-opacity opacity-0"
@@ -1596,7 +1883,7 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M7 14.941L13.667 22 25 10"
+            d="M7 14.9412L13.6667 22L25 10"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -1665,7 +1952,7 @@ Object {
   "baseElement": <body>
     <div>
       <label
-        class="relative flex items-center gap-2 text-moon-14 text-bulma opacity-30 cursor-not-allowed select-none"
+        class="relative flex items-center gap-2 text-moon-14 text-bulma opacity-60 cursor-not-allowed select-none"
         for="disabled1"
       >
         <input
@@ -1677,7 +1964,7 @@ Object {
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
         >
           <svg
             class="transition-opacity opacity-0"
@@ -1688,7 +1975,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 14.941L13.667 22 25 10"
+              d="M7 14.9412L13.6667 22L25 10"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -1698,7 +1985,7 @@ Object {
         Disabled
       </label>
       <label
-        class="relative flex items-center gap-2 text-moon-14 text-bulma opacity-30 cursor-not-allowed select-none"
+        class="relative flex items-center gap-2 text-moon-14 text-bulma opacity-60 cursor-not-allowed select-none"
         for="disabled2"
       >
         <input
@@ -1711,7 +1998,7 @@ Object {
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
         >
           <svg
             class="transition-opacity opacity-100"
@@ -1722,7 +2009,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 14.941L13.667 22 25 10"
+              d="M7 14.9412L13.6667 22L25 10"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -1735,7 +2022,7 @@ Object {
   </body>,
   "container": <div>
     <label
-      class="relative flex items-center gap-2 text-moon-14 text-bulma opacity-30 cursor-not-allowed select-none"
+      class="relative flex items-center gap-2 text-moon-14 text-bulma opacity-60 cursor-not-allowed select-none"
       for="disabled1"
     >
       <input
@@ -1747,7 +2034,7 @@ Object {
       />
       <span
         aria-hidden="true"
-        class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+        class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
       >
         <svg
           class="transition-opacity opacity-0"
@@ -1758,7 +2045,7 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M7 14.941L13.667 22 25 10"
+            d="M7 14.9412L13.6667 22L25 10"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -1768,7 +2055,7 @@ Object {
       Disabled
     </label>
     <label
-      class="relative flex items-center gap-2 text-moon-14 text-bulma opacity-30 cursor-not-allowed select-none"
+      class="relative flex items-center gap-2 text-moon-14 text-bulma opacity-60 cursor-not-allowed select-none"
       for="disabled2"
     >
       <input
@@ -1781,7 +2068,7 @@ Object {
       />
       <span
         aria-hidden="true"
-        class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
+        class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
       >
         <svg
           class="transition-opacity opacity-100"
@@ -1792,7 +2079,7 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M7 14.941L13.667 22 25 10"
+            d="M7 14.9412L13.6667 22L25 10"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -1801,6 +2088,265 @@ Object {
       </span>
       Disabled Checked
     </label>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Checkbox renders PartiallySelected 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex flex-col gap-2"
+      >
+        <label
+          class="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+        >
+          <input
+            aria-checked="false"
+            class="peer appearance-none h-6 w-6 outline-none align-top select-none"
+            type="checkbox"
+          />
+          <span
+            aria-hidden="true"
+            class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+          >
+            <svg
+              class="transition-opacity opacity-0"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7 14.9412L13.6667 22L25 10"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+          Parent 
+        </label>
+        <div
+          class="flex flex-col ps-4"
+        >
+          <label
+            class="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+          >
+            <input
+              aria-checked="false"
+              class="peer appearance-none h-6 w-6 outline-none align-top select-none"
+              type="checkbox"
+            />
+            <span
+              aria-hidden="true"
+              class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+            >
+              <svg
+                class="transition-opacity opacity-0"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 14.9412L13.6667 22L25 10"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+            Child 1
+          </label>
+          <label
+            class="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+          >
+            <input
+              aria-checked="false"
+              class="peer appearance-none h-6 w-6 outline-none align-top select-none"
+              type="checkbox"
+            />
+            <span
+              aria-hidden="true"
+              class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+            >
+              <svg
+                class="transition-opacity opacity-0"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M7 14.9412L13.6667 22L25 10"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+            Child 2
+          </label>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex flex-col gap-2"
+    >
+      <label
+        class="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+      >
+        <input
+          aria-checked="false"
+          class="peer appearance-none h-6 w-6 outline-none align-top select-none"
+          type="checkbox"
+        />
+        <span
+          aria-hidden="true"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+        >
+          <svg
+            class="transition-opacity opacity-0"
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 14.9412L13.6667 22L25 10"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </span>
+        Parent 
+      </label>
+      <div
+        class="flex flex-col ps-4"
+      >
+        <label
+          class="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+        >
+          <input
+            aria-checked="false"
+            class="peer appearance-none h-6 w-6 outline-none align-top select-none"
+            type="checkbox"
+          />
+          <span
+            aria-hidden="true"
+            class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+          >
+            <svg
+              class="transition-opacity opacity-0"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7 14.9412L13.6667 22L25 10"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+          Child 1
+        </label>
+        <label
+          class="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+        >
+          <input
+            aria-checked="false"
+            class="peer appearance-none h-6 w-6 outline-none align-top select-none"
+            type="checkbox"
+          />
+          <span
+            aria-hidden="true"
+            class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+          >
+            <svg
+              class="transition-opacity opacity-0"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7 14.9412L13.6667 22L25 10"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+          Child 2
+        </label>
+      </div>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
@@ -1874,7 +2420,7 @@ Object {
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
         >
           <svg
             class="transition-opacity opacity-0"
@@ -1885,7 +2431,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 14.941L13.667 22 25 10"
+              d="M7 14.9412L13.6667 22L25 10"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -1908,7 +2454,7 @@ Object {
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
         >
           <svg
             class="transition-opacity opacity-100"
@@ -1919,7 +2465,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 14.941L13.667 22 25 10"
+              d="M7 14.9412L13.6667 22L25 10"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -1944,7 +2490,7 @@ Object {
       />
       <span
         aria-hidden="true"
-        class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+        class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
       >
         <svg
           class="transition-opacity opacity-0"
@@ -1955,7 +2501,7 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M7 14.941L13.667 22 25 10"
+            d="M7 14.9412L13.6667 22L25 10"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -1978,7 +2524,7 @@ Object {
       />
       <span
         aria-hidden="true"
-        class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
+        class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
       >
         <svg
           class="transition-opacity opacity-100"
@@ -1989,7 +2535,7 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M7 14.941L13.667 22 25 10"
+            d="M7 14.9412L13.6667 22L25 10"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -2070,7 +2616,7 @@ Object {
         />
         <span
           aria-hidden="true"
-          class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+          class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
         >
           <svg
             class="transition-opacity opacity-0"
@@ -2081,7 +2627,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 14.941L13.667 22 25 10"
+              d="M7 14.9412L13.6667 22L25 10"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -2105,7 +2651,7 @@ Object {
       />
       <span
         aria-hidden="true"
-        class="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
+        class="absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
       >
         <svg
           class="transition-opacity opacity-0"
@@ -2116,7 +2662,7 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M7 14.941L13.667 22 25 10"
+            d="M7 14.9412L13.6667 22L25 10"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"

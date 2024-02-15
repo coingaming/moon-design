@@ -1,5 +1,5 @@
 import { Snackbar, Button } from '@heathmont/moon-core-tw';
-import { GenericInfo } from '@heathmont/moon-icons-tw';
+import { OtherFrame } from '@heathmont/moon-icons-tw';
 import { useCallback, useState } from 'react';
 
 const Example = () => {
@@ -23,7 +23,7 @@ const Example = () => {
     <>
       <div>
         <Button
-          variant="secondary"
+          variant="outline"
           onClick={() => openSnackbarHandler('mutliline')}
         >
           Multi Line
@@ -39,7 +39,7 @@ const Example = () => {
       </div>
       <div>
         <Button
-          variant="secondary"
+          variant="outline"
           onClick={() => openSnackbarHandler('with-header')}
         >
           With Header
@@ -56,7 +56,7 @@ const Example = () => {
       </div>
       <div>
         <Button
-          variant="secondary"
+          variant="outline"
           onClick={() => openSnackbarHandler('with-close')}
         >
           With Close
@@ -68,21 +68,21 @@ const Example = () => {
       </div>
       <div>
         <Button
-          variant="secondary"
+          variant="outline"
           onClick={() => openSnackbarHandler('with-icon')}
         >
           With Icon
         </Button>
         <Snackbar isOpen={snackbar === 'with-icon'} onOpenChange={setSnackbar}>
           <Snackbar.Icon>
-            <GenericInfo />
+            <OtherFrame />
           </Snackbar.Icon>
           <Snackbar.Message>Snackbar message</Snackbar.Message>
         </Snackbar>
       </div>
       <div>
         <Button
-          variant="secondary"
+          variant="outline"
           onClick={() => openSnackbarHandler('multiline-with-icon')}
         >
           Multi Line with Icon
@@ -92,7 +92,7 @@ const Example = () => {
           onOpenChange={setSnackbar}
         >
           <Snackbar.Icon className="h-10">
-            <GenericInfo />
+            <OtherFrame />
           </Snackbar.Icon>
           <Snackbar.Content>
             <Snackbar.Message>Snackbar message.</Snackbar.Message>
@@ -104,7 +104,7 @@ const Example = () => {
       </div>
       <div>
         <Button
-          variant="secondary"
+          variant="outline"
           onClick={() => openSnackbarHandler('with-close-and-icon')}
         >
           With Close and Icon
@@ -114,7 +114,7 @@ const Example = () => {
           onOpenChange={setSnackbar}
         >
           <Snackbar.Icon>
-            <GenericInfo />
+            <OtherFrame />
           </Snackbar.Icon>
           <Snackbar.Message>Snackbar message</Snackbar.Message>
           <Snackbar.Close />

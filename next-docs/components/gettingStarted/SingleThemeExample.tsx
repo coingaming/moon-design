@@ -4,12 +4,12 @@ const SingleThemeExample = () => (
   <CodeSnippet language="css">{`:root {
   --piccolo: 78 70 180; /* #4e46b4 */
   --hit: 64 166 159; /* #40a69f */
-  --beerus: 235 235 235; /* #ebebeb */
+  --beerus: 226 226 226; /* #e2e2e2 */
   --gohan: 255 255 255; /* #ffffff */
   --goten: 255 255 255; /* #ffffff */
   --goku: 245 245 245; /* #f5f5f5 */
   --bulma: 0 0 0; /* #000000 */
-  --trunks: 153 156 160; /* #999ca0 */
+  --trunks: 89 93 98; /* #595D62 */
   --popo: 0 0 0; /* #000000 */
   --jiren: 78 70 180 / 0.12; /* #4e46b4 */
   --heles: 0 0 0 / 0.04; /* #000000 */
@@ -66,10 +66,10 @@ const SingleThemeExample = () => (
   --border-i-width: 0.125rem; /* 2px */
 
   /* opacity */
-  --opacity-moon: 0.32;
+  --opacity-moon: 0.6;
 
   /* fonts */
-  --averta: 'Averta Std';
+  --dm-sans: 'DM Sans';
 
   /* box-shadow */
   --shadow-xs: 0 4px 12px -6px rgb(0 0 0 / 0.06);

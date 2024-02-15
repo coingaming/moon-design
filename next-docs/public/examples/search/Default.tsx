@@ -6,6 +6,18 @@ import {
   searchGetItemIndex,
 } from '@heathmont/moon-core-tw';
 
+interface Item {
+  children?: React.ReactNode;
+  href?: string;
+  id: string;
+}
+
+interface Items {
+  items: Item[];
+  heading?: string;
+  id: string;
+}
+
 const Example = () => {
   const [open, setOpen] = useState<boolean>(false);
   const [search, setSearch] = useState('');
@@ -13,8 +25,8 @@ const Example = () => {
   const filteredItems = searchFilterItems(
     [
       {
-        heading: 'Home',
-        id: 'home',
+        heading: 'Results',
+        id: 'results',
         items: [
           {
             id: 'home',
@@ -38,7 +50,7 @@ const Example = () => {
       },
       {
         heading: 'Other',
-        id: 'advanced',
+        id: 'other',
         items: [
           {
             id: 'developer-settings',
@@ -70,51 +82,53 @@ const Example = () => {
         onChangeOpen={setOpen}
         search={search}
         isOpen={open}
-        data-testid="test-search"
       >
         <Search.Input>
           <Search.Input.Icon />
           <Search.Input.Input />
-          <Search.Input.ButtonClear>
-            Clear
-          </Search.Input.ButtonClear>
+          <Search.Input.ButtonClear>Clear</Search.Input.ButtonClear>
         </Search.Input>
-        <Search.Transition isOpen={open}>
-          {filteredItems.length ? (
-            filteredItems.map((list: any) => (
-              <Search.List key={list.id}>
-                <Search.ListHeading>{list.heading}</Search.ListHeading>
-                {list.items.map(({ id, children, href, ...rest }: any) => (
-                  <Search.ListItem
-                    key={id}
-                    index={searchGetItemIndex(filteredItems, id)}
-                    closeOnSelect={true}
-                    {...rest}
-                  >
-                    {(selected: boolean) =>
-                      href ? (
-                        <a href={href}>
-                          <MenuItem isActive={selected}>
+
+        <Search.Transition>
+          <Search.Result>
+            {filteredItems.length ? (
+              filteredItems.map((list: Items) => (
+                <ul className="space-y-1" key={list.id}>
+                  <li>
+                    <Search.ResultHeading>{list.heading}</Search.ResultHeading>
+                    {list.items.map(({ id, children, href, ...rest }: Item) => (
+                      <Search.ResultItem
+                        key={id}
+                        index={searchGetItemIndex(filteredItems, id)}
+                        closeOnSelect={true}
+                        {...rest}
+                      >
+                        {href ? (
+                          <a href={href}>
+                            <MenuItem>
+                              <MenuItem.Title>{children}</MenuItem.Title>
+                              <span className="text-moon-12 text-trunks">
+                                {href}
+                              </span>
+                            </MenuItem>
+                          </a>
+                        ) : (
+                          <MenuItem>
                             <MenuItem.Title>{children}</MenuItem.Title>
                             <span className="text-moon-12 text-trunks">
-                              {href}
+                              Action
                             </span>
                           </MenuItem>
-                        </a>
-                      ) : (
-                        <MenuItem isActive={selected}>
-                          <MenuItem.Title>{children}</MenuItem.Title>
-                          <span className="text-moon-12 text-trunks">Action</span>
-                        </MenuItem>
-                      )
-                    }
-                  </Search.ListItem>
-                ))}
-              </Search.List>
-            ))
-          ) : (
-            <Search.NoResults />
-          )}
+                        )}
+                      </Search.ResultItem>
+                    ))}
+                  </li>
+                </ul>
+              ))
+            ) : (
+              <Search.NoResults />
+            )}
+          </Search.Result>
         </Search.Transition>
       </Search>
     </div>

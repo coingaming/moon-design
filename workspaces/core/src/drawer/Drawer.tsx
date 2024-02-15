@@ -1,18 +1,18 @@
 import React from 'react';
 import { Dialog, Transition } from '@headlessui/react';
-import Backdrop from '../backdrop/Backdrop';
-import mergeClassnames from '../mergeClassnames/mergeClassnames';
-import getAnimationStyles from './private/utils/getAnimationStyles';
-import getPositionStyles from './private/utils/getPositionStyles';
 import type DrawerRootProps from './private/types/DrawerRootProps';
 import type PanelProps from './private/types/PanelProps';
+import getAnimationStyles from './private/utils/getAnimationStyles';
+import getPositionStyles from './private/utils/getPositionStyles';
+import Backdrop from '../backdrop/Backdrop';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
-const DrawerRoot: React.FC<DrawerRootProps> = ({
+const DrawerRoot = ({
   children,
   className,
   open,
   setOpen,
-}) => (
+}: DrawerRootProps) => (
   <Transition appear show={open} as={React.Fragment}>
     <Dialog
       onClose={setOpen}
@@ -23,11 +23,7 @@ const DrawerRoot: React.FC<DrawerRootProps> = ({
   </Transition>
 );
 
-const Panel: React.FC<PanelProps> = ({
-  children,
-  className,
-  position = 'end',
-}) => (
+const Panel = ({ children, className, position = 'end' }: PanelProps) => (
   <Transition.Child
     as={React.Fragment}
     enter="ease-out duration-300 transition-transform"
@@ -39,7 +35,7 @@ const Panel: React.FC<PanelProps> = ({
   >
     <Dialog.Panel
       className={mergeClassnames(
-        'fixed w-full bg-gohan text-bulma shadow-moon-xl',
+        'fixed w-full bg-goku text-bulma shadow-moon-xl',
         getPositionStyles(position),
         className
       )}

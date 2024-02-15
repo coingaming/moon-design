@@ -1,21 +1,28 @@
-import React from 'react';
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Bg from '../../public/examples/insetInput/Bg';
 import Default from '../../public/examples/insetInput/Default';
 import States from '../../public/examples/insetInput/States';
 import Types from '../../public/examples/insetInput/Types';
-import useExamples from '../../utils/useExamples';
+import useComponent from '../../utils/useComponent';
+import type { ComponentNames } from '../../components/getComponent';
 
-const Example = () => {
-  const examples = useExamples('insetInput');
-  const { name, text, image } = getComponent('InsetInput');
+const COMPONENT_NAME: ComponentNames = 'InsetInput';
+
+const PageInsetInput = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
-      <ComponentPageDescription title={name} image={image} isInProgress>
+      <ComponentPageDescription
+        title={name}
+        image={image}
+        isAriaSupport
+        isRtlSupport
+      >
         <p>{text}</p>
         <p>
           These types of input fields are used on their own, or in combination
@@ -51,46 +58,18 @@ const Example = () => {
         title="InsetInput"
         data={[
           {
-            name: 'type',
-            type: 'date | datetime-local | email | number | password | search | tel | text | time | url | string',
-            required: false,
-            default: 'text',
-            description: 'Input type',
-          },
-          {
-            name: 'placeholder',
+            name: 'className',
             type: 'string',
             required: false,
             default: '-',
-            description: 'Placeholder for input',
+            description: 'Tailwind classes for customization',
           },
           {
             name: 'error',
             type: 'boolean',
             required: false,
             default: 'false',
-            description: 'Sets error state for input',
-          },
-          {
-            name: 'disabled',
-            type: 'boolean',
-            required: false,
-            default: 'false',
-            description: 'Set disabled/non-disabled',
-          },
-          {
-            name: 'dir',
-            type: 'ltr | rtl | auto',
-            required: false,
-            default: '-',
-            description: 'RTL/LTR direction of label',
-          },
-          {
-            name: 'className',
-            type: 'string',
-            required: false,
-            default: '-',
-            description: 'Tailwind classes for customization',
+            description: 'Sets error state for Input',
           },
         ]}
       />
@@ -111,4 +90,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+PageInsetInput.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageInsetInput;

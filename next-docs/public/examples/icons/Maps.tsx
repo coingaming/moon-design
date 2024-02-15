@@ -1,5 +1,5 @@
 import {
-  MapsCompas,
+  MapsCompass,
   MapsLocation,
   MapsMap,
   MapsMarker,
@@ -10,21 +10,12 @@ import {
   MapsWorld,
 } from '@heathmont/moon-icons-tw';
 import Icon from './Icon';
-
-interface Props {
-  wrapperProps: {
-    onClick: (iconName: string) => void;
-    selectedIcons: string[];
-  };
-  props: {
-    className: string;
-  };
-}
+import type Props from './Props';
 
 const Example = ({ wrapperProps, props }: Props) => (
   <>
     <Icon {...wrapperProps} name="MapsCompas">
-      <MapsCompas {...props} />
+      <MapsCompass {...props} />
     </Icon>
     <Icon {...wrapperProps} name="MapsLocation">
       <MapsLocation {...props} />

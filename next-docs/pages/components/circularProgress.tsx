@@ -1,22 +1,24 @@
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import type { ComponentNames } from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Colors from '../../public/examples/circularProgress/Colors';
 import Default from '../../public/examples/circularProgress/Default';
 import Sizes from '../../public/examples/circularProgress/Sizes';
 import Values from '../../public/examples/circularProgress/Values';
-import useExamples from '../../utils/useExamples';
+import useComponent from '../../utils/useComponent';
 
-const Example = () => {
-  const examples = useExamples('circularProgress');
-  const { name, text, image } = getComponent('CircularProgress');
+const COMPONENT_NAME: ComponentNames = 'CircularProgress';
+
+const PageCircularProgress = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
       <ComponentPageDescription
         title={name}
         image={image}
-        isInProgress
         isRtlSupport
         isAriaSupport
       >
@@ -46,18 +48,11 @@ const Example = () => {
         title="Progress props"
         data={[
           {
-            name: 'bgColor',
+            name: 'className',
             type: 'string',
             required: false,
-            default: 'stroke-trunks/[.24]',
-            description: 'Background colour',
-          },
-          {
-            name: 'progressColor',
-            type: 'string',
-            required: false,
-            default: 'stroke-piccolo',
-            description: 'Progress bar colour',
+            default: '-',
+            description: 'Tailwind classes for custom styles.',
           },
           {
             name: 'size',
@@ -79,4 +74,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+PageCircularProgress.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageCircularProgress;

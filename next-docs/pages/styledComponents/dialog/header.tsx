@@ -8,10 +8,10 @@ import Example2 from '../../../public/styledExamples/dialog/header/Example2';
 import Example3 from '../../../public/styledExamples/dialog/header/Example3';
 import Example4 from '../../../public/styledExamples/dialog/header/Example4';
 import Example5 from '../../../public/styledExamples/dialog/header/Example5';
-import useExamples from '../../../utils/useExamples';
+import useStyledExamples from '../../../utils/useStyledExamples';
 
 export default function PageDialogHeader() {
-  const examples = useExamples('dialog/header', 'styled');
+  const examples = useStyledExamples('dialog/header');
   return (
     <>
       <ComponentPageDescription title="Dialog Header" isDeprecated>

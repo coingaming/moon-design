@@ -1,23 +1,23 @@
 import React, { useEffect } from 'react';
 import * as RadixTooltip from '@radix-ui/react-tooltip';
-import mergeClassnames from '../mergeClassnames/mergeClassnames';
-import useRegisterChild from '../private/utils/useRegisterChild';
+import type ArrowProps from './private/types/ArrowProps';
+import type ContentComponentProps from './private/types/ContentComponentProps';
+import type RootContentProps from './private/types/RootContentProps';
+import type TriggerComponentProps from './private/types/TriggerComponentProps';
 import getAlign from './private/utils/getAlign';
 import getSide from './private/utils/getSide';
 import TooltipContext from './private/utils/TooltipContext';
 import useTooltipContext from './private/utils/useTooltipContext';
-import type ArrowProps from './private/types/ArrowProps';
-import type ContentProps from './private/types/ContentProps';
-import type TooltipRootProps from './private/types/TooltipRootProps';
-import type TriggerProps from './private/types/TriggerProps';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
+import useRegisterChild from '../private/utils/useRegisterChild';
 
-const TooltipRoot: React.FC<TooltipRootProps> = ({ children }) => (
+const TooltipRoot = ({ children, ...rest }: RootContentProps) => (
   <RadixTooltip.Provider delayDuration={100}>
-    <RadixTooltip.Root>{children}</RadixTooltip.Root>
+    <RadixTooltip.Root {...rest}>{children}</RadixTooltip.Root>
   </RadixTooltip.Provider>
 );
 
-const Arrow: React.FC<ArrowProps> = ({ className }) => {
+const Arrow = ({ className }: ArrowProps) => {
   const { registerChild } = useTooltipContext('Tooltip.Arrow');
   useEffect(() => {
     registerChild && registerChild('Arrow');
@@ -26,7 +26,7 @@ const Arrow: React.FC<ArrowProps> = ({ className }) => {
     <RadixTooltip.Arrow asChild>
       <div
         className={mergeClassnames(
-          'relative top-[-7px] rotate-45 w-3 h-3 rounded-sm bg-gohan',
+          'relative top-[-7px] rotate-45 w-3 h-3 rounded-sm bg-goku',
           className
         )}
       />
@@ -34,15 +34,19 @@ const Arrow: React.FC<ArrowProps> = ({ className }) => {
   );
 };
 
-const Trigger: React.FC<TriggerProps> = ({ className, children }) => (
-  <RadixTooltip.Trigger className={className}>{children}</RadixTooltip.Trigger>
+const Trigger = ({ className, children, ...rest }: TriggerComponentProps) => (
+  <RadixTooltip.Trigger asChild className={className} {...rest}>
+    {children}
+  </RadixTooltip.Trigger>
 );
 
-const Content: React.FC<ContentProps> = ({
+const Content = ({
   position = 'top-center',
   className,
   children,
-}) => {
+  container,
+  ...rest
+}: ContentComponentProps) => {
   const states = {
     withArrow: false,
   };
@@ -50,16 +54,17 @@ const Content: React.FC<ContentProps> = ({
   const isArrow = state.childrens?.find((name) => name === 'Arrow');
   return (
     <TooltipContext.Provider value={{ ...states, ...state, registerChild }}>
-      <RadixTooltip.Portal>
+      <RadixTooltip.Portal container={container}>
         <RadixTooltip.Content
           side={getSide(position)}
           align={getAlign(position)}
           sideOffset={isArrow ? 4 : 8}
           className={mergeClassnames(
-            'p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-gohan',
+            'p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-goku',
             'shadow-[0_6px_6px_-6px_rgba(0,0,0,0.16)] drop-shadow-[0_0_1px_rgba(0,0,0,0.4)]',
             className
           )}
+          {...rest}
         >
           {children}
         </RadixTooltip.Content>

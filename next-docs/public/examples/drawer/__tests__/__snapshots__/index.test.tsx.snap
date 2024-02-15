@@ -43,7 +43,7 @@ Object {
             role="dialog"
           >
             <div
-              class="fixed bg-gohan text-bulma shadow-moon-xl inset-y-0 ltr:right-0 rtl:left-0 w-5/6 max-w-md ease-out duration-300 transition-transform ltr:translate-x-full rtl:-translate-x-full"
+              class="fixed bg-goku text-bulma shadow-moon-xl inset-y-0 ltr:right-0 rtl:left-0 w-5/6 max-w-md ease-out duration-300 transition-transform ltr:translate-x-full rtl:-translate-x-full"
               data-headlessui-state="open"
               id="headlessui-dialog-panel-:rd:"
             >
@@ -81,7 +81,7 @@ Object {
         dir="rtl"
       >
         <button
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary"
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
           type="button"
         >
           Show Drawer with Backdrop
@@ -103,7 +103,7 @@ Object {
       dir="rtl"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
         type="button"
       >
         Show Drawer with Backdrop
@@ -217,7 +217,7 @@ Object {
             role="dialog"
           >
             <div
-              class="fixed bg-gohan text-bulma shadow-moon-xl inset-y-0 ltr:right-0 rtl:left-0 w-5/6 max-w-md ease-out duration-300 transition-transform ltr:translate-x-full rtl:-translate-x-full"
+              class="fixed bg-goku text-bulma shadow-moon-xl inset-y-0 ltr:right-0 rtl:left-0 w-5/6 max-w-md ease-out duration-300 transition-transform ltr:translate-x-full rtl:-translate-x-full"
               data-headlessui-state="open"
               id="headlessui-dialog-panel-:rf:"
             >
@@ -228,6 +228,7 @@ Object {
                   Header
                 </p>
                 <button
+                  aria-label="Close"
                   class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma text-moon-24"
                   type="button"
                 >
@@ -239,7 +240,7 @@ Object {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M10 10l6 6m0 0l-6 6m6-6l6 6m-6-6l6-6"
+                      d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -274,7 +275,7 @@ Object {
         dir="rtl"
       >
         <button
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary"
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
           type="button"
         >
           Show Drawer with Close button
@@ -296,7 +297,7 @@ Object {
       dir="rtl"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
         type="button"
       >
         Show Drawer with Close button
@@ -401,7 +402,7 @@ Object {
             role="dialog"
           >
             <div
-              class="fixed bg-gohan text-bulma shadow-moon-xl inset-y-0 ltr:right-0 rtl:left-0 w-5/6 max-w-md ease-out duration-300 transition-transform ltr:translate-x-full rtl:-translate-x-full"
+              class="fixed bg-goku text-bulma shadow-moon-xl inset-y-0 ltr:right-0 rtl:left-0 w-5/6 max-w-md ease-out duration-300 transition-transform ltr:translate-x-full rtl:-translate-x-full"
               data-headlessui-state="open"
               id="headlessui-dialog-panel-:r9:"
             >
@@ -424,7 +425,7 @@ Object {
         dir="rtl"
       >
         <button
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary"
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
           type="button"
         >
           Show default Drawer
@@ -446,7 +447,7 @@ Object {
       dir="rtl"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
         type="button"
       >
         Show default Drawer
@@ -554,7 +555,7 @@ Object {
             role="dialog"
           >
             <div
-              class="fixed bg-gohan text-bulma shadow-moon-xl inset-y-0 ltr:left-0 rtl:right-0 w-5/6 max-w-md ease-out duration-300 transition-transform ltr:-translate-x-full rtl:translate-x-full"
+              class="fixed bg-goku text-bulma shadow-moon-xl inset-y-0 ltr:left-0 rtl:right-0 w-5/6 max-w-md ease-out duration-300 transition-transform ltr:-translate-x-full rtl:translate-x-full"
               data-headlessui-state="open"
               id="headlessui-dialog-panel-:rb:"
             >
@@ -588,7 +589,7 @@ Object {
         dir="rtl"
       >
         <button
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary"
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
           type="button"
         >
           Show Drawer at start of screen
@@ -598,7 +599,7 @@ Object {
           />
         </button>
         <button
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary"
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
           type="button"
         >
           Show Drawer at top of screen
@@ -608,7 +609,7 @@ Object {
           />
         </button>
         <button
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary"
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
           type="button"
         >
           Show Drawer at bottom of screen
@@ -630,7 +631,7 @@ Object {
       dir="rtl"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
         type="button"
       >
         Show Drawer at start of screen
@@ -640,7 +641,7 @@ Object {
         />
       </button>
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
         type="button"
       >
         Show Drawer at top of screen
@@ -650,7 +651,7 @@ Object {
         />
       </button>
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
         type="button"
       >
         Show Drawer at bottom of screen
@@ -749,7 +750,7 @@ Object {
             role="dialog"
           >
             <div
-              class="fixed bg-gohan text-bulma shadow-moon-xl inset-y-0 ltr:right-0 rtl:left-0 w-5/6 max-w-md ease-out duration-300 transition-transform ltr:translate-x-full rtl:-translate-x-full"
+              class="fixed bg-goku text-bulma shadow-moon-xl inset-y-0 ltr:right-0 rtl:left-0 w-5/6 max-w-md ease-out duration-300 transition-transform ltr:translate-x-full rtl:-translate-x-full"
               data-headlessui-state="open"
               id="headlessui-dialog-panel-:r5:"
             >
@@ -784,7 +785,7 @@ Object {
       aria-hidden="true"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
         type="button"
       >
         Show Drawer with Backdrop
@@ -802,7 +803,7 @@ Object {
     aria-hidden="true"
   >
     <button
-      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary"
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
       type="button"
     >
       Show Drawer with Backdrop
@@ -903,7 +904,7 @@ Object {
             role="dialog"
           >
             <div
-              class="fixed bg-gohan text-bulma shadow-moon-xl inset-y-0 ltr:right-0 rtl:left-0 w-5/6 max-w-md ease-out duration-300 transition-transform ltr:translate-x-full rtl:-translate-x-full"
+              class="fixed bg-goku text-bulma shadow-moon-xl inset-y-0 ltr:right-0 rtl:left-0 w-5/6 max-w-md ease-out duration-300 transition-transform ltr:translate-x-full rtl:-translate-x-full"
               data-headlessui-state="open"
               id="headlessui-dialog-panel-:r7:"
             >
@@ -914,6 +915,7 @@ Object {
                   Header
                 </p>
                 <button
+                  aria-label="Close"
                   class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma text-moon-24"
                   type="button"
                 >
@@ -925,7 +927,7 @@ Object {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M10 10l6 6m0 0l-6 6m6-6l6 6m-6-6l6-6"
+                      d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
                       stroke="currentColor"
                       stroke-linecap="round"
                       stroke-linejoin="round"
@@ -957,7 +959,7 @@ Object {
       aria-hidden="true"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
         type="button"
       >
         Show Drawer with Close button
@@ -975,7 +977,7 @@ Object {
     aria-hidden="true"
   >
     <button
-      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary"
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
       type="button"
     >
       Show Drawer with Close button
@@ -1050,7 +1052,7 @@ Object {
       aria-hidden="true"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
         type="button"
       >
         Show default Drawer
@@ -1084,7 +1086,7 @@ Object {
             role="dialog"
           >
             <div
-              class="fixed bg-gohan text-bulma shadow-moon-xl inset-y-0 ltr:right-0 rtl:left-0 w-5/6 max-w-md ease-out duration-300 transition-transform ltr:translate-x-full rtl:-translate-x-full"
+              class="fixed bg-goku text-bulma shadow-moon-xl inset-y-0 ltr:right-0 rtl:left-0 w-5/6 max-w-md ease-out duration-300 transition-transform ltr:translate-x-full rtl:-translate-x-full"
               data-headlessui-state="open"
               id="headlessui-dialog-panel-:r1:"
             >
@@ -1105,7 +1107,7 @@ Object {
     aria-hidden="true"
   >
     <button
-      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary"
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
       type="button"
     >
       Show default Drawer
@@ -1200,7 +1202,7 @@ Object {
             role="dialog"
           >
             <div
-              class="fixed bg-gohan text-bulma shadow-moon-xl inset-y-0 ltr:left-0 rtl:right-0 w-5/6 max-w-md ease-out duration-300 transition-transform ltr:-translate-x-full rtl:translate-x-full"
+              class="fixed bg-goku text-bulma shadow-moon-xl inset-y-0 ltr:left-0 rtl:right-0 w-5/6 max-w-md ease-out duration-300 transition-transform ltr:-translate-x-full rtl:translate-x-full"
               data-headlessui-state="open"
               id="headlessui-dialog-panel-:r3:"
             >
@@ -1231,7 +1233,7 @@ Object {
       aria-hidden="true"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
         type="button"
       >
         Show Drawer at start of screen
@@ -1241,7 +1243,7 @@ Object {
         />
       </button>
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
         type="button"
       >
         Show Drawer at top of screen
@@ -1251,7 +1253,7 @@ Object {
         />
       </button>
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
         type="button"
       >
         Show Drawer at bottom of screen
@@ -1269,7 +1271,7 @@ Object {
     aria-hidden="true"
   >
     <button
-      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary"
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
       type="button"
     >
       Show Drawer at start of screen
@@ -1279,7 +1281,7 @@ Object {
       />
     </button>
     <button
-      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary"
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
       type="button"
     >
       Show Drawer at top of screen
@@ -1289,7 +1291,7 @@ Object {
       />
     </button>
     <button
-      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary"
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
       type="button"
     >
       Show Drawer at bottom of screen

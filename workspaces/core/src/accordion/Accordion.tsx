@@ -1,48 +1,20 @@
 import React, { useRef } from 'react';
 import * as RadixAccordion from '@radix-ui/react-accordion';
-import mergeClassnames from '../mergeClassnames/mergeClassnames';
-import AccordionContext from './private/utils/AccordionContext';
-import AccordionItemContext from './private/utils/AccordionItemContext';
-import setFont from './private/utils/setFont';
-import setMargin from './private/utils/setMargin';
-import setPadding from './private/utils/setPadding';
-import useAccordionContext from './private/utils/useAccordionContext';
-import useAccordionItemContext from './private/utils/useAccordionItemContext';
+import AccordionMultiple from './private/AccordionMultiple';
+import AccordionSingle from './private/AccordionSingle';
 import type AccordionProps from './private/types/AccordionProps';
-import type AccordionRootProps from './private/types/AccordionRootProps';
 import type ButtonProps from './private/types/ButtonProps';
 import type ContentProps from './private/types/ContentProps';
 import type HeaderProps from './private/types/HeaderProps';
 import type ItemProps from './private/types/ItemProps';
-
-const AccordionSingle = ({
-  children,
-  className,
-  defaultValue,
-}: AccordionRootProps) => (
-  <RadixAccordion.Root
-    type="single"
-    collapsible
-    className={className}
-    defaultValue={defaultValue}
-  >
-    {children}
-  </RadixAccordion.Root>
-);
-
-const AccordionMultiple = ({
-  children,
-  className,
-  defaultValue = '',
-}: AccordionRootProps) => (
-  <RadixAccordion.Root
-    type="multiple"
-    className={className}
-    defaultValue={[defaultValue]}
-  >
-    {children}
-  </RadixAccordion.Root>
-);
+import AccordionContext from './private/utils/AccordionContext';
+import AccordionItemContext from './private/utils/AccordionItemContext';
+import getFont from './private/utils/getFont';
+import getMargin from './private/utils/getMargin';
+import getPadding from './private/utils/getPadding';
+import useAccordionContext from './private/utils/useAccordionContext';
+import useAccordionItemContext from './private/utils/useAccordionItemContext';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
 const AccordionRoot = ({
   children,
@@ -50,13 +22,16 @@ const AccordionRoot = ({
   className,
   singleOpen = false,
   defaultValue,
+  value,
+  onValueChange,
 }: AccordionProps) => {
   const RadixAccordionRoot = singleOpen ? AccordionSingle : AccordionMultiple;
-
   return (
     <RadixAccordionRoot
       className={mergeClassnames('flex w-full gap-2 flex-col', className)}
       defaultValue={defaultValue}
+      value={value}
+      onValueChange={onValueChange}
     >
       <AccordionContext.Provider value={{ itemSize }}>
         {children}
@@ -65,12 +40,7 @@ const AccordionRoot = ({
   );
 };
 
-const Item: React.FC<ItemProps> = ({
-  children,
-  value,
-  className,
-  disabled,
-}) => {
+const Item = ({ children, value, className, disabled }: ItemProps) => {
   const { itemSize } = useAccordionContext('Accordion.Item');
   const contentElement = useRef<HTMLDivElement>(null);
   return (
@@ -89,10 +59,10 @@ const Item: React.FC<ItemProps> = ({
   );
 };
 
-const Header: React.FC<HeaderProps> = ({ children, className }) => (
+const Header = ({ children, className }: HeaderProps) => (
   <RadixAccordion.Header
     className={mergeClassnames(
-      'w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none',
+      'w-full rounded-moon-s-sm bg-goku moon-open:rounded-b-none',
       className
     )}
   >
@@ -100,16 +70,16 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => (
   </RadixAccordion.Header>
 );
 
-const Button: React.FC<ButtonProps> = ({ children, className }) => {
+const Button = ({ children, className }: ButtonProps) => {
   const { size, disabled } = useAccordionItemContext('Accordion.Button');
   return (
     <RadixAccordion.Trigger
       disabled={disabled}
       className={mergeClassnames(
-        setPadding(true, size),
-        setFont(size),
+        getPadding(true, size),
+        getFont(size),
         'w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium',
-        'text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30 ',
+        'text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-60',
         className
       )}
     >
@@ -118,12 +88,12 @@ const Button: React.FC<ButtonProps> = ({ children, className }) => {
   );
 };
 
-const Content: React.FC<ContentProps> = ({ children, className }) => {
+const Content = ({ children, className }: ContentProps) => {
   const { contentElement } = useAccordionItemContext('Accordion.Content');
   return (
     <RadixAccordion.Content
       className={mergeClassnames(
-        'moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0',
+        'moon-open:flex bg-goku rounded-moon-s-sm rounded-t-none p-2 border-t border-beerus',
         'text-moon-14 w-full text-bulma',
         className
       )}
@@ -134,12 +104,12 @@ const Content: React.FC<ContentProps> = ({ children, className }) => {
   );
 };
 
-const ContentOutside: React.FC<ContentProps> = ({ children, className }) => {
+const ContentOutside = ({ children, className }: ContentProps) => {
   const { size } = useAccordionItemContext('Accordion.ContentOutside');
   return (
     <RadixAccordion.Content
       className={mergeClassnames(
-        setMargin(size),
+        getMargin(size),
         'moon-open:flex w-full text-bulma text-moon-14',
         className
       )}

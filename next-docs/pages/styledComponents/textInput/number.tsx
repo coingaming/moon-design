@@ -11,11 +11,10 @@ import NumberWithHint from '../../../public/styledExamples/textInput/number/Numb
 import NumberWithLabel from '../../../public/styledExamples/textInput/number/NumberWithLabel';
 import NumberWithLabelRtl from '../../../public/styledExamples/textInput/number/NumberWithLabelRtl';
 import NumberWithoutLabel from '../../../public/styledExamples/textInput/number/NumberWithoutLabel';
-import useExamples from '../../../utils/useExamples';
+import useStyledExamples from '../../../utils/useStyledExamples';
 
 export default function PageNumberInput() {
-  const examples = useExamples('textInput/number', 'styled');
-
+  const examples = useStyledExamples('textInput/number');
   return (
     <>
       <ComponentPageDescription title="Number" isDeprecated>

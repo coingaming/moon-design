@@ -1,18 +1,18 @@
 import React from 'react';
 import mergeClassnames from '../../mergeClassnames/mergeClassnames';
+import type ButtonProps from '../private/types/ButtonProps';
 import getAnimation from '../private/utils/buttonAnimations/getAnimation';
 import getButtonSize from '../private/utils/buttonSizes/getButtonSize';
 import getButtonCommonStyles from '../private/utils/buttonStyles/getButtonCommonStyles';
 import getButtonVariants from '../private/utils/buttonStyles/getButtonVariants';
-import type ButtonProps from '../private/types/ButtonProps';
 
 const ButtonComponent = <C extends React.ElementType>({
   variant,
   size,
-  icon,
+  icon, // deprecated
   iconLeft,
   iconRight,
-  iconOnly,
+  iconOnly, // deprecated
   fullWidth,
   disabled,
   animation,
@@ -32,9 +32,11 @@ const ButtonComponent = <C extends React.ElementType>({
           iconOnly,
           fullWidth,
         }),
-        getButtonCommonStyles(disabled),
-        getButtonVariants({ variant, disabled }),
-        animation === 'pulse' && getAnimation('pulse'),
+        getButtonCommonStyles({ disabled }),
+        getButtonVariants({ variant, disabled, animation }),
+        animation === 'pulse' &&
+          (variant === 'fill' || variant === 'primary') &&
+          getAnimation('pulse'),
         animation === 'error' && getAnimation('error'),
         fullWidth && !iconOnly && 'w-full',
         customClassName

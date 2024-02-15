@@ -1,7 +1,8 @@
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Customization from '../../public/examples/alert/Customization';
 import Default from '../../public/examples/alert/Default';
@@ -10,17 +11,18 @@ import WithClose from '../../public/examples/alert/WithClose';
 import WithIcon from '../../public/examples/alert/WithIcon';
 import WithIconAndClose from '../../public/examples/alert/WithIconAndClose';
 import WithTitle from '../../public/examples/alert/WithTitle';
-import useExamples from '../../utils/useExamples';
+import useComponent from '../../utils/useComponent';
+import type { ComponentNames } from '../../components/getComponent';
 
-const Example = () => {
-  const examples = useExamples('alert');
-  const { name, text, image } = getComponent('Alert');
+const COMPONENT_NAME: ComponentNames = 'Alert';
+
+const PageAlert = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
       <ComponentPageDescription
         title={name}
         image={image}
-        isInProgress
         isRtlSupport
         isAriaSupport
       >
@@ -122,4 +124,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+PageAlert.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageAlert;

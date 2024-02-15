@@ -11,10 +11,10 @@ import TimeWithHint from '../../../public/styledExamples/textInput/time/TimeWith
 import TimeWithLabel from '../../../public/styledExamples/textInput/time/TimeWithLabel';
 import TimeWithLabelRtl from '../../../public/styledExamples/textInput/time/TimeWithLabelRtl';
 import TimeWithoutLabel from '../../../public/styledExamples/textInput/time/TimeWithoutLabel';
-import useExamples from '../../../utils/useExamples';
+import useStyledExamples from '../../../utils/useStyledExamples';
 
 export default function PageTimeInput() {
-  const examples = useExamples('textInput/text', 'styled');
+  const examples = useStyledExamples('textInput/text');
   return (
     <>
       <ComponentPageDescription title="Time" isDeprecated>

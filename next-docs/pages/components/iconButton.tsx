@@ -1,7 +1,8 @@
-import React from 'react';
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import type { ComponentNames } from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Animations from '../../public/examples/iconButton/Animations';
 import AsLink from '../../public/examples/iconButton/AsLink';
@@ -9,18 +10,19 @@ import Default from '../../public/examples/iconButton/Default';
 import Disabled from '../../public/examples/iconButton/Disabled';
 import Sizes from '../../public/examples/iconButton/Sizes';
 import Variants from '../../public/examples/iconButton/Variants';
-import useExamples from '../../utils/useExamples';
+import useComponent from '../../utils/useComponent';
 
-const Example = () => {
-  const examples = useExamples('iconButton');
-  const { name, text, image } = getComponent('IconButton');
+const COMPONENT_NAME: ComponentNames = 'IconButton';
+
+const PageIconButton = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
       <ComponentPageDescription
         title={name}
         image={image}
-        isInProgress
         isAriaSupport
+        isRtlSupport
       >
         <p>{text}</p>
         <p>
@@ -89,6 +91,13 @@ const Example = () => {
             description: 'Children content',
           },
           {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Tailwind classes for customization',
+          },
+          {
             name: 'disabled',
             type: 'boolean',
             required: false,
@@ -111,9 +120,9 @@ const Example = () => {
           },
           {
             name: 'variant',
-            type: 'primary | secondary | tertiary | ghost',
+            type: 'fill | outline | ghost',
             required: false,
-            default: 'primary',
+            default: 'fill',
             description: 'Visual/Logical variant of button',
           },
         ]}
@@ -122,4 +131,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+PageIconButton.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageIconButton;

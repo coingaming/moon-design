@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Listbox } from '@headlessui/react';
 import { usePopper } from 'react-popper';
-import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import HintText from './private/HintText';
 import InputBtn from './private/InputBtn';
 import Options from './private/Options';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
 export type BaseOptionType = {
   id?: number;
@@ -42,7 +42,7 @@ export type SelectProps<T extends readonly object[], BaseOptionType> = {
   position?: Placement;
 };
 
-const Select: React.FC<SelectProps<BaseOptionType[], BaseOptionType>> = ({
+const Select = ({
   label,
   placeholder,
   size = 'md',
@@ -56,7 +56,7 @@ const Select: React.FC<SelectProps<BaseOptionType[], BaseOptionType>> = ({
   menuWidth,
   position = 'bottom-start',
   ...rest
-}) => {
+}: SelectProps<BaseOptionType[], BaseOptionType>) => {
   const [option, setOption] = useState<BaseOptionType | undefined>(value);
 
   const [anchorEl, setAnchorEl] = React.useState<Element | null>(null);
@@ -87,7 +87,7 @@ const Select: React.FC<SelectProps<BaseOptionType[], BaseOptionType>> = ({
         <div
           className={mergeClassnames(
             'w-full',
-            disabled && 'opacity-30 cursor-not-allowed'
+            disabled && 'opacity-60 cursor-not-allowed'
           )}
         >
           <div className="relative">

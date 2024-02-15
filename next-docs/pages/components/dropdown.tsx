@@ -1,10 +1,11 @@
-import React from 'react';
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/dropdown/Default';
+import HiddenInput from '../../public/examples/dropdown/HiddenInput';
 import InsetMultiSelect from '../../public/examples/dropdown/InsetMultiSelect';
 import InsetSelect from '../../public/examples/dropdown/InsetSelect';
 import InsetSelectStates from '../../public/examples/dropdown/InsetSelectStates';
@@ -13,14 +14,21 @@ import OptionsVariants from '../../public/examples/dropdown/OptionsVariants';
 import Select from '../../public/examples/dropdown/Select';
 import SelectStates from '../../public/examples/dropdown/SelectStates';
 import TriggerElements from '../../public/examples/dropdown/TriggerElements';
-import useExamples from '../../utils/useExamples';
+import useComponent from '../../utils/useComponent';
+import type { ComponentNames } from '../../components/getComponent';
 
-const Example = () => {
-  const examples = useExamples('dropdown');
-  const { name, text, image } = getComponent('Dropdown');
+const COMPONENT_NAME: ComponentNames = 'Dropdown';
+
+const PageDropdown = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
-      <ComponentPageDescription title={name} image={image} isInProgress>
+      <ComponentPageDescription
+        title={name}
+        image={image}
+        isAriaSupport
+        isRtlSupport
+      >
         <p>{text}</p>
         <p>
           An option that's been selected can represent a corresponding value in
@@ -66,6 +74,7 @@ const Example = () => {
       <ComponentAnatomy>
         {`<Dropdown>
   <Dropdown.Select>...</Dropdown.Select>
+  <Dropdown.HiddenInput />
   <Dropdown.Options>
     <Dropdown.Option>...</Dropdown.Option>
   </Dropdown.Options>
@@ -82,10 +91,16 @@ const Example = () => {
         preview={<SelectStates />}
         code={examples ? examples.SelectStates : 'Loading'}
       />
+      <Preview
+        title="Hidden input for Select"
+        preview={<HiddenInput />}
+        code={examples ? examples.HiddenInput : 'Loading'}
+      />
 
       <ComponentAnatomy>
         {`<Dropdown>
   <Dropdown.InsetSelect>...</Dropdown.InsetSelect>
+  <Dropdown.HiddenInput />
   <Dropdown.Options>
     <Dropdown.Option>...</Dropdown.Option>
   </Dropdown.Options>
@@ -326,8 +341,39 @@ const Example = () => {
           },
         ]}
       />
+
+      <PropsTable
+        title="Dropdown.HiddenInput"
+        data={[
+          {
+            name: 'name',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Label title',
+          },
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Tailwind classes for custom styles.',
+          },
+          {
+            name: 'value',
+            type: 'string | number | readonly string[] | undefined',
+            required: false,
+            default: '_',
+            description: 'Input value',
+          },
+        ]}
+      />
     </>
   );
 };
 
-export default Example;
+PageDropdown.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageDropdown;

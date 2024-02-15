@@ -14,6 +14,8 @@ module.exports = {
       fontFamily: {
         averta:
           'var(--averta), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif',
+        'dm-sans':
+          'var(--dm-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif',
       },
       fontSize: {
         'moon-9': [
@@ -85,6 +87,13 @@ module.exports = {
             letterSpacing: '-0.03125rem',
           },
         ],
+        'moon-40': [
+          '2.5rem',
+          {
+            lineHeight: '3rem',
+            letterSpacing: '-0.03125rem',
+          },
+        ],
         'moon-48': [
           '3rem',
           {
@@ -138,11 +147,17 @@ module.exports = {
           '0 0 0 var(--border-i-width) rgb(var(--bulma) / 7%) inset, 0 0 0 var(--border-i-width) rgb(var(--beerus)) inset',
         'input-err': '0 0 0 var(--border-i-width) rgb(var(--chichi)) inset',
         'input-focus': '0 0 0 var(--border-i-width) rgb(var(--piccolo)) inset',
+        'input-cell-focus': '0 0 0 var(--border-width) rgb(var(--bulma)) inset',
         'moon-xs': 'var(--shadow-xs)',
         'moon-sm': 'var(--shadow-sm)',
         'moon-md': 'var(--shadow-md)',
         'moon-lg': 'var(--shadow-lg)',
         'moon-xl': 'var(--shadow-xl)',
+        textarea: '0 0 0 var(--border-width) rgb(var(--beerus))',
+        'textarea-hov':
+          '0 0 0 var(--border-i-width) rgb(var(--bulma) / 7%), 0 0 0 var(--border-i-width) rgb(var(--beerus))',
+        'textarea-focus': '0 0 0 var(--border-i-width) rgb(var(--piccolo))',
+        'textarea-err': '0 0 0 var(--border-i-width) rgb(var(--chichi))',
       },
       opacity: {
         moon: 'var(--opacity-moon)',
@@ -304,10 +319,12 @@ module.exports = {
     require('tailwindcss-radix')(),
     plugin(function ({ addComponents }) {
       addComponents({
+        // deprecated classname. You may use "text-goten bg-piccolo"
         '.btn-primary': {
           color: 'rgb(var(--goten))',
           backgroundColor: `rgb(var(--piccolo))`,
         },
+        // deprecated classname. You may use "text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
         '.btn-secondary': {
           color: 'rgb(var(--bulma))',
           background: 'none',
@@ -316,6 +333,7 @@ module.exports = {
             boxShadow: `inset 0 0 0 1px rgb(var(--bulma))`,
           },
         },
+        // deprecated classname. You may use "text-goten bg-hit"
         '.btn-tertiary': {
           color: 'rgb(var(--goten))',
           backgroundColor: 'rgb(var(--hit))',
@@ -428,23 +446,35 @@ module.exports = {
         },
         '.input-rsb-hidden': {
           '&:not(:hover):not(:focus):not(:invalid)': {
-            clipPath: `inset(calc(var(--border-i-width) * -1) 0.125rem calc(var(--border-i-width) * -1) 0)`,
+            clipPath: `inset(calc(var(--border-i-width) * -1) 0.15rem calc(var(--border-i-width) * -1) 0)`,
           },
         },
         '.input-lsb-hidden': {
           '&:not(:hover):not(:focus):not(:invalid)': {
-            clipPath: `inset(calc(var(--border-i-width) * -1) 0 calc(var(--border-i-width) * -1) 0.125rem)`,
+            clipPath: `inset(calc(var(--border-i-width) * -1) 0 calc(var(--border-i-width) * -1) 0.15rem)`,
           },
         },
         '.input-tbb-hidden': {
           '&:not(:hover):not(:focus):not(:invalid)': {
-            clipPath: `inset(0.125rem calc(var(--border-i-width) * -1) 0 calc(var(--border-i-width) * -1))`,
+            clipPath: `inset(0.15rem calc(var(--border-i-width) * -1) 0 calc(var(--border-i-width) * -1))`,
           },
         },
         '.input-bbb-hidden': {
           '&:not(:hover):not(:focus):not(:invalid)': {
-            clipPath: `inset(0 calc(var(--border-i-width) * -1) 0.125rem calc(var(--border-i-width) * -1))`,
+            clipPath: `inset(0 calc(var(--border-i-width) * -1) 0.15rem calc(var(--border-i-width) * -1))`,
           },
+        },
+        '.input-rsb-clip-path': {
+          clipPath: `inset(calc(var(--border-i-width) * -1) 0.15rem calc(var(--border-i-width) * -1) 0)`,
+        },
+        '.input-lsb-clip-path': {
+          clipPath: `inset(calc(var(--border-i-width) * -1) 0 calc(var(--border-i-width) * -1) 0.15rem)`,
+        },
+        '.input-tbb-clip-path': {
+          clipPath: `inset(0.15rem calc(var(--border-i-width) * -1) 0 calc(var(--border-i-width) * -1))`,
+        },
+        '.input-bbb-clip-path': {
+          clipPath: `inset(0 calc(var(--border-i-width) * -1) 0.15rem calc(var(--border-i-width) * -1))`,
         },
         '.brcrumb-li': {
           '& a, & span': {

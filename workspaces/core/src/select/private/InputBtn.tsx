@@ -24,18 +24,18 @@ const getSelectSize = (size?: SelectSize) => {
       return 'h-10 py-2 px-3 rounded-moon-i-sm';
   }
 };
-const InputBtn: React.FC<InputBtnProps> = ({
+const InputBtn = ({
   size,
   isError,
   disabled,
   open,
   children,
   ...rest
-}) => (
+}: InputBtnProps) => (
   <Listbox.Button
     {...rest}
     className={mergeClassnames(
-      'flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200',
+      'flex items-center justify-between w-full bg-goku border-beerus shadow-input duration-200',
       'transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none',
       getSelectSize(size),
       isError &&

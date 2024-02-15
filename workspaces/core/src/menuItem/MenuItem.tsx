@@ -1,54 +1,14 @@
-import React, { createContext, useContext, useEffect, ReactNode } from 'react';
+import React, { useEffect, ReactNode } from 'react';
+import type CheckboxRadioProps from './private/types/CheckboxRadioProps';
+import type MenuItemPolymorphicProps from './private/types/MenuItemPolymorphicProps';
+import type MultiTitleProps from './private/types/MultiTitleProps';
+import MenuItemContext from './private/utils/MenuItemContext';
+import useMenuItemContext from './private/utils/useMenuItemContext';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import GenericCheckAlternative from '../private/icons/GenericCheckAlternative';
 import useRegisterChild from '../private/utils/useRegisterChild';
 
-type MenuItemProps = {
-  width?: string;
-  isSelected?: boolean;
-  isActive?: boolean;
-  className?: string;
-};
-
-type MenuItemPolymorphicProps<C extends React.ElementType> =
-  PolymorphicComponentPropWithRef<C, MenuItemProps>;
-
-type MenuItemComponentProps = <C extends React.ElementType = 'button'>(
-  props: MenuItemPolymorphicProps<C>
-) => React.ReactElement | null;
-
-type MenuItemState = {
-  selected?: boolean;
-  active?: boolean;
-  registerChild?: (child: string) => () => void;
-};
-
-type CheckboxRadioProps = {
-  isSelected?: boolean;
-  className?: string;
-};
-
-type MultiTitleProps = {
-  title?: JSX.Element | string;
-  text?: JSX.Element | string;
-};
-
-const MenuItemContext = createContext<MenuItemState>({});
-MenuItemContext.displayName = 'MenuItemContext';
-
-const useMenuItemContext = (component: string) => {
-  const context = useContext(MenuItemContext);
-  if (context === null) {
-    const err = new Error(
-      `<${component}> is missing a parent <Menu /> component.`
-    );
-    // if (Error.captureStackTrace) Error.captureStackTrace(err, useMenuItemContext);
-    throw err;
-  }
-  return context;
-};
-
-const MenuItemRoot: MenuItemComponentProps = React.forwardRef(
+const MenuItemRoot = React.forwardRef(
   <C extends React.ElementType = 'button'>(
     {
       as,
@@ -76,9 +36,11 @@ const MenuItemRoot: MenuItemComponentProps = React.forwardRef(
         <Component
           ref={ref}
           className={mergeClassnames(
-            'flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition',
+            'flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm',
+            'text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer',
+            'hover:bg-heles transition',
             width ? width : 'w-full',
-            (innerSelected || isActive) && 'bg-bulma/[0.04]',
+            (innerSelected || isActive) && 'bg-heles',
             className && className
           )}
           {...((!as || as === 'button') && { type: 'button' })}
@@ -91,7 +53,7 @@ const MenuItemRoot: MenuItemComponentProps = React.forwardRef(
   }
 );
 
-const Title: React.FC<{ children?: ReactNode }> = ({ children }) => {
+const Title = ({ children }: { children?: ReactNode }) => {
   const { registerChild } = useMenuItemContext('MenuItem.Title');
   useEffect(() => {
     registerChild && registerChild('Title');
@@ -103,7 +65,7 @@ const Title: React.FC<{ children?: ReactNode }> = ({ children }) => {
   );
 };
 
-const MultiTitle: React.FC<MultiTitleProps> = ({ title, text }) => {
+const MultiTitle = ({ title, text }: MultiTitleProps) => {
   const { registerChild } = useMenuItemContext('MenuItem.MultiTitle');
   useEffect(() => {
     registerChild && registerChild('MultiTitle');
@@ -118,41 +80,59 @@ const MultiTitle: React.FC<MultiTitleProps> = ({ title, text }) => {
   );
 };
 
-const Radio: React.FC<CheckboxRadioProps> = ({ isSelected, className }) => {
+const Radio = ({
+  isSelected,
+  className,
+  ['aria-label']: ariaLabel,
+}: CheckboxRadioProps) => {
   const { selected = isSelected, registerChild } =
     useMenuItemContext('MenuItem.Items');
   useEffect(() => {
     registerChild && registerChild('Radio');
   }, []);
+  const ariaLabelValue = ariaLabel ? ariaLabel : 'Radio option';
   return (
     <span className="flex w-6 h-6 justify-center items-center">
       <span
+        role="radio"
         aria-checked={selected}
+        aria-label={ariaLabelValue}
         className={mergeClassnames(
-          'block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo',
-          'after:content-[""] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100',
-          className && className
+          'block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks',
+          'moon-checked:shadow-piccolo after:h-2 after:w-2 after:rounded-full after:absolute',
+          'after:top-1/2 after:left-1/2 after:-translate-y-1/2 after:-translate-x-1/2',
+          'after:bg-piccolo after:transition-transform after:scale-0',
+          'moon-checked:after:scale-100',
+          className
         )}
       />
     </span>
   );
 };
 
-const Checkbox: React.FC<CheckboxRadioProps> = ({ isSelected, className }) => {
+const Checkbox = ({
+  isSelected,
+  className,
+  ['aria-label']: ariaLabel,
+}: CheckboxRadioProps) => {
   const { selected = isSelected, registerChild } =
     useMenuItemContext('MenuItem.Checkbox');
   useEffect(() => {
     registerChild && registerChild('Checkbox');
   }, []);
+  const ariaLabelValue = ariaLabel ? ariaLabel : 'Checkbox';
   return (
     <span className="flex w-6 h-6 justify-center items-center relative">
       <span
+        role="checkbox"
         aria-checked={selected}
+        aria-label={ariaLabelValue}
         className={mergeClassnames(
-          'absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo',
-          className && className
+          'absolute top-1 start-1 flex w-4 h-4 items-center justify-center',
+          'shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks',
+          'text-goten moon-checked:shadow-none moon-checked:bg-piccolo',
+          className
         )}
-        aria-hidden="true"
       >
         <GenericCheckAlternative
           className={mergeClassnames(

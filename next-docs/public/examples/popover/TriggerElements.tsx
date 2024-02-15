@@ -9,16 +9,19 @@ const Example = () => {
         <Popover.Trigger>
           <Button>Button</Button>
         </Popover.Trigger>
-        <Popover.Panel>
+        <Popover.Panel className="p-2 flex flex-col gap-1">
           <Content />
         </Popover.Panel>
       </Popover>
 
       <Popover position="bottom-end">
         <Popover.Trigger>
-          <Chip iconOnly={<ControlsChevronDown className="text-moon-24" />} />
+          <Chip
+            iconOnly={<ControlsChevronDown className="text-moon-24" />}
+            aria-label="Trigger"
+          />
         </Popover.Trigger>
-        <Popover.Panel>
+        <Popover.Panel className="p-2 flex flex-col gap-1">
           <Content />
         </Popover.Panel>
       </Popover>
@@ -29,7 +32,7 @@ const Example = () => {
             Open popover
           </span>
         </Popover.Trigger>
-        <Popover.Panel>
+        <Popover.Panel className="p-2 flex flex-col gap-1">
           <Content />
         </Popover.Panel>
       </Popover>

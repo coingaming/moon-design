@@ -1,8 +1,9 @@
 import React, { ReactNode, forwardRef } from 'react';
-import { useFormContext, useFormItemContext } from '../form/Form';
+import getSizeStyles from './private/utils/getSizeStyles';
+import useFormContext from '../form/private/utils/useFormContext';
+import useFormItemContext from '../form/private/utils/useFormItemContext';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import ControlsChevronDownSmall from '../private/icons/ControlsChevronDownSmall';
-import getSizeStyles from './prvate/getSizeStyles';
 
 type WithChildren<T = {}> = T & { children?: ReactNode };
 
@@ -44,7 +45,7 @@ const NativeSelect = forwardRef<
       <span
         className={mergeClassnames(
           'block relative w-full',
-          disabled && 'opacity-30 cursor-not-allowed',
+          disabled && 'opacity-60 cursor-not-allowed',
           readOnly && 'cursor-not-allowed',
           className && className
         )}
@@ -53,8 +54,8 @@ const NativeSelect = forwardRef<
           ref={ref}
           disabled={disabled || readOnly}
           className={mergeClassnames(
-            'block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] cursor-pointer',
-            'bg-gohan shadow-input hover:shadow-input-hov',
+            'block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer',
+            'bg-goku shadow-input hover:shadow-input-hov',
             'focus:shadow-input-focus focus:outline-none',
             error &&
               'shadow-input-err hover:shadow-input-err focus:shadow-input-err',
@@ -70,7 +71,7 @@ const NativeSelect = forwardRef<
         </select>
         <ControlsChevronDownSmall
           className={mergeClassnames(
-            'absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none',
+            'absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none',
             'text-trunks flex-shrink-0 transition-transform',
             size === 'sm' ? 'text-moon-16' : 'text-moon-24'
           )}

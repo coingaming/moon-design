@@ -1,3 +1,4 @@
+import { ControlsChevronDown, ControlsChevronRight } from '@heathmont/moon-icons-tw';
 import { Table } from '@heathmont/moon-table-tw';
 import React from 'react';
 
@@ -8,15 +9,27 @@ const Example = () => {
       width: 60,
       Header: ({ getToggleAllRowsExpandedProps, isAllRowsExpanded }: any) => (
         <span {...getToggleAllRowsExpandedProps()}>
-          {isAllRowsExpanded ? '👇' : '👉'}
+          {isAllRowsExpanded ? <ControlsChevronDown /> : <ControlsChevronRight />}
         </span>
       ),
-      Cell: ({ row }: any) =>
-        row.canExpand ? (
-          <span style={{ paddingLeft: `${row.depth * 2}rem` }}>
-            {row.isExpanded ? '👇' : '👉'}
+      Cell: ({ row, toggleRowExpanded }: any) =>
+      <div className="flex h-full items-center">
+        {row.canExpand ? (
+          <span
+            {...row.getToggleRowExpandedProps({
+              style: {
+                paddingLeft: `${row.depth * 2}rem`,
+              },
+            })}
+            onClick={(e) => {
+              e.preventDefault();
+              toggleRowExpanded(row.id, row.isExpanded !== true);
+            }}
+          >
+            {row.isExpanded ? <ControlsChevronDown /> : <ControlsChevronRight />}
           </span>
-        ) : null,
+        ) : null}
+      </div>
     },
     {
       Header: 'Name',
@@ -85,8 +98,6 @@ const Example = () => {
       defaultColumn={defaultColumn}
       width={800}
       height={400}
-      defaultRowBackgroundColor="gohan.40"
-      evenRowBackgroundColor="gohan.80"
       getOnRowClickHandler={(row: any) => () => {
         (row as any).canExpand
           ? () => (row as any).toggleRowExpanded()

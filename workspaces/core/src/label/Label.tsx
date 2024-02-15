@@ -1,7 +1,8 @@
 import React, { forwardRef, ReactNode } from 'react';
-import { useFormContext, useFormItemContext } from '../form/Form';
+import getLabelSize from './private/utils/getLabelSize';
+import useFormContext from '../form/private/utils/useFormContext';
+import useFormItemContext from '../form/private/utils/useFormItemContext';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
-import getLabelSize from './private/getLabelSize';
 
 type WithChildren<T = {}> = T & { children?: ReactNode };
 
@@ -41,7 +42,7 @@ const Label = forwardRef<HTMLLabelElement, WithChildren<LabelProps>>(
         className={mergeClassnames(
           'w-full block text-bulma pb-2',
           getLabelSize(size),
-          disabled && 'opacity-30 cursor-not-allowed',
+          disabled && 'opacity-60 cursor-not-allowed',
           className && className
         )}
         {...rest}

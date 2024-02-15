@@ -1,27 +1,27 @@
-import React from 'react';
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
-import DefaultCode from '../../public/examples/switch/codeExamples/DefaultCode';
-import CustomBg from '../../public/examples/switch/CustomBg';
+import Customization from '../../public/examples/switch/Customization';
 import Default from '../../public/examples/switch/Default';
 import Disabled from '../../public/examples/switch/Disabled';
 import Form from '../../public/examples/switch/Form';
 import Sizes from '../../public/examples/switch/Sizes';
 import WithIcons from '../../public/examples/switch/WithIcons';
-import useExamples from '../../utils/useExamples';
+import WithTooltip from '../../public/examples/switch/WithTooltip';
+import useComponent from '../../utils/useComponent';
+import type { ComponentNames } from '../../components/getComponent';
 
-const Example = () => {
-  const examples = useExamples('switch');
-  const examplesCode = useExamples('switch/codeExamples');
-  const { name, text, image } = getComponent('Switch');
+const COMPONENT_NAME: ComponentNames = 'Switch';
+
+const PageSwitch = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
       <ComponentPageDescription
         title={name}
         image={image}
-        isInProgress
         isRtlSupport
         isAriaSupport
       >
@@ -65,9 +65,9 @@ const Example = () => {
         code={examples ? examples.WithIcons : 'Loading'}
       />
       <Preview
-        title="Custom background colour"
-        preview={<CustomBg />}
-        code={examples ? examples.CustomBg : 'Loading'}
+        title="Customization"
+        preview={<Customization />}
+        code={examples ? examples.Customization : 'Loading'}
       />
       <Preview
         title="Using with HTML forms"
@@ -75,9 +75,9 @@ const Example = () => {
         code={examples ? examples.Form : 'Loading'}
       />
       <Preview
-        title="Code examples for full customization"
-        preview={<DefaultCode />}
-        code={examplesCode ? examplesCode.DefaultCode : 'Loading'}
+        title="Using with Tooltip"
+        preview={<WithTooltip />}
+        code={examples ? examples.WithTooltip : 'Loading'}
       />
       <PropsTable
         title="Switch props"
@@ -88,6 +88,13 @@ const Example = () => {
             required: false,
             default: 'false',
             description: `Is switch checked/unchecked.`,
+          },
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Tailwind classes for customization',
           },
           {
             name: 'disabled',
@@ -105,25 +112,11 @@ const Example = () => {
               'The name used when using this component inside a form.',
           },
           {
-            name: 'offBgColor',
-            type: 'string',
-            required: false,
-            default: 'bg-beerus',
-            description: 'Tailwind class for custom off-state background color',
-          },
-          {
             name: 'offIcon',
             type: 'JSX.Element | string',
             required: false,
             default: '-',
             description: 'Set icon for unchecked state',
-          },
-          {
-            name: 'onBgColor',
-            type: 'string',
-            required: false,
-            default: 'bg-piccolo',
-            description: 'Tailwind class for custom on-state background color',
           },
           {
             name: 'onChange',
@@ -160,4 +153,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+PageSwitch.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageSwitch;

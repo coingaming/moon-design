@@ -1,24 +1,26 @@
-import React from 'react';
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/pagination/Default';
 import WithButtons from '../../public/examples/pagination/WithButtons';
-import useExamples from '../../utils/useExamples';
+import WithHref from '../../public/examples/pagination/WithHref';
+import useComponent from '../../utils/useComponent';
+import type { ComponentNames } from '../../components/getComponent';
 
-const Example = () => {
-  const examples = useExamples('pagination');
-  const { name, text, image } = getComponent('Pagination');
+const COMPONENT_NAME: ComponentNames = 'Pagination';
 
+const PagePagination = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
       <ComponentPageDescription
         title={name}
         image={image}
-        isInProgress
         isRtlSupport
+        isAriaSupport
       >
         <p>{text}</p>
         <p>
@@ -43,16 +45,35 @@ const Example = () => {
         preview={<WithButtons />}
         code={examples ? examples.WithButtons : 'Loading'}
       />
+      <Preview
+        title="With array of page hrefs"
+        preview={<WithHref />}
+        code={examples ? examples.WithHref : 'Loading'}
+      />
 
       <PropsTable
         title="Pagination"
         data={[
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Tailwind classes for custom styles.',
+          },
           {
             name: 'currentPage',
             type: 'number',
             required: true,
             default: '-',
             description: 'The value of current page',
+          },
+          {
+            name: 'hrefsArray',
+            type: 'string[]',
+            required: false,
+            default: '-',
+            description: 'Array of hrefs for each page.',
           },
           {
             name: 'setCurrentPage',
@@ -67,13 +88,6 @@ const Example = () => {
             required: true,
             default: '-',
             description: 'The number pages.',
-          },
-          {
-            name: 'className',
-            type: 'string',
-            required: false,
-            default: '-',
-            description: 'Tailwind classes for custom styles.',
           },
         ]}
       />
@@ -159,18 +173,18 @@ const Example = () => {
             description: 'Rendered HTML element.',
           },
           {
-            name: 'truncableText',
-            type: 'JSX.Element | string',
-            required: false,
-            default: '...',
-            description: 'Text to render if a one or more pages are truncated.',
-          },
-          {
             name: 'className',
             type: 'string',
             required: false,
             default: '-',
             description: 'Tailwind classes for custom styles.',
+          },
+          {
+            name: 'truncableText',
+            type: 'JSX.Element | string',
+            required: false,
+            default: '...',
+            description: 'Text to render if a one or more pages are truncated.',
           },
         ]}
       />
@@ -178,4 +192,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+PagePagination.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PagePagination;

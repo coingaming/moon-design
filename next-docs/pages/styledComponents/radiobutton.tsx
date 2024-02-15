@@ -7,10 +7,10 @@ import Checked from '../../public/styledExamples/radiobutton/radiobutton/Checked
 import Default from '../../public/styledExamples/radiobutton/radiobutton/Default';
 import Disabled from '../../public/styledExamples/radiobutton/radiobutton/Disabled';
 import NoLabel from '../../public/styledExamples/radiobutton/radiobutton/NoLabel';
-import useExamples from '../../utils/useExamples';
+import useStyledExamples from '../../utils/useStyledExamples';
 
 export default function RadioButtonPage() {
-  const examples = useExamples('radiobutton/radiobutton', 'styled');
+  const examples = useStyledExamples('radiobutton/radiobutton');
   return (
     <>
       <ComponentPageDescription title="RadioButton" isDeprecated>

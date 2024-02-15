@@ -24,7 +24,7 @@ Object {
               class="block relative w-full [&_select]:bg-beerus [&_select]:text-piccolo [&_svg]:text-piccolo"
             >
               <select
-                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
                 id="c-1"
                 placeholder="Placeholder"
               >
@@ -50,7 +50,7 @@ Object {
                 </option>
               </select>
               <svg
-                class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+                class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
                 fill="none"
                 height="1em"
                 viewBox="0 0 32 32"
@@ -58,7 +58,7 @@ Object {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="M22 13l-6 6-6-6"
+                  d="M22 13L16 19L10 13"
                   stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
@@ -66,7 +66,7 @@ Object {
               </svg>
             </span>
             <p
-              class="inline-block mt-2 ps-4 text-moon-12 text-piccolo"
+              class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-piccolo"
               role="alert"
             >
               Informative message holder
@@ -96,7 +96,7 @@ Object {
             class="block relative w-full [&_select]:bg-beerus [&_select]:text-piccolo [&_svg]:text-piccolo"
           >
             <select
-              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
               id="c-1"
               placeholder="Placeholder"
             >
@@ -122,7 +122,7 @@ Object {
               </option>
             </select>
             <svg
-              class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+              class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -130,7 +130,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M22 13l-6 6-6-6"
+                d="M22 13L16 19L10 13"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -138,7 +138,7 @@ Object {
             </svg>
           </span>
           <p
-            class="inline-block mt-2 ps-4 text-moon-12 text-piccolo"
+            class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-piccolo"
             role="alert"
           >
             Informative message holder
@@ -213,7 +213,7 @@ Object {
           class="block relative w-full"
         >
           <select
-            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
           >
             <option
               value="Italy"
@@ -237,7 +237,7 @@ Object {
             </option>
           </select>
           <svg
-            class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+            class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -245,7 +245,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M22 13l-6 6-6-6"
+              d="M22 13L16 19L10 13"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -263,7 +263,7 @@ Object {
         class="block relative w-full"
       >
         <select
-          class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+          class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
         >
           <option
             value="Italy"
@@ -287,7 +287,7 @@ Object {
           </option>
         </select>
         <svg
-          class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+          class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -295,13 +295,416 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M22 13l-6 6-6-6"
+            d="M22 13L16 19L10 13"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
           />
         </svg>
       </span>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`NativeSelect in RTL renders Sizes 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        dir="rtl"
+      >
+        <div
+          class="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+        >
+          <div
+            class="w-full"
+          >
+            <label
+              class="w-full block text-bulma pb-2 text-moon-14"
+              for="test-1"
+            >
+              Small (sm)
+            </label>
+            <span
+              class="block relative w-full"
+            >
+              <select
+                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-8 leading-8 rounded-moon-i-xs rtl:[&:not([disabled])]:hover:rounded-moon-i-xs rtl:[&:not([disabled])]:focus:rounded-moon-i-xs rtl:invalid:rounded-moon-i-xs ltr:[&:not([disabled])]:hover:rounded-moon-i-xs ltr:[&:not([disabled])]:focus:rounded-moon-i-xs ltr:invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+                id="test-1"
+              >
+                <option
+                  value="Italy"
+                >
+                  Italy
+                </option>
+                <option
+                  value="Spain"
+                >
+                  Spain
+                </option>
+                <option
+                  value="China"
+                >
+                  China
+                </option>
+                <option
+                  value="Germany"
+                >
+                  Germany
+                </option>
+              </select>
+              <svg
+                class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-16"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 13L16 19L10 13"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+          </div>
+          <div
+            class="w-full"
+          >
+            <label
+              class="w-full block text-bulma pb-2 text-moon-16"
+              for="test-2"
+            >
+              Medium (Default: md)
+            </label>
+            <span
+              class="block relative w-full"
+            >
+              <select
+                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+                id="test-2"
+              >
+                <option
+                  value="Italy"
+                >
+                  Italy
+                </option>
+                <option
+                  value="Spain"
+                >
+                  Spain
+                </option>
+                <option
+                  value="China"
+                >
+                  China
+                </option>
+                <option
+                  value="Germany"
+                >
+                  Germany
+                </option>
+              </select>
+              <svg
+                class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 13L16 19L10 13"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+          </div>
+          <div
+            class="w-full"
+          >
+            <label
+              class="w-full block text-bulma pb-2 text-moon-16"
+              for="test-3"
+            >
+              Large (lg)
+            </label>
+            <span
+              class="block relative w-full"
+            >
+              <select
+                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+                id="test-3"
+              >
+                <option
+                  value="Italy"
+                >
+                  Italy
+                </option>
+                <option
+                  value="Spain"
+                >
+                  Spain
+                </option>
+                <option
+                  value="China"
+                >
+                  China
+                </option>
+                <option
+                  value="Germany"
+                >
+                  Germany
+                </option>
+              </select>
+              <svg
+                class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 13L16 19L10 13"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <div
+        class="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+      >
+        <div
+          class="w-full"
+        >
+          <label
+            class="w-full block text-bulma pb-2 text-moon-14"
+            for="test-1"
+          >
+            Small (sm)
+          </label>
+          <span
+            class="block relative w-full"
+          >
+            <select
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-8 leading-8 rounded-moon-i-xs rtl:[&:not([disabled])]:hover:rounded-moon-i-xs rtl:[&:not([disabled])]:focus:rounded-moon-i-xs rtl:invalid:rounded-moon-i-xs ltr:[&:not([disabled])]:hover:rounded-moon-i-xs ltr:[&:not([disabled])]:focus:rounded-moon-i-xs ltr:invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+              id="test-1"
+            >
+              <option
+                value="Italy"
+              >
+                Italy
+              </option>
+              <option
+                value="Spain"
+              >
+                Spain
+              </option>
+              <option
+                value="China"
+              >
+                China
+              </option>
+              <option
+                value="Germany"
+              >
+                Germany
+              </option>
+            </select>
+            <svg
+              class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-16"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22 13L16 19L10 13"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+        </div>
+        <div
+          class="w-full"
+        >
+          <label
+            class="w-full block text-bulma pb-2 text-moon-16"
+            for="test-2"
+          >
+            Medium (Default: md)
+          </label>
+          <span
+            class="block relative w-full"
+          >
+            <select
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+              id="test-2"
+            >
+              <option
+                value="Italy"
+              >
+                Italy
+              </option>
+              <option
+                value="Spain"
+              >
+                Spain
+              </option>
+              <option
+                value="China"
+              >
+                China
+              </option>
+              <option
+                value="Germany"
+              >
+                Germany
+              </option>
+            </select>
+            <svg
+              class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22 13L16 19L10 13"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+        </div>
+        <div
+          class="w-full"
+        >
+          <label
+            class="w-full block text-bulma pb-2 text-moon-16"
+            for="test-3"
+          >
+            Large (lg)
+          </label>
+          <span
+            class="block relative w-full"
+          >
+            <select
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+              id="test-3"
+            >
+              <option
+                value="Italy"
+              >
+                Italy
+              </option>
+              <option
+                value="Spain"
+              >
+                Spain
+              </option>
+              <option
+                value="China"
+              >
+                China
+              </option>
+              <option
+                value="Germany"
+              >
+                Germany
+              </option>
+            </select>
+            <svg
+              class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22 13L16 19L10 13"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+        </div>
+      </div>
     </div>
   </div>,
   "debug": [Function],
@@ -373,16 +776,16 @@ Object {
             class="w-full"
           >
             <label
-              class="w-full block text-bulma pb-2 text-moon-16 opacity-30 cursor-not-allowed"
+              class="w-full block text-bulma pb-2 text-moon-16 opacity-60 cursor-not-allowed"
               for="dis-1"
             >
               Disabled
             </label>
             <span
-              class="block relative w-full opacity-30 cursor-not-allowed"
+              class="block relative w-full opacity-60 cursor-not-allowed"
             >
               <select
-                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-gohan shadow-input focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 cursor-not-allowed hover:shadow-input"
+                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 cursor-not-allowed hover:shadow-input"
                 disabled=""
                 id="dis-1"
               >
@@ -408,7 +811,7 @@ Object {
                 </option>
               </select>
               <svg
-                class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+                class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
                 fill="none"
                 height="1em"
                 viewBox="0 0 32 32"
@@ -416,7 +819,7 @@ Object {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="M22 13l-6 6-6-6"
+                  d="M22 13L16 19L10 13"
                   stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
@@ -424,7 +827,7 @@ Object {
               </svg>
             </span>
             <p
-              class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
+              class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-trunks opacity-60 cursor-not-allowed"
               role="alert"
             >
               Informative message holder
@@ -443,7 +846,7 @@ Object {
               class="block relative w-full"
             >
               <select
-                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
                 id="err-1"
               >
                 <option
@@ -468,7 +871,7 @@ Object {
                 </option>
               </select>
               <svg
-                class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+                class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
                 fill="none"
                 height="1em"
                 viewBox="0 0 32 32"
@@ -476,7 +879,7 @@ Object {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="M22 13l-6 6-6-6"
+                  d="M22 13L16 19L10 13"
                   stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
@@ -484,10 +887,24 @@ Object {
               </svg>
             </span>
             <p
-              class="inline-block mt-2 ps-4 text-moon-12 text-chichi"
+              class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-chichi"
               role="alert"
             >
-              Error message
+              <svg
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16 21.2778V14.9444M16 12.3056V10.7222M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              Informative message holder
             </p>
           </div>
           <div
@@ -503,7 +920,7 @@ Object {
               class="block relative w-full cursor-not-allowed"
             >
               <select
-                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-gohan shadow-input focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 cursor-not-allowed hover:shadow-input"
+                class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 cursor-not-allowed hover:shadow-input"
                 disabled=""
                 id="ro-1"
               >
@@ -529,7 +946,7 @@ Object {
                 </option>
               </select>
               <svg
-                class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+                class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
                 fill="none"
                 height="1em"
                 viewBox="0 0 32 32"
@@ -537,7 +954,7 @@ Object {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="M22 13l-6 6-6-6"
+                  d="M22 13L16 19L10 13"
                   stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
@@ -545,7 +962,7 @@ Object {
               </svg>
             </span>
             <p
-              class="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+              class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-trunks"
               role="alert"
             >
               Informative message holder
@@ -566,16 +983,16 @@ Object {
           class="w-full"
         >
           <label
-            class="w-full block text-bulma pb-2 text-moon-16 opacity-30 cursor-not-allowed"
+            class="w-full block text-bulma pb-2 text-moon-16 opacity-60 cursor-not-allowed"
             for="dis-1"
           >
             Disabled
           </label>
           <span
-            class="block relative w-full opacity-30 cursor-not-allowed"
+            class="block relative w-full opacity-60 cursor-not-allowed"
           >
             <select
-              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-gohan shadow-input focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 cursor-not-allowed hover:shadow-input"
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 cursor-not-allowed hover:shadow-input"
               disabled=""
               id="dis-1"
             >
@@ -601,7 +1018,7 @@ Object {
               </option>
             </select>
             <svg
-              class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+              class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -609,7 +1026,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M22 13l-6 6-6-6"
+                d="M22 13L16 19L10 13"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -617,7 +1034,7 @@ Object {
             </svg>
           </span>
           <p
-            class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
+            class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-trunks opacity-60 cursor-not-allowed"
             role="alert"
           >
             Informative message holder
@@ -636,7 +1053,7 @@ Object {
             class="block relative w-full"
           >
             <select
-              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
               id="err-1"
             >
               <option
@@ -661,7 +1078,7 @@ Object {
               </option>
             </select>
             <svg
-              class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+              class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -669,7 +1086,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M22 13l-6 6-6-6"
+                d="M22 13L16 19L10 13"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -677,10 +1094,24 @@ Object {
             </svg>
           </span>
           <p
-            class="inline-block mt-2 ps-4 text-moon-12 text-chichi"
+            class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-chichi"
             role="alert"
           >
-            Error message
+            <svg
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16 21.2778V14.9444M16 12.3056V10.7222M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            Informative message holder
           </p>
         </div>
         <div
@@ -696,7 +1127,7 @@ Object {
             class="block relative w-full cursor-not-allowed"
           >
             <select
-              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-gohan shadow-input focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 cursor-not-allowed hover:shadow-input"
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 cursor-not-allowed hover:shadow-input"
               disabled=""
               id="ro-1"
             >
@@ -722,7 +1153,7 @@ Object {
               </option>
             </select>
             <svg
-              class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+              class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -730,7 +1161,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M22 13l-6 6-6-6"
+                d="M22 13L16 19L10 13"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -738,7 +1169,7 @@ Object {
             </svg>
           </span>
           <p
-            class="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+            class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-trunks"
             role="alert"
           >
             Informative message holder
@@ -822,7 +1253,7 @@ Object {
             class="block relative w-full [&_select]:bg-beerus [&_select]:text-piccolo [&_svg]:text-piccolo"
           >
             <select
-              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
               id="c-1"
               placeholder="Placeholder"
             >
@@ -848,7 +1279,7 @@ Object {
               </option>
             </select>
             <svg
-              class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+              class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -856,7 +1287,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M22 13l-6 6-6-6"
+                d="M22 13L16 19L10 13"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -864,7 +1295,7 @@ Object {
             </svg>
           </span>
           <p
-            class="inline-block mt-2 ps-4 text-moon-12 text-piccolo"
+            class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-piccolo"
             role="alert"
           >
             Informative message holder
@@ -890,7 +1321,7 @@ Object {
           class="block relative w-full [&_select]:bg-beerus [&_select]:text-piccolo [&_svg]:text-piccolo"
         >
           <select
-            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
             id="c-1"
             placeholder="Placeholder"
           >
@@ -916,7 +1347,7 @@ Object {
             </option>
           </select>
           <svg
-            class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+            class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -924,7 +1355,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M22 13l-6 6-6-6"
+              d="M22 13L16 19L10 13"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -932,7 +1363,7 @@ Object {
           </svg>
         </span>
         <p
-          class="inline-block mt-2 ps-4 text-moon-12 text-piccolo"
+          class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-piccolo"
           role="alert"
         >
           Informative message holder
@@ -1003,7 +1434,7 @@ Object {
         class="block relative w-full"
       >
         <select
-          class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+          class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
         >
           <option
             value="Italy"
@@ -1027,7 +1458,7 @@ Object {
           </option>
         </select>
         <svg
-          class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+          class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -1035,7 +1466,7 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M22 13l-6 6-6-6"
+            d="M22 13L16 19L10 13"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -1049,7 +1480,7 @@ Object {
       class="block relative w-full"
     >
       <select
-        class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+        class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
       >
         <option
           value="Italy"
@@ -1073,7 +1504,7 @@ Object {
         </option>
       </select>
       <svg
-        class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+        class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -1081,13 +1512,408 @@ Object {
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
-          d="M22 13l-6 6-6-6"
+          d="M22 13L16 19L10 13"
           stroke="currentColor"
           stroke-linecap="round"
           stroke-linejoin="round"
         />
       </svg>
     </span>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`NativeSelect renders Sizes 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+      >
+        <div
+          class="w-full"
+        >
+          <label
+            class="w-full block text-bulma pb-2 text-moon-14"
+            for="test-1"
+          >
+            Small (sm)
+          </label>
+          <span
+            class="block relative w-full"
+          >
+            <select
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-8 leading-8 rounded-moon-i-xs rtl:[&:not([disabled])]:hover:rounded-moon-i-xs rtl:[&:not([disabled])]:focus:rounded-moon-i-xs rtl:invalid:rounded-moon-i-xs ltr:[&:not([disabled])]:hover:rounded-moon-i-xs ltr:[&:not([disabled])]:focus:rounded-moon-i-xs ltr:invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+              id="test-1"
+            >
+              <option
+                value="Italy"
+              >
+                Italy
+              </option>
+              <option
+                value="Spain"
+              >
+                Spain
+              </option>
+              <option
+                value="China"
+              >
+                China
+              </option>
+              <option
+                value="Germany"
+              >
+                Germany
+              </option>
+            </select>
+            <svg
+              class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-16"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22 13L16 19L10 13"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+        </div>
+        <div
+          class="w-full"
+        >
+          <label
+            class="w-full block text-bulma pb-2 text-moon-16"
+            for="test-2"
+          >
+            Medium (Default: md)
+          </label>
+          <span
+            class="block relative w-full"
+          >
+            <select
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+              id="test-2"
+            >
+              <option
+                value="Italy"
+              >
+                Italy
+              </option>
+              <option
+                value="Spain"
+              >
+                Spain
+              </option>
+              <option
+                value="China"
+              >
+                China
+              </option>
+              <option
+                value="Germany"
+              >
+                Germany
+              </option>
+            </select>
+            <svg
+              class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22 13L16 19L10 13"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+        </div>
+        <div
+          class="w-full"
+        >
+          <label
+            class="w-full block text-bulma pb-2 text-moon-16"
+            for="test-3"
+          >
+            Large (lg)
+          </label>
+          <span
+            class="block relative w-full"
+          >
+            <select
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+              id="test-3"
+            >
+              <option
+                value="Italy"
+              >
+                Italy
+              </option>
+              <option
+                value="Spain"
+              >
+                Spain
+              </option>
+              <option
+                value="China"
+              >
+                China
+              </option>
+              <option
+                value="Germany"
+              >
+                Germany
+              </option>
+            </select>
+            <svg
+              class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22 13L16 19L10 13"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+    >
+      <div
+        class="w-full"
+      >
+        <label
+          class="w-full block text-bulma pb-2 text-moon-14"
+          for="test-1"
+        >
+          Small (sm)
+        </label>
+        <span
+          class="block relative w-full"
+        >
+          <select
+            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-8 leading-8 rounded-moon-i-xs rtl:[&:not([disabled])]:hover:rounded-moon-i-xs rtl:[&:not([disabled])]:focus:rounded-moon-i-xs rtl:invalid:rounded-moon-i-xs ltr:[&:not([disabled])]:hover:rounded-moon-i-xs ltr:[&:not([disabled])]:focus:rounded-moon-i-xs ltr:invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+            id="test-1"
+          >
+            <option
+              value="Italy"
+            >
+              Italy
+            </option>
+            <option
+              value="Spain"
+            >
+              Spain
+            </option>
+            <option
+              value="China"
+            >
+              China
+            </option>
+            <option
+              value="Germany"
+            >
+              Germany
+            </option>
+          </select>
+          <svg
+            class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-16"
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M22 13L16 19L10 13"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </span>
+      </div>
+      <div
+        class="w-full"
+      >
+        <label
+          class="w-full block text-bulma pb-2 text-moon-16"
+          for="test-2"
+        >
+          Medium (Default: md)
+        </label>
+        <span
+          class="block relative w-full"
+        >
+          <select
+            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+            id="test-2"
+          >
+            <option
+              value="Italy"
+            >
+              Italy
+            </option>
+            <option
+              value="Spain"
+            >
+              Spain
+            </option>
+            <option
+              value="China"
+            >
+              China
+            </option>
+            <option
+              value="Germany"
+            >
+              Germany
+            </option>
+          </select>
+          <svg
+            class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M22 13L16 19L10 13"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </span>
+      </div>
+      <div
+        class="w-full"
+      >
+        <label
+          class="w-full block text-bulma pb-2 text-moon-16"
+          for="test-3"
+        >
+          Large (lg)
+        </label>
+        <span
+          class="block relative w-full"
+        >
+          <select
+            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+            id="test-3"
+          >
+            <option
+              value="Italy"
+            >
+              Italy
+            </option>
+            <option
+              value="Spain"
+            >
+              Spain
+            </option>
+            <option
+              value="China"
+            >
+              China
+            </option>
+            <option
+              value="Germany"
+            >
+              Germany
+            </option>
+          </select>
+          <svg
+            class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M22 13L16 19L10 13"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </span>
+      </div>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
@@ -1155,16 +1981,16 @@ Object {
           class="w-full"
         >
           <label
-            class="w-full block text-bulma pb-2 text-moon-16 opacity-30 cursor-not-allowed"
+            class="w-full block text-bulma pb-2 text-moon-16 opacity-60 cursor-not-allowed"
             for="dis-1"
           >
             Disabled
           </label>
           <span
-            class="block relative w-full opacity-30 cursor-not-allowed"
+            class="block relative w-full opacity-60 cursor-not-allowed"
           >
             <select
-              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-gohan shadow-input focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 cursor-not-allowed hover:shadow-input"
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 cursor-not-allowed hover:shadow-input"
               disabled=""
               id="dis-1"
             >
@@ -1190,7 +2016,7 @@ Object {
               </option>
             </select>
             <svg
-              class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+              class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -1198,7 +2024,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M22 13l-6 6-6-6"
+                d="M22 13L16 19L10 13"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -1206,7 +2032,7 @@ Object {
             </svg>
           </span>
           <p
-            class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
+            class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-trunks opacity-60 cursor-not-allowed"
             role="alert"
           >
             Informative message holder
@@ -1225,7 +2051,7 @@ Object {
             class="block relative w-full"
           >
             <select
-              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
               id="err-1"
             >
               <option
@@ -1250,7 +2076,7 @@ Object {
               </option>
             </select>
             <svg
-              class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+              class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -1258,7 +2084,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M22 13l-6 6-6-6"
+                d="M22 13L16 19L10 13"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -1266,10 +2092,24 @@ Object {
             </svg>
           </span>
           <p
-            class="inline-block mt-2 ps-4 text-moon-12 text-chichi"
+            class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-chichi"
             role="alert"
           >
-            Error message
+            <svg
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16 21.2778V14.9444M16 12.3056V10.7222M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            Informative message holder
           </p>
         </div>
         <div
@@ -1285,7 +2125,7 @@ Object {
             class="block relative w-full cursor-not-allowed"
           >
             <select
-              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-gohan shadow-input focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 cursor-not-allowed hover:shadow-input"
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 cursor-not-allowed hover:shadow-input"
               disabled=""
               id="ro-1"
             >
@@ -1311,7 +2151,7 @@ Object {
               </option>
             </select>
             <svg
-              class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+              class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -1319,7 +2159,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M22 13l-6 6-6-6"
+                d="M22 13L16 19L10 13"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -1327,7 +2167,7 @@ Object {
             </svg>
           </span>
           <p
-            class="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+            class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-trunks"
             role="alert"
           >
             Informative message holder
@@ -1344,16 +2184,16 @@ Object {
         class="w-full"
       >
         <label
-          class="w-full block text-bulma pb-2 text-moon-16 opacity-30 cursor-not-allowed"
+          class="w-full block text-bulma pb-2 text-moon-16 opacity-60 cursor-not-allowed"
           for="dis-1"
         >
           Disabled
         </label>
         <span
-          class="block relative w-full opacity-30 cursor-not-allowed"
+          class="block relative w-full opacity-60 cursor-not-allowed"
         >
           <select
-            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-gohan shadow-input focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 cursor-not-allowed hover:shadow-input"
+            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 cursor-not-allowed hover:shadow-input"
             disabled=""
             id="dis-1"
           >
@@ -1379,7 +2219,7 @@ Object {
             </option>
           </select>
           <svg
-            class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+            class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -1387,7 +2227,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M22 13l-6 6-6-6"
+              d="M22 13L16 19L10 13"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -1395,7 +2235,7 @@ Object {
           </svg>
         </span>
         <p
-          class="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
+          class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-trunks opacity-60 cursor-not-allowed"
           role="alert"
         >
           Informative message holder
@@ -1414,7 +2254,7 @@ Object {
           class="block relative w-full"
         >
           <select
-            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-gohan focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
+            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] cursor-pointer bg-goku focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75"
             id="err-1"
           >
             <option
@@ -1439,7 +2279,7 @@ Object {
             </option>
           </select>
           <svg
-            class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+            class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -1447,7 +2287,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M22 13l-6 6-6-6"
+              d="M22 13L16 19L10 13"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -1455,10 +2295,24 @@ Object {
           </svg>
         </span>
         <p
-          class="inline-block mt-2 ps-4 text-moon-12 text-chichi"
+          class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-chichi"
           role="alert"
         >
-          Error message
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M16 21.2778V14.9444M16 12.3056V10.7222M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          Informative message holder
         </p>
       </div>
       <div
@@ -1474,7 +2328,7 @@ Object {
           class="block relative w-full cursor-not-allowed"
         >
           <select
-            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-gohan shadow-input focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 cursor-not-allowed hover:shadow-input"
+            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input focus:shadow-input-focus focus:outline-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 cursor-not-allowed hover:shadow-input"
             disabled=""
             id="ro-1"
           >
@@ -1500,7 +2354,7 @@ Object {
             </option>
           </select>
           <svg
-            class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
+            class="absolute top-1/2 end-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -1508,7 +2362,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M22 13l-6 6-6-6"
+              d="M22 13L16 19L10 13"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -1516,7 +2370,7 @@ Object {
           </svg>
         </span>
         <p
-          class="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+          class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-trunks"
           role="alert"
         >
           Informative message holder

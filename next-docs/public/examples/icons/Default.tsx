@@ -1,5 +1,5 @@
-import { FilesCopy } from '@heathmont/moon-icons-tw';
+import { OtherFrame } from '@heathmont/moon-icons-tw';
 
-const Example = () => <FilesCopy />;
+const Example = () => <OtherFrame />;
 
 export default Example;

@@ -1,37 +1,22 @@
 import React, {
-  Fragment,
   MutableRefObject,
   ReactNode,
   useCallback,
+  useContext,
   useEffect,
   useRef,
   useState,
 } from 'react';
 import { Transition as HeadlessTransition } from '@headlessui/react';
+import { Input } from './Input';
+import NoResults from './NoResults';
+import ResultItem from './ResultItem';
 import mergeClassnames from '../../../mergeClassnames/mergeClassnames';
 import useClickOutside from '../../../private/hooks/useClickOutside';
-import {
-  SearchContext,
-  SelectContext,
-} from '../utils/context';
+import type SearchProps from '../types/SearchProps';
+import { SearchContext, SelectContext } from '../utils/context';
 
-import NoResults from './NoResults';
-import List, { ListHeading } from './List';
-import ListItem from './ListItem';
-import { Input } from './Input';
-
-interface SearchProps {
-  onChangeSelected?: (value: number) => void;
-  onChangeSearch: (search: string) => void;
-  onChangeOpen: (isOpen: boolean) => void;
-  children: ReactNode;
-  selected?: number;
-  isOpen: boolean;
-  search: string;
-  className?: string;
-};
-
-export function Search({
+const SearchRoot = ({
   selected: selectedParent,
   onChangeSelected,
   onChangeSearch,
@@ -40,7 +25,7 @@ export function Search({
   isOpen,
   className,
   search,
-}: SearchProps) {
+}: SearchProps) => {
   const [ref, hasClickedOutside] = useClickOutside();
   const inputRef = useRef<MutableRefObject<HTMLInputElement>>(null);
   const [selected, setSelected] =
@@ -150,16 +135,21 @@ export function Search({
     }
   });
 
+  const openSearch = useCallback(() => onChangeOpen(true), []);
+
   return (
-    <div ref={ref} onKeyDown={onKeyDown}>
+    <div ref={ref} onKeyDown={onKeyDown} onClick={openSearch}>
       <div
         className={mergeClassnames(
-          'relative w-full h-full bg-gohan flex flex-col divide-y dark:divide-beerus',
+          'relative w-full h-full bg-goku flex flex-col border border-beerus transition-all',
+          '[&_.moon-search-result]:top-10 [&_.moon-search-transition>.moon-search-result]:top-0',
           isOpen ? 'rounded-t-moon-s-sm' : 'rounded-moon-s-sm',
           className
         )}
       >
-        <SearchContext.Provider value={{ search, onChangeOpen, onChangeSearch, inputRef }}>
+        <SearchContext.Provider
+          value={{ search, onChangeOpen, onChangeSearch, inputRef, isOpen }}
+        >
           <SelectContext.Provider value={{ selected }}>
             {children}
           </SelectContext.Provider>
@@ -167,34 +157,84 @@ export function Search({
       </div>
     </div>
   );
-}
+};
 
-const Transition = ({ isOpen, children }: { isOpen: boolean, children: ReactNode }) => {
-  return <HeadlessTransition
-    show={isOpen}
-    as={Fragment}
-    enter="ease-out duration-300"
-    enterFrom="opacity-0 scale-95"
-    enterTo="opacity-100 scale-100"
-    leave="ease-in duration-200"
-    leaveFrom="opacity-100 scale-100"
-    leaveTo="opacity-0 scale-95"
-  >
+const Transition = ({
+  children,
+  className,
+}: {
+  children: ReactNode;
+  className?: string;
+}) => {
+  const { isOpen } = useContext(SearchContext);
+
+  return (
+    <HeadlessTransition
+      show={isOpen}
+      as="div"
+      enter="ease-out duration-300"
+      enterFrom="opacity-0 scale-95"
+      enterTo="opacity-100 scale-100"
+      leave="ease-in duration-200"
+      leaveFrom="opacity-100 scale-100"
+      leaveTo="opacity-0 scale-95"
+      className={mergeClassnames('moon-search-transition z-5', className)}
+    >
+      {children}
+    </HeadlessTransition>
+  );
+};
+
+const Result = ({
+  children,
+  className,
+  ...props
+}: React.HTMLAttributes<HTMLDivElement>) => {
+  const { isOpen } = useContext(SearchContext);
+
+  if (!isOpen) {
+    return null;
+  }
+
+  return (
     <div
       className={mergeClassnames(
-        'absolute z-1 top-10 w-full flex-1 focus:outline-none p-2 space-y-4 bg-gohan shadow-moon-md moon-search-list',
-        isOpen ? 'rounded-b-moon-s-sm' : 'rounded-moon-s-sm'
+        'moon-search-result',
+        'absolute w-full flex-1 focus:outline-none p-2 space-y-4 bg-goku shadow-moon-md ',
+        isOpen ? 'rounded-b-moon-s-sm' : 'rounded-moon-s-sm',
+        className
       )}
       tabIndex={-1}
+      {...props}
     >
       {children}
     </div>
-  </HeadlessTransition>
-}
+  );
+};
 
-Search.Input = Input;
-Search.Transition = Transition;
-Search.List = List;
-Search.ListItem = ListItem;
-Search.NoResults = NoResults;
-Search.ListHeading = ListHeading;
+const ResultHeading = ({
+  children,
+  className,
+  ...props
+}: React.HTMLAttributes<HTMLHeadingElement>) => (
+  <h5
+    className={mergeClassnames(
+      'text-bulma text-moon-14 font-medium px-2 py-1',
+      className
+    )}
+    {...props}
+  >
+    {children}
+  </h5>
+);
+
+const Search = Object.assign(SearchRoot, {
+  Input,
+  NoResults,
+  Transition,
+  Result,
+  ResultItem,
+  ResultHeading,
+});
+
+export default Search;

@@ -1,18 +1,20 @@
-import React from 'react';
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Customization from '../../public/examples/tag/Customization';
 import Default from '../../public/examples/tag/Default';
 import Icons from '../../public/examples/tag/Icons';
 import LetterCases from '../../public/examples/tag/LetterCases';
 import Sizes from '../../public/examples/tag/Sizes';
-import useExamples from '../../utils/useExamples';
+import useComponent from '../../utils/useComponent';
+import type { ComponentNames } from '../../components/getComponent';
 
-const Example = () => {
-  const examples = useExamples('tag');
-  const { name, text, image } = getComponent('Tag');
+const COMPONENT_NAME: ComponentNames = 'Tag';
+
+const PageTag = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
       <ComponentPageDescription
@@ -20,6 +22,7 @@ const Example = () => {
         image={image}
         isInProgress
         isRtlSupport
+        isAriaSupport
       >
         <p>{text}</p>
         <p>Tags can be added or removed from an object.</p>
@@ -100,4 +103,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+PageTag.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageTag;

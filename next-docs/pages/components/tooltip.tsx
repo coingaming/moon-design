@@ -1,20 +1,28 @@
-import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import type { ComponentNames } from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import ArrowPositions from '../../public/examples/tooltip/ArrowPositions';
 import Customization from '../../public/examples/tooltip/Customization';
 import Default from '../../public/examples/tooltip/Default';
-import useExamples from '../../utils/useExamples';
+import NotPortal from '../../public/examples/tooltip/NotPortal';
+import useComponent from '../../utils/useComponent';
 
-const Example = () => {
-  const examples = useExamples('tooltip');
-  const { name, text, image } = getComponent('Tooltip');
+const COMPONENT_NAME: ComponentNames = 'Tooltip';
+
+const PageTooltip = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
-      <ComponentPageDescription title={name} image={image} isInProgress>
+      <ComponentPageDescription
+        title={name}
+        image={image}
+        isInProgress
+        isAriaSupport
+        isRtlSupport
+      >
         <p>{text}</p>
         <p>
           Based on{' '}
@@ -53,6 +61,11 @@ const Example = () => {
         preview={<Customization />}
         code={examples ? examples.Customization : 'Loading'}
       />
+      <Preview
+        title="Render content into the specific container (not body)"
+        preview={<NotPortal />}
+        code={examples ? examples.NotPortal : 'Loading'}
+      />
       <PropsTable
         title="Tooltip.Trigger props"
         data={[
@@ -82,6 +95,14 @@ const Example = () => {
             default: 'top-center',
             description: 'Position of Tooltip',
           },
+          {
+            name: 'container',
+            type: 'HTMLElement | null',
+            required: false,
+            default: 'document.body',
+            description:
+              'Specify a container element to portal the content into.',
+          },
         ]}
       />
       <PropsTable
@@ -100,4 +121,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+PageTooltip.getLayout = function getLayout(page: React.ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageTooltip;

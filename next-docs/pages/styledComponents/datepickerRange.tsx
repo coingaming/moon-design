@@ -13,10 +13,10 @@ import RangeCalendarRtl from '../../public/styledExamples/datePickerRange/RangeC
 import RangeCalendarWithChip from '../../public/styledExamples/datePickerRange/RangeCalendarWithChip';
 import RangeCalendarWithoutFooter from '../../public/styledExamples/datePickerRange/RangeCalendarWithoutFooter';
 import RangeCalendarWithPeriod from '../../public/styledExamples/datePickerRange/RangeCalendarWithPeriod';
-import useExamples from '../../utils/useExamples';
+import useStyledExamples from '../../utils/useStyledExamples';
 
 const PageDatepicker = () => {
-  const examples = useExamples('datePickerRange', 'styled');
+  const examples = useStyledExamples('datePickerRange');
   return (
     <>
       <ComponentPageDescription title="Range">

@@ -4,11 +4,10 @@ import ComponentPageDescription from '../../../components/ComponentPageDescripti
 import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
 import Default from '../../../public/styledExamples/dialog/dialogContent/Default';
-import useExamples from '../../../utils/useExamples';
+import useStyledExamples from '../../../utils/useStyledExamples';
 
 export default function PageDialogContent() {
-  const examples = useExamples('dialog/dialogContent', 'styled');
-
+  const examples = useStyledExamples('dialog/dialogContent');
   return (
     <>
       <ComponentPageDescription title="Dialog Content" isDeprecated>

@@ -1,74 +1,87 @@
 import React, { forwardRef, useEffect, useState } from 'react';
-import mergeClassnames from '../mergeClassnames/mergeClassnames';
-import GenericCheckAlternative from '../private/icons/GenericCheckAlternative';
 import type CheckboxProps from './private/types/CheckboxProps';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
+import ControlsMinus from '../private/icons/ControlsMinus';
+import GenericCheckAlternative from '../private/icons/GenericCheckAlternative';
 
 const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
   (
     {
-      disabled,
-      readOnly,
       ariaLabel,
       label,
-      id,
-      checked = false,
-      onChange,
       bgColor = 'bg-piccolo',
       className,
-      ...inputProps
+      indeterminate,
+      ...rest
     },
     ref
   ) => {
-    const [isChecked, setIsChecked] = useState(checked || false);
+    const [isChecked, setIsChecked] = useState(rest.checked || false);
     useEffect(() => {
-      if (typeof checked !== undefined && checked !== isChecked)
-        setIsChecked(!checked);
-    }, [checked]);
+      if (typeof rest.checked !== undefined && rest.checked !== isChecked)
+        setIsChecked(!!rest.checked);
+    }, [rest.checked]);
+    const ariaLabelValue = label
+      ? undefined
+      : ariaLabel
+      ? ariaLabel
+      : rest['aria-label']
+      ? rest['aria-label']
+      : rest.name
+      ? rest.name
+      : 'Checkbox';
     return (
       <label
-        htmlFor={id}
+        htmlFor={rest.id}
         className={mergeClassnames(
           'relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer',
-          disabled && 'opacity-30 cursor-not-allowed select-none',
-          readOnly && 'cursor-not-allowed select-none'
+          rest.disabled && 'opacity-60 cursor-not-allowed select-none',
+          rest.readOnly && 'cursor-not-allowed select-none'
         )}
       >
         <input
-          id={id}
-          disabled={disabled}
-          readOnly={readOnly}
-          aria-label={ariaLabel}
+          id={rest.id}
+          disabled={rest.disabled}
+          readOnly={rest.readOnly}
+          aria-label={ariaLabelValue}
           ref={ref}
           className="peer appearance-none h-6 w-6 outline-none align-top select-none"
-          {...inputProps}
           type="checkbox"
-          aria-checked={isChecked}
+          aria-checked={indeterminate ? 'mixed' : isChecked}
           checked={isChecked}
           onClick={(e) => {
-            if (disabled || readOnly) {
+            if (rest.disabled || rest.readOnly) {
               e.preventDefault();
               e.stopPropagation();
               return;
             }
-            if (inputProps.onClick) inputProps.onClick(e);
+            if (rest.onClick) rest.onClick(e);
             setIsChecked(e?.currentTarget?.checked);
           }}
-          onChange={onChange ? onChange : (e) => {}}
+          onChange={rest.onChange ? rest.onChange : (e) => {}}
+          {...rest}
         />
         <span
           className={mergeClassnames(
-            'absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten',
-            isChecked && bgColor,
+            'absolute top-1 start-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten',
+            (isChecked || indeterminate) && bgColor,
+            indeterminate && 'shadow-none',
             className && className
           )}
           aria-hidden="true"
         >
-          <GenericCheckAlternative
-            className={mergeClassnames(
-              'transition-opacity',
-              isChecked ? 'opacity-100' : 'opacity-0'
-            )}
-          />
+          {indeterminate ? (
+            <ControlsMinus
+              className={mergeClassnames('transition-opacity opacity-100')}
+            />
+          ) : (
+            <GenericCheckAlternative
+              className={mergeClassnames(
+                'transition-opacity',
+                isChecked ? 'opacity-100' : 'opacity-0'
+              )}
+            />
+          )}
         </span>
         {label}
       </label>

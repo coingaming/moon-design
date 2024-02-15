@@ -1,23 +1,22 @@
 import React, { useContext } from 'react';
+import ListItem from './ResultItem';
+import mergeClassnames from '../../../mergeClassnames/mergeClassnames';
+import type FreeSearchActionProps from '../types/FreeSearchActionProps';
 import { SearchContext } from '../utils/context';
-import ListItem, { ButtonProps, LinkProps } from './ListItem';
 
-interface FreeSearchActionProps extends Omit<ButtonProps & LinkProps, 'index'> {
-  index?: number;
-  label?: string | React.ReactNode;
-}
-
-export default function NoResults({
+const NoResults = ({
   label = 'Search for',
+  className,
   ...props
-}: FreeSearchActionProps) {
+}: FreeSearchActionProps) => {
   const { search } = useContext(SearchContext);
-
   return (
     <ListItem index={0} showType={false} {...props}>
-      <span className="max-w-md truncate text-bulma">
+      <p className={mergeClassnames('truncate text-bulma', className)}>
         {label} <span className="font-medium">"{search}"</span>
-      </span>
+      </p>
     </ListItem>
   );
-}
+};
+
+export default NoResults;

@@ -8,15 +8,17 @@ export type BaseOptionType = {
   value: string | number;
 };
 
-const Options: React.FC<{
+type OptionsProps = {
   options: BaseOptionType[];
   formatOptionLabel?: (data: BaseOptionType) => JSX.Element | string;
   menuWidth?: string;
-}> = ({ options, formatOptionLabel, menuWidth }) => (
+};
+
+const Options = ({ options, formatOptionLabel, menuWidth }: OptionsProps) => (
   <Listbox.Options
     className={mergeClassnames(
       menuWidth ? menuWidth : 'w-full min-w-[18.75rem]',
-      'max-h-[18.75rem] z-1 py-2 px-1 my-2 rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto',
+      'max-h-[18.75rem] z-1 py-2 px-1 my-2 rounded-moon-s-md box-border bg-goku shadow-moon-lg overflow-y-auto',
       'focus:outline-none'
     )}
   >
@@ -25,8 +27,8 @@ const Options: React.FC<{
         key={`${option.id}${optionId}`}
         value={option}
         className={({ active }) =>
-          `p-2 mb-1 last:mb-0 cursor-pointer text-moon-14 text-bulma rounded-moon-s-sm hover:bg-goku ${
-            active && 'bg-goku'
+          `p-2 mb-1 last:mb-0 cursor-pointer text-moon-14 text-bulma rounded-moon-s-sm hover:bg-heles ${
+            active && 'bg-heles'
           }`
         }
       >

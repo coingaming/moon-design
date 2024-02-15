@@ -9,9 +9,9 @@ const boxShadow =
 
 const color = {
   hit: {
-    120: '#000000',
-    100: '#000000',
-    80: '#000000',
+    120: '#525252',
+    100: '#525252',
+    80: '#525252',
   },
   goku: {
     100: '#101010',
@@ -26,7 +26,7 @@ const color = {
     10: '#1E1E1E',
   },
   beerus: {
-    100: '#343434',
+    100: '#323232',
   },
   bulma: {
     100: '#FFFFFF',
@@ -37,9 +37,9 @@ const color = {
 };
 
 const colorNew = {
-  piccolo: '#FFFFFF',
-  hit: '#000000',
-  beerus: '#343434',
+  piccolo: '#D63741',
+  hit: '#525252',
+  beerus: '#323232',
   goku: '#101010',
   gohan: '#1E1E1E',
   bulma: '#FFFFFF',
@@ -68,9 +68,9 @@ const newBitcasinoDark: Theme = {
     text: color.bulma[100],
     background: color.goku[100],
     piccolo: {
-      120: '#FFFFFF',
-      100: '#FFFFFF',
-      80: '#FFFFFF',
+      120: '#D63741',
+      100: '#D63741',
+      80: '#D63741',
     },
     goten: {
       100: '#FFFFFF',

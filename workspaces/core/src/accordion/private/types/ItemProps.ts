@@ -3,6 +3,6 @@ type ItemProps = {
   className?: string;
   disabled?: boolean;
   children?: React.ReactNode;
-}
+};
 
 export default ItemProps;

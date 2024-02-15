@@ -3,15 +3,15 @@
 exports[`Avatar renders different Colours 1`] = `
 Array [
   <div
-    className="sc-jMKfon ejpsfy"
+    className="sc-fEcDHC cqZLmn"
   >
     <div
-      className="sc-hKOiFN fTQhtt"
+      className="sc-frbSaM cCAOww"
       color="bulma.100"
       size="medium"
     >
       <svg
-        className="sc-iXxrte jihYww"
+        className="sc-bkEOxz ejwoNe"
         fill="none"
         fontSize="1.5rem"
         height="1em"
@@ -27,15 +27,15 @@ Array [
     </div>
   </div>,
   <div
-    className="sc-jMKfon ejpsfy"
+    className="sc-fEcDHC cqZLmn"
   >
     <div
-      className="sc-hKOiFN eXyRZU"
+      className="sc-frbSaM ilVgNF"
       color="goten.100"
       size="medium"
     >
       <svg
-        className="sc-iXxrte gPvmLQ"
+        className="sc-bkEOxz hHKlFu"
         fill="none"
         fontSize="1.5rem"
         height="1em"
@@ -51,15 +51,15 @@ Array [
     </div>
   </div>,
   <div
-    className="sc-jMKfon ejpsfy"
+    className="sc-fEcDHC cqZLmn"
   >
     <div
-      className="sc-hKOiFN mNJjO"
+      className="sc-frbSaM gHDNTP"
       color="goten.100"
       size="medium"
     >
       <svg
-        className="sc-iXxrte gPvmLQ"
+        className="sc-bkEOxz hHKlFu"
         fill="none"
         fontSize="1.5rem"
         height="1em"
@@ -83,15 +83,15 @@ Array [
     className="flex flex-wrap items-center justify-around gap-2 w-full"
   >
     <div
-      className="sc-jMKfon ejpsfy"
+      className="sc-fEcDHC cqZLmn"
     >
       <div
-        className="sc-hKOiFN dAPYhZ"
+        className="sc-frbSaM XUOqU"
         color="bulma.100"
         size="xsmall"
       >
         <svg
-          className="sc-iXxrte jihYww"
+          className="sc-bkEOxz ejwoNe"
           fill="none"
           fontSize="1rem"
           height="1em"
@@ -107,15 +107,15 @@ Array [
       </div>
     </div>
     <div
-      className="sc-jMKfon ejpsfy"
+      className="sc-fEcDHC cqZLmn"
     >
       <div
-        className="sc-hKOiFN gLPJdW"
+        className="sc-frbSaM dCiRVr"
         color="bulma.100"
         size="small"
       >
         <svg
-          className="sc-iXxrte jihYww"
+          className="sc-bkEOxz ejwoNe"
           fill="none"
           fontSize="1.5rem"
           height="1em"
@@ -131,15 +131,15 @@ Array [
       </div>
     </div>
     <div
-      className="sc-jMKfon ejpsfy"
+      className="sc-fEcDHC cqZLmn"
     >
       <div
-        className="sc-hKOiFN fTQhtt"
+        className="sc-frbSaM cCAOww"
         color="bulma.100"
         size="medium"
       >
         <svg
-          className="sc-iXxrte jihYww"
+          className="sc-bkEOxz ejwoNe"
           fill="none"
           fontSize="1.5rem"
           height="1em"
@@ -155,15 +155,15 @@ Array [
       </div>
     </div>
     <div
-      className="sc-jMKfon ejpsfy"
+      className="sc-fEcDHC cqZLmn"
     >
       <div
-        className="sc-hKOiFN hcBOZo"
+        className="sc-frbSaM bebUwJ"
         color="bulma.100"
         size="large"
       >
         <svg
-          className="sc-iXxrte jihYww"
+          className="sc-bkEOxz ejwoNe"
           fill="none"
           fontSize="1.5rem"
           height="1em"
@@ -179,15 +179,15 @@ Array [
       </div>
     </div>
     <div
-      className="sc-jMKfon ejpsfy"
+      className="sc-fEcDHC cqZLmn"
     >
       <div
-        className="sc-hKOiFN ktcuDg"
+        className="sc-frbSaM fEsXN"
         color="bulma.100"
         size="xlarge"
       >
         <svg
-          className="sc-iXxrte jihYww"
+          className="sc-bkEOxz ejwoNe"
           fill="none"
           fontSize="1.5rem"
           height="1em"
@@ -203,15 +203,15 @@ Array [
       </div>
     </div>
     <div
-      className="sc-jMKfon ejpsfy"
+      className="sc-fEcDHC cqZLmn"
     >
       <div
-        className="sc-hKOiFN dPbTYu"
+        className="sc-frbSaM kEglPz"
         color="bulma.100"
         size="twoxlarge"
       >
         <svg
-          className="sc-iXxrte jihYww"
+          className="sc-bkEOxz ejwoNe"
           fill="none"
           fontSize="2rem"
           height="1em"
@@ -231,10 +231,10 @@ Array [
     className="flex flex-wrap items-center justify-around gap-2 w-full"
   >
     <div
-      className="sc-jMKfon ejpsfy"
+      className="sc-fEcDHC cqZLmn"
     >
       <div
-        className="sc-hKOiFN dAPYhZ"
+        className="sc-frbSaM XUOqU"
         color="bulma.100"
         size="xsmall"
       >
@@ -242,10 +242,10 @@ Array [
       </div>
     </div>
     <div
-      className="sc-jMKfon ejpsfy"
+      className="sc-fEcDHC cqZLmn"
     >
       <div
-        className="sc-hKOiFN gLPJdW"
+        className="sc-frbSaM dCiRVr"
         color="bulma.100"
         size="small"
       >
@@ -253,10 +253,10 @@ Array [
       </div>
     </div>
     <div
-      className="sc-jMKfon ejpsfy"
+      className="sc-fEcDHC cqZLmn"
     >
       <div
-        className="sc-hKOiFN fTQhtt"
+        className="sc-frbSaM cCAOww"
         color="bulma.100"
         size="medium"
       >
@@ -264,10 +264,10 @@ Array [
       </div>
     </div>
     <div
-      className="sc-jMKfon ejpsfy"
+      className="sc-fEcDHC cqZLmn"
     >
       <div
-        className="sc-hKOiFN hcBOZo"
+        className="sc-frbSaM bebUwJ"
         color="bulma.100"
         size="large"
       >
@@ -275,10 +275,10 @@ Array [
       </div>
     </div>
     <div
-      className="sc-jMKfon ejpsfy"
+      className="sc-fEcDHC cqZLmn"
     >
       <div
-        className="sc-hKOiFN ktcuDg"
+        className="sc-frbSaM fEsXN"
         color="bulma.100"
         size="xlarge"
       >
@@ -286,10 +286,10 @@ Array [
       </div>
     </div>
     <div
-      className="sc-jMKfon ejpsfy"
+      className="sc-fEcDHC cqZLmn"
     >
       <div
-        className="sc-hKOiFN dPbTYu"
+        className="sc-frbSaM kEglPz"
         color="bulma.100"
         size="twoxlarge"
       >
@@ -301,55 +301,55 @@ Array [
     className="flex flex-wrap items-center justify-around gap-2 w-full"
   >
     <div
-      className="sc-jMKfon ejpsfy"
+      className="sc-fEcDHC cqZLmn"
     >
       <div
-        className="sc-hKOiFN UIxBR"
+        className="sc-frbSaM UTAAE"
         color="bulma.100"
         size="xsmall"
       />
     </div>
     <div
-      className="sc-jMKfon ejpsfy"
+      className="sc-fEcDHC cqZLmn"
     >
       <div
-        className="sc-hKOiFN gPUlAC"
+        className="sc-frbSaM kbyyvH"
         color="bulma.100"
         size="small"
       />
     </div>
     <div
-      className="sc-jMKfon ejpsfy"
+      className="sc-fEcDHC cqZLmn"
     >
       <div
-        className="sc-hKOiFN iFPueN"
+        className="sc-frbSaM jfkaKw"
         color="bulma.100"
         size="medium"
       />
     </div>
     <div
-      className="sc-jMKfon ejpsfy"
+      className="sc-fEcDHC cqZLmn"
     >
       <div
-        className="sc-hKOiFN hIxUqI"
+        className="sc-frbSaM eEdSxN"
         color="bulma.100"
         size="large"
       />
     </div>
     <div
-      className="sc-jMKfon ejpsfy"
+      className="sc-fEcDHC cqZLmn"
     >
       <div
-        className="sc-hKOiFN geKJKc"
+        className="sc-frbSaM fuTTHp"
         color="bulma.100"
         size="xlarge"
       />
     </div>
     <div
-      className="sc-jMKfon ejpsfy"
+      className="sc-fEcDHC cqZLmn"
     >
       <div
-        className="sc-hKOiFN ospnq"
+        className="sc-frbSaM btOvWL"
         color="bulma.100"
         size="twoxlarge"
       />
@@ -361,15 +361,15 @@ Array [
 exports[`Avatar renders different Variants 1`] = `
 Array [
   <div
-    className="sc-jMKfon ejpsfy"
+    className="sc-fEcDHC cqZLmn"
   >
     <div
-      className="sc-hKOiFN fTQhtt"
+      className="sc-frbSaM cCAOww"
       color="bulma.100"
       size="medium"
     >
       <svg
-        className="sc-iXxrte jihYww"
+        className="sc-bkEOxz ejwoNe"
         fill="none"
         fontSize="1.5rem"
         height="1em"
@@ -385,10 +385,10 @@ Array [
     </div>
   </div>,
   <div
-    className="sc-jMKfon ejpsfy"
+    className="sc-fEcDHC cqZLmn"
   >
     <div
-      className="sc-hKOiFN fTQhtt"
+      className="sc-frbSaM cCAOww"
       color="bulma.100"
       size="medium"
     >
@@ -396,10 +396,10 @@ Array [
     </div>
   </div>,
   <div
-    className="sc-jMKfon ejpsfy"
+    className="sc-fEcDHC cqZLmn"
   >
     <div
-      className="sc-hKOiFN iFPueN"
+      className="sc-frbSaM jfkaKw"
       color="bulma.100"
       size="medium"
     />
@@ -410,15 +410,15 @@ Array [
 exports[`Avatar supports different status origins 1`] = `
 Array [
   <div
-    className="sc-jMKfon ejpsfy"
+    className="sc-fEcDHC cqZLmn"
   >
     <div
-      className="sc-hKOiFN fTQhtt"
+      className="sc-frbSaM cCAOww"
       color="bulma.100"
       size="medium"
     >
       <svg
-        className="sc-iXxrte jihYww"
+        className="sc-bkEOxz ejwoNe"
         fill="none"
         fontSize="1.5rem"
         height="1em"
@@ -433,20 +433,20 @@ Array [
       </svg>
     </div>
     <div
-      className="sc-fUmEdy dnIrgO"
+      className="sc-cHHTbD irdraI"
       size="medium"
     />
   </div>,
   <div
-    className="sc-jMKfon ejpsfy"
+    className="sc-fEcDHC cqZLmn"
   >
     <div
-      className="sc-hKOiFN fTQhtt"
+      className="sc-frbSaM cCAOww"
       color="bulma.100"
       size="medium"
     >
       <svg
-        className="sc-iXxrte jihYww"
+        className="sc-bkEOxz ejwoNe"
         fill="none"
         fontSize="1.5rem"
         height="1em"
@@ -461,20 +461,20 @@ Array [
       </svg>
     </div>
     <div
-      className="sc-fUmEdy kVFpwJ"
+      className="sc-cHHTbD hrBdNT"
       size="medium"
     />
   </div>,
   <div
-    className="sc-jMKfon ejpsfy"
+    className="sc-fEcDHC cqZLmn"
   >
     <div
-      className="sc-hKOiFN fTQhtt"
+      className="sc-frbSaM cCAOww"
       color="bulma.100"
       size="medium"
     >
       <svg
-        className="sc-iXxrte jihYww"
+        className="sc-bkEOxz ejwoNe"
         fill="none"
         fontSize="1.5rem"
         height="1em"
@@ -489,20 +489,20 @@ Array [
       </svg>
     </div>
     <div
-      className="sc-fUmEdy isEmyu"
+      className="sc-cHHTbD dJJGCg"
       size="medium"
     />
   </div>,
   <div
-    className="sc-jMKfon ejpsfy"
+    className="sc-fEcDHC cqZLmn"
   >
     <div
-      className="sc-hKOiFN fTQhtt"
+      className="sc-frbSaM cCAOww"
       color="bulma.100"
       size="medium"
     >
       <svg
-        className="sc-iXxrte jihYww"
+        className="sc-bkEOxz ejwoNe"
         fill="none"
         fontSize="1.5rem"
         height="1em"
@@ -517,7 +517,7 @@ Array [
       </svg>
     </div>
     <div
-      className="sc-fUmEdy EQqxd"
+      className="sc-cHHTbD XuJmn"
       size="medium"
     />
   </div>,
@@ -527,15 +527,15 @@ Array [
 exports[`Avatar supports different statuses 1`] = `
 Array [
   <div
-    className="sc-jMKfon ejpsfy"
+    className="sc-fEcDHC cqZLmn"
   >
     <div
-      className="sc-hKOiFN fTQhtt"
+      className="sc-frbSaM cCAOww"
       color="bulma.100"
       size="medium"
     >
       <svg
-        className="sc-iXxrte jihYww"
+        className="sc-bkEOxz ejwoNe"
         fill="none"
         fontSize="1.5rem"
         height="1em"
@@ -551,15 +551,15 @@ Array [
     </div>
   </div>,
   <div
-    className="sc-jMKfon ejpsfy"
+    className="sc-fEcDHC cqZLmn"
   >
     <div
-      className="sc-hKOiFN fTQhtt"
+      className="sc-frbSaM cCAOww"
       color="bulma.100"
       size="medium"
     >
       <svg
-        className="sc-iXxrte jihYww"
+        className="sc-bkEOxz ejwoNe"
         fill="none"
         fontSize="1.5rem"
         height="1em"
@@ -574,29 +574,29 @@ Array [
       </svg>
     </div>
     <div
-      className="sc-fUmEdy isEmyu"
+      className="sc-cHHTbD dJJGCg"
       size="medium"
     />
   </div>,
   <div
-    className="sc-jMKfon ejpsfy"
+    className="sc-fEcDHC cqZLmn"
   >
     <div
-      className="sc-hKOiFN iFPueN"
+      className="sc-frbSaM jfkaKw"
       color="bulma.100"
       size="medium"
     />
   </div>,
   <div
-    className="sc-jMKfon ejpsfy"
+    className="sc-fEcDHC cqZLmn"
   >
     <div
-      className="sc-hKOiFN iFPueN"
+      className="sc-frbSaM jfkaKw"
       color="bulma.100"
       size="medium"
     />
     <div
-      className="sc-fUmEdy isEmyu"
+      className="sc-cHHTbD dJJGCg"
       size="medium"
     />
   </div>,

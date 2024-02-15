@@ -18,7 +18,7 @@ const Header: React.FC<Props> = ({ openSidebar }) => (
         <span className="sr-only">Open sidebar</span>
         <GenericMenu className="text-moon-32" />
       </button>
-      <Link href="/">
+      <Link href="/" aria-label="Moon.io main page">
         <LogoMoonDesignShort fontSize="2rem" />
       </Link>
     </div>

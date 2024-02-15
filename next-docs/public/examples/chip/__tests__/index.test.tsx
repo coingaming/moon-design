@@ -11,6 +11,7 @@ import Icons from '../Icons';
 import IsStroke from '../IsStroke';
 import IsStrokeIcons from '../IsStrokeIcons';
 import OnClick from '../OnClick';
+import Disabled from '../Disabled';
 
 const withRtl = (component: JSX.Element) => <div dir="rtl">{component}</div>;
 
@@ -48,6 +49,10 @@ describe('Chip', () => {
     const tree = render(<OnClick />);
     expect(tree).toMatchSnapshot();
   });
+  it('renders Disabled', () => {
+    const tree = render(<Disabled />);
+    expect(tree).toMatchSnapshot();
+  });
 });
 
 describe('Chip in RTL', () => {
@@ -82,6 +87,10 @@ describe('Chip in RTL', () => {
   });
   it('renders OnClick', () => {
     const tree = render(withRtl(<OnClick />));
+    expect(tree).toMatchSnapshot();
+  });
+  it('renders Disabled', () => {
+    const tree = render(withRtl(<Disabled />));
     expect(tree).toMatchSnapshot();
   });
 });

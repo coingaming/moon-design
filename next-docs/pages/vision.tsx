@@ -1,4 +1,3 @@
-import { ReactNode } from 'react';
 import Image from 'next/image';
 import Layout from '../components/Layout';
 import VisionCard from '../components/VisionCard';
@@ -72,14 +71,16 @@ const PageVision = () => (
         ]}
       />
     </div>
-    <div className="fixed top-0 ltr:right-0 rtl:left-0 w-[650px] 2xl:w-[892px] ltr:translate-x-1/3 rtl:-translate-x-1/3 -translate-y-1/3">
-      <Image src={imageMoon} alt="Moon" />
-    </div>
+    <Image
+      src={imageMoon}
+      alt="Moon"
+      className="hidden xl:block fixed -top-56 -end-56 w-[650px] 2xl:-top-72 2xl:-end-72 2xl:w-[892px]"
+    />
   </>
 );
 
-export default PageVision;
-
-PageVision.getLayout = function getLayout(page: ReactNode) {
-  return <Layout>{page}</Layout>;
+PageVision.getLayout = function getLayout(page: React.ReactNode) {
+  return <Layout title="Vision">{page}</Layout>;
 };
+
+export default PageVision;

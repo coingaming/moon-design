@@ -1,4 +1,4 @@
-import { Search } from './private/components/Search';
+import Search from './private/components/Search';
 import {
   filterItems as searchFilterItems,
   getItemIndex as searchGetItemIndex,

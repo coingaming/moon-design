@@ -3,9 +3,9 @@
   --piccolo: 0 0 0; /* #000000 */
   --hit: 92 51 207; /* #5c33cf */
   --beerus: 235 235 235; /* #ebebeb */
-  --gohan: 255 255 255; /* #ffffff */
+  --gohan: 241 243 243; /* #f1f3f3 */
   --goten: 255 255 255; /* #ffffff */
-  --goku: 241 243 243; /* #f1f3f3 */
+  --goku: 255 255 255; /* #ffffff */
   --bulma: 0 0 0; /* #000000 */
   --trunks: 112 112 112; /* #707070 */
   --popo: 0 0 0; /* #000000 */
@@ -64,10 +64,11 @@
   --border-i-width: 0.125rem; /* 2px */
 
   /* opacity */
-  --opacity-moon: 0.32;
+  --opacity-moon: 0.6;
 
   /* fonts */
   --averta: 'Averta Std';
+  --dm-sans: 'DM Sans';
 
   /* box-shadow */
   --shadow-xs: 0 4px 12px -6px rgb(0 0 0 / 0.06);
@@ -144,10 +145,11 @@
   --border-i-width: 0.125rem; /* 2px */
 
   /* opacity */
-  --opacity-moon: 0.32;
+  --opacity-moon: 0.6;
 
   /* fonts */
   --averta: 'Averta Std';
+  --dm-sans: 'DM Sans';
 
   /* box-shadow */
   --shadow-xs: 0 4px 12px -6px rgb(0 0 0 / 0.64);

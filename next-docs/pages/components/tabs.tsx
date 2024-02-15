@@ -1,27 +1,30 @@
-import React from 'react';
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import type { ComponentNames } from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/tabs/Default';
+import SelectedIndex from '../../public/examples/tabs/SelectedIndex';
+import SelectedIndexSegment from '../../public/examples/tabs/SelectedIndexSegment';
 import DefaultPills from '../../public/examples/tabs/DefaultPills';
 import NoPanels from '../../public/examples/tabs/NoPanels';
 import Segment from '../../public/examples/tabs/Segment';
 import Sizes from '../../public/examples/tabs/Sizes';
 import WithCustomStyles from '../../public/examples/tabs/WithCustomStyles';
 import WithHandler from '../../public/examples/tabs/WithHandler';
-import useExamples from '../../utils/useExamples';
+import useComponent from '../../utils/useComponent';
 
-const Example = () => {
-  const examples = useExamples('tabs');
-  const { name, text, image } = getComponent('Tabs');
+const COMPONENT_NAME: ComponentNames = 'Tabs';
+
+const PageTabs = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
       <ComponentPageDescription
         title={name}
         image={image}
-        isInProgress
         isRtlSupport
         isAriaSupport
       >
@@ -75,6 +78,16 @@ const Example = () => {
         code={examples ? examples.DefaultPills : 'Loading'}
       />
       <Preview
+        title="Selected Index"
+        preview={<SelectedIndex />}
+        code={examples ? examples.SelectedIndex : 'Loading'}
+      />
+      <Preview
+        title="Selected Index - Segment control view"
+        preview={<SelectedIndexSegment />}
+        code={examples ? examples.SelectedIndexSegment : 'Loading'}
+      />
+      <Preview
         title="Tabs only view"
         preview={<NoPanels />}
         code={examples ? examples.NoPanels : 'Loading'}
@@ -83,7 +96,7 @@ const Example = () => {
         title="Segment control view"
         preview={<Segment />}
         code={examples ? examples.Segment : 'Loading'}
-        className="bg-gohan border border-beerus"
+        className="bg-goku border border-beerus"
       />
       <Preview
         title="Sizes"
@@ -225,4 +238,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+PageTabs.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageTabs;

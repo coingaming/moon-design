@@ -1,30 +1,24 @@
 import React from 'react';
-import { useFormItemContext } from '../form/Form';
+import type HintProps from './private/types/HintProps';
+import useFormItemContext from '../form/private/utils/useFormItemContext';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
-type HintProps = {
-  error?: boolean;
-  className?: string;
-  disabled?: boolean;
-  children?: React.ReactNode;
-};
-
-const Hint: React.FC<HintProps> = ({
+const Hint = ({
   children,
   error: hintError,
   disabled,
   className,
-}) => {
+}: HintProps) => {
   const { error: formItemError } = useFormItemContext('Hint');
   const error = hintError || formItemError;
   return (
     <p
       role="alert"
       className={mergeClassnames(
-        'inline-block mt-2 ps-4 text-moon-12',
+        'flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16',
         error ? 'text-chichi' : 'text-trunks',
-        disabled && 'opacity-30 cursor-not-allowed',
-        className && className
+        disabled && 'opacity-60 cursor-not-allowed',
+        className
       )}
     >
       {children}

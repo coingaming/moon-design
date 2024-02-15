@@ -1,8 +1,8 @@
-import React from 'react';
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import AutoClose from '../../public/examples/snackbar/AutoClose';
 import Customization from '../../public/examples/snackbar/Customization';
@@ -11,17 +11,18 @@ import Options from '../../public/examples/snackbar/Options';
 import Positions from '../../public/examples/snackbar/Positions';
 import Queue from '../../public/examples/snackbar/Queue';
 import Semantics from '../../public/examples/snackbar/Semantics';
-import useExamples from '../../utils/useExamples';
+import useComponent from '../../utils/useComponent';
+import type { ComponentNames } from '../../components/getComponent';
 
-const Example = () => {
-  const examples = useExamples('snackbar');
-  const { name, text, image } = getComponent('Snackbar');
+const COMPONENT_NAME: ComponentNames = 'Snackbar';
+
+const PageSnackbar = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
       <ComponentPageDescription
         title={name}
         image={image}
-        isInProgress
         isRtlSupport
         isAriaSupport
       >
@@ -231,4 +232,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+PageSnackbar.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageSnackbar;

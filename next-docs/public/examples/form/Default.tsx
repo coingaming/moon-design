@@ -9,6 +9,7 @@ import {
   MenuItem,
   Button,
 } from '@heathmont/moon-core-tw';
+import { GenericInfo } from '@heathmont/moon-icons-tw';
 
 const options = [
   { name: '01' },
@@ -31,7 +32,10 @@ const Example = () => {
       <Form.Item error>
         <Label htmlFor="name">Username</Label>
         <Input placeholder="Your username..." id="name" />
-        <Hint>Field is required</Hint>
+        <Hint error>
+          <GenericInfo />
+          Informative message holder
+        </Hint>
       </Form.Item>
       <Form.Item>
         <Label htmlFor="email">Email</Label>

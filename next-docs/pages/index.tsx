@@ -1,13 +1,18 @@
 import { Tag } from '@heathmont/moon-core-tw';
+import dynamic from 'next/dynamic';
 import Contributors from '../components/facing/Contributors';
 import ForDesigners from '../components/facing/ForDesigners';
 import ForDevelopers from '../components/facing/ForDevelopers';
 import Future from '../components/facing/Future';
-import MoonAndEarthAnimation from '../components/facing/MoonAndEarth';
 import PageTitle from '../components/facing/PageTitle';
 import Updates from '../components/facing/Updates';
+import Layout from '../components/Layout';
 
-const Home = () => (
+const MoonAndEarthAnimation = dynamic(
+  () => import('../components/facing/MoonAndEarth')
+);
+
+const PageHome = () => (
   <>
     <div className="relative z-5 flex flex-col gap-12">
       <Tag size="2xs" className="self-start">
@@ -15,7 +20,7 @@ const Home = () => (
       </Tag>
       <div className="flex flex-col gap-16">
         <PageTitle />
-        <div className="flex flex-col lg:flex-row gap-4 3xl:fixed 3xl:top-12 ltr:3xl:right-12 rtl:3xl:left-12 3xl:z-10">
+        <div className="flex flex-col lg:flex-row gap-4 3xl:fixed 3xl:top-12 3xl:end-12 3xl:z-10">
           <ForDevelopers />
           <ForDesigners />
         </div>
@@ -28,4 +33,8 @@ const Home = () => (
   </>
 );
 
-export default Home;
+PageHome.getLayout = function getLayout(page: React.ReactNode) {
+  return <Layout>{page}</Layout>;
+};
+
+export default PageHome;

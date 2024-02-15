@@ -2241,8 +2241,9 @@ video {
   --radius-s-lg: 1rem;
   --border-width: 0.0625rem;
   --border-i-width: 0.125rem;
-  --opacity-moon: 0.32;
+  --opacity-moon: 0.6;
   --averta: 'Averta Std';
+  --dm-sans: 'DM Sans';
 }
 .theme-sb-dark,
 :root.theme-sb-dark {
@@ -2307,8 +2308,9 @@ video {
   --radius-s-lg: 1rem;
   --border-width: 0.0625rem;
   --border-i-width: 0.125rem;
-  --opacity-moon: 0.32;
+  --opacity-moon: 0.6;
   --averta: 'Averta Std';
+  --dm-sans: 'DM Sans';
 }
 .theme-betadda-dark,
 :root.theme-betadda-dark {

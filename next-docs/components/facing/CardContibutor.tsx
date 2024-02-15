@@ -21,14 +21,14 @@ const CardContributor: React.FC<Props> = ({
   title,
   imageSrc,
 }) => (
-  <div className="flex flex-col">
+  <li className="flex flex-col gap-2">
     <div
       className={mergeClassnames(
         'relative w-72 h-96',
         variant && variant in variants ? variants[variant] : variants.default
       )}
     >
-      <p className="list-item absolute bottom-12 pb-2 ltr:left-full rtl:right-full whitespace-nowrap text-goten text-moon-24 transform origin-bottom-left -rotate-90 z-10 font-medium drop-shadow-sm">
+      <p className="list-item absolute bottom-8 ltr:start-full rtl:end-10 whitespace-nowrap text-goten text-moon-24 ltr:origin-bottom-left rtl:origin-bottom-left -rotate-90 z-10 font-medium drop-shadow-sm">
         {title}
       </p>
       <Image
@@ -37,8 +37,8 @@ const CardContributor: React.FC<Props> = ({
         src={imageSrc}
       />
     </div>
-    <p className="text-moon-24 mt-2 font-medium">{name}</p>
-  </div>
+    <p className="text-moon-24 font-medium">{name}</p>
+  </li>
 );
 
 export default CardContributor;

@@ -30,3 +30,98 @@ Total result: {
   "Select": 1
 } 
   
+************************************* 
+
+    Fri Apr 21 2023  
+  
+coingaming/next-casino:  {
+  "Dropdown": 2,
+  "MenuItem": 2,
+  "Popover": 3,
+  "Button": 11,
+  "IconButton": 3,
+  "Progress": 4,
+  "Tabs": 2,
+  "Input": 1,
+  "Tooltip": 2,
+  "Loader": 6,
+  "Carousel": 2,
+  "Modal": 1,
+  "CircularProgress": 1,
+  "Switch": 1
+} 
+coingaming/cashier:  {
+  "Button": 52,
+  "Checkbox": 8,
+  "Input": 2,
+  "MenuItem": 8,
+  "AuthCode": 2
+} 
+coingaming/goat-backoffice-ui-typed:  {
+  "Button": 6,
+  "Modal": 2,
+  "Switch": 4,
+  "Accordion": 1,
+  "Tabs": 1,
+  "Popover": 1,
+  "Radio": 1,
+  "Checkbox": 2
+} 
+coingaming/sportsbet-next:  {
+  "Modal": 2,
+  "BottomSheet": 2,
+  "Switch": 2,
+  "Form": 8,
+  "Group": 6,
+  "Snackbar": 4,
+  "MenuItem": 10,
+  "Pagination": 2,
+  "IconButton": 8,
+  "Loader": 6,
+  "Button": 22,
+  "Carousel": 6,
+  "Checkbox": 2,
+  "Breadcrumb": 2,
+  "Tag": 6,
+  "Avatar": 2,
+  "InsetInput": 6,
+  "Chip": 2,
+  "Dropdown": 4,
+  "Accordion": 2
+} 
+coingaming/sportsbet-packages:  {
+  "Button": 5
+} 
+------------------------------------  
+
+Total result: {
+  "Dropdown": 6,
+  "MenuItem": 20,
+  "Popover": 4,
+  "Button": 96,
+  "IconButton": 11,
+  "Progress": 4,
+  "Tabs": 3,
+  "Input": 3,
+  "Tooltip": 2,
+  "Loader": 12,
+  "Carousel": 8,
+  "Modal": 5,
+  "CircularProgress": 1,
+  "Switch": 7,
+  "Checkbox": 12,
+  "AuthCode": 2,
+  "Accordion": 3,
+  "Radio": 1,
+  "BottomSheet": 2,
+  "Form": 8,
+  "Group": 6,
+  "Snackbar": 4,
+  "Pagination": 2,
+  "Breadcrumb": 2,
+  "Tag": 6,
+  "Avatar": 2,
+  "InsetInput": 6,
+  "Chip": 2
+} 
+  

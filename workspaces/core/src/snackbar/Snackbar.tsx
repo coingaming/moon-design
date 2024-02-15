@@ -1,29 +1,13 @@
 import React from 'react';
 import * as ToastPrimitive from '@radix-ui/react-toast';
+import type CloseProps from './private/types/CloseProps';
+import type SnackbarProps from './private/types/SnackbarProps';
+import type WithChildren from './private/types/WithChildren';
+import getPosition from './private/utils/getPosition';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import ControlsCloseSmall from '../private/icons/ControlsCloseSmall';
 
-type WithChildren<T = {}> = T & { children?: React.ReactNode };
-
-//TODO: Ask Oladetoun Temitayo Micheal:
-//why onOpenChange: (value: sting) => void, and not onOpenChange: (value: boolean) => void
-
-type SnackbarProps = {
-  autoClose?: number;
-  position?:
-    | 'top-left'
-    | 'top-center'
-    | 'top-right'
-    | 'bottom-left'
-    | 'bottom-center'
-    | 'bottom-right';
-  ref?: null;
-  className?: string;
-  isOpen: boolean;
-  onOpenChange: (value: any) => void;
-};
-
-const SnackbarRoot: React.FC<WithChildren<SnackbarProps>> = ({
+const SnackbarRoot = ({
   autoClose,
   position = 'top-right',
   children,
@@ -31,7 +15,8 @@ const SnackbarRoot: React.FC<WithChildren<SnackbarProps>> = ({
   className,
   isOpen,
   onOpenChange,
-}) => (
+  ...rest
+}: WithChildren<SnackbarProps>) => (
   <ToastPrimitive.Provider swipeDirection="right" duration={autoClose}>
     <ToastPrimitive.Root
       open={isOpen}
@@ -40,27 +25,16 @@ const SnackbarRoot: React.FC<WithChildren<SnackbarProps>> = ({
       aria-live="polite"
       className={mergeClassnames(
         'z-50 flex fixed w-[calc(100%-32px)] md:w-fit transition',
-        'radix-state-closed:animate-toast-hide',
-        'radix-swipe-end:animate-toast-swipe-out',
-        'translate-x-radix-toast-swipe-move-x',
-        'radix-swipe-cancel:translate-x-0 radix-swipe-cancel:duration-200 radix-swipe-cancel:ease-[ease]',
-        position === 'top-left' &&
-          'top-4 ltr:left-4 ltr:radix-state-open:animate-toast-slide-in-left rtl:right-4 rtl:radix-state-open:animate-toast-slide-in-right',
-        position === 'top-center' &&
-          'justify-center top-4 left-4 right-4 md:m-auto radix-state-open:animate-toast-slide-in-up',
-        position === 'top-right' &&
-          'justify-end top-4 ltr:right-4 ltr:radix-state-open:animate-toast-slide-in-right rtl:left-4 rtl:radix-state-open:animate-toast-slide-in-left',
-        position === 'bottom-left' &&
-          'bottom-4 ltr:left-4 ltr:radix-state-open:animate-toast-slide-in-left rtl:right-4 rtl:radix-state-open:animate-toast-slide-in-right',
-        position === 'bottom-center' &&
-          'justify-center bottom-4 left-4 right-4 m-auto radix-state-open:animate-toast-slide-in-down',
-        position === 'bottom-right' &&
-          'justify-end bottom-4 ltr:right-4 ltr:radix-state-open:animate-toast-slide-in-right rtl:left-4 lrtltr:radix-state-open:animate-toast-slide-in-left'
+        'radix-state-closed:animate-toast-hide radix-swipe-end:animate-toast-swipe-out',
+        'translate-x-radix-toast-swipe-move-x radix-swipe-cancel:translate-x-0',
+        'radix-swipe-cancel:duration-200 radix-swipe-cancel:ease-[ease]',
+        getPosition(position)
       )}
+      {...rest}
     >
       <div
         className={mergeClassnames(
-          'flex w-fit max-w-xs items-center gap-4 p-4 bg-gohan shadow-moon-lg rounded-moon-s-sm',
+          'flex w-fit max-w-xs items-center gap-4 p-4 bg-goku shadow-moon-lg rounded-moon-s-sm',
           className
         )}
       >
@@ -71,64 +45,73 @@ const SnackbarRoot: React.FC<WithChildren<SnackbarProps>> = ({
   </ToastPrimitive.Provider>
 );
 
-const Header: React.FC<WithChildren<{ className?: string }>> = ({
+const Header = ({
   children,
   className,
-}) => (
+  ...rest
+}: WithChildren<{ className?: string }>) => (
   <p
     className={mergeClassnames(
       'w-full text-moon-14 font-medium transition-colors text-bulma',
       className
     )}
+    {...rest}
   >
     {children}
   </p>
 );
 
-const Message: React.FC<WithChildren<{ className?: string }>> = ({
+const Message = ({
   children,
   className,
-}) => (
+  ...rest
+}: WithChildren<{ className?: string }>) => (
   <p
     className={mergeClassnames(
       'w-full text-moon-14 transition-colors text-bulma',
       className
     )}
+    {...rest}
   >
     {children}
   </p>
 );
 
-const Content: React.FC<WithChildren<{ className?: string }>> = ({
+const Content = ({
   children,
   className,
-}) => <div className={mergeClassnames('w-full', className)}>{children}</div>;
+  ...rest
+}: WithChildren<{ className?: string }>) => (
+  <div className={mergeClassnames('w-full', className)} {...rest}>
+    {children}
+  </div>
+);
 
-const Icon: React.FC<WithChildren<{ className?: string }>> = ({
+const Icon = ({
   children,
   className,
-}) => (
+  ...rest
+}: WithChildren<{ className?: string }>) => (
   <div
     aria-hidden="true"
     className={mergeClassnames(
       'flex h-8 aspect-square items-center justify-center rounded-moon-s-sm text-moon-32',
       className
     )}
+    {...rest}
   >
     {children}
   </div>
 );
 
-const Close: React.FC<{ className?: string; ariaLabel?: string }> = ({
-  className,
-  ariaLabel = 'Close',
-}) => (
+const Close = ({ className, ariaLabel = 'Close', ...rest }: CloseProps) => (
   <ToastPrimitive.Close
     aria-label={ariaLabel}
     className={mergeClassnames(
       'flex h-8 aspect-square items-center justify-center text-bulma text-moon-24',
       className
     )}
+    {...rest}
   >
     <ControlsCloseSmall />
   </ToastPrimitive.Close>

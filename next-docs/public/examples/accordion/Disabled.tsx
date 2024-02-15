@@ -1,5 +1,5 @@
 import { Accordion } from '@heathmont/moon-core-tw';
-import { ControlsChevronDown } from '@heathmont/moon-icons-tw';
+import { ControlsChevronDownSmall } from '@heathmont/moon-icons-tw';
 
 const Example = () => (
   <Accordion>
@@ -7,7 +7,7 @@ const Example = () => (
       <Accordion.Header className="moon-open:[&_svg]:rotate-180" disabled>
         <Accordion.Button>
           <span>Test accordion</span>
-          <ControlsChevronDown className="text-trunks text-moon-16 transition-transform duration-200" />
+          <ControlsChevronDownSmall className="text-trunks text-moon-24 transition duration-200 moon-open:text-bulma" />
         </Accordion.Button>
       </Accordion.Header>
       <Accordion.Content>

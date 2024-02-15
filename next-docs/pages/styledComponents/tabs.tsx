@@ -8,10 +8,10 @@ import HorizontalVariants from '../../public/styledExamples/tabs/HorizontalVaria
 import Small from '../../public/styledExamples/tabs/Small';
 import Variant from '../../public/styledExamples/tabs/Variant';
 import VerticalVariants from '../../public/styledExamples/tabs/VerticalVariants';
-import useExamples from '../../utils/useExamples';
+import useStyledExamples from '../../utils/useStyledExamples';
 
 const PageTabsNew = () => {
-  const examples = useExamples('tabs', 'styled');
+  const examples = useStyledExamples('tabs');
   return (
     <>
       <ComponentPageDescription title="Tabs" isDeprecated>

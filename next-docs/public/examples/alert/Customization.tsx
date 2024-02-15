@@ -19,7 +19,7 @@ const Example = () => (
       <Alert.Close />
     </Alert>
     <Alert className="bg-roshi-10">
-      <Alert.Message className="text-roshi">
+      <Alert.Message>
         <OtherFrame className="text-moon-24" />
         Colourful style
       </Alert.Message>

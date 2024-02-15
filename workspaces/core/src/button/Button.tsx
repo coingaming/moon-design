@@ -1,11 +1,10 @@
-import React, { useState } from 'react';
+import React, { useCallback, useState } from 'react';
+import type ButtonProps from './private/types/ButtonProps';
 import AnimationContent from './private/utils/buttonAnimations/AnimationContent';
 import ButtonComponent from './styles/ButtonComponent';
 import Hover from './styles/Hover';
 import IconLeft from './styles/IconLeft';
 import IconRight from './styles/IconRight';
-import type ButtonProps from './private/types/ButtonProps';
-import type ButtonVariants from './private/types/ButtonVariants';
 
 export type Props<C extends React.ElementType> = React.PropsWithChildren<
   ButtonProps<C>
@@ -14,12 +13,12 @@ export type Props<C extends React.ElementType> = React.PropsWithChildren<
 
 const Button = <C extends React.ElementType = 'button'>({
   children,
-  variant = 'primary',
+  variant = 'fill',
   size = 'md',
-  icon, // obsolete prop
+  icon, // deprecated
   iconLeft, // not boolean anymore
   iconRight, // not boolean anymore
-  iconOnly, // obsolete prop
+  iconOnly, // deprecated
   fullWidth,
   disabled,
   animation,
@@ -30,10 +29,13 @@ const Button = <C extends React.ElementType = 'button'>({
   const [isHover, setIsHover] = useState(false);
   const hasAnimationContent =
     animation === 'progress' || animation === 'success';
+  const onMouseEnter = useCallback(() => setIsHover(true), [setIsHover]);
+  const onMouseLeave = useCallback(() => setIsHover(false), [setIsHover]);
+
   return (
     <ButtonComponent
       size={size}
-      variant={variant as ButtonVariants}
+      variant={variant}
       icon={icon}
       iconLeft={iconLeft}
       iconRight={iconRight}
@@ -42,8 +44,8 @@ const Button = <C extends React.ElementType = 'button'>({
       disabled={disabled}
       animation={animation}
       as={as}
-      onMouseEnter={() => setIsHover(true)}
-      onMouseLeave={() => setIsHover(false)}
+      onMouseEnter={onMouseEnter}
+      onMouseLeave={onMouseLeave}
       customClassName={className}
       {...rest}
     >
@@ -56,6 +58,7 @@ const Button = <C extends React.ElementType = 'button'>({
           animation={animation}
           size={size}
           fullWidth={fullWidth}
+          variant={variant}
         />
       ) : (
         <>
@@ -73,7 +76,7 @@ const Button = <C extends React.ElementType = 'button'>({
           {iconOnly}
         </>
       )}
-      <Hover isHover={isHover} />
+      <Hover isHover={isHover} variant={variant} />
     </ButtonComponent>
   );
 };

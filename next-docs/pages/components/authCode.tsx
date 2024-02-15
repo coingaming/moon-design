@@ -1,21 +1,32 @@
-import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import type { ComponentNames } from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
+import AllowedCharacters from '../../public/examples/authCode/AllowedCharacters';
 import Default from '../../public/examples/authCode/Default';
 import ErrorState from '../../public/examples/authCode/ErrorState';
 import FourChars from '../../public/examples/authCode/FourChars';
-import OnlyDigits from '../../public/examples/authCode/OnlyDigits';
-import Stretch from '../../public/examples/authCode/Stretch';
-import useExamples from '../../utils/useExamples';
+import Gaps from '../../public/examples/authCode/Gaps';
+import Hint from '../../public/examples/authCode/Hint';
+import IsPassword from '../../public/examples/authCode/IsPassword';
+import Placeholder from '../../public/examples/authCode/Placeholder';
+import ReactHookForm from '../../public/examples/authCode/ReactHookForm';
+import ReactHookFormAuto from '../../public/examples/authCode/ReactHookFormAuto';
+import useComponent from '../../utils/useComponent';
 
-const PageAuthCodeGroup = () => {
-  const examples = useExamples('authCode');
-  const { name, text, image } = getComponent('AuthCode');
+const COMPONENT_NAME: ComponentNames = 'AuthCode';
+
+const PageAuthCode = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
-      <ComponentPageDescription title={name} image={image} isInProgress>
+      <ComponentPageDescription
+        title={name}
+        image={image}
+        isAriaSupport
+        isRtlSupport
+      >
         <p>{text}</p>
       </ComponentPageDescription>
       <Preview
@@ -24,14 +35,25 @@ const PageAuthCodeGroup = () => {
         code={examples ? examples.Default : 'Loading'}
       />
       <Preview
+        title="React Hook Form integration - Manual Submit"
+        preview={<ReactHookForm />}
+        code={examples ? examples.ReactHookForm : 'Loading'}
+      />
+      <Preview
+        title="React Hook Form integration - Auto Submit"
+        preview={<ReactHookFormAuto />}
+        code={examples ? examples.ReactHookFormAuto : 'Loading'}
+      />
+      <Preview
+        title="Allowed Characters"
+        description="By default you can type numbers and letters in the inputs as the allowedCharacters prop is defaulted to alphanumeric but you can also choose between allowing only letters or only numbers by setting the prop to alpha or numeric respectively."
+        preview={<AllowedCharacters />}
+        code={examples ? examples.AllowedCharacters : 'Loading'}
+      />
+      <Preview
         title="Custom length"
         preview={<FourChars />}
         code={examples ? examples.FourChars : 'Loading'}
-      />
-      <Preview
-        title="Only digits"
-        preview={<OnlyDigits />}
-        code={examples ? examples.OnlyDigits : 'Loading'}
       />
       <Preview
         title="Error state"
@@ -39,13 +61,36 @@ const PageAuthCodeGroup = () => {
         code={examples ? examples.ErrorState : 'Loading'}
       />
       <Preview
-        title="Stretch"
-        preview={<Stretch />}
-        code={examples ? examples.Stretch : 'Loading'}
+        title="Hint message"
+        preview={<Hint />}
+        code={examples ? examples.Hint : 'Loading'}
+      />
+      <Preview
+        title="Placeholder"
+        preview={<Placeholder />}
+        code={examples ? examples.Placeholder : 'Loading'}
+      />
+      <Preview
+        title="Password"
+        preview={<IsPassword />}
+        code={examples ? examples.IsPassword : 'Loading'}
+      />
+      <Preview
+        title="Different gaps"
+        preview={<Gaps />}
+        code={examples ? examples.Gaps : 'Loading'}
       />
       <PropsTable
         title="Props"
         data={[
+          {
+            name: 'onChange',
+            type: '(value: string) => {}',
+            required: true,
+            default: '-',
+            description:
+              'Callback function that gets triggered on single value change.',
+          },
           {
             name: 'length',
             type: 'number',
@@ -54,20 +99,34 @@ const PageAuthCodeGroup = () => {
             description: 'Number of inputs for inserting single values.',
           },
           {
-            name: 'onlyDigits',
-            type: 'boolean',
+            name: 'allowedCharacters',
+            type: 'alphanumeric | numeric | alpha',
             required: false,
-            default: 'false',
-            description:
-              'If true, inputs would allow only digit values. Default is alphanumeric.',
+            default: 'alphanumeric',
+            description: 'Specifies the type of input characters.',
           },
           {
-            name: 'stretch',
+            name: 'autoFocus',
             type: 'boolean',
             required: false,
             default: 'false',
             description:
-              'If true, inputs would get streched to fill the available width',
+              'If true, inputs automatically accept the keyboard focus on data input.',
+          },
+          {
+            name: 'isPassword',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description:
+              'If true, inputs display entered values as password masking symbols.',
+          },
+          {
+            name: 'disabled',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description: 'If true, disables whole Auth code component.',
           },
           {
             name: 'placeholder',
@@ -77,28 +136,28 @@ const PageAuthCodeGroup = () => {
             description: 'Default placeholder for input elements.',
           },
           {
-            name: 'errorMessage',
-            type: 'string',
+            name: 'isValid',
+            type: 'boolean',
             required: false,
-            default: '-',
+            default: 'true',
             description:
               'Puts element in error state and displays the message.',
           },
           {
-            name: 'onChange',
-            type: 'function',
+            name: 'className',
+            type: 'string',
             required: false,
             default: '-',
             description:
-              'Callback function that gets triggered on single value change.',
+              'Specifies the extra styles for the container that wraps the set of input elements.',
           },
           {
-            name: 'onSubmit',
-            type: 'function',
+            name: 'ariaLabel',
+            type: 'string',
             required: false,
-            default: '-',
+            default: 'Character `${i + 1}`.',
             description:
-              'Callback function that gets triggered when all single values are entered.',
+              'Specifies the common of the aria phrase for input elements.',
           },
         ]}
       />
@@ -106,4 +165,8 @@ const PageAuthCodeGroup = () => {
   );
 };
 
-export default PageAuthCodeGroup;
+PageAuthCode.getLayout = function getLayout(page: React.ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageAuthCode;

@@ -11,10 +11,10 @@ import SearchWithHint from '../../../public/styledExamples/textInput/search/Sear
 import SearchWithLabel from '../../../public/styledExamples/textInput/search/SearchWithLabel';
 import SearchWithLabelRtl from '../../../public/styledExamples/textInput/search/SearchWithLabelRtl';
 import SearchWithoutLabel from '../../../public/styledExamples/textInput/search/SearchWithoutLabel';
-import useExamples from '../../../utils/useExamples';
+import useStyledExamples from '../../../utils/useStyledExamples';
 
 export default function PageSearchInput() {
-  const examples = useExamples('textInput/search', 'styled');
+  const examples = useStyledExamples('textInput/search');
   return (
     <>
       <ComponentPageDescription title="Search" isDeprecated>

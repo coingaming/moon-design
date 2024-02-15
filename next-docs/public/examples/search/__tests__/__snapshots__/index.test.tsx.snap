@@ -13,34 +13,37 @@ Object {
         >
           <div>
             <div
-              class="relative w-full h-full bg-gohan flex flex-col divide-y dark:divide-beerus rounded-moon-s-sm"
+              class="relative w-full h-full bg-goku flex flex-col border border-beerus transition-all [&_.moon-search-result]:top-10 [&_.moon-search-transition>.moon-search-result]:top-0 rounded-moon-s-sm"
             >
               <div
-                class="flex items-center space-x-1.5 pl-3 moon-search-input"
+                class="flex items-center px-2 gap-2 moon-search-input"
               >
-                <svg
-                  class="w-6 h-6 pointer-events-none text-bulma"
-                  fill="none"
-                  height="1em"
-                  viewBox="0 0 32 32"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M25 25l-4.413-4.405m0 0A7.962 7.962 0 109.336 9.327a7.962 7.962 0 0011.251 11.268z"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                  />
-                </svg>
+                <div>
+                  <svg
+                    class="pointer-events-none text-bulma text-moon-24"
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 32 32"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M25 25L20.5871 20.5953M20.5871 20.5953C22.0303 19.1542 22.9231 17.1621 22.9231 14.9615C22.9231 10.5645 19.3586 7 14.9615 7C10.5645 7 7 10.5645 7 14.9615C7 19.3586 10.5645 22.9231 14.9615 22.9231C17.158 22.9231 19.1467 22.0336 20.5871 20.5953Z"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                </div>
                 <input
-                  class="py-2 px-0 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent placeholder-bulma text-bulma"
-                  id="moon-search-input"
+                  aria-label="Search"
+                  autocomplete="off"
+                  class="moon-search-input py-2 px-0 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent placeholder-bulma text-bulma text-moon-14"
                   spellcheck="false"
                   type="text"
                   value=""
                 />
                 <button
-                  class="cursor-pointer text-trunks text-moon-14 transition absolute right-4 top-1/2 transform -translate-y-1/2"
+                  class="cursor-pointer text-trunks text-moon-14 transition transform"
                   tabindex="-1"
                   type="button"
                 >
@@ -62,13 +65,168 @@ Object {
       >
         <div>
           <div
-            class="relative w-full h-full bg-gohan flex flex-col divide-y dark:divide-beerus rounded-moon-s-sm"
+            class="relative w-full h-full bg-goku flex flex-col border border-beerus transition-all [&_.moon-search-result]:top-10 [&_.moon-search-transition>.moon-search-result]:top-0 rounded-moon-s-sm"
           >
             <div
-              class="flex items-center space-x-1.5 pl-3 moon-search-input"
+              class="flex items-center px-2 gap-2 moon-search-input"
             >
+              <div>
+                <svg
+                  class="pointer-events-none text-bulma text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M25 25L20.5871 20.5953M20.5871 20.5953C22.0303 19.1542 22.9231 17.1621 22.9231 14.9615C22.9231 10.5645 19.3586 7 14.9615 7C10.5645 7 7 10.5645 7 14.9615C7 19.3586 10.5645 22.9231 14.9615 22.9231C17.158 22.9231 19.1467 22.0336 20.5871 20.5953Z"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </div>
+              <input
+                aria-label="Search"
+                autocomplete="off"
+                class="moon-search-input py-2 px-0 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent placeholder-bulma text-bulma text-moon-14"
+                spellcheck="false"
+                type="text"
+                value=""
+              />
+              <button
+                class="cursor-pointer text-trunks text-moon-14 transition transform"
+                tabindex="-1"
+                type="button"
+              >
+                Clear
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Search in RTL renders NoTransition 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="w-full xl:mx-32"
+      >
+        <div>
+          <div
+            class="relative w-full h-full bg-goku flex flex-col border border-beerus transition-all [&_.moon-search-result]:top-10 [&_.moon-search-transition>.moon-search-result]:top-0 rounded-moon-s-sm"
+          >
+            <div
+              class="flex items-center px-2 gap-2 moon-search-input"
+            >
+              <div>
+                <svg
+                  class="pointer-events-none text-bulma text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M25 25L20.5871 20.5953M20.5871 20.5953C22.0303 19.1542 22.9231 17.1621 22.9231 14.9615C22.9231 10.5645 19.3586 7 14.9615 7C10.5645 7 7 10.5645 7 14.9615C7 19.3586 10.5645 22.9231 14.9615 22.9231C17.158 22.9231 19.1467 22.0336 20.5871 20.5953Z"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </div>
+              <input
+                aria-label="Search"
+                autocomplete="off"
+                class="moon-search-input py-2 px-0 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent placeholder-bulma text-bulma text-moon-14"
+                spellcheck="false"
+                type="text"
+                value=""
+              />
+              <button
+                class="cursor-pointer text-trunks text-moon-14 transition transform"
+                tabindex="-1"
+                type="button"
+              >
+                Clear
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="w-full xl:mx-32"
+    >
+      <div>
+        <div
+          class="relative w-full h-full bg-goku flex flex-col border border-beerus transition-all [&_.moon-search-result]:top-10 [&_.moon-search-transition>.moon-search-result]:top-0 rounded-moon-s-sm"
+        >
+          <div
+            class="flex items-center px-2 gap-2 moon-search-input"
+          >
+            <div>
               <svg
-                class="w-6 h-6 pointer-events-none text-bulma"
+                class="pointer-events-none text-bulma text-moon-24"
                 fill="none"
                 height="1em"
                 viewBox="0 0 32 32"
@@ -76,26 +234,27 @@ Object {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="M25 25l-4.413-4.405m0 0A7.962 7.962 0 109.336 9.327a7.962 7.962 0 0011.251 11.268z"
+                  d="M25 25L20.5871 20.5953M20.5871 20.5953C22.0303 19.1542 22.9231 17.1621 22.9231 14.9615C22.9231 10.5645 19.3586 7 14.9615 7C10.5645 7 7 10.5645 7 14.9615C7 19.3586 10.5645 22.9231 14.9615 22.9231C17.158 22.9231 19.1467 22.0336 20.5871 20.5953Z"
                   stroke="currentColor"
                   stroke-linecap="round"
                 />
               </svg>
-              <input
-                class="py-2 px-0 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent placeholder-bulma text-bulma"
-                id="moon-search-input"
-                spellcheck="false"
-                type="text"
-                value=""
-              />
-              <button
-                class="cursor-pointer text-trunks text-moon-14 transition absolute right-4 top-1/2 transform -translate-y-1/2"
-                tabindex="-1"
-                type="button"
-              >
-                Clear
-              </button>
             </div>
+            <input
+              aria-label="Search"
+              autocomplete="off"
+              class="moon-search-input py-2 px-0 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent placeholder-bulma text-bulma text-moon-14"
+              spellcheck="false"
+              type="text"
+              value=""
+            />
+            <button
+              class="cursor-pointer text-trunks text-moon-14 transition transform"
+              tabindex="-1"
+              type="button"
+            >
+              Clear
+            </button>
           </div>
         </div>
       </div>
@@ -165,34 +324,37 @@ Object {
       >
         <div>
           <div
-            class="relative w-full h-full bg-gohan flex flex-col divide-y dark:divide-beerus rounded-moon-s-sm"
+            class="relative w-full h-full bg-goku flex flex-col border border-beerus transition-all [&_.moon-search-result]:top-10 [&_.moon-search-transition>.moon-search-result]:top-0 rounded-moon-s-sm"
           >
             <div
-              class="flex items-center space-x-1.5 pl-3 moon-search-input"
+              class="flex items-center px-2 gap-2 moon-search-input"
             >
-              <svg
-                class="w-6 h-6 pointer-events-none text-bulma"
-                fill="none"
-                height="1em"
-                viewBox="0 0 32 32"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M25 25l-4.413-4.405m0 0A7.962 7.962 0 109.336 9.327a7.962 7.962 0 0011.251 11.268z"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                />
-              </svg>
+              <div>
+                <svg
+                  class="pointer-events-none text-bulma text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M25 25L20.5871 20.5953M20.5871 20.5953C22.0303 19.1542 22.9231 17.1621 22.9231 14.9615C22.9231 10.5645 19.3586 7 14.9615 7C10.5645 7 7 10.5645 7 14.9615C7 19.3586 10.5645 22.9231 14.9615 22.9231C17.158 22.9231 19.1467 22.0336 20.5871 20.5953Z"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </div>
               <input
-                class="py-2 px-0 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent placeholder-bulma text-bulma"
-                id="moon-search-input"
+                aria-label="Search"
+                autocomplete="off"
+                class="moon-search-input py-2 px-0 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent placeholder-bulma text-bulma text-moon-14"
                 spellcheck="false"
                 type="text"
                 value=""
               />
               <button
-                class="cursor-pointer text-trunks text-moon-14 transition absolute right-4 top-1/2 transform -translate-y-1/2"
+                class="cursor-pointer text-trunks text-moon-14 transition transform"
                 tabindex="-1"
                 type="button"
               >
@@ -210,34 +372,190 @@ Object {
     >
       <div>
         <div
-          class="relative w-full h-full bg-gohan flex flex-col divide-y dark:divide-beerus rounded-moon-s-sm"
+          class="relative w-full h-full bg-goku flex flex-col border border-beerus transition-all [&_.moon-search-result]:top-10 [&_.moon-search-transition>.moon-search-result]:top-0 rounded-moon-s-sm"
         >
           <div
-            class="flex items-center space-x-1.5 pl-3 moon-search-input"
+            class="flex items-center px-2 gap-2 moon-search-input"
           >
-            <svg
-              class="w-6 h-6 pointer-events-none text-bulma"
-              fill="none"
-              height="1em"
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M25 25l-4.413-4.405m0 0A7.962 7.962 0 109.336 9.327a7.962 7.962 0 0011.251 11.268z"
-                stroke="currentColor"
-                stroke-linecap="round"
-              />
-            </svg>
+            <div>
+              <svg
+                class="pointer-events-none text-bulma text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 25L20.5871 20.5953M20.5871 20.5953C22.0303 19.1542 22.9231 17.1621 22.9231 14.9615C22.9231 10.5645 19.3586 7 14.9615 7C10.5645 7 7 10.5645 7 14.9615C7 19.3586 10.5645 22.9231 14.9615 22.9231C17.158 22.9231 19.1467 22.0336 20.5871 20.5953Z"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
             <input
-              class="py-2 px-0 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent placeholder-bulma text-bulma"
-              id="moon-search-input"
+              aria-label="Search"
+              autocomplete="off"
+              class="moon-search-input py-2 px-0 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent placeholder-bulma text-bulma text-moon-14"
               spellcheck="false"
               type="text"
               value=""
             />
             <button
-              class="cursor-pointer text-trunks text-moon-14 transition absolute right-4 top-1/2 transform -translate-y-1/2"
+              class="cursor-pointer text-trunks text-moon-14 transition transform"
+              tabindex="-1"
+              type="button"
+            >
+              Clear
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Search renders NoTransition 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="w-full xl:mx-32"
+      >
+        <div>
+          <div
+            class="relative w-full h-full bg-goku flex flex-col border border-beerus transition-all [&_.moon-search-result]:top-10 [&_.moon-search-transition>.moon-search-result]:top-0 rounded-moon-s-sm"
+          >
+            <div
+              class="flex items-center px-2 gap-2 moon-search-input"
+            >
+              <div>
+                <svg
+                  class="pointer-events-none text-bulma text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M25 25L20.5871 20.5953M20.5871 20.5953C22.0303 19.1542 22.9231 17.1621 22.9231 14.9615C22.9231 10.5645 19.3586 7 14.9615 7C10.5645 7 7 10.5645 7 14.9615C7 19.3586 10.5645 22.9231 14.9615 22.9231C17.158 22.9231 19.1467 22.0336 20.5871 20.5953Z"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </div>
+              <input
+                aria-label="Search"
+                autocomplete="off"
+                class="moon-search-input py-2 px-0 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent placeholder-bulma text-bulma text-moon-14"
+                spellcheck="false"
+                type="text"
+                value=""
+              />
+              <button
+                class="cursor-pointer text-trunks text-moon-14 transition transform"
+                tabindex="-1"
+                type="button"
+              >
+                Clear
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="w-full xl:mx-32"
+    >
+      <div>
+        <div
+          class="relative w-full h-full bg-goku flex flex-col border border-beerus transition-all [&_.moon-search-result]:top-10 [&_.moon-search-transition>.moon-search-result]:top-0 rounded-moon-s-sm"
+        >
+          <div
+            class="flex items-center px-2 gap-2 moon-search-input"
+          >
+            <div>
+              <svg
+                class="pointer-events-none text-bulma text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 25L20.5871 20.5953M20.5871 20.5953C22.0303 19.1542 22.9231 17.1621 22.9231 14.9615C22.9231 10.5645 19.3586 7 14.9615 7C10.5645 7 7 10.5645 7 14.9615C7 19.3586 10.5645 22.9231 14.9615 22.9231C17.158 22.9231 19.1467 22.0336 20.5871 20.5953Z"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+            <input
+              aria-label="Search"
+              autocomplete="off"
+              class="moon-search-input py-2 px-0 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent placeholder-bulma text-bulma text-moon-14"
+              spellcheck="false"
+              type="text"
+              value=""
+            />
+            <button
+              class="cursor-pointer text-trunks text-moon-14 transition transform"
               tabindex="-1"
               type="button"
             >

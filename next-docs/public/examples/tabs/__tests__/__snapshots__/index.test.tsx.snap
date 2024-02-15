@@ -8,83 +8,6 @@ Object {
       <div
         dir="rtl"
       >
-        <div>
-          <div
-            aria-orientation="horizontal"
-            class="flex items-center justify-center w-fit gap-2"
-            role="tablist"
-          >
-            <button
-              aria-controls="headlessui-tabs-panel-:r1j:"
-              aria-selected="true"
-              class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
-              data-headlessui-state="selected"
-              id="headlessui-tabs-tab-:r1g:"
-              role="tab"
-              tabindex="0"
-              type="button"
-            >
-              Tab 1
-            </button>
-            <button
-              aria-controls="headlessui-tabs-panel-:r1k:"
-              aria-selected="false"
-              class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
-              data-headlessui-state=""
-              id="headlessui-tabs-tab-:r1h:"
-              role="tab"
-              tabindex="-1"
-              type="button"
-            >
-              Tab 2
-            </button>
-            <button
-              aria-controls="headlessui-tabs-panel-:r1l:"
-              aria-selected="false"
-              class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
-              data-headlessui-state=""
-              id="headlessui-tabs-tab-:r1i:"
-              role="tab"
-              tabindex="-1"
-              type="button"
-            >
-              Tab 3
-            </button>
-          </div>
-          <div>
-            <div
-              aria-labelledby="headlessui-tabs-tab-:r1g:"
-              data-headlessui-state="selected"
-              id="headlessui-tabs-panel-:r1j:"
-              role="tabpanel"
-              tabindex="0"
-            >
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            </div>
-            <span
-              aria-labelledby="headlessui-tabs-tab-:r1h:"
-              id="headlessui-tabs-panel-:r1k:"
-              role="tabpanel"
-              style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
-              tabindex="-1"
-            />
-            <span
-              aria-labelledby="headlessui-tabs-tab-:r1i:"
-              id="headlessui-tabs-panel-:r1l:"
-              role="tabpanel"
-              style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
-              tabindex="-1"
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      dir="rtl"
-    >
-      <div>
         <div
           aria-orientation="horizontal"
           class="flex items-center justify-center w-fit gap-2"
@@ -93,7 +16,7 @@ Object {
           <button
             aria-controls="headlessui-tabs-panel-:r1j:"
             aria-selected="true"
-            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-100 text-piccolo"
             data-headlessui-state="selected"
             id="headlessui-tabs-tab-:r1g:"
             role="tab"
@@ -105,7 +28,7 @@ Object {
           <button
             aria-controls="headlessui-tabs-panel-:r1k:"
             aria-selected="false"
-            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:r1h:"
             role="tab"
@@ -117,7 +40,7 @@ Object {
           <button
             aria-controls="headlessui-tabs-panel-:r1l:"
             aria-selected="false"
-            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:r1i:"
             role="tab"
@@ -152,6 +75,79 @@ Object {
             tabindex="-1"
           />
         </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <div
+        aria-orientation="horizontal"
+        class="flex items-center justify-center w-fit gap-2"
+        role="tablist"
+      >
+        <button
+          aria-controls="headlessui-tabs-panel-:r1j:"
+          aria-selected="true"
+          class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-100 text-piccolo"
+          data-headlessui-state="selected"
+          id="headlessui-tabs-tab-:r1g:"
+          role="tab"
+          tabindex="0"
+          type="button"
+        >
+          Tab 1
+        </button>
+        <button
+          aria-controls="headlessui-tabs-panel-:r1k:"
+          aria-selected="false"
+          class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none"
+          data-headlessui-state=""
+          id="headlessui-tabs-tab-:r1h:"
+          role="tab"
+          tabindex="-1"
+          type="button"
+        >
+          Tab 2
+        </button>
+        <button
+          aria-controls="headlessui-tabs-panel-:r1l:"
+          aria-selected="false"
+          class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none"
+          data-headlessui-state=""
+          id="headlessui-tabs-tab-:r1i:"
+          role="tab"
+          tabindex="-1"
+          type="button"
+        >
+          Tab 3
+        </button>
+      </div>
+      <div>
+        <div
+          aria-labelledby="headlessui-tabs-tab-:r1g:"
+          data-headlessui-state="selected"
+          id="headlessui-tabs-panel-:r1j:"
+          role="tabpanel"
+          tabindex="0"
+        >
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        </div>
+        <span
+          aria-labelledby="headlessui-tabs-tab-:r1h:"
+          id="headlessui-tabs-panel-:r1k:"
+          role="tabpanel"
+          style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+          tabindex="-1"
+        />
+        <span
+          aria-labelledby="headlessui-tabs-tab-:r1i:"
+          id="headlessui-tabs-panel-:r1l:"
+          role="tabpanel"
+          style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+          tabindex="-1"
+        />
       </div>
     </div>
   </div>,
@@ -217,83 +213,6 @@ Object {
       <div
         dir="rtl"
       >
-        <div>
-          <div
-            aria-orientation="horizontal"
-            class="flex items-center justify-center w-fit gap-2"
-            role="tablist"
-          >
-            <button
-              aria-controls="headlessui-tabs-panel-:r2b:"
-              aria-selected="true"
-              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
-              data-headlessui-state="selected"
-              id="headlessui-tabs-tab-:r28:"
-              role="tab"
-              tabindex="0"
-              type="button"
-            >
-              Tab 1
-            </button>
-            <button
-              aria-controls="headlessui-tabs-panel-:r2c:"
-              aria-selected="false"
-              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
-              data-headlessui-state=""
-              id="headlessui-tabs-tab-:r29:"
-              role="tab"
-              tabindex="-1"
-              type="button"
-            >
-              Tab 2
-            </button>
-            <button
-              aria-controls="headlessui-tabs-panel-:r2d:"
-              aria-selected="false"
-              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
-              data-headlessui-state=""
-              id="headlessui-tabs-tab-:r2a:"
-              role="tab"
-              tabindex="-1"
-              type="button"
-            >
-              Tab 3
-            </button>
-          </div>
-          <div>
-            <div
-              aria-labelledby="headlessui-tabs-tab-:r28:"
-              data-headlessui-state="selected"
-              id="headlessui-tabs-panel-:r2b:"
-              role="tabpanel"
-              tabindex="0"
-            >
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            </div>
-            <span
-              aria-labelledby="headlessui-tabs-tab-:r29:"
-              id="headlessui-tabs-panel-:r2c:"
-              role="tabpanel"
-              style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
-              tabindex="-1"
-            />
-            <span
-              aria-labelledby="headlessui-tabs-tab-:r2a:"
-              id="headlessui-tabs-panel-:r2d:"
-              role="tabpanel"
-              style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
-              tabindex="-1"
-            />
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      dir="rtl"
-    >
-      <div>
         <div
           aria-orientation="horizontal"
           class="flex items-center justify-center w-fit gap-2"
@@ -302,7 +221,7 @@ Object {
           <button
             aria-controls="headlessui-tabs-panel-:r2b:"
             aria-selected="true"
-            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
             data-headlessui-state="selected"
             id="headlessui-tabs-tab-:r28:"
             role="tab"
@@ -314,7 +233,7 @@ Object {
           <button
             aria-controls="headlessui-tabs-panel-:r2c:"
             aria-selected="false"
-            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:r29:"
             role="tab"
@@ -326,7 +245,7 @@ Object {
           <button
             aria-controls="headlessui-tabs-panel-:r2d:"
             aria-selected="false"
-            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:r2a:"
             role="tab"
@@ -361,6 +280,79 @@ Object {
             tabindex="-1"
           />
         </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <div
+        aria-orientation="horizontal"
+        class="flex items-center justify-center w-fit gap-2"
+        role="tablist"
+      >
+        <button
+          aria-controls="headlessui-tabs-panel-:r2b:"
+          aria-selected="true"
+          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
+          data-headlessui-state="selected"
+          id="headlessui-tabs-tab-:r28:"
+          role="tab"
+          tabindex="0"
+          type="button"
+        >
+          Tab 1
+        </button>
+        <button
+          aria-controls="headlessui-tabs-panel-:r2c:"
+          aria-selected="false"
+          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
+          data-headlessui-state=""
+          id="headlessui-tabs-tab-:r29:"
+          role="tab"
+          tabindex="-1"
+          type="button"
+        >
+          Tab 2
+        </button>
+        <button
+          aria-controls="headlessui-tabs-panel-:r2d:"
+          aria-selected="false"
+          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
+          data-headlessui-state=""
+          id="headlessui-tabs-tab-:r2a:"
+          role="tab"
+          tabindex="-1"
+          type="button"
+        >
+          Tab 3
+        </button>
+      </div>
+      <div>
+        <div
+          aria-labelledby="headlessui-tabs-tab-:r28:"
+          data-headlessui-state="selected"
+          id="headlessui-tabs-panel-:r2b:"
+          role="tabpanel"
+          tabindex="0"
+        >
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        </div>
+        <span
+          aria-labelledby="headlessui-tabs-tab-:r29:"
+          id="headlessui-tabs-panel-:r2c:"
+          role="tabpanel"
+          style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+          tabindex="-1"
+        />
+        <span
+          aria-labelledby="headlessui-tabs-tab-:r2a:"
+          id="headlessui-tabs-panel-:r2d:"
+          role="tabpanel"
+          style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+          tabindex="-1"
+        />
       </div>
     </div>
   </div>,
@@ -436,7 +428,7 @@ Object {
           >
             <button
               aria-selected="true"
-              class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+              class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-100 text-piccolo"
               data-headlessui-state="selected"
               id="headlessui-tabs-tab-:r2e:"
               role="tab"
@@ -447,7 +439,7 @@ Object {
             </button>
             <button
               aria-selected="false"
-              class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+              class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none"
               data-headlessui-state=""
               id="headlessui-tabs-tab-:r2f:"
               role="tab"
@@ -458,7 +450,7 @@ Object {
             </button>
             <button
               aria-selected="false"
-              class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+              class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none"
               data-headlessui-state=""
               id="headlessui-tabs-tab-:r2g:"
               role="tab"
@@ -475,7 +467,7 @@ Object {
           >
             <button
               aria-selected="true"
-              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
               data-headlessui-state="selected"
               id="headlessui-tabs-tab-:r2h:"
               role="tab"
@@ -486,7 +478,7 @@ Object {
             </button>
             <button
               aria-selected="false"
-              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
               data-headlessui-state=""
               id="headlessui-tabs-tab-:r2i:"
               role="tab"
@@ -497,7 +489,7 @@ Object {
             </button>
             <button
               aria-selected="false"
-              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
               data-headlessui-state=""
               id="headlessui-tabs-tab-:r2j:"
               role="tab"
@@ -525,7 +517,7 @@ Object {
         >
           <button
             aria-selected="true"
-            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-100 text-piccolo"
             data-headlessui-state="selected"
             id="headlessui-tabs-tab-:r2e:"
             role="tab"
@@ -536,7 +528,7 @@ Object {
           </button>
           <button
             aria-selected="false"
-            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:r2f:"
             role="tab"
@@ -547,7 +539,7 @@ Object {
           </button>
           <button
             aria-selected="false"
-            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:r2g:"
             role="tab"
@@ -564,7 +556,7 @@ Object {
         >
           <button
             aria-selected="true"
-            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
             data-headlessui-state="selected"
             id="headlessui-tabs-tab-:r2h:"
             role="tab"
@@ -575,7 +567,7 @@ Object {
           </button>
           <button
             aria-selected="false"
-            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:r2i:"
             role="tab"
@@ -586,7 +578,7 @@ Object {
           </button>
           <button
             aria-selected="false"
-            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:r2j:"
             role="tab"
@@ -663,12 +655,12 @@ Object {
       >
         <div
           aria-orientation="horizontal"
-          class="flex items-center justify-center w-fit gap-1 p-1 bg-goku rounded-moon-s-sm"
+          class="flex items-center justify-center w-fit gap-1 p-1 bg-gohan rounded-moon-s-sm"
           role="tablist"
         >
           <button
             aria-selected="true"
-            class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+            class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
             data-headlessui-state="selected"
             id="headlessui-tabs-tab-:r1m:"
             role="tab"
@@ -679,7 +671,7 @@ Object {
           </button>
           <button
             aria-selected="false"
-            class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+            class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:r1n:"
             role="tab"
@@ -690,7 +682,7 @@ Object {
           </button>
           <button
             aria-selected="false"
-            class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+            class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:r1o:"
             role="tab"
@@ -702,12 +694,12 @@ Object {
         </div>
         <div
           aria-orientation="horizontal"
-          class="flex items-center justify-center w-fit gap-1 p-1 bg-goku rounded-moon-s-md"
+          class="flex items-center justify-center w-fit gap-1 p-1 bg-gohan rounded-moon-s-md"
           role="tablist"
         >
           <button
             aria-selected="true"
-            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
             data-headlessui-state="selected"
             id="headlessui-tabs-tab-:r1p:"
             role="tab"
@@ -718,7 +710,7 @@ Object {
           </button>
           <button
             aria-selected="false"
-            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:r1q:"
             role="tab"
@@ -729,7 +721,7 @@ Object {
           </button>
           <button
             aria-selected="false"
-            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:r1r:"
             role="tab"
@@ -748,12 +740,12 @@ Object {
     >
       <div
         aria-orientation="horizontal"
-        class="flex items-center justify-center w-fit gap-1 p-1 bg-goku rounded-moon-s-sm"
+        class="flex items-center justify-center w-fit gap-1 p-1 bg-gohan rounded-moon-s-sm"
         role="tablist"
       >
         <button
           aria-selected="true"
-          class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+          class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
           data-headlessui-state="selected"
           id="headlessui-tabs-tab-:r1m:"
           role="tab"
@@ -764,7 +756,7 @@ Object {
         </button>
         <button
           aria-selected="false"
-          class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+          class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
           data-headlessui-state=""
           id="headlessui-tabs-tab-:r1n:"
           role="tab"
@@ -775,7 +767,7 @@ Object {
         </button>
         <button
           aria-selected="false"
-          class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+          class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
           data-headlessui-state=""
           id="headlessui-tabs-tab-:r1o:"
           role="tab"
@@ -787,12 +779,12 @@ Object {
       </div>
       <div
         aria-orientation="horizontal"
-        class="flex items-center justify-center w-fit gap-1 p-1 bg-goku rounded-moon-s-md"
+        class="flex items-center justify-center w-fit gap-1 p-1 bg-gohan rounded-moon-s-md"
         role="tablist"
       >
         <button
           aria-selected="true"
-          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
           data-headlessui-state="selected"
           id="headlessui-tabs-tab-:r1p:"
           role="tab"
@@ -803,7 +795,7 @@ Object {
         </button>
         <button
           aria-selected="false"
-          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
           data-headlessui-state=""
           id="headlessui-tabs-tab-:r1q:"
           role="tab"
@@ -814,7 +806,7 @@ Object {
         </button>
         <button
           aria-selected="false"
-          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
           data-headlessui-state=""
           id="headlessui-tabs-tab-:r1r:"
           role="tab"
@@ -901,7 +893,7 @@ Object {
             >
               <button
                 aria-selected="true"
-                class="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+                class="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-100 text-piccolo"
                 data-headlessui-state="selected"
                 id="headlessui-tabs-tab-:r1s:"
                 role="tab"
@@ -912,7 +904,7 @@ Object {
               </button>
               <button
                 aria-selected="false"
-                class="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+                class="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none"
                 data-headlessui-state=""
                 id="headlessui-tabs-tab-:r1t:"
                 role="tab"
@@ -923,7 +915,7 @@ Object {
               </button>
               <button
                 aria-selected="false"
-                class="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+                class="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none"
                 data-headlessui-state=""
                 id="headlessui-tabs-tab-:r1u:"
                 role="tab"
@@ -940,7 +932,7 @@ Object {
             >
               <button
                 aria-selected="true"
-                class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+                class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-100 text-piccolo"
                 data-headlessui-state="selected"
                 id="headlessui-tabs-tab-:r1v:"
                 role="tab"
@@ -951,7 +943,7 @@ Object {
               </button>
               <button
                 aria-selected="false"
-                class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+                class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none"
                 data-headlessui-state=""
                 id="headlessui-tabs-tab-:r20:"
                 role="tab"
@@ -962,7 +954,7 @@ Object {
               </button>
               <button
                 aria-selected="false"
-                class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+                class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none"
                 data-headlessui-state=""
                 id="headlessui-tabs-tab-:r21:"
                 role="tab"
@@ -983,7 +975,7 @@ Object {
             >
               <button
                 aria-selected="true"
-                class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+                class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
                 data-headlessui-state="selected"
                 id="headlessui-tabs-tab-:r22:"
                 role="tab"
@@ -994,7 +986,7 @@ Object {
               </button>
               <button
                 aria-selected="false"
-                class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+                class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
                 data-headlessui-state=""
                 id="headlessui-tabs-tab-:r23:"
                 role="tab"
@@ -1005,7 +997,7 @@ Object {
               </button>
               <button
                 aria-selected="false"
-                class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+                class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
                 data-headlessui-state=""
                 id="headlessui-tabs-tab-:r24:"
                 role="tab"
@@ -1022,7 +1014,7 @@ Object {
             >
               <button
                 aria-selected="true"
-                class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+                class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
                 data-headlessui-state="selected"
                 id="headlessui-tabs-tab-:r25:"
                 role="tab"
@@ -1033,7 +1025,7 @@ Object {
               </button>
               <button
                 aria-selected="false"
-                class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+                class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
                 data-headlessui-state=""
                 id="headlessui-tabs-tab-:r26:"
                 role="tab"
@@ -1044,7 +1036,7 @@ Object {
               </button>
               <button
                 aria-selected="false"
-                class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+                class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
                 data-headlessui-state=""
                 id="headlessui-tabs-tab-:r27:"
                 role="tab"
@@ -1076,7 +1068,7 @@ Object {
           >
             <button
               aria-selected="true"
-              class="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+              class="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-100 text-piccolo"
               data-headlessui-state="selected"
               id="headlessui-tabs-tab-:r1s:"
               role="tab"
@@ -1087,7 +1079,7 @@ Object {
             </button>
             <button
               aria-selected="false"
-              class="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+              class="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none"
               data-headlessui-state=""
               id="headlessui-tabs-tab-:r1t:"
               role="tab"
@@ -1098,7 +1090,7 @@ Object {
             </button>
             <button
               aria-selected="false"
-              class="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+              class="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none"
               data-headlessui-state=""
               id="headlessui-tabs-tab-:r1u:"
               role="tab"
@@ -1115,7 +1107,7 @@ Object {
           >
             <button
               aria-selected="true"
-              class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+              class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-100 text-piccolo"
               data-headlessui-state="selected"
               id="headlessui-tabs-tab-:r1v:"
               role="tab"
@@ -1126,7 +1118,7 @@ Object {
             </button>
             <button
               aria-selected="false"
-              class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+              class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none"
               data-headlessui-state=""
               id="headlessui-tabs-tab-:r20:"
               role="tab"
@@ -1137,7 +1129,7 @@ Object {
             </button>
             <button
               aria-selected="false"
-              class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+              class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none"
               data-headlessui-state=""
               id="headlessui-tabs-tab-:r21:"
               role="tab"
@@ -1158,7 +1150,7 @@ Object {
           >
             <button
               aria-selected="true"
-              class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+              class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
               data-headlessui-state="selected"
               id="headlessui-tabs-tab-:r22:"
               role="tab"
@@ -1169,7 +1161,7 @@ Object {
             </button>
             <button
               aria-selected="false"
-              class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+              class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
               data-headlessui-state=""
               id="headlessui-tabs-tab-:r23:"
               role="tab"
@@ -1180,7 +1172,7 @@ Object {
             </button>
             <button
               aria-selected="false"
-              class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+              class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
               data-headlessui-state=""
               id="headlessui-tabs-tab-:r24:"
               role="tab"
@@ -1197,7 +1189,7 @@ Object {
           >
             <button
               aria-selected="true"
-              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
               data-headlessui-state="selected"
               id="headlessui-tabs-tab-:r25:"
               role="tab"
@@ -1208,7 +1200,7 @@ Object {
             </button>
             <button
               aria-selected="false"
-              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
               data-headlessui-state=""
               id="headlessui-tabs-tab-:r26:"
               role="tab"
@@ -1219,7 +1211,7 @@ Object {
             </button>
             <button
               aria-selected="false"
-              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
               data-headlessui-state=""
               id="headlessui-tabs-tab-:r27:"
               role="tab"
@@ -1305,7 +1297,7 @@ Object {
           >
             <button
               aria-selected="true"
-              class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 focus:outline-none after:origin-top-left after:scale-x-100 hover:text-hit after:bg-hit text-hit"
+              class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 focus:outline-none ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-100 hover:text-hit after:bg-hit text-hit"
               data-headlessui-state="selected"
               id="headlessui-tabs-tab-:r2k:"
               role="tab"
@@ -1316,7 +1308,7 @@ Object {
             </button>
             <button
               aria-selected="false"
-              class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 focus:outline-none hover:text-hit after:bg-hit false"
+              class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 focus:outline-none hover:text-hit after:bg-hit false"
               data-headlessui-state=""
               id="headlessui-tabs-tab-:r2l:"
               role="tab"
@@ -1327,7 +1319,7 @@ Object {
             </button>
             <button
               aria-selected="false"
-              class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 focus:outline-none hover:text-hit after:bg-hit false"
+              class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 focus:outline-none hover:text-hit after:bg-hit false"
               data-headlessui-state=""
               id="headlessui-tabs-tab-:r2m:"
               role="tab"
@@ -1344,7 +1336,7 @@ Object {
           >
             <button
               aria-selected="true"
-              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer focus:outline-none bg-gohan hover:bg-hit/30 moon-selected:bg-hit/30"
+              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer focus:outline-none bg-goku hover:bg-hit/30 moon-selected:bg-hit/30"
               data-headlessui-state="selected"
               id="headlessui-tabs-tab-:r2n:"
               role="tab"
@@ -1406,7 +1398,7 @@ Object {
         >
           <button
             aria-selected="true"
-            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 focus:outline-none after:origin-top-left after:scale-x-100 hover:text-hit after:bg-hit text-hit"
+            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 focus:outline-none ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-100 hover:text-hit after:bg-hit text-hit"
             data-headlessui-state="selected"
             id="headlessui-tabs-tab-:r2k:"
             role="tab"
@@ -1417,7 +1409,7 @@ Object {
           </button>
           <button
             aria-selected="false"
-            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 focus:outline-none hover:text-hit after:bg-hit false"
+            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 focus:outline-none hover:text-hit after:bg-hit false"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:r2l:"
             role="tab"
@@ -1428,7 +1420,7 @@ Object {
           </button>
           <button
             aria-selected="false"
-            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 focus:outline-none hover:text-hit after:bg-hit false"
+            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 focus:outline-none hover:text-hit after:bg-hit false"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:r2m:"
             role="tab"
@@ -1445,7 +1437,7 @@ Object {
         >
           <button
             aria-selected="true"
-            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer focus:outline-none bg-gohan hover:bg-hit/30 moon-selected:bg-hit/30"
+            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer focus:outline-none bg-goku hover:bg-hit/30 moon-selected:bg-hit/30"
             data-headlessui-state="selected"
             id="headlessui-tabs-tab-:r2n:"
             role="tab"
@@ -1554,83 +1546,6 @@ Object {
       <div
         dir="rtl"
       >
-        <div>
-          <div
-            aria-orientation="horizontal"
-            class="flex items-center justify-center w-fit gap-2"
-            role="tablist"
-          >
-            <button
-              aria-controls="headlessui-tabs-panel-:r2t:"
-              aria-selected="false"
-              class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
-              data-headlessui-state=""
-              id="headlessui-tabs-tab-:r2q:"
-              role="tab"
-              tabindex="-1"
-              type="button"
-            >
-              Tab 1
-            </button>
-            <button
-              aria-controls="headlessui-tabs-panel-:r2u:"
-              aria-selected="false"
-              class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
-              data-headlessui-state=""
-              id="headlessui-tabs-tab-:r2r:"
-              role="tab"
-              tabindex="-1"
-              type="button"
-            >
-              Tab 2
-            </button>
-            <button
-              aria-controls="headlessui-tabs-panel-:r2v:"
-              aria-selected="true"
-              class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
-              data-headlessui-state="selected"
-              id="headlessui-tabs-tab-:r2s:"
-              role="tab"
-              tabindex="0"
-              type="button"
-            >
-              Tab 3
-            </button>
-          </div>
-          <div>
-            <span
-              aria-labelledby="headlessui-tabs-tab-:r2q:"
-              id="headlessui-tabs-panel-:r2t:"
-              role="tabpanel"
-              style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
-              tabindex="-1"
-            />
-            <span
-              aria-labelledby="headlessui-tabs-tab-:r2r:"
-              id="headlessui-tabs-panel-:r2u:"
-              role="tabpanel"
-              style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
-              tabindex="-1"
-            />
-            <div
-              aria-labelledby="headlessui-tabs-tab-:r2s:"
-              data-headlessui-state="selected"
-              id="headlessui-tabs-panel-:r2v:"
-              role="tabpanel"
-              tabindex="0"
-            >
-              Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      dir="rtl"
-    >
-      <div>
         <div
           aria-orientation="horizontal"
           class="flex items-center justify-center w-fit gap-2"
@@ -1639,7 +1554,7 @@ Object {
           <button
             aria-controls="headlessui-tabs-panel-:r2t:"
             aria-selected="false"
-            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:r2q:"
             role="tab"
@@ -1651,7 +1566,7 @@ Object {
           <button
             aria-controls="headlessui-tabs-panel-:r2u:"
             aria-selected="false"
-            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:r2r:"
             role="tab"
@@ -1663,7 +1578,7 @@ Object {
           <button
             aria-controls="headlessui-tabs-panel-:r2v:"
             aria-selected="true"
-            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-100 text-piccolo"
             data-headlessui-state="selected"
             id="headlessui-tabs-tab-:r2s:"
             role="tab"
@@ -1697,6 +1612,79 @@ Object {
           >
             Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
           </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <div
+        aria-orientation="horizontal"
+        class="flex items-center justify-center w-fit gap-2"
+        role="tablist"
+      >
+        <button
+          aria-controls="headlessui-tabs-panel-:r2t:"
+          aria-selected="false"
+          class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none"
+          data-headlessui-state=""
+          id="headlessui-tabs-tab-:r2q:"
+          role="tab"
+          tabindex="-1"
+          type="button"
+        >
+          Tab 1
+        </button>
+        <button
+          aria-controls="headlessui-tabs-panel-:r2u:"
+          aria-selected="false"
+          class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none"
+          data-headlessui-state=""
+          id="headlessui-tabs-tab-:r2r:"
+          role="tab"
+          tabindex="-1"
+          type="button"
+        >
+          Tab 2
+        </button>
+        <button
+          aria-controls="headlessui-tabs-panel-:r2v:"
+          aria-selected="true"
+          class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-100 text-piccolo"
+          data-headlessui-state="selected"
+          id="headlessui-tabs-tab-:r2s:"
+          role="tab"
+          tabindex="0"
+          type="button"
+        >
+          Tab 3
+        </button>
+      </div>
+      <div>
+        <span
+          aria-labelledby="headlessui-tabs-tab-:r2q:"
+          id="headlessui-tabs-panel-:r2t:"
+          role="tabpanel"
+          style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+          tabindex="-1"
+        />
+        <span
+          aria-labelledby="headlessui-tabs-tab-:r2r:"
+          id="headlessui-tabs-panel-:r2u:"
+          role="tabpanel"
+          style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+          tabindex="-1"
+        />
+        <div
+          aria-labelledby="headlessui-tabs-tab-:r2s:"
+          data-headlessui-state="selected"
+          id="headlessui-tabs-panel-:r2v:"
+          role="tabpanel"
+          tabindex="0"
+        >
+          Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
         </div>
       </div>
     </div>
@@ -1760,79 +1748,6 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div>
-        <div
-          aria-orientation="horizontal"
-          class="flex items-center justify-center w-fit gap-2"
-          role="tablist"
-        >
-          <button
-            aria-controls="headlessui-tabs-panel-:r3:"
-            aria-selected="true"
-            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
-            data-headlessui-state="selected"
-            id="headlessui-tabs-tab-:r0:"
-            role="tab"
-            tabindex="0"
-            type="button"
-          >
-            Tab 1
-          </button>
-          <button
-            aria-controls="headlessui-tabs-panel-:r4:"
-            aria-selected="false"
-            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
-            data-headlessui-state=""
-            id="headlessui-tabs-tab-:r1:"
-            role="tab"
-            tabindex="-1"
-            type="button"
-          >
-            Tab 2
-          </button>
-          <button
-            aria-controls="headlessui-tabs-panel-:r5:"
-            aria-selected="false"
-            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
-            data-headlessui-state=""
-            id="headlessui-tabs-tab-:r2:"
-            role="tab"
-            tabindex="-1"
-            type="button"
-          >
-            Tab 3
-          </button>
-        </div>
-        <div>
-          <div
-            aria-labelledby="headlessui-tabs-tab-:r0:"
-            data-headlessui-state="selected"
-            id="headlessui-tabs-panel-:r3:"
-            role="tabpanel"
-            tabindex="0"
-          >
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-          </div>
-          <span
-            aria-labelledby="headlessui-tabs-tab-:r1:"
-            id="headlessui-tabs-panel-:r4:"
-            role="tabpanel"
-            style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
-            tabindex="-1"
-          />
-          <span
-            aria-labelledby="headlessui-tabs-tab-:r2:"
-            id="headlessui-tabs-panel-:r5:"
-            role="tabpanel"
-            style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
-            tabindex="-1"
-          />
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div>
       <div
         aria-orientation="horizontal"
         class="flex items-center justify-center w-fit gap-2"
@@ -1841,7 +1756,7 @@ Object {
         <button
           aria-controls="headlessui-tabs-panel-:r3:"
           aria-selected="true"
-          class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+          class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-100 text-piccolo"
           data-headlessui-state="selected"
           id="headlessui-tabs-tab-:r0:"
           role="tab"
@@ -1853,7 +1768,7 @@ Object {
         <button
           aria-controls="headlessui-tabs-panel-:r4:"
           aria-selected="false"
-          class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+          class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none"
           data-headlessui-state=""
           id="headlessui-tabs-tab-:r1:"
           role="tab"
@@ -1865,7 +1780,7 @@ Object {
         <button
           aria-controls="headlessui-tabs-panel-:r5:"
           aria-selected="false"
-          class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+          class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none"
           data-headlessui-state=""
           id="headlessui-tabs-tab-:r2:"
           role="tab"
@@ -1900,6 +1815,75 @@ Object {
           tabindex="-1"
         />
       </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      aria-orientation="horizontal"
+      class="flex items-center justify-center w-fit gap-2"
+      role="tablist"
+    >
+      <button
+        aria-controls="headlessui-tabs-panel-:r3:"
+        aria-selected="true"
+        class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-100 text-piccolo"
+        data-headlessui-state="selected"
+        id="headlessui-tabs-tab-:r0:"
+        role="tab"
+        tabindex="0"
+        type="button"
+      >
+        Tab 1
+      </button>
+      <button
+        aria-controls="headlessui-tabs-panel-:r4:"
+        aria-selected="false"
+        class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none"
+        data-headlessui-state=""
+        id="headlessui-tabs-tab-:r1:"
+        role="tab"
+        tabindex="-1"
+        type="button"
+      >
+        Tab 2
+      </button>
+      <button
+        aria-controls="headlessui-tabs-panel-:r5:"
+        aria-selected="false"
+        class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none"
+        data-headlessui-state=""
+        id="headlessui-tabs-tab-:r2:"
+        role="tab"
+        tabindex="-1"
+        type="button"
+      >
+        Tab 3
+      </button>
+    </div>
+    <div>
+      <div
+        aria-labelledby="headlessui-tabs-tab-:r0:"
+        data-headlessui-state="selected"
+        id="headlessui-tabs-panel-:r3:"
+        role="tabpanel"
+        tabindex="0"
+      >
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+      </div>
+      <span
+        aria-labelledby="headlessui-tabs-tab-:r1:"
+        id="headlessui-tabs-panel-:r4:"
+        role="tabpanel"
+        style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+        tabindex="-1"
+      />
+      <span
+        aria-labelledby="headlessui-tabs-tab-:r2:"
+        id="headlessui-tabs-panel-:r5:"
+        role="tabpanel"
+        style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+        tabindex="-1"
+      />
     </div>
   </div>,
   "debug": [Function],
@@ -1961,79 +1945,6 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div>
-        <div
-          aria-orientation="horizontal"
-          class="flex items-center justify-center w-fit gap-2"
-          role="tablist"
-        >
-          <button
-            aria-controls="headlessui-tabs-panel-:rr:"
-            aria-selected="true"
-            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
-            data-headlessui-state="selected"
-            id="headlessui-tabs-tab-:ro:"
-            role="tab"
-            tabindex="0"
-            type="button"
-          >
-            Tab 1
-          </button>
-          <button
-            aria-controls="headlessui-tabs-panel-:rs:"
-            aria-selected="false"
-            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
-            data-headlessui-state=""
-            id="headlessui-tabs-tab-:rp:"
-            role="tab"
-            tabindex="-1"
-            type="button"
-          >
-            Tab 2
-          </button>
-          <button
-            aria-controls="headlessui-tabs-panel-:rt:"
-            aria-selected="false"
-            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
-            data-headlessui-state=""
-            id="headlessui-tabs-tab-:rq:"
-            role="tab"
-            tabindex="-1"
-            type="button"
-          >
-            Tab 3
-          </button>
-        </div>
-        <div>
-          <div
-            aria-labelledby="headlessui-tabs-tab-:ro:"
-            data-headlessui-state="selected"
-            id="headlessui-tabs-panel-:rr:"
-            role="tabpanel"
-            tabindex="0"
-          >
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-          </div>
-          <span
-            aria-labelledby="headlessui-tabs-tab-:rp:"
-            id="headlessui-tabs-panel-:rs:"
-            role="tabpanel"
-            style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
-            tabindex="-1"
-          />
-          <span
-            aria-labelledby="headlessui-tabs-tab-:rq:"
-            id="headlessui-tabs-panel-:rt:"
-            role="tabpanel"
-            style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
-            tabindex="-1"
-          />
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div>
       <div
         aria-orientation="horizontal"
         class="flex items-center justify-center w-fit gap-2"
@@ -2042,7 +1953,7 @@ Object {
         <button
           aria-controls="headlessui-tabs-panel-:rr:"
           aria-selected="true"
-          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
           data-headlessui-state="selected"
           id="headlessui-tabs-tab-:ro:"
           role="tab"
@@ -2054,7 +1965,7 @@ Object {
         <button
           aria-controls="headlessui-tabs-panel-:rs:"
           aria-selected="false"
-          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
           data-headlessui-state=""
           id="headlessui-tabs-tab-:rp:"
           role="tab"
@@ -2066,7 +1977,7 @@ Object {
         <button
           aria-controls="headlessui-tabs-panel-:rt:"
           aria-selected="false"
-          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
           data-headlessui-state=""
           id="headlessui-tabs-tab-:rq:"
           role="tab"
@@ -2101,6 +2012,75 @@ Object {
           tabindex="-1"
         />
       </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      aria-orientation="horizontal"
+      class="flex items-center justify-center w-fit gap-2"
+      role="tablist"
+    >
+      <button
+        aria-controls="headlessui-tabs-panel-:rr:"
+        aria-selected="true"
+        class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
+        data-headlessui-state="selected"
+        id="headlessui-tabs-tab-:ro:"
+        role="tab"
+        tabindex="0"
+        type="button"
+      >
+        Tab 1
+      </button>
+      <button
+        aria-controls="headlessui-tabs-panel-:rs:"
+        aria-selected="false"
+        class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
+        data-headlessui-state=""
+        id="headlessui-tabs-tab-:rp:"
+        role="tab"
+        tabindex="-1"
+        type="button"
+      >
+        Tab 2
+      </button>
+      <button
+        aria-controls="headlessui-tabs-panel-:rt:"
+        aria-selected="false"
+        class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
+        data-headlessui-state=""
+        id="headlessui-tabs-tab-:rq:"
+        role="tab"
+        tabindex="-1"
+        type="button"
+      >
+        Tab 3
+      </button>
+    </div>
+    <div>
+      <div
+        aria-labelledby="headlessui-tabs-tab-:ro:"
+        data-headlessui-state="selected"
+        id="headlessui-tabs-panel-:rr:"
+        role="tabpanel"
+        tabindex="0"
+      >
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+      </div>
+      <span
+        aria-labelledby="headlessui-tabs-tab-:rp:"
+        id="headlessui-tabs-panel-:rs:"
+        role="tabpanel"
+        style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+        tabindex="-1"
+      />
+      <span
+        aria-labelledby="headlessui-tabs-tab-:rq:"
+        id="headlessui-tabs-panel-:rt:"
+        role="tabpanel"
+        style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+        tabindex="-1"
+      />
     </div>
   </div>,
   "debug": [Function],
@@ -2172,7 +2152,7 @@ Object {
         >
           <button
             aria-selected="true"
-            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-100 text-piccolo"
             data-headlessui-state="selected"
             id="headlessui-tabs-tab-:ru:"
             role="tab"
@@ -2183,7 +2163,7 @@ Object {
           </button>
           <button
             aria-selected="false"
-            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:rv:"
             role="tab"
@@ -2194,7 +2174,7 @@ Object {
           </button>
           <button
             aria-selected="false"
-            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:r10:"
             role="tab"
@@ -2211,7 +2191,7 @@ Object {
         >
           <button
             aria-selected="true"
-            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
             data-headlessui-state="selected"
             id="headlessui-tabs-tab-:r11:"
             role="tab"
@@ -2222,7 +2202,7 @@ Object {
           </button>
           <button
             aria-selected="false"
-            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:r12:"
             role="tab"
@@ -2233,7 +2213,7 @@ Object {
           </button>
           <button
             aria-selected="false"
-            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:r13:"
             role="tab"
@@ -2257,7 +2237,7 @@ Object {
       >
         <button
           aria-selected="true"
-          class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+          class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-100 text-piccolo"
           data-headlessui-state="selected"
           id="headlessui-tabs-tab-:ru:"
           role="tab"
@@ -2268,7 +2248,7 @@ Object {
         </button>
         <button
           aria-selected="false"
-          class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+          class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none"
           data-headlessui-state=""
           id="headlessui-tabs-tab-:rv:"
           role="tab"
@@ -2279,7 +2259,7 @@ Object {
         </button>
         <button
           aria-selected="false"
-          class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+          class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none"
           data-headlessui-state=""
           id="headlessui-tabs-tab-:r10:"
           role="tab"
@@ -2296,7 +2276,7 @@ Object {
       >
         <button
           aria-selected="true"
-          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
           data-headlessui-state="selected"
           id="headlessui-tabs-tab-:r11:"
           role="tab"
@@ -2307,7 +2287,7 @@ Object {
         </button>
         <button
           aria-selected="false"
-          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
           data-headlessui-state=""
           id="headlessui-tabs-tab-:r12:"
           role="tab"
@@ -2318,7 +2298,7 @@ Object {
         </button>
         <button
           aria-selected="false"
-          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
           data-headlessui-state=""
           id="headlessui-tabs-tab-:r13:"
           role="tab"
@@ -2391,12 +2371,12 @@ Object {
     <div>
       <div
         aria-orientation="horizontal"
-        class="flex items-center justify-center w-fit gap-1 p-1 bg-goku rounded-moon-s-sm"
+        class="flex items-center justify-center w-fit gap-1 p-1 bg-gohan rounded-moon-s-sm"
         role="tablist"
       >
         <button
           aria-selected="true"
-          class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+          class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
           data-headlessui-state="selected"
           id="headlessui-tabs-tab-:r6:"
           role="tab"
@@ -2407,7 +2387,7 @@ Object {
         </button>
         <button
           aria-selected="false"
-          class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+          class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
           data-headlessui-state=""
           id="headlessui-tabs-tab-:r7:"
           role="tab"
@@ -2418,7 +2398,7 @@ Object {
         </button>
         <button
           aria-selected="false"
-          class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+          class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
           data-headlessui-state=""
           id="headlessui-tabs-tab-:r8:"
           role="tab"
@@ -2430,12 +2410,12 @@ Object {
       </div>
       <div
         aria-orientation="horizontal"
-        class="flex items-center justify-center w-fit gap-1 p-1 bg-goku rounded-moon-s-md"
+        class="flex items-center justify-center w-fit gap-1 p-1 bg-gohan rounded-moon-s-md"
         role="tablist"
       >
         <button
           aria-selected="true"
-          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
           data-headlessui-state="selected"
           id="headlessui-tabs-tab-:r9:"
           role="tab"
@@ -2446,7 +2426,7 @@ Object {
         </button>
         <button
           aria-selected="false"
-          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
           data-headlessui-state=""
           id="headlessui-tabs-tab-:ra:"
           role="tab"
@@ -2457,7 +2437,7 @@ Object {
         </button>
         <button
           aria-selected="false"
-          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
           data-headlessui-state=""
           id="headlessui-tabs-tab-:rb:"
           role="tab"
@@ -2472,12 +2452,12 @@ Object {
   "container": <div>
     <div
       aria-orientation="horizontal"
-      class="flex items-center justify-center w-fit gap-1 p-1 bg-goku rounded-moon-s-sm"
+      class="flex items-center justify-center w-fit gap-1 p-1 bg-gohan rounded-moon-s-sm"
       role="tablist"
     >
       <button
         aria-selected="true"
-        class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+        class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
         data-headlessui-state="selected"
         id="headlessui-tabs-tab-:r6:"
         role="tab"
@@ -2488,7 +2468,7 @@ Object {
       </button>
       <button
         aria-selected="false"
-        class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+        class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
         data-headlessui-state=""
         id="headlessui-tabs-tab-:r7:"
         role="tab"
@@ -2499,7 +2479,7 @@ Object {
       </button>
       <button
         aria-selected="false"
-        class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+        class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
         data-headlessui-state=""
         id="headlessui-tabs-tab-:r8:"
         role="tab"
@@ -2511,12 +2491,12 @@ Object {
     </div>
     <div
       aria-orientation="horizontal"
-      class="flex items-center justify-center w-fit gap-1 p-1 bg-goku rounded-moon-s-md"
+      class="flex items-center justify-center w-fit gap-1 p-1 bg-gohan rounded-moon-s-md"
       role="tablist"
     >
       <button
         aria-selected="true"
-        class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+        class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
         data-headlessui-state="selected"
         id="headlessui-tabs-tab-:r9:"
         role="tab"
@@ -2527,7 +2507,7 @@ Object {
       </button>
       <button
         aria-selected="false"
-        class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+        class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
         data-headlessui-state=""
         id="headlessui-tabs-tab-:ra:"
         role="tab"
@@ -2538,7 +2518,7 @@ Object {
       </button>
       <button
         aria-selected="false"
-        class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+        class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
         data-headlessui-state=""
         id="headlessui-tabs-tab-:rb:"
         role="tab"
@@ -2621,7 +2601,7 @@ Object {
           >
             <button
               aria-selected="true"
-              class="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+              class="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-100 text-piccolo"
               data-headlessui-state="selected"
               id="headlessui-tabs-tab-:rc:"
               role="tab"
@@ -2632,7 +2612,7 @@ Object {
             </button>
             <button
               aria-selected="false"
-              class="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+              class="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none"
               data-headlessui-state=""
               id="headlessui-tabs-tab-:rd:"
               role="tab"
@@ -2643,7 +2623,7 @@ Object {
             </button>
             <button
               aria-selected="false"
-              class="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+              class="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none"
               data-headlessui-state=""
               id="headlessui-tabs-tab-:re:"
               role="tab"
@@ -2660,7 +2640,7 @@ Object {
           >
             <button
               aria-selected="true"
-              class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+              class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-100 text-piccolo"
               data-headlessui-state="selected"
               id="headlessui-tabs-tab-:rf:"
               role="tab"
@@ -2671,7 +2651,7 @@ Object {
             </button>
             <button
               aria-selected="false"
-              class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+              class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none"
               data-headlessui-state=""
               id="headlessui-tabs-tab-:rg:"
               role="tab"
@@ -2682,7 +2662,7 @@ Object {
             </button>
             <button
               aria-selected="false"
-              class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+              class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none"
               data-headlessui-state=""
               id="headlessui-tabs-tab-:rh:"
               role="tab"
@@ -2703,7 +2683,7 @@ Object {
           >
             <button
               aria-selected="true"
-              class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+              class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
               data-headlessui-state="selected"
               id="headlessui-tabs-tab-:ri:"
               role="tab"
@@ -2714,7 +2694,7 @@ Object {
             </button>
             <button
               aria-selected="false"
-              class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+              class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
               data-headlessui-state=""
               id="headlessui-tabs-tab-:rj:"
               role="tab"
@@ -2725,7 +2705,7 @@ Object {
             </button>
             <button
               aria-selected="false"
-              class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+              class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
               data-headlessui-state=""
               id="headlessui-tabs-tab-:rk:"
               role="tab"
@@ -2742,7 +2722,7 @@ Object {
           >
             <button
               aria-selected="true"
-              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
               data-headlessui-state="selected"
               id="headlessui-tabs-tab-:rl:"
               role="tab"
@@ -2753,7 +2733,7 @@ Object {
             </button>
             <button
               aria-selected="false"
-              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
               data-headlessui-state=""
               id="headlessui-tabs-tab-:rm:"
               role="tab"
@@ -2764,7 +2744,7 @@ Object {
             </button>
             <button
               aria-selected="false"
-              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+              class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
               data-headlessui-state=""
               id="headlessui-tabs-tab-:rn:"
               role="tab"
@@ -2792,7 +2772,7 @@ Object {
         >
           <button
             aria-selected="true"
-            class="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+            class="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-100 text-piccolo"
             data-headlessui-state="selected"
             id="headlessui-tabs-tab-:rc:"
             role="tab"
@@ -2803,7 +2783,7 @@ Object {
           </button>
           <button
             aria-selected="false"
-            class="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+            class="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:rd:"
             role="tab"
@@ -2814,7 +2794,7 @@ Object {
           </button>
           <button
             aria-selected="false"
-            class="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+            class="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:re:"
             role="tab"
@@ -2831,7 +2811,7 @@ Object {
         >
           <button
             aria-selected="true"
-            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-100 text-piccolo"
             data-headlessui-state="selected"
             id="headlessui-tabs-tab-:rf:"
             role="tab"
@@ -2842,7 +2822,7 @@ Object {
           </button>
           <button
             aria-selected="false"
-            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:rg:"
             role="tab"
@@ -2853,7 +2833,7 @@ Object {
           </button>
           <button
             aria-selected="false"
-            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:rh:"
             role="tab"
@@ -2874,7 +2854,7 @@ Object {
         >
           <button
             aria-selected="true"
-            class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+            class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
             data-headlessui-state="selected"
             id="headlessui-tabs-tab-:ri:"
             role="tab"
@@ -2885,7 +2865,7 @@ Object {
           </button>
           <button
             aria-selected="false"
-            class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+            class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:rj:"
             role="tab"
@@ -2896,7 +2876,7 @@ Object {
           </button>
           <button
             aria-selected="false"
-            class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+            class="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:rk:"
             role="tab"
@@ -2913,7 +2893,7 @@ Object {
         >
           <button
             aria-selected="true"
-            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none bg-goku"
             data-headlessui-state="selected"
             id="headlessui-tabs-tab-:rl:"
             role="tab"
@@ -2924,7 +2904,7 @@ Object {
           </button>
           <button
             aria-selected="false"
-            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:rm:"
             role="tab"
@@ -2935,7 +2915,7 @@ Object {
           </button>
           <button
             aria-selected="false"
-            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-goku focus:outline-none"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:rn:"
             role="tab"
@@ -3017,7 +2997,7 @@ Object {
         >
           <button
             aria-selected="true"
-            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 focus:outline-none after:origin-top-left after:scale-x-100 hover:text-hit after:bg-hit text-hit"
+            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 focus:outline-none ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-100 hover:text-hit after:bg-hit text-hit"
             data-headlessui-state="selected"
             id="headlessui-tabs-tab-:r14:"
             role="tab"
@@ -3028,7 +3008,7 @@ Object {
           </button>
           <button
             aria-selected="false"
-            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 focus:outline-none hover:text-hit after:bg-hit false"
+            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 focus:outline-none hover:text-hit after:bg-hit false"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:r15:"
             role="tab"
@@ -3039,7 +3019,7 @@ Object {
           </button>
           <button
             aria-selected="false"
-            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 focus:outline-none hover:text-hit after:bg-hit false"
+            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 focus:outline-none hover:text-hit after:bg-hit false"
             data-headlessui-state=""
             id="headlessui-tabs-tab-:r16:"
             role="tab"
@@ -3056,7 +3036,7 @@ Object {
         >
           <button
             aria-selected="true"
-            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer focus:outline-none bg-gohan hover:bg-hit/30 moon-selected:bg-hit/30"
+            class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer focus:outline-none bg-goku hover:bg-hit/30 moon-selected:bg-hit/30"
             data-headlessui-state="selected"
             id="headlessui-tabs-tab-:r17:"
             role="tab"
@@ -3114,7 +3094,7 @@ Object {
       >
         <button
           aria-selected="true"
-          class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 focus:outline-none after:origin-top-left after:scale-x-100 hover:text-hit after:bg-hit text-hit"
+          class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 focus:outline-none ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-100 hover:text-hit after:bg-hit text-hit"
           data-headlessui-state="selected"
           id="headlessui-tabs-tab-:r14:"
           role="tab"
@@ -3125,7 +3105,7 @@ Object {
         </button>
         <button
           aria-selected="false"
-          class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 focus:outline-none hover:text-hit after:bg-hit false"
+          class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 focus:outline-none hover:text-hit after:bg-hit false"
           data-headlessui-state=""
           id="headlessui-tabs-tab-:r15:"
           role="tab"
@@ -3136,7 +3116,7 @@ Object {
         </button>
         <button
           aria-selected="false"
-          class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 focus:outline-none hover:text-hit after:bg-hit false"
+          class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 focus:outline-none hover:text-hit after:bg-hit false"
           data-headlessui-state=""
           id="headlessui-tabs-tab-:r16:"
           role="tab"
@@ -3153,7 +3133,7 @@ Object {
       >
         <button
           aria-selected="true"
-          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer focus:outline-none bg-gohan hover:bg-hit/30 moon-selected:bg-hit/30"
+          class="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer focus:outline-none bg-goku hover:bg-hit/30 moon-selected:bg-hit/30"
           data-headlessui-state="selected"
           id="headlessui-tabs-tab-:r17:"
           role="tab"
@@ -3258,79 +3238,6 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div>
-        <div
-          aria-orientation="horizontal"
-          class="flex items-center justify-center w-fit gap-2"
-          role="tablist"
-        >
-          <button
-            aria-controls="headlessui-tabs-panel-:r1d:"
-            aria-selected="false"
-            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
-            data-headlessui-state=""
-            id="headlessui-tabs-tab-:r1a:"
-            role="tab"
-            tabindex="-1"
-            type="button"
-          >
-            Tab 1
-          </button>
-          <button
-            aria-controls="headlessui-tabs-panel-:r1e:"
-            aria-selected="false"
-            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
-            data-headlessui-state=""
-            id="headlessui-tabs-tab-:r1b:"
-            role="tab"
-            tabindex="-1"
-            type="button"
-          >
-            Tab 2
-          </button>
-          <button
-            aria-controls="headlessui-tabs-panel-:r1f:"
-            aria-selected="true"
-            class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
-            data-headlessui-state="selected"
-            id="headlessui-tabs-tab-:r1c:"
-            role="tab"
-            tabindex="0"
-            type="button"
-          >
-            Tab 3
-          </button>
-        </div>
-        <div>
-          <span
-            aria-labelledby="headlessui-tabs-tab-:r1a:"
-            id="headlessui-tabs-panel-:r1d:"
-            role="tabpanel"
-            style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
-            tabindex="-1"
-          />
-          <span
-            aria-labelledby="headlessui-tabs-tab-:r1b:"
-            id="headlessui-tabs-panel-:r1e:"
-            role="tabpanel"
-            style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
-            tabindex="-1"
-          />
-          <div
-            aria-labelledby="headlessui-tabs-tab-:r1c:"
-            data-headlessui-state="selected"
-            id="headlessui-tabs-panel-:r1f:"
-            role="tabpanel"
-            tabindex="0"
-          >
-            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div>
       <div
         aria-orientation="horizontal"
         class="flex items-center justify-center w-fit gap-2"
@@ -3339,7 +3246,7 @@ Object {
         <button
           aria-controls="headlessui-tabs-panel-:r1d:"
           aria-selected="false"
-          class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+          class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none"
           data-headlessui-state=""
           id="headlessui-tabs-tab-:r1a:"
           role="tab"
@@ -3351,7 +3258,7 @@ Object {
         <button
           aria-controls="headlessui-tabs-panel-:r1e:"
           aria-selected="false"
-          class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+          class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none"
           data-headlessui-state=""
           id="headlessui-tabs-tab-:r1b:"
           role="tab"
@@ -3363,7 +3270,7 @@ Object {
         <button
           aria-controls="headlessui-tabs-panel-:r1f:"
           aria-selected="true"
-          class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+          class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-100 text-piccolo"
           data-headlessui-state="selected"
           id="headlessui-tabs-tab-:r1c:"
           role="tab"
@@ -3397,6 +3304,75 @@ Object {
         >
           Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
         </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      aria-orientation="horizontal"
+      class="flex items-center justify-center w-fit gap-2"
+      role="tablist"
+    >
+      <button
+        aria-controls="headlessui-tabs-panel-:r1d:"
+        aria-selected="false"
+        class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none"
+        data-headlessui-state=""
+        id="headlessui-tabs-tab-:r1a:"
+        role="tab"
+        tabindex="-1"
+        type="button"
+      >
+        Tab 1
+      </button>
+      <button
+        aria-controls="headlessui-tabs-panel-:r1e:"
+        aria-selected="false"
+        class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-0 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none"
+        data-headlessui-state=""
+        id="headlessui-tabs-tab-:r1b:"
+        role="tab"
+        tabindex="-1"
+        type="button"
+      >
+        Tab 2
+      </button>
+      <button
+        aria-controls="headlessui-tabs-panel-:r1f:"
+        aria-selected="true"
+        class="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:absolute after:start-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 ltr:hover:after:origin-top-left rtl:hover:after:origin-top-right hover:after:scale-100 hover:text-piccolo focus:outline-none ltr:after:origin-top-left rtl:after:origin-top-right after:scale-x-100 text-piccolo"
+        data-headlessui-state="selected"
+        id="headlessui-tabs-tab-:r1c:"
+        role="tab"
+        tabindex="0"
+        type="button"
+      >
+        Tab 3
+      </button>
+    </div>
+    <div>
+      <span
+        aria-labelledby="headlessui-tabs-tab-:r1a:"
+        id="headlessui-tabs-panel-:r1d:"
+        role="tabpanel"
+        style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+        tabindex="-1"
+      />
+      <span
+        aria-labelledby="headlessui-tabs-tab-:r1b:"
+        id="headlessui-tabs-panel-:r1e:"
+        role="tabpanel"
+        style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+        tabindex="-1"
+      />
+      <div
+        aria-labelledby="headlessui-tabs-tab-:r1c:"
+        data-headlessui-state="selected"
+        id="headlessui-tabs-panel-:r1f:"
+        role="tabpanel"
+        tabindex="0"
+      >
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
       </div>
     </div>
   </div>,

@@ -1,24 +1,25 @@
-import React from 'react';
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Backdrop from '../../public/examples/drawer/Backdrop';
 import Close from '../../public/examples/drawer/Close';
 import Default from '../../public/examples/drawer/Default';
 import Positions from '../../public/examples/drawer/Positions';
-import useExamples from '../../utils/useExamples';
+import useComponent from '../../utils/useComponent';
+import type { ComponentNames } from '../../components/getComponent';
 
-const Example = () => {
-  const examples = useExamples('drawer');
-  const { name, text, image } = getComponent('Drawer');
+const COMPONENT_NAME: ComponentNames = 'Drawer';
+
+const PageDrawer = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
       <ComponentPageDescription
         title={name}
         image={image}
-        isInProgress
         isRtlSupport
         isAriaSupport
       >
@@ -111,4 +112,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+PageDrawer.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageDrawer;

@@ -1,0 +1,28 @@
+{
+  "name": "@heathmont/moon-base-tw",
+  "sideEffects": false,
+  "version": "10.13.1",
+  "files": [
+    "lib"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "repository": "https://github.com/coingaming/moon-design",
+  "author": "Yolo Group",
+  "license": "MIT",
+  "scripts": {
+    "build": "pnpm run build:index && pnpm run build:code",
+    "build:index": "barrelsby --config ../../.config/barrelsby/barrelsby.json --directory src",
+    "build:code": "tsc --project tsconfig.esm.json",
+    "chokidar": "chokidar \"**/*.tsx\" \"**/*.ts\" -i \"lib/**/*.d.ts\" -c \"pnpm run build:code\" "
+  },
+  "dependencies": {
+    "tailwind-merge": "1.14.0"
+  },
+  "peerDependencies": {
+    "react": ">= 18.2.0",
+    "react-dom": ">= 18.2.0"
+  }
+}

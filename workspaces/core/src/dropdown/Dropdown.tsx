@@ -1,23 +1,26 @@
-import React from 'react';
+import React, { Fragment, forwardRef } from 'react';
 import { Listbox } from '@headlessui/react';
 import { usePopper } from 'react-popper';
-import { SelectButton } from '../index';
-import mergeClassnames from '../mergeClassnames/mergeClassnames';
-import DropdownContext from './private/utils/DropdownContext';
-import useDropdownContext from './private/utils/useDropdownContext';
 import type DropdownRootProps from './private/types/DropdownRootProps';
 import type OptionProps from './private/types/OptionProps';
 import type OptionsProps from './private/types/OptionsProps';
 import type SelectProps from './private/types/SelectProps';
 import type WithChildren from './private/types/WithChildren';
+import DropdownContext from './private/utils/DropdownContext';
+import useDropdownContext from './private/utils/useDropdownContext';
+import useFormContext from '../form/private/utils/useFormContext';
+import useFormItemContext from '../form/private/utils/useFormItemContext';
+import GenericHint from '../hint/Hint';
+import { SelectButton } from '../index';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
 const DropdownRoot = ({
   children,
   value,
   onChange,
-  isError,
-  disabled,
-  size = 'md',
+  isError: dropdownError,
+  disabled: dropdownDisabled,
+  size: dropdownSize = 'md',
   className,
   onClear,
   position = 'bottom-start',
@@ -25,6 +28,16 @@ const DropdownRoot = ({
 }: DropdownRootProps) => {
   const [anchorEl, setAnchorEl] = React.useState<Element | null>();
   const [popperEl, setPopperEl] = React.useState<HTMLElement | null>();
+
+  const { size: formSize } = useFormContext('Input');
+  const {
+    size: formItemSize,
+    disabled: formItemDisabled,
+    error: formItemError,
+  } = useFormItemContext('Input');
+  const size = dropdownSize || formItemSize || formSize;
+  const disabled = dropdownDisabled || formItemDisabled;
+  const isError = dropdownError || formItemError;
 
   let { styles, attributes } = usePopper(anchorEl, popperEl, {
     placement: position,
@@ -71,6 +84,15 @@ const DropdownRoot = ({
   );
 };
 
+const HiddenInput = forwardRef<
+  HTMLInputElement,
+  React.InputHTMLAttributes<HTMLInputElement>
+>(({ ...props }, ref) => {
+  const { value: innerValue } = useDropdownContext('Dropdown.Select');
+  const currentValue = props?.value || innerValue;
+  return <input ref={ref} hidden {...props} value={currentValue} />;
+});
+
 const Options = ({
   children,
   menuWidth,
@@ -85,7 +107,7 @@ const Options = ({
       {...pooper?.attributes?.popper}
       className={mergeClassnames(
         menuWidth ? menuWidth : 'w-full min-w-[18.75rem]',
-        'z-5 absolute p-1 my-2 rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none',
+        'z-5 absolute p-1 my-2 rounded-moon-s-md box-border bg-goku shadow-moon-lg overflow-y-auto focus:outline-none',
         className && className
       )}
       {...rest}
@@ -125,26 +147,23 @@ const Select = ({
           {label}
         </SelectButton.Label>
       )}
-      <Listbox.Button as={'div'} ref={pooper?.setAnchor}>
-        <div>
-          <SelectButton
-            size={size}
-            open={open}
-            isError={isError}
-            idDisabled={disabled}
-            {...rest}
-          >
-            <SelectButton.Input className={className}>
-              {children ? (
-                <SelectButton.Value>{children}</SelectButton.Value>
-              ) : (
-                <SelectButton.Placeholder>
-                  {placeholder}
-                </SelectButton.Placeholder>
-              )}
-            </SelectButton.Input>
-          </SelectButton>
-        </div>
+      <Listbox.Button as={Fragment}>
+        <SelectButton
+          size={size}
+          open={open}
+          isError={isError}
+          idDisabled={disabled}
+          ref={pooper?.setAnchor}
+          {...rest}
+        >
+          <SelectButton.Input className={className}>
+            {children ? (
+              <SelectButton.Value>{children}</SelectButton.Value>
+            ) : (
+              <SelectButton.Placeholder>{placeholder}</SelectButton.Placeholder>
+            )}
+          </SelectButton.Input>
+        </SelectButton>
       </Listbox.Button>
     </>
   );
@@ -164,29 +183,26 @@ const InsetSelect = ({
     'Dropdown.InsetSelect'
   );
   return (
-    <Listbox.Button as={'div'} ref={pooper?.setAnchor}>
-      <div>
-        <SelectButton
-          size={size}
-          open={open}
-          isError={isError}
-          idDisabled={disabled}
-          {...rest}
-        >
-          <SelectButton.InsetInput className={className}>
-            <span className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap">
-              <SelectButton.FloatingLabel>{label}</SelectButton.FloatingLabel>
-              {children ? (
-                <SelectButton.Value>{children}</SelectButton.Value>
-              ) : (
-                <SelectButton.Placeholder>
-                  {placeholder}
-                </SelectButton.Placeholder>
-              )}
-            </span>
-          </SelectButton.InsetInput>
-        </SelectButton>
-      </div>
+    <Listbox.Button as={Fragment}>
+      <SelectButton
+        size={size}
+        open={open}
+        isError={isError}
+        idDisabled={disabled}
+        ref={pooper?.setAnchor}
+        {...rest}
+      >
+        <SelectButton.InsetInput className={className}>
+          <span className="flex flex-col items-start truncate">
+            <SelectButton.FloatingLabel>{label}</SelectButton.FloatingLabel>
+            {children ? (
+              <SelectButton.Value>{children}</SelectButton.Value>
+            ) : (
+              <SelectButton.Placeholder>{placeholder}</SelectButton.Placeholder>
+            )}
+          </span>
+        </SelectButton.InsetInput>
+      </SelectButton>
     </Listbox.Button>
   );
 };
@@ -212,31 +228,26 @@ const MultiSelect = ({
           {label}
         </SelectButton.Label>
       )}
-      <Listbox.Button as={'div'} ref={pooper?.setAnchor}>
-        <div>
-          <SelectButton
-            size={size}
-            open={open}
-            isError={isError}
-            idDisabled={disabled}
-            {...rest}
-          >
-            <SelectButton.Input className={mergeClassnames(className)}>
-              <span className="flex gap-2 items-center">
-                {counter > 0 && (
-                  <SelectButton.Value>
-                    <SelectButton.Chip onClear={onClear}>
-                      {counter}
-                    </SelectButton.Chip>
-                  </SelectButton.Value>
-                )}
-                <SelectButton.Placeholder>
-                  {placeholder}
-                </SelectButton.Placeholder>
-              </span>
-            </SelectButton.Input>
-          </SelectButton>
-        </div>
+      <Listbox.Button as={Fragment}>
+        <SelectButton
+          size={size}
+          open={open}
+          isError={isError}
+          idDisabled={disabled}
+          ref={pooper?.setAnchor}
+          {...rest}
+        >
+          <SelectButton.Input className={mergeClassnames(className)}>
+            <span className="flex w-full gap-2 items-center">
+              {counter > 0 && (
+                <SelectButton.Chip onClear={onClear}>
+                  {counter}
+                </SelectButton.Chip>
+              )}
+              <SelectButton.Placeholder>{placeholder}</SelectButton.Placeholder>
+            </span>
+          </SelectButton.Input>
+        </SelectButton>
       </Listbox.Button>
     </>
   );
@@ -257,32 +268,27 @@ const InsetMultiSelect = ({
     'Dropdown.InsetMultiSelect'
   );
   return (
-    <Listbox.Button as={'div'} ref={pooper?.setAnchor}>
-      <div>
-        <SelectButton
-          size={size}
-          open={open}
-          isError={isError}
-          idDisabled={disabled}
-          {...rest}
+    <Listbox.Button as={Fragment}>
+      <SelectButton
+        size={size}
+        open={open}
+        isError={isError}
+        idDisabled={disabled}
+        ref={pooper?.setAnchor}
+        {...rest}
+      >
+        <SelectButton.InsetInput
+          className={mergeClassnames(className, '[&_>_span]:gap-4')}
         >
-          <SelectButton.InsetInput
-            className={mergeClassnames(className, '[&_>_span]:gap-4')}
-          >
-            {counter > 0 && (
-              <SelectButton.Value>
-                <SelectButton.Chip onClear={onClear}>
-                  {counter}
-                </SelectButton.Chip>
-              </SelectButton.Value>
-            )}
-            <span className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap">
-              <SelectButton.FloatingLabel>{label}</SelectButton.FloatingLabel>
-              <SelectButton.Placeholder>{placeholder}</SelectButton.Placeholder>
-            </span>
-          </SelectButton.InsetInput>
-        </SelectButton>
-      </div>
+          {counter > 0 && (
+            <SelectButton.Chip onClear={onClear}>{counter}</SelectButton.Chip>
+          )}
+          <span className="flex flex-col items-start truncate">
+            <SelectButton.FloatingLabel>{label}</SelectButton.FloatingLabel>
+            <SelectButton.Placeholder>{placeholder}</SelectButton.Placeholder>
+          </span>
+        </SelectButton.InsetInput>
+      </SelectButton>
     </Listbox.Button>
   );
 };
@@ -291,11 +297,16 @@ const InsetMultiSelect = ({
 const Trigger = ({
   children,
   className,
+  ...rest
 }: WithChildren<{ className?: string }>) => {
   const { pooper } = useDropdownContext('Dropdown.Trigger');
   return (
-    <Listbox.Button as={'div'} ref={pooper?.setAnchor}>
-      <div className={className && className}>{children}</div>
+    <Listbox.Button
+      ref={pooper?.setAnchor}
+      className={className && className}
+      {...rest}
+    >
+      {children}
     </Listbox.Button>
   );
 };
@@ -307,17 +318,9 @@ const Hint = ({
 }: WithChildren<{ className?: string }>) => {
   const { isError, disabled } = useDropdownContext('Dropdown.Input');
   return (
-    <p
-      role="alert"
-      className={mergeClassnames(
-        'inline-block mt-2 ps-4 text-moon-12',
-        isError ? 'text-chichi' : 'text-trunks',
-        disabled && 'opacity-30 cursor-not-allowed',
-        className && className
-      )}
-    >
+    <GenericHint error={isError} disabled={disabled} className={className}>
       {children}
-    </p>
+    </GenericHint>
   );
 };
 
@@ -331,6 +334,7 @@ const Dropdown = Object.assign(DropdownRoot, {
   InsetSelect,
   MultiSelect,
   InsetMultiSelect,
+  HiddenInput,
 });
 
 export default Dropdown;

@@ -1,0 +1,2025 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Combobox in RTL renders Default 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        dir="rtl"
+      >
+        <span
+          class="w-full flex flex-col justify-between bg-goku transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm px-3 py-2"
+          tabindex="-1"
+        >
+          <div
+            class="flex flex-wrap justify-start items-start gap-1"
+          />
+          <input
+            class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared flex-grow border-0 !rounded-none bg-transparent px-0 leading-6 h-6 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16"
+            type="text"
+          />
+        </span>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <span
+        class="w-full flex flex-col justify-between bg-goku transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm px-3 py-2"
+        tabindex="-1"
+      >
+        <div
+          class="flex flex-wrap justify-start items-start gap-1"
+        />
+        <input
+          class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared flex-grow border-0 !rounded-none bg-transparent px-0 leading-6 h-6 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16"
+          type="text"
+        />
+      </span>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Combobox in RTL renders Sizes 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        dir="rtl"
+      >
+        <div
+          class="flex flex-col items-center w-full h-50"
+        >
+          <div
+            class="flex flex-col items-center lg:flex-row lg:justify-center lg:items-end w-full gap-2"
+          >
+            <div
+              class="flex flex-col w-full"
+            >
+              <label
+                class="block text-bulma pb-2 text-moon-14"
+                data-headlessui-state=""
+                id="headlessui-listbox-label-:r7:"
+              >
+                Small
+              </label>
+              <span
+                class="w-full flex flex-col justify-between bg-goku transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-xs px-2 py-1"
+                tabindex="-1"
+              >
+                <div
+                  class="flex flex-wrap justify-start items-start gap-1"
+                />
+                <input
+                  class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared flex-grow border-0 !rounded-none bg-transparent px-0 leading-6 h-6 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-14"
+                  type="text"
+                />
+              </span>
+            </div>
+            <div
+              class="flex flex-col w-full"
+            >
+              <label
+                class="block text-bulma pb-2 text-moon-16"
+                data-headlessui-state=""
+                id="headlessui-listbox-label-:r8:"
+              >
+                Medium (default)
+              </label>
+              <span
+                class="w-full flex flex-col justify-between bg-goku transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm px-3 py-2"
+                tabindex="-1"
+              >
+                <div
+                  class="flex flex-wrap justify-start items-start gap-1"
+                />
+                <input
+                  class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared flex-grow border-0 !rounded-none bg-transparent px-0 leading-6 h-6 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16"
+                  type="text"
+                />
+              </span>
+            </div>
+            <div
+              class="flex flex-col w-full"
+            >
+              <label
+                class="block text-bulma pb-2 text-moon-16"
+                data-headlessui-state=""
+                id="headlessui-listbox-label-:r9:"
+              >
+                Large
+              </label>
+              <span
+                class="w-full flex flex-col justify-between bg-goku transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm px-3 py-3"
+                tabindex="-1"
+              >
+                <div
+                  class="flex flex-wrap justify-start items-start gap-1"
+                />
+                <input
+                  class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared flex-grow border-0 !rounded-none bg-transparent px-0 leading-6 h-6 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16"
+                  type="text"
+                />
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <div
+        class="flex flex-col items-center w-full h-50"
+      >
+        <div
+          class="flex flex-col items-center lg:flex-row lg:justify-center lg:items-end w-full gap-2"
+        >
+          <div
+            class="flex flex-col w-full"
+          >
+            <label
+              class="block text-bulma pb-2 text-moon-14"
+              data-headlessui-state=""
+              id="headlessui-listbox-label-:r7:"
+            >
+              Small
+            </label>
+            <span
+              class="w-full flex flex-col justify-between bg-goku transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-xs px-2 py-1"
+              tabindex="-1"
+            >
+              <div
+                class="flex flex-wrap justify-start items-start gap-1"
+              />
+              <input
+                class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared flex-grow border-0 !rounded-none bg-transparent px-0 leading-6 h-6 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-14"
+                type="text"
+              />
+            </span>
+          </div>
+          <div
+            class="flex flex-col w-full"
+          >
+            <label
+              class="block text-bulma pb-2 text-moon-16"
+              data-headlessui-state=""
+              id="headlessui-listbox-label-:r8:"
+            >
+              Medium (default)
+            </label>
+            <span
+              class="w-full flex flex-col justify-between bg-goku transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm px-3 py-2"
+              tabindex="-1"
+            >
+              <div
+                class="flex flex-wrap justify-start items-start gap-1"
+              />
+              <input
+                class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared flex-grow border-0 !rounded-none bg-transparent px-0 leading-6 h-6 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16"
+                type="text"
+              />
+            </span>
+          </div>
+          <div
+            class="flex flex-col w-full"
+          >
+            <label
+              class="block text-bulma pb-2 text-moon-16"
+              data-headlessui-state=""
+              id="headlessui-listbox-label-:r9:"
+            >
+              Large
+            </label>
+            <span
+              class="w-full flex flex-col justify-between bg-goku transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm px-3 py-3"
+              tabindex="-1"
+            >
+              <div
+                class="flex flex-wrap justify-start items-start gap-1"
+              />
+              <input
+                class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared flex-grow border-0 !rounded-none bg-transparent px-0 leading-6 h-6 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16"
+                type="text"
+              />
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Combobox in RTL renders States 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        dir="rtl"
+      >
+        <div
+          class="flex flex-col items-center w-full h-50"
+        >
+          <div
+            class="flex flex-col items-center lg:flex-row lg:justify-center lg:items-start w-full gap-2"
+          >
+            <div
+              class="flex flex-col w-full"
+            >
+              <label
+                class="block text-bulma pb-2 text-moon-16 opacity-60 cursor-not-allowed"
+                data-headlessui-state=""
+                id="headlessui-listbox-label-:ra:"
+              >
+                Disabled
+              </label>
+              <span
+                class="w-full flex flex-col justify-between bg-goku transition-shadow gap-y-1 focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm px-3 py-2 opacity-60 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed"
+                tabindex="-1"
+              >
+                <div
+                  class="flex flex-wrap justify-start items-start gap-1"
+                >
+                  <div
+                    class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
+                      >
+                        <span
+                          class="break-all truncate"
+                        >
+                          Preset data
+                        </span>
+                        <span
+                          class="text-moon-16"
+                        >
+                          <svg
+                            class="cursor-pointer"
+                            fill="none"
+                            height="1em"
+                            viewBox="0 0 32 32"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
+                              stroke="currentColor"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <input
+                  class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared opacity-60 cursor-not-allowed flex-grow border-0 !rounded-none bg-transparent px-0 leading-6 h-6 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16"
+                  disabled=""
+                  type="text"
+                />
+              </span>
+              <p
+                class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-trunks opacity-60 cursor-not-allowed"
+                role="alert"
+              >
+                Informative message holder
+              </p>
+            </div>
+            <div
+              class="flex flex-col w-full"
+            >
+              <label
+                class="block text-bulma pb-2 text-moon-16"
+                data-headlessui-state=""
+                id="headlessui-listbox-label-:rb:"
+              >
+                Error
+              </label>
+              <span
+                class="w-full flex flex-col justify-between bg-goku transition-shadow gap-y-1 focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm px-3 py-2 shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err"
+                tabindex="-1"
+              >
+                <div
+                  class="flex flex-wrap justify-start items-start gap-1"
+                >
+                  <div
+                    class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
+                      >
+                        <span
+                          class="break-all truncate"
+                        >
+                          Preset data
+                        </span>
+                        <span
+                          class="text-moon-16"
+                        >
+                          <svg
+                            class="cursor-pointer"
+                            fill="none"
+                            height="1em"
+                            viewBox="0 0 32 32"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
+                              stroke="currentColor"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <input
+                  class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err flex-grow border-0 !rounded-none bg-transparent px-0 leading-6 h-6 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16"
+                  type="text"
+                />
+              </span>
+              <p
+                class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-chichi"
+                role="alert"
+              >
+                <svg
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16 21.2778V14.9444M16 12.3056V10.7222M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                Informative message holder
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <div
+        class="flex flex-col items-center w-full h-50"
+      >
+        <div
+          class="flex flex-col items-center lg:flex-row lg:justify-center lg:items-start w-full gap-2"
+        >
+          <div
+            class="flex flex-col w-full"
+          >
+            <label
+              class="block text-bulma pb-2 text-moon-16 opacity-60 cursor-not-allowed"
+              data-headlessui-state=""
+              id="headlessui-listbox-label-:ra:"
+            >
+              Disabled
+            </label>
+            <span
+              class="w-full flex flex-col justify-between bg-goku transition-shadow gap-y-1 focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm px-3 py-2 opacity-60 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed"
+              tabindex="-1"
+            >
+              <div
+                class="flex flex-wrap justify-start items-start gap-1"
+              >
+                <div
+                  class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
+                >
+                  <div
+                    class="relative"
+                  >
+                    <div
+                      class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
+                    >
+                      <span
+                        class="break-all truncate"
+                      >
+                        Preset data
+                      </span>
+                      <span
+                        class="text-moon-16"
+                      >
+                        <svg
+                          class="cursor-pointer"
+                          fill="none"
+                          height="1em"
+                          viewBox="0 0 32 32"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <input
+                class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared opacity-60 cursor-not-allowed flex-grow border-0 !rounded-none bg-transparent px-0 leading-6 h-6 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16"
+                disabled=""
+                type="text"
+              />
+            </span>
+            <p
+              class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-trunks opacity-60 cursor-not-allowed"
+              role="alert"
+            >
+              Informative message holder
+            </p>
+          </div>
+          <div
+            class="flex flex-col w-full"
+          >
+            <label
+              class="block text-bulma pb-2 text-moon-16"
+              data-headlessui-state=""
+              id="headlessui-listbox-label-:rb:"
+            >
+              Error
+            </label>
+            <span
+              class="w-full flex flex-col justify-between bg-goku transition-shadow gap-y-1 focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm px-3 py-2 shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err"
+              tabindex="-1"
+            >
+              <div
+                class="flex flex-wrap justify-start items-start gap-1"
+              >
+                <div
+                  class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
+                >
+                  <div
+                    class="relative"
+                  >
+                    <div
+                      class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
+                    >
+                      <span
+                        class="break-all truncate"
+                      >
+                        Preset data
+                      </span>
+                      <span
+                        class="text-moon-16"
+                      >
+                        <svg
+                          class="cursor-pointer"
+                          fill="none"
+                          height="1em"
+                          viewBox="0 0 32 32"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <input
+                class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err flex-grow border-0 !rounded-none bg-transparent px-0 leading-6 h-6 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16"
+                type="text"
+              />
+            </span>
+            <p
+              class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-chichi"
+              role="alert"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16 21.2778V14.9444M16 12.3056V10.7222M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              Informative message holder
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Combobox in RTL renders TagsCases 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        dir="rtl"
+      >
+        <div
+          class="flex flex-col items-center w-full h-50"
+        >
+          <div
+            class="flex flex-col items-center lg:flex-row lg:justify-center lg:items-start w-full gap-2"
+          >
+            <div
+              class="flex flex-col w-full"
+            >
+              <label
+                class="block text-bulma pb-2 text-moon-16"
+                data-headlessui-state=""
+                id="headlessui-listbox-label-:rc:"
+              >
+                Lower
+              </label>
+              <span
+                class="w-full flex flex-col justify-between bg-goku transition-shadow gap-y-1 shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm px-3 py-2"
+                tabindex="-1"
+              >
+                <div
+                  class="flex flex-wrap justify-start items-start gap-1"
+                >
+                  <div
+                    class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-12"
+                      >
+                        <span
+                          class="break-all truncate"
+                        >
+                          Preset data
+                        </span>
+                        <span
+                          class="text-moon-16"
+                        >
+                          <svg
+                            class="cursor-pointer"
+                            fill="none"
+                            height="1em"
+                            viewBox="0 0 32 32"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
+                              stroke="currentColor"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <input
+                  class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared flex-grow border-0 !rounded-none bg-transparent px-0 leading-6 h-6 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16"
+                  type="text"
+                />
+              </span>
+            </div>
+            <div
+              class="flex flex-col w-full"
+            >
+              <label
+                class="block text-bulma pb-2 text-moon-16"
+                data-headlessui-state=""
+                id="headlessui-listbox-label-:rd:"
+              >
+                Capitalized
+              </label>
+              <span
+                class="w-full flex flex-col justify-between bg-goku transition-shadow gap-y-1 shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm px-3 py-2"
+                tabindex="-1"
+              >
+                <div
+                  class="flex flex-wrap justify-start items-start gap-1"
+                >
+                  <div
+                    class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
+                  >
+                    <div
+                      class="relative"
+                    >
+                      <div
+                        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
+                      >
+                        <span
+                          class="break-all truncate"
+                        >
+                          Preset data
+                        </span>
+                        <span
+                          class="text-moon-16"
+                        >
+                          <svg
+                            class="cursor-pointer"
+                            fill="none"
+                            height="1em"
+                            viewBox="0 0 32 32"
+                            width="1em"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
+                              stroke="currentColor"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <input
+                  class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared flex-grow border-0 !rounded-none bg-transparent px-0 leading-6 h-6 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16"
+                  type="text"
+                />
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <div
+        class="flex flex-col items-center w-full h-50"
+      >
+        <div
+          class="flex flex-col items-center lg:flex-row lg:justify-center lg:items-start w-full gap-2"
+        >
+          <div
+            class="flex flex-col w-full"
+          >
+            <label
+              class="block text-bulma pb-2 text-moon-16"
+              data-headlessui-state=""
+              id="headlessui-listbox-label-:rc:"
+            >
+              Lower
+            </label>
+            <span
+              class="w-full flex flex-col justify-between bg-goku transition-shadow gap-y-1 shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm px-3 py-2"
+              tabindex="-1"
+            >
+              <div
+                class="flex flex-wrap justify-start items-start gap-1"
+              >
+                <div
+                  class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
+                >
+                  <div
+                    class="relative"
+                  >
+                    <div
+                      class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-12"
+                    >
+                      <span
+                        class="break-all truncate"
+                      >
+                        Preset data
+                      </span>
+                      <span
+                        class="text-moon-16"
+                      >
+                        <svg
+                          class="cursor-pointer"
+                          fill="none"
+                          height="1em"
+                          viewBox="0 0 32 32"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <input
+                class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared flex-grow border-0 !rounded-none bg-transparent px-0 leading-6 h-6 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16"
+                type="text"
+              />
+            </span>
+          </div>
+          <div
+            class="flex flex-col w-full"
+          >
+            <label
+              class="block text-bulma pb-2 text-moon-16"
+              data-headlessui-state=""
+              id="headlessui-listbox-label-:rd:"
+            >
+              Capitalized
+            </label>
+            <span
+              class="w-full flex flex-col justify-between bg-goku transition-shadow gap-y-1 shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm px-3 py-2"
+              tabindex="-1"
+            >
+              <div
+                class="flex flex-wrap justify-start items-start gap-1"
+              >
+                <div
+                  class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
+                >
+                  <div
+                    class="relative"
+                  >
+                    <div
+                      class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
+                    >
+                      <span
+                        class="break-all truncate"
+                      >
+                        Preset data
+                      </span>
+                      <span
+                        class="text-moon-16"
+                      >
+                        <svg
+                          class="cursor-pointer"
+                          fill="none"
+                          height="1em"
+                          viewBox="0 0 32 32"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <input
+                class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared flex-grow border-0 !rounded-none bg-transparent px-0 leading-6 h-6 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16"
+                type="text"
+              />
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Combobox renders Default 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <span
+        class="w-full flex flex-col justify-between bg-goku transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm px-3 py-2"
+        tabindex="-1"
+      >
+        <div
+          class="flex flex-wrap justify-start items-start gap-1"
+        />
+        <input
+          class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared flex-grow border-0 !rounded-none bg-transparent px-0 leading-6 h-6 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16"
+          type="text"
+        />
+      </span>
+    </div>
+  </body>,
+  "container": <div>
+    <span
+      class="w-full flex flex-col justify-between bg-goku transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm px-3 py-2"
+      tabindex="-1"
+    >
+      <div
+        class="flex flex-wrap justify-start items-start gap-1"
+      />
+      <input
+        class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared flex-grow border-0 !rounded-none bg-transparent px-0 leading-6 h-6 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16"
+        type="text"
+      />
+    </span>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Combobox renders Sizes 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex flex-col items-center w-full h-50"
+      >
+        <div
+          class="flex flex-col items-center lg:flex-row lg:justify-center lg:items-end w-full gap-2"
+        >
+          <div
+            class="flex flex-col w-full"
+          >
+            <label
+              class="block text-bulma pb-2 text-moon-14"
+              data-headlessui-state=""
+              id="headlessui-listbox-label-:r0:"
+            >
+              Small
+            </label>
+            <span
+              class="w-full flex flex-col justify-between bg-goku transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-xs px-2 py-1"
+              tabindex="-1"
+            >
+              <div
+                class="flex flex-wrap justify-start items-start gap-1"
+              />
+              <input
+                class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared flex-grow border-0 !rounded-none bg-transparent px-0 leading-6 h-6 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-14"
+                type="text"
+              />
+            </span>
+          </div>
+          <div
+            class="flex flex-col w-full"
+          >
+            <label
+              class="block text-bulma pb-2 text-moon-16"
+              data-headlessui-state=""
+              id="headlessui-listbox-label-:r1:"
+            >
+              Medium (default)
+            </label>
+            <span
+              class="w-full flex flex-col justify-between bg-goku transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm px-3 py-2"
+              tabindex="-1"
+            >
+              <div
+                class="flex flex-wrap justify-start items-start gap-1"
+              />
+              <input
+                class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared flex-grow border-0 !rounded-none bg-transparent px-0 leading-6 h-6 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16"
+                type="text"
+              />
+            </span>
+          </div>
+          <div
+            class="flex flex-col w-full"
+          >
+            <label
+              class="block text-bulma pb-2 text-moon-16"
+              data-headlessui-state=""
+              id="headlessui-listbox-label-:r2:"
+            >
+              Large
+            </label>
+            <span
+              class="w-full flex flex-col justify-between bg-goku transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm px-3 py-3"
+              tabindex="-1"
+            >
+              <div
+                class="flex flex-wrap justify-start items-start gap-1"
+              />
+              <input
+                class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared flex-grow border-0 !rounded-none bg-transparent px-0 leading-6 h-6 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16"
+                type="text"
+              />
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex flex-col items-center w-full h-50"
+    >
+      <div
+        class="flex flex-col items-center lg:flex-row lg:justify-center lg:items-end w-full gap-2"
+      >
+        <div
+          class="flex flex-col w-full"
+        >
+          <label
+            class="block text-bulma pb-2 text-moon-14"
+            data-headlessui-state=""
+            id="headlessui-listbox-label-:r0:"
+          >
+            Small
+          </label>
+          <span
+            class="w-full flex flex-col justify-between bg-goku transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-xs px-2 py-1"
+            tabindex="-1"
+          >
+            <div
+              class="flex flex-wrap justify-start items-start gap-1"
+            />
+            <input
+              class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared flex-grow border-0 !rounded-none bg-transparent px-0 leading-6 h-6 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-14"
+              type="text"
+            />
+          </span>
+        </div>
+        <div
+          class="flex flex-col w-full"
+        >
+          <label
+            class="block text-bulma pb-2 text-moon-16"
+            data-headlessui-state=""
+            id="headlessui-listbox-label-:r1:"
+          >
+            Medium (default)
+          </label>
+          <span
+            class="w-full flex flex-col justify-between bg-goku transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm px-3 py-2"
+            tabindex="-1"
+          >
+            <div
+              class="flex flex-wrap justify-start items-start gap-1"
+            />
+            <input
+              class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared flex-grow border-0 !rounded-none bg-transparent px-0 leading-6 h-6 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16"
+              type="text"
+            />
+          </span>
+        </div>
+        <div
+          class="flex flex-col w-full"
+        >
+          <label
+            class="block text-bulma pb-2 text-moon-16"
+            data-headlessui-state=""
+            id="headlessui-listbox-label-:r2:"
+          >
+            Large
+          </label>
+          <span
+            class="w-full flex flex-col justify-between bg-goku transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm px-3 py-3"
+            tabindex="-1"
+          >
+            <div
+              class="flex flex-wrap justify-start items-start gap-1"
+            />
+            <input
+              class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared flex-grow border-0 !rounded-none bg-transparent px-0 leading-6 h-6 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16"
+              type="text"
+            />
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Combobox renders States 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex flex-col items-center w-full h-50"
+      >
+        <div
+          class="flex flex-col items-center lg:flex-row lg:justify-center lg:items-start w-full gap-2"
+        >
+          <div
+            class="flex flex-col w-full"
+          >
+            <label
+              class="block text-bulma pb-2 text-moon-16 opacity-60 cursor-not-allowed"
+              data-headlessui-state=""
+              id="headlessui-listbox-label-:r3:"
+            >
+              Disabled
+            </label>
+            <span
+              class="w-full flex flex-col justify-between bg-goku transition-shadow gap-y-1 focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm px-3 py-2 opacity-60 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed"
+              tabindex="-1"
+            >
+              <div
+                class="flex flex-wrap justify-start items-start gap-1"
+              >
+                <div
+                  class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
+                >
+                  <div
+                    class="relative"
+                  >
+                    <div
+                      class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
+                    >
+                      <span
+                        class="break-all truncate"
+                      >
+                        Preset data
+                      </span>
+                      <span
+                        class="text-moon-16"
+                      >
+                        <svg
+                          class="cursor-pointer"
+                          fill="none"
+                          height="1em"
+                          viewBox="0 0 32 32"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <input
+                class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared opacity-60 cursor-not-allowed flex-grow border-0 !rounded-none bg-transparent px-0 leading-6 h-6 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16"
+                disabled=""
+                type="text"
+              />
+            </span>
+            <p
+              class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-trunks opacity-60 cursor-not-allowed"
+              role="alert"
+            >
+              Informative message holder
+            </p>
+          </div>
+          <div
+            class="flex flex-col w-full"
+          >
+            <label
+              class="block text-bulma pb-2 text-moon-16"
+              data-headlessui-state=""
+              id="headlessui-listbox-label-:r4:"
+            >
+              Error
+            </label>
+            <span
+              class="w-full flex flex-col justify-between bg-goku transition-shadow gap-y-1 focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm px-3 py-2 shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err"
+              tabindex="-1"
+            >
+              <div
+                class="flex flex-wrap justify-start items-start gap-1"
+              >
+                <div
+                  class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
+                >
+                  <div
+                    class="relative"
+                  >
+                    <div
+                      class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
+                    >
+                      <span
+                        class="break-all truncate"
+                      >
+                        Preset data
+                      </span>
+                      <span
+                        class="text-moon-16"
+                      >
+                        <svg
+                          class="cursor-pointer"
+                          fill="none"
+                          height="1em"
+                          viewBox="0 0 32 32"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <input
+                class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err flex-grow border-0 !rounded-none bg-transparent px-0 leading-6 h-6 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16"
+                type="text"
+              />
+            </span>
+            <p
+              class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-chichi"
+              role="alert"
+            >
+              <svg
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16 21.2778V14.9444M16 12.3056V10.7222M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              Informative message holder
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex flex-col items-center w-full h-50"
+    >
+      <div
+        class="flex flex-col items-center lg:flex-row lg:justify-center lg:items-start w-full gap-2"
+      >
+        <div
+          class="flex flex-col w-full"
+        >
+          <label
+            class="block text-bulma pb-2 text-moon-16 opacity-60 cursor-not-allowed"
+            data-headlessui-state=""
+            id="headlessui-listbox-label-:r3:"
+          >
+            Disabled
+          </label>
+          <span
+            class="w-full flex flex-col justify-between bg-goku transition-shadow gap-y-1 focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm px-3 py-2 opacity-60 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed"
+            tabindex="-1"
+          >
+            <div
+              class="flex flex-wrap justify-start items-start gap-1"
+            >
+              <div
+                class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
+              >
+                <div
+                  class="relative"
+                >
+                  <div
+                    class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
+                  >
+                    <span
+                      class="break-all truncate"
+                    >
+                      Preset data
+                    </span>
+                    <span
+                      class="text-moon-16"
+                    >
+                      <svg
+                        class="cursor-pointer"
+                        fill="none"
+                        height="1em"
+                        viewBox="0 0 32 32"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <input
+              class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared opacity-60 cursor-not-allowed flex-grow border-0 !rounded-none bg-transparent px-0 leading-6 h-6 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16"
+              disabled=""
+              type="text"
+            />
+          </span>
+          <p
+            class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-trunks opacity-60 cursor-not-allowed"
+            role="alert"
+          >
+            Informative message holder
+          </p>
+        </div>
+        <div
+          class="flex flex-col w-full"
+        >
+          <label
+            class="block text-bulma pb-2 text-moon-16"
+            data-headlessui-state=""
+            id="headlessui-listbox-label-:r4:"
+          >
+            Error
+          </label>
+          <span
+            class="w-full flex flex-col justify-between bg-goku transition-shadow gap-y-1 focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm px-3 py-2 shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err"
+            tabindex="-1"
+          >
+            <div
+              class="flex flex-wrap justify-start items-start gap-1"
+            >
+              <div
+                class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
+              >
+                <div
+                  class="relative"
+                >
+                  <div
+                    class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
+                  >
+                    <span
+                      class="break-all truncate"
+                    >
+                      Preset data
+                    </span>
+                    <span
+                      class="text-moon-16"
+                    >
+                      <svg
+                        class="cursor-pointer"
+                        fill="none"
+                        height="1em"
+                        viewBox="0 0 32 32"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <input
+              class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err flex-grow border-0 !rounded-none bg-transparent px-0 leading-6 h-6 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16"
+              type="text"
+            />
+          </span>
+          <p
+            class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-chichi"
+            role="alert"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16 21.2778V14.9444M16 12.3056V10.7222M25.5 16C25.5 21.2467 21.2467 25.5 16 25.5C10.7533 25.5 6.5 21.2467 6.5 16C6.5 10.7533 10.7533 6.5 16 6.5C21.2467 6.5 25.5 10.7533 25.5 16Z"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            Informative message holder
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Combobox renders TagsCases 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex flex-col items-center w-full h-50"
+      >
+        <div
+          class="flex flex-col items-center lg:flex-row lg:justify-center lg:items-start w-full gap-2"
+        >
+          <div
+            class="flex flex-col w-full"
+          >
+            <label
+              class="block text-bulma pb-2 text-moon-16"
+              data-headlessui-state=""
+              id="headlessui-listbox-label-:r5:"
+            >
+              Lower
+            </label>
+            <span
+              class="w-full flex flex-col justify-between bg-goku transition-shadow gap-y-1 shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm px-3 py-2"
+              tabindex="-1"
+            >
+              <div
+                class="flex flex-wrap justify-start items-start gap-1"
+              >
+                <div
+                  class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
+                >
+                  <div
+                    class="relative"
+                  >
+                    <div
+                      class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-12"
+                    >
+                      <span
+                        class="break-all truncate"
+                      >
+                        Preset data
+                      </span>
+                      <span
+                        class="text-moon-16"
+                      >
+                        <svg
+                          class="cursor-pointer"
+                          fill="none"
+                          height="1em"
+                          viewBox="0 0 32 32"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <input
+                class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared flex-grow border-0 !rounded-none bg-transparent px-0 leading-6 h-6 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16"
+                type="text"
+              />
+            </span>
+          </div>
+          <div
+            class="flex flex-col w-full"
+          >
+            <label
+              class="block text-bulma pb-2 text-moon-16"
+              data-headlessui-state=""
+              id="headlessui-listbox-label-:r6:"
+            >
+              Capitalized
+            </label>
+            <span
+              class="w-full flex flex-col justify-between bg-goku transition-shadow gap-y-1 shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm px-3 py-2"
+              tabindex="-1"
+            >
+              <div
+                class="flex flex-wrap justify-start items-start gap-1"
+              >
+                <div
+                  class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
+                >
+                  <div
+                    class="relative"
+                  >
+                    <div
+                      class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
+                    >
+                      <span
+                        class="break-all truncate"
+                      >
+                        Preset data
+                      </span>
+                      <span
+                        class="text-moon-16"
+                      >
+                        <svg
+                          class="cursor-pointer"
+                          fill="none"
+                          height="1em"
+                          viewBox="0 0 32 32"
+                          width="1em"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
+                            stroke="currentColor"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <input
+                class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared flex-grow border-0 !rounded-none bg-transparent px-0 leading-6 h-6 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16"
+                type="text"
+              />
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex flex-col items-center w-full h-50"
+    >
+      <div
+        class="flex flex-col items-center lg:flex-row lg:justify-center lg:items-start w-full gap-2"
+      >
+        <div
+          class="flex flex-col w-full"
+        >
+          <label
+            class="block text-bulma pb-2 text-moon-16"
+            data-headlessui-state=""
+            id="headlessui-listbox-label-:r5:"
+          >
+            Lower
+          </label>
+          <span
+            class="w-full flex flex-col justify-between bg-goku transition-shadow gap-y-1 shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm px-3 py-2"
+            tabindex="-1"
+          >
+            <div
+              class="flex flex-wrap justify-start items-start gap-1"
+            >
+              <div
+                class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
+              >
+                <div
+                  class="relative"
+                >
+                  <div
+                    class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-12"
+                  >
+                    <span
+                      class="break-all truncate"
+                    >
+                      Preset data
+                    </span>
+                    <span
+                      class="text-moon-16"
+                    >
+                      <svg
+                        class="cursor-pointer"
+                        fill="none"
+                        height="1em"
+                        viewBox="0 0 32 32"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <input
+              class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared flex-grow border-0 !rounded-none bg-transparent px-0 leading-6 h-6 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16"
+              type="text"
+            />
+          </span>
+        </div>
+        <div
+          class="flex flex-col w-full"
+        >
+          <label
+            class="block text-bulma pb-2 text-moon-16"
+            data-headlessui-state=""
+            id="headlessui-listbox-label-:r6:"
+          >
+            Capitalized
+          </label>
+          <span
+            class="w-full flex flex-col justify-between bg-goku transition-shadow gap-y-1 shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none rounded-moon-i-sm px-3 py-2"
+            tabindex="-1"
+          >
+            <div
+              class="flex flex-wrap justify-start items-start gap-1"
+            >
+              <div
+                class="flex gap-2 items-center flex-grow-0 flex-shrink-0 self-center max-w-full [&>div]:max-w-full"
+              >
+                <div
+                  class="relative"
+                >
+                  <div
+                    class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
+                  >
+                    <span
+                      class="break-all truncate"
+                    >
+                      Preset data
+                    </span>
+                    <span
+                      class="text-moon-16"
+                    >
+                      <svg
+                        class="cursor-pointer"
+                        fill="none"
+                        height="1em"
+                        viewBox="0 0 32 32"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <input
+              class="block w-full max-w-full py-0 m-0 appearance-none text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err rounded-moon-i-sm input-dt-shared flex-grow border-0 !rounded-none bg-transparent px-0 leading-6 h-6 !shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none text-moon-16"
+              type="text"
+            />
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -1,22 +1,60 @@
-import React from 'react';
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
+import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/search/Default';
-import useExamples from '../../utils/useExamples';
+import NoTransition from '../../public/examples/search/NoTransition';
+import useComponent from '../../utils/useComponent';
+import type { ComponentNames } from '../../components/getComponent';
 
-const Example = () => {
-  const examples = useExamples('search');
-  const { name, text, image } = getComponent('Search');
+const COMPONENT_NAME: ComponentNames = 'Search';
+
+const PageSearch = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
-      <ComponentPageDescription title={name} image={image} isInProgress>
+      <ComponentPageDescription
+        title={name}
+        image={image}
+        isInProgress
+        isAriaSupport
+        isRtlSupport
+      >
         <p>{text}</p>
       </ComponentPageDescription>
+
+      <ComponentAnatomy>
+        {`<Search>
+  <Search.Input>
+    <Search.Input.Icon />
+    <Search.Input.Input />
+    <Search.Input.ButtonClear />
+  </Search.Input>
+
+  <Search.Transition>
+    <Search.Result>
+      <Search.ResultHeading />
+
+      <Search.ResultItem>
+        ...
+      </Search.ResultItem>
+    <Search.Result>
+  </Search.Transition>
+</Search>
+`}
+      </ComponentAnatomy>
+
       <Preview
         title="Default"
         preview={<Default />}
+        code={examples ? examples.Default : 'Loading'}
+      />
+
+      <Preview
+        title="No Transition"
+        preview={<NoTransition />}
         code={examples ? examples.Default : 'Loading'}
       />
 
@@ -24,25 +62,11 @@ const Example = () => {
         title="Search props"
         data={[
           {
-            name: 'onChangeSearch',
-            type: '(value: string) => void',
-            required: true,
-            default: '-',
-            description: 'Function for setting search value',
-          },
-          {
-            name: 'onChangeOpen',
-            type: '(value: boolean) => void',
-            required: true,
-            default: '_',
-            description: 'Function for setting open state',
-          },
-          {
-            name: 'children',
-            type: 'React.ReactNode',
-            required: true,
-            default: '_',
-            description: 'Children of command palette',
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '',
+            description: 'Tailwind classes for customization',
           },
           {
             name: 'isOpen',
@@ -52,19 +76,65 @@ const Example = () => {
             description: 'Open state',
           },
           {
+            name: 'onChangeOpen',
+            type: '(isOpen: boolean) => void',
+            required: true,
+            default: '_',
+            description: 'Function for setting open state',
+          },
+          {
+            name: 'onChangeSearch',
+            type: '(search: string) => void',
+            required: true,
+            default: '-',
+            description: 'Function for setting search value',
+          },
+          {
+            name: 'onChangeSelected',
+            type: '(value: number) => void',
+            required: false,
+            default: '_',
+            description: 'Function for setting selected item index',
+          },
+          {
             name: 'search',
             type: 'string',
             required: true,
             default: '_',
-            description: 'Search state',
+            description: 'Search query data',
           },
+        ]}
+      />
+
+      <PropsTable
+        title="Search.Input"
+        data={[
           {
-            name: 'placeholder',
+            name: 'className',
             type: 'string',
             required: false,
-            default: '"Search"',
-            description: 'Search field placeholder',
+            default: '',
+            description: 'Tailwind classes for customization',
           },
+        ]}
+      />
+
+      <PropsTable
+        title="Search.Input.Icon"
+        data={[
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '',
+            description: 'Tailwind classes for customization',
+          },
+        ]}
+      />
+
+      <PropsTable
+        title="Search.Input.Input"
+        data={[
           {
             name: 'autoFocus',
             type: 'boolean',
@@ -74,18 +144,103 @@ const Example = () => {
               'Specifies that an search should automatically get focus when the page loads',
           },
           {
-            name: 'selected',
-            type: 'number',
+            name: 'className',
+            type: 'string',
             required: false,
-            default: '_',
-            description: 'The current selected item index',
+            default: '',
+            description: 'Tailwind classes for customization',
           },
           {
-            name: 'onChangeSelected',
-            type: '(value: number) => void',
+            name: 'placeholder',
+            type: 'string',
             required: false,
-            default: '_',
-            description: 'Function for setting selected item index',
+            default: '"Search"',
+            description: 'Search field placeholder',
+          },
+        ]}
+      />
+
+      <PropsTable
+        title="Search.Input.ButtonClear"
+        data={[
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '',
+            description: 'Tailwind classes for customization',
+          },
+        ]}
+      />
+
+      <PropsTable
+        title="Search.Transition"
+        data={[
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '',
+            description: 'Tailwind classes for customization',
+          },
+        ]}
+      />
+
+      <PropsTable
+        title="Search.NoResults"
+        data={[
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '',
+            description: 'Tailwind classes for customization',
+          },
+          {
+            name: 'label',
+            type: 'string | React.ReactNode',
+            required: true,
+            default: 'Search for',
+            description: 'Label for no results',
+          },
+        ]}
+      />
+
+      <PropsTable
+        title="Search.Result"
+        data={[
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '',
+            description: 'Tailwind classes for customization',
+          },
+        ]}
+      />
+
+      <PropsTable
+        title="Search.ResultItem"
+        data={[
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '',
+            description: 'Tailwind classes for customization',
+          },
+        ]}
+      />
+
+      <PropsTable
+        title="Search.ResultHeading"
+        data={[
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '',
+            description: 'Tailwind classes for customization',
           },
         ]}
       />
@@ -93,4 +248,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+PageSearch.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageSearch;

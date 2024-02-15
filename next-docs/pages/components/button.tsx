@@ -1,7 +1,8 @@
-import React from 'react';
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import type { ComponentNames } from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Animations from '../../public/examples/button/Animations';
 import AsLink from '../../public/examples/button/AsLink';
@@ -9,19 +10,20 @@ import Default from '../../public/examples/button/Default';
 import Disabled from '../../public/examples/button/Disabled';
 import FullWidth from '../../public/examples/button/FullWidth';
 import Icons from '../../public/examples/button/Icons';
+import Multiline from '../../public/examples/button/Multiline';
 import Sizes from '../../public/examples/button/Sizes';
 import Variants from '../../public/examples/button/Variants';
-import useExamples from '../../utils/useExamples';
+import useComponent from '../../utils/useComponent';
 
-const Example = () => {
-  const examples = useExamples('button');
-  const { name, text, image } = getComponent('Button');
+const COMPONENT_NAME: ComponentNames = 'Button';
+
+const PageButton = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
       <ComponentPageDescription
         title={name}
         image={image}
-        isInProgress
         isRtlSupport
         isAriaSupport
       >
@@ -74,8 +76,15 @@ const Example = () => {
       />
       <Preview
         title="Animations"
+        description='Pulse animation is available only for "fill" variant only.'
         preview={<Animations />}
         code={examples ? examples.Animations : 'Loading'}
+      />
+      <Preview
+        title="Multiline"
+        description="Multiline button exists in XL size only. Please copy and paste the code below to see the result."
+        preview={<Multiline />}
+        code={examples ? examples.Multiline : 'Loading'}
       />
       <PropsTable
         title="Button props"
@@ -96,10 +105,17 @@ const Example = () => {
           },
           {
             name: 'children',
-            type: 'React.ReactNode;',
+            type: 'React.ReactNode',
             required: false,
             default: '-',
             description: 'Children content',
+          },
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Tailwind classes for customization',
           },
           {
             name: 'disabled',
@@ -138,9 +154,9 @@ const Example = () => {
           },
           {
             name: 'variant',
-            type: 'primary | secondary | tertiary | ghost',
+            type: 'fill | outline | ghost',
             required: false,
-            default: 'primary',
+            default: 'fill',
             description: 'Visual/Logical variant of button',
           },
         ]}
@@ -149,4 +165,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+PageButton.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageButton;

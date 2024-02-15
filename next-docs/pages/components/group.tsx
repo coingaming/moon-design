@@ -1,22 +1,29 @@
-import React from 'react';
+import { ReactNode } from 'react';
 import Link from 'next/link';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/group/Default';
 import Direction from '../../public/examples/group/Direction';
 import Sizes from '../../public/examples/group/Sizes';
 import States from '../../public/examples/group/States';
 import Variant from '../../public/examples/group/Variant';
-import useExamples from '../../utils/useExamples';
+import useComponent from '../../utils/useComponent';
+import type { ComponentNames } from '../../components/getComponent';
 
-const Example = () => {
-  const examples = useExamples('group');
-  const { name, text, image } = getComponent('Group');
+const COMPONENT_NAME: ComponentNames = 'Group';
+
+const PageGroup = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
-      <ComponentPageDescription title={name} image={image} isInProgress>
+      <ComponentPageDescription
+        title={name}
+        image={image}
+        isAriaSupport
+        isRtlSupport
+      >
         <p>{text}</p>
       </ComponentPageDescription>
 
@@ -99,4 +106,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+PageGroup.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageGroup;

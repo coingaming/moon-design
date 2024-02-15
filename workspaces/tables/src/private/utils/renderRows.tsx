@@ -1,29 +1,8 @@
-import React, { Fragment, useState } from 'react';
-import { Checkbox } from '@heathmont/moon-core-tw';
-import { Cell, Row, UseExpandedRowProps } from 'react-table';
+import React, { Fragment, useEffect, useState } from 'react';
+import type { Cell, Row, UseExpandedRowProps } from 'react-table';
 import BodyTR from '../../components/BodyTR';
-import CheckboxTD from '../../components/CheckboxTD';
 import TD from '../../components/TD';
-import { RowSubComponentProps } from '../../func/Table';
-import type RowSizes from '../types/RowSizes';
-
-type RenderRowsProps<D extends object = {}> = {
-  rows: Row<D>[];
-  prepareRow: (row: Row<D>) => void;
-  evenRowBackgroundColor: string;
-  defaultRowBackgroundColor: string;
-  getOnRowClickHandler?: (
-    row: Row<D>
-  ) => ((row: Row<D>) => void | (() => void)) | undefined;
-  getOnRowSelectHandler?: (
-    row: Row<D>
-  ) => ((row: Row<D>) => void | (() => void)) | undefined;
-  renderRowSubComponent?: (props: RowSubComponentProps) => JSX.Element;
-  selectable?: boolean;
-  useCheckbox?: boolean;
-  rowSize?: RowSizes;
-  isCellBorder?: boolean;
-};
+import type RenderRowsProps from '../types/RenderRowsProps';
 
 const renderRows = ({
   rows,
@@ -33,17 +12,24 @@ const renderRows = ({
   getOnRowClickHandler,
   getOnRowSelectHandler,
   renderRowSubComponent,
+  setForceUpdateRowSelectedState,
   selectable,
   useCheckbox,
   rowSize,
   isCellBorder,
+  textClip,
 }: RenderRowsProps) => {
   const [hoveredRow, setHoveredRow] = useState('');
   const [selectedRows, setSelectedRows] = useState<{ [key: string]: boolean }>(
     {}
   );
 
-  if (!rows) return;
+  useEffect(() => {
+    selectable
+    && useCheckbox
+    && setForceUpdateRowSelectedState
+    && setForceUpdateRowSelectedState(() => setSelectedRows);
+  });
 
   return rows.map(
     (
@@ -69,9 +55,8 @@ const renderRows = ({
         : defaultRowBackgroundColor;
       const fontColor = row.original?.fontColor;
       const isLastNestedRow = rowId.length > nextRowId.length;
-      const isLastRow = nextRowId.length === 0 || nextRowId.length === 1;
       const expandedRow = row as unknown as UseExpandedRowProps<{}>;
-      const resolveRowClick = () => {
+      const resolveRowClick = (target: HTMLElement) => {
         const invokeClickHandler = () => {
           const clickHandlerInvoked = getOnRowClickHandler
             ? getOnRowClickHandler(row)
@@ -82,12 +67,14 @@ const renderRows = ({
           const selectHandlerInvoked = getOnRowSelectHandler
             ? getOnRowSelectHandler(row)
             : undefined;
-          if (selectHandlerInvoked) selectHandlerInvoked(row);
-          setSelectedRows({
-            ...selectedRows,
-            [`${row.id}-${rowProps.key}`]:
-              !selectedRows[`${row.id}-${rowProps.key}`],
-          });
+
+          if (selectHandlerInvoked) selectHandlerInvoked(row, target);
+          if (!selectable || !useCheckbox) {
+            setSelectedRows({
+              ...selectedRows,
+              [row.id]: !selectedRows[row.id],
+            });
+          }
         };
 
         if (!selectable && getOnRowClickHandler) {
@@ -110,61 +97,33 @@ const renderRows = ({
             hasChildren={expandedRow.canExpand}
             hasParent={!!expandedRow.depth}
             isLastNestedRow={isLastNestedRow}
-            isLastRow={isLastRow}
-            isSelected={selectedRows[`${row.id}-${rowProps.key}`]}
-            isHovered={hoveredRow === `${row.id}-${rowProps.key}`}
-            customBackground={!!row.original?.backgroundColor}
+            isSelected={selectedRows[row.id] === true}
+            isHovered={hoveredRow === row.id}
             backgroundColor={backgroundColor}
             fontColor={fontColor}
             onHoverToggle={
               getOnRowClickHandler || getOnRowSelectHandler
                 ? (hover?: boolean) =>
-                    setHoveredRow(hover ? `${row.id}-${rowProps.key}` : '')
+                    setHoveredRow(hover ? row.id : '')
                 : undefined
             }
-            onClick={() => resolveRowClick()}
+            onClick={(target: HTMLElement) => resolveRowClick(target)}
           >
-            {useCheckbox && (
-              <TD
-                selectable={true}
-                isExpanded={expandedRow.isExpanded}
-                isLastRow={isLastRow}
-                hasParent={!!expandedRow.depth}
-                customBackground={!!row.original?.backgroundColor}
-                backgroundColor={backgroundColor}
-                fontColor={fontColor}
-                isSelected={selectedRows[`${row.id}-${rowProps.key}`]}
-                isFirstColumn={true}
-                isHovered={hoveredRow === `${row.id}-${rowProps.key}`}
-                // @ts-ignore
-                stickySide={row.cells[0].parent?.sticky ? 'left' : ''}
-                rowSize={rowSize}
-                isCellBorder={isCellBorder}
-              >
-                <CheckboxTD>
-                  <Checkbox
-                    id={row.id}
-                    checked={selectedRows[`${row.id}-${rowProps.key}`]}
-                    onClick={(e: any) => e.stopPropagation()}
-                  />
-                </CheckboxTD>
-              </TD>
-            )}
-
             {row.cells.map((cell: Cell<{}>, index) => (
               <TD
+                key={cell.getCellProps().key}
                 reactTableProps={{ ...cell.getCellProps() }}
                 // @ts-ignore
                 stickySide={cell?.column?.parent?.sticky}
-                isFirstColumn={!useCheckbox && index === 0}
+                isFirstColumn={index === 0}
                 isLastColumn={index === row.cells.length - 1}
-                isSelected={selectedRows[`${row.id}-${rowProps.key}`]}
-                isHovered={hoveredRow === `${row.id}-${rowProps.key}`}
-                customBackground={!!row.original?.backgroundColor}
+                isSelected={selectedRows[row.id]}
+                isHovered={hoveredRow === row.id}
                 backgroundColor={backgroundColor}
                 fontColor={fontColor}
                 rowSize={rowSize}
                 isCellBorder={isCellBorder}
+                textClip={textClip}
               >
                 {cell.render('Cell')}
               </TD>

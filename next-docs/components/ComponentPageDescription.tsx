@@ -7,7 +7,6 @@ type Props = {
   isAriaSupport?: boolean;
   isRtlSupport?: boolean;
   isInProgress?: boolean;
-  isInDevelopment?: boolean;
   isDeprecated?: boolean;
   children: React.ReactNode;
 };
@@ -18,14 +17,13 @@ const ComponentPageDescription: React.FC<Props> = ({
   isAriaSupport,
   isRtlSupport,
   isInProgress,
-  isInDevelopment,
   isDeprecated,
   children,
 }) => {
   const isLabelsVisible =
     isDeprecated || isInProgress || isAriaSupport || isRtlSupport;
   return (
-    <div className="flex flex-col gap-4 lg:flex-row">
+    <div className="flex flex-col gap-4 lg:flex-row items-start">
       <div className="flex flex-col gap-12 lg:basis-1/2">
         <div className="flex flex-col gap-2">
           <h1 className="font-medium text-moon-32">{title}</h1>
@@ -39,11 +37,6 @@ const ComponentPageDescription: React.FC<Props> = ({
               {isInProgress && (
                 <Tag size="2xs" className="bg-krillin text-popo">
                   In progress
-                </Tag>
-              )}
-              {isInDevelopment && (
-                <Tag size="2xs" className="bg-chichi text-popo">
-                  In Development - Do not use in production
                 </Tag>
               )}
               {isAriaSupport && (
@@ -65,6 +58,7 @@ const ComponentPageDescription: React.FC<Props> = ({
       </div>
       {image && (
         <Image
+          priority
           src={image}
           alt={title as string}
           width={408}

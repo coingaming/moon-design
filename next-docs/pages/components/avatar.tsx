@@ -1,26 +1,28 @@
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Active from '../../public/examples/avatar/Active';
-import Colours from '../../public/examples/avatar/Colours';
+import Customization from '../../public/examples/avatar/Customization';
 import Default from '../../public/examples/avatar/Default';
-import Rounded from '../../public/examples/avatar/Rounded';
 import Sizes from '../../public/examples/avatar/Sizes';
 import StatusOrigin from '../../public/examples/avatar/StatusOrigin';
 import Variants from '../../public/examples/avatar/Variants';
-import useExamples from '../../utils/useExamples';
+import useComponent from '../../utils/useComponent';
+import type { ComponentNames } from '../../components/getComponent';
 
-const Example = () => {
-  const examples = useExamples('avatar');
-  const { name, text, image } = getComponent('Avatar');
+const COMPONENT_NAME: ComponentNames = 'Avatar';
+
+const PageAvatar = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
       <ComponentPageDescription
         title={name}
         image={image}
-        isInProgress
         isRtlSupport
+        isAriaSupport
       >
         <p>{text}</p>
       </ComponentPageDescription>
@@ -33,16 +35,6 @@ const Example = () => {
         title="Variants"
         preview={<Variants />}
         code={examples ? examples.Variants : 'Loading'}
-      />
-      <Preview
-        title="Rounded"
-        preview={<Rounded />}
-        code={examples ? examples.Rounded : 'Loading'}
-      />
-      <Preview
-        title="Custom colours"
-        preview={<Colours />}
-        code={examples ? examples.Colours : 'Loading'}
       />
       <Preview
         title="Sizes"
@@ -59,22 +51,20 @@ const Example = () => {
         preview={<StatusOrigin />}
         code={examples ? examples.StatusOrigin : 'Loading'}
       />
+      <Preview
+        title="Customization"
+        preview={<Customization />}
+        code={examples ? examples.Customization : 'Loading'}
+      />
       <PropsTable
         title="Avatar props"
         data={[
           {
-            name: 'bgColor',
+            name: 'className',
             type: 'string',
             required: false,
-            default: 'bg-gohan',
-            description: 'Background colour',
-          },
-          {
-            name: 'color',
-            type: 'string',
-            required: false,
-            default: 'text-bulma',
-            description: 'Text colour',
+            default: '-',
+            description: 'Tailwind classes for customization',
           },
           {
             name: 'imageUrl',
@@ -84,35 +74,26 @@ const Example = () => {
             description: 'Path to the image',
           },
           {
-            name: 'isRounded',
-            type: 'boolean',
-            required: false,
-            default: 'false',
-            description: 'Rounded border radius',
-          },
-          {
-            name: 'isStatusActive',
-            type: 'boolean',
-            required: false,
-            default: 'false',
-            description: 'Active state of status indicator',
-          },
-          {
-            name: 'name',
-            type: 'string | JSX.Element',
-            required: false,
-            default: '-',
-            description: 'Capital letters of name',
-          },
-          {
             name: 'size',
             type: 'xs | sm | md | lg | xl | 2xl',
             required: false,
             default: 'md',
             description: 'Size of avatar',
           },
+        ]}
+      />
+      <PropsTable
+        title="Avatar.Status props"
+        data={[
           {
-            name: 'statusOrigin',
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Tailwind classes for customization',
+          },
+          {
+            name: 'position',
             type: "{ vertical: 'top' | 'bottom', horizontal: 'left' | 'right' }",
             required: false,
             default: "{ vertical: 'bottom', horizontal: 'right' }",
@@ -124,4 +105,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+PageAvatar.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageAvatar;

@@ -1,32 +1,37 @@
 import React, { forwardRef } from 'react';
-import { useFormItemContext } from '../form/Form';
+import type TextareaProps from './private/types/TextareaProps';
+import useFormItemContext from '../form/private/utils/useFormItemContext';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
-interface TextareaProps
-  extends React.TextareaHTMLAttributes<HTMLTextAreaElement> {
-  className?: string;
-  disabled?: boolean;
-  error?: boolean;
-}
-
 const Textarea = forwardRef<HTMLTextAreaElement, TextareaProps>(
-  ({ className, disabled, error: textareaError, ...rest }, ref) => {
+  ({ className, error: textareaError, ...rest }, ref) => {
     const { disabled: formItemDisabled, error: formItemError } =
       useFormItemContext('Textarea');
     const error = textareaError || formItemError;
+    const ariaLabelValue = rest.placeholder
+      ? undefined
+      : rest['aria-label']
+      ? rest['aria-label']
+      : rest.name
+      ? rest.name
+      : 'Textarea';
     return (
       <textarea
         ref={ref}
-        disabled={disabled || formItemDisabled}
+        disabled={rest.disabled || formItemDisabled}
         className={mergeClassnames(
-          'block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks',
-          'transition-shadow shadow-input hover:shadow-input-hov',
-          'focus:shadow-input-focus focus:outline-none',
+          'block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-goku',
+          'rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-textarea',
+          'hover:shadow-textarea-hov focus:shadow-textarea-focus focus:outline-none',
+          'read-only:outline-0 read-only:border-none read-only:cursor-not-allowed',
+          'read-only:hover:shadow-textarea read-only:focus:shadow-textarea',
+          'read-only:focus-visible:shadow-textarea',
           error &&
-            'shadow-input-err hover:shadow-input-err focus:shadow-input-err',
-          disabled && 'opacity-30 cursor-not-allowed',
+            'shadow-textarea-err hover:shadow-textarea-err focus:shadow-textarea-err',
+          rest.disabled && 'opacity-60 cursor-not-allowed',
           className
         )}
+        aria-label={ariaLabelValue}
         {...rest}
       />
     );

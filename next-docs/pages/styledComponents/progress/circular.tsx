@@ -5,10 +5,10 @@ import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
 import Default from '../../../public/styledExamples/progress/circular/Default';
 import Rtl from '../../../public/styledExamples/progress/circular/Rtl';
-import useExamples from '../../../utils/useExamples';
+import useStyledExamples from '../../../utils/useStyledExamples';
 
 export default function PageProgressLinear() {
-  const examples = useExamples('progress/circular', 'styled');
+  const examples = useStyledExamples('progress/circular');
   return (
     <>
       <ComponentPageDescription title="Circular" isDeprecated>

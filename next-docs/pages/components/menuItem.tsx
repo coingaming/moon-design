@@ -1,8 +1,8 @@
-import React from 'react';
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import AsLink from '../../public/examples/menuItem/AsLink';
 import Checkbox from '../../public/examples/menuItem/Checkbox';
@@ -13,14 +13,21 @@ import MultiTitle from '../../public/examples/menuItem/MultiTitle';
 import Radio from '../../public/examples/menuItem/Radio';
 import WithIcon from '../../public/examples/menuItem/WithIcon';
 import WithMeta from '../../public/examples/menuItem/WithMeta';
-import useExamples from '../../utils/useExamples';
+import useComponent from '../../utils/useComponent';
+import type { ComponentNames } from '../../components/getComponent';
 
-const Example = () => {
-  const examples = useExamples('menuItem');
-  const { name, text, image } = getComponent('MenuItem');
+const COMPONENT_NAME: ComponentNames = 'MenuItem';
+
+const PageMenuItem = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
-      <ComponentPageDescription title={name} image={image} isInProgress>
+      <ComponentPageDescription
+        title={name}
+        image={image}
+        isAriaSupport
+        isRtlSupport
+      >
         <p>{text}</p>
         <p>
           Menu item row heights can vary based on the amount of content in each
@@ -122,6 +129,14 @@ const Example = () => {
             required: false,
             default: 'false',
             description:
+              'Is MenuItem active. (Not for radio and checkbox variant)',
+          },
+          {
+            name: 'isSelected',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description:
               'Is MenuItem checked/unchecked. For radio and checkbox variant.',
           },
           {
@@ -137,4 +152,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+PageMenuItem.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageMenuItem;

@@ -20,18 +20,14 @@ import {
   OtherSmile,
   OtherSun,
   OtherWater,
+  OtherAgent,
+  OtherPlayer,
+  OtherWaterTemperature,
+  OtherWaves,
+  OtherWind,
 } from '@heathmont/moon-icons-tw';
 import Icon from './Icon';
-
-interface Props {
-  wrapperProps: {
-    onClick: (iconName: string) => void;
-    selectedIcons: string[];
-  };
-  props: {
-    className: string;
-  };
-}
+import type Props from './Props';
 
 const Example = ({ wrapperProps, props }: Props) => (
   <>
@@ -97,6 +93,21 @@ const Example = ({ wrapperProps, props }: Props) => (
     </Icon>
     <Icon {...wrapperProps} name="OtherWater">
       <OtherWater {...props} />
+    </Icon>
+    <Icon {...wrapperProps} name="OtherAgent">
+      <OtherAgent {...props} />
+    </Icon>
+    <Icon {...wrapperProps} name="OtherPlayer">
+      <OtherPlayer {...props} />
+    </Icon>
+    <Icon {...wrapperProps} name="OtherWaterTemperature">
+      <OtherWaterTemperature {...props} />
+    </Icon>
+    <Icon {...wrapperProps} name="OtherWaves">
+      <OtherWaves {...props} />
+    </Icon>
+    <Icon {...wrapperProps} name="OtherWind">
+      <OtherWind {...props} />
     </Icon>
   </>
 );

@@ -1,11 +1,11 @@
 import React, { forwardRef } from 'react';
-import mergeClassnames from '../../mergeClassnames/mergeClassnames';
 import Container from './Container';
 import HintText from './HintText';
 import Input from './Input';
 import ShowPassword from './ShowPassword';
 import getBorderRadius from './utils/getBorderRadius';
 import getLabelSize from './utils/getLabelSize';
+import mergeClassnames from '../../mergeClassnames/mergeClassnames';
 import type TextInputProps from '../private/types/TextInputProps';
 
 const TextInputPassword = forwardRef<HTMLInputElement, TextInputProps>(
@@ -27,7 +27,7 @@ const TextInputPassword = forwardRef<HTMLInputElement, TextInputProps>(
       isSharpBottomSide,
       isTopBottomBorderHidden,
       isSideBorderHidden,
-      bgColor = 'bg-gohan',
+      bgColor = 'bg-goku',
       ...rest
     } = props;
 
@@ -70,7 +70,7 @@ const TextInputPassword = forwardRef<HTMLInputElement, TextInputProps>(
               isPassword
               {...inputProps}
             />
-            <label className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all rtl:right-4 ltr:left-4">
+            <label className="absolute text-moon-12 text-trunks top-3 z-[1] transition-all start-4">
               {label}
             </label>
             <ShowPassword onClick={togglePasswordVisiblity}>

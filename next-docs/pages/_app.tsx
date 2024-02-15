@@ -1,10 +1,10 @@
-import React, { ReactNode } from 'react';
+import { ReactNode } from 'react';
 import '../styles/globals.css';
 import '../styles/themes.css';
-import '../styles/custom.css';
 import 'prismjs/themes/prism-okaidia.css';
 import { NextPage } from 'next';
 import Head from 'next/head';
+import GoogleAnalytics from '../components/GoogleAnalytics';
 import Layout from '../components/Layout';
 import RtlProvider from '../components/rtl/RtlProvider';
 import SearchProvider from '../components/search/SearchProvider';
@@ -26,7 +26,6 @@ function MyApp({ Component, pageProps }: MyAppProps) {
   return (
     <>
       <Head>
-        <title>Moon Design System</title>
         <meta name="description" content="Moon Design System" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link
@@ -51,6 +50,7 @@ function MyApp({ Component, pageProps }: MyAppProps) {
         <link rel="shortcut icon" href="/favs/favicon.ico" />
         <meta name="msapplication-config" content="/favs/browserconfig.xml" />
       </Head>
+      <GoogleAnalytics id="G-4842W3RKZJ" />
       <SearchProvider>
         <DocsThemeProvider>
           <RtlProvider>

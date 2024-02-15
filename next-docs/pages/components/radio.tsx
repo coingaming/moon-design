@@ -1,25 +1,26 @@
-import React from 'react';
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import AsFormItem from '../../public/examples/radio/AsFormItem';
 import Customization from '../../public/examples/radio/Customization';
 import Default from '../../public/examples/radio/Default';
 import Disabled from '../../public/examples/radio/Disabled';
 import Uncontrolled from '../../public/examples/radio/Uncontrolled';
-import useExamples from '../../utils/useExamples';
+import useComponent from '../../utils/useComponent';
+import type { ComponentNames } from '../../components/getComponent';
 
-const Example = () => {
-  const examples = useExamples('radio');
-  const { name, text, image } = getComponent('Radio');
+const COMPONENT_NAME: ComponentNames = 'Radio';
+
+const PageRadio = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
       <ComponentPageDescription
         title={name}
         image={image}
-        isInProgress
         isRtlSupport
         isAriaSupport
       >
@@ -178,4 +179,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+PageRadio.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageRadio;

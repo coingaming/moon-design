@@ -9,7 +9,7 @@ exports[`Multi Select options content 1`] = `
     onKeyDown={[Function]}
   >
     <span
-      className="sc-WywnD jVDWmQ"
+      className="sc-gPPVPr dwrLXl"
     >
       Large
     </span>
@@ -24,31 +24,33 @@ exports[`Multi Select options content 1`] = `
       className="css-1f43avz-a11yText-A11yText"
     />
     <div
-      className=" css-dijs1s-control"
+      className=" css-98ebsh-control"
       onMouseDown={[Function]}
       onTouchEnd={[Function]}
     >
       <div
-        className=" css-1jfgnnv-ValueContainer"
+        className=" css-1n2fawc-ValueContainer"
       >
         <div
-          className="sc-dwOrSJ llvMJU"
+          className="sc-kvtFaN iNmDmi"
         >
           <div
-            className=" css-1rtvqhl-placeholder"
+            className=" css-wuj7bk-placeholder"
             id="react-select-16-placeholder"
           >
             <div
-              className="sc-iiHhKi gBfpKQ"
+              className="sc-gLjfqm eHhjjI"
             >
               Choose an option
             </div>
           </div>
           <input
             aria-autocomplete="list"
+            aria-controls="react-select-16-listbox"
             aria-describedby="react-select-16-placeholder"
             aria-expanded={false}
             aria-haspopup={true}
+            aria-owns="react-select-16-listbox"
             aria-readonly={true}
             className="css-mohuvp-dummyInput-DummyInput"
             disabled={false}
@@ -67,7 +69,7 @@ exports[`Multi Select options content 1`] = `
         className=" css-1hb7zxy-IndicatorsContainer"
       >
         <svg
-          className="sc-gsnTZi"
+          className="sc-gEvEer"
           fill="none"
           fontSize="1.5rem"
           height="1em"
@@ -105,36 +107,38 @@ exports[`Multi Select options content 1`] = `
       className="css-1f43avz-a11yText-A11yText"
     />
     <div
-      className=" css-fcxntf-control"
+      className=" css-1541k4v-control"
       onMouseDown={[Function]}
       onTouchEnd={[Function]}
     >
       <div
-        className=" css-13urifb-ValueContainer"
+        className=" css-112g2nh-ValueContainer"
       >
         <div
-          className="sc-hSGqtg fLCcvx"
+          className="sc-bcgPVu bVEVzH"
         >
           xLarge
         </div>
         <div
-          className="sc-dwOrSJ llvMJU"
+          className="sc-kvtFaN iNmDmi"
         >
           <div
-            className=" css-elkbxv-placeholder"
+            className=" css-jexdti-placeholder"
             id="react-select-17-placeholder"
           >
             <div
-              className="sc-iiHhKi gBfpKQ"
+              className="sc-gLjfqm eHhjjI"
             >
               Choose an option
             </div>
           </div>
           <input
             aria-autocomplete="list"
+            aria-controls="react-select-17-listbox"
             aria-describedby="react-select-17-placeholder"
             aria-expanded={false}
             aria-haspopup={true}
+            aria-owns="react-select-17-listbox"
             aria-readonly={true}
             className="css-mohuvp-dummyInput-DummyInput"
             disabled={false}
@@ -153,7 +157,7 @@ exports[`Multi Select options content 1`] = `
         className=" css-1hb7zxy-IndicatorsContainer"
       >
         <svg
-          className="sc-gsnTZi"
+          className="sc-gEvEer"
           fill="none"
           fontSize="1.5rem"
           height="1em"
@@ -188,7 +192,7 @@ exports[`Multi Select options wrapper width 1`] = `
     onKeyDown={[Function]}
   >
     <span
-      className="sc-WywnD jVDWmQ"
+      className="sc-gPPVPr dwrLXl"
     >
       Large
     </span>
@@ -203,31 +207,33 @@ exports[`Multi Select options wrapper width 1`] = `
       className="css-1f43avz-a11yText-A11yText"
     />
     <div
-      className=" css-dijs1s-control"
+      className=" css-98ebsh-control"
       onMouseDown={[Function]}
       onTouchEnd={[Function]}
     >
       <div
-        className=" css-1jfgnnv-ValueContainer"
+        className=" css-1n2fawc-ValueContainer"
       >
         <div
-          className="sc-dwOrSJ llvMJU"
+          className="sc-kvtFaN iNmDmi"
         >
           <div
-            className=" css-1rtvqhl-placeholder"
+            className=" css-wuj7bk-placeholder"
             id="react-select-14-placeholder"
           >
             <div
-              className="sc-iiHhKi gBfpKQ"
+              className="sc-gLjfqm eHhjjI"
             >
               Choose an option
             </div>
           </div>
           <input
             aria-autocomplete="list"
+            aria-controls="react-select-14-listbox"
             aria-describedby="react-select-14-placeholder"
             aria-expanded={false}
             aria-haspopup={true}
+            aria-owns="react-select-14-listbox"
             aria-readonly={true}
             className="css-mohuvp-dummyInput-DummyInput"
             disabled={false}
@@ -246,7 +252,7 @@ exports[`Multi Select options wrapper width 1`] = `
         className=" css-1hb7zxy-IndicatorsContainer"
       >
         <svg
-          className="sc-gsnTZi"
+          className="sc-gEvEer"
           fill="none"
           fontSize="1.5rem"
           height="1em"
@@ -284,36 +290,38 @@ exports[`Multi Select options wrapper width 1`] = `
       className="css-1f43avz-a11yText-A11yText"
     />
     <div
-      className=" css-fcxntf-control"
+      className=" css-1541k4v-control"
       onMouseDown={[Function]}
       onTouchEnd={[Function]}
     >
       <div
-        className=" css-13urifb-ValueContainer"
+        className=" css-112g2nh-ValueContainer"
       >
         <div
-          className="sc-hSGqtg fLCcvx"
+          className="sc-bcgPVu bVEVzH"
         >
           Single xLarge
         </div>
         <div
-          className="sc-dwOrSJ llvMJU"
+          className="sc-kvtFaN iNmDmi"
         >
           <div
-            className=" css-elkbxv-placeholder"
+            className=" css-jexdti-placeholder"
             id="react-select-15-placeholder"
           >
             <div
-              className="sc-iiHhKi gBfpKQ"
+              className="sc-gLjfqm eHhjjI"
             >
               Choose an option
             </div>
           </div>
           <input
             aria-autocomplete="list"
+            aria-controls="react-select-15-listbox"
             aria-describedby="react-select-15-placeholder"
             aria-expanded={false}
             aria-haspopup={true}
+            aria-owns="react-select-15-listbox"
             aria-readonly={true}
             className="css-mohuvp-dummyInput-DummyInput"
             disabled={false}
@@ -332,7 +340,7 @@ exports[`Multi Select options wrapper width 1`] = `
         className=" css-1hb7zxy-IndicatorsContainer"
       >
         <svg
-          className="sc-gsnTZi"
+          className="sc-gEvEer"
           fill="none"
           fontSize="1.5rem"
           height="1em"
@@ -367,7 +375,7 @@ exports[`Multi Select renders disabled 1`] = `
     onKeyDown={[Function]}
   >
     <span
-      className="sc-WywnD jVDWmQ"
+      className="sc-gPPVPr dwrLXl"
     >
       Large
     </span>
@@ -382,31 +390,33 @@ exports[`Multi Select renders disabled 1`] = `
       className="css-1f43avz-a11yText-A11yText"
     />
     <div
-      className=" css-dijs1s-control"
+      className=" css-98ebsh-control"
       onMouseDown={[Function]}
       onTouchEnd={[Function]}
     >
       <div
-        className=" css-1jfgnnv-ValueContainer"
+        className=" css-1n2fawc-ValueContainer"
       >
         <div
-          className="sc-dwOrSJ llvMJU"
+          className="sc-kvtFaN iNmDmi"
         >
           <div
-            className=" css-1rtvqhl-placeholder"
+            className=" css-wuj7bk-placeholder"
             id="react-select-8-placeholder"
           >
             <div
-              className="sc-iiHhKi gBfpKQ"
+              className="sc-gLjfqm eHhjjI"
             >
               Choose an option
             </div>
           </div>
           <input
             aria-autocomplete="list"
+            aria-controls="react-select-8-listbox"
             aria-describedby="react-select-8-placeholder"
             aria-expanded={false}
             aria-haspopup={true}
+            aria-owns="react-select-8-listbox"
             aria-readonly={true}
             className="css-mohuvp-dummyInput-DummyInput"
             disabled={true}
@@ -425,7 +435,7 @@ exports[`Multi Select renders disabled 1`] = `
         className=" css-1hb7zxy-IndicatorsContainer"
       >
         <svg
-          className="sc-gsnTZi"
+          className="sc-gEvEer"
           fill="none"
           fontSize="1.5rem"
           height="1em"
@@ -463,36 +473,38 @@ exports[`Multi Select renders disabled 1`] = `
       className="css-1f43avz-a11yText-A11yText"
     />
     <div
-      className=" css-fcxntf-control"
+      className=" css-1541k4v-control"
       onMouseDown={[Function]}
       onTouchEnd={[Function]}
     >
       <div
-        className=" css-13urifb-ValueContainer"
+        className=" css-112g2nh-ValueContainer"
       >
         <div
-          className="sc-hSGqtg fLCcvx"
+          className="sc-bcgPVu bVEVzH"
         >
           xLarge
         </div>
         <div
-          className="sc-dwOrSJ llvMJU"
+          className="sc-kvtFaN iNmDmi"
         >
           <div
-            className=" css-elkbxv-placeholder"
+            className=" css-jexdti-placeholder"
             id="react-select-9-placeholder"
           >
             <div
-              className="sc-iiHhKi gBfpKQ"
+              className="sc-gLjfqm eHhjjI"
             >
               Choose an option
             </div>
           </div>
           <input
             aria-autocomplete="list"
+            aria-controls="react-select-9-listbox"
             aria-describedby="react-select-9-placeholder"
             aria-expanded={false}
             aria-haspopup={true}
+            aria-owns="react-select-9-listbox"
             aria-readonly={true}
             className="css-mohuvp-dummyInput-DummyInput"
             disabled={true}
@@ -511,7 +523,7 @@ exports[`Multi Select renders disabled 1`] = `
         className=" css-1hb7zxy-IndicatorsContainer"
       >
         <svg
-          className="sc-gsnTZi"
+          className="sc-gEvEer"
           fill="none"
           fontSize="1.5rem"
           height="1em"
@@ -549,7 +561,7 @@ exports[`Multi Select renders error 1`] = `
       onKeyDown={[Function]}
     >
       <span
-        className="sc-WywnD jVDWmQ"
+        className="sc-gPPVPr dwrLXl"
       >
         Large
       </span>
@@ -564,31 +576,33 @@ exports[`Multi Select renders error 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-1cqwbe7-control"
+        className=" css-8sxmam-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className=" css-1jfgnnv-ValueContainer"
+          className=" css-1n2fawc-ValueContainer"
         >
           <div
-            className="sc-dwOrSJ llvMJU"
+            className="sc-kvtFaN iNmDmi"
           >
             <div
-              className=" css-1rtvqhl-placeholder"
+              className=" css-wuj7bk-placeholder"
               id="react-select-10-placeholder"
             >
               <div
-                className="sc-iiHhKi gBfpKQ"
+                className="sc-gLjfqm eHhjjI"
               >
                 Choose an option
               </div>
             </div>
             <input
               aria-autocomplete="list"
+              aria-controls="react-select-10-listbox"
               aria-describedby="react-select-10-placeholder"
               aria-expanded={false}
               aria-haspopup={true}
+              aria-owns="react-select-10-listbox"
               aria-readonly={true}
               className="css-mohuvp-dummyInput-DummyInput"
               disabled={false}
@@ -607,7 +621,7 @@ exports[`Multi Select renders error 1`] = `
           className=" css-1hb7zxy-IndicatorsContainer"
         >
           <svg
-            className="sc-gsnTZi"
+            className="sc-gEvEer"
             fill="none"
             fontSize="1.5rem"
             height="1em"
@@ -631,7 +645,7 @@ exports[`Multi Select renders error 1`] = `
       </div>
     </div>
     <span
-      className="sc-jPzPiz dJAuCB"
+      className="sc-hPbuba bYexjn"
     >
       Informative message holder
     </span>
@@ -654,36 +668,38 @@ exports[`Multi Select renders error 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-5vimdk-control"
+        className=" css-2qehex-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className=" css-13urifb-ValueContainer"
+          className=" css-112g2nh-ValueContainer"
         >
           <div
-            className="sc-hSGqtg fLCcvx"
+            className="sc-bcgPVu bVEVzH"
           >
             xLarge
           </div>
           <div
-            className="sc-dwOrSJ llvMJU"
+            className="sc-kvtFaN iNmDmi"
           >
             <div
-              className=" css-elkbxv-placeholder"
+              className=" css-jexdti-placeholder"
               id="react-select-11-placeholder"
             >
               <div
-                className="sc-iiHhKi gBfpKQ"
+                className="sc-gLjfqm eHhjjI"
               >
                 Choose an option
               </div>
             </div>
             <input
               aria-autocomplete="list"
+              aria-controls="react-select-11-listbox"
               aria-describedby="react-select-11-placeholder"
               aria-expanded={false}
               aria-haspopup={true}
+              aria-owns="react-select-11-listbox"
               aria-readonly={true}
               className="css-mohuvp-dummyInput-DummyInput"
               disabled={false}
@@ -702,7 +718,7 @@ exports[`Multi Select renders error 1`] = `
           className=" css-1hb7zxy-IndicatorsContainer"
         >
           <svg
-            className="sc-gsnTZi"
+            className="sc-gEvEer"
             fill="none"
             fontSize="1.5rem"
             height="1em"
@@ -726,7 +742,7 @@ exports[`Multi Select renders error 1`] = `
       </div>
     </div>
     <span
-      className="sc-jPzPiz dJAuCB"
+      className="sc-hPbuba bYexjn"
     >
       Informative message holder
     </span>
@@ -746,7 +762,7 @@ exports[`Multi Select renders with hint 1`] = `
       onKeyDown={[Function]}
     >
       <span
-        className="sc-WywnD jVDWmQ"
+        className="sc-gPPVPr dwrLXl"
       >
         Large
       </span>
@@ -761,31 +777,33 @@ exports[`Multi Select renders with hint 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-dijs1s-control"
+        className=" css-98ebsh-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className=" css-1jfgnnv-ValueContainer"
+          className=" css-1n2fawc-ValueContainer"
         >
           <div
-            className="sc-dwOrSJ llvMJU"
+            className="sc-kvtFaN iNmDmi"
           >
             <div
-              className=" css-1rtvqhl-placeholder"
+              className=" css-wuj7bk-placeholder"
               id="react-select-6-placeholder"
             >
               <div
-                className="sc-iiHhKi gBfpKQ"
+                className="sc-gLjfqm eHhjjI"
               >
                 Choose an option
               </div>
             </div>
             <input
               aria-autocomplete="list"
+              aria-controls="react-select-6-listbox"
               aria-describedby="react-select-6-placeholder"
               aria-expanded={false}
               aria-haspopup={true}
+              aria-owns="react-select-6-listbox"
               aria-readonly={true}
               className="css-mohuvp-dummyInput-DummyInput"
               disabled={false}
@@ -804,7 +822,7 @@ exports[`Multi Select renders with hint 1`] = `
           className=" css-1hb7zxy-IndicatorsContainer"
         >
           <svg
-            className="sc-gsnTZi"
+            className="sc-gEvEer"
             fill="none"
             fontSize="1.5rem"
             height="1em"
@@ -828,7 +846,7 @@ exports[`Multi Select renders with hint 1`] = `
       </div>
     </div>
     <span
-      className="sc-jPzPiz bcAkBx"
+      className="sc-hPbuba lkeyFD"
     >
       Informative message holder
     </span>
@@ -851,36 +869,38 @@ exports[`Multi Select renders with hint 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-fcxntf-control"
+        className=" css-1541k4v-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className=" css-13urifb-ValueContainer"
+          className=" css-112g2nh-ValueContainer"
         >
           <div
-            className="sc-hSGqtg fLCcvx"
+            className="sc-bcgPVu bVEVzH"
           >
             Single xLarge
           </div>
           <div
-            className="sc-dwOrSJ llvMJU"
+            className="sc-kvtFaN iNmDmi"
           >
             <div
-              className=" css-elkbxv-placeholder"
+              className=" css-jexdti-placeholder"
               id="react-select-7-placeholder"
             >
               <div
-                className="sc-iiHhKi gBfpKQ"
+                className="sc-gLjfqm eHhjjI"
               >
                 Choose an option
               </div>
             </div>
             <input
               aria-autocomplete="list"
+              aria-controls="react-select-7-listbox"
               aria-describedby="react-select-7-placeholder"
               aria-expanded={false}
               aria-haspopup={true}
+              aria-owns="react-select-7-listbox"
               aria-readonly={true}
               className="css-mohuvp-dummyInput-DummyInput"
               disabled={false}
@@ -899,7 +919,7 @@ exports[`Multi Select renders with hint 1`] = `
           className=" css-1hb7zxy-IndicatorsContainer"
         >
           <svg
-            className="sc-gsnTZi"
+            className="sc-gEvEer"
             fill="none"
             fontSize="1.5rem"
             height="1em"
@@ -923,7 +943,7 @@ exports[`Multi Select renders with hint 1`] = `
       </div>
     </div>
     <span
-      className="sc-jPzPiz bcAkBx"
+      className="sc-hPbuba lkeyFD"
     >
       Informative message holder
     </span>
@@ -940,7 +960,7 @@ exports[`Multi Select renders with label 1`] = `
     onKeyDown={[Function]}
   >
     <span
-      className="sc-WywnD jVDWmQ"
+      className="sc-gPPVPr dwrLXl"
     >
       Large
     </span>
@@ -955,31 +975,33 @@ exports[`Multi Select renders with label 1`] = `
       className="css-1f43avz-a11yText-A11yText"
     />
     <div
-      className=" css-dijs1s-control"
+      className=" css-98ebsh-control"
       onMouseDown={[Function]}
       onTouchEnd={[Function]}
     >
       <div
-        className=" css-1jfgnnv-ValueContainer"
+        className=" css-1n2fawc-ValueContainer"
       >
         <div
-          className="sc-dwOrSJ llvMJU"
+          className="sc-kvtFaN iNmDmi"
         >
           <div
-            className=" css-1rtvqhl-placeholder"
+            className=" css-wuj7bk-placeholder"
             id="react-select-2-placeholder"
           >
             <div
-              className="sc-iiHhKi gBfpKQ"
+              className="sc-gLjfqm eHhjjI"
             >
               Choose an option
             </div>
           </div>
           <input
             aria-autocomplete="list"
+            aria-controls="react-select-2-listbox"
             aria-describedby="react-select-2-placeholder"
             aria-expanded={false}
             aria-haspopup={true}
+            aria-owns="react-select-2-listbox"
             aria-readonly={true}
             className="css-mohuvp-dummyInput-DummyInput"
             disabled={false}
@@ -998,7 +1020,7 @@ exports[`Multi Select renders with label 1`] = `
         className=" css-1hb7zxy-IndicatorsContainer"
       >
         <svg
-          className="sc-gsnTZi"
+          className="sc-gEvEer"
           fill="none"
           fontSize="1.5rem"
           height="1em"
@@ -1036,36 +1058,38 @@ exports[`Multi Select renders with label 1`] = `
       className="css-1f43avz-a11yText-A11yText"
     />
     <div
-      className=" css-fcxntf-control"
+      className=" css-1541k4v-control"
       onMouseDown={[Function]}
       onTouchEnd={[Function]}
     >
       <div
-        className=" css-13urifb-ValueContainer"
+        className=" css-112g2nh-ValueContainer"
       >
         <div
-          className="sc-hSGqtg fLCcvx"
+          className="sc-bcgPVu bVEVzH"
         >
           Single xLarge
         </div>
         <div
-          className="sc-dwOrSJ llvMJU"
+          className="sc-kvtFaN iNmDmi"
         >
           <div
-            className=" css-elkbxv-placeholder"
+            className=" css-jexdti-placeholder"
             id="react-select-3-placeholder"
           >
             <div
-              className="sc-iiHhKi gBfpKQ"
+              className="sc-gLjfqm eHhjjI"
             >
               Choose an option
             </div>
           </div>
           <input
             aria-autocomplete="list"
+            aria-controls="react-select-3-listbox"
             aria-describedby="react-select-3-placeholder"
             aria-expanded={false}
             aria-haspopup={true}
+            aria-owns="react-select-3-listbox"
             aria-readonly={true}
             className="css-mohuvp-dummyInput-DummyInput"
             disabled={false}
@@ -1084,7 +1108,7 @@ exports[`Multi Select renders with label 1`] = `
         className=" css-1hb7zxy-IndicatorsContainer"
       >
         <svg
-          className="sc-gsnTZi"
+          className="sc-gEvEer"
           fill="none"
           fontSize="1.5rem"
           height="1em"
@@ -1129,31 +1153,33 @@ exports[`Multi Select renders without label 1`] = `
       className="css-1f43avz-a11yText-A11yText"
     />
     <div
-      className=" css-dijs1s-control"
+      className=" css-98ebsh-control"
       onMouseDown={[Function]}
       onTouchEnd={[Function]}
     >
       <div
-        className=" css-1jfgnnv-ValueContainer"
+        className=" css-1n2fawc-ValueContainer"
       >
         <div
-          className="sc-dwOrSJ llvMJU"
+          className="sc-kvtFaN iNmDmi"
         >
           <div
-            className=" css-1rtvqhl-placeholder"
+            className=" css-wuj7bk-placeholder"
             id="react-select-4-placeholder"
           >
             <div
-              className="sc-iiHhKi gBfpKQ"
+              className="sc-gLjfqm eHhjjI"
             >
               Choose an option
             </div>
           </div>
           <input
             aria-autocomplete="list"
+            aria-controls="react-select-4-listbox"
             aria-describedby="react-select-4-placeholder"
             aria-expanded={false}
             aria-haspopup={true}
+            aria-owns="react-select-4-listbox"
             aria-readonly={true}
             className="css-mohuvp-dummyInput-DummyInput"
             disabled={false}
@@ -1172,7 +1198,7 @@ exports[`Multi Select renders without label 1`] = `
         className=" css-1hb7zxy-IndicatorsContainer"
       >
         <svg
-          className="sc-gsnTZi"
+          className="sc-gEvEer"
           fill="none"
           fontSize="1.5rem"
           height="1em"
@@ -1210,34 +1236,36 @@ exports[`Multi Select renders without label 1`] = `
       className="css-1f43avz-a11yText-A11yText"
     />
     <div
-      className=" css-fcxntf-control"
+      className=" css-1541k4v-control"
       onMouseDown={[Function]}
       onTouchEnd={[Function]}
     >
       <div
-        className=" css-1jfgnnv-ValueContainer"
+        className=" css-1n2fawc-ValueContainer"
       >
         <div
-          className="sc-hSGqtg fLCcvx"
+          className="sc-bcgPVu bVEVzH"
         />
         <div
-          className="sc-dwOrSJ llvMJU"
+          className="sc-kvtFaN iNmDmi"
         >
           <div
-            className=" css-elkbxv-placeholder"
+            className=" css-jexdti-placeholder"
             id="react-select-5-placeholder"
           >
             <div
-              className="sc-iiHhKi skhvf"
+              className="sc-gLjfqm fYJKlz"
             >
               Choose an option
             </div>
           </div>
           <input
             aria-autocomplete="list"
+            aria-controls="react-select-5-listbox"
             aria-describedby="react-select-5-placeholder"
             aria-expanded={false}
             aria-haspopup={true}
+            aria-owns="react-select-5-listbox"
             aria-readonly={true}
             className="css-mohuvp-dummyInput-DummyInput"
             disabled={false}
@@ -1256,7 +1284,7 @@ exports[`Multi Select renders without label 1`] = `
         className=" css-1hb7zxy-IndicatorsContainer"
       >
         <svg
-          className="sc-gsnTZi"
+          className="sc-gEvEer"
           fill="none"
           fontSize="1.5rem"
           height="1em"
@@ -1291,7 +1319,7 @@ exports[`Multi Select with counter 1`] = `
     onKeyDown={[Function]}
   >
     <span
-      className="sc-WywnD jVDWmQ"
+      className="sc-gPPVPr dwrLXl"
     >
       Large
     </span>
@@ -1306,31 +1334,33 @@ exports[`Multi Select with counter 1`] = `
       className="css-1f43avz-a11yText-A11yText"
     />
     <div
-      className=" css-dijs1s-control"
+      className=" css-98ebsh-control"
       onMouseDown={[Function]}
       onTouchEnd={[Function]}
     >
       <div
-        className=" css-1jfgnnv-ValueContainer"
+        className=" css-1n2fawc-ValueContainer"
       >
         <div
-          className="sc-dwOrSJ kYmEql"
+          className="sc-kvtFaN fqkvMb"
         >
           <div
-            className=" css-1rtvqhl-placeholder"
+            className=" css-wuj7bk-placeholder"
             id="react-select-12-placeholder"
           >
             <div
-              className="sc-iiHhKi gBfpKQ"
+              className="sc-gLjfqm eHhjjI"
             >
               Choose an option
             </div>
           </div>
           <input
             aria-autocomplete="list"
+            aria-controls="react-select-12-listbox"
             aria-describedby="react-select-12-placeholder"
             aria-expanded={false}
             aria-haspopup={true}
+            aria-owns="react-select-12-listbox"
             aria-readonly={true}
             className="css-mohuvp-dummyInput-DummyInput"
             disabled={false}
@@ -1349,7 +1379,7 @@ exports[`Multi Select with counter 1`] = `
         className=" css-1hb7zxy-IndicatorsContainer"
       >
         <svg
-          className="sc-gsnTZi"
+          className="sc-gEvEer"
           fill="none"
           fontSize="1.5rem"
           height="1em"
@@ -1387,36 +1417,38 @@ exports[`Multi Select with counter 1`] = `
       className="css-1f43avz-a11yText-A11yText"
     />
     <div
-      className=" css-fcxntf-control"
+      className=" css-1541k4v-control"
       onMouseDown={[Function]}
       onTouchEnd={[Function]}
     >
       <div
-        className=" css-13urifb-ValueContainer"
+        className=" css-112g2nh-ValueContainer"
       >
         <div
-          className="sc-hSGqtg fLCcvx"
+          className="sc-bcgPVu bVEVzH"
         >
           xLarge
         </div>
         <div
-          className="sc-dwOrSJ kYmEql"
+          className="sc-kvtFaN fqkvMb"
         >
           <div
-            className=" css-elkbxv-placeholder"
+            className=" css-jexdti-placeholder"
             id="react-select-13-placeholder"
           >
             <div
-              className="sc-iiHhKi gBfpKQ"
+              className="sc-gLjfqm eHhjjI"
             >
               Choose an option
             </div>
           </div>
           <input
             aria-autocomplete="list"
+            aria-controls="react-select-13-listbox"
             aria-describedby="react-select-13-placeholder"
             aria-expanded={false}
             aria-haspopup={true}
+            aria-owns="react-select-13-listbox"
             aria-readonly={true}
             className="css-mohuvp-dummyInput-DummyInput"
             disabled={false}
@@ -1435,7 +1467,7 @@ exports[`Multi Select with counter 1`] = `
         className=" css-1hb7zxy-IndicatorsContainer"
       >
         <svg
-          className="sc-gsnTZi"
+          className="sc-gEvEer"
           fill="none"
           fontSize="1.5rem"
           height="1em"

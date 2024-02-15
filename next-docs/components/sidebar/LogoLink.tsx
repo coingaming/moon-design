@@ -1,12 +1,15 @@
 import NextLink from 'next/link';
 import Logo from './Logo';
 
-const LogoLink = () => (
-  (<NextLink href="/">
-
+const LogoLink = ({ onClick }: { onClick: () => void }) => (
+  <NextLink
+    href="/"
+    onClick={onClick}
+    className="outline-none"
+    aria-label="Moon.io main page"
+  >
     <Logo />
-
-  </NextLink>)
+  </NextLink>
 );
 
 export default LogoLink;

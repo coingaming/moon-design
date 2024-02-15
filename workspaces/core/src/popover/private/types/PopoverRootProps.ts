@@ -9,6 +9,7 @@ interface PopoverRootProps
     'children'
   > {
   position?: Placement;
+  autoPositionDisable?: boolean;
   className?: string;
   children?: React.ReactNode | ((data: { open?: boolean }) => React.ReactNode);
 }

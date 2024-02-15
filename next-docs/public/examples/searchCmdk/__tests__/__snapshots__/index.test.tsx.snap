@@ -1,0 +1,553 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchCmdk in RTL renders CommandMenu 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body
+    style="pointer-events: none;"
+  >
+    <span
+      aria-hidden="true"
+      data-aria-hidden="true"
+      data-radix-focus-guard=""
+      style="outline: none; opacity: 0; position: fixed; pointer-events: none;"
+      tabindex="0"
+    />
+    <div
+      aria-hidden="true"
+      data-aria-hidden="true"
+    >
+      <div
+        dir="rtl"
+      >
+        <button
+          aria-label="Search"
+          class="flex gap-2 h-10 cursor-text items-center text-trunks w-full rounded-moon-i-sm border border-beerus bg-goku px-2 text-moon-14"
+        >
+          <svg
+            class="text-moon-24 text-bulma"
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M25 25L20.5871 20.5953M20.5871 20.5953C22.0303 19.1542 22.9231 17.1621 22.9231 14.9615C22.9231 10.5645 19.3586 7 14.9615 7C10.5645 7 7 10.5645 7 14.9615C7 19.3586 10.5645 22.9231 14.9615 22.9231C17.158 22.9231 19.1467 22.0336 20.5871 20.5953Z"
+              stroke="currentColor"
+              stroke-linecap="round"
+            />
+          </svg>
+          <span>
+            Search...
+          </span>
+          <kbd
+            class="text-moon-12 text-trunks ms-auto"
+          >
+            ⌘+K
+          </kbd>
+        </button>
+        <div
+          class="fixed w-screen inset-0 bg-zeno transition-opacity z-[55]"
+        />
+      </div>
+    </div>
+    <div
+      aria-hidden="true"
+      cmdk-overlay=""
+      data-aria-hidden="true"
+      data-state="open"
+      style="pointer-events: auto;"
+    />
+    <div
+      aria-describedby="radix-:rc:"
+      aria-label="Command Menu"
+      aria-labelledby="radix-:rb:"
+      cmdk-dialog=""
+      data-state="open"
+      id="radix-:ra:"
+      role="dialog"
+      style="pointer-events: auto;"
+      tabindex="-1"
+    >
+      <div
+        class="z-[60] fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full bg-goku sm:max-w-lg md:max-w-xl shadow-moon-md rounded-moon-s-md flex flex-col overflow-hidden"
+        cmdk-root=""
+        loop=""
+      >
+        <label
+          cmdk-label=""
+          for=":rf:"
+          id=":re:"
+          style="position: absolute; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+        >
+          Command Menu
+        </label>
+        <div
+          class="flex items-center gap-4 px-4"
+        >
+          <div>
+            <svg
+              class="pointer-events-none text-bulma text-moon-24"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 25L20.5871 20.5953M20.5871 20.5953C22.0303 19.1542 22.9231 17.1621 22.9231 14.9615C22.9231 10.5645 19.3586 7 14.9615 7C10.5645 7 7 10.5645 7 14.9615C7 19.3586 10.5645 22.9231 14.9615 22.9231C17.158 22.9231 19.1467 22.0336 20.5871 20.5953Z"
+                stroke="currentColor"
+                stroke-linecap="round"
+              />
+            </svg>
+          </div>
+          <input
+            aria-autocomplete="list"
+            aria-controls=":rd:"
+            aria-expanded="true"
+            aria-labelledby=":re:"
+            autocomplete="off"
+            autocorrect="off"
+            class="py-4 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent placeholder-trunks text-bulma text-moon-16"
+            cmdk-input=""
+            id=":rf:"
+            placeholder="Search for a component"
+            role="combobox"
+            spellcheck="false"
+            type="text"
+            value=""
+          />
+          <kbd
+            class="select-none hover:cursor-pointer text-trunks text-moon-14"
+          >
+            Esc
+          </kbd>
+        </div>
+        <div
+          class="h-px bg-beerus"
+          cmdk-separator=""
+          role="separator"
+        />
+        <div
+          aria-label="Suggestions"
+          aria-labelledby=":rf:"
+          class="w-full max-h-[50vh] overflow-y-auto p-2 space-y-1 bg-goku shadow-moon-md"
+          cmdk-list=""
+          id=":rd:"
+          role="listbox"
+          style="scroll-padding-block-start: 0.5rem; scroll-padding-block-end: 0.5rem;"
+        >
+          <div
+            cmdk-list-sizer=""
+          >
+            <div
+              aria-selected="true"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition data-[selected=true]:bg-heles"
+              cmdk-item=""
+              data-selected="true"
+              data-value="aurum"
+              role="option"
+            >
+              Aurum
+            </div>
+            <div
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition data-[selected=true]:bg-heles"
+              cmdk-item=""
+              data-value="argentum"
+              role="option"
+            >
+              Argentum
+            </div>
+            <div
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition data-[selected=true]:bg-heles"
+              cmdk-item=""
+              data-value="zink"
+              role="option"
+            >
+              Zink
+            </div>
+            <div
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition data-[selected=true]:bg-heles"
+              cmdk-item=""
+              data-value="plumbum"
+              role="option"
+            >
+              Plumbum
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <span
+      aria-hidden="true"
+      data-aria-hidden="true"
+      data-radix-focus-guard=""
+      style="outline: none; opacity: 0; position: fixed; pointer-events: none;"
+      tabindex="0"
+    />
+  </body>,
+  "container": <div
+    aria-hidden="true"
+    data-aria-hidden="true"
+  >
+    <div
+      dir="rtl"
+    >
+      <button
+        aria-label="Search"
+        class="flex gap-2 h-10 cursor-text items-center text-trunks w-full rounded-moon-i-sm border border-beerus bg-goku px-2 text-moon-14"
+      >
+        <svg
+          class="text-moon-24 text-bulma"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M25 25L20.5871 20.5953M20.5871 20.5953C22.0303 19.1542 22.9231 17.1621 22.9231 14.9615C22.9231 10.5645 19.3586 7 14.9615 7C10.5645 7 7 10.5645 7 14.9615C7 19.3586 10.5645 22.9231 14.9615 22.9231C17.158 22.9231 19.1467 22.0336 20.5871 20.5953Z"
+            stroke="currentColor"
+            stroke-linecap="round"
+          />
+        </svg>
+        <span>
+          Search...
+        </span>
+        <kbd
+          class="text-moon-12 text-trunks ms-auto"
+        >
+          ⌘+K
+        </kbd>
+      </button>
+      <div
+        class="fixed w-screen inset-0 bg-zeno transition-opacity z-[55]"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`SearchCmdk renders CommandMenu 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body
+    style="pointer-events: none;"
+  >
+    <span
+      aria-hidden="true"
+      data-aria-hidden="true"
+      data-radix-focus-guard=""
+      style="outline: none; opacity: 0; position: fixed; pointer-events: none;"
+      tabindex="0"
+    />
+    <div
+      aria-hidden="true"
+      data-aria-hidden="true"
+    >
+      <button
+        aria-label="Search"
+        class="flex gap-2 h-10 cursor-text items-center text-trunks w-full rounded-moon-i-sm border border-beerus bg-goku px-2 text-moon-14"
+      >
+        <svg
+          class="text-moon-24 text-bulma"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M25 25L20.5871 20.5953M20.5871 20.5953C22.0303 19.1542 22.9231 17.1621 22.9231 14.9615C22.9231 10.5645 19.3586 7 14.9615 7C10.5645 7 7 10.5645 7 14.9615C7 19.3586 10.5645 22.9231 14.9615 22.9231C17.158 22.9231 19.1467 22.0336 20.5871 20.5953Z"
+            stroke="currentColor"
+            stroke-linecap="round"
+          />
+        </svg>
+        <span>
+          Search...
+        </span>
+        <kbd
+          class="text-moon-12 text-trunks ms-auto"
+        >
+          ⌘+K
+        </kbd>
+      </button>
+      <div
+        class="fixed w-screen inset-0 bg-zeno transition-opacity z-[55]"
+      />
+    </div>
+    <div
+      aria-hidden="true"
+      cmdk-overlay=""
+      data-aria-hidden="true"
+      data-state="open"
+      style="pointer-events: auto;"
+    />
+    <div
+      aria-describedby="radix-:r2:"
+      aria-label="Command Menu"
+      aria-labelledby="radix-:r1:"
+      cmdk-dialog=""
+      data-state="open"
+      id="radix-:r0:"
+      role="dialog"
+      style="pointer-events: auto;"
+      tabindex="-1"
+    >
+      <div
+        class="z-[60] fixed top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full bg-goku sm:max-w-lg md:max-w-xl shadow-moon-md rounded-moon-s-md flex flex-col overflow-hidden"
+        cmdk-root=""
+        loop=""
+      >
+        <label
+          cmdk-label=""
+          for=":r5:"
+          id=":r4:"
+          style="position: absolute; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+        >
+          Command Menu
+        </label>
+        <div
+          class="flex items-center gap-4 px-4"
+        >
+          <div>
+            <svg
+              class="pointer-events-none text-bulma text-moon-24"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 25L20.5871 20.5953M20.5871 20.5953C22.0303 19.1542 22.9231 17.1621 22.9231 14.9615C22.9231 10.5645 19.3586 7 14.9615 7C10.5645 7 7 10.5645 7 14.9615C7 19.3586 10.5645 22.9231 14.9615 22.9231C17.158 22.9231 19.1467 22.0336 20.5871 20.5953Z"
+                stroke="currentColor"
+                stroke-linecap="round"
+              />
+            </svg>
+          </div>
+          <input
+            aria-autocomplete="list"
+            aria-controls=":r3:"
+            aria-expanded="true"
+            aria-labelledby=":r4:"
+            autocomplete="off"
+            autocorrect="off"
+            class="py-4 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent placeholder-trunks text-bulma text-moon-16"
+            cmdk-input=""
+            id=":r5:"
+            placeholder="Search for a component"
+            role="combobox"
+            spellcheck="false"
+            type="text"
+            value=""
+          />
+          <kbd
+            class="select-none hover:cursor-pointer text-trunks text-moon-14"
+          >
+            Esc
+          </kbd>
+        </div>
+        <div
+          class="h-px bg-beerus"
+          cmdk-separator=""
+          role="separator"
+        />
+        <div
+          aria-label="Suggestions"
+          aria-labelledby=":r5:"
+          class="w-full max-h-[50vh] overflow-y-auto p-2 space-y-1 bg-goku shadow-moon-md"
+          cmdk-list=""
+          id=":r3:"
+          role="listbox"
+          style="scroll-padding-block-start: 0.5rem; scroll-padding-block-end: 0.5rem;"
+        >
+          <div
+            cmdk-list-sizer=""
+          >
+            <div
+              aria-selected="true"
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition data-[selected=true]:bg-heles"
+              cmdk-item=""
+              data-selected="true"
+              data-value="aurum"
+              role="option"
+            >
+              Aurum
+            </div>
+            <div
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition data-[selected=true]:bg-heles"
+              cmdk-item=""
+              data-value="argentum"
+              role="option"
+            >
+              Argentum
+            </div>
+            <div
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition data-[selected=true]:bg-heles"
+              cmdk-item=""
+              data-value="zink"
+              role="option"
+            >
+              Zink
+            </div>
+            <div
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-heles transition data-[selected=true]:bg-heles"
+              cmdk-item=""
+              data-value="plumbum"
+              role="option"
+            >
+              Plumbum
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <span
+      aria-hidden="true"
+      data-aria-hidden="true"
+      data-radix-focus-guard=""
+      style="outline: none; opacity: 0; position: fixed; pointer-events: none;"
+      tabindex="0"
+    />
+  </body>,
+  "container": <div
+    aria-hidden="true"
+    data-aria-hidden="true"
+  >
+    <button
+      aria-label="Search"
+      class="flex gap-2 h-10 cursor-text items-center text-trunks w-full rounded-moon-i-sm border border-beerus bg-goku px-2 text-moon-14"
+    >
+      <svg
+        class="text-moon-24 text-bulma"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M25 25L20.5871 20.5953M20.5871 20.5953C22.0303 19.1542 22.9231 17.1621 22.9231 14.9615C22.9231 10.5645 19.3586 7 14.9615 7C10.5645 7 7 10.5645 7 14.9615C7 19.3586 10.5645 22.9231 14.9615 22.9231C17.158 22.9231 19.1467 22.0336 20.5871 20.5953Z"
+          stroke="currentColor"
+          stroke-linecap="round"
+        />
+      </svg>
+      <span>
+        Search...
+      </span>
+      <kbd
+        class="text-moon-12 text-trunks ms-auto"
+      >
+        ⌘+K
+      </kbd>
+    </button>
+    <div
+      class="fixed w-screen inset-0 bg-zeno transition-opacity z-[55]"
+    />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

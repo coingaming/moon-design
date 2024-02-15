@@ -1,7 +1,7 @@
 import {
   ChartArea,
   ChartBar,
-  ChartBarAlternitive,
+  ChartBarAlternative,
   ChartBarVertical,
   ChartDashboard,
   ChartFin,
@@ -10,18 +10,8 @@ import {
   ChartRelation,
   ChartRound,
 } from '@heathmont/moon-icons-tw';
-
 import Icon from './Icon';
-
-interface Props {
-  wrapperProps: {
-    onClick: (iconName: string) => void;
-    selectedIcons: string[];
-  };
-  props: {
-    className: string;
-  };
-}
+import type Props from './Props';
 
 const Example = ({ wrapperProps, props }: Props) => (
   <>
@@ -31,8 +21,8 @@ const Example = ({ wrapperProps, props }: Props) => (
     <Icon {...wrapperProps} name="ChartBar">
       <ChartBar {...props} />
     </Icon>
-    <Icon {...wrapperProps} name="ChartBarAlternitive">
-      <ChartBarAlternitive {...props} />
+    <Icon {...wrapperProps} name="ChartBarAlternative">
+      <ChartBarAlternative {...props} />
     </Icon>
     <Icon {...wrapperProps} name="ChartBarVertical">
       <ChartBarVertical {...props} />

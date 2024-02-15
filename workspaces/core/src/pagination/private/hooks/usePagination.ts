@@ -1,30 +1,20 @@
 import React from 'react';
+import type UsePagination from '../types/UsePagination';
 
 type UsePaginationProps = {
   currentPage: number;
   setCurrentPage: (page: number) => void;
   totalPages: number;
+  hrefsArray?: string[];
   edgePageCount?: number;
   middlePagesSiblingCount?: number;
-};
-
-export type UsePagination = {
-  currentPage: number;
-  setCurrentPage: (page: number) => void;
-  pages: number[];
-  hasPreviousPage: boolean;
-  hasNextPage: boolean;
-  previousPages: number[];
-  isPreviousTruncable: boolean;
-  middlePages: number[];
-  isNextTruncable: boolean;
-  nextPages: number[];
 };
 
 const usePagination = ({
   currentPage,
   setCurrentPage,
   totalPages,
+  hrefsArray,
   edgePageCount = 1,
   middlePagesSiblingCount = 1,
 }: UsePaginationProps): UsePagination => {
@@ -98,6 +88,7 @@ const usePagination = ({
     currentPage,
     setCurrentPage,
     pages,
+    hrefsArray,
     hasPreviousPage,
     hasNextPage,
     previousPages,

@@ -1,15 +1,15 @@
 import React, { useEffect } from 'react';
+import type CloseProps from './private/types/CloseProps';
+import type Props from './private/types/Props';
+import type TextProps from './private/types/TextProps';
+import AlertContext from './private/utils/AlertContext';
+import useAlertContext from './private/utils/useAlertContext';
 import IconButton from '../iconButton/IconButton';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import ControlsClose from '../private/icons/ControlsClose';
 import useRegisterChild from '../private/utils/useRegisterChild';
-import AlertContext from './private/utils/AlertContext';
-import useAlertContext from './private/utils/useTooltipContext';
-import type CloseProps from './private/types/CloseProps';
-import type Props from './private/types/Props';
-import type TextProps from './private/types/TextProps';
 
-const AlertRoot: React.FC<Props> = ({ className, children }) => {
+const AlertRoot = ({ className, children }: Props) => {
   const states = {
     withClose: false,
   };
@@ -20,9 +20,9 @@ const AlertRoot: React.FC<Props> = ({ className, children }) => {
       <div
         role="alert"
         className={mergeClassnames(
-          'relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan',
+          'relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku',
           'text-moon-14 text-bulma',
-          isClose && 'ltr:pr-[52px] rtl:pl-[52px]',
+          isClose && 'pe-14',
           className
         )}
       >
@@ -32,21 +32,17 @@ const AlertRoot: React.FC<Props> = ({ className, children }) => {
   );
 };
 
-const Title: React.FC<TextProps> = ({ className, children }) => (
-  <h6 className={mergeClassnames('flex gap-3 font-medium', className)}>
+const Title = ({ className, children }: TextProps) => (
+  <p className={mergeClassnames('flex gap-3 font-medium', className)}>
     {children}
-  </h6>
+  </p>
 );
 
-const Message: React.FC<TextProps> = ({ className, children }) => (
+const Message = ({ className, children }: TextProps) => (
   <p className={mergeClassnames('flex gap-3', className)}>{children}</p>
 );
 
-const Close: React.FC<CloseProps> = ({
-  className,
-  ariaLabel = 'close',
-  onClick,
-}) => {
+const Close = ({ className, ariaLabel = 'close', onClick }: CloseProps) => {
   const { registerChild } = useAlertContext('Alert.Close');
   useEffect(() => {
     registerChild && registerChild('Close');
@@ -57,7 +53,7 @@ const Close: React.FC<CloseProps> = ({
       variant="ghost"
       aria-label={ariaLabel}
       className={mergeClassnames(
-        'absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma',
+        'absolute end-4 top-4 text-moon-16 text-bulma',
         className
       )}
       onClick={onClick}

@@ -1,19 +1,19 @@
 import type Sizes from '../types/Sizes';
 
-const getCircularSize = (size: Sizes) => {
+const getSize = (size?: Sizes) => {
   switch (size) {
     case '2xs':
-      return '1rem';
+      return 'w-4 h-4';
     case 'xs':
-      return '1.5rem';
+      return 'w-6 h-6';
     case 'sm':
-      return '2rem';
+      return 'w-8 h-8';
     case 'lg':
-      return '3rem';
+      return 'w-12 h-12';
     case 'md':
     default:
-      return '2.5rem';
+      return 'w-10 h-10';
   }
 };
 
-export default getCircularSize;
+export default getSize;

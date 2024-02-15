@@ -4,9 +4,11 @@
 
 import { cleanup, render } from '@testing-library/react';
 import Default from '../Default';
-import Colors from '../Colors';
+import Customisation from '../Customisation';
 import Values from '../Values';
 import Sizes from '../Sizes';
+import WithLabels from '../WithLabels';
+import WithPin from '../WithPin';
 
 const withRtl = (component: JSX.Element) => <div dir="rtl">{component}</div>;
 
@@ -24,8 +26,16 @@ describe('Progress', () => {
     const tree = render(<Values />);
     expect(tree).toMatchSnapshot();
   });
-  it('renders Colors', () => {
-    const tree = render(<Colors />);
+  it('renders Customisation', () => {
+    const tree = render(<Customisation />);
+    expect(tree).toMatchSnapshot();
+  });
+  it('renders WithPin', () => {
+    const tree = render(<WithPin />);
+    expect(tree).toMatchSnapshot();
+  });
+  it('renders WithLabels', () => {
+    const tree = render(<WithLabels />);
     expect(tree).toMatchSnapshot();
   });
 });
@@ -44,8 +54,16 @@ describe('Progress in RTL', () => {
     const tree = render(withRtl(<Values />));
     expect(tree).toMatchSnapshot();
   });
-  it('renders Colors', () => {
-    const tree = render(withRtl(<Colors />));
+  it('renders Customisation', () => {
+    const tree = render(withRtl(<Customisation />));
+    expect(tree).toMatchSnapshot();
+  });
+  it('renders WithPin', () => {
+    const tree = render(withRtl(<WithPin />));
+    expect(tree).toMatchSnapshot();
+  });
+  it('renders WithLabels', () => {
+    const tree = render(withRtl(<WithLabels />));
     expect(tree).toMatchSnapshot();
   });
 });

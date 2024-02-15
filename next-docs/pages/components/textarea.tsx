@@ -1,23 +1,26 @@
-import React from 'react';
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import type { ComponentNames } from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Customization from '../../public/examples/textarea/Customization';
 import Default from '../../public/examples/textarea/Default';
-import Disabled from '../../public/examples/textarea/Disabled';
-import useExamples from '../../utils/useExamples';
+import States from '../../public/examples/textarea/States';
+import WithBtn from '../../public/examples/textarea/WithBtn';
+import useComponent from '../../utils/useComponent';
 
-const Example = () => {
-  const examples = useExamples('textarea');
-  const { name, text, image } = getComponent('Textarea');
+const COMPONENT_NAME: ComponentNames = 'Textarea';
+
+const PageTextarea = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
       <ComponentPageDescription
         title={name}
         image={image}
-        isInProgress
         isRtlSupport
+        isAriaSupport
       >
         <p>{text}</p>
       </ComponentPageDescription>
@@ -27,25 +30,24 @@ const Example = () => {
         code={examples ? examples.Default : 'Loading'}
       />
       <Preview
-        title="Disabled"
-        preview={<Disabled />}
-        code={examples ? examples.Disabled : 'Loading'}
+        title="States"
+        preview={<States />}
+        code={examples ? examples.States : 'Loading'}
       />
       <Preview
         title="Customization"
         preview={<Customization />}
         code={examples ? examples.Customization : 'Loading'}
       />
+
+      <Preview
+        title="Text area with button"
+        preview={<WithBtn />}
+        code={examples ? examples.WithBtn : 'Loading'}
+      />
       <PropsTable
         title="Textarea props"
         data={[
-          {
-            name: 'disabled',
-            type: 'boolean',
-            required: false,
-            default: '-',
-            description: 'Disables textarea',
-          },
           {
             name: 'className',
             type: 'string',
@@ -53,10 +55,21 @@ const Example = () => {
             default: '-',
             description: 'Tailwind classes for customization',
           },
+          {
+            name: 'error',
+            type: 'boolean',
+            required: false,
+            default: '-',
+            description: 'Error state of Textarea',
+          },
         ]}
       />
     </>
   );
 };
 
-export default Example;
+PageTextarea.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageTextarea;

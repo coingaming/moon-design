@@ -1,27 +1,33 @@
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import type { ComponentNames } from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Active from '../../public/examples/chip/Active';
+import States from '../../public/examples/chip/States';
+import Customization from '../../public/examples/chip/Customization';
 import Default from '../../public/examples/chip/Default';
+import Disabled from '../../public/examples/chip/Disabled';
 import Icons from '../../public/examples/chip/Icons';
 import IsStroke from '../../public/examples/chip/IsStroke';
 import IsStrokeIcons from '../../public/examples/chip/IsStrokeIcons';
 import OnClick from '../../public/examples/chip/OnClick';
 import Sizes from '../../public/examples/chip/Sizes';
 import Variants from '../../public/examples/chip/Variants';
-import useExamples from '../../utils/useExamples';
+import useComponent from '../../utils/useComponent';
 
-const Example = () => {
-  const examples = useExamples('chip');
-  const { name, text, image } = getComponent('Chip');
+const COMPONENT_NAME: ComponentNames = 'Chip';
+
+const PageChip = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
       <ComponentPageDescription
         title={name}
         image={image}
-        isInProgress
         isRtlSupport
+        isAriaSupport
       >
         <p>{text}</p>
       </ComponentPageDescription>
@@ -41,9 +47,24 @@ const Example = () => {
         code={examples ? examples.Variants : 'Loading'}
       />
       <Preview
+        title="Maintain state on click"
+        preview={<States />}
+        code={examples ? examples.States : 'Loading'}
+      />
+      <Preview
+        title="Customization"
+        preview={<Customization />}
+        code={examples ? examples.Customization : 'Loading'}
+      />
+      <Preview
         title="Active"
         preview={<Active />}
         code={examples ? examples.Active : 'Loading'}
+      />
+      <Preview
+        title="Disabled"
+        preview={<Disabled />}
+        code={examples ? examples.Disabled : 'Loading'}
       />
       <Preview
         title="Icons"
@@ -70,28 +91,35 @@ const Example = () => {
         data={[
           {
             name: 'children',
-            type: 'JSX.Element | string',
+            type: 'React.ReactNode',
             required: false,
             default: '-',
             description: 'Children content',
           },
           {
+            name: 'disabled',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description: 'Disabled Chip',
+          },
+          {
             name: 'iconLeft',
-            type: 'JSX.Element | boolean',
+            type: 'React.ReactNode',
             required: false,
             default: '-',
             description: 'Left icon',
           },
           {
             name: 'iconOnly',
-            type: 'JSX.Element | boolean',
+            type: 'React.ReactNode',
             required: false,
             default: '-',
             description: 'Icon without text',
           },
           {
             name: 'iconRight',
-            type: 'JSX.Element | boolean',
+            type: 'React.ReactNode',
             required: false,
             default: '-',
             description: 'Right icon',
@@ -115,14 +143,14 @@ const Example = () => {
             type: 'sm | md',
             required: false,
             default: 'md',
-            description: 'Size of chip',
+            description: 'Size of Chip',
           },
           {
             name: 'variant',
             type: 'default | ghost',
             required: false,
             default: 'default',
-            description: 'Visual/Logical variant of chip',
+            description: 'Visual/Logical variant of Chip',
           },
         ]}
       />
@@ -130,4 +158,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+PageChip.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageChip;

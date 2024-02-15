@@ -8,6 +8,7 @@ const Example = () => (
       <Tabs.List>
         {tabs.map((tab) => (
           <Tabs.Tab
+            key={tab}
             className={({ selected }: { selected: boolean }) =>
               `hover:text-hit after:bg-hit ${selected && 'text-hit'}`
             }
@@ -21,7 +22,10 @@ const Example = () => (
     <Tabs>
       <Tabs.List>
         {tabs.map((tab) => (
-          <Tabs.Pill className="hover:bg-hit/30 moon-selected:bg-hit/30">
+          <Tabs.Pill
+            key={tab}
+            className="hover:bg-hit/30 moon-selected:bg-hit/30"
+          >
             <span className="moon-selected:text-hit">{tab}</span>
           </Tabs.Pill>
         ))}

@@ -1,48 +1,43 @@
 import React from 'react';
-import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import Path from './private/Path';
+import type Props from './private/types/Props';
 import getPathRatio from './private/utils/getPathRatio';
 import getSize from './private/utils/getSize';
-import type Props from './private/types/Props';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
-const CircularProgress: React.FC<Props> = ({
+const CircularProgress = ({
   value = 0,
   size = 'md',
-  bgColor = 'stroke-trunks/[.24]',
-  progressColor = 'stroke-piccolo',
-}) => {
-  const VIEWBOX_WIDTH = 100;
-  const VIEWBOX_HEIGHT = 100;
-  const PATH_RADIUS = (VIEWBOX_HEIGHT - 8) / 2;
+  bgColor, // deprecated
+  progressColor, // deprecated
+  className,
+}: Props) => {
+  const PATH_RADIUS = 46;
   const pathRatio = getPathRatio(value);
   return (
     <svg
-      style={{
-        width: '1em',
-        height: '1em',
-        verticalAlign: 'middle',
-      }}
-      viewBox={`0 0 ${VIEWBOX_WIDTH} ${VIEWBOX_HEIGHT}`}
-      fontSize={getSize(size)}
+      viewBox="0 0 100 100"
       aria-valuemin={0}
       aria-valuemax={100}
       aria-valuenow={value}
       role="progressbar"
+      className={mergeClassnames(getSize(size), className)}
     >
       <Path
         dashRatio={1}
         pathRadius={PATH_RADIUS}
-        classes={mergeClassnames('stroke-[0.5rem]', bgColor)}
+        classes={mergeClassnames(
+          'background stroke-[0.5rem] stroke-trunks/[.24]',
+          bgColor /* deprecated */
+        )}
       />
       <Path
         dashRatio={pathRatio}
         pathRadius={PATH_RADIUS}
-        style={{
-          transition: value === 0 ? 'none' : 'stroke-dashoffset 0.5s ease 0s',
-        }}
         classes={mergeClassnames(
-          'stroke-[0.5rem] rtl:-scale-x-100 rtl:translate-x-full',
-          progressColor
+          'progress stroke-[0.5rem] rtl:-scale-x-100 rtl:translate-x-full stroke-piccolo',
+          'transition-[stroke-dashoffset]',
+          progressColor // deprecated
         )}
       />
     </svg>

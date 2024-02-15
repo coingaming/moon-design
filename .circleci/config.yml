@@ -5,10 +5,10 @@ aliases:
 
   enable_pnpm: &enable_pnpm
     run:
-      name: 'Using Corepack to install pnpm@7.3.0'
+      name: 'Using Corepack to install pnpm@8.2.0'
       command: |
         corepack enable
-        corepack prepare pnpm@7.3.0 --activate
+        corepack prepare pnpm@8.2.0 --activate
 
   install_deps: &install_deps
     run:
@@ -19,14 +19,14 @@ aliases:
     restore_cache:
       name: 'Restoring cache'
       keys:
-        - project-deps-v8-{{ .Environment.CIRCLE_PROJECT_REPONAME }}-{{ checksum "pnpm-lock.yaml" }}-{{ .Revision }}
-        - project-deps-v8-{{ .Environment.CIRCLE_PROJECT_REPONAME }}-{{ checksum "pnpm-lock.yaml" }}
-        - project-deps-v8-{{ .Environment.CIRCLE_PROJECT_REPONAME }}
+        - project-deps-v9-{{ .Environment.CIRCLE_PROJECT_REPONAME }}-{{ checksum "pnpm-lock.yaml" }}-{{ .Revision }}
+        - project-deps-v9-{{ .Environment.CIRCLE_PROJECT_REPONAME }}-{{ checksum "pnpm-lock.yaml" }}
+        - project-deps-v9-{{ .Environment.CIRCLE_PROJECT_REPONAME }}
 
   save_cache: &save_cache
     save_cache:
       name: 'Saving cache'
-      key: project-deps-v8-{{ .Environment.CIRCLE_PROJECT_REPONAME }}-{{ checksum "pnpm-lock.yaml" }}-{{ .Revision }}
+      key: project-deps-v9-{{ .Environment.CIRCLE_PROJECT_REPONAME }}-{{ checksum "pnpm-lock.yaml" }}-{{ .Revision }}
       paths:
         - node_modules
         - packages/*/node_modules/*

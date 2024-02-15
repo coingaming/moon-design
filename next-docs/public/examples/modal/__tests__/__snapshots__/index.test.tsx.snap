@@ -50,7 +50,7 @@ Object {
                 class="flex min-h-full items-center justify-center p-4"
               >
                 <div
-                  class="w-full max-w-sm inline-block rounded-xl bg-gohan align-middle shadow-moon-lg transition-all transition duration-300 ease-out transform scale-95 opacity-0"
+                  class="w-full max-w-sm inline-block rounded-xl bg-goku align-middle shadow-moon-lg transition-all transition duration-300 ease-out transform scale-95 opacity-0"
                   data-headlessui-state="open"
                   id="headlessui-dialog-panel-:rk:"
                 >
@@ -76,7 +76,7 @@ Object {
                     class="p-4 border-t-2 border-beerus"
                   >
                     <button
-                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
                       type="button"
                     >
                       Got it, thanks!
@@ -106,7 +106,7 @@ Object {
         dir="rtl"
       >
         <button
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
           type="button"
         >
           Open dialog
@@ -128,7 +128,7 @@ Object {
       dir="rtl"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
         type="button"
       >
         Open dialog
@@ -243,7 +243,7 @@ Object {
                 class="flex min-h-full items-center justify-center p-4"
               >
                 <div
-                  class="w-full max-w-sm inline-block rounded-xl bg-gohan align-middle shadow-moon-lg transition-all transition duration-300 ease-out transform scale-95 opacity-0"
+                  class="w-full max-w-sm inline-block rounded-xl bg-goku align-middle shadow-moon-lg transition-all transition duration-300 ease-out transform scale-95 opacity-0"
                   data-headlessui-state="open"
                   id="headlessui-dialog-panel-:ri:"
                 >
@@ -269,7 +269,7 @@ Object {
                     class="p-4 border-t-2 border-beerus"
                   >
                     <button
-                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
                       type="button"
                     >
                       Got it, thanks!
@@ -299,7 +299,7 @@ Object {
         dir="rtl"
       >
         <button
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
           type="button"
         >
           Open dialog
@@ -321,7 +321,7 @@ Object {
       dir="rtl"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
         type="button"
       >
         Open dialog
@@ -446,8 +446,10 @@ Object {
                   data-headlessui-state="open"
                   id="headlessui-dialog-panel-:rm:"
                 >
-                  <span
-                    class="absolute top-5 right-5 cursor-pointer"
+                  <button
+                    aria-label="IconButton"
+                    class="h-8 p-1 gap-1 rounded-moon-i-sm z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma text-moon-24 absolute top-4 end-5 text-goten"
+                    type="button"
                   >
                     <svg
                       class="text-moon-24"
@@ -458,13 +460,17 @@ Object {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+                        d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
                       />
                     </svg>
-                  </span>
+                    <span
+                      aria-hidden="true"
+                      class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                    />
+                  </button>
                   <div
                     class=" p-4 pt-11"
                   >
@@ -482,7 +488,7 @@ Object {
                     class="p-4 flex items-center justify-center"
                   >
                     <button
-                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary"
+                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
                       type="button"
                     >
                       Got it, thanks!
@@ -512,7 +518,7 @@ Object {
         dir="rtl"
       >
         <button
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
           type="button"
         >
           Open dialog
@@ -534,7 +540,7 @@ Object {
       dir="rtl"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
         type="button"
       >
         Open dialog
@@ -658,7 +664,7 @@ Object {
                 class="flex min-h-full items-center justify-center p-4"
               >
                 <div
-                  class="w-full max-w-sm inline-block rounded-xl bg-gohan align-middle shadow-moon-lg transition-all transition duration-300 ease-out transform scale-95 opacity-0"
+                  class="w-full max-w-sm inline-block rounded-xl bg-goku align-middle shadow-moon-lg transition-all transition duration-300 ease-out transform scale-95 opacity-0"
                   data-headlessui-state="open"
                   id="headlessui-dialog-panel-:ro:"
                 >
@@ -670,8 +676,10 @@ Object {
                     >
                       Modal title
                     </h3>
-                    <span
-                      class="absolute top-5 right-5 cursor-pointer"
+                    <button
+                      aria-label="IconButton"
+                      class="h-8 p-1 gap-1 rounded-moon-i-sm z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma text-moon-24 absolute top-4 end-5"
+                      type="button"
                     >
                       <svg
                         class="text-moon-24"
@@ -682,13 +690,17 @@ Object {
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
-                          d="M10 10l6 6m0 0l-6 6m6-6l6 6m-6-6l6-6"
+                          d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
                           stroke="currentColor"
                           stroke-linecap="round"
                           stroke-linejoin="round"
                         />
                       </svg>
-                    </span>
+                      <span
+                        aria-hidden="true"
+                        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                      />
+                    </button>
                   </div>
                   <div
                     class="px-6 py-4 flex flex-col gap-3"
@@ -707,47 +719,42 @@ Object {
                           xLarge
                         </label>
                         <div
-                          aria-expanded="false"
-                          aria-haspopup="listbox"
-                          aria-labelledby="headlessui-listbox-label-:rp: headlessui-listbox-button-:rq:"
-                          data-headlessui-state=""
-                          id="headlessui-listbox-button-:rq:"
+                          class="relative"
                         >
-                          <div>
-                            <div
-                              class="relative"
+                          <button
+                            aria-expanded="false"
+                            aria-haspopup="listbox"
+                            aria-labelledby="headlessui-listbox-label-:rp: headlessui-listbox-button-:rq:"
+                            class="flex items-center justify-between gap-2 w-full bg-goku border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                            data-headlessui-state=""
+                            data-test="data-test"
+                            id="headlessui-listbox-button-:rq:"
+                          >
+                            <span
+                              class="flex w-full flex-col items-start text-start overflow-hidden"
                             >
-                              <button
-                                class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
-                                data-test="data-test"
+                              <span
+                                class="text-moon-16 w-full text-trunks text-start truncate"
                               >
-                                <span
-                                  class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-                                >
-                                  <span
-                                    class="text-moon-16 text-trunks"
-                                  >
-                                    Choose size...
-                                  </span>
-                                </span>
-                                <svg
-                                  class="text-trunks flex-shrink-0 transition-transform text-moon-24"
-                                  fill="none"
-                                  height="1em"
-                                  viewBox="0 0 32 32"
-                                  width="1em"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <path
-                                    d="M22 13l-6 6-6-6"
-                                    stroke="currentColor"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                  />
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
+                                Choose size...
+                              </span>
+                            </span>
+                            <svg
+                              class="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                              fill="none"
+                              height="1em"
+                              viewBox="0 0 32 32"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M22 13L16 19L10 13"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                          </button>
                         </div>
                       </div>
                     </div>
@@ -765,47 +772,42 @@ Object {
                           xLarge
                         </label>
                         <div
-                          aria-expanded="false"
-                          aria-haspopup="listbox"
-                          aria-labelledby="headlessui-listbox-label-:rs: headlessui-listbox-button-:rt:"
-                          data-headlessui-state=""
-                          id="headlessui-listbox-button-:rt:"
+                          class="relative"
                         >
-                          <div>
-                            <div
-                              class="relative"
+                          <button
+                            aria-expanded="false"
+                            aria-haspopup="listbox"
+                            aria-labelledby="headlessui-listbox-label-:rs: headlessui-listbox-button-:rt:"
+                            class="flex items-center justify-between gap-2 w-full bg-goku border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                            data-headlessui-state=""
+                            data-test="data-test"
+                            id="headlessui-listbox-button-:rt:"
+                          >
+                            <span
+                              class="flex w-full flex-col items-start text-start overflow-hidden"
                             >
-                              <button
-                                class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
-                                data-test="data-test"
+                              <span
+                                class="text-moon-16 w-full text-trunks text-start truncate"
                               >
-                                <span
-                                  class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-                                >
-                                  <span
-                                    class="text-moon-16 text-trunks"
-                                  >
-                                    Choose color...
-                                  </span>
-                                </span>
-                                <svg
-                                  class="text-trunks flex-shrink-0 transition-transform text-moon-24"
-                                  fill="none"
-                                  height="1em"
-                                  viewBox="0 0 32 32"
-                                  width="1em"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <path
-                                    d="M22 13l-6 6-6-6"
-                                    stroke="currentColor"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                  />
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
+                                Choose color...
+                              </span>
+                            </span>
+                            <svg
+                              class="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                              fill="none"
+                              height="1em"
+                              viewBox="0 0 32 32"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M22 13L16 19L10 13"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                          </button>
                         </div>
                       </div>
                     </div>
@@ -823,47 +825,42 @@ Object {
                           xLarge
                         </label>
                         <div
-                          aria-expanded="false"
-                          aria-haspopup="listbox"
-                          aria-labelledby="headlessui-listbox-label-:rv: headlessui-listbox-button-:r10:"
-                          data-headlessui-state=""
-                          id="headlessui-listbox-button-:r10:"
+                          class="relative"
                         >
-                          <div>
-                            <div
-                              class="relative"
+                          <button
+                            aria-expanded="false"
+                            aria-haspopup="listbox"
+                            aria-labelledby="headlessui-listbox-label-:rv: headlessui-listbox-button-:r10:"
+                            class="flex items-center justify-between gap-2 w-full bg-goku border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                            data-headlessui-state=""
+                            data-test="data-test"
+                            id="headlessui-listbox-button-:r10:"
+                          >
+                            <span
+                              class="flex w-full flex-col items-start text-start overflow-hidden"
                             >
-                              <button
-                                class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
-                                data-test="data-test"
+                              <span
+                                class="text-moon-16 w-full text-trunks text-start truncate"
                               >
-                                <span
-                                  class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-                                >
-                                  <span
-                                    class="text-moon-16 text-trunks"
-                                  >
-                                    Choose material...
-                                  </span>
-                                </span>
-                                <svg
-                                  class="text-trunks flex-shrink-0 transition-transform text-moon-24"
-                                  fill="none"
-                                  height="1em"
-                                  viewBox="0 0 32 32"
-                                  width="1em"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <path
-                                    d="M22 13l-6 6-6-6"
-                                    stroke="currentColor"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                  />
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
+                                Choose material...
+                              </span>
+                            </span>
+                            <svg
+                              class="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                              fill="none"
+                              height="1em"
+                              viewBox="0 0 32 32"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M22 13L16 19L10 13"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                          </button>
                         </div>
                       </div>
                     </div>
@@ -872,7 +869,7 @@ Object {
                     class="flex gap-2 p-4 justify-end pt-2"
                   >
                     <button
-                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary"
+                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
                       type="button"
                     >
                       Cancel
@@ -882,7 +879,7 @@ Object {
                       />
                     </button>
                     <button
-                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
                       type="button"
                     >
                       Create
@@ -912,7 +909,7 @@ Object {
         dir="rtl"
       >
         <button
-          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
           type="button"
         >
           Open dialog
@@ -934,7 +931,7 @@ Object {
       dir="rtl"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
         type="button"
       >
         Open dialog
@@ -1040,7 +1037,7 @@ Object {
                 class="flex min-h-full items-center justify-center p-4"
               >
                 <div
-                  class="w-full max-w-sm inline-block rounded-xl bg-gohan align-middle shadow-moon-lg transition-all transition duration-300 ease-out transform scale-95 opacity-0"
+                  class="w-full max-w-sm inline-block rounded-xl bg-goku align-middle shadow-moon-lg transition-all transition duration-300 ease-out transform scale-95 opacity-0"
                   data-headlessui-state="open"
                   id="headlessui-dialog-panel-:r3:"
                 >
@@ -1066,7 +1063,7 @@ Object {
                     class="p-4 border-t-2 border-beerus"
                   >
                     <button
-                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
                       type="button"
                     >
                       Got it, thanks!
@@ -1093,7 +1090,7 @@ Object {
       aria-hidden="true"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
         type="button"
       >
         Open dialog
@@ -1111,7 +1108,7 @@ Object {
     aria-hidden="true"
   >
     <button
-      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
       type="button"
     >
       Open dialog
@@ -1186,7 +1183,7 @@ Object {
       aria-hidden="true"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
         type="button"
       >
         Open dialog
@@ -1230,7 +1227,7 @@ Object {
                 class="flex min-h-full items-center justify-center p-4"
               >
                 <div
-                  class="w-full max-w-sm inline-block rounded-xl bg-gohan align-middle shadow-moon-lg transition-all transition duration-300 ease-out transform scale-95 opacity-0"
+                  class="w-full max-w-sm inline-block rounded-xl bg-goku align-middle shadow-moon-lg transition-all transition duration-300 ease-out transform scale-95 opacity-0"
                   data-headlessui-state="open"
                   id="headlessui-dialog-panel-:r1:"
                 >
@@ -1256,7 +1253,7 @@ Object {
                     class="p-4 border-t-2 border-beerus"
                   >
                     <button
-                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
                       type="button"
                     >
                       Got it, thanks!
@@ -1284,7 +1281,7 @@ Object {
     aria-hidden="true"
   >
     <button
-      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
       type="button"
     >
       Open dialog
@@ -1396,8 +1393,10 @@ Object {
                   data-headlessui-state="open"
                   id="headlessui-dialog-panel-:r5:"
                 >
-                  <span
-                    class="absolute top-5 right-5 cursor-pointer"
+                  <button
+                    aria-label="IconButton"
+                    class="h-8 p-1 gap-1 rounded-moon-i-sm z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma text-moon-24 absolute top-4 end-5 text-goten"
+                    type="button"
                   >
                     <svg
                       class="text-moon-24"
@@ -1408,13 +1407,17 @@ Object {
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+                        d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
                         stroke="currentColor"
                         stroke-linecap="round"
                         stroke-linejoin="round"
                       />
                     </svg>
-                  </span>
+                    <span
+                      aria-hidden="true"
+                      class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                    />
+                  </button>
                   <div
                     class=" p-4 pt-11"
                   >
@@ -1432,7 +1435,7 @@ Object {
                     class="p-4 flex items-center justify-center"
                   >
                     <button
-                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary"
+                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
                       type="button"
                     >
                       Got it, thanks!
@@ -1459,7 +1462,7 @@ Object {
       aria-hidden="true"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
         type="button"
       >
         Open dialog
@@ -1477,7 +1480,7 @@ Object {
     aria-hidden="true"
   >
     <button
-      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
       type="button"
     >
       Open dialog
@@ -1588,7 +1591,7 @@ Object {
                 class="flex min-h-full items-center justify-center p-4"
               >
                 <div
-                  class="w-full max-w-sm inline-block rounded-xl bg-gohan align-middle shadow-moon-lg transition-all transition duration-300 ease-out transform scale-95 opacity-0"
+                  class="w-full max-w-sm inline-block rounded-xl bg-goku align-middle shadow-moon-lg transition-all transition duration-300 ease-out transform scale-95 opacity-0"
                   data-headlessui-state="open"
                   id="headlessui-dialog-panel-:r7:"
                 >
@@ -1600,8 +1603,10 @@ Object {
                     >
                       Modal title
                     </h3>
-                    <span
-                      class="absolute top-5 right-5 cursor-pointer"
+                    <button
+                      aria-label="IconButton"
+                      class="h-8 p-1 gap-1 rounded-moon-i-sm z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma text-moon-24 absolute top-4 end-5"
+                      type="button"
                     >
                       <svg
                         class="text-moon-24"
@@ -1612,13 +1617,17 @@ Object {
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
-                          d="M10 10l6 6m0 0l-6 6m6-6l6 6m-6-6l6-6"
+                          d="M10 10L16 16M16 16L10 22M16 16L22 22M16 16L22 10"
                           stroke="currentColor"
                           stroke-linecap="round"
                           stroke-linejoin="round"
                         />
                       </svg>
-                    </span>
+                      <span
+                        aria-hidden="true"
+                        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                      />
+                    </button>
                   </div>
                   <div
                     class="px-6 py-4 flex flex-col gap-3"
@@ -1637,47 +1646,42 @@ Object {
                           xLarge
                         </label>
                         <div
-                          aria-expanded="false"
-                          aria-haspopup="listbox"
-                          aria-labelledby="headlessui-listbox-label-:r8: headlessui-listbox-button-:r9:"
-                          data-headlessui-state=""
-                          id="headlessui-listbox-button-:r9:"
+                          class="relative"
                         >
-                          <div>
-                            <div
-                              class="relative"
+                          <button
+                            aria-expanded="false"
+                            aria-haspopup="listbox"
+                            aria-labelledby="headlessui-listbox-label-:r8: headlessui-listbox-button-:r9:"
+                            class="flex items-center justify-between gap-2 w-full bg-goku border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                            data-headlessui-state=""
+                            data-test="data-test"
+                            id="headlessui-listbox-button-:r9:"
+                          >
+                            <span
+                              class="flex w-full flex-col items-start text-start overflow-hidden"
                             >
-                              <button
-                                class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
-                                data-test="data-test"
+                              <span
+                                class="text-moon-16 w-full text-trunks text-start truncate"
                               >
-                                <span
-                                  class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-                                >
-                                  <span
-                                    class="text-moon-16 text-trunks"
-                                  >
-                                    Choose size...
-                                  </span>
-                                </span>
-                                <svg
-                                  class="text-trunks flex-shrink-0 transition-transform text-moon-24"
-                                  fill="none"
-                                  height="1em"
-                                  viewBox="0 0 32 32"
-                                  width="1em"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <path
-                                    d="M22 13l-6 6-6-6"
-                                    stroke="currentColor"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                  />
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
+                                Choose size...
+                              </span>
+                            </span>
+                            <svg
+                              class="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                              fill="none"
+                              height="1em"
+                              viewBox="0 0 32 32"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M22 13L16 19L10 13"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                          </button>
                         </div>
                       </div>
                     </div>
@@ -1695,47 +1699,42 @@ Object {
                           xLarge
                         </label>
                         <div
-                          aria-expanded="false"
-                          aria-haspopup="listbox"
-                          aria-labelledby="headlessui-listbox-label-:rb: headlessui-listbox-button-:rc:"
-                          data-headlessui-state=""
-                          id="headlessui-listbox-button-:rc:"
+                          class="relative"
                         >
-                          <div>
-                            <div
-                              class="relative"
+                          <button
+                            aria-expanded="false"
+                            aria-haspopup="listbox"
+                            aria-labelledby="headlessui-listbox-label-:rb: headlessui-listbox-button-:rc:"
+                            class="flex items-center justify-between gap-2 w-full bg-goku border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                            data-headlessui-state=""
+                            data-test="data-test"
+                            id="headlessui-listbox-button-:rc:"
+                          >
+                            <span
+                              class="flex w-full flex-col items-start text-start overflow-hidden"
                             >
-                              <button
-                                class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
-                                data-test="data-test"
+                              <span
+                                class="text-moon-16 w-full text-trunks text-start truncate"
                               >
-                                <span
-                                  class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-                                >
-                                  <span
-                                    class="text-moon-16 text-trunks"
-                                  >
-                                    Choose color...
-                                  </span>
-                                </span>
-                                <svg
-                                  class="text-trunks flex-shrink-0 transition-transform text-moon-24"
-                                  fill="none"
-                                  height="1em"
-                                  viewBox="0 0 32 32"
-                                  width="1em"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <path
-                                    d="M22 13l-6 6-6-6"
-                                    stroke="currentColor"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                  />
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
+                                Choose color...
+                              </span>
+                            </span>
+                            <svg
+                              class="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                              fill="none"
+                              height="1em"
+                              viewBox="0 0 32 32"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M22 13L16 19L10 13"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                          </button>
                         </div>
                       </div>
                     </div>
@@ -1753,47 +1752,42 @@ Object {
                           xLarge
                         </label>
                         <div
-                          aria-expanded="false"
-                          aria-haspopup="listbox"
-                          aria-labelledby="headlessui-listbox-label-:re: headlessui-listbox-button-:rf:"
-                          data-headlessui-state=""
-                          id="headlessui-listbox-button-:rf:"
+                          class="relative"
                         >
-                          <div>
-                            <div
-                              class="relative"
+                          <button
+                            aria-expanded="false"
+                            aria-haspopup="listbox"
+                            aria-labelledby="headlessui-listbox-label-:re: headlessui-listbox-button-:rf:"
+                            class="flex items-center justify-between gap-2 w-full bg-goku border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                            data-headlessui-state=""
+                            data-test="data-test"
+                            id="headlessui-listbox-button-:rf:"
+                          >
+                            <span
+                              class="flex w-full flex-col items-start text-start overflow-hidden"
                             >
-                              <button
-                                class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
-                                data-test="data-test"
+                              <span
+                                class="text-moon-16 w-full text-trunks text-start truncate"
                               >
-                                <span
-                                  class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-                                >
-                                  <span
-                                    class="text-moon-16 text-trunks"
-                                  >
-                                    Choose material...
-                                  </span>
-                                </span>
-                                <svg
-                                  class="text-trunks flex-shrink-0 transition-transform text-moon-24"
-                                  fill="none"
-                                  height="1em"
-                                  viewBox="0 0 32 32"
-                                  width="1em"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <path
-                                    d="M22 13l-6 6-6-6"
-                                    stroke="currentColor"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                  />
-                                </svg>
-                              </button>
-                            </div>
-                          </div>
+                                Choose material...
+                              </span>
+                            </span>
+                            <svg
+                              class="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                              fill="none"
+                              height="1em"
+                              viewBox="0 0 32 32"
+                              width="1em"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M22 13L16 19L10 13"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                              />
+                            </svg>
+                          </button>
                         </div>
                       </div>
                     </div>
@@ -1802,7 +1796,7 @@ Object {
                     class="flex gap-2 p-4 justify-end pt-2"
                   >
                     <button
-                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary"
+                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-bulma bg-transparent ring-inset ring-1 ring-trunks hover:ring-bulma"
                       type="button"
                     >
                       Cancel
@@ -1812,7 +1806,7 @@ Object {
                       />
                     </button>
                     <button
-                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
                       type="button"
                     >
                       Create
@@ -1839,7 +1833,7 @@ Object {
       aria-hidden="true"
     >
       <button
-        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
         type="button"
       >
         Open dialog
@@ -1857,7 +1851,7 @@ Object {
     aria-hidden="true"
   >
     <button
-      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-goten bg-piccolo"
       type="button"
     >
       Open dialog

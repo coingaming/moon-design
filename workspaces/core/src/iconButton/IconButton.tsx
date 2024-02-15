@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import Hover from '../button/styles/Hover';
-import AnimationContent from './private/utils/buttonAnimations/AnimationContent';
-import IconButtonComponent from './styles/IconButtonComponent';
-import type ButtonVariants from '../button/private/types/ButtonVariants';
 import type IconButtonProps from './private/types/IconButtonProps';
+import AnimationContent from './private/utils/AnimationContent';
+import getAriaLabel from './private/utils/getAriaLabel';
+import IconButtonComponent from './styles/IconButtonComponent';
+import Hover from '../button/styles/Hover';
 
 type Props<C extends React.ElementType> = React.PropsWithChildren<
   IconButtonProps<C>
@@ -12,13 +12,14 @@ type Props<C extends React.ElementType> = React.PropsWithChildren<
 
 const IconButton = <C extends React.ElementType = 'button'>({
   children,
-  variant = 'primary',
+  variant = 'fill',
   size = 'md',
   icon,
   disabled,
   animation,
   as,
   className,
+  ['aria-label']: ariaLabel,
   ...rest
 }: Props<C>) => {
   const [isHover, setIsHover] = useState(false);
@@ -27,7 +28,7 @@ const IconButton = <C extends React.ElementType = 'button'>({
   return (
     <IconButtonComponent
       size={size}
-      variant={variant as ButtonVariants}
+      variant={variant}
       icon={icon}
       disabled={disabled}
       animation={animation}
@@ -35,6 +36,7 @@ const IconButton = <C extends React.ElementType = 'button'>({
       onMouseEnter={() => setIsHover(true)}
       onMouseLeave={() => setIsHover(false)}
       customClassName={className}
+      aria-label={getAriaLabel({ ariaLabel, animation })}
       {...rest}
     >
       {hasAnimationContent ? (
@@ -43,6 +45,7 @@ const IconButton = <C extends React.ElementType = 'button'>({
           children={children}
           animation={animation}
           size={size}
+          variant={variant}
         />
       ) : (
         <>
@@ -50,7 +53,7 @@ const IconButton = <C extends React.ElementType = 'button'>({
           {children}
         </>
       )}
-      <Hover isHover={isHover} />
+      <Hover isHover={isHover} variant={variant} />
     </IconButtonComponent>
   );
 };

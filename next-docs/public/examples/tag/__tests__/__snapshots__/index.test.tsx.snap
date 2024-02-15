@@ -9,12 +9,12 @@ Object {
         dir="rtl"
       >
         <div
-          class="flex items-center gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium rounded-none"
+          class="flex items-center gap-1 select-none text-goku bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium rounded-none"
         >
           Customized
         </div>
         <div
-          class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan py-1 px-2 h-6 text-moon-10-caption uppercase font-medium bg-roshi"
+          class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku py-1 px-2 h-6 text-moon-10-caption uppercase font-medium bg-roshi"
         >
           Customized
         </div>
@@ -31,12 +31,12 @@ Object {
       dir="rtl"
     >
       <div
-        class="flex items-center gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium rounded-none"
+        class="flex items-center gap-1 select-none text-goku bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium rounded-none"
       >
         Customized
       </div>
       <div
-        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan py-1 px-2 h-6 text-moon-10-caption uppercase font-medium bg-roshi"
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku py-1 px-2 h-6 text-moon-10-caption uppercase font-medium bg-roshi"
       >
         Customized
       </div>
@@ -110,7 +110,7 @@ Object {
         dir="rtl"
       >
         <div
-          class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
+          class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
         >
           Default
         </div>
@@ -122,7 +122,7 @@ Object {
       dir="rtl"
     >
       <div
-        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
       >
         Default
       </div>
@@ -191,7 +191,7 @@ Object {
         dir="rtl"
       >
         <div
-          class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 ps-1 pe-2 h-6 text-moon-10-caption uppercase font-medium"
+          class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-1 pe-2 h-6 text-moon-10-caption uppercase font-medium"
         >
           <span
             class="text-moon-16"
@@ -204,7 +204,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+                d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
                 stroke="currentColor"
                 stroke-linecap="round"
               />
@@ -213,7 +213,7 @@ Object {
           Left icon
         </div>
         <div
-          class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
+          class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
         >
           Right icon
           <span
@@ -227,7 +227,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+                d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -236,7 +236,7 @@ Object {
           </span>
         </div>
         <div
-          class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma p-1 h-6 text-moon-10-caption uppercase font-medium"
+          class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma p-1 h-6 text-moon-10-caption uppercase font-medium"
         >
           <span
             class="text-moon-16"
@@ -249,7 +249,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+                d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
                 stroke="currentColor"
                 stroke-linecap="round"
               />
@@ -267,7 +267,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+                d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -283,7 +283,7 @@ Object {
       dir="rtl"
     >
       <div
-        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 ps-1 pe-2 h-6 text-moon-10-caption uppercase font-medium"
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-1 pe-2 h-6 text-moon-10-caption uppercase font-medium"
       >
         <span
           class="text-moon-16"
@@ -296,7 +296,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+              d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
               stroke="currentColor"
               stroke-linecap="round"
             />
@@ -305,7 +305,7 @@ Object {
         Left icon
       </div>
       <div
-        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
       >
         Right icon
         <span
@@ -319,7 +319,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+              d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -328,7 +328,7 @@ Object {
         </span>
       </div>
       <div
-        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma p-1 h-6 text-moon-10-caption uppercase font-medium"
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma p-1 h-6 text-moon-10-caption uppercase font-medium"
       >
         <span
           class="text-moon-16"
@@ -341,7 +341,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+              d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
               stroke="currentColor"
               stroke-linecap="round"
             />
@@ -359,7 +359,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+              d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -432,12 +432,12 @@ Object {
         dir="rtl"
       >
         <div
-          class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
+          class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
         >
           Default
         </div>
         <div
-          class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-12"
+          class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 px-2 h-6 text-moon-12"
         >
           Lowercase
         </div>
@@ -449,12 +449,12 @@ Object {
       dir="rtl"
     >
       <div
-        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
       >
         Default
       </div>
       <div
-        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-12"
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 px-2 h-6 text-moon-12"
       >
         Lowercase
       </div>
@@ -523,12 +523,12 @@ Object {
         dir="rtl"
       >
         <div
-          class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-0 px-2 h-4 text-moon-9-caption uppercase font-medium"
+          class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-0 px-2 h-4 text-moon-9-caption uppercase font-medium"
         >
           2XS size
         </div>
         <div
-          class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
+          class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
         >
           XS size
         </div>
@@ -540,12 +540,12 @@ Object {
       dir="rtl"
     >
       <div
-        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-0 px-2 h-4 text-moon-9-caption uppercase font-medium"
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-0 px-2 h-4 text-moon-9-caption uppercase font-medium"
       >
         2XS size
       </div>
       <div
-        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
       >
         XS size
       </div>
@@ -611,12 +611,12 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="flex items-center gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium rounded-none"
+        class="flex items-center gap-1 select-none text-goku bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium rounded-none"
       >
         Customized
       </div>
       <div
-        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan py-1 px-2 h-6 text-moon-10-caption uppercase font-medium bg-roshi"
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku py-1 px-2 h-6 text-moon-10-caption uppercase font-medium bg-roshi"
       >
         Customized
       </div>
@@ -629,12 +629,12 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="flex items-center gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium rounded-none"
+      class="flex items-center gap-1 select-none text-goku bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium rounded-none"
     >
       Customized
     </div>
     <div
-      class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan py-1 px-2 h-6 text-moon-10-caption uppercase font-medium bg-roshi"
+      class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku py-1 px-2 h-6 text-moon-10-caption uppercase font-medium bg-roshi"
     >
       Customized
     </div>
@@ -704,7 +704,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
       >
         Default
       </div>
@@ -712,7 +712,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
+      class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
     >
       Default
     </div>
@@ -777,7 +777,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 ps-1 pe-2 h-6 text-moon-10-caption uppercase font-medium"
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-1 pe-2 h-6 text-moon-10-caption uppercase font-medium"
       >
         <span
           class="text-moon-16"
@@ -790,7 +790,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+              d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
               stroke="currentColor"
               stroke-linecap="round"
             />
@@ -799,7 +799,7 @@ Object {
         Left icon
       </div>
       <div
-        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
       >
         Right icon
         <span
@@ -813,7 +813,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+              d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -822,7 +822,7 @@ Object {
         </span>
       </div>
       <div
-        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma p-1 h-6 text-moon-10-caption uppercase font-medium"
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma p-1 h-6 text-moon-10-caption uppercase font-medium"
       >
         <span
           class="text-moon-16"
@@ -835,7 +835,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+              d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
               stroke="currentColor"
               stroke-linecap="round"
             />
@@ -853,7 +853,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+              d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -865,7 +865,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 ps-1 pe-2 h-6 text-moon-10-caption uppercase font-medium"
+      class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-1 pe-2 h-6 text-moon-10-caption uppercase font-medium"
     >
       <span
         class="text-moon-16"
@@ -878,7 +878,7 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+            d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
             stroke="currentColor"
             stroke-linecap="round"
           />
@@ -887,7 +887,7 @@ Object {
       Left icon
     </div>
     <div
-      class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
+      class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
     >
       Right icon
       <span
@@ -901,7 +901,7 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+            d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -910,7 +910,7 @@ Object {
       </span>
     </div>
     <div
-      class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma p-1 h-6 text-moon-10-caption uppercase font-medium"
+      class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma p-1 h-6 text-moon-10-caption uppercase font-medium"
     >
       <span
         class="text-moon-16"
@@ -923,7 +923,7 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+            d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
             stroke="currentColor"
             stroke-linecap="round"
           />
@@ -941,7 +941,7 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+            d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -1010,12 +1010,12 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
       >
         Default
       </div>
       <div
-        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-12"
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 px-2 h-6 text-moon-12"
       >
         Lowercase
       </div>
@@ -1023,12 +1023,12 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
+      class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
     >
       Default
     </div>
     <div
-      class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-12"
+      class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 px-2 h-6 text-moon-12"
     >
       Lowercase
     </div>
@@ -1093,12 +1093,12 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-0 px-2 h-4 text-moon-9-caption uppercase font-medium"
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-0 px-2 h-4 text-moon-9-caption uppercase font-medium"
       >
         2XS size
       </div>
       <div
-        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
       >
         XS size
       </div>
@@ -1106,12 +1106,12 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-0 px-2 h-4 text-moon-9-caption uppercase font-medium"
+      class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-0 px-2 h-4 text-moon-9-caption uppercase font-medium"
     >
       2XS size
     </div>
     <div
-      class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
+      class="flex items-center rounded-moon-i-xs gap-1 select-none text-goku bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
     >
       XS size
     </div>

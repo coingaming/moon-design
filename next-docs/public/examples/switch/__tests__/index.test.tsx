@@ -3,16 +3,17 @@
  */
 
 import { cleanup, render } from '@testing-library/react';
-import CustomBg from '../CustomBg';
+import Customization from '../Customization';
 import Default from '../Default';
 import Form from '../Form';
 import Sizes from '../Sizes';
 import Disabled from '../Disabled';
 import WithIcons from '../WithIcons';
+import WithTooltip from '../WithTooltip';
 
 const withRtl = (component: JSX.Element) => <div dir="rtl">{component}</div>;
 
-describe('Switch in Light Theme', () => {
+describe('Switch', () => {
   afterEach(cleanup);
   it('renders Default', () => {
     const tree = render(<Default />);
@@ -22,8 +23,8 @@ describe('Switch in Light Theme', () => {
     const tree = render(<Sizes />);
     expect(tree).toMatchSnapshot();
   });
-  it('renders CustomBg', () => {
-    const tree = render(<CustomBg />);
+  it('renders Customization', () => {
+    const tree = render(<Customization />);
     expect(tree).toMatchSnapshot();
   });
   it('renders Form', () => {
@@ -38,6 +39,10 @@ describe('Switch in Light Theme', () => {
     const tree = render(<WithIcons />);
     expect(tree).toMatchSnapshot();
   });
+  it('renders WithTooltip', () => {
+    const tree = render(<WithTooltip />);
+    expect(tree).toMatchSnapshot();
+  });
 });
 
 describe('Switch in RTL', () => {
@@ -50,8 +55,8 @@ describe('Switch in RTL', () => {
     const tree = render(withRtl(<Sizes />));
     expect(tree).toMatchSnapshot();
   });
-  it('renders CustomBg', () => {
-    const tree = render(withRtl(<CustomBg />));
+  it('renders Customization', () => {
+    const tree = render(withRtl(<Customization />));
     expect(tree).toMatchSnapshot();
   });
   it('renders Form', () => {
@@ -64,6 +69,10 @@ describe('Switch in RTL', () => {
   });
   it('renders WithIcons', () => {
     const tree = render(withRtl(<WithIcons />));
+    expect(tree).toMatchSnapshot();
+  });
+  it('renders WithTooltip', () => {
+    const tree = render(withRtl(<WithTooltip />));
     expect(tree).toMatchSnapshot();
   });
 });

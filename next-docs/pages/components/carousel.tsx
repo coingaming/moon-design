@@ -1,29 +1,36 @@
-import React from 'react';
+import { ReactNode } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import type { ComponentNames } from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
 import Autoslide from '../../public/examples/carousel/Autoslide';
 import CustomizedArrow from '../../public/examples/carousel/CustomizedArrow';
 import Default from '../../public/examples/carousel/Default';
 import Indicators from '../../public/examples/carousel/Indicators';
+import Rtl from '../../public/examples/carousel/Rtl';
 import SelectIndex from '../../public/examples/carousel/SelectIndex';
 import Spaces from '../../public/examples/carousel/Spaces';
 import VisibleIndex from '../../public/examples/carousel/VisibleIndex';
-import useExamples from '../../utils/useExamples';
+import useComponent from '../../utils/useComponent';
 
-export default function PageCarousel() {
-  const examples = useExamples('carousel');
-  const { name, text, image } = getComponent('Carousel');
+const COMPONENT_NAME: ComponentNames = 'Carousel';
+
+const PageCarousel = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
-      <ComponentPageDescription title={name} image={image} isInProgress>
+      <ComponentPageDescription title={name} image={image} isAriaSupport>
         <p>{text}</p>
         <p>
           It not only helps in saving screen space, but also encourages visitors
           to focus on important website content and improves the overall visual
           appeal effectively.
+        </p>
+        <p>
+          To support Arabic languages this component requires setting up isRtl
+          prop directly.
         </p>
       </ComponentPageDescription>
       <ComponentAnatomy>
@@ -70,6 +77,11 @@ export default function PageCarousel() {
         title="Autoslide"
         preview={<Autoslide />}
         code={examples ? examples.Autoslide : 'Loading'}
+      />
+      <Preview
+        title="Rtl support"
+        preview={<Rtl />}
+        code={examples ? examples.Rtl : 'Loading'}
       />
       <PropsTable
         title="Carousel props"
@@ -152,8 +164,21 @@ export default function PageCarousel() {
             description:
               'Interval of auto sliding in milliseconds. No auto sliding if undefined',
           },
+          {
+            name: 'isRtl',
+            type: 'boolean',
+            required: false,
+            default: '-',
+            description: 'Set right to left (rtl) view',
+          },
         ]}
       />
     </>
   );
-}
+};
+
+PageCarousel.getLayout = function getLayout(page: ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PageCarousel;

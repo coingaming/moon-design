@@ -9,7 +9,7 @@ Object {
         dir="rtl"
       >
         <div
-          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
           role="alert"
         >
           <p
@@ -24,7 +24,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+                d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
                 stroke="currentColor"
                 stroke-linecap="round"
               />
@@ -33,7 +33,7 @@ Object {
           </p>
           <button
             aria-label="close"
-            class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+            class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
             type="button"
           >
             <svg
@@ -45,7 +45,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+                d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -58,7 +58,7 @@ Object {
           </button>
         </div>
         <div
-          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px] bg-transparent outline outline-1 outline-offset-[-1px] outline-roshi"
+          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm text-moon-14 text-bulma pe-14 bg-transparent outline outline-1 outline-offset-[-1px] outline-roshi"
           role="alert"
         >
           <p
@@ -73,7 +73,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+                d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
                 stroke="currentColor"
                 stroke-linecap="round"
               />
@@ -82,7 +82,7 @@ Object {
           </p>
           <button
             aria-label="close"
-            class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+            class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
             type="button"
           >
             <svg
@@ -94,7 +94,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+                d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -107,11 +107,11 @@ Object {
           </button>
         </div>
         <div
-          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px] bg-roshi-10"
+          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm text-moon-14 text-bulma pe-14 bg-roshi-10"
           role="alert"
         >
           <p
-            class="flex gap-3 text-roshi"
+            class="flex gap-3"
           >
             <svg
               class="text-moon-24"
@@ -122,7 +122,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+                d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
                 stroke="currentColor"
                 stroke-linecap="round"
               />
@@ -131,7 +131,7 @@ Object {
           </p>
           <button
             aria-label="close"
-            class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+            class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
             type="button"
           >
             <svg
@@ -143,7 +143,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+                d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -163,7 +163,7 @@ Object {
       dir="rtl"
     >
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
         role="alert"
       >
         <p
@@ -178,7 +178,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+              d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
               stroke="currentColor"
               stroke-linecap="round"
             />
@@ -187,7 +187,7 @@ Object {
         </p>
         <button
           aria-label="close"
-          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
           type="button"
         >
           <svg
@@ -199,7 +199,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+              d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -212,7 +212,7 @@ Object {
         </button>
       </div>
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px] bg-transparent outline outline-1 outline-offset-[-1px] outline-roshi"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm text-moon-14 text-bulma pe-14 bg-transparent outline outline-1 outline-offset-[-1px] outline-roshi"
         role="alert"
       >
         <p
@@ -227,7 +227,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+              d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
               stroke="currentColor"
               stroke-linecap="round"
             />
@@ -236,7 +236,7 @@ Object {
         </p>
         <button
           aria-label="close"
-          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
           type="button"
         >
           <svg
@@ -248,7 +248,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+              d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -261,11 +261,11 @@ Object {
         </button>
       </div>
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px] bg-roshi-10"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm text-moon-14 text-bulma pe-14 bg-roshi-10"
         role="alert"
       >
         <p
-          class="flex gap-3 text-roshi"
+          class="flex gap-3"
         >
           <svg
             class="text-moon-24"
@@ -276,7 +276,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+              d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
               stroke="currentColor"
               stroke-linecap="round"
             />
@@ -285,7 +285,7 @@ Object {
         </p>
         <button
           aria-label="close"
-          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
           type="button"
         >
           <svg
@@ -297,7 +297,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+              d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -374,7 +374,7 @@ Object {
         dir="rtl"
       >
         <div
-          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma"
           role="alert"
         >
           Default alert
@@ -387,7 +387,7 @@ Object {
       dir="rtl"
     >
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma"
         role="alert"
       >
         Default alert
@@ -457,13 +457,13 @@ Object {
         dir="rtl"
       >
         <div
-          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
           role="alert"
         >
           Click the Close button to hide the Alert
           <button
             aria-label="close"
-            class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+            class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
             type="button"
           >
             <svg
@@ -475,7 +475,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+                d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -495,13 +495,13 @@ Object {
       dir="rtl"
     >
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
         role="alert"
       >
         Click the Close button to hide the Alert
         <button
           aria-label="close"
-          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
           type="button"
         >
           <svg
@@ -513,7 +513,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+              d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -590,13 +590,13 @@ Object {
         dir="rtl"
       >
         <div
-          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
           role="alert"
         >
           Alert with close
           <button
             aria-label="close"
-            class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+            class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
             type="button"
           >
             <svg
@@ -608,7 +608,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+                d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -621,14 +621,14 @@ Object {
           </button>
         </div>
         <div
-          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
           role="alert"
         >
-          <h6
+          <p
             class="flex gap-3 font-medium"
           >
             Alert with title and close
-          </h6>
+          </p>
           <p
             class="flex gap-3"
           >
@@ -636,7 +636,7 @@ Object {
           </p>
           <button
             aria-label="close"
-            class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+            class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
             type="button"
           >
             <svg
@@ -648,7 +648,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+                d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -668,13 +668,13 @@ Object {
       dir="rtl"
     >
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
         role="alert"
       >
         Alert with close
         <button
           aria-label="close"
-          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
           type="button"
         >
           <svg
@@ -686,7 +686,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+              d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -699,14 +699,14 @@ Object {
         </button>
       </div>
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
         role="alert"
       >
-        <h6
+        <p
           class="flex gap-3 font-medium"
         >
           Alert with title and close
-        </h6>
+        </p>
         <p
           class="flex gap-3"
         >
@@ -714,7 +714,7 @@ Object {
         </p>
         <button
           aria-label="close"
-          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
           type="button"
         >
           <svg
@@ -726,7 +726,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+              d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -803,7 +803,7 @@ Object {
         dir="rtl"
       >
         <div
-          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma"
           role="alert"
         >
           <p
@@ -818,7 +818,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+                d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
                 stroke="currentColor"
                 stroke-linecap="round"
               />
@@ -827,10 +827,10 @@ Object {
           </p>
         </div>
         <div
-          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma"
           role="alert"
         >
-          <h6
+          <p
             class="flex gap-3 font-medium"
           >
             <svg
@@ -842,13 +842,13 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+                d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
                 stroke="currentColor"
                 stroke-linecap="round"
               />
             </svg>
             Alert with title and icon
-          </h6>
+          </p>
           <p
             class="flex gap-3"
           >
@@ -863,7 +863,7 @@ Object {
       dir="rtl"
     >
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma"
         role="alert"
       >
         <p
@@ -878,7 +878,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+              d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
               stroke="currentColor"
               stroke-linecap="round"
             />
@@ -887,10 +887,10 @@ Object {
         </p>
       </div>
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma"
         role="alert"
       >
-        <h6
+        <p
           class="flex gap-3 font-medium"
         >
           <svg
@@ -902,13 +902,13 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+              d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
               stroke="currentColor"
               stroke-linecap="round"
             />
           </svg>
           Alert with title and icon
-        </h6>
+        </p>
         <p
           class="flex gap-3"
         >
@@ -980,7 +980,7 @@ Object {
         dir="rtl"
       >
         <div
-          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
           role="alert"
         >
           <p
@@ -995,7 +995,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+                d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
                 stroke="currentColor"
                 stroke-linecap="round"
               />
@@ -1004,7 +1004,7 @@ Object {
           </p>
           <button
             aria-label="close"
-            class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+            class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
             type="button"
           >
             <svg
@@ -1016,7 +1016,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+                d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -1029,10 +1029,10 @@ Object {
           </button>
         </div>
         <div
-          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
           role="alert"
         >
-          <h6
+          <p
             class="flex gap-3 font-medium"
           >
             <svg
@@ -1044,13 +1044,13 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+                d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
                 stroke="currentColor"
                 stroke-linecap="round"
               />
             </svg>
             Alert with title and icon
-          </h6>
+          </p>
           <p
             class="flex gap-3"
           >
@@ -1058,7 +1058,7 @@ Object {
           </p>
           <button
             aria-label="close"
-            class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+            class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
             type="button"
           >
             <svg
@@ -1070,7 +1070,7 @@ Object {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+                d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
                 stroke="currentColor"
                 stroke-linecap="round"
                 stroke-linejoin="round"
@@ -1090,7 +1090,7 @@ Object {
       dir="rtl"
     >
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
         role="alert"
       >
         <p
@@ -1105,7 +1105,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+              d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
               stroke="currentColor"
               stroke-linecap="round"
             />
@@ -1114,7 +1114,7 @@ Object {
         </p>
         <button
           aria-label="close"
-          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
           type="button"
         >
           <svg
@@ -1126,7 +1126,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+              d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -1139,10 +1139,10 @@ Object {
         </button>
       </div>
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
         role="alert"
       >
-        <h6
+        <p
           class="flex gap-3 font-medium"
         >
           <svg
@@ -1154,13 +1154,13 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+              d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
               stroke="currentColor"
               stroke-linecap="round"
             />
           </svg>
           Alert with title and icon
-        </h6>
+        </p>
         <p
           class="flex gap-3"
         >
@@ -1168,7 +1168,7 @@ Object {
         </p>
         <button
           aria-label="close"
-          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
           type="button"
         >
           <svg
@@ -1180,7 +1180,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+              d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -1257,14 +1257,14 @@ Object {
         dir="rtl"
       >
         <div
-          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+          class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma"
           role="alert"
         >
-          <h6
+          <p
             class="flex gap-3 font-medium"
           >
             Alert title
-          </h6>
+          </p>
           <p
             class="flex gap-3"
           >
@@ -1279,14 +1279,14 @@ Object {
       dir="rtl"
     >
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma"
         role="alert"
       >
-        <h6
+        <p
           class="flex gap-3 font-medium"
         >
           Alert title
-        </h6>
+        </p>
         <p
           class="flex gap-3"
         >
@@ -1355,7 +1355,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
         role="alert"
       >
         <p
@@ -1370,7 +1370,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+              d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
               stroke="currentColor"
               stroke-linecap="round"
             />
@@ -1379,7 +1379,7 @@ Object {
         </p>
         <button
           aria-label="close"
-          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
           type="button"
         >
           <svg
@@ -1391,7 +1391,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+              d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -1404,7 +1404,7 @@ Object {
         </button>
       </div>
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px] bg-transparent outline outline-1 outline-offset-[-1px] outline-roshi"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm text-moon-14 text-bulma pe-14 bg-transparent outline outline-1 outline-offset-[-1px] outline-roshi"
         role="alert"
       >
         <p
@@ -1419,7 +1419,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+              d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
               stroke="currentColor"
               stroke-linecap="round"
             />
@@ -1428,7 +1428,7 @@ Object {
         </p>
         <button
           aria-label="close"
-          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
           type="button"
         >
           <svg
@@ -1440,7 +1440,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+              d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -1453,11 +1453,11 @@ Object {
         </button>
       </div>
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px] bg-roshi-10"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm text-moon-14 text-bulma pe-14 bg-roshi-10"
         role="alert"
       >
         <p
-          class="flex gap-3 text-roshi"
+          class="flex gap-3"
         >
           <svg
             class="text-moon-24"
@@ -1468,7 +1468,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+              d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
               stroke="currentColor"
               stroke-linecap="round"
             />
@@ -1477,7 +1477,7 @@ Object {
         </p>
         <button
           aria-label="close"
-          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
           type="button"
         >
           <svg
@@ -1489,7 +1489,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+              d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -1505,7 +1505,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
       role="alert"
     >
       <p
@@ -1520,7 +1520,7 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+            d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
             stroke="currentColor"
             stroke-linecap="round"
           />
@@ -1529,7 +1529,7 @@ Object {
       </p>
       <button
         aria-label="close"
-        class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+        class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
         type="button"
       >
         <svg
@@ -1541,7 +1541,7 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+            d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -1554,7 +1554,7 @@ Object {
       </button>
     </div>
     <div
-      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px] bg-transparent outline outline-1 outline-offset-[-1px] outline-roshi"
+      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm text-moon-14 text-bulma pe-14 bg-transparent outline outline-1 outline-offset-[-1px] outline-roshi"
       role="alert"
     >
       <p
@@ -1569,7 +1569,7 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+            d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
             stroke="currentColor"
             stroke-linecap="round"
           />
@@ -1578,7 +1578,7 @@ Object {
       </p>
       <button
         aria-label="close"
-        class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+        class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
         type="button"
       >
         <svg
@@ -1590,7 +1590,7 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+            d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -1603,11 +1603,11 @@ Object {
       </button>
     </div>
     <div
-      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px] bg-roshi-10"
+      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm text-moon-14 text-bulma pe-14 bg-roshi-10"
       role="alert"
     >
       <p
-        class="flex gap-3 text-roshi"
+        class="flex gap-3"
       >
         <svg
           class="text-moon-24"
@@ -1618,7 +1618,7 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+            d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
             stroke="currentColor"
             stroke-linecap="round"
           />
@@ -1627,7 +1627,7 @@ Object {
       </p>
       <button
         aria-label="close"
-        class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+        class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
         type="button"
       >
         <svg
@@ -1639,7 +1639,7 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+            d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -1712,7 +1712,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma"
         role="alert"
       >
         Default alert
@@ -1721,7 +1721,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma"
       role="alert"
     >
       Default alert
@@ -1787,13 +1787,13 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
         role="alert"
       >
         Click the Close button to hide the Alert
         <button
           aria-label="close"
-          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
           type="button"
         >
           <svg
@@ -1805,7 +1805,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+              d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -1821,13 +1821,13 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
       role="alert"
     >
       Click the Close button to hide the Alert
       <button
         aria-label="close"
-        class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+        class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
         type="button"
       >
         <svg
@@ -1839,7 +1839,7 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+            d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -1912,13 +1912,13 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
         role="alert"
       >
         Alert with close
         <button
           aria-label="close"
-          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
           type="button"
         >
           <svg
@@ -1930,7 +1930,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+              d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -1943,14 +1943,14 @@ Object {
         </button>
       </div>
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
         role="alert"
       >
-        <h6
+        <p
           class="flex gap-3 font-medium"
         >
           Alert with title and close
-        </h6>
+        </p>
         <p
           class="flex gap-3"
         >
@@ -1958,7 +1958,7 @@ Object {
         </p>
         <button
           aria-label="close"
-          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
           type="button"
         >
           <svg
@@ -1970,7 +1970,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+              d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -1986,13 +1986,13 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
       role="alert"
     >
       Alert with close
       <button
         aria-label="close"
-        class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+        class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
         type="button"
       >
         <svg
@@ -2004,7 +2004,7 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+            d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -2017,14 +2017,14 @@ Object {
       </button>
     </div>
     <div
-      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
       role="alert"
     >
-      <h6
+      <p
         class="flex gap-3 font-medium"
       >
         Alert with title and close
-      </h6>
+      </p>
       <p
         class="flex gap-3"
       >
@@ -2032,7 +2032,7 @@ Object {
       </p>
       <button
         aria-label="close"
-        class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+        class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
         type="button"
       >
         <svg
@@ -2044,7 +2044,7 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+            d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -2117,7 +2117,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma"
         role="alert"
       >
         <p
@@ -2132,7 +2132,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+              d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
               stroke="currentColor"
               stroke-linecap="round"
             />
@@ -2141,10 +2141,10 @@ Object {
         </p>
       </div>
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma"
         role="alert"
       >
-        <h6
+        <p
           class="flex gap-3 font-medium"
         >
           <svg
@@ -2156,13 +2156,13 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+              d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
               stroke="currentColor"
               stroke-linecap="round"
             />
           </svg>
           Alert with title and icon
-        </h6>
+        </p>
         <p
           class="flex gap-3"
         >
@@ -2173,7 +2173,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma"
       role="alert"
     >
       <p
@@ -2188,7 +2188,7 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+            d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
             stroke="currentColor"
             stroke-linecap="round"
           />
@@ -2197,10 +2197,10 @@ Object {
       </p>
     </div>
     <div
-      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma"
       role="alert"
     >
-      <h6
+      <p
         class="flex gap-3 font-medium"
       >
         <svg
@@ -2212,13 +2212,13 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+            d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
             stroke="currentColor"
             stroke-linecap="round"
           />
         </svg>
         Alert with title and icon
-      </h6>
+      </p>
       <p
         class="flex gap-3"
       >
@@ -2286,7 +2286,7 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
         role="alert"
       >
         <p
@@ -2301,7 +2301,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+              d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
               stroke="currentColor"
               stroke-linecap="round"
             />
@@ -2310,7 +2310,7 @@ Object {
         </p>
         <button
           aria-label="close"
-          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
           type="button"
         >
           <svg
@@ -2322,7 +2322,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+              d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -2335,10 +2335,10 @@ Object {
         </button>
       </div>
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
         role="alert"
       >
-        <h6
+        <p
           class="flex gap-3 font-medium"
         >
           <svg
@@ -2350,13 +2350,13 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+              d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
               stroke="currentColor"
               stroke-linecap="round"
             />
           </svg>
           Alert with title and icon
-        </h6>
+        </p>
         <p
           class="flex gap-3"
         >
@@ -2364,7 +2364,7 @@ Object {
         </p>
         <button
           aria-label="close"
-          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+          class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
           type="button"
         >
           <svg
@@ -2376,7 +2376,7 @@ Object {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+              d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
               stroke="currentColor"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -2392,7 +2392,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
       role="alert"
     >
       <p
@@ -2407,7 +2407,7 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+            d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
             stroke="currentColor"
             stroke-linecap="round"
           />
@@ -2416,7 +2416,7 @@ Object {
       </p>
       <button
         aria-label="close"
-        class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+        class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
         type="button"
       >
         <svg
@@ -2428,7 +2428,7 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+            d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -2441,10 +2441,10 @@ Object {
       </button>
     </div>
     <div
-      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma pe-14"
       role="alert"
     >
-      <h6
+      <p
         class="flex gap-3 font-medium"
       >
         <svg
@@ -2456,13 +2456,13 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+            d="M23.3077 10.8846C24.5185 10.8846 25.5 9.90309 25.5 8.69231C25.5 7.48153 24.5185 6.5 23.3077 6.5C22.0969 6.5 21.1154 7.48153 21.1154 8.69231M23.3077 10.8846C22.0969 10.8846 21.1154 9.90309 21.1154 8.69231M23.3077 10.8846V21.1154M21.1154 8.69231H10.8846M21.1154 23.3077C21.1154 24.5185 22.0969 25.5 23.3077 25.5C24.5185 25.5 25.5 24.5185 25.5 23.3077C25.5 22.0969 24.5185 21.1154 23.3077 21.1154M21.1154 23.3077C21.1154 22.0969 22.0969 21.1154 23.3077 21.1154M21.1154 23.3077H10.8846M10.8846 8.69231C10.8846 9.90309 9.90309 10.8846 8.69231 10.8846M10.8846 8.69231C10.8846 7.48153 9.90309 6.5 8.69231 6.5C7.48153 6.5 6.5 7.48153 6.5 8.69231C6.5 9.90309 7.48153 10.8846 8.69231 10.8846M8.69231 10.8846V21.1154M10.8846 23.3077C10.8846 24.5185 9.90309 25.5 8.69231 25.5C7.48153 25.5 6.5 24.5185 6.5 23.3077C6.5 22.0969 7.48153 21.1154 8.69231 21.1154M10.8846 23.3077C10.8846 22.0969 9.90309 21.1154 8.69231 21.1154"
             stroke="currentColor"
             stroke-linecap="round"
           />
         </svg>
         Alert with title and icon
-      </h6>
+      </p>
       <p
         class="flex gap-3"
       >
@@ -2470,7 +2470,7 @@ Object {
       </p>
       <button
         aria-label="close"
-        class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+        class="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 bg-transparent hover:text-bulma absolute end-4 top-4 text-moon-16 text-bulma"
         type="button"
       >
         <svg
@@ -2482,7 +2482,7 @@ Object {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+            d="M7 7L16 16M16 16L7 25M16 16L25 25M16 16L25 7"
             stroke="currentColor"
             stroke-linecap="round"
             stroke-linejoin="round"
@@ -2555,14 +2555,14 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+        class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma"
         role="alert"
       >
-        <h6
+        <p
           class="flex gap-3 font-medium"
         >
           Alert title
-        </h6>
+        </p>
         <p
           class="flex gap-3"
         >
@@ -2573,14 +2573,14 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+      class="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-goku text-moon-14 text-bulma"
       role="alert"
     >
-      <h6
+      <p
         class="flex gap-3 font-medium"
       >
         Alert title
-      </h6>
+      </p>
       <p
         class="flex gap-3"
       >

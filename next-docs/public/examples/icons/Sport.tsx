@@ -18,14 +18,14 @@ import {
   SportChess,
   SportCricket,
   SportCrossCountry,
-  SportCsgo,
+  SportCsGo,
   SportCurling,
   SportCycling,
   SportDarts,
   SportDiving,
   SportDota2,
   SportEIceHockey,
-  SportESoccer,
+  SportEsoccer,
   SportEnba,
   SportEquestrian,
   SportEsportGeneric,
@@ -49,7 +49,7 @@ import {
   SportKabaddi,
   SportKingOfGlory,
   SportLacrosse,
-  SportLoL,
+  SportLol,
   SportMma,
   SportMotor,
   SportMotorcycleRacing,
@@ -82,16 +82,7 @@ import {
   SportWrestling,
 } from '@heathmont/moon-icons-tw';
 import Icon from './Icon';
-
-interface Props {
-  wrapperProps: {
-    onClick: (iconName: string) => void;
-    selectedIcons: string[];
-  };
-  props: {
-    className: string;
-  };
-}
+import type Props from './Props';
 
 const Example = ({ wrapperProps, props }: Props) => (
   <>
@@ -152,8 +143,8 @@ const Example = ({ wrapperProps, props }: Props) => (
     <Icon {...wrapperProps} name="SportCrossCountry">
       <SportCrossCountry {...props} />
     </Icon>
-    <Icon {...wrapperProps} name="SportCsgo">
-      <SportCsgo {...props} />
+    <Icon {...wrapperProps} name="SportCsGo">
+      <SportCsGo {...props} />
     </Icon>
     <Icon {...wrapperProps} name="SportCurling">
       <SportCurling {...props} />
@@ -173,8 +164,8 @@ const Example = ({ wrapperProps, props }: Props) => (
     <Icon {...wrapperProps} name="SportEIceHockey">
       <SportEIceHockey {...props} />
     </Icon>
-    <Icon {...wrapperProps} name="SportESoccer">
-      <SportESoccer {...props} />
+    <Icon {...wrapperProps} name="SportEsoccer">
+      <SportEsoccer {...props} />
     </Icon>
     <Icon {...wrapperProps} name="SportEnba">
       <SportEnba {...props} />
@@ -245,8 +236,8 @@ const Example = ({ wrapperProps, props }: Props) => (
     <Icon {...wrapperProps} name="SportLacrosse">
       <SportLacrosse {...props} />
     </Icon>
-    <Icon {...wrapperProps} name="SportLoL">
-      <SportLoL {...props} />
+    <Icon {...wrapperProps} name="SportLol">
+      <SportLol {...props} />
     </Icon>
     <Icon {...wrapperProps} name="SportMma">
       <SportMma {...props} />

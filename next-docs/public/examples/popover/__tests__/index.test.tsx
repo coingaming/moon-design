@@ -8,6 +8,9 @@ import Default from '../Default';
 import Position from '../Position';
 import TriggerElements from '../TriggerElements';
 import WithClose from '../WithClose';
+import TooltipView from '../TooltipView';
+import TooltipViewOpen from '../TooltipViewOpen';
+import AutoPositionDisable from '../AutoPositionDisable';
 
 const withRtl = (component: JSX.Element) => <div dir="rtl">{component}</div>;
 
@@ -15,7 +18,7 @@ describe('Popover', () => {
   afterEach(cleanup);
   it('renders Default', async () => {
     const tree = render(<Default />);
-    await act(() => fireEvent.click(tree.getByRole('button')));
+    await act(() => fireEvent.click(tree.getAllByRole('button')[0]));
     expect(tree).toMatchSnapshot();
   });
   it('renders TriggerElements', async () => {
@@ -30,7 +33,20 @@ describe('Popover', () => {
   });
   it('renders WithClose', async () => {
     const tree = render(<WithClose />);
-    await act(() => fireEvent.click(tree.getByRole('button')));
+    await act(() => fireEvent.click(tree.getAllByRole('button')[0]));
+    expect(tree).toMatchSnapshot();
+  });
+  it('renders TooltipView', async () => {
+    const tree = render(<TooltipView />);
+    await act(() => fireEvent.click(tree.getAllByRole('button')[0]));
+    expect(tree).toMatchSnapshot();
+  });
+  it('renders TooltipViewOpen', async () => {
+    const tree = render(<TooltipViewOpen />);
+    expect(tree).toMatchSnapshot();
+  });
+  it('renders AutoPositionDisable', async () => {
+    const tree = render(<AutoPositionDisable />);
     expect(tree).toMatchSnapshot();
   });
 });
@@ -39,7 +55,7 @@ describe('Popover in RTL', () => {
   afterEach(cleanup);
   it('renders Default', async () => {
     const tree = render(withRtl(<Default />));
-    await act(() => fireEvent.click(tree.getByRole('button')));
+    await act(() => fireEvent.click(tree.getAllByRole('button')[0]));
     expect(tree).toMatchSnapshot();
   });
   it('renders TriggerElements', async () => {
@@ -54,7 +70,20 @@ describe('Popover in RTL', () => {
   });
   it('renders WithClose', async () => {
     const tree = render(withRtl(<WithClose />));
-    await act(() => fireEvent.click(tree.getByRole('button')));
+    await act(() => fireEvent.click(tree.getAllByRole('button')[0]));
+    expect(tree).toMatchSnapshot();
+  });
+  it('renders TooltipView', async () => {
+    const tree = render(withRtl(<TooltipView />));
+    await act(() => fireEvent.click(tree.getAllByRole('button')[0]));
+    expect(tree).toMatchSnapshot();
+  });
+  it('renders TooltipViewOpen', async () => {
+    const tree = render(withRtl(<TooltipViewOpen />));
+    expect(tree).toMatchSnapshot();
+  });
+  it('renders AutoPositionDisable', async () => {
+    const tree = render(withRtl(<AutoPositionDisable />));
     expect(tree).toMatchSnapshot();
   });
 });

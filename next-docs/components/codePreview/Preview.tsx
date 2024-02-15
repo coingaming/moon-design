@@ -7,7 +7,7 @@ type Props = {
   title?: string;
   preview: React.ReactNode;
   code?: string;
-  description?: string;
+  description?: string | React.ReactNode;
   className?: string;
 };
 
@@ -33,7 +33,7 @@ const Preview = ({ title, description, preview, code, className }: Props) => {
       {isPreviewActive ? (
         <div
           className={mergeClassnames(
-            'flex flex-wrap items-center justify-around p-4 gap-2 w-full bg-goku text-moon-14',
+            'flex flex-wrap items-center justify-around p-4 gap-2 w-full bg-gohan text-moon-14',
             'rounded-moon-s-sm',
             className
           )}

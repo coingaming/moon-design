@@ -6,8 +6,8 @@ import {
   TextLeftAlign,
   TextRightAlign,
 } from '@heathmont/moon-icons-tw';
-import useSettings from '../utils/useSettings';
 import BrandSwitcher from './brandSwitcher/BrandSwitcher';
+import useSettings from '../utils/useSettings';
 
 const Settings = () => {
   const {
@@ -19,7 +19,7 @@ const Settings = () => {
   } = useSettings();
   return (
     <Popover
-      className="fixed z-50 bottom-4 ltr:right-4 rtl:left-4"
+      className="fixed z-50 bottom-4 lg:bottom-20 end-4"
       position={rtlEnabled ? 'top-end' : 'top-start'}
     >
       <Popover.Trigger>
@@ -29,7 +29,7 @@ const Settings = () => {
           aria-label="Toggle site settings"
         />
       </Popover.Trigger>
-      <Popover.Panel className="flex flex-col gap-1 p-3 bg-gohan">
+      <Popover.Panel className="flex flex-col gap-1 p-3">
         {isLocalhost && <BrandSwitcher />}
         <MenuItem as="div" className="cursor-default">
           {isDarkThemeEnabled ? 'Dark mode' : 'Light mode'}

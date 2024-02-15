@@ -1,6 +1,5 @@
-import { BodyTR } from '@heathmont/moon-table-tw';
-import { TD } from '@heathmont/moon-table-tw';
-import { Table } from '@heathmont/moon-table-tw';
+import { ControlsChevronDown, ControlsChevronRight } from '@heathmont/moon-icons-tw';
+import { BodyTR, TD, Table } from '@heathmont/moon-table-tw';
 import React from 'react';
 
 const Example = () => {
@@ -8,13 +7,39 @@ const Example = () => {
     {
       id: 'expander',
       width: 50,
-      Header: ({ getToggleAllRowsExpandedProps, isAllRowsExpanded }: any) => (
-        <span {...getToggleAllRowsExpandedProps()}>
-          Expand
-          {isAllRowsExpanded ? '👇' : '👉'}
-        </span>
-      ),
-      Cell: ({ row }: any) => <span>{row.isExpanded ? '👇' : '👉'}</span>,
+      Header: ({ getToggleAllRowsExpandedProps, toggleAllRowsExpanded, isAllRowsExpanded }: any) => {
+        return (
+          <div className="flex h-full items-center">
+            <span
+              {...getToggleAllRowsExpandedProps()}
+              onClick={(e) => {
+                e.preventDefault();
+                toggleAllRowsExpanded(!isAllRowsExpanded);
+              }}
+            >
+              Expand
+              {isAllRowsExpanded ? <ControlsChevronDown /> : <ControlsChevronRight />}
+            </span>
+          </div>
+      )},
+      Cell: ({ row, toggleRowExpanded }: any) =>
+        <div className="flex h-full items-center">
+          {row.subRows ? (
+            <span
+              {...row.getToggleRowExpandedProps({
+                style: {
+                  paddingLeft: `${row.depth * 2}rem`,
+                },
+              })}
+              onClick={(e) => {
+                e.preventDefault();
+                toggleRowExpanded(row.id, row.isExpanded !== true);
+              }}
+            >
+              {row.isExpanded ? <ControlsChevronDown /> : <ControlsChevronRight />}
+            </span>
+          ) : null}
+        </div>,
     },
     {
       Header: 'First Name',
@@ -32,6 +57,7 @@ const Example = () => {
       return {
         firstName: 'Test',
         age: <span>{Math.floor(index * 30)}</span>,
+        subRows: [],
       };
     });
   };
@@ -55,21 +81,17 @@ const Example = () => {
       defaultColumn={defaultColumn}
       width={800}
       height={400}
-      defaultRowBackgroundColor="gohan.40"
-      evenRowBackgroundColor="gohan.80"
       getOnRowClickHandler={(row: any) => () => {
         (row as any).depth === 0
           ? () => (row as any).toggleRowExpanded()
           : undefined;
       }}
-      // @ts-ignore
       renderRowSubComponent={({ row, backgroundColor }) => {
         return (
           <BodyTR
             {...row.getRowProps()}
             key={row.getRowProps().key + '1'}
             hasParent={true}
-            isLastRow={true}
             backgroundColor={backgroundColor}
             isExpanded
           >

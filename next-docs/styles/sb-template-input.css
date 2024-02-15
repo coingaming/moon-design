@@ -66,10 +66,11 @@
   --border-i-width: 0.125rem; /* 2px */
 
   /* opacity */
-  --opacity-moon: 0.32;
+  --opacity-moon: 0.6;
 
   /* fonts */
   --averta: 'Averta Std';
+  --dm-sans: 'DM Sans';
 }
 
 :root.theme-sb-dark,
@@ -153,10 +154,11 @@
   --border-i-width: 0.125rem; /* 2px */
 
   /* opacity */
-  --opacity-moon: 0.32;
+  --opacity-moon: 0.6;
 
   /* fonts */
   --averta: 'Averta Std';
+  --dm-sans: 'DM Sans';
 }
 
 :root.theme-betadda-dark,

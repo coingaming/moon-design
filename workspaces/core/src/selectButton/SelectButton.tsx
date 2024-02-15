@@ -1,101 +1,68 @@
-import React, { createContext, useCallback, useContext } from 'react';
+import React, { Ref, forwardRef, useCallback } from 'react';
 import { Listbox } from '@headlessui/react';
+import type ChipProps from './private/types/ChipProps';
+import type InputProps from './private/types/InputProps';
+import type LabelProps from './private/types/LabelProps';
+import type SelectButtonProps from './private/types/SelectButtonProps';
+import getSelectSize from './private/utils/getSelectSize';
+import SelectButtonContext from './private/utils/SelectButtonContext';
+import useSelectButtonContext from './private/utils/useSelectButtonContext';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import ControlsChevronDownSmall from '../private/icons/ControlsChevronDownSmall';
 import ControlsCloseSmall from '../private/icons/ControlsCloseSmall';
+import Tag from '../tag/Tag';
 
-type SelectButtonState = {
-  open?: boolean;
-  size?: 'sm' | 'md' | 'lg' | string;
-  isError?: boolean;
-  idDisabled?: boolean;
-};
-
-const SelectButtonContext = createContext<SelectButtonState>({});
-SelectButtonContext.displayName = 'InputBtnContext';
-
-const useSelectButtonContext = (component: string) => {
-  const context = useContext(SelectButtonContext);
-  if (context === null) {
-    const err = new Error(
-      `<${component}> is missing a parent <SelectButton /> component.`
+const SelectButtonRoot = forwardRef(
+  (
+    {
+      label,
+      placeholder,
+      size = 'md',
+      isError,
+      idDisabled,
+      open,
+      children,
+      isUppercase,
+      ...rest
+    }: SelectButtonProps,
+    ref: Ref<HTMLInputElement>
+  ) => {
+    const states = {
+      open: open,
+      size: size,
+      isError: isError,
+      idDisabled: idDisabled,
+      ...rest,
+    };
+    return (
+      <div className="relative" ref={ref}>
+        <SelectButtonContext.Provider value={states}>
+          {children}
+        </SelectButtonContext.Provider>
+      </div>
     );
-    // if (Error.captureStackTrace) Error.captureStackTrace(err, useInputBtnContext);
-    throw err;
   }
-  return context;
-};
+);
 
-type SelectButtonProps = {
-  size?: 'sm' | 'md' | 'lg' | string;
-  isError?: boolean;
-  open?: boolean;
-  idDisabled?: boolean;
-  label?: JSX.Element | string;
-  placeholder?: JSX.Element | string;
-  children?: React.ReactNode;
-};
-
-const getSelectSize = (size?: 'sm' | 'md' | 'lg' | string) => {
-  switch (size) {
-    case 'lg':
-      return 'h-12 p-3 rounded-moon-i-sm';
-    case 'sm':
-      return 'h-8 py-1 px-2 rounded-moon-i-xs';
-    case 'md':
-    default:
-      return 'h-10 py-2 px-3 rounded-moon-i-sm';
-  }
-};
-
-const SelectButtonRoot: React.FC<SelectButtonProps> = ({
-  label,
-  placeholder,
-  size = 'md',
-  isError,
-  idDisabled,
-  open,
-  children,
-  ...rest
-}) => {
-  const states = {
-    open: open,
-    size: size,
-    isError: isError,
-    idDisabled: idDisabled,
-    ...rest,
-  };
-  return (
-    <div className="relative">
-      <SelectButtonContext.Provider value={states}>
-        {children}
-      </SelectButtonContext.Provider>
-    </div>
-  );
-};
-
-const Input: React.FC<{ className?: string; children?: React.ReactNode }> = ({
-  children,
-  className,
-}) => {
+const Input = ({ children, className }: InputProps) => {
   const { size, isError, idDisabled, ...rest } =
     useSelectButtonContext('SelectButton.Input');
   return (
     <button
       {...rest}
       className={mergeClassnames(
-        'flex items-center justify-between',
-        'w-full bg-gohan border-beerus',
+        'flex items-center justify-between gap-2',
+        'w-full bg-goku border-beerus',
         'shadow-input hover:shadow-input-hov transition-shadow duration-200 ',
         'focus:shadow-input-focus focus:outline-none',
         getSelectSize(size),
         isError &&
           'shadow-input-err hover:shadow-input-err focus:shadow-input-err',
-        idDisabled && 'opacity-30 cursor-not-allowed hover:shadow-input',
+        idDisabled && 'opacity-60 cursor-not-allowed hover:shadow-input',
         className && className
       )}
     >
-      <span className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap">
+      <span className="flex w-full flex-col items-start text-start overflow-hidden">
         {children}
       </span>
       <Control />
@@ -103,38 +70,39 @@ const Input: React.FC<{ className?: string; children?: React.ReactNode }> = ({
   );
 };
 
-const InsetInput: React.FC<{ className?: string; children?: React.ReactNode }> =
-  ({ children, className }) => {
-    const { isError, idDisabled, ...rest } =
-      useSelectButtonContext('SelectButton.Input');
-    return (
-      <button
-        {...rest}
-        className={mergeClassnames(
-          'flex items-center justify-between',
-          'w-full bg-gohan border-beerus',
-          'shadow-input hover:shadow-input-hov transition-shadow duration-200 ',
-          'focus:shadow-input-focus focus:outline-none',
-          'h-14 py-2 px-4 rounded-moon-i-md',
-          isError &&
-            'shadow-input-err hover:shadow-input-err focus:shadow-input-err',
-          idDisabled && 'opacity-30 cursor-not-allowed hover:shadow-input',
-          className && className
-        )}
-      >
-        <span className="flex gap-2 items-center">{children}</span>
-        <Control />
-      </button>
-    );
-  };
+const InsetInput = ({ children, className }: InputProps) => {
+  const { isError, idDisabled, ...rest } =
+    useSelectButtonContext('SelectButton.Input');
+  return (
+    <button
+      {...rest}
+      className={mergeClassnames(
+        'flex items-center justify-between',
+        'w-full bg-goku border-beerus',
+        'shadow-input hover:shadow-input-hov transition-shadow duration-200 ',
+        'focus:shadow-input-focus focus:outline-none',
+        'h-14 py-2 px-4 rounded-moon-i-md',
+        isError &&
+          'shadow-input-err hover:shadow-input-err focus:shadow-input-err',
+        idDisabled && 'opacity-60 cursor-not-allowed hover:shadow-input',
+        className && className
+      )}
+    >
+      <span className="flex gap-2 items-center overflow-hidden">
+        {children}
+      </span>
+      <Control />
+    </button>
+  );
+};
 
-const Value: React.FC<{ children?: React.ReactNode }> = ({ children }) => {
+const Value = ({ children }: { children?: React.ReactNode }) => {
   const { size } = useSelectButtonContext('SelectButton.Value');
   return (
     <span
       className={mergeClassnames(
         size === 'sm' ? 'text-moon-14' : 'text-moon-16',
-        'text-bulma'
+        'w-full text-bulma truncate'
       )}
     >
       {children}
@@ -142,13 +110,7 @@ const Value: React.FC<{ children?: React.ReactNode }> = ({ children }) => {
   );
 };
 
-type LabelProps = {
-  labelSize?: 'sm' | 'md' | 'lg' | 'xl' | string;
-  idDisabled?: boolean;
-  children?: React.ReactNode;
-};
-
-const Label: React.FC<LabelProps> = ({ children, labelSize, idDisabled }) => {
+const Label = ({ children, labelSize, idDisabled }: LabelProps) => {
   const { size } = useSelectButtonContext('SelectButton.Label');
   const currentSize = labelSize || size;
   return (
@@ -156,7 +118,7 @@ const Label: React.FC<LabelProps> = ({ children, labelSize, idDisabled }) => {
       className={mergeClassnames(
         'block text-bulma pb-2',
         currentSize === 'sm' ? 'text-moon-14' : 'text-moon-16',
-        idDisabled && 'opacity-30 cursor-not-allowed'
+        idDisabled && 'opacity-60 cursor-not-allowed'
       )}
     >
       {children}
@@ -164,25 +126,19 @@ const Label: React.FC<LabelProps> = ({ children, labelSize, idDisabled }) => {
   );
 };
 
-const FloatingLabel: React.FC<{ children?: React.ReactNode }> = ({
-  children,
-}) => {
-  return (
-    <Listbox.Label className="block text-moon-12 text-trunks">
-      {children}
-    </Listbox.Label>
-  );
-};
+const FloatingLabel = ({ children }: { children?: React.ReactNode }) => (
+  <Listbox.Label className="w-full text-moon-12 text-trunks text-start truncate">
+    {children}
+  </Listbox.Label>
+);
 
-const Placeholder: React.FC<{ children?: React.ReactNode }> = ({
-  children,
-}) => {
+const Placeholder = ({ children }: { children?: React.ReactNode }) => {
   const { size } = useSelectButtonContext('SelectButton.Placeholder');
   return (
     <span
       className={mergeClassnames(
         size === 'sm' ? 'text-moon-14' : 'text-moon-16',
-        'text-trunks'
+        'w-full text-trunks text-start truncate'
       )}
     >
       {children}
@@ -190,7 +146,7 @@ const Placeholder: React.FC<{ children?: React.ReactNode }> = ({
   );
 };
 
-const Control: React.FC = () => {
+const Control = () => {
   const { open, size } = useSelectButtonContext('SelectButton.Control');
   return (
     <ControlsChevronDownSmall
@@ -203,36 +159,26 @@ const Control: React.FC = () => {
   );
 };
 
-type ChipProps = { children: React.ReactNode; onClear?: () => void };
-const Chip: React.FC<ChipProps> = ({ children, onClear }) => {
+const Chip = ({ children, onClear, isUppercase, ...rest }: ChipProps) => {
   const { size } = useSelectButtonContext('SelectButton.Control');
-
-  const cliclHandler = useCallback(
+  const clickHandler = useCallback(
     (e: any) => {
       e.preventDefault();
       onClear && onClear();
     },
     [onClear]
   );
-
   return (
-    <span
-      onClick={cliclHandler}
-      className={mergeClassnames(
-        'chip bg-bulma text-gohan flex items-center justify-center rounded-moon-s-xs cursor-pointer',
-        size === 'sm' ? 'text-moon-12 h-4 px-0.5' : 'text-moon-14 h-6 px-1'
-      )}
+    <Tag
+      size={size === 'sm' ? '2xs' : 'xs'}
+      iconRight={
+        <ControlsCloseSmall onClick={clickHandler} className="cursor-pointer" />
+      }
+      isUppercase={isUppercase}
+      {...rest}
     >
-      <span className={mergeClassnames(size === 'sm' ? 'px-0.5' : 'px-1')}>
-        {children}
-      </span>
-      <ControlsCloseSmall
-        className={mergeClassnames(
-          'text-gohan',
-          size === 'sm' ? 'text-moon-12' : 'text-moon-14'
-        )}
-      />
-    </span>
+      {children}
+    </Tag>
   );
 };
 

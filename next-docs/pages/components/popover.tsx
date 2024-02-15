@@ -1,21 +1,30 @@
-import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import getComponent from '../../components/getComponent';
+import type { ComponentNames } from '../../components/getComponent';
+import Layout from '../../components/Layout';
 import PropsTable from '../../components/PropsTable';
+import AutoPositionDisable from '../../public/examples/popover/AutoPositionDisable';
 import Default from '../../public/examples/popover/Default';
 import Position from '../../public/examples/popover/Position';
+import TooltipView from '../../public/examples/popover/TooltipView';
+import TooltipViewOpen from '../../public/examples/popover/TooltipViewOpen';
 import TriggerElements from '../../public/examples/popover/TriggerElements';
 import WithClose from '../../public/examples/popover/WithClose';
-import useExamples from '../../utils/useExamples';
+import useComponent from '../../utils/useComponent';
 
-const Example = () => {
-  const examples = useExamples('popover');
-  const { name, text, image } = getComponent('Popover');
+const COMPONENT_NAME: ComponentNames = 'Popover';
+
+const PagePopover = () => {
+  const { examples, name, text, image } = useComponent(COMPONENT_NAME);
   return (
     <>
-      <ComponentPageDescription title={name} image={image} isInProgress>
+      <ComponentPageDescription
+        title={name}
+        image={image}
+        isAriaSupport
+        isRtlSupport
+      >
         <p>{text}</p>
         <p>
           Based on{' '}
@@ -60,6 +69,24 @@ const Example = () => {
         code={examples ? examples.WithClose : 'Loading'}
       />
 
+      <Preview
+        title="Tooltip view example"
+        preview={<TooltipView />}
+        code={examples ? examples.TooltipView : 'Loading'}
+      />
+
+      <Preview
+        title="Tooltip view example with always open state"
+        preview={<TooltipViewOpen />}
+        code={examples ? examples.TooltipView : 'Loading'}
+      />
+
+      <Preview
+        title="Disable flip on component"
+        preview={<AutoPositionDisable />}
+        code={examples ? examples.AutoPositionDisable : 'Loading'}
+      />
+
       <PropsTable
         title="Popover"
         data={[
@@ -69,6 +96,13 @@ const Example = () => {
             required: false,
             default: 'bottom',
             description: 'Set placement for popover',
+          },
+          {
+            name: 'autoPositionDisable',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description: 'Disable flip on component',
           },
           {
             name: 'Render Props: ',
@@ -98,6 +132,14 @@ const Example = () => {
             description: 'Tailwind classes for custom styles.',
           },
           {
+            name: 'isStatic',
+            type: 'boolean',
+            required: false,
+            default: '-',
+            description:
+              'Whether the component should be always open and ignore the internally managed open/closed state.',
+          },
+          {
             name: 'Render Props: ',
             type: '',
             required: undefined,
@@ -124,4 +166,8 @@ const Example = () => {
   );
 };
 
-export default Example;
+PagePopover.getLayout = function getLayout(page: React.ReactNode) {
+  return <Layout title={`Components | ${COMPONENT_NAME}`}>{page}</Layout>;
+};
+
+export default PagePopover;

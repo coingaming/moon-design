@@ -63,7 +63,7 @@ const TransformIcon: React.FC = () => {
         <p className="text-moon-20">Drop files to upload</p>
         <p className="text-moon-16">or</p>
         <div className="relative">
-          <Button variant="secondary">Select files</Button>
+          <Button variant="outline">Select files</Button>
           <label className="absolute inset-0 cursor-pointer">
             <input
               ref={inputRef}

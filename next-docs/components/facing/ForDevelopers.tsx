@@ -1,4 +1,3 @@
-import React from 'react';
 import { Button } from '@heathmont/moon-core-tw';
 import { ArrowsTopRight } from '@heathmont/moon-icons-tw';
 import Link from 'next/link';
@@ -22,18 +21,17 @@ const GithubIcon = () => (
 
 const ForDevelopers = () => {
   return (
-    <div className="theme-moon-light relative z-50 flex grow p-6 gap-6 theme-tokens rounded-moon-s-lg bg-cell text-bulma 3xl:flex-col 3xl:h-96 3xl:w-80 ltr:3xl:rounded-tl-none rtl:3xl:rounded-tr-none 3xl:absolute 3xl:top-96 ltr:3xl:right-0 rtl:3xl:left-0">
+    <div className="theme-moon-light relative z-50 flex grow p-6 gap-6 rounded-moon-s-lg bg-cell text-bulma 3xl:flex-col 3xl:h-96 3xl:w-80 3xl:rounded-ss-none 3xl:absolute 3xl:top-96 3xl:end-0">
       <div className="flex gap-6 align-center justify-between grow 3xl:flex-col 3xl:justify-end">
         <GithubIcon />
         <h2 className="text-moon-24 grow 3xl:grow-0">For developers.</h2>
-        <div className="absolute top-0 bottom-0 left-0 right-0 3xl:top-6 3xl:bottom-auto ltr:3xl:right-6 ltr:3xl:left-auto rtl:3xl:left-6 rtl:3xl:right-auto rtl:-rotate-90">
-          <Link
-            href="/gettingStarted"
-            className="flex items-center justify-end h-full pe-6 3xl:pe-0 w-full rounded-moon-s-lg text-moon-32"
-          >
-            <ArrowsTopRight />
-          </Link>
-        </div>
+        <Link
+          href="/gettingStarted"
+          aria-label="Read more info for developers"
+          className="3xl:absolute 3xl:top-6 3xl:end-6 rtl:-rotate-90"
+        >
+          <ArrowsTopRight className="text-moon-32" />
+        </Link>
       </div>
       <div className="hidden flex-wrap gap-1 3xl:flex">
         <Button
@@ -41,17 +39,17 @@ const ForDevelopers = () => {
           href="https://github.com/coingaming/moon-design"
           target="_blank"
           rel="noreferrer"
-          variant="secondary"
+          variant="outline"
         >
           Github
         </Button>
         <Link href="/gettingStarted" passHref legacyBehavior>
-          <Button as="a" variant="secondary">
+          <Button as="a" variant="outline">
             Getting Started
           </Button>
         </Link>
         <Link href="/tokens" passHref legacyBehavior>
-          <Button as="a" variant="secondary">
+          <Button as="a" variant="outline">
             Design Tokens
           </Button>
         </Link>
@@ -60,7 +58,7 @@ const ForDevelopers = () => {
           href="https://github.com/coingaming/moon-design/blob/develop/packages/themes/src/moonDesignDark/moonDesignDark.ts"
           target="_blank"
           rel="noreferrer"
-          variant="secondary"
+          variant="outline"
         >
           Creating Themes
         </Button>
@@ -69,12 +67,12 @@ const ForDevelopers = () => {
           href="https://github.com/coingaming/moon-design/blob/develop/CONTRIBUTING.md"
           target="_blank"
           rel="noreferrer"
-          variant="secondary"
+          variant="outline"
         >
           Contribution
         </Button>
         <Link href="/components/accordion" passHref legacyBehavior>
-          <Button as="a" variant="secondary">
+          <Button as="a" variant="outline">
             Components
           </Button>
         </Link>
