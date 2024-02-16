@@ -15,6 +15,7 @@ type ModalRootProps = {
   open: boolean;
   onClose: () => void;
   initialFocus?: React.MutableRefObject<HTMLElement | null>;
+  className?: string;
 };
 
 type ModalComponentProps = (
@@ -26,6 +27,7 @@ const ModalRoot: ModalComponentProps = ({
   onClose,
   children,
   initialFocus,
+  className
 }) => {
   const defFocus = useRef(null);
   const [focusElRef, setFocusElRef] =
@@ -37,7 +39,7 @@ const ModalRoot: ModalComponentProps = ({
     <Transition appear show={open} as={React.Fragment}>
       <Dialog
         as="div"
-        className="relative z-10"
+        className={mergeClassnames("relative z-10", className)}
         onClose={onClose}
         initialFocus={focusElRef}
       >
@@ -75,8 +77,13 @@ const Panel = ({ children, className }: WithChildren<PanelProps>) => (
   </div>
 );
 
-const Title = ({ children }: { children?: ReactNode }) => (
-  <Dialog.Title as="h3" className="text-moon-18 font-medium text-gray-900">
+type TitleProps = {
+  children?: ReactNode; 
+  className?: string;
+}
+
+const Title = ({ children, className }: TitleProps) => (
+  <Dialog.Title as="h3" className={mergeClassnames("text-moon-18 font-medium text-gray-900", className)}>
     {children}
   </Dialog.Title>
 );

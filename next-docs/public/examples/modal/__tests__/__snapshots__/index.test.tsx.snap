@@ -50,7 +50,7 @@ Object {
                 class="flex min-h-full items-center justify-center p-4"
               >
                 <div
-                  class="w-full max-w-sm inline-block rounded-xl bg-goku align-middle shadow-moon-lg transition-all transition duration-300 ease-out transform scale-95 opacity-0"
+                  class="w-full max-w-sm inline-block rounded-xl bg-goku align-middle shadow-moon-lg transition-all max-h-[calc(100vh-150px)] overflow-scroll transition duration-300 ease-out transform scale-95 opacity-0"
                   data-headlessui-state="open"
                   id="headlessui-dialog-panel-:rk:"
                 >
@@ -1037,7 +1037,7 @@ Object {
                 class="flex min-h-full items-center justify-center p-4"
               >
                 <div
-                  class="w-full max-w-sm inline-block rounded-xl bg-goku align-middle shadow-moon-lg transition-all transition duration-300 ease-out transform scale-95 opacity-0"
+                  class="w-full max-w-sm inline-block rounded-xl bg-goku align-middle shadow-moon-lg transition-all max-h-[calc(100vh-150px)] overflow-scroll transition duration-300 ease-out transform scale-95 opacity-0"
                   data-headlessui-state="open"
                   id="headlessui-dialog-panel-:r3:"
                 >

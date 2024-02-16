@@ -10,7 +10,7 @@ const Example = () => {
       <Button onClick={openModal}>Open dialog</Button>
       <Modal open={isOpen} onClose={closeModal}>
         <Modal.Backdrop />
-        <Modal.Panel>
+        <Modal.Panel className="max-h-[calc(100vh-150px)] overflow-scroll">
           <div className="p-4 border-b-2 border-beerus">
             <h3 className="text-moon-18 text-bulma font-medium">
               Payment successful
