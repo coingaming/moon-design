@@ -77,13 +77,20 @@ const PopoverRoot = ({
   );
 };
 
-const Trigger = ({ children, ...rest }: { children?: React.ReactNode }) => {
+const Trigger = ({
+  children,
+  role = 'button',
+  ...rest
+}: {
+  children?: React.ReactNode;
+  role?: string;
+}) => {
   const { popper } = usePopoverContext('Popover.Trigger');
   return (
     <HeadlessPopover.Button
       as={'div'}
       ref={popper?.setAnchor}
-      role="button"
+      role={role}
       {...rest}
     >
       {children}
