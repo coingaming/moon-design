@@ -12,14 +12,21 @@ type OptionsProps = {
   options: BaseOptionType[];
   formatOptionLabel?: (data: BaseOptionType) => JSX.Element | string;
   menuWidth?: string;
+  className?: string;
 };
 
-const Options = ({ options, formatOptionLabel, menuWidth }: OptionsProps) => (
+const Options = ({
+  options,
+  formatOptionLabel,
+  menuWidth,
+  className,
+}: OptionsProps) => (
   <Listbox.Options
     className={mergeClassnames(
       menuWidth ? menuWidth : 'w-full min-w-[18.75rem]',
-      'max-h-[18.75rem] z-1 py-2 px-1 my-2 rounded-moon-s-md box-border bg-goku shadow-moon-lg overflow-y-auto',
-      'focus:outline-none'
+      'max-h-72 z-1 py-2 px-1 my-2 rounded-moon-s-md box-border bg-goku shadow-moon-lg',
+      'overflow-y-auto focus:outline-none',
+      className
     )}
   >
     {options.map((option, optionId) => (

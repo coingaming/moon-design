@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Dropdown, MenuItem } from '@heathmont/moon-core-tw';
 import { GenericInfo } from '@heathmont/moon-icons-tw';
 
@@ -19,7 +19,6 @@ const Example = () => {
   const [selected, setSelected] = useState<People>(people[2]);
   const [selected2, setSelected2] = useState<People>(people[0]);
   const [selected3, setSelected3] = useState<People | null>(null);
-  const [selected4, setSelected4] = useState<People | null>(null);
   return (
     <div className="flex flex-col lg:flex-row justify-around items-center w-full gap-2">
       <Dropdown value={selected} onChange={setSelected} isError={true}>
@@ -80,33 +79,6 @@ const Example = () => {
               {selected3?.name}
             </Dropdown.Select>
             <Dropdown.Options>
-              {people.map((person, index) => (
-                <Dropdown.Option value={person} key={index}>
-                  {({ selected, active }) => (
-                    <MenuItem isActive={active} isSelected={selected}>
-                      {person.name}
-                    </MenuItem>
-                  )}
-                </Dropdown.Option>
-              ))}
-            </Dropdown.Options>
-            <Dropdown.Hint>Informative message holder</Dropdown.Hint>
-          </>
-        )}
-      </Dropdown>
-
-      <Dropdown value={selected4} onChange={setSelected4}>
-        {({ open }) => (
-          <>
-            <Dropdown.Select
-              open={open}
-              label="List options width"
-              placeholder="Choose an option"
-            >
-              {selected4?.name}
-            </Dropdown.Select>
-
-            <Dropdown.Options menuWidth="w-40">
               {people.map((person, index) => (
                 <Dropdown.Option value={person} key={index}>
                   {({ selected, active }) => (

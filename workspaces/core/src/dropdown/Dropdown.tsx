@@ -95,7 +95,7 @@ const HiddenInput = forwardRef<
 
 const Options = ({
   children,
-  menuWidth,
+  menuWidth, // deprecated
   className,
   ...rest
 }: WithChildren<OptionsProps>) => {
@@ -106,9 +106,10 @@ const Options = ({
       style={pooper?.styles?.popper}
       {...pooper?.attributes?.popper}
       className={mergeClassnames(
-        menuWidth ? menuWidth : 'w-full min-w-[18.75rem]',
-        'z-5 absolute p-1 my-2 rounded-moon-s-md box-border bg-goku shadow-moon-lg overflow-y-auto focus:outline-none',
-        className && className
+        'w-full min-w-72 z-5 absolute max-h-72 p-1 mt-2 rounded-moon-s-md box-border',
+        'bg-goku shadow-moon-lg overflow-y-auto focus:outline-none',
+        menuWidth, // deprecated
+        className
       )}
       {...rest}
     >
@@ -117,17 +118,13 @@ const Options = ({
   );
 };
 
-const Option = ({ children, value }: OptionProps) => {
-  return (
-    <Listbox.Option as="span" value={value}>
-      {({ selected, active }) =>
-        typeof children === 'function'
-          ? children({ selected, active })
-          : children
-      }
-    </Listbox.Option>
-  );
-};
+const Option = ({ children, value }: OptionProps) => (
+  <Listbox.Option as="li" value={value}>
+    {({ selected, active }) =>
+      typeof children === 'function' ? children({ selected, active }) : children
+    }
+  </Listbox.Option>
+);
 
 const Select = ({
   open,

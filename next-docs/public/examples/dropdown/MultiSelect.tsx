@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from 'react';
+import { useCallback, useState } from 'react';
 import { Dropdown, MenuItem } from '@heathmont/moon-core-tw';
 
 type People = {

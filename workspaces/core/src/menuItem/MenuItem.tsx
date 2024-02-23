@@ -37,8 +37,8 @@ const MenuItemRoot = React.forwardRef(
           ref={ref}
           className={mergeClassnames(
             'flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm',
-            'text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer',
-            'hover:bg-heles transition',
+            'text-moon-14 text-bulma text-start focus:outline-none focus:shadow-focus',
+            'cursor-pointer hover:bg-heles transition',
             width ? width : 'w-full',
             (innerSelected || isActive) && 'bg-heles',
             className && className
@@ -59,9 +59,7 @@ const Title = ({ children }: { children?: ReactNode }) => {
     registerChild && registerChild('Title');
   }, []);
   return (
-    <span className="block grow text-start text-bulma overflow-hidden">
-      {children}
-    </span>
+    <span className="block grow text-bulma overflow-hidden">{children}</span>
   );
 };
 
@@ -71,7 +69,7 @@ const MultiTitle = ({ title, text }: MultiTitleProps) => {
     registerChild && registerChild('MultiTitle');
   }, []);
   return (
-    <span className="block grow text-start text-bulma overflow-hidden">
+    <span className="block grow text-bulma overflow-hidden">
       <span className="block text-bulma text-moon-14">{title}</span>
       <span className="flex text-trunks text-moon-12">
         <span className="flex-1 truncate">{text}</span>
@@ -92,7 +90,7 @@ const Radio = ({
   }, []);
   const ariaLabelValue = ariaLabel ? ariaLabel : 'Radio option';
   return (
-    <span className="flex w-6 h-6 justify-center items-center">
+    <span className="flex w-6 h-6 justify-center items-center aspect-square">
       <span
         role="radio"
         aria-checked={selected}
@@ -122,7 +120,7 @@ const Checkbox = ({
   }, []);
   const ariaLabelValue = ariaLabel ? ariaLabel : 'Checkbox';
   return (
-    <span className="flex w-6 h-6 justify-center items-center relative">
+    <span className="flex w-6 h-6 justify-center items-center relative aspect-square">
       <span
         role="checkbox"
         aria-checked={selected}

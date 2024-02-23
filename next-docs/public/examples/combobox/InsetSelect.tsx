@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Combobox, MenuItem } from '@heathmont/moon-core-tw';
 import { ControlsChevronDownSmall } from '@heathmont/moon-icons-tw';
 
