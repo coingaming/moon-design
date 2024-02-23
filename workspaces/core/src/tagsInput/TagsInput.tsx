@@ -29,13 +29,28 @@ const TagsInputRoot = forwardRef<HTMLSpanElement, TagsInputRootProps>(
     ref
   ) => {
     const [isFocused, setIsFocused] = useState(false);
+    const [isInvalid, setIsInvalid] = useState(false);
+
     const states = {
       isUppercase,
       value: selected,
       size: size,
       disabled: disabled,
-      isError: isError,
+      isError: isError || isInvalid,
       onClear: onClear,
+    };
+
+    const checkValidity = (event: React.FormEvent<HTMLInputElement>) => {
+      const target = event.target as HTMLInputElement;
+      const validity = target.validity;
+
+      if (!target.value.length) {
+        target.value = '';
+        setIsInvalid(validity.valueMissing);
+        return;
+      }
+
+      setIsInvalid(validity.typeMismatch || validity.patternMismatch || validity.tooLong || validity.tooShort || validity.rangeUnderflow || validity.rangeOverflow || validity.stepMismatch || validity.badInput || validity.customError);
     };
 
     return (
@@ -57,7 +72,7 @@ const TagsInputRoot = forwardRef<HTMLSpanElement, TagsInputRootProps>(
               'focus:shadow-input-focus focus:outline-none',
               'focus-visible::shadow-input-focus focus-visible::outline-none',
               getWrapperStyle(size),
-              isError &&
+              (isError || isInvalid) &&
                 'shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err',
               disabled &&
                 'opacity-60 shadow-input focus:shadow-input hover:shadow-input cursor-not-allowed',
@@ -75,24 +90,25 @@ const TagsInputRoot = forwardRef<HTMLSpanElement, TagsInputRootProps>(
                 getTextSize(size)
               )}
               placeholder={placeholder}
-              error={isError}
+              error={isError || isInvalid}
               disabled={disabled}
               type={type}
               onKeyDown={(e) => {
-                e.code === 'Enter' &&
-                  (e.target as HTMLInputElement).value.length &&
+                e.code === 'Enter' && !isInvalid &&
+                  !!(e.target as HTMLInputElement).value.length &&
                   onEnter &&
                   onEnter((e.target as HTMLInputElement).value);
-                e.code === 'Enter' &&
+                e.code === 'Enter' && !isInvalid &&
                   ((e.target as HTMLInputElement).value = '');
                 e.code === 'Backspace' &&
-                  (e.target as HTMLInputElement).value === '' &&
+                  !(e.target as HTMLInputElement).value.length &&
                   selected.length !== 0 &&
                   onClear &&
                   onClear(selected.length - 1);
               }}
               onFocus={() => setIsFocused(true)}
               onBlur={() => setIsFocused(false)}
+              onInput={(e) => checkValidity(e) }
             />
           </span>
         </Listbox>
