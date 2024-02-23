@@ -50,7 +50,15 @@ const TagsInputRoot = forwardRef<HTMLSpanElement, TagsInputRootProps>(
         return;
       }
 
-      setIsInvalid(validity.typeMismatch || validity.patternMismatch || validity.tooLong || validity.tooShort || validity.rangeUnderflow || validity.rangeOverflow || validity.stepMismatch || validity.badInput || validity.customError);
+      setIsInvalid(validity.typeMismatch ||
+        validity.patternMismatch ||
+        validity.tooLong ||
+        validity.tooShort ||
+        validity.rangeUnderflow ||
+        validity.rangeOverflow ||
+        validity.stepMismatch ||
+        validity.badInput ||
+        validity.customError);
     };
 
     return (
