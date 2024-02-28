@@ -140,12 +140,10 @@ Object {
             value="FFFFFF"
           />
           <p
-            class="text-moon-18 pt-2"
+            class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-trunks"
+            role="alert"
           >
-            <b>
-              Result:
-            </b>
-             
+            Result: 
             FFFFFF
           </p>
         </div>
@@ -165,12 +163,10 @@ Object {
           value="FFFFFF"
         />
         <p
-          class="text-moon-18 pt-2"
+          class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-trunks"
+          role="alert"
         >
-          <b>
-            Result:
-          </b>
-           
+          Result: 
           FFFFFF
         </p>
       </div>
@@ -764,7 +760,7 @@ Object {
             </label>
             <input
               aria-label="Date"
-              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared ltr:input-d rtl:input-d-rtl [&::-webkit-datetime-edit]:text-trunks"
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared ltr:input-d rtl:input-d-rtl"
               max="9999-12-31"
               type="date"
             />
@@ -779,7 +775,7 @@ Object {
               Time
             </label>
             <input
-              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared ltr:input-t rtl:input-t-rtl [&::-webkit-datetime-edit]:text-trunks"
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared ltr:input-t rtl:input-t-rtl"
               id="time-type"
               type="time"
             />
@@ -798,7 +794,7 @@ Object {
               Datetime local
             </label>
             <input
-              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared ltr:input-d rtl:input-dt-local-rtl [&::-webkit-datetime-edit]:text-trunks"
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared ltr:input-d rtl:input-dt-local-rtl"
               id="datetimelocal-type"
               max="9999-12-31T23:59"
               type="datetime-local"
@@ -913,7 +909,7 @@ Object {
           </label>
           <input
             aria-label="Date"
-            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared ltr:input-d rtl:input-d-rtl [&::-webkit-datetime-edit]:text-trunks"
+            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared ltr:input-d rtl:input-d-rtl"
             max="9999-12-31"
             type="date"
           />
@@ -928,7 +924,7 @@ Object {
             Time
           </label>
           <input
-            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared ltr:input-t rtl:input-t-rtl [&::-webkit-datetime-edit]:text-trunks"
+            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared ltr:input-t rtl:input-t-rtl"
             id="time-type"
             type="time"
           />
@@ -947,7 +943,7 @@ Object {
             Datetime local
           </label>
           <input
-            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared ltr:input-d rtl:input-dt-local-rtl [&::-webkit-datetime-edit]:text-trunks"
+            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared ltr:input-d rtl:input-dt-local-rtl"
             id="datetimelocal-type"
             max="9999-12-31T23:59"
             type="datetime-local"
@@ -1213,12 +1209,10 @@ Object {
           value="FFFFFF"
         />
         <p
-          class="text-moon-18 pt-2"
+          class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-trunks"
+          role="alert"
         >
-          <b>
-            Result:
-          </b>
-           
+          Result: 
           FFFFFF
         </p>
       </div>
@@ -1234,12 +1228,10 @@ Object {
         value="FFFFFF"
       />
       <p
-        class="text-moon-18 pt-2"
+        class="flex gap-1 items-center mt-2 text-moon-12 [&_svg]:text-moon-16 text-trunks"
+        role="alert"
       >
-        <b>
-          Result:
-        </b>
-         
+        Result: 
         FFFFFF
       </p>
     </div>
@@ -1805,7 +1797,7 @@ Object {
           </label>
           <input
             aria-label="Date"
-            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared ltr:input-d rtl:input-d-rtl [&::-webkit-datetime-edit]:text-trunks"
+            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared ltr:input-d rtl:input-d-rtl"
             max="9999-12-31"
             type="date"
           />
@@ -1820,7 +1812,7 @@ Object {
             Time
           </label>
           <input
-            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared ltr:input-t rtl:input-t-rtl [&::-webkit-datetime-edit]:text-trunks"
+            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared ltr:input-t rtl:input-t-rtl"
             id="time-type"
             type="time"
           />
@@ -1839,7 +1831,7 @@ Object {
             Datetime local
           </label>
           <input
-            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared ltr:input-d rtl:input-dt-local-rtl [&::-webkit-datetime-edit]:text-trunks"
+            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared ltr:input-d rtl:input-dt-local-rtl"
             id="datetimelocal-type"
             max="9999-12-31T23:59"
             type="datetime-local"
@@ -1950,7 +1942,7 @@ Object {
         </label>
         <input
           aria-label="Date"
-          class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared ltr:input-d rtl:input-d-rtl [&::-webkit-datetime-edit]:text-trunks"
+          class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared ltr:input-d rtl:input-d-rtl"
           max="9999-12-31"
           type="date"
         />
@@ -1965,7 +1957,7 @@ Object {
           Time
         </label>
         <input
-          class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared ltr:input-t rtl:input-t-rtl [&::-webkit-datetime-edit]:text-trunks"
+          class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared ltr:input-t rtl:input-t-rtl"
           id="time-type"
           type="time"
         />
@@ -1984,7 +1976,7 @@ Object {
           Datetime local
         </label>
         <input
-          class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared ltr:input-d rtl:input-dt-local-rtl [&::-webkit-datetime-edit]:text-trunks"
+          class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-10 leading-10 rounded-moon-i-sm input-dt-shared ltr:input-d rtl:input-dt-local-rtl"
           id="datetimelocal-type"
           max="9999-12-31T23:59"
           type="datetime-local"

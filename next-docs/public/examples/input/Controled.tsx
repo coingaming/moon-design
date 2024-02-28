@@ -1,4 +1,4 @@
-import { Input } from '@heathmont/moon-core-tw';
+import { Hint, Input } from '@heathmont/moon-core-tw';
 import { useState } from 'react';
 
 const Example = () => {
@@ -12,9 +12,7 @@ const Example = () => {
           setColor(e.target.value);
         }}
       />
-      <p className="text-moon-18 pt-2">
-        <b>Result:</b> {color}
-      </p>
+      <Hint>Result: {color}</Hint>
     </div>
   );
 };
