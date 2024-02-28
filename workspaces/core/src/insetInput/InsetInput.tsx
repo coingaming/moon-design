@@ -44,7 +44,7 @@ const InsetInputRoot = forwardRef<HTMLInputElement, InsetInputProps>(
               'invalid:shadow-input-err invalid:hover:shadow-input-err input-xl-dt-shared',
               'invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err',
               error &&
-                'shadow-input-err hover:shadow-input-err focus:shadow-input-err',
+                'shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err',
               getTypeStyles(rest.type),
               isLabel && 'input-xl pt-[1.125rem] input-xl-dt-label'
             )}

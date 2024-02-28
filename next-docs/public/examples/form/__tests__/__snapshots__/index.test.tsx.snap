@@ -23,7 +23,7 @@ Object {
               Username
             </label>
             <input
-              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm input-lg-dt-shared shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err"
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku focus:outline-none focus-visible:outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm input-lg-dt-shared shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err"
               id="name"
               placeholder="Your username..."
             />
@@ -58,7 +58,7 @@ Object {
               Email
             </label>
             <input
-              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm input-lg-dt-shared"
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible:shadow-input-focus focus-visible:outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm input-lg-dt-shared"
               id="email"
               placeholder="Your Email..."
             />
@@ -227,7 +227,7 @@ Object {
               Password
             </label>
             <input
-              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm input-lg-dt-shared"
+              class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible:shadow-input-focus focus-visible:outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm input-lg-dt-shared"
               id="password"
               type="password"
             />
@@ -282,7 +282,7 @@ Object {
             Username
           </label>
           <input
-            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm input-lg-dt-shared shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err"
+            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku focus:outline-none focus-visible:outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm input-lg-dt-shared shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err"
             id="name"
             placeholder="Your username..."
           />
@@ -317,7 +317,7 @@ Object {
             Email
           </label>
           <input
-            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm input-lg-dt-shared"
+            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible:shadow-input-focus focus-visible:outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm input-lg-dt-shared"
             id="email"
             placeholder="Your Email..."
           />
@@ -486,7 +486,7 @@ Object {
             Password
           </label>
           <input
-            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm input-lg-dt-shared"
+            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible:shadow-input-focus focus-visible:outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm input-lg-dt-shared"
             id="password"
             type="password"
           />
@@ -595,7 +595,7 @@ Object {
               class="w-full relative rounded-moon-i-sm bg-goku"
             >
               <input
-                class="block w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-transparent focus:outline-none focus-visible:shadow-input-focus focus-visible:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:shadow-input-err invalid:hover:shadow-input-err input-xl-dt-shared invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err shadow-input-err hover:shadow-input-err focus:shadow-input-err input-xl pt-[1.125rem] input-xl-dt-label"
+                class="block w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-transparent focus:outline-none focus-visible:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:shadow-input-err invalid:hover:shadow-input-err input-xl-dt-shared invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err input-xl pt-[1.125rem] input-xl-dt-label"
                 placeholder="Your username..."
               />
               <label
@@ -716,7 +716,7 @@ Object {
             class="w-full relative rounded-moon-i-sm bg-goku"
           >
             <input
-              class="block w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-transparent focus:outline-none focus-visible:shadow-input-focus focus-visible:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:shadow-input-err invalid:hover:shadow-input-err input-xl-dt-shared invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err shadow-input-err hover:shadow-input-err focus:shadow-input-err input-xl pt-[1.125rem] input-xl-dt-label"
+              class="block w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-transparent focus:outline-none focus-visible:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:shadow-input-err invalid:hover:shadow-input-err input-xl-dt-shared invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err input-xl pt-[1.125rem] input-xl-dt-label"
               placeholder="Your username..."
             />
             <label
@@ -894,7 +894,7 @@ Object {
             Username
           </label>
           <input
-            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm input-lg-dt-shared shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err"
+            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku focus:outline-none focus-visible:outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm input-lg-dt-shared shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err"
             id="name"
             placeholder="Your username..."
           />
@@ -929,7 +929,7 @@ Object {
             Email
           </label>
           <input
-            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm input-lg-dt-shared"
+            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible:shadow-input-focus focus-visible:outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm input-lg-dt-shared"
             id="email"
             placeholder="Your Email..."
           />
@@ -1098,7 +1098,7 @@ Object {
             Password
           </label>
           <input
-            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm input-lg-dt-shared"
+            class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible:shadow-input-focus focus-visible:outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm input-lg-dt-shared"
             id="password"
             type="password"
           />
@@ -1149,7 +1149,7 @@ Object {
           Username
         </label>
         <input
-          class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm input-lg-dt-shared shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err"
+          class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku focus:outline-none focus-visible:outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm input-lg-dt-shared shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err"
           id="name"
           placeholder="Your username..."
         />
@@ -1184,7 +1184,7 @@ Object {
           Email
         </label>
         <input
-          class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm input-lg-dt-shared"
+          class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible:shadow-input-focus focus-visible:outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm input-lg-dt-shared"
           id="email"
           placeholder="Your Email..."
         />
@@ -1353,7 +1353,7 @@ Object {
           Password
         </label>
         <input
-          class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus focus-visible::outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm input-lg-dt-shared"
+          class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none focus-visible:shadow-input-focus focus-visible:outline-none before:box-border after:box-border placeholder:delay-75 placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:focus-visible:shadow-input-err invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm input-lg-dt-shared"
           id="password"
           type="password"
         />
@@ -1458,7 +1458,7 @@ Object {
             class="w-full relative rounded-moon-i-sm bg-goku"
           >
             <input
-              class="block w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-transparent focus:outline-none focus-visible:shadow-input-focus focus-visible:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:shadow-input-err invalid:hover:shadow-input-err input-xl-dt-shared invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err shadow-input-err hover:shadow-input-err focus:shadow-input-err input-xl pt-[1.125rem] input-xl-dt-label"
+              class="block w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-transparent focus:outline-none focus-visible:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:shadow-input-err invalid:hover:shadow-input-err input-xl-dt-shared invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err input-xl pt-[1.125rem] input-xl-dt-label"
               placeholder="Your username..."
             />
             <label
@@ -1575,7 +1575,7 @@ Object {
           class="w-full relative rounded-moon-i-sm bg-goku"
         >
           <input
-            class="block w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-transparent focus:outline-none focus-visible:shadow-input-focus focus-visible:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:shadow-input-err invalid:hover:shadow-input-err input-xl-dt-shared invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err shadow-input-err hover:shadow-input-err focus:shadow-input-err input-xl pt-[1.125rem] input-xl-dt-label"
+            class="block w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma transition-shadow box-border relative z-[2] bg-transparent focus:outline-none focus-visible:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input read-only:focus-visible:shadow-input invalid:shadow-input-err invalid:hover:shadow-input-err input-xl-dt-shared invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err input-xl pt-[1.125rem] input-xl-dt-label"
             placeholder="Your username..."
           />
           <label
