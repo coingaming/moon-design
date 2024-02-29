@@ -39,8 +39,8 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
         className={mergeClassnames(
           'block w-full max-w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma',
           'transition-shadow box-border relative z-[2] bg-goku shadow-input hover:shadow-input-hov',
-          'focus:shadow-input-focus focus:outline-none focus-visible::shadow-input-focus',
-          'focus-visible::outline-none before:box-border after:box-border placeholder:delay-75',
+          'focus:shadow-input-focus focus:outline-none focus-visible:shadow-input-focus',
+          'focus-visible:outline-none before:box-border after:box-border placeholder:delay-75',
           'placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity',
           'read-only:outline-0 read-only:border-none read-only:cursor-not-allowed',
           'read-only:hover:shadow-input read-only:focus:shadow-input',

@@ -1,5 +1,11 @@
 # @heathmont/moon-core-tw
 
+## 10.13.4
+
+### Patch Changes
+
+- Deploy 10.13.4
+
 ## 10.13.3
 
 ### Patch Changes

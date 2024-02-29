@@ -36,16 +36,15 @@ const InsetInputRoot = forwardRef<HTMLInputElement, InsetInputProps>(
               'block w-full py-0 px-4 m-0 appearance-none text-moon-16 text-bulma',
               'transition-shadow box-border relative z-[2] bg-transparent shadow-input',
               'hover:shadow-input-hov focus:shadow-input-focus focus:outline-none',
-              'focus-visible:shadow-input-focus focus-visible::outline-none',
-              'focus-visible:shadow-input-err h-14 leading-[3.5rem] rounded-moon-i-sm',
-              'before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100',
+              'focus-visible:shadow-input-focus focus-visible:outline-none h-14 leading-[3.5rem]',
+              'rounded-moon-i-sm placeholder:text-trunks placeholder:opacity-100',
               'placeholder:transition-opacity placeholder:delay-75 read-only:outline-0',
               'read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input',
               'read-only:focus:shadow-input read-only:focus-visible:shadow-input',
               'invalid:shadow-input-err invalid:hover:shadow-input-err input-xl-dt-shared',
               'invalid:focus:shadow-input-err invalid:focus-visible:shadow-input-err',
               error &&
-                'shadow-input-err hover:shadow-input-err focus:shadow-input-err',
+                'shadow-input-err hover:shadow-input-err focus:shadow-input-err focus-visible:shadow-input-err',
               getTypeStyles(rest.type),
               isLabel && 'input-xl pt-[1.125rem] input-xl-dt-label'
             )}
