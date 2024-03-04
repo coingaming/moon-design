@@ -4,7 +4,7 @@ import type ButtonSettingsProps from './ButtonSettingsProps';
 type ButtonProps<C extends React.ElementType> = {
   as?: C;
   fullWidth?: boolean;
-  customClassName?: string;
+  className?: string;
 } & ButtonSettingsProps;
 
 type PolymorphicComponentProp<C extends React.ElementType, Props = {}> = {};

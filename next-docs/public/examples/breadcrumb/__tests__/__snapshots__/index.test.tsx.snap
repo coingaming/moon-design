@@ -47,7 +47,7 @@ Object {
             >
               <button
                 aria-label="Show more breadcrumbs"
-                class="h-6 p-1 gap-1 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma text-moon-16"
+                class="h-6 p-1 gap-1 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover-supported:hover:text-bulma hover-supported:[&>.hover]:hover:bg-jiren text-moon-16"
                 type="button"
               >
                 <svg
@@ -75,8 +75,7 @@ Object {
                   />
                 </svg>
                 <span
-                  aria-hidden="true"
-                  class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                  class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
                 />
               </button>
             </li>
@@ -182,7 +181,7 @@ Object {
           >
             <button
               aria-label="Show more breadcrumbs"
-              class="h-6 p-1 gap-1 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma text-moon-16"
+              class="h-6 p-1 gap-1 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover-supported:hover:text-bulma hover-supported:[&>.hover]:hover:bg-jiren text-moon-16"
               type="button"
             >
               <svg
@@ -210,8 +209,7 @@ Object {
                 />
               </svg>
               <span
-                aria-hidden="true"
-                class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
               />
             </button>
           </li>
@@ -387,7 +385,7 @@ Object {
             >
               <button
                 aria-label="Show more breadcrumbs"
-                class="h-6 p-1 gap-1 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma text-moon-16"
+                class="h-6 p-1 gap-1 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover-supported:hover:text-bulma hover-supported:[&>.hover]:hover:bg-jiren text-moon-16"
                 type="button"
               >
                 <svg
@@ -415,8 +413,7 @@ Object {
                   />
                 </svg>
                 <span
-                  aria-hidden="true"
-                  class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                  class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
                 />
               </button>
             </li>
@@ -535,7 +532,7 @@ Object {
           >
             <button
               aria-label="Show more breadcrumbs"
-              class="h-6 p-1 gap-1 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma text-moon-16"
+              class="h-6 p-1 gap-1 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover-supported:hover:text-bulma hover-supported:[&>.hover]:hover:bg-jiren text-moon-16"
               type="button"
             >
               <svg
@@ -563,8 +560,7 @@ Object {
                 />
               </svg>
               <span
-                aria-hidden="true"
-                class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
               />
             </button>
           </li>
@@ -1275,7 +1271,7 @@ Object {
           >
             <button
               aria-label="Show more breadcrumbs"
-              class="h-6 p-1 gap-1 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma text-moon-16"
+              class="h-6 p-1 gap-1 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover-supported:hover:text-bulma hover-supported:[&>.hover]:hover:bg-jiren text-moon-16"
               type="button"
             >
               <svg
@@ -1303,8 +1299,7 @@ Object {
                 />
               </svg>
               <span
-                aria-hidden="true"
-                class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
               />
             </button>
           </li>
@@ -1406,7 +1401,7 @@ Object {
         >
           <button
             aria-label="Show more breadcrumbs"
-            class="h-6 p-1 gap-1 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma text-moon-16"
+            class="h-6 p-1 gap-1 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover-supported:hover:text-bulma hover-supported:[&>.hover]:hover:bg-jiren text-moon-16"
             type="button"
           >
             <svg
@@ -1434,8 +1429,7 @@ Object {
               />
             </svg>
             <span
-              aria-hidden="true"
-              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+              class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
             />
           </button>
         </li>
@@ -1607,7 +1601,7 @@ Object {
           >
             <button
               aria-label="Show more breadcrumbs"
-              class="h-6 p-1 gap-1 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma text-moon-16"
+              class="h-6 p-1 gap-1 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover-supported:hover:text-bulma hover-supported:[&>.hover]:hover:bg-jiren text-moon-16"
               type="button"
             >
               <svg
@@ -1635,8 +1629,7 @@ Object {
                 />
               </svg>
               <span
-                aria-hidden="true"
-                class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
               />
             </button>
           </li>
@@ -1751,7 +1744,7 @@ Object {
         >
           <button
             aria-label="Show more breadcrumbs"
-            class="h-6 p-1 gap-1 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma text-moon-16"
+            class="h-6 p-1 gap-1 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover-supported:hover:text-bulma hover-supported:[&>.hover]:hover:bg-jiren text-moon-16"
             type="button"
           >
             <svg
@@ -1779,8 +1772,7 @@ Object {
               />
             </svg>
             <span
-              aria-hidden="true"
-              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+              class="hover z-[-1] block absolute inset-0 pointer-events-none transition-colors"
             />
           </button>
         </li>

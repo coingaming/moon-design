@@ -11,6 +11,9 @@ const plugin = require('tailwindcss/plugin');
 module.exports = {
   theme: {
     extend: {
+      screens: {
+        'hover-supported': { raw: '(hover: hover)' },
+      },
       fontFamily: {
         averta:
           'var(--averta), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif',

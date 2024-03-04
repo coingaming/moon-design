@@ -17,7 +17,7 @@ const ButtonComponent = <C extends React.ElementType>({
   disabled,
   animation,
   as,
-  customClassName,
+  className,
   ...rest
 }: ButtonProps<C>) => {
   const Component = as || 'button';
@@ -39,7 +39,7 @@ const ButtonComponent = <C extends React.ElementType>({
           getAnimation('pulse'),
         animation === 'error' && getAnimation('error'),
         fullWidth && !iconOnly && 'w-full',
-        customClassName
+        className
       )}
       {...((!as || as === 'button') && { type: 'button' })}
       {...(disabled && { disabled })}

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import type IconButtonProps from './private/types/IconButtonProps';
 import AnimationContent from './private/utils/AnimationContent';
 import getAriaLabel from './private/utils/getAriaLabel';
@@ -22,7 +22,6 @@ const IconButton = <C extends React.ElementType = 'button'>({
   ['aria-label']: ariaLabel,
   ...rest
 }: Props<C>) => {
-  const [isHover, setIsHover] = useState(false);
   const hasAnimationContent =
     animation === 'progress' || animation === 'success';
   return (
@@ -33,9 +32,7 @@ const IconButton = <C extends React.ElementType = 'button'>({
       disabled={disabled}
       animation={animation}
       as={as}
-      onMouseEnter={() => setIsHover(true)}
-      onMouseLeave={() => setIsHover(false)}
-      customClassName={className}
+      className={className}
       aria-label={getAriaLabel({ ariaLabel, animation })}
       {...rest}
     >
@@ -53,7 +50,7 @@ const IconButton = <C extends React.ElementType = 'button'>({
           {children}
         </>
       )}
-      <Hover isHover={isHover} variant={variant} />
+      <Hover />
     </IconButtonComponent>
   );
 };

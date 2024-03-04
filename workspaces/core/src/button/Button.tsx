@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from 'react';
+import React from 'react';
 import type ButtonProps from './private/types/ButtonProps';
 import AnimationContent from './private/utils/buttonAnimations/AnimationContent';
 import ButtonComponent from './styles/ButtonComponent';
@@ -26,11 +26,8 @@ const Button = <C extends React.ElementType = 'button'>({
   className,
   ...rest
 }: Props<C>) => {
-  const [isHover, setIsHover] = useState(false);
   const hasAnimationContent =
     animation === 'progress' || animation === 'success';
-  const onMouseEnter = useCallback(() => setIsHover(true), [setIsHover]);
-  const onMouseLeave = useCallback(() => setIsHover(false), [setIsHover]);
 
   return (
     <ButtonComponent
@@ -44,9 +41,7 @@ const Button = <C extends React.ElementType = 'button'>({
       disabled={disabled}
       animation={animation}
       as={as}
-      onMouseEnter={onMouseEnter}
-      onMouseLeave={onMouseLeave}
-      customClassName={className}
+      className={className}
       {...rest}
     >
       {hasAnimationContent ? (
@@ -76,7 +71,7 @@ const Button = <C extends React.ElementType = 'button'>({
           {iconOnly}
         </>
       )}
-      <Hover isHover={isHover} variant={variant} />
+      <Hover />
     </ButtonComponent>
   );
 };
