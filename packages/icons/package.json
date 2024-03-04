@@ -18,7 +18,7 @@
     "build:code": "pnpm run build:js:es && pnpm run build:js:commonjs",
     "build:js:commonjs": "tsc --project tsconfig.cjs.json",
     "build:js:es": "tsc --project tsconfig.esm.json",
-    "build": "pnpm run build:icons && pnpm run build:code && pnpm run build:index",
+    "build": "pnpm run build:icons && pnpm run build:index && pnpm run build:code",
     "chokidar": "chokidar \"**/*.tsx\" \"**/*.ts\" -i \"lib/**/*.d.ts\" -c \"pnpm run build:code\" "
   },
   "devDependencies": {
