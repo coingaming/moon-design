@@ -72,8 +72,8 @@ const TagsInputRoot = forwardRef<HTMLSpanElement, TagsInputRootProps>(
           <span
             tabIndex={-1}
             className={mergeClassnames(
-              'w-full flex flex-col justify-between bg-goku transition-shadow',
-              states.value.length && 'gap-y-1',
+              'w-full flex flex-wrap bg-goku transition-shadow',
+              states.value.length && 'gap-1',
               isFocused
                 ? 'shadow-input-focus hover:shadow-input-focus'
                 : 'shadow-input hover:shadow-input-hov',
@@ -88,12 +88,10 @@ const TagsInputRoot = forwardRef<HTMLSpanElement, TagsInputRootProps>(
             )}
             ref={ref}
           >
-            <div className="flex flex-wrap justify-start items-start gap-1">
-              {children}
-            </div>
+            {children}
             <NativeInput
               className={mergeClassnames(
-                'flex-grow border-0 !rounded-none bg-transparent px-0 leading-6 h-6',
+                'w-0 flex-grow border-0 !rounded-none bg-transparent px-0 leading-6 h-6',
                 '!shadow-none hover:shadow-none focus:shadow-none focus-visible:shadow-none',
                 getTextSize(size)
               )}
