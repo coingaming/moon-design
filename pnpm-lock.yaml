@@ -166,20 +166,20 @@ importers:
   docs:
     dependencies:
       '@heathmont/moon-base-tw':
-        specifier: workspace:^10.13.4
-        version: link:../workspaces/base
+        specifier: ^10.13.5
+        version: 10.13.5(react-dom@18.2.0)(react@18.2.0)
       '@heathmont/moon-cmdk-tw':
-        specifier: workspace:^10.13.4
-        version: link:../workspaces/cmdk
+        specifier: ^10.13.5
+        version: 10.13.5(@types/react-dom@18.2.7)(@types/react@18.2.19)(react-dom@18.2.0)(react@18.2.0)
       '@heathmont/moon-core-tw':
-        specifier: workspace:^10.13.4
-        version: link:../workspaces/core
+        specifier: ^10.13.5
+        version: 10.13.5(@types/react-dom@18.2.7)(@types/react@18.2.19)(react-dom@18.2.0)(react@18.2.0)
       '@heathmont/moon-icons-tw':
         specifier: 9.28.6
         version: 9.28.6(react-dom@18.2.0)(react@18.2.0)
       '@heathmont/moon-themes-tw':
-        specifier: workspace:^10.13.4
-        version: link:../workspaces/themes
+        specifier: ^10.13.5
+        version: 10.13.5
       '@types/node':
         specifier: 20.4.9
         version: 20.4.9
@@ -238,8 +238,8 @@ importers:
         specifier: workspace:^10.7.1
         version: link:../packages/charts
       '@heathmont/moon-cmdk-tw':
-        specifier: workspace:^10.13.4
-        version: link:../workspaces/cmdk
+        specifier: ^10.13.5
+        version: 10.13.5(@types/react-dom@18.2.7)(@types/react@18.2.19)(react-dom@18.2.0)(react@18.2.0)
       '@heathmont/moon-components':
         specifier: workspace:^10.7.1
         version: link:../packages/components
@@ -247,8 +247,8 @@ importers:
         specifier: workspace:^10.7.1
         version: link:../packages/core
       '@heathmont/moon-core-tw':
-        specifier: workspace:^10.13.4
-        version: link:../workspaces/core
+        specifier: ^10.13.5
+        version: 10.13.5(@types/react-dom@18.2.7)(@types/react@18.2.19)(react-dom@18.2.0)(react@18.2.0)
       '@heathmont/moon-datepicker':
         specifier: workspace:^10.7.1
         version: link:../packages/datepicker
@@ -283,8 +283,8 @@ importers:
         specifier: workspace:^10.7.1
         version: link:../packages/themes
       '@heathmont/moon-themes-tw':
-        specifier: workspace:^10.13.4
-        version: link:../workspaces/themes
+        specifier: ^10.13.5
+        version: 10.13.5
       '@heathmont/moon-utils':
         specifier: workspace:^10.7.1
         version: link:../packages/utils
@@ -987,86 +987,11 @@ importers:
         specifier: 4.5.6
         version: 4.5.6
 
-  workspaces/base:
-    dependencies:
-      react:
-        specifier: '>= 18.2.0'
-        version: 18.2.0
-      react-dom:
-        specifier: '>= 18.2.0'
-        version: 18.2.0(react@18.2.0)
-      tailwind-merge:
-        specifier: 1.14.0
-        version: 1.14.0
-
-  workspaces/cmdk:
-    dependencies:
-      '@headlessui/react':
-        specifier: 1.7.16
-        version: 1.7.16(react-dom@18.2.0)(react@18.2.0)
-      '@heathmont/moon-core-tw':
-        specifier: workspace:^10.13.4
-        version: link:../core
-      cmdk:
-        specifier: 0.2.0
-        version: 0.2.0(@types/react-dom@18.2.7)(@types/react@18.2.19)(react-dom@18.2.0)(react@18.2.0)
-      react:
-        specifier: '>= 18.2.0'
-        version: 18.2.0
-      react-dom:
-        specifier: '>= 18.2.0'
-        version: 18.2.0(react@18.2.0)
-      tailwind-merge:
-        specifier: 1.14.0
-        version: 1.14.0
-      tailwindcss-radix:
-        specifier: 2.8.0
-        version: 2.8.0
-
-  workspaces/core:
-    dependencies:
-      '@headlessui/react':
-        specifier: 1.7.16
-        version: 1.7.16(react-dom@18.2.0)(react@18.2.0)
-      '@popperjs/core':
-        specifier: 2.11.8
-        version: 2.11.8
-      '@radix-ui/react-accordion':
-        specifier: 1.1.2
-        version: 1.1.2(@types/react-dom@18.2.7)(@types/react@18.2.19)(react-dom@18.2.0)(react@18.2.0)
-      '@radix-ui/react-toast':
-        specifier: 1.1.4
-        version: 1.1.4(@types/react-dom@18.2.7)(@types/react@18.2.19)(react-dom@18.2.0)(react@18.2.0)
-      '@radix-ui/react-tooltip':
-        specifier: 1.0.6
-        version: 1.0.6(@types/react-dom@18.2.7)(@types/react@18.2.19)(react-dom@18.2.0)(react@18.2.0)
-      react:
-        specifier: '>= 18.2.0'
-        version: 18.2.0
-      react-dom:
-        specifier: '>= 18.2.0'
-        version: 18.2.0(react@18.2.0)
-      react-popper:
-        specifier: 2.3.0
-        version: 2.3.0(@popperjs/core@2.11.8)(react-dom@18.2.0)(react@18.2.0)
-      scroll-into-view-if-needed:
-        specifier: 2.2.31
-        version: 2.2.31
-      smooth-scroll-into-view-if-needed:
-        specifier: 1.1.33
-        version: 1.1.33
-      tailwind-merge:
-        specifier: 1.14.0
-        version: 1.14.0
-      tailwindcss-radix:
-        specifier: 2.8.0
-        version: 2.8.0
-
   workspaces/tables:
     dependencies:
       '@heathmont/moon-core-tw':
-        specifier: workspace:^10.13.4
-        version: link:../core
+        specifier: ^10.13.5
+        version: 10.13.5(@types/react-dom@18.2.7)(@types/react@18.2.19)(react-dom@18.2.0)(react@18.2.0)
       react:
         specifier: 18.2.0
         version: 18.2.0
@@ -1092,8 +1017,6 @@ importers:
       '@types/react-window':
         specifier: 1.8.5
         version: 1.8.5
-
-  workspaces/themes: {}
 
 packages:
 
@@ -2612,6 +2535,7 @@ packages:
 
   /@emotion/memoize@0.7.4:
     resolution: {integrity: sha512-Ja/Vfqe3HpuzRsG1oBtWTHk2PGZ7GR+2Vz5iYGelAw8dx32K0y7PjVuxK6z1nMpZOqAFsRUPCkK1YjJ56qJlgw==}
+    requiresBuild: true
     dev: false
     optional: true
 
@@ -2765,6 +2689,58 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
+  /@heathmont/moon-base-tw@10.13.5(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-pgZCYnjm9r4ri5cJSZ1aDXsij4FMNKPvMlwI0FK1Wiz0yFU8G9R0aQAZuE4nnuEZAy+EImbl/wbBEkYEOSaxzw==}
+    peerDependencies:
+      react: '>= 18.2.0'
+      react-dom: '>= 18.2.0'
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+      tailwind-merge: 1.14.0
+    dev: false
+
+  /@heathmont/moon-cmdk-tw@10.13.5(@types/react-dom@18.2.7)(@types/react@18.2.19)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-7zJ0VPvOmgc6Q/zjWucb/Ku4pu8jGZWgifJ3uHYQflpweimKjQJZzFziR9u23d4ZmuNytMuPYUdcQrKqCEbl2Q==}
+    peerDependencies:
+      react: '>= 18.2.0'
+      react-dom: '>= 18.2.0'
+    dependencies:
+      '@headlessui/react': 1.7.16(react-dom@18.2.0)(react@18.2.0)
+      '@heathmont/moon-core-tw': 10.13.5(@types/react-dom@18.2.7)(@types/react@18.2.19)(react-dom@18.2.0)(react@18.2.0)
+      cmdk: 0.2.0(@types/react-dom@18.2.7)(@types/react@18.2.19)(react-dom@18.2.0)(react@18.2.0)
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+      tailwind-merge: 1.14.0
+      tailwindcss-radix: 2.8.0
+    transitivePeerDependencies:
+      - '@types/react'
+      - '@types/react-dom'
+    dev: false
+
+  /@heathmont/moon-core-tw@10.13.5(@types/react-dom@18.2.7)(@types/react@18.2.19)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-Amk/ERSrsWWsSsqWC6Qe9iEd8jtK5/domM7Uk9yqSVEJjPh9jSPPT5iOY/LWlk7rP/VcPoFIteOOfIs1ZpZqMQ==}
+    peerDependencies:
+      react: '>= 18.2.0'
+      react-dom: '>= 18.2.0'
+    dependencies:
+      '@headlessui/react': 1.7.16(react-dom@18.2.0)(react@18.2.0)
+      '@popperjs/core': 2.11.8
+      '@radix-ui/react-accordion': 1.1.2(@types/react-dom@18.2.7)(@types/react@18.2.19)(react-dom@18.2.0)(react@18.2.0)
+      '@radix-ui/react-toast': 1.1.4(@types/react-dom@18.2.7)(@types/react@18.2.19)(react-dom@18.2.0)(react@18.2.0)
+      '@radix-ui/react-tooltip': 1.0.6(@types/react-dom@18.2.7)(@types/react@18.2.19)(react-dom@18.2.0)(react@18.2.0)
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+      react-popper: 2.3.0(@popperjs/core@2.11.8)(react-dom@18.2.0)(react@18.2.0)
+      scroll-into-view-if-needed: 2.2.31
+      smooth-scroll-into-view-if-needed: 1.1.33
+      tailwind-merge: 1.14.0
+      tailwindcss-radix: 2.8.0
+    transitivePeerDependencies:
+      - '@types/react'
+      - '@types/react-dom'
+    dev: false
+
   /@heathmont/moon-icons-tw@9.28.6(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-cDA7WO4Z07Sfm0Mv+/fBFRBGIMJonGrutcaYRLr6zl6OSfiUOxlsMjRSSivYOb/45WxUjpnbGxTA1AZGhXBFRA==}
     peerDependencies:
@@ -2773,6 +2749,10 @@ packages:
     dependencies:
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
+    dev: false
+
+  /@heathmont/moon-themes-tw@10.13.5:
+    resolution: {integrity: sha512-TER8BI1BdKbVd3VvWHUv62I3JPSorUfga9Rb8UhKZgTed0AmW/9hEieSZjPiz1cLCa2/jqFu3NFypoIoA2vHhw==}
     dev: false
 
   /@hookform/resolvers@3.2.0(react-hook-form@7.45.4):
@@ -8258,6 +8238,7 @@ packages:
   /iconv-lite@0.6.3:
     resolution: {integrity: sha512-4fCk79wshMdzMp2rH06qWrJE4iolqLhCUH+OiuIgU++RB0+94NlDL81atO7GX55uUKueo0txHNtvEyI6D7WdMw==}
     engines: {node: '>=0.10.0'}
+    requiresBuild: true
     dependencies:
       safer-buffer: 2.1.2
     dev: true
@@ -11633,6 +11614,7 @@ packages:
 
   /prr@1.0.1:
     resolution: {integrity: sha512-yPw4Sng1gWghHQWj0B3ZggWUm4qVbPwPFcRG8KyxiU7J2OHFSoEHKS+EZ3fv5l1t9CyCiop6l/ZYeWbrgoQejw==}
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -12437,6 +12419,7 @@ packages:
 
   /sax@1.3.0:
     resolution: {integrity: sha512-0s+oAmw9zLl1V1cS9BtZN7JAd0cW5e0QH4W3LWEK6a4LaLEA2OTpGYWDY+6XasBLtz6wkm3u1xRw95mRuJ59WA==}
+    requiresBuild: true
     dev: true
     optional: true
 
@@ -14246,3 +14229,7 @@ packages:
   /zwitch@2.0.4:
     resolution: {integrity: sha512-bXE4cR/kVZhKZX/RjPEflHaKVhUVl85noU3v6b8apfQEc1x4A+zBxjZ4lN8LqGd6WZ3dl98pY4o717VFmoPp+A==}
     dev: false
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
