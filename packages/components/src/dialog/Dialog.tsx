@@ -2,24 +2,25 @@ import React from 'react';
 import { ColorProps } from '@heathmont/moon-themes';
 import { DialogProps as ReachDialogProps } from '@reach/dialog';
 
-import DialogContent from '../dialogContent/DialogContent';
-import DialogOverlay from '../dialogOverlay/DialogOverlay';
-import IconClose from '../private/icons/IconClose';
 
 import { HeadingWrapper } from './private/headingWrapper';
 import { DialogContainer, DialogMain } from './private/layout';
 import { DialogToggle, DialogToggleText } from './private/toggle';
+import DialogContent from '../dialogContent/DialogContent';
 
 import type {
   DialogPosition,
   DialogMaxWidth,
 } from '../dialogContent/DialogContent';
+import DialogOverlay from '../dialogOverlay/DialogOverlay';
+import IconClose from '../private/icons/IconClose';
 
 export type DialogProps = ReachDialogProps &
   DialogPosition &
   DialogMaxWidth & {
     backgroundColor?: ColorProps;
     disableScrollLock?: boolean;
+    disableFocusLock?: boolean;
     heading?: React.ReactElement;
     hideCloseButton?: boolean;
     variant?: 'default' | 'new';
@@ -66,6 +67,7 @@ const Dialog: React.FC<DialogProps> = ({
   backgroundColor,
   children,
   disableScrollLock = false,
+  disableFocusLock = false,
   heading,
   hideCloseButton = false,
   isOpen = false,
@@ -78,6 +80,7 @@ const Dialog: React.FC<DialogProps> = ({
     isOpen={isOpen && isOpen}
     onDismiss={onDismiss && onDismiss}
     dangerouslyBypassScrollLock={disableScrollLock}
+    dangerouslyBypassFocusLock={disableFocusLock}
   >
     <DialogContent maxWidth={maxWidth} position={position}>
       <DialogContainer backgroundColor={backgroundColor} variant={variant}>

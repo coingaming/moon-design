@@ -54,6 +54,13 @@ export default function PageDialog() {
             description: '',
           },
           {
+            name: 'disableFocusLock',
+            type: 'boolean',
+            required: false,
+            default: '-',
+            description: '',
+          },
+          {
             name: 'heading',
             type: 'JSX.Element',
             required: false,
