@@ -4,6 +4,7 @@ exports[`SearchCmdk in RTL renders CommandMenu 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body
+    data-scroll-locked="1"
     style="pointer-events: none;"
   >
     <span
@@ -284,6 +285,7 @@ exports[`SearchCmdk renders CommandMenu 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body
+    data-scroll-locked="1"
     style="pointer-events: none;"
   >
     <span
