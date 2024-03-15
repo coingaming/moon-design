@@ -8,7 +8,7 @@ module.exports = {
     './node_modules/@heathmont/moon-table-tw/**/*.{js,ts,jsx,tsx}',
   ],
   presets: [
-    require('@heathmont/moon-core-tw/src/private/presets/ds-moon-preset'),
+    require('@heathmont/moon-core-tw/lib/private/presets/ds-moon-preset'),
   ],
   theme: {
     extend: {

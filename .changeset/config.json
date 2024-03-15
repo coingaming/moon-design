@@ -3,17 +3,7 @@
   "changelog": "@changesets/cli/changelog",
   "commit": false,
   "linked": [],
-  "fixed": [
-    [
-      "@heathmont/moon-base-tw",
-      "@heathmont/moon-cmdk-tw",
-      "@heathmont/moon-core-tw",
-      "@heathmont/moon-table-tw",
-      "@heathmont/moon-themes-tw",
-      "next-docs",
-      "docs"
-    ]
-  ],
+  "fixed": [],
   "access": "restricted",
   "baseBranch": "master",
   "updateInternalDependencies": "patch",

@@ -280,3 +280,35 @@ If you do set this prop to true, make sure you set up your own FocusLock compone
   );
 };
 ```
+
+## disableFocusLock
+
+By default the dialog locks the focus inside it. Normally this is what you want. This prop is provided so that this feature can be disabled. This, however, is strongly discouraged.
+
+The reason it is provided is not to disable the focus lock entirely. Rather, there are certain situations where you may need more control on how the focus lock works. This should be complemented by setting up a focus lock yourself that would allow more flexibility for your specific use case.
+
+If you do set this prop to true, make sure you set up your own FocusLock component. You can likely use react-focus-lock, which is what Reach UI uses internally by default. It has various settings to allow more customization, but it takes care of a lot of hard work that you probably don't want or need to do.
+
+```jsx react-live
+() => {
+  const [showDialog, setShowDialog] = React.useState(false);
+  const open = () => setShowDialog(true);
+  const close = () => setShowDialog(false);
+  return (
+    <div>
+      <button onClick={open}>Show Dialog</button>
+      <DialogOverlay
+        isOpen={showDialog}
+        onDismiss={close}
+        dangerouslyBypassFocusLock
+      >
+        <MyCustomFocusLock>
+          <DialogContent aria-label="Announcement">
+            This is an important announcement!
+          </DialogContent>
+        </MyCustomFocusLock>
+      </DialogOverlay>
+    </div>
+  );
+};
+```
