@@ -241,7 +241,7 @@ importers:
         specifier: ^10.13.5
         version: 10.13.5(@types/react-dom@18.2.7)(@types/react@18.2.19)(react-dom@18.2.0)(react@18.2.0)
       '@heathmont/moon-components':
-        specifier: workspace:^10.7.1
+        specifier: workspace:^10.7.3
         version: link:../packages/components
       '@heathmont/moon-core':
         specifier: workspace:^10.7.1
