@@ -10,40 +10,40 @@ const boxShadow =
 const color = {
   hit: {
     120: '#572385',
-    100: '#642e94',
+    100: '#1B49ED',
     80: '#7139a2',
   },
   goku: {
-    100: '#24033f',
+    100: '#1F2328',
     80: '#320854',
     40: '#4c1a75',
     10: '#65348d',
   },
   gohan: {
-    100: '#3e0d68',
+    100: '#272B30',
     80: '#4b1679',
     40: '#642e94',
     10: '#7e48ad',
   },
   beerus: {
-    100: '#521b81',
+    100: '#3A3D42',
   },
   bulma: {
     100: '#ffffff',
   },
   trunks: {
-    100: '#a18eb4',
+    100: '#7E7572',
   },
 };
 
 const colorNew = {
-  piccolo: '#ff4f0f',
-  hit: '#642e94',
-  beerus: '#521b81',
-  goku: '#24033f',
-  gohan: '#3e0d68',
+  piccolo: '#F2590D',
+  hit: '#1B49ED',
+  beerus: '#3A3D42',
+  goku: '#1F2328',
+  gohan: '#272B30',
   bulma: '#ffffff',
-  trunks: '#a18eb4',
+  trunks: '#7E7572',
   goten: '#ffffff',
   popo: '#000000',
 };
