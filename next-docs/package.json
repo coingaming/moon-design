@@ -1,6 +1,6 @@
 {
   "name": "next-docs",
-  "version": "10.13.4",
+  "version": "10.13.5",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -31,7 +31,7 @@
     "@heathmont/moon-sidebar": "workspace:^10.7.1",
     "@heathmont/moon-table": "workspace:^10.7.1",
     "@heathmont/moon-table-tw": "workspace:^10.13.4",
-    "@heathmont/moon-themes": "workspace:^10.7.1",
+    "@heathmont/moon-themes": "workspace:^10.7.2",
     "@heathmont/moon-themes-tw": "^10.13.5",
     "@heathmont/moon-utils": "workspace:^10.7.1",
     "@heathmont/moon-icons-tw": "9.28.6",
