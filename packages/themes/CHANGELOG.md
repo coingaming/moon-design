@@ -1,5 +1,11 @@
 # Change Log
 
+## 10.7.2
+
+### Patch Changes
+
+- Update Bitcasino theme files
+
 ## 10.7.1
 
 ### Patch Changes
