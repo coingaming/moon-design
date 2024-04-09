@@ -1,5 +1,11 @@
 # Change Log
 
+## 10.13.5
+
+### Patch Changes
+
+- Update moon-themes package to 10.7.2
+
 ## 10.13.4
 
 ### Patch Changes
