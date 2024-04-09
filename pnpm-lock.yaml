@@ -280,7 +280,7 @@ importers:
         specifier: workspace:^10.13.4
         version: link:../workspaces/tables
       '@heathmont/moon-themes':
-        specifier: workspace:^10.7.1
+        specifier: workspace:^10.7.2
         version: link:../packages/themes
       '@heathmont/moon-themes-tw':
         specifier: ^10.13.5
