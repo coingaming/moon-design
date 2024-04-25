@@ -10,7 +10,7 @@ const boxShadow =
 const color = {
   hit: {
     120: '#572385',
-    100: '#1B49ED',
+    100: '#4B4C4E',
     80: '#7139a2',
   },
   goku: {
@@ -38,7 +38,7 @@ const color = {
 
 const colorNew = {
   piccolo: '#F2590D',
-  hit: '#1B49ED',
+  hit: '#4B4C4E',
   beerus: '#3A3D42',
   goku: '#1F2328',
   gohan: '#272B30',

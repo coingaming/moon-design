@@ -6,7 +6,7 @@ import supportiveColors from '../v2/colors/supportiveColors';
 const color = {
   hit: {
     120: '#d9e3e8',
-    100: '#1B49ED',
+    100: '#E9E9E9',
     80: '#edf1f3',
   },
   goku: {
@@ -34,7 +34,7 @@ const color = {
 
 const colorNew = {
   piccolo: '#F2590D',
-  hit: '#1B49ED',
+  hit: '#E9E9E9',
   beerus: '#E0E0E0',
   goku: '#FFFFFF',
   gohan: '#F9F7F6',

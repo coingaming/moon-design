@@ -1,5 +1,11 @@
 # Change Log
 
+## 10.7.3
+
+### Patch Changes
+
+- fix: update hit color for bitcasino
+
 ## 10.7.2
 
 ### Patch Changes
