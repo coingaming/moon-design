@@ -1,5 +1,16 @@
 # @heathmont/moon-datepicker
 
+## 10.7.2
+
+### Patch Changes
+
+- update moon-themes package version
+- Updated dependencies
+  - @heathmont/moon-components@10.7.4
+  - @heathmont/moon-icons@10.7.2
+  - @heathmont/moon-utils@10.7.2
+  - @heathmont/moon-core@10.7.2
+
 ## 10.7.1
 
 ### Patch Changes

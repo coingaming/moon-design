@@ -1,5 +1,26 @@
 # Change Log
 
+## 10.13.6
+
+### Patch Changes
+
+- update moon-themes package version
+- Updated dependencies
+  - @heathmont/moon-draggabletable@10.7.2
+  - @heathmont/moon-components@10.7.4
+  - @heathmont/moon-datepicker@10.7.2
+  - @heathmont/moon-pagination@10.7.2
+  - @heathmont/moon-accordion@10.7.2
+  - @heathmont/moon-popover@10.7.2
+  - @heathmont/moon-sidebar@10.7.2
+  - @heathmont/moon-assets@10.7.2
+  - @heathmont/moon-charts@10.7.2
+  - @heathmont/moon-select@10.7.2
+  - @heathmont/moon-icons@10.7.2
+  - @heathmont/moon-table@10.7.2
+  - @heathmont/moon-utils@10.7.2
+  - @heathmont/moon-core@10.7.2
+
 ## 10.13.5
 
 ### Patch Changes
