@@ -1,5 +1,15 @@
 # Change Log
 
+## 10.7.4
+
+### Patch Changes
+
+- update moon-themes package version
+- Updated dependencies
+  - @heathmont/moon-assets@10.7.2
+  - @heathmont/moon-icons@10.7.2
+  - @heathmont/moon-utils@10.7.2
+
 ## 10.7.3
 
 ### Patch Changes

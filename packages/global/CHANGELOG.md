@@ -1,5 +1,13 @@
 # Change Log
 
+## 10.7.2
+
+### Patch Changes
+
+- update moon-themes package version
+- Updated dependencies
+  - @heathmont/moon-utils@10.7.2
+
 ## 10.7.1
 
 ### Patch Changes
