@@ -69,7 +69,7 @@ const bitcasinoDark: Theme = {
     background: color.goku[100],
     piccolo: {
       120: '#f54100',
-      100: '#ff4f0f',
+      100: '#F2590D',
       80: '#fa642e',
     },
     goten: {
