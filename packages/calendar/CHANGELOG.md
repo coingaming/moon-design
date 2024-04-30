@@ -1,5 +1,15 @@
 # Change Log
 
+## 10.7.3
+
+### Patch Changes
+
+- Update Bitcasino color
+- Updated dependencies
+  - @heathmont/moon-components@10.7.5
+  - @heathmont/moon-utils@10.7.3
+  - @heathmont/moon-core@10.7.3
+
 ## 10.7.2
 
 ### Patch Changes
