@@ -1,5 +1,26 @@
 # Change Log
 
+## 10.13.8
+
+### Patch Changes
+
+- Update bitcasino colors
+- Updated dependencies
+  - @heathmont/moon-draggabletable@10.7.4
+  - @heathmont/moon-components@10.7.6
+  - @heathmont/moon-datepicker@10.7.4
+  - @heathmont/moon-pagination@10.7.4
+  - @heathmont/moon-accordion@10.7.4
+  - @heathmont/moon-popover@10.7.4
+  - @heathmont/moon-sidebar@10.7.4
+  - @heathmont/moon-assets@10.7.4
+  - @heathmont/moon-charts@10.7.4
+  - @heathmont/moon-select@10.7.4
+  - @heathmont/moon-icons@10.7.4
+  - @heathmont/moon-table@10.7.4
+  - @heathmont/moon-utils@10.7.4
+  - @heathmont/moon-core@10.7.4
+
 ## 10.13.7
 
 ### Patch Changes

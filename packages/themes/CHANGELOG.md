@@ -1,5 +1,11 @@
 # Change Log
 
+## 10.7.5
+
+### Patch Changes
+
+- Update bitcasino colors
+
 ## 10.7.4
 
 ### Patch Changes
