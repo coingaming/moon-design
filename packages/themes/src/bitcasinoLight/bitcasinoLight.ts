@@ -5,21 +5,21 @@ import supportiveColors from '../v2/colors/supportiveColors';
 
 const color = {
   hit: {
-    120: '#d9e3e8',
+    120: '#E9E9E9',
     100: '#E9E9E9',
-    80: '#edf1f3',
+    80: '#E9E9E9',
   },
   goku: {
     100: '#FFFFFF',
-    80: '#eaeef0',
-    40: '#d8e0e3',
-    10: '#c5d2d8',
+    80: '#FFFFFF',
+    40: '#FFFFFF',
+    10: '#FFFFFF',
   },
   gohan: {
     100: '#F9F7F6',
-    80: '#f7f7f7',
-    40: '#e8e8e8',
-    10: '#d9d9d9',
+    80: '#F9F7F6',
+    40: '#F9F7F6',
+    10: '#F9F7F6',
   },
   beerus: {
     100: '#E0E0E0',
