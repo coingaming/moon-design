@@ -2,6 +2,7 @@
   "name": "next-docs",
   "version": "10.13.8",
   "private": true,
+  "license": "GPL-3.0-only",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

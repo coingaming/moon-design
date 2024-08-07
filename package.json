@@ -1,6 +1,7 @@
 {
   "private": true,
   "name": "moon-design",
+  "license": "GPL-3.0-only",
   "scripts": {
     "watch": "pnpm run watch:legacy && pnpm run watch:tailwind",
     "watch:legacy": "pnpm --filter \"./packages/**\" --parallel -r run chokidar",
