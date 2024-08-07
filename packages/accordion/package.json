@@ -10,7 +10,7 @@
   "typings": "lib/index.d.ts",
   "repository": "https://github.com/coingaming/moon-design",
   "author": "Yolo Group",
-  "license": "MIT",
+  "license": "GPL-3.0-only",
   "scripts": {
     "build": "pnpm run build:index && pnpm run build:code",
     "build:index": "barrelsby --config ../../.config/barrelsby/barrelsby.json --directory src",
