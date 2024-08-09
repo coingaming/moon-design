@@ -3,7 +3,7 @@
   "version": "10.13.4",
   "private": true,
   "type": "module",
-  "license": "GPL-3.0-only",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build:types": "npx ts-node --esm app/utils/buildExamplesType.ts",
