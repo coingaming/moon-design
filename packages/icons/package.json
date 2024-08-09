@@ -10,7 +10,7 @@
   "typings": "lib/index.d.ts",
   "repository": "https://github.com/coingaming/moon-design",
   "author": "Yolo Group",
-  "license": "GPL-3.0-only",
+  "license": "MIT",
   "scripts": {
     "build:icons": "svgr --ext tsx --config-file ./.config/svgr.config.icons.js -d src/icons raw/imported",
     "build:index": "barrelsby --config ../../.config/barrelsby/barrelsby.json --directory src --structure flat --exportDefault",

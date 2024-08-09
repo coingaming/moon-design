@@ -10,7 +10,7 @@
   ],
   "repository": "https://github.com/coingaming/moon-design",
   "author": "Yolo Group",
-  "license": "GPL-3.0-only",
+  "license": "MIT",
   "scripts": {
     "build": "pnpm run build:index && pnpm run build:code",
     "build:index": "barrelsby --config ../../.config/barrelsby/barrelsby.json --directory src",
